@@ -73,7 +73,7 @@
     <br>
     <a href="mailto:bbgruppen@outlook.com">BB Gruppen AS</a>
     <h4>GitHub</h4>
-    MIT License - <a href="github.com/alexanderbjorkman/norske-folkeeventyr" target="_blank">GitHub</a>
+    MIT License - <a href="https://github.com/poengAlex/aieventyr" target="_blank">GitHub AI eventyr</a>
   </q-page>
 </template>
 
