@@ -25,13 +25,13 @@
         </q-card-section>
       </q-card>
     </div>
-    <!-- <div class="q-mb-md">
-      <q-card class="q-pa-md"> -->
-    <div class="full-width row justify-between q-mb-md">
-      <q-btn v-if="prevSection" :to="`/story/${prevSection.id}`" label="Forrige eventyr" />
-      <q-btn v-if="nextSection" :to="`/story/${nextSection.id}`" label="Neste eventyr" />
-      <!-- </div>
-      </q-card> -->
+    <div class="q-mb-md">
+      <q-card class="_q-pa-md" flat>
+        <div class="full-width row justify-between q-mb-md">
+          <q-btn v-if="prevSection" :to="`/story/${prevSection.id}`" label="Forrige eventyr" />
+          <q-btn v-if="nextSection" :to="`/story/${nextSection.id}`" label="Neste eventyr" />
+        </div>
+      </q-card>
     </div>
     <div class="q-mb-md">
       <q-card class="q-mb-md">
