@@ -1,0 +1,32 @@
+{
+  "characters": [
+    {
+      "name": "Smeden",
+      "description": "A burly, middle-aged man with a strong and robust build, indicative of a life spent in physical labor. He has weathered features, reflecting years of hard work and experience in the forge. His hair is thick and dark, often appearing slightly unkempt from intense work. His expression is often serious or frustrated, especially when met with a difficult task, such as attempting to break a mysterious, resistant nut with his large hammer. His attire is practical, typically consisting of a heavy, soot-covered apron and sturdy work clothes suitable for blacksmithing."
+    },
+    {
+      "name": "Kongen",
+      "description": "An older, regal man with a commanding presence and a hint of weariness in his posture from the burden of rulership. He possesses a dignified air, with silvering hair and a well-groomed beard that add to his authoritative appearance. His attire is elaborate and fitting his royal status, featuring rich fabrics and intricate details. Though he can be strict and severe, as seen when dealing with the sons, he also exhibits a side of warmth and generosity, especially towards Askeladden. His expressions are often stern, but capable of softening into a pleased or joyous manner, particularly when the problems are resolved."
+    },
+    {
+      "name": "Første sønn",
+      "description": "A young man with a robust and healthy build, typical of a hardworking countryside youth. He has a straightforward demeanor with a touch of innocent confidence as he embarks on his journey. His clothing is simple and utilitarian, reflective of his humble origins. Initially eager and optimistic, his expression changes to exhaustion and disappointment after his failed attempt to tend the foals and subsequent punishment."
+    },
+    {
+      "name": "Andre sønn",
+      "description": "Sharing the sturdy build of his older brother, the second son exhibits a slightly more cautious nature. His appearance is marked by simple attire, suitable for a life in the forest, and youthful enthusiasm that gradually wanes to mirror his brother's fate. He exhibits determined yet naive expressions, thinking he can succeed where his brother failed, only to end in the same exhausted and regretful state."
+    },
+    {
+      "name": "Askeladden",
+      "description": "The youngest of the brothers, Askeladden is a slender and unassuming young man with a somewhat wiry build, indicative of his resourcefulness rather than brute strength. His hair is light and tousled, often carrying traces of ash due to his habit of lying in the hearth. Unlike his brothers, he has an air of quiet determination and cleverness, with expressions that shift from calm and contemplative to focused and adventurous. Despite his perceived idleness, his simple attire, often tinged with soot, belies a sharp mind capable of seizing opportunities."
+    },
+    {
+      "name": "Gammel kjerring",
+      "description": "An ancient woman with a wizened and diminutive appearance, suggestive of years spent in solitude and mysticism. Her wrinkled face and small, bright eyes hint at hidden wisdom. Her attire is made from earthy materials, blending seamlessly with the rocky setting where she spins with her hand spindle. She carries an air of mysterious hospitality, offering rest and peculiar aid to the travelers. Her expressions range from inviting to enigmatic."
+    },
+    {
+      "name": "Yngste foleren",
+      "description": "The smallest of the seven magical foals, possessing a distinct mystical aura. His coat is sleek and a faintly shimmering alabaster, providing a striking contrast to the enchanted landscape. Though a foal, his expressions and demeanor carry a sense of maturity and wisdom, revealing his princely nature. His gait is light and graceful as he carries Askeladden on his back, navigating effortlessly through magical settings. He shares a deeper connection with Askeladden, aiding him with guidance and support."
+    }
+  ]
+}

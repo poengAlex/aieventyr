@@ -1,0 +1,32 @@
+[
+  {
+    "id": "main",
+    "description": "A woman encountering a bear in a forest, illustrating the start of her journey to find a shepherd.",
+    "insertAfter": ""
+  },
+  {
+    "id": "bd6571eabc34",
+    "description": "A wolf meeting the woman on her journey, showing the wolf's attempt to be hired as a shepherd.",
+    "insertAfter": "«Uh—uh!» sagde Ulven."
+  },
+  {
+    "id": "c5e4d7a239bf",
+    "description": "A clever-looking fox talking to the woman, suggesting its ability to lure, leading to its hire.",
+    "insertAfter": "«Dil—dal—holom!» sagde Ræven, saa grant og fint."
+  },
+  {
+    "id": "fa2193e834cc",
+    "description": "An illustration of the fox, now hired as the shepherd, among different animals like goats, sheep, and cows.",
+    "insertAfter": "og saa satte hun Ræven til at gjæte Kreaturene sine."
+  },
+  {
+    "id": "7f0056d951e7",
+    "description": "A chaotic scene in the forest with no animals left as the fox claims he lost them. The scene should suggest trickery.",
+    "insertAfter": "«Skallen er i Aaen og Kroppen i Holtet,» sagde Ræven."
+  },
+  {
+    "id": "f4b2e8d7a5ec",
+    "description": "The angry woman discovering the fox eating her cream, capturing the moment she throws it at his tail causing it to turn white.",
+    "insertAfter": "deraf kommer det, at Ræven har hvid Haletip."
+  }
+]

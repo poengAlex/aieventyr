@@ -1,0 +1,52 @@
+{
+  "characters": [
+    {
+      "name": "Kjærringdatteren",
+      "description": "A young woman with disheveled brown hair and a worried expression. She wears a simple peasant dress, earthy and worn, appropriate for rural life. She looks distressed as snakes and toads spill from her mouth and the chest, symbolizing her misfortune after serving the ‘Troldkjærring’."
+    },
+    {
+      "name": "Hanen",
+      "description": "A proud rooster with vibrant red feathers and a sharp, intelligent eye. He is depicted in a forest setting, urgently moving from one character to another to gather items. He represents determination and loyalty, trying to save the hen."
+    },
+    {
+      "name": "Hønen",
+      "description": "A hen with soft white and brown feathers, appearing distressed as she flaps her wings in the forest. She has a nut shell stuck in her throat, which signifies the obstacle Hanen is trying to overcome."
+    },
+    {
+      "name": "Kilden",
+      "description": "A serene, small brook personified with gentle eyes, part of the chain of characters whom Hanen approaches for help. The brook's environment includes soft moss and wildflowers."
+    },
+    {
+      "name": "Linden",
+      "description": "A stately lime tree with lush green leaves and an old wise face grooved into its trunk. It stands in its natural forest habitat, representing a unique step in Hanen's quest."
+    },
+    {
+      "name": "Jomfru Maria",
+      "description": "A saintly figure depicted in modest, historical garb with a gentle countenance. She interacts with Hanen, requiring shoes to provide red golden bands."
+    },
+    {
+      "name": "Skomageren",
+      "description": "An older man with a craftsman's apron and tools of the trade, seated in his workshop. He is part of the sequential trade with Hanen, demanding bristles in exchange for providing shoes."
+    },
+    {
+      "name": "Træskemanden",
+      "description": "A robust man in a woodworker’s attire, surrounded by sawdust and wooden sculptures. He becomes part of Hanen's journey by requesting Lefse."
+    },
+    {
+      "name": "Bagstekonen",
+      "description": "A middle-aged woman, flour-dusted and cheerful, working in a rustic kitchen. She agrees to trade Lefse for firewood with Hanen."
+    },
+    {
+      "name": "Vedhuggeren",
+      "description": "A muscular man wielding an axe in a clearing surrounded by chopped logs. He’s stern yet cooperative, wanting an axe in return for wood."
+    },
+    {
+      "name": "Smeden",
+      "description": "A blacksmith with sooty skin and bulging muscles, hammering away in a fiery forge. He plays a critical role, bartering axe for coal."
+    },
+    {
+      "name": "Kulbrænderen",
+      "description": "A middle-aged man with smudges of charcoal on his hands and face, tending to a smoldering kiln. He ultimately helps Hanen by gifting coal without trade demands."
+    }
+  ]
+}

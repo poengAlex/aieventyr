@@ -1,0 +1,32 @@
+{
+  "characters": [
+    {
+      "name": "Husmand",
+      "description": "A modest man with a weathered, humble appearance, often depicted wearing simple, worn clothing suitable for rural life. He appears weather-beaten and aged, characterized by a rugged, but kind facial expression. Physically, he is of average height and a lean build, suitable for a poor farmer. His setting is often pastoral or transitional, as seen near crossroads, symbolizing decisions and directions."
+    },
+    {
+      "name": "Gutten",
+      "description": "A clever and resourceful young boy, physically nimble and of slim build, suggesting agility. He has youthful features with a mischievous glint in his eyes. His hair is short and tousled, reflecting his adventurous spirit. He is seen wearing a variety of outfits—starting with simple peasant attire and later a grand, ornate general's uniform, indicating his elevation in status and clever schemes. He's often depicted in various settings, including forests, a modest home, and other scenes of intrigue, where he uses disguise and wit."
+    },
+    {
+      "name": "Kjærringen",
+      "description": "An old, weary woman who exudes resilience and an undercurrent of kindness, despite her hard life. Characterized by deep wrinkles and a bent frame, she has sharp, observant eyes that miss very little. Her gray hair is often tied up or hidden beneath a scarf, symbolizing her practicality. She is frequently seen in rustic, homemaking environments, such as a warm, inviting space that contrasts with the wild weather outside."
+    },
+    {
+      "name": "Røverne",
+      "description": "A group of rugged, intimidating bandits, each displaying rough, unkempt appearances typical of their outlaw lifestyle. They have muscular builds and wear mismatched, rugged clothing with patches and tears. Their expressions are typically menacing, even during lighthearted moments, indicating a hardened life of thievery. They are often found in settings that are dimly lit and chaotic, contributing to their overall threatening demeanor."
+    },
+    {
+      "name": "Bonden",
+      "description": "A simple, somewhat gullible farmer, depicted as slightly overweight with a round, kindly face that is soft, indicating his gentle nature. He typically wears peasant attire consisting of linen shirts, suspenders, and a cap or hat, suitable for someone working the land. His demeanor portrays a man who is often perplexed or worried, especially when tricked by clever antics."
+    },
+    {
+      "name": "Amtmanden",
+      "description": "A well-dressed and affluent man, characterized by a dignified posture and clothing that signifies his higher social status. He is middle-aged, with a slightly stout build, and dons an elegant suit or uniform. His facial features are distinguished, with a neatly trimmed beard or mustache, portraying authority and wisdom. He is often set in a luxurious environment, indicative of wealth and prestige."
+    },
+    {
+      "name": "Præsten",
+      "description": "A clergyman with a serene and somewhat complacent demeanor, reflecting his spiritual role. He is depicted as middle-aged, with a traditional black clerical outfit and white collar. His face is gentle, often clean-shaven, and he carries a placid, thoughtful expression. Often seen in tranquil settings, like church gardens, where spirituality and contemplation prevail."
+    }
+  ]
+}

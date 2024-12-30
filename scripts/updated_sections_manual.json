@@ -1,0 +1,459 @@
+[
+  {
+    "id": "bioasb",
+    "index": 0,
+    "start": 9,
+    "stop": 10,
+    "title": "Biografiske oplysninger om P. Chr. Asbjørnsen"
+  },
+  {
+    "id": "biomoe",
+    "index": 0,
+    "start": 11,
+    "stop": 12,
+    "title": "Biografiske oplysninger om Jørgen Moe"
+  },
+  {
+    "id": "forordmm",
+    "index": 0,
+    "start": 13,
+    "stop": 18,
+    "title": "Forord af Moltke Moe"
+  },
+  {
+    "id": "askesv",
+    "index": 1,
+    "start": 23,
+    "stop": 29,
+    "title": "Om Askeladden som stjal Troldets Sølvænder, Sengetæppe, og Guldharpe"
+  },
+  {
+    "id": "gjertrud",
+    "index": 2,
+    "start": 30,
+    "stop": 31,
+    "title": "Gjertrudsfuglen"
+  },
+  {
+    "id": "fugldam",
+    "index": 3,
+    "start": 31,
+    "stop": 44,
+    "title": "Fugl Dam"
+  },
+  {
+    "id": "spurning",
+    "index": 4,
+    "start": 44,
+    "stop": 45,
+    "title": "Spurningen"
+  },
+  {
+    "id": "rigeper",
+    "index": 5,
+    "start": 46,
+    "stop": 60,
+    "title": "Rige Per Kræmmer"
+  },
+  {
+    "id": "asketrol",
+    "index": 6,
+    "start": 61,
+    "stop": 63,
+    "title": "Askeladden som kapaad med Troldet"
+  },
+  {
+    "id": "guttnord",
+    "index": 7,
+    "start": 64,
+    "stop": 67,
+    "title": "Om Gutten som gik til Nordenvinden og krævede Melet igjen"
+  },
+  {
+    "id": "jomfrum",
+    "index": 8,
+    "start": 68,
+    "stop": 73,
+    "title": "Jomfru Maria som Gudmor"
+  },
+  {
+    "id": "tentland",
+    "index": 9,
+    "start": 73,
+    "stop": 80,
+    "title": "De tre Prinsesser i Hvidtenland"
+  },
+  {
+    "id": "noedig",
+    "index": 10,
+    "start": 80,
+    "stop": 87,
+    "title": "Somme Kjærringer er slige"
+  },
+  {
+    "id": "bestedt",
+    "index": 11,
+    "start": 87,
+    "stop": 87,
+    "title": "Hver synes bedst om sine Børn"
+  },
+  {
+    "id": "frihist",
+    "index": 12,
+    "start": 88,
+    "stop": 88,
+    "title": "En Frierhistorie"
+  },
+  {
+    "id": "tremost",
+    "index": 13,
+    "start": 88,
+    "stop": 93,
+    "title": "De tre Mostre"
+  },
+  {
+    "id": "enkeson",
+    "index": 14,
+    "start": 94,
+    "stop": 105,
+    "title": "Enkesønnen"
+  },
+  {
+    "id": "mandatt",
+    "index": 15,
+    "start": 105,
+    "stop": 116,
+    "title": "Manddatteren og Kjærringdatteren"
+  },
+  {
+    "id": "nodedsk",
+    "index": 16,
+    "start": 116,
+    "stop": 120,
+    "title": "Hanen og Hønen i Nøddeskogen"
+  },
+  {
+    "id": "whyjump",
+    "index": 17,
+    "subindex": 0,
+    "start": 120,
+    "stop": 121,
+    "title": "Bjørnen og Ræven: Hvorfor Bjørnen er stubrumpet"
+  },
+  {
+    "id": "bearxmass",
+    "index": 17,
+    "subindex": 1,
+    "start": 121,
+    "stop": 122,
+    "title": "Bjørnen og Ræven: Ræven snyder Bjørnen for Julekosten"
+  },
+  {
+    "id": "gudbrand",
+    "index": 18,
+    "start": 123,
+    "stop": 128,
+    "title": "Gudbrand i Lien"
+  },
+  {
+    "id": "katrast",
+    "index": 19,
+    "start": 128,
+    "stop": 143,
+    "title": "Kari Træstak"
+  },
+  {
+    "id": "rfoxgjt",
+    "index": 20,
+    "start": 144,
+    "stop": 145,
+    "title": "Ræven som Gjæter"
+  },
+  {
+    "id": "smehel",
+    "index": 21,
+    "start": 145,
+    "stop": 153,
+    "title": "Smeden som de ikke torde slippe ind i Helvede"
+  },
+  {
+    "id": "hanenoghoen",
+    "index": 22,
+    "start": 153,
+    "stop": 153,
+    "title": "Hanen og Hønen"
+  },
+  {
+    "id": "hanengjog",
+    "index": 23,
+    "start": 154,
+    "stop": 154,
+    "title": "Hanen, Gjøgen, og Aarhanen"
+  },
+  {
+    "id": "lillekort",
+    "index": 24,
+    "start": 154,
+    "stop": 173,
+    "title": "Lillekort"
+  },
+  {
+    "id": "dukgras",
+    "index": 25,
+    "start": 173,
+    "stop": 175,
+    "title": "Dukken i Græsset"
+  },
+  {
+    "id": "paalandr",
+    "index": 26,
+    "start": 176,
+    "stop": 178,
+    "title": "Paal Andrestuen"
+  },
+  {
+    "id": "soriamor",
+    "index": 27,
+    "start": 179,
+    "stop": 192,
+    "title": "Soria Moria Slot"
+  },
+  {
+    "id": "herreper",
+    "index": 28,
+    "start": 192,
+    "stop": 199,
+    "title": "Herreper"
+  },
+  {
+    "id": "vesleaas",
+    "index": 29,
+    "start": 199,
+    "stop": 204,
+    "title": "Vesle Aase Gaasepige"
+  },
+  {
+    "id": "gutfand",
+    "index": 30,
+    "start": 204,
+    "stop": 205,
+    "title": "Gutten og Fanden"
+  },
+  {
+    "id": "syvfoler",
+    "index": 31,
+    "start": 205,
+    "stop": 214,
+    "title": "De syv Folerne"
+  },
+  {
+    "id": "giske",
+    "index": 32,
+    "start": 214,
+    "stop": 221,
+    "title": "Giske"
+  },
+  {
+    "id": "tolvander",
+    "index": 33,
+    "start": 221,
+    "stop": 230,
+    "title": "De tolv Vildænder"
+  },
+  {
+    "id": "mesttyv",
+    "index": 35,
+    "start": 230,
+    "stop": 248,
+    "title": "Mestertyven"
+  },
+  {
+    "id": "tresostre",
+    "index": 36,
+    "start": -1,
+    "stop": -1,
+    "title": "De tre Søstre som blev indtagne i Berget"
+  },
+  {
+    "id": "hjertel",
+    "index": 37,
+    "start": -1,
+    "stop": -1,
+    "title": "Om Risen som ikke havde noget Hjerte paa sig"
+  },
+  {
+    "id": "grimsbor",
+    "index": 38,
+    "start": -1,
+    "stop": -1,
+    "title": "Grimsborken"
+  },
+  {
+    "id": "kvindglad",
+    "index": 39,
+    "start": -1,
+    "stop": -1,
+    "title": "Det har ingen Nød med den som alle Kvindfolk er glad i"
+  },
+  {
+    "id": "askprins",
+    "index": 40,
+    "start": -1,
+    "stop": -1,
+    "title": "Askeladden som fik Prinsessen til at løgste sig"
+  },
+  {
+    "id": "bukkbrus",
+    "index": 41,
+    "start": -1,
+    "stop": -1,
+    "title": "De tre Bukkene Bruse"
+  },
+  {
+    "id": "solmaan",
+    "index": 42,
+    "start": -1,
+    "stop": -1,
+    "title": "Østenfor Sol og vestenfor Maane"
+  },
+  {
+    "id": "dovref",
+    "index": 43,
+    "start": -1,
+    "stop": -1,
+    "title": "Hønen som skulde til Dovrefjeld"
+  },
+  {
+    "id": "stellehjem",
+    "index": 44,
+    "start": -1,
+    "stop": -1,
+    "title": "Manden som skulde stelle hjemme"
+  },
+  {
+    "id": "tommel",
+    "index": 45,
+    "start": -1,
+    "stop": -1,
+    "title": "Tommeliden"
+  },
+  {
+    "id": "haaken",
+    "index": 46,
+    "start": -1,
+    "stop": -1,
+    "title": "Haaken Borkenskjæg"
+  },
+  {
+    "id": "mestermo",
+    "index": 47,
+    "start": -1,
+    "stop": -1,
+    "title": "Mestermø"
+  },
+  {
+    "id": "velgjor",
+    "index": 48,
+    "start": -1,
+    "stop": -1,
+    "title": "Vel gjort og ilde lønnet"
+  },
+  {
+    "id": "troutro",
+    "index": 49,
+    "start": -1,
+    "stop": -1,
+    "title": "Tro og Utro"
+  },
+  {
+    "id": "perpaal",
+    "index": 50,
+    "start": -1,
+    "stop": -1,
+    "title": "Per og Paal og Espen Askeladd"
+  },
+  {
+    "id": "kvaernehav",
+    "index": 51,
+    "start": -1,
+    "stop": -1,
+    "title": "Kværnen som staar og maler paa Havsens Bund"
+  },
+  {
+    "id": "glasberg",
+    "index": 52,
+    "start": -1,
+    "stop": -1,
+    "title": "Jomfruen paa Glasberget"
+  },
+  {
+    "id": "smoerbuk",
+    "index": 53,
+    "start": -1,
+    "stop": -1,
+    "title": "Smørbuk"
+  },
+  {
+    "id": "storves",
+    "index": 54,
+    "start": -1,
+    "stop": -1,
+    "title": "Store-Per og Vesle-Per"
+  },
+  {
+    "id": "lurvhatt",
+    "index": 55,
+    "start": -1,
+    "stop": -1,
+    "title": "Lurvehætte"
+  },
+  {
+    "id": "buskebrud",
+    "index": 56,
+    "start": -1,
+    "stop": -1,
+    "title": "Buskebruden"
+  },
+  {
+    "id": "dovrekat",
+    "index": 57,
+    "start": -1,
+    "stop": -1,
+    "title": "Kjætten paa Dovre"
+  },
+  {
+    "id": "bondeveir",
+    "index": 58,
+    "start": -1,
+    "stop": -1,
+    "title": "Bonde Veirskjæg"
+  },
+  {
+    "id": "blaabaand",
+    "index": 59,
+    "start": -1,
+    "stop": -1,
+    "title": "Det blaa Baandet"
+  },
+  {
+    "id": "firskil",
+    "index": 60,
+    "start": -1,
+    "stop": -1,
+    "title": "Den retfærdige Firskilling"
+  },
+  {
+    "id": "hanfar",
+    "index": 61,
+    "start": -1,
+    "stop": -1,
+    "title": "Han Far sjøl i Stua"
+  },
+  {
+    "id": "subskript",
+    "index": 62,
+    "start": -1,
+    "stop": -1,
+    "title": "Efterskrift"
+  }
+]
