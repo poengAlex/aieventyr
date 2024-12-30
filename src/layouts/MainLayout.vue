@@ -5,7 +5,7 @@
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
         <q-toolbar-title @click="$router.push('/')" style="cursor: pointer;">
-          Norske Folketeventyr
+          Norske Folkeeventyr
         </q-toolbar-title>
 
         <div>
