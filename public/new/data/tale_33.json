@@ -1,0 +1,33 @@
+{
+  "characters": [
+    {
+      "name": "Dronningen",
+      "prompt": "A regal and elegant queen, dressed in winter attire, standing in a snow-covered landscape with droplets of red snow falling, representing her nosebleed."
+    },
+    {
+      "name": "Troldkjærring",
+      "prompt": "An ancient, mystical witch with a mysterious aura, wearing dark, flowing robes and carrying a staff, appearing suddenly in a snowy forest."
+    },
+    {
+      "name": "Snehvid og Rosenrød",
+      "prompt": "A beautiful princess with skin as white as snow and cheeks as red as blood, wearing a silver dress, exuding innocence and determination."
+    },
+    {
+      "name": "Prinsene",
+      "prompt": "Twelve handsome princes who transform into wild ducks, each wearing fine royal garments when human, emphasizing familial and royal connections."
+    },
+    {
+      "name": "Den unge Kongen",
+      "prompt": "A young, noble king with a kind face, wearing royal hunting attire, in a forest setting, symbolizing authority and compassion."
+    },
+    {
+      "name": "Den gamle Dronningen",
+      "prompt": "An old, spiteful queen with an avaricious glare, wearing rich, dark robes, embodying jealousy and malice."
+    }
+  ],
+  "cleanedMainImagePrompt": "An atmospheric illustration depicting a serene yet eerie snowy forest scene, with the haunting presence of the Troldkjærring offering a mystical deal, twelve majestic wild ducks soaring above, and Snehvid og Rosenrød embarking on a brave journey through the woods.",
+  "modernMainImagePrompt": "A contemporary cityscape where Snehvid og Rosenrød, a modern young woman, is seen in fashionable winter clothes searching for her lost brothers, who are symbolized by twelve drones hovering above, lending a modern twist to the ancient tale.",
+  "childMainImagePrompt": "A vibrant and friendly cartoon scene featuring Snehvid og Rosenrød, a cheerful princess, with colorful talking animal friends, including quirky ducks, setting out on a fun adventure across a whimsical landscape, ensuring a delightful and safe atmosphere for young children.",
+  "simplifiedMainImagePrompt": "A modern and simple illustration of Snehvid og Rosenrød, dressed in a snow-white dress, wandering in a familiar Norwegian forest, searching for her brothers, with a magical atmosphere and the wonders of nature as the backdrop.",
+  "englishMainImagePrompt": "A classic fairy tale scene where Snehvid og Rosenrød, a fairytale princess with striking red and white features, stands in an enchanted forest, surrounded by twinkling snowflakes and mystical elements, capturing the timeless and enchanting essence of the story."
+}

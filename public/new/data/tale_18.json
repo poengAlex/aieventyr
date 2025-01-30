@@ -1,0 +1,17 @@
+{
+  "characters": [
+    {
+      "name": "Gudbrand",
+      "prompt": "A middle-aged Norwegian farmer with a kind and optimistic face, wearing traditional Norwegian clothes for a farmer. He has a sturdy build and carries a small sack. His demeanor is calm and confident, reflective of someone with a positive outlook on life despite challenges."
+    },
+    {
+      "name": "Gudbrand's Wife",
+      "prompt": "A middle-aged Norwegian woman with a warm and supportive expression. She is dressed in traditional Norwegian clothing, appropriate for a farmer's wife. Her posture is nurturing and she exudes an air of contentment and acceptance. She is occupied with domestic chores in a quaint living space."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate Gudbrand walking along a rustic countryside road, trading his cow for a horse, then a pig, goat, sheep, goose, and eventually a rooster. The scene shows him in various stages of the story, interacting with different traders. The countryside is typical of rural Norway, with rolling hills and a serene, pastoral setting, as if from a classic Norwegian folktale book.",
+  "modernMainImagePrompt": "Depict Gudbrand as a modern-day man traveling to a city market to trade goods, eventually swapping a bicycle for a scooter, an electric BBQ grill, a coffee machine, a tablet, and finally a smartwatch. The city backdrop illustrates vibrant modern urban life, contrasting with his traditional values and actions. Encountering various tradespeople of today, Gudbrand’s expressions and actions remain cheerful and optimistic.",
+  "childMainImagePrompt": "Create a colorful, friendly illustration of Gudbrand trading animals: a cow for a horse, then a pig, a goat, a sheep, a goose, and finally a rooster, aimed at young children. Each animal appears in a cute and friendly animated style, with Gudbrand happily interacting with each trader. The idyllic countryside setting is bright, inviting, and magical, appealing to a 5-year-old audience.",
+  "simplifiedMainImagePrompt": "Illustrer Gudbrand på en koselig norsk bygdevei hvor han bytter kua si for en hest, så en gris, en geit, en sau, en gås, til slutt en hane. Det er et vakkert norsk landskap, fredelig og tradisjonelt, der Gudbrand går nådefullt og lettsmilende gjennom hvert bytte.",
+  "englishMainImagePrompt": "A visual narrative of Gudbrand’s journey from his farm in the hills, trading his cow for various animals until he ends up with a rooster, illustrated in a style that retains the original folktale essence. Each exchange is shown with a warm, humorous, and old-world charm, capturing the spirit of Norwegian folklore in an English translated setting."
+}

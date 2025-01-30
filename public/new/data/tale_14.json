@@ -1,0 +1,29 @@
+{
+  "characters": [
+    {
+      "name": "The Widow's Son",
+      "prompt": "A young, humble Norwegian boy with simple clothes, a curious and brave expression; he holds a sense of innocence and determination in his eyes."
+    },
+    {
+      "name": "The Stranger/Troll",
+      "prompt": "A mysterious, imposing figure with a shadowy presence; wears dark robes, and has an aura of hidden power and menace. His eyes hint at secrets he keeps."
+    },
+    {
+      "name": "The Horse",
+      "prompt": "A majestic and intelligent horse with a gleaming, strong build; has a mystical appearance with a wise and loyal expression, intertwined with hints of magical origins."
+    },
+    {
+      "name": "The Princess",
+      "prompt": "A young and beautiful Norwegian princess with an aura of elegance and kindness; she has fair hair and a gentle smile, indicative of her noble birth."
+    },
+    {
+      "name": "The King",
+      "prompt": "A regal, authoritative figure with a commanding presence; he wears a kingly regalia, and has an expression of wisdom and sternness with a hint of worry for his kingdom."
+    }
+  ],
+  "cleanedMainImagePrompt": "An illustration featuring a young Norwegian boy standing at a mystical woodland edge, with a mysterious dark-robed figure nearby amid glowing scenery. The boy seems curious and hesitant as he approaches, capturing the fairytale's magical atmosphere. A mystical horse is seen in the background, hinting at future adventures.",
+  "modernMainImagePrompt": "The same story scene set in a modern-day urban setting; a young boy in casual clothes approaches a man in dark business attire in an alleyway filled with graffiti and neon lights, blending folklore with the contemporary urban environment. A sleek, modern horse or motorcycle is subtly shown nearby, ready for action.",
+  "childMainImagePrompt": "A bright and colorful cartoon-like illustration for children featuring the young boy with a big smile, standing next to a whimsical horse with kind eyes. The scene is filled with friendly animals and magical elements like rainbows and butterflies in a fantastical garden setting.",
+  "simplifiedMainImagePrompt": "En illustrasjon på norsk med en ung gutt i et norsk skoglandskap, lurer på en mystisk skikkelse i mørke klær. En glitrende, magisk hest er nær, mens de norske treskogene omgir dem med en følelse av undring og eventyrlyst.",
+  "englishMainImagePrompt": "An enchanting illustration depicting the young, humble boy facing the mysterious stranger in a dense, magical Norwegian forest bathed in ethereal light. A wise and majestic horse stands by the boy, adding to the scene's sense of wonder and narrative intrigue."
+}

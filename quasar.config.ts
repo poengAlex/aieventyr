@@ -7,6 +7,7 @@ import dotenv from 'dotenv'
 dotenv.config()
 console.log('Posthog token: ', process.env.POSTHOG_PROJECT_TOKEN)
 
+//@ts-ignore
 export default defineConfig((/* ctx */) => {
   return {
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
@@ -85,7 +86,7 @@ export default defineConfig((/* ctx */) => {
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#devserver
     devServer: {
-      // https: true,
+      https: true,
       open: false, // opens browser window automatically
     },
 
@@ -106,7 +107,7 @@ export default defineConfig((/* ctx */) => {
       // directives: [],
 
       // Quasar plugins
-      plugins: ['Dark'],
+      plugins: ['Dark', 'Notify'],
     },
 
     // animations: 'all', // --- includes all animations

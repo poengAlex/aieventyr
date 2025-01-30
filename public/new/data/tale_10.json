@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "name": "The Wife",
+      "prompt": "A stubborn and unconventional woman, with a determined expression, wearing traditional Norwegian rural clothing. She is holding a scabby hen with a hint of skepticism."
+    },
+    {
+      "name": "The Husband",
+      "prompt": "A frustrated Norwegian farmer in traditional attire, carrying himself with sternness and a slightly resigned demeanor, as if accustomed to his wife's antics."
+    },
+    {
+      "name": "The Butcher",
+      "prompt": "A clever and somewhat mischievous-looking butcher with an apron, holding a mark coin casually, ready to make a deal."
+    },
+    {
+      "name": "The Gullible Neighbor",
+      "prompt": "A gullible and easily fooled man, wearing rustic clothing, looking puzzled and somewhat naive, perhaps holding a rough handkerchief in one hand."
+    }
+  ],
+  "cleanedMainImagePrompt": "An illustration of a Norwegian wife with feathers stuck to her, standing confused in a rustic farmyard. Nearby is the angry husband with an old rifle. The scene captures the quirky and humorous essence of an old folktale amidst a Scandinavian rural landscape.",
+  "modernMainImagePrompt": "A whimsical scene in a bustling city with a modern woman holding a strange, old hen, confused while standing near a witty butcher in a trendy butcher shop. In the background, a husband watches with disbelief. The setting is contemporary, creatively blending past and present.",
+  "childMainImagePrompt": "A cartoon-like illustration for children, showing a funny, feather-covered lady with a bewildered expression, standing in a sunny farmyard with friendly-looking animals. The art style is colorful and lighthearted, perfect for young kids.",
+  "simplifiedMainImagePrompt": "A simple yet engaging illustration of a wife covered in feathers, humorously confused in a village setting. Her annoyed husband and a couple of neighbors watch in amazement. This scene is set in a Norwegian rural environment, in modern Norwegian language style.",
+  "englishMainImagePrompt": "An illustration capturing the essence of a Norwegian fairy tale, featuring a humorous scene of a feather-covered wife in a farmyard, her puzzled husband, and a mischievous butcher character. The style is inspired by classic storytelling visuals, retaining cultural and traditional elements."
+}

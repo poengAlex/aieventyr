@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "name": "Askeladden",
+      "prompt": "A resourceful young boy with a simple yet cunning demeanor, wearing tattered rural clothes, holding a knapsack, and standing with a mischievous grin, defying traditional expectations in a dense Scandinavian forest."
+    },
+    {
+      "name": "The Troll",
+      "prompt": "A large, intimidating creature with rough, rock-like skin, shaggy hair, and fearsome tusks, standing amidst a dark, ancient Norwegian forest, exuding an aura of menace and strength."
+    },
+    {
+      "name": "The Old Farmer",
+      "prompt": "An elderly farmer with a kind but weathered face, dressed in traditional Scandinavian farming attire, who appears both frustrated and worried, set in a rustic rural landscape."
+    },
+    {
+      "name": "Askeladden's Brothers",
+      "prompt": "Two young men in modest clothing, looking arrogant and dismissive, depicted in a forest setting with axes, showing fear of a shadowy, unseen figure."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustration of a young boy Askeladden using clever tricks to outwit a large troll in a dark, magical Scandinavian forest, with elements of old wooden houses and ancient trees surrounding them.",
+  "modernMainImagePrompt": "Depiction of a clever young boy outsmarting a digital age equivalent of a troll, perhaps a cyber entity, in an urban setting with tech gadgets, symbolizing Askeladden's modern intelligence and resourcefulness.",
+  "childMainImagePrompt": "Child-friendly illustration of a brave boy smiling as he playfully stands beside a friendly, cartoon-like troll in a sunny, enchanted forest with colorful, whimsical characters and surroundings.",
+  "simplifiedMainImagePrompt": "Illustration of Askeladden triumphantly standing beside a defeated troll in a bright Norwegian forest setting, using simple, modern Norwegian language elements, with clear and concise imagery.",
+  "englishMainImagePrompt": "Detailed illustration of Askeladden cleverly defeating a troll in a mythical Norwegian forest, with English text subtly integrated into the image capturing the essence of the folktale's narrative."
+}

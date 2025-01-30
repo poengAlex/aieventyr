@@ -27,6 +27,20 @@
         </q-item-label>
 
         <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" />
+        <q-separator />
+        <q-item>
+          <q-toggle v-model="settings.legacy" label="Bruk første version av historier og bilder"
+            @update:model-value="reloadPage" />
+        </q-item>
+        <q-item>
+          <q-badge color="primary">
+            Fontstørrelse: {{ settings.fontSize }}
+          </q-badge>
+        </q-item>
+        <q-item>
+
+          <q-slider v-model="settings.fontSize" :min="12" :max="30" :step="2" />
+        </q-item>
       </q-list>
     </q-drawer>
 
@@ -42,6 +56,10 @@ import EssentialLink, { type EssentialLinkProps } from 'components/EssentialLink
 import { useSettingsStore, VARIANTS } from 'src/stores/settings';
 
 const settings = useSettingsStore();
+
+function reloadPage() {
+  window.location.reload();
+}
 
 const linksList: EssentialLinkProps[] = [
   {

@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "name": "The Wife",
+      "prompt": "A middle-aged woman wearing traditional Norwegian folk clothing, looking anxious and suspicious, with a stern expression."
+    },
+    {
+      "name": "The Deaf Husband",
+      "prompt": "A middle-aged man with a look of confusion, wearing simple work clothes typical of a Norwegian farmer, with a kind but oblivious demeanor."
+    },
+    {
+      "name": "Paal Andrestuen",
+      "prompt": "A young man with a charming smile, dressed in traditional Norwegian attire, appearing sly and confident."
+    },
+    {
+      "name": "The Servant Boy",
+      "prompt": "A clever-looking teenage boy wearing simple farmhand clothing, with an expression of mischievous cunning."
+    }
+  ],
+  "cleanedMainImagePrompt": "An illustration of a 19th century Norwegian rural setting, with a traditional farmhouse and barn, where a clever servant boy observes a visit between the wife and Paal Andrestuen, with the deaf husband working in the background, oblivious to the situation.",
+  "modernMainImagePrompt": "A modern-day depiction of the story set in a small Norwegian village, showing a young man visiting a suburban home while the husband watches TV obliviously and the clever teenager observes, texting on his phone.",
+  "childMainImagePrompt": "A friendly and colorful cartoon-style scene with a cheerful village setting, where a playful boy with a big grin observes the funny antics of a woman hiding a friend from her husband, who is busy planting flowers and doesn't notice.",
+  "simplifiedMainImagePrompt": "An illustration showing a simple modern-day Norwegian home, where a woman hides a guest from her oblivious husband, who is busy cooking in the kitchen, while their curious son watches everything unfold.",
+  "englishMainImagePrompt": "An illustration capturing the essence of a classic folktale set in rural Norway, showcasing the clever machinations of the servant boy as he observes the interactions between the wife and Paal Andrestuen while the husband works in the fields unaware."
+}

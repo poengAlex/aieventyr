@@ -1,0 +1,57 @@
+{
+  "characters": [
+    {
+      "name": "Hanen",
+      "prompt": "A vibrant rooster with colorful feathers, animatedly running through a magical forest, displaying a look of determination and urgency"
+    },
+    {
+      "name": "Hønen",
+      "prompt": "A gentle hen with soft brown feathers, lying weakly on the forest floor, with a walnut shell stuck in her throat, flapping her wings in distress"
+    },
+    {
+      "name": "Kilden",
+      "prompt": "A mystical forest spring sparkling with clear water, surrounded by lush greenery and ancient trees"
+    },
+    {
+      "name": "Linden",
+      "prompt": "A majestic linden tree with broad, shimmering leaves that appear almost golden in the sunlight"
+    },
+    {
+      "name": "Jomfru Maria",
+      "prompt": "A serene and divine figure, dressed in flowing robes embellished with golden ribbons, looking gracefully kind and gentle"
+    },
+    {
+      "name": "Skomageren",
+      "prompt": "A dedicated cobbler working in a quaint, rustic workshop, surrounded by shoes and leather tools"
+    },
+    {
+      "name": "Purken",
+      "prompt": "A jolly pig with a friendly demeanor, standing by a pile of straw, with bristles shining in the sun"
+    },
+    {
+      "name": "Træskemanden",
+      "prompt": "An industrious woodcutter with muscular arms, holding an axe, surrounded by freshly cut wood and towering trees"
+    },
+    {
+      "name": "Bagstekonen",
+      "prompt": "A warm-hearted baker, bustling in a kitchen filled with the aroma of freshly baked bread, rolling dough"
+    },
+    {
+      "name": "Vedhuggeren",
+      "prompt": "A sturdy lumberjack chopping logs, wearing a flannel shirt, covered in sawdust in a forest setting"
+    },
+    {
+      "name": "Smeden",
+      "prompt": "A fiery blacksmith in a smithy, surrounded by glowing embers and iron tools, forging an axe"
+    },
+    {
+      "name": "Kulbrænderen",
+      "prompt": "A kind-hearted charcoal burner, standing beside a mound of burning coals, with a thoughtful expression"
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate a whimsical scene in the heart of the Nøddeskogen forest, capturing each character on their path to aid the Hen: the Rooster racing against time, the mystical spring, the majestic linden, the serene Virgin Mary, the diligent cobbler, the jolly pig, the industrious woodcutter, the warm-hearted baker, the sturdy lumberjack, the fiery blacksmith, and the kind-hearted charcoal burner. The forest is alive with magic, displaying a spectrum of emotions and interactions as materials are exchanged to save the Hen.",
+  "modernMainImagePrompt": "Illustrate a modern urban setting with skyscrapers and city parks where a rooster is seen running through streets, interacting with a street musician, a fashion designer, a friendly neighborhood baker, a construction worker, and other modern professions. Each is engaged in a sequence to procure goods to save his hen, bringing a contemporary twist to the ancient tale with modern attire and environments.",
+  "childMainImagePrompt": "Illustrate a child-friendly, colorful fairy-tale forest where a cheerful rooster talks to a talking spring, a friendly tree, a graceful lady, a cobbler elf, a cuddly pig, and other imaginative characters. Infuse the scene with vibrant colors, playful animals, and magical elements suitable for a young audience.",
+  "simplifiedMainImagePrompt": "Illustrate a simplified Norwegian scene where a determined rooster visits various town residents, including a kind tree, a helpful lady, and others, all set amidst the beautiful Fjell landscape. Use clear and straightforward visuals highlighting each friendly character and their acts of kindness.",
+  "englishMainImagePrompt": "Create an enchanting scene set in a mystical European forest, illustrating a series of helpful encounters: the rooster running between a sparkling spring, a grand linden tree, a benevolent lady, a busy cobbler, a joyful pig, and other characters. Capture the essence of cooperation and urgency in a quaint, fairy-tale aesthetic, following the traditional narrative flow."
+}

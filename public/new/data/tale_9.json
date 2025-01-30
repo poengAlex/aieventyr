@@ -1,0 +1,53 @@
+{
+  "characters": [
+    {
+      "name": "Fisherman",
+      "prompt": "A rugged Norwegian fisherman with weather-beaten features, wearing traditional Nordic fishing attire, often seen with a fishing net or rod."
+    },
+    {
+      "name": "Fisherman's Wife",
+      "prompt": "A worried Norwegian woman with traditional clothing, showcasing her anxious expression and a modest lifestyle."
+    },
+    {
+      "name": "The Boy/Son",
+      "prompt": "A young Norwegian man with features suggesting royal upbringing, dressed in princely attire, yet with elements of a fisherman's life, hinting at his humble beginnings."
+    },
+    {
+      "name": "First Princess",
+      "prompt": "A regal, young woman with a crown barely visible above the ground, looking ethereal and pleading, with Nordic features."
+    },
+    {
+      "name": "Second Princess",
+      "prompt": "Similar to the first, this princess appears solemn and is slightly more visible from the ground, dressed in a similar princess gown."
+    },
+    {
+      "name": "Third Princess",
+      "prompt": "A beautiful and ethereal Nordic princess fully emerged above ground, showcasing her gratitude and majestic presence."
+    },
+    {
+      "name": "Old Man",
+      "prompt": "An elderly man with a long white beard, wearing timeless robes, possessing a wise and mystical aura by the sea."
+    },
+    {
+      "name": "Troll",
+      "prompt": "An enormous, fearsome creature with multiple heads, holding sticks. It looks brutish with rugged skin and a menacing expression."
+    },
+    {
+      "name": "King",
+      "prompt": "A noble and slightly aged man, adorned with ornate royal attire, exuding authority and protection over his subjects."
+    },
+    {
+      "name": "Queen",
+      "prompt": "A regal and kind-looking woman in elaborate royal clothing, showcasing her anxieties and maternal warmth."
+    },
+    {
+      "name": "Prince",
+      "prompt": "A dashing young prince, evident in royal, ornate clothing, exuding arrogance and rival nature to the protagonist."
+    }
+  ],
+  "cleanedMainImagePrompt": "Visualize a Norwegian fisherman's son on a magical adventure, finding three princesses in a mystical land called Hvidtenland, with elements like trolls, kings, and mythical creatures. Use lush Scandinavian landscapes, old castles, and magical artifacts to enrich the folklore setting.",
+  "modernMainImagePrompt": "Create a scene of a young man in contemporary Norway, discovering hidden magical realms and princesses, dressed in today's fashion but set against a mythical backdrop. Incorporate modern elements like smartphones and urban environments mixed with traditional folklore imagery.",
+  "childMainImagePrompt": "Illustrate a vibrant and friendly version of the tale for young children, with the boy meeting joyful and colorful princesses in a magical land. Use bright colors, simple forms, and cheerful, cartoon-like characters, minimizing any scary elements like trolls.",
+  "simplifiedMainImagePrompt": "Visualize a straightforward depiction of a young Norwegian man embarking on a magical adventure with princesses, set in a colorful, simplified Norwegian landscape. Use modern Norwegian language and cultural references to connect with today's audience.",
+  "englishMainImagePrompt": "Illustrate a faithful representation of a Norwegian folktale in English, maintaining its dreamy, mystical qualities. Capture the essence of a young fisherman's journey filled with magic, princesses, and trolls, emphasizing storytelling and traditional folklore elements."
+}

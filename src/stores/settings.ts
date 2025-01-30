@@ -37,6 +37,8 @@ export const VARIANT_TEXT: Record<VariantTypes, string> = {
 export const useSettingsStore = defineStore('settings', {
   state: () => ({
     variant: 'simplified' as VariantTypes,
+    fontSize: 18,
+    legacy: false, //Old version of the stories and images
   }),
 
   getters: {},

@@ -1,0 +1,29 @@
+{
+  "characters": [
+    {
+      "name": "Askeladden",
+      "prompt": "A young man with a curious and determined expression, dressed in simple, ragged clothes covered in ash, with a slightly mischievous look. Holding a rustic sword with a confident grip, standing in front of an enchanted forest setting."
+    },
+    {
+      "name": "Seven Foals",
+      "prompt": "Seven majestic foals, each uniquely beautiful and shimmering with magical essence, running freely through a mystical forest, occasionally revealing their princely forms."
+    },
+    {
+      "name": "Old Witch",
+      "prompt": "An old witch with a weathered face full of wrinkles, wearing a tattered, dark cloak, holding a spinning spindle. She is seated near a rocky crevice, exuding a mysterious and somewhat benevolent aura."
+    },
+    {
+      "name": "Kongen (The King)",
+      "prompt": "A regal, elderly king with a wise expression, dressed in royal robes, standing with a skeptical stance on the steps of an ancient palace. The setting is grand, with a hint of Nordic influence."
+    },
+    {
+      "name": "Prinsessen (The Princess)",
+      "prompt": "A graceful and beautiful princess with flowing golden hair, dressed in elegant royal attire. She stands with a gentle smile, radiating warmth and kindness, within a luxuriant castle hall."
+    }
+  ],
+  "cleanedMainImagePrompt": "A picturesque scene from the Norwegian forest, with Askeladden bravely following the enchanting Seven Foals. The landscape is dotted with hills, valleys, and thick groves, capturing the essence of magical realism in a fairy-tale setting.",
+  "modernMainImagePrompt": "Depict Askeladden as a modern-day young adult, dressed casually, holding a smartphone GPS application to track the Seven Foals, which are portrayed as futuristic robotic horses in an urban park landscape, representing a blend of tradition and technology.",
+  "childMainImagePrompt": "A vibrant, colorful illustration for children, showing Askeladden as a cheerful character, with friendly cartoon-style Seven Foals prancing joyfully in a bright, whimsical forest setting. The old witch in the background offers cookies, creating a friendly, inviting atmosphere.",
+  "simplifiedMainImagePrompt": "En moderne norsk scenedekorasjon viser Askeladden kledd i enkle klær klare for et eventyr. I bakgrunnen løper syv flotte føll gjennom en grønn, trolsk skog. Sollys siver gjennom trærne, og stemningen er fylt med magi og inspirasjon.",
+  "englishMainImagePrompt": "An enchanting fairytale illustration set in a Nordic landscape, showing Askeladden in traditional garments, standing heroically as he embarks on a quest alongside the ethereal Seven Foals, capturing the essence of adventure and magic."
+}

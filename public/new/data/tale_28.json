@@ -1,0 +1,29 @@
+{
+  "characters": [
+    {
+      "name": "Per (Herreper)",
+      "prompt": "A young Norwegian man wearing humble, tattered clothing, looking determined and hopeful. He exudes a sense of simplicity and warmth, with short brown hair and bright eyes."
+    },
+    {
+      "name": "The Cat (Prinsessen)",
+      "prompt": "A sleek, intelligent-looking cat with a silky, midnight black coat and bright, watchful eyes. She conveys a sense of magic and mystery, with a poised, elegant stance."
+    },
+    {
+      "name": "Kongen",
+      "prompt": "A regal and wise-looking king dressed in luxurious medieval Norwegian royal attire, complete with a gold crown and ornate cloak, exuding authority and kindness."
+    },
+    {
+      "name": "The Troll",
+      "prompt": "A large, intimidating troll with rough, rocky skin and wild hair, wearing primitive clothing. He stands menacingly with a grimace and a formidable presence."
+    },
+    {
+      "name": "The Princess",
+      "prompt": "A beautiful and ethereal princess with long golden hair and a flowing blue gown adorned with silver details, radiating grace, elegance, and kindness."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate a scene from the Norwegian folktale 'Herreper' featuring Per trading with King and the magical cat, surrounded by splendid forests and majestic castle grounds. Capture the essence of medieval Norway with royal architecture, mystical atmosphere, and vibrant nature.",
+  "modernMainImagePrompt": "Create a modern adaptation of 'Herreper' with contemporary characters in an urban setting, featuring Per as a young man in casual urban clothes with a sleek feline friend, meeting a business-like King in a modern glass skyscraper with cityscape in the background.",
+  "childMainImagePrompt": "Craft a child-friendly illustration of 'Herreper' with bright, colorful visuals showing Per as a cheerful young boy with a friendly, magical cat, visiting a jovial king in a castle with cartoonish charm and a whimsical, fairytale-like forest setting.",
+  "simplifiedMainImagePrompt": "Generate an illustration in modern Norwegian that captures Per, a young man in simple clothes, with a magical black cat, amidst a medieval Norwegian castle and natural landscape, highlighting key elements of folklore and enchantment.",
+  "englishMainImagePrompt": "Convey a translated scene from 'Herreper' in English, illustrating a hopeful young man, Per, with his magical cat companion, engaging in royal intrigue. Include medieval Norwegian motifs and an enchanted forest background, staying true to the original folktale's atmosphere and storytelling style."
+}

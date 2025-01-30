@@ -1,0 +1,33 @@
+{
+  "characters": [
+    {
+      "name": "Jomfru Maria",
+      "prompt": "An elegant and kind woman with a serene expression, dressed in beautiful, luxurious medieval clothing, exuding an aura of divinity and compassion."
+    },
+    {
+      "name": "Fosterdatteren",
+      "prompt": "A young girl, transitioning from a child to a teenager, with an innocent and curious demeanor, dressed in simple but clean garments, depicting a sense of wonder and naivety."
+    },
+    {
+      "name": "The Prince",
+      "prompt": "A handsome young prince, wearing royal attire typical of medieval Europe, with a compassionate and decisive look on his face."
+    },
+    {
+      "name": "The Old Queen",
+      "prompt": "An elderly but regal-looking queen, dressed in royal garments, with a stern expression but also a hint of wisdom in her eyes."
+    },
+    {
+      "name": "The Poor Man",
+      "prompt": "A humble and weary-looking man, wearing simple, worn-out clothes, symbolizing poverty and hardship, with a hopeful and determined expression."
+    },
+    {
+      "name": "The Poor Woman",
+      "prompt": "A gentle and kind-looking woman, appearing tired but resilient, wearing plain, patched-up clothing, conveying a sense of warmth and motherly affection."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate a medieval setting deep within a mythical, expansive forest; depict a humble cottage in the woods with sunlight softly filtering through the leaves. Capture the essence of the folktale's mystical and pastoral themes.",
+  "modernMainImagePrompt": "Depict a modern rendition of the folktale set in a contemporary urban park, showing a well-dressed woman resembling Jomfru Maria meeting a young couple with a baby, amidst the backdrop of city life.",
+  "childMainImagePrompt": "Create a bright, colorful illustration of a magical forest with friendly animals and a sparkling river; show a kind lady with golden light around her, offering help to a young girl who looks amazed.",
+  "simplifiedMainImagePrompt": "Illustrate a quaint and serene forest scene with traditional Norwegian houses, depicting a lady watching over a girl with a protective and loving aura, setting a tone of warmth and care.",
+  "englishMainImagePrompt": "Draw a beautiful medieval setting with a mystical forest, a simple cottage, and the enchanting presence of Lady Maria; include elements of the sun, moon, and stars to reflect the tale's magical realism and allegorical depth."
+}

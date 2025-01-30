@@ -1,0 +1,17 @@
+{
+  "characters": [
+    {
+      "name": "The Hunter",
+      "prompt": "A rugged hunter wearing a green forest tunic with a brown leather belt, carrying a wooden hunting rifle, standing in a dense Norwegian forest. He has a concentrated yet gentle expression, capturing the essence of being in tune with nature."
+    },
+    {
+      "name": "Myrsnipen (The Snipe)",
+      "prompt": "A small, elegant bird with a slender beak and beautifully speckled feathers, standing on the forest floor. It has a concerned expression, looking up pleadingly, amidst the backdrop of green foliage."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate a scene in a lush Norwegian forest where a hunter is startled by Myrsnipen, a small bird, pleading not to harm its young ones. The focus is on the stark contrast between the hunter's ruggedness and the bird's delicate features, under the dappled light filtering through the dense canopy.",
+  "modernMainImagePrompt": "Depict a scene in a modern urban park where a birdwatcher, dressed in contemporary outdoor gear with a binocular case, encounters a protective snipe bird. Surroundings show modern cityscape in the background, blending nature with urban elements, emphasizing the ongoing relationship between humans and wildlife.",
+  "childMainImagePrompt": "Create a colorful and friendly illustration for children featuring a kind cartoon hunter with a big smile, and a cute, animated snipe bird with wide eyes. The setting is a magical forest filled with bright green trees and adorable baby birds, making it appealing for a 5-year-old audience.",
+  "simplifiedMainImagePrompt": "Tegn en scene i en moderne norsk skog der jegeren har stoppet opp ved synet av en liten fugl, Myrsnipen, som snakker. Omgivelsene viser en harmonisk og rolig skog, med jegeren i enkle klær og fuglen med mønstrede fjær.",
+  "englishMainImagePrompt": "Draw a vibrant scene in an enchanting Norwegian forest illustrating the moment when the hunter encounters the snipe bird asking for its young ones to be spared. Capture the essence of compassion and understanding shared between the man and the bird, amidst lush greenery."
+}

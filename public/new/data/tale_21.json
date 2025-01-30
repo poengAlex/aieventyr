@@ -1,0 +1,41 @@
+{
+  "characters": [
+    {
+      "name": "The Blacksmith",
+      "prompt": "A sturdy, muscular man with a blacksmith's apron, holding a large hammer. He has a confident expression, rough hands, and stands beside a forge in a rustic blacksmith shop."
+    },
+    {
+      "name": "Our Lord",
+      "prompt": "A benevolent and wise figure with a glowing aura, wearing a simple robe. He has a gentle expression, kind eyes, and stands with a calm demeanor."
+    },
+    {
+      "name": "Saint Peter",
+      "prompt": "A serene and elderly man, with a long white beard, wearing humble robes. He has a gentle smile and carries a large key."
+    },
+    {
+      "name": "The Devil",
+      "prompt": "A mischievous figure with red skin, horns, and a pointed tail. He wears a sly grin and has sharp, cunning eyes."
+    },
+    {
+      "name": "The Blacksmith's Mother",
+      "prompt": "An elderly woman with a crooked back and deep wrinkles, wearing traditional Norwegian peasant clothing."
+    },
+    {
+      "name": "The Horse",
+      "prompt": "A majestic horse with a shiny coat, standing proudly beside the blacksmith."
+    },
+    {
+      "name": "Old Poor Woman",
+      "prompt": "A frail, elderly woman in tattered clothes, looking worn and weary."
+    },
+    {
+      "name": "The Tailor’s Apprentice",
+      "prompt": "A young, slender man holding a pair of scissors, wearing a simple tunic and looking curious."
+    }
+  ],
+  "cleanedMainImagePrompt": "An old Norwegian blacksmith shop filled with warm light from the forge. The Blacksmith, Our Lord, and Saint Peter are inside, discussing. The door bears the inscription 'Master Over All Masters' and outside stands a majestic horse. The scene is lively, capturing the essence of traditional storytelling with an intricate, detailed setting.",
+  "modernMainImagePrompt": "A contemporary blacksmith workshop with modern tools. The Blacksmith is a modern-day craftsman, while Our Lord and Saint Peter appear in modern attire, perhaps as mentors. The Devil is a sly character in a sharp suit. The focus is on the interaction between tradition and modernity, with elements of humor and wit.",
+  "childMainImagePrompt": "A colorful, cartoon-like depiction of a friendly blacksmith workshop. The Blacksmith is a jovial character with a big smile, and Our Lord, Saint Peter, and the Devil are playful and non-threatening. The Horse is cartoonish, with big eyes, making this a joyful and engaging scene for children.",
+  "simplifiedMainImagePrompt": "A modern Norwegian blacksmith workshop with simplified details. The Blacksmith is a relatable character, and the interactions are clear and straightforward. The scene uses easy language and settings without losing the original flavor.",
+  "englishMainImagePrompt": "An illustration of a classic Norwegian folktale with a blacksmith shop, Our Lord, Saint Peter, and the Devil. The image is rich in detail, reflecting traditional storytelling with an English twist, maintaining the original nuances and humor."
+}

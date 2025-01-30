@@ -1,0 +1,21 @@
+{
+  "characters": [
+    {
+      "name": "Hanen",
+      "prompt": "A proud and colorful rooster with bright red feathers, standing confidently. Its eyes are sharp, and its posture is upright. The rooster exudes a sense of ownership and pride, emphasizing its claim to the cow."
+    },
+    {
+      "name": "Gjøgen",
+      "prompt": "A cunning cuckoo bird with a sleek and smooth plumage. Its color palette includes shades of gray and white. The cuckoo has a clever look in its eyes, symbolizing its desire for half of the cow."
+    },
+    {
+      "name": "Aarhanen",
+      "prompt": "An elder rooster with a wise expression. Its feathers are a mix of matured gray and hints of its earlier vibrant colors. The rooster stands with a calm and balanced demeanor, advocating fairness."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate the scene of three birds - a proud rooster, a clever cuckoo, and an elder rooster - standing together in a rustic barn setting. The morning light filters through the barn openings, signifying the time of a fair dispute regarding the ownership of a cow.",
+  "modernMainImagePrompt": "Depict a modern urban scenario where the three birds, now anthropomorphized as humans with bird-like features, are engaged in a friendly legal dispute over a share in a cooperative. The setting is a sleek office space with technology gadgets around.",
+  "childMainImagePrompt": "Create a playful scene in a colorful farm setting where the three birds discuss who should get the prize cow. The artwork should be vibrant and cheerful, with exaggerated features to make the characters fun and relatable for young children.",
+  "simplifiedMainImagePrompt": "Visualize a simple, modern Norwegian farm with the three birds - a rooster, cuckoo, and elder rooster - playfully discussing the ownership of a cow. The scene should be clear and approachable, emphasizing simplicity in language and illustration.",
+  "englishMainImagePrompt": "Illustrate the tale with a traditional countryside setting, where a proud rooster, a cunning cuckoo, and a wise older rooster stand around a cow in a quaint barnyard. The image should capture the theme of fair judgment and the allegorical nature of the folktale."
+}

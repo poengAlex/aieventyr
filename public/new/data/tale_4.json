@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "name": "The King",
+      "prompt": "A regal and wise-looking elderly man with a crown, wearing a luxurious royal robe, holding a scepter, and sitting on a grand throne in a majestic palace."
+    },
+    {
+      "name": "The Princess",
+      "prompt": "A beautiful young woman with long flowing hair, dressed in an elegant gown, looking slightly mischievous and confident, standing in a grand hall."
+    },
+    {
+      "name": "Askeladden",
+      "prompt": "A clever-looking young man with a friendly smile, wearing simple countryside clothing, carrying a satchel filled with curious items like a bird, a shoe sole, and horns, walking through a lush landscape."
+    },
+    {
+      "name": "The Two Brothers",
+      "prompt": "Two somewhat pompous young men, wearing fine clothes that suggest they are trying to impress, yet looking frustrated and dejected, standing outside a castle."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate a traditional Norwegian folktale scene featuring the clever Askeladden, a young man with rustic attire, using various whimsical objects to outsmart a regal-looking princess with a slight smirk in her eyes, set in a grand medieval castle room with ornate tapestries.",
+  "modernMainImagePrompt": "Depict a modern reinterpretation of the tale where Askeladden is a street-smart young man with a backpack full of modern gadgets, interacting with a confident young woman dressed in contemporary fashion, standing in a bustling cityscape with skyscrapers and busy streets.",
+  "childMainImagePrompt": "Create a colorful and playful illustration suitable for a 5-year-old, showing Askeladden as a cheerful young boy with a backpack of fun items, playfully talking to a giggling princess in a whimsical, fairy-tale castle surrounded by blooming flowers and friendly animals.",
+  "simplifiedMainImagePrompt": "Illustrate a simplified version of the tale in modern Norwegian, featuring a cheerful Askeladden in casual clothing engaging the amused young princess in a lighthearted conversation, set in a bright, friendly room decorated with Norwegian motifs.",
+  "englishMainImagePrompt": "Generate an illustration for an English translation of the tale, capturing the essence of cleverness and whimsy, with Askeladden and the princess exchanging witty dialogues in a medieval castle filled with Nordic decor, retaining the story's original charm."
+}

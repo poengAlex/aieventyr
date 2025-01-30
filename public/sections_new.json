@@ -1,0 +1,343 @@
+[
+  {
+    "id": "askesv",
+    "index": 1,
+    "start": 23,
+    "stop": 29,
+    "title": "Om Askeladden som stjal Troldets Sølvænder, Sengetæppe, og Guldharpe",
+    "title_english": "Om Askeladden som stjal Troldets Sølvænder, Sengetæppe, og Guldharpe",
+    "title_cleaned": "Om Askeladden som stjal Troldets Sølvænder, Sengetæppe, og Guldharpe",
+    "title_child": "Om Askeladden som stjal Troldets Sølvænder, Sengetæppe, og Guldharpe"
+  },
+  {
+    "id": "gjertrud",
+    "index": 2,
+    "start": 30,
+    "stop": 31,
+    "title": "Gjertrudsfuglen",
+    "title_english": "Gjertrudsfuglen",
+    "title_cleaned": "Gjertrudsfuglen",
+    "title_child": "Gjertrudsfuglen"
+  },
+  {
+    "id": "fugldam",
+    "index": 3,
+    "start": 31,
+    "stop": 44,
+    "title": "Fugl Dam",
+    "title_english": "Fugl Dam",
+    "title_cleaned": "Fugl Dam",
+    "title_child": "Fugl Dam"
+  },
+  {
+    "id": "spurning",
+    "index": 4,
+    "start": 44,
+    "stop": 45,
+    "title": "Spurningen",
+    "title_english": "Spurningen",
+    "title_cleaned": "Spurningen",
+    "title_child": "Spurningen"
+  },
+  {
+    "id": "rigeper",
+    "index": 5,
+    "start": 46,
+    "stop": 60,
+    "title": "Rige Per Kræmmer",
+    "title_english": "Rige Per Kræmmer",
+    "title_cleaned": "Rige Per Kræmmer",
+    "title_child": "Rige Per Kræmmer"
+  },
+  {
+    "id": "asketrol",
+    "index": 6,
+    "start": 61,
+    "stop": 63,
+    "title": "Askeladden som kapaad med Troldet",
+    "title_english": "Askeladden som kapaad med Troldet",
+    "title_cleaned": "Askeladden som kapaad med Troldet",
+    "title_child": "Askeladden som kapaad med Troldet"
+  },
+  {
+    "id": "guttnord",
+    "index": 7,
+    "start": 64,
+    "stop": 67,
+    "title": "Om Gutten som gik til Nordenvinden og krævede Melet igjen",
+    "title_english": "Om Gutten som gik til Nordenvinden og krævede Melet igjen",
+    "title_cleaned": "Om Gutten som gik til Nordenvinden og krævede Melet igjen",
+    "title_child": "Om Gutten som gik til Nordenvinden og krævede Melet igjen"
+  },
+  {
+    "id": "jomfrum",
+    "index": 8,
+    "start": 68,
+    "stop": 73,
+    "title": "Jomfru Maria som Gudmor",
+    "title_english": "Jomfru Maria som Gudmor",
+    "title_cleaned": "Jomfru Maria som Gudmor",
+    "title_child": "Jomfru Maria som Gudmor"
+  },
+  {
+    "id": "tentland",
+    "index": 9,
+    "start": 73,
+    "stop": 80,
+    "title": "De tre Prinsesser i Hvidtenland",
+    "title_english": "De tre Prinsesser i Hvidtenland",
+    "title_cleaned": "De tre Prinsesser i Hvidtenland",
+    "title_child": "De tre Prinsesser i Hvidtenland"
+  },
+  {
+    "id": "noedig",
+    "index": 10,
+    "start": 80,
+    "stop": 87,
+    "title": "Somme Kjærringer er slige",
+    "title_english": "Somme Kjærringer er slige",
+    "title_cleaned": "Somme Kjærringer er slige",
+    "title_child": "Somme Kjærringer er slige"
+  },
+  {
+    "id": "bestedt",
+    "index": 11,
+    "start": 87,
+    "stop": 87,
+    "title": "Hver synes bedst om sine Børn",
+    "title_english": "Hver synes bedst om sine Børn",
+    "title_cleaned": "Hver synes bedst om sine Børn",
+    "title_child": "Hver synes bedst om sine Børn"
+  },
+  {
+    "id": "frihist",
+    "index": 12,
+    "start": 88,
+    "stop": 88,
+    "title": "En Frierhistorie",
+    "title_english": "En Frierhistorie",
+    "title_cleaned": "En Frierhistorie",
+    "title_child": "En Frierhistorie"
+  },
+  {
+    "id": "tremost",
+    "index": 13,
+    "start": 88,
+    "stop": 93,
+    "title": "De tre Mostre",
+    "title_english": "De tre Mostre",
+    "title_cleaned": "De tre Mostre",
+    "title_child": "De tre Mostre"
+  },
+  {
+    "id": "enkeson",
+    "index": 14,
+    "start": 94,
+    "stop": 105,
+    "title": "Enkesønnen",
+    "title_english": "Enkesønnen",
+    "title_cleaned": "Enkesønnen",
+    "title_child": "Enkesønnen"
+  },
+  {
+    "id": "mandatt",
+    "index": 15,
+    "start": 105,
+    "stop": 116,
+    "title": "Manddatteren og Kjærringdatteren",
+    "title_english": "Manddatteren og Kjærringdatteren",
+    "title_cleaned": "Manddatteren og Kjærringdatteren",
+    "title_child": "Manddatteren og Kjærringdatteren"
+  },
+  {
+    "id": "nodedsk",
+    "index": 16,
+    "start": 116,
+    "stop": 120,
+    "title": "Hanen og Hønen i Nøddeskogen",
+    "title_english": "Hanen og Hønen i Nøddeskogen",
+    "title_cleaned": "Hanen og Hønen i Nøddeskogen",
+    "title_child": "Hanen og Hønen i Nøddeskogen"
+  },
+  {
+    "id": "bjornrae",
+    "index": 17,
+    "subindex": 0,
+    "start": 120,
+    "stop": 122,
+    "title": "Bjørnen og Ræven",
+    "title_english": "Bjørnen og Ræven",
+    "title_cleaned": "Bjørnen og Ræven",
+    "title_child": "Bjørnen og Ræven"
+  },
+  {
+    "id": "gudbrand",
+    "index": 18,
+    "start": 123,
+    "stop": 128,
+    "title": "Gudbrand i Lien",
+    "title_english": "Gudbrand i Lien",
+    "title_cleaned": "Gudbrand i Lien",
+    "title_child": "Gudbrand i Lien"
+  },
+  {
+    "id": "katrast",
+    "index": 19,
+    "start": 128,
+    "stop": 143,
+    "title": "Kari Træstak",
+    "title_english": "Kari Træstak",
+    "title_cleaned": "Kari Træstak",
+    "title_child": "Kari Træstak"
+  },
+  {
+    "id": "rfoxgjt",
+    "index": 20,
+    "start": 144,
+    "stop": 145,
+    "title": "Ræven som Gjæter",
+    "title_english": "Ræven som Gjæter",
+    "title_cleaned": "Ræven som Gjæter",
+    "title_child": "Ræven som Gjæter"
+  },
+  {
+    "id": "smehel",
+    "index": 21,
+    "start": 145,
+    "stop": 153,
+    "title": "Smeden som de ikke torde slippe ind i Helvede",
+    "title_english": "Smeden som de ikke torde slippe ind i Helvede",
+    "title_cleaned": "Smeden som de ikke torde slippe ind i Helvede",
+    "title_child": "Smeden som de ikke torde slippe ind i Helvede"
+  },
+  {
+    "id": "hanenoghoen",
+    "index": 22,
+    "start": 153,
+    "stop": 153,
+    "title": "Hanen og Hønen",
+    "title_english": "Hanen og Hønen",
+    "title_cleaned": "Hanen og Hønen",
+    "title_child": "Hanen og Hønen"
+  },
+  {
+    "id": "hanengjog",
+    "index": 23,
+    "start": 154,
+    "stop": 154,
+    "title": "Hanen, Gjøgen, og Aarhanen",
+    "title_english": "Hanen, Gjøgen, og Aarhanen",
+    "title_cleaned": "Hanen, Gjøgen, og Aarhanen",
+    "title_child": "Hanen, Gjøgen, og Aarhanen"
+  },
+  {
+    "id": "lillekort",
+    "index": 24,
+    "start": 154,
+    "stop": 173,
+    "title": "Lillekort",
+    "title_english": "Lillekort",
+    "title_cleaned": "Lillekort",
+    "title_child": "Lillekort"
+  },
+  {
+    "id": "dukgras",
+    "index": 25,
+    "start": 173,
+    "stop": 175,
+    "title": "Dukken i Græsset",
+    "title_english": "Dukken i Græsset",
+    "title_cleaned": "Dukken i Græsset",
+    "title_child": "Dukken i Græsset"
+  },
+  {
+    "id": "paalandr",
+    "index": 26,
+    "start": 176,
+    "stop": 178,
+    "title": "Paal Andrestuen",
+    "title_english": "Paal Andrestuen",
+    "title_cleaned": "Paal Andrestuen",
+    "title_child": "Paal Andrestuen"
+  },
+  {
+    "id": "soriamor",
+    "index": 27,
+    "start": 179,
+    "stop": 192,
+    "title": "Soria Moria Slot",
+    "title_english": "Soria Moria Slot",
+    "title_cleaned": "Soria Moria Slot",
+    "title_child": "Soria Moria Slot"
+  },
+  {
+    "id": "herreper",
+    "index": 28,
+    "start": 192,
+    "stop": 199,
+    "title": "Herreper",
+    "title_english": "Herreper",
+    "title_cleaned": "Herreper",
+    "title_child": "Herreper"
+  },
+  {
+    "id": "vesleaas",
+    "index": 29,
+    "start": 199,
+    "stop": 204,
+    "title": "Vesle Aase Gaasepige",
+    "title_english": "Vesle Aase Gaasepige",
+    "title_cleaned": "Vesle Aase Gaasepige",
+    "title_child": "Vesle Aase Gaasepige"
+  },
+  {
+    "id": "gutfand",
+    "index": 30,
+    "start": 204,
+    "stop": 205,
+    "title": "Gutten og Fanden",
+    "title_english": "Gutten og Fanden",
+    "title_cleaned": "Gutten og Fanden",
+    "title_child": "Gutten og Fanden"
+  },
+  {
+    "id": "syvfoler",
+    "index": 31,
+    "start": 205,
+    "stop": 214,
+    "title": "De syv Folerne",
+    "title_english": "De syv Folerne",
+    "title_cleaned": "De syv Folerne",
+    "title_child": "De syv Folerne"
+  },
+  {
+    "id": "giske",
+    "index": 32,
+    "start": 214,
+    "stop": 221,
+    "title": "Giske",
+    "title_english": "Giske",
+    "title_cleaned": "Giske",
+    "title_child": "Giske"
+  },
+  {
+    "id": "tolvander",
+    "index": 33,
+    "start": 221,
+    "stop": 230,
+    "title": "De tolv Vildænder",
+    "title_english": "De tolv Vildænder",
+    "title_cleaned": "De tolv Vildænder",
+    "title_child": "De tolv Vildænder"
+  },
+  {
+    "id": "mesttyv",
+    "index": 34,
+    "start": 230,
+    "stop": 248,
+    "title": "Mestertyven",
+    "title_english": "Mestertyven",
+    "title_cleaned": "Mestertyven",
+    "title_child": "Mestertyven"
+  }
+]

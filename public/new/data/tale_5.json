@@ -1,0 +1,41 @@
+{
+  "characters": [
+    {
+      "name": "Rige Per Kræmmer",
+      "prompt": "a wealthy, middle-aged merchant with a stern face and opulent attire, holding a coin purse filled with gold coins"
+    },
+    {
+      "name": "Per Kræmmer's Daughter",
+      "prompt": "a beautiful young woman with flowing hair and elegant clothes, radiating an air of grace and wealth"
+    },
+    {
+      "name": "Møllergutten",
+      "prompt": "a charming and resilient young boy, dressed in simple miller's clothing, with bright eyes and an adventurous spirit"
+    },
+    {
+      "name": "The Møller Couple",
+      "prompt": "a humble and loving miller couple, appearing hardworking and caring, with worn yet warm expressions"
+    },
+    {
+      "name": "The Star Gazer",
+      "prompt": "a mystical character with a long beard and starry robe, deeply engrossed in an old, celestial book filled with illustrations of constellations"
+    },
+    {
+      "name": "The Twelve Robbers",
+      "prompt": "a group of mischievous yet friendly-looking robbers, each with distinct features, dressed in rugged and patched-up attire"
+    },
+    {
+      "name": "The Dragon of Dybenfart",
+      "prompt": "a fearsome dragon with majestic scales and a long, menacing tail, residing in a lair filled with treasures and mysteries"
+    },
+    {
+      "name": "The Princess",
+      "prompt": "a gentle and kind princess with a worried expression, wearing a simple yet elegant gown and holding a small lamp"
+    }
+  ],
+  "cleanedMainImagePrompt": "Detailed and vibrant depiction of the key scenes from the folktale 'Rige Per Kræmmer', showcasing the journey of Møllergutten as he grows from a young boy in a rustic miller's cottage to a courageous and wealthy young man, surrounded by the mystical Star Gazer, the mischievous robbers, and the formidable Dragon of Dybenfart",
+  "modernMainImagePrompt": "A contemporary illustration of the folktale 'Rige Per Kræmmer', set in today's society, featuring modern-day characters: a wealthy businessman for Rige Per Kræmmer, a mill worker in casual attire for Møllergutten, and an imposing skyscraper for the dragon's lair, along with elements like laptops, smartphones, and modern transportation",
+  "childMainImagePrompt": "A whimsical and colorful version of 'Rige Per Kræmmer', perfect for a 5-year-old audience, depicting a magical adventure with friendly and approachable characters, including a smiling dragon and a cheerful young hero, with bright and engaging visuals",
+  "simplifiedMainImagePrompt": "En illustrasjon av 'Rige Per Kræmmer' som bruker moderne norsk språk, med forenklede figurer som en rik kjøpmann, en ung møllergutt, og en vennlig drage, satt i et landskap som er lett å forstå for alle aldre",
+  "englishMainImagePrompt": "An English illustrated rendition of 'Rige Per Kræmmer' capturing the original meaning and storytelling style, featuring the journey of Møllergutten and his encounters with rich Per Kræmmer, the mystical Star Gazer, and his eventual triumph in a vibrant and enchanting scenery"
+}

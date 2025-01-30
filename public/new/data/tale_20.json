@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "name": "Konen",
+      "prompt": "an elderly Norwegian woman dressed in traditional Nordic attire, looking determined as she sets out on a quest to hire a shepherd, with a scenic rural Norwegian landscape in the background"
+    },
+    {
+      "name": "Bjørnen",
+      "prompt": "a large, imposing bear with thick brown fur, standing on hind legs, appearing slightly menacing yet eager to please, amidst a dense forest setting"
+    },
+    {
+      "name": "Ulven",
+      "prompt": "a sleek, cunning wolf with a slender build and piercing yellow eyes, exuding an air of mystery and danger, lurking against a backdrop of moonlit woods"
+    },
+    {
+      "name": "Ræven",
+      "prompt": "a sly, clever fox with bright orange fur and a bushy tail tipped in white, looking charming and mischievous, in a lively meadow setting"
+    }
+  ],
+  "cleanedMainImagePrompt": "an illustration showing Konen in a traditional Norwegian outfit setting off to hire a shepherd, meeting the bear, the wolf, and finally the fox in large forested and meadow landscapes, capturing the essence of the folktale",
+  "modernMainImagePrompt": "a modern depiction of the story with Konen dressed in contemporary Norwegian fashion looking to hire a shepherd, encountering modern interpretations of the bear, wolf, and fox in a present-day urban environment",
+  "childMainImagePrompt": "a whimsical and colorful illustration suitable for young children, featuring friendly and cartoonish animal characters, including Bjørnen, Ulven, and Ræven with a kind and gentle Konen, set in a fairytale forest",
+  "simplifiedMainImagePrompt": "a simplified and engaging modern Norwegian illustration of the tale with Konen depicted in everyday clothes, and the animals in cute and accessible forms set in a familiar Norwegian countryside",
+  "englishMainImagePrompt": "an enchanting illustration capturing the quaint and traditional atmosphere of the Norwegian folktale, highlighting the old woman Konen and the animal characters in a pastoral setting, with English text prominently featured"
+}

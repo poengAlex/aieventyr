@@ -32,10 +32,14 @@
       <div class="row">
         <div v-for="(fairytale) in fairytales" :key="fairytale.id" class="col-sm-6 col-12 q-pa-sm">
           <q-card class="">
-            <q-img :src="getImageSrc(fairytale.id)" alt="Main image" @click="viewVariants(fairytale.id)">
+            <q-img :src="getImageSrc(fairytale.id, fairytale.index)" alt="Main image"
+              @click="viewVariants(fairytale.id)">
               <div class="absolute-bottom text-subtitle2 text-center">
                 <!-- {{ index }}: {{ fairytale.title }} -->
-                {{ fairytale.title }}
+                {{ getTitle(fairytale) }}
+                <template v-if="false">
+                  - {{ fairytale.index }}
+                </template>
               </div>
             </q-img>
           </q-card>
@@ -50,21 +54,56 @@ import { useSettingsStore, VARIANTS } from 'src/stores/settings';
 import { computed, onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
 import VariantSelector from 'src/components/VariantSelector.vue';
+import { createNotify } from 'src/logic/utils';
 
-const fairytales = ref<{ id: string; title: string; mainImage: string; description: string }[]>([]);
+const fairytales = ref<{ id: string; title: string; titleCleaned: string; titleEnglish: string; mainImage: string; description: string; index: number }[]>([]);
 const router = useRouter();
 const settings = useSettingsStore();
 
 //computed image src
-function getImageSrc(id: string) {
-  if (settings.variant === 'child-friendly') {
-    return `/output/mainImages/${id}_child.png`;
-  } else if (settings.variant === 'english') {
-    return `/output/mainImages/${id}_english.png`;
-  } else if (settings.variant === 'modern') {
-    return `/output/mainImages/${id}_modern.png`;
+function getImageSrc(id: string, index: number) {
+  if (settings.legacy) {
+    if (settings.variant === 'child-friendly') {
+      return `/output/mainImages/${id}_child.png`;
+    } else if (settings.variant === 'english') {
+      return `/output/mainImages/${id}_english.png`;
+    } else if (settings.variant === 'modern') {
+      return `/output/mainImages/${id}_modern.png`;
+    }
+    return `/output/mainImages/${id}.png`;
+  } else {
+    //Ex: /new/images/main/cleaned/tale1.png
+    let variant = settings.variant as string;
+    if (settings.variant === 'child-friendly') {
+      variant = 'child';
+    } else if (settings.variant === 'raw') {
+      variant = 'cleaned';
+    }
+
+    const path = `/new/images/main/${variant}/tale${index}.png`;
+    // console.log(id, index, path);
+    return path;
   }
-  return `/output/mainImages/${id}.png`;
+
+}
+
+function getTitle(fairytale: any) {
+  if (settings.legacy) {
+    return fairytale.title;
+  } else {
+    if (settings.variant === 'child-friendly') {
+      return fairytale.titleCleaned;
+    } else if (settings.variant === 'english') {
+      return fairytale.titleEnglish;
+    } else if (settings.variant === 'simplified') {
+      return fairytale.titleCleaned;
+    } else if (settings.variant === 'modern') {
+      return fairytale.titleCleaned;
+    } else {
+      return fairytale.title;
+    }
+  }
+
 }
 
 onMounted(() => {
@@ -72,19 +111,36 @@ onMounted(() => {
 });
 
 const loadFairytales = async () => {
-  const response = await fetch('/sections.json'); // Replace with actual metadata source
-  let data = await response.json();
-  console.log(data);
-  //remove all that contains start: -1
-  data = data.filter((item: any) => item.start !== -1);
-  console.log(data);
-  fairytales.value = data.map((item: any) => ({
-    id: item.id,
-    title: item.title,
-    mainImage: `/output/mainImages/${item.id}.png`,
-    description: item.description || 'A Norwegian fairytale',
-  }));
-  console.log(fairytales.value[0]);
+  try {
+    let response;
+    if (settings.legacy) {
+      response = await fetch('/sections.json'); // Replace with actual metadata source
+    } else {
+      response = await fetch('/sections_v3.json');
+    }
+
+    let data = await response.json();
+    console.log(data);
+    console.log(data[0]);
+    //remove all that contains start: -1
+    data = data.filter((item: any) => item.start !== -1);
+    console.log(data);
+    fairytales.value = data.map((item: any) => ({
+      id: item.id,
+      title: item.title,
+      index: item.index,
+      titleCleaned: item.title_cleaned,
+      titleEnglish: item.title_modern,
+      mainImage: `/output/mainImages/${item.id}.png`,
+      description: item.description || 'A Norwegian fairytale',
+    }));
+    console.log(fairytales.value[0]);
+
+  } catch (err: unknown) {
+    console.error(err);
+    createNotify((err as Error).message, "Klarte ikke å laste eventyr");
+  }
+
 };
 
 const viewVariants = (id: string) => {
