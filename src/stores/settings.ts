@@ -39,11 +39,46 @@ export const useSettingsStore = defineStore('settings', {
     variant: 'simplified' as VariantTypes,
     fontSize: 18,
     legacy: false, //Old version of the stories and images
+    filteredRead: false,
+    read: {
+      raw: [] as string[],
+      cleaned: [] as string[],
+      simplified: [] as string[],
+      english: [] as string[],
+      'child-friendly': [] as string[],
+      modern: [] as string[],
+    },
   }),
 
   getters: {},
 
-  actions: {},
+  actions: {
+    resetMarkAsRead() {
+      this.read = {
+        raw: [],
+        cleaned: [],
+        simplified: [],
+        english: [],
+        'child-friendly': [],
+        modern: [],
+      }
+    },
+    markAsRead(variant: VariantTypes, id: string, read: boolean) {
+      console.log('markAsRead', variant, id, read)
+      //check if the story is already marked as read
+      const index = this.read[variant].indexOf(id)
+      if (!read && index !== -1) {
+        //remove from read list
+        this.read[variant].splice(index, 1)
+      } else if (read && index === -1) {
+        //add to read list
+        this.read[variant].push(id)
+      }
+    },
+    getMarkedAsRead(variant: VariantTypes, id: string) {
+      return this.read[variant].includes(id)
+    },
+  },
   persist: true,
 })
 

@@ -41,6 +41,9 @@
 
           <q-slider v-model="settings.fontSize" :min="12" :max="30" :step="2" />
         </q-item>
+        <q-list class="text-center">
+          <q-btn @click="settings.resetMarkAsRead()" label="Reset markert som lest" color="primary" />
+        </q-list>
       </q-list>
     </q-drawer>
 

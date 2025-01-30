@@ -54,7 +54,7 @@
         <q-card-section :style="{ 'font-size': settings.fontSize + 'px' }">
           <template v-if="settings.legacy">
             {{ portraits.find((p) => p.name === slide)?.description }}
-            </template>
+          </template>
           <template v-else>
             {{ portraits.find((p) => p.name === slide)?.prompt }}
           </template>
@@ -84,18 +84,19 @@ type Section = {
 
 const settings = useSettingsStore();
 const route = useRoute();
-const id = ref(route.params.id);
+const id = ref(route.params.id as string);
 const text = ref("");
 const mainImage = ref("");
 // Computed property for preserving spaces and line breaks
 const formattedText = ref("");
-const portraits = ref<{ name: string, path: string, description: string,prompt?:string }[]>([]);
+const portraits = ref<{ name: string, path: string, description: string, prompt?: string }[]>([]);
 const slide = ref("");
 const sectionIndex = ref(0);
 const section = ref<Section | undefined>(undefined);
 const prevSection = ref<Section | undefined>(undefined);
 const nextSection = ref<Section | undefined>(undefined);
 const setTitle = ref("");
+
 
 settings.$subscribe((mutation, state) => {
   loadVariant(state.variant);
@@ -112,6 +113,9 @@ const escapeHtml = (str: string) => {
     .replace(/'/g, "&#039;");
 };
 
+function setMarkedAsRead(read: boolean) {
+  settings.markAsRead(settings.variant, id.value, read);
+}
 
 const loadVariant = async (variant: VariantTypes | "child") => {
   console.log("Loading variant", variant);
@@ -159,6 +163,8 @@ const loadVariant = async (variant: VariantTypes | "child") => {
   text.value = await response.text();
   formattedText.value = escapeHtml(text.value).replace(/\n/g, "<br>");
   mainImage.value = imagePath;
+
+  setMarkedAsRead(true);
 };
 
 const loadPortraits = async () => {
@@ -236,7 +242,7 @@ onMounted(() => {
 });
 
 watch(() => route.params.id, () => {
-  id.value = route.params.id;
+  id.value = route.params.id as string;
   updateData();
 });
 </script>

@@ -22,28 +22,26 @@
       <div class="_q-mb-sm q-pa-sm">
         <variant-selector></variant-selector>
       </div>
-      <q-toolbar v-if="false" class="row q-gutter-xs full-width">
-        <q-btn v-for="variant in VARIANTS" :key="variant" :label="variant"
-          :color="settings.variant === variant ? 'primary' : 'secondary'" @click="settings.variant = variant"
-          :flat="settings.variant === variant"></q-btn>
-      </q-toolbar>
-
+      <q-toggle v-model="settings.filteredRead" label="Vis kun uleste eventyr" />
 
       <div class="row">
-        <div v-for="(fairytale) in fairytales" :key="fairytale.id" class="col-sm-6 col-12 q-pa-sm">
-          <q-card class="">
-            <q-img :src="getImageSrc(fairytale.id, fairytale.index)" alt="Main image"
-              @click="viewVariants(fairytale.id)">
-              <div class="absolute-bottom text-subtitle2 text-center">
-                <!-- {{ index }}: {{ fairytale.title }} -->
-                {{ getTitle(fairytale) }}
-                <template v-if="false">
-                  - {{ fairytale.index }}
-                </template>
-              </div>
-            </q-img>
-          </q-card>
-        </div>
+        <template v-for="(fairytale) in fairytales" :key="fairytale.id">
+          <div class="col-sm-6 col-12 q-pa-sm" v-if="!settings.filteredRead || !getMarkedAsRead(fairytale.id)">
+            <q-card :square="getMarkedAsRead(fairytale.id)" :flat="getMarkedAsRead(fairytale.id)"
+              :bordered="getMarkedAsRead(fairytale.id)" :class="{ 'read': getMarkedAsRead(fairytale.id) }">
+              <q-img :src="getImageSrc(fairytale.id, fairytale.index)" alt="Main image"
+                @click="viewVariants(fairytale.id)">
+                <div class="absolute-bottom text-subtitle2 text-center">
+                  <!-- {{ index }}: {{ fairytale.title }} -->
+                  {{ getTitle(fairytale) }}
+                  <template v-if="false">
+                    - {{ fairytale.index }}
+                  </template>
+                </div>
+              </q-img>
+            </q-card>
+          </div>
+        </template>
       </div>
     </div>
   </q-page>
@@ -59,6 +57,10 @@ import { createNotify } from 'src/logic/utils';
 const fairytales = ref<{ id: string; title: string; titleCleaned: string; titleEnglish: string; mainImage: string; description: string; index: number }[]>([]);
 const router = useRouter();
 const settings = useSettingsStore();
+
+function getMarkedAsRead(id: string) {
+  return settings.getMarkedAsRead(settings.variant, id);
+}
 
 //computed image src
 function getImageSrc(id: string, index: number) {
@@ -86,6 +88,8 @@ function getImageSrc(id: string, index: number) {
   }
 
 }
+
+
 
 function getTitle(fairytale: any) {
   if (settings.legacy) {
@@ -152,3 +156,12 @@ const viewCharacters = (id: string) => {
   router.push({ name: 'characters', params: { id } });
 };
 </script>
+<style lang="scss" scoped>
+.q-card {
+  cursor: pointer;
+}
+
+.read {
+  opacity: 0.7;
+}
+</style>
