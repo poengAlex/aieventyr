@@ -154,7 +154,7 @@ const loadVariant = async (variant: VariantTypes | "child") => {
       imageType = "cleaned";
     }
     //Ex: /new/images/main/cleaned/tale1.png
-    imagePath = `/new/images/main/${imageType}/tale${taleNr}.png`;
+    imagePath = `/new/images-optimized/main/${imageType}/tale${taleNr}.webp`;
     setTitle.value = title;
     console.log("Image path", imagePath);
   }
@@ -188,7 +188,7 @@ const loadPortraits = async () => {
     portraits.value = data.characters;
     //Add path to each portrait /output/imagesGen/${id.value}/${name}.png
     portraits.value.forEach((portrait, index) => {
-      portrait.path = `/new/images/characters/tale${taleNr}_character${index}.png`;
+      portrait.path = `/new/images-optimized/characters/tale${taleNr}_character${index}.webp`;
     });
     if (portraits.value !== undefined && portraits.value.length > 0) {
       slide.value = portraits.value[0]!.name;

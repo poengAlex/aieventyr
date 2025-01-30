@@ -82,7 +82,7 @@ function getImageSrc(id: string, index: number) {
       variant = 'cleaned';
     }
 
-    const path = `/new/images/main/${variant}/tale${index}.png`;
+    const path = `/new/images-optimized/main/${variant}/tale${index}.webp`;
     // console.log(id, index, path);
     return path;
   }
