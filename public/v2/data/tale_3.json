@@ -1,0 +1,41 @@
+{
+  "characters": [
+    {
+      "name": "The King",
+      "prompt": "An old, regal king with a kind demeanor, wearing rich, gold-trimmed robes and a crown, appearing concerned and sorrowful, standing in a grand throne room."
+    },
+    {
+      "name": "The Twelve Princesses",
+      "prompt": "Twelve young, beautiful princesses with flowing dresses of various colors, each wearing a simple golden crown, appearing identical, and exuding grace and poise."
+    },
+    {
+      "name": "The Twelve Princes",
+      "prompt": "Twelve strong and noble young princes, each wearing polished armor and capes, standing proudly, with determined expressions, ready for an adventurous journey."
+    },
+    {
+      "name": "Youngest Prince",
+      "prompt": "The youngest prince, with a youthful and curious expression, wearing a more understated armor with a distinct crest, holding a magical sword, and displaying a sense of bravery."
+    },
+    {
+      "name": "Troll King",
+      "prompt": "A large and menacing troll with twelve heads, each snarling and looking ferocious, seated in a luxurious, albeit dark and eerie throne room."
+    },
+    {
+      "name": "Troll Prince",
+      "prompt": "A tall and sinister-looking troll prince, with sharp features and dark clothing, standing in the shadows, yet offering unexpected alliances."
+    },
+    {
+      "name": "Ridder Rød",
+      "prompt": "A richly dressed warrior with a crimson cape, with a proud and jealous expression, holding a sword, and appearing as an imposing figure on the ship's deck."
+    },
+    {
+      "name": "Fugl Dam",
+      "prompt": "A gigantic mythical bird with bright and colorful plumage, as large as a ship, with a majestic feather in its neck, soaring through the sky carrying a person on its back."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate the pivotal scene on the mystical island, where the youngest prince encounters a barking dog that transforms into a princess, amidst the surreal magical energy of the enchanted island under a bright midday sun.",
+  "modernMainImagePrompt": "Create a vibrant illustration of a modern city where twelve sisters mysteriously disappear, and twelve brothers in contemporary attire set out on an adventurous mission using modern technology and vehicles.",
+  "childMainImagePrompt": "Design a cheerful and colorful image featuring the youngest prince befriending a cute, magical puppy on a sunny island, full of playful animals and gentle magical elements, suitable for a 5-year-old audience.",
+  "simplifiedMainImagePrompt": "Generér et klart og engagerende billede af øjeblikket, hvor den yngste prins redder prinsesserne fra troldkongen, illustreret med en moderne norsk stil.",
+  "englishMainImagePrompt": "Produce an engaging illustration depicting the climactic rescue scene where the youngest prince, with sword in hand, bravely faces the multi-headed troll king to save the twelve princesses, capturing the tale's traditional storytelling charm."
+}

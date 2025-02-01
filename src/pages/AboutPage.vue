@@ -61,6 +61,11 @@
     This project is a mix of cultural preservation and modern technology. It showcases how old stories can gain new
     life in a digital, AI-driven world. I hope you enjoy exploring this labor of love!
 
+    <h5>V2 and V3</h5>
+    Spent a couple more evenings fixing bugs, errors and outputs. V3 uses model o1.
+    Some of the tales were incomplete, mostly because of the output token limitations of the 4o model.
+    <br>
+    Also, I optimized the images for web. The AI output were crazy big and made the site sluggish.
 
     <div class="text-caption q-mt-md">
       Written by AI, based on my notes.

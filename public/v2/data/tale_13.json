@@ -1,0 +1,33 @@
+{
+  "characters": [
+    {
+      "name": "The Poor Man's Daughter",
+      "prompt": "a young, beautiful and kind girl with long, flowing hair, dressed in simple but tidy clothes, with a curious and hopeful expression"
+    },
+    {
+      "name": "The Queen",
+      "prompt": "a regal woman with a kind demeanor, wearing luxurious royal robes and a crown, with an air of authority and gentleness"
+    },
+    {
+      "name": "First Old Woman",
+      "prompt": "an old woman with a long, three-yard nose, wearing a worn shawl and a wise yet slightly mischievous expression"
+    },
+    {
+      "name": "Second Old Woman",
+      "prompt": "an elderly lady with a broad and thick waist, barely fitting through a doorway, wearing a simple dress and appearing welcoming"
+    },
+    {
+      "name": "Third Old Woman",
+      "prompt": "an aged woman with eyes as large as saucers, red and watering, wearing a modest outfit and exuding warmth despite her appearance"
+    },
+    {
+      "name": "The Prince",
+      "prompt": "a handsome young prince with a charming demeanor, dressed in elegant princely attire, looking inquisitive yet sincere"
+    }
+  ],
+  "cleanedMainImagePrompt": "Imagine a scene in a lavish royal dining hall. The young, beautiful daughter sits beside the charming prince at a grand table. Alongside them, three peculiar old women with distinct features - a long-nosed woman, a broad-waisted lady, and a large-eyed old woman. The scene is set in a richly decorated room, with laughter and conversation filling the air.",
+  "modernMainImagePrompt": "Visualize a modern living room where a young woman celebrates with her significant other. They are joined by three quirky elderly relatives, each with unique features, casually dressed to fit today's fashion. The room is bright and lively, with modern decor and a sense of familial warmth.",
+  "childMainImagePrompt": "Create a colorful and friendly illustration of a princess at a fun tea party with three silly-looking fairy godmothers, each with amusing oversized features. The scene is set in a magical castle room, filled with toys and laughter, appealing to young children.",
+  "simplifiedMainImagePrompt": "Picture a cozy Norwegian home depicted in modern language, where a young girl with a loving spirit sits with her family and three unusual yet lovable old relatives sharing stories. The scene captures a sense of warmth and belonging.",
+  "englishMainImagePrompt": "Depict a scene in a grand medieval-style castle hall, with a young maiden seated at a feast beside a noble prince. Three distinct and odd old ladies, each with exaggerated features, join the gathering. The atmosphere is festive, capturing the charm and whimsy of a classic fairy tale."
+}

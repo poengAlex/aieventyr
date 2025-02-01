@@ -24,6 +24,29 @@ const client = new OpenAI({
   apiKey: process.env['OPENAI_API_KEY'],
 })
 
+class RateLimiter {
+  constructor(maxRequests, timeWindow) {
+    this.maxRequests = maxRequests
+    this.timeWindow = timeWindow
+    this.tokens = maxRequests
+    this.lastRefill = Date.now()
+  }
+
+  async acquireToken() {
+    while (this.tokens <= 0) {
+      const now = Date.now()
+      const timePassed = now - this.lastRefill
+      if (timePassed >= this.timeWindow) {
+        this.tokens = this.maxRequests
+        this.lastRefill = now
+      } else {
+        await delay(100)
+      }
+    }
+    this.tokens--
+  }
+}
+
 async function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
@@ -37,6 +60,8 @@ async function fileExists(path) {
   }
 }
 
+const rateLimiter = new RateLimiter(5, 60000) // 5 requests per second
+
 async function generateImage(prompt, outputPath) {
   // Check if image already exists
   if (await fileExists(outputPath)) {
@@ -45,6 +70,7 @@ async function generateImage(prompt, outputPath) {
   }
 
   try {
+    await rateLimiter.acquireToken()
     console.log('Generating image with prompt:', prompt)
     const response = await client.images.generate({
       model: 'dall-e-3',
@@ -55,7 +81,18 @@ async function generateImage(prompt, outputPath) {
       quality: 'hd',
     })
 
+    //check if the reponse has errors
+    if (response.errors) {
+      console.error('Error generating image. Prompt:', prompt)
+      console.error(response.errors)
+      return
+    }
+
     const imageUrl = response.data[0].url
+    if (!imageUrl) {
+      console.error('Error generating image. Prompt:', prompt)
+      return
+    }
     const imageResponse = await fetch(imageUrl)
     const buffer = await imageResponse.arrayBuffer()
     await fs.writeFile(outputPath, Buffer.from(buffer))
@@ -85,14 +122,16 @@ async function processFile(filename) {
     throw new Error(`Invalid JSON format in file: ${filename}`)
   }
 
-  // Generate character images
-  for (const [index, character] of data.characters.entries()) {
-    const imagePath = path.join(CHARACTERS_DIR, `tale${taleNumber}_character${index}.png`)
-    console.log(`Generating character image for ${character.name}...`)
-    await generateImage(character.prompt, imagePath)
-  }
+  // Generate all images in parallel while respecting rate limits
+  const imagePromises = []
 
-  // Generate main images for each variant
+  // Add character image generation promises
+  data.characters.forEach((character, index) => {
+    const imagePath = path.join(CHARACTERS_DIR, `tale${taleNumber}_character${index}.png`)
+    imagePromises.push(generateImage(character.prompt, imagePath))
+  })
+
+  // Add main image variant generation promises
   const variants = {
     [IMAGE_TYPES.CLEANED]: data.cleanedMainImagePrompt,
     [IMAGE_TYPES.MODERN]: data.modernMainImagePrompt,
@@ -101,11 +140,13 @@ async function processFile(filename) {
     [IMAGE_TYPES.ENGLISH]: data.englishMainImagePrompt,
   }
 
-  for (const [variant, prompt] of Object.entries(variants)) {
+  Object.entries(variants).forEach(([variant, prompt]) => {
     const imagePath = path.join(MAIN_IMAGES_DIR, variant, `tale${taleNumber}.png`)
-    console.log(`Generating ${variant} main image for tale ${taleNumber}...`)
-    await generateImage(prompt, imagePath)
-  }
+    imagePromises.push(generateImage(prompt, imagePath))
+  })
+
+  // Wait for all images to be generated
+  await Promise.all(imagePromises)
 }
 
 async function main() {
@@ -123,12 +164,13 @@ async function main() {
     // Get all JSON files
     const files = (await fs.readdir(INPUT_DIR)).filter((f) => f.endsWith('.json'))
 
-    // Process each file
-    for (const file of files) {
-      console.log(`Processing ${file}...`)
-      await processFile(file)
-      console.log(`Completed ${file}`)
-    }
+    // Process files in parallel
+    await Promise.all(
+      files.map((file) => {
+        console.log(`Processing ${file}...`)
+        return processFile(file).then(() => console.log(`Completed ${file}`))
+      }),
+    )
 
     console.log('All images generated successfully')
   } catch (error) {

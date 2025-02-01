@@ -1,0 +1,29 @@
+{
+  "characters": [
+    {
+      "name": "Askeladden",
+      "prompt": "Depict a young man with a humble yet clever demeanor. He is dressed in simple, rustic clothing indicative of a peasant from a classic Norwegian folktale. In one hand, he holds a large wooden trough, symbolizing his resourcefulness and connection to his heritage."
+    },
+    {
+      "name": "Troll",
+      "prompt": "Illustrate a menacing troll typical of Norwegian folklore, with exaggerated features such as a large, hideous face, wild hair, and oversized limbs. The troll should appear fearsome yet slightly comical, embodying the mythical nature often portrayed in such tales."
+    },
+    {
+      "name": "The King's Daughter",
+      "prompt": "Represent a princess with a regal air, wearing a traditional Norwegian gown with intricate patterns and vibrant colors. Her expression is one of grace and admiration, hinting at her significant role within the royal family."
+    },
+    {
+      "name": "Evil Brothers",
+      "prompt": "Show two young men with sly expressions, dressed in slightly more refined peasant clothing compared to Askeladden. Their body language should convey a sense of jealousy and mischief, highlighting their roles as antagonists to Askeladden."
+    },
+    {
+      "name": "The Troll's Daughter",
+      "prompt": "Depict a young female troll with gentler features than her father, wearing ragged clothes and having a somewhat naive and unsuspecting look. Her appearance should contrast with the more intimidating presence of the troll."
+    }
+  ],
+  "cleanedMainImagePrompt": "Create an illustration depicting Askeladden in a wooden trough rowing across a serene Norwegian lake at dawn. The water glistens as seven silver ducks swim gracefully. In the background, a mystical troll stands on the opposite shore, looking surprised and angered by the scene. The image captures the folklore's magical essence.",
+  "modernMainImagePrompt": "Generate an illustration showing Askeladden as a young adult in modern casual attire, rowing a sleek kayak on a tranquil lake surrounded by lush, contemporary Nordic landscapes. Seven robotic ducks swim beside him. Onshore, the troll is reimagined as a modern-day environmental activist with a protest sign, adding a humorous twist.",
+  "childMainImagePrompt": "Design a cute and whimsical illustration for children where Askeladden is a cheerful and adventurous young boy paddling a bright blue rowboat. The scene is filled with colorful cartoon ducks and a friendly troll who looks more curious than threatening. The setting is a magical, fairy-tale-like forest full of playful creatures.",
+  "simplifiedMainImagePrompt": "Illustrate a scene from the story in modern Norwegian, showing Askeladden in a classic boat with the seven silver ducks on a calm fjord. The troll appears in the distance, looking perplexed. The setting should reflect a contemporary yet timeless Norwegian village, with charming wooden houses in the background.",
+  "englishMainImagePrompt": "Create an image depicting Askeladden's adventure in an English-translated adaptation. He rows a large, rustic wooden tray across a reflective lake with seven elegant silver ducks trailing behind. The troll is animated and expressive, standing on a rocky shore in traditional Norwegian terrain. The mood is whimsical and adventurous."
+}

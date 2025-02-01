@@ -34,19 +34,43 @@ export const VARIANT_TEXT: Record<VariantTypes, string> = {
   modern: 'AI modernisert',
 }
 
+export const VERSION_TEXT: Record<'1' | '2' | '3', string> = {
+  '1': 'Original version model 4o, men med en del bugs',
+  '2': 'Model 4o med en del bugs fikset',
+  '3': 'Model o1 med enda flere bugs fikset',
+}
+
 export const useSettingsStore = defineStore('settings', {
   state: () => ({
     variant: 'simplified' as VariantTypes,
     fontSize: 18,
-    legacy: false, //Old version of the stories and images
+    version: '3' as '1' | '2' | '3',
     filteredRead: false,
     read: {
-      raw: [] as string[],
-      cleaned: [] as string[],
-      simplified: [] as string[],
-      english: [] as string[],
-      'child-friendly': [] as string[],
-      modern: [] as string[],
+      '1': {
+        raw: [] as string[],
+        cleaned: [] as string[],
+        simplified: [] as string[],
+        english: [] as string[],
+        'child-friendly': [] as string[],
+        modern: [] as string[],
+      },
+      '2': {
+        raw: [] as string[],
+        cleaned: [] as string[],
+        simplified: [] as string[],
+        english: [] as string[],
+        'child-friendly': [] as string[],
+        modern: [] as string[],
+      },
+      '3': {
+        raw: [] as string[],
+        cleaned: [] as string[],
+        simplified: [] as string[],
+        english: [] as string[],
+        'child-friendly': [] as string[],
+        modern: [] as string[],
+      },
     },
   }),
 
@@ -55,28 +79,42 @@ export const useSettingsStore = defineStore('settings', {
   actions: {
     resetMarkAsRead() {
       this.read = {
-        raw: [],
-        cleaned: [],
-        simplified: [],
-        english: [],
-        'child-friendly': [],
-        modern: [],
+        '1': {
+          raw: [],
+          cleaned: [],
+          simplified: [],
+          english: [],
+          'child-friendly': [],
+          modern: [],
+        },
+        '2': {
+          raw: [],
+          cleaned: [],
+          simplified: [],
+          english: [],
+          'child-friendly': [],
+          modern: [],
+        },
+        '3': {
+          raw: [],
+          cleaned: [],
+          simplified: [],
+          english: [],
+          'child-friendly': [],
+          modern: [],
+        },
       }
     },
     markAsRead(variant: VariantTypes, id: string, read: boolean) {
-      console.log('markAsRead', variant, id, read)
-      //check if the story is already marked as read
-      const index = this.read[variant].indexOf(id)
+      const index = this.read[this.version][variant].indexOf(id)
       if (!read && index !== -1) {
-        //remove from read list
-        this.read[variant].splice(index, 1)
+        this.read[this.version][variant].splice(index, 1)
       } else if (read && index === -1) {
-        //add to read list
-        this.read[variant].push(id)
+        this.read[this.version][variant].push(id)
       }
     },
     getMarkedAsRead(variant: VariantTypes, id: string) {
-      return this.read[variant].includes(id)
+      return this.read[this.version][variant].includes(id)
     },
   },
   persist: true,

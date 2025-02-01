@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "name": "Gutten",
+      "prompt": "A curious and determined young Norwegian boy dressed in traditional rustic clothing, with a woolen cap and sturdy boots, standing courageously against a windy background"
+    },
+    {
+      "name": "Nordenvinden",
+      "prompt": "A mystical representation of the North Wind, personified as a swirling, powerful force of nature with a face emerging from the wind, glinting eyes and an ethereal presence"
+    },
+    {
+      "name": "Gjæstgiveren",
+      "prompt": "A sly and opportunistic innkeeper, slightly portly, with a mischievous glint in his eye, wearing an apron and standing in a welcoming yet scheming posture"
+    },
+    {
+      "name": "Guttens Mor",
+      "prompt": "An elderly woman with a kind face, dressed in simple, worn traditional Norwegian attire, resting wearily at home while her son sets out on his journey"
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate a traditional Norwegian setting with the young boy, Gutten, facing a mystical representation of Nordenvinden, a swirling figure in the clouds, while standing on a wooden outdoor staircase, with grain swirling around them. Capture the magical realism and old-world charm of the folktale.",
+  "modernMainImagePrompt": "Depict a young Norwegian boy in modern clothing, holding a smartphone, confronting a digital whirlwind or app icon version of the North Wind in an urban setting, perhaps outside a Scandinavian-style apartment building.",
+  "childMainImagePrompt": "Create a whimsical and colorful illustration showing a cheerful young boy facing a friendly animated cloud character, resembling the North Wind, in a warm and inviting countryside landscape, ensuring it's appealing and gentle for a 5-year-old audience.",
+  "simplifiedMainImagePrompt": "Illustrate a traditional Norwegian setting with the young boy, Gutten, facing a mystical representation of Nordenvinden, a swirling figure in the clouds, while standing on a wooden outdoor staircase, with grain swirling around them. Capture the magical realism and old-world charm of the folktale.",
+  "englishMainImagePrompt": "Create an illustration capturing a quaint Scandinavian village scene, where a spirited young boy, Gutten, in traditional European attire, stands out with determination as he faces a grand and mysterious personification of the North Wind swirling above, evoking the magical and timeless essence of the tale."
+}

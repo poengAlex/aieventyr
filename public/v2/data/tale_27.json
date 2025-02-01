@@ -1,0 +1,33 @@
+{
+  "characters": [
+    {
+      "name": "Halvor",
+      "prompt": "A young Norwegian man with a rugged, determined demeanor, wearing simple, worn-out clothing initially. As the story progresses, he transforms into a noble-looking prince with elegant attire. He has sturdy build, light brown hair, and an adventurous spark in his eyes."
+    },
+    {
+      "name": "Three-Headed Troll",
+      "prompt": "A menacing, gigantic creature with three ferocious heads. Each head has sharp, jagged teeth and fiery eyes. The troll has a bulky physique with rough, scaly skin and long, powerful limbs."
+    },
+    {
+      "name": "Prinsesse (Princess)",
+      "prompt": "A graceful and elegant princess with delicate features. She has long, flowing hair and is adorned in royal garments with intricate designs. Her kind and gentle expression portrays a sense of longing and hope."
+    },
+    {
+      "name": "Second Princess",
+      "prompt": "Another regal and beautiful princess with slightly different attire than the first, emphasizing her individuality. She possesses striking features and an air of bravery. Her gown is decorated with jewels and her presence is enchanting."
+    },
+    {
+      "name": "Third Princess",
+      "prompt": "The youngest princess, noted for her unmatched beauty, surpassing her sisters. Her gown is the most ornate with flowing fabric and shimmering threads. She has a warm, inviting smile and eyes filled with gratitude and affection."
+    },
+    {
+      "name": "Cunning Old Woman",
+      "prompt": "An elderly woman with a hunched posture, dressed in worn, patched clothing. She has a long, pointed nose and sharp, cunning eyes. Her demeanor is both mysterious and slightly mischievous."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate Halvor standing triumphantly outside Soria Moria Castle, holding a gleaming sword in one hand. The castle is grand with bright lights shining from all its windows, and in the background are lush green fields. The three princesses stand nearby in beautiful attire, looking adoringly at Halvor.",
+  "modernMainImagePrompt": "Imagine the tale of Soria Moria Castle set in a modern-day city skyline. Halvor is dressed in contemporary clothing, holding a modern weapon. The princesses are styled in modern fashion, and the three-headed troll is portrayed as a mechanical beast. The scene includes skyscrapers and bustling city life.",
+  "childMainImagePrompt": "Create a friendly and colorful illustration of Halvor, the prince, and the three princesses at Soria Moria Castle. The castle is bright and fairytale-like, with a friendly-looking troll in the background. The scene is cheerful and engaging with flowers and butterflies scattered around.",
+  "simplifiedMainImagePrompt": "Illustrate a simplified version of Halvor standing in front of Soria Moria Castle in bright and vibrant colors. The castle appears as a fairy tale-like structure with the three princesses beside him, smiling warmly. Include elements of Norwegian nature and culture in the background.",
+  "englishMainImagePrompt": "Depict an English-translated scene where Halvor stands valiantly at Soria Moria Castle's entrance. The castle is magnificent, with its grandeur emphasized by light and shadow. The princesses, dressed in medieval-style gowns, appear behind him. The landscape is serene yet majestic, capturing the essence of adventure and romance."
+}

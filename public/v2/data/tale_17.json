@@ -1,0 +1,17 @@
+{
+  "characters": [
+    {
+      "name": "Bjørnen",
+      "prompt": "A large brown bear with a friendly yet gullible expression. The bear has a short, stubby tail due to an unfortunate fishing accident. Its fur is thick and shaggy, and it has big, gentle eyes."
+    },
+    {
+      "name": "Ræven",
+      "prompt": "A clever and cunning fox with a mischievous look in its eyes. It has a sleek, reddish-orange coat with a white-tipped bushy tail. The fox often sports a sly grin and is always looking for an opportunity to trick others."
+    }
+  ],
+  "cleanedMainImagePrompt": "An illustration showing the iconic scene of a bear sitting on ice with its tail submerged in a hole, looking confused as a fox watches from a distance, smirking. The snowy landscape is detailed, with a clear, cold sky and a few trees in the background.",
+  "modernMainImagePrompt": "A modern adaptation of the folktale featuring a bear on a frozen city lake, trying to fish with its tail while a wily fox, wearing a hoodie and sneakers, watches amusedly from the edge. Cars pass by in the background, and a city skyline can be seen.",
+  "childMainImagePrompt": "A child-friendly version of the tale where a cartoon-like bear with big, round eyes and a small tail attempts to fish with its tail on a bright, colorful ice sheet. Nearby, a playful cartoon fox giggles, surrounded by friendly forest animals under a sunny, smiling sky.",
+  "simplifiedMainImagePrompt": "På norsk, et bilde av en bjørn som sitter på isen og fisker med halen, mens en lur rev ser på. Det er vinter, med snødekte trær i bakgrunnen og en klar himmel ovenfor.",
+  "englishMainImagePrompt": "An illustration for an English version of the tale depicting the bear losing its tail in a humorous manner while the fox looks on with amusement. The landscape should be wintry and charming, emphasizing the comical yet sly nature of the story."
+}

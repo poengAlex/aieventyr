@@ -1,0 +1,41 @@
+{
+  "characters": [
+    {
+      "name": "Kari Træstak",
+      "prompt": "a beautiful Norwegian princess wearing a magical dress that glows like gold and diamonds, with a golden horse, setting in medieval fairy tale"
+    },
+    {
+      "name": "The Blue Ox",
+      "prompt": "a large, majestic blue ox with a shiny, smooth hide, exuding a sense of wisdom and magical presence in a green forest setting"
+    },
+    {
+      "name": "The Stepmother",
+      "prompt": "a stern, envious woman with sharp features and a regal air, dressed in dark, noble clothes typical of a medieval queen"
+    },
+    {
+      "name": "The Prince",
+      "prompt": "a handsome, charming prince wearing elegant medieval garments, looking curious and captivated by mysterious events"
+    },
+    {
+      "name": "The Ugly Stepsister",
+      "prompt": "a grumpy, unattractive young woman with disheveled hair and patched medieval clothing"
+    },
+    {
+      "name": "The Three-Headed Troll",
+      "prompt": "a fearsome creature with three grotesque heads, large teeth, and ragged clothing, living in a dark, dense forest"
+    },
+    {
+      "name": "The Six-Headed Troll",
+      "prompt": "an intimidating creature with six monstrous heads, rugged skin, and fierce expressions, set in a silver forest"
+    },
+    {
+      "name": "The Nine-Headed Troll",
+      "prompt": "a gigantic, terrifying troll with nine fearsome heads, glaring eyes, and intimidating presence, in a golden enchanted forest"
+    }
+  ],
+  "cleanedMainImagePrompt": "an elegant and magical illustration of a medieval Norwegian fairytale setting, with a beautiful princess, sparkling golden dress, enchanted forest and a regal castle in the distance",
+  "modernMainImagePrompt": "a modern retelling of the Norwegian fairytale scene, with contemporary clothing and setting, featuring a charismatic young woman, symbolic ox, cityscape with a touch of magic",
+  "childMainImagePrompt": "a vibrant, colorful children's book illustration of a happy princess wearing a glowing dress and playing with a magical blue ox in a friendly enchanted forest",
+  "simplifiedMainImagePrompt": "an illustration with characters in modern Norwegian clothing, experiencing a magical journey through picturesque landscapes and a contemporary castle in the background",
+  "englishMainImagePrompt": "a classic fairytale illustration with English elements, featuring a brave princess, mystical ox, enchanting forests, and a majestic, fairytale castle in the distance"
+}

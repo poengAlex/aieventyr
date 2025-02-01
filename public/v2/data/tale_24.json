@@ -1,0 +1,29 @@
+{
+  "characters": [
+    {
+      "name": "Lillekort",
+      "prompt": "A brave young boy with an adventurous spirit, clad in a mix of tattered old clothes and glorious armor: layers of worn fabric beneath shining gold armor. Features youthful determination and curiosity, carrying a magical sword and a ship that fits in his pocket."
+    },
+    {
+      "name": "Kong Lavring",
+      "prompt": "Identical twin of Lillekort, with a noble and regal appearance, dressed in royal attire befitting a prince. Shares the same youthful determination and adventurous spirit as Lillekort, but depicted slightly more mature and princely."
+    },
+    {
+      "name": "Ridder Rød",
+      "prompt": "A conniving and sly knight with a selfish demeanor, dressed in ornate and overblown red knight armor. Exudes arrogance and tends to hide in the backdrop, unwilling to engage in direct conflict."
+    },
+    {
+      "name": "The Old Witch",
+      "prompt": "An extremely old, hunched woman with a single eye, wearing ragged robes. Her appearance is eerie and mystical, holding magical items to barter with."
+    },
+    {
+      "name": "The Princesses",
+      "prompt": "Both are elegantly dressed young women: one in a gold gown, radiant and exuberant, with an air of strength and royalty, the other in a simpler but equally fine silver gown, more gentle and kind in demeanor."
+    }
+  ],
+  "cleanedMainImagePrompt": "Depict the moment when Lillekort battles the three-headed troll by the seashore. Lillekort is in heroic pose wielding his magic sword, the troll menacing with its massive size and multiple heads, the background is a mystical Nordic landscape with the ship ready to sail.",
+  "modernMainImagePrompt": "Imagine Lillekort as a young adventurer in today's world, dressed in a leather jacket instead of armor, holding a sleek modern sword, standing bravely against a futuristic robotic monster by a bustling urban waterfront.",
+  "childMainImagePrompt": "Illustrate a friendly and colorful scene where a courageous Lillekort, a young boy with bright eyes and simple old-time clothing, courageously faces a funny-looking, non-threatening troll under the warm sun near a sparkling blue lake.",
+  "simplifiedMainImagePrompt": "Tegn scenen hvor Lillekort modig kjemper mot trollene ved sjøen. Lillekort, i sitt magiske antrekk, og trollene som er store og skumle. Bakgrunnen er en eventyrlig norsk skog med skipet ved kysten, klart til å dra av gårde.",
+  "englishMainImagePrompt": "Illustrate the dramatic scene where Lillekort, armored in gold, faces the fearsome trolls with multiple heads on a mystical beach. Capture the contrast between Lillekort's bravery and the trolls' menacing presence, set against a backdrop of mystical mountains and ocean."
+}

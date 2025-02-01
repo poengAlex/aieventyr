@@ -64,7 +64,7 @@ function getMarkedAsRead(id: string) {
 
 //computed image src
 function getImageSrc(id: string, index: number) {
-  if (settings.legacy) {
+  if (settings.version === "1") {
     if (settings.variant === 'child-friendly') {
       return `/output/mainImages/${id}_child.png`;
     } else if (settings.variant === 'english') {
@@ -82,7 +82,8 @@ function getImageSrc(id: string, index: number) {
       variant = 'cleaned';
     }
 
-    const path = `/new/images-optimized/main/${variant}/tale${index}.webp`;
+
+    const path = `/v${settings.version}/images-optimized/main/${variant}/tale${index}.webp`;
     // console.log(id, index, path);
     return path;
   }
@@ -92,7 +93,7 @@ function getImageSrc(id: string, index: number) {
 
 
 function getTitle(fairytale: any) {
-  if (settings.legacy) {
+  if (settings.version === "1") {
     return fairytale.title;
   } else {
     if (settings.variant === 'child-friendly') {
@@ -117,7 +118,7 @@ onMounted(() => {
 const loadFairytales = async () => {
   try {
     let response;
-    if (settings.legacy) {
+    if (settings.version === "1") {
       response = await fetch('/sections.json'); // Replace with actual metadata source
     } else {
       response = await fetch('/sections_v3.json');
@@ -135,7 +136,7 @@ const loadFairytales = async () => {
       index: item.index,
       titleCleaned: item.title_cleaned,
       titleEnglish: item.title_modern,
-      mainImage: `/output/mainImages/${item.id}.png`,
+      mainImage: `/output/mainImages/${item.id}.png.webp`,
       description: item.description || 'A Norwegian fairytale',
     }));
     console.log(fairytales.value[0]);

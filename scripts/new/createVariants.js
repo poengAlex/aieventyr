@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 // Directories
-const FOLDER_INPUT = path.join(__dirname, '../../public/new/cleaned')
+const FOLDER_INPUT = path.join(__dirname, '../../public/new/variants/cleaned')
 const FOLDER_OUTPUT = path.join(__dirname, '../../public/new/variants')
 const SECTION_PATH = path.join(__dirname, '../../public/sections_new.json')
 
@@ -19,34 +19,46 @@ const client = new OpenAI({
 
 const promptMap = {
   simplified: (text) => `
-    Simplify the following text while keeping the meaning intact. Use modern Norwegian language. Replace objects, words and names that are no longer in use with modern equivalents.
+    Simplify the following old Norwegian fairytale text while keeping the meaning intact.
+    Use modern Norwegian language.
+    Use line breaks where needed so the text is easy to read.
+    Replace objects, words, meanings and names that are no longer in use with modern equivalents.
     Text:
     ${text}
   `,
   child: (text) => `
-    Rewrite the following text to make it child-friendly. Use simple and modern Norwegian language and ensure it is suitable for a 5 year old audience. Do not use any words that are too difficult for a child to understand.
+    Rewrite the following old Norwegian fairytale text to make it child-friendly.
+    Use simple and modern Norwegian language and ensure it is suitable for a 5 year old audience or younger.
+    Do not use any words that are too difficult for a child to understand.
+    Use line breaks where needed so the text is easy to read.
+    Replace objects, words, meanings and names that are no longer in use with modern equivalents that children can understand.
+    Feel free to change the fairy tale completely, just keep some elements of the original.
     Text:
     ${text}
   `,
   english: (text) => `
-    Translate the following text into English, while retaining the original meaning and storytelling style.
+    Translate the following old Norwegian fairytale into English, while retaining everything as much as possible from the norwegian version.
+    Use line breaks where needed so the text is easy to read.
+    Replace objects, words, meanings and names that are no longer in use in with modern equivalents.
     Text:
     ${text}
   `,
   modern: (text) => `
-    Rewrite the following text as if it takes place in today's society. The characters should remain as same as possible and the moral and plot should be preserved as long as that is possible.
+    Rewrite the following old Norwegian fairytale as if it takes place in today's society. The characters should remain as same as possible and the moral and plot should be preserved as long as that is possible.
     Be creative, do not just replace old objects with modern ones. Change the story a lot!
-    Use modern Norwegian language
+    Keep something from the original like the plot, moral or main characters.
+    Use line breaks where needed so the text is easy to read.
+    Use modern Norwegian language.
     Text:
     ${text}
   `,
 }
 
 async function generateVariant(text, variant) {
-  let temperature = variant === 'modern' ? 1.1 : 0.7 //modern variant needs higher temperature or else it will only be app makers
+  let temperature = variant === 'modern' || variant === 'child' ? 1.1 : 0.7 //modern/child variant needs higher temperature or else it will only be app makers
   const chatCompletion = await client.chat.completions.create({
-    model: 'gpt-4o',
-    temperature: temperature,
+    model: 'o1',
+    // temperature: temperature, //not supported in chat model
     messages: [
       { role: 'system', content: promptMap[variant](text) },
       { role: 'user', content: text },

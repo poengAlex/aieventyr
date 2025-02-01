@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "name": "Gjertrud",
+      "prompt": "a woman wearing a bright red cap on her head, appearing stubborn and slightly mischievous. She is portrayed at a baking table, rolling out dough with a look of mild defiance in her eyes."
+    },
+    {
+      "name": "Our Lord",
+      "prompt": "a benevolent, kind-looking man with an aura of wisdom and patience. He wears simple robes that convey humility and respect, with a celestial glow surrounding him."
+    },
+    {
+      "name": "St. Peter",
+      "prompt": "a gentle, wise elder with a long, flowing gray beard, dressed in humble attire that reflects his role as a humble follower of Our Lord. He exudes kindness and serenity."
+    },
+    {
+      "name": "Gjertrudsfuglen",
+      "prompt": "a small bird with a bright red cap resembling a tiny creature's head attire, entirely black over its body. It appears lively, as it hops around trees pecking at the bark, its eye showing perpetual thirst."
+    }
+  ],
+  "cleanedMainImagePrompt": "an ancient kitchen scene with Gjertrud, a woman in a red cap, stubbornly rolling dough at a rustic stove, as Our Lord, a serene divine figure, and St. Peter, a wise elder, look on in mild disappointment. The transformation of Gjertrud into a small, black bird flying up a chimney is subtly depicted in the background.",
+  "modernMainImagePrompt": "a contemporary kitchen where Gjertrud, portrayed as a modern woman in contemporary clothing with a hint of a red headband, is using an electric oven to bake, casting dubious glances at two men, one with an authoritative but kind presence, the other older and gentler, transforming into a small bird noted for its striking red head and black plumage, as it exits a ventilation hood.",
+  "childMainImagePrompt": "a cheerful, colorful kitchen with Gjertrud, a friendly-looking woman in a bright red hat, playfully baking tiny bread for two friendly, smiling visitors, one looking like a wise old grandpa. In the background, a cute little bird with a red head and black body whizzes up a tiny chimney, surrounded by a soft rainbow glow.",
+  "simplifiedMainImagePrompt": "en moderne, koselig kjøkkenkrok hvor Gjertrud iført en rød lue baker smålefser i en ordentlig bakeovn, mens to vennlige menn, en litt mystisk og en eldre, ser på med vennlige smil. Et lite sort og rødt fugl mobiliserer fra pipen i et magisk øyeblikk.",
+  "englishMainImagePrompt": "in a rustic, fairytale kitchen setting, Gjertrud wearing a distinctive red cap firmly rolls out dough at a wooden table, glanced at by benevolent-looking Our Lord and his kind companion, St. Peter. In the shadowy background, hint at her fantastical transformation into a black bird with a notable red cap flying upward through the chimney."
+}

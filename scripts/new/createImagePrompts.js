@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 const FOLDER_CLEAN = path.join(__dirname, '../../public/new/variants/cleaned')
-const SECTION_PATH = path.join(__dirname, '../../public/sections_new.json')
+const SECTION_PATH = path.join(__dirname, '../../public/sections_v3.json')
 const OUTPUT_DIR = path.join(__dirname, '../../public/new/data')
 
 const client = new OpenAI({
@@ -20,6 +20,8 @@ async function generateImagePrompts(text, title) {
     Analyze the following Norwegian folktale and create JSON output containing:
     1. List of main characters with their description for image generation
     2. A prompt for generating a main image of the different variants of the tale
+    3. The main image prompt should be detailed and descriptive
+    4. Stay inline with the place (Norway) and time (olden days 1400 - 1850).
 
     Title: ${title}
     Text: ${text}
@@ -41,7 +43,7 @@ async function generateImagePrompts(text, title) {
   `
 
   const response = await client.chat.completions.create({
-    model: 'gpt-4o',
+    model: 'o1',
     messages: [{ role: 'user', content: prompt }],
     response_format: { type: 'json_object' },
     // temperature: 0.7,

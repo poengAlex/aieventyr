@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "name": "Giske",
+      "prompt": "A disheveled woman with long bare legs, wearing tattered medieval clothing surrounded by hemp plants. Her face is covered in soot and oil, making her appear both comical and frightening."
+    },
+    {
+      "name": "The Widower",
+      "prompt": "A weary middle-aged man with a rugged beard, wearing rustic work clothes typical of a Norwegian farmer. He has a worried expression as he tries to escape his housekeeper's demands."
+    },
+    {
+      "name": "The Two Thieves",
+      "prompt": "Two ragged men in patched clothes, looking nervous and startled. They appear comical, with exaggerated fearful expressions, as they try to run away from Giske."
+    },
+    {
+      "name": "The Priest",
+      "prompt": "An elderly man with a kind, but puzzled expression, dressed in traditional priest's attire from the time period. In a humorous twist, he's possibly wearing household slippers."
+    }
+  ],
+  "cleanedMainImagePrompt": "Illustrate a comical scene in a medieval Norwegian forest where a soot-covered Giske, with wild hair and dressed in ragged clothes, is chasing two frightened thieves. The background showcases dense trees and a rustic farmhouse, emphasizing the tale's humorous and village-folklore vibe.",
+  "modernMainImagePrompt": "A woman in her early 30s, with unkempt hair, wearing a modern turtleneck sweater and jeans covered in soot and dirt, is chasing two surprised men in today's urban setting. The background shows a city park with a clear blue sky and modern architecture in the distance.",
+  "childMainImagePrompt": "A silly and friendly cartoon version of Giske, with exaggerated soot marks on her face and funny, patched clothes, is happily running after two cartoonish, playful thieves. The scene is set in a bright, colorful forest, with smiling trees and animals watching the chase. Everything looks bright and cheerful, suitable for a young child's storybook.",
+  "simplifiedMainImagePrompt": "A light-hearted scene in modern Norwegian language showing Giske, now a hilarious character with messy hair, blackened face, and torn clothes, running energetically after two startled thieves in a cartoonish forest setting filled with lively animals and houses.",
+  "englishMainImagePrompt": "A humorous tale illustrated with Giske, a woman with a wild and soot-covered appearance, energetically following two terrified thieves through a traditional Norwegian village set in a medieval era. The background is richly detailed with elements of folklore and nature, capturing the story's essence in English."
+}

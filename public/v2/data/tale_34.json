@@ -1,0 +1,21 @@
+{
+  "characters": [
+    {
+      "name": "Mestertyven",
+      "prompt": "a clever and cunning character with a twinkle in his eye, dressed in medieval Scandinavian attire, with a mischievous smile and confident posture"
+    },
+    {
+      "name": "Amtmanden",
+      "prompt": "an authoritative yet concerned older man with a beard, wearing rich nobleman's clothing from the medieval period, showcasing a mix of worry and pride"
+    },
+    {
+      "name": "Amtmanden's Datter",
+      "prompt": "a young and beautiful woman with long flowing hair, wearing an elegant medieval dress, her expression joyful yet reserved"
+    }
+  ],
+  "cleanedMainImagePrompt": "illustration of a medieval Scandinavian wedding scene, showcasing Mestertyven standing confidently beside Amtmanden's Daughter, who looks pleased, while Amtmanden stands nearby, looking relieved. The setting is a grand hall with traditional medieval decorations",
+  "modernMainImagePrompt": "illustration of a modern wedding ceremony set in an urban city courthouse. The groom, representing the Mestertyven, wears a slick suit and has a smirk. The bride, reflecting Amtmanden's Daughter, is in a modern wedding gown, looking happy yet contemplative. The father, a modern equivalent of Amtmanden, is a dignified gentleman in a contemporary suit, appearing proud yet subtly skeptical",
+  "childMainImagePrompt": "a bright, colorful cartoon illustration of a fairytale wedding scene, with Mestertyven as a friendly, clever cartoon character holding hands with a smiling princess-like character in a fantasy dress. The king-like father is in the background, looking cheerful and overjoyed. The scene is set in a whimsical, enchanted castle",
+  "simplifiedMainImagePrompt": "illustration of a Norwegian fairytale wedding with a clever young man and a pleased young woman in traditional wedding outfits, set in a Norwegian countryside churchyard scene, with the bride's father watching happily",
+  "englishMainImagePrompt": "illustration depicting a tale from a fairytale collection, showing a young, clever thief married to the daughter of a nobleman in a medieval Scandinavian setting, with iconic elements such as swords or crowns subtly emphasizing the traditional charm of the story"
+}

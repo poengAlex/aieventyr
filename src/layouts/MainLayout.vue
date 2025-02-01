@@ -28,10 +28,29 @@
 
         <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" />
         <q-separator />
-        <q-item>
+        <!-- <q-item>
           <q-toggle v-model="settings.legacy" label="Bruk første version av historier og bilder"
             @update:model-value="reloadPage" />
+        </q-item> -->
+        <q-item>
+          Version av tekst og bilder:
         </q-item>
+        <q-item>
+          <q-item-section>
+            <q-radio v-model="settings.version" val="1" label="Version 1" @update:model-value="reloadPage" />
+            <q-radio v-model="settings.version" val="2" label="Version 2" @update:model-value="reloadPage" />
+            <q-radio v-model="settings.version" val="3" label="Version 3" @update:model-value="reloadPage" />
+          </q-item-section>
+
+        </q-item>
+        <q-item>
+          <q-item-section side>
+            <q-badge color="primary">
+              {{ VERSION_TEXT[settings.version] }}
+            </q-badge>
+          </q-item-section>
+        </q-item>
+        <q-separator />
         <q-item>
           <q-badge color="primary">
             Fontstørrelse: {{ settings.fontSize }}
@@ -43,6 +62,7 @@
         </q-item>
         <q-list class="text-center">
           <q-btn @click="settings.resetMarkAsRead()" label="Reset markert som lest" color="primary" />
+          <q-btn class="q-mt-xl" @click="resetApp()" label="Reset app" color="negative" icon="delete" />
         </q-list>
       </q-list>
     </q-drawer>
@@ -56,9 +76,15 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import EssentialLink, { type EssentialLinkProps } from 'components/EssentialLink.vue';
-import { useSettingsStore, VARIANTS } from 'src/stores/settings';
+import { useSettingsStore, VARIANTS, VERSION_TEXT } from 'src/stores/settings';
 
 const settings = useSettingsStore();
+
+
+function resetApp() {
+  localStorage.clear();
+  window.location.reload();
+}
 
 function reloadPage() {
   window.location.reload();
@@ -70,6 +96,12 @@ const linksList: EssentialLinkProps[] = [
     caption: 'Oversikt over alle eventyrene',
     icon: 'home',
     link: '/'
+  },
+  {
+    title: 'Bilder',
+    caption: 'En liste med alle bildene som er generert i prosjektet',
+    icon: 'image',
+    link: '/images'
   },
   {
     title: 'Om prosjektet',

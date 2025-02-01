@@ -1,0 +1,25 @@
+{
+  "characters": [
+    {
+      "name": "The Suitor",
+      "prompt": "a young man with hopeful eyes, wearing simple but neat clothing, embarking on a journey with a curious expression"
+    },
+    {
+      "name": "The Man",
+      "prompt": "an older man with a weathered face, wearing a jacket with one new sleeve, wiping dust with the new sleeve while holding his other arm behind his back"
+    },
+    {
+      "name": "The Woman",
+      "prompt": "a middle-aged woman with a proud stance, wearing mismatched footwear featuring one new shoe, kicking items around as if tidying up"
+    },
+    {
+      "name": "The Daughter",
+      "prompt": "a young woman with a cheerful demeanor, peeking through a doorway with a new bonnet on her head, nodding in a friendly manner"
+    }
+  ],
+  "cleanedMainImagePrompt": "an illustration of a quaint farmyard in poverty, with a curious suitor visiting; the man wipes dust with his new sleeve, the woman tidies by kicking with her new shoe, the daughter nods with her new bonnet visible",
+  "modernMainImagePrompt": "an image of a small, modern apartment in poverty, a young man visits, the father cleans dust with a new sleeve on his hoodie, the mother tidies with a new slipper, the daughter wears a new baseball cap and peeks from a door",
+  "childMainImagePrompt": "a friendly and warm cartoon image of a funny family excited to show their home, featuring a friendly man with a shiny new sleeve, a jolly woman with a bright new shoe, and a smiling daughter with a new colorful hat",
+  "simplifiedMainImagePrompt": "an illustration of a simple Norwegian home, depicting a young man visiting a modest family trying to impress him with their few new possessions, showing small upgrades like a new sleeve, shoe, and bonnet",
+  "englishMainImagePrompt": "an illustration of a rural setting, capturing the essence of a young suitor visiting a resourceful yet impoverished family, each wearing their new garment with pride despite their humble surroundings, preserving the folktale's charm"
+}

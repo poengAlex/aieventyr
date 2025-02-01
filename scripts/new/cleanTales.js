@@ -9,9 +9,9 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
 // Directories
-const FOLDER_OUTPUT = path.join(__dirname, '../../public/new/cleaned')
-const FOLDER_INPUT = path.join(__dirname, '../../public/new/tales')
-const SECTION_PATH = path.join(__dirname, '../../public/sections_new.json')
+const FOLDER_OUTPUT = path.join(__dirname, '../../public/new/variants/cleaned')
+const FOLDER_INPUT = path.join(__dirname, '../../public/new/variants/raw')
+const SECTION_PATH = path.join(__dirname, '../../public/sections_v3.json')
 
 const client = new OpenAI({
   apiKey: process.env['OPENAI_API_KEY'], // API key from .env
@@ -23,7 +23,8 @@ async function processText(text) {
     1. Fix obvious OCR errors while maintaining the original old Norwegian/Danish language style.
     2. Remove headers and footers like "X Asbjørnsen og Moe." or "Norske Folke-Eventyr. Y", where X and Y are page numbers.
     3. Try to keep the original text structure and formatting.
-    4. Remove nr from the headings.
+    4. Have line breaks where that is needed.
+    5. Remove nr from the headings.
 
     Only return the text, no introduction or explanation needed. Same goes for outtros and notes.
     No unnecessary spaces or line breaks.
@@ -34,8 +35,8 @@ async function processText(text) {
   `
 
   const chatCompletion = await client.chat.completions.create({
-    model: 'gpt-4o',
-    max_tokens: 16384,
+    model: 'o1',
+    // max_tokens: 100000,
     messages: [
       { role: 'system', content: prompt },
       { role: 'user', content: text },
@@ -67,21 +68,22 @@ async function setupCleanedFolder() {
 async function processSection(section) {
   const { id, title, start, index } = section
 
-  if (start === -1) {
-    console.log(`Skipping section: ${title} (ID: ${id}, Start: -1)`)
-    return
-  }
-
   console.log(`Processing section: ${title} (ID: ${id})`)
 
   try {
+    const outputFilePath = `${FOLDER_OUTPUT}/tale_${index}.txt`
+
+    // Check if output file already exists
+    if (await fsExtra.pathExists(outputFilePath)) {
+      console.log(`Skipping ${title} - Output file already exists`)
+      return
+    }
+
     const filePath = `${FOLDER_INPUT}/tale_${index}.txt`
     const text = await fs.readFile(filePath, 'utf-8')
     const cleanedText = await processText(text)
-    const outputFilePath = `${FOLDER_OUTPUT}/tale_${index}.txt`
     await fs.writeFile(outputFilePath, cleanedText, 'utf-8')
     console.log(`Cleaned text saved to ${outputFilePath}`)
-    //Compare the length of the cleaned text with the original text
     console.log(
       `Original text length: ${text.length}, Cleaned text length: ${cleanedText.length}. Delta: ${text.length - cleanedText.length}`,
     )
@@ -93,13 +95,14 @@ async function processSection(section) {
 async function processSections() {
   try {
     const sections = JSON.parse(await fs.readFile(SECTION_PATH, 'utf-8'))
-    console.log(`Processing ${sections.length} sections in parallel...`)
+    console.log(`Processing ${sections.length} sections sequentially...`)
 
-    // Set up cleaned folder before processing
-    await setupCleanedFolder()
+    // await setupCleanedFolder()
 
-    const processingTasks = sections.map(processSection)
-    await Promise.all(processingTasks)
+    // Process sections one by one
+    for (const section of sections) {
+      await processSection(section)
+    }
 
     console.log('All sections processed successfully.')
   } catch (error) {

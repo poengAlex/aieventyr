@@ -39,12 +39,13 @@
           <div class="text-h6">
             Portretter av karakterer
           </div>
-          <q-carousel swipeable animated v-model="slide" thumbnails infinite arrows style="height: 600px">
-            <q-carousel-slide v-for="portrait in portraits" :key="portrait.name" :name="portrait.name"
-              :img-src="portrait.path">
-
-            </q-carousel-slide>
-          </q-carousel>
+          <div class="portrait-container">
+            <q-carousel swipeable animated v-model="slide" thumbnails infinite arrows class="portrait-carousel">
+              <q-carousel-slide v-for="portrait in portraits" :key="portrait.name" :name="portrait.name"
+                :img-src="portrait.path">
+              </q-carousel-slide>
+            </q-carousel>
+          </div>
         </q-card-section>
         <q-card-section>
           <div class="text-h6">
@@ -52,7 +53,7 @@
           </div>
         </q-card-section>
         <q-card-section :style="{ 'font-size': settings.fontSize + 'px' }">
-          <template v-if="settings.legacy">
+          <template v-if="settings.version === '1'">
             {{ portraits.find((p) => p.name === slide)?.description }}
           </template>
           <template v-else>
@@ -126,12 +127,12 @@ const loadVariant = async (variant: VariantTypes | "child") => {
   let variantPath;
   let imagePath
   let title;
-  if (settings.legacy) {
+  if (settings.version === "1") {
     title = section.value!.title;
     variantPath = `/output/variants/${id.value}/${variant}.txt`;
-    imagePath = `/output/mainImages/${id.value}_${variant}.png`;
+    imagePath = `/output/mainImages/${id.value}_${variant}.png.webp`;
     if (variant === "raw" || variant === "cleaned" || variant === "simplified") {
-      imagePath = `/output/mainImages/${id.value}.png`;
+      imagePath = `/output/mainImages/${id.value}.png.webp`;
     }
     if (variant === "raw") {
       variantPath = `/output/section/${id.value}.txt`;
@@ -147,14 +148,14 @@ const loadVariant = async (variant: VariantTypes | "child") => {
     }
     const taleNr = section.value!.index;
     //Example: new/variants/child/tale_1.txt
-    variantPath = `/new/variants/${variant}/tale_${taleNr}.txt`;
+    variantPath = `/v${settings.version}/variants/${variant}/tale_${taleNr}.txt`;
     console.log("Variant path", variantPath);
     let imageType = variant;
     if (variant === "raw") {
       imageType = "cleaned";
     }
     //Ex: /new/images/main/cleaned/tale1.png
-    imagePath = `/new/images-optimized/main/${imageType}/tale${taleNr}.webp`;
+    imagePath = `/v${settings.version}/images-optimized/main/${imageType}/tale${taleNr}.webp`;
     setTitle.value = title;
     console.log("Image path", imagePath);
   }
@@ -168,27 +169,27 @@ const loadVariant = async (variant: VariantTypes | "child") => {
 };
 
 const loadPortraits = async () => {
-  if (settings.legacy) {
+  if (settings.version === "1") {
     const response = await fetch(`/output/imagesGen/${id.value}/characters.json`);
     const data = await response.json();
     portraits.value = data.characters;
     //Add path to each portrait /output/imagesGen/${id.value}/${name}.png
     portraits.value.forEach((portrait) => {
-      portrait.path = `/output/imagesGen/${id.value}/${portrait.name}.png`;
+      portrait.path = `/output/imagesGen/${id.value}/${portrait.name}.png.webp`;
     });
     if (portraits.value !== undefined && portraits.value.length > 0) {
       slide.value = portraits.value[0]!.name;
     }
   } else {
     const taleNr = section.value!.index;
-    const response = await fetch(`/new/data/tale_${taleNr}.json`);
+    const response = await fetch(`/v${settings.version}/data/tale_${taleNr}.json`);
     const data = await response.json();
     console.log("Portraits", data);
     console.log(data[0]);
     portraits.value = data.characters;
     //Add path to each portrait /output/imagesGen/${id.value}/${name}.png
     portraits.value.forEach((portrait, index) => {
-      portrait.path = `/new/images-optimized/characters/tale${taleNr}_character${index}.webp`;
+      portrait.path = `/v${settings.version}/images-optimized/characters/tale${taleNr}_character${index}.webp`;
     });
     if (portraits.value !== undefined && portraits.value.length > 0) {
       slide.value = portraits.value[0]!.name;
@@ -200,7 +201,7 @@ const loadPortraits = async () => {
 
 const loadSections = async () => {
   let response;
-  if (settings.legacy) {
+  if (settings.version === "1") {
     response = await fetch("/sections.json");
   } else {
     response = await fetch("/sections_v3.json");
@@ -251,5 +252,27 @@ watch(() => route.params.id, () => {
 .q-card {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.portrait-container {
+  max-width: 500px;
+  margin: 0 auto;
+  aspect-ratio: 1;
+}
+
+.portrait-carousel {
+  height: 100%;
+
+  :deep(.q-carousel__slide) {
+    padding: 0;
+    display: grid;
+    place-items: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
 }
 </style>
