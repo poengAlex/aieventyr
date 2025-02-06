@@ -17,11 +17,17 @@
           <div v-if="section" class="text-h6">
             {{ setTitle }}
           </div>
+          <div v-if="audioPath" class="audio-player q-mt-md">
+            <audio controls :src="audioPath" class="full-width">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
           <div v-if="text" v-html="formattedText" :style="{ 'font-size': settings.fontSize + 'px' }">
           </div>
           <div v-else>
             <q-spinner color="primary" />
           </div>
+
         </q-card-section>
       </q-card>
     </div>
@@ -97,13 +103,11 @@ const section = ref<Section | undefined>(undefined);
 const prevSection = ref<Section | undefined>(undefined);
 const nextSection = ref<Section | undefined>(undefined);
 const setTitle = ref("");
-
+const audioPath = ref("");
 
 settings.$subscribe((mutation, state) => {
   loadVariant(state.variant);
 });
-
-
 
 const escapeHtml = (str: string) => {
   return str
@@ -164,6 +168,16 @@ const loadVariant = async (variant: VariantTypes | "child") => {
   text.value = await response.text();
   formattedText.value = escapeHtml(text.value).replace(/\n/g, "<br>");
   mainImage.value = imagePath;
+
+  // Add audio path
+  if (settings.version === "3" && variant !== "raw" && variant !== "cleaned") {
+    const taleNr = section.value!.index;
+    // audioPath.value = `/v${settings.version}/tts/simplified/tale_${taleNr}.mp3`;
+    audioPath.value = `/new/tts/${variant}/tale_${taleNr}.mp3`;
+    console.log("Audio path", audioPath.value);
+  } else {
+    audioPath.value = "";
+  }
 
   setMarkedAsRead(true);
 };
@@ -273,6 +287,12 @@ watch(() => route.params.id, () => {
       height: 100%;
       object-fit: contain;
     }
+  }
+}
+
+.audio-player {
+  audio {
+    border-radius: 8px;
   }
 }
 </style>

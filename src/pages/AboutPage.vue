@@ -67,6 +67,9 @@
     <br>
     Also, I optimized the images for web. The AI output were crazy big and made the site sluggish.
 
+    <h5>TTS</h5>
+    I was bored and added a TTS feature. It is not very good in Norwegian, but it is a fun feature.
+
     <div class="text-caption q-mt-md">
       Written by AI, based on my notes.
     </div>
