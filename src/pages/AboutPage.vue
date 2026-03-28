@@ -2,34 +2,38 @@
   <q-page class="about-page">
     <div class="about-card">
       <div class="eyebrow">About</div>
-      <h1>A cleaner edition of Norske Folkeeventyr</h1>
+      <h1>Readable folktales, rebuilt with AI</h1>
       <p>
-        This rebuild uses one canonical content system instead of multiple historical generations. Each
-        story variant now has its own text, cover image, character set, character art, and audio bundle.
+        I wanted the original Norwegian fairytales in a format that is easier to read, easier to listen
+        to, and easier to revisit than the scanned source material.
       </p>
       <p>
-        The app is designed around two simple steps: browse the library, then open a focused reader.
-        Behind the scenes, a single pipeline prepares the content structure and keeps model and prompt
-        choices in configuration instead of hard-coded scripts.
+        This is a 100% AI-generated project. The text, variants, images, character art, and audio are all
+        produced through one pipeline built around modern OpenAI models.
       </p>
       <div class="fact-grid">
         <div>
-          <div class="fact-label">Variants</div>
-          <div class="fact-value">Original, cleaned, simplified, English, child-friendly, modern</div>
+          <div class="fact-label">Text Workflow</div>
+          <div class="fact-value">Extract source, clean OCR, rewrite into reading variants</div>
+        </div>
+        <div>
+          <div class="fact-label">Creative Output</div>
+          <div class="fact-value">Each variant gets its own text, images, characters, and narration</div>
         </div>
         <div>
           <div class="fact-label">Pipeline</div>
           <div class="fact-value">One canonical content tree under <code>public/content</code></div>
         </div>
-        <div>
-          <div class="fact-label">Models</div>
-          <div class="fact-value">Config-driven OpenAI text, image, and TTS generation</div>
-        </div>
       </div>
-      <p class="small-note">
-        Source material is based on the scanned folktale collection and then rebuilt into reader-friendly
-        variants for the app.
-      </p>
+      <div class="steps">
+        <div class="steps-title">How the text is generated</div>
+        <ol>
+          <li>The original source is extracted from scanned folktale material.</li>
+          <li>AI cleans the OCR and restores the text into a readable base version.</li>
+          <li>That base version is rewritten into different reading variants like simplified Norwegian and English.</li>
+          <li>Each text variant is then used to generate its own characters, scene prompts, images, and audio.</li>
+        </ol>
+      </div>
     </div>
   </q-page>
 </template>
@@ -93,7 +97,25 @@ p {
   line-height: 1.4;
 }
 
-.small-note {
-  font-size: 0.95rem;
+.steps {
+  margin-top: 24px;
+  padding: 18px;
+  border-radius: 20px;
+  background: rgba(245, 238, 223, 0.88);
+}
+
+.steps-title {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(70, 62, 42, 0.62);
+  margin-bottom: 10px;
+}
+
+ol {
+  margin: 0;
+  padding-left: 20px;
+  color: rgba(47, 59, 51, 0.82);
+  line-height: 1.7;
 }
 </style>

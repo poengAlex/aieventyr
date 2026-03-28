@@ -29,7 +29,7 @@
       </section>
 
       <section class="reader-content">
-        <div class="audio-panel" v-if="audioPath">
+        <div v-if="audioPath" class="audio-panel">
           <div class="panel-title">Listen</div>
           <audio controls :src="audioPath" class="full-width" />
         </div>
@@ -116,11 +116,7 @@
         <q-btn v-if="nextStory" flat no-caps :to="`/story/${nextStory.id}`" label="Next story" />
       </section>
 
-      <fullscreen-image-dialog
-        v-model="imageDialogOpen"
-        :src="activeImage.src"
-        :alt="activeImage.alt"
-      />
+      <fullscreen-image-dialog v-model="imageDialogOpen" :src="activeImage.src" :alt="activeImage.alt" />
 
       <q-dialog v-model="characterDialogOpen" maximized transition-show="fade" transition-hide="fade">
         <div v-if="currentCharacter" class="character-dialog">
@@ -175,7 +171,13 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import FullscreenImageDialog from 'src/components/FullscreenImageDialog.vue'
 import VariantSelector from 'src/components/VariantSelector.vue'
-import { getVariantBasePath, loadManifest, loadStory, loadVariantBundle, resolveStoryVariant } from 'src/logic/content'
+import {
+  getVariantBasePath,
+  loadManifest,
+  loadStory,
+  loadVariantBundle,
+  resolveStoryVariant,
+} from 'src/logic/content'
 import { createNotify } from 'src/logic/utils'
 import { useSettingsStore, VARIANT_TEXT } from 'src/stores/settings'
 import type { StoryListItem, StoryMeta, VariantBundle, VariantCharacter, VariantType } from 'src/types/content'

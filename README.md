@@ -110,8 +110,36 @@ npm run lint
 
 ```bash
 npm run pipeline:all
+```
+
+Run the audio-only pipeline:
+
+```bash
+npm run pipeline:all-audio
+```
+
+Run the pipeline for one story:
+
+```bash
 npm run pipeline:story -- --story=askesv
+```
+
+Run audio only for one story:
+
+```bash
+npm run pipeline:story-audio -- --story=askesv
+```
+
+Run the pipeline for one story variant:
+
+```bash
 npm run pipeline:variant -- --story=askesv --variant=simplified
+```
+
+Run audio only for one story variant:
+
+```bash
+npm run pipeline:variant-audio -- --story=askesv --variant=simplified
 ```
 
 ### Individual stages
@@ -132,11 +160,13 @@ npm run pipeline:validate
 npm run pipeline:compare-tts-voices
 ```
 
+`pipeline:all`, `pipeline:story`, and `pipeline:variant` do not run TTS by default. Audio can be tested and rerun separately with the dedicated audio commands above.
+
 ## Documentation
 
-- [Architecture](/Users/alexanderbjorkmann/.codex/worktrees/ef34/aieventyr/docs/architecture.md)
-- [Pipeline](/Users/alexanderbjorkmann/.codex/worktrees/ef34/aieventyr/docs/pipeline.md)
-- [Content Contract](/Users/alexanderbjorkmann/.codex/worktrees/ef34/aieventyr/docs/content-contract.md)
+- `docs/architecture.md`
+- `docs/pipeline.md`
+- `docs/content-contract.md`
 
 ## Verification
 

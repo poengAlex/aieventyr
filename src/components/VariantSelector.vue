@@ -33,8 +33,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
 import { useQuasar } from 'quasar'
+import { computed } from 'vue'
 import type { VariantType } from 'src/types/content'
 import { useSettingsStore, VARIANTS, VARIANT_EXPLANATION, VARIANT_TEXT } from 'src/stores/settings'
 
