@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste sønnen som virker undervurdert, men som møter farer med ro, rask tenkning og frekke bløffer.",
+    "visualPrompt": "Ung norsk mann i 20-årene, værbitt men vennlig ansikt, moderne arbeidsklær med refleksdetaljer, robuste støvler, ryggsekk med matpakke, holder en hard klump hvitost som et «hemmelig våpen», avslappet og selvsikker holdning",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Trollet",
+    "slug": "trollet",
+    "description": "En gigantisk skogvokter som truer alle som hogger, lett å skremme med det den tror er overmenneskelig styrke, og drevet av stolthet.",
+    "visualPrompt": "Enormt troll på størrelse med en varebil, bustete gråsvart pels og skjegg, grove hender som kan løfte tømmer, øyne som våte steiner, jord og mose i pelsen, truende kroppsspråk i mørk skog",
+    "imagePath": "characters/trollet.webp"
+  },
+  {
+    "name": "Faren",
+    "slug": "faren",
+    "description": "Eldre bonde presset av gjeld og regninger, hard i ordene av bekymring, men med et sterkt ønske om å beholde gården.",
+    "visualPrompt": "Eldre norsk bonde med slitne trekk, rutete skjorte og ullvest, grove hender, sitter ved et kjøkkenbord med regninger og en gammel penn, bekymret blikk og bøyd rygg",
+    "imagePath": "characters/faren.webp"
+  },
+  {
+    "name": "Eldstebror",
+    "slug": "eldstebror",
+    "description": "Den eldste sønnen som heller utsetter arbeidet, og som blir skremt fra skogen ved første møte med trollet.",
+    "visualPrompt": "Ung voksen norsk mann, hettegenser og arbeidsbukse som ser lite brukt ut, mobil i hånda, blekt ansikt og stresset blikk, står ved en forlatt motorsag i skogkanten",
+    "imagePath": "characters/eldstebror.webp"
+  }
+]

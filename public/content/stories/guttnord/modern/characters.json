@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Gutten",
+    "slug": "gutten",
+    "description": "En sta og rettferdig tenåring som nekter å godta at de fattige skal miste det lille de har, og som tør å konfrontere både naturkrefter og mennesker som utnytter andre.",
+    "visualPrompt": "Tenåringsgutt i enkel moderne vinterjakke og slitte joggesko, med en liten ryggsekk og et bestemt blikk; vindrufsete hår, litt røde kinn av kulde, realistisk nordisk stil",
+    "imagePath": "characters/gutten.webp"
+  },
+  {
+    "name": "Moren",
+    "slug": "moren",
+    "description": "En utslitt, skrøpelig alenemor i en liten leilighet som bare ønsker ro og mat på bordet, og som blir guttens moralske anker.",
+    "visualPrompt": "Eldre kvinne med trøtt ansikt og varme øyne, kledd i enkel hverdagsgenser og tøfler i en liten, nøktern leilighet; realistisk, dempet fargepalett",
+    "imagePath": "characters/moren.webp"
+  },
+  {
+    "name": "Nordavinden",
+    "slug": "nordavinden",
+    "description": "En karrig, nesten menneskelig vindskikkelse som virker like gammel som været selv—knapp i replikkene, men i stand til å gi gaver som kan endre liv.",
+    "visualPrompt": "Høy, mager skikkelse i hette og jakke som blafrer som et seil, kroppen delvis oppløst i blågrå vindstriper; alvorlig uttrykk, står ved et kaldt havlandskap, moderne mytisk realisme",
+    "imagePath": "characters/nordavinden.webp"
+  },
+  {
+    "name": "Motellverten",
+    "slug": "motellverten",
+    "description": "En grådig og opportunistisk motelleier som ser magi som en forretningsmulighet, og som ikke skyr å stjele for å få en evig fordel.",
+    "visualPrompt": "Middelaldrende mann i billig skjorte og jakke med hardt blikk og nervøs energi; står i et slitent motellmiljø med neon- og frityrstemning, realistisk stil",
+    "imagePath": "characters/motellverten.webp"
+  },
+  {
+    "name": "Bukken",
+    "slug": "bukken",
+    "description": "En tilsynelatende vanlig bukk med blankt blikk og rolig tygging, som kan spytte ut gull når den får kommando—en stille nøkkel til trygghet.",
+    "visualPrompt": "Liten til mellomstor bukk med korte horn og glatt pels, blanke intelligente øyne, tau rundt hornene; står på asfalt ved et motell eller i et enkelt gårdsrom, realistisk eventyrpreg",
+    "imagePath": "characters/bukken.webp"
+  }
+]

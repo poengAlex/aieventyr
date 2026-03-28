@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "The Three Aunts",
+  "description": "An English retelling close to the original folktale: a poor hunter’s daughter is trapped by courtly jealousy into impossible tasks, saved by three mysterious “aunts,” and finally freed from endless labor when their frightening transformations reveal the cost of spinning, weaving, and sewing.",
+  "tone": "Classic folktale, witty, suspenseful, and ultimately reassuring",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T14:06:29.538Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T14:10:13.783Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A poor girl’s secret helpers win her a royal wedding—and an unexpected promise that she’ll never have to spin, weave, or sew again.",
+  "hasInlineScenes": true
+}

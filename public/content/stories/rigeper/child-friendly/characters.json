@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Møllergutten",
+    "slug": "mollergutten",
+    "description": "En modig, høflig og snill gutt som møter prøvelser uten å miste hjertet sitt, og som til slutt skaper et godt liv for seg og den han elsker.",
+    "visualPrompt": "En ung gutt med vennlige øyne og bustete brunt hår, en enkel tunika og bukser i jordfarger, små støvler og et belte med en liten pose; han virker modig men mild, ofte med en liten reiseveske og et enkelt sverd som ser mer eventyrlig enn skremmende ut; nordisk folkeeventyrstil, myke linjer og varme farger.",
+    "imagePath": "characters/mollergutten.webp"
+  },
+  {
+    "name": "Rike Per Kremmer",
+    "slug": "rike-per-kremmer",
+    "description": "En svært rik, sta handelsmann som vil styre alt, men som lærer at grådighet og urett ikke lønner seg.",
+    "visualPrompt": "En middelaldrende, velkledd mann med rund hatt, kappe i dype farger og en pengesekk i hånden; ansiktet viser både bekymring og strenghet, men uten skremmende uttrykk; eventyrlig og barnevennlig stil, dempet kontrast, tydelige former.",
+    "imagePath": "characters/rike-per-kremmer.webp"
+  },
+  {
+    "name": "Pers datter",
+    "slug": "pers-datter",
+    "description": "En rolig og vennlig ung kvinne som blir behandlet som en premie, men som ender med et liv der godhet og samarbeid betyr mer enn penger.",
+    "visualPrompt": "En ung kvinne med langt hår flettet enkelt, en lys kjole med broderte detaljer og en liten sjal over skuldrene; hun virker varm og trygg, ofte stående ved en gårdsport eller i et blomstrende tun; nordisk eventyrillustrasjon med milde pastelltoner.",
+    "imagePath": "characters/pers-datter.webp"
+  },
+  {
+    "name": "Prinsessa ved Dybenfart",
+    "slug": "prinsessa-ved-dybenfart",
+    "description": "En klok prinsesse som hjelper møllergutten med list og mot, og som endelig får reise hjem.",
+    "visualPrompt": "En prinsesse med enkel krone og praktisk, elegant kjole i lyse blågrønne toner; hun holder en liten flaske med magisk drikk og ser bestemt men vennlig ut; bakgrunn med et trygt, eventyrlig slott og mykt lys, uten mørk eller skremmende stemning.",
+    "imagePath": "characters/prinsessa-ved-dybenfart.webp"
+  }
+]

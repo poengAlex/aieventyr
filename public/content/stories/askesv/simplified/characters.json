@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste sønnen som alle undervurderer, men som er arbeidsom, rolig og smart nok til å overvinne både brødrenes intriger og trollets trusler.",
+    "visualPrompt": "Ung norsk gutt i enkel, slitt bondeklær, lunt og våkent blikk, litt rufsete hår, bærer en liten gyllen harpe og har en praktisk, jordnær framtoning som passer en som klarer seg med kløkt framfor styrke.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Trollet",
+    "slug": "trollet",
+    "description": "En farlig og grådig kjempe som bor i fjellet på andre siden av vannet og vokter sine skatter, men lar seg lure av Askeladdens svar og knep.",
+    "visualPrompt": "Stort, grovt fjelltroll med mørk, steinaktig hud og vill framtoning, brede skuldre og lange armer, rasende ansikt med dype skygger, står ved fjellåpningen nær vannkanten som om naturen selv er truende rundt ham.",
+    "imagePath": "characters/trollet.webp"
+  },
+  {
+    "name": "Trolldattera",
+    "slug": "trolldattera",
+    "description": "Trollets datter som vokter Askeladden og til slutt blir lurt når han får henne til å låne ham kniven.",
+    "visualPrompt": "Ung trollkvinne med kraftig bygning og stramt flettet hår, grove men menneskelignende trekk, kledd i enkle, mørke klær som tåler arbeid, holder en lang kniv og virker både bestemt og lett å narre.",
+    "imagePath": "characters/trolldattera.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "Herskeren på kongsgården som setter harde krav, men belønner Askeladden når han lykkes med de umulige oppdragene.",
+    "visualPrompt": "Eldre norsk konge i en nøktern, tradisjonell kongedrakt med pelskant og enkel krone, alvorlig uttrykk, sitter i hallen med et myndig, vurderende blikk.",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Askeladdens to brødre",
+    "slug": "brodrene",
+    "description": "De to eldste som er misunnelige og prøver å sette Askeladden i fare ved å skryte på hans vegne, men ender med å bli tilgitt.",
+    "visualPrompt": "To unge menn i tjenesteklær fra kongsgården, litt finere enn Askeladden men slitte av arbeid; den ene med stallpreg og den andre med hagepreg, begge med smålige, misunnelige ansiktsuttrykk når de ser mot ham.",
+    "imagePath": "characters/brodrene.webp"
+  }
+]

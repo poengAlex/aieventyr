@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Jenta",
+    "slug": "jenta",
+    "description": "En snill og modig jente som vil klare seg selv, men som også lærer at det er lov å ta imot hjelp.",
+    "visualPrompt": "En ung jente med vennlig uttrykk, enkelt og pent hår satt opp, praktiske men rene klær i dempede skogfarger; senere en enkel bryllupskjole med diskrete broderier, varm og trygg utstråling",
+    "imagePath": "characters/jenta.webp"
+  },
+  {
+    "name": "Dronningen",
+    "slug": "dronningen",
+    "description": "En håndarbeidsglad dronning som setter pris på det som er vakkert laget, og som til slutt viser omsorg og godhet.",
+    "visualPrompt": "En mild dronning med vennlige øyne, elegant men ikke skremmende krone, kjole i lyse, kongelige farger med små mønstre som minner om vev; rolig, omsorgsfull holdning",
+    "imagePath": "characters/dronningen.webp"
+  },
+  {
+    "name": "Prinsen",
+    "slug": "prinsen",
+    "description": "En høflig og nysgjerrig prins som forstår at kjærlighet også handler om å ta vare på hverandre.",
+    "visualPrompt": "En ung prins med åpent, vennlig ansikt, enkel festdrakt med myke farger, står nær bruden med en beskyttende og respektfull utstråling",
+    "imagePath": "characters/prinsen.webp"
+  },
+  {
+    "name": "De tre mostrene",
+    "slug": "de-tre-mostrene",
+    "description": "Tre hjelpsomme, gamle koner som stiller opp i det stille og minner alle om at arbeid skal gjøres med måte og med omtanke.",
+    "visualPrompt": "Tre gamle, vennlige kvinner i enkle sjal og forklær: én med lang nese, én med bred rygg, én med røde, rennende øyne; alle med milde smil og varme hender, omgitt av spinnrokk, vev og syutstyr som virker trygt og hjemmekoselig",
+    "imagePath": "characters/de-tre-mostrene.webp"
+  }
+]

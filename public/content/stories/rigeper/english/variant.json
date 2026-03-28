@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "Rich Per the Pedlar (English Retelling)",
+  "description": "An English retelling that stays close to the original Scandinavian folktale, preserving its episodic structure: a prophecy resisted by a wealthy pedlar, a child’s survival by chance and kindness, a forged letter that turns murder into marriage, and a dragon-quest whose answers unravel the villain’s fate.",
+  "tone": "Classic folktale; brisk, ironic, and adventurous with darkly comic justice.",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:37:09.412Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:42:36.028Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A wealthy pedlar tries to outwit a prophecy, but a miller’s boy survives, wins a bride, defeats a dragon, and turns the schemer into an eternal ferryman.",
+  "hasInlineScenes": true
+}

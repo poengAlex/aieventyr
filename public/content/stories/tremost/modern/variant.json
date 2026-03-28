@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "De tre Mostre (Modern)",
+  "description": "En samtidsnær versjon der den fattige jegerdatteren tar buss til Slottet for å få jobb, lærer via mobilen hun ikke mestrer, og blir dratt inn i en moderne «prestasjonstest» med spinnemaskin, vev og symaskin—før tre urovekkende «mostre» dukker opp i et bryllup med presse og tvinger fram en ny kongelig beslutning om arbeid, verdighet og teknologi.",
+  "tone": "Moderne eventyr, skarpt og satirisk, men varmt og håpefullt",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T14:15:37.451Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T14:19:51.337Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En ung hushjelp ved Slottet får uventet hjelp til umulige oppgaver, men må holde løftet sitt når tre merkelige «mostre» møter opp i bryllupet.",
+  "hasInlineScenes": true
+}

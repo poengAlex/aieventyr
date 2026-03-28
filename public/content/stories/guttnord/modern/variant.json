@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "Om gutten som utfordret Nordavinden (Modern)",
+  "description": "En moderne, urban gjenfortelling der et vindkast i en blokk tar havremelet til en fattig mor og sønn, og gutten følger sporene nordover med buss, tog og en natt på et neonskinnende motell—der grådige eiere bytter ut magiske gaver og tvinger fram et oppgjør.",
+  "tone": "Samtidig, skarp og rettferdsdrevet med folkeeventyrmagi i hverdagslige omgivelser",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:32:40.533Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:36:36.338Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En gutt reiser nordover for å kreve tilbake det vinden tok, og ender med magiske gaver som må forsvares mot svindel.",
+  "hasInlineScenes": true
+}

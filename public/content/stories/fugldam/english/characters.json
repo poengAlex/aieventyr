@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Youngest Prince",
+    "slug": "youngest-prince",
+    "description": "The only son who stays awake, follows the snarling dog into the island castle, slays the twelve-headed troll, is betrayed by Sir Red, and returns disguised to claim justice.",
+    "visualPrompt": "A determined young royal in travel-worn sea-clothes, later shown with a rough sailor’s coat and peddler’s pack, bright watchful eyes, carrying a plain sword and a battered cupboard of crowns, medieval fairy-tale styling",
+    "imagePath": "characters/youngest-prince.webp"
+  },
+  {
+    "name": "Sir Red",
+    "slug": "sir-red",
+    "description": "The ship’s helmsman who covets the youngest princess, threatens the others into silence, and steals the credit for the rescue.",
+    "visualPrompt": "A commanding seafarer with a hard expression and arrogant posture, red-toned cloak or sash over weathered sailor’s gear, hands that look used to ropes and power, medieval fantasy villain presence",
+    "imagePath": "characters/sir-red.webp"
+  },
+  {
+    "name": "Bird Dam",
+    "slug": "bird-dam",
+    "description": "A colossal, uncanny helper who demands four barrels of rye each morning and bears the prince and the crowns through the air, warning him of danger and deception.",
+    "visualPrompt": "A monstrous ancient bird, larger than a horse, dark and rugged plumage, an enormous feather at the back of its neck as thick as a young fir trunk, intelligent fierce eyes, carrying balanced burdens of crowns and treasure in a folkloric fantasy style",
+    "imagePath": "characters/bird-dam.webp"
+  },
+  {
+    "name": "The Youngest Princess",
+    "slug": "youngest-princess",
+    "description": "The most faithful of the twelve, sorrowful under Sir Red’s threats, who finally speaks up when the crowns return and names the true rescuer.",
+    "visualPrompt": "A gentle yet resolute princess in simple, elegant court dress, golden hair or a soft veil, holding her own golden crown with relief and recognition, a naked sword symbolically placed before her in the bed, fairy-tale medieval mood",
+    "imagePath": "characters/youngest-princess.webp"
+  },
+  {
+    "name": "The Twelve-Headed Troll King",
+    "slug": "twelve-headed-troll-king",
+    "description": "The finery-clad monster who keeps the princesses captive on golden chairs, forcing them to stroke each of his heads until the youngest prince strikes them off.",
+    "visualPrompt": "A massive grotesque troll in ornate finery, asleep in a splendid chamber, with twelve distinct heads clustered like a terrible crown, surrounded by twelve golden chairs, dark enchanted atmosphere and blood-red menace in classic folklore style",
+    "imagePath": "characters/twelve-headed-troll-king.webp"
+  }
+]

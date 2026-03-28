@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste broren, en rolig og hardtarbeidende kjøkkenhjelp som bærer et gammelt knadetraug og vinner med kløkt framfor styrke.",
+    "visualPrompt": "A young Norwegian man in his early 20s with a lean build and calm, alert eyes; simple modern workwear suitable for a busy kitchen and farmyard (worn hoodie or jacket, sturdy pants, practical boots), slightly messy hair, hands showing honest work; carries a small pocketful of odd items (a nail, a carved birch stick, a stub of candle) and has the grounded confidence of someone who thinks fast.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "En jordnær, kravstor konge som fortsatt bruker kongsgården når han ikke er i hovedstaden, og som lokkes av trollets skatter.",
+    "visualPrompt": "A middle-aged Scandinavian man with a commanding yet approachable presence; modern formal attire with subtle royal elegance (tailored coat, understated insignia), weathered from outdoor life at the estate; expression shifting between amused pride and stern authority.",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Trollet ved fjellet",
+    "slug": "trollet-ved-fjellet",
+    "description": "Et gammelt fjordtroll som bor i et mørkt fjell og vokter sølvender, et rutete sengeteppe av sølv og gull, og en gullharpe med humørmagi.",
+    "visualPrompt": "A massive, shadow-heavy troll with rough stone-like skin and hints of earth and soot; broad shoulders, long arms, and a face that feels carved from the mountain; eyes like dark embers; its presence thickens the air around it, blending with the gloom of a fjordside cave.",
+    "imagePath": "characters/trollet-ved-fjellet.webp"
+  },
+  {
+    "name": "Trolldatteren",
+    "slug": "trolldatteren",
+    "description": "Trollets datter som holder Askeladden fanget, tester om han er 'feit nok', og lar seg lure av hans rolige manipulasjon.",
+    "visualPrompt": "A tall, strong young woman with an unsettling, inhuman sturdiness; pale, earthy-toned skin and heavy braids; dressed in oversized modern casual layers like a large hoodie and a draped shawl; expression curious and cruel in a quiet, domestic way, as if danger is routine.",
+    "imagePath": "characters/trolldatteren.webp"
+  },
+  {
+    "name": "Prinsessa",
+    "slug": "prinsessa",
+    "description": "Kongens datter, en moderne prinsesse som blir lovet bort som belønning når Askeladden henter gullharpa.",
+    "visualPrompt": "A young Scandinavian princess in her early 20s with a composed, intelligent gaze; modern elegant clothing suitable for an official estate setting (clean lines, neutral colors, minimal jewelry), standing with confident posture that suggests she is more than a prize.",
+    "imagePath": "characters/prinsessa.webp"
+  }
+]

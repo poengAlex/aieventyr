@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Jegeren",
+    "slug": "jegeren",
+    "description": "En moderne jeger på tur i skogen, praktisk antrukket og sikker på egen vurdering, helt til han konfronteres med sin egen logikk.",
+    "visualPrompt": "En norsk jeger i 30–50-årene med refleksjakke over friluftsklær, solid tursekk med en termokopp synlig i sidelomme, gummistøvler og hagle holdt lavt; uttrykk av forundring og ettertanke, skog- og myrlandskap rundt.",
+    "imagePath": "characters/jegeren.webp"
+  },
+  {
+    "name": "Myrsnipe-mora",
+    "slug": "myrsnipe-mora",
+    "description": "En liten, modig mor som forsvarer ungene sine og leverer historien sin moral med rolig selvfølgelighet.",
+    "visualPrompt": "En liten vadefugl (myrsnipe) i brune og beige fjærtoner med finstripet mønster, livlige mørke øyne og slank nebb; vingene halvt utspilte i et desperat, beskyttende hopp foran en støvel på myrgrunn.",
+    "imagePath": "characters/myrsnipe-mora.webp"
+  },
+  {
+    "name": "Myrsnipe-ungene",
+    "slug": "myrsnipe-ungene",
+    "description": "De små ungene som utløser konfliktens misforståelse og viser hvor subjektiv skjønnhet kan være.",
+    "visualPrompt": "En liten gruppe dunete myrsnipeunger i dempede jordfarger, små og skjøre med korte nebb og spinkle ben, tett sammen i lyng og myrgress; sårbare, men tydelig ulike i størrelse og fjærmønster.",
+    "imagePath": "characters/myrsnipe-ungene.webp"
+  }
+]

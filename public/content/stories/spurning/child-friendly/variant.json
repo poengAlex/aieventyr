@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Spurningen (Child Friendly)",
+  "description": "En mildere, mer leken versjon for yngre lesere, der konkurransen føles som en vennlig ordlek og stemningen er varm og trygg, med mykere språk og fokus på nysgjerrighet og snillhet.",
+  "tone": "Warm, playful, gentle",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:29:54.766Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:32:26.828Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden bruker rare småting og snille ord til å vinne en vennlig ordlek mot prinsessen.",
+  "hasInlineScenes": true
+}

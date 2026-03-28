@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "Manddatteren og Kjærringdatteren (Modern)",
+  "description": "En moderne bygde-fortelling om en sammensatt familie der «skjermfritt og sunt» blir en unnskyldning for kontroll, og en åpen brønn leder til en uhyggelig gård med umulige oppgaver, hjelpsomme dyr og en blå kiste som belønner omsorg—mens grådighet får en kroppsnær, grotesk straff.",
+  "tone": "Moderne eventyrmoral med mørk spenning og skarp rettferdighet",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T15:06:44.308Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T15:11:49.946Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En stille stedatter faller gjennom en brønn, gjør godt mot dem hun møter, og kommer hjem med en blå kiste som avslører hvem som fortjener belønning.",
+  "hasInlineScenes": true
+}

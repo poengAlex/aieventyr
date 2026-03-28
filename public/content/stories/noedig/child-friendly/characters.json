@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Kona",
+    "slug": "kona",
+    "description": "En sta og impulsiv, men godhjertet kone som lett lar seg rive med og ender i små, rare situasjoner.",
+    "visualPrompt": "Snill og komisk bondekone i en enkel norsk folkedrakt og forkle, med noen myke fjær som har festet seg på klærne; vennlig ansikt med store, undrende øyne; varm og barnevennlig eventyrstil.",
+    "imagePath": "characters/kona.webp"
+  },
+  {
+    "name": "Mannen",
+    "slug": "mannen",
+    "description": "En tålmodig bonde som blir oppgitt, men forsøker å finne trøst i at andre også gjør merkelige ting.",
+    "visualPrompt": "Norsk bonde i enkel vadmelsjakke og bukser, solide støvler, rolig kroppsholdning og et mildt, litt oppgitt smil; myk, illustrert eventyrstil med varme farger.",
+    "imagePath": "characters/mannen.webp"
+  },
+  {
+    "name": "Slakteren",
+    "slug": "slakteren",
+    "description": "En listig, men ikke skummel handelsmann som finner på en ufarlig rampestrek og får alt til å virke enda rarere.",
+    "visualPrompt": "Vennlig, rund kinnet handelsmann med enkel vest og skjorte, et lurt smil og rolige hender; står ved en bod nær byen; uttrykket skal virke mer rampete enn truende; barnevennlig eventyrillustrasjon.",
+    "imagePath": "characters/slakteren.webp"
+  },
+  {
+    "name": "Kona som vil bære inn sola",
+    "slug": "kona-som-vil-bare-inn-sola",
+    "description": "En ivrig husmor som tror hun må bære solskinn inn i et nytt hus og blir overlykkelig når hun får en enkel løsning.",
+    "visualPrompt": "Energisk kvinne i forklé som holder et tomt sold og ser forundret ut i et nybygd, vindusløst rom; solstråler som nettopp slipper inn gjennom nye åpninger i veggen; myke former og lys, trygg fargepalett.",
+    "imagePath": "characters/kona-som-vil-bare-inn-sola.webp"
+  },
+  {
+    "name": "Den nysgjerrige gårdskona",
+    "slug": "den-nysgjerrige-gardskona",
+    "description": "En pratsom og godtroende kone som misforstår hvor den reisende er fra og vil sende gaver til en avdød ektemann.",
+    "visualPrompt": "Pratsom gårdskone med vennlig ansikt, hendene fulle av brettede klær og et lite skrin; står ved en gårdsport med en blå hest og kjerre i bakgrunnen; mild, humoristisk eventyrstil uten mørk stemning.",
+    "imagePath": "characters/den-nysgjerrige-gardskona.webp"
+  }
+]

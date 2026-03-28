@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "Gjertrudsfuglen (Modern)",
+  "description": "En samtidstolkning der Gjertrud driver et lite veikantkjøkken i en moderne verden, og mirakelet skjer på en steketakke under avtrekksvifta—med en rød lue som blir til et skarpt kjennetegn når grådigheten ender i en brå, urban folkeeventyr-forvandling.",
+  "tone": "Moderne folkeeventyr, skarpt moralsk, underlig og urovekkende",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:02:29.058Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:04:55.045Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Da en smågrådig veikantbaker nekter å dele en smakebit, blir hun forvandlet til en svart fugl med rød topp som bare finner mat i treverk og drikke i regnet.",
+  "hasInlineScenes": true
+}

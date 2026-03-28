@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Mannsdattera",
+    "slug": "mannsdattera",
+    "description": "Den arbeidsomme og snille jenta som viser respekt og hjelpsomhet, får råd av småfuglene og blir belønnet med et blått skrin fullt av rikdom.",
+    "visualPrompt": "Ung jente med vennlig uttrykk, enkelt og slitt men rent klær i tradisjonell norsk stil, flettet hår, bærer et lite blått skrin, rolig og modig holdning, omgitt av skog-eng og eventyrstemning",
+    "imagePath": "characters/mannsdattera.webp"
+  },
+  {
+    "name": "Kjerringdattera",
+    "slug": "kjerringdattera",
+    "description": "Den late og ufine stesøsteren som tråkker på alt hun møter, nekter å høre på råd og velger det røde skrinet som gir henne en forferdelig straff.",
+    "visualPrompt": "Ung jente med sur mine og grov framferd, rotete hår, fine klær som sitter slurvete, bærer eller stirrer grådig på et rødt skrin, hard kroppsholdning, urolig og mørkere eventyrstemning rundt henne",
+    "imagePath": "characters/kjerringdattera.webp"
+  },
+  {
+    "name": "Trollkjerringa",
+    "slug": "trollkjerringa",
+    "description": "En streng og lur trollkone som tester tjenestejenter med umulige oppgaver og prøver å stoppe den som får med seg riktig skrin.",
+    "visualPrompt": "Eldre trollkone med skarpe trekk, mørk kappe og grove hender, bor på en stor gård som virker skyggefull og truende, blikk som vurderer og mistenker, eventyrlig men litt skremmende",
+    "imagePath": "characters/trollkjerringa.webp"
+  },
+  {
+    "name": "Småfuglene",
+    "slug": "smafuglene",
+    "description": "De syngende fuglene som gir enkle råd som gjør at den snille jenta klarer oppgavene og tar riktige valg.",
+    "visualPrompt": "En liten flokk småfugler i lyse naturfarger som svever nær en brønn og en gårdsplass, livlige og vennlige, som om de hvisker hemmelige råd i lufta",
+    "imagePath": "characters/smafuglene.webp"
+  }
+]

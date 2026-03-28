@@ -1,0 +1,245 @@
+{
+  "name": "Aieventyr",
+  "generatedAt": "2026-03-28T15:28:49.375Z",
+  "defaultVariant": "simplified",
+  "supportedVariants": [
+    "raw",
+    "cleaned",
+    "simplified",
+    "english",
+    "child-friendly",
+    "modern"
+  ],
+  "generation": {
+    "textModel": "gpt-5.2",
+    "imageModel": "gpt-image-1.5",
+    "ttsModel": "gpt-4o-mini-tts",
+    "ttsVoice": "nova"
+  },
+  "stories": [
+    {
+      "id": "askesv",
+      "index": 1,
+      "canonicalTitle": "Om Askeladden som stjal Trollens sølvender, sengeteppe og gullharpe",
+      "originalTitle": "Om Askeladden som stjal Troldets Sølvænder, Sengetæppe, og Guldharpe",
+      "summary": "Askeladden lurer trollet og stjeler sølvendene, sengeteppet og gullharpa for å vinne prinsessa og halve riket.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/askesv/simplified/main.webp"
+    },
+    {
+      "id": "gjertrud",
+      "index": 2,
+      "canonicalTitle": "Gjertrudsfuglen",
+      "originalTitle": "Gjertrudsfuglen",
+      "summary": "Da Gjertrud nekter å dele en lefse, blir hun forvandlet til en tørst fugl som alltid leter etter mat i trærne.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/gjertrud/simplified/main.webp"
+    },
+    {
+      "id": "fugldam",
+      "index": 3,
+      "canonicalTitle": "Fugl Dam",
+      "originalTitle": "Fugl Dam",
+      "summary": "En yngste prins redder tolv bortførte prinsesser, blir sviktet av Ridder Rød, og får hjelp av den mektige Fugl Dam til å vinne sannheten tilbake.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/fugldam/simplified/main.webp"
+    },
+    {
+      "id": "spurning",
+      "index": 4,
+      "canonicalTitle": "Spørsmålet",
+      "originalTitle": "Spurningen",
+      "summary": "Askeladden bruker smarte ordspill og rare gjenstander for å gjøre den vrange prinsessa svar skyldig og vinne henne og halve riket.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/spurning/simplified/main.webp"
+    },
+    {
+      "id": "rigeper",
+      "index": 5,
+      "canonicalTitle": "Rike Per Kremmer",
+      "originalTitle": "Rige Per Kræmmer",
+      "summary": "En rik kremmer prøver å unngå en spådom, men ender med å bli lurt av skjebnen og den fattige møllergutten.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/rigeper/simplified/main.webp"
+    },
+    {
+      "id": "asketrol",
+      "index": 6,
+      "canonicalTitle": "Askeladden som kappet med trollet",
+      "originalTitle": "Askeladden som kapaad med Troldet",
+      "summary": "Askeladden lurer et skogtroll med ost og grøt og kommer hjem med gull nok til å betale gjelda.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/asketrol/simplified/main.webp"
+    },
+    {
+      "id": "guttnord",
+      "index": 7,
+      "canonicalTitle": "Om gutten som gikk til nordavinden og krevde melet tilbake",
+      "originalTitle": "Om Gutten som gik til Nordenvinden og krævede Melet igjen",
+      "summary": "En fattig gutt går helt til nordavinden for å få igjen melet sitt og ender med magiske gaver som sikrer rettferdighet.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/guttnord/simplified/main.webp"
+    },
+    {
+      "id": "jomfrum",
+      "index": 8,
+      "canonicalTitle": "Jomfru Maria som gudmor",
+      "originalTitle": "Jomfru Maria som Gudmor",
+      "summary": "En stum, vakker kvinne må tåle tre prøvelser og falske anklager før Jomfru Maria gir henne barna og stemmen tilbake.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/jomfrum/simplified/main.webp"
+    },
+    {
+      "id": "tentland",
+      "index": 9,
+      "canonicalTitle": "De tre prinsessene i Hvittenland",
+      "originalTitle": "De tre Prinsesser i Hvidtenland",
+      "summary": "En ung konge reiser til Hvittenland, redder tre prinsesser og må kjempe seg tilbake til dronningen han nesten mister.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/tentland/simplified/main.webp"
+    },
+    {
+      "id": "noedig",
+      "index": 10,
+      "canonicalTitle": "Noen kjerringer er slik",
+      "originalTitle": "Somme Kjærringer er slige",
+      "summary": "En bonde prøver å rømme fra sin ufornuftige kone, men finner tre like håpløse mennesker og ender opp med å godta at dumskap finnes overalt.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/noedig/simplified/main.webp"
+    },
+    {
+      "id": "bestedt",
+      "index": 11,
+      "canonicalTitle": "Hver synes best om sine barn",
+      "originalTitle": "Hver synes bedst om sine Børn",
+      "summary": "En skytter lærer at alle synes deres egne barn er de vakreste.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/bestedt/simplified/main.webp"
+    },
+    {
+      "id": "frihist",
+      "index": 12,
+      "canonicalTitle": "En frierhistorie",
+      "originalTitle": "En Frierhistorie",
+      "summary": "En frier besøker en fattig gård der familien later som de er rike ved å vise fram sine eneste nye plagg.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/frihist/simplified/main.webp"
+    },
+    {
+      "id": "tremost",
+      "index": 13,
+      "canonicalTitle": "De tre mostrene",
+      "originalTitle": "De tre Mostre",
+      "summary": "En fattig jegerdatter får hjelp av tre merkelige «mostre» og ender med både bryllup og et løfte om et liv uten slit.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/tremost/simplified/main.webp"
+    },
+    {
+      "id": "enkeson",
+      "index": 14,
+      "canonicalTitle": "Enkesønnen",
+      "originalTitle": "Enkesønnen",
+      "summary": "En fattig enkes sønn trosser et troll, reddes av en magisk hest og vinner både krigen og prinsessa.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/enkeson/simplified/main.webp"
+    },
+    {
+      "id": "mandatt",
+      "index": 15,
+      "canonicalTitle": "Mannens datter og kjerringens datter",
+      "originalTitle": "Manddatteren og Kjærringdatteren",
+      "summary": "Ei snill jente får hjelp og rikdom for god oppførsel, mens den late stesøsteren ender med en grusom straff.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/mandatt/simplified/main.webp"
+    },
+    {
+      "id": "nodedsk",
+      "index": 16,
+      "canonicalTitle": "Hanen og høna i Nøtteskogen",
+      "originalTitle": "Hanen og Hønen i Nøddeskogen",
+      "summary": "En hane løper fra den ene hjelperen til den neste for å skaffe vann og redde høna som har fått et nøtteskall i halsen.",
+      "availableVariants": [
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/nodedsk/simplified/main.webp"
+    }
+  ]
+}

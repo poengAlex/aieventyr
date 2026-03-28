@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Manddatteren og Kjærringdatteren (Barnevennlig)",
+  "description": "En barnevennlig og mildere variant med mykere stemning: den underjordiske ferden føles tryggere og mer eventyrlig, og de skumle og ekle øyeblikkene er dempet, mens budskapet om å være hjelpsom og forsiktig blir tydelig og varmt.",
+  "tone": "Gentle fairy-tale, cozy and reassuring, with a clear moral about kindness and care",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T15:00:29.820Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T15:05:03.377Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En snill jente får hjelp av småfugler og vennlige dyr og belønnes, mens den uforsiktige stesøsteren lærer at det lønner seg å være god mot andre.",
+  "hasInlineScenes": true
+}

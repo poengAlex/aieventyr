@@ -1,0 +1,16 @@
+[
+  {
+    "id": "section-1",
+    "title": "Det nye ermet",
+    "text": "Det var en gang en gutt som skulle ut og fri. Han reiste rundt til flere steder, og til slutt kom han til en gård der folk levde i stor fattigdom og armod. Men da frieren kom, ville de gjerne se velstående ut, det kan en nok forstå.\n\nMannen hadde fått et nytt erme på trøya si. «Sett deg ned!» sa han til frieren. «Men her er det jammen så støvete overalt!» Så gikk han og gned og tørket på benker og bord med det nye trøyeermet. Den andre armen holdt han bak på ryggen.\n\nKona hadde fått en ny sko. Med den gikk hun og trampet og sparket borti alt mulig, krakker og stoler. «Her ligger det så mye i veien, så uryddig det er!» sa hun.",
+    "imagePath": "scenes/scene-1.webp",
+    "imagePrompt": "Inne i en sliten, fattig stue på en gård tar Frieren plass på en enkel benk mens Mannen på gården prøver å virke velstående: han bøyer seg fram og gnir støv av et bord med det ene, splitter nye trøyeermet, mens den andre armen holdes stivt skjult bak ryggen. Rundt dem står grove møbler og synlig fattigdom, men mannen later som alt bare trenger litt «rydding»."
+  },
+  {
+    "id": "section-2",
+    "title": "Lua i døråpningen",
+    "text": "Så ropte de på datteren at hun skulle komme og rydde opp. Hun hadde fått en ny lue, og derfor stakk hun bare hodet inn gjennom døra og nikket hit og dit. «Jeg kan da ikke være alle steder jeg heller!» sa hun.\n\nJa, det var virkelig velstandsfolk frieren hadde kommet til.",
+    "imagePath": "scenes/scene-2.webp",
+    "imagePrompt": "Døråpningen til stua står på gløtt, og Datteren stikker bare hodet forsiktig inn, redd for å ødelegge den nye lua si: hun nikker smått hit og dit som om hun hjelper, men kroppen forblir skjult. I rommet bak henne ser Frieren og foreldrene mot døra, og stemningen er komisk anstrengt når hun nekter å komme helt inn for å rydde."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Kona",
+    "slug": "kona",
+    "description": "Stolt, sta og kontrollbehov-styrt småbrukerkone som vil sikre såkorn, men lar seg lure, drikker seg sanseløs og overbeviser seg selv om at hun ikke lenger er seg.",
+    "visualPrompt": "Norsk kvinne i 40–50-årene med værbitt ansikt, kort praktisk hår, slitt arbeidsjakke og gummistøvler; senere innsmurt i blank svart tjære og klisset fast med hvite og grå fjær over hele kroppen, forvirret blikk og anspente skuldre",
+    "imagePath": "characters/kona.webp"
+  },
+  {
+    "name": "Mannen",
+    "slug": "mannen",
+    "description": "Utslitt småbruker som prøver å redde våronna, drar ut langs veien for å finne tre som er «like tullete», og kommer hjem med penger og historier som ikke hjelper.",
+    "visualPrompt": "Norsk mann i 40–50-årene, mager og trøtt, lett skjeggstubb, kledd i slitt fleecejakke, ullgenser og arbeidsbukse; bærer et gammelt jaktgevær og har et stramt, oppgitt uttrykk",
+    "imagePath": "characters/mannen.webp"
+  },
+  {
+    "name": "Slakteren",
+    "slug": "slakteren",
+    "description": "En glatt, utnyttende kjøttforhandler i en småby som lokker kona inn på bakrommet, skjenker henne full og gjør henne til en «fugl» med tjære og fjær for å ydmyke og forvirre henne.",
+    "visualPrompt": "Mann i 30–40-årene med velstelt skjegg, kort frisyre og et falskt vennlig smil; hvit forkle over mørk hettegenser, engangshansker og gullring; står i et trangt bakrom med plastkasser, bøtter med svart klistrete masse og sekker med dun",
+    "imagePath": "characters/slakteren.webp"
+  },
+  {
+    "name": "Kona med dørslaget",
+    "slug": "kona-med-dorslaget",
+    "description": "Nabo i et nybygd hus som mangler vinduer, og som i fullt alvor prøver å bære inn sollys i et dørslag, villig til å betale godt for en «løsning».",
+    "visualPrompt": "Kvinne i 30–40-årene i moderne treningsbukse og fleecevest, håret i stram hestehale; løper mellom inngang og stue med et metall-dørslag og et forkle som hun legger over som lokk, stående ved en ny trevegg uten vinduer",
+    "imagePath": "characters/kona-med-dorslaget.webp"
+  },
+  {
+    "name": "Enka etter Per nummer to",
+    "slug": "enka-etter-per-nummer-to",
+    "description": "Godtroende kvinne som forveksler Ringerike med «Himmerike» og sender klær, kontanter og hest av gårde til sin avdøde favorittmann, overbevist om at han trenger det der oppe.",
+    "visualPrompt": "Eldre kvinne i 60-årene med varm, rund ansiktsform, strikkegenser og forklé; står ved en boddør med en nøkkelknippe i hånda, pekende mot en gammel trekiste og stablede klær, med et oppriktig bekymret uttrykk",
+    "imagePath": "characters/enka-etter-per-nummer-to.webp"
+  }
+]

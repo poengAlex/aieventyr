@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ash-Lad",
+    "slug": "ash-lad",
+    "description": "The youngest brother, dismissed as an ash-poker, who wins favor through hard work and triumphs through quick thinking, bold improvisation, and a stubbornly hopeful spirit.",
+    "visualPrompt": "A lean, bright-eyed young man with tousled hair and a humble servant’s outfit, carrying a small pouch of grain and later a shining gold harp; practical and unassuming, with an alert, mischievous expression that suggests clever plans forming",
+    "imagePath": "characters/ash-lad.webp"
+  },
+  {
+    "name": "The Troll",
+    "slug": "the-troll",
+    "description": "A powerful, lake-side mountain troll whose treasured silver ducks, bedspread, and gold harp are stolen, driving it to rage and revenge.",
+    "visualPrompt": "A massive, rough-skinned troll with heavy limbs and a broad, grim face, looming near the shore by a dark mountain cave; its presence feels ancient and dangerous, with wild fury in its eyes",
+    "imagePath": "characters/the-troll.webp"
+  },
+  {
+    "name": "The Troll’s Daughter",
+    "slug": "trolls-daughter",
+    "description": "The troll’s willing helper who tends the fattening-stall and prepares to slaughter Ash-Lad, until he turns her own knife-trick against her.",
+    "visualPrompt": "A formidable troll-woman with thick braids and strong features, wearing coarse mountain-cloth and a grim, practical expression; she carries a long knife and moves with blunt confidence",
+    "imagePath": "characters/trolls-daughter.webp"
+  },
+  {
+    "name": "The King",
+    "slug": "the-king",
+    "description": "A ruler who desires the troll’s marvels and forces Ash-Lad into dangerous tasks, then rewards him with the princess and half the kingdom.",
+    "visualPrompt": "A stern, middle-aged king in a fur-trimmed cloak and simple crown, seated in a rustic manor hall; his expression is demanding yet impressed, surrounded by the warm glow of a hearth",
+    "imagePath": "characters/the-king.webp"
+  },
+  {
+    "name": "Ash-Lad’s Two Elder Brothers",
+    "slug": "elder-brothers",
+    "description": "Jealous siblings who mock Ash-Lad and repeatedly provoke the King into sending him on perilous errands, only to be met with his surprising generosity at the end.",
+    "visualPrompt": "Two young men in worn stable-and-garden work clothes, one with a sour frown and the other with a calculating stare; they stand slightly apart from others, their posture tense with envy",
+    "imagePath": "characters/elder-brothers.webp"
+  }
+]

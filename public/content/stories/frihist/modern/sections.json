@@ -1,0 +1,16 @@
+[
+  {
+    "id": "section-1",
+    "title": "Det nye ermet",
+    "text": "Det var en gang en fyr som skulle ut og finne seg noen å dele livet med. Han dro rundt, møtte folk, pratet, prøvde lykken. En av dagene endte han opp på en liten gård som så sliten ut på avstand, og der bodde det folk som egentlig hadde veldig lite. Men da de skjønte at det kom en frier, gjorde de alt de kunne for å virke som om de hadde det skikkelig bra, det sier seg selv.\n\nMannen i huset hadde fått seg en ny genser—eller rettere sagt: ett nytt erme på den gamle, etter at noen hadde lappet den for ham. «Sett deg ned!» sa han til fyren. Så stoppet han opp og så seg rundt, som om han plutselig oppdaget noe forferdelig. «Men herregud, så støvete det er overalt!» Og med det begynte han å gni og tørke over bordkanten, benken og hylla med det nye ermet, som om det var en mikrofiberklut. Den andre armen holdt han bak ryggen, som om den ikke fantes.\n\nKona hadde fått en ny sko—én splitter ny joggesko, mens den andre var gammel og nedslitt. Med den nye på foten gikk hun rundt og dyttet, sparket og skjøv på krakker, en stol som sto litt på skakke, og en kasse med rot. «Her ligger det så mye i veien, altså! Så uryddig!» sa hun, og sparket litt ekstra, så det skulle høres.",
+    "imagePath": "scenes/scene-1.webp",
+    "imagePrompt": "I et slitent, lite gårdskjøkken som prøver å se ryddig ut, sitter Frieren på en enkel stol og ser seg rundt mens Gårdseieren står ved bordet og gnir hardt langs bordkanten med det «nye» ermet på en gammel genser, som om stoffet var en mikrofiberklut. Den andre armen holder han stivt bak ryggen for å skjule den, og ansiktet hans spiller oppgitt og overivrig, som om støv plutselig er dagens største problem."
+  },
+  {
+    "id": "section-2",
+    "title": "Lua med lappen",
+    "text": "Så ropte de på datteren at hun måtte komme og rydde opp. Hun hadde fått en ny lue, en slik som fortsatt hadde lappen på inni. Derfor kom hun ikke ordentlig inn engang, men stakk bare hodet inn gjennom døråpningen og nikket hit og dit, som om hun hadde hendene fulle og en kalender full av avtaler. «Jeg kan da ikke være overalt jeg heller!» sa hun, og trakk seg tilbake igjen.\n\nJo da. Det var riktig velstand folk frieren hadde kommet til, skulle han tro.",
+    "imagePath": "scenes/scene-2.webp",
+    "imagePrompt": "I døråpningen står Datteren bare halvveis synlig, med en ny lue der prislappen fortsatt henger på innsiden, og hun stikker hodet inn med et travelt nikk som om hun er på vei videre. Hun holder kroppen utenfor rommet for å holde avstand, og uttrykket hennes signaliserer at hun er altfor opptatt til å rydde, mens de andre inne i huset venter og prøver å holde fasaden."
+  }
+]

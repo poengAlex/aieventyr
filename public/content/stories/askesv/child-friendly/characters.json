@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste broren, snill og oppfinnsom, som aldri gir opp og bruker kløkt framfor styrke.",
+    "visualPrompt": "A kind young Norwegian farm boy with tousled light-brown hair and bright curious eyes, wearing simple rustic clothes in earthy tones and sturdy boots, gentle smile, holding a small golden harp or rowing a wooden trough, wholesome fairy-tale illustration style",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "En rettferdig konge som elsker vakre ting og holder ord når Askeladden lykkes.",
+    "visualPrompt": "A fair and dignified king with a calm expression, wearing a modest golden crown and a warm-colored cloak, standing in a welcoming wooden hall with soft torchlight, classic Nordic fairy-tale illustration style",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Trollet i fjellet",
+    "slug": "trollet-i-fjellet",
+    "description": "Et stort, lettskremt troll som mister motet når det blir altfor sint, mer komisk enn farlig i denne varianten.",
+    "visualPrompt": "A large troll with rounded features and a shaggy mane, more grumpy than scary, wearing simple rough cloth and leather, standing by a rocky cave with a puzzled expression, gentle storybook fantasy style",
+    "imagePath": "characters/trollet-i-fjellet.webp"
+  },
+  {
+    "name": "Trolldatteren",
+    "slug": "trolldatteren",
+    "description": "Trollets store datter, lett å lure når Askeladden prater rolig og smart.",
+    "visualPrompt": "A very tall troll daughter with long thick hair in a braid, strong build, curious face, simple cave-woven shawl, standing inside a softly lit cavern near a table of food, friendly fairytale illustration style",
+    "imagePath": "characters/trolldatteren.webp"
+  }
+]

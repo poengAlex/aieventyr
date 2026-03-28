@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "Ash-Lad and the Troll’s Silver Ducks, Bedspread, and Gold Harp",
+  "description": "An English retelling that stays close to the Norwegian folktale, keeping its brisk, rhythmic challenges as Ash-Lad outwits a lake-dwelling troll to steal silver ducks, a patchwork bedspread, and a joy-bringing gold harp.",
+  "tone": "Folktale, witty, adventurous, and darkly comic",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T09:06:11.256Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T09:13:16.996Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Ash-Lad braves a troll’s lake and steals three wonders—silver ducks, a gilded bedspread, and a gold harp—by cleverness and nerve.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Jomfru Maria som Gudmor (Barnevennlig)",
+  "description": "En mildere og tryggere gjenfortelling med mykere språk, roligere stemning og tydelig vekt på læring, tilgivelse og å holde løfter, der magien med stjerne, måne og sol står i sentrum uten å bli for skremmende.",
+  "tone": "Varm, eventyrlig og trøstende",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:47:13.660Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:51:05.358Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En snill foster-mor lærer en nysgjerrig jente å holde løfter, før alt ender i tilgivelse og glede for hele familien.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Jenta",
+    "slug": "jenta",
+    "description": "Datteren til en fattig jeger; snill og vakker, men uten erfaring med håndarbeid, og redd for å bli avslørt ved hoffet.",
+    "visualPrompt": "Ung kvinne med mildt uttrykk og enkel, pen påkledning; praktisk hår oppsatt; ser både nervøs og håpefull ut, med en beskjeden holdning som passer en tjenestejente som plutselig blir midtpunkt ved kongsgården",
+    "imagePath": "characters/jenta.webp"
+  },
+  {
+    "name": "Dronningen",
+    "slug": "dronningen",
+    "description": "Liker jenta godt og elsker håndarbeid, men lar seg lett påvirke av sladder og krav om prestasjoner.",
+    "visualPrompt": "Verdig dronning i kongelig, men ikke overdådig drakt; fast blikk og myndig holdning; ser både stolt og forventningsfull ut, som en som vurderer arbeid og dyktighet",
+    "imagePath": "characters/dronningen.webp"
+  },
+  {
+    "name": "Prinsen",
+    "slug": "prinsen",
+    "description": "Blir glad i jenta og gifter seg med henne, men blir sjokkert når de tre «mostrene» dukker opp i bryllupet.",
+    "visualPrompt": "Ung prins i høytidsklær med et oppriktig, litt forvirret uttrykk; sitter ved bryllupsbordet og ser fra den vakre bruden til de underlige, gamle kvinnene med tydelig uro",
+    "imagePath": "characters/prinsen.webp"
+  },
+  {
+    "name": "De tre mostrene",
+    "slug": "de-tre-mostrene",
+    "description": "Tre gamle kvinner som i hemmelighet spinner, vever og syr for jenta mot at hun kaller dem «moster» på æresdagen; de bærer tydelige, skremmende tegn på livslangt arbeid.",
+    "visualPrompt": "Tre gamle, grove kvinner sammen: én med en ekstremt lang nese, én med en enorm og bred bak som gjør henne klumpete å bevege seg, og én med veldig store, røde og rennende øyne; kledd i slitte klær, med et strengt, kravstort, men også litt tilfreds uttrykk",
+    "imagePath": "characters/de-tre-mostrene.webp"
+  }
+]

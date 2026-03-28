@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Fugl Dam (Simplified)",
+  "description": "A simplified, modern-Norwegian retelling with clearer phrasing and smoother reading flow, keeping the adventure, betrayal, and magical rescue easy to follow.",
+  "tone": "Eventyrlig, spennende og lettlest, med klare vendinger og rett fram fortelling",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T09:22:33.379Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T09:26:52.958Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En yngste prins redder tolv bortførte prinsesser, blir sviktet av Ridder Rød, og får hjelp av den mektige Fugl Dam til å vinne sannheten tilbake.",
+  "hasInlineScenes": true
+}

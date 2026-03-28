@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Gjertrud",
+    "slug": "gjertrud",
+    "description": "En bakerkone med rød lue som har mye å gi, men som først synes det er vanskelig å dele.",
+    "visualPrompt": "En snill, enkel eventyrfigur: en voksen kvinne i bondeklær og forkle, med en klar rød lue, mel på hendene, varm og litt bekymret mine, i et lyst og koselig kjøkken",
+    "imagePath": "characters/gjertrud.webp"
+  },
+  {
+    "name": "Vårherre",
+    "slug": "varherre",
+    "description": "En vennlig vandrer som ber høflig om en liten smakebit og minner om at det er godt å dele.",
+    "visualPrompt": "En mild, eldre vandrer med rolige øyne, enkel kappe og stav, vennlig uttrykk og trygg utstråling, i eventyrstil uten strenge trekk",
+    "imagePath": "characters/varherre.webp"
+  },
+  {
+    "name": "Sankt Peder",
+    "slug": "sankt-peder",
+    "description": "En trofast følgesvenn på vandringen som står ved siden av og følger med.",
+    "visualPrompt": "En vennlig, værbitt reisefølge i enkel kappe, litt rufsete hår og skjegg, rolig holdning og mykt smil, i samme varme eventyrstil",
+    "imagePath": "characters/sankt-peder.webp"
+  },
+  {
+    "name": "Gjertrudsfuglen",
+    "slug": "gjertrudsfuglen",
+    "description": "Den lille fuglen Gjertrud blir til, mørk av sot men fortsatt med en rød lue, som leter etter mat i trær og gleder seg til regn.",
+    "visualPrompt": "En liten fugl med mørk fjærdrakt og en tydelig rød lue, livlige øyne, sittende på en gren ved et tre med bark og små insekter, med myke regnskyer i bakgrunnen og en mild, barnevennlig stemning",
+    "imagePath": "characters/gjertrudsfuglen.webp"
+  }
+]

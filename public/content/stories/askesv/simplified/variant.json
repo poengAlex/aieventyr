@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Askeladden og trollets sølvender, sengeteppe og gullharpe (Forenklet)",
+  "description": "En forenklet variant skrevet i moderne norsk med klarere setninger og jevnere flyt, som gjør eventyret lettere å lese uten å miste de viktigste hendelsene: Askeladden overlistar trollet tre ganger med enkle, smarte knep og vinner både skatter og belønning.",
+  "tone": "Lettlest, eventyrlig og spennende med humor og tydelig triumf for den listige underdogen.",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T08:46:55.593Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T08:49:48.527Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden lurer trollet og stjeler sølvendene, sengeteppet og gullharpa for å vinne prinsessa og halve riket.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "Spurning (English Retelling)",
+  "description": "A close English retelling of the Norwegian folktale in which Askeladden defeats a sharp-tongued princess not with grand speeches, but with quick, literal-minded answers and a bundle of odd found objects.",
+  "tone": "Witty, folkloric, and lightly triumphant",
+  "characterCount": 3,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:27:09.750Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:29:28.474Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden wins a princess and half a kingdom by outsmarting her barbs with humble roadside treasures.",
+  "hasInlineScenes": true
+}

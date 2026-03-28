@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "The youngest brother, an unassuming modern underdog who turns discarded everyday objects into perfectly timed comebacks.",
+    "visualPrompt": "Young man in simple contemporary clothes—hoodie or casual jacket, worn sneakers, curious eyes and a calm half-smile—carrying a small tote bag with a visible zip tie, a broken saucer shard wrapped in napkin, two bicycle horns, and a worn shoe sole.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "The Heiress",
+    "slug": "heiress",
+    "description": "A wealthy conglomerate owner’s daughter, famous for cutting one-liners and humiliating would-be suitors—until she meets her match.",
+    "visualPrompt": "Stylish young woman in modern high-end attire, sharp posture and confident gaze, immaculate hair, expressive eyebrows, standing in a villa doorway with a poised, confrontational elegance.",
+    "imagePath": "characters/heiress.webp"
+  },
+  {
+    "name": "The Tycoon Father",
+    "slug": "tycoon-father",
+    "description": "A powerful business magnate who makes a public challenge: silence his daughter and win both her hand and half his empire.",
+    "visualPrompt": "Middle-aged to older man in an expensive suit with a restrained, authoritative presence, standing in a contemporary home or corporate setting, watchful expression suggesting he’s testing anyone who approaches.",
+    "imagePath": "characters/tycoon-father.webp"
+  }
+]

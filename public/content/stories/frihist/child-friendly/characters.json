@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Frieren",
+    "slug": "frieren",
+    "description": "En godhjertet gutt som reiser rundt for å finne noen å bli glad i, og som møter folk med et åpent sinn.",
+    "visualPrompt": "En ung gutt med vennlig ansikt og enkel, ryddig klær, bærer en liten reiseveske; varme farger, mildt uttrykk, barnebokstil.",
+    "imagePath": "characters/frieren.webp"
+  },
+  {
+    "name": "Bonden",
+    "slug": "bonden",
+    "description": "Gårdsmannen som er stolt av det ene nye ermet sitt og prøver å virke som en ekstra flink husbonde når han får besøk.",
+    "visualPrompt": "En smilende gårdsmann i enkel skjorte der den ene armen har et tydelig nyere og penere erme, mens den andre armen holdes litt bak ryggen; jordnære farger, myk og humoristisk barnebokstil.",
+    "imagePath": "characters/bonden.webp"
+  },
+  {
+    "name": "Kona på gården",
+    "slug": "kona-pa-garden",
+    "description": "Hun har fått én ny sko og later som hun rydder opp overalt ved å dytte møbler litt til side på en viktig måte.",
+    "visualPrompt": "En vennlig kvinne i enkel kjole eller skjørt, med én ny og fin sko som skiller seg litt ut fra den andre; hun skyver forsiktig en krakk med et stolt, men snilt uttrykk; barnevennlig illustrasjonsstil.",
+    "imagePath": "characters/kona-pa-garden.webp"
+  },
+  {
+    "name": "Datteren",
+    "slug": "datteren",
+    "description": "Datteren som passer godt på den nye lua si og derfor bare titter inn og nikker rundt, som om hun ordner alt på én gang.",
+    "visualPrompt": "En ung jente som står i døråpningen og lener seg litt inn, med en ren og pen ny lue hun tydelig prøver å holde fin; myke linjer, varme farger, mild humor.",
+    "imagePath": "characters/datteren.webp"
+  }
+]

@@ -186,6 +186,7 @@ export function getWorkPaths(storyId, variant) {
   return {
     variantPack: rootPath('pipeline/work/variant-packs', storyId, `${variant}.json`),
     imagePrompt: rootPath('pipeline/work/image-prompts', storyId, `${variant}.txt`),
+    scenePrompts: rootPath('pipeline/work/scene-prompts', storyId, `${variant}.json`),
     ttsChunksDir: rootPath('pipeline/work/tts-chunks', storyId, variant),
   }
 }

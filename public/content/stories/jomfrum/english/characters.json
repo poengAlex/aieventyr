@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Maiden (the foster-daughter)",
+    "slug": "the-maiden",
+    "description": "Born to a poor couple and raised by a mysterious, noble foster-mother, her irresistible curiosity releases the star, moon, and sun; she chooses beauty at the cost of speech and is later made queen, suffering in silence until vindicated.",
+    "visualPrompt": "A breathtakingly beautiful young woman with gentle, sorrowful eyes, long fair hair, and simple woodland clothing; she carries a quiet, mute dignity, poised and delicate, with an otherworldly grace that contrasts with her humble origins.",
+    "imagePath": "characters/the-maiden.webp"
+  },
+  {
+    "name": "The Virgin Mary (the foster-mother)",
+    "slug": "virgin-mary",
+    "description": "A splendid, compassionate yet stern guardian who tests obedience through three forbidden chambers and later returns to reveal the truth, restore the children, and lift the maiden’s punishment.",
+    "visualPrompt": "A serene, radiant lady in splendid, modest robes in deep blue and soft white, with a calm, sorrow-knowing expression and a gentle authority; her presence feels warm, holy, and unmistakably otherworldly.",
+    "imagePath": "characters/virgin-mary.webp"
+  },
+  {
+    "name": "The Prince",
+    "slug": "the-prince",
+    "description": "A determined young ruler who discovers the maiden by the spring, marries her despite doubts, and repeatedly pleads to save her when she is falsely accused.",
+    "visualPrompt": "A young nobleman in elegant but practical medieval attire, kind-faced and steadfast, with an earnest gaze; he appears protective and resolute, marked by sleepless worry and devotion.",
+    "imagePath": "characters/the-prince.webp"
+  },
+  {
+    "name": "The Old Queen (the Prince’s mother)",
+    "slug": "the-old-queen",
+    "description": "Suspicious of the mute stranger and quick to believe the worst, she pushes for harsh punishment until the truth is revealed and her heart changes.",
+    "visualPrompt": "An older royal woman in dark, richly woven garments and a structured veil or crown, with sharp, appraising eyes and a stern posture that softens into humbled relief.",
+    "imagePath": "characters/the-old-queen.webp"
+  },
+  {
+    "name": "The Three Children",
+    "slug": "the-three-children",
+    "description": "The queen’s stolen infants, taken during three births to deepen her punishment, and returned at the last moment as proof of her innocence.",
+    "visualPrompt": "Three small children: two toddlers holding hands and a youngest baby carried close, dressed in simple white christening-like garments; they appear safe and cherished, with a faint, gentle glow of innocence.",
+    "imagePath": "characters/the-three-children.webp"
+  }
+]

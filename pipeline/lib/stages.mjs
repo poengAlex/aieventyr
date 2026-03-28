@@ -1,14 +1,10 @@
 import fs from 'fs/promises'
 import path from 'path'
 import ffmpeg from 'fluent-ffmpeg'
-import sharp from 'sharp'
 import {
   VARIANT_META,
   chunkText,
-  copyFile,
   createSectionTitle,
-  createPlaceholderCard,
-  createStyledDerivative,
   ensureDir,
   fileExists,
   getCanonicalPaths,
@@ -16,7 +12,6 @@ import {
   getVariantGoal,
   getVariantSourceVariant,
   getWorkPaths,
-  listFiles,
   loadModelsConfig,
   loadPipelineConfig,
   loadPrompt,
@@ -35,11 +30,6 @@ import {
   writeText,
 } from './shared.mjs'
 import { generateImage, generateJson, generateSpeech, generateText } from './openai.mjs'
-
-async function getSectionMap() {
-  const sections = await loadSections()
-  return new Map(sections.map((section) => [section.id, section]))
-}
 
 async function buildBaseStoryMeta(section) {
   return {
@@ -65,6 +55,23 @@ async function readStoryMeta(storyId) {
 async function writeStoryMeta(storyId, meta) {
   const storyMetaPath = getCanonicalPaths(storyId, 'raw').storyMeta
   await writeJson(storyMetaPath, meta)
+}
+
+async function getExistingVariants(storyId, variants) {
+  const existing = []
+  for (const variant of variants) {
+    const paths = getCanonicalPaths(storyId, variant)
+    if (
+      (await fileExists(paths.storyText)) &&
+      (await fileExists(paths.variantMeta)) &&
+      (await fileExists(paths.mainImage)) &&
+      (await fileExists(paths.charactersMeta)) &&
+      (await fileExists(path.join(paths.variantDir, 'sections.json')))
+    ) {
+      existing.push(variant)
+    }
+  }
+  return existing
 }
 
 async function getRawSourceFile(section) {
@@ -109,82 +116,111 @@ async function updateVariantMeta(storyId, variant, updater) {
   return next
 }
 
-async function createInlineSceneImage({
-  mainImagePath,
-  characterImagePaths,
-  outputPath,
-  sceneIndex,
-  sectionCount,
-  variant,
-}) {
-  const width = 1400
-  const height = 900
-  const positions = ['left', 'center', 'right', 'attention']
-  const background = sharp(mainImagePath).resize(width, height, {
-    fit: 'cover',
-    position: positions[sceneIndex % positions.length],
-  })
-
-  const tintMap = {
-    raw: { r: 166, g: 139, b: 105, alpha: 0.22 },
-    cleaned: { r: 240, g: 222, b: 188, alpha: 0.16 },
-    simplified: { r: 216, g: 225, b: 175, alpha: 0.18 },
-    english: { r: 182, g: 205, b: 227, alpha: 0.18 },
-    'child-friendly': { r: 255, g: 214, b: 172, alpha: 0.22 },
-    modern: { r: 161, g: 191, b: 191, alpha: 0.18 },
+function normalizeSceneTitle(value, fallbackText, index) {
+  if (typeof value === 'string' && value.trim()) {
+    return value.trim()
   }
-  const tint = tintMap[variant] || tintMap.cleaned
+  return createSectionTitle(fallbackText, index)
+}
 
-  const composites = [
-    {
-      input: Buffer.from(`
-        <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="rgba(18,20,18,0.05)"/>
-              <stop offset="100%" stop-color="rgba(18,20,18,0.32)"/>
-            </linearGradient>
-          </defs>
-          <rect width="${width}" height="${height}" fill="url(#fade)"/>
-          <rect width="${width}" height="${height}" fill="rgba(${tint.r},${tint.g},${tint.b},${tint.alpha})"/>
-          <rect x="56" y="56" width="${width - 112}" height="${height - 112}" rx="42" fill="none" stroke="rgba(255,255,255,0.38)" stroke-width="4"/>
-        </svg>
-      `),
-    },
+function sceneImagePrompt(prompt, variant, models) {
+  return `${prompt}\n\nVariant style: ${VARIANT_META[variant].imageStyle}\n\n${models.image.styleSuffix}`
+}
+
+function buildSafeScenePrompt({ title, storyTitle, variant, text }) {
+  const safeContext = text
+    .replace(/\s+/g, ' ')
+    .replace(/\b(kniv|drepe|slakte|skjære|spiste|sprakk|blod|selvmord|selvskading)\b/gi, '')
+    .trim()
+    .slice(0, 280)
+
+  return [
+    `Illustrate a non-graphic, all-ages fairytale moment from the ${VARIANT_META[variant].label.toLowerCase()} variant of "${storyTitle}".`,
+    `Section title: ${title}.`,
+    safeContext ? `Context: ${safeContext}` : '',
+    'Focus on tension, expressions, setting, and a clear story beat immediately before or after the most dramatic action.',
+    'Avoid injury, self-harm, blood, weapons touching bodies, gore, or body horror. No text.',
   ]
+    .filter(Boolean)
+    .join('\n\n')
+}
 
-  const selectedCharacterImages = characterImagePaths.slice(sceneIndex % 2, sceneIndex % 2 + 2)
-  for (let index = 0; index < selectedCharacterImages.length; index++) {
-    const cardWidth = 260
-    const cardHeight = 320
-    const left = width - 356 - index * 196
-    const top = 88 + ((sceneIndex + index) % 2) * 120
-    const frameSvg = Buffer.from(`
-      <svg width="${cardWidth}" height="${cardHeight}" xmlns="http://www.w3.org/2000/svg">
-        <rect width="${cardWidth}" height="${cardHeight}" rx="28" fill="rgba(255,252,244,0.92)"/>
-      </svg>
-    `)
-    composites.push({ input: frameSvg, left, top })
-    composites.push({
-      input: await sharp(selectedCharacterImages[index])
-        .resize(cardWidth - 24, cardHeight - 24, { fit: 'cover' })
-        .webp()
-        .toBuffer(),
-      left: left + 12,
-      top: top + 12,
-    })
-  }
+function buildUltraSafeScenePrompt({ title, storyTitle, variant }) {
+  return [
+    `Illustrate a gentle, non-violent fairytale moment from the ${VARIANT_META[variant].label.toLowerCase()} variant of "${storyTitle}".`,
+    `Scene cue: ${title}.`,
+    'Show a clever young folktale hero and the other key figure in the scene sharing a tense but calm moment inside a richly detailed Nordic storybook setting.',
+    'Focus on expressions, environment, candlelight or firelight, and visual storytelling.',
+    'No self-harm, no injury, no blood, no gore, no threatening gestures, and no weapons. No text.',
+  ].join('\n\n')
+}
 
-  composites.push({
-    input: Buffer.from(`
-      <svg width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="${126 + sceneIndex * 28}" cy="${height - 132}" r="${74 + ((sceneIndex + sectionCount) % 2) * 18}" fill="rgba(255,255,255,0.12)"/>
-      </svg>
-    `),
+function buildFallbackScenePrompt({ sectionText, storyTitle, variant, characters, index }) {
+  const characterSummary = characters.length
+    ? `Characters in this section should stay consistent with these descriptions: ${characters
+        .slice(0, 3)
+        .map((character) => `${character.name} (${character.description})`)
+        .join('; ')}.`
+    : 'Focus on the main subject of the section and the folktale setting.'
+
+  return [
+    `Illustrate a distinct scene from section ${index + 1} of the ${VARIANT_META[variant].label.toLowerCase()} variant of "${storyTitle}".`,
+    `Scene text: ${sectionText.replace(/\s+/g, ' ').trim()}`,
+    characterSummary,
+    'Create one clear storybook image with a single readable moment, expressive action, and no text.',
+  ].join('\n\n')
+}
+
+function normalizeScenePack(generatedSections, sectionEntries, storyTitle, variant, characters) {
+  const generatedList = Array.isArray(generatedSections) ? generatedSections : []
+  const generatedById = new Map(
+    generatedList
+      .filter((item) => item && typeof item === 'object')
+      .map((item) => [String(item.id || ''), item]),
+  )
+
+  return sectionEntries.map((entry, index) => {
+    const generated = generatedById.get(entry.id) || generatedList[index] || {}
+    return {
+      ...entry,
+      title: normalizeSceneTitle(generated.title, entry.text, index),
+      imagePrompt:
+        typeof generated.imagePrompt === 'string' && generated.imagePrompt.trim()
+          ? generated.imagePrompt.trim()
+          : buildFallbackScenePrompt({
+              sectionText: entry.text,
+              storyTitle,
+              variant,
+              characters,
+              index,
+            }),
+    }
   })
+}
 
-  await ensureDir(path.dirname(outputPath))
-  await background.composite(composites).webp({ quality: 82 }).toFile(outputPath)
+async function hasCompleteInlineScenes(paths) {
+  const sectionsFile = path.join(paths.variantDir, 'sections.json')
+  if (!(await fileExists(sectionsFile))) {
+    return false
+  }
+  const sectionsData = await readJson(sectionsFile)
+  if (!Array.isArray(sectionsData) || !sectionsData.length) {
+    return false
+  }
+  for (const scene of sectionsData) {
+    if (!scene?.imagePath) {
+      return false
+    }
+    const scenePath = path.join(paths.variantDir, scene.imagePath)
+    if (!(await fileExists(scenePath))) {
+      return false
+    }
+  }
+  return true
+}
+
+function isModerationBlocked(error) {
+  return error?.code === 'moderation_blocked' || error?.error?.code === 'moderation_blocked'
 }
 
 export async function stageExtractSource(args = {}) {
@@ -504,6 +540,10 @@ export async function stageBuildContentManifest(args = {}) {
   const stories = []
   for (const section of sections) {
     const storyMeta = await readStoryMeta(section.id)
+    const existingVariants = await getExistingVariants(section.id, pipelineConfig.variants)
+    if (!existingVariants.length) {
+      continue
+    }
     const simplifiedVariantPath = getCanonicalPaths(section.id, pipelineConfig.defaultVariant).variantMeta
     if (await fileExists(simplifiedVariantPath)) {
       const simplifiedVariant = await readJson(simplifiedVariantPath)
@@ -516,9 +556,7 @@ export async function stageBuildContentManifest(args = {}) {
         storyMeta.summary = `${fallbackText.slice(0, 140).trim()}...`
       }
     }
-    storyMeta.availableVariants = pipelineConfig.variants.filter((variant) =>
-      !!variant,
-    )
+    storyMeta.availableVariants = existingVariants
     await writeStoryMeta(section.id, storyMeta)
     stories.push({
       id: storyMeta.id,
@@ -595,44 +633,152 @@ export async function stageValidateContent(args = {}) {
 
 export async function stageBuildInlineScenes(args = {}) {
   const { sections, variants } = await resolveSelection(args)
+  const models = await loadModelsConfig()
+  const pipelineConfig = await loadPipelineConfig()
+  const promptTemplate = await loadPrompt('scene-pack.md')
   for (const section of sections) {
     for (const variant of variants) {
       const paths = getCanonicalPaths(section.id, variant)
+      const work = getWorkPaths(section.id, variant)
       const variantMeta = (await fileExists(paths.variantMeta)) ? await readJson(paths.variantMeta) : null
       if (!variantMeta) continue
+      if (!args.force && (await hasCompleteInlineScenes(paths))) continue
       const text = await readText(paths.storyText)
       const characters = (await fileExists(paths.charactersMeta)) ? await readJson(paths.charactersMeta) : []
       const sectionGroups = splitTextIntoSections(text)
-      const sceneDir = path.join(paths.variantDir, 'scenes')
-      await ensureDir(sceneDir)
-      const characterImagePaths = []
-      for (const character of characters) {
-        const imagePath = path.join(paths.variantDir, character.imagePath)
-        if (await fileExists(imagePath)) {
-          characterImagePaths.push(imagePath)
-        }
-      }
-      const sceneEntries = []
-      for (let index = 0; index < sectionGroups.length; index++) {
-        const sectionText = sectionGroups[index].join('\n\n').trim()
-        const sceneFileName = `scenes/scene-${index + 1}.webp`
-        const absoluteScenePath = path.join(paths.variantDir, sceneFileName)
-        await createInlineSceneImage({
-          mainImagePath: paths.mainImage,
-          characterImagePaths,
-          outputPath: absoluteScenePath,
-          sceneIndex: index,
-          sectionCount: sectionGroups.length,
-          variant,
-        })
-        sceneEntries.push({
+      const sectionEntries = sectionGroups.map((group, index) => {
+        const sectionText = group.join('\n\n').trim()
+        return {
           id: `section-${index + 1}`,
           title: createSectionTitle(sectionText, index),
           text: sectionText,
-          imagePath: sceneFileName,
+          imagePath: `scenes/scene-${index + 1}.webp`,
+        }
+      })
+
+      const prompt = renderPrompt(promptTemplate, {
+        storyId: section.id,
+        originalTitle: section.originalTitle,
+        variant,
+        variantLabel: VARIANT_META[variant].label,
+        variantExplanation: VARIANT_META[variant].explanation,
+        variantDescription: variantMeta.description || '',
+        characters: JSON.stringify(
+          characters.map((character) => ({
+            name: character.name,
+            description: character.description,
+          })),
+          null,
+          2,
+        ),
+        sections: JSON.stringify(
+          sectionEntries.map((entry) => ({
+            id: entry.id,
+            title: entry.title,
+            text: entry.text,
+          })),
+          null,
+          2,
+        ),
+      })
+
+      let scenePlan = sectionEntries.map((entry, index) => ({
+        ...entry,
+        imagePrompt: buildFallbackScenePrompt({
+          sectionText: entry.text,
+          storyTitle: variantMeta.displayTitle || section.originalTitle,
+          variant,
+          characters,
+          index,
+        }),
+      }))
+
+      try {
+        const { json } = await generateJson({
+          model: models.text.model,
+          system:
+            'You produce structured scene illustration prompts for a story reading application. Keep them specific, visual, and faithful to the supplied story sections.',
+          user: prompt,
+          verbosity: models.text.verbosity,
+          reasoningEffort: models.text.reasoningEffort,
         })
+        scenePlan = normalizeScenePack(
+          json.sections,
+          sectionEntries,
+          variantMeta.displayTitle || section.originalTitle,
+          variant,
+          characters,
+        )
+      } catch (error) {
+        console.warn(`Falling back to local scene prompts for ${section.id}/${variant}: ${error.message}`)
       }
-      await writeJson(path.join(paths.variantDir, 'sections.json'), sceneEntries)
+
+      const sceneDir = path.join(paths.variantDir, 'scenes')
+      await ensureDir(sceneDir)
+      await writeJson(work.scenePrompts, {
+        storyId: section.id,
+        variant,
+        generatedAt: new Date().toISOString(),
+        sections: scenePlan.map((entry) => ({
+          id: entry.id,
+          title: entry.title,
+          imagePrompt: entry.imagePrompt,
+        })),
+      })
+
+      for (const entry of scenePlan) {
+        const absoluteScenePath = path.join(paths.variantDir, entry.imagePath)
+        if (!args.force && (await fileExists(absoluteScenePath))) continue
+        try {
+          const response = await generateImage({
+            model: models.image.model,
+            prompt: sceneImagePrompt(entry.imagePrompt, variant, models),
+            size: pipelineConfig.defaultImageSize,
+            quality: pipelineConfig.defaultImageQuality,
+          })
+          await writeImageFromResponse(response, absoluteScenePath)
+        } catch (error) {
+          if (!isModerationBlocked(error)) {
+            throw error
+          }
+          const safePrompt = buildSafeScenePrompt({
+            title: entry.title,
+            storyTitle: variantMeta.displayTitle || section.originalTitle,
+            variant,
+            text: entry.text,
+          })
+          console.warn(`Retrying moderated scene with safer prompt for ${section.id}/${variant}/${entry.id}`)
+          try {
+            const fallbackResponse = await generateImage({
+              model: models.image.model,
+              prompt: sceneImagePrompt(safePrompt, variant, models),
+              size: pipelineConfig.defaultImageSize,
+              quality: pipelineConfig.defaultImageQuality,
+            })
+            entry.imagePrompt = safePrompt
+            await writeImageFromResponse(fallbackResponse, absoluteScenePath)
+          } catch (fallbackError) {
+            if (!isModerationBlocked(fallbackError)) {
+              throw fallbackError
+            }
+            const ultraSafePrompt = buildUltraSafeScenePrompt({
+              title: entry.title,
+              storyTitle: variantMeta.displayTitle || section.originalTitle,
+              variant,
+            })
+            console.warn(`Retrying moderated scene with ultra-safe prompt for ${section.id}/${variant}/${entry.id}`)
+            const ultraSafeResponse = await generateImage({
+              model: models.image.model,
+              prompt: sceneImagePrompt(ultraSafePrompt, variant, models),
+              size: pipelineConfig.defaultImageSize,
+              quality: pipelineConfig.defaultImageQuality,
+            })
+            entry.imagePrompt = ultraSafePrompt
+            await writeImageFromResponse(ultraSafeResponse, absoluteScenePath)
+          }
+        }
+      }
+      await writeJson(path.join(paths.variantDir, 'sections.json'), scenePlan)
       await updateVariantMeta(section.id, variant, async (meta) => ({
         ...meta,
         characterCount: characters.length,
@@ -673,7 +819,6 @@ export async function runPipelineAll(args = {}) {
   await stageGenerateVariantMainImagePrompts(args)
   await stageGenerateVariantCharacterImages(args)
   await stageGenerateVariantMainImages(args)
-  await stageGenerateVariantAudio(args)
   await stageBuildInlineScenes(args)
   await stageBuildContentManifest(args)
   await stageValidateContent(args)
@@ -685,4 +830,16 @@ export async function runPipelineStory(args = {}) {
 
 export async function runPipelineVariant(args = {}) {
   await runPipelineAll(args)
+}
+
+export async function runPipelineAllAudio(args = {}) {
+  await stageGenerateVariantAudio(args)
+}
+
+export async function runPipelineStoryAudio(args = {}) {
+  await runPipelineAllAudio(args)
+}
+
+export async function runPipelineVariantAudio(args = {}) {
+  await runPipelineAllAudio(args)
 }

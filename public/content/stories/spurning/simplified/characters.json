@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste broren, rolig og oppfinnsom, som samler småting på veien og bruker dem til å vende prinsessas ord mot henne.",
+    "visualPrompt": "Ung norsk eventyrgutt med enkelt, slitt reiseklær, et lurt og vennlig blikk, bærer en liten sekk med merkelige funn som vidjespenning, skår av en skål, bukkehorn og en gammel skosåle.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Prinsessa",
+    "slug": "prinsessa",
+    "description": "Kongens datter som er vrien i ord og alltid finner en utvei, helt til hun møter en som svarer enda raskere.",
+    "visualPrompt": "Ung prinsesse i nordisk middelalderstil med elegant kjole og smykker, rank holdning og et skarpt, utfordrende uttrykk som gradvis går over i overraskelse.",
+    "imagePath": "characters/prinsessa.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "Faren som lover bort prinsessa og halve kongeriket til den som klarer å fange henne i ordene hennes.",
+    "visualPrompt": "Eldre konge med kappe og krone, myndig men nysgjerrig, sitter på en enkel trone og følger ordskiftet med spent ansikt.",
+    "imagePath": "characters/kongen.webp"
+  }
+]

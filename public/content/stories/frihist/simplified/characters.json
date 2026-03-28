@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Frieren",
+    "slug": "frieren",
+    "description": "En ung gutt som reiser rundt for å fri og ender opp på en gård som prøver å imponere ham.",
+    "visualPrompt": "Ung norsk gutt i en enkel, pent stelt reisedrakt, nysgjerrig og høflig, med en liten reiseveske og et åpent, vurderende blikk.",
+    "imagePath": "characters/frieren.webp"
+  },
+  {
+    "name": "Mannen på gården",
+    "slug": "mannen-pa-garden",
+    "description": "Faren i familien, fattig men stolt, som skjuler slitasjen ved å vise fram ett nytt erme og late som han rydder.",
+    "visualPrompt": "Tynn, værbitt bonde i slitte klær med ett tydelig nytt skjorteerme som han bruker til å gni benker og bord, den andre armen holdt bak ryggen, ansikt med anstrengt stolthet.",
+    "imagePath": "characters/mannen-pa-garden.webp"
+  },
+  {
+    "name": "Kona på gården",
+    "slug": "kona-pa-garden",
+    "description": "Moren som har fått én ny sko og bruker den til å sparke bort ting mens hun klager over rot.",
+    "visualPrompt": "Kvinne i lappede, enkle klær, én fot med en ny og ren sko og den andre med en gammel, slitt sko, kroppsholdning som viser at hun tramper og sparker krakker til side.",
+    "imagePath": "characters/kona-pa-garden.webp"
+  },
+  {
+    "name": "Datteren",
+    "slug": "datteren",
+    "description": "Datteren som bare stikker hodet inn og nikker, ivrig etter å beskytte den nye lua si.",
+    "visualPrompt": "Ung jente i en enkel kjole, med en tydelig ny lue hun passer på, stikker bare hodet inn gjennom en døråpning og nikker, uttrykk av både forlegenhet og trass.",
+    "imagePath": "characters/datteren.webp"
+  }
+]

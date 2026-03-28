@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "The Man’s Daughter and the Wife’s Daughter",
+  "description": "An English retelling that stays close to the original Scandinavian folktale, keeping the well-fall into a green meadow, the helpful fence, cow, ram, and apple tree, the troll-wife’s impossible chores aided by singing birds, and the moral contrast between kindness rewarded with a blue chest of treasure and cruelty punished with a red chest of crawling horrors.",
+  "tone": "Classic folktale; moral, wondrous, and suspenseful",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T14:54:35.922Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T14:59:21.002Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A kind stepdaughter survives a troll-wife’s tests and wins a treasure chest, while her cruel stepsister earns only worms and toads.",
+  "hasInlineScenes": true
+}

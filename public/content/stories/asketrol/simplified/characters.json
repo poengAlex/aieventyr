@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste sønnen, rolig og kvikk i hodet, som bruker smarte knep for å vinne over trollet og skaffe penger til familien.",
+    "visualPrompt": "Ung norsk bondegutt med rufsete hår og vennlige, våkne øyne, slitte men rene klær, en enkel skrepp over skuldra og en trygg, listig holdning",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Trollet",
+    "slug": "trollet",
+    "description": "Et stort skogtroll som truer med å drepe den som hogger i skogen, men som lar seg lure av Askeladdens påfunn.",
+    "visualPrompt": "Stort, kraftig troll med grov hud og store hender, bustete skjegg og tunge bryn, kledd i enkle filler, uttrykk som veksler mellom truende og lettlurt",
+    "imagePath": "characters/trollet.webp"
+  },
+  {
+    "name": "Faren",
+    "slug": "faren",
+    "description": "En gammel og sliten bonde som presser sønnene til å hogge tømmer for å betale gjeld, og som skjeller dem ut når de gir opp.",
+    "visualPrompt": "Eldre bonde med værbitt ansikt, grått hår og lut holdning, en enkel ulltrøye og arbeidsbukser, alvorlig blikk som viser bekymring",
+    "imagePath": "characters/faren.webp"
+  },
+  {
+    "name": "De to eldste brødrene",
+    "slug": "de-to-eldste-brodrene",
+    "description": "To late og selvsikre brødre som blir livredde for trollet og flykter hjem, mens de samtidig gjør narr av Askeladden.",
+    "visualPrompt": "To unge menn i bondeklær med øks, litt stiv holdning og usikre ansikter, den ene høyere og den andre bredere, begge ser lettskremte ut",
+    "imagePath": "characters/de-to-eldste-brodrene.webp"
+  }
+]

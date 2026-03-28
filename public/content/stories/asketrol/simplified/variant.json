@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Askeladden som kappeåt med trollet (forenklet)",
+  "description": "En forenklet utgave i moderne norsk med klarere setninger og lettere flyt, som gjør eventyret mer tilgjengelig uten å miste humoren i Askeladdens lure triks mot trollet.",
+  "tone": "Lett, spennende og humoristisk",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T09:35:59.484Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T09:37:53.735Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden lurer et skogtroll med ost og grøt og kommer hjem med gull nok til å betale gjelda.",
+  "hasInlineScenes": true
+}

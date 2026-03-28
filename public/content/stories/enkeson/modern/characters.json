@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Widow’s Son",
+    "slug": "widows-son",
+    "description": "A poor, stubborn young man who survives the troll’s tests, disguises himself as a despised garden laborer, and secretly rides to battle to save the estate.",
+    "visualPrompt": "Young adult man with striking, luminous healthy skin and bright eyes; lean but newly strengthened build; rough work clothes smeared with soil; a crude wig made from pale lichen and moss; when revealed, clean-faced and handsome; carries quiet intensity and wariness",
+    "imagePath": "characters/widows-son.webp"
+  },
+  {
+    "name": "The Troll in the Dark Car",
+    "slug": "troll",
+    "description": "A charming, frightening predator posing as a generous employer, ruling his isolated house with threats, forbidden doors, and brutal punishments.",
+    "visualPrompt": "Middle-aged man with an unnervingly calm smile and hard eyes; expensive but understated clothing; presence feels slightly inhuman despite the modern look; stands in a dim, half-finished hallway with four close-set doors, menace in his posture",
+    "imagePath": "characters/troll.webp"
+  },
+  {
+    "name": "The Black Horse (Cursed Prince)",
+    "slug": "black-horse-prince",
+    "description": "A talking black horse trapped by a curse, who guides the boy’s escape with “everyday magic,” then seeks release so he can return to his true human form and reclaim his kingdom.",
+    "visualPrompt": "Large, glossy black horse with intelligent, almost human eyes; tense, powerful frame; subtle signs of hardship; later implied human identity through a faint regal dignity in its gaze and stance, even while still a horse",
+    "imagePath": "characters/black-horse-prince.webp"
+  },
+  {
+    "name": "The Princess of the Estate",
+    "slug": "princess",
+    "description": "The tycoon’s daughter—stylish, bold, and compassionate—who sees through the boy’s disguise and risks punishment to protect him.",
+    "visualPrompt": "Young woman in designer sneakers and modern tailored streetwear; poised and confident; phone and charity-brand accessories; expressive face that shifts from curiosity to defiance; seen framed by a mansion window or standing in sleek, luxurious interiors",
+    "imagePath": "characters/princess.webp"
+  },
+  {
+    "name": "The King (Tycoon Landowner)",
+    "slug": "king-tycoon",
+    "description": "A feared business magnate treated like royalty, controlling his household with surveillance and force until the boy’s heroism and healing overturn his pride.",
+    "visualPrompt": "Powerful older man with severe features and immaculate suit; controlled anger in his eyes; carries a crisp white pocket square with a small embroidered crest; surrounded by security staff, armored vehicles, and modern estate grandeur",
+    "imagePath": "characters/king-tycoon.webp"
+  }
+]

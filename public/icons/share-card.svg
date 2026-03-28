@@ -1,0 +1,56 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="116" y1="68" x2="1076" y2="566" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E7CE"/>
+      <stop offset="1" stop-color="#D8C08E"/>
+    </linearGradient>
+    <radialGradient id="forestGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(922 109) rotate(118) scale(690 892)">
+      <stop stop-color="#3A6A59" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#3A6A59" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="108" y1="80" x2="520" y2="504" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#214437"/>
+      <stop offset="1" stop-color="#172D25"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="242" y1="138" x2="428" y2="452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7E3A5"/>
+      <stop offset="1" stop-color="#D2A649"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" rx="42" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1152" height="582" rx="30" stroke="rgba(66,46,20,0.12)" stroke-width="4"/>
+  <rect x="78" y="78" width="430" height="474" rx="34" fill="url(#panel)"/>
+  <rect x="540" y="88" width="578" height="454" rx="34" fill="rgba(255,252,245,0.44)"/>
+  <rect x="540" y="88" width="578" height="454" rx="34" fill="url(#forestGlow)"/>
+
+  <circle cx="293" cy="271" r="132" fill="#183128"/>
+  <circle cx="293" cy="271" r="116" stroke="url(#gold)" stroke-width="6" opacity="0.9"/>
+  <path d="M236 369L277 191H303L262 369H236Z" fill="url(#gold)"/>
+  <path d="M352 369L311 191H285L326 369H352Z" fill="url(#gold)"/>
+  <rect x="259" y="279" width="69" height="22" rx="8" fill="url(#gold)"/>
+  <path d="M200 376C222 359 250 351 286 351H300C336 351 365 359 386 376V397C365 382 336 375 300 375H286C250 375 222 382 200 397V376Z" fill="#F5E7CA"/>
+  <path d="M200 376C222 359 250 351 286 351H293V435H286C250 435 222 442 200 457V376Z" fill="#F8EEDB"/>
+  <path d="M386 376C365 359 336 351 300 351H293V435H300C336 435 365 442 386 457V376Z" fill="#F0DFC0"/>
+  <path d="M293 351V435" stroke="#D3AF66" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="574" y="206" fill="#20352D" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700">
+    Aieventyr
+  </text>
+  <text x="574" y="274" fill="#4D5F56" font-family="Georgia, 'Times New Roman', serif" font-size="28">
+    Original Norwegian fairytales,
+  </text>
+  <text x="574" y="314" fill="#4D5F56" font-family="Georgia, 'Times New Roman', serif" font-size="28">
+    rebuilt into a readable AI edition.
+  </text>
+
+  <g opacity="0.94">
+    <path d="M582 409C618 367 652 344 684 344C721 344 748 373 782 373C812 373 835 356 854 323C848 394 819 437 768 450C722 462 685 441 649 423C625 410 602 403 582 409Z" fill="#1D3B30"/>
+    <path d="M742 432C782 384 817 360 847 360C882 360 906 386 940 386C972 386 997 368 1022 329C1012 421 965 466 897 466C846 466 806 442 770 430C760 427 751 428 742 432Z" fill="#2B5445"/>
+    <path d="M903 432C934 397 965 380 996 380C1027 380 1047 398 1078 398C1096 398 1112 390 1125 376C1118 448 1077 485 1024 485C983 485 947 462 919 445C914 442 909 437 903 432Z" fill="#3B6A59"/>
+  </g>
+
+  <text x="574" y="474" fill="#6B5A38" font-family="Arial, sans-serif" font-size="22" letter-spacing="2.6">
+    STORIES • IMAGES • AUDIO
+  </text>
+</svg>

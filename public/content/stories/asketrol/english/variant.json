@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "Askeladden and the Troll in the Forest (English Retelling)",
+  "description": "A faithful English retelling of the classic Norwegian folktale, keeping the original’s brisk, cunning humor as Askeladden outwits a forest troll with quick thinking, bold bluffing, and a knapsack trick.",
+  "tone": "Folktale, witty, and suspenseful",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:57:55.341Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:01:15.697Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A clever youngest son bluffs and tricks a troll to win treasure and save his family from debt.",
+  "hasInlineScenes": true
+}

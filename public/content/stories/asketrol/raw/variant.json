@@ -1,0 +1,20 @@
+{
+  "variant": "raw",
+  "displayTitle": "Askeladden som kapaad med Troldet",
+  "description": "The raw OCR extraction from the source material.",
+  "tone": "archival",
+  "characterCount": 0,
+  "hasAudio": false,
+  "generation": {
+    "model": "source-material",
+    "prompt": "extract-source",
+    "generatedAt": "2026-03-28T12:05:08.051Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  }
+}

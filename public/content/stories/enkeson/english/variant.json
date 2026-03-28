@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "Enkesønnen (English Retelling)",
+  "description": "An English retelling that stays close to the original folktale’s plainspoken style, keeping its stark bargains, ominous forbidden rooms, troll-magic, and the hero’s secret double life as both ragged servant and shining champion.",
+  "tone": "Classic folkloric, suspenseful, and wonder-filled with dark fairy-tale peril",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T14:27:51.201Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T14:32:44.216Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A widowed woman’s son escapes a troll and secretly becomes the kingdom’s champion to win a princess and a future forged by magic.",
+  "hasInlineScenes": true
+}

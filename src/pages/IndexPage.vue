@@ -3,29 +3,15 @@
     <section class="hero-panel">
       <div class="hero-copy">
         <div class="eyebrow">Canonical Edition</div>
-        <h1>Norske Folkeeventyr rebuilt for reading, listening, and browsing.</h1>
+        <h1>Original fairytales, rebuilt into a readable AI edition.</h1>
         <p>
-          Choose a variant once, browse the library, and open a focused reader with the text, audio,
-          cover art, and character gallery for that exact version of the story.
+          Aieventyr started with a simple goal: make the original Norwegian folktales easier to read and
+          revisit than the scanned source material. The stories, images, and audio in this library are
+          generated through one AI pipeline and organized into clean reading variants.
         </p>
       </div>
       <div class="hero-controls">
         <variant-selector />
-        <div class="filters">
-          <q-input
-            v-model="settings.search"
-            standout="bg-white text-primary"
-            rounded
-            dense
-            clearable
-            placeholder="Search stories"
-          >
-            <template #prepend>
-              <q-icon name="search" />
-            </template>
-          </q-input>
-          <q-toggle v-model="settings.unreadOnly" label="Unread only" color="primary" />
-        </div>
       </div>
     </section>
 
@@ -34,6 +20,7 @@
         <div class="headline-title">Library</div>
         <div class="headline-caption">{{ filteredStories.length }} stories in this view</div>
       </div>
+      <q-toggle v-model="settings.showRead" label="Show read" color="primary" class="read-toggle" />
     </div>
 
     <div v-if="loading" class="loading-panel">
@@ -47,26 +34,17 @@
         class="story-card"
         :class="{ read: settings.isRead(story.id) }"
         flat
+        tabindex="0"
+        role="link"
+        @click="openStory(story.id)"
+        @keyup.enter="openStory(story.id)"
       >
-        <q-img :src="getCover(story.id)" :ratio="1" fit="cover" class="story-image" />
-        <q-card-section class="story-body">
-          <div class="story-topline">
-            <q-badge color="secondary" text-color="dark">#{{ story.index }}</q-badge>
-            <q-badge v-if="settings.isRead(story.id)" color="positive">Read</q-badge>
+        <div v-if="settings.isRead(story.id)" class="read-badge">Read</div>
+        <q-img :src="getCover(story)" :ratio="1" fit="cover" class="story-image">
+          <div class="story-overlay">
+            <div class="story-title">{{ story.canonicalTitle }}</div>
           </div>
-          <div class="story-title">{{ story.canonicalTitle }}</div>
-          <div class="story-summary">{{ story.summary }}</div>
-          <div class="story-foot">
-            <q-btn
-              color="primary"
-              unelevated
-              no-caps
-              :to="`/story/${story.id}`"
-              label="Open story"
-            />
-            <div class="story-variant">{{ variantLabel }}</div>
-          </div>
-        </q-card-section>
+        </q-img>
       </q-card>
     </div>
   </q-page>
@@ -74,32 +52,35 @@
 
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue'
+import { useRouter } from 'vue-router'
 import VariantSelector from 'src/components/VariantSelector.vue'
-import { loadManifest } from 'src/logic/content'
+import { loadManifest, resolveStoryVariant } from 'src/logic/content'
 import { createNotify } from 'src/logic/utils'
-import { useSettingsStore, VARIANT_TEXT } from 'src/stores/settings'
-import type { StoryListItem } from 'src/types/content'
+import { useSettingsStore } from 'src/stores/settings'
+import type { StoryListItem, VariantType } from 'src/types/content'
 
 const settings = useSettingsStore()
+const router = useRouter()
 const loading = ref(true)
 const stories = ref<StoryListItem[]>([])
 
 const filteredStories = computed(() => {
-  const query = settings.search.trim().toLowerCase()
   return stories.value.filter((story) => {
-    if (settings.unreadOnly && settings.isRead(story.id)) return false
-    if (!query) return true
-    return [story.canonicalTitle, story.originalTitle, story.summary]
-      .join(' ')
-      .toLowerCase()
-      .includes(query)
+    if (!settings.showRead && settings.isRead(story.id)) return false
+    return true
   })
 })
 
-const variantLabel = computed(() => VARIANT_TEXT[settings.variant])
+function getResolvedVariant(story: StoryListItem): VariantType {
+  return resolveStoryVariant(story.availableVariants, settings.variant)
+}
 
-function getCover(storyId: string) {
-  return `/content/stories/${storyId}/${settings.variant}/main.webp`
+function getCover(story: StoryListItem) {
+  return `/content/stories/${story.id}/${getResolvedVariant(story)}/main.webp`
+}
+
+function openStory(storyId: string) {
+  void router.push(`/story/${storyId}`)
 }
 
 onMounted(async () => {
@@ -159,18 +140,11 @@ onMounted(async () => {
   gap: 14px;
 }
 
-.filters {
-  display: grid;
-  gap: 12px;
-  background: rgba(255, 255, 255, 0.62);
-  padding: 16px;
-  border-radius: 20px;
-}
-
 .library-headline {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
+  gap: 14px;
   margin-bottom: 16px;
 }
 
@@ -183,6 +157,12 @@ onMounted(async () => {
   color: rgba(47, 59, 51, 0.72);
 }
 
+.read-toggle {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.62);
+}
+
 .loading-panel {
   min-height: 220px;
   display: grid;
@@ -191,53 +171,91 @@ onMounted(async () => {
 
 .story-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 14px;
+  align-items: stretch;
 }
 
 .story-card {
+  position: relative;
   border-radius: 24px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.72);
   box-shadow: 0 14px 24px rgba(77, 59, 27, 0.08);
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.story-card:hover,
+.story-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 32px rgba(77, 59, 27, 0.12);
+  outline: none;
 }
 
 .story-card.read {
-  opacity: 0.82;
+  background: rgba(241, 241, 237, 0.82);
 }
 
-.story-body {
-  display: grid;
-  gap: 12px;
+.story-card.read .story-image {
+  filter: saturate(0.82) brightness(0.95);
 }
 
-.story-topline,
-.story-foot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
+.read-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(42, 52, 45, 0.82);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.story-image {
+  min-height: 168px;
+}
+
+.story-overlay {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 12px;
+  background: linear-gradient(180deg, rgba(20, 20, 18, 0) 0%, rgba(20, 20, 18, 0.82) 100%);
 }
 
 .story-title {
-  font-size: 1.18rem;
+  display: inline-flex;
+  max-width: 100%;
+  padding: 8px 10px;
+  border-radius: 14px;
+  background: rgba(255, 248, 239, 0.9);
+  color: #2c2113;
+  font-size: 0.92rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.25;
+  box-shadow: 0 8px 18px rgba(18, 14, 8, 0.14);
 }
 
-.story-summary {
-  color: rgba(47, 59, 51, 0.78);
-  min-height: 3.3em;
-}
-
-.story-variant {
-  font-size: 0.9rem;
-  color: rgba(47, 59, 51, 0.68);
+@media (min-width: 1240px) {
+  .story-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 840px) {
   .hero-panel {
     grid-template-columns: 1fr;
+  }
+
+  .library-headline {
+    align-items: start;
+    flex-direction: column;
   }
 }
 </style>

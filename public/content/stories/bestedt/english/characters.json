@@ -1,0 +1,23 @@
+[
+  {
+    "name": "The Hunter",
+    "slug": "the-hunter",
+    "description": "A practical woodsman whose offhand logic about beauty and ugliness drives the tale’s twist.",
+    "visualPrompt": "A rugged hunter in simple old-fashioned forest clothing with a satchel and boots, calm expression and weathered face, standing in a woodland setting with earthy tones and a straightforward, no-nonsense demeanor",
+    "imagePath": "characters/the-hunter.webp"
+  },
+  {
+    "name": "The Snipe",
+    "slug": "the-snipe",
+    "description": "A small bird and proud mother who insists her chicks are the prettiest in the forest, only to be proven humorously biased.",
+    "visualPrompt": "A small adult snipe with mottled brown and tan plumage, slender beak, alert eyes, wings slightly lifted in protest, posed on mossy ground in a sun-dappled forest, conveying anxious maternal pride",
+    "imagePath": "characters/the-snipe.webp"
+  },
+  {
+    "name": "The Young Snipes",
+    "slug": "the-young-snipes",
+    "description": "The snipe’s chicks, ordinary-looking and vulnerable, at the center of the misunderstanding about what “prettiest” means.",
+    "visualPrompt": "A cluster of tiny young snipes with downy mottled feathers and small beaks, huddled close together, looking fragile and ordinary, set against leaves and twigs on the forest floor in a gentle storybook style",
+    "imagePath": "characters/the-young-snipes.webp"
+  }
+]

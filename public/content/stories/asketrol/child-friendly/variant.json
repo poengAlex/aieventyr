@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Askeladden og trollet i skogen (Barnevennlig)",
+  "description": "Denne barnevennlige varianten forteller om Askeladdens møte med trollet med et mildere språk og en tryggere stemning, der spenningen blir mer lek og kløkt enn skremsel, og slutten føles varm og rettferdig for små lesere.",
+  "tone": "Varm, mild og eventyrlig, med lett spenning og humor.",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:02:00.790Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:05:08.049Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden bruker kløkt og ro til å overvinne et troll og hjelpe familien sin.",
+  "hasInlineScenes": true
+}

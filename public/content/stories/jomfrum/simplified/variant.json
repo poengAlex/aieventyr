@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Jomfru Maria som Gudmor (Forenklet)",
+  "description": "En forenklet variant på moderne norsk med tydeligere setninger og lettere flyt, der eventyrets magiske prøvelser og straffen–forløsningen fortelles rett fram og mer tilgjengelig.",
+  "tone": "Eventyrlig, tydelig og lettlest, med alvorlige prøvelser og en varm forsoning til slutt.",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:37:47.955Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:41:35.473Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En stum, vakker kvinne må tåle tre prøvelser og falske anklager før Jomfru Maria gir henne barna og stemmen tilbake.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mannen fra Ringerike",
+    "slug": "mannen-fra-ringerike",
+    "description": "En fattig, men kvikk bonde som bruker vett og frekke løgner for å skaffe penger og komme seg ut av knipa.",
+    "visualPrompt": "Sliten, men våken norsk bonde i enkle arbeidsklær med ulltrøye og vadmelsbukser, værbitt ansikt og skarpe øyne, litt smil i munnviken, står med bestemt holdning og et nøkternt, jordnært uttrykk.",
+    "imagePath": "characters/mannen-fra-ringerike.webp"
+  },
+  {
+    "name": "Kona",
+    "slug": "kona",
+    "description": "Sta og lettlurt, havner i trøbbel når hun skal selge kua, og blir så forvirret at hun ikke kjenner seg selv igjen.",
+    "visualPrompt": "Middelaldrende norsk bondekone med rufsete hår under et enkelt skaut, grove hender og forklé; kroppen delvis smurt inn med mørk tjære og dekket av lyse fjær, med et forvirret og forskrekket ansiktsuttrykk.",
+    "imagePath": "characters/kona.webp"
+  },
+  {
+    "name": "Slakteren",
+    "slug": "slakteren",
+    "description": "En slu bymann som utnytter konas dumskap, byr på mat og brennevin og lurer henne skikkelig.",
+    "visualPrompt": "Kraftig, selvsikker slakter i enkel vest og skjorte med oppbrettede ermer, rødmusset ansikt og et lurt blikk; står ved en tønne og en fjærhaug, med en praktisk og småslem utstråling.",
+    "imagePath": "characters/slakteren.webp"
+  },
+  {
+    "name": "Kjerringa som vil bære inn sol",
+    "slug": "kjerringa-som-vil-baere-inn-sol",
+    "description": "En komisk nabo som tror hun kan bære solskinn inn i huset, helt til mannen lager vindu.",
+    "visualPrompt": "Eldre kvinne i enkel kjole og forkle som løper over en terskel med et tomt sold i armene, konsentrert og alvorlig; ved siden av henne en nybygd tømmerstue med vegger uten vindu, mens sollyset skinner sterkt utenfor.",
+    "imagePath": "characters/kjerringa-som-vil-baere-inn-sol.webp"
+  },
+  {
+    "name": "Kjerringa som mangler halshull",
+    "slug": "kjerringa-som-mangler-halshull",
+    "description": "En hissig kone som prøver å få på en skjorte uten halshull ved å banke den på mannen sin.",
+    "visualPrompt": "Sint, handlingskraftig kvinne med oppknyttet hår og forkle, holder et banketre hevet; ved siden av henne sitter en mann med en skjorte tredd over hodet som en sekk, tydelig redd og sammenkrøpet, i et trangt, rotete rom.",
+    "imagePath": "characters/kjerringa-som-mangler-halshull.webp"
+  }
+]

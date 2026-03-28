@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Mannens datter",
+    "slug": "mannens-datter",
+    "description": "En arbeidsom og snill jente som lytter, hjelper dem hun møter og finner kloke løsninger når oppgaver virker umulige.",
+    "visualPrompt": "A kind young girl with a calm smile, wearing simple Nordic folk-style clothes in muted colors, tidy hair in a braid, carrying a small blue wooden chest; gentle posture, curious and brave, surrounded by a soft, storybook-like glow",
+    "imagePath": "characters/mannens-datter.webp"
+  },
+  {
+    "name": "Kone-datteren",
+    "slug": "kone-datteren",
+    "description": "Den late og sta stesøsteren som vil ha belønning uten å vise omsorg, og som ofte velger lettvint i stedet for snilt.",
+    "visualPrompt": "A young girl in slightly fancier but rumpled folk-style clothing, arms crossed with a pouty, impatient expression; messy hair, careless stance, giving off a spoiled and hurried feeling in a gentle storybook style",
+    "imagePath": "characters/kone-datteren.webp"
+  },
+  {
+    "name": "Trollkjerringa",
+    "slug": "trollkjerringa",
+    "description": "En streng og smågretten gårdskone i den underjordiske gården som tester jentene med merkelige oppgaver, men lar dem dra med lønn til slutt.",
+    "visualPrompt": "A grumpy older woman in a dark shawl and simple apron, sharp eyebrows but not frightening, standing in a rustic farmhouse doorway; stern yet fair presence, storybook Nordic fairy-tale style",
+    "imagePath": "characters/trollkjerringa.webp"
+  },
+  {
+    "name": "Småfuglene",
+    "slug": "smafuglene",
+    "description": "Små, hjelpsomme fugler som synger vennlige råd og viser hvordan tålmodighet og omtanke kan løse vanskelige oppgaver.",
+    "visualPrompt": "Three tiny woodland birds with bright feathers, perched together and singing; lively and friendly expressions, little musical motion lines suggested by their poses, nestled near a well and meadow flowers in a soft illustrated fairy-tale style",
+    "imagePath": "characters/smafuglene.webp"
+  }
+]

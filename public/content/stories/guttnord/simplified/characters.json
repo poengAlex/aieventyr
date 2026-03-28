@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Gutten",
+    "slug": "gutten",
+    "description": "En fattig, sta og modig gutt som nekter å finne seg i urett og drar ut for å kreve melet tilbake.",
+    "visualPrompt": "En tenåringsgutt i enkel, slitt ullgenser og bukser, røde kinn av kulde, bestemt blikk; bærer en trekjepp og ser klar og modig ut, i en klassisk norsk eventyrverden",
+    "imagePath": "characters/gutten.webp"
+  },
+  {
+    "name": "Nordavinden",
+    "slug": "nordavinden",
+    "description": "En kraftfull og lunefull vind som først tar, men som også gir magiske gaver som erstatning.",
+    "visualPrompt": "En menneskelignende skikkelse formet av virvlende, blek vind og frostaktige slør, med antydning til et grovt, værbitt ansikt; virker både streng og mektig, som selve vinteren",
+    "imagePath": "characters/nordavinden.webp"
+  },
+  {
+    "name": "Moren",
+    "slug": "moren",
+    "description": "En gammel, fattig og skrøpelig kvinne som tviler på mirakler, men som trenger hjelpen gutten prøver å skaffe.",
+    "visualPrompt": "En eldre kvinne med mildt, slitent ansikt, grått hår under enkelt tørkle, kledd i lappede klær; står i en enkel stue og ser både bekymret og håpefull ut",
+    "imagePath": "characters/moren.webp"
+  },
+  {
+    "name": "Gjestgiveren",
+    "slug": "gjestgiveren",
+    "description": "En lur krovert som stjeler de magiske gavene, men blir stoppet når gutten gjennomskuer ham.",
+    "visualPrompt": "En kraftig mann i grov vest og skjorte, med listig uttrykk og raske hender; står i en enkel kro med trebenker og bord, som om han planlegger noe",
+    "imagePath": "characters/gjestgiveren.webp"
+  },
+  {
+    "name": "Bukken",
+    "slug": "bukken",
+    "description": "En magisk bukk som kan lage gulldukater når gutten sier de riktige ordene.",
+    "visualPrompt": "En liten, robust geit med korte horn og klar, våken mine; ser vanlig ut ved første blikk, men med en subtil glans som antyder noe magisk",
+    "imagePath": "characters/bukken.webp"
+  }
+]

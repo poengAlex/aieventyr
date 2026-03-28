@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Per (Rich Per the Trader)",
+    "slug": "per-rich-per-the-trader",
+    "description": "A wealthy, calculating dealmaker who treats people like assets and tries to buy his way out of fate, only to be undone by obsession and greed.",
+    "visualPrompt": "Older Scandinavian businessman in a tailored dark coat, neat hair, sharp eyes, confident posture hiding bitterness, expensive watch, hands that look used to signing contracts and counting money, aura of control and menace",
+    "imagePath": "characters/per-rich-per-the-trader.webp"
+  },
+  {
+    "name": "The Miller’s Boy",
+    "slug": "the-millers-boy",
+    "description": "Sold as an infant and twice taken from his home, he grows into a capable young man whose steadiness and courage turn traps into fortune.",
+    "visualPrompt": "Teen to young adult with open, trustworthy face, strong arms from mill work, simple practical clothes with worn work boots, calm expression with determined eyes, carries a small bag and a quiet resilience",
+    "imagePath": "characters/the-millers-boy.webp"
+  },
+  {
+    "name": "Per’s Daughter",
+    "slug": "pers-daughter",
+    "description": "Raised under her father’s control, she is forced into a sudden marriage that ultimately becomes her escape from his grip.",
+    "visualPrompt": "Young woman in modern formal wedding attire kept understated, pale but composed, hair neatly styled, expression shifting from shock to resolve, presence that suggests quiet strength",
+    "imagePath": "characters/pers-daughter.webp"
+  },
+  {
+    "name": "The Woman Taken by the Dragon",
+    "slug": "woman-taken-by-the-dragon",
+    "description": "A kidnapped young woman living in a luxurious prison who risks everything to help the miller’s boy survive and defeat the “Dragon of Dybenfart.”",
+    "visualPrompt": "Young woman in elegant but slightly tense modern clothing, pale from confinement, alert eyes, standing in a sleek glass-and-steel interior with an old ceremonial sword nearby, expression of fear turning into defiance",
+    "imagePath": "characters/woman-taken-by-the-dragon.webp"
+  },
+  {
+    "name": "The Ferryman",
+    "slug": "the-ferryman",
+    "description": "A bent old river-crosser bound to an endless task until the curse is passed on—delivering the story’s final, merciless irony.",
+    "visualPrompt": "Hunched elderly man with weathered skin and wiry strength, simple worn garments, bare hands strong from years of hauling, sharp suspicious eyes, standing knee-deep in a fast cold river",
+    "imagePath": "characters/the-ferryman.webp"
+  }
+]

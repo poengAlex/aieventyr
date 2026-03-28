@@ -4,8 +4,6 @@ import type { VariantType } from 'src/types/content'
 export type VariantTypes = VariantType
 
 export const VARIANTS = [
-  'raw',
-  'cleaned',
   'simplified',
   'english',
   'child-friendly',
@@ -34,8 +32,7 @@ export const useSettingsStore = defineStore('settings', {
   state: () => ({
     variant: 'simplified' as VariantTypes,
     fontSize: 19,
-    unreadOnly: false,
-    search: '',
+    showRead: false,
     readStoryIds: [] as string[],
   }),
   getters: {
@@ -44,9 +41,6 @@ export const useSettingsStore = defineStore('settings', {
   actions: {
     setVariant(variant: VariantTypes) {
       this.variant = variant
-    },
-    setSearch(value: string) {
-      this.search = value
     },
     markAsRead(storyId: string, read = true) {
       const exists = this.readStoryIds.includes(storyId)

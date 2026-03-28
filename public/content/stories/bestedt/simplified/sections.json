@@ -1,0 +1,23 @@
+[
+  {
+    "id": "section-1",
+    "title": "Møte i skogen",
+    "text": "Det var en gang en skytter som var ute i skogen, og så møtte han myrsnipa.\n\n«Kjære deg, ikke skyt barna mine!» sa myrsnipa.\n\n«Hvilke er det som er barna dine, da?» spurte skytteren.",
+    "imagePath": "scenes/scene-1.webp",
+    "imagePrompt": "I en lys, norsk skogssti står Skytteren stille med geværet senket og en liten jaktveske over skulderen, mens Myrsnipe tripper foran ham i løv og lyng, vingene lett utspilte i bønn; hun ser opp mot ham med bekymrede øyne idet hun trygler om at han ikke må skyte Myrsnipeungene hennes."
+  },
+  {
+    "id": "section-2",
+    "title": "Et knippe i hånda",
+    "text": "«De vakreste barna som går i hele skogen, det er mine!» svarte snipa.\n\n«Da får jeg vel la være å skyte dem,» sa skytteren.\n\nMen da han kom tilbake, hadde han i hånda et helt knippe myrsnipeunger som han hadde skutt.",
+    "imagePath": "scenes/scene-2.webp",
+    "imagePrompt": "Skytteren kommer tilbake gjennom skogkanten med et alvorlig uttrykk, og i hånda holder han et knippe livløse Myrsnipeunger samlet i grepet; rundt ham ligger fuktig mose og lave busker, mens Myrsnipe i forgrunnen stivner av skrekk når hun ser hva han bærer."
+  },
+  {
+    "id": "section-3",
+    "title": "Sannheten om stolthet",
+    "text": "«Au, au! Hvorfor skjøt du barna mine likevel?» sa snipa.\n\n«Var dette barna dine?» spurte skytteren. «Jeg skjøt de styggeste jeg fant, jeg.»\n\n«Å ja,» svarte snipa, «vet du ikke at hver synes best om sine barn?»",
+    "imagePath": "scenes/scene-3.webp",
+    "imagePrompt": "Myrsnipe står nær Skytteren på skogbunnen, oppskaket og klagende, mens Skytteren peker ned mot de skutte Myrsnipeungene med et forvirret, nesten forsvarende blikk; Myrsnipe løfter hodet og svarer roligere, som om hun innser en bitter sannhet om at hver synes best om sine barn."
+  }
+]

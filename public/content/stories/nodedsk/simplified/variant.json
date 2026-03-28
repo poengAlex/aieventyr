@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Hanen og Høna i Nøtteskogen (Forenklet)",
+  "description": "En forenklet variant på moderne norsk med klarere setninger og lettere flyt, der den klassiske bytte-kjeden blir enkel å følge mens hanen haster for å redde høna.",
+  "tone": "Eventyrlig, varm og lett spennende",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T15:12:38.836Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T15:16:20.721Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En hane løper fra den ene hjelperen til den neste for å skaffe vann og redde høna som har fått et nøtteskall i halsen.",
+  "hasInlineScenes": true
+}

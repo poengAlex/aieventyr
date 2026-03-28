@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Rich Per the Pedlar",
+    "slug": "rich-per-the-pedlar",
+    "description": "A wealthy travelling trader who becomes obsessed with preventing a prophecy and grows increasingly ruthless, only to be trapped by his own schemes.",
+    "visualPrompt": "A prosperous middle-aged pedlar in sturdy travelling clothes and boots, with a sharp, calculating expression, a money pouch at his belt, and a well-worn pack of goods; looks proud and controlling, set in a rural Nordic landscape.",
+    "imagePath": "characters/rich-per-the-pedlar.webp"
+  },
+  {
+    "name": "The Miller’s Lad",
+    "slug": "the-millers-lad",
+    "description": "The prophesied bridegroom: abandoned as a baby, raised by millers, and grown into a courageous, resourceful young man who survives plots and completes a dragon-quest.",
+    "visualPrompt": "A young man with an open, determined face and simple mill-worker clothing, carrying a stout bundle for travel; later bearing three dark feathers and a broad sword, looking brave and steady.",
+    "imagePath": "characters/the-millers-lad.webp"
+  },
+  {
+    "name": "Per’s Daughter",
+    "slug": "pers-daughter",
+    "description": "Rich Per’s sheltered daughter whose forced fate becomes a genuine partnership after the forged letter brings an unexpected wedding.",
+    "visualPrompt": "A young woman in modest but fine countryside dress, calm and resilient, with practical hands and an attentive gaze; hints of new independence rather than courtly glamour.",
+    "imagePath": "characters/pers-daughter.webp"
+  },
+  {
+    "name": "The Dragon of Deep-Ford",
+    "slug": "dragon-of-deep-ford",
+    "description": "A fearsome dragon dwelling in a riverside castle, keeper of treasure and secret answers, defeated by a single decisive stroke.",
+    "visualPrompt": "A massive, menacing dragon with heavy scales and a powerful tail tipped with distinct long feathers, eyes like embers, lounging within a shadowed stone hall overflowing with treasure; terrifying, ancient presence.",
+    "imagePath": "characters/dragon-of-deep-ford.webp"
+  },
+  {
+    "name": "The Princess in the Dragon’s Castle",
+    "slug": "princess-in-the-dragons-castle",
+    "description": "A captive princess who aids the lad with strength-giving drink and strategy, turning a hopeless mission into victory and freedom.",
+    "visualPrompt": "A pale, resolute princess in a worn but noble gown, holding a small bottle and standing near a wall-hung sword in a dim castle chamber; expression alert and courageous, burdened yet defiant.",
+    "imagePath": "characters/princess-in-the-dragons-castle.webp"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "The Suitor",
+    "slug": "the-suitor",
+    "description": "A visiting young lad who comes courting and quietly observes the family's performance.",
+    "visualPrompt": "A modest young man in simple country clothes, slightly travel-worn boots, attentive expression and calm posture, standing politely inside a poor farmhouse, watching the household with restrained curiosity",
+    "imagePath": "characters/the-suitor.webp"
+  },
+  {
+    "name": "The Farmer",
+    "slug": "the-farmer",
+    "description": "The father who tries to look well-to-do by cleaning with his one new sweater sleeve and hiding the other arm.",
+    "visualPrompt": "A gaunt middle-aged farmer with weathered face and rough hands, wearing a worn sweater with one noticeably new, clean sleeve; he wipes a wooden bench with the new sleeve while keeping his other arm tucked behind his back, determined expression",
+    "imagePath": "characters/the-farmer.webp"
+  },
+  {
+    "name": "The Farmer's Wife",
+    "slug": "the-farmers-wife",
+    "description": "The mother who shows off her single new shoe by kicking and prying at furniture as if tidying.",
+    "visualPrompt": "A tired but spirited woman in patched rustic clothing, one foot wearing a bright new shoe and the other a worn old one; she nudges a stool and chair aside with the new shoe, chin lifted as if making excuses for the mess",
+    "imagePath": "characters/the-farmers-wife.webp"
+  },
+  {
+    "name": "The Daughter",
+    "slug": "the-daughter",
+    "description": "Their girl who displays her new cap by only poking her head in and nodding as if helping.",
+    "visualPrompt": "A young farm girl with a clean, new cap contrasting her otherwise plain, mended dress; she peeks through a doorway, nodding briskly left and right as if directing chores from afar, slightly smug expression",
+    "imagePath": "characters/the-daughter.webp"
+  }
+]

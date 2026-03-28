@@ -9,6 +9,14 @@ import type {
 } from 'src/types/content'
 
 const manifestPath = '/content/manifest.json'
+const variantPriority: VariantType[] = [
+  'simplified',
+  'cleaned',
+  'raw',
+  'english',
+  'child-friendly',
+  'modern',
+]
 
 let manifestPromise: Promise<ContentManifest> | null = null
 const storyCache = new Map<string, Promise<StoryMeta>>()
@@ -41,6 +49,22 @@ export function getVariantBasePath(storyId: string, variant: VariantType) {
   return `/content/stories/${storyId}/${variant}`
 }
 
+export function resolveStoryVariant(
+  availableVariants: VariantType[],
+  preferredVariant: VariantType,
+  defaultVariant?: VariantType,
+): VariantType {
+  if (availableVariants.includes(preferredVariant)) return preferredVariant
+  if (defaultVariant && availableVariants.includes(defaultVariant)) return defaultVariant
+  for (const variant of variantPriority) {
+    if (availableVariants.includes(variant)) return variant
+  }
+  if (!availableVariants.length) {
+    throw new Error('Story has no available variants')
+  }
+  return availableVariants[0]!
+}
+
 export async function loadStory(storyId: string) {
   if (!storyCache.has(storyId)) {
     storyCache.set(storyId, fetchJson<StoryMeta>(`/content/stories/${storyId}/story.json`))
@@ -54,8 +78,14 @@ export async function loadVariantBundle(storyId: string, variant: VariantType) {
     variantCache.set(
       cacheKey,
       (async () => {
+        const manifest = await loadManifest()
         const story = await loadStory(storyId)
-        const basePath = getVariantBasePath(storyId, variant)
+        const resolvedVariant = resolveStoryVariant(
+          story.availableVariants,
+          variant,
+          manifest.defaultVariant,
+        )
+        const basePath = getVariantBasePath(storyId, resolvedVariant)
         const variantMeta = await fetchJson<VariantMeta>(`${basePath}/variant.json`)
         const [text, characters] = await Promise.all([
           fetchText(`${basePath}/${variantMeta.paths.text}`),

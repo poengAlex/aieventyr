@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Gjertrud",
+    "slug": "gjertrud",
+    "description": "En kvinne som baker lefser, men er så gjerrig at hun ikke vil dele, selv når hun blir bedt pent.",
+    "visualPrompt": "En norsk bygdekvinne i enkel klær, med en tydelig rød lue på hodet, stående ved en bakstehelle med deig og mel, ansiktet stramt og skeptisk, i et varmt, tradisjonelt kjøkken.",
+    "imagePath": "characters/gjertrud.webp"
+  },
+  {
+    "name": "Vår Herre",
+    "slug": "var-herre",
+    "description": "En vandrer som ber om mat, og som straffer Gjertrud når hun nekter å gi fra seg noe.",
+    "visualPrompt": "En rolig, verdig vandrer i enkel kappe og robuste sko, med et myndig, rettferdig uttrykk, stående i døråpningen til en stue mens han ber om en smakebit.",
+    "imagePath": "characters/var-herre.webp"
+  },
+  {
+    "name": "St. Peter",
+    "slug": "st-peter",
+    "description": "Følgesvennen som vandrer sammen med Vår Herre og deler sulten og reisen.",
+    "visualPrompt": "En eldre mann med vennlig, slitent ansikt, enkel reisekappe og en liten sekk, stående litt bak den andre vandreren, oppmerksom og stille.",
+    "imagePath": "characters/st-peter.webp"
+  },
+  {
+    "name": "Gjertrudsfuglen",
+    "slug": "gjertrudsfuglen",
+    "description": "Gjertrud etter forvandlingen: en sot-svart fugl med rød lue som hakker i trærne og piper før regn.",
+    "visualPrompt": "En liten, svart fugl med sotete fjær og en klar rød lue på hodet, klamrende til en trestamme mens den hakker etter mat, med en tørst, rastløs energi og regntunge skyer over.",
+    "imagePath": "characters/gjertrudsfuglen.webp"
+  }
+]

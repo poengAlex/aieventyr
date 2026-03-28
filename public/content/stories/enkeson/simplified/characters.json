@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Enkesønnen",
+    "slug": "enkesonnen",
+    "description": "En fattig, nysgjerrig gutt som først gjør feil av fristelse, men som viser mot, lærer, og ender som helt og konge.",
+    "visualPrompt": "Ung mann med vennlig ansikt og våkne øyne, litt bustete hår, kledd i enkle, slitte klær; senere kan han virke overraskende sterk og edel under filleklærne, med et hint av skjult storhet.",
+    "imagePath": "characters/enkesonnen.webp"
+  },
+  {
+    "name": "Trollet",
+    "slug": "trollet",
+    "description": "Den fremmede mannen som gir gutten et lett liv, men straffer ham brutalt og jager ham når hemmelighetene blir avslørt.",
+    "visualPrompt": "Stor, mørk og truende skikkelse med grove trekk, kraftig kropp og harde øyne; klær som virker menneskelige, men med noe uhyggelig og uekte ved seg, som om han skjuler et monster under huden.",
+    "imagePath": "characters/trollet.webp"
+  },
+  {
+    "name": "Den svarte hesten",
+    "slug": "den-svarte-hesten",
+    "description": "En bundet, forhekset hjelper som gir råd, redder gutten fra trollet og gjør ham sterk nok til å vinne i krig.",
+    "visualPrompt": "Stor svart hest med glans i pelsen og intelligente øyne; bærer et preg av magi og verdighet, som om den egentlig er noe mer enn et dyr; rolig holdning, sterk nakke og kraftige bein.",
+    "imagePath": "characters/den-svarte-hesten.webp"
+  },
+  {
+    "name": "Prinsessa",
+    "slug": "prinsessa",
+    "description": "Kongens datter som ser gutten uten forkledning, trosser farens vrede og blir hans kone etter at sannheten kommer fram.",
+    "visualPrompt": "Ung prinsesse med klar, oppmerksomt blikk og mild styrke i ansiktet; kledd i enkel, kongelig drakt i dempede farger, med et uttrykk som blander nysgjerrighet, mot og varme.",
+    "imagePath": "characters/prinsessa.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "En streng far og hersker som først straffer gutten hardt, men som senere må erkjenne at den utskjelte hagedrengen reddet riket.",
+    "visualPrompt": "Eldre mann med myndig holdning, kraftig skjegg eller markerte kinn, og tunge kongelige klær; ansikt som lett blir strengt, men med spor av lettelse og respekt når han ser heltemot.",
+    "imagePath": "characters/kongen.webp"
+  }
+]

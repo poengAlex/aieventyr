@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Jenta (den nye assistenten)",
+    "slug": "jenta-assistenten",
+    "description": "En fattig manns datter som får jobb i Slottets husholdning, blir presset til å levere håndarbeid hun ikke kan, og ender som brud mens hun bærer på en hemmelig avtale.",
+    "visualPrompt": "Ung kvinne i begynnelsen av tjueårene med rolig, vennlig ansikt og praktisk holdning; enkelt, pent arbeidstøy fra et moderne slottshushold (nøytrale farger, forkle), senere en minimalistisk, moderne brudekjole; naturlig hår og lite sminke, uttrykk som veksler mellom bekymring og besluttsomhet",
+    "imagePath": "characters/jenta-assistenten.webp"
+  },
+  {
+    "name": "Dronningen",
+    "slug": "dronningen",
+    "description": "Velvillig, men lett påvirkelig leder av Slottet som elsker tradisjonelt håndarbeid og lar seg overbevise av rykter og «bevis» på talent.",
+    "visualPrompt": "Middelaldrende dronning med verdig fremtoning og skarp oppmerksomhet; moderne kongelig stil med enkel eleganse, kvalitetsstoffer og diskrete smykker; blikk som skifter fra begeistret stolthet til streng forventning",
+    "imagePath": "characters/dronningen.webp"
+  },
+  {
+    "name": "Prinsen",
+    "slug": "prinsen",
+    "description": "En moderne prins som liker jentas ekte væremåte, men blir rystet når «mostrene» avslører prisen av arbeidet og tvinger ham til å ta et tydelig standpunkt.",
+    "visualPrompt": "Ung mann med åpen, alvorlig mine; moderne mørk dress i kongelig stil, velstelt men ikke prangende; holdning som går fra høflig usikkerhet til fast besluttsomhet når han tar bruden i hånden",
+    "imagePath": "characters/prinsen.webp"
+  },
+  {
+    "name": "De tre Mostrene",
+    "slug": "de-tre-mostrene",
+    "description": "Tre gamle kvinner som i hemmelighet gjør arbeidet for jenta mot at hun kaller dem «Moster» på hedersdagen—og som i bryllupet viser hvordan livslangt slit kan forme kropp og ansikt.",
+    "visualPrompt": "Tre svært gamle kvinner med grove, værbitte trekk og slitte klær som likevel virker merkelige og eventyrlige; den første har en unormalt lang nese, den andre en ekstremt bred og tung bak/hoftesilhuett, den tredje har store, røde, rennende øyne; de står samlet som et ubehagelig, men nesten verdig følge",
+    "imagePath": "characters/de-tre-mostrene.webp"
+  },
+  {
+    "name": "De misunnelige ansatte",
+    "slug": "misunnelige-ansatte",
+    "description": "Erfarne ansatte i Slottet som føler seg forbigått og pisker opp tre runder med løgner for å få den nye til å mislykkes.",
+    "visualPrompt": "En liten gruppe voksne i uniforme, moderne serviceklær fra et slott; stramme smil, kryssede armer og raske blikk seg imellom; kroppsspråk som signaliserer misunnelse og sammensvergelse i korridorer med blanke gulv og dempet luksus",
+    "imagePath": "characters/misunnelige-ansatte.webp"
+  }
+]

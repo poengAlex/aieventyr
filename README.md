@@ -1,10 +1,75 @@
 # Aieventyr
 
-Aieventyr is now organized around one canonical content tree under `public/content` and one pipeline under `pipeline/`.
+Aieventyr is a reading app and content-generation pipeline for Norwegian folktales. The project takes OCR-based source text, rewrites it into reader-friendly variants, generates matching images and audio, and serves the result from one canonical content tree under `public/content`.
 
-## Canonical content
+The current app is built with Quasar, Vue 3, and Pinia. The generation pipeline uses OpenAI for text, image, and speech generation.
 
-The app reads only from:
+## What this repo contains
+
+- `src/`: the Quasar frontend
+- `public/content/`: generated story output consumed by the app
+- `pipeline/`: the content-generation pipeline, prompts, config, and working files
+
+The app only reads from `public/content`. It does not use older `public/v2`, `public/v3`, `public/new`, or `public/output` layouts.
+
+## Quick start
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Set environment variables
+
+Create a `.env` file with:
+
+```bash
+OPENAI_API_KEY=your_api_key_here
+```
+
+### 3. Run the app
+
+```bash
+npm run dev
+```
+
+### 4. Build the app
+
+```bash
+npm run build
+```
+
+## Requirements
+
+- Node.js 18+ (`package.json` allows newer versions too)
+- npm
+- `ffmpeg` available on the machine
+  The audio pipeline uses `fluent-ffmpeg` to concatenate generated speech chunks.
+- An OpenAI API key for any generation step
+
+## Project flow
+
+At a high level, the repo has two layers:
+
+1. The pipeline generates canonical story bundles into `public/content`.
+2. The frontend reads those bundles and renders the library and story reader.
+
+Generated story variants currently include:
+
+- `simplified`
+- `english`
+- `child-friendly`
+- `modern`
+
+The pipeline also maintains internal stages:
+
+- `raw`
+- `cleaned`
+
+Those internal stages are useful for regeneration and debugging, but the reader experience is centered on the four public variants above.
+
+## Canonical output layout
 
 ```text
 public/content/
@@ -22,61 +87,34 @@ public/content/
       audio.mp3
 ```
 
-Supported variants:
+The app treats each story variant as an independent bundle with its own:
 
-- `raw`
-- `cleaned`
-- `simplified`
-- `english`
-- `child-friendly`
-- `modern`
+- text
+- main image
+- inline scene images
+- character list
+- character portraits
+- audio
 
-## Pipeline
+## Main commands
 
-The new pipeline lives in:
+### App
 
-```text
-pipeline/
-  config/
-  prompts/
-  lib/
-  commands/
-  source/
-  work/
+```bash
+npm run dev
+npm run build
+npm run lint
 ```
 
-Main configuration:
-
-- `pipeline/config/pipeline.json`
-- `pipeline/config/models.json`
-
-Default models:
-
-- Text and structured generation: `gpt-5.2`
-- Images: `gpt-image-1.5`
-- TTS: `gpt-4o-mini-tts`
-
-## Commands
-
-Run the full canonical pipeline:
+### Pipeline
 
 ```bash
 npm run pipeline:all
-```
-
-Run the pipeline for one story:
-
-```bash
 npm run pipeline:story -- --story=askesv
-```
-
-Run the pipeline for one story variant:
-
-```bash
 npm run pipeline:variant -- --story=askesv --variant=simplified
 ```
 
-Useful individual stages:
+### Individual stages
 
 ```bash
 npm run pipeline:extract-source
@@ -94,19 +132,15 @@ npm run pipeline:validate
 npm run pipeline:compare-tts-voices
 ```
 
-## App
+## Documentation
 
-The frontend now has a simpler flow:
-
-- `Library` page for browse, search, and filtering
-- `Story` reader page for variant-specific text, section images, character art, and audio
-- `About` page with a short project explanation
-
-Legacy runtime version switching is removed. The app no longer reads from `public/v2`, `public/v3`, `public/new`, or `public/output`.
+- [Architecture](/Users/alexanderbjorkmann/.codex/worktrees/ef34/aieventyr/docs/architecture.md)
+- [Pipeline](/Users/alexanderbjorkmann/.codex/worktrees/ef34/aieventyr/docs/pipeline.md)
+- [Content Contract](/Users/alexanderbjorkmann/.codex/worktrees/ef34/aieventyr/docs/content-contract.md)
 
 ## Verification
 
-Current verification commands:
+Useful checks before committing:
 
 ```bash
 npm run lint
