@@ -1,0 +1,20 @@
+{
+  "text": {
+    "model": "gpt-5.2",
+    "reasoningEffort": "medium",
+    "verbosity": "medium"
+  },
+  "image": {
+    "model": "gpt-image-1.5",
+    "size": "1024x1024",
+    "quality": "low",
+    "styleSuffix": "Create a polished, storybook-quality illustration with clear subjects, no text, and strong visual storytelling."
+  },
+  "tts": {
+    "model": "gpt-4o-mini-tts",
+    "defaultVoice": "nova",
+    "voiceCandidates": ["nova", "sage", "alloy", "shimmer"],
+    "norwegianInstructions": "Speak Norwegian Bokmal naturally with clear pronunciation, warm storytelling pacing, and clean sentence boundaries.",
+    "englishInstructions": "Speak clear contemporary English with a warm storyteller tone and natural pacing."
+  }
+}

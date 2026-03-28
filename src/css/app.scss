@@ -1,0 +1,18 @@
+// app global css in SCSS form
+
+:root {
+  color-scheme: light;
+  --ae-ink: #2f3b33;
+  --ae-paper: #f7f1e4;
+  --ae-panel: rgba(255, 252, 244, 0.8);
+  --ae-accent: #8f6a30;
+}
+
+body {
+  color: var(--ae-ink);
+  background: var(--ae-paper);
+}
+
+a {
+  color: inherit;
+}
