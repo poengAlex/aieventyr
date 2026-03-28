@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bjørnen",
+    "slug": "bjornen",
+    "description": "Stor og stærk, men alt for godtroende, og bliver gentagne gange snydt af Ræven.",
+    "visualPrompt": "En kraftig brun bjørn med tæt vinterpels og et forvirret, lidt klodset udtryk; står på bagbenene i sneen nær en isflade i en nordisk granskov",
+    "imagePath": "characters/bjornen.webp"
+  },
+  {
+    "name": "Ræven (Mikkel)",
+    "slug": "raeven-mikkel",
+    "description": "Snedig og udspekuleret, finder på smarte løgne for at stjæle både fisk og smør og lægge skylden på Bjørnen.",
+    "visualPrompt": "En slank rød ræv med skarp snude og årvågne øjne; smilende, listende gennem sneen med en snert af drilskhed, i en vinterlig skov med granbuske",
+    "imagePath": "characters/raeven-mikkel.webp"
+  }
+]

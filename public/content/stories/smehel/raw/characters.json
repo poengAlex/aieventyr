@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En stærk og snu smed, der både praler, fejler i overmod og alligevel formår at narre Fanden med list og sine tre ønsker.",
+    "visualPrompt": "En bredskuldret nordisk smed med sod på hænderne, groft forklæde i læder, opsmøgede ærmer og et stædigt blik; bærer en tung smedhammer og står i et rustikt værksted med esseglød.",
+    "imagePath": "characters/smeden.webp"
+  },
+  {
+    "name": "Vor Herre",
+    "slug": "vor-herre",
+    "description": "Vandrende prøver han smedens kunnen, viser mirakuløs mesterskab og giver ham tre ønsker som prøvelse.",
+    "visualPrompt": "En vandringsmand med roligt, myndigt ansigt og enkelt, slidt tøj som en rejsende; udstråler stille autoritet og varme, står ved essen uden at blive ramt af gnister.",
+    "imagePath": "characters/vor-herre.webp"
+  },
+  {
+    "name": "St. Peder",
+    "slug": "st-peder",
+    "description": "Følgesvend og moralsk stemme, der kritiserer smedens jordnære ønsker og peger på nåde og venskab med Gud.",
+    "visualPrompt": "En ældre mand med venlige, vågne øjne og rejseklæder; virker jordnær og eftertænksom, står tæt ved Vor Herre som ledsager på landevejen.",
+    "imagePath": "characters/st-peder.webp"
+  },
+  {
+    "name": "Fanden",
+    "slug": "fanden",
+    "description": "Kontraktbundet og let at lokke i fælder; han fanges i pæretræ, lænestol og til sidst i en ståltrådspung, så selv Helvede lukker portene for smeden.",
+    "visualPrompt": "En mørk, urolig skikkelse med skarpe træk og et trodsigt blik; virker både truende og komisk frustreret, som om han er blevet snydt igen.",
+    "imagePath": "characters/fanden.webp"
+  },
+  {
+    "name": "Skræddersvenden",
+    "slug": "skraeddersvenden",
+    "description": "En hurtig, spinkel vandrer mod Himmerige, der i slutningen slipper ind netop som smeden forsøger at komme med.",
+    "visualPrompt": "En tynd skræddersvend i enkel jakke med et pressejern i hånden, lette skridt og nervøs beslutsomhed på vejen mod en fjern port.",
+    "imagePath": "characters/skraeddersvenden.webp"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Bjørnen og Ræven (Forenklet)",
+  "description": "En forenklet variant på moderne norsk med klarere setninger og jevnere flyt, der reven lurer bjørnen både med «fiske» på isen og med smørholken de sparer til jul.",
+  "tone": "Enkel, humoristisk og litt moraliserende",
+  "characterCount": 2,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:10:40.151Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En listig rev lurer en godtroende bjørn til å miste halen og få skylden for smør som reven selv har spist.",
+  "hasInlineScenes": true
+}

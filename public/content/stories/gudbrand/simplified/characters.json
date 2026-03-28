@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Gudbrand i Lien",
+    "slug": "gudbrand-i-lien",
+    "description": "En rolig og godtroende bonde som stadig bytter til det han tror er noe bedre, og som stoler fullt og helt på at kona vil forstå ham.",
+    "visualPrompt": "Norsk bonde i enkel, slitt hverdagsklær fra eldre tid, værbitt ansikt med mildt blikk, kraftig kroppsbygning, bærer en liten myntpung og har jord på støvlene, står på en bygdevei i en li med gran og gress rundt.",
+    "imagePath": "characters/gudbrand-i-lien.webp"
+  },
+  {
+    "name": "Kona",
+    "slug": "kona",
+    "description": "Gudbrands usedvanlig støttende kone som alltid finner en god grunn til å være fornøyd, uansett hva han har gjort.",
+    "visualPrompt": "Norsk gårdskone i enkel kjole og forkle, håret samlet under et tørkle, vennlig ansikt med et bestemt men varmt uttrykk, står i døråpningen til et tømmerhus med et gyllent lys bak seg.",
+    "imagePath": "characters/kona.webp"
+  },
+  {
+    "name": "Nabomannen",
+    "slug": "nabomannen",
+    "description": "En skeptisk nabo som tror Gudbrand vil få kjeft hjemme, og som ender med å tape veddemålet.",
+    "visualPrompt": "Middelaldrende norsk bonde i mørke, grove arbeidsklær, armene i kors og et tvilende blikk, står litt tilbaketrukket utenfor et gårdshus og lytter mot døra.",
+    "imagePath": "characters/nabomannen.webp"
+  }
+]

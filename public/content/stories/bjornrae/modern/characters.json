@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bjørnen",
+    "slug": "bjornen",
+    "description": "Stor og sterk, men lett å overtale; prøver å henge med på «enkle hacks» og ender opp med både kort hale og ufortjent skyld.",
+    "visualPrompt": "En stor brun bjørn med kraftig kropp, snø i pelsen og en tydelig kort, stiv halestump; uttrykk som veksler mellom nysgjerrig, forvirret og mistenksom; moderne, hverdagslig villmarkssetting i vinterlys.",
+    "imagePath": "characters/bjornen.webp"
+  },
+  {
+    "name": "Ræven",
+    "slug": "raeven",
+    "description": "Skarp og småfrekk trickster som later som han har kontroll på alt—og som alltid lander på beina etter å ha manipulert bjørnen.",
+    "visualPrompt": "En slank rødrev med våkent blikk og et selvsikkert, nesten uskyldig uttrykk; bærer en krøllete plastpose med fersk fisk og har en lett fettglans rundt snuten etter smør; står avslappet i snø ved gran og iskant.",
+    "imagePath": "characters/raeven.webp"
+  }
+]

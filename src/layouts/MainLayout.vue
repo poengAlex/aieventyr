@@ -3,17 +3,18 @@
     <q-header class="shell-header">
       <q-toolbar class="shell-toolbar">
         <q-toolbar-title class="brand" @click="$router.push('/')">
-          Norske Folkeeventyr
+          <div class="brand-kicker">AI Folktale Library</div>
+          <div class="brand-title">Aieventyr</div>
         </q-toolbar-title>
         <div class="toolbar-actions desktop-actions">
           <q-btn flat no-caps to="/" label="Library" />
+          <q-btn flat no-caps to="/settings" label="Settings" />
           <q-btn flat no-caps to="/about" label="About" />
-          <q-btn flat round icon="restart_alt" @click="resetProgress" />
         </div>
         <div class="toolbar-actions mobile-actions">
           <q-btn flat round icon="home" to="/" aria-label="Library" />
+          <q-btn flat round icon="tune" to="/settings" aria-label="Settings" />
           <q-btn flat round icon="info" to="/about" aria-label="About" />
-          <q-btn flat round icon="restart_alt" aria-label="Reset progress" @click="resetProgress" />
         </div>
       </q-toolbar>
     </q-header>
@@ -24,15 +25,7 @@
   </q-layout>
 </template>
 
-<script setup lang="ts">
-import { useSettingsStore } from 'src/stores/settings'
-
-const settings = useSettingsStore()
-
-function resetProgress() {
-  settings.resetProgress()
-}
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss" scoped>
 .app-shell {
@@ -48,19 +41,35 @@ function resetProgress() {
 }
 
 .shell-toolbar {
-  max-width: 1180px;
+  max-width: 1260px;
   margin: 0 auto;
   width: 100%;
-  padding: 10px 16px;
+  padding: 12px 16px;
   gap: 10px;
 }
 
 .brand {
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  display: grid;
+  gap: 2px;
   cursor: pointer;
   color: #2f3b33;
   min-width: 0;
+  min-width: 220px;
+}
+
+.brand-kicker {
+  font-size: 0.68rem;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(73, 56, 27, 0.56);
+}
+
+.brand-title {
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: 0.01em;
 }
 
 .toolbar-actions {
@@ -72,6 +81,7 @@ function resetProgress() {
 
 .toolbar-actions :deep(.q-btn) {
   color: #2f3b33;
+  border-radius: 999px;
 }
 
 .toolbar-actions :deep(.q-btn:hover) {
@@ -84,14 +94,21 @@ function resetProgress() {
 
 @media (max-width: 640px) {
   .shell-toolbar {
-    padding: 8px 12px;
+    padding: 10px 12px;
   }
 
   .brand {
-    font-size: 0.98rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .brand-kicker {
+    font-size: 0.62rem;
+  }
+
+  .brand-title {
+    font-size: 1rem;
   }
 
   .desktop-actions {

@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Ræven som Gjæter (forenklet)",
+  "description": "En forenklet, moderne norsk versjon med klarere setninger og lett flyt, der eventyret fortelles rett fram uten gamle vendinger, men beholder den spisse humoren og forklaringen på hvorfor reven har hvit haletipp.",
+  "tone": "Enkel, eventyrlig og litt mørk humor",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:06:46.646Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En kone ansetter en rev som gjeter, men han spiser opp dyra hennes og ender med å få en hvit haletipp.",
+  "hasInlineScenes": true
+}

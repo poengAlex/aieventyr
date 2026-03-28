@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Gudbrand i Lien",
+    "slug": "gudbrand-i-lien",
+    "description": "En godslig bonde som drar til byen for å selge en ku, men ender med å bytte seg gjennom en rekke dyr før han til slutt selger det siste for å få mat.",
+    "visualPrompt": "Norsk bonde fra eldre tid, robust og værbitt, vennlige øyne, enkel vadmelsklær og lue, grove støvler, bærer et tau eller en liten bylte, rolig og litt undrende uttrykk, jordnær og folkelig.",
+    "imagePath": "characters/gudbrand-i-lien.webp"
+  },
+  {
+    "name": "Kona til Gudbrand",
+    "slug": "kona-til-gudbrand",
+    "description": "En uvanlig støttende og fornøyd kone som finner en god grunn til å rose mannen uansett hva han har gjort, og som til slutt gjør ham til vinner av veddemålet.",
+    "visualPrompt": "Norsk bondekone fra eldre tid, praktisk og myndig men varm, oppsatt hår under skaut, enkel kjole og forkle, står trygt i døråpning eller ved grua, smil som viser både stolthet og sta lojalitet.",
+    "imagePath": "characters/kona-til-gudbrand.webp"
+  },
+  {
+    "name": "Granden (nærmeste nabo)",
+    "slug": "granden",
+    "description": "Naboen som tviler på at Gudbrand kan komme hjem uten å få kjeft, og som veddar hundre daler på det motsatte.",
+    "visualPrompt": "Eldre gårdmann i tradisjonelle arbeidsklær, skeptisk mine og sammenknepne øyne, står utenfor en dør og lytter, litt brydd men nysgjerrig, solid og sindig bygdetype.",
+    "imagePath": "characters/granden.webp"
+  }
+]

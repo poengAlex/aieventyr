@@ -28,14 +28,18 @@
         />
       </section>
 
+      <section class="reader-nav reader-nav-top">
+        <q-btn v-if="previousStory" flat no-caps :to="`/story/${previousStory.id}`" label="Previous story" />
+        <q-space />
+        <q-btn v-if="nextStory" flat no-caps :to="`/story/${nextStory.id}`" label="Next story" />
+      </section>
+
       <section class="reader-content">
         <div v-if="audioPath" class="audio-panel">
-          <div class="panel-title">Listen</div>
           <audio controls :src="audioPath" class="full-width" />
         </div>
 
         <div class="story-panel">
-          <div class="panel-title">Read</div>
           <div class="story-sections">
             <article v-for="section in bundle.sections" :key="section.id" class="story-section">
               <div class="story-section-copy">
@@ -75,12 +79,16 @@
         <div v-if="galleryItems.length" class="image-carousel-panel">
           <div class="panel-title">All Story Images</div>
           <q-carousel
+            ref="galleryCarousel"
             v-model="activeGallerySlide"
+            v-model:fullscreen="galleryFullscreen"
             animated
             swipeable
             arrows
-            navigation
+            thumbnails
             infinite
+            control-color="white"
+            control-text-color="black"
             height="min(72vw, 680px)"
             class="image-carousel"
           >
@@ -88,15 +96,15 @@
               v-for="item in galleryItems"
               :key="item.id"
               :name="item.id"
+              :img-src="item.src"
               class="image-carousel-slide"
             >
-              <div class="carousel-frame">
-                <q-img
-                  :src="item.src"
-                  :alt="item.alt"
-                  fit="contain"
-                  class="carousel-image clickable-image"
-                  @click="openImage(item.src, item.alt)"
+              <div class="carousel-frame clickable-image">
+                <button
+                  type="button"
+                  class="carousel-image-hitbox"
+                  :aria-label="`View ${item.title} in fullscreen`"
+                  @click="toggleGalleryFullscreen"
                 />
                 <q-badge color="primary" text-color="white" class="carousel-variant-badge">
                   {{ item.variantLabel }}
@@ -106,6 +114,19 @@
                 </div>
               </div>
             </q-carousel-slide>
+
+            <q-carousel-control position="top-right" :offset="[16, 16]">
+              <q-btn
+                round
+                unelevated
+                color="white"
+                text-color="dark"
+                :icon="galleryFullscreen ? 'fullscreen_exit' : 'fullscreen'"
+                :aria-label="galleryFullscreen ? 'Exit fullscreen carousel' : 'Enter fullscreen carousel'"
+                class="carousel-fullscreen-btn"
+                @click="toggleGalleryFullscreen"
+              />
+            </q-carousel-control>
           </q-carousel>
         </div>
       </section>
@@ -194,6 +215,8 @@ const imageDialogOpen = ref(false)
 const characterDialogOpen = ref(false)
 const activeCharacterIndex = ref(0)
 const activeGallerySlide = ref('')
+const galleryFullscreen = ref(false)
+const galleryCarousel = ref<{ toggleFullscreen: () => void } | null>(null)
 const activeImage = ref({
   src: '',
   alt: '',
@@ -295,6 +318,10 @@ function openCharacter(characterSlug: string) {
   if (nextIndex < 0) return
   activeCharacterIndex.value = nextIndex
   characterDialogOpen.value = true
+}
+
+function toggleGalleryFullscreen() {
+  galleryCarousel.value?.toggleFullscreen()
 }
 
 function showPreviousCharacter() {
@@ -421,6 +448,10 @@ watch(galleryItems, (items) => {
   gap: 18px;
 }
 
+.reader-content > * {
+  min-width: 0;
+}
+
 .audio-panel,
 .story-panel,
 .character-panel,
@@ -447,13 +478,13 @@ watch(galleryItems, (items) => {
 
 .story-section {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(260px, 0.75fr);
-  gap: 18px;
-  align-items: start;
+  grid-template-columns: minmax(0, 1fr) clamp(220px, 28vw, 320px);
+  gap: 20px;
+  align-items: center;
 }
 
 .story-section:nth-child(even) {
-  grid-template-columns: minmax(260px, 0.75fr) minmax(0, 1.25fr);
+  grid-template-columns: clamp(220px, 28vw, 320px) minmax(0, 1fr);
 }
 
 .story-section:nth-child(even) .story-section-copy {
@@ -465,10 +496,18 @@ watch(galleryItems, (items) => {
 }
 
 .section-image {
-  min-height: 220px;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 4 / 3;
+  min-height: 0;
   border-radius: 22px;
   overflow: hidden;
   box-shadow: 0 12px 28px rgba(73, 56, 27, 0.08);
+  justify-self: end;
+}
+
+.story-section:nth-child(even) .section-image {
+  justify-self: start;
 }
 
 .character-grid {
@@ -493,12 +532,30 @@ watch(galleryItems, (items) => {
 }
 
 .image-carousel {
+  width: 100%;
+  max-width: 100%;
   border-radius: 22px;
   background: rgba(241, 234, 220, 0.6);
 }
 
+.image-carousel :deep(.q-carousel__navigation--thumbnails) {
+  gap: 8px;
+  padding: 0 12px 12px;
+}
+
+.image-carousel :deep(.q-carousel__thumbnail) {
+  border-radius: 12px;
+}
+
+.image-carousel :deep(.q-carousel__arrow .q-btn) {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+}
+
 .image-carousel-slide {
   padding: 0;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .carousel-frame {
@@ -507,9 +564,13 @@ watch(galleryItems, (items) => {
   height: 100%;
 }
 
-.carousel-image {
-  width: 100%;
-  height: 100%;
+.carousel-image-hitbox {
+  position: absolute;
+  inset: 0;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: zoom-in;
 }
 
 .carousel-variant-badge {
@@ -517,6 +578,7 @@ watch(galleryItems, (items) => {
   top: 14px;
   right: 14px;
   z-index: 2;
+  pointer-events: none;
   border-radius: 999px;
   padding: 6px 10px;
   font-weight: 700;
@@ -527,13 +589,14 @@ watch(galleryItems, (items) => {
   position: absolute;
   left: 14px;
   right: 14px;
-  bottom: 14px;
+  bottom: 96px;
   z-index: 2;
+  pointer-events: none;
   padding: 12px 14px;
   border-radius: 18px;
-  background: rgba(24, 28, 27, 0.62);
+  background: rgba(24, 28, 27, 0.28);
   color: #fff;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(4px);
 }
 
 .carousel-caption-title {
@@ -541,11 +604,20 @@ watch(galleryItems, (items) => {
   font-weight: 700;
 }
 
+.carousel-fullscreen-btn {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+}
+
 .reader-nav {
   display: flex;
   align-items: center;
   margin-top: 18px;
   padding: 14px 18px;
+}
+
+.reader-nav-top {
+  margin-top: 0;
+  margin-bottom: 18px;
 }
 
 .character-dialog {
@@ -628,6 +700,7 @@ watch(galleryItems, (items) => {
   .story-section,
   .story-section:nth-child(even) {
     grid-template-columns: 1fr;
+    gap: 14px;
   }
 
   .story-section:nth-child(even) .story-section-copy,
@@ -635,8 +708,18 @@ watch(galleryItems, (items) => {
     order: initial;
   }
 
+  .section-image,
+  .story-section:nth-child(even) .section-image {
+    max-width: min(100%, 420px);
+    justify-self: center;
+  }
+
   .image-carousel {
     height: min(88vw, 520px) !important;
+  }
+
+  .carousel-caption {
+    bottom: 82px;
   }
 
   .character-dialog {

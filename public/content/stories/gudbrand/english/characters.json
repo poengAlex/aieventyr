@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Gudbrand-on-the-Slope",
+    "slug": "gudbrand-on-the-slope",
+    "description": "A well-meaning farmer who cheerfully trades his way home and trusts that his wife will see the good in it.",
+    "visualPrompt": "A sturdy, middle-aged Scandinavian farmer with a weathered, kind face, simple wool tunic and trousers, knitted cap, sturdy boots, carrying a small pouch from the road, relaxed posture and faint grin",
+    "imagePath": "characters/gudbrand-on-the-slope.webp"
+  },
+  {
+    "name": "Gudbrand's Wife",
+    "slug": "gudbrands-wife",
+    "description": "Practical and remarkably supportive, she praises each decision and turns every loss into a blessing.",
+    "visualPrompt": "A middle-aged Scandinavian farmwife with bright, confident eyes and a welcoming expression, wearing a long homespun dress with apron and shawl, hair covered with a simple headscarf, hands poised as if calling the children to bring the animal in",
+    "imagePath": "characters/gudbrands-wife.webp"
+  },
+  {
+    "name": "The Neighbor",
+    "slug": "the-neighbor",
+    "description": "A skeptical local farmer who wagers that Gudbrand’s wife will finally scold him—and listens outside the door to find out.",
+    "visualPrompt": "A lean, wary farmer in plain rustic clothing and a wool cloak, standing just outside a farmhouse door, brows raised in disbelief, hands clasped as if counting a wager",
+    "imagePath": "characters/the-neighbor.webp"
+  },
+  {
+    "name": "The Children",
+    "slug": "the-children",
+    "description": "Their unseen chorus in the home, repeatedly sent out to bring in each new animal that never arrives.",
+    "visualPrompt": "Two or three farm children in simple linen shirts and wool vests, curious and eager, hovering near the doorway with playful, expectant faces",
+    "imagePath": "characters/the-children.webp"
+  }
+]

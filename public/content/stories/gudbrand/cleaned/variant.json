@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Gudbrand i Lien (Cleaned)",
+  "description": "En renset og gjenopprettet tekstversjon der OCR-feil er rettet, men den opprinnelige folketone, ordvalget og rytmen i fortellingen er bevart for en jevnere leseopplevelse.",
+  "tone": "Folkelig, humoristisk og varm, med tørr ironi og godmodig ekteskapskomikk.",
+  "characterCount": 3,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:26:04.833Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Gudbrand bytter bort kua på vei hjem fra byen, men blir likevel hyllet av kona for hvert valg han har gjort.",
+  "hasInlineScenes": true
+}

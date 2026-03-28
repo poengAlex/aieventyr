@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Kari Woodsmock (the king’s daughter)",
+    "slug": "kari-woodsmock",
+    "description": "A gentle princess driven from her home by her cruel stepmother, she endures hardship, keeps three strange tokens, and hides in a wooden smock while fate leads her to a prince.",
+    "visualPrompt": "A young fair-skinned woman with long hair, calm determined eyes, and a soot-smudged face from kitchen work, wearing a stiff, roughly made wooden smock that looks like slats tied into a garment; later glimpses of her in a radiant gold-and-diamond gown with a delicate gold shoe",
+    "imagePath": "characters/kari-woodsmock.webp"
+  },
+  {
+    "name": "The Blue Bull",
+    "slug": "blue-bull",
+    "description": "A powerful enchanted bull who feeds and protects Kari, fights three trolls, and leaves behind a hidden source of magic that continues to aid her.",
+    "visualPrompt": "A large muscular bull with a deep blue coat that shines like polished stone, gentle intelligent eyes, strong curved horns, and a noble bearing; an air of quiet magic around him",
+    "imagePath": "characters/blue-bull.webp"
+  },
+  {
+    "name": "The Stepmother Queen",
+    "slug": "stepmother-queen",
+    "description": "A jealous, calculating queen who starves and beats her stepdaughter and schemes to have the blue bull killed to destroy Kari’s secret help.",
+    "visualPrompt": "A stern middle-aged queen with sharp features and cold eyes, richly dressed but with a harsh, rigid posture; hands adorned with heavy rings, expression tight with envy",
+    "imagePath": "characters/stepmother-queen.webp"
+  },
+  {
+    "name": "The Prince",
+    "slug": "prince",
+    "description": "The castle’s young prince who scorns the clattering kitchen girl yet falls hopelessly in love with the mysterious church-going lady and searches for her through the lost gold shoe.",
+    "visualPrompt": "A young nobleman in fine but practical court clothing, dark hair neatly kept, intent searching gaze, holding a single ornate gold shoe with reverent wonder",
+    "imagePath": "characters/prince.webp"
+  },
+  {
+    "name": "The Nine-Headed Troll",
+    "slug": "nine-headed-troll",
+    "description": "The terrible guardian of the golden wood, whose many heads keep reviving one another until the blue bull finally defeats him in a brutal week-long struggle.",
+    "visualPrompt": "A towering monstrous troll with nine snarling heads clustered on a massive body, each face different and grotesque; skin like rough rock, eyes burning with rage, framed by the gleam of a golden forest",
+    "imagePath": "characters/nine-headed-troll.webp"
+  }
+]

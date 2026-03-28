@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "Kari Træstak (raw OCR)",
+  "description": "Denne varianten er den ubehandlede OCR-uttrekksversjonen fra kildematerialet, med originale linjeskift, orddelinger, ujevn tegnsetting og eldre/varierende rettskrivning bevart slik den fremstår i avtrykket.",
+  "tone": "Klassisk norsk folkeeventyr, rått og arkivnært i språkform",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:46:57.643Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En forfulgt kongsdatter flykter på ryggen av en blå stud og ender som «Kari Træstak» før hun avsløres av en gyllen sko.",
+  "hasInlineScenes": true
+}

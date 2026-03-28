@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Kona",
+    "slug": "kona",
+    "description": "En arbeidsom kvinne som vil leie en gjeter til dyra sine, men blir lurt av reven.",
+    "visualPrompt": "Norsk bondekone i enkel kjole og forkle, oppsatt hår under et tørkle, bestemte øyne og stram munn, står ved en smørkinne med hendene klare til å handle, rustikk og jordnær stil",
+    "imagePath": "characters/kona.webp"
+  },
+  {
+    "name": "Reven",
+    "slug": "reven",
+    "description": "En listig rev som lokker pent, får jobben som gjeter og spiser opp alle dyra.",
+    "visualPrompt": "Slank rødrev med intelligent blikk og spiss snute, buskete hale med hvit tipp, lett selvsikker holdning som om den nettopp har lurt noen, eventyrillustrasjon med tydelige farger",
+    "imagePath": "characters/reven.webp"
+  },
+  {
+    "name": "Bjørnen",
+    "slug": "bjornen",
+    "description": "Sterk og skremmende, men blir avvist fordi lokketøyet hans er for brutalt.",
+    "visualPrompt": "Stor brunbjørn med kraftig kropp og grove trekk, står på skogssti med åpen munn som om den brøler, mørk pels og tungt nærvær, eventyrlig stil",
+    "imagePath": "characters/bjornen.webp"
+  },
+  {
+    "name": "Ulven",
+    "slug": "ulven",
+    "description": "Sulten og truende, men får ikke jobben fordi ulingen hans ikke virker trygg.",
+    "visualPrompt": "Grå ulv med skarpe øyne og litt synlige tenner, står i halvprofil på en skogssti, stram kropp og varsomme steg, kjølige gråtoner i eventyrillustrasjon",
+    "imagePath": "characters/ulven.webp"
+  }
+]

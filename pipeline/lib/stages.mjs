@@ -534,9 +534,9 @@ export async function stageGenerateVariantAudio(args = {}) {
 }
 
 export async function stageBuildContentManifest(args = {}) {
-  const { sections } = await resolveSelection(args)
   const pipelineConfig = await loadPipelineConfig()
   const models = await loadModelsConfig()
+  const sections = await loadSections()
   const stories = []
   for (const section of sections) {
     const storyMeta = await readStoryMeta(section.id)

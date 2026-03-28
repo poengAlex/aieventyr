@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Bjørnen og Ræven (Cleaned)",
+  "description": "En renset og OCR-gendannet udgave af den klassiske fortælling, bevaret i et ældre, litterært dansk sprog, hvor Rævens list og Bjørnens godtroenhed folder sig ud i to korte episoder.",
+  "tone": "Folkeeventyr, lun og moraliserende, med tør humor og en snert af drilskhed",
+  "characterCount": 2,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:10:30.691Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En listig ræv narrer en godtroende bjørn både ved isfiskeri og ved at stjæle jule-smørret.",
+  "hasInlineScenes": true
+}

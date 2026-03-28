@@ -65,6 +65,10 @@ const selectedLabel = computed(() => VARIANT_TEXT[settings.variant])
   gap: 10px;
 }
 
+.variant-selector :deep(.q-btn-toggle) {
+  justify-self: center;
+}
+
 .variant-select-wrap {
   display: grid;
   gap: 6px;
@@ -111,6 +115,7 @@ const selectedLabel = computed(() => VARIANT_TEXT[settings.variant])
 .variant-selector :deep(.q-btn-group) {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 4px;
   border-radius: 999px;
   gap: 4px;

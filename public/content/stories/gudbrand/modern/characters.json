@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Gudbrand",
+    "slug": "gudbrand",
+    "description": "A well-meaning hillside farmer who keeps making practical-seeming trades all the way home, trusting he can explain it later.",
+    "visualPrompt": "A Norwegian rural man in his 30s–40s wearing worn work boots, jeans, and a fleece jacket, weather-reddened face, kind eyes, slightly sheepish expression, hands rough from farm work",
+    "imagePath": "characters/gudbrand.webp"
+  },
+  {
+    "name": "Gudbrand’s Wife",
+    "slug": "gudbrands-wife",
+    "description": "Steady, good-natured, and fiercely supportive; she reframes every trade as the smartest possible choice.",
+    "visualPrompt": "A Norwegian rural woman in her 30s–40s with practical tied-back hair, simple sweater and apron, calm smiling expression, confident posture in a warm kitchen setting",
+    "imagePath": "characters/gudbrands-wife.webp"
+  },
+  {
+    "name": "The Neighbor",
+    "slug": "the-neighbor",
+    "description": "A skeptical onlooker who wagers savings that Gudbrand’s wife will finally get angry—and loses.",
+    "visualPrompt": "A middle-aged neighbor in a knit cap and work jacket, curious and doubtful expression, standing just outside a farmhouse door in the evening",
+    "imagePath": "characters/the-neighbor.webp"
+  },
+  {
+    "name": "The Trader Teen",
+    "slug": "the-trader-teen",
+    "description": "A local teen eager to offload a too-noisy rooster, accidentally becoming the final link in Gudbrand’s trading chain.",
+    "visualPrompt": "A teenager in a hoodie and sneakers holding a cardboard box with a rooster inside, amused and casual, standing by a roadside in a rural area",
+    "imagePath": "characters/the-trader-teen.webp"
+  }
+]

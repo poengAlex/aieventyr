@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bjørnen",
+    "slug": "bjornen",
+    "description": "Stor og sterk, men lett å lure; prøver å lære å fiske og ender med å bli gjort til syndebukk.",
+    "visualPrompt": "En stor, kraftig brunbjørn med vennlige øyne og litt klønete kroppsspråk, tydelig forvirret og godtroende, i enkel eventyrstil med rene, tydelige detaljer",
+    "imagePath": "characters/bjornen.webp"
+  },
+  {
+    "name": "Ræven",
+    "slug": "raeven",
+    "description": "Smart og slu; finner på historier og triks for å få mat og skyve skylden over på bjørnen.",
+    "visualPrompt": "En slank rødrev med buskete hale, våkent blikk og et lurt smil, smidig og lett på pote, i enkel eventyrstil med klare konturer",
+    "imagePath": "characters/raeven.webp"
+  }
+]

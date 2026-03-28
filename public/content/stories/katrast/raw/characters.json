@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Kari Træstak (Kongsdatteren)",
+    "slug": "kari-traestak",
+    "description": "Kongens snille datter som blir mishandlet av stemor og stesøster, flykter, skjuler seg i en trestak og vinner til slutt prinsen med hjelp av magiske gaver.",
+    "visualPrompt": "Ung kongsdatter med lyst, nordisk utseende; først sotet og enkel i en grov, brun trestak som dekker kroppen, senere anes under den en praktkjole i metallglans; hun holder hendene tett til seg som om hun skjuler en hemmelighet, uttrykk både sårbart og standhaftig.",
+    "imagePath": "characters/kari-traestak.webp"
+  },
+  {
+    "name": "Den blå studen",
+    "slug": "den-blaa-studen",
+    "description": "En klok, magisk stud som gir Kari mat fra en duk i øret, kjemper mot skogtrollene og leder henne til skjulestedet ved berget.",
+    "visualPrompt": "Stor, kraftig okse i dyp blå pels med blank glans; rolige, intelligente øyne; horn som virker slitesterke av kamp; antydning til et lite horn eller belteutstyr som kan romme et smørningshorn; stående i skoglys med en beskyttende holdning.",
+    "imagePath": "characters/den-blaa-studen.webp"
+  },
+  {
+    "name": "Stedmoren (enkedronningen)",
+    "slug": "stedmoren",
+    "description": "Den misunnelige dronningen som sulter og slår Kari, lurer kongen og forsøker å få studen slaktet for å fjerne hjelpen hennes.",
+    "visualPrompt": "Streng, mørkkledd dronning med skarpe trekk og kaldt blikk; tunge smykker som virker mer truende enn vakre; holdning som signaliserer makt og kontroll, med en anelse sykdomsmaske og falsk svakhet.",
+    "imagePath": "characters/stedmoren.webp"
+  },
+  {
+    "name": "Prinsen",
+    "slug": "prinsen",
+    "description": "Slottets unge prins som først forakter tjenestejenta i trestakken, men blir betatt av den ukjente kvinnen i kirkeklær og gifter seg med henne når hun avsløres.",
+    "visualPrompt": "Ung prins i tradisjonell kongsgårdsdrakt i dempede farger; åpent, undrende ansikt; i hånden kan han holde en enslig hanske eller en gyllen sko som et tegn på søken, med en blanding av stolthet og oppriktig fascinasjon.",
+    "imagePath": "characters/prinsen.webp"
+  },
+  {
+    "name": "Skogtrollene",
+    "slug": "skogtrollene",
+    "description": "Tre troll som eier hver sin metallskog—kobber, sølv og gull—med henholdsvis tre, seks og ni hoder, og som tvinger studen ut i livsfarlige kamper.",
+    "visualPrompt": "Samlet fremstilling av tre trollskikkelser i skyggefulle skoggløtt: ett med tre hoder i kobberglans, ett med seks hoder i sølvskinn, ett med ni hoder i gyllen glød; grove, steinaktige kropper, glødende øyne og en truende, urkraftig aura.",
+    "imagePath": "characters/skogtrollene.webp"
+  }
+]

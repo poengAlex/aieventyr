@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Gudbrand up the Hill (Modern)",
+  "description": "A contemporary retelling where Gudbrand’s day of swapping spirals through modern rural life—trailers, a beater car, and quick cash—while the heart of the tale stays the same: his wife’s unshakable trust turns every “mistake” into a win.",
+  "tone": "Warm, comedic, and down-to-earth",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:26:46.613Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A hillside farmer trades his way from a cow to a meal, only to discover his wife’s unwavering support is the real fortune.",
+  "hasInlineScenes": true
+}

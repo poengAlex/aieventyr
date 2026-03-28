@@ -1,6 +1,6 @@
 {
   "name": "Aieventyr",
-  "generatedAt": "2026-03-28T15:28:49.375Z",
+  "generatedAt": "2026-03-28T18:26:31.119Z",
   "defaultVariant": "simplified",
   "supportedVariants": [
     "raw",
@@ -240,6 +240,70 @@
         "modern"
       ],
       "coverImage": "stories/nodedsk/simplified/main.webp"
+    },
+    {
+      "id": "bjornrae",
+      "index": 17,
+      "canonicalTitle": "Bjørnen og reven",
+      "originalTitle": "Bjørnen og Ræven",
+      "summary": "En listig rev lurer en godtroende bjørn til å miste halen og få skylden for smør som reven selv har spist.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/bjornrae/simplified/main.webp"
+    },
+    {
+      "id": "gudbrand",
+      "index": 18,
+      "canonicalTitle": "Gudbrand i lien",
+      "originalTitle": "Gudbrand i Lien",
+      "summary": "Gudbrand bytter bort kua bit for bit, men hjemme møter han bare takknemlighet og vinner et veddemål.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/gudbrand/simplified/main.webp"
+    },
+    {
+      "id": "katrast",
+      "index": 19,
+      "canonicalTitle": "Kari Treestakk",
+      "originalTitle": "Kari Træstak",
+      "summary": "En mishandlet kongedatter rømmer med en magisk blå okse og vinner til slutt prinsen ved å avsløre hvem hun virkelig er.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/katrast/simplified/main.webp"
+    },
+    {
+      "id": "rfoxgjt",
+      "index": 20,
+      "canonicalTitle": "Reven som gjeter",
+      "originalTitle": "Ræven som Gjæter",
+      "summary": "En kone ansetter en rev som gjeter, men han spiser opp dyra hennes og ender med å få en hvit haletipp.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/rfoxgjt/simplified/main.webp"
     }
   ]
 }

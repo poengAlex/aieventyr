@@ -1,0 +1,21 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Smeden som de ikke torde slippe ind i Helvede (Cleaned)",
+  "description": "Denne variant er en renset og OCR-restaureret udgave, hvor fejl og forvanskninger er rettet, men den ældre fortællestil, ordlyd og rytme er bevaret, så historien fremstår klarere uden at miste sin oprindelige stemme.",
+  "tone": "Folkeeventyr, humoristisk, satirisk og lidt barsk",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:25:32.624Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En snarrådig smed narrer både Fanden og skæbnen, men ender med at stå på tærsklen til både Helvede og Himmerige."
+}

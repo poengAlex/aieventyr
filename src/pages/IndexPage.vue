@@ -1,26 +1,44 @@
 <template>
   <q-page class="library-page">
     <section class="hero-panel">
-      <div class="hero-copy">
-        <div class="eyebrow">Canonical Edition</div>
-        <h1>Original fairytales, rebuilt into a readable AI edition.</h1>
-        <p>
-          Aieventyr started with a simple goal: make the original Norwegian folktales easier to read and
-          revisit than the scanned source material. The stories, images, and audio in this library are
-          generated through one AI pipeline and organized into clean reading variants.
-        </p>
+      <div class="hero-intro">
+        <div class="hero-copy">
+          <div class="eyebrow">A New Reading Edition</div>
+          <h1>Norske folkeeventyr, rebuilt for reading, listening, and browsing.</h1>
+          <p class="hero-lead">
+            This library turns scanned Norwegian folktales into a clean AI reading edition with modern
+            variants, artwork, characters, and audio.
+          </p>
+          <div class="hero-meta-row">
+            <div class="hero-meta-card">
+              <span class="hero-meta-label">Collection</span>
+              <strong>{{ stories.length }}</strong>
+              <span>Tales in the library</span>
+            </div>
+            <div class="hero-meta-card">
+              <span class="hero-meta-label">Format</span>
+              <strong>Text + Audio</strong>
+              <span>Each story has its own reading version</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="hero-controls">
+
+      <div class="hero-selector-panel">
+        <div class="hero-controls-title">Choose a reading version</div>
         <variant-selector />
+        <p class="hero-controls-note">
+          Pick one version once, then browse the whole collection in that reading style.
+        </p>
       </div>
     </section>
 
     <div class="library-headline">
       <div>
-        <div class="headline-title">Library</div>
+        <div class="headline-title">Browse the tales</div>
         <div class="headline-caption">{{ filteredStories.length }} stories in this view</div>
       </div>
-      <q-toggle v-model="settings.showRead" label="Show read" color="primary" class="read-toggle" />
+      <q-toggle v-model="settings.showRead" label="Include read stories" color="primary" class="read-toggle" />
     </div>
 
     <div v-if="loading" class="loading-panel">
@@ -104,40 +122,93 @@ onMounted(async () => {
 
 .hero-panel {
   display: grid;
-  grid-template-columns: 1.25fr 1fr;
   gap: 18px;
-  padding: 24px;
-  background: linear-gradient(135deg, rgba(232, 215, 183, 0.84), rgba(249, 243, 231, 0.94));
-  border-radius: 28px;
-  box-shadow: 0 18px 40px rgba(87, 67, 32, 0.08);
+  padding: 26px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 248, 232, 0.7), transparent 30%),
+    linear-gradient(135deg, rgba(226, 204, 162, 0.88), rgba(248, 242, 229, 0.94));
+  border-radius: 32px;
+  box-shadow: 0 22px 44px rgba(87, 67, 32, 0.1);
   margin-bottom: 28px;
+}
+
+.hero-intro {
+  display: grid;
 }
 
 .eyebrow {
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.18em;
   font-size: 0.78rem;
-  color: #7a5d30;
-  margin-bottom: 10px;
+  color: rgba(90, 64, 24, 0.72);
+  margin-bottom: 12px;
 }
 
 .hero-copy h1 {
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  line-height: 1;
-  margin: 0 0 14px;
+  font-size: clamp(2.1rem, 4vw, 3.5rem);
+  line-height: 0.96;
+  margin: 0 0 16px;
+  max-width: 15ch;
 }
 
-.hero-copy p {
+.hero-lead {
   margin: 0;
-  font-size: 1rem;
-  color: rgba(54, 45, 28, 0.78);
-  max-width: 58ch;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: rgba(54, 45, 28, 0.8);
+  max-width: 64ch;
 }
 
-.hero-controls {
+.hero-meta-row {
   display: grid;
-  align-content: start;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.hero-meta-card {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  border-radius: 20px;
+  background: rgba(255, 250, 241, 0.64);
+  box-shadow: inset 0 0 0 1px rgba(90, 64, 24, 0.08);
+  color: rgba(54, 45, 28, 0.78);
+}
+
+.hero-meta-card strong {
+  font-size: 1.1rem;
+  color: #2f3b33;
+}
+
+.hero-meta-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: rgba(90, 64, 24, 0.56);
+}
+
+.hero-selector-panel {
+  display: grid;
   gap: 14px;
+  padding: 18px;
+  border-radius: 24px;
+  background: rgba(255, 252, 246, 0.74);
+  box-shadow: inset 0 0 0 1px rgba(73, 56, 27, 0.08);
+}
+
+.hero-controls-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgba(73, 56, 27, 0.62);
+}
+
+.hero-controls-note {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.5;
+  color: rgba(47, 59, 51, 0.72);
 }
 
 .library-headline {
@@ -145,22 +216,24 @@ onMounted(async () => {
   justify-content: space-between;
   align-items: center;
   gap: 14px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .headline-title {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
+  line-height: 1.05;
 }
 
 .headline-caption {
   color: rgba(47, 59, 51, 0.72);
+  margin-top: 4px;
 }
 
 .read-toggle {
   padding: 10px 14px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.62);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .loading-panel {
@@ -234,7 +307,8 @@ onMounted(async () => {
   max-width: 100%;
   padding: 8px 10px;
   border-radius: 14px;
-  background: rgba(255, 248, 239, 0.9);
+  background: rgba(255, 248, 239, 0.38);
+  backdrop-filter: blur(4px);
   color: #2c2113;
   font-size: 0.92rem;
   font-weight: 700;
@@ -249,7 +323,11 @@ onMounted(async () => {
 }
 
 @media (max-width: 840px) {
-  .hero-panel {
+  .hero-copy h1 {
+    max-width: none;
+  }
+
+  .hero-meta-row {
     grid-template-columns: 1fr;
   }
 

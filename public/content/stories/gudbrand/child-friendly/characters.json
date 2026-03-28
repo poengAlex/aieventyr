@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Gudbrand",
+    "slug": "gudbrand",
+    "description": "A good-hearted farmer who tries his best and stays calm even when his plans change.",
+    "visualPrompt": "Kind middle-aged Norwegian farmer with a round, friendly face, simple wool clothes in earthy colors, sturdy boots, and a warm smile; gentle storybook style",
+    "imagePath": "characters/gudbrand.webp"
+  },
+  {
+    "name": "Gudbrand’s Wife",
+    "slug": "gudbrands-wife",
+    "description": "A supportive, cheerful wife who welcomes Gudbrand home and sees the bright side in everything.",
+    "visualPrompt": "Friendly Norwegian farm wife with soft features, tidy hair under a simple headscarf, wearing a plain apron and dress in muted colors; warm, comforting expression; child-friendly storybook illustration",
+    "imagePath": "characters/gudbrands-wife.webp"
+  },
+  {
+    "name": "The Neighbor",
+    "slug": "the-neighbor",
+    "description": "A skeptical neighbor who listens in and is surprised by how kindly Gudbrand’s wife reacts.",
+    "visualPrompt": "Curious local farmer standing outside a wooden doorway, slightly puzzled expression, simple rustic clothing and cap; gentle, non-threatening storybook style",
+    "imagePath": "characters/the-neighbor.webp"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Kari Træstak (Cleaned)",
+  "description": "En renset og OCR-gjenopprettet tekstvariant som retter lesefeil og brudd i ordlyden, men bevarer den klassiske eventyrstemmen, rytmen og de gamle uttrykkene i fortellingen om Kari Træstak.",
+  "tone": "Klassisk folkeeventyr, mørkt og prøvende i starten, siden magisk og triumferende",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:47:19.112Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En forfulgt kongsdatter flykter med en blå stud, skjuler seg som Kari Træstak, og vinner til slutt prinsen med sannhet og mot.",
+  "hasInlineScenes": true
+}

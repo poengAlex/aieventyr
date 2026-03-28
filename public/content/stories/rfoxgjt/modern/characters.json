@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Dama",
+    "slug": "dama",
+    "description": "Eier av en liten gård som trenger hjelp til å passe dyra mens hun er på jobb, og som blir lurt av en tilsynelatende pålitelig dyrepasser.",
+    "visualPrompt": "En praktisk kledd bondekvinne i 30–50-årene, arbeidsjakke og støvler, oppsatt hår, jord på hendene, bekymret men handlekraftig uttrykk, står på en liten gårdsplass i moderne bygdemiljø",
+    "imagePath": "characters/dama.webp"
+  },
+  {
+    "name": "Reven (dyrepasseren)",
+    "slug": "reven-dyrepasseren",
+    "description": "En lur rev som later som han er en vanlig mann for å få gjeterjobben, stjeler dyra og sluker fløten, og ender med hvit haletipp.",
+    "visualPrompt": "En rød rev med skarp snute, våkne øyne og en tydelig hvit haletipp; kan antydes som listig og menneskevandt i bevegelse nær et gårdskjøkken, uten menneskekropp",
+    "imagePath": "characters/reven-dyrepasseren.webp"
+  },
+  {
+    "name": "Den svære fyren",
+    "slug": "den-svaere-fyren",
+    "description": "En stor og bråkete type ved bensinstasjonen som prøver å få jobben, men skremmer med et voldsomt brøl.",
+    "visualPrompt": "En stor, bredskuldret mann i arbeidsklær med refleksdetaljer, kraftige armer, står ved en bensinstasjon i bygda, åpen munn som om han roper høyt, røff og litt truende framtoning",
+    "imagePath": "characters/den-svaere-fyren.webp"
+  },
+  {
+    "name": "Den magre karen",
+    "slug": "den-magre-karen",
+    "description": "En mager, urolig skikkelse ved skogstien som lager et uhyggelig lokkelyd og blir avvist.",
+    "visualPrompt": "En mager mann med rastløse øyne og tynn jakke, litt krumbøyd holdning, står ved en gangsti langs skogkanten, et ubehagelig og intenst blikk",
+    "imagePath": "characters/den-magre-karen.webp"
+  }
+]
