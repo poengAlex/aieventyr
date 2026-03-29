@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "Den første der vågner og straks erklærer koen for sin, med triumferende gentagelse.",
+    "visualPrompt": "En stolt, oprejst hane med rød kam og glinsende fjerdragt, brystet skudt frem som en sejrherre, næbbet åbent i et selvhævdende gal, energisk og påståelig fremtoning",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Gjøgen",
+    "slug": "gjoegen",
+    "description": "Vågner ved hanens gal og kræver \"Halv Ko!\" som sin ret, insisterende og stædig.",
+    "visualPrompt": "En slank gøg med gråbrun fjerdragt og skarpt blik, læner sig frem som for at afbryde, næbbet formet som et kort, gentaget råb, kropsholdning der signalerer krav og forhandling",
+    "imagePath": "characters/gjoegen.webp"
+  },
+  {
+    "name": "Aarhanen",
+    "slug": "aarhanen",
+    "description": "Vågner sidst og forsøger at mægle med tale om ret og skel, som en selvbestaltet dommer.",
+    "visualPrompt": "En kraftig skovfugl-agtig aarhane med mørkere, robuste fjer og værdig holdning, vingerne let løftet i en formanende gestus, udtryk der blander alvor og myndighed som en dommer mellem to stridende",
+    "imagePath": "characters/aarhanen.webp"
+  },
+  {
+    "name": "Koen",
+    "slug": "koen",
+    "description": "Den fælles ejendel som udløser striden, rolig midtpunkt for de tre fugles krav.",
+    "visualPrompt": "En rolig, lysbrun ko med blid mule og store, rolige øjne, står tålmodigt på engen mens den ser mellem fuglene, fredelig kontrast til deres skænderi",
+    "imagePath": "characters/koen.webp"
+  }
+]

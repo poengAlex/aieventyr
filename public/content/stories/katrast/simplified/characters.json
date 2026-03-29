@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Kari Trestakk (kongedatteren)",
+    "slug": "kari-trestakk",
+    "description": "En snill og modig kongedatter som blir gjort til tjenestejente og skjuler seg i en trestakk, men beholder styrken til å overleve og finne veien til et nytt liv.",
+    "visualPrompt": "Ung kvinne med vennlig ansikt og bestemt blikk, sotete hender og enkel, slitt trestakk som kappe; når hun viser sin sanne identitet bærer hun en strålende gullkjole og en liten, elegant gullsko, med en rolig, verdig holdning.",
+    "imagePath": "characters/kari-trestakk.webp"
+  },
+  {
+    "name": "Den blå oksen",
+    "slug": "bla-okse",
+    "description": "En stor, blank blå okse som hjelper Kari med mat og redder henne fra stemoren, og som kjemper mot trollene i metallskogene.",
+    "visualPrompt": "Kraftig, stor okse med dyp blå pels som skinner som polert metall, kloke øyne og sterke horn; utstråler beskyttelse og magi, med små sår som tegn på harde kamper.",
+    "imagePath": "characters/bla-okse.webp"
+  },
+  {
+    "name": "Stemoren (dronningen)",
+    "slug": "stemoren-dronningen",
+    "description": "En misunnelig og hard dronning som plager Kari og legger planer for å bli kvitt den blå oksen.",
+    "visualPrompt": "Streng dronning med kaldt uttrykk, mørke og stive klær, skarpe trekk og smale øyne; bærer en enkel krone og holder seg rak, med en tydelig truende ro.",
+    "imagePath": "characters/stemoren-dronningen.webp"
+  },
+  {
+    "name": "Prinsen",
+    "slug": "prinsen",
+    "description": "En stolt prins som først avviser Kari i trestakken, men blir dypt betatt av den ukjente jenta i de skinnende kjolene og leter etter henne med gullskoen.",
+    "visualPrompt": "Ung prins i høytidsklær med lyse detaljer, åpent men sta uttrykk; holder en liten gullsko forsiktig i hånden, med et blikk som viser undring og lengsel.",
+    "imagePath": "characters/prinsen.webp"
+  },
+  {
+    "name": "Trollene i kobber-, sølv- og gullskogen",
+    "slug": "trollene-i-metallskogene",
+    "description": "Skogens eiere med flere hoder som angriper når et blad eller et eple blir rørt, og som tvinger oksen til livsfarlige kamper.",
+    "visualPrompt": "Tre skremmende trollskikkelser med henholdsvis tre, seks og ni hoder, grove kropper og harde, ru hudtrekk; omgis av trær med kobber-, sølv- og gullglans, med en truende og vill kraft.",
+    "imagePath": "characters/trollene-i-metallskogene.webp"
+  }
+]

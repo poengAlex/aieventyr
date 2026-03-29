@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Kari Træstak (Kongsdatteren)",
+    "slug": "kari-traestak",
+    "description": "En snill og vakker kongsdatter som blir mishandlet av stemor, reddes av den blå studen, og lever i skjul som kjøkkenjente i tre-stakk mens hun prøver å finne en vei til frihet.",
+    "visualPrompt": "Ung kongsdatter med mildt, besluttsomt uttrykk; først blek og sliten i grove, mørke arbeidsklær og en klumpete tre-stakk, senere strålende i en kjole som skinner som kobber, sølv og til slutt nesten bare gull og edelstener; små, fine hender og en lett, grasiøs holdning",
+    "imagePath": "characters/kari-traestak.webp"
+  },
+  {
+    "name": "Den blå studen",
+    "slug": "den-blaa-studen",
+    "description": "En stor, blank blå stud som trøster Kari, gir henne en magisk duk med mat, kjemper mot flerhodede troll i kobber-, sølv- og gullskog, og ofrer seg for at hun skal nå trygghet.",
+    "visualPrompt": "Stor og kraftig stud med dyp blå pels som virker uvanlig blank; kloke øyne og en rolig, beskyttende fremtoning; tydelige horn og en eventyraktig verdighet, som om den bærer på gammel magi",
+    "imagePath": "characters/den-blaa-studen.webp"
+  },
+  {
+    "name": "Prinsen",
+    "slug": "prinsen",
+    "description": "Arving på slottet som først avviser den sotete kjøkkenjenta, men blir bergtatt av den ukjente kvinnen i kirken og lar en gullsko avgjøre hvem han skal gifte seg med.",
+    "visualPrompt": "Ung prins i høytidsklær med enkel, kongelig eleganse; stolt, men rastløs og oppriktig betatt; et ansikt som skifter fra forakt til undring og til slutt glede når han gjenkjenner Kari",
+    "imagePath": "characters/prinsen.webp"
+  },
+  {
+    "name": "Stedmoren (Dronningen)",
+    "slug": "stedmoren-dronningen",
+    "description": "En misunnelig enke-dronning som sulter og slår Kari, vil ha den blå studen slaktet, og forsøker å sette sin egen datter i brudestolen med falske midler.",
+    "visualPrompt": "Streng, blek dronning med hard munn og kjølige øyne; mørke, tunge dronningklær som virker kvelende og maktsyke; en holdning som signaliserer kontroll og bitter misunnelse",
+    "imagePath": "characters/stedmoren-dronningen.webp"
+  },
+  {
+    "name": "Trollet fra gullskogen (ni hoder)",
+    "slug": "trollet-fra-gullskogen",
+    "description": "Det mektigste av skogtrollene som vokter den trange gullskogen og kjemper i en ukelang kamp, der hoder kan få liv igjen, før det endelig faller.",
+    "visualPrompt": "Kjempeaktig trollskikkelse med ni truende hoder og grove, tunge lemmer; hud som ser ut som stein og jord; en uhyggelig tilstedeværelse blant tettvokste, glitrende gullgrener, med en rå og voldsom kraft",
+    "imagePath": "characters/trollet-fra-gullskogen.webp"
+  }
+]

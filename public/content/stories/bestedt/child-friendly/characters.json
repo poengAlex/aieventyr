@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Jegeren",
+    "slug": "jegeren",
+    "description": "A gentle, curious hunter who likes to observe animals and tries to do the right thing.",
+    "visualPrompt": "A friendly forest wanderer in simple outdoor clothes with a small satchel, soft features and a calm smile, kneeling carefully with empty open hands to show he means no harm, surrounded by leaves and dappled light",
+    "imagePath": "characters/jegeren.webp"
+  },
+  {
+    "name": "Myrsnipen",
+    "slug": "myrsnipen",
+    "description": "A protective parent bird who worries about her chicks and shares a wise lesson.",
+    "visualPrompt": "A small brown-and-tan wading bird with a slender beak and quick wings, hovering anxiously near the ground, bright attentive eyes, feathers slightly ruffled from concern but not threatening",
+    "imagePath": "characters/myrsnipen.webp"
+  },
+  {
+    "name": "Myrsnipungene",
+    "slug": "myrsnipungene",
+    "description": "The fluffy little chicks the parent bird loves dearly, even if they look ordinary to others.",
+    "visualPrompt": "Several tiny, fluffy chicks with mottled brown down, short legs, curious expressions, huddled close together on soft forest ground near moss and twigs, looking safe and snug",
+    "imagePath": "characters/myrsnipungene.webp"
+  }
+]

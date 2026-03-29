@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "Dukken i Græsset (raw)",
+  "description": "Denne variant er den rå OCR-udtrækning fra kilden, med ældre retskrivning, linjebrud og orddelinger, samt spor af sidetal og trykfejl, som giver teksten et arkivalsk og uforarbejdet præg.",
+  "tone": "Folkeeventyr-agtig og arkaisk, med et råt, kildetro OCR-udtryk",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:31:02.630Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden finder en bitte dukke i græsset, som efter et fald i vandet bliver til en strålende brud og gør ham til den lykkeligste af kongens sønner.",
+  "hasInlineScenes": true
+}

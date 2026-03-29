@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "De tre prinsessene i Hvittenland (Snill og barnevennlig)",
+  "description": "En mildere og tryggere variant av eventyret, med mykere stemning og ordvalg: prøvene i slottet føles mer som magiske utfordringer enn skremmende fare, og reisen handler tydelig om mot, gode råd og å finne tilbake til den man er glad i.",
+  "tone": "Gentle, reassuring fairy-tale; warm, hopeful, and adventurous without harsh edges",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:09:23.717Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:13:51.355Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En ung konge reiser gjennom magi og vennlige hjelpere for å finne tilbake til dronningen i Hvittenland.",
+  "hasInlineScenes": true
+}

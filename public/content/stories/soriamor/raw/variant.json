@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "Soria Moria Slot (Raw)",
+  "description": "This variant preserves the unpolished source extraction, including archaic Norwegian-Danish spelling, line breaks, and stray page markers, giving the tale a rough, original-document feel rather than a modernized reading text.",
+  "tone": "Classic Norwegian folktale; adventurous, magical, and slightly eerie in archaic diction",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:09:35.284Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Ash-boy Halvor wins back the enchanted princesses and claims his bride at Soria Moria Slot.",
+  "hasInlineScenes": true
+}

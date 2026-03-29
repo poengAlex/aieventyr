@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Snehvid og Rosenrød",
+    "slug": "snehvid-og-rosenrod",
+    "description": "Prinsessen, født så hvid som sne og så rød som blod, som drager ud for at frelse sine tolv brødre ved at sanke myrdun og sy uden at tale, le eller græde.",
+    "visualPrompt": "En ung prinsesse med meget lys hud og varme røde kinder, langt lyst hår, enkel kongelig dragt slidt af vandring, hænder ru af arbejde med plantefibre, et stille, beslutsomt udtryk; bærer en sæk med myrdun og spoler af garn, omgivet af skovens grønne mos og myrens dun",
+    "imagePath": "characters/snehvid-og-rosenrod.webp"
+  },
+  {
+    "name": "De tolv prinser / vildænderne",
+    "slug": "de-tolv-prinser-vildaender",
+    "description": "Dronningens tolv sønner, forvandlet til vildænder om dagen og prinser om natten, hvor den yngste ender med en andevinge i stedet for venstre arm.",
+    "visualPrompt": "Tolv vilde ænder i flok med mørke, skinnende fjer, som i glimt antyder menneskelig værdighed; i deres menneskeskikkelse tolv høje, nordiske prinser i en enkel skovhytte, den yngste med en andevinge i stedet for venstre arm, alvorlige men håbefulde ansigter",
+    "imagePath": "characters/de-tolv-prinser-vildaender.webp"
+  },
+  {
+    "name": "Den gamle dronning (stedmoderen)",
+    "slug": "den-gamle-dronning-stedmoderen",
+    "description": "Kongens stedmor, avindsyg og grusom, som stjæler de nyfødte børn og får Snehvid og Rosenrød dømt som troldheks.",
+    "visualPrompt": "En ældre dronning med skarpe træk og kølig værdighed, mørk kappe og tunge smykker, øjne der glitrer af misundelse; bevæger sig lydløst gennem et slot om natten med en hemmelighedsfuld, truende ro",
+    "imagePath": "characters/den-gamle-dronning-stedmoderen.webp"
+  },
+  {
+    "name": "Den unge konge",
+    "slug": "den-unge-konge",
+    "description": "Rigets konge, som finder den stumme jomfru på myren, gifter sig med hende og må senere vælge mellem mistanke og tro, indtil sandheden afsløres.",
+    "visualPrompt": "En ung konge med jagtdragt og enkel krone, venligt men bekymret ansigt; står ved en myr med tåge og dunplanter, rækker en hånd frem i beskyttelse og undren, uden hårdhed i blikket",
+    "imagePath": "characters/den-unge-konge.webp"
+  }
+]

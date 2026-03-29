@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Gertrud",
+    "slug": "gertrud",
+    "description": "A baker in a red cap whose stinginess prevents her from giving even a small flatbread to hungry travelers.",
+    "visualPrompt": "A stern, plain village woman in simple rustic clothing with flour-dusted hands and a bright red cap, seated near a hearth with dough and a griddle, her expression tight and possessive",
+    "imagePath": "characters/gertrud.webp"
+  },
+  {
+    "name": "Our Lord",
+    "slug": "our-lord",
+    "description": "A weary wanderer who asks kindly for a taste of bread and pronounces the punishment when refused.",
+    "visualPrompt": "A calm, humble traveler with a quiet authority, wearing simple earth-toned robes and worn sandals, compassionate eyes that harden into solemn judgment",
+    "imagePath": "characters/our-lord.webp"
+  },
+  {
+    "name": "Saint Peter",
+    "slug": "saint-peter",
+    "description": "Our Lord’s companion on the road, sharing the hunger and witnessing Gertrud’s refusal.",
+    "visualPrompt": "A road-worn older man with a short beard and weathered face, dressed in plain traveling clothes, standing beside our Lord with a concerned, observant gaze",
+    "imagePath": "characters/saint-peter.webp"
+  },
+  {
+    "name": "The Gertrud-bird",
+    "slug": "gertrud-bird",
+    "description": "Gertrud transformed into a soot-black bird with a red cap, condemned to peck for dry food and drink only when it rains.",
+    "visualPrompt": "A small, restless bird with a bright red cap-like marking and a body blackened like chimney soot, clinging to tree bark and tapping with its beak, alert eyes turned toward heavy rain clouds",
+    "imagePath": "characters/gertrud-bird.webp"
+  }
+]

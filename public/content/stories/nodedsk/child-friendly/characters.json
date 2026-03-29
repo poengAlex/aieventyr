@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "En omsorgsfull og modig hane som ikke gir opp før han har funnet hjelp til Høna.",
+    "visualPrompt": "En liten rød hane med blanke fjær, vennlige øyne og stolt, men myk holdning; enkel eventyrstil, varme farger, uttrykk av bekymring som blir til lettelse.",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Høna (Tuppen)",
+    "slug": "hona-tuppen",
+    "description": "Hanen sin beste venn som får et nøtteskall i halsen, men blir raskt bedre når hun får vann.",
+    "visualPrompt": "En hvit og gyllen høne med myke fjær, runde snille øyne og små vinger som kan flakse; sitter på mose ved nøttebusker, ser først uvel ut, så tydelig lettet og trygg.",
+    "imagePath": "characters/hona-tuppen.webp"
+  },
+  {
+    "name": "Kilden",
+    "slug": "kilden",
+    "description": "En klar, vennlig liten kilde som gir vann når den får friske blader.",
+    "visualPrompt": "En liten skogkilde som klukker over glatte steiner, omgitt av gress og små blomster; vannet ser rent og innbydende ut, med en mild, hjelpsom stemning.",
+    "imagePath": "characters/kilden.webp"
+  },
+  {
+    "name": "Linden",
+    "slug": "linden",
+    "description": "Et stort og snilt lindetre som gir grønne blader når det får røde gullbånd.",
+    "visualPrompt": "Et stort lindetre med frodig krone og hjerteformede blader; røde bånd med gyllen glans henger løst rundt en gren, treet virker vennlig og beskyttende i eventyrstil.",
+    "imagePath": "characters/linden.webp"
+  },
+  {
+    "name": "Jomfru Maria",
+    "slug": "jomfru-maria",
+    "description": "En mild hjelper som gir røde gullbånd når hun får et par sko.",
+    "visualPrompt": "En mild, rolig kvinne i en enkel kappe med myke farger, et vennlig ansikt og varme hender som holder røde gullbånd; fredelig og trygg eventyrstemning, uten religiøse symboler som virker skremmende.",
+    "imagePath": "characters/jomfru-maria.webp"
+  }
+]

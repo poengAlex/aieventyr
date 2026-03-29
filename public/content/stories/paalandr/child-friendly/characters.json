@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tjenestegutten",
+    "slug": "tjenestegutten",
+    "description": "En smart og observant gårdsgutt som setter i gang en veddemålslek og bruker små triks for å avsløre det som blir hvisket om.",
+    "visualPrompt": "En ungdommelig gårdsgutt med vennlig ansikt og lurt blikk, enkelt bondetøy i jordfarger, kort bustete hår, står med en liten lefsebit i hånden og ser ut som han har en plan, barnebokillustrasjon, myke former",
+    "imagePath": "characters/tjenestegutten.webp"
+  },
+  {
+    "name": "Kona",
+    "slug": "kona",
+    "description": "En travel og lettstresset kone som prøver å holde et hemmelig besøk skjult, men som til slutt sier sannheten høyt i farten.",
+    "visualPrompt": "En voksen kvinne i enkel bygdedrakt med forkle, varme farger, uttrykk som veksler mellom bekymring og lettelse, holder et lite matknyte under forkleet, står på en engsti, barnevennlig eventyrstil",
+    "imagePath": "characters/kona.webp"
+  },
+  {
+    "name": "Den døve mannen",
+    "slug": "den-dove-mannen",
+    "description": "En snill og arbeidsom mann som ikke får med seg alt som blir sagt, og som derfor ofte blir ledet inn i morsomme misforståelser.",
+    "visualPrompt": "En eldre, vennlig gårdsmann med solid kroppsbygning, enkel skjorte og vest, rolig ansikt og undrende blikk, holder en øks som et praktisk verktøy, står ved en låvedør i sollys, myk barnebokstil",
+    "imagePath": "characters/den-dove-mannen.webp"
+  },
+  {
+    "name": "Pål Andrestuen",
+    "slug": "pal-andrestuen",
+    "description": "En ung nabo som gjerne stikker innom, men som blir lett skremt når han tror han har gjort noe galt.",
+    "visualPrompt": "En ung mann i enkel bondejakke og bukser, litt bustete hår, ser overrasket og klar til å løpe, står nær en plog på en eng, vennlig og uskyldig uttrykk, eventyrillustrasjon med myke farger",
+    "imagePath": "characters/pal-andrestuen.webp"
+  }
+]

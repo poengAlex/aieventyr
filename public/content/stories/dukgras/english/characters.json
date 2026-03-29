@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ash-Lad",
+    "slug": "ash-lad",
+    "description": "The overlooked youngest brother whose kindness and courage lead him to a wondrous bride and a better fate than his proud siblings.",
+    "visualPrompt": "A young fairytale prince with a gentle face and humble manner, wearing a plain new suit of armor that looks slightly oversized, traveling cloak fluttering, seated on a sturdy brown horse; expression hopeful and amazed",
+    "imagePath": "characters/ash-lad.webp"
+  },
+  {
+    "name": "The Doll in the Grass",
+    "slug": "doll-in-the-grass",
+    "description": "A lovely, tiny maiden who lives hidden among grassy tussocks, rides in a silver spoon, and becomes full-grown after falling into the water.",
+    "visualPrompt": "A magically small, exquisitely dressed young woman with delicate features and bright eyes, first depicted thumb-sized among tall green grass, later depicted as a full-grown radiant bride in fine shimmering garments, poised and serene",
+    "imagePath": "characters/doll-in-the-grass.webp"
+  },
+  {
+    "name": "The King",
+    "slug": "the-king",
+    "description": "Father of twelve sons, stern in his demands but quick to recognize true worth when Ash-Lad returns with a remarkable bride.",
+    "visualPrompt": "An older king with a trimmed beard and commanding posture, wearing a modest crown and rich cloak, seated in a wooden hall with warm light, gaze stern but capable of warmth",
+    "imagePath": "characters/the-king.webp"
+  },
+  {
+    "name": "The Merman",
+    "slug": "the-merman",
+    "description": "A mysterious being of the water who returns the Doll in the Grass and triggers her wondrous transformation.",
+    "visualPrompt": "A graceful merman rising from dark, rippling river water, with seaweed-green hair and shimmering scaled tail, holding a newly transformed young woman carefully above the surface, expression calm and otherworldly",
+    "imagePath": "characters/the-merman.webp"
+  },
+  {
+    "name": "The Jealous Brothers",
+    "slug": "jealous-brothers",
+    "description": "Ash-Lad’s proud older brothers whose cruel jealousy and ugliness stand in sharp contrast to Ash-Lad’s good fortune.",
+    "visualPrompt": "A group of older princes in armor with smeared soot and tar streaking their faces, disheveled and scowling, clustered together with harsh, envious expressions",
+    "imagePath": "characters/jealous-brothers.webp"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Hver synes bedst om sine Børn (Child Friendly)",
+  "description": "A softer, child-friendly retelling where the hunter is curious rather than harmful, and the mood stays gentle as a caring parent bird teaches a simple lesson about how everyone loves their own children best.",
+  "tone": "Gentle, warm, and reassuring",
+  "characterCount": 3,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:47:25.088Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:49:21.391Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A curious hunter learns from a worried myrsnipe that every parent thinks their own children are the very best.",
+  "hasInlineScenes": true
+}

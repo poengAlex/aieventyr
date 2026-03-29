@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "Askeladden og Trollkontrakten",
+  "description": "En moderne, hverdagsnær variant der gårdskrise, banklån og motorsag erstatter eventyrslott og økser, og Askeladden bruker rolig selvtillit, smarte bløffer og improviserte triks (som «hvite steinen» og en sekk under bordet) for å overvinne trollet og redde familiegården.",
+  "tone": "Samtidsnær, humoristisk og spennende, med mørk undertone og smart triumf",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:06:12.652Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:10:00.189Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden lurer et truende skogtroll med hverdagslige triks og skaffer en skjult skatt som redder gården fra gjeld.",
+  "hasInlineScenes": true
+}

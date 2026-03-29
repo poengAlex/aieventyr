@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Gutten",
+    "slug": "gutten",
+    "description": "En kvikk og fryktløs tenåring som går langs gangveien og knekker hasselnøtter, og som uten å blunke utfordrer Fanden med en enkel, smart felle.",
+    "visualPrompt": "Tenåringsgutt fra Norge i moderne hettejakke og jeans, nøtter i lomma, holder en markspist hasselnøtt og en tannpirker, skarpt blikk og et lurt halvt smil, urbant miljø med søppelbøtte og gangvei, naturlig og røff hverdagsstil.",
+    "imagePath": "characters/gutten.webp"
+  },
+  {
+    "name": "Fanden",
+    "slug": "fanden",
+    "description": "En tilsynelatende vanlig mann som gjør luften kaldere når han nærmer seg, og som uten videre viser at han kan krympe seg til støvkornstørrelse.",
+    "visualPrompt": "Tilforlatelig mann i nøytrale moderne klær, blek og rolig, med en subtil truende tilstedeværelse; luften rundt ham virker kald og skyggefull, antydning av overnaturlig mørke i blikket, realistisk men uhyggelig.",
+    "imagePath": "characters/fanden.webp"
+  },
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En kraftig verkstedarbeider med vernebriller som først tar jobben lett, men blir rystet når nøtta tåler alt—helt til den største slegga utløser et voldsomt brak.",
+    "visualPrompt": "Kraftig smed i vernebriller og arbeidsklær, sot og olje på hendene, står ved en ambolt i et rotete sveiseverksted med metallrester og verktøyhyller, ansikt som går fra irritasjon til sjokk idet slaget treffer.",
+    "imagePath": "characters/smeden.webp"
+  }
+]

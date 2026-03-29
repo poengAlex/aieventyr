@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Smeden som de ikke torde slippe inn i Helvete (forenklet)",
+  "description": "En forenklet variant på moderne norsk, med klarere setninger og lettere flyt, der den listige smeden lurer Fanden med tre smarte ønsker og ender opp mellom himmelporten og helveteporten.",
+  "tone": "Folkelig, humoristisk og moralpreget eventyrtone",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:25:50.359Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En smed lurer Fanden gang på gang med tre ønsker og må til slutt finne ut hvor han egentlig hører hjemme.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Master Thief (the youngest son)",
+    "slug": "master-thief",
+    "description": "A quick-witted poor youth who apprentices himself to robbers, then surpasses everyone with playful, nonviolent tricks to win security, a bride, and a new life.",
+    "visualPrompt": "A lean, sharp-eyed young man with weatherworn boots and an alert smile; sometimes in ragged beggar clothes with a sack, other times in a flamboyant borrowed general’s uniform; carries small props like a rope, a flask, or a silver-buckled shoe; folktale storybook style",
+    "imagePath": "characters/master-thief.webp"
+  },
+  {
+    "name": "The Bailiff",
+    "slug": "bailiff",
+    "description": "A wealthy, self-important estate holder who sets escalating trials to test the thief, only to be repeatedly outsmarted by sheer ingenuity.",
+    "visualPrompt": "A stout middle-aged man in fine country clothes with a fur-trimmed coat and heavy boots, proud posture and suspicious expression; keys and a money pouch at his belt; manor-house backdrop; folktale illustration",
+    "imagePath": "characters/bailiff.webp"
+  },
+  {
+    "name": "Master Lars the Parson",
+    "slug": "master-lars",
+    "description": "A jeering clergyman whose vanity makes him easy prey for the thief’s ‘angel’ deception and the infamous sack-and-goose-house ordeal.",
+    "visualPrompt": "A tall parson in dark clerical garments with a white collar, expressive eyebrows, and a self-satisfied look that turns to panic; shown near a garden maple tree with a flutter of white cloth suggesting an ‘angel’; storybook folktale style",
+    "imagePath": "characters/master-lars.webp"
+  },
+  {
+    "name": "The Crone Housekeeper",
+    "slug": "crone-housekeeper",
+    "description": "An old woman kept by the robbers as their unwilling housekeeper, the first to warn the young traveler of the danger he’s walked into.",
+    "visualPrompt": "An elderly woman with a lined face and gray hair under a simple headscarf, wearing a worn apron; stands in a warm, firelit robber hall with cautious, worried eyes; folktale illustration style",
+    "imagePath": "characters/crone-housekeeper.webp"
+  },
+  {
+    "name": "The Ox Farmer",
+    "slug": "ox-farmer",
+    "description": "A harried man trying to sell his oxen, repeatedly tricked into leaving them unattended by shoes, ‘ghosts,’ and bellowing from the woods.",
+    "visualPrompt": "A tired countryman in rough wool and a simple cap, holding a lead rope beside a large brown ox; anxious, hunched posture; a muddy road by dark forest trees; folktale storybook style",
+    "imagePath": "characters/ox-farmer.webp"
+  }
+]

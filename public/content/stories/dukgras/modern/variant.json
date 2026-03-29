@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Dukken i Græsset (Modern)",
+  "description": "En moderne gjenfortelling lagt til et Norge med konsernkontor, leasingbiler og rasteplasser, der Askeladden blir valgt bort av brødrene, finner magi i veikanten og vinner kjærligheten gjennom en umulig skjorteprøve som ender i en dramatisk innsjøforvandling.",
+  "tone": "Moderne eventyr med magisk realisme, varme og rettferdighet",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:32:16.679Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En utstøtt yngstesønn finner en liten, magisk jente i gresset som syr en skjorte på én dag og blir til slutt hans ekte kjærlighet.",
+  "hasInlineScenes": true
+}

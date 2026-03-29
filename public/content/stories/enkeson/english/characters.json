@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Widow’s Son",
+    "slug": "widows-son",
+    "description": "A poor boy driven out to earn his bread, whose dangerous curiosity leads him into forbidden rooms, and whose courage and cunning let him live as a ragged gardener by day and a mysterious armored champion in war.",
+    "visualPrompt": "A youthful, strong-built young man with bright, clear eyes and fair skin, appearing in two contrasting looks: one as a shabby servant in patched clothes with a shaggy spruce-lichen wig, and one as a radiant hero wearing the rustiest, battered armor and carrying a plain sword; fairy-tale style",
+    "imagePath": "characters/widows-son.webp"
+  },
+  {
+    "name": "The Troll in Man’s Shape",
+    "slug": "troll-in-mans-shape",
+    "description": "A lonely, hospitable master who forbids four rooms and punishes disobedience, revealed as a troll with a deadly crew and a taste for control.",
+    "visualPrompt": "A tall, unsettling figure posed like a polite host but with inhuman hints—too-long limbs, shadowed eyes, and a predatory grin—dressed in dark, worn finery; an eerie house with four ominous doors suggested behind him; folkloric dark-fantasy illustration",
+    "imagePath": "characters/troll-in-mans-shape.webp"
+  },
+  {
+    "name": "The Black Horse (Enchanted Prince)",
+    "slug": "black-horse-enchanted-prince",
+    "description": "A great black horse bound to a troll, wise and commanding, who guides the boy to magic tools and strength, and later reveals himself as a prince freed from enchantment.",
+    "visualPrompt": "A powerful black horse with intelligent, human-like eyes and a proud stance, a simple halter and traces of soot near its muzzle as if from glowing coals; later hinted transformation motifs—subtle princely silhouette in the highlights of its mane; fairy-tale illustration",
+    "imagePath": "characters/black-horse-enchanted-prince.webp"
+  },
+  {
+    "name": "The Princess",
+    "slug": "princess",
+    "description": "A keen-eyed royal who notices the garden boy’s hidden beauty, defies court disdain, and holds fast to him when the king turns against them.",
+    "visualPrompt": "A young princess with composed, resolute expression, dressed in understated royal garments, standing by a high window overlooking the manor grounds at sunrise; warm light on her face, a sense of quiet bravery; classic fairy-tale style",
+    "imagePath": "characters/princess.webp"
+  },
+  {
+    "name": "The King",
+    "slug": "the-king",
+    "description": "A stern ruler who imprisons the garden boy to protect his honor, then depends on an unknown champion in war and finally recognizes the truth through his own handkerchief.",
+    "visualPrompt": "A middle-aged king with a heavy crown and a fur-trimmed cloak, weathered from war, gripping a folded white handkerchief as a clue; behind him, banners and anxious soldiers in a medieval hall; storybook fairy-tale illustration",
+    "imagePath": "characters/the-king.webp"
+  }
+]

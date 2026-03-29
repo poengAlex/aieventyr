@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Boy",
+    "slug": "the-boy",
+    "description": "A determined, practical youth who refuses to accept being robbed and is brave enough to demand justice from the North Wind.",
+    "visualPrompt": "A sturdy, travel-worn boy in simple rural Scandinavian clothing—wool tunic, patched trousers, and boots—alert eyes and a resolute expression; carries a plain wooden stick and a folded cloth, with a rope in hand as if leading a goat; classic folktale illustration style",
+    "imagePath": "characters/the-boy.webp"
+  },
+  {
+    "name": "The Old Mother",
+    "slug": "the-old-mother",
+    "description": "Poor and frail, she depends on her son for food and doubts miracles until she sees them with her own eyes.",
+    "visualPrompt": "An elderly woman with gentle, tired features and thin gray hair under a simple headscarf; dressed in worn, modest cottage clothes; seated near a rough wooden table in a humble cabin interior, conveying hardship and warmth",
+    "imagePath": "characters/the-old-mother.webp"
+  },
+  {
+    "name": "The North Wind",
+    "slug": "the-north-wind",
+    "description": "A blunt, powerful force given a voice and a home, both feared and strangely fair when confronted directly.",
+    "visualPrompt": "A towering, human-like presence formed from swirling wind and frost—suggested face in storm clouds, sharp edges of ice and drifting snow; imposing but not evil, with a rugged, elemental dignity; mythic folktale style",
+    "imagePath": "characters/the-north-wind.webp"
+  },
+  {
+    "name": "The Innkeeper",
+    "slug": "the-innkeeper",
+    "description": "A greedy schemer who tries to swap magical treasures for worthless lookalikes and is finally forced to return what he stole.",
+    "visualPrompt": "A stocky innkeeper in plain but slightly better-off clothing—vest, apron, rolled sleeves—furtive eyes and a grasping posture; shown in a rustic inn with wooden benches and tables, lit by warm firelight and deep shadows",
+    "imagePath": "characters/the-innkeeper.webp"
+  },
+  {
+    "name": "The Billy-Goat",
+    "slug": "the-billy-goat",
+    "description": "A seemingly ordinary goat gifted by the North Wind, enchanted to produce gold ducats on command.",
+    "visualPrompt": "A sturdy billy-goat with curved horns and a thick coat, lively intelligent eyes, and a rope looped around its horns; a few gleaming gold coins near its hooves to hint at its magic; folktale illustration style",
+    "imagePath": "characters/the-billy-goat.webp"
+  }
+]

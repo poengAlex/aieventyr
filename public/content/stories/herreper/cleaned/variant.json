@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Herreper (Cleaned)",
+  "description": "A cleaned, OCR-restored rendering that preserves the original Nordic folktale diction and rhythm while making the text smooth and readable, keeping its sly humor, escalating gifts, and fairy-tale reversals intact.",
+  "tone": "Nordic folktale, witty and magical, rising from poverty to splendor",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:29:45.754Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A poor youngest son and his uncanny cat outwit a king and a troll to win a kingdom and a bride.",
+  "hasInlineScenes": true
+}

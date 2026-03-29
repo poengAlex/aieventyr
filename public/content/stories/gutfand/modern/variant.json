@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Gutten og Fanden (Modern)",
+  "description": "En moderne gjenfortelling lagt til en bygangvei og et slitent «smiing og sveis»-verksted, der gutten bruker hverdagslige ting som tannpirker, lomme og ambolt til å lure Fanden i en markspist hasselnøtt—og lar konsekvensene slå bokstavelig talt tilbake i arbeidsrommet.",
+  "tone": "Mørkt humoristisk, kvikt og jordnært, med en urovekkende undertone.",
+  "characterCount": 3,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T21:05:06.732Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En gate-smart gutt lokker Fanden inn i en markspist nøtt og tar den med til et verksted for å få den knust.",
+  "hasInlineScenes": true
+}

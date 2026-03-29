@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Per (Herreper)",
+    "slug": "per-herreper",
+    "description": "The youngest, poorest brother who inherits only a cat, then follows her scheme and grows into the lordly figure called “Herreper.”",
+    "visualPrompt": "A young Scandinavian peasant-turned-noble with kind, uncertain eyes; first in patched wool clothes, later in extravagant fine garments that gleam with gold trim; upright posture that shifts from hesitant to confident.",
+    "imagePath": "characters/per-herreper.webp"
+  },
+  {
+    "name": "The Cat / Enchanted Princess",
+    "slug": "cat-enchanted-princess",
+    "description": "A sharp-tongued, resourceful cat who delivers game to the king, tricks a troll, and is revealed as a princess under enchantment.",
+    "visualPrompt": "A sleek gray cat with bright intelligent eyes and a commanding stance; later envisioned as a luminous fairy-tale princess with refined features and rich, elegant attire, carrying an air of relieved freedom and clever authority.",
+    "imagePath": "characters/cat-enchanted-princess.webp"
+  },
+  {
+    "name": "The King",
+    "slug": "the-king",
+    "description": "A proud ruler delighted by lavish gifts, increasingly irritated by Herreper’s boasts, and finally forced to admit he has been outshone.",
+    "visualPrompt": "A middle-aged king with a heavy mantle and ornate crown, stern eyebrows and a jealous, skeptical expression; surrounded by courtly richness but visibly unsettled when faced with greater splendor.",
+    "imagePath": "characters/the-king.webp"
+  },
+  {
+    "name": "The Troll",
+    "slug": "the-troll",
+    "description": "The monstrous owner of the glittering castle, undone when the cat lures him into turning toward the rising sun.",
+    "visualPrompt": "A large, hulking troll with rough stone-like skin and wild features, looming at a grand gate with rage in his posture; vulnerable when caught by sunlight, suggesting a brittle, cracking end.",
+    "imagePath": "characters/the-troll.webp"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Gutten",
+    "slug": "gutten",
+    "description": "En nysgjerrig og smart gutt som elsker å knekke nøtter og finner på et ufarlig, lurt triks.",
+    "visualPrompt": "En ung gutt i enkel, gammeldags norsk bygdekledning, med vennlig ansikt og kvikke øyne, holder en nøtt og en liten pinne, står avslappet på en grusvei i mykt eventyrlys, barnevennlig uttrykk",
+    "imagePath": "characters/gutten.webp"
+  },
+  {
+    "name": "Fanden",
+    "slug": "fanden",
+    "description": "En liten, rampete skikkelse som kan gjøre seg bitteliten og lar seg lure inn i en nøtt, mer komisk enn skummel.",
+    "visualPrompt": "En bitte liten, rampete eventyrfigur med små horn og rødlig kåpe, vennlig og komisk ansikt, kryper mot et lite hull i en nøtt, myke former og ikke-skremmende stil",
+    "imagePath": "characters/fanden.webp"
+  },
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En godhjertet smed som prøver flere hammere og blir overrasket når nøtta endelig knaser.",
+    "visualPrompt": "En kraftig, snill smed i forkledt arbeidstøy, står i en varm og ryddig smie med ambolt og hammere i ulike størrelser, uttrykk av mild overraskelse, myk og trygg eventyrstil",
+    "imagePath": "characters/smeden.webp"
+  }
+]

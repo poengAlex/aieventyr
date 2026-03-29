@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bjørnen",
+    "slug": "bjornen",
+    "description": "Stærk men godtroende; lader sig narre til at fiske med halen og ender stubrumpet, og bliver siden snydt til at få skylden for smørholken.",
+    "visualPrompt": "En stor, kraftig brun bjørn med tyk vinterpels og en tydeligt kort/stubbet hale, lidt forvirret og vred i blikket, sne på pelsen, står klodset ved is og graner i et nordisk vinterlandskab.",
+    "imagePath": "characters/bjornen.webp"
+  },
+  {
+    "name": "Ræven (Mikkel)",
+    "slug": "raeven-mikkel",
+    "description": "Snedig og opportunistisk; stjæler fisk, lokker bjørnen i fælden med isfiskeri, og opfinder barsels-undskyldninger for at spise smørret.",
+    "visualPrompt": "En slank rød ræv med busket hale, spidst ansigt og listige øjne, pels der gløder mod den kolde sne, bærer et fiskeknippe eller sniger sig ved en granbusk hvor en smørholk er gemt, med en udspekuleret kropsholdning.",
+    "imagePath": "characters/raeven-mikkel.webp"
+  }
+]

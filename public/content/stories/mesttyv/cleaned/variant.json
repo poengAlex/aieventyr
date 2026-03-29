@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Mestertyven (Cleaned)",
+  "description": "En renset OCR-udgave, der retter forvanskede ord og brudte linjer, men bevarer den gamle, muntre folkeeventyrstemme og det klassiske, mundtlige fortælleflow.",
+  "tone": "Klassisk nordisk folkeeventyr; humoristisk, rapkæftet og listigt med en skarp undertone af social satire.",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-29T08:20:56.071Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En fattig husmandssøn bliver mestertyv ved at overliste både røvere, en rig amtmand og en pralende præst.",
+  "hasInlineScenes": true
+}

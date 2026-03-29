@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Paal Andrestuen (Cleaned)",
+  "description": "A cleaned, OCR-restored edition that preserves the brisk, earthy folk-tale voice and dialect flavor while presenting the text in a clearer, more readable form.",
+  "tone": "Roguish Norwegian folktale; comic, sly, and lightly scandalous",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:48:09.523Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A sharp farmhand tricks a flirtatious wife into confessing her affair with Paal Andrestuen in front of her deaf husband.",
+  "hasInlineScenes": true
+}

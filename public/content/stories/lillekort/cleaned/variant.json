@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Lillekort (Cleaned)",
+  "description": "En nænsomt OCR-restaureret udgave, der retter fejlaflæsninger og ujævnheder, men bevarer den gamle, muntre eventyrstemme, den knappe dialog og de faste gentagelser i fortællingen.",
+  "tone": "Folkeeventyr, rap og mundtlig, med list, bravur og retfærdig oprejsning.",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:11:06.411Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Den lille Lillekort narrer trolde, afslører en falsk ridder og vinder prinsessen og et helt rige med mod og kløgt.",
+  "hasInlineScenes": true
+}

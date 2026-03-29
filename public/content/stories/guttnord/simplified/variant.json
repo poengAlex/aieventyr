@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Gutten og nordavinden (forenklet)",
+  "description": "En forenklet versjon på moderne norsk, med klarere setninger og lettere flyt, der gutten følger nordavinden for å få rettferdighet for melet som ble tatt.",
+  "tone": "Eventyrlig, rettferdig og lettlest",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:19:11.473Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:22:49.145Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En fattig gutt går helt til nordavinden for å få igjen melet sitt og ender med magiske gaver som sikrer rettferdighet.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste bror, som de andre undervurderer, men som møder magien i græsset og handler med mildhed og mod.",
+    "visualPrompt": "En ung mand i enkel rejseklædning med ny rustning og en rolig, venlig udstråling; han bærer spor af rejse og dug i tøjet og står ved siden af sin hest, opmærksomt vendt mod noget småt i græsset",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Dukken i Græsset",
+    "slug": "dukken-i-graesset",
+    "description": "En ørliden, nydelig pige fra græssets tue, som kan spinde, væve og sy på én dag og senere forvandles til en voksen, endnu skønnere kvinde.",
+    "visualPrompt": "To udtryk i ét: først en bitte, dukkelignende pige, overdådigt pyntet, siddende på en lille stol i græsset; siden en yndefuld, voksen kvinde med samme eventyrlige præg, strålende og levende, som om hun netop er kommet op af vandet",
+    "imagePath": "characters/dukken-i-graesset.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "Faderen, der stiller det hårde håndværkskrav til sønnernes brude og til sidst belønner den, der kommer med den bedste lykke.",
+    "visualPrompt": "En ældre konge med værdig holdning, krone og tung kappe; han ser prøvende og myndig ud, men med varme i blikket, som om han netop har set et sandt under",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Havmanden",
+    "slug": "havmanden",
+    "description": "Væsnet fra vandet, der bringer Dukken op igen og udløser hendes forvandling til fuld størrelse.",
+    "visualPrompt": "En mytisk havmand, halvt menneske og halvt havvæsen, med tang i håret og perlemorsglans på huden; han stiger op af mørkt vand med en beskyttende, alvorlig mine",
+    "imagePath": "characters/havmanden.webp"
+  }
+]

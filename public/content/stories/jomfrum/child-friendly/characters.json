@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Jenta (den unge dronningen)",
+    "slug": "jenta-den-unge-dronningen",
+    "description": "En snill og nysgjerrig jente som vokser opp hos en mild fostermor, mister stemmen en tid, men finner mot, kjærlighet og glede igjen.",
+    "visualPrompt": "Ung kvinne med rolig, vennlig uttrykk, langt hår og enkel, vakker kjole i lyse toner, et mykt og eventyrlig preg, bærer en forsiktig kongelig verdighet uten å virke voksen og streng",
+    "imagePath": "characters/jenta-den-unge-dronningen.webp"
+  },
+  {
+    "name": "Fostermoren (Jomfru Maria)",
+    "slug": "fostermoren-jomfru-maria",
+    "description": "En mild og rettferdig fostermor som setter grenser, lærer bort å holde løfter, og til slutt gir tilbake det som ble tatt og skaper forsoning.",
+    "visualPrompt": "Varm og mild kvinne i lyse, enkle, elegante klær, rolig ansikt og vennlige øyne, et forsiktig lys rundt henne som gir en trygg og god følelse",
+    "imagePath": "characters/fostermoren-jomfru-maria.webp"
+  },
+  {
+    "name": "Prinsen",
+    "slug": "prinsen",
+    "description": "En godhjertet prins som stoler på den unge dronningen og står ved hennes side når andre tviler.",
+    "visualPrompt": "Ung prins med vennlig ansikt, enkel kongelig drakt i dempede farger, åpen og beskyttende holdning, eventyrstil uten hardhet",
+    "imagePath": "characters/prinsen.webp"
+  },
+  {
+    "name": "Den gamle dronningen",
+    "slug": "den-gamle-dronningen",
+    "description": "Prinsens mor som først er streng og mistenksom, men lærer å skamme seg, forstå og vise kjærlighet når sannheten kommer fram.",
+    "visualPrompt": "Eldre dronning med strammere holdning og praktfull, men dempet kledning, alvorlig uttrykk som kan myknes til lettelse og varme, klassisk eventyrpreg",
+    "imagePath": "characters/den-gamle-dronningen.webp"
+  }
+]

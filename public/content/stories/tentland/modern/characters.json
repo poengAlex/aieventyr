@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Den unge kongen (fiskerens sønn)",
+    "slug": "den-unge-kongen",
+    "description": "Oppdratt ved den kongelige residensen etter et uhyggelig løfte, dras han inn i Hvittenlands prøvelser, vinner en dronning—og mister henne igjen når han bruker en ønskering uten å tenke.",
+    "visualPrompt": "En ung voksen mann fra kysten, værbitt men stolt, med moderne, enkle klær blandet med et diskret kongelig preg; trøtt blikk etter lang vandring; en liten ring festet i håret som et personlig merke; står bestemt, med uro og håp i holdningen.",
+    "imagePath": "characters/den-unge-kongen.webp"
+  },
+  {
+    "name": "Dronningen av Hvittenland (den yngste prinsessen)",
+    "slug": "dronningen-av-hvittenland",
+    "description": "Den klokeste av tre bundne søstre som kjenner trollenes regler, gir ham veien gjennom prøvelsene og setter én betingelse: at han lytter til faren, ikke moren.",
+    "visualPrompt": "En ung kvinne med lys, jordstøvet hud og rolig autoritet; elegant, minimalistisk dronningestil som kan virke moderne uten å miste eventyrpreg; bærer en slank, blank ring som minner om en smart-ring; uttrykk av både kjærlighet og streng skuffelse.",
+    "imagePath": "characters/dronningen-av-hvittenland.webp"
+  },
+  {
+    "name": "Den gamle kongen ved residensen",
+    "slug": "den-gamle-kongen",
+    "description": "Mannen som reddet gutten som barn og ga ham utdanning og trygghet, men som senere utfordrer ham av stolthet—og utløser tapet ved å kreve å se dronningen.",
+    "visualPrompt": "En eldre mann med verdig, stram framtoning; klassisk formelle klær med et moderne, institusjonelt preg; skarpe øyne som blander omsorg og rivaliserende stolthet; står i en lys, høytidelig hall.",
+    "imagePath": "characters/den-gamle-kongen.webp"
+  },
+  {
+    "name": "Nordavinden",
+    "slug": "nordavinden",
+    "description": "En viljesterk, talende stormkraft som griper inn når alt står på spill, og gir den unge kongen en brutal, presis plan for å stanse bryllupet.",
+    "visualPrompt": "En mektig, menneskelignende vindskikkelse formet av kald tåke og snøstøv, med antydning til ansikt i virvlene; uttrykk av streng humor og raseri; omgir seg med drivende løv og iskrystaller.",
+    "imagePath": "characters/nordavinden.webp"
+  },
+  {
+    "name": "Veiviseren på den hvite stranden",
+    "slug": "veiviseren-pa-den-hvite-stranden",
+    "description": "En gammel mann i lys, slitt frakk som møter ham i Hvittenland og gir den avgjørende testen: gå forbi de to første prinsessene og hjelp den tredje.",
+    "visualPrompt": "En gammel mann med langt, hvitt skjegg og en tynn, slitt lys frakk som blafrer; vennlige, gjennomtrengende øyne; står på en blendende hvit strand med havdis rundt føttene, som om han hører til stedet.",
+    "imagePath": "characters/veiviseren-pa-den-hvite-stranden.webp"
+  }
+]

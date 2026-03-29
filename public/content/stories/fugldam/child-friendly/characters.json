@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Den yngste kongssønnen",
+    "slug": "den-yngste-kongssonnen",
+    "description": "Den modigste og snilleste av brødrene, som holder seg våken, finner sporene, og hjelper prinsessene hjem—selv når andre prøver å ta æren.",
+    "visualPrompt": "A kind young prince in simple sea-travel clothes with a small cloak, clear honest eyes, and a calm, brave posture; fairytale Scandinavian style, soft colors, child-friendly expression.",
+    "imagePath": "characters/den-yngste-kongssonnen.webp"
+  },
+  {
+    "name": "Den yngste prinsessen",
+    "slug": "den-yngste-prinsessen",
+    "description": "Den yngste av de tolv, stille men modig, som beskytter seg selv og til slutt tør å si sannheten.",
+    "visualPrompt": "A gentle young princess with long hair and a modest royal dress in light tones, holding herself with quiet courage; a polished silver sword resting safely in front of her as a protective symbol; warm, child-friendly fairytale style.",
+    "imagePath": "characters/den-yngste-prinsessen.webp"
+  },
+  {
+    "name": "Fugl Dam",
+    "slug": "fugl-dam",
+    "description": "En enorm, hjelpsom fugl som hjelper kongssønnen når han blir forlatt, og flyr ham trygt dit han trenger å være.",
+    "visualPrompt": "A massive, friendly mythical bird with bright, soft feathers and a thick neck-feather like a sturdy plume; intelligent, gentle eyes; strong enough to carry a child on its back; whimsical fairytale illustration.",
+    "imagePath": "characters/fugl-dam.webp"
+  },
+  {
+    "name": "Ridder Rød",
+    "slug": "ridder-rod",
+    "description": "Styrmannen som blir misunnelig og prøver å ta æren, men som til slutt mister makten når sannheten kommer fram.",
+    "visualPrompt": "A stern, red-clad knight with a proud posture and sharp gaze, wearing a red tunic and simple armor details; not scary, just unfriendly; storybook style with softened edges.",
+    "imagePath": "characters/ridder-rod.webp"
+  },
+  {
+    "name": "Trollkongen med tolv hoder",
+    "slug": "trollkongen-med-tolv-hoder",
+    "description": "En tungt sovende trollkonge som holder prinsessene fast med plikt og frykt, til fortryllelsen brytes og de blir fri.",
+    "visualPrompt": "A large, sleepy troll king seated on a grand chair, with multiple small, drowsy heads arranged like a crown; more silly than frightening; surrounded by golden stools; gentle, child-friendly fairytale look.",
+    "imagePath": "characters/trollkongen-med-tolv-hoder.webp"
+  }
+]

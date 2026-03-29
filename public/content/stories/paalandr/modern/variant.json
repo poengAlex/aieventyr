@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Pål Andrestuen (Modern)",
+  "description": "A contemporary suburban retelling where a sharp-witted teen handyman uses everyday misdirection—texts, chores, and a rushed packed lunch—to force a married woman to blurt out her secret so the whole neighborhood can hear.",
+  "tone": "Mischievous, tense, darkly comedic",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:49:03.874Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A teen servant rigs a series of misunderstandings until a woman publicly confesses she’ll stop seeing the tenant she’s been sneaking around with.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Den yngste kongssønnen",
+    "slug": "den-yngste-kongssonnen",
+    "description": "Den modigste av brødrene, som holder seg våken når andre sover, finner sannheten og våger seg inn i slottet for å redde prinsessene.",
+    "visualPrompt": "Young Norwegian prince in simple travel clothes, determined expression, carrying a weathered sword at his side, windswept hair, fairytale style, set against sea and storm",
+    "imagePath": "characters/den-yngste-kongssonnen.webp"
+  },
+  {
+    "name": "Ridder Rød",
+    "slug": "ridder-rod",
+    "description": "Styrmann og rival som blir misunnelig, sviker den yngste prinsen og prøver å ta æren for redningen for å få den yngste prinsessa.",
+    "visualPrompt": "Proud knight with a stern face and sharp eyes, wearing a red cloak and sea-worn armor details, standing on a ship’s deck with an arrogant posture, fairytale illustration",
+    "imagePath": "characters/ridder-rod.webp"
+  },
+  {
+    "name": "Den yngste prinsessa",
+    "slug": "den-yngste-prinsessa",
+    "description": "Prinsessa som sørger i stillhet og beskytter seg med et nakent sverd, og som til slutt tør å si hvem som virkelig reddet dem.",
+    "visualPrompt": "Young princess in a simple but elegant gown, calm and sad gaze, a bare sword laid before her as a symbol of resolve, golden crown nearby, Nordic fairytale style",
+    "imagePath": "characters/den-yngste-prinsessa.webp"
+  },
+  {
+    "name": "Fugl Dam",
+    "slug": "fugl-dam",
+    "description": "En ufattelig stor, magisk fugl som krever rug til mat og flyr prinsen dit han trenger for å få rettferdighet og komme hjem.",
+    "visualPrompt": "Enorm mythical bird with powerful wings and a neck feather as thick as a small tree trunk, wise and formidable presence, perched near an ancient storehouse, fairytale style",
+    "imagePath": "characters/fugl-dam.webp"
+  },
+  {
+    "name": "Trollkongen med tolv hoder",
+    "slug": "trollkongen-med-tolv-hoder",
+    "description": "Den grusomme herskeren som holder prinsessene fanget og tvinger dem til å klø hodene hans, til den yngste prinsen hogger ham ned.",
+    "visualPrompt": "Monstrous troll king seated on a grand throne, twelve grotesque heads in a circle of snarling faces, lavish but ominous hall, dim torchlight glow, Nordic fairytale illustration",
+    "imagePath": "characters/trollkongen-med-tolv-hoder.webp"
+  }
+]

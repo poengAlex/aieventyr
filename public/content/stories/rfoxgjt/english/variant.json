@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "The Fox as Herdsman",
+  "description": "An English retelling that stays close to the original folktale, featuring a woman who tests a bear, a wolf, and a fox by their cattle-calls—only to learn too late that the fox’s sweet song hides a greedy trick.",
+  "tone": "Wry, cautionary folktale with dark humor",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:06:55.910Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A woman hires a fox for his fine cattle-call, and he repays her by eating her herd and earning a white-tipped tail.",
+  "hasInlineScenes": true
+}

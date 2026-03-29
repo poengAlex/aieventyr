@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "De tolv Vildænder",
+  "description": "The raw OCR extraction from the source material.",
+  "tone": "archival",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "source-material",
+    "prompt": "extract-source",
+    "generatedAt": "2026-03-29T07:56:19.743Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En prinsesse må tie, mens hun væver myrdunsklæder for at frelse sine tolv brødre, der er forvandlet til vildænder.",
+  "hasInlineScenes": true
+}

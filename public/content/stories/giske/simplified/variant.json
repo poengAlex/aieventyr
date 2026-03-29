@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Giske (Simplified)",
+  "description": "En modernisert og forenklet versjon på klarere norsk, med jevnere flyt og enklere setninger, der den komiske misforståelsen om «fanden» står ekstra tydelig fram.",
+  "tone": "Folkelig, komisk og litt mørk",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T21:40:28.118Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Når husholderska Giske blir gjort ugjenkjennelig av husbonden, tror hun selv at hun er fanden og skaper panikk i bygda.",
+  "hasInlineScenes": true
+}

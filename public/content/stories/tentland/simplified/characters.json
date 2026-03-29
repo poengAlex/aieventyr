@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Fiskergutten som blir konge",
+    "slug": "fiskergutten-som-blir-konge",
+    "description": "En modig og utholdende gutt oppdratt ved slottet, som kaster seg ut i prøvelser for å redde prinsessene og senere reiser verden rundt for å vinne dronningen tilbake.",
+    "visualPrompt": "Ung mann i enkel, praktisk eventyrdrakt som senere blir mer staselig, men nå slank og blek av reise; bestemte øyne, vindrørt hår, en enkel ring som tydelig kjennetegn; nordisk folkeeventyrstil",
+    "imagePath": "characters/fiskergutten-som-blir-konge.webp"
+  },
+  {
+    "name": "Den yngste prinsessen (dronningen av Hvittenland)",
+    "slug": "yngste-prinsessen-dronningen",
+    "description": "Den klokeste av de tre prinsessene, som vet hvordan trollene kan overvinnes, gir ham råd og en ring med to ønsker, og blir først borte når han bryter løftet.",
+    "visualPrompt": "Ung dronning med rolig, klokt uttrykk, lyst hår og enkel kongelig verdighet; bærer en følelse av både styrke og sorg; eventyrlig nordisk klesdrakt, dempet men lys fargepalett",
+    "imagePath": "characters/yngste-prinsessen-dronningen.webp"
+  },
+  {
+    "name": "Det ni-hodede trollet",
+    "slug": "det-ni-hodede-trollet",
+    "description": "Den farligste av trollene som holder prinsessene fanget, pisker gutten til han besvimer og prøver å knuse ham, men blir til slutt hugget ned.",
+    "visualPrompt": "Stort, grotesk troll med ni hoder og ni ris, mørk og ru hud, truende kroppsbygning; skyggefull, men tydelig eventyrillustrasjon som vektlegger frykt og kraft",
+    "imagePath": "characters/det-ni-hodede-trollet.webp"
+  },
+  {
+    "name": "Nordavinden",
+    "slug": "nordavinden",
+    "description": "En mektig, personifisert vind som hjelper den unge kongen ved å skape storm ved slottet og blåse rivalen bort.",
+    "visualPrompt": "Mektig vindskikkelse som en virvlende, blek blågrå storm med antydning av et ansikt i skyene; kraftfulle striper av luft og snøaktige virvler; eventyrlig og dramatisk, men ikke skremmende",
+    "imagePath": "characters/nordavinden.webp"
+  }
+]

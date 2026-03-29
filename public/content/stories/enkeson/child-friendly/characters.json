@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Enkesønnen",
+    "slug": "enkesonnen",
+    "description": "En godhjertet, nysgjerrig gutt som lærer å bruke motet sitt til å hjelpe andre og gjøre det rette, selv når han er redd.",
+    "visualPrompt": "A child-friendly fairy-tale boy, about 12–14, bright kind eyes, rosy cheeks, simple patched tunic and trousers, worn boots, gentle expression; later shown as healthy and strong with a warm glow after magical bathing, still modest and approachable; storybook illustration style.",
+    "imagePath": "characters/enkesonnen.webp"
+  },
+  {
+    "name": "Den snakkende hesten (fortryllet prins)",
+    "slug": "snakkende-hest",
+    "description": "En klok, rolig hest som gir trygge råd, hjelper gutten å rømme, og viser seg til slutt å være en prins som blir fri fra en forbannelse.",
+    "visualPrompt": "A large black horse with a glossy coat and calm, intelligent eyes; gentle posture, protective presence; simple worn saddle at first, later carrying rustic armor; magical but comforting aura; storybook illustration style.",
+    "imagePath": "characters/snakkende-hest.webp"
+  },
+  {
+    "name": "Den fremmede mannen",
+    "slug": "den-fremmede-mannen",
+    "description": "En streng og farlig herre som setter forbud og prøver å skremme gutten, men som til slutt mister makten når gutten får hjelp til å slippe unna.",
+    "visualPrompt": "A tall mysterious man in dark, plain clothing, stern face, sharp gaze; intimidating but not gruesome; stands in a shadowy hallway with four closed doors behind him; child-friendly fairy-tale style with softened menace.",
+    "imagePath": "characters/den-fremmede-mannen.webp"
+  },
+  {
+    "name": "Prinsessa",
+    "slug": "prinsessa",
+    "description": "En modig og snill prinsesse som ser godheten i gutten og står opp for ham, og som gleder seg over at han hjelper riket.",
+    "visualPrompt": "A young princess with warm, curious eyes, simple elegant gown in light colors, hair neatly tied back; shown at a palace window in early morning light, expression kind and hopeful; storybook illustration style.",
+    "imagePath": "characters/prinsessa.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "En streng men rettferdig konge som først blir skeptisk, men som senere forstår sannheten og belønner mot og godhet.",
+    "visualPrompt": "A middle-aged king with a trimmed beard, wearing a modest crown and rich but tasteful robes; serious expression that softens into relief; stands in a bright hall with banners and warm light; child-friendly fairy-tale style.",
+    "imagePath": "characters/kongen.webp"
+  }
+]

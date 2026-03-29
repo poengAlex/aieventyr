@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Soria Moria Slot (Modern)",
+  "description": "A contemporary retelling where Halvor’s listless life in a small edge-of-town home breaks open through a container ship voyage, deserted glass-and-steel “castles” that feel like luxury compounds, and a warm smart-ring whose wish-magic collides with modern pride, gossip, and a wedding turned public reckoning—while trolls remain brutally real.",
+  "tone": "Contemporary folktale adventure with romance, wonder, and sharp consequences",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:10:53.536Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A drifting young man rescues three heiresses from monstrous trolls, loses them through a careless boast, and races back to reclaim the love he earned.",
+  "hasInlineScenes": true
+}

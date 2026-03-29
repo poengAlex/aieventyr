@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ash-Lad",
+    "slug": "ash-lad",
+    "description": "The youngest son, mocked for idleness, who keeps pace with the colts, discovers their enchantment, and answers the king’s riddle truthfully in a clever way.",
+    "visualPrompt": "A lean young farm boy with tousled dark hair and soot-smudged clothes, alert eyes and a determined expression, wearing simple forest-traveling garments and sturdy boots, holding himself with quiet confidence",
+    "imagePath": "characters/ash-lad.webp"
+  },
+  {
+    "name": "The King",
+    "slug": "the-king",
+    "description": "A stern ruler who wagers his daughter and half his kingdom against a brutal punishment to test those who herd his seven colts.",
+    "visualPrompt": "A middle-aged king with a severe face and heavy brow, dressed in rich yet austere robes with a fur-trimmed cloak, standing rigidly as if judging an oath",
+    "imagePath": "characters/the-king.webp"
+  },
+  {
+    "name": "The Spinning Hag",
+    "slug": "the-spinning-hag",
+    "description": "A deceitful old woman in the mountain cleft who lures the first two brothers into laziness and tries to stop Ash-Lad.",
+    "visualPrompt": "A hunched old hag with wispy grey hair and sharp, watchful eyes, wrapped in worn shawls, seated in a rocky cleft with a distaff and spindle, her hands busy and her mouth set in a sly grin",
+    "imagePath": "characters/the-spinning-hag.webp"
+  },
+  {
+    "name": "The Youngest Colt (Enchanted Prince)",
+    "slug": "youngest-colt",
+    "description": "The speaking colt who aids Ash-Lad, leads him to the hidden stump-door and church, and reveals how to break the spell on the seven brothers.",
+    "visualPrompt": "A sleek dark colt with intelligent eyes and a proud stance, subtle hints of nobility in its bearing, mane ruffled by wind as it moves with uncanny purpose through the forest",
+    "imagePath": "characters/youngest-colt.webp"
+  },
+  {
+    "name": "The Princess",
+    "slug": "the-princess",
+    "description": "The king’s daughter, promised as the prize for the successful herdsman and sister to the seven enchanted princes.",
+    "visualPrompt": "A young princess with fair hair and a composed, gentle expression, dressed in a simple yet elegant gown fit for a wedding feast, with a quiet strength in her posture",
+    "imagePath": "characters/the-princess.webp"
+  }
+]

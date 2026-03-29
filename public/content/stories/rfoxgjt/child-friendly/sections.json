@@ -1,0 +1,30 @@
+[
+  {
+    "id": "section-1",
+    "title": "Bjørnens brummete lokkerop",
+    "text": "Det var en gang ei kone som skulle ut og finne seg en gjeter til dyrene sine. På veien møtte hun en bjørn.\n\n«Hvor skal du hen?» spurte bjørnen.\n\n«Jeg skal ut og leie meg en gjeter,» svarte kona.\n\n«Vil du ikke ha meg til gjeter?» spurte bjørnen.\n\n«Jo, bare du kan lokke så dyrene følger etter,» sa kona.\n\n«Hø—il!» ropte bjørnen.\n\n«Nei, deg vil jeg ikke ha,» sa kona, for det hørtes altfor brummete ut, og så gikk hun videre.",
+    "imagePath": "scenes/scene-1.webp",
+    "imagePrompt": "På en skogsti møter den snille, men bestemte bondekona en stor, brummende bjørn som vil være gjeter; bjørnen står oppreist og roper et kraftig «Hø—il!» mens kona holder et lite knyteforkle og rynker pannen, tydelig usikker fordi lyden er altfor grov, med myk eventyrskog og gårdsmark i bakgrunnen."
+  },
+  {
+    "id": "section-2",
+    "title": "Ulven føles ikke trygg",
+    "text": "Da hun hadde gått et stykke til, møtte hun en ulv.\n\n«Hvor skal du hen?» spurte ulven.\n\n«Jeg skal ut og leie meg en gjeter,» svarte kona.\n\n«Vil du ikke ha meg til gjeter?» spurte ulven.\n\n«Ja, kan du lokke så dyrene følger etter,» sa kona.\n\n«Uh—uh!» ropte ulven.\n\n«Nei, deg vil jeg ikke ha,» sa kona, for det hørtes ikke trygt og fint ut, og så gikk hun videre.",
+    "imagePath": "scenes/scene-2.webp",
+    "imagePrompt": "Den bestemte bondekona stopper på veien når en ulv tilbyr seg å gjete; ulven lener seg fram og roper «Uh—uh!» med et skarpt uttrykk, mens kona tar et lite steg tilbake og løfter hånden som et høflig nei, i et rolig skoglandskap som likevel får ulvens lokkerop til å virke utrygt."
+  },
+  {
+    "id": "section-3",
+    "title": "Revens pene sang",
+    "text": "Da hun hadde gått enda litt, møtte hun en rev.\n\n«Hvor skal du hen?» spurte reven.\n\n«Å, jeg skal ut og leie meg en gjeter,» sa kona.\n\n«Vil du ikke ha meg til gjeter?» spurte reven.\n\n«Ja, bare du kan lokke så dyrene følger etter,» sa kona.\n\n«Dil—dal—holom!» sang reven, så klart og pent.\n\n«Ja, deg vil jeg ha til gjeter,» sa kona, og så fikk reven passe dyrene hennes.",
+    "imagePath": "scenes/scene-3.webp",
+    "imagePrompt": "I skogkanten møter bondekona en sjarmerende og litt for smart rev; reven sitter fint med løftet hale og synger «Dil—dal—holom!» så klart og pent, mens kona smiler og nikker ja, lettet over et trygt og pent lokkerop, med sollys mellom trærne og en vennlig, barnevennlig stemning."
+  },
+  {
+    "id": "section-4",
+    "title": "Hvit haletipp av fløte",
+    "text": "Første dagen reven gjette, ble geitene borte. Andre dagen var det sauene sin tur. Tredje dagen var også kyrne borte. Reven hadde slett ikke gjort jobben sin, for han hadde vært altfor glad i å snike seg til mat selv.\n\nDa reven kom hjem om kvelden, spurte kona: «Hvor har du gjort av alle dyrene mine?»\n\n«Det som var igjen, er ved bekken og inne i skogholtet,» sa reven og prøvde å svare så rart at det skulle høres smart ut.\n\nKona sto nettopp og kjernet smør, men hun syntes hun måtte gå og se etter. Mens hun var borte, smatt reven ned til kjernen og slikket i seg den beste fløten.\n\nDa kona kom tilbake og så hva reven hadde gjort, ble hun skikkelig sint. Hun tok den lille fløteskvetten som var igjen og kastet etter reven, og da fikk han en klatt helt ytterst på halen.\n\nOg derfor, sier de, har reven hvit haletipp.",
+    "imagePath": "scenes/scene-4.webp",
+    "imagePrompt": "Inne i den varme, enkle stua på gården står smørkjerna ved bordet; den sjarmerende reven har smattet til seg fløte og blir tatt på fersken idet kona, snill men bestemt og nå skikkelig sint, kaster den siste lille fløteskvetten mot ham—en hvit klatt treffer helt ytterst på reven sin hale mens han spretter forskrekket unna."
+  }
+]

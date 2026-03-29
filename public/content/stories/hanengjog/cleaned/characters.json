@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "Den første der vågner og udråber koen som sin efter aftalen, selvsikker og egenrådig.",
+    "visualPrompt": "En stolt, vågen hane med rød kam og glansfulde fjer i dybe jordfarver, brystet skudt frem og næbbet åbent i et sejrssikkert gal, stående på et hegn ved morgenlys.",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Gjøgen",
+    "slug": "gjoegen",
+    "description": "Vågner ved hanens gal og kræver sin del med et kæk, gentaget råb om halv ko.",
+    "visualPrompt": "En gøg med slank krop og gråbrun fjerdragt med diskrete striber, siddende i en gren med hovedet let på skrå, næbbet åbent som om den råber insisterende, med et drilsk blik.",
+    "imagePath": "characters/gjoegen.webp"
+  },
+  {
+    "name": "Aarhanen",
+    "slug": "aarhanen",
+    "description": "Den sidste der vågner og forsøger at mægle med tale om ret og rimelighed.",
+    "visualPrompt": "En lidt større og ældre hane med mere afdæmpede farver og et roligt udtryk, stående mellem de andre med et løftet, formanerisk vingeslag, som en fredsmægler i morgendis.",
+    "imagePath": "characters/aarhanen.webp"
+  },
+  {
+    "name": "Koen",
+    "slug": "koen",
+    "description": "Det fælles eje og stridens genstand, en stille tilstedeværelse mens fuglene skændes om retten.",
+    "visualPrompt": "En rolig, lysebrun ko med blød pels og venlige øjne, stående på en dugfrisk eng med græs omkring klovene, uanfægtet af tumulten.",
+    "imagePath": "characters/koen.webp"
+  }
+]

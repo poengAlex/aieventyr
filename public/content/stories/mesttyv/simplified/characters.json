@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mestertyven (den yngste sønnen)",
+    "slug": "mestertyven",
+    "description": "En smart og fryktløs ung mann som lærer røvernes «håndverk» og overgår alle med oppfinnsomme triks.",
+    "visualPrompt": "Ung norsk mann fra bygda, slank og kvikk i blikket, værbitt ansikt, enkelt reiseklær i ull og skinn, en rolig, selvsikker holdning som røper list; kan også framstå i forkledning med filler eller som en velkledd «stor kar» i funnet uniform.",
+    "imagePath": "characters/mestertyven.webp"
+  },
+  {
+    "name": "Den gamle kjerringa hos røverne",
+    "slug": "kjerringa",
+    "description": "Røvernes ufrie husholderske, som advarer fremmede, men må finne seg i røverlivet.",
+    "visualPrompt": "Eldre kvinne med grått hår i knute under skaut, slitt forklé og grov ullkjole, rynkete hender fra hardt arbeid, uttrykk som veksler mellom uro og resignasjon i et røft, mørkt røverhus.",
+    "imagePath": "characters/kjerringa.webp"
+  },
+  {
+    "name": "Amtmannen",
+    "slug": "amtmannen",
+    "description": "En rik og myndig mann som setter prøver for å teste mestertyven før han gir bort datteren sin.",
+    "visualPrompt": "Voksen embetsmann i velholdt herregårdsdrakt, fast blikk og stolt holdning, omgitt av tegn på rikdom som solide trebygninger, stall og sølv; virker både underholdt og irritert når han blir lurt.",
+    "imagePath": "characters/amtmannen.webp"
+  },
+  {
+    "name": "Presten Hr. Lars",
+    "slug": "presten-hr-lars",
+    "description": "En selvhøytidelig prest som håner amtmannen, men blir spektakulært lurt av mestertyven.",
+    "visualPrompt": "Middelaldrende prest i mørk prestekjole, alvorlig ansikt som lett blir forvirret, bærer et preg av verdighet som krakelerer; passer i en hage med en stor lønn og et enkelt prestegårdsmiljø.",
+    "imagePath": "characters/presten-hr-lars.webp"
+  },
+  {
+    "name": "Husmannen (faren)",
+    "slug": "husmannen-faren",
+    "description": "En fattig far som ikke kan gi sønnene arv, og som motvillig må be amtmannen om datteren på vegne av mestertyven.",
+    "visualPrompt": "Eldre, mager husmann i lappede klær og grov lue, slitne øyne og bøyd rygg, men med varme i ansiktet når han kjenner igjen sønnen; står gjerne ved en enkel stue på en liten plass.",
+    "imagePath": "characters/husmannen-faren.webp"
+  }
+]

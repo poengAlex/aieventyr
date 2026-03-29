@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Hanen og Hønen (Cleaned)",
+  "description": "A cleaned, OCR-restored version that preserves the original Danish-Norwegian literary voice and dialogue while correcting scanning errors for smoother reading.",
+  "tone": "Crisp, folkloric, lightly admonishing",
+  "characterCount": 2,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:42:36.209Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A hen confronts a rooster about promised shoes and is told to sell her eggs in town to buy them herself.",
+  "hasInlineScenes": true
+}

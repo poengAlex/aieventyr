@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En dygtig, stædig smed, der lærer på den hårde måde, at snilde uden venlighed kan give bekymringer, og at kloge valg betyder noget.",
+    "visualPrompt": "A sturdy, kind-eyed blacksmith in simple work clothes with a leather apron, soot-smudged but friendly, carrying a large hammer; warm, gentle fairytale illustration style.",
+    "imagePath": "characters/smeden.webp"
+  },
+  {
+    "name": "Vor Herre",
+    "slug": "vor-herre",
+    "description": "En rolig vandringsmand, der viser tålmodighed og venlighed i smedjen og giver smeden tre ønsker som en prøve på hans klogskab.",
+    "visualPrompt": "A calm, humble traveler with a gentle expression, simple robe-like clothing in soft earth tones, quietly helpful presence; child-friendly storybook illustration style.",
+    "imagePath": "characters/vor-herre.webp"
+  },
+  {
+    "name": "Sankt Peter",
+    "slug": "sankt-peter",
+    "description": "Vor Herres ledsager, der advarer smeden venligt om at ønske sig det, der virkelig betyder noget.",
+    "visualPrompt": "An older, kindly man with a thoughtful face, simple travel clothing, standing beside the traveler with a mild, advisory demeanor; soft fairytale illustration style.",
+    "imagePath": "characters/sankt-peter.webp"
+  },
+  {
+    "name": "Djævlen",
+    "slug": "djaevlen",
+    "description": "En snu, men let narret skikkelse, som bliver fanget af smedens ønsker og til sidst holder sig langt væk.",
+    "visualPrompt": "A mischievous, imp-like devil figure with a comically annoyed expression, small horns and a tail suggested subtly, more silly than scary; bright, gentle storybook illustration style.",
+    "imagePath": "characters/djaevlen.webp"
+  }
+]

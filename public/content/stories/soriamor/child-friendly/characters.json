@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Halvor",
+    "slug": "halvor",
+    "description": "A dreamy, kind-hearted young man who discovers bravery and determination as he searches for Soria Moria and the princess he loves.",
+    "visualPrompt": "A gentle Nordic fairytale boy/young man with tousled dark-blond hair and a thoughtful expression, wearing worn travel clothes and sturdy boots, later shown with a simple but elegant ring on his finger; approachable, courageous posture, warm storybook style.",
+    "imagePath": "characters/halvor.webp"
+  },
+  {
+    "name": "The Youngest Princess",
+    "slug": "youngest-princess",
+    "description": "The youngest of three sisters, clever and caring, who truly understands Halvor and guides him with magic and trust.",
+    "visualPrompt": "A kind young princess in a soft, flowing gown in pale gold and cream, long hair neatly braided, bright gentle eyes, calm smile; she wears subtle fairytale jewelry and gives a reassuring, welcoming presence in a warm storybook style.",
+    "imagePath": "characters/youngest-princess.webp"
+  },
+  {
+    "name": "The Three-Headed Troll",
+    "slug": "three-headed-troll",
+    "description": "A blustering, magical troublemaker who fills the first castle with fear until Halvor faces him bravely.",
+    "visualPrompt": "A large, rounded troll with three comical heads, shaggy dark fur, and oversized hands; more grumpy than terrifying, with expressive faces and a shadowy aura that looks ready to blow away like smoke; child-friendly fairytale style.",
+    "imagePath": "characters/three-headed-troll.webp"
+  },
+  {
+    "name": "The Old Cottage Woman",
+    "slug": "old-cottage-woman",
+    "description": "A strange but helpful old woman in the forest who trades Halvor magic boots and calls on the moon and the west wind for guidance.",
+    "visualPrompt": "An elderly woman with long gray hair and a very long nose, wrapped in a patched shawl and simple forest clothes, sitting by a cozy hearth; her look is quirky and friendly, with kind eyes and a wise, whimsical presence in a storybook style.",
+    "imagePath": "characters/old-cottage-woman.webp"
+  },
+  {
+    "name": "The West Wind",
+    "slug": "west-wind",
+    "description": "A swift, unseen helper that rushes across mountains and shores, guiding Halvor toward Soria Moria in time for the wedding.",
+    "visualPrompt": "A personified wind spirit suggested by swirling ribbons of air and leaves, soft blue-gray and silver tones, forming a gentle flowing silhouette without sharp edges; energetic but friendly, fairytale illustration style.",
+    "imagePath": "characters/west-wind.webp"
+  }
+]

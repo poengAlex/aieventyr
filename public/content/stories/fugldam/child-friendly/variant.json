@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Fugl Dam (Child Friendly)",
+  "description": "A gentler retelling with a warm, reassuring mood: the danger is softened into a sleepy, many-headed troll and brave-but-kind helpers, with an emphasis on rescue, fairness, and everyone returning safely home.",
+  "tone": "Gentle, adventurous, and reassuring",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:13:07.105Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:18:10.628Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A youngest prince follows a helpful bird to rescue twelve missing princesses and make things right.",
+  "hasInlineScenes": true
+}

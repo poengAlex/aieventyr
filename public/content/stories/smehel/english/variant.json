@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "The Blacksmith They Dared Not Let into Hell",
+  "description": "An English retelling that stays close to the original folktale: the boastful blacksmith makes a bargain for unmatched skill, receives three crafty wishes from the Lord, outwits the Devil again and again, and finally finds both Hell barred and Heaven narrowing shut.",
+  "tone": "Folktale, sly, moralistic, darkly comic",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:26:02.368Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A blacksmith with three cunning wishes traps the Devil, only to discover neither Hell nor Heaven is eager to admit him.",
+  "hasInlineScenes": true
+}

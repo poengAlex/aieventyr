@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "A Courting Tale",
+  "description": "An English retelling that stays close to the original folktale, highlighting the dry humor of a poor family pretending to be prosperous by flaunting and carefully using their single new belongings.",
+  "tone": "Wry, satirical folktale humor",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:54:14.965Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:56:18.737Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A suitor visits a poor farm where each family member parades one new item to seem well-to-do.",
+  "hasInlineScenes": true
+}

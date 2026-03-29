@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "Fugl Dam (Modern)",
+  "description": "A contemporary retelling where royal life is shaped by media scrutiny, security protocols, and viral rumors—yet the magic persists as a glass-and-stone hidden fortress, an abused set of missing princesses, and a giant, otherworldly bird-bargain that turns a lone young prince into the only one willing to expose a powerful fraud.",
+  "tone": "Dark, suspenseful modern fairy tale with political pressure, eerie magic, and a hard-won public reckoning.",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:20:36.307Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:26:50.552Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A young prince rescues twelve missing princesses from a twelve-headed captor, only to race home to unmask the ruthless man trying to steal the credit—and a bride.",
+  "hasInlineScenes": true
+}

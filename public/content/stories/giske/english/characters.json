@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Giske",
+    "slug": "giske",
+    "description": "A vain, talkative housekeeper who is smeared with tallow and pipe-soot, mistakes herself for the Devil, and blunders loudly through a string of thefts and panicked encounters.",
+    "visualPrompt": "A long-legged woman with a grimy, soot-black face and hands, streaked with greasy tallow sheen, wearing a ragged, shortened skirt as if crudely cut away, wild hair unkempt, expression earnest and confused rather than evil, moving with quick energy through fields and forest.",
+    "imagePath": "characters/giske.webp"
+  },
+  {
+    "name": "The Widower",
+    "slug": "the-widower",
+    "description": "Giske’s master, a weary widower who devises the cruel prank to rid himself of her constant demands to marry.",
+    "visualPrompt": "A middle-aged rural man in simple work clothes, cautious eyes and a tight, troubled mouth, holding shears and standing near a hempfield, looking calculating yet anxious in a humble farmhouse setting.",
+    "imagePath": "characters/the-widower.webp"
+  },
+  {
+    "name": "The Thieves",
+    "slug": "the-thieves",
+    "description": "Two hungry petty criminals who first flee in terror from Giske, then keep trying to steal livestock and food while she loudly ruins every attempt.",
+    "visualPrompt": "Two lean, scruffy men in worn caps and patched coats, carrying small sacks, faces tense and wary, constantly glancing back over their shoulders while running along forest paths at dusk.",
+    "imagePath": "characters/the-thieves.webp"
+  },
+  {
+    "name": "The Priest",
+    "slug": "the-priest",
+    "description": "A local priest hurried out on Sunday morning in slippers and nightcap to bind the supposed Devil, only to be tossed into a sucking bog in the confusion.",
+    "visualPrompt": "An older priest in a white nightcap and loose shirt with trousers half-hastily donned, wearing slippers unsuited to marshland, clinging stiffly as he is carried toward a misty bog, expression shocked and indignant.",
+    "imagePath": "characters/the-priest.webp"
+  }
+]

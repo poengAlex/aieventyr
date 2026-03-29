@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Fars datter",
+    "slug": "fars-datter",
+    "description": "Stille og arbeidsom stedatter som møter urett med ro, løser umulige oppgaver med hjelp fra naturen, og velger riktig kiste uten å la seg blende.",
+    "visualPrompt": "Ung jente i hverdagsklær for bygda, enkelt hår oppsatt, jord på hendene, rolig og våkent blikk; bærer en liten blå kiste tett inntil seg, står i et ryddet, gammelt uthus der gyllent lys glitrer i tekstiler og metallgjenstander rundt henne.",
+    "imagePath": "characters/fars-datter.webp"
+  },
+  {
+    "name": "Stemoren",
+    "slug": "stemoren",
+    "description": "Kontrollerende og bitter voksen som favoriserer sin egen datter, skyver stedatteren ut av hjemmet og forsøker å gjøre belønning til noe hun kan stjele.",
+    "visualPrompt": "Middelaldrende kvinne med hard munn og stram holdning, praktisk jakke og husnøkler i hånden; står i døråpningen med et målbærende, misfornøyd blikk, omgitt av et vanlig, litt rotete hjem som føles kaldt.",
+    "imagePath": "characters/stemoren.webp"
+  },
+  {
+    "name": "Mors datter",
+    "slug": "mors-datter",
+    "description": "Bortskjemt og aggressiv, tramper over alt som ber om omtanke, avviser hjelpen hun får, og velger den mest glorete kista—med katastrofale følger.",
+    "visualPrompt": "Ung jente med selvsikkert, hånlig uttrykk, trendy klær som ikke passer til gårdsarbeid; står ved en brønnkant med knyttede never, en rød kiste ved føttene, og et spor av slim og kryp som begynner å sige ut.",
+    "imagePath": "characters/mors-datter.webp"
+  },
+  {
+    "name": "Den gamle kvinnen på gården",
+    "slug": "den-gamle-kvinnen",
+    "description": "En kald, beregnende matmor i en «for vanlig» og altfor stille gård, som setter folk på prøver og tilbyr tre kister som lønn—en test av karakter, ikke arbeid.",
+    "visualPrompt": "Eldre kvinne med grått hår stramt samlet, mørke klær og skarpe øyne; står i et overbelyst, men likevel ubehagelig rom med tre små kister på et bord (rød, grønn, blå) og en tung lås som glinser; lufta virker stillestående og trykkende.",
+    "imagePath": "characters/den-gamle-kvinnen.webp"
+  },
+  {
+    "name": "Småfuglene",
+    "slug": "smafuglene",
+    "description": "En liten fugleflokk som hvisker konkrete råd ved brønner og fjøs, og fungerer som historiens samvittighet: de hjelper den som lytter og vender seg bort fra den som slår.",
+    "visualPrompt": "En tett flokk små, mørke hagefugler på en grein nær en brønn; noen lener seg frem som om de hvisker, andre flakser urolig; kontrast mellom deres livlige nærvær og det stille, merkelige gårdstunet rundt.",
+    "imagePath": "characters/smafuglene.webp"
+  }
+]

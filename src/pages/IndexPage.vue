@@ -1,168 +1,339 @@
 <template>
-  <q-page class="q-pa-md">
-    <div style="max-width: 720px; margin: 0 auto;">
-
-
-      <!-- max width 500px and center it -->
-      <div class="q-pa-sm">
-        <!-- <q-card> -->
-        <div class="text-h4">
-          Norske Folkeeventyr – En AI-forbedret utgave
-        </div>
-        <div class="text-body2">
-          En modernisert versjon av “Norske Folke-Eventyr”, fortalt av P. Chr. Asbjørnsen og Jørgen Moe i 6. utgave fra
-          1904. Tekstene er gjort lettere å lese, språket er oppdatert, og levende AI-genererte illustrasjoner følger
-          hver
-          historie. Utforsk eventyrene slik de var, eller i varianter tilpasset barn, dagens samfunn eller engelske
-          lesere.
-        </div>
-        <!-- </q-card> -->
-      </div>
-
-      <div class="_q-mb-sm q-pa-sm">
-        <variant-selector></variant-selector>
-      </div>
-      <q-toggle v-model="settings.filteredRead" label="Vis kun uleste eventyr" />
-
-      <div class="row">
-        <template v-for="(fairytale) in fairytales" :key="fairytale.id">
-          <div class="col-sm-6 col-12 q-pa-sm" v-if="!settings.filteredRead || !getMarkedAsRead(fairytale.id)">
-            <q-card :square="getMarkedAsRead(fairytale.id)" :flat="getMarkedAsRead(fairytale.id)"
-              :bordered="getMarkedAsRead(fairytale.id)" :class="{ 'read': getMarkedAsRead(fairytale.id) }">
-              <q-img :src="getImageSrc(fairytale.id, fairytale.index)" alt="Main image"
-                @click="viewVariants(fairytale.id)">
-                <div class="absolute-bottom text-subtitle2 text-center">
-                  <!-- {{ index }}: {{ fairytale.title }} -->
-                  {{ getTitle(fairytale) }}
-                  <template v-if="false">
-                    - {{ fairytale.index }}
-                  </template>
-                </div>
-              </q-img>
-            </q-card>
+  <q-page class="library-page">
+    <section class="hero-panel">
+      <div class="hero-intro">
+        <div class="hero-copy">
+          <div class="eyebrow">A New Reading Edition</div>
+          <h1>Norske folkeeventyr, rebuilt for reading, listening, and browsing.</h1>
+          <p class="hero-lead">
+            This library turns scanned Norwegian folktales into a clean AI reading edition with modern
+            variants, artwork, characters, and audio.
+          </p>
+          <div class="hero-meta-row">
+            <div class="hero-meta-card">
+              <span class="hero-meta-label">Collection</span>
+              <strong>{{ stories.length }}</strong>
+              <span>Tales in the library</span>
+            </div>
+            <div class="hero-meta-card">
+              <span class="hero-meta-label">Format</span>
+              <strong>Text + Audio</strong>
+              <span>Each story has its own reading version</span>
+            </div>
           </div>
-        </template>
+        </div>
       </div>
+
+      <div class="hero-selector-panel">
+        <div class="hero-controls-title">Choose a reading version</div>
+        <variant-selector />
+        <p class="hero-controls-note">
+          Pick one version once, then browse the whole collection in that reading style.
+        </p>
+      </div>
+    </section>
+
+    <div class="library-headline">
+      <div>
+        <div class="headline-title">Browse the tales</div>
+        <div class="headline-caption">{{ filteredStories.length }} stories in this view</div>
+      </div>
+      <q-toggle v-model="settings.showRead" label="Include read stories" color="primary" class="read-toggle" />
+    </div>
+
+    <div v-if="loading" class="loading-panel">
+      <q-spinner color="primary" size="40px" />
+    </div>
+
+    <div v-else class="story-grid">
+      <q-card
+        v-for="story in filteredStories"
+        :key="story.id"
+        class="story-card"
+        :class="{ read: settings.isRead(story.id, getResolvedVariant(story)) }"
+        flat
+        tabindex="0"
+        role="link"
+        @click="openStory(story.id)"
+        @keyup.enter="openStory(story.id)"
+      >
+        <div v-if="settings.isRead(story.id, getResolvedVariant(story))" class="read-badge">Read</div>
+        <q-img :src="getCover(story)" :ratio="1" fit="cover" class="story-image">
+          <div class="story-overlay">
+            <div class="story-title">{{ story.canonicalTitle }}</div>
+          </div>
+        </q-img>
+      </q-card>
     </div>
   </q-page>
 </template>
 
 <script setup lang="ts">
-import { useSettingsStore, VARIANTS } from 'src/stores/settings';
-import { computed, onMounted, ref } from 'vue';
-import { useRouter } from 'vue-router';
-import VariantSelector from 'src/components/VariantSelector.vue';
-import { createNotify } from 'src/logic/utils';
+import { computed, onMounted, ref } from 'vue'
+import { useRouter } from 'vue-router'
+import VariantSelector from 'src/components/VariantSelector.vue'
+import { loadManifest, resolveStoryVariant } from 'src/logic/content'
+import { createNotify } from 'src/logic/utils'
+import { useSettingsStore } from 'src/stores/settings'
+import type { StoryListItem, VariantType } from 'src/types/content'
 
-const fairytales = ref<{ id: string; title: string; titleCleaned: string; titleEnglish: string; mainImage: string; description: string; index: number }[]>([]);
-const router = useRouter();
-const settings = useSettingsStore();
+const settings = useSettingsStore()
+const router = useRouter()
+const loading = ref(true)
+const stories = ref<StoryListItem[]>([])
 
-function getMarkedAsRead(id: string) {
-  return settings.getMarkedAsRead(settings.variant, id);
+const filteredStories = computed(() => {
+  return stories.value.filter((story) => {
+    if (!settings.showRead && settings.isRead(story.id, getResolvedVariant(story))) return false
+    return true
+  })
+})
+
+function getResolvedVariant(story: StoryListItem): VariantType {
+  return resolveStoryVariant(story.availableVariants, settings.variant)
 }
 
-//computed image src
-function getImageSrc(id: string, index: number) {
-  if (settings.version === "1") {
-    if (settings.variant === 'child-friendly') {
-      return `/output/mainImages/${id}_child.png`;
-    } else if (settings.variant === 'english') {
-      return `/output/mainImages/${id}_english.png`;
-    } else if (settings.variant === 'modern') {
-      return `/output/mainImages/${id}_modern.png`;
-    }
-    return `/output/mainImages/${id}.png`;
-  } else {
-    //Ex: /new/images/main/cleaned/tale1.png
-    let variant = settings.variant as string;
-    if (settings.variant === 'child-friendly') {
-      variant = 'child';
-    } else if (settings.variant === 'raw') {
-      variant = 'cleaned';
-    }
-
-
-    const path = `/v${settings.version}/images-optimized/main/${variant}/tale${index}.webp`;
-    // console.log(id, index, path);
-    return path;
-  }
-
+function getCover(story: StoryListItem) {
+  return `/content/stories/${story.id}/${getResolvedVariant(story)}/main.webp`
 }
 
-
-
-function getTitle(fairytale: any) {
-  if (settings.version === "1") {
-    return fairytale.title;
-  } else {
-    if (settings.variant === 'child-friendly') {
-      return fairytale.titleCleaned;
-    } else if (settings.variant === 'english') {
-      return fairytale.titleEnglish;
-    } else if (settings.variant === 'simplified') {
-      return fairytale.titleCleaned;
-    } else if (settings.variant === 'modern') {
-      return fairytale.titleCleaned;
-    } else {
-      return fairytale.title;
-    }
-  }
-
+function openStory(storyId: string) {
+  void router.push(`/story/${storyId}`)
 }
 
-onMounted(() => {
-  loadFairytales();
-});
-
-const loadFairytales = async () => {
+onMounted(async () => {
   try {
-    let response;
-    if (settings.version === "1") {
-      response = await fetch('/sections.json'); // Replace with actual metadata source
-    } else {
-      response = await fetch('/sections_v3.json');
-    }
-
-    let data = await response.json();
-    console.log(data);
-    console.log(data[0]);
-    //remove all that contains start: -1
-    data = data.filter((item: any) => item.start !== -1);
-    console.log(data);
-    fairytales.value = data.map((item: any) => ({
-      id: item.id,
-      title: item.title,
-      index: item.index,
-      titleCleaned: item.title_cleaned,
-      titleEnglish: item.title_modern,
-      mainImage: `/output/mainImages/${item.id}.png.webp`,
-      description: item.description || 'A Norwegian fairytale',
-    }));
-    console.log(fairytales.value[0]);
-
-  } catch (err: unknown) {
-    console.error(err);
-    createNotify((err as Error).message, "Klarte ikke å laste eventyr");
+    const manifest = await loadManifest()
+    stories.value = [...manifest.stories].sort((left, right) => left.index - right.index)
+  } catch (error: unknown) {
+    createNotify((error as Error).message, 'Failed to load library')
+  } finally {
+    loading.value = false
   }
-
-};
-
-const viewVariants = (id: string) => {
-  //go to: story/:id
-  router.push("/story/" + id);
-};
-
-const viewCharacters = (id: string) => {
-  router.push({ name: 'characters', params: { id } });
-};
+})
 </script>
+
 <style lang="scss" scoped>
-.q-card {
-  cursor: pointer;
+.library-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 28px 20px 48px;
 }
 
-.read {
-  opacity: 0.7;
+.hero-panel {
+  display: grid;
+  gap: 18px;
+  padding: 26px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 248, 232, 0.7), transparent 30%),
+    linear-gradient(135deg, rgba(226, 204, 162, 0.88), rgba(248, 242, 229, 0.94));
+  border-radius: 32px;
+  box-shadow: 0 22px 44px rgba(87, 67, 32, 0.1);
+  margin-bottom: 28px;
+}
+
+.hero-intro {
+  display: grid;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  color: rgba(90, 64, 24, 0.72);
+  margin-bottom: 12px;
+}
+
+.hero-copy h1 {
+  font-size: clamp(2.1rem, 4vw, 3.5rem);
+  line-height: 0.96;
+  margin: 0 0 16px;
+  max-width: 15ch;
+}
+
+.hero-lead {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: rgba(54, 45, 28, 0.8);
+  max-width: 64ch;
+}
+
+.hero-meta-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.hero-meta-card {
+  display: grid;
+  gap: 4px;
+  padding: 14px 16px;
+  border-radius: 20px;
+  background: rgba(255, 250, 241, 0.64);
+  box-shadow: inset 0 0 0 1px rgba(90, 64, 24, 0.08);
+  color: rgba(54, 45, 28, 0.78);
+}
+
+.hero-meta-card strong {
+  font-size: 1.1rem;
+  color: #2f3b33;
+}
+
+.hero-meta-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: rgba(90, 64, 24, 0.56);
+}
+
+.hero-selector-panel {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border-radius: 24px;
+  background: rgba(255, 252, 246, 0.74);
+  box-shadow: inset 0 0 0 1px rgba(73, 56, 27, 0.08);
+}
+
+.hero-controls-title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: rgba(73, 56, 27, 0.62);
+}
+
+.hero-controls-note {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.5;
+  color: rgba(47, 59, 51, 0.72);
+}
+
+.library-headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.headline-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.headline-caption {
+  color: rgba(47, 59, 51, 0.72);
+  margin-top: 4px;
+}
+
+.read-toggle {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.loading-panel {
+  min-height: 220px;
+  display: grid;
+  place-items: center;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 14px;
+  align-items: stretch;
+}
+
+.story-card {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 14px 24px rgba(77, 59, 27, 0.08);
+  cursor: pointer;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.story-card:hover,
+.story-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 32px rgba(77, 59, 27, 0.12);
+  outline: none;
+}
+
+.story-card.read {
+  background: rgba(241, 241, 237, 0.82);
+}
+
+.story-card.read .story-image {
+  filter: saturate(0.82) brightness(0.95);
+}
+
+.read-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(42, 52, 45, 0.82);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.story-image {
+  min-height: 168px;
+}
+
+.story-overlay {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 12px;
+  background: linear-gradient(180deg, rgba(20, 20, 18, 0) 0%, rgba(20, 20, 18, 0.82) 100%);
+}
+
+.story-title {
+  display: inline-flex;
+  max-width: 100%;
+  padding: 8px 10px;
+  border-radius: 14px;
+  background: rgba(255, 248, 239, 0.38);
+  backdrop-filter: blur(4px);
+  color: #2c2113;
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.25;
+  box-shadow: 0 8px 18px rgba(18, 14, 8, 0.14);
+}
+
+@media (min-width: 1240px) {
+  .story-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 840px) {
+  .hero-copy h1 {
+    max-width: none;
+  }
+
+  .hero-meta-row {
+    grid-template-columns: 1fr;
+  }
+
+  .library-headline {
+    align-items: start;
+    flex-direction: column;
+  }
 }
 </style>

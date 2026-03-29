@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "The youngest son, underestimated at home but quick-witted enough to bluff a troll and turn danger into fortune.",
+    "visualPrompt": "A slim teenage farm boy with tousled hair and alert eyes, wearing simple patched wool clothes and sturdy boots, carrying a small axe and a weathered leather knapsack, calm but mischievous expression",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "The Troll",
+    "slug": "troll",
+    "description": "A huge, territorial forest troll who threatens intruders but is easily led by pride and fear of the boy’s supposed strength.",
+    "visualPrompt": "A massive, hulking troll with a rough, stony complexion, tangled beard, moss and pine needles in its hair, long arms and heavy hands, wary eyes and a bullying posture",
+    "imagePath": "characters/troll.webp"
+  },
+  {
+    "name": "The Farmer Father",
+    "slug": "farmer-father",
+    "description": "A poor, worn-out farmer who pushes his sons to cut timber to pay down debt and scolds cowardice.",
+    "visualPrompt": "An elderly farmer with a weathered face and gray beard, dressed in coarse work clothes, standing with a tired but stern posture, hands rough from labor",
+    "imagePath": "characters/farmer-father.webp"
+  },
+  {
+    "name": "The Two Older Brothers",
+    "slug": "older-brothers",
+    "description": "The eldest and second sons who mock Askeladden but flee the forest when the troll threatens them.",
+    "visualPrompt": "Two young adult farm boys in plain work clothes, one taller and one broader, both uneasy and defensive, with worried faces and tense shoulders",
+    "imagePath": "characters/older-brothers.webp"
+  }
+]

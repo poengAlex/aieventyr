@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Yngstesønnen som blir etterlatt ved en rasteplass, men som møter det uventede med åpent sinn og ender med å være den eneste som kommer hjem med noe ekte.",
+    "visualPrompt": "Ung norsk mann i 20-årene med litt bustete hår og trøtt, ærlig blikk, kledd i hverdagsklær med en enkel jakke og sneakers, holder bilnøkler i hånden og har en forsiktig, ettertenksom holdning; moderne, nøktern stil med et snev av eventyrstemning.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Dukken i Græsset",
+    "slug": "dukken-i-gresset",
+    "description": "En bitte liten jente som bor i en skjult gress-lysning, syr en skjorte fra tråd til plagg på én dag, og blir senere forvandlet til en voksen kvinne etter å ha falt i innsjøen.",
+    "visualPrompt": "En magisk jente først på størrelse med en håndflate, med glitrende hår og klare øyne, kledd som til fest i en liten, elegant kjole; senere som en vakker voksen kvinne med samme uttrykk og et subtilt skinn som om vann og måneskinn ligger i huden, uten overdrevet fantasi—bare stille, naturlig magi.",
+    "imagePath": "characters/dukken-i-gresset.webp"
+  },
+  {
+    "name": "Faren",
+    "slug": "faren",
+    "description": "En selvskapt konsernsjef og lokal maktperson som setter en hard prøve for sønnene, men som respekterer håndverket og holder ord når kravet er oppfylt.",
+    "visualPrompt": "Eldre norsk mann med stram fremtoning, velkledd i mørk dress, stående ved et stort skrivebord i et moderne kontor med dempet luksus; skarpt blikk, kontrollert kroppsspråk, en kaffekopp i nærheten og en følelse av autoritet.",
+    "imagePath": "characters/faren.webp"
+  },
+  {
+    "name": "Sjømannen fra innsjøen",
+    "slug": "sjomannen-fra-innsjoen",
+    "description": "En gåtefull skikkelse som stiger opp av vannet og redder Dukken i gresset, som om innsjøen selv griper inn.",
+    "visualPrompt": "En underlig mann med vått hår og sjøgrønne øyne, kledd i en enkel, mørk regnfrakk som klistrer seg lett til kroppen; står ved en steinete innsjøkant med regnvåt glans, med et uttrykk som er både mildt og fremmed, som om han hører hjemme i vannet.",
+    "imagePath": "characters/sjomannen-fra-innsjoen.webp"
+  }
+]

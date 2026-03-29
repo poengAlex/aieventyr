@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Den unge kvinnen (den stumme bruden)",
+    "slug": "den-unge-kvinnen",
+    "description": "En foreldreløs jente oppdratt i overflod hos en streng men omsorgsfull foster­mor, hvis nysgjerrighet koster henne hjemmet og stemmen; senere blir hun «prinsens» kone og må bære tre uforklarlige bortføringer før sannheten kommer fram.",
+    "visualPrompt": "Ung kvinne med usedvanlig mildt, iøynefallende vakkert ansikt, enkel moderne kjole og praktisk yttertøy, rolig kroppsspråk og et sårt, taus uttrykk; hun virker både sterk og sårbar, med en diskret blodrød antydning ved leppene i de mørkeste scenene",
+    "imagePath": "characters/den-unge-kvinnen.webp"
+  },
+  {
+    "name": "Jomfru Maria (gudmoren)",
+    "slug": "jomfru-maria-gudmoren",
+    "description": "En elegant, tidløs velgjører som betaler dåpen, oppdrar barnet i et stort stille hus og setter tre forbudte dører som prøve; hun tar barna for å speile sorg og straff, men gir til slutt alt tilbake.",
+    "visualPrompt": "Kvinne med tidløs eleganse i moderne, sofistikerte klær som kunne passet en fin mottakelse, mildt blikk som kan bli alvorlig og mektig; en rolig, lysende tilstedeværelse som gjør omgivelsene stille og større",
+    "imagePath": "characters/jomfru-maria-gudmoren.webp"
+  },
+  {
+    "name": "Prinsen (arvingen)",
+    "slug": "prinsen-arvingen",
+    "description": "En ung arving i et hus folk fortsatt kaller slottet; han finner kvinnen ved vannbassenget, insisterer på å gifte seg med henne og prøver å beskytte henne med moderne sikkerhet som likevel ikke virker.",
+    "visualPrompt": "Ung mann i moderne, diskret luksuriøs stil, våkent blikk og sta vennlighet; han bærer en blanding av ansvar og ømhet, ofte i kontrast til residensens strenge sikkerhet",
+    "imagePath": "characters/prinsen-arvingen.webp"
+  },
+  {
+    "name": "Prinsens mor",
+    "slug": "prinsens-mor",
+    "description": "En kjølig og mistenksom matriark som ser den stumme bruden som en trussel, driver fram dommen om straff, men endrer seg når barna kommer tilbake og sannheten blir sagt høyt.",
+    "visualPrompt": "Eldre kvinne med stram holdning og kontrollert eleganse, skarpe øyne og kjølige farger i antrekket; senere mykner uttrykket når hun berører et barns hår",
+    "imagePath": "characters/prinsens-mor.webp"
+  }
+]

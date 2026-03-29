@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Frieren",
+    "slug": "frieren",
+    "description": "En moderne singel på jakt etter noen å dele livet med, som tar inntrykk av det han ser og hører på gården.",
+    "visualPrompt": "En vanlig, samtidspreget mann i en enkel jakke og jeans, vennlig og litt avventende uttrykk, sitter ved et kjøkkenbord med en liten reisetaske ved siden av, ser rundt seg mens han prøver å forstå vertskapets overdrevent ryddige opptreden.",
+    "imagePath": "characters/frieren.webp"
+  },
+  {
+    "name": "Gårdseieren",
+    "slug": "gards-eieren",
+    "description": "Husets mann som prøver å virke velstående ved å late som han vasker og rydder, mens han skjuler hvor lite han har.",
+    "visualPrompt": "En sliten, men stolt mann i en gammel genser med ett tydelig nylappet erme, bruker det nye ermet til å gni bordkanter og hyller som om det var en klut, mens den andre armen holdes stivt bak ryggen; anstrengt smil og raske bevegelser.",
+    "imagePath": "characters/gards-eieren.webp"
+  },
+  {
+    "name": "Gårdskona",
+    "slug": "gardskona",
+    "description": "Kona som demonstrerer «orden og velstand» ved å sparke og skyve ting på plass med sin ene nye joggesko.",
+    "visualPrompt": "En kvinne i praktiske hverdagsklær med én splitter ny joggesko på den ene foten og en gammel, nedslitt sko på den andre, skyver en skakk stol og en kasse med rot med foten, med et energisk, litt overdrevent uttrykk.",
+    "imagePath": "characters/gardskona.webp"
+  },
+  {
+    "name": "Datteren",
+    "slug": "datteren",
+    "description": "Datteren som later som hun er altfor travel til å rydde, og holder avstand for å bevare inntrykket av kontroll.",
+    "visualPrompt": "En ung kvinne som bare stikker hodet inn i døråpningen, med en ny lue der prislappen fortsatt henger på innsiden, blikk som flakker som om hun har det travelt, kroppen forblir utenfor rommet som om hun skal videre med en gang.",
+    "imagePath": "characters/datteren.webp"
+  }
+]

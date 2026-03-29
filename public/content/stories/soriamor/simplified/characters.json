@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Halvor",
+    "slug": "halvor",
+    "description": "En stille og undervurdert gutt som blir modig og sterk når han må, og som aldri gir opp før han finner den han elsker.",
+    "visualPrompt": "Ung norsk eventyrhelt med bustete mørkeblondt hår og værbitt ansikt, først i enkle, fillete klær med sotmerker fra grua, senere kledd som en kongssønn med ring på fingeren; bærer en stor sekk og kan holde et massivt sverd",
+    "imagePath": "characters/halvor.webp"
+  },
+  {
+    "name": "Den yngste prinsessa",
+    "slug": "den-yngste-prinsessa",
+    "description": "Den vakreste av de tre, klok og målbevisst, som elsker Halvor men straffer bruddet på løftet for å sikre at han finner veien til Soria Moria.",
+    "visualPrompt": "Ung prinsesse med svært lyst hår og rolig, bestemt blikk, kledd i en lys, elegant kjole med eventyrlige detaljer; bærer en enkel ring og utstråler både varme og strenghet",
+    "imagePath": "characters/den-yngste-prinsessa.webp"
+  },
+  {
+    "name": "Trollet med ni hoder",
+    "slug": "trollet-med-ni-hoder",
+    "description": "Det største og farligste trollet, som vokter det tredje slottet og er seigere å beseire enn de andre.",
+    "visualPrompt": "Gigantisk, mørkt troll med ni ulike hoder som vrenger seg frem samtidig, grove steinaktige hudfolder og lange klør; kroppen så stor at den må presse seg sidelengs gjennom en døråpning",
+    "imagePath": "characters/trollet-med-ni-hoder.webp"
+  },
+  {
+    "name": "Kona med den lange nesa",
+    "slug": "kona-med-den-lange-nesa",
+    "description": "En gammel og underlig kvinne som hjelper Halvor videre ved å bytte bort støvler som gir enorme skritt og ved å spørre vestavinden om veien.",
+    "visualPrompt": "Svært gammel kvinne med grått hår og en komisk lang nese, kledd i slitte, mørke ullklær, sittende ved en liten peis i en skrøpelig stue; nesa hennes brukes som ildrake",
+    "imagePath": "characters/kona-med-den-lange-nesa.webp"
+  },
+  {
+    "name": "Vestavinden",
+    "slug": "vestavinden",
+    "description": "En kraftig og rastløs naturkraft som kjenner veien til Soria Moria og drar Halvor i vill fart over landet.",
+    "visualPrompt": "Personifisert vindskikkelse av virvlende luft og løv, med antydning til ansikt i skyform, som farer over fjell og skog og bøyer trær og gress i en lang, lysende strøm",
+    "imagePath": "characters/vestavinden.webp"
+  }
+]

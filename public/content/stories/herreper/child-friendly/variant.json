@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Herreper (Barnevennlig)",
+  "description": "En mild og trygg gjenfortelling med mykere stemning, der Per og den kloke katten bruker vennlighet, smarte ord og litt magi for å åpne veien til et glitrende slott—uten skremmende detaljer, men med varme og undring.",
+  "tone": "Gentle, whimsical, reassuring",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:30:26.813Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Den fattige Per og den snarrådige katten hans får kongen til å tro på Herreper og finner til slutt et slott fullt av magi og lykke.",
+  "hasInlineScenes": true
+}

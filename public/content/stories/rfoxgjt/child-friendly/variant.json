@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Ræven som Gjæter (Barnevennlig)",
+  "description": "En mildere og mer barnevennlig variant med mykere stemning og snillere formuleringer, der reven lærer at det ikke lønner seg å snike til seg godsaker, og forklaringen på den hvite haletippen blir fortalt uten skremmende detaljer.",
+  "tone": "Varm, rolig og lekent moralsk",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:07:08.662Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En listig rev blir gjeter, men når han heller sniker til seg fløte, ender han opp med en hvit haletipp som påminnelse.",
+  "hasInlineScenes": true
+}

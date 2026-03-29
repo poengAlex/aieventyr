@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "Lillekort (English Retelling)",
+  "description": "A close-to-the-source English retelling of the folktale, keeping the brisk oral cadence, repeated Thursday trials, and traditional motif-magic (the one-eyed hag bargains, the pocket-ship, and the toast-pouring reveal) while preserving the tale’s blunt humor and justice.",
+  "tone": "Classic folktale; brisk, wry, and adventurous with dark comic justice.",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:11:35.995Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A ragged boy named Littlecourt outwits trolls and a cowardly knight to win a princess and half a kingdom—then rescues her sister from the sea-bottom lair.",
+  "hasInlineScenes": true
+}

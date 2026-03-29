@@ -1,4 +1,4 @@
-import { Notify, useQuasar } from 'quasar'
+import { Notify } from 'quasar'
 
 export function createNotifyWarning(message: string, header = '') {
   createNotify(message, header, 'warning')

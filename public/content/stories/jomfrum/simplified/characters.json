@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Den unge dronningen",
+    "slug": "den-unge-dronningen",
+    "description": "En fattig jente som vokser opp hos en streng, men god foster­mor; hun blir uvanlig vakker, men mister stemmen og blir senere dronning.",
+    "visualPrompt": "En ung kvinne med uvanlig skjønnhet og rolig uttrykk, enkelt men pent kledd som en ny dronning, med et stille, sårbart nærvær og en følelse av å bære på en hemmelighet",
+    "imagePath": "characters/den-unge-dronningen.webp"
+  },
+  {
+    "name": "Jomfru Maria (fostermoren)",
+    "slug": "jomfru-maria-fostermoren",
+    "description": "En mild, velkledd frue som tar barnet som foster­mor, setter forbudte rom som prøve, og vender tilbake for å straffe og til slutt tilgi.",
+    "visualPrompt": "En mild og verdig kvinne i fine, lyse klær med et varmt, alvorlig blikk, en stille glans rundt seg og en trygg, myndig holdning som både kan straffe og trøste",
+    "imagePath": "characters/jomfru-maria-fostermoren.webp"
+  },
+  {
+    "name": "Prinsen",
+    "slug": "prinsen",
+    "description": "Arvingen til slottet som finner den vakre, stumme jenta ved kilden og kjemper for å få henne til dronning.",
+    "visualPrompt": "En ung prins i enkel, kongelig drakt, med bestemt og omsorgsfullt uttrykk, stående ved en skogkilde som om han nettopp har oppdaget noe forunderlig",
+    "imagePath": "characters/prinsen.webp"
+  },
+  {
+    "name": "Den gamle dronningen",
+    "slug": "den-gamle-dronningen",
+    "description": "Prinsens mor, mistenksom og streng, som tror den stumme dronningen er farlig, men som til slutt blir forsonet.",
+    "visualPrompt": "En eldre dronning med strengt, våkent blikk og stiv holdning, kledd i mørkere, rike klær, med et uttrykk som gradvis kan mykne",
+    "imagePath": "characters/den-gamle-dronningen.webp"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Giske",
+    "slug": "giske",
+    "description": "An insistent housekeeper whose unwanted pursuit ends with her being made to look like the Devil, after which she takes the disguise for truth and blunders through a string of robberies.",
+    "visualPrompt": "A lean, long-legged Nordic farm woman with a blunt, determined expression; hair roughly shorn short; skin and clothes smeared with greasy soot so she looks eerily blackened; wearing a simple work skirt and blouse; energetic posture, unsettling yet comic presence",
+    "imagePath": "characters/giske.webp"
+  },
+  {
+    "name": "The Widower",
+    "slug": "the-widower",
+    "description": "Giske’s employer, driven to desperation by her pressure to marry, who engineers the disguise that sets everything in motion.",
+    "visualPrompt": "A weathered middle-aged Norwegian farmer with practical, guarded eyes; plain linen shirt and wool vest; sturdy build; holding a pair of shears and looking both guilty and relieved; rustic homestead background",
+    "imagePath": "characters/the-widower.webp"
+  },
+  {
+    "name": "The Thieves",
+    "slug": "the-thieves",
+    "description": "Two would-be rustlers who first flee from Giske in terror, then accept her as a guide—until her loud questions ruin every attempt.",
+    "visualPrompt": "Two scruffy countryside men in worn coats and caps, moving furtively; anxious faces that shift between greed and fear; one carrying a sack; forest shadows around them",
+    "imagePath": "characters/the-thieves.webp"
+  },
+  {
+    "name": "The Priest",
+    "slug": "the-priest",
+    "description": "Summoned to ‘bind the Devil,’ he rushes out unprepared and is famously left floundering in the bog when panic erupts.",
+    "visualPrompt": "An older village priest in nightcap and slippers under a hastily thrown-on coat; startled, wide-eyed expression; struggling near a soft, muddy bog with reeds and mist",
+    "imagePath": "characters/the-priest.webp"
+  }
+]

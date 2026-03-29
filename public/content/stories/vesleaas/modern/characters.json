@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Aase (Aase Gåsepike)",
+    "slug": "aase-gaasepike",
+    "description": "Gåsepasser ved slottet som sitter ved porten og lapper klær; rolig, sta og uvanlig ekte i en verden av glans og strategi.",
+    "visualPrompt": "Young Norwegian woman in practical patched work trousers and sturdy boots, simple sweater, hair pulled back messily, holding needle and thread with a small mending pouch; composed expression, grounded posture, subtle kindness and stubbornness",
+    "imagePath": "characters/aase-gaasepike.webp"
+  },
+  {
+    "name": "Prinsen fra England",
+    "slug": "prinsen-fra-england",
+    "description": "En moderne prins som er lei av polerte fasader og bruker teknologi for å finne sannhet, men må lære å se mennesket foran seg.",
+    "visualPrompt": "British prince in contemporary tailored coat and smart-casual attire, reserved but curious demeanor, wearing a signet ring on a chain; tired of publicity, searching eyes, restrained elegance",
+    "imagePath": "characters/prinsen-fra-england.webp"
+  },
+  {
+    "name": "Smartmatta",
+    "slug": "smartmatta",
+    "description": "En «sannhetsmatte» ved senga som avslører hemmeligheter uten filter og tvinger fram konsekvenser i kjærlighetsspillet.",
+    "visualPrompt": "Minimalist floor mat with subtle embedded circuitry pattern and a small discreet speaker unit beside it; neutral colors, uncanny honest presence, looks like everyday tech with a slightly ominous aura",
+    "imagePath": "characters/smartmatta.webp"
+  },
+  {
+    "name": "Den tredje utvalgte prinsessen",
+    "slug": "tredje-prinsesse",
+    "description": "Den mest nøye kuraterte av frierne, som likevel lar frykt for avsløring drive henne til å bytte plass i mørket.",
+    "visualPrompt": "Elegant modern socialite with carefully styled hair and refined outfit in muted luxury tones, controlled smile masking anxiety, posture tense; polished appearance with a crack of vulnerability in the eyes",
+    "imagePath": "characters/tredje-prinsesse.webp"
+  }
+]

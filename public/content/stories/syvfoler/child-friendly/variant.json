@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "De syv føllene (Snill og barnevennlig)",
+  "description": "En mildere, barnevennlig utgave av eventyret med varm stemning og mykere språk: Askeladden møter en fristende pause i skogen, følger de sju føllene med mot og kløkt, og løser en gammel forvandling på en trygg og håpefull måte.",
+  "tone": "Warm, gentle, child-friendly fairy tale",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T21:20:53.993Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden følger sju magiske føll, finner ut hva de egentlig spiser og drikker, og hjelper dem å bli prinser igjen.",
+  "hasInlineScenes": true
+}

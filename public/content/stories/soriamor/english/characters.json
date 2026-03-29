@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Halvor",
+    "slug": "halvor",
+    "description": "Once the ash-raker who seemed good for nothing, he proves fearless and relentless, killing three trolls, losing his love by breaking a vow, and trudging on until he wins her back at Soria Moria.",
+    "visualPrompt": "A young Norwegian man with tousled dark hair and a sturdy build, first seen in soot-smudged ragged clothes by a hearth, later in splendid princely garments with a simple ring; determined eyes, travel-worn cloak and boots, carrying a plain sword",
+    "imagePath": "characters/halvor.webp"
+  },
+  {
+    "name": "The Youngest Princess",
+    "slug": "youngest-princess",
+    "description": "The loveliest of the three sisters Halvor frees, clever and commanding; she gifts him the wishing ring, enforces the taboo, and is nearly wed to another before recognizing Halvor by the ring.",
+    "visualPrompt": "A radiant young princess with long fair hair and calm, intelligent eyes, wearing elegant pale garments and fine jewelry; poised and resolute, holding a small ring as if it carries great power",
+    "imagePath": "characters/youngest-princess.webp"
+  },
+  {
+    "name": "The Nine-Headed Troll",
+    "slug": "nine-headed-troll",
+    "description": "The greatest and toughest of the castle trolls, massive enough to squeeze through a doorway sideways, whose defeat reunites the three princesses.",
+    "visualPrompt": "An enormous hulking troll with nine grotesque heads clustered on thick necks, gray-green skin, heavy limbs, and a menacing sideways stance as it forces itself through a grand doorway; brutal, mythic presence",
+    "imagePath": "characters/nine-headed-troll.webp"
+  },
+  {
+    "name": "The Old Woman of the Forest Hut",
+    "slug": "old-woman-forest-hut",
+    "description": "A strange, very old woman in a lonely forest hut who bargains for Halvor’s horse and provides magic boots, then calls on the moon and the West Wind to guide him toward Soria Moria.",
+    "visualPrompt": "A tiny, bent, gray-haired old woman in a dim rustic hut, with an absurdly long nose reaching toward the hearth; wrapped in rough wool and shawls, shrewd eyes, holding worn old boots that seem faintly enchanted",
+    "imagePath": "characters/old-woman-forest-hut.webp"
+  },
+  {
+    "name": "The West Wind",
+    "slug": "west-wind",
+    "description": "A roaring force of nature that knows the way to Soria Moria and carries Halvor at a punishing pace toward the wedding preparations.",
+    "visualPrompt": "A powerful anthropomorphic wind-spirit formed from swirling air and cloud, suggested as a tall translucent figure made of gusts and flying leaves, rushing over mountains and forests with unstoppable energy",
+    "imagePath": "characters/west-wind.webp"
+  }
+]

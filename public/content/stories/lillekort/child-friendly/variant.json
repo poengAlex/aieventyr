@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Lillekort (Child Friendly)",
+  "description": "A gentler retelling with a warm, reassuring mood: the danger feels more like a stormy fairy-tale test than a frightening threat, the trolls vanish like smoke instead of lingering on anything grim, and the story highlights kindness, clever teamwork, and a happy, fair ending for everyone.",
+  "tone": "Gentle, adventurous, hopeful, and comforting",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:11:51.307Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A brave little boy named Lillekort uses clever gifts and a good heart to save a princess, outsmart trolls, and bring happiness to a whole kingdom.",
+  "hasInlineScenes": true
+}

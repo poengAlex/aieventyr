@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mestertyven (den yngste søn)",
+    "slug": "mestertyven",
+    "description": "Husmandens yngste søn, som frivilligt går i lære hos røvere og overgår alle med opfindsomme tricks—før han vender hjem forklædt som storkar og udfordrer amtmanden.",
+    "visualPrompt": "En ung nordisk mand i tidlig voksenalder, slank og adræt, klare øjne med et frækt, roligt udtryk; tøj der kan skifte mellem lurvet fillegut og lånt generalmundering; bærer en enkel pose og reb, hænder som virker vant til hurtige kneb; eventyrlig, tidløs folkeeventyrstil.",
+    "imagePath": "characters/mestertyven.webp"
+  },
+  {
+    "name": "Den gamle kjærring i røverhuset",
+    "slug": "gammel-kjaerring-roverhus",
+    "description": "En gammel husholderske, røvet som barn og tvunget til at tjene røverne, som advarer drengen—men ender som tavs medhjælper til hans ophold.",
+    "visualPrompt": "En ældre kvinde med vejrbidt ansigt, gråt hår under et slidt tørklæde, grove hænder og enkel ulden kjole; står ved ildstedet i en stor, rå træbygning, med et forsigtigt blik som veksler mellem frygt og vant resignation; nordisk folkeeventyrstemning.",
+    "imagePath": "characters/gammel-kjaerring-roverhus.webp"
+  },
+  {
+    "name": "Amtmanden",
+    "slug": "amtmanden",
+    "description": "En rig og selvsikker embedsmand, som sætter prøver for at afsløre tyven, men gang på gang bliver overlistet.",
+    "visualPrompt": "En velnæret middelaldrende mand i fine, mørke klæder med kappe, ordensbevidst holdning og et skeptisk smil; omgivet af tegn på rigdom—stald, heste og en stor gård—men med en antydning af forbløffelse i blikket; klassisk norsk-dansk eventyrillustrationsstil.",
+    "imagePath": "characters/amtmanden.webp"
+  },
+  {
+    "name": "Præsten Hr. Lars",
+    "slug": "praesten-hr-lars",
+    "description": "En forfængelig præst, der gør nar af amtmanden, men narres af mestertyven til at tro, han skal hentes til himlen—og ender ydmyget i gåsehuset.",
+    "visualPrompt": "En præst i sort kjole med hvid krave, alvorligt ansigt og selvtilfredse øjne; ses enten knælende i from forventning eller forslået og forskræmt efter en natlig slæbetur; kontrast mellem højtidelighed og komik, i folkeeventyrlig, malerisk stil.",
+    "imagePath": "characters/praesten-hr-lars.webp"
+  },
+  {
+    "name": "Bonden med de tre oxer",
+    "slug": "bonden-tre-oxer",
+    "description": "En stakkels bonde med en særdeles vred kone, der gang på gang mister sine oxer til mestertyvens tricks og ikke tør gå hjem.",
+    "visualPrompt": "En mager landmand i grov vadmel, rød af kulde og bekymring, med en simpel hue og træstøvler; holder et tov og ser fortvivlet ud ved en skovkantet vej, som om han lige har opdaget endnu et tab; jordnær, nordisk eventyræstetik.",
+    "imagePath": "characters/bonden-tre-oxer.webp"
+  }
+]

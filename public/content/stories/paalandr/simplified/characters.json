@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tjenestegutten",
+    "slug": "tjenestegutten",
+    "description": "En kvikk og utspekulert gårdsgutt som legger en plan for å få kjerringa til å avsløre seg høyt.",
+    "visualPrompt": "Ung norsk tjenestegutt i enkel arbeidsklær, litt rufsete hår, skarpt blikk og et lurt halvsmil, støv på klærne fra låven, står avslappet men årvåken",
+    "imagePath": "characters/tjenestegutten.webp"
+  },
+  {
+    "name": "Den døve mannen",
+    "slug": "den-dove-mannen",
+    "description": "En snill, tillitsfull ektemann som ikke hører hva som foregår og stadig misforstår situasjonen.",
+    "visualPrompt": "Middelaldrende norsk bonde med værbitt ansikt og sterke hender, enkel skjorte og vest, bærer en øks uten trussel, uttrykk av forvirret godhet",
+    "imagePath": "characters/den-dove-mannen.webp"
+  },
+  {
+    "name": "Kjerringa",
+    "slug": "kjerringa",
+    "description": "Kona som skjuler forholdet sitt, blir stadig mer stresset, og ender med å rope ut løftet sitt i panikk.",
+    "visualPrompt": "Norsk gårdskone i kjole og forkle, hår satt opp, røde kinn av sinne og frykt, holder et knyte med mat under forkledet, kroppsholdning som om hun er på vei til å løpe",
+    "imagePath": "characters/kjerringa.webp"
+  },
+  {
+    "name": "Pål Andrestuen",
+    "slug": "pal-andrestuen",
+    "description": "Mannen i den andre stua som kjerringa holder av, og som blir skremt til å flykte når ryktene om øksa når ham.",
+    "visualPrompt": "Voksen norsk mann i enkle bygdeklær, litt urolig blikk, står nær en plog eller i kanten av enga, klar til å springe av sted",
+    "imagePath": "characters/pal-andrestuen.webp"
+  }
+]

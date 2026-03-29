@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Den yngste kongssønnen",
+    "slug": "den-yngste-kongssonnen",
+    "description": "Den yngste av tolv prinser, utholdende og observant, som alene tar sjansen, dreper uhyret, henter kronene og avslører løgnen når makt og frykt prøver å stilne sannheten.",
+    "visualPrompt": "Young Nordic prince in his early 20s with salt-tangled dark-blond hair and tired eyes, lean and weathered from years at sea, wearing a plain, oversized sailor’s coat and practical boots; he carries a battered wooden crate and later a locked cabinet heavy with twelve gold crowns; expression steady, guarded, determined; contemporary fairytale style.",
+    "imagePath": "characters/den-yngste-kongssonnen.webp"
+  },
+  {
+    "name": "Ridder Rød",
+    "slug": "ridder-rod",
+    "description": "Den erfarne styrmannen i rød jakke som styrer ekspedisjonen og senere stjeler æren med trusler, vold og en påtvunget forlovelse.",
+    "visualPrompt": "Broad-shouldered middle-aged man with hard jaw and slicked-back dark hair, wearing a vivid red jacket over modern maritime gear; confident predatory smile, cold eyes; posture like a man used to command; hands ready to seize; modern fairytale villain aesthetic.",
+    "imagePath": "characters/ridder-rod.webp"
+  },
+  {
+    "name": "Den yngste prinsessen",
+    "slug": "den-yngste-prinsessen",
+    "description": "Den mest stille av de tolv, merket av fangenskapet og trusselen fra Ridder Rød, men modig nok til å peke ut sannheten når kronene kommer fram.",
+    "visualPrompt": "Young woman in her early 20s with pale, exhausted face and long ash-brown hair, wearing simple elegant modern dress in muted tones; eyes alert with contained fear turning to resolve; she holds herself upright despite trembling hands; a bare steel sword lies as a boundary near her sleeping place; contemporary fairy-tale realism.",
+    "imagePath": "characters/den-yngste-prinsessen.webp"
+  },
+  {
+    "name": "Fugl Dam",
+    "slug": "fugl-dam",
+    "description": "En gigantisk, gåtefull hjelpefugl som krever fire tønner rug som betaling og flyr prinsen forbi skipet og mot oppgjøret, som en gammel kraft midt i moderne verden.",
+    "visualPrompt": "Enorm bird filling a courtyard, feathers textured like intertwined cables and rough bark, eyes ancient and intelligent; a single neck feather as thick as a small tree trunk; powerful wings half-spread; it bears uneven cargo balanced on each side; presence both protective and unsettling; modern mythic creature style.",
+    "imagePath": "characters/fugl-dam.webp"
+  },
+  {
+    "name": "Trollkongen (øya-slottet)",
+    "slug": "trollkongen-oya-slottet",
+    "description": "Den skremmende, kalkulerende herskeren i det skjulte slottet som gir prinsen styrke og verktøy, men alltid med sin egen agenda og krav om gjenytelser.",
+    "visualPrompt": "Tall, imposing troll-king figure with coarse grayish skin and heavy features, dressed in a strange blend of antique regalia and modern tailored garments; jewelry and worn insignia glint against dark fabric; expression measured, transactional, eerily calm; stands in a sleek stone-and-glass hall that feels both ancient and contemporary.",
+    "imagePath": "characters/trollkongen-oya-slottet.webp"
+  }
+]

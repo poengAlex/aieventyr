@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En selvsikker, sotete verkstedeier med et skryte-skilt over porten og en djevelkontrakt i skuffen; smart nok til å lure Fanden, men dumdristig nok til å etterligne mirakler han ikke forstår.",
+    "visualPrompt": "Kraftig mann i 40-årene med sot i ansiktet, kort skjeggstubb og arbeidsklær (slitt hettegenser under skinnforkle), tunge støvler og grove hender; står i et moderne, rotete verksted med ambolt, esseglød og metallverktøy, med et skjevt, selvsikkert smil",
+    "imagePath": "characters/smeden.webp"
+  },
+  {
+    "name": "Vår Herre",
+    "slug": "var-herre",
+    "description": "En rolig vandrer som avslører ekte mesterskap ved å sko en hest og gjøre en gammel kvinne ung igjen, og som tilbyr smeden tre ønsker som blir brukt på list, ikke nåde.",
+    "visualPrompt": "Stillferdig, tidløs mann med vennlige øyne, enkelt, nøytralt tøy som en reisende til fots langs landevei; fremstår uanstrengt autoritær uten prangende tegn, med rolig kroppsspråk og varme hender nær essen",
+    "imagePath": "characters/var-herre.webp"
+  },
+  {
+    "name": "Sankt Peter",
+    "slug": "sankt-peter",
+    "description": "Følgesvennen som ser gjennom smedens dumme ønsker og senere står ved himmelporten der bare en smal glippe åpnes.",
+    "visualPrompt": "Eldre mann med værbitt ansikt og kort grått skjegg, enkel jakke og slitte sko som en reisefølge; bærer et uttrykk av oppgitt klokskap og står ofte litt bak, observerende",
+    "imagePath": "characters/sankt-peter.webp"
+  },
+  {
+    "name": "Fanden",
+    "slug": "fanden",
+    "description": "Kontraktsbundet innkrever som lar seg lokke av bekvemmelighet og stolthet, og blir fanget i pæretreet, i lenestolen på pauserommet og til slutt i smedens lille ståltrådveske.",
+    "visualPrompt": "Mørk, menneskelignende skikkelse med skarpe trekk og et for selvsikkert glis, kledd i moderne, mørke klær som virker litt for fine; rundt ham en antydning av røyk og varmevridning, som om lufta blir tyngre når han kommer inn i verkstedet",
+    "imagePath": "characters/fanden.webp"
+  }
+]

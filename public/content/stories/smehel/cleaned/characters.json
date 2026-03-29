@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En stærk, selvsikker og snu håndværker, der har skrevet kontrakt med Fanden og bruger listede ønsker til at vende magtforholdet på hovedet.",
+    "visualPrompt": "A sturdy Nordic blacksmith with soot-smudged face and thick arms, wearing a leather apron over simple work clothes, holding a heavy sledgehammer; sharp, cunning eyes and a slightly mocking expression; standing amid an old-fashioned forge with anvil, bellows, and glowing coals.",
+    "imagePath": "characters/smeden.webp"
+  },
+  {
+    "name": "Vor Herre",
+    "slug": "vor-herre",
+    "description": "En rolig vandringsmand med myndig mildhed, der viser smeden en overnaturlig smedekunst og giver ham tre ønsker.",
+    "visualPrompt": "A calm, humble-looking wandering man with gentle authority, wearing plain travel robes in muted tones; serene face, steady gaze; subtle sense of holiness without overt symbols; standing near the forge fire, hands poised as if blessing skilled work.",
+    "imagePath": "characters/vor-herre.webp"
+  },
+  {
+    "name": "St. Peder",
+    "slug": "st-peder",
+    "description": "Vor Herres følgesvend, der kommenterer smedens tåbelige ønsker og repræsenterer den fromme eftertanke.",
+    "visualPrompt": "An older bearded man with weathered kind features, wearing simple pilgrim-like garments; cautious, observant posture; expression mixing concern and dry disbelief; standing slightly behind the holy wanderer on a dusty road.",
+    "imagePath": "characters/st-peder.webp"
+  },
+  {
+    "name": "Fanden",
+    "slug": "fanden",
+    "description": "En stolt og letnarret djævel, der forsøger at hente smeden på kontrakten, men fanges af pæretræet, lænestolen og den gloende pung.",
+    "visualPrompt": "A horned devil with a wiry, cunning build, dark reddish-brown skin, sharp grin, and restless eyes; expression shifting from smug confidence to panic; clawed hands and a tail; depicted near a pear tree or recoiling from a glowing steel purse, in a grim folk-tale style.",
+    "imagePath": "characters/fanden.webp"
+  },
+  {
+    "name": "Skræddersvenden",
+    "slug": "skraeddersvenden",
+    "description": "En tynd og hastende rejsende mod Himmerige, der uforvarende bliver målestok for smedens voldsomme slutspurt mod porten.",
+    "visualPrompt": "A slender young tailor’s journeyman in simple, worn clothes, hurrying forward with a small pressing iron in hand; anxious but hopeful expression; dust on shoes from long travel; set against a forked country road leading toward distant gates.",
+    "imagePath": "characters/skraeddersvenden.webp"
+  }
+]

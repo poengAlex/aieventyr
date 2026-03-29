@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "Soria Moria Slot (English Retelling)",
+  "description": "A close English retelling of the Norwegian folktale, keeping the brisk, plainspoken voice and episodic journey: Halvor the hearth-sitter grows into a troll-slayer, breaks a taboo that costs him his princess, and wins her back at Soria Moria Castle through wit and endurance.",
+  "tone": "Folktale adventure with plain humor, wonder, and steadfast romance",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:10:19.964Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A lazy ash-boy becomes a troll-slayer and races the winds to reclaim his stolen bride at Soria Moria Castle.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "The Hen",
+    "slug": "the-hen",
+    "description": "A hardworking hen who is tired of empty promises and wants shoes for her bare feet.",
+    "visualPrompt": "A small, determined hen with slightly ruffled feathers, standing upright with an assertive posture, bare feet visible, carrying a simple basket with a few eggs; classic storybook folktale illustration style.",
+    "imagePath": "characters/the-hen.webp"
+  },
+  {
+    "name": "The Rooster",
+    "slug": "the-rooster",
+    "description": "A confident rooster who brushes off the Hen’s complaints and offers a blunt, practical answer.",
+    "visualPrompt": "A proud rooster with a bright comb and bold stance, one wing slightly raised as if giving advice, looking self-assured; rustic folktale storybook illustration style.",
+    "imagePath": "characters/the-rooster.webp"
+  }
+]

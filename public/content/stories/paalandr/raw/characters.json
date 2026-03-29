@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Paal Andrestuen",
+    "slug": "paal-andrestuen",
+    "description": "The young man from the other room who secretly visits the wife and panics when the farmhand sows fear.",
+    "visualPrompt": "A lean Norwegian farm youth in simple woolen clothes and worn boots, alert eyes and anxious posture, hair slightly tousled, conveying a mix of boldness and sudden fright, set in a rural valley setting",
+    "imagePath": "characters/paal-andrestuen.webp"
+  },
+  {
+    "name": "Kjærringen (Konen)",
+    "slug": "kjaerringen-konen",
+    "description": "The wife of the deaf man, sharp-tempered and furtive, trying to hide her affair while keeping up appearances with lavish meals.",
+    "visualPrompt": "A middle-aged Norwegian woman in traditional rural clothing with an apron and headscarf, tense jaw and quick, watchful eyes, clutching her apron as if hiding something, standing in a modest farmhouse interior",
+    "imagePath": "characters/kjaerringen-konen.webp"
+  },
+  {
+    "name": "Den døve Mand",
+    "slug": "den-dove-mand",
+    "description": "The hardworking husband who hears little and understands less, easily led by others’ words and misdirection.",
+    "visualPrompt": "A sturdy Norwegian farmer with weathered hands and plain work clothes, carrying an axe or farm tools, expression puzzled and trusting, posture slightly stooped from labor, set near a barn or threshing floor",
+    "imagePath": "characters/den-dove-mand.webp"
+  },
+  {
+    "name": "Tjenestegutten",
+    "slug": "tjenestegutten",
+    "description": "The observant servant boy who engineers the wager and orchestrates misunderstandings to force a confession.",
+    "visualPrompt": "A teenage farmhand with a sly half-smile, bright calculating eyes, and simple rustic clothing, standing confidently in a farmhouse doorway or barn aisle, body language suggesting quick wit and mischief",
+    "imagePath": "characters/tjenestegutten.webp"
+  }
+]

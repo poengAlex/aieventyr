@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "The youngest brother, underestimated but quick-witted, who carries strange roadside items and turns the Princess’s jabs back on her.",
+    "visualPrompt": "A young, humble-looking lad with tousled hair and a calm, clever expression, wearing plain travel clothes and sturdy boots, carrying a small bundle of odd objects: a looped willow twig, a bowl shard, two crooked goat horns, and a worn shoe-sole",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "The Princess",
+    "slug": "princess",
+    "description": "A sharp-tongued, contrary royal who prides herself on always having the last word—until Askeladden leaves her speechless.",
+    "visualPrompt": "A regal young princess in fine medieval attire with an expressive, mocking face, poised and confident, seated or standing above others as if on a dais, eyes narrowed as her certainty turns to surprise",
+    "imagePath": "characters/princess.webp"
+  },
+  {
+    "name": "The King",
+    "slug": "king",
+    "description": "The ruler who promises his daughter and half the kingdom to anyone who can silence her.",
+    "visualPrompt": "A middle-aged king with a short beard and a heavy crown, wearing a rich cloak and formal tunic, watching intently from his throne with measured curiosity",
+    "imagePath": "characters/king.webp"
+  }
+]

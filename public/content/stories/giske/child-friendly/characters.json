@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Giske",
+    "slug": "giske",
+    "description": "A strong, hardworking housekeeper who becomes hilariously confused about her identity after being made to look strange, yet stays friendly and determined.",
+    "visualPrompt": "A sturdy, kind-looking woman in simple rural clothes, hair tucked under a scarf, cheeks and hands lightly smudged with soot, bright curious eyes, open and earnest expression, storybook Scandinavian folktale style",
+    "imagePath": "characters/giske.webp"
+  },
+  {
+    "name": "The Widower",
+    "slug": "widower",
+    "description": "A lonely farmer who plays a mischievous prank to get some peace, not realizing the trouble it will cause.",
+    "visualPrompt": "A middle-aged widower in plain farm clothing with a gentle but sheepish face, slightly worried expression, simple rustic Scandinavian setting, warm and non-threatening storybook style",
+    "imagePath": "characters/widower.webp"
+  },
+  {
+    "name": "The Two Thieves",
+    "slug": "two-thieves",
+    "description": "Two sneaky wanderers who hope for easy food but keep getting startled by Giske’s loud helpfulness.",
+    "visualPrompt": "Two scruffy, nervous figures in worn cloaks, carrying small bundles, wide-eyed and jumpy rather than scary, standing among pine trees, whimsical folktale illustration style",
+    "imagePath": "characters/two-thieves.webp"
+  },
+  {
+    "name": "The Farmer",
+    "slug": "farmer",
+    "description": "A startled landowner who mistakes Giske’s messy appearance for something mysterious and gets the whole household worried.",
+    "visualPrompt": "A broad-shouldered farmer in a simple wool jacket and cap, holding a lantern, eyes wide in surprise, rustic yard and barn nearby, cozy storybook style",
+    "imagePath": "characters/farmer.webp"
+  },
+  {
+    "name": "The Priest",
+    "slug": "priest",
+    "description": "A sleepy priest hurriedly brought along to ‘solve’ the mystery, only to end up in a muddy mishap.",
+    "visualPrompt": "An older priest in a simple black coat with a nightcap and slippers, looking drowsy and bewildered, a bit of mud on the hem, gentle comedic folktale style",
+    "imagePath": "characters/priest.webp"
+  }
+]

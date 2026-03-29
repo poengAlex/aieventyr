@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Den unge kongen",
+    "slug": "den-unge-kongen",
+    "description": "Fiskerens sønn som blir oppdratt på slottet, viser mot og tålmodighet, og legger ut på en lang reise for å finne tilbake til dronningen sin.",
+    "visualPrompt": "A kind, child-friendly fairy-tale young king with light travel-worn clothes that still look noble, gentle eyes, simple crown or circlet, and a small ring tied in a lock of hair; warm, soft storybook style",
+    "imagePath": "characters/den-unge-kongen.webp"
+  },
+  {
+    "name": "Den yngste prinsessen (dronningen av Hvittenland)",
+    "slug": "den-yngste-prinsessen",
+    "description": "Den kloke og snille prinsessen som gir gode råd, hjelper ham å bryte magien, og lengter etter å bli gjenforent når de blir skilt.",
+    "visualPrompt": "A gentle fairy-tale princess with a calm, wise expression, pale shimmering dress in soft colors, subtle magical glow, friendly posture, and delicate hair ornaments; child-friendly storybook style",
+    "imagePath": "characters/den-yngste-prinsessen.webp"
+  },
+  {
+    "name": "Den gamle mannen ved stranden",
+    "slug": "den-gamle-mannen-ved-stranden",
+    "description": "En vennlig veiviser med langt hvitt skjegg som gir gutten de avgjørende rådene ved den melkehvite stranden.",
+    "visualPrompt": "A benevolent old man with a long white beard and simple cloak, standing on a bright white shoreline, leaning on a wooden staff, with a comforting smile; soft, illustrated fairy-tale style",
+    "imagePath": "characters/den-gamle-mannen-ved-stranden.webp"
+  },
+  {
+    "name": "Nordavinden",
+    "slug": "nordavinden",
+    "description": "En kraftig, men hjelpsom vind som lager et bråk ved slottet og rydder veien slik at kongen kan komme inn.",
+    "visualPrompt": "A friendly personified north wind as a swirling ribbon of pale-blue air with sparkling frost-like motifs, bending treetops gently without menace, magical and playful; child-friendly storybook illustration style",
+    "imagePath": "characters/nordavinden.webp"
+  },
+  {
+    "name": "Den gamle gjedda",
+    "slug": "den-gamle-gjedda",
+    "description": "En svært gammel fisk som husker veien til Hvittenland og avslører at dronningen snart skal giftes bort, så kongen skynder seg videre.",
+    "visualPrompt": "An ancient, wise pike with gentle eyes and subtle silvery-green scales, rising calmly from dark clear water near reeds, surrounded by a soft magical shimmer; child-friendly fairy-tale illustration style",
+    "imagePath": "characters/den-gamle-gjedda.webp"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Per (Sir Per)",
+    "slug": "per",
+    "description": "The youngest son, poor and ragged at first, who becomes “Sir Per” through the cat’s schemes and ends up ruling a realm.",
+    "visualPrompt": "A young Nordic folktale hero with kind eyes and a humble face; first in simple worn travel clothes, later in astonishingly rich garments with subtle gold accents, standing uncertain but brave",
+    "imagePath": "characters/per.webp"
+  },
+  {
+    "name": "The Cat / Enchanted Princess",
+    "slug": "cat-enchanted-princess",
+    "description": "A sharp-tongued, fearless cat who coerces forest animals into becoming royal gifts and later transforms into a princess freed from a troll’s enchantment.",
+    "visualPrompt": "A sleek gray cat with intelligent, commanding eyes and an alert posture, sometimes perched between the antlers of a great stag or moose; hint of hidden royal elegance in her bearing",
+    "imagePath": "characters/cat-enchanted-princess.webp"
+  },
+  {
+    "name": "The King",
+    "slug": "king",
+    "description": "A proud ruler delighted by lavish gifts, then irritated by Per’s boasting, who follows him to see the supposed splendor for himself.",
+    "visualPrompt": "A middle-aged king in rich robes and a fur-trimmed cloak, wearing a gold crown and an expression shifting between pleasure, suspicion, and pride; attended by a small retinue",
+    "imagePath": "characters/king.webp"
+  },
+  {
+    "name": "The Troll of the Castle",
+    "slug": "troll",
+    "description": "The monstrous owner of the shining castle, undone when the cat tricks him into turning toward the rising sun.",
+    "visualPrompt": "A huge, rough-skinned troll with heavy features and wild hair, looming at a grand gate with clenched fists, radiating menace; faint cracks of light gathering as sunrise nears",
+    "imagePath": "characters/troll.webp"
+  }
+]

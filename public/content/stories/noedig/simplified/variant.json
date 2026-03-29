@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Somme Kjærringer er slige (Simplified)",
+  "description": "Denne varianten er skrevet på moderne norsk med enklere setninger og tydeligere formuleringer, slik at den klassiske skrønen flyter raskere og er lettere å lese uten å endre handlingen eller humoren.",
+  "tone": "Folkelig, komisk og skrønete, med tydelig moral om dumskap og list.",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:22:12.183Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:26:17.599Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En bonde prøver å rømme fra sin ufornuftige kone, men finner tre like håpløse mennesker og ender opp med å godta at dumskap finnes overalt.",
+  "hasInlineScenes": true
+}

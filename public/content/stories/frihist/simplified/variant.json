@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "En Frierhistorie (Forenklet)",
+  "description": "En forenklet, moderne norsk versjon med klarere setninger og lettere flyt, der humoren i den fattige familiens forsøk på å virke velstående kommer tydelig fram.",
+  "tone": "Humoristisk, enkel og folkelig",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:51:56.536Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:53:58.782Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En frier besøker en fattig gård der familien later som de er rike ved å vise fram sine eneste nye plagg.",
+  "hasInlineScenes": true
+}

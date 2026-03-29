@@ -1,0 +1,20 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Jomfru Maria som gudmor",
+  "description": "OCR restored while keeping the original literary voice.",
+  "tone": "restored",
+  "characterCount": 0,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "cleaned.md",
+    "generatedAt": "2026-03-28T12:37:02.392Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Hanen og Hønen i Nøddeskogen (Barnlig og Snill)",
+  "description": "Denne barnevennlige varianten forteller den samme kjede-historien med en trygg, varm stemning og mildt språk: Høna blir raskt bedre, og alle de Hanen møter er tydelig hjelpsomme, slik at spenningen føles rolig og trøstende for små lesere.",
+  "tone": "Gentle, reassuring, warm, child-friendly",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T15:20:45.601Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T15:24:14.320Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En modig hane løper fra venn til venn for å hente vann som hjelper høna når et nøtteskall sitter fast i halsen.",
+  "hasInlineScenes": true
+}

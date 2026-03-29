@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Gutten",
+    "slug": "gutten",
+    "description": "En hjelpsom og modig gutt som vil gjøre det rette for å skaffe mat til moren sin.",
+    "visualPrompt": "En ung gutt i en enkel, slitt men ren tunika og bukser, rufsete hår og snille, bestemte øyne; han bærer en sammenbrettet duk og en trekjepp, og har et tau i hånden til en liten bukk; vennlig og barnlig uttrykk",
+    "imagePath": "characters/gutten.webp"
+  },
+  {
+    "name": "Moren",
+    "slug": "moren",
+    "description": "En gammel, sliten mor som gutten passer på, og som blir lettet når de endelig får hjelp.",
+    "visualPrompt": "En eldre kvinne med milde trekk og grått hår i enkel oppsatt frisyre, kledd i et beskjedent forkle og ullskjerf; hun sitter rolig ved et lite bord i en enkel stue og ser håpefull ut",
+    "imagePath": "characters/moren.webp"
+  },
+  {
+    "name": "Nordavinden",
+    "slug": "nordavinden",
+    "description": "En kraftig, men rettferdig vind som kan virke brummete, men som gir gutten magiske gaver når han ber om hjelp.",
+    "visualPrompt": "En eventyrlig skikkelse formet av myke vindstrømmer og bleke blågrå skyer, med et vennlig, litt strengt ansikt som dukker fram i vinden; uttrykket er rolig og rettferdig, ikke skremmende",
+    "imagePath": "characters/nordavinden.webp"
+  },
+  {
+    "name": "Gjestgiveren",
+    "slug": "gjestgiveren",
+    "description": "En lur vert som prøver å bytte til seg de magiske tingene, men lærer å gjøre opp for seg.",
+    "visualPrompt": "En middelaldrende vert i enkel vest og skjorte med litt for nysgjerrige øyne; han står i et lite, varmt vertshusrom og ser skyldbetynget ut, med hendene halvveis løftet som om han nettopp ble tatt i noe",
+    "imagePath": "characters/gjestgiveren.webp"
+  },
+  {
+    "name": "Den magiske bukken",
+    "slug": "den-magiske-bukken",
+    "description": "En liten bukk som kan lage gull når gutten sier de rette ordene.",
+    "visualPrompt": "En liten, snill bukk med korte horn og blank pels i lysebrun tone; den står rolig ved siden av gutten med et tau rundt hornene, og virker vennlig og tam",
+    "imagePath": "characters/den-magiske-bukken.webp"
+  }
+]

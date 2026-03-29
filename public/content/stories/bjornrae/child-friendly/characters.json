@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bjørnen",
+    "slug": "bjorn",
+    "description": "Stor og sterk, men litt godtroende; han vil gjerne lære og gjøre det rette, selv når det går litt galt.",
+    "visualPrompt": "En stor, rund og vennlig brun bjørn med myke øyne og et litt forundret smil, tykk vinterpels, snø på potene, barnebokstil med en trygg og snill utstråling.",
+    "imagePath": "characters/bjorn.webp"
+  },
+  {
+    "name": "Reven",
+    "slug": "rev",
+    "description": "Smart og rampete, men i denne varianten mer ertende enn slem; han liker å finne på små triks og gliser når han lykkes.",
+    "visualPrompt": "En liten, elegant rød rev med buskete hale og kvikke øyne, et lurt men vennlig smil, myke farger og runde former i en barnevennlig eventyrillustrasjon.",
+    "imagePath": "characters/rev.webp"
+  }
+]

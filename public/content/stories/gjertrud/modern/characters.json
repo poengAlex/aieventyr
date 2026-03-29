@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Gjertrud",
+    "slug": "gjertrud",
+    "description": "Eier av et lite veikantkjøkken som baker lefser; hun sier ja med munnen, men holder igjen med hendene, og blir fanget av sin egen smålighet.",
+    "visualPrompt": "Kvinne i trettiårene med praktisk arbeidsforkle, melstøv på hendene, stram munn og rastløse blikk; rød lue trukket godt ned over håret, stående ved en moderne steketakke med deig og kjevle.",
+    "imagePath": "characters/gjertrud.webp"
+  },
+  {
+    "name": "Jesus",
+    "slug": "jesus",
+    "description": "En stille, sliten vandrer som ber høflig om en liten smakebit og svarer med hard rettferdighet når godhet nektes.",
+    "visualPrompt": "Rolig, veifarende mann i enkel, tidløs hverdagsklær som kunne passet en moderne pilegrim; støvete sko, mildt uttrykk som kan bli alvorlig, står i døråpningen til et lite kjøkken med respektfull holdning.",
+    "imagePath": "characters/jesus.webp"
+  },
+  {
+    "name": "Peter",
+    "slug": "peter",
+    "description": "Reisekameraten som følger etter, sulten og trøtt, og blir vitne til både mirakel og straff uten å styre utfallet.",
+    "visualPrompt": "Trøtt reisefølge med enkel jakke og liten ryggsekk, værbitt ansikt og oppmerksomme øyne; står litt bak Jesus, hendene i lommene, som om han forsøker å holde seg høflig.",
+    "imagePath": "characters/peter.webp"
+  },
+  {
+    "name": "Gjertrudsfuglen",
+    "slug": "gjertrudsfuglen",
+    "description": "Gjertruds nye skikkelse: en svart fugl med rød topp som hakker i treverk, alltid sulten og tørst, alltid ventende på regn.",
+    "visualPrompt": "Liten, mørk fugl med sot-svart kropp og en tydelig rød topp som minner om en lue; klør som griper en treplanke, spiss nebb som hakker i veden, rastløs holdning og skarpt blikk mot tunge regnskyer.",
+    "imagePath": "characters/gjertrudsfuglen.webp"
+  }
+]

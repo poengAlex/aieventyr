@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Halvor",
+    "slug": "halvor",
+    "description": "A once-aimless young man who finally moves when the world forces him to, discovering strength, stubborn courage, and a devotion fierce enough to cross impossible distances.",
+    "visualPrompt": "A Norwegian young man in his early twenties with soot-stained hands and tired eyes that sharpen into resolve; practical modern work clothes scuffed from travel, later contrasted with a clean tailored outfit he wears awkwardly; a simple band ring that seems warm, faintly glowing against his skin",
+    "imagePath": "characters/halvor.webp"
+  },
+  {
+    "name": "Siri of Soria Moria",
+    "slug": "siri-of-soria-moria",
+    "description": "The youngest heiress—brilliant, poised, and guarded—who can wield kindness and consequence with equal precision, and whose love for Halvor is tested by a single broken rule.",
+    "visualPrompt": "A young woman in her early twenties with striking, calm beauty and an intelligent, watchful gaze; contemporary elegant clothing with subtle Nordic minimalism; a presence that feels like bright daylight in a quiet room, with a near-imperceptible aura of old magic beneath modern polish",
+    "imagePath": "characters/siri-of-soria-moria.webp"
+  },
+  {
+    "name": "The Troll Guardians",
+    "slug": "the-troll-guardians",
+    "description": "Violent, head-multiplying monsters squatting in abandoned luxury strongholds, drawn to human scent and clinging to the place with heavy, ancient power despite the modern surroundings.",
+    "visualPrompt": "A massive hulking troll with multiple snarling heads and thick, dark, stone-like skin; hints of scavenged modern debris embedded in its grime; too large for doorways, forcing its way sideways into bright, empty corridors, radiating menace and oppressive heat",
+    "imagePath": "characters/the-troll-guardians.webp"
+  },
+  {
+    "name": "Vestavinden (The West Wind)",
+    "slug": "vestavinden",
+    "description": "A restless force of nature that knows every corner of the world, barging into the story like a living shortcut—impatient, helpful, and unstoppable.",
+    "visualPrompt": "A human-shaped figure suggested by swirling wind and grit, with a cloak-like rush of air and scattered leaves; features half-formed as if carved from weather; an impression of speed and raw freedom, present for a moment and gone before you can breathe",
+    "imagePath": "characters/vestavinden.webp"
+  }
+]

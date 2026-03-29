@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Blacksmith",
+    "slug": "the-blacksmith",
+    "description": "A proud master of his trade who bargains for greatness, then relies on boldness and clever wishes to escape the Devil’s claim.",
+    "visualPrompt": "Broad-shouldered blacksmith with soot-smudged face and strong hands, leather apron over simple work clothes, carrying a heavy sledgehammer; confident, stubborn expression; old forge tools and faint embers nearby",
+    "imagePath": "characters/the-blacksmith.webp"
+  },
+  {
+    "name": "The Devil",
+    "slug": "the-devil",
+    "description": "A contract-bound tempter repeatedly humiliated by the blacksmith’s traps: the pear tree, the armchair, and the steel-wire purse.",
+    "visualPrompt": "Sinister yet worldly devilish figure with sharp features and predatory grin, dressed like a sly traveler; suggests supernatural menace without exaggeration; uneasy posture as if wary of tricks",
+    "imagePath": "characters/the-devil.webp"
+  },
+  {
+    "name": "Our Lord",
+    "slug": "our-lord",
+    "description": "A calm wanderer who demonstrates miraculous skill in the forge, rebukes cruelty, and grants the blacksmith three ill-chosen but potent wishes.",
+    "visualPrompt": "Serene traveler with gentle authority, plain robe and sandals, warm steady gaze; hands poised as if shaping hot iron with effortless mastery; subtle aura of goodness without spectacle",
+    "imagePath": "characters/our-lord.webp"
+  },
+  {
+    "name": "Saint Peter",
+    "slug": "saint-peter",
+    "description": "The Lord’s companion who warns that the blacksmith should have wished for grace instead of tricks, and who guards Heaven’s gate at the end.",
+    "visualPrompt": "Older man with weathered face and thoughtful eyes, simple cloak, holding a large key ring at a bright gate; cautious, measured stance",
+    "imagePath": "characters/saint-peter.webp"
+  },
+  {
+    "name": "The Journeyman Tailor",
+    "slug": "the-journeyman-tailor",
+    "description": "A thin traveler bound for Heaven, whose timely entrance contrasts the blacksmith’s late, forceful attempt to follow.",
+    "visualPrompt": "Lean journeyman tailor in worn but tidy clothes, carrying a pressing iron in one hand; quick, nervous steps; hopeful expression aimed toward a distant bright gate",
+    "imagePath": "characters/the-journeyman-tailor.webp"
+  }
+]

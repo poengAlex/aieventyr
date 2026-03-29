@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "Somme Kjærringer er slige (Modern)",
+  "description": "En samtidstolkning der småbrukerkrise, Vipps, byggevarer og «for smarte» byfolk erstatter eventyrtidens rammer, mens den samme skrudde kjedereaksjonen av dumdristige valg, småsvindel og misforståelser eskalerer helt til gården ender med å bli sådd med veisalt.",
+  "tone": "Mørkt komisk, folkelig og satirisk med absurd realisme",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:38:16.755Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:42:41.851Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Når en mistroisk småbrukerkone drar til byen for å selge kua, ender en serie moderne tabber og lureri i fjær, tapte penger og et åkerland sådd med veisalt.",
+  "hasInlineScenes": true
+}

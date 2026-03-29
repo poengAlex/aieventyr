@@ -1,46 +1,179 @@
-# Getting the data
+# Aieventyr
 
-I tried to find the old fairytales in plain text, but I could not find it using google. I found a copy of the original book on https://ia802201.us.archive.org/33/items/norskefolkeeven01moegoog/norskefolkeeven01moegoog.pdf . Unfortunally, the book is a scan (images), so step 1 will be to extract the text from the pdf using a OCR tool.
+Aieventyr is a reading app and content-generation pipeline for Norwegian folktales. The project takes OCR-based source text, rewrites it into reader-friendly variants, generates matching images and audio, and serves the result from one canonical content tree under `public/content`.
 
-# Extracting the text
+The current app is built with Quasar, Vue 3, and Pinia. The generation pipeline uses OpenAI for text, image, and speech generation.
 
-ChatGPT recommended using tesseract.js + pdf-poppler. I will try this first.
-This caused some dependencies error. Im not here to debug, I just want to code something as quick as possible so I moved over to another solution. The next recommendation was to use pdf2img, but also there I got some dependency issues and some 404 (maybe because I am in Mexico at the momeent with slow internet). Next suggestion was pdf2pic. This seems to work, and now I got the text exracted per page. I made a short script to add the text to one file with the page nr as [PAGE nr] header. Next I will use openAI to index the whole book (indexText.js). Then I will write another script to extract each section and rewrites it using AI to fix any OCR errors (extractSection.js).
+## What this repo contains
 
-Next will be to take all the sections and rewrite them using AI to fix any OCR errors. I will use the openAI API for this. (refineText.js). The outputs are stored in output/cleaned/ folder.
+- `src/`: the Quasar frontend
+- `public/content/`: generated story output consumed by the app
+- `pipeline/`: the content-generation pipeline, prompts, config, and working files
 
-Notes:
+The app only reads from `public/content`. It does not use older `public/v2`, `public/v3`, `public/new`, or `public/output` layouts.
 
-- I had to redo the OCR with danish language, as the first OCR was in Norwegian, and the text was not optimal.
-- There is apparently a bind 2 of the book. I will skip this for now.
-- The page nrs were not perfect, so I manually fixed them in the json file.
+## Quick start
 
-# Finding images
+### 1. Install dependencies
 
-## What images should be added
+```bash
+npm install
+```
 
-Fist I want to do is to let the AI generate an array of images that should be added to the book. I will use the openAI API for this. (generateImagesData.js). The images are stored in output/imagesData/ folder. The format will be sectionId.json
+### 2. Set environment variables
 
-## Creating the images
+Create a `.env` file with:
 
-Now that we know what images we want I want to make a new script that makes the promt for actually generating the images. Using Dall-E we need to be pretty strickt on the desctiption of the charecthers to create consistent images. I will use the openAI API for this. (generateImages.js). The images are stored in output/imagesGen/id folder, where id is the sectionId.
+```bash
+OPENAI_API_KEY=your_api_key_here
+```
 
-After some intitial image generation I find the generated images pretty lame. Im also capped at 7 images per min as a limit, so testing is a little slow. I will try another strategy to generate images of each of the charachters instead (generateImages2.js).
+### 3. Run the app
 
-I had to make a 3 script to fill in the blanks of images that were not generated (generateImages2.js).
+```bash
+npm run dev
+```
 
-### Main images
+### 4. Build the app
 
-I want to make a main image to each of the sections. I will use the openAI API for this. (generateMainImages.js). The images are stored in output/mainImages/ folder.
+```bash
+npm run build
+```
 
-# Creating text variants
+## Requirements
 
-Now we have the text in "clean" format from the OCR, but the language is still old and hard to read. I will use the openAI API to generate a more modern version of the text were we try to change as little as possible, but makes it more understandable. In addition, I would like some alternative variants: child friendly, a english version, a variant that takes place in todays society. I will use the openAI API for this. (generateTextVariants.js). The outputs are stored in output/variants/ folder.
+- Node.js 18+ (`package.json` allows newer versions too)
+- npm
+- `ffmpeg` available on the machine
+  The audio pipeline uses `fluent-ffmpeg` to concatenate generated speech chunks.
+- An OpenAI API key for any generation step
 
-## Variant images
+## Project flow
 
-I want to have more images, so I will generate images for the variants as well. I will use the openAI API for this. (generateVariantImages.js). The images are stored in output/variantImages/ folder.
+At a high level, the repo has two layers:
 
-# UX
+1. The pipeline generates canonical story bundles into `public/content`.
+2. The frontend reads those bundles and renders the library and story reader.
 
-Im thinking something really simple. The main page will list all the sections with the main image variant. At the top you can switch between the different variants. When you click on a section you go to a route that shows the fairytale with the chapter image and the text.
+Generated story variants currently include:
+
+- `simplified`
+- `english`
+- `child-friendly`
+- `modern`
+
+The pipeline also maintains internal stages:
+
+- `raw`
+- `cleaned`
+
+Those internal stages are useful for regeneration and debugging, but the reader experience is centered on the four public variants above.
+
+## Canonical output layout
+
+```text
+public/content/
+  manifest.json
+  stories/<storyId>/
+    story.json
+    <variant>/
+      variant.json
+      story.txt
+      sections.json
+      main.webp
+      scenes/scene-<n>.webp
+      characters.json
+      characters/<characterSlug>.webp
+      audio.mp3
+```
+
+The app treats each story variant as an independent bundle with its own:
+
+- text
+- main image
+- inline scene images
+- character list
+- character portraits
+- audio
+
+## Main commands
+
+### App
+
+```bash
+npm run dev
+npm run build
+npm run lint
+```
+
+### Pipeline
+
+```bash
+npm run pipeline:all
+```
+
+Run the audio-only pipeline:
+
+```bash
+npm run pipeline:all-audio
+```
+
+Run the pipeline for one story:
+
+```bash
+npm run pipeline:story -- --story=askesv
+```
+
+Run audio only for one story:
+
+```bash
+npm run pipeline:story-audio -- --story=askesv
+```
+
+Run the pipeline for one story variant:
+
+```bash
+npm run pipeline:variant -- --story=askesv --variant=simplified
+```
+
+Run audio only for one story variant:
+
+```bash
+npm run pipeline:variant-audio -- --story=askesv --variant=simplified
+```
+
+### Individual stages
+
+```bash
+npm run pipeline:extract-source
+npm run pipeline:split-stories
+npm run pipeline:generate-cleaned
+npm run pipeline:generate-variants
+npm run pipeline:generate-variant-characters
+npm run pipeline:generate-variant-main-image-prompts
+npm run pipeline:generate-variant-character-images
+npm run pipeline:generate-variant-main-images
+npm run pipeline:generate-variant-audio
+npm run pipeline:build-inline-scenes
+npm run pipeline:build-content-manifest
+npm run pipeline:validate
+npm run pipeline:compare-tts-voices
+```
+
+`pipeline:all`, `pipeline:story`, and `pipeline:variant` do not run TTS by default. Audio can be tested and rerun separately with the dedicated audio commands above.
+
+## Documentation
+
+- `docs/architecture.md`
+- `docs/pipeline.md`
+- `docs/content-contract.md`
+
+## Verification
+
+Useful checks before committing:
+
+```bash
+npm run lint
+npm run build
+npm run pipeline:validate
+```

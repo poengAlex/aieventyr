@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "En rask og sta hane som nekter å gi opp før han har skaffet vann til høna si.",
+    "visualPrompt": "En fargerik hane med rød kam og blanke fjær, energisk kroppsholdning og målrettet blikk, med små spor av skogløv på føttene, i en nordisk eventyrstil.",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Tuppe (Høna)",
+    "slug": "tuppe-hona",
+    "description": "Høna som får et nøtteskall i halsen og trenger hjelp før det er for sent.",
+    "visualPrompt": "En liten høne med lysebrune fjær som ligger svakt blant nøtter og blader, vingene litt ut til siden, uttrykk som viser at hun strever men fortsatt har håp, i en mild eventyrillustrasjon.",
+    "imagePath": "characters/tuppe-hona.webp"
+  },
+  {
+    "name": "Kilden",
+    "slug": "kilden",
+    "description": "En streng, men rettferdig kilde som bare gir vann når den får det den ber om.",
+    "visualPrompt": "En klar skogkilde mellom steiner og mose, med mykt skimmer i vannflaten og en følelse av gammelt skogsvesen, uten menneskefigur, i nordisk eventyrstil.",
+    "imagePath": "characters/kilden.webp"
+  },
+  {
+    "name": "Lindetreet",
+    "slug": "lindetreet",
+    "description": "Et stort lindetre som krever røde gullbånd før det vil gi fra seg løv.",
+    "visualPrompt": "Et mektig lindetre med tett, grønnt løvverk og kraftig stamme, enkelte greiner antyder plass til bånd, omgitt av nøtteskog og varmt lys, i en tradisjonell eventyrillustrasjon.",
+    "imagePath": "characters/lindetreet.webp"
+  },
+  {
+    "name": "Jomfru Maria",
+    "slug": "jomfru-maria",
+    "description": "En rolig skikkelse som kan gi røde gullbånd, men først vil ha sko.",
+    "visualPrompt": "En mild og verdig kvinnefigur i enkel, lys kappe med rolig ansikt og varme hender som holder røde gullbånd, stående ved en stille skogkant med dempet glød, i en respektfull eventyrstil.",
+    "imagePath": "characters/jomfru-maria.webp"
+  }
+]

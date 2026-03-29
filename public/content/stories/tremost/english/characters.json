@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Hunter’s Daughter",
+    "slug": "hunters-daughter",
+    "description": "A gentle, pretty young woman who comes to the royal manor seeking honest work, is cornered into impossible claims, and survives by accepting help she barely understands.",
+    "visualPrompt": "A young woman with kind eyes and modest beauty, wearing plain forest-worn clothes that later become a simple bridal gown; calm posture with a hint of worry, fairytale style",
+    "imagePath": "characters/hunters-daughter.webp"
+  },
+  {
+    "name": "The Prince",
+    "slug": "the-prince",
+    "description": "A young nobleman who marries the girl and, shocked by her “aunts,” draws the practical lesson that saves his bride from a life of punishing handiwork.",
+    "visualPrompt": "A young prince in traditional court attire with a short cloak and fine tunic, attentive expression shifting to astonishment and concern, storybook medieval look",
+    "imagePath": "characters/the-prince.webp"
+  },
+  {
+    "name": "The First Aunt (Long Nose)",
+    "slug": "first-aunt-long-nose",
+    "description": "An old hag-like woman who spins flawless thread overnight and bears a nose stretched to an impossible length from years of spinning.",
+    "visualPrompt": "An elderly, hideous woman with a very long, exaggerated nose, hunched shoulders, rough shawl and skirt, carrying an uncanny sense of power, folktale illustration style",
+    "imagePath": "characters/first-aunt-long-nose.webp"
+  },
+  {
+    "name": "The Second Aunt (Broad Backside)",
+    "slug": "second-aunt-broad-backside",
+    "description": "A misshapen old woman who weaves perfect cloth and is so enormously broad-hipped that she can scarcely fit through a doorway.",
+    "visualPrompt": "An elderly woman with comically immense hips and backside, squeezing through a doorway, wearing worn homespun garments, stern face, classic folktale look",
+    "imagePath": "characters/second-aunt-broad-backside.webp"
+  },
+  {
+    "name": "The Third Aunt (Red Eyes)",
+    "slug": "third-aunt-red-eyes",
+    "description": "A frightening old woman who sews exquisite shirts overnight and has huge red, running eyes from a lifetime of staring at stitches.",
+    "visualPrompt": "An elderly woman with very large watery red eyes, tired tense expression, needlework implied by posture and hands, ragged dress, eerie fairytale style",
+    "imagePath": "characters/third-aunt-red-eyes.webp"
+  }
+]

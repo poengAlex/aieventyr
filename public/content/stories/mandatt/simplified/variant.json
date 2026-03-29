@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Manddatteren og Kjærringdatteren (Simplified)",
+  "description": "En forenklet variant på moderne norsk med klarere setninger og lettere flyt, der kontrasten mellom den snille, arbeidsomme jenta og den late, ufine stesøsteren kommer tydelig fram gjennom en enkel reise, prøver hos trollkjerringa og en moralsk slutt.",
+  "tone": "Folkeeventyraktig, tydelig moralsk og lettlest",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T14:48:52.784Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T14:53:36.529Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Ei snill jente får hjelp og rikdom for god oppførsel, mens den late stesøsteren ender med en grusom straff.",
+  "hasInlineScenes": true
+}

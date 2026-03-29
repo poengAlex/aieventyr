@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "De tre prinsessene i Hvittenland (forenklet)",
+  "description": "En forenklet, moderne norsk versjon med tydeligere setninger og lettere flyt, der fiskergutten havner i Hvittenland, frigjør tre prinsesser fra trollenes makt, mister dronningen sin ved å bryte et råd, og må finne veien tilbake ved hjelp av naturens herrer, magiske gjenstander og nordavinden.",
+  "tone": "Eventyrlig, lettlest og spennende",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:58:39.816Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:02:49.638Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En ung konge reiser til Hvittenland, redder tre prinsesser og må kjempe seg tilbake til dronningen han nesten mister.",
+  "hasInlineScenes": true
+}

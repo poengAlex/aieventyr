@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Hanen og Hønen (Modern)",
+  "description": "En moderne, hverdagsnær variant der konflikten blir en samtale om ansvar og selvstendighet: Høna er lei av tomme løfter, og hanen svarer kontant at hun kan bruke egne egg og kjøpe sko selv—med byen som et nærværende, samtidig bakteppe.",
+  "tone": "Samtidsnær, skarp og lett ironisk",
+  "characterCount": 3,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:43:12.343Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Høna blir lei av hanens tomme løfter og bestemmer seg for å skaffe seg sko på egen hånd.",
+  "hasInlineScenes": true
+}

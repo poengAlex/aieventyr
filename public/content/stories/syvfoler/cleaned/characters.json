@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste søn, undervurderet og rolig, men snarrådig nok til at følge folerne hele vejen og svare kongen sandt.",
+    "visualPrompt": "Ung nordisk eventyrhelt med pjusket mørkblondt hår og snarrådige øjne, iført enkel vadmelsjakke, uldbukser og slidte støvler, lidt askepletter på tøjet, rank men afslappet kropsholdning, bærer en rusten stor klinge og en lille krukke som tegn på prøvelserne.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "Hård og mistroisk hersker, der lover prinsesse og halvt rige som løn, men straffer fejlslagne hyrder grusomt.",
+    "visualPrompt": "Midaldrende konge med gråt skæg og strenge træk, klædt i tunge, mørke kongelige klæder med pelskrave og en enkel krone, står på trappen ved en stor gård og vurderer en fremmed med kolde, prøvende øjne.",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "De syv foler (fortryllede prinser)",
+    "slug": "de-syv-foler",
+    "description": "Kongens syv vilde foler, i virkeligheden prinsesserens brødre, som kun kan reddes ved at trolddommen brydes på bryllupsdagen.",
+    "visualPrompt": "Syv kraftige, vilde foler i forskellige mørke nuancer, man og hale pisker i vinden, øjnene kloge og næsten menneskelige, deres bevægelser virker overnaturligt hurtige; en antydning af skjult kongelighed i deres holdning og glans.",
+    "imagePath": "characters/de-syv-foler.webp"
+  },
+  {
+    "name": "Den gamle kjærring i bergskorten",
+    "slug": "kjaerringen",
+    "description": "En bedragerisk, spindende gammel kone, der lokker hyrderne til at hvile og giver dem falske svar til kongen.",
+    "visualPrompt": "Gammel, kroget kvinde med rynket ansigt og skarpe øjne, iført mørkt tørklæde og grov kjole, sidder i en klippekløft og spinder på en håndten, omkring hende ligger mos og sten, udstråler en snigende, lokkende farlighed.",
+    "imagePath": "characters/kjaerringen.webp"
+  },
+  {
+    "name": "Prinsessen",
+    "slug": "prinsessen",
+    "description": "Kongens datter, hvis brødre er fortryllet til foler, og som bliver Askeladdens brud, da prøven lykkes.",
+    "visualPrompt": "Ung prinsesse med lyst hår sat op enkelt, iført nordisk middelalderlig kjole i lyse farver med diskret broderi, udtryk af lettelse og glæde, bærer et lille smykke som tegn på kongelig arv, står ved bryllupsbordet i en stor sal oplyst af varm ildglød.",
+    "imagePath": "characters/prinsessen.webp"
+  }
+]

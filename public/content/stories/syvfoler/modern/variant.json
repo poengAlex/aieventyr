@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "De syv føllene (Modern)",
+  "description": "En samtidsnær gjenfortelling der kongsgården er et moderne, bevoktet slott og bryllupet blir en nasjonal snakkis på nyheter og mobilskjermer, mens Askeladden møter samme gamle fristelse i ny drakt og vinner med stahet, kløkt og en uventet hellig «meny».",
+  "tone": "Moderne folkeeventyr med humor, spenning og mørke innslag",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T21:21:13.130Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden tar jobben ingen andre klarer, avslører hva de sju føllene egentlig trenger, og bryter en forbannelse som frigjør sju prinser.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Rike-Per Kremmer",
+    "slug": "rike-per-kremmer",
+    "description": "En rik og sta kremmer som vil kontrollere datterens framtid og prøver å lure unna spådommen, men blir til slutt offer for sin egen grådighet.",
+    "visualPrompt": "Eldre, velkledd kremmer med alvorlig blikk og stram munn, kledd i mørk frakk og solide støvler, med en tung pengepung i beltet og en rastløs, mistenksom holdning; nordisk eventyrstil",
+    "imagePath": "characters/rike-per-kremmer.webp"
+  },
+  {
+    "name": "Møllergutten",
+    "slug": "mollergutten",
+    "description": "En fattig gutt som blir kastet ut i elva som spedbarn, vokser opp til å bli modig og heldig, og ender med å vinne både brud og rikdom.",
+    "visualPrompt": "Ung mann med vennlig, modig uttrykk og enkel, praktisk kledning som passer til arbeid ved mølle; bærer et lite knippe fjær og har et sverd i nærheten; jordnær, nordisk eventyrillustrasjon",
+    "imagePath": "characters/mollergutten.webp"
+  },
+  {
+    "name": "Per sin datter",
+    "slug": "per-sin-datter",
+    "description": "Den rike kremmerdatteren som blir gift med møllergutten gjennom et lurt brevbytte og får et nytt liv borte fra farens kontroll.",
+    "visualPrompt": "Ung kvinne i enkel, pen festdrakt som blander bonde- og velstandspreg, rolig og bestemt blikk; står ved en gård under en ås med hester og redskaper i bakgrunnen; nordisk eventyrstil",
+    "imagePath": "characters/per-sin-datter.webp"
+  },
+  {
+    "name": "Prinsessa hos Dragen",
+    "slug": "prinsessa-hos-dragen",
+    "description": "En bortført prinsesse som hjelper møllergutten med råd og styrke, og som blir reddet når Dragen blir drept.",
+    "visualPrompt": "Ung prinsesse med blekt, våkent ansikt og langt hår, kledd i slitt, men fortsatt kongelig inspirert klær; står inne i en mørk borgsal ved en seng og peker mot et tungt sverd på veggen; dramatisk, nordisk eventyrillustrasjon",
+    "imagePath": "characters/prinsessa-hos-dragen.webp"
+  },
+  {
+    "name": "Ferjemannen",
+    "slug": "ferjemannen",
+    "description": "En gammel mann bundet til å frakte folk over elva til Dragen, og som til slutt får avløsning ved å lure Rike-Per til å ta plassen hans.",
+    "visualPrompt": "Gammel, krokrygget mann med værbitt ansikt og grove hender, kledd i slitte klær; står ved elvebredden med hardt blikk og en tung, pliktbundet holdning; nordisk eventyrstil",
+    "imagePath": "characters/ferjemannen.webp"
+  }
+]

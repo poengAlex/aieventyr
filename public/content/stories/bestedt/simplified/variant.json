@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Hver synes best om sine barn (Forenklet)",
+  "description": "En forenklet variant på moderne norsk med klarere setninger og lettere flyt, som gjør den korte fabelen om stolthet og selvbedrag enkel å lese.",
+  "tone": "Enkel, fabelaktig og litt ironisk",
+  "characterCount": 3,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:42:59.831Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:44:53.781Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En skytter lærer at alle synes deres egne barn er de vakreste.",
+  "hasInlineScenes": true
+}

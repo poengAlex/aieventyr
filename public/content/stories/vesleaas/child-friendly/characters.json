@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Vesle Aase",
+    "slug": "vesle-aase",
+    "description": "En snill og rolig gåsepike som passer kongens gjess og tør å være ærlig, selv når andre prøver å skjule sannheten.",
+    "visualPrompt": "En ung gåsepike med vennlige øyne og runde kinn, lyst hår flettet i to fletter, enkel men ren kjole i lyse farger og et lite forkle; holder en liten gåsestav eller en kurv, står trygt og rolig på en grønn eng",
+    "imagePath": "characters/vesle-aase.webp"
+  },
+  {
+    "name": "Kongssønnen fra England",
+    "slug": "kongssonnen-fra-england",
+    "description": "En høflig prins som leter etter den snilleste og mest ærlige han kan gifte seg med, og som velger å handle rolig når han blir skuffet.",
+    "visualPrompt": "En ung prins med pent, enkelt reiseklær i eventyrstil, kort kappe og støvler, åpent og vennlig ansikt; bærer en liten ring og en blank stein i en liten pose, står med en rolig, ettertenksom holdning",
+    "imagePath": "characters/kongssonnen-fra-england.webp"
+  },
+  {
+    "name": "Sannhetssteinen",
+    "slug": "sannhetssteinen",
+    "description": "En liten blank stein som avslører om noen prøver å lure, og som hjelper prinsen å forstå hvem som er ærlig.",
+    "visualPrompt": "En liten glatt, blank stein som glitrer svakt, ligger ved en dørterskel eller i en åpen hånd; virker magisk på en mild og vennlig måte, med et svakt, varmt skinn rundt",
+    "imagePath": "characters/sannhetssteinen.webp"
+  },
+  {
+    "name": "Den tredje prinsessa",
+    "slug": "den-tredje-prinsessa",
+    "description": "En vakker prinsesse som blir urolig for at sannheten skal komme fram, og derfor prøver å bytte plass med Aase om natta.",
+    "visualPrompt": "En ung prinsesse i en pen, pastelldekorert kjole med en liten krone eller hårsmykke; uttrykk som viser uro og usikkerhet, men uten skremmende trekk, står i en slottshall med hendene samlet foran seg",
+    "imagePath": "characters/den-tredje-prinsessa.webp"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Rooster",
+    "slug": "the-rooster",
+    "description": "A brave, quick-footed rooster who will do anything to save his darling hen, running from one helper to the next to complete an impossible-sounding chain of trades.",
+    "visualPrompt": "A colorful rooster with bright red comb and alert eyes, feathers slightly ruffled from running, standing upright with determined posture, fairytale woodland setting",
+    "imagePath": "characters/the-rooster.webp"
+  },
+  {
+    "name": "The Hen",
+    "slug": "the-hen",
+    "description": "The rooster’s beloved companion, weakened after a piece of nutshell lodges in her throat, waiting in the hazelwood for help.",
+    "visualPrompt": "A small warm-brown hen lying among hazelnut shells and leaves, wings partly spread as if recovering, gentle expression, soft storybook style",
+    "imagePath": "characters/the-hen.webp"
+  },
+  {
+    "name": "The Spring",
+    "slug": "the-spring",
+    "description": "A woodland spring that withholds water until it receives leaves, setting the urgent bargain-chain in motion.",
+    "visualPrompt": "A clear forest spring bubbling from mossy stones beneath hazel branches, faintly magical presence suggested by glimmering water and lush greenery",
+    "imagePath": "characters/the-spring.webp"
+  },
+  {
+    "name": "The Baking Wife",
+    "slug": "the-baking-wife",
+    "description": "A practical village baker who won’t give lefse without firewood, adding another link to the rooster’s quest.",
+    "visualPrompt": "A kindly, sturdy village woman in simple traditional clothing, holding a flat round of lefse near a warm hearth, rustic kitchen details, fairytale illustration style",
+    "imagePath": "characters/the-baking-wife.webp"
+  },
+  {
+    "name": "The Charcoal Burner",
+    "slug": "the-charcoal-burner",
+    "description": "The one who finally takes pity, giving charcoal that unlocks the chain and makes the rescue possible.",
+    "visualPrompt": "A soot-dusted charcoal burner in rough work clothes beside a small charcoal mound in the woods, offering a dark bundle of charcoal with a compassionate expression, storybook woodland atmosphere",
+    "imagePath": "characters/the-charcoal-burner.webp"
+  }
+]

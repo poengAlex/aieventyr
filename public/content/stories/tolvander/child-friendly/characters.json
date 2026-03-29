@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Snehvit og Rosenrød",
+    "slug": "snehvit-og-rosenrod",
+    "description": "Den stille, snille prinsessen som vandrer ut i verden for å gjøre godt igjen og redde sine tolv brødre ved å arbeide tålmodig og modig.",
+    "visualPrompt": "En ung prinsesse med lys hud og rosenrøde kinn, langt mørkt hår flettet enkelt, kledd i en myk, lys kjole med kappe og en liten sølvskje i et bånd ved livet; vennlig uttrykk, rolige hender som holder myrdun.",
+    "imagePath": "characters/snehvit-og-rosenrod.webp"
+  },
+  {
+    "name": "Den unge kongen",
+    "slug": "den-unge-kongen",
+    "description": "En godhjertet konge som møter prinsessen på myra, tar vare på henne og søker sannheten når det oppstår mistanke.",
+    "visualPrompt": "En ung konge med mildt ansikt, enkel krone eller hårbånd, varm kappe i dype farger og støvler for reise; holder tøyler rolig og ser bekymret, men omsorgsfull ut.",
+    "imagePath": "characters/den-unge-kongen.webp"
+  },
+  {
+    "name": "Den gamle stemoren",
+    "slug": "den-gamle-stemoren",
+    "description": "En misunnelig, lur kvinne ved slottet som skaper uro med løgner, men til slutt blir sendt bort så hun ikke kan skade noen.",
+    "visualPrompt": "En eldre kvinne i mørkere, strammere hoffklær med høy krage og smale smykker; skarpe øyne og et anstrengt smil, står litt i skyggen men uten skremmende detaljer.",
+    "imagePath": "characters/den-gamle-stemoren.webp"
+  },
+  {
+    "name": "De tolv brødrene (villender/prinser)",
+    "slug": "de-tolv-brodrene",
+    "description": "Prinsessens brødre som er forvandlet til villender om dagen og blir mennesker om natten, og som blir frie når klærne hennes er ferdige.",
+    "visualPrompt": "En gruppe på tolv hvite villender som glir gjennom luften over skog og hytte, med et hint av eventyrlig glans; i bakgrunnen kan man ane tolv unge prinser i enkle, lyse klær, samlet som en trygg familie.",
+    "imagePath": "characters/de-tolv-brodrene.webp"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Per",
+    "slug": "per",
+    "description": "Den yngste broren som starter med nesten ingenting, men vinner frem med godhet, mot og vilje til å gjøre det rette.",
+    "visualPrompt": "A young Norwegian fairy-tale boy with a gentle face, tidy hair, and modest clothing that later becomes fine and bright; calm, kind posture; warm, storybook style",
+    "imagePath": "characters/per.webp"
+  },
+  {
+    "name": "Katten (den forheksede prinsessen)",
+    "slug": "katten-prinsessen",
+    "description": "En klok og hjelpsom katt som planlegger gavene, leder Per trygt frem, og viser seg å være en prinsesse som trenger å bli fri fra en trylleformel.",
+    "visualPrompt": "A sleek gray cat with expressive, intelligent eyes and a friendly presence; subtle magical sparkle around her paws; fairy-tale style that hints she is secretly a princess",
+    "imagePath": "characters/katten-prinsessen.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "En nysgjerrig og gavmild konge som blir imponert av gavene fra den mystiske Herreper og ønsker å se rikdommen med egne øyne.",
+    "visualPrompt": "A benevolent king with a dignified beard, rich but tasteful royal clothing, and a curious, welcoming expression; classic Nordic fairy-tale look",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Den forheksede vokteren",
+    "slug": "forheksede-vokteren",
+    "description": "En skremmende stemme ved porten som mister makten sin når morgenlyset og kattens kloke prat bryter fortryllelsen, så alt blir stille og trygt.",
+    "visualPrompt": "A large, shadowy presence suggested at a castle gate—more mysterious than scary—softened by dawn light; the mood turns calm and safe; fairy-tale illustration style",
+    "imagePath": "characters/forheksede-vokteren.webp"
+  }
+]

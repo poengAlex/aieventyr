@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Kari Treestakk",
+    "slug": "kari-treestakk",
+    "description": "A mild, clear-sighted young woman pushed into isolation and hard labor, who survives by quiet endurance and reclaiming her dignity on her own terms.",
+    "visualPrompt": "Young Scandinavian woman with calm, resilient eyes and worn hands; sometimes in a clunky, dark trestakk made of rough planks and tattered fabric over work clothes, hair messily tied back; other times in a modern, minimal copper dress, then a silver-threaded dress, then a radiant gold dress with clear gem-like accents; simple golden shoes, posture reserved but unbreakable",
+    "imagePath": "characters/kari-treestakk.webp"
+  },
+  {
+    "name": "The Blue-Gray Ox",
+    "slug": "blue-gray-ox",
+    "description": "A gentle, protective, talking ox whose quiet magic feeds Kari, carries her to safety, and fights the trolls of the metallic forests at great cost.",
+    "visualPrompt": "Massive blue-gray ox with a serene presence, clean glossy coat as if rain favors it, kind dark eyes; hints of hidden magic—subtle metallic sheen at the left ear where a folded cloth could be concealed; battle-worn in later moments with healed scars, always steady and calm",
+    "imagePath": "characters/blue-gray-ox.webp"
+  },
+  {
+    "name": "Stepmother",
+    "slug": "stepmother",
+    "description": "A polished manipulator who weaponizes appearances, staff, and authority, staging illness and orchestrating cruelty to erase Kari from the household.",
+    "visualPrompt": "Elegant middle-aged woman with immaculate hair and designer-like neutral clothing, bright practiced smile that never reaches the eyes; sharp posture and controlled gestures; seen reclining theatrically under a blanket in a pristine lounge, projecting fragility while radiating calculation",
+    "imagePath": "characters/stepmother.webp"
+  },
+  {
+    "name": "The Prince",
+    "slug": "the-prince",
+    "description": "A young heir sealed off in privilege who begins callous and contemptuous, then becomes obsessed with the mysterious churchgoer and forced into recognition and choice.",
+    "visualPrompt": "Young man in tailored contemporary formalwear with understated luxury; confident, guarded expression that shifts to unsettled fascination; often holding a single elegant glove or a small golden shoe, standing in stark contrast to the busy kitchen corridors and formal church setting",
+    "imagePath": "characters/the-prince.webp"
+  },
+  {
+    "name": "The Man from the Rock",
+    "slug": "man-from-the-rock",
+    "description": "A quiet figure who emerges when Kari knocks at the mountain wall, providing the copper, silver, and gold finery and the horse that keeps the tale’s old magic intact.",
+    "visualPrompt": "Reserved, ageless man in simple dark clothing with a subtle metallic undertone; steady, knowing gaze; appears beside a sheer rock wall on a high plateau, hands offering folded dresses that gleam like copper, moonlit silver, and pure gold",
+    "imagePath": "characters/man-from-the-rock.webp"
+  }
+]

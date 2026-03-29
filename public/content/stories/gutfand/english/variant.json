@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "The Boy and the Devil",
+  "description": "A close English retelling of the Norwegian folktale, keeping the brisk, playful trickster tone as a nut-cracking boy outwits the Devil by trapping him in a worm-holed nut and taking him to a blacksmith’s forge.",
+  "tone": "Folktale, witty, brisk, slightly dark",
+  "characterCount": 3,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T21:04:46.492Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A clever boy traps the Devil in a nut and has a blacksmith smash it open.",
+  "hasInlineScenes": true
+}

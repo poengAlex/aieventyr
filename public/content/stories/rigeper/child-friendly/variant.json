@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Rige Per Kræmmer (Child Friendly)",
+  "description": "En mildere og tryggere variant for yngre lesere, der språket er mykere og stemningen varmere, med ekstra vekt på mot, hjelpsomhet og en rettferdig slutt uten å dvele ved det skumle.",
+  "tone": "Gentle, hopeful, reassuring fairy-tale",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:44:13.852Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:49:05.937Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En snill møllergutt overvinner vansker med hjelp fra gode venner og finner lykken, mens grådighet til slutt får en rettferdig lærepenge.",
+  "hasInlineScenes": true
+}

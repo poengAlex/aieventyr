@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Kona",
+    "slug": "kona",
+    "description": "En snill, men bestemt bondekone som vil ha en gjeter med et trygt og pent lokkerop, og som setter grenser når reven lurer henne.",
+    "visualPrompt": "En vennlig norsk bondekone i enkel, tradisjonell klær i dempede farger, med et rolig ansikt og varme øyne; hun holder en tresleiv ved en smørkinne og står stødig i tunet.",
+    "imagePath": "characters/kona.webp"
+  },
+  {
+    "name": "Reven",
+    "slug": "reven",
+    "description": "En sjarmerende og litt for smart rev som synger pent for å få jobben, men som fristes av fløte og lærer en mild lekse.",
+    "visualPrompt": "En liten, rød rev med myk pels og tydelig hvit haletipp, uttrykksfulle øyne og et litt lurt, men ikke skummelt smil; han virker kvikk og lett på labben.",
+    "imagePath": "characters/reven.webp"
+  },
+  {
+    "name": "Bjørnen",
+    "slug": "bjornen",
+    "description": "En stor, brummende bjørn som gjerne vil være gjeter, men som høres for grov ut til jobben.",
+    "visualPrompt": "En stor, rund og barnevennlig brun bjørn med snilt blikk; han står på stien i skogen med potene litt løftet som om han nettopp har ropt.",
+    "imagePath": "characters/bjornen.webp"
+  },
+  {
+    "name": "Ulven",
+    "slug": "ulven",
+    "description": "En ulv som tilbyr seg å gjete, men som har et lokkerop som ikke føles trygt for kona.",
+    "visualPrompt": "En slank, grå ulv med mildt, nøytralt uttrykk (ikke truende), stående i skogkanten med ørene opp og halen lavt, som om han prøver å virke høflig.",
+    "imagePath": "characters/ulven.webp"
+  }
+]

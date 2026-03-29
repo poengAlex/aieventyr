@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En sterk og selvsikker smed som har inngått kontrakt med Fanden, men bruker list og tre ønsker til å snu avtalen i sin favør.",
+    "visualPrompt": "En kraftig, sotete smed med grove hender, skinnforkle og oppbrettede ermer, med en stor slegge i nærheten og et sta, lurt uttrykk; står i en varm smie med glødende kull og ambolt.",
+    "imagePath": "characters/smeden.webp"
+  },
+  {
+    "name": "Fanden",
+    "slug": "fanden",
+    "description": "Djevelen som kommer for å hente smeden etter kontrakten, men blir fanget i pæretreet, lenestolen og til slutt i ståltråd-pungen.",
+    "visualPrompt": "En mørk, truende skikkelse med skarpe trekk og brennende blikk, som veksler mellom overlegent smil og panikk; kan fremstilles krympet og innestengt i en liten ståltråd-pung eller sittende fast i et pæretre.",
+    "imagePath": "characters/fanden.webp"
+  },
+  {
+    "name": "Vårherre",
+    "slug": "varherre",
+    "description": "En vandrer som avslører en overnaturlig smikunst, gir smeden tre ønsker og kommenterer det urettferdige smeden gjør.",
+    "visualPrompt": "En rolig, enkel vandrer med mild autoritet, slitte reiseklær og et vennlig, gjennomskuende blikk; står ved smia med et stille nærvær som får omgivelsene til å virke lysere.",
+    "imagePath": "characters/varherre.webp"
+  },
+  {
+    "name": "Sankt Peter",
+    "slug": "sankt-peter",
+    "description": "Følgesvennen som advarer smeden om å ønske seg Guds nåde, og som senere vokter himmelporten.",
+    "visualPrompt": "En eldre mann med verdig holdning og streng, klok mine, i en enkel kappe; kan stå ved en høy port med nøkkelknippe, mens han vurderer hvem som får slippe inn.",
+    "imagePath": "characters/sankt-peter.webp"
+  },
+  {
+    "name": "Skreddersvennen",
+    "slug": "skreddersvennen",
+    "description": "En rask og tynn reisende som løper mot himmelen og akkurat smetter inn mens smeden kommer for sent.",
+    "visualPrompt": "En tynn, lettbeint ung mann i en enkel arbeidsdrakt, med pressejern i hånda og hastige steg; ser bestemt og litt nervøs ut, på vei mot en lys port i det fjerne.",
+    "imagePath": "characters/skreddersvennen.webp"
+  }
+]

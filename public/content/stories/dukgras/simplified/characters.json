@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste prinsen som blir avvist av brødrene, men som møter Dukken i gresset og viser godhet og mot.",
+    "visualPrompt": "Ung norsk prins med åpent, vennlig ansikt, enkelt hår, praktisk reiseutstyr og en ny men nøktern rustning, sitter på en hest og ser både bekymret og håpefull ut i et nordisk landskap.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Dukken i gresset",
+    "slug": "dukken-i-gresset",
+    "description": "En bitteliten, praktfullt pyntet kvinne som kan spinne, veve og sy på en dag, og som forvandles til full størrelse etter å ha falt i vannet.",
+    "visualPrompt": "Først som en bitteliten, utsøkt pyntet dukkelignende kvinne med fine klær og små detaljer; senere som en voksen, svært vakker kvinne i elegante eventyrklær med et lyst og nesten magisk nærvær.",
+    "imagePath": "characters/dukken-i-gresset.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "Faren som setter den strenge prøven for svigerdøtrene og til slutt velger Askeladden og Dukken i gresset.",
+    "visualPrompt": "Eldre konge med kraftig kappe og krone, alvorlig men rettferdig blikk, står i en stor hall med tradisjonelle nordiske ornamenter og vurderer en skjorte som blir holdt fram.",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Havmannen",
+    "slug": "havmannen",
+    "description": "Den mystiske skikkelsen som redder Dukken i gresset fra vannet og gjør at hun kommer opp forvandlet.",
+    "visualPrompt": "Mystisk havmann med sjøgrønne toner, vått hår og et rolig, mektig uttrykk, stiger opp av vannet med eventyrlig aura, omgitt av små bølger og skum i dempet lys.",
+    "imagePath": "characters/havmannen.webp"
+  },
+  {
+    "name": "De elleve brødrene",
+    "slug": "de-elleve-brodrene",
+    "description": "Askeladdens stolte brødre som kommer hjem med stygge og slemme kjærester og blir misunnelige.",
+    "visualPrompt": "En gruppe prinser med harde ansikter og mørke, tilsølte hatter der tjære og sot renner ned over ansiktene; de står samlet og ser misunnelig mot et lykkelig par.",
+    "imagePath": "characters/de-elleve-brodrene.webp"
+  }
+]

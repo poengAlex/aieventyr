@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Dukken i Græsset (Børnevenlig)",
+  "description": "En blidere, børnevenlig udgave med tryg stemning, hvor Askeladden møder en venlig lille dukke-pige i græsset, får hjælp med den magiske dags-skjorte, og hvor den dramatiske vand-scene ender roligt og forunderligt med en hjælpsom havmand og en lykkelig forvandling.",
+  "tone": "Warm, gentle, fairytale-like, reassuring",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:31:56.246Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden finder en venlig dukke i græsset, som hjælper ham hjem til slottet og bliver hans lykkelige brud.",
+  "hasInlineScenes": true
+}

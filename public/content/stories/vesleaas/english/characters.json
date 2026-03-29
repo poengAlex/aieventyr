@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Aase the Goose-girl",
+    "slug": "aase-the-goose-girl",
+    "description": "A patched, steadfast goose-herd who calmly insists she is meant to marry the English prince and is ultimately proven right.",
+    "visualPrompt": "Young goose-girl with wind-tousled hair and kind, determined expression, wearing layered patched garments and simple shoes, holding a goose staff; a rag tied around one finger concealing a tight ring; surrounded by white geese on a countryside path, storybook folktale style",
+    "imagePath": "characters/aase-the-goose-girl.webp"
+  },
+  {
+    "name": "The King’s Son from England",
+    "slug": "kings-son-from-england",
+    "description": "A traveling English prince seeking a pure bride, wary of deception, who uses a knowing stone and a hidden ring to uncover the truth.",
+    "visualPrompt": "Young English prince in a dark travel cloak over fine tunic, alert eyes and composed posture, wearing modest crown or signet, standing near a smooth pale stone on the ground, folktale illustration style",
+    "imagePath": "characters/kings-son-from-england.webp"
+  },
+  {
+    "name": "The Knowing Stone",
+    "slug": "the-knowing-stone",
+    "description": "A mysterious stone placed before the prince’s bed that reveals the truth about whoever steps in or out.",
+    "visualPrompt": "Smooth, pale, slightly glowing stone resting on a wooden floor at a bed’s threshold, giving an uncanny sense of watchfulness, fairytale atmosphere without any writing, classic illustration style",
+    "imagePath": "characters/the-knowing-stone.webp"
+  },
+  {
+    "name": "The Third Princess",
+    "slug": "the-third-princess",
+    "description": "The last and cleverest of the princesses, who tries the same trick and sends Aase in her place, only to be exposed.",
+    "visualPrompt": "Elegant young princess in rich gown and jewelry with a calculating expression, standing in a candlelit chamber near a bed, one hand lifted as if bargaining, folktale storybook style",
+    "imagePath": "characters/the-third-princess.webp"
+  }
+]

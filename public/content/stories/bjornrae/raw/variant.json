@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "Bjørnen og Ræven (raw)",
+  "description": "Denne variant er den rå OCR-udtrækning fra kildematerialet, med bevarede overskrifter, romertal, sidetal, linjeskift, bindestreger og små fejl/artefakter i satsen, så teksten fremstår som et urettet arkivaftryk af originalen.",
+  "tone": "Folkeeventyr med tør humor og en skarp, moralsk kant, præsenteret i et uforfinet, arkivalsk udtryk.",
+  "characterCount": 2,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:10:21.622Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En listig ræv narrer en bjørn til både at miste halen og få skylden for jule-smørret.",
+  "hasInlineScenes": true
+}

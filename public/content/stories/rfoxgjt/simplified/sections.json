@@ -1,0 +1,30 @@
+[
+  {
+    "id": "section-1",
+    "title": "Bjørnen brøler",
+    "text": "Det var en gang ei kone som skulle ut og leie seg en gjeter. På veien møtte hun en bjørn.\n\n«Hvor skal du?» spurte bjørnen.\n\n«Jeg skal ut og leie meg en gjeter,» svarte kona.\n\n«Vil du ikke ha meg til gjeter?» spurte bjørnen.\n\n«Jo, bare du kan lokke, så …» sa kona.\n\n«Hø-ø-il!» brølte bjørnen.\n\n«Nei, deg vil jeg ikke ha,» sa kona da hun hørte det, og gikk videre.",
+    "imagePath": "scenes/scene-1.webp",
+    "imagePrompt": "På en skogssti står Kona, en arbeidsom kvinne med en enkel reisekjole og et lite knytte, og vurderer en stor, sterk Bjørnen som lener seg fram og brøler høyt og brutalt. Kona holder hendene litt for ørene og trekker seg tilbake med skeptisk blikk, mens skogen rundt dem virker stille og spent av brølet."
+  },
+  {
+    "id": "section-2",
+    "title": "Ulven uler",
+    "text": "Da hun hadde gått et stykke, møtte hun en ulv.\n\n«Hvor skal du?» spurte ulven.\n\n«Jeg skal ut og leie meg en gjeter,» svarte kona.\n\n«Vil du ikke ha meg til gjeter?» spurte ulven.\n\n«Ja, kan du lokke, så …» sa kona.\n\n«Uh-uh!» ulte ulven.\n\n«Nei, deg vil jeg ikke ha,» sa kona og gikk videre.",
+    "imagePath": "scenes/scene-2.webp",
+    "imagePrompt": "Langs veien mellom trærne møter Kona en Ulven, sulten og truende, med stive bein og gule øyne. Ulven står med hodet hevet og uler «uh-uh» på en måte som virker utrygg, mens Kona rister på hodet og tar et bestemt skritt forbi ham, med ansikt som sier klart nei."
+  },
+  {
+    "id": "section-3",
+    "title": "Reven lokker pent",
+    "text": "Da hun hadde gått enda et stykke, møtte hun en rev.\n\n«Hvor skal du?» spurte reven.\n\n«Jeg skal ut og leie meg en gjeter,» sa kona.\n\n«Vil du ikke ha meg til gjeter?» spurte reven.\n\n«Ja, bare du kan lokke, så …» sa kona.\n\n«Dil-dal-holom!» sa reven, så fint og lyst.\n\n«Ja, deg vil jeg ha til gjeter,» sa kona, og hun satte reven til å gjete dyra sine.",
+    "imagePath": "scenes/scene-3.webp",
+    "imagePrompt": "I veikanten møter Kona Reven, en listig rev med våkent blikk og myk, rød pels. Reven sitter pent og lokker lyst og fint, som om han synger, mens Kona lyser opp og nikker ja, lettet over å høre noe vennlig; de står i et lunt skoglys med gress og små blomster rundt føttene."
+  },
+  {
+    "id": "section-4",
+    "title": "Hvit haletipp",
+    "text": "Første dagen reven gjette, spiste han opp alle geitene til kona. Andre dagen tok han knekken på alle sauene hennes, og tredje dagen spiste han opp alle kyrne.\n\nDa han kom hjem om kvelden, spurte kona hvor han hadde gjort av alle dyra hennes.\n\n«Skallen er i åa og kroppen i holtet,» sa reven.\n\nKona sto akkurat og kinna smør, men hun syntes hun måtte gå og se etter likevel. Mens hun var borte, smatt reven ned i kjerna og spiste opp fløten.\n\nDa kona kom tilbake og fikk se det, ble hun så sint at hun tok den lille skvetten med fløte som var igjen og slo etter reven, så han fikk en skvett på enden av halen. Derfor har reven hvit haletipp.",
+    "imagePath": "scenes/scene-4.webp",
+    "imagePrompt": "Inne i et enkelt kjøkken står Kona og kinner smør med hardt grep, men nå er hun rasende og svinger en liten skvett fløte mot Reven. Reven spretter unna med kroppen vridd i flukt, og en lys fløteskvett treffer helt ytterst på halen hans, så haletippen blir hvit; smørkjerna og treskåler står på bordet mens kveldslyset faller inn gjennom et lite vindu."
+  }
+]

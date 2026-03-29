@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste sønnen, rolig og smart, som møter utfordringer med oppfinnsomhet og en vennlig selvsikkerhet.",
+    "visualPrompt": "En ung gutt med vennlig ansikt og våkne øyne, bustete brunt hår, enkel norsk bygdekofte i jordfarger, solide støvler, en liten sekk over skulderen og en vedøks i hånden; uttrykk av rolig mot og nysgjerrighet.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Trollet",
+    "slug": "trollet",
+    "description": "Skogens store vokter som først virker streng, men lar seg lett imponere og blir mer komisk enn farlig.",
+    "visualPrompt": "Et stort, kraftig troll med rufsete pels, mose og lav i håret, brede hender og et litt klønete, overrasket uttrykk; store øyne som kan virke snille når det slapper av; farger i grønne og grå toner som passer inn i skogen.",
+    "imagePath": "characters/trollet.webp"
+  },
+  {
+    "name": "Faren",
+    "slug": "faren",
+    "description": "En gammel og sliten bonde som ønsker at sønnene skal arbeide så familien kan klare seg bedre.",
+    "visualPrompt": "En eldre bonde med værbitt ansikt, grått skjeggstubb, enkel ulljakke og arbeidshender; står ved en liten gård med vedstabel og ser både bekymret og håpefull ut.",
+    "imagePath": "characters/faren.webp"
+  },
+  {
+    "name": "De to eldre brødrene",
+    "slug": "eldre-brodre",
+    "description": "Askeladdens brødre som blir skremt og gir opp, men som viser hvor modig og klok Askeladden er i sammenligning.",
+    "visualPrompt": "To unge menn i enkle arbeidsklær med økser, litt stive i kroppen og med usikre blikk; den ene høyere og den andre bredere, begge med jordfargede klær og tydelig nervøsitet.",
+    "imagePath": "characters/eldre-brodre.webp"
+  }
+]

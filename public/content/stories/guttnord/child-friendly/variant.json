@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Gutten og Nordavinden: Duken, Bukken og Kjeppen",
+  "description": "En barnevennlig, mildere variant med tryggere stemning og mykere språk, der gutten møter Nordavinden og lærer en rettferdig måte å få hjelpen sin tilbake på uten skremmende detaljer.",
+  "tone": "Varm, rolig og eventyrlig med en tydelig, snill rettferdighet",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:27:55.065Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:31:30.153Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En modig gutt går til Nordavinden for å få rettferdighet og kommer hjem med tre magiske gaver som hjelper ham og moren.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Smeden som de ikke torde slippe ind i Helvede (Børnevenlig)",
+  "description": "En blidere, børnevenlig udgave med mildere stemning: smeden snyder djævlen på en finurlig måde uden hårde ord eller gru, og historien lægger vægt på venlighed, tålmodighed og kloge valg frem for straf og skræk.",
+  "tone": "Warm, playful, gently moral, child-friendly folktale",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:26:13.757Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En stædig smed får tre mærkelige ønsker og bruger dem til at narre djævlen, men må til sidst finde ud af, hvor han egentlig hører til.",
+  "hasInlineScenes": true
+}

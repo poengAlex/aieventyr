@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "En handlekraftig og panisk omsorgsperson som løper fra sted til sted for å skaffe det som trengs for å få vann fra fontenen.",
+    "visualPrompt": "En energisk hane med rød kam og blanke fjær, iført en liten reflekssele som en komisk detalj, raske bein og intenst uttrykk, i en moderne park og nærbutikk-miljø",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Høna (Tuppen)",
+    "slug": "hona-tuppen",
+    "description": "Hanen sin kjære høne som setter et nøtteskall i halsen og trenger vann raskt.",
+    "visualPrompt": "En liten høne med varme brune fjær, liggende i gresset ved hasselbusker langs en tursti, svakt men med håp i blikket, moderne boligområde i bakgrunnen",
+    "imagePath": "characters/hona-tuppen.webp"
+  },
+  {
+    "name": "Parkvakta",
+    "slug": "parkvakta",
+    "description": "En regelstyrt parkvakt som krever grønt avsperringsbånd før han deler ut koden som trengs for å få vann.",
+    "visualPrompt": "En parkvakt i refleksvest med nettbrett i hånden, bestemt kroppsholdning ved en park-inngang, avsperringsstolper og et lite blomsterbed i nærheten",
+    "imagePath": "characters/parkvakta.webp"
+  },
+  {
+    "name": "Drikkefontenen",
+    "slug": "drikkefontenen",
+    "description": "En moderne fontene som nekter å gi vann uten en digital kode via park-appen.",
+    "visualPrompt": "En stilren metallfontene i en lekeplass-sone, liten skjerm med enkel lysindikator og et QR-merke ved siden av, omgitt av benker og dempet bypark-grønt",
+    "imagePath": "characters/drikkefontenen.webp"
+  }
+]

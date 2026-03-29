@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "Rige Per Kræmmer (Modern)",
+  "description": "A contemporary retelling where greed and social status play out through astrologers with tablets, cash payouts, security-gated estates, and a fortress-like “dragon” compound—keeping the folktale’s bargains, swapped letter, and poetic justice while grounding it in today’s money, mobility, and institutions.",
+  "tone": "Darkly moral, suspenseful, contemporary folktale",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:51:18.948Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:57:28.146Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A ruthless modern trader tries to outrun a prophecy, only to be trapped by it and punished by his own greed.",
+  "hasInlineScenes": true
+}

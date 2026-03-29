@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Spurningen (Simplified)",
+  "description": "En forenklet variant på moderne norsk med klarere setninger og bedre flyt, der Askeladden bruker funnene sine i en lettlest ordduell for å gjøre den kvikke prinsessa svar skyldig.",
+  "tone": "Folkeeventyraktig, leken og kvikk",
+  "characterCount": 3,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T09:27:22.869Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T09:28:37.345Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden bruker smarte ordspill og rare gjenstander for å gjøre den vrange prinsessa svar skyldig og vinne henne og halve riket.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "Våkner først og roper triumferende at kua nå er hans.",
+    "visualPrompt": "En fargerik, stolt hane med rød kam og glinsende fjær i varme toner, brystet hevet og nebbet åpent som om den galer, selvsikker kroppsholdning, står på gårdstunet i morgendugg.",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Gjøken",
+    "slug": "gjoken",
+    "description": "Våkner av hanens gal og krever sin del med et kort og sta rop.",
+    "visualPrompt": "En gjøk i gråbrune nyanser med diskrete striper på brystet, våkent blikk og litt stram holdning, nebbet halvåpent som om den gjentar et krav, sitter på en lav grein nær enga.",
+    "imagePath": "characters/gjoken.webp"
+  },
+  {
+    "name": "Århanen",
+    "slug": "arhanen",
+    "description": "Prøver å megle og foreslår en rettferdig deling når han våkner sist.",
+    "visualPrompt": "En stor århane med mørk, iriserende fjærdrakt og grønnglinsende bryst, kraftig kropp og vifteformet hale, rolig men bestemt uttrykk, står stødig i gresset som en megler mellom de andre.",
+    "imagePath": "characters/arhanen.webp"
+  },
+  {
+    "name": "Kua",
+    "slug": "kua",
+    "description": "Den verdifulle kua som alle tre vil eie, og som blir sentrum for uenigheten.",
+    "visualPrompt": "En rolig ku med myk, naturlig pelsfarge og vennlige øyne, står fredelig i en grønn eng med dugg, ørene litt på vakt mens den ser på de tre fuglene.",
+    "imagePath": "characters/kua.webp"
+  }
+]

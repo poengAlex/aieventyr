@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Enkesønnen (forenklet)",
+  "description": "En forenklet variant på moderne norsk med klarere setninger og jevnere flyt, der eventyrmotiver som forbudte rom, trollets forfølgelse og den magiske hesten blir lettere å følge uten å miste spenningen.",
+  "tone": "Eventyrlig, lettlest og spennende",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T14:21:39.401Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T14:26:44.117Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En fattig enkes sønn trosser et troll, reddes av en magisk hest og vinner både krigen og prinsessa.",
+  "hasInlineScenes": true
+}

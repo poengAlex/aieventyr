@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Konen",
+    "slug": "konen",
+    "description": "En arbejdsom bondekone, der vil leje en gjæter til sine dyr, men bliver narret af rævens fine lokken.",
+    "visualPrompt": "En nordisk bondekone fra folkeeventyr, enkel uldkjole og forklæde, opsmøgede ærmer, stående ved en træ-kærne i gårdmiljø, ansigt præget af vrede og overraskelse, naturlige jordfarver",
+    "imagePath": "characters/konen.webp"
+  },
+  {
+    "name": "Ræven",
+    "slug": "raeven",
+    "description": "En snu ræv med en smuk lokken, som æder alle dyrene og ender med at få en hvid haletip af flødeskvæt.",
+    "visualPrompt": "En listig rød ræv med skarpe øjne og en tydelig hvid haletip, let smilende udtryk, pels i varme kobbertoner, står tæt ved en kærne som om den lige har smagt fløde, folkeeventyr-stil",
+    "imagePath": "characters/raeven.webp"
+  },
+  {
+    "name": "Bjørnen",
+    "slug": "bjoernen",
+    "description": "En stor og brummende bjørn, der tilbyder sig som gjæter, men hvis grove lokken bliver afvist.",
+    "visualPrompt": "En stor brun bjørn i skovkanten, kraftig bygning, venligt men klodset udtryk, mund åben som i et brøl, nordisk natur med gran og sten, eventyrillustration",
+    "imagePath": "characters/bjoernen.webp"
+  },
+  {
+    "name": "Ulven",
+    "slug": "ulven",
+    "description": "En sulten ulv, der også vil være gjæter, men afsløres af sin uhyggelige lokken.",
+    "visualPrompt": "En grå ulv med slanke lemmer og gulgrønne øjne, stående på en skovsti, udtryk af sult og beregning, let blottede tænder, dæmpede blågrå skovfarver i folkeeventyr-stil",
+    "imagePath": "characters/ulven.webp"
+  }
+]

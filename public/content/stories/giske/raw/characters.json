@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Giske",
+    "slug": "giske",
+    "description": "An insistent housekeeper who, after being smeared with tallow and soot, mistakes herself for the Devil and barrels into trouble with loud, relentless questions.",
+    "visualPrompt": "A tall, long-legged rural woman with cropped hair where her skirt was cut away, skin and clothes smeared with greasy tallow and black soot, wild-eyed and energetic, wearing torn farm garments, looking both frightening and absurd in a Nordic folktale style.",
+    "imagePath": "characters/giske.webp"
+  },
+  {
+    "name": "Enkemanden (Husbonden)",
+    "slug": "enkemanden-husbonden",
+    "description": "The widower master who engineers the prank to get rid of Giske and happily watches her vanish from his household.",
+    "visualPrompt": "A weathered Norwegian widower in simple peasant clothing, wary expression and practical posture, standing near a farmhouse doorway with restrained satisfaction, folktale illustration style.",
+    "imagePath": "characters/enkemanden-husbonden.webp"
+  },
+  {
+    "name": "De to tyvene",
+    "slug": "de-to-tyvene",
+    "description": "Two petty thieves who alternately fear and rely on the 'Devil' figure, repeatedly foiled by Giske’s loud mouth.",
+    "visualPrompt": "Two scruffy forest thieves in worn dark wool and rough boots, hunched and anxious, carrying small sacks, glancing back in panic as they run along a woodland path, Nordic folktale style.",
+    "imagePath": "characters/de-to-tyvene.webp"
+  },
+  {
+    "name": "Presten",
+    "slug": "presten",
+    "description": "A priest hurried from bed to 'bind the Devil,' only to be dumped into the bog when panic peaks.",
+    "visualPrompt": "A startled rural priest wearing a nightcap and slippers, partially dressed in haste, arms flailing as he sinks into a muddy bog, comic folktale illustration style.",
+    "imagePath": "characters/presten.webp"
+  }
+]

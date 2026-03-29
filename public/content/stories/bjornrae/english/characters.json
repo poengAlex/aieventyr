@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bear",
+    "slug": "bear",
+    "description": "Big and strong but trusting and easily fooled, he follows the fox’s advice and suffers the consequences.",
+    "visualPrompt": "A large, shaggy brown bear with a broad face and gentle, puzzled expression, sturdy build, thick winter fur dusted with snow, in a northern forest setting; later shown with a noticeably stumpy tail",
+    "imagePath": "characters/bear.webp"
+  },
+  {
+    "name": "Fox (Reynard)",
+    "slug": "fox-reynard",
+    "description": "A sly trickster who lies smoothly, steals fish and butter, and frames the bear with a fake test.",
+    "visualPrompt": "A lean red fox with sharp muzzle, alert ears, and intelligent, mischievous eyes, reddish-orange coat with white throat and black legs, moving stealthily through snow near spruce bushes",
+    "imagePath": "characters/fox-reynard.webp"
+  }
+]

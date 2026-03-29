@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "Jomfru Maria som gudmor (Modern)",
+  "description": "En moderne gjenfortelling der dåp, fosterhjem og sosialt press speiles i vår tid med meldinger, sikkerhetskameraer og en «prins» som arver en beskyttet residens, mens Jomfru Maria trer inn som en gåtefull velgjører som både gir trygghet og stiller en umulig prøve.",
+  "tone": "Magisk-realistisk, spenningsmettet og følsomt, med et moderne hverdagsnært alvor",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:52:56.259Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:57:16.660Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En stum, strålende vakker kvinne må overleve mistanke og tap før hun får barna og stemmen tilbake når gudmoren avslører hvem hun er.",
+  "hasInlineScenes": true
+}

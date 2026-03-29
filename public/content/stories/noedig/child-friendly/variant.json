@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Somme Kjærringer er slige (Barnevennlig)",
+  "description": "Denne barnevennlige varianten gjør eventyret mildere og tryggere, med varm humor og snillere formuleringer: de rare hendelsene blir tydelig lek og misforståelser, stemningen er lysere, og ubehagelige detaljer tones ned slik at fokuset ligger på undring, oppfinnsomhet og at alle kan gjøre litt rare ting iblant.",
+  "tone": "Varm, leken og mild folkeeventyr-humor",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:32:15.843Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:36:39.985Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En mann oppdager på sin ferd at det finnes flere enn kona hans som kan finne på de merkeligste ting.",
+  "hasInlineScenes": true
+}

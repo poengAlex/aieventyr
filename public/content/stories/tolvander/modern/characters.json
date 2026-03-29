@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Snehvit-Rosenrød",
+    "slug": "snehvit-rosenrod",
+    "description": "Datteren som blir født etter et farlig løfte, reiser alene for å finne sine tolv brødre og syr klær av myrdun i full taushet for å bryte forbannelsen—senere blir hun gjort til syndebukk av en mektig stemor.",
+    "visualPrompt": "Ung norsk kvinne i tidlig voksen alder, lys hud med naturlig røde kinn, mørkeblondt hår delvis skjult under en enkel hettegenser, slitte arbeidsklær og grove støvler, fingre med små sår fra arbeid, holder en sølvskje og en sekk med myrdun, uttrykk stille men urokkelig, nordisk skog og myr i dempet vinterlys",
+    "imagePath": "characters/snehvit-rosenrod.webp"
+  },
+  {
+    "name": "Statsministeren",
+    "slug": "statsministeren",
+    "description": "Landets unge statsminister som finner Snehvit-Rosenrød på myra, tar henne med hjem og gifter seg med henne, men lar seg villede av stemorens iscenesatte «bevis» før han endelig konfronterer sannheten.",
+    "visualPrompt": "Ung mann i dressfrakk og skjerf, trøtt men karismatisk, alvorlige øyne preget av ansvar, står mellom sikkerhetsfolk og skogkanten, hendene usikre som om han vil beskytte men ikke forstår, moderne norsk maktsymbolikk uten overdådighet",
+    "imagePath": "characters/statsministeren.webp"
+  },
+  {
+    "name": "Stemoren",
+    "slug": "stemoren",
+    "description": "Statsministerens maktsøkende stemor som stjeler barna, smører blod for å ramme Snehvit-Rosenrød og driver fram en brutal offentlig «rettferdighet» for å sikre sin kontroll.",
+    "visualPrompt": "Elegant middelaldrende kvinne med skarp holdning, dyr kåpe og diskrete smykker, kaldt vurderende blikk, velstelt hår, står i et varmt, fuktig rom med gitter og terrarier i bakgrunnen, hendene rolige som om alt er planlagt",
+    "imagePath": "characters/stemoren.webp"
+  },
+  {
+    "name": "Yngstebroren",
+    "slug": "yngstebroren",
+    "description": "Den mest medfølende av de tolv brødrene som forsvarer søsteren og blir nesten helt reddet—men bærer en andevinge der venstre arm skulle vært som tegn på prisen.",
+    "visualPrompt": "Ung mann med familiepreg som sine brødre, kraftig men mildt ansikt, vått hår som etter regn og fjær, venstre side ender i en levende andevinge med mørke fjær, en enkel skjorte av grovt, lyst stoff, står ved skogkanten med et blikk av takknemlighet og sorg",
+    "imagePath": "characters/yngstebroren.webp"
+  },
+  {
+    "name": "Dronningen (Førstedamen)",
+    "slug": "dronningen-forstedamen",
+    "description": "Mor til de tolv prinsene og Snehvit-Rosenrød; hennes ubetenksomme hvisking i snøen utløser avtalen som gjør sønnene til villender og legger grunnlaget for datterens lange prøvelse.",
+    "visualPrompt": "Kvinne i moden alder, kongelig men moderne, i mørk vinterkåpe, står ved et gjerde langs en snødekt vei, en liten rød blodflekk i snøen ved føttene, ansiktet stramt av anger og sjokk, nattehvit snø og dempet gatelys rundt henne",
+    "imagePath": "characters/dronningen-forstedamen.webp"
+  }
+]

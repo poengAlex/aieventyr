@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Gjertrudsfuglen (Barnevennlig)",
+  "description": "En mildere, barnevennlig variant med mykere stemning der lærdommen om å dele kommer fram uten skremmende ord, og forvandlingen til fugl oppleves mer som en magisk påminnelse enn en straff.",
+  "tone": "Varm, rolig og eventyrlig, med en enkel moral om å dele",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T10:59:36.419Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:01:45.243Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Gjertrud lærer å dele når en liten deigklump blir til store lefser og hun til slutt blir til en liten fugl med rød lue.",
+  "hasInlineScenes": true
+}

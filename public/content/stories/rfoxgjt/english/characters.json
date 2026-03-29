@@ -1,0 +1,30 @@
+[
+  {
+    "name": "The Woman",
+    "slug": "the-woman",
+    "description": "A practical farmer who sets out to hire a herdsman and judges candidates by how well they can call her livestock.",
+    "visualPrompt": "A sturdy village farmer woman in simple traditional Scandinavian country clothing, apron and headscarf, standing near a wooden churn with a wary, frustrated expression, in a classic folktale illustration style",
+    "imagePath": "characters/the-woman.webp"
+  },
+  {
+    "name": "The Fox",
+    "slug": "the-fox",
+    "description": "A smooth-talking herdsman with a beautiful call who secretly devours the woman’s animals and steals her cream.",
+    "visualPrompt": "A sleek red fox with sharp intelligent eyes and a slightly smug posture, a distinctive white tip on his tail, set in a rural woodland-edge setting, classic European folktale illustration style",
+    "imagePath": "characters/the-fox.webp"
+  },
+  {
+    "name": "The Bear",
+    "slug": "the-bear",
+    "description": "The first would-be herdsman, powerful but rejected after his rough, booming call.",
+    "visualPrompt": "A large brown bear on a country path, broad-shouldered and imposing yet not overtly aggressive, surrounded by sparse trees and field edges, classic folktale illustration style",
+    "imagePath": "characters/the-bear.webp"
+  },
+  {
+    "name": "The Wolf",
+    "slug": "the-wolf",
+    "description": "The second would-be herdsman, turned away when his call sounds too harsh and untrustworthy.",
+    "visualPrompt": "A lean gray wolf standing alert on a woodland path with a cautious, hungry gaze, muted forest tones behind him, classic folktale illustration style",
+    "imagePath": "characters/the-wolf.webp"
+  }
+]

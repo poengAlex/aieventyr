@@ -1,0 +1,31 @@
+{
+  "defaultVariant": "simplified",
+  "variants": [
+    "raw",
+    "cleaned",
+    "simplified",
+    "english",
+    "child-friendly",
+    "modern"
+  ],
+  "audioVariants": [
+    "raw",
+    "cleaned",
+    "simplified",
+    "english",
+    "child-friendly",
+    "modern"
+  ],
+  "defaultImageSize": "1024x1024",
+  "defaultImageQuality": "low",
+  "defaultImageOutputFormat": "png",
+  "imageConcurrency": 1,
+  "textConcurrency": 1,
+  "audioConcurrency": 1,
+  "maxCharactersPerVariant": 5,
+  "maxTtsInputLength": 3200,
+  "sourceSectionsFile": "pipeline/source/sections.json",
+  "canonicalContentDir": "public/content",
+  "ocrSourceDir": "pipeline/source/ocr/stories",
+  "workDir": "pipeline/work"
+}

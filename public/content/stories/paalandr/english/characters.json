@@ -1,0 +1,30 @@
+[
+  {
+    "name": "The Farmhand",
+    "slug": "farmhand",
+    "description": "A sharp-tongued hired hand who stages misunderstandings and warnings to bait a confession and win his ten-dollar wager.",
+    "visualPrompt": "Lean young farmhand in worn work clothes and boots, sleeves rolled, alert eyes and a sly expression, standing casually as if always one step ahead",
+    "imagePath": "characters/farmhand.webp"
+  },
+  {
+    "name": "The Wife",
+    "slug": "wife",
+    "description": "Restless and volatile, she hides her affair and swings between anger and sweetness as she tries to stay ahead of suspicion.",
+    "visualPrompt": "Country wife in a plain dress and apron, hair pinned back, carrying a bundle under her apron, face flushed with alarm and guilt, posture tense and hurried",
+    "imagePath": "characters/wife.webp"
+  },
+  {
+    "name": "The Deaf Husband",
+    "slug": "deaf-husband",
+    "description": "A good-natured man who hears little and follows suggestions easily, unaware of the true drama unfolding around him.",
+    "visualPrompt": "Broad-shouldered middle-aged farmer with simple sturdy clothing, calm puzzled expression, holding an axe or walking stick, moving heavily but not threatening",
+    "imagePath": "characters/deaf-husband.webp"
+  },
+  {
+    "name": "Pål Andrestuen",
+    "slug": "pal-andrestuen",
+    "description": "The wife’s lover, bold until he is spooked into fleeing by the farmhand’s planted fears.",
+    "visualPrompt": "Young man in farm attire with an anxious, wide-eyed look, half-turned as if about to run, hovering near a plough by the edge of a meadow",
+    "imagePath": "characters/pal-andrestuen.webp"
+  }
+]

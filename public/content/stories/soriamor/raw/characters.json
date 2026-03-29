@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Halvor",
+    "slug": "halvor",
+    "description": "A seemingly lazy ash-raker who discovers courage and strength, slays trolls, and searches doggedly for the princesses after losing them through a fatal slip of the tongue.",
+    "visualPrompt": "Young Norwegian peasant with tousled dark hair and weathered face; initially in ragged, soot-smudged clothes with ash on hands, later transformed into elegant princely attire with a simple gold ring; sturdy build, determined gaze; Nordic folklore style",
+    "imagePath": "characters/halvor.webp"
+  },
+  {
+    "name": "Den yngste prinsessen",
+    "slug": "yngste-prinsessen",
+    "description": "The youngest and dearest of the three sisters, bound to a troll’s castle, clever with magic rings and wishes, and ultimately Halvor’s true bride.",
+    "visualPrompt": "Radiantly beautiful princess in a pale, shimmering gown with Nordic embroidered details; long light hair, calm but watchful expression; wears delicate jewelry and carries an air of quiet power; fairytale realism",
+    "imagePath": "characters/yngste-prinsessen.webp"
+  },
+  {
+    "name": "Trollet med ni hoder",
+    "slug": "trollet-ni-hoder",
+    "description": "The most fearsome of the captors, a massive troll whose many heads and strength make the final rescue the hardest fight Halvor faces.",
+    "visualPrompt": "Enormous hulking troll with nine grotesque heads clustered on a thick neck and shoulders; leathery gray-green skin, heavy limbs, crude iron weapon; menacing presence in a castle doorway, Nordic myth aesthetic",
+    "imagePath": "characters/trollet-ni-hoder.webp"
+  },
+  {
+    "name": "Vestenvinden",
+    "slug": "vestenvinden",
+    "description": "A personified West Wind who knows the road to Soria Moria Slot and carries Halvor across harsh landscapes toward the wedding.",
+    "visualPrompt": "Mythic human-like wind spirit formed from swirling clouds and pine needles, cloak-like gusts streaming behind; lean, restless silhouette over mountains and forest; cold blue-gray palette with kinetic motion",
+    "imagePath": "characters/vestenvinden.webp"
+  },
+  {
+    "name": "Den gamle kjerringa i skogen",
+    "slug": "gamle-kjerringa",
+    "description": "An ancient forest crone who consults the Moon and bargains for Halvor’s horse, trading him magical boots that take enormous strides.",
+    "visualPrompt": "Very old woman with ash-gray hair and an exaggerated long nose; hunched by a hearth in a tiny forest hut, wearing patched wool and a shawl; sharp, knowing eyes; rustic folklore mood",
+    "imagePath": "characters/gamle-kjerringa.webp"
+  }
+]

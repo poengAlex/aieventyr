@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Konen",
+    "slug": "konen",
+    "description": "En handlekraftig bondekone, der vil leje en gjæter, men narres af en fin lokketone og må se sine dyr forsvinde.",
+    "visualPrompt": "En norsk bondekone i enkel, traditionel dragt og forklæde, med opsmøgede ærmer og bestemt kropsholdning, stående ved en træ-smørkærne i en rustik stue; ansigtet stramt af vrede og mistro.",
+    "imagePath": "characters/konen.webp"
+  },
+  {
+    "name": "Ræven",
+    "slug": "raeven",
+    "description": "En snu og veltalende ræv, der lokker smukt, æder alle dyrene og ender med en hvid haletip efter at blive ramt af fløde.",
+    "visualPrompt": "En slank, rød ræv med skarpe øjne og listigt udtryk, halen stor og busket med tydelig hvid spids; bevæger sig tæt på en smørkærne som om den stjæler fløde, elegant og bedragerisk.",
+    "imagePath": "characters/raeven.webp"
+  },
+  {
+    "name": "Bjørnen",
+    "slug": "bjornen",
+    "description": "En stærk, brummende bjørn, der tilbyder sig som gjæter, men afvises for sin rå lokken.",
+    "visualPrompt": "En stor, mørkebrun bjørn med massiv bygning og grov pels, stående på en skovsti; munden halvt åben som i et brummende kald, kropssprog tungt og lidt klodset.",
+    "imagePath": "characters/bjornen.webp"
+  },
+  {
+    "name": "Ulven",
+    "slug": "ulven",
+    "description": "En hylende ulv, der også vil være gjæter, men hvis lokken lyder for truende til at blive valgt.",
+    "visualPrompt": "En grå ulv med spidse ører og skarpe tænder, stående på afstand på en vejkant; halsen strakt som i et uhyggeligt hyl, blik årvågent og rovdyrsagtigt.",
+    "imagePath": "characters/ulven.webp"
+  }
+]

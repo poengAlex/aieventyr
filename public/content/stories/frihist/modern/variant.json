@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "En Frierhistorie (Modern)",
+  "description": "En moderne, hverdagsnær gjenfortelling der fattigdommen skjules med små «nye» oppgraderinger—et lappet erme, én ny joggesko og en lue med prislapp—mens en potensiell partner blir møtt med iscenesatt velstand og hektisk fasade.",
+  "tone": "Satirisk, varm og samtidsnær",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:59:05.334Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T14:01:17.669Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En singel mann besøker en sliten gård der familien later som de lever i velstand ved hjelp av tre små, nye plagg.",
+  "hasInlineScenes": true
+}

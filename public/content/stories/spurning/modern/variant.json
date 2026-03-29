@@ -1,0 +1,28 @@
+{
+  "variant": "modern",
+  "displayTitle": "Spurningen (Modern)",
+  "description": "A contemporary retelling where the “princess” is a razor-tongued corporate heiress and the suitor who bests her does it with quick modern wordplay and everyday found objects—zip ties, broken café plates, bicycle horns, and a worn shoe sole—turning today’s clutter into a surprising victory.",
+  "tone": "Witty, contemporary folktale with playful banter and a light triumph",
+  "characterCount": 3,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T11:33:05.490Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T11:35:36.214Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A clever underdog out-talks a sharp-tongued corporate heiress using a handful of discarded modern items.",
+  "hasInlineScenes": true
+}

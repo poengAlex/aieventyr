@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "Tidlig oppe og skråsikker, overbevist om at den som våkner først automatisk har rett på kua.",
+    "visualPrompt": "En kraftig, fargerik hane med oppblåst bryst og selvsikkert uttrykk, stående høyt og dominerende i en moderne gårdsplass eller ved en bil, med kroppsspråk som om han nettopp har erklært seier.",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Gjøken",
+    "slug": "gjoken",
+    "description": "Lettantennelig og opportunistisk, som svarer umiddelbart og prøver å sikre seg i det minste en 'halv ku'.",
+    "visualPrompt": "En gjøk med våkent blikk og litt rufsete fjær som om han nettopp har våknet, halvveis lent frem fra et vindu eller en balkong, ropende og gestikulerende med vingen i protest.",
+    "imagePath": "characters/gjoken.webp"
+  },
+  {
+    "name": "Århanen",
+    "slug": "arhanen",
+    "description": "Den mest sindige av dem, som prøver å megle med fornuft og rettferdighet, mobil i hånda som om han vurderer å lese opp en avtale.",
+    "visualPrompt": "En århane med rolig, myndig holdning, stående på en trapp eller ved en inngangsdør, med en smarttelefon holdt i vingen og et uttrykk som sier 'la oss ordne dette skikkelig'.",
+    "imagePath": "characters/arhanen.webp"
+  }
+]

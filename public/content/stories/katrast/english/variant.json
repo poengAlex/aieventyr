@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "Kari Woodsmock",
+  "description": "An English retelling that stays close to the original folktale, following the persecuted princess who flees on a magical blue bull, survives deadly troll-woods of copper, silver, and gold, and disguises herself as the clattering kitchen girl Kari Woodsmock until a single lost gold shoe reveals her true identity.",
+  "tone": "Classic folktale; dramatic, wondrous, and moral",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:47:52.908Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A mistreated princess escapes with a magical blue bull and later wins a prince when her hidden identity is revealed by a lost gold shoe.",
+  "hasInlineScenes": true
+}

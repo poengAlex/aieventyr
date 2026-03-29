@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Snehvid og Rosenrød",
+    "slug": "snehvid-og-rosenrod",
+    "description": "Prinsessen, født 'så hvid som sne og så rød som blod', som drager ud for at finde sine forheksede brødre og må udføre en tavs, udmattende frelsesgerning.",
+    "visualPrompt": "Ung prinsesse i enkel, rejse-slidt kjole i dæmpede farver, meget lys hud og naturligt røde kinder og læber, langt lyst hår delvist skjult af et simpelt tørklæde; bærer en sæk myrdun og har ru hænder af arbejdet; udtryk stille, beslutsomt og sørgmodigt, nordisk eventyræstetik",
+    "imagePath": "characters/snehvid-og-rosenrod.webp"
+  },
+  {
+    "name": "De tolv prinser / vildænderne",
+    "slug": "de-tolv-prinser-vildaenderne",
+    "description": "Snehvid og Rosenrøds brødre, forvandlede til vildænder om dagen og prinser om natten, bundet til en forbandelse som kun kan brydes af søsterens tavse syning.",
+    "visualPrompt": "Tolv skikkelser samlet ved en tømret skovhytte: nogle som vilde ænder med mørkegrønne og brune fjer, andre som unge prinser i enkle, slidte jagtdragter; den yngste prins har en andevinge i stedet for venstre arm; stemningen er vagtsom men varm ved ildstedets lys",
+    "imagePath": "characters/de-tolv-prinser-vildaenderne.webp"
+  },
+  {
+    "name": "Den unge konge",
+    "slug": "den-unge-konge",
+    "description": "Kongen der finder prinsessen ved mosen, tager hende til dronning og vakler mellem kærlighed og den falske anklage om trolddom.",
+    "visualPrompt": "Ung konge med kappe og jagtudstyr, rank og venlig, mørkt hår og klar, bekymret mine; står ved kanten af en mose med sin hest tæt ved, rækker en hånd frem i beskyttelse; klassisk skandinavisk eventyrstil",
+    "imagePath": "characters/den-unge-konge.webp"
+  },
+  {
+    "name": "Den gamle dronning (stedmoderen)",
+    "slug": "den-gamle-dronning-stedmoderen",
+    "description": "Kongens stedmor, kold og misundelig, som stjæler dronningens børn og smører blod om hendes mund for at få hende dømt som heks.",
+    "visualPrompt": "Ældre dronning i tunge, mørke klæder med stram silhuet og skarpe smykker; ansigt med hårde træk og smalle øjne, hænder der skjuler en lille kniv og et stykke blodigt klæde; står i skyggerne af et kongeligt kammer, udstråler magt og ond vilje",
+    "imagePath": "characters/den-gamle-dronning-stedmoderen.webp"
+  }
+]

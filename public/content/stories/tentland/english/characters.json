@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Fisherman’s Son (Young King)",
+    "slug": "fishermans-son-young-king",
+    "description": "A fisherman’s child raised by the king, brave enough to endure trolls’ torment to free the princesses, yet fated to lose and reclaim his queen through hard-won wisdom.",
+    "visualPrompt": "Young fairytale king in his late teens or early twenties with wind-chapped, travel-worn face and earnest eyes, wearing rich but rugged northern clothes and a dark cloak; a small ring is tied into his hair, and he carries a simple sword, standing with steady determination.",
+    "imagePath": "characters/fishermans-son-young-king.webp"
+  },
+  {
+    "name": "The Youngest Princess of Whiteland (The Queen)",
+    "slug": "youngest-princess-queen",
+    "description": "The cleverest of the three sisters, she guides the hero through the trolls’ trial, becomes his queen, and sets the crucial condition he tragically breaks.",
+    "visualPrompt": "Young princess with calm, intelligent gaze, pale luminous complexion, and long light hair; dressed in elegant white and silver fairytale garments with subtle northern embroidery, poised and resolute, carrying an air of quiet authority from Whiteland.",
+    "imagePath": "characters/youngest-princess-queen.webp"
+  },
+  {
+    "name": "The White-Bearded Guide",
+    "slug": "white-bearded-guide",
+    "description": "An old man on Whiteland’s shore who knows the trolls’ curse and gives the precise counsel that makes rescue possible.",
+    "visualPrompt": "Elderly man with a long white beard and weathered face, wrapped in a simple grey cloak; he stands on a white, stony shoreline with a staff in hand, eyes sharp and knowing, like a guardian of old secrets.",
+    "imagePath": "characters/white-bearded-guide.webp"
+  },
+  {
+    "name": "The North Wind",
+    "slug": "north-wind",
+    "description": "A roaring, personified force of nature who helps the young king drive away the false suitor and reclaim the castle.",
+    "visualPrompt": "Mythic embodiment of the North Wind as a towering, swirling presence of icy blue and white gusts, suggesting a stern face in the storm; the air around it crackles with cold power, bending trees and tugging at castle walls.",
+    "imagePath": "characters/north-wind.webp"
+  },
+  {
+    "name": "The Jealous King",
+    "slug": "jealous-king",
+    "description": "The ruler who raised the fisherman’s son, but whose envy provokes the moment that causes the queen to vanish back to Whiteland.",
+    "visualPrompt": "Middle-aged king with a proud, tight expression, wearing heavy gold-trimmed robes and a crown; his posture is rigid and possessive, eyes narrowed with jealousy in a grand hall lit by warm torchlight.",
+    "imagePath": "characters/jealous-king.webp"
+  }
+]

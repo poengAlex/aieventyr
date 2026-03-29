@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Vesle Aase Gaasepige",
+    "slug": "vesle-aase-gaasepige",
+    "description": "En fattig gåsepike som sitter ved veien og syr, men som viser seg å være både klok og målbevisst nok til å få viljen sin.",
+    "visualPrompt": "Ung gåsepike med lappet og enkelt bondeplagg, hår delvis samlet under et tørkle, fingeren skjult under en fillebandasje, sittende på en stein ved en gåsesti med gjess tett rundt; uttrykk rolig, sta og slu.",
+    "imagePath": "characters/vesle-aase-gaasepige.webp"
+  },
+  {
+    "name": "Kongssønnen fra Engeland",
+    "slug": "kongssonnen-fra-engeland",
+    "description": "En prins på frierferd som vil finne en ‘ren og skjær’ brud og støtter seg på en avslørende stein for å vite sannheten.",
+    "visualPrompt": "Ung europeisk prins i reiseantrekk fra eventyrtid, kappe og støvler, et enkelt men fint sverd ved siden, alvorlig blikk som veksler mellom mistenksomhet og besluttsomhet.",
+    "imagePath": "characters/kongssonnen-fra-engeland.webp"
+  },
+  {
+    "name": "Den allvitende Stenen",
+    "slug": "den-allvitende-stenen",
+    "description": "En stein lagt foran prinsens seng som taler sannheten om den som stiger i eller ut av sengen.",
+    "visualPrompt": "En mørk, glatt stein ved foten av en rikt innredet seng i en kongelig sengestue, med en uhyggelig, eventyrlig aura som antyder at den kan tale sannhet.",
+    "imagePath": "characters/den-allvitende-stenen.webp"
+  },
+  {
+    "name": "Prinsessen (tredje frierinne)",
+    "slug": "prinsessen-tredje-frierinne",
+    "description": "Den tredje utvalgte prinsessen som, som de andre, forsøker å narre prøven ved å sende Aase i sitt sted.",
+    "visualPrompt": "Ung adelskvinne i rikt brodert kjole og smykker, urolig og skyldtynget holdning, står ved dørterskelen til et kongelig kammer mens hun ser mot Aase med en blanding av bønn og frykt.",
+    "imagePath": "characters/prinsessen-tredje-frierinne.webp"
+  }
+]

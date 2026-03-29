@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Bjørnen og Ræven (Modern)",
+  "description": "En moderne gjenfortelling der eventyret flyttes til en parkeringsplass ved et lite vann, med plastpose-fisk fra disken, «lifehack»-snakk og en julesmørboks gjemt under gran—mens reven fortsatt lurer bjørnen like elegant som før.",
+  "tone": "Humoristisk, skarp og hverdagsnær med folkeeventyr-slemmhet",
+  "characterCount": 2,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:11:15.581Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En slu rev lurer en godtroende bjørn til å miste halen og ta skylda for julesmøret.",
+  "hasInlineScenes": true
+}

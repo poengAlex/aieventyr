@@ -1,0 +1,23 @@
+[
+  {
+    "id": "section-1",
+    "title": "Møtet i skogen",
+    "text": "Det var en gang en jeger som gikk en tur i skogen. Han hadde ikke tenkt å gjøre noen noe vondt, men han likte å lete etter dyr og se nøye på dem. Da møtte han myrsnipen.\n\n«Kjære deg, ikke rør barna mine!» sa myrsnipen.\n\n«Hvilke er det som er barna dine, da?» spurte jegeren.",
+    "imagePath": "scenes/scene-1.webp",
+    "imagePrompt": "In a quiet woodland path with soft green moss and dappled sunlight, Jegeren—a gentle, curious hunter with a calm, kind expression—stops mid-step as Myrsnipen, a protective parent bird, stands in front of him with wings slightly spread in worry, clearly guarding a nearby patch of grass where her fluffy little chicks might be hiding."
+  },
+  {
+    "id": "section-2",
+    "title": "De vakreste barna",
+    "text": "«De aller vakreste barna som går i hele skogen, de er mine!» svarte myrsnipen.\n\n«Da skal jeg passe på å la dem være i fred,» sa jegeren.\n\nMen da han kom tilbake samme vei, hadde han et helt knippe små myrsnipeunger i hendene. Han hadde løftet dem forsiktig opp for å se på dem, fordi han trodde de ikke tilhørte noen som ville savne dem.",
+    "imagePath": "scenes/scene-2.webp",
+    "imagePrompt": "On the same forest path, Jegeren carefully cradles a small bundle of Myrsnipungene in his hands, lifting them gently to look at them with curious, thoughtful eyes; the fluffy little chicks look ordinary but safe and warm, while the surrounding grass and twigs hint they were picked up from the ground nearby."
+  },
+  {
+    "id": "section-3",
+    "title": "Mors lille lære",
+    "text": "«Å, å! Hvorfor tok du barna mine likevel?» ropte myrsnipen og flakset urolig rundt ham.\n\n«Var dette barna dine?» spurte jegeren. «Jeg tok jo bare de som så minst fine ut, jeg. Jeg trodde ikke det kunne være dine, når du sa at dine var de vakreste.»\n\nDa svarte myrsnipen: «Å ja! Vet du ikke at hver og en synes best om sine egne barn?»",
+    "imagePath": "scenes/scene-3.webp",
+    "imagePrompt": "Myrsnipen flutters anxiously in the air right in front of Jegeren, wings beating in worried circles as she calls out for her chicks; Jegeren stands still and attentive, holding the fluffy Myrsnipungene carefully and looking surprised yet apologetic, as the gentle forest around them feels quiet and listening to her wise lesson."
+  }
+]

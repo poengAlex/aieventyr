@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "En rolig og oppfinnsom gutt som møter ordlek med vennlighet og finner smarte løsninger med små ting han har samlet på veien.",
+    "visualPrompt": "A friendly Norwegian folk-tale boy with tousled light-brown hair, rosy cheeks, and a calm smile, wearing simple earth-toned clothes and a small cloak, carrying a worn satchel with a willow hoop and a small bowl shard peeking out, approachable and gentle storybook style",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Prinsessen",
+    "slug": "prinsessen",
+    "description": "En kvikk prinsesse som elsker raske svar, men som blir mer nysgjerrig enn spydig når Askeladden gjør ordleken til noe morsomt.",
+    "visualPrompt": "A young princess with bright, curious eyes and a playful expression, wearing a soft pastel gown with simple royal details and tidy hair, standing with an open, surprised smile, warm and child-friendly fairy-tale illustration",
+    "imagePath": "characters/prinsessen.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "En rettferdig og godhjertet konge som vil se at utfordringen løses på en klok og fredelig måte.",
+    "visualPrompt": "A kind older king with a gentle face, short gray beard, and a modest crown, wearing rich but soft-colored robes, watching with a pleased, calm expression in a cozy fairy-tale setting",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "De to eldre brødrene",
+    "slug": "de-to-eldre-brodrene",
+    "description": "Askeladdens storebrødre som prøver først, men som må dra hjem uten å vinne, mens de lærer at det ikke alltid hjelper å skryte av å være klok.",
+    "visualPrompt": "Two older brothers in neat travel clothes with slightly proud posture, standing together with mixed expressions of determination and embarrassment, simple fairy-tale styling, non-threatening and child-friendly",
+    "imagePath": "characters/de-to-eldre-brodrene.webp"
+  }
+]

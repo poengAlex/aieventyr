@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Soria Moria Slot (Child Friendly)",
+  "description": "A gentler retelling with a warm, reassuring mood: the scary parts are softened, the trolls vanish like windblown shadow instead of feeling gruesome, and the focus stays on courage, kindness, and finding your way back to the people you love.",
+  "tone": "Cozy, adventurous, and reassuring; gentle suspense with a happy, heartwarming ending.",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:10:32.212Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A quiet boy named Halvor sets off to find a shining castle, frees three princesses, and journeys on until he can bring his happiest ending home.",
+  "hasInlineScenes": true
+}

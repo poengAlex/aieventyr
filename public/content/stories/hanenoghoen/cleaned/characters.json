@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Hønen",
+    "slug": "hoenen",
+    "description": "A hardworking hen who lays eggs and demands the shoes she has been promised, refusing to accept going barefoot any longer.",
+    "visualPrompt": "A sturdy brown-and-cream hen with alert eyes and a practical, determined stance, carrying or guarding a small basket of eggs; rustic, classic folk-tale illustration style",
+    "imagePath": "characters/hoenen.webp"
+  },
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "A confident rooster who answers the hen’s complaints by insisting she will get shoes and urging her to go to town and buy them.",
+    "visualPrompt": "A proud rooster with vivid red comb and multicolored plumage, upright posture, slightly stern yet composed expression; rustic folk-tale illustration style",
+    "imagePath": "characters/hanen.webp"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "De tre Mostre (Barnevennlig)",
+  "description": "En mild og trygg variant med mykere språk, varm stemning og fokus på vennlighet, hjelp og hvile—uten skarpe kanter, bare en snill påminnelse om at ingen trenger å slite seg ut alene.",
+  "tone": "Varm, rolig og oppmuntrende",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T14:10:56.682Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T14:14:16.159Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En snill jente får uventet hjelp av tre «mostre» og lærer at det er lov å få støtte og ta pauser.",
+  "hasInlineScenes": true
+}

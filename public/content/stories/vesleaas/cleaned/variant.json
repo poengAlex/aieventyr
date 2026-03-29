@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Vesle Aase Gaasepige (Cleaned)",
+  "description": "Denne «Cleaned»-varianten er en språklig ryddet og OCR-restaurert utgave som bevarer den gamle eventyrstemmen, gjentakelsene og vendingene, men gjør teksten jevnere og mer lesbar uten å modernisere fortellingen.",
+  "tone": "Folkeeventyr, rytmisk og muntlig fortellertone, listig og moralsk ladet",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:48:15.967Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En gåsepike lurer seg forbi prøver og bedrag og vinner til slutt kongssønnen hun har satt seg fore.",
+  "hasInlineScenes": true
+}

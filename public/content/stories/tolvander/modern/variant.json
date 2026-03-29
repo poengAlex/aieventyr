@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "De tolv Vildænder (Moderne)",
+  "description": "En samtidstolkning der kongelige, mediestyrt makt og politisk prestisje erstatter slott og trolldom: Snehvit-Rosenrød må bryte en forbannelse ved å sy i taushet, mens en statsminister og hans manipulerende stemor gjør tragedien til en offentlig skandale før sannheten avsløres.",
+  "tone": "Moderne eventyrdrama, mørkt og håpefullt, med sosial realisme og mytisk understrøm",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T22:01:44.116Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En ung kvinne syr i taushet for å befri sine tolv forheksede brødre og redde familien sin fra en livsfarlig løgn.",
+  "hasInlineScenes": true
+}

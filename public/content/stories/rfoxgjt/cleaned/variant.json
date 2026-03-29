@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Ræven som Gjæter (Cleaned)",
+  "description": "En nænsomt OCR-restaureret udgave, der bevarer den gamle, muntre fortællerstemme og de klassiske vendinger, men med ryddet tekst og flydende læsbarhed til moderne læsning.",
+  "tone": "Folkeeventyr, muntert og skælmsk med en skarp morale",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:06:31.169Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En kone hyrer en ræv som gjæter, men hans smukke lokken ender i et bedragerisk festmåltid og en hvid haletip.",
+  "hasInlineScenes": true
+}

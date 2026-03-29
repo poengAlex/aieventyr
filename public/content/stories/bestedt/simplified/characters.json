@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Skytteren",
+    "slug": "skytteren",
+    "description": "En jeger som lover å la de «vakreste» ungene være, men ender med å skyte de han synes er styggest.",
+    "visualPrompt": "En voksen mann i enkel, slitt skogkledning og støvler, med rolig men litt forvirret uttrykk, bærer et gevær og holder en liten bunt med fugleunger i hånden; står blant trær og lyng i en nordisk skog",
+    "imagePath": "characters/skytteren.webp"
+  },
+  {
+    "name": "Myrsnipe",
+    "slug": "myrsnipe",
+    "description": "En fuglemor som trygler om at ungene hennes ikke skal bli skutt, og som tror de er de vakreste i skogen.",
+    "visualPrompt": "En liten vadlefugl med brun- og gråspettet fjærdrakt og lange, tynne bein, med intense, bekymrede øyne; står nær bakken i skogbunnen og ser beskyttende ut",
+    "imagePath": "characters/myrsnipe.webp"
+  },
+  {
+    "name": "Myrsnipeungene",
+    "slug": "myrsnipeungene",
+    "description": "De små ungene som fuglemoren mener er de vakreste, men som skytteren ikke kjenner igjen som hennes.",
+    "visualPrompt": "En gruppe små, dunete vadlefuglunger med brunspraglete dun og spinkle bein, tett samlet i gress og lyng på skogbunnen",
+    "imagePath": "characters/myrsnipeungene.webp"
+  }
+]

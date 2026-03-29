@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Bjørnen og Ræven (Snill og barnevennlig)",
+  "description": "En mild og barnevennlig variant med mykere ordvalg, tryggere stemning og en leken tone som gjør reven mindre skummel og bjørnens uhell mer forsiktig og trøstende.",
+  "tone": "Varm, rolig og leken, med myk humor og uten skremmende detaljer.",
+  "characterCount": 2,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T17:10:59.504Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En lur rev finner på rampestreker, og en godhjertet bjørn lærer å være litt mer forsiktig.",
+  "hasInlineScenes": true
+}

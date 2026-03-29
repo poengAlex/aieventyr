@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Farmer from Ringerike",
+    "slug": "farmer-from-ringerike",
+    "description": "A poor, practical man driven to exasperation by his wife’s blunders, who sets out to find proof that other households are just as foolish.",
+    "visualPrompt": "A lean Norwegian farmer in worn homespun clothes and sturdy boots, weathered face and cautious eyes, carrying himself with stubborn determination; simple rustic folktale illustration style",
+    "imagePath": "characters/farmer-from-ringerike.webp"
+  },
+  {
+    "name": "The Farmer’s Wife",
+    "slug": "farmers-wife",
+    "description": "An anxious, impulsive woman who tries to protect the household but is easily fooled—ending up tarred and feathered, then confidently sowing salt as seed.",
+    "visualPrompt": "A middle-aged farmwife with a kerchief and plain dress, smeared with dark tar and covered in pale feathers, wide-eyed and confused yet earnest; folk-art storybook style",
+    "imagePath": "characters/farmers-wife.webp"
+  },
+  {
+    "name": "The Butcher",
+    "slug": "the-butcher",
+    "description": "A sly town butcher who cheats the wife, gets her drunk, and plays a cruel prank to rid himself of her demands.",
+    "visualPrompt": "A burly butcher in a stained apron with a shrewd, amused expression, standing near barrels and a rough wooden table outside a small town; traditional folktale illustration style",
+    "imagePath": "characters/the-butcher.webp"
+  },
+  {
+    "name": "The Sunshine-Sieve Woman",
+    "slug": "sunshine-sieve-woman",
+    "description": "A frantic householder who tries to carry sunshine indoors in a sieve because her new room has no windows.",
+    "visualPrompt": "A country woman rushing between a new wooden room and the yard, clutching an empty sieve and flipping her apron over it as if it holds light, face intent and puzzled; bright sunlight, rustic folktale style",
+    "imagePath": "characters/sunshine-sieve-woman.webp"
+  },
+  {
+    "name": "The Widow of Per the Second",
+    "slug": "widow-of-per-the-second",
+    "description": "A credulous woman married three times who believes a stranger can carry aid to her kind late husband in Heaven, and gives away a cartload of goods.",
+    "visualPrompt": "An older farmwoman in dark, practical clothing with keys at her belt, standing beside an open loft and a heavy chest of silver, expression pious and trusting; Scandinavian folktale illustration style",
+    "imagePath": "characters/widow-of-per-the-second.webp"
+  }
+]

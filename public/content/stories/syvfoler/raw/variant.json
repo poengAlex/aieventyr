@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "De syv Folerne (raw OCR)",
+  "description": "Denne variant er en rå OCR-udtrækning fra kildematerialet med bevaret gammel retstavning, linjeskift, sideskift og typiske skannefejl (ujævne ord, tegnsætning og mærkelige delinger), så teksten fremstår tæt på den trykte side frem for en moderniseret udgave.",
+  "tone": "Klassisk norsk folkeeventyr med arkaisk sprog og ru, uensartet tekstflade",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T21:19:53.368Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden lykkes med at vogte kongens syv foler og bryder en trolddom, der holder prinsesserens brødre fanget i hesteskikkelse.",
+  "hasInlineScenes": true
+}

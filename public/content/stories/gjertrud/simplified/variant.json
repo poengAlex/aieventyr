@@ -1,0 +1,28 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Gjertrudsfuglen (Forenklet)",
+  "description": "En forenklet variant på moderne norsk med tydeligere setninger og jevnere leseflyt, der den gamle fortellingen om gjerrighet og konsekvenser blir lett å følge.",
+  "tone": "Folkeeventyr, moralsk og tydelig",
+  "characterCount": 4,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T09:18:54.295Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T09:20:19.914Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Da Gjertrud nekter å dele en lefse, blir hun forvandlet til en tørst fugl som alltid leter etter mat i trærne.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Kari Treestakk",
+    "slug": "kari-treestakk",
+    "description": "A brave, gentle princess who is treated unfairly at home but stays kind, follows wise advice, and patiently shapes a better life.",
+    "visualPrompt": "Young princess with soft features and calm, determined eyes, wearing a rough, bundled wooden cloak over simple clothes; later shown with elegant copper, silver, and golden gowns and one delicate golden shoe; fairytale Nordic style, warm and child-friendly",
+    "imagePath": "characters/kari-treestakk.webp"
+  },
+  {
+    "name": "The Blue Ox",
+    "slug": "the-blue-ox",
+    "description": "A loyal, magical ox who provides food, protects Kari on the road, and guides her toward safety and hope.",
+    "visualPrompt": "Large strong ox with a glossy deep-blue coat that seems to shine, gentle expressive eyes, friendly posture; fairytale magical aura, reassuring presence, child-friendly",
+    "imagePath": "characters/the-blue-ox.webp"
+  },
+  {
+    "name": "The Prince",
+    "slug": "the-prince",
+    "description": "A curious prince who first overlooks Kari in her rough disguise, then recognizes her true self through the enchanted church visits and the golden shoe.",
+    "visualPrompt": "Young prince in neat royal clothing with a curious, earnest expression; warm demeanor, fairytale castle setting, soft colors, approachable for children",
+    "imagePath": "characters/the-prince.webp"
+  },
+  {
+    "name": "The New Queen (Stepmother)",
+    "slug": "the-new-queen",
+    "description": "A jealous, strict queen who tries to keep Kari small and powerless, but is ultimately outwitted by kindness and truth.",
+    "visualPrompt": "Regal woman with sharp posture and controlled expression, rich dark gown and crown, hands folded tightly; fairytale villainy kept mild and non-scary, child-friendly",
+    "imagePath": "characters/the-new-queen.webp"
+  },
+  {
+    "name": "The Mountain Helper",
+    "slug": "the-mountain-helper",
+    "description": "A mysterious helper who appears when Kari knocks on the rock, lending her beautiful outfits and a fine horse for church.",
+    "visualPrompt": "Kind, mysterious figure emerging from a rocky mountainside, simple cloak and gentle face, offering a softly glowing bundle of fabric and a bridle; magical but comforting fairytale style",
+    "imagePath": "characters/the-mountain-helper.webp"
+  }
+]

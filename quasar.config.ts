@@ -2,10 +2,8 @@
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file
 
 import { defineConfig } from '#q-app/wrappers'
-//import .env from 'dotenv'
 import dotenv from 'dotenv'
 dotenv.config()
-console.log('Posthog token: ', process.env.POSTHOG_PROJECT_TOKEN)
 
 //@ts-ignore
 export default defineConfig((/* ctx */) => {

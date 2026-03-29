@@ -1,0 +1,23 @@
+[
+  {
+    "name": "The Boy",
+    "slug": "the-boy",
+    "description": "A quick-witted traveler who cracks nuts on the road and confidently tricks the Devil into a trap.",
+    "visualPrompt": "A young boy with bright, clever eyes, wearing simple rustic clothes and sturdy boots, holding a handful of nuts and a small wooden peg, appearing calm and mischievous in a folktale style.",
+    "imagePath": "characters/the-boy.webp"
+  },
+  {
+    "name": "The Devil",
+    "slug": "the-devil",
+    "description": "A boastful, supernatural being who claims he can shrink small enough to slip through a needle’s eye—and falls for the boy’s challenge.",
+    "visualPrompt": "A shadowy, impish devilish figure with subtle horns and a sly expression, depicted as able to shrink into a tiny wisp-like form, with a faint red-black aura suggesting menace without gore.",
+    "imagePath": "characters/the-devil.webp"
+  },
+  {
+    "name": "The Blacksmith",
+    "slug": "the-blacksmith",
+    "description": "A practical craftsman whose growing frustration leads him to use a massive sledge, unleashing the Devil’s explosive escape.",
+    "visualPrompt": "A broad-shouldered blacksmith with rolled-up sleeves and a leather apron, soot-smudged face, gripping a heavy sledge hammer beside an anvil and forge fire, rendered in classic folktale illustration style.",
+    "imagePath": "characters/the-blacksmith.webp"
+  }
+]

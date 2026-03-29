@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Paal Andrestuen (Simplified)",
+  "description": "En forenklet, moderne norsk versjon med klarere setninger og jevnere flyt, der tjenesteguttens lure plan og den døve mannens misforståelser blir lettere å følge fra scene til scene.",
+  "tone": "Folkelig, humoristisk og litt skarp",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:48:22.837Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En slu tjenestegutt lurer en utro kone til å rope ut hemmeligheten sin og taper et veddemål hun aldri burde tatt.",
+  "hasInlineScenes": true
+}

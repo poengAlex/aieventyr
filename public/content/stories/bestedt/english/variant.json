@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "Everyone Loves Their Own Children Best",
+  "description": "A close English retelling of a Scandinavian folktale in which a snipe’s proud claim about her “prettiest” chicks meets a hunter’s blunt idea of ugliness, landing on a wry proverb about parental bias.",
+  "tone": "Wry, simple, folktale-like, and gently moral",
+  "characterCount": 3,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T13:45:07.194Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T13:47:03.203Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A hunter and a snipe argue over which chicks are prettiest, revealing that every parent thinks their own are best.",
+  "hasInlineScenes": true
+}

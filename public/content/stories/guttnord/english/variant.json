@@ -1,0 +1,28 @@
+{
+  "variant": "english",
+  "displayTitle": "The Boy Who Went to the North Wind and Demanded His Meal Back",
+  "description": "An English retelling that stays close to the original Scandinavian folktale: a poor boy confronts the personified North Wind, receives three enchanted gifts, and outwits a thieving innkeeper to win back justice for what was stolen.",
+  "tone": "Folktale; brisk, witty, and morally satisfying, with a touch of magical menace",
+  "characterCount": 5,
+  "hasAudio": true,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T12:23:28.061Z",
+    "audio": {
+      "model": "gpt-4o-mini-tts",
+      "prompt": "tts",
+      "generatedAt": "2026-03-28T12:27:03.879Z",
+      "voice": "nova"
+    }
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A poor boy tracks down the North Wind for stealing his meal and returns home with magical gifts that expose a thief and set things right.",
+  "hasInlineScenes": true
+}

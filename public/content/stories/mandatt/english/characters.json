@@ -1,0 +1,37 @@
+[
+  {
+    "name": "The Man’s Daughter",
+    "slug": "mans-daughter",
+    "description": "A clever, hardworking stepdaughter whose gentleness earns help from creatures, birds, and the landscape itself.",
+    "visualPrompt": "A modest teenage village girl with fair hair in a simple braid, wearing plain rustic clothes and an apron, with a calm, kind expression and capable hands; folklore storybook style",
+    "imagePath": "characters/mans-daughter.webp"
+  },
+  {
+    "name": "The Wife’s Daughter",
+    "slug": "wifes-daughter",
+    "description": "A lazy, selfish stepsister who mistreats those she meets and refuses good advice, bringing a curse upon herself.",
+    "visualPrompt": "A teenage girl with a sulky, defiant expression, slightly finer but untidy rustic clothing, loose hair and aggressive posture; she looks impatient and careless; folklore storybook style",
+    "imagePath": "characters/wifes-daughter.webp"
+  },
+  {
+    "name": "The Troll-Wife",
+    "slug": "troll-wife",
+    "description": "A harsh mistress living on a remote farm who sets impossible tasks, then offers three chests as wages.",
+    "visualPrompt": "An old troll-woman with rough, weathered skin and sharp eyes, broad shoulders, and heavy, dark homespun garments; she stands in a shadowed farmhouse doorway with an ominous presence; folklore style",
+    "imagePath": "characters/troll-wife.webp"
+  },
+  {
+    "name": "The Singing Birds",
+    "slug": "singing-birds",
+    "description": "Small birds that guide the worthy with practical instructions and warnings, acting as unseen helpers against the troll-wife.",
+    "visualPrompt": "A small flock of woodland birds perched near a well and farmyard, alert and expressive, as if singing advice; delicate, bright feathers against a green meadow; folklore illustration style",
+    "imagePath": "characters/singing-birds.webp"
+  },
+  {
+    "name": "The Apple Tree",
+    "slug": "apple-tree",
+    "description": "A heavily laden tree that rewards gentle care and later shelters the girl from pursuit by misleading the troll-wife.",
+    "visualPrompt": "A crooked apple tree bowed under abundant red apples, branches low enough to form a hiding canopy, with neat piles of apples at its roots; warm, enchanted meadow atmosphere; folklore storybook style",
+    "imagePath": "characters/apple-tree.webp"
+  }
+]

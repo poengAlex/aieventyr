@@ -1,0 +1,30 @@
+[
+  {
+    "id": "section-1",
+    "title": "Bjørnen tilbyder sig",
+    "text": "Ræven som Gjæter\n\nDer var engang en Kone som skulde ud og leie sig Gjæter. Saa mødte hun en Bjørn.\n\n«Hvor skal du hen?» sagde Bjørnen.\n\n«Aa jeg skal ud og leie mig Gjæter,» svarede Konen.\n\n«Vil du ikke have mig til Gjæter?» spurgte Bjørnen.\n\n«Jo, bare du kan lokke, saa —» sagde Konen.\n\n«Hø—il!» sagde Bjørnen.",
+    "imagePath": "scenes/scene-1.webp",
+    "imagePrompt": "En arbejdsom bondekone går ad en snoet skovsti med et tørklæde om håret og en lille bylt ved armen, på vej for at leje en gjæter. Foran hende rejser Bjørnen sig stor og brummende mellem granstammerne, med poterne lidt løftet som om han byder sig til. Konen ser tøvende på ham, mens hans grove lokken rungende bryder stilheden i den mørke skov."
+  },
+  {
+    "id": "section-2",
+    "title": "Ulvens uhyggelige lokken",
+    "text": "«Nei, dig vil jeg ikke have,» sagde Konen, da hun hørte det, og gik sin Vei.\n\nDa hun saa havde gaaet et Stykke, mødte hun en Ulv.\n\n«Hvor skal du hen?» sagde Ulven.\n\n«Jeg skal ud og leie mig Gjæter,» svarede Konen.\n\n«Vil du ikke have mig til Gjæter?» spurgte Ulven.\n\n«Ja, kan du lokke, saa —» sagde Konen.\n\n«Uh—uh!» sagde Ulven.",
+    "imagePath": "scenes/scene-2.webp",
+    "imagePrompt": "På en åben hedestykket ved skovkanten møder Konen Ulven: en sulten ulv med strittende pels og skarpe øjne, der læner sig frem mod hende. Konen holder sin bylt tættere ind til sig og tager et halvt skridt tilbage, mens Ulven lokker med et uhyggeligt \"Uh—uh!\"; luften virker kold, og skyggerne ligger tunge i lyngen."
+  },
+  {
+    "id": "section-3",
+    "title": "Rævens fine lokken",
+    "text": "«Nei, dig vil jeg ikke have,» sagde Konen.\n\nDa hun havde gaaet et Stykke til, saa mødte hun en Ræv.\n\n«Hvor skal du hen?» sagde Ræven.\n\n«Aa jeg skal ud og leie mig Gjæter,» sagde Konen.\n\n«Vil du ikke have mig til Gjæter?» spurgte Ræven.\n\n«Ja, bare du kan lokke, saa —» sagde Konen.\n\n«Dil—dal—holom!» sagde Ræven, saa grant og fint.",
+    "imagePath": "scenes/scene-3.webp",
+    "imagePrompt": "Konen står på en lille skovvej badet i mildt eftermiddagslys, da Ræven træder frem: en snu ræv med vågen mine og blank rød pels. Ræven løfter hovedet elegant og lokker smukt og fint, som om tonen næsten er en sang. Konens ansigt lysner, og hun vender sig mod ham med et beslutsomt nik, fristet af den smukke lokken."
+  },
+  {
+    "id": "section-4",
+    "title": "Hvid haletip af fløde",
+    "text": "«Ja, dig vil jeg have til Gjæter,» sagde Konen, og saa satte hun Ræven til at gjæte Kreaturene sine.\n\nDen første Dag Ræven gjætede, aad han op alle Gjederne til Konen; den andre Dagen gjorde den Ende paa alle Sauene hendes, og den tredje Dagen aad den op alle Kjørne.\n\nDa han saa kom hjem om Kvelden, spurgte Konen, hvor han havde gjort af alle Kreaturene hendes.\n\n«Skallen er i Aaen og Kroppen i Holtet,» sagde Ræven.\n\nHun stod netop og kjærnede; men hun syntes at hun ligevel maatte se efter dem, og mens hun var borte, smat Ræven ned i Kjærnen og aad op Fløden.\n\nDa saa Konen kom igjen og fik se det, blev hun saa sint, at hun tog det vesle Flødegrandet som var igjen, og slog efter Ræven, saa den fik en Skvæt paa Enden af Halen; deraf kommer det, at Ræven har hvid Haletip.",
+    "imagePath": "scenes/scene-4.webp",
+    "imagePrompt": "Inde i den lave bondegård står Konen ved sin træ-kjærne og kommer pludselig tilbage ind i rummet, harm og forpustet. Ræven, den snu gjæter, er netop smuttet op fra kjærnen med fløde om snuden, og Konen svinger en håndfuld af det sidste vesle flødegrand mod ham. Fløden sprøjter og rammer Enden af Halen, så der bliver en tydelig hvid haletip, mens Ræven springer væk i forskrækkelse."
+  }
+]
