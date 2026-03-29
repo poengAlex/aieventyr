@@ -944,19 +944,25 @@ onMounted(async () => {
   min-height: 100vh;
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(360px, 0.9fr);
+  align-items: start;
 }
 
 .dialog-image-panel {
-  position: relative;
+  position: sticky;
+  top: 0;
+  align-self: start;
   display: grid;
   place-items: center;
+  min-height: 100vh;
+  height: 100vh;
   padding: 36px;
   background: rgba(23, 27, 24, 0.9);
+  overflow: hidden;
 }
 
 .dialog-image {
   max-width: 100%;
-  max-height: calc(100vh - 72px);
+  max-height: calc(100vh - 96px);
   width: auto;
   height: auto;
   object-fit: contain;
@@ -1067,8 +1073,13 @@ onMounted(async () => {
   }
 
   .dialog-image-panel {
+    position: relative;
+    top: auto;
+    align-self: stretch;
+    height: auto;
     min-height: 50vh;
     padding: 56px 20px 20px;
+    overflow: visible;
   }
 
   .dialog-nav-button-left {
