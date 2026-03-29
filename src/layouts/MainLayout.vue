@@ -8,11 +8,13 @@
         </q-toolbar-title>
         <div class="toolbar-actions desktop-actions">
           <q-btn flat no-caps to="/" label="Library" />
+          <q-btn flat no-caps to="/images" label="Images" />
           <q-btn flat no-caps to="/settings" label="Settings" />
           <q-btn flat no-caps to="/about" label="About" />
         </div>
         <div class="toolbar-actions mobile-actions">
           <q-btn flat round icon="home" to="/" aria-label="Library" />
+          <q-btn flat round icon="photo_library" to="/images" aria-label="Images" />
           <q-btn flat round icon="tune" to="/settings" aria-label="Settings" />
           <q-btn flat round icon="info" to="/about" aria-label="About" />
         </div>
