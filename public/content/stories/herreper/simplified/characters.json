@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Per (Herreper)",
+    "slug": "per-herreper",
+    "description": "Den yngste sønnen som arver katten og blir kjent som «Herreper» når han følger kattens plan.",
+    "visualPrompt": "Ung norsk mann, slank og arbeidsvant, først i enkle filler, senere i overdådige klær som ser nye og kostbare ut; åpent ansikt med en blanding av usikkerhet og voksende selvtillit; står ofte litt bak katten som om han følger hennes ledelse.",
+    "imagePath": "characters/per-herreper.webp"
+  },
+  {
+    "name": "Katten",
+    "slug": "katten",
+    "description": "En smart katt som legger en plan, skaffer gaver til kongen, narrer et troll og viser seg å være en forhekset prinsesse.",
+    "visualPrompt": "Liten katt med blank pels og svært våkne øyne, holdning som virker nesten menneskelig klok; bærer seg som en som har kontroll; passer inn i eventyrstemning, gjerne med en subtil, kongelig verdighet i uttrykket.",
+    "imagePath": "characters/katten.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "Mottar gavene, blir nysgjerrig på Herreper og drar for å se om rikdommen hans er ekte.",
+    "visualPrompt": "Middelaldrende konge i praktfulle, men mer tradisjonelle kongelige klær; myndig blikk som veksler mellom begeistring, mistenksomhet og irritasjon; ledsaget av et lite følge som understreker hans status.",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Trollet",
+    "slug": "trollet",
+    "description": "Eieren av slottet som truer inntrengerne, men blir lurt til å se sola og sprekker.",
+    "visualPrompt": "Stort, mørkt og grovt troll med kraftige armer og villt ansikt; står ved en slottsport og virker rasende; tekstur som minner om stein og skog, med en skremmende, tung tilstedeværelse.",
+    "imagePath": "characters/trollet.webp"
+  },
+  {
+    "name": "Prinsessa",
+    "slug": "prinsessa",
+    "description": "Blir fri fra trollets forbannelse når katten mister hodet, og kan bli Herreper sin dronning.",
+    "visualPrompt": "Vakker prinsesse i lysende, eventyrlige klær; elegant og rolig, med et uttrykk av lettelse og verdighet etter å være frigjort; glansfullt hår og et nærvær som føles kongelig og magisk.",
+    "imagePath": "characters/prinsessa.webp"
+  }
+]

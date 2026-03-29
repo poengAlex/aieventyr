@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "De tolv Vildænder (Forenklet)",
+  "description": "En forenklet, moderne norsk versjon med tydeligere setninger og lettere flyt, der Snøhvit og Rosenrøds ordløse prøvelse og brødrenes forbannelse står i sentrum uten tungt, gammeldags språk.",
+  "tone": "Eventyrlig, spennende og håpefull, med mørke innslag",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T22:00:54.856Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En ung dronning må tie mens hun syr tolv plagg for å befri brødrene sine og avsløre en dødelig løgn ved kongens slott.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Aase (gåsepiken)",
+    "slug": "aase-gaasepike",
+    "description": "En sta og smart gåsepike som vet hva hun vil, og som til slutt avsløres som den rette for prinsen.",
+    "visualPrompt": "Ung norsk gåsepike med lyst hår flettet i en enkel flette, værbitt men vennlig ansikt, enkel kjole og forkle, holder en gåsestav, har et tøystykke surret rundt en finger for å skjule en ring",
+    "imagePath": "characters/aase-gaasepike.webp"
+  },
+  {
+    "name": "Kongssønnen fra England",
+    "slug": "kongsson-fra-england",
+    "description": "En prins som leter etter en brud og bruker en magisk stein for å finne sannheten.",
+    "visualPrompt": "Ung engelsk prins i enkel men fin reisebekledning med kappe, bestemt blikk og høflig holdning, bærer et lite smykke eller ringetui, fremstår nysgjerrig og mistenksom når noe ikke stemmer",
+    "imagePath": "characters/kongsson-fra-england.webp"
+  },
+  {
+    "name": "Sannhetssteinen",
+    "slug": "sannhetssteinen",
+    "description": "En magisk stein som avslører hvem som er ren og hvem som lyver når noen går over den.",
+    "visualPrompt": "Mørk, glatt stein med gammel, mystisk utstråling, ligger tungt på gulvet ved en seng eller ved en terskel, virker nesten levende med et svakt, eventyrlig skjær",
+    "imagePath": "characters/sannhetssteinen.webp"
+  },
+  {
+    "name": "Den tredje prinsessen",
+    "slug": "tredje-prinsesse",
+    "description": "Den siste av prinsessene som prøver å lure prinsen ved å sende Aase i stedet for seg.",
+    "visualPrompt": "Utenlandsk prinsesse i overdådig kjole og smykker, elegant frisyre, nervøst og beregnende uttrykk, står litt på avstand som om hun ikke vil nærme seg steinen",
+    "imagePath": "characters/tredje-prinsesse.webp"
+  }
+]

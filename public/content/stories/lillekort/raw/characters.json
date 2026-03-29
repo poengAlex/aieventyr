@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Lillekort",
+    "slug": "lillekort",
+    "description": "Et nyfødt, men tale- og handlingskraftig guttebarn som drar ut i verden, lurer tre enøyde kjerringer, får magiske gaver og frelser kongsdøtre fra troll.",
+    "visualPrompt": "En svært liten gutt med fillete, lånte klær som likevel bærer seg som en helt; senere kan han bære en strålende gullklædning under de avrevne lagene; holder et uvanlig kraftig sverd og virker kvikk, sta og fryktløs",
+    "imagePath": "characters/lillekort.webp"
+  },
+  {
+    "name": "Kong Lavring",
+    "slug": "kong-lavring",
+    "description": "Lillekorts tvillingbror, like ham av utseende, som blir tilkalt i nød og ender med å gifte seg med den eldste kongsdatteren gjennom brødrenes plan.",
+    "visualPrompt": "En ung mann som er nesten identisk med Lillekort når de bytter klær; solid og rolig, med enkel reisebekledning som kan forveksles med brorens, og et alvorlig, beskyttende uttrykk",
+    "imagePath": "characters/kong-lavring.webp"
+  },
+  {
+    "name": "Den yngste kongsdatteren",
+    "slug": "yngste-kongsdatter",
+    "description": "Prinsessen som skal hentes av tre troll, men blir reddet av Lillekort og hjelper ham å avsløre Ridder Røds løgn ved bryllupsbordet.",
+    "visualPrompt": "En ung prinsesse i sorgdrakt fra det svartkledde slottet, senere lysere og fri; ved stranden med tårevåte øyne som blir til lettelse; bærer preg av kongelig verdighet og besluttsomhet",
+    "imagePath": "characters/yngste-kongsdatter.webp"
+  },
+  {
+    "name": "Ridder Rød",
+    "slug": "ridder-rod",
+    "description": "En feig ridder som gjemmer seg i et tre mens andre kjemper, truer prinsessen til å lyve, og forsøker å ta æren for trolldrapene.",
+    "visualPrompt": "En rødkledd ridder med prangende belte og finere våpen enn motet tilsier; nervøse øyne og stram munn, ofte fremstilt som en skikkelse som trekker seg tilbake i skygge eller klamrer seg til en trestamme",
+    "imagePath": "characters/ridder-rod.webp"
+  },
+  {
+    "name": "Trollet (strandtrollet)",
+    "slug": "troll-strandtroll",
+    "description": "De fryktelige trollene som kommer torsdagkveld med flere hoder og jernstang for å hente prinsessen, og som Lillekort halshogger.",
+    "visualPrompt": "Et massivt, grotesk troll med mange hoder (fem, ti eller femten) og en enorm jernstang; ru hud som stein og mose, vid gapende munn og truende kroppsbygning som fyller strandkanten",
+    "imagePath": "characters/troll-strandtroll.webp"
+  }
+]

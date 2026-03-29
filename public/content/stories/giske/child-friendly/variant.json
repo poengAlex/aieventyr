@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Giske (Child Friendly)",
+  "description": "A gentler, more playful retelling that focuses on silly misunderstandings and comic mix-ups, keeping the mood warm and non-scary as Giske tries to figure out who she is after a harmless prank goes too far.",
+  "tone": "Warm, whimsical folktale humor with a soft, reassuring mood",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T21:40:53.719Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "After a harmless prank leaves her unrecognizable, Giske wanders from place to place causing cheerful confusion as she tries to discover who she is.",
+  "hasInlineScenes": true
+}

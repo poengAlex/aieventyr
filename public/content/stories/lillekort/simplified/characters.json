@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Lillekort",
+    "slug": "lillekort",
+    "description": "En svært liten, men smart og fryktløs gutt som drar ut i verden og vinner magiske gaver, beseirer troll og ordner opp med både kongerike og kjærlighet.",
+    "visualPrompt": "En liten gutt i slitte, lappede klær som senere skimrer i gull, med kvikke øyne og et lurt, rolig uttrykk; bærer et sverd som virker for stort for ham, men han holder det stødig; eventyrpreg og nordisk folketøy",
+    "imagePath": "characters/lillekort.webp"
+  },
+  {
+    "name": "Kong Lavring",
+    "slug": "kong-lavring",
+    "description": "Lillekorts tvillingbror, like av utseende, som kommer når han blir ropt på og til slutt hjelper til med å løse floken mellom de to prinsessene.",
+    "visualPrompt": "En ung mann som ser nesten identisk ut med Lillekort, men med litt mer selvsikker holdning; enkle reiseklær som kan byttes med brorens; våkent blikk og sterk fremtoning i nordisk eventyrstil",
+    "imagePath": "characters/kong-lavring.webp"
+  },
+  {
+    "name": "Ridder Rød",
+    "slug": "ridder-rod",
+    "description": "En feig og ærekjær ridder som gjemmer seg når trollene kommer, og prøver å stjele æren for redningen ved trusler og løgn.",
+    "visualPrompt": "En ridder i røde og mørke klær med blank rustningsdetalj, stram munn og kaldt blikk; står litt på avstand som om han helst vil slippe å kjempe; dramatisk, eventyrlig stil",
+    "imagePath": "characters/ridder-rod.webp"
+  },
+  {
+    "name": "Kongsdattera (den yngste)",
+    "slug": "prinsessa-yngste",
+    "description": "Prinsessen som skal hentes av tre troll, men som blir reddet av Lillekort og hjelper ham med en plan som avslører den falske ridderen.",
+    "visualPrompt": "En ung prinsesse i høytidelige, mørke sørgeklær som senere får glans av sølv og gull; uttrykk som veksler mellom frykt og besluttsomhet; langt hår, kongelig holdning, nordisk eventyrdrakt",
+    "imagePath": "characters/prinsessa-yngste.webp"
+  },
+  {
+    "name": "Trollet",
+    "slug": "troll",
+    "description": "Et av de digre trollene som kommer for å hente prinsessen, brutalt og overveldende med flere hoder og en tung jernstang.",
+    "visualPrompt": "Et enormt, grotesk troll med fem til femten hoder, ru hud og brede skuldre; holder en tykk jernstang; damp og sjøsprøyt rundt kroppen, ville øyne og truende kraft i klassisk norsk eventyrstil",
+    "imagePath": "characters/troll.webp"
+  }
+]

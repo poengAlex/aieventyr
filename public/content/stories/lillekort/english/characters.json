@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Littlecourt",
+    "slug": "littlecourt",
+    "description": "A poor, bold, quick-witted boy who leaves home at birth, bargains for magical gifts, slays the three trolls, exposes Sir Red’s lie, and later rescues the elder princess from an undersea troll hall.",
+    "visualPrompt": "A small, sturdy boy with bright, clever eyes and tousled hair, first in patched rag-clothes with a simple bundle, later revealed in a radiant gold garment; carries an ornate sword and keeps a tiny ship tucked away; classic European folktale style.",
+    "imagePath": "characters/littlecourt.webp"
+  },
+  {
+    "name": "King Lavring",
+    "slug": "king-lavring",
+    "description": "Littlecourt’s twin brother, identical in appearance, summoned in need and ultimately used to ensure both princesses are fairly matched through a clever exchange.",
+    "visualPrompt": "A youthful boy nearly identical to Littlecourt, healthy and confident, wearing swapped noble-looking clothes; similar face and hair, slightly more composed posture; folktale illustration style.",
+    "imagePath": "characters/king-lavring.webp"
+  },
+  {
+    "name": "Sir Red",
+    "slug": "sir-red",
+    "description": "A boastful court knight who hides in a tree during each troll’s arrival, threatens the princess into naming him as savior, and is finally exposed by proof and punished.",
+    "visualPrompt": "A gaudy, self-important knight in red-toned finery with a proud stance that masks cowardice; pale, tense expression; shown with a crumpled handkerchief as if hiding grisly trophies; traditional storybook art.",
+    "imagePath": "characters/sir-red.webp"
+  },
+  {
+    "name": "The Younger Princess",
+    "slug": "younger-princess",
+    "description": "The king’s daughter promised to three trolls, saved by Littlecourt, and the one he truly chooses; she helps orchestrate the wedding-day reveal.",
+    "visualPrompt": "A young princess with gentle but resolute expression, wearing dark mourning at first and later bright court dress; hints of gold, silver, and brass garments draped near her; fairytale setting, warm, dignified.",
+    "imagePath": "characters/younger-princess.webp"
+  },
+  {
+    "name": "The Sea Troll",
+    "slug": "sea-troll",
+    "description": "A monstrous multi-headed troll that comes on Thursdays to claim the princess, and whose kin later holds the elder princess captive in a sea-bottom hall until Littlecourt destroys the troll host with impossibly strong brew.",
+    "visualPrompt": "A towering, grotesque troll with multiple snarling heads and a massive iron bar, skin like wet stone, seaweed and brine clinging to it; ominous presence amid stormy mist; folktale illustration style.",
+    "imagePath": "characters/sea-troll.webp"
+  }
+]

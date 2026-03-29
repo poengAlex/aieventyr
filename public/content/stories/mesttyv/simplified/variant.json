@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Mestertyven (Forenklet)",
+  "description": "En forenklet utgave skrevet på moderne norsk med tydeligere setninger og jevnere flyt, som gjør den klassiske fortellingen lettere å lese uten å endre handlingen eller humoren.",
+  "tone": "Eventyrlig, spennende og humoristisk",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-29T08:21:14.479Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En fattig gutt blir mestertyv og må bevise evnene sine gjennom dristige knep for å vinne amtmannens datter.",
+  "hasInlineScenes": true
+}

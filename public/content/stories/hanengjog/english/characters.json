@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Rooster",
+    "slug": "rooster",
+    "description": "The first to wake, quick to claim the whole cow as his prize.",
+    "visualPrompt": "A vibrant red-and-gold rooster with a tall comb and confident stance, chest puffed out, sharp attentive eyes, perched on a rustic wooden fence in early morning light, classic folktale illustration style",
+    "imagePath": "characters/rooster.webp"
+  },
+  {
+    "name": "Cuckoo",
+    "slug": "cuckoo",
+    "description": "Woken by the crow, he insists on an equal share with his repeated call.",
+    "visualPrompt": "A small gray-brown cuckoo with subtle striping, alert and slightly indignant expression, perched on a low branch near the farmyard, wings tucked, folktale storybook style with gentle detail",
+    "imagePath": "characters/cuckoo.webp"
+  },
+  {
+    "name": "Year-Rooster",
+    "slug": "year-rooster",
+    "description": "The last to wake, he urges his brothers to share what is right and fair.",
+    "visualPrompt": "An older, dignified rooster with darker plumage and a calmer posture, thoughtful eyes, standing on the ground like a mediator, feathers slightly weathered, warm folkloric illustration style",
+    "imagePath": "characters/year-rooster.webp"
+  },
+  {
+    "name": "The Cow",
+    "slug": "cow",
+    "description": "The disputed purchase—quietly central to the birds’ quarrel about fairness.",
+    "visualPrompt": "A gentle brown-and-white cow with kind eyes, standing calmly in a grassy yard with morning dew, simple rustic surroundings, painted in a classic folktale storybook style",
+    "imagePath": "characters/cow.webp"
+  }
+]

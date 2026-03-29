@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Mestertyven (yngstesønnen)",
+    "slug": "mestertyven",
+    "description": "En ressurssterk, blakk unggutt som lærer seg kriminell finesse for å overleve, men som også har en egen moral og vil ut av livet som tyv.",
+    "visualPrompt": "Ung norsk mann i begynnelsen av 20-årene, skarp og våken i blikket, slank og smidig; veksler mellom fillete jakke med sotet ansikt og en dyr, skreddersydd dress; enkel ryggsekk, praktiske sko, små arr på knokene, en rolig selvsikker holdning.",
+    "imagePath": "characters/mestertyven.webp"
+  },
+  {
+    "name": "Den gamle dama i basen",
+    "slug": "den-gamle-dama",
+    "description": "En sliten eldre kvinne som holder til i en ombygd industrilåve og lever tett på en gjeng hun frykter, men som likevel gir gutten en sjanse til å overleve natta.",
+    "visualPrompt": "Eldre kvinne med grått hår i en løs knute, tøfler og sliten hettegenser over nattkjole; trøtt, årvåkent ansikt med dype linjer; står i en stor, røff låve med vedovnsglød, ryddig men hardt levd miljø.",
+    "imagePath": "characters/den-gamle-dama.webp"
+  },
+  {
+    "name": "Stormannen",
+    "slug": "stormannen",
+    "description": "En lokal rikmann med makt og prestisje som setter stadig mer ydmykende prøver for å avsløre mestertyven, men ender med å bli lurt på egne premisser.",
+    "visualPrompt": "Middelaldrende mann med velstelt hår, dyr ytterjakke og selvsikker mine; bærer preg av kontroll og status; omgitt av stor eiendom med moderne stall, konkurransehester og velholdte bygg, men med en anspent uro bak smilet.",
+    "imagePath": "characters/stormannen.webp"
+  },
+  {
+    "name": "Stormannens datter",
+    "slug": "stormannens-datter",
+    "description": "Smart og snill, med sterk integritet; hun lar seg ikke blende av triks, men krever at mestertyven kan lære å gi tilbake.",
+    "visualPrompt": "Ung kvinne i 20-årene, enkel og elegant stil uten overdådighet; rolig, tydelig blikk; står på gårdstunet i dempet lys, hendene i jakkelommene, uttrykk av både varme og kravstor rettferdighet.",
+    "imagePath": "characters/stormannens-datter.webp"
+  },
+  {
+    "name": "Presten",
+    "slug": "presten",
+    "description": "Selvsikker og moraliserende, overbevist om at han ikke kan lures—helt til mestertyven bruker forkledning og religiøst språk mot ham.",
+    "visualPrompt": "Mann i 40–60-årene med stram holdning og selvsikkert ansikt; enkel prestekrage og mørk frakk; står i en hage ved et stort lønnetre, med et uttrykk som veksler mellom from ærefrykt og stigende panikk.",
+    "imagePath": "characters/presten.webp"
+  }
+]

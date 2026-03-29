@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Herreper (forenklet)",
+  "description": "En forenklet versjon på moderne norsk med klarere setninger og jevnere flyt, som gjør eventyret lettere å lese uten å endre handlingen: Per arver en katt, lures inn i rollen som «Herreper», og ender med slott, rike og en forhekset prinsesse.",
+  "tone": "Folkeeventyr, lett og tydelig, med humor, list og rettferdig slutt",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:29:59.679Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Per arver en katt som med kløkt skaffer ham rikdom, et slott og en prinsesse som blir fri fra en forbannelse.",
+  "hasInlineScenes": true
+}

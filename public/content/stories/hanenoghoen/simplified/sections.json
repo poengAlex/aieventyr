@@ -1,0 +1,16 @@
+[
+  {
+    "id": "section-1",
+    "title": "Løftet om sko",
+    "text": "Hanen og høna\n\nHøna sa: «Du lover meg sko, år etter år, men jeg får ingen sko!»\n\nHanen svarte: «Du skal nok få sko!»",
+    "imagePath": "scenes/scene-1.webp",
+    "imagePrompt": "På tunet ved et enkelt gårdshus står Høna, arbeidsom og direkte, med nakne, støvete føtter og et irritert blikk, og peker bestemt mot bakken som for å vise at hun fortsatt går barbeint. Foran henne står Hanen, selvsikker og litt unnvikende, med brystet fram og et lett smil, som om han rolig gjentar et løfte han ikke helt følger opp. Stemningen er spent mellom dem, med hønsegården og halm i bakgrunnen."
+  },
+  {
+    "id": "section-2",
+    "title": "Egg til byen",
+    "text": "«Jeg verper egg og gjør nytte for meg, og likevel må jeg gå her barbeint!» sa høna.\n\nDa sa hanen: «Ta eggene dine og reis til byen og kjøp deg sko, så slipper du å gå barbeint lenger.»",
+    "imagePath": "scenes/scene-2.webp",
+    "imagePrompt": "Høna står ved grusveien ut fra gården med en kurv full av egg tett inntil kroppen, klar til å dra, men tydelig lei og oppgitt over å måtte ordne alt selv. Ved siden av henne står Hanen, selvsikker og litt unnvikende, og gjør en avfeiende håndbevegelse mot veien som om han sier at hun bare kan reise til byen og kjøpe sko. Hønas nakne føtter mot den kalde bakken er tydelig synlige, og eggene glitrer svakt i lyset."
+  }
+]

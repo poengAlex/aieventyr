@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "Soria Moria Slot (Cleaned)",
+  "description": "A cleaned, OCR-restored rendition that preserves the original Norwegian literary voice—archaic spellings, rhythmic phrasing, and folktale cadence—while smoothing transcription noise for uninterrupted reading.",
+  "tone": "Classic Nordic fairy-tale adventure, brisk and wondrous with a plainspoken, old-world storytelling voice",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:09:51.476Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Ash-boy Halvor wins enchanted strength, frees three princesses from multi-headed trolls, loses them by a broken taboo, and races the winds to reclaim his bride at Soria Moria Slot.",
+  "hasInlineScenes": true
+}

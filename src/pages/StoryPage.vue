@@ -54,6 +54,7 @@
                 @click="openImage(getInlineScenePath(section.imagePath), section.title)"
               />
             </article>
+            <div ref="storyEndMarker" class="story-end-marker" aria-hidden="true" />
           </div>
         </div>
 
@@ -188,7 +189,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import FullscreenImageDialog from 'src/components/FullscreenImageDialog.vue'
 import VariantSelector from 'src/components/VariantSelector.vue'
@@ -217,10 +218,12 @@ const activeCharacterIndex = ref(0)
 const activeGallerySlide = ref('')
 const galleryFullscreen = ref(false)
 const galleryCarousel = ref<{ toggleFullscreen: () => void } | null>(null)
+const storyEndMarker = ref<HTMLElement | null>(null)
 const activeImage = ref({
   src: '',
   alt: '',
 })
+let readObserver: IntersectionObserver | null = null
 
 const storyId = computed(() => String(route.params.id))
 const currentIndex = computed(() => manifestStories.value.findIndex((item) => item.id === storyId.value))
@@ -324,6 +327,34 @@ function toggleGalleryFullscreen() {
   galleryCarousel.value?.toggleFullscreen()
 }
 
+function teardownReadObserver() {
+  readObserver?.disconnect()
+  readObserver = null
+}
+
+function markStoryAsReadWhenComplete() {
+  if (!story.value || settings.isRead(story.value.id, activeVariant.value)) return
+  settings.markAsRead(story.value.id, activeVariant.value, true)
+}
+
+function setupReadObserver() {
+  teardownReadObserver()
+  if (!story.value || settings.isRead(story.value.id, activeVariant.value) || !storyEndMarker.value) return
+
+  readObserver = new IntersectionObserver(
+    (entries) => {
+      if (!entries.some((entry) => entry.isIntersecting)) return
+      markStoryAsReadWhenComplete()
+      teardownReadObserver()
+    },
+    {
+      threshold: 0.1,
+    },
+  )
+
+  readObserver.observe(storyEndMarker.value)
+}
+
 function showPreviousCharacter() {
   if (!bundle.value?.characters.length) return
   activeCharacterIndex.value =
@@ -336,6 +367,7 @@ function showNextCharacter() {
 }
 
 async function loadPage() {
+  teardownReadObserver()
   loading.value = true
   try {
     const manifest = await loadManifest()
@@ -353,15 +385,17 @@ async function loadPage() {
     allVariantBundles.value = await Promise.all(
       story.value.availableVariants.map((variant) => loadVariantBundle(storyId.value, variant)),
     )
-    settings.markAsRead(storyId.value, true)
   } catch (error: unknown) {
     createNotify((error as Error).message, 'Failed to load story')
   } finally {
     loading.value = false
+    await nextTick()
+    setupReadObserver()
   }
 }
 
 onMounted(loadPage)
+onBeforeUnmount(teardownReadObserver)
 
 watch([storyId, () => settings.variant], loadPage)
 
@@ -474,6 +508,10 @@ watch(galleryItems, (items) => {
 .story-sections {
   display: grid;
   gap: 28px;
+}
+
+.story-end-marker {
+  height: 1px;
 }
 
 .story-section {

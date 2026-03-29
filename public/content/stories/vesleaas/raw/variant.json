@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "Vesle Aase Gaasepige (raw OCR)",
+  "description": "Denne varianten er den rå OCR-uttrekken av kildeteksten, med originale sidetall, linjebrudd, typografiske ujevnheter og enkelte feil/artefakter fra skanningen bevart slik de står.",
+  "tone": "Folkeeventyr, direkte og litt ru i språket, med gjentakelser og en moralsk-ironisk driv",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:47:58.116Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Gåsepiken Aase lurer seg forbi prøven som avslører prinsessenes hemmeligheter og ender med å få kongssønnen fra England.",
+  "hasInlineScenes": true
+}

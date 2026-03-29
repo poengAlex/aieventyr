@@ -22,13 +22,13 @@
           <div class="panel-label">Reading Progress</div>
           <div class="panel-value">{{ readCount }}</div>
           <p class="panel-copy">
-            {{ readCount === 1 ? 'story is marked as read.' : 'stories are marked as read.' }}
+            {{ readCount === 1 ? 'variant is marked as read.' : 'variants are marked as read.' }}
           </p>
           <q-btn
             unelevated
             no-caps
             color="primary"
-            label="Reset read stories"
+            label="Reset read progress"
             :disable="readCount === 0"
             @click="settings.resetProgress()"
           />

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Per",
+    "slug": "per",
+    "description": "Yngste bror uten arv og uten plan, som lar seg bære av kattens dristige opplegg og lærer å spille rollen som «Herreper» i en moderne verden.",
+    "visualPrompt": "Ung norsk mann i midten av tjueårene, slank og litt forbløffet blikk, kort mørkblondt hår, iført en dyr, perfekt sittende marineblå dress og blanke sko, holder seg rak men avsløres av nervøse hender; moderne, nøktern stil",
+    "imagePath": "characters/per.webp"
+  },
+  {
+    "name": "Katten (forbannet kvinne)",
+    "slug": "katten-forbannet-kvinne",
+    "description": "En talende grå katt med iskald autoritet som orkestrerer gaver, rykter og eierskap—og som skjuler at hun egentlig er en kvinne under en forbannelse.",
+    "visualPrompt": "Liten grå katt med tett pels og intelligente, nesten menneskelige øyne, bærer seg som en general; et hint av noe kongelig i holdningen, diskret glans i pelsen som virker uvanlig i sollys",
+    "imagePath": "characters/katten-forbannet-kvinne.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "En moderne monark vant til å bli beundret, som både lar seg imponere og provosere når en ukjent «Herreper» viser tegn på å være rikere enn ham.",
+    "visualPrompt": "Mann i femtiårene med kontrollert karisma og stramt blikk, velstelt hår, iført moderne, formell dress med diskrete kongelige detaljer; omgitt av et nøkternt sikkerhetspreg uten å dominere scenen",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Trollet (den skjulte eieren)",
+    "slug": "trollet-den-skjulte-eieren",
+    "description": "En truende, usett makt bak godset—en brutal «eier» som opptrer som et monster i moderne forkledning og som katten til slutt lurer i dagslyset.",
+    "visualPrompt": "Stor, mørk skikkelse i skygge med uproporsjonalt brede skuldre og grove hender, antydning til steinaktig hud og glødende øyne; bærer moderne, slitt yttertøy som ikke helt skjuler det overnaturlige",
+    "imagePath": "characters/trollet-den-skjulte-eieren.webp"
+  }
+]

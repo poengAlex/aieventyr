@@ -1,0 +1,16 @@
+[
+  {
+    "id": "section-1",
+    "title": "Løftet om sko",
+    "text": "Hanen og Hønen\n\nHønen: «Du lover mig Sko, Aar for Aar, Aar for Aar, og jeg faar ingen Sko!»\n\nHanen: «Du skal nok faa Sko!»",
+    "imagePath": "scenes/scene-1.webp",
+    "imagePrompt": "In a rustic Scandinavian farmyard, Hønen—a hardworking hen with a worn, determined look—stands firmly before Hanen, gesturing sharply with one wing as if demanding what she has been promised. Hanen, a confident rooster with an upright stance and proud plumage, faces her calmly and assertively, as though insisting she will get her shoes. The dirt ground and scattered straw emphasize Hønen’s bare, uncomfortable feet as the argument takes center stage."
+  },
+  {
+    "id": "section-2",
+    "title": "Afgang til byen",
+    "text": "Hønen: «Jeg værper Æg, og jeg gjør godt, og endda maa jeg gaa her barfod!»\n\nHanen: «Saa tag dine Æg og reis til Byen og kjøb dig Sko, og gaa ikke længer barfod!»",
+    "imagePath": "scenes/scene-2.webp",
+    "imagePrompt": "Hønen, the hardworking hen, stands at the edge of the farmyard holding a small bundle or basket of freshly laid eggs close to her body, ready to travel. Her expression is resolute—tired of going barefoot—while a dusty road leads away toward a distant town. Nearby, Hanen the confident rooster stands behind her in the yard, posture proud and encouraging, as if urging her onward to buy the shoes herself."
+  }
+]

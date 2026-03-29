@@ -1,0 +1,22 @@
+{
+  "variant": "cleaned",
+  "displayTitle": "De syv Folerne (Cleaned)",
+  "description": "Denne variant er OCR-restaureret for at give en renere, mere flydende læseoplevelse, samtidig med at den oprindelige folkeeventyrtone, ordvalg og rytme bevares så tæt som muligt.",
+  "tone": "Folkeeventyr, magisk, prøvelser og snarrådig humor",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T21:20:10.984Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Askeladden vinder prinsessen ved at gennemskue de syv folers hemmelighed og bryde en trolddom.",
+  "hasInlineScenes": true
+}

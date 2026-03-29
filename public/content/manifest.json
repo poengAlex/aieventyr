@@ -1,6 +1,6 @@
 {
   "name": "Aieventyr",
-  "generatedAt": "2026-03-28T18:26:31.119Z",
+  "generatedAt": "2026-03-29T08:49:39.257Z",
   "defaultVariant": "simplified",
   "supportedVariants": [
     "raw",
@@ -304,6 +304,230 @@
         "modern"
       ],
       "coverImage": "stories/rfoxgjt/simplified/main.webp"
+    },
+    {
+      "id": "smehel",
+      "index": 21,
+      "canonicalTitle": "Smeden som de ikke turte slippe inn i helvete",
+      "originalTitle": "Smeden som de ikke torde slippe ind i Helvede",
+      "summary": "En smed lurer Fanden gang på gang med tre ønsker og må til slutt finne ut hvor han egentlig hører hjemme.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/smehel/simplified/main.webp"
+    },
+    {
+      "id": "hanenoghoen",
+      "index": 22,
+      "canonicalTitle": "Hanen og høna",
+      "originalTitle": "Hanen og Hønen",
+      "summary": "Høna er lei av tomme løfter, så hanen ber henne kjøpe sko selv med eggene sine.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/hanenoghoen/simplified/main.webp"
+    },
+    {
+      "id": "hanengjog",
+      "index": 23,
+      "canonicalTitle": "Hanen, gjøken og århanen",
+      "originalTitle": "Hanen, Gjøgen, og Aarhanen",
+      "summary": "Tre fugler kjøper en ku sammen og krangler om hvem som våknet først og dermed fortjener den.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/hanengjog/simplified/main.webp"
+    },
+    {
+      "id": "lillekort",
+      "index": 24,
+      "canonicalTitle": "Lillekort",
+      "originalTitle": "Lillekort",
+      "summary": "Den vesle Lillekort bruker list og magiske gaver til å redde to prinsesser og avsløre en feig ridder.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/lillekort/simplified/main.webp"
+    },
+    {
+      "id": "dukgras",
+      "index": 25,
+      "canonicalTitle": "Dukken i gresset",
+      "originalTitle": "Dukken i Græsset",
+      "summary": "Askeladden finner en bitteliten dukke i gresset som syr en skjorte på én dag og blir til slutt hans vakre brud.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/dukgras/simplified/main.webp"
+    },
+    {
+      "id": "paalandr",
+      "index": 26,
+      "canonicalTitle": "Pål Andrestuen",
+      "originalTitle": "Paal Andrestuen",
+      "summary": "En slu tjenestegutt lurer en utro kone til å rope ut hemmeligheten sin og taper et veddemål hun aldri burde tatt.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/paalandr/simplified/main.webp"
+    },
+    {
+      "id": "soriamor",
+      "index": 27,
+      "canonicalTitle": "Soria Moria slott",
+      "originalTitle": "Soria Moria Slot",
+      "summary": "Halvor redder tre prinsesser fra troll, mister dem ved et uhell, og kjemper seg tilbake til Soria Moria for å vinne den yngste igjen.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/soriamor/simplified/main.webp"
+    },
+    {
+      "id": "herreper",
+      "index": 28,
+      "canonicalTitle": "Herreper",
+      "originalTitle": "Herreper",
+      "summary": "Per arver en katt som med kløkt skaffer ham rikdom, et slott og en prinsesse som blir fri fra en forbannelse.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/herreper/simplified/main.webp"
+    },
+    {
+      "id": "vesleaas",
+      "index": 29,
+      "canonicalTitle": "Vesle Aase gåsepike",
+      "originalTitle": "Vesle Aase Gaasepige",
+      "summary": "En gåsepike lurer fram sannheten om prinsessene og ender med å gifte seg med prinsen hun vil ha.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/vesleaas/simplified/main.webp"
+    },
+    {
+      "id": "gutfand",
+      "index": 30,
+      "canonicalTitle": "Gutten og fanden",
+      "originalTitle": "Gutten og Fanden",
+      "summary": "En smart gutt får fanden til å krype inn i en nøtt og tar ham med til smeden for å knuse den.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/gutfand/simplified/main.webp"
+    },
+    {
+      "id": "syvfoler",
+      "index": 31,
+      "canonicalTitle": "De syv føllene",
+      "originalTitle": "De syv Folerne",
+      "summary": "Askeladden må gjete kongens sju føll og finne ut hva de spiser og drikker for å vinne prinsessa og bryte en forbannelse.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/syvfoler/simplified/main.webp"
+    },
+    {
+      "id": "giske",
+      "index": 32,
+      "canonicalTitle": "Giske",
+      "originalTitle": "Giske",
+      "summary": "Når husholderska Giske blir gjort ugjenkjennelig av husbonden, tror hun selv at hun er fanden og skaper panikk i bygda.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/giske/simplified/main.webp"
+    },
+    {
+      "id": "tolvander",
+      "index": 33,
+      "canonicalTitle": "De tolv villendene",
+      "originalTitle": "De tolv Vildænder",
+      "summary": "En ung dronning må tie mens hun syr tolv plagg for å befri brødrene sine og avsløre en dødelig løgn ved kongens slott.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/tolvander/simplified/main.webp"
+    },
+    {
+      "id": "mesttyv",
+      "index": 34,
+      "canonicalTitle": "Mestertyven",
+      "originalTitle": "Mestertyven",
+      "summary": "En fattig gutt blir mestertyv og må bevise evnene sine gjennom dristige knep for å vinne amtmannens datter.",
+      "availableVariants": [
+        "raw",
+        "cleaned",
+        "simplified",
+        "english",
+        "child-friendly",
+        "modern"
+      ],
+      "coverImage": "stories/mesttyv/simplified/main.webp"
     }
   ]
 }

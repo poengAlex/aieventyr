@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Halvor",
+    "slug": "halvor",
+    "description": "A seemingly lazy ash-raker who reveals stubborn courage, slays the trolls, and must journey back to Soria Moria after breaking the princesses’ taboo.",
+    "visualPrompt": "A young Nordic man with tousled dark hair and an earnest, stubborn expression; first shown in patched, sooty clothes from sitting in an hearth, later glimpsed in princely finery with a simple ring on his finger; sturdy build, travel-worn hands, carrying himself with quiet determination",
+    "imagePath": "characters/halvor.webp"
+  },
+  {
+    "name": "The Youngest Princess",
+    "slug": "youngest-princess",
+    "description": "The brightest and most devoted of the three sisters, Halvor’s chosen beloved, bound to ring-magic and the strict rule of secrecy.",
+    "visualPrompt": "A radiant young princess with light, shimmering hair and calm, commanding eyes; dressed in elegant, old-world court garments with subtle magical motifs; poised and affectionate yet capable of decisive action, wearing delicate jewelry that echoes the power of enchanted rings",
+    "imagePath": "characters/youngest-princess.webp"
+  },
+  {
+    "name": "The Many-Headed Troll",
+    "slug": "many-headed-troll",
+    "description": "The monstrous captor of the princesses, reeking out ‘christian man’s blood’ and wielding an enormous sword only strength-magic can lift.",
+    "visualPrompt": "A towering, hulking troll with rough stone-like skin and multiple snarling heads; each head has different grimacing features and jagged teeth; massive shoulders filling a doorway, clutching an oversized battle-sword, presence oppressive and feral",
+    "imagePath": "characters/many-headed-troll.webp"
+  },
+  {
+    "name": "Vestenvinden (The West Wind)",
+    "slug": "west-wind",
+    "description": "A personified wind who knows the road to Soria Moria and carries Halvor across heaths and fjells toward the wedding.",
+    "visualPrompt": "An elemental, human-like figure formed from swirling air and pale cloud, with hints of a cloak made of gusts; hair streaming like mist, eyes bright as stormlight; leaves, needles, and sea-spray spiraling around him, conveying speed and power",
+    "imagePath": "characters/west-wind.webp"
+  },
+  {
+    "name": "The Old Woman of the Forest Hut",
+    "slug": "old-woman-forest-hut",
+    "description": "A strange, ancient helper who questions the moon and bargains for Halvor’s horse in exchange for far-stepping boots.",
+    "visualPrompt": "A very old, grey-haired woman in a dim woodland hut, thin and sharp-featured with an exaggeratedly long nose; wrapped in worn woolen layers, eyes lively and cunning; holding a pair of battered, magical boots that seem to hum with restless motion",
+    "imagePath": "characters/old-woman-forest-hut.webp"
+  }
+]

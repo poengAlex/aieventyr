@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Giske",
+    "slug": "giske",
+    "description": "A stubborn, talkative farmhand who’s determined to marry her employer—until a humiliating prank leaves her bald, greasy, and soot-blackened, convinced she must be the devil.",
+    "visualPrompt": "A long-legged woman in work clothes suited for a modern smallholding, scalp freshly shaved, skin and clothing smeared with greasy tallow and black chimney soot; intense, earnest expression; hands rough from fieldwork; unsettling yet oddly pitiable presence.",
+    "imagePath": "characters/giske.webp"
+  },
+  {
+    "name": "The Widower",
+    "slug": "the-widower",
+    "description": "A solitary smallholder who wants peace and quiet, and resorts to a cruel, practical stunt to get Giske to leave without a direct confrontation.",
+    "visualPrompt": "A middle-aged widower in practical modern farmwear—worn jacket, work boots, weathered face—standing near a tractor and tools; cautious eyes, tight-lipped expression that suggests equal parts guilt and relief; rural Norwegian setting.",
+    "imagePath": "characters/the-widower.webp"
+  },
+  {
+    "name": "The Petty Thieves",
+    "slug": "the-petty-thieves",
+    "description": "Two small-time local crooks who try to steal livestock and pantry goods, only to have their plans ruined by Giske’s booming voice and terrifying appearance.",
+    "visualPrompt": "Two lanky men in mismatched hoodies and cheap outdoor jackets with stuffed sacks, moving nervously along a forest track; faces tense and wary; body language ready to bolt; modern village-outskirts vibe.",
+    "imagePath": "characters/the-petty-thieves.webp"
+  },
+  {
+    "name": "The Priest",
+    "slug": "the-priest",
+    "description": "A sleepy parish priest hauled out on a Sunday morning to ‘bind the devil,’ who ends up literally thrown into a bog when panic takes over.",
+    "visualPrompt": "An older priest hurriedly dressed for early morning—wool hat, slippers, and a partially buttoned coat over sleepwear—clutching a small book; expression shifting from stern duty to alarm; wet, misty bogland nearby.",
+    "imagePath": "characters/the-priest.webp"
+  }
+]

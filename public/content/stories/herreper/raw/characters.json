@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Per (Herreper)",
+    "slug": "per-herreper",
+    "description": "The youngest brother who starts with nothing but a cat, then is presented to the king as the grand lord Herreper and rides a wave of the cat’s schemes into sudden power.",
+    "visualPrompt": "A young Nordic farm boy with tousled hair and a wary, earnest face, initially in worn patched clothes and simple boots; later shown in lavish, gold-trimmed finery that looks almost too grand for him, his posture a mix of humility and startled confidence.",
+    "imagePath": "characters/per-herreper.webp"
+  },
+  {
+    "name": "Katten (fortryllet prinsesse)",
+    "slug": "katten-prinsesse",
+    "description": "A fiercely intelligent cat who hunts grand gifts, engineers the Herreper deception, and ultimately reveals herself as an enchanted princess once the troll is defeated.",
+    "visualPrompt": "A sleek gray cat with bright, commanding eyes and a poised, imperious stance, appearing uncannily clever; hints of hidden royalty in subtle details like a graceful bearing and an almost crown-like tufting around the head, with an aura of contained magic.",
+    "imagePath": "characters/katten-prinsesse.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "A proud ruler delighted by extravagant gifts, increasingly suspicious of Herreper’s boasts, and driven to see the truth for himself.",
+    "visualPrompt": "A middle-aged king in a heavy, ornate cloak with fur trim, wearing a simple but authoritative crown; his expression shifts between pleased greed, curiosity, and simmering irritation, hands clasped as if weighing pride against wonder.",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Troldet",
+    "slug": "troldet",
+    "description": "The brutal owner of the shining castle, undone by the cat’s cunning when sunlight turns him to ruin.",
+    "visualPrompt": "A hulking troll with rough, stone-like skin and a broad, shadowed face, looming at a grand gate with clenched fists; his presence feels heavy and oppressive, as if darkness gathers around him even in daylight.",
+    "imagePath": "characters/troldet.webp"
+  }
+]

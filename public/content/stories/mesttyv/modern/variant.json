@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Mestertyven (Modern)",
+  "description": "En samtidsnorsk versjon der fattigdom, småbystatus og moderne rekvisitter (mobiler, biler, dress, konkurransehester) gir eventyret et røffere og mer sosialrealistisk preg, mens mesterstyveriet blir en smart kamp mot gjenger og lokale maktfolk.",
+  "tone": "Rask, slu og jordnær, med mørk humor og en underliggende varme.",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-29T08:22:06.596Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En blakk yngstesønn blir en mesterlig svindler som utmanøvrerer en gjeng og en rik stormann for å skape seg et nytt liv.",
+  "hasInlineScenes": true
+}

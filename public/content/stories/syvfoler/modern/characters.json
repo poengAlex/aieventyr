@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Yngstesønnen som alle undervurderer, men som nekter å gi etter for lettvinte snarveier og følger sporene helt til han kan bryte trolldommen.",
+    "visualPrompt": "Ung norsk mann i tidlig 20-årene, rufsete hår, kvikk og årvåken; enkel, slitt hettegenser, mørke arbeidsbukser, robuste støvler; bærer et gammelt, rustent sverd med uventet tyngde og verdighet; uttrykk av sta ro og humor.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "En streng, mistenksom hersker som setter brutale vilkår for å teste hvem som virkelig kan mestre de sju føllene og forstå hemmeligheten deres.",
+    "visualPrompt": "Middelaldrende mann med autoritær holdning; moderne, skreddersydd frakk med diskrete regalier, hardt blikk; står på trappen til et moderne slott med vakter i bakgrunnen; utstråler kontroll, stolthet og kald rettferdighet.",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Den gamle strikkekona",
+    "slug": "den-gamle-strikkekona",
+    "description": "En krokrygget fristerinne ved bergsprekken som lokker med trøst og hvile for å få gjeterne til å svikte.",
+    "visualPrompt": "Eldre krokrygget kvinne med skarpe øyne og tynn munn; slitte klær, sjal og fingerløse votter; sitter på en lav stein ved en mørk bergsprekk og strikker med et nuppete garnnøste; aura av ubehagelig varme og skjult vrede.",
+    "imagePath": "characters/den-gamle-strikkekona.webp"
+  },
+  {
+    "name": "Prinsessa",
+    "slug": "prinsessa",
+    "description": "Kongens datter som blir premien i prøven, og som gradvis forstår hvilket mot og hvilken pris Askeladden faktisk har båret.",
+    "visualPrompt": "Ung kvinne med rolig styrke; moderne festkjole med tidløst snitt, diskret smykker; varm, intelligent blick; står i lys og musikk fra en stor bryllupsfest i slottets sal.",
+    "imagePath": "characters/prinsessa.webp"
+  },
+  {
+    "name": "Det yngste føllet",
+    "slug": "det-yngste-follet",
+    "description": "Askeladdens nøkkelallierte blant de forheksede føllene, den som snakker og leder ham til sverdet, kirka og veien som kan gjøre dem til prinser igjen.",
+    "visualPrompt": "Ungt, lyst føll med glansfull pels og uvanlig menneskelig, klokt blikk; energisk kroppsspråk som om det alltid er i bevegelse; detaljer som antyder skjult kongelig opprinnelse uten å bli menneske, som en subtil lysglød i manen.",
+    "imagePath": "characters/det-yngste-follet.webp"
+  }
+]

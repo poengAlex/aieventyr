@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Lillekort",
+    "slug": "lillekort",
+    "description": "Født i en trang leilighet og går ut i verden samme dag, en kvikk, fryktløs småtass som får tak i «umulige» gjenstander og bruker dem til å redde andre—uten å kreve æren.",
+    "visualPrompt": "En liten, seig gutt med bustete mørkt hår og årvåkne øyne, kledd i utslitt hettegenser, for store bukser og slitte joggesko; bærer en liten stoffpose og et merkelig, blankt sverd som ser skrotete ut helt til det fanger lyset; uttrykk av sta ro og oppfinnsomhet",
+    "imagePath": "characters/lillekort.webp"
+  },
+  {
+    "name": "Kong Lavring",
+    "slug": "kong-lavring",
+    "description": "Tvillingbroren som forsvinner ut i verden i motsatt retning, like Lillekort av utseende men mer stolt og brå—og ender som nøkkelen til en rettferdig løsning.",
+    "visualPrompt": "En gutt som er nesten identisk med Lillekort, men med mer selvsikker holdning; slitte, enkle klær som kan byttes med brorens uten at noen merker det; et blikk som veksler mellom trass og lojalitet",
+    "imagePath": "characters/kong-lavring.webp"
+  },
+  {
+    "name": "Prinsesse Nora",
+    "slug": "prinsesse-nora",
+    "description": "Den yngste prinsessa, fanget i en moderne hoffverden av sorg og plikt, som finner mot til å avsløre sannheten når Lillekort gir henne en plan.",
+    "visualPrompt": "Ung prinsesse med klart, våkent blikk, mørkt hår samlet enkelt, kledd i elegant men dempet nåtidsantrekk med sorgpregede svarte detaljer; holder seg rak, men med spor av uro som blir til besluttsomhet",
+    "imagePath": "characters/prinsesse-nora.webp"
+  },
+  {
+    "name": "Ridder Rød",
+    "slug": "ridder-rod",
+    "description": "En selvutnevnt helt og mediefavoritt som spiller «beskytter» men gjemmer seg når det gjelder, og truer prinsessa til å gi ham æren.",
+    "visualPrompt": "En velstelt, selvsikker mann i rød designerfrakk over en moderne uniformstil, med blanke støvler og et smil som ikke når øynene; bærer troféer i en liten pose og har en aggressiv, kontrollerende kroppsholdning",
+    "imagePath": "characters/ridder-rod.webp"
+  },
+  {
+    "name": "Havtrollet",
+    "slug": "havtrollet",
+    "description": "Et urgammelt, havbundet troll som lever i en steinfestning på havbunnen og krever det umulige—til Lillekort vender trollfesten mot dem selv med et brygg som slår selv monsterkrefter ut.",
+    "visualPrompt": "Et enormt, ru-skinnet sjøtroll med saltkrystaller i skjegget og tunge, arrete hender; øyne som gløder svakt grønt i mørket; omgitt av våte steinvegger, rustne lenker og et uhyggelig festbord som antyder kommende gilde",
+    "imagePath": "characters/havtrollet.webp"
+  }
+]

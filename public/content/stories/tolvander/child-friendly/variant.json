@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "De tolv Vildænder (Barnevennlig)",
+  "description": "En mildere og mer trygg variant for yngre lesere, med mykere stemning og fokus på omtanke, håp og familie—der vanskelige hendelser blir fortalt varsomt og ender med at alle blir reddet og gjenforent.",
+  "tone": "Varm, rolig og eventyrlig, med mykt språk, trygg spenning og en trøstende slutt.",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T22:01:24.483Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En modig prinsesse holder et stille løfte for å redde sine tolv fortryllede brødre og finne hjem til familien sin igjen.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "Mestertyven (English)",
+  "description": "An English retelling that stays close to the old folktale’s plainspoken style, keeping the episodic chain of clever thefts, rustic humor, and swift moral turns without modern additions.",
+  "tone": "Folktale, sly, brisk, and humorous",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-29T08:21:30.605Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A penniless youngest son becomes a master thief by outwitting robbers, a rich bailiff, and even a parson to win a bride and a better life.",
+  "hasInlineScenes": true
+}

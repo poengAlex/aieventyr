@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Høna",
+    "slug": "hona",
+    "description": "Pliktoppfyllende og utslitt av å levere hver dag uten å få noe tilbake, men klar for å ta kontroll over sitt eget liv.",
+    "visualPrompt": "En moderne, uttrykksfull høne med litt rufsete fjær og et bestemt blikk, står barfot på kaldt underlag ved hønsehuset; hun har en liten kurv med ferske egg og en enkel handleliste som antyder at hun skal inn til byen",
+    "imagePath": "characters/hona.webp"
+  },
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "Avslappet og unnvikende, vant til å love uten å levere, men til slutt brutalt direkte om at hun bør ordne opp selv.",
+    "visualPrompt": "En selvsikker hane med ryddige fjær og et nonchalant kroppsspråk, opptatt med egne gjøremål ved hønsehuset; han ser opp med et skuldertrekk og et uttrykk som blander irritasjon og likegyldighet",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Skobutikkmedarbeideren",
+    "slug": "skobutikkmedarbeideren",
+    "description": "En kort, moderne kontrastfigur som representerer den enkle, praktiske løsningen i byen.",
+    "visualPrompt": "En vennlig butikkmedarbeider i en enkel, moderne skobutikk, står bak en disk og rekker fram et par små, robuste sko; miljøet er rent og minimalistisk, med hyller av sko og en rolig, hverdagslig atmosfære",
+    "imagePath": "characters/skobutikkmedarbeideren.webp"
+  }
+]

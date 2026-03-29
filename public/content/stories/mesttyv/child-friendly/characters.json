@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Den yngste sønnen (Mestertyven)",
+    "slug": "mestertyven",
+    "description": "Den yngste av tre brødre, en vennlig og oppfinnsom gutt som lærer å snike seg til ting, men som også har et godt hjerte og retter opp det som blir galt.",
+    "visualPrompt": "En barnevennlig eventyrfigur: en ung gutt med vått, bustete hår etter regnvær, klare øyne og et lurt, vennlig smil; først i en enkel, lappet reisekappe, senere i en pen, men ikke skremmende uniform med fine knapper; avslappet og trygg kroppsholdning, nordisk folkeeventyrstil, myke farger",
+    "imagePath": "characters/mestertyven.webp"
+  },
+  {
+    "name": "Den gamle kona i huset",
+    "slug": "gammel-kone",
+    "description": "En sliten, men godhjertet gammel kvinne som advarer gutten og håper han skal klare seg, og som til slutt blir møtt med takknemlighet.",
+    "visualPrompt": "Eldre kvinne med milde rynker og varme øyne, grått hår i enkel knute under et skaut, praktisk ullkjole og forkle, holder en liten oljelampe som gir varmt lys, uttrykk av bekymring som blir til lettelse, eventyrlig og myk illustrasjonsstil",
+    "imagePath": "characters/gammel-kone.webp"
+  },
+  {
+    "name": "Amtmannen",
+    "slug": "amtmannen",
+    "description": "En rik og selvsikker mann som setter prøver for å teste gutten, og som ender med å le av sin egen overraskelse og holde ord.",
+    "visualPrompt": "Velkledd herre med rund hatt og pen frakk, litt streng mine som ofte sprekker opp i et forbauset smil; holder en liten pengepung eller hansker; framstår myndig, men ikke skummel, klassisk folkeeventyrillustrasjon med dempede, vennlige farger",
+    "imagePath": "characters/amtmannen.webp"
+  },
+  {
+    "name": "Amtmannens datter",
+    "slug": "amtmannens-datter",
+    "description": "Snill, klok og rolig, og et symbol på at historien ender trygt og godt.",
+    "visualPrompt": "Ung kvinne med vennlig uttrykk, langt hår flettet enkelt, kjole i lyse, rolige farger med små broderte detaljer; står med åpen og trygg holdning, omgitt av en mild, festlig eventyrstemning",
+    "imagePath": "characters/amtmannens-datter.webp"
+  },
+  {
+    "name": "Presten",
+    "slug": "presten",
+    "description": "En stolt, men ufarlig skikkelse som blir lurt på en måte som mest er pinlig og morsom, og som lærer å være litt mer forsiktig.",
+    "visualPrompt": "Middelaldrende prest med rundere ansikt, mørk kappe og hvit krage, uttrykk av selvsikkerhet som blir til komisk forundring; holder en liten salmebok tett inntil seg, mild og humoristisk eventyrstil uten skarpe kontraster",
+    "imagePath": "characters/presten.webp"
+  }
+]

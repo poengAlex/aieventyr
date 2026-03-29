@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Den yngste søn (Mestertyven)",
+    "slug": "mestertyven",
+    "description": "Den yngste af tre brødre, fattig men frygtløs og snarrådig, som gør tyveri til et håndværk og overgår alle i list.",
+    "visualPrompt": "Ung mand fra et gammelt nordisk folkeeventyr, kvikke øjne og fræk mine, iført slidte filler eller forklædning efter behov; bærer en sæk og små redskaber til narrestreger, udstråler selvtillid og opfindsomhed.",
+    "imagePath": "characters/mestertyven.webp"
+  },
+  {
+    "name": "Kjærringen i røverhuset",
+    "slug": "kjaerringen-roverhuset",
+    "description": "En gammel husholderske, som røverne har holdt hos sig siden barndommen, og som advarer drengen om faren.",
+    "visualPrompt": "Gammel kone med dybe rynker og træt blik, enkel hovedklæde og groft, mørkt forklæde; står i en stor, skummel stue med ild på arnen, hænderne beskæftiget med husligt arbejde, udtryk af forsigtig bekymring.",
+    "imagePath": "characters/kjaerringen-roverhuset.webp"
+  },
+  {
+    "name": "Amtmanden",
+    "slug": "amtmanden",
+    "description": "Den rige og magtfulde amtmand, som sætter en række prøver for at få mestertyven til at bevise sin kunnen, før han vil give sin datter bort.",
+    "visualPrompt": "Velstående embedsmand i gammel tid, rank holdning, fint tøj med kappe og ordenspræg; et selvsikkert, skeptisk smil; omgivet af gårdens rigdom—stald, heste og velholdte bygninger.",
+    "imagePath": "characters/amtmanden.webp"
+  },
+  {
+    "name": "Præsten Hr. Lars",
+    "slug": "praesten-hr-lars",
+    "description": "En selvhøjtidelig præst, der gør nar af amtmanden, men bliver narret groft af mestertyven forklædt som en engel.",
+    "visualPrompt": "Middelaldrende præst med alvorligt ansigt og sort præsteklædning; bærer salmebog eller holder hænderne fromt samlet; udtryk af blandet stolthed og naiv tro, i et gårdhavemiljø med et stort træ i baggrunden.",
+    "imagePath": "characters/praesten-hr-lars.webp"
+  },
+  {
+    "name": "Husmanden (faderen)",
+    "slug": "husmanden-faderen",
+    "description": "Fattig far til tre sønner, som giver dem frihed til at rejse ud og tage den levevej, de selv vil, og siden bliver chokeret over yngstes valg.",
+    "visualPrompt": "Aldret, vejrbidt bonde i enkle, lappede klæder; mildt men bekymret blik; står ved en beskeden stue og gårdsplads, hænder slidte af arbejde, udstråler nøjsomhed og forundring.",
+    "imagePath": "characters/husmanden-faderen.webp"
+  }
+]

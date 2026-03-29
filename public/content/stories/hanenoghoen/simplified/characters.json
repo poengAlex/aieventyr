@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Høna",
+    "slug": "hona",
+    "description": "Arbeidsom og direkte, lei av å gå barbeint og av løfter som ikke blir holdt.",
+    "visualPrompt": "En brun og kremfarget høne med vennlige, tydelige trekk og et bestemt uttrykk, står barbeint på en grusvei og holder et tørkle med egg, enkel og moderne barnebokstil.",
+    "imagePath": "characters/hona.webp"
+  },
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "Selvsikker og litt unnvikende, lover sko men skyver ansvaret over på høna.",
+    "visualPrompt": "En fargerik hane med rød kam og grønne halefjær, oppreist holdning og et litt selvsikkert blikk, enkel og moderne barnebokstil.",
+    "imagePath": "characters/hanen.webp"
+  }
+]

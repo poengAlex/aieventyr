@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Giske",
+    "slug": "giske",
+    "description": "Husholderska som blir smurt inn med talg og sot, tror hun er fanden, og blir både ivrig hjelper og katastrofe for tyver på nattestokkt.",
+    "visualPrompt": "Langbeint kvinne med sot-svart hud og klær av sot, bustete hår, urolig blikk og sta kroppsholdning; ser skitten og skremmende ut, men med et naivt, ivrig uttrykk; folkelig norsk eventyrstil",
+    "imagePath": "characters/giske.webp"
+  },
+  {
+    "name": "Enkemannen",
+    "slug": "enkemannen",
+    "description": "Husbonden som vil bli kvitt Giske og lager spøken som får henne til å tro hun er fanden.",
+    "visualPrompt": "Voksen norsk bonde med værbitt ansikt, enkel gårdsklær, listig og trøtt uttrykk; står med en saks eller ved gårdshuset; tradisjonell eventyrillustrasjon",
+    "imagePath": "characters/enkemannen.webp"
+  },
+  {
+    "name": "Tyvene",
+    "slug": "tyvene",
+    "description": "To småkriminelle som først blir vettskremte av Giske, men tar henne med fordi hun kjenner gårdene—helt til hun roper så alle våkner.",
+    "visualPrompt": "To magre menn i mørke, enkle klær med hetter eller luer, nervøse og på vakt; bærer en sekk; skogssti om natta; eventyrstil",
+    "imagePath": "characters/tyvene.webp"
+  },
+  {
+    "name": "Presten",
+    "slug": "presten",
+    "description": "Blir hentet for å «binde fanden», men ender hjelpeløs da bonden flykter i panikk.",
+    "visualPrompt": "Eldre prest i nattlue og tøfler, delvis uferdig påkledd, forfjamsa og indignert; står ved en myr i skogen; klassisk norsk eventyrillustrasjon",
+    "imagePath": "characters/presten.webp"
+  }
+]

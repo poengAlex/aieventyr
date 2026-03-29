@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Gutten",
+    "slug": "gutten",
+    "description": "En kvik og dristig gut som lurer Fanden ved å få ham til å krype inn i en nøtt.",
+    "visualPrompt": "A clever Nordic village boy, early teens, tousled hair, alert eyes, wearing simple wool tunic and trousers with worn boots, holding a small nut and a thin stick, confident mischievous posture, folktale illustration style",
+    "imagePath": "characters/gutten.webp"
+  },
+  {
+    "name": "Fanden",
+    "slug": "fanden",
+    "description": "Stolt og overmodig, vil gjerne vise sin makt, men lar seg narre og blir fanget.",
+    "visualPrompt": "The Devil from Nordic folklore, lean and sly with sharp features, dark clothes and subtle horned silhouette, a smug expression turning to alarm, an uncanny presence suggested even when confined, storybook folktale illustration style",
+    "imagePath": "characters/fanden.webp"
+  },
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En sta og kraftig smed som prøver større og større hammere til nøtten til slutt går i knas.",
+    "visualPrompt": "A burly blacksmith with soot-streaked face and strong arms, leather apron over rough shirt, gripping a heavy sledgehammer beside an anvil in a glowing forge, determined expression, folktale illustration style",
+    "imagePath": "characters/smeden.webp"
+  }
+]

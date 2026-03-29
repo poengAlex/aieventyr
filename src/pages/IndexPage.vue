@@ -50,14 +50,14 @@
         v-for="story in filteredStories"
         :key="story.id"
         class="story-card"
-        :class="{ read: settings.isRead(story.id) }"
+        :class="{ read: settings.isRead(story.id, getResolvedVariant(story)) }"
         flat
         tabindex="0"
         role="link"
         @click="openStory(story.id)"
         @keyup.enter="openStory(story.id)"
       >
-        <div v-if="settings.isRead(story.id)" class="read-badge">Read</div>
+        <div v-if="settings.isRead(story.id, getResolvedVariant(story))" class="read-badge">Read</div>
         <q-img :src="getCover(story)" :ratio="1" fit="cover" class="story-image">
           <div class="story-overlay">
             <div class="story-title">{{ story.canonicalTitle }}</div>
@@ -84,7 +84,7 @@ const stories = ref<StoryListItem[]>([])
 
 const filteredStories = computed(() => {
   return stories.value.filter((story) => {
-    if (!settings.showRead && settings.isRead(story.id)) return false
+    if (!settings.showRead && settings.isRead(story.id, getResolvedVariant(story))) return false
     return true
   })
 })

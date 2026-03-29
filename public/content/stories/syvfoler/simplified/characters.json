@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Yngstesønnen som alle undervurderer, men som holder hodet kaldt, sier fra til kjerringa, og følger føllene helt til han finner sannheten og bryter forbannelsen.",
+    "visualPrompt": "Ung norsk mann med rufsete hår og vennlig, våkent blikk, slitte skogsklær i jordfarger, enkel sekk over skulderen; utstråler nysgjerrighet og sta mot, står klar til å handle.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "Streng og mistenksom herre som setter en brutal prøve, men belønner den som faktisk klarer oppgaven.",
+    "visualPrompt": "Eldre konge med kort grått skjegg, tung krone og mørk kappe med pelskant; streng mine, står på gårdsplassen ved kongsgården med autoritær holdning.",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Den gamle kjerringa i bergsprekken",
+    "slug": "kjerringa-i-bergsprekken",
+    "description": "Listig gammel kone som lokker gjetere til å sløse bort dagen og gir dem falske svar til kongen.",
+    "visualPrompt": "Gammel, krokrygget kvinne med skarpe øyne og tynn munn, grov ullkjole og sjal; sitter i en mørk bergsprekk og spinner på en håndtein, med et lurt smil.",
+    "imagePath": "characters/kjerringa-i-bergsprekken.webp"
+  },
+  {
+    "name": "Det yngste føllet (forhekset prins)",
+    "slug": "det-yngste-follet",
+    "description": "Føllet som snakker med Askeladden og leder ham til stubben og kirken, der de får brød og vin som bevis på hva de spiser og drikker.",
+    "visualPrompt": "Slankt, lyst føll med intelligente øyne og en nesten kongelig holdning; manen ser uvanlig velstelt ut, med et svakt magisk skjær rundt hodet.",
+    "imagePath": "characters/det-yngste-follet.webp"
+  },
+  {
+    "name": "Prinsessa",
+    "slug": "prinsessa",
+    "description": "Kongens datter som blir Askeladdens brud, og som får se brødrene sine komme tilbake som prinser når forbannelsen brytes.",
+    "visualPrompt": "Ung prinsesse med lyst hår satt opp enkelt, elegant kjole i lyse farger og en mild, varm utstråling; står i en storsal med forventning og glede i blikket.",
+    "imagePath": "characters/prinsessa.webp"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "Herreper (English Retelling)",
+  "description": "A close English retelling of the folktale in which poor Per inherits only a cat, who cunningly wins him royal favor with ever-grander gifts, outwits a sun-fearing troll, and finally reveals herself as an enchanted princess.",
+  "tone": "Classic folktale, witty, magical, and triumphant",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:30:12.970Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A poor boy and his clever cat win a kingdom by gifts, bold bluffing, and a troll’s downfall at sunrise.",
+  "hasInlineScenes": true
+}

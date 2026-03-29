@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste søn, undervurderet og jordnær, men snarrådig nok til at gennemskue prøven med de syv foler og vende trolddommen.",
+    "visualPrompt": "Ung mand med rodet mørkt hår og venligt, vågent blik, iført slidte bondeklæder i uld og lærred, enkle støvler, lidt aske på tøjet; udstråler stædighed og list",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "Hård prøvemester, der lokker med prinsessen og halve riget, men straffer brutalt dem, der fejler.",
+    "visualPrompt": "Midaldrende konge med kraftigt skæg, tung kappe og enkel krone; står rank og myndig med streng mine på en gårdstrappe ved en stor kongsgård",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Den gamle Kjærring i Bergskorten",
+    "slug": "kjaerring-bergskorte",
+    "description": "En lokkende, spindende gammel kone, der får de to ældre brødre til at falde fra og forsøger det samme med Askeladden.",
+    "visualPrompt": "Meget gammel kvinde med rynket ansigt og skarpe øjne, grå hårtotter under et tørklæde, sidder i en klippesprække og spinder på en håndten; udstråler list og småvrede",
+    "imagePath": "characters/kjaerring-bergskorte.webp"
+  },
+  {
+    "name": "Den yngste Føl (fortryllet prins)",
+    "slug": "yngste-foel",
+    "description": "Den yngste af de syv foler, som taler til Askeladden og leder ham til sværdet, alterbrødet og vinen, der afslører deres sande føde.",
+    "visualPrompt": "Slank, mørk føl med intelligente øjne og stærke ben, manen pjusket af vild ridt gennem skov og myr; bærer Askeladden sikkert og hurtigt",
+    "imagePath": "characters/yngste-foel.webp"
+  },
+  {
+    "name": "Prinsessen",
+    "slug": "prinsessen",
+    "description": "Kongens datter og målet for prøven, hvis syv brødre viser sig at være fortryllet til foler.",
+    "visualPrompt": "Ung prinsesse med langt lyst hår, klædt i en enkel men fornem kjole med broderede kanter; mildt ansigt, men med tydelig lettelse og glæde når fortryllelsen brydes",
+    "imagePath": "characters/prinsessen.webp"
+  }
+]

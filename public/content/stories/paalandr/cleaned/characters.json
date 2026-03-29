@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tjenestegutten",
+    "slug": "tjenestegutten",
+    "description": "The clever farmhand who engineers a wager and orchestrates a series of misunderstandings to expose the wife’s secret.",
+    "visualPrompt": "A young Norwegian farmhand in simple wool and linen work clothes, lean and quick-eyed, with a sly half-smile; practical boots, tousled hair, and an alert posture that suggests he is always listening and plotting.",
+    "imagePath": "characters/tjenestegutten.webp"
+  },
+  {
+    "name": "Kjærringen",
+    "slug": "kjaerringen",
+    "description": "The wife who favors Paal Andrestuen and is provoked into a public confession through the farmhand’s tricks.",
+    "visualPrompt": "A middle-aged rural Norwegian woman wearing a plain dress and apron, hair covered with a kerchief; expressive face that shifts from irritation to panic, clutching her apron as if hiding food, moving with hurried, guilty energy.",
+    "imagePath": "characters/kjaerringen.webp"
+  },
+  {
+    "name": "Den døve Manden",
+    "slug": "den-dove-manden",
+    "description": "The good-natured, deaf husband who follows others’ lead and unwittingly becomes part of the farmhand’s scheme.",
+    "visualPrompt": "A sturdy, weathered Norwegian farmer with a broad build and calm, puzzled expression; simple work shirt and trousers, rough hands, carrying an axe as a farm tool, standing slightly apart as if missing what others are saying.",
+    "imagePath": "characters/den-dove-manden.webp"
+  },
+  {
+    "name": "Paal Andrestuen",
+    "slug": "paal-andrestuen",
+    "description": "The favored young man from the other room whose secret visits spark the farmhand’s elaborate prank.",
+    "visualPrompt": "A young Norwegian man in modest rural clothing, slightly better-kept than a laborer; anxious eyes and tense shoulders, poised to flee, with the look of someone caught between desire and fear.",
+    "imagePath": "characters/paal-andrestuen.webp"
+  }
+]

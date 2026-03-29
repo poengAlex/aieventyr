@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "Vesle Aase, the Goose-Girl (English)",
+  "description": "A close English retelling of the folktale in which a humble goose-girl repeatedly meets an English prince on his wooing journey, and a truth-telling stone exposes three princesses’ deceit until Aase is revealed as the rightful bride.",
+  "tone": "Traditional, brisk, and moral-tinged folktale",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:48:37.897Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A goose-girl’s quiet certainty and a truth-telling stone lead an English prince to his true bride.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Snøhvit og Rosenrød",
+    "slug": "snohvit-og-rosenrod",
+    "description": "Prinsessen som drar ut for å finne sine tolv brødre, og som må holde helt munn mens hun arbeider for å frelse dem og senere seg selv.",
+    "visualPrompt": "Ung norsk prinsesse med svært lys hud og røde kinn, langt mørkt hår flettet enkelt, alvorlig blikk; kledd i en praktisk, enkel kjole med kappe, bærer en sekk med myrdun og har ru hender av arbeid; eventyrlig nordisk stil.",
+    "imagePath": "characters/snohvit-og-rosenrod.webp"
+  },
+  {
+    "name": "Den unge kongen",
+    "slug": "den-unge-kongen",
+    "description": "Landets konge som finner henne på myra, gifter seg med henne, og som til slutt forstår sannheten når brødrene hennes kommer tilbake.",
+    "visualPrompt": "Ung konge med vennlige trekk, lyst hår og kort skjeggstubb, kledd i mørk jaktkappe og enkel krone eller ring; holdning som viser både styrke og tvil; nordisk middelalderinspirert stil.",
+    "imagePath": "characters/den-unge-kongen.webp"
+  },
+  {
+    "name": "Kongens stemor (den gamle dronningen)",
+    "slug": "kongens-stemor",
+    "description": "Misunnelig og hensynsløs, stjeler dronningens barn og legger skylden på henne for å få henne dømt til døden.",
+    "visualPrompt": "Eldre dronning med skarpe ansiktstrekk, blek hud og mørke øyne, stramt oppsatt grått hår, overdådig men kaldt hoffantrekk i dype farger; uttrykk av kontrollert raseri; eventyrlig, truende aura.",
+    "imagePath": "characters/kongens-stemor.webp"
+  },
+  {
+    "name": "De tolv brødrene (villendene)",
+    "slug": "de-tolv-brodrene",
+    "description": "Forvandlet til villender om dagen og prinser om natten; de gir søsteren oppgaven som kan bryte forbannelsen, og én bror får en andevinge som venstre arm.",
+    "visualPrompt": "Tolv brødre fremstilt som en gruppe: noen som hvite og brune villender med glinsende fjær, andre som unge prinser i enkle, like drakter; den yngste prinsen har en andevinge i stedet for venstre arm; nordisk eventyrstemning.",
+    "imagePath": "characters/de-tolv-brodrene.webp"
+  }
+]

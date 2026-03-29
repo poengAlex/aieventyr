@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Vesle Aase – gåsepiken (Forenklet)",
+  "description": "En forenklet variant på moderne norsk med klarere setninger og jevnere flyt, som gjør eventyret lettere å lese uten å endre handlingen: Aase går fra gåsepike til brud ved å avsløre prinsessenes bedrag med hjelp av en sannhetstalende stein og en ring som avslører hvem som virkelig lå hos prinsen.",
+  "tone": "Folkeeventyraktig, rett fram og lettlest, med lureri, rettferdighet og en tydelig moral",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:48:28.069Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En gåsepike lurer fram sannheten om prinsessene og ender med å gifte seg med prinsen hun vil ha.",
+  "hasInlineScenes": true
+}

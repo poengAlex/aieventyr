@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Gutten",
+    "slug": "gutten",
+    "description": "En kvikk og freidig gutt som knasker nøtter på veien og lurer Fanden med et enkelt, genialt knep.",
+    "visualPrompt": "Ung gutt i enkel, slitt bondestakk og ulltrøye, rufsete hår, skarpt blikk og et rampete smil; holder en liten, markspist nøtt i hånden som om den er en trofé; norsk bygdemiljø, folkeeventyrstil.",
+    "imagePath": "characters/gutten.webp"
+  },
+  {
+    "name": "Fanden",
+    "slug": "fanden",
+    "description": "En selvsikker djevel som skryter av at han kan gjøre seg bitteliten, men blir fanget i en nøtt.",
+    "visualPrompt": "Mørk og slu skikkelse med hint av horn og glødende øyne, mer som en skygge enn et fullt synlig monster; antydes som en virvlende, sotaktig form som presses sammen mot et lite hull i en nøtt; uhyggelig, eventyraktig.",
+    "imagePath": "characters/fanden.webp"
+  },
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En sterk, temperamentsfull smed som prøver flere hammere før han til slutt knuser nøtten med storsleggen.",
+    "visualPrompt": "Bredskuldret smed med sot på ansiktet, oppbrettede ermer og grovt lærforkle; står ved en ambolt i en røykfylt smie med glør og gnister; uttrykk av irritasjon og kraft idet han hever en tung slegge.",
+    "imagePath": "characters/smeden.webp"
+  }
+]

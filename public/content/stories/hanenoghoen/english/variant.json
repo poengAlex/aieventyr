@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "The Rooster and the Hen",
+  "description": "An English retelling that stays close to the original folktale’s simple, rhythmic complaint-and-reply exchange, centered on the Hen’s promised shoes and the Rooster’s blunt solution.",
+  "tone": "Folktale, humorous, lightly sharp",
+  "characterCount": 2,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:42:49.816Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A hardworking Hen demands the shoes she was promised, and the Rooster tells her to buy them herself with her eggs.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Hanen, Gjøken og Århanen (Modern)",
+  "description": "En moderne, hverdagsnær versjon der de tre kjøper kua via Finn og Vipps, krangler om oppstalling som en slags uformell kontraktstvist, og lar morgenrutinen avgjøre eierskapet.",
+  "tone": "Leken, satirisk og samtidsnær folkeeventyrtone",
+  "characterCount": 3,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:53:01.577Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Tre venner kjøper en ku på Finn, men ender i en absurd morgenkonkurranse om hvem som egentlig eier den.",
+  "hasInlineScenes": true
+}

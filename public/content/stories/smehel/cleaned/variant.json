@@ -17,5 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En snarrådig smed narrer både Fanden og skæbnen, men ender med at stå på tærsklen til både Helvede og Himmerige."
+  "summary": "En snarrådig smed narrer både Fanden og skæbnen, men ender med at stå på tærsklen til både Helvede og Himmerige.",
+  "hasInlineScenes": true
 }

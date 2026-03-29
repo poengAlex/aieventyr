@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Lillekort",
+    "slug": "lillekort",
+    "description": "Den yngste tvilling, en fattig fillegut med skarp tunge og skarpere snilde, som samler magiske gaver, dræber trolde og vender skæbnen til sin fordel.",
+    "visualPrompt": "En lille, spinkel dreng med klart blik og frækt smil; først i slidte, lappede klæder med et knytte over skulderen, senere i skinnende gulddragt; bærer et enkelt sværd og virker uventet frygtløs.",
+    "imagePath": "characters/lillekort.webp"
+  },
+  {
+    "name": "Kong Lavring",
+    "slug": "kong-lavring",
+    "description": "Lillekorts tvillingebror, så fuldstændig lig ham at ingen kan kende forskel, og som til sidst hjælper med at fordele kærlighed og rige.",
+    "visualPrompt": "Ung mand der ligner Lillekort på en prik i ansigt og kropsbygning; samme hårfarve og øjne, men i byttede, finere klæder ved hoffet; rank holdning og et mere alvorligt udtryk.",
+    "imagePath": "characters/kong-lavring.webp"
+  },
+  {
+    "name": "Kongsdatteren (den yngste)",
+    "slug": "kongsdatteren-yngste",
+    "description": "Prinsessen, der skal hentes af trolde, men som hjælper Lillekort med at afsløre sandheden ved bryllupsbordet og ender som hans brud.",
+    "visualPrompt": "Ung prinsesse med mildt, beslutsomt ansigt; klædt i mørke sørgedragter udenfor, men med kongelig ynde; bærer fine smykker og lægger beskyttende en hånd ved Lillekort, som hun stoler på.",
+    "imagePath": "characters/kongsdatteren-yngste.webp"
+  },
+  {
+    "name": "Ridder Rød",
+    "slug": "ridder-rod",
+    "description": "En fej og pralende ridder, der gemmer sig i et træ, truer prinsessen og stjæler æren, indtil han afsløres og straffes.",
+    "visualPrompt": "Høj ridder i rødlige klæder og rustningsdele, velplejet og selvtilfreds; koldt blik; hænder, der krammer et lommetørklæde som en skjult trofæpose; står helst i skyggen af et træ.",
+    "imagePath": "characters/ridder-rod.webp"
+  },
+  {
+    "name": "Troldet (strandtroldene)",
+    "slug": "troldet-strand",
+    "description": "De tre trolde, der kommer torsdag aften for at hente prinsessen, hver større end den forrige og med flere hoveder, men alle hugges ned af Lillekorts magiske sværd.",
+    "visualPrompt": "Et kolossalt, mørkt og vanskabt trold med flere hoveder på én krop, grove tænder og glødende øjne; svinger en tyk jernstang; omgivet af storm, sand og brænding ved stranden.",
+    "imagePath": "characters/troldet-strand.webp"
+  }
+]

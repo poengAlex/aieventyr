@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Hønen",
+    "slug": "honen",
+    "description": "En flittig og ærlig høne som ønsker seg sko, og som lærer at hun kan finne en god løsning ved å be om hjelp og ta et steg selv.",
+    "visualPrompt": "En liten, rund og vennlig hvit høne med myke fjær og snille øyne, bærer en liten kurv med egg, rolig og håpefull, barnevennlig stil med varme, myke farger",
+    "imagePath": "characters/honen.webp"
+  },
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "En omsorgsfull hane som vil hjelpe, og som foreslår en enkel og positiv plan så Hønen kan få det bedre.",
+    "visualPrompt": "En stolt men snill hane med rød kam og gyllenbrune fjær, vennlig kroppsspråk og et rolig smil, står ved siden av Hønen og peker mot byen, barnevennlig illustrasjonsstil",
+    "imagePath": "characters/hanen.webp"
+  }
+]

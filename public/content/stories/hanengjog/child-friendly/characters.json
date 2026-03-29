@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "En ivrig og stolt hane som våkner først og blir veldig glad for å ha vunnet leken.",
+    "visualPrompt": "En liten, fargerik hane med rødt kamhode og varme brune fjær, store vennlige øyne og en energisk, glad holdning; enkel, barnevennlig illustrasjonsstil.",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Gjøken",
+    "slug": "gjoken",
+    "description": "En litt søvnig, men bestemt gjøk som våkner av hanens rop og vil gjerne ha sin del.",
+    "visualPrompt": "En rund og myk gjøk med grå og beige fjær, små vinger og et snilt ansikt, uttrykk som viser mild overraskelse og bestemt vennlighet; barnevennlig, enkel stil.",
+    "imagePath": "characters/gjoken.webp"
+  },
+  {
+    "name": "Århanen",
+    "slug": "arhanen",
+    "description": "En stor og rolig århane som foreslår en rettferdig løsning når de andre blir uenige.",
+    "visualPrompt": "En større fugl med jordfargede fjær og rolig, klokt blikk, stående stødig og fredelig med en vennlig gest; myk, barnevennlig eventyrstil.",
+    "imagePath": "characters/arhanen.webp"
+  },
+  {
+    "name": "Kua",
+    "slug": "kua",
+    "description": "Den rolige kua som alle tre fuglene har kjøpt sammen, og som blir midtpunktet for leken og delingen.",
+    "visualPrompt": "En snill, rolig ku med myke flekker i brunt og hvitt, store varme øyne og avslappet kroppsspråk; enkel og koselig barneillustrasjon.",
+    "imagePath": "characters/kua.webp"
+  }
+]

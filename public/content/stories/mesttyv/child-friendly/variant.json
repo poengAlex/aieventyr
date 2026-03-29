@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Mestertyven (Barnevennlig)",
+  "description": "En mild og trygg versjon for yngre lesere, der spenningen er leken og oppfinnsomheten står i sentrum, med ekstra vekt på at ingen blir skadet og at helten til slutt bruker kløkt til å gjøre godt igjen og hjelpe andre.",
+  "tone": "Varm, leken og eventyrlig, med myk spenning og snille undertoner",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-29T08:21:49.715Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En klok gutt bruker lure knep på en snill måte og ender med å bruke talentet sitt til å gjøre godt.",
+  "hasInlineScenes": true
+}

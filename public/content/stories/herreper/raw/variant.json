@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "Herreper (Raw OCR)",
+  "description": "This variant preserves the raw OCR extraction of the source: original Danish-Norwegian orthography, uneven line breaks, pagination markers, and transcription quirks that keep the text close to the scanned material rather than a modernized or corrected edition.",
+  "tone": "Classic Nordic folktale with sly humor, escalating wonder, and a sharp, magical edge.",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:29:33.611Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "A poor boy and his cunning cat trick a king into believing he is the wealthy Herreper, only to win a castle and a princess by outwitting a troll.",
+  "hasInlineScenes": true
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Askeladden",
+    "slug": "askeladden",
+    "description": "Den yngste broren, rolig og nysgjerrig, som holder ut når andre gir opp og bruker både mot og omtanke.",
+    "visualPrompt": "A gentle Norwegian fairy-tale boy with tousled light-brown hair, rosy cheeks, and bright curious eyes; wearing simple patched wool clothes, a small cloak, and sturdy boots; friendly posture, calm bravery, forest setting.",
+    "imagePath": "characters/askeladden.webp"
+  },
+  {
+    "name": "Kongen",
+    "slug": "kongen",
+    "description": "En streng, men rettferdig konge som setter en prøve og belønner den som viser ekte ansvar.",
+    "visualPrompt": "A dignified older king with a kind-but-serious face, short gray beard, and warm eyes; wearing a modest crown and rich but not flashy robes; standing at the steps of a grand wooden manor, welcoming yet watchful.",
+    "imagePath": "characters/kongen.webp"
+  },
+  {
+    "name": "Den gamle kona i bergskorten",
+    "slug": "gamle-kona-bergskorten",
+    "description": "En listig gammel kone som lokker slitne gjeterbarn til å hvile for lenge, uten skumle detaljer.",
+    "visualPrompt": "An elderly woman with a wrinkled face and sly smile, wearing a faded shawl and simple skirt; seated in a rocky nook, gently spinning on a hand spindle; inviting hand gesture, forest shadows kept soft and non-threatening.",
+    "imagePath": "characters/gamle-kona-bergskorten.webp"
+  },
+  {
+    "name": "Det yngste føllet (en av de sju prinsene)",
+    "slug": "yngste-foellet",
+    "description": "Det klokeste og mest hjelpsomme føllet, som lar Askeladden ri og leder ham til stedet der hemmeligheten avsløres.",
+    "visualPrompt": "A small lively foal with a chestnut coat and a small white star on its forehead, intelligent eyes and alert ears; standing close to Askeladden in a friendly way; subtle magical glow, forest trail background.",
+    "imagePath": "characters/yngste-foellet.webp"
+  },
+  {
+    "name": "Prinsessa",
+    "slug": "prinsessa",
+    "description": "Kongens datter, varm og glad, som ser Askeladdens mot og snillhet når prøven er over.",
+    "visualPrompt": "A young princess with gentle features and braided hair, wearing a simple elegant dress in soft colors; kind smile and welcoming posture; festive hall with warm lights and flowers, calm celebratory mood.",
+    "imagePath": "characters/prinsessa.webp"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Gutten og Fanden (Snillere utgave)",
+  "description": "Denne barnevennlige varianten gjør møtet med Fanden mindre skummelt og legger vekt på humor, trygghet og guttens smarte påfunn uten truende stemning.",
+  "tone": "Varm, leken og trygg",
+  "characterCount": 3,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T21:04:54.903Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En nøtteknekkende gutt lurer Fanden inn i en nøtt og får en smed til å slå den opp med et stort brak.",
+  "hasInlineScenes": true
+}

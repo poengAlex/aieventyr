@@ -1,0 +1,22 @@
+{
+  "variant": "child-friendly",
+  "displayTitle": "Hanen, Gjøken og Århanen (Barnevennlig)",
+  "description": "En barnevennlig og mild variant med mykere språk og trygg stemning, der uenigheten blir en liten lek og ender i en rolig oppfordring til å dele rettferdig.",
+  "tone": "Varm, leken og beroligende",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:52:48.610Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Tre fugler krangler vennlig om en ku og lærer at det beste er å dele rettferdig.",
+  "hasInlineScenes": true
+}

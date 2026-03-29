@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "Lillekort (raw)",
+  "description": "Denne varianten er den rå OCR-uttaket fra kildematerialet, med originale linjeskift, eldre rettskrivning og tydelige avlesningsfeil som gir teksten et ujevnt, dokumentnært preg.",
+  "tone": "Arkaisk norsk folkeeventyr med rå, ufiltrert OCR-tekstur",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:10:49.194Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Den vesle Lillekort redder en prinsesse fra tre troll, avslører en feig ridder og vinner både kjærlighet og kongerike ved list og mot.",
+  "hasInlineScenes": true
+}

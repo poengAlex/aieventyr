@@ -1,0 +1,22 @@
+{
+  "variant": "raw",
+  "displayTitle": "Hanen og Hønen",
+  "description": "Denne varianten er den rå OCR-udtrækning fra kildematerialet og bevarer originale linjeskift, tegnsætning, sidehenvisninger og små scanning-/typografiske fejl, så teksten fremstår uredigeret og tæt på trykket.",
+  "tone": "Folkelig, enkel og mundtlig; rå og ujævnt opsat på grund af OCR-artefakter",
+  "characterCount": 3,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:42:29.436Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En høne skælder en hane ud for lovede sko, indtil han råder hende til at sælge sine æg i byen og købe dem selv.",
+  "hasInlineScenes": true
+}

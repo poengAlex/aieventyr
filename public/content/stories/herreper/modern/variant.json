@@ -1,0 +1,22 @@
+{
+  "variant": "modern",
+  "displayTitle": "Herreper (Modern)",
+  "description": "En samtidsnær gjenfortelling der fattigdom møter moderne makt: Per får hjelp av en mystisk, talende katt som manipulerer logistikk, betalinger og statusspill for å lure et kongehus og velte en skjult makt bak et ultraluksuriøst gods.",
+  "tone": "Eventyrlig, skarp og mørkt humoristisk med moderne satire",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T20:30:46.551Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "En fattig ung mann følger en talende katts plan som gjør ham til Herreper og herre over et praktfullt gods.",
+  "hasInlineScenes": true
+}

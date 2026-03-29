@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Vesle Aase (Gaasepigen)",
+    "slug": "vesle-aase-gaasepigen",
+    "description": "Ei klok og viljesterk gåsepike som med tålmod, gjentakende fraser og list får viljen sin og ender som dronning.",
+    "visualPrompt": "Ung norsk gåsepike med enkelt, lappet bondeskrud, et lite sjal, værbitt men vennlig ansikt og våkne øyne; hun har en fille surret rundt én finger for å skjule en trang ring; står trygt blant hvite gjess på en smal gåsesti, eventyrpreg og jordnær verdighet",
+    "imagePath": "characters/vesle-aase-gaasepigen.webp"
+  },
+  {
+    "name": "Kongssønnen fra Engeland",
+    "slug": "kongssonnen-fra-engeland",
+    "description": "En prins på frierferd som stoler på en allvitende stein, men til slutt forstår hvem som virkelig taler sant.",
+    "visualPrompt": "Ung engelsk prins med fin men reisepraktisk drakt, kappe og støvler, holdning preget av både stolthet og nysgjerrighet; bærer et lite tegn på kongelig rang uten overdådighet; uttrykk som skifter fra mistenksomhet til undring",
+    "imagePath": "characters/kongssonnen-fra-engeland.webp"
+  },
+  {
+    "name": "Den allvitende steinen",
+    "slug": "den-allvitende-steinen",
+    "description": "En merkelig stein lagt foran sengen som avslører sannheten om den som trår over den.",
+    "visualPrompt": "Mørk, glatt stein med gammel, nesten levende utstråling; liggende på gulv av tre eller stein i en kongelig sovegemakk; subtil glød og mystiske årer som antyder at den «vet» og dømmer, uten symboler eller skrift",
+    "imagePath": "characters/den-allvitende-steinen.webp"
+  },
+  {
+    "name": "De utvalgte prinsessene",
+    "slug": "de-utvalgte-prinsessene",
+    "description": "De vakre frierprinsessene som, redde for steinens avsløringer, forsøker å narre prinsen ved å sende Aase i sitt sted.",
+    "visualPrompt": "En gruppe elegante prinsesser i rike kjoler og smykker, med nervøse blikk og hviskende holdning; står i et slottinteriør med dempet lys, hendene samlet som om de planlegger et bytte i hemmelighet; eventyraktig prakt, men med tydelig uro i ansiktene",
+    "imagePath": "characters/de-utvalgte-prinsessene.webp"
+  }
+]

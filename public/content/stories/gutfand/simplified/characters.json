@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Gutten",
+    "slug": "gutten",
+    "description": "En kvikk og nysgjerrig gutt som bruker et enkelt triks for å fange fanden i en nøtt.",
+    "visualPrompt": "Ung gutt med livlige øyne og et lurt smil, enkel og tidløs hverdagsklær i nøytrale farger, litt støv på knærne, holder en liten nøtt i hånden og en tynn pinne i den andre, avslappet men selvsikker positur, moderne norsk eventyrillustrasjon",
+    "imagePath": "characters/gutten.webp"
+  },
+  {
+    "name": "Fanden",
+    "slug": "fanden",
+    "description": "Stolt og selvsikker, men lar seg lure når han vil bevise at han kan gjøre seg bitteliten.",
+    "visualPrompt": "Liten, slu skikkelse med mørke konturer og antydning til horn, som en skyggeaktig tilstedeværelse ved markhullet i nøtta, uttrykk av overraskelse og irritasjon, eventyraktig men ikke skremmende, passer en humoristisk folketone",
+    "imagePath": "characters/fanden.webp"
+  },
+  {
+    "name": "Smeden",
+    "slug": "smeden",
+    "description": "En sterk håndverker som blir irritert når nøtta nekter å sprekke og ender med å bruke slegga.",
+    "visualPrompt": "Kraftig smed med brede skuldre, sot på ansikt og forkle, oppbrettede ermer, står ved ambolt med glød fra essa i bakgrunnen, hever en stor slegge med bestemt mine, varmt lys og gnister rundt ham, moderne eventyrillustrasjon",
+    "imagePath": "characters/smeden.webp"
+  }
+]

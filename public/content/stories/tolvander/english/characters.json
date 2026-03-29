@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Snow-White and Rose-Red",
+    "slug": "snow-white-and-rose-red",
+    "description": "A princess born as white as snow and as red as blood, who sets out to save her twelve brothers and endures years of silent work and false accusations without giving up.",
+    "visualPrompt": "A young queen with very pale skin and rosy-red cheeks and lips, long dark hair, wearing simple travel-worn winter clothing that later becomes a modest royal gown; her expression is steadfast and gentle, hands often shown busy with white bog-cotton thread and folded shirts",
+    "imagePath": "characters/snow-white-and-rose-red.webp"
+  },
+  {
+    "name": "The Twelve Princes / Wild Ducks",
+    "slug": "twelve-princes-wild-ducks",
+    "description": "Twelve brothers cursed to be wild ducks by day and princes by night, bound to their silver spoons and saved by their sister’s woven garments; the youngest is left with a duck’s wing for an arm when a sleeve is unfinished.",
+    "visualPrompt": "Twelve siblings depicted as a pair of forms: by day, sleek wild ducks with dark heads and bright eyes; by night, handsome princes in simple rustic clothing with silver spoons as a shared motif; the youngest prince has a left duck wing in place of his arm",
+    "imagePath": "characters/twelve-princes-wild-ducks.webp"
+  },
+  {
+    "name": "The Young King",
+    "slug": "young-king",
+    "description": "A hunting king who falls in love with the silent maiden, marries her, and is misled by blood and lies until the truth is spoken and the children are found alive.",
+    "visualPrompt": "A young noble king with a fur-lined cloak and practical hunting attire transitioning to regal dress, kind but conflicted face, shown with a protective stance near the silent queen and later holding three small children",
+    "imagePath": "characters/young-king.webp"
+  },
+  {
+    "name": "The Old Queen (Stepmother)",
+    "slug": "old-queen-stepmother",
+    "description": "The king’s jealous stepmother who frames the young queen by stealing her children and smearing blood, driving the court toward a wrongful burning.",
+    "visualPrompt": "An older queen with sharp features and a severe posture, dressed in dark, richly textured garments and a heavy crown; her eyes are cold and calculating, often seen half in shadow with a hint of menace",
+    "imagePath": "characters/old-queen-stepmother.webp"
+  },
+  {
+    "name": "The Troll-Wife",
+    "slug": "troll-wife",
+    "description": "A supernatural bargain-maker who promises the queen a daughter and claims the twelve sons once the child is christened.",
+    "visualPrompt": "A strange, uncanny woman of the winter woods with rough, weathered skin and tangled hair, wrapped in mossy and fur-like layers; an unsettling smile, standing by a fence above fresh snow marked with bright red blood",
+    "imagePath": "characters/troll-wife.webp"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "variant": "simplified",
+  "displayTitle": "Hanen, gjøken og århanen (forenklet)",
+  "description": "Denne forenklede varianten bruker moderne norsk med tydeligere setninger og lettere flyt, samtidig som den beholder den lekne rytmen og det åpne spørsmålet om hva som er rettferdig.",
+  "tone": "Lekent folkeeventyr med et lite rettferdighetsspørsmål",
+  "characterCount": 4,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T18:52:28.834Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Tre fugler kjøper en ku sammen og krangler om hvem som våknet først og dermed fortjener den.",
+  "hasInlineScenes": true
+}

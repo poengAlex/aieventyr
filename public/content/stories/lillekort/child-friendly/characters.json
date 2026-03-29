@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Lillekort",
+    "slug": "lillekort",
+    "description": "A tiny newborn who speaks wisely, sets out to help his family, and wins the day with courage, clever plans, and magical gifts.",
+    "visualPrompt": "A small, determined boy with bright curious eyes and tousled hair, wearing oversized hand-me-down clothes tied with a simple belt; he carries a slender shining sword that feels friendly rather than scary, and a tiny ship trinket tucked safely in his pocket; storybook fairy-tale style, warm and approachable.",
+    "imagePath": "characters/lillekort.webp"
+  },
+  {
+    "name": "Kong Lavring",
+    "slug": "kong-lavring",
+    "description": "Lillekort’s twin brother, equally spirited and loyal, who returns at the right moment to help make the ending fair and joyful.",
+    "visualPrompt": "A boy the same age and build as Lillekort with a similar face, neat hair, and a confident stance; dressed in swapped clothes that make him look a little more court-ready; friendly expression that suggests a brave sibling bond; whimsical fairy-tale illustration.",
+    "imagePath": "characters/kong-lavring.webp"
+  },
+  {
+    "name": "The Youngest Princess",
+    "slug": "youngest-princess",
+    "description": "A kind princess who learns the truth, keeps her promise, and bravely speaks up so the real hero is honored.",
+    "visualPrompt": "A gentle young princess with soft, hopeful eyes and simple elegant clothing in light tones; she wears a modest cloak suitable for walking to the shore, hands clasped with gratitude; classic fairy-tale look that feels safe and kind.",
+    "imagePath": "characters/youngest-princess.webp"
+  },
+  {
+    "name": "Sir Red",
+    "slug": "sir-red",
+    "description": "A boastful would-be hero who hides when it matters and tries to take credit, until the truth is revealed.",
+    "visualPrompt": "A flashy knight in bright red clothing and polished boots, with a proud posture that doesn’t quite match his nervous eyes; he clutches small trinkets as 'proof' while glancing toward a tree as if remembering where he hid; storybook style, more silly than scary.",
+    "imagePath": "characters/sir-red.webp"
+  },
+  {
+    "name": "One-Eyed Gift-Giver",
+    "slug": "one-eyed-gift-giver",
+    "description": "A very old wandering woman who rewards Lillekort’s helpfulness with magical tools for his journey.",
+    "visualPrompt": "A tiny bent old woman with one bright eye, wrapped in layered shawls and carrying a small pouch of wonders; she looks surprised and grateful, holding out a simple enchanted sword or tiny ship as a reward; whimsical and gentle, like a comforting folk-tale figure.",
+    "imagePath": "characters/one-eyed-gift-giver.webp"
+  }
+]

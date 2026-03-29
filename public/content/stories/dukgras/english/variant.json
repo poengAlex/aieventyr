@@ -1,0 +1,22 @@
+{
+  "variant": "english",
+  "displayTitle": "The Doll in the Grass",
+  "description": "An English retelling that stays close to the folktale, following Ash-Lad’s chance meeting with a tiny grass-dwelling doll, her impossible shirt, a silver-spoon journey pulled by white mice, and a watery transformation that wins the king’s favor over the jealous brothers.",
+  "tone": "Classic, wonder-filled folktale with gentle humor and a triumphant ending",
+  "characterCount": 5,
+  "hasAudio": false,
+  "generation": {
+    "model": "gpt-5.2",
+    "prompt": "variant-pack.md",
+    "generatedAt": "2026-03-28T19:31:44.733Z"
+  },
+  "paths": {
+    "text": "story.txt",
+    "mainImage": "main.webp",
+    "characters": "characters.json",
+    "audio": "audio.mp3",
+    "sections": "sections.json"
+  },
+  "summary": "Cast aside by his brothers, Ash-Lad wins a magical bride from the grass whose transformation secures their happy future.",
+  "hasInlineScenes": true
+}

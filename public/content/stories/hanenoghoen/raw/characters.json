@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Hønen",
+    "slug": "hoenen",
+    "description": "En pligtopfyldende høne, der værper æg og føler sig uretfærdigt behandlet, fordi hun stadig må gå barfodet uden de sko, hun er blevet lovet.",
+    "visualPrompt": "En høne med bekymret, lidt vredt udtryk, står med bare fødder tydeligt fremme og holder et par æg; enkel bondegårdsstil, folkeeventyrillustration, varme jordfarver",
+    "imagePath": "characters/hoenen.webp"
+  },
+  {
+    "name": "Hanen",
+    "slug": "hanen",
+    "description": "En selvsikker hane, der lover sko, men ender med at give et praktisk råd: tag æggene med til byen og køb selv.",
+    "visualPrompt": "En stolt hane med oprejst kam og energisk kropssprog, som peger eller vifter med vingen i retning af byen; klassisk bondegårdsudtryk, folkeeventyrillustration, klare kontrastfarver",
+    "imagePath": "characters/hanen.webp"
+  },
+  {
+    "name": "Fortællerens note",
+    "slug": "fortaellerens-note",
+    "description": "En kort redaktionel bemærkning om, at betoning og efterligning af lyde er vigtig i dette barneeventyr.",
+    "visualPrompt": "En diskret, symbolsk figur som en lille margin-ånd eller en enkel fjerpen ved siden af scenen, der antyder oplæsning og betoning uden tekst; folkeeventyrillustration, afdæmpede farver",
+    "imagePath": "characters/fortaellerens-note.webp"
+  }
+]

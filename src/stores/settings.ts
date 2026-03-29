@@ -28,6 +28,12 @@ export const VARIANT_EXPLANATION: Record<VariantTypes, string> = {
   modern: 'A contemporary reimagining of the story.',
 }
 
+const READ_KEY_SEPARATOR = '::'
+
+function getReadKey(storyId: string, variant: VariantType) {
+  return `${storyId}${READ_KEY_SEPARATOR}${variant}`
+}
+
 export const useSettingsStore = defineStore('settings', {
   state: () => ({
     variant: 'simplified' as VariantTypes,
@@ -36,17 +42,18 @@ export const useSettingsStore = defineStore('settings', {
     readStoryIds: [] as string[],
   }),
   getters: {
-    isRead: (state) => (storyId: string) => state.readStoryIds.includes(storyId),
+    isRead: (state) => (storyId: string, variant: VariantType) => state.readStoryIds.includes(getReadKey(storyId, variant)),
   },
   actions: {
     setVariant(variant: VariantTypes) {
       this.variant = variant
     },
-    markAsRead(storyId: string, read = true) {
-      const exists = this.readStoryIds.includes(storyId)
-      if (read && !exists) this.readStoryIds.push(storyId)
+    markAsRead(storyId: string, variant: VariantType, read = true) {
+      const readKey = getReadKey(storyId, variant)
+      const exists = this.readStoryIds.includes(readKey)
+      if (read && !exists) this.readStoryIds.push(readKey)
       if (!read && exists) {
-        this.readStoryIds = this.readStoryIds.filter((item) => item !== storyId)
+        this.readStoryIds = this.readStoryIds.filter((item) => item !== readKey)
       }
     },
     resetProgress() {
