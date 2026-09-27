@@ -1,0 +1,144 @@
+{
+  "storyId": "rfoxgjt",
+  "variants": {
+    "simplified": {
+      "title": "Reven som gjeter",
+      "textFile": "public/content/stories/rfoxgjt/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Fox as Herdsman",
+      "textFile": "public/content/stories/rfoxgjt/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, where the animals can talk. The woman keeps her animals at a mountain summer farm high up where the birch forest ends: a small grey log hut with a turf roof and a stone doorstep, a little cowshed and a split-rail fence around a green pasture, with a stony stream below and a grove of birches beyond it. A grassy track leads from the pasture down into the birch forest. Her butter churn is a tall, narrow wooden churn with dark hoops and a long wooden dasher sticking out of its lid. The wolf and the fox look like real animals, apart from the fox's little pouch; the bear walks upright with a crook and a bag.",
+  "palette": "Late August at a mountain summer farm, when the fells take on their first autumn colours: deep-red dwarf birch and golden grass on the slopes, ripe blueberries, blue ridges far away and clear, cool air. The evening glows orange and rose over the mountains. Accents: dwarf-birch red, the fox's golden orange and the white of the cream.",
+  "cast": [
+    {
+      "slug": "kona",
+      "promptName": "the Farm Wife",
+      "look": "A strong, broad-shouldered farm woman of about forty with a wide, sun-browned face, a broad nose, sharp blue eyes under straight black eyebrows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red kerchief knotted at the nape. She wears a dark-green wool dress with rolled-up sleeves, a blue-and-white checked apron, a wide leather belt and sturdy leather shoes, and carries a long, white-barked birch stick.",
+      "portrait": "Background: the grey log hut on the mountain pasture.",
+      "variants": {
+        "simplified": {
+          "name": "Kona",
+          "description": "En arbeidsom kvinne som vil leie en gjeter til dyra sine, men blir lurt av reven.",
+          "replacesPortrait": "kona"
+        },
+        "english": {
+          "name": "The Woman",
+          "description": "A practical farmer who sets out to hire a herdsman and judges candidates by how well they can call her livestock.",
+          "replacesPortrait": "the-woman"
+        }
+      }
+    },
+    {
+      "slug": "reven",
+      "promptName": "the Fox",
+      "look": "A sleek, bright-eyed fox with glossy golden-orange fur the colour of marigolds, a creamy-white bib and cheeks, dark-brown legs and paws, big pointed ears lined with cream fur, large honey-brown eyes, a narrow snout and a sweet, innocent smile. His long, bushy golden-orange tail ends in a sooty black tip. A thin strap across his chest holds a little brown leather shepherd's pouch.",
+      "portrait": "Background: red dwarf birch and blueberry bushes at the edge of the birch forest.",
+      "variants": {
+        "simplified": {
+          "name": "Reven",
+          "description": "En listig rev som lokker pent, får jobben som gjeter og spiser opp alle dyra.",
+          "replacesPortrait": "reven"
+        },
+        "english": {
+          "name": "The Fox",
+          "description": "A smooth-talking herdsman with a beautiful call who secretly devours the woman’s animals and steals her cream.",
+          "replacesPortrait": "the-fox"
+        }
+      }
+    },
+    {
+      "slug": "bjornen",
+      "promptName": "the Bear",
+      "look": "A huge bear with thick, shaggy honey-blond fur, paler cream fur on his muzzle and belly, a wide round face, small half-moon ears, a shiny black nose, small kind brown eyes and a tuft of fur sticking up on top of his head. He stands upright on his hind legs like a man and carries a long wooden shepherd's crook and a worn leather shoulder bag.",
+      "portrait": "Background: the mountain birches along the grassy track.",
+      "variants": {
+        "simplified": {
+          "name": "Bjørnen",
+          "description": "En stor bjørn som gjerne vil bli gjeter, men som brøler så trærne rister når han skal lokke på dyra.",
+          "replacesPortrait": "bjornen"
+        },
+        "english": {
+          "name": "The Bear",
+          "description": "The first would-be herdsman, powerful but rejected after his rough, booming call.",
+          "replacesPortrait": "the-bear"
+        }
+      }
+    },
+    {
+      "slug": "ulven",
+      "promptName": "the Wolf",
+      "look": "A lanky, long-legged grey wolf with shaggy smoke-grey fur, darker along his back and pale silver on his chest and legs, a long, narrow muzzle, pale yellow eyes, tall pointed ears with the left one bent over at the tip, and a thin bushy tail held low. He wears a polite, awkward, closed-mouth smile and looks gangly rather than fierce.",
+      "portrait": "Background: shady spruce woods at the edge of the birch forest.",
+      "variants": {
+        "simplified": {
+          "name": "Ulven",
+          "description": "Sulten og truende, men får ikke jobben fordi ulingen hans ikke virker trygg.",
+          "replacesPortrait": "ulven"
+        },
+        "english": {
+          "name": "The Wolf",
+          "description": "The second would-be herdsman, turned away when his call sounds too harsh and untrustworthy.",
+          "replacesPortrait": "the-wolf"
+        }
+      }
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "On the grassy track at the edge of the birch forest on a clear, cool morning, the Farm Wife leans on her birch stick and sizes up three would-be herdsmen lined up on the verge: the Bear standing upright with his shepherd's crook and leather bag, the Wolf trying his best to look polite, and the Fox sitting neatly with his black-tipped tail around his paws, smiling sweetly. Red dwarf birch and golden grass line the track, with blue ridges far away.",
+    "characters": ["kona", "bjornen", "ulven", "reven"],
+    "variants": {
+      "simplified": {
+        "caption": "Kona skulle ut og leie seg en gjeter.",
+        "alt": "Kona står på stien ved skogkanten med staven sin. Foran henne står bjørnen med gjeterstav og veske, ulven og reven på rad, og alle vil bli gjeter."
+      },
+      "english": {
+        "caption": "The woman set out to hire herself a herdsman.",
+        "alt": "The woman stands on the track at the forest edge with her stick. In front of her the bear with a crook and bag, the wolf and the fox wait in a row, all wanting to be her herdsman."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["reven", "kona"],
+      "prompt": "On a grassy track where the mountain pasture meets the birch forest, on a clear, cool morning, the Fox sits up very straight on a mossy boulder with his black-tipped tail curled neatly around his paws, his snout raised and his eyes half closed, singing sweetly. The Farm Wife stands on the track leaning on her birch stick, her stern face lighting up with delight. Red dwarf birch and golden grass line the track, with blue ridges far away.",
+      "variants": {
+        "simplified": {
+          "paragraph": 19,
+          "anchor": "Reven satte seg pent, med halen rundt labbene.",
+          "caption": "«Dil-dal-holom!» sang reven, så lyst og fint.",
+          "alt": "Reven sitter rak på en stein med halen rundt labbene og synger. Kona står på stien med staven sin og lyser opp."
+        },
+        "english": {
+          "paragraph": 19,
+          "anchor": "The Fox sat up straight.",
+          "caption": "“Dil—dal—holom!” he sang, so clear and sweet.",
+          "alt": "The fox sits up straight on a boulder with his tail curled round his paws, singing. The woman stands on the track with her stick, her face lighting up."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["kona", "reven"],
+      "prompt": "Evening at the mountain summer farm, the sky glowing orange and rose over the fells. On the stone doorstep of the little grey log hut, beside the tall wooden butter churn with its lid knocked askew, the Farm Wife, furious, flings the last splash of cream from a wooden scoop. The Fox, cream on his whiskers, bolts away across the empty pasture towards the birches, glancing back as the white splash lands right on the black tip of his tail.",
+      "variants": {
+        "simplified": {
+          "paragraph": 25,
+          "anchor": "Da kona kom tilbake og så det, ble hun så sint",
+          "caption": "Den siste skvetten fløte traff reven ytterst på halen.",
+          "alt": "Kona står sint ved kinna utenfor seterbua og slenger den siste fløten etter reven. Den treffer ham ytterst på halen idet han springer sin vei."
+        },
+        "english": {
+          "paragraph": 25,
+          "anchor": "When she came back and saw what he had done, she was so angry",
+          "caption": "It caught him on the very tip of his tail.",
+          "alt": "The woman stands furious by her churn outside the hut and flings the last of the cream after the fox. It hits the very tip of his tail as he runs off."
+        }
+      }
+    }
+  ]
+}
