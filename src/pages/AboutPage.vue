@@ -8,17 +8,17 @@
         revisit than the scanned source material.
       </p>
       <p>
-        This is a 100% AI-generated project. The text, variants, images, and character art are all
-        produced through one pipeline built around modern OpenAI models.
+        This is a 100% AI-made project. The stories are written by Claude, Anthropic's AI model, and
+        the illustrations and character art are made with OpenAI's image models.
       </p>
       <div class="fact-grid">
         <div>
-          <div class="fact-label">Text Workflow</div>
-          <div class="fact-value">Extract source, clean OCR, rewrite into reading variants</div>
+          <div class="fact-label">Text</div>
+          <div class="fact-value">Every version retold by Claude from the cleaned 1840s source</div>
         </div>
         <div>
-          <div class="fact-label">Creative Output</div>
-          <div class="fact-value">Each variant gets its own text, images, and characters</div>
+          <div class="fact-label">Art</div>
+          <div class="fact-value">Each version gets its own illustrations and character portraits</div>
         </div>
         <div>
           <div class="fact-label">Pipeline</div>
@@ -26,12 +26,16 @@
         </div>
       </div>
       <div class="steps">
-        <div class="steps-title">How the text is generated</div>
+        <div class="steps-title">How the stories are made</div>
         <ol>
           <li>The original source is extracted from scanned folktale material.</li>
           <li>AI cleans the OCR and restores the text into a readable base version.</li>
-          <li>That base version is rewritten into different reading variants like simplified Norwegian and English.</li>
-          <li>Each text variant is then used to generate its own characters, scene prompts, and images.</li>
+          <li>
+            Claude retells each tale four ways: simplified Norwegian, English, a read-aloud version for
+            children and a modern retelling. Each is written as a story in its own right, not
+            paraphrased line by line.
+          </li>
+          <li>Each version is illustrated scene by scene, with its own cast of characters.</li>
         </ol>
       </div>
     </div>
