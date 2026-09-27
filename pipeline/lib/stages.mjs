@@ -814,10 +814,11 @@ export async function stageRegenerateSceneImages(args = {}) {
     if (!entry?.imagePrompt) {
       throw new Error(`No image prompt for ${fix.story}/${fix.variant}/${fix.section}`)
     }
-    console.log(`Regenerating ${fix.story}/${fix.variant}/${entry.imagePath}`)
+    const model = args.model || models.image.model
+    console.log(`Regenerating ${fix.story}/${fix.variant}/${entry.imagePath} with ${model}`)
     try {
       const response = await generateImage({
-        model: models.image.model,
+        model,
         prompt: sceneImagePrompt(entry.imagePrompt, fix.variant, models),
         size: pipelineConfig.defaultImageSize,
         quality: pipelineConfig.defaultImageQuality,

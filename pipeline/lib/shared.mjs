@@ -52,6 +52,7 @@ export function parseArgs(argv) {
     variant: undefined,
     scene: undefined,
     list: undefined,
+    model: undefined,
     force: false,
   }
 
@@ -66,6 +67,7 @@ export function parseArgs(argv) {
     if (part.startsWith('--variant=')) args.variant = part.split('=').slice(1).join('=')
     if (part.startsWith('--scene=')) args.scene = part.split('=').slice(1).join('=')
     if (part.startsWith('--list=')) args.list = part.split('=').slice(1).join('=')
+    if (part.startsWith('--model=')) args.model = part.split('=').slice(1).join('=')
   }
 
   return args
