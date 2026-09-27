@@ -2,28 +2,28 @@
   {
     "name": "Smeden",
     "slug": "smeden",
-    "description": "En dygtig, stædig smed, der lærer på den hårde måde, at snilde uden venlighed kan give bekymringer, og at kloge valg betyder noget.",
+    "description": "En flink, men skrytete smed som lurer Djevelen med tre ønsker og til slutt må finne ut hvor han hører hjemme.",
     "visualPrompt": "A sturdy, kind-eyed blacksmith in simple work clothes with a leather apron, soot-smudged but friendly, carrying a large hammer; warm, gentle fairytale illustration style.",
     "imagePath": "characters/smeden.webp"
   },
   {
-    "name": "Vor Herre",
+    "name": "Vårherre",
     "slug": "vor-herre",
-    "description": "En rolig vandringsmand, der viser tålmodighed og venlighed i smedjen og giver smeden tre ønsker som en prøve på hans klogskab.",
+    "description": "En rolig vandringsmann som skor en hest på et blunk, gjør smedens gamle mor ung igjen og gir smeden tre ønsker.",
     "visualPrompt": "A calm, humble traveler with a gentle expression, simple robe-like clothing in soft earth tones, quietly helpful presence; child-friendly storybook illustration style.",
     "imagePath": "characters/vor-herre.webp"
   },
   {
     "name": "Sankt Peter",
     "slug": "sankt-peter",
-    "description": "Vor Herres ledsager, der advarer smeden venligt om at ønske sig det, der virkelig betyder noget.",
+    "description": "Vårherres følgesvenn, som sier at smeden heller burde ha ønsket seg å bli venn med Vårherre, og som til slutt setter himmelporten på gløtt.",
     "visualPrompt": "An older, kindly man with a thoughtful face, simple travel clothing, standing beside the traveler with a mild, advisory demeanor; soft fairytale illustration style.",
     "imagePath": "characters/sankt-peter.webp"
   },
   {
-    "name": "Djævlen",
+    "name": "Djevelen",
     "slug": "djaevlen",
-    "description": "En snu, men let narret skikkelse, som bliver fanget af smedens ønsker og til sidst holder sig langt væk.",
+    "description": "En liten, rød og skrytete djevel med horn og hale som blir lurt opp i pæretreet, fast i lenestolen og inn i pengepungen, og som til slutt låser porten sin for smeden.",
     "visualPrompt": "A mischievous, imp-like devil figure with a comically annoyed expression, small horns and a tail suggested subtly, more silly than scary; bright, gentle storybook illustration style.",
     "imagePath": "characters/djaevlen.webp"
   }
