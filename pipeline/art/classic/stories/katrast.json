@@ -15,7 +15,7 @@
   "cast": [
     {
       "slug": "prinsessa",
-      "promptName": "the Princess",
+      "promptName": "the King's Daughter",
       "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.",
       "portrait": "Background: a mountain pasture with grazing cattle.",
       "variants": {
@@ -240,7 +240,7 @@
     }
   ],
   "cover": {
-    "prompt": "From a high heather ridge at sunrise, the Princess rides on the Blue Bull's back, holding on to his horns, her long copper hair blowing in the wind. Far below them, three magic woods lie one behind another in the valleys: the nearest of shining copper, the next of glittering silver and the farthest of glowing gold. The Blue Bull strides forward, calm and strong, and she gazes out over the woods in wonder.",
+    "prompt": "From a high heather ridge at sunrise, the King's Daughter rides on the Blue Bull's back, holding on to his horns, her long copper hair blowing in the wind. Far below them, three magic woods lie one behind another in the valleys: the nearest of shining copper, the next of glittering silver and the farthest of glowing gold. The Blue Bull strides forward, calm and strong, and she gazes out over the woods in wonder.",
     "characters": ["prinsessa", "blaa-oksen"],
     "variants": {
       "simplified": {
@@ -257,7 +257,7 @@
     {
       "id": "01",
       "characters": ["prinsessa", "blaa-oksen"],
-      "prompt": "On a steep forest pasture above the royal palace, eight red and brown cows graze among birches and grey boulders. The Princess, pale and thin, sits hunched on a rock with her face in her hands, crying. The Blue Bull has left the herd and walks up to her, lowering his great, glossy head gently towards her. A cool, clear autumn morning with blue fells in the distance.",
+      "prompt": "On a steep forest pasture above the royal palace, eight red and brown cows graze among birches and grey boulders. The King's Daughter, pale and thin, sits hunched on a rock with her face in her hands, crying. The Blue Bull has left the herd and walks up to her, lowering his great, glossy head gently towards her. A cool, clear autumn morning with blue fells in the distance.",
       "variants": {
         "simplified": {
           "paragraph": 3,
@@ -276,7 +276,7 @@
     {
       "id": "02",
       "characters": ["prinsessa", "blaa-oksen"],
-      "prompt": "In a sunny forest clearing, a white cloth lies spread on the grass, laid with steaming dishes of roast meat, white bread, sweet cakes and two shining cups of wine and mead. The Princess kneels at the cloth and eats hungrily, a little colour already back in her cheeks. The Blue Bull stands close beside her and watches her with big, gentle eyes. Three cows graze among the birches behind them.",
+      "prompt": "In a sunny forest clearing, a white cloth lies spread on the grass, laid with steaming dishes of roast meat, white bread, sweet cakes and two shining cups of wine and mead. The King's Daughter kneels at the cloth and eats hungrily, a little colour already back in her cheeks. The Blue Bull stands close beside her and watches her with big, gentle eyes. Three cows graze among the birches behind them.",
       "variants": {
         "simplified": {
           "paragraph": 5,
@@ -314,7 +314,7 @@
     {
       "id": "04",
       "characters": ["prinsessa", "blaa-oksen"],
-      "prompt": "Deep in a moonlit night, the Blue Bull gallops away from the dark, sleeping palace across a frosty meadow towards the black forest, with the Princess on his back, clinging to his neck, her copper hair and grey shawl streaming out behind her. Behind them the byre door stands open, and not a single window is lit. Wide view, silver moonlight and long blue shadows.",
+      "prompt": "Deep in a moonlit night, the Blue Bull gallops away from the dark, sleeping palace across a frosty meadow towards the black forest, with the King's Daughter on his back, clinging to his neck, her copper hair and grey shawl streaming out behind her. Behind them the byre door stands open, and not a single window is lit. Wide view, silver moonlight and long blue shadows.",
       "variants": {
         "simplified": {
           "paragraph": 17,
@@ -333,7 +333,7 @@
     {
       "id": "05",
       "characters": ["prinsessa", "blaa-oksen", "trollet-med-tre-hoder"],
-      "prompt": "At the far edge of the copper wood, where every trunk, leaf and flower shines like polished copper in the low sun, the Three-Headed Troll comes rushing out between the trees, all three heads bellowing. The Blue Bull plants his hooves and lowers his long horns to face him, and the Princess on his back shrinks away, clutching a single copper leaf to her chest.",
+      "prompt": "At the far edge of the copper wood, where every trunk, leaf and flower shines like polished copper in the low sun, the Three-Headed Troll comes rushing out between the trees, all three heads bellowing. The Blue Bull plants his hooves and lowers his long horns to face him, and the King's Daughter on his back shrinks away, clutching a single copper leaf to her chest.",
       "variants": {
         "simplified": {
           "paragraph": 23,
@@ -352,7 +352,7 @@
     {
       "id": "06",
       "characters": ["prinsessa", "blaa-oksen", "trollet-med-seks-hoder"],
-      "prompt": "Deep in the dense silver wood, where every trunk, branch and leaf glitters like frost, the Six-Headed Troll strides out between the trees, so tall that its six small heads peer down from above the silver treetops. The Princess stands behind the Blue Bull with a silver leaf in her hand, peeping out past his shoulder, while the Blue Bull turns to face the troll with his head held low. Cold, glittering light.",
+      "prompt": "Deep in the dense silver wood, where every trunk, branch and leaf glitters like frost, the Six-Headed Troll strides out between the trees, so tall that its six small heads peer down from above the silver treetops. The King's Daughter stands behind the Blue Bull with a silver leaf in her hand, peeping out past his shoulder, while the Blue Bull turns to face the troll with his head held low. Cold, glittering light.",
       "variants": {
         "simplified": {
           "paragraph": 34,
@@ -371,7 +371,7 @@
     {
       "id": "07",
       "characters": ["prinsessa", "blaa-oksen"],
-      "prompt": "Three days later, in a quiet hollow of the silver wood at dusk, the Blue Bull lies exhausted on a bed of fallen silver leaves, his head sunk low and his eyes half closed. The Princess kneels beside him and gently rubs ointment into his shoulder from a curved cow horn, her face full of worry and tenderness. Blue dusk light glimmers on the silver trees, and there is no one else in sight.",
+      "prompt": "Three days later, in a quiet hollow of the silver wood at dusk, the Blue Bull lies exhausted on a bed of fallen silver leaves, his head sunk low and his eyes half closed. The King's Daughter kneels beside him and gently rubs ointment into his shoulder from a curved cow horn, her face full of worry and tenderness. Blue dusk light glimmers on the silver trees, and there is no one else in sight.",
       "variants": {
         "simplified": {
           "paragraph": 38,
@@ -390,7 +390,7 @@
     {
       "id": "08",
       "characters": ["prinsessa", "blaa-oksen"],
-      "prompt": "Deep inside the golden wood, where gold drips from the leaves like honey, the trees crowd so close that the Blue Bull can barely squeeze between them. The Princess, riding on his back, twists and ducks with her eyes squeezed shut as golden branches lash her face, and her hand has just closed around a golden apple torn from a branch. The Blue Bull turns his head back towards her in alarm. Warm, glowing light.",
+      "prompt": "Deep inside the golden wood, where gold drips from the leaves like honey, the trees crowd so close that the Blue Bull can barely squeeze between them. The King's Daughter, riding on his back, twists and ducks with her eyes squeezed shut as golden branches lash her face, and her hand has just closed around a golden apple torn from a branch. The Blue Bull turns his head back towards her in alarm. Warm, glowing light.",
       "variants": {
         "simplified": {
           "paragraph": 42,
@@ -409,7 +409,7 @@
     {
       "id": "09",
       "characters": ["prinsessa", "blaa-oksen", "trollet-med-ni-hoder"],
-      "prompt": "In a clearing in the golden wood, the enormous Nine-Headed Troll looms up as tall as the trees, all nine heads roaring at once, its shadow falling across the glittering ground. The Blue Bull stands squarely in front of it, head lowered and horns aimed, braced to charge. Off to one side, the Princess presses the golden apple to her chest and turns her face away. Gold dust glitters in the air.",
+      "prompt": "In a clearing in the golden wood, the enormous Nine-Headed Troll looms up as tall as the trees, all nine heads roaring at once, its shadow falling across the glittering ground. The Blue Bull stands squarely in front of it, head lowered and horns aimed, braced to charge. Off to one side, the King's Daughter presses the golden apple to her chest and turns her face away. Gold dust glitters in the air.",
       "variants": {
         "simplified": {
           "paragraph": 49,
@@ -428,7 +428,7 @@
     {
       "id": "10",
       "characters": ["prinsessa", "blaa-oksen"],
-      "prompt": "Wide view of a flat, windswept mountain plateau under a huge pale-blue sky. The Princess sits on the Blue Bull's back and points far ahead, and on the distant horizon, beyond the heather and grey boulders, a castle is just visible, as tiny as a toy. The Blue Bull walks slowly, thin and tired from the long journey, his head low. Clear afternoon light and long shadows.",
+      "prompt": "Wide view of a flat, windswept mountain plateau under a huge pale-blue sky. The King's Daughter sits on the Blue Bull's back and points far ahead, and on the distant horizon, beyond the heather and grey boulders, a castle is just visible, as tiny as a toy. The Blue Bull walks slowly, thin and tired from the long journey, his head low. Clear afternoon light and long shadows.",
       "variants": {
         "simplified": {
           "paragraph": 56,
@@ -447,7 +447,7 @@
     {
       "id": "11",
       "characters": ["prinsessa", "blaa-oksen"],
-      "prompt": "On a grassy mound at the foot of a sheer grey cliff, with the great castle close below in the valley, the Princess has flung her arms around the Blue Bull's neck and presses her face into his coat, sobbing. The Blue Bull stands quite still with his eyes half closed and his great head bowed gently over her shoulder. A plain wooden stick leans against the rock behind them. Grey, windy evening light.",
+      "prompt": "On a grassy mound at the foot of a sheer grey cliff, with the great castle close below in the valley, the King's Daughter has flung her arms around the Blue Bull's neck and presses her face into his coat, sobbing. The Blue Bull stands quite still with his eyes half closed and his great head bowed gently over her shoulder. A plain wooden stick leans against the rock behind them. Grey, windy evening light.",
       "variants": {
         "simplified": {
           "paragraph": 62,

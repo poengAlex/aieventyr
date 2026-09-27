@@ -1,0 +1,53 @@
+{
+  "storyId": "bestedt",
+  "title": "Hver synes best om sine barn",
+  "textFile": "public/content/stories/bestedt/modern/story.txt",
+  "world": "Present-day Norway, where the birds can talk. A wide, open bog lies at the edge of a pine forest, with a gravel path and a stretch of wooden boardwalk leading out from a small gravel car park where one dark-green estate car is parked. The bog has tufts of white cotton grass, soft moss, heather, cloudberry plants and small dark pools, with low forested hills around it. The dunlin is a real, natural bird, no bigger than a starling.",
+  "palette": "A misty late-summer day on the bog: grey dawn fog over dark pools that clears to a hazy, warm afternoon, with white cotton grass, heather just coming into purple bloom and rusty-red bog moss. The hunter's orange hi-vis jacket is the brightest colour in the landscape.",
+  "cast": [
+    {
+      "slug": "jegeren",
+      "name": "Jegeren",
+      "promptName": "the Hunter",
+      "replacesPortrait": "jegeren",
+      "description": "En moderne jeger på tur i skogen, praktisk antrukket og sikker på egen vurdering, helt til han konfronteres med sin egen logikk.",
+      "look": "A tall, lean, weather-tanned hunter of about thirty with a long, friendly face, a slightly crooked nose, crinkly grey-blue eyes, a clean-shaven chin and long, straight jet-black hair tied back in a ponytail. He wears a wide-brimmed dark-green hat with a small brown feather, a bright orange hi-vis jacket with reflective stripes over a grey wool jumper, dark-green outdoor trousers and green rubber boots with red wool socks folded over the tops, and carries a rucksack with a steel thermos in the side pocket and a shotgun over his shoulder.",
+      "portrait": "Background: the misty bog at dawn."
+    },
+    {
+      "slug": "myrsnipa",
+      "name": "Myrsnipe-mora",
+      "promptName": "the Dunlin",
+      "replacesPortrait": "myrsnipe-mora",
+      "description": "En liten, modig mor som forsvarer ungene sine og leverer historien sin moral med rolig selvfølgelighet.",
+      "look": "A small, round-bodied dunlin in summer plumage, about the size of a starling, with a rusty-chestnut back speckled with black, a pale head and breast finely streaked with grey, a big black patch on her white belly, a long, slightly down-curved black beak, thin black legs and bright black eyes. When she spreads her wings, a white stripe shows along each one. A brave, proud little mother.",
+      "portrait": "Background: white cotton grass on the misty bog."
+    }
+  ],
+  "cover": {
+    "prompt": "Early morning at the misty edge of the bog: the Dunlin, tiny and proud, stands on a tussock of heather among white cotton grass with her chest puffed out and her head held high. Behind her, along the gravel path from the car park, the Hunter walks in his orange hi-vis jacket with his shotgun over his shoulder, not yet noticing her. Fog drifts over the dark pools.",
+    "characters": ["myrsnipa", "jegeren"],
+    "caption": "Myrsnipemora er sikker på at ungene hennes er de vakreste på hele myra.",
+    "alt": "Ei lita myrsnipe står stolt på en lyngtue mellom myrull. Bak henne kommer en jeger i refleksjakke gående langs grusstien med hagla over skulderen."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "Jegeren så seg rundt etter et kamera.",
+      "characters": ["myrsnipa", "jegeren"],
+      "prompt": "At the foggy edge of the bog just after dawn, the Dunlin has landed on the heather right in front of the Hunter's green rubber boots, her wings spread wide like a stop sign, waiting for an answer. The Hunter, his shotgun still over his shoulder, glances suspiciously left and right, looking for a hidden camera. There is no one else, only grey fog over the dark pools and the cotton grass.",
+      "caption": "Jegeren så seg rundt etter et kamera. Det var ingen der.",
+      "alt": "Ei lita myrsnipe har landet foran støvlene til en jeger i refleksjakke og brer ut vingene. Jegeren ser seg mistenksomt rundt. Tåka ligger over myra."
+    },
+    {
+      "id": "02",
+      "paragraph": 12,
+      "anchor": "«Å ja», sa hun.",
+      "characters": ["myrsnipa", "jegeren"],
+      "prompt": "Seen from low down at bird height on the gravel path near the car park on a hazy afternoon: the small Dunlin stands very straight on the gravel, her head lifted high, answering calmly. In front of her, filling one side of the picture, stand the Hunter's green rubber boots with red socks and his dark-green trousers, seen only from the knees down. A dark-green estate car is parked in the background, and cotton grass nods at the edge of the path.",
+      "caption": "«Vet du ikke at hver synes best om sine barn?»",
+      "alt": "Sett nede fra grusen står myrsnipa rank foran jegerens gummistøvler og svarer rolig. Jegeren synes bare fra knærne og ned, og bak ham står en bil på parkeringsplassen."
+    }
+  ]
+}

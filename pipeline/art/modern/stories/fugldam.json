@@ -138,7 +138,7 @@
       "paragraph": 3,
       "anchor": "Det ble stor sorg i hele landet, men ingen sørget som kongen.",
       "characters": ["kongen"],
-      "prompt": "A packed press conference in a bright police briefing room: three police officers in uniform sit behind a long table crowded with microphones, one of them leaning in to speak, while photographers and TV cameras crowd the front. In the front row sits the King, small and crumpled, staring at the floor. On a big screen behind the officers glows a blurry photo of a dark forest and a steep mountain.",
+      "prompt": "A packed press conference in a bright police briefing room: three police officers in uniform sit behind a long table crowded with microphones, one of them leaning in to speak, while photographers and TV cameras crowd the front. In the front row sits the King, small and crumpled, staring at the floor. On a big screen behind the officers glows only the simple dark silhouette of a steep mountain.",
       "caption": "Prinsessene var etter alt å dømme bergtatt.",
       "alt": "På en pressekonferanse sitter tre politifolk bak et bord fullt av mikrofoner, foran fotografer og kameraer. På første rad sitter kongen og stirrer i gulvet."
     },
@@ -206,7 +206,7 @@
       "paragraph": 34,
       "anchor": "Kongssønnen vinket til dem at de skulle flytte seg.",
       "characters": ["storetrollet", "den-yngste-prinsessen", "den-yngste-kongssonnen"],
-      "prompt": "A splendid chamber hung with gold, where the Great Troll sits asleep in a huge armchair, dressed up for a party, all twelve heads snoring with their mouths open. Around him stand twelve little golden chairs with lice combs left on the seats, emptying as the twelve princesses rise and tiptoe away. The Youngest Princess, the first to understand, leads them towards the Youngest Prince, who waits by the door with the rusty sword, beckoning.",
+      "prompt": "A splendid chamber hung with gold, where the Great Troll sits asleep in a huge armchair, dressed up for a party, all twelve heads snoring with their mouths open. Around him stand twelve little golden chairs with lice combs left on the seats, emptying as the princesses rise and tiptoe away: the Youngest Princess, the first to understand, leads her eleven sisters towards the Youngest Prince, who waits by the door with the rusty sword, beckoning.",
       "caption": "Til slutt skjønte de, den yngste først, at han var kommet for å berge dem.",
       "alt": "Et rustrødt troll med tolv hoder sover i en stor stol, pyntet som til fest. Tolv prinsesser lister seg bort fra gullstolene mot kongssønnen, som står ved døra med sverdet."
     },
@@ -331,7 +331,7 @@
       "paragraph": 88,
       "anchor": "Så begynte forberedelsene.",
       "characters": ["sjomannen", "den-yngste-prinsessen"],
-      "prompt": "In a bright palace fitting room, twelve princesses stand on low stools in half-finished white wedding dresses while four seamstresses with pins in their mouths bustle round them. In the doorway stands the Sailor in his huge old greatcoat, a worn wooden crate full of gold and silver trinkets on his back, offering his wares. The Youngest Princess turns on her stool and looks at him hard, as if she knows him.",
+      "prompt": "In a bright palace fitting room, the Youngest Princess and her eleven sisters stand on low stools in half-finished white wedding dresses while four seamstresses with pins in their mouths bustle round them. In the doorway stands the Sailor in his huge old greatcoat, a worn wooden crate full of gold and silver trinkets on his back, offering his wares. The Youngest Princess turns on her stool and looks at him hard, as if she knows him from somewhere.",
       "caption": "De så på varene, og de så på ham.",
       "alt": "Tolv prinsesser står på skamler i halvferdige brudekjoler, og syerskene har knappenåler i munnen. I døra står sjømannen med en kasse varer på ryggen, og den yngste prinsessen ser granskende på ham."
     },
