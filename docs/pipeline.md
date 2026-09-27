@@ -232,6 +232,16 @@ npm run pipeline:regenerate-scenes -- --story=tolvander --model=gpt-image-2.5-su
 
 Redraws single scene images from the `imagePrompt` stored in `sections.json`. Unlike `build-inline-scenes --force`, it doesn't re-split the story text, retitle sections or redraw the other scenes. Without `--scene` it works through `pipeline/config/scene-fixes.json`, the list of illustrations that contradict the current texts, each with a corrected prompt already in `sections.json`.
 
+### Illustrate a whole set overnight
+
+```bash
+npm run art:generate -- --dry-run
+npm run art:generate -- --story=askesv
+npm run art:generate -- --budget=150
+```
+
+A separate runner, apart from the stages above. It reads hand-written plans from `pipeline/art/<set>/`, one per story, with the cast, places, cover and pictures tied to paragraphs, plus captions and alt texts. It makes model sheets first and sends them along as reference images, so characters look the same in every picture. Output goes to `pipeline/art-output/<set>/` with an `illustrations.json` per story and a `review.html` for checking. It doesn't touch `public/content`. Details are in `pipeline/art/README.md`.
+
 ### Refresh only TTS for one story variant
 
 ```bash

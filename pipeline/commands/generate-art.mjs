@@ -20,7 +20,7 @@ import sharp from 'sharp'
 import { fileURLToPath } from 'url'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
-const API = 'https://api.openai.com/v1/images'
+const API = `${(process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1').replace(/\/$/, '')}/images`
 const KINDS = ['style', 'characters', 'places', 'portraits', 'covers', 'scenes']
 // Model sheets and place pictures are references for everything after them, so they go first.
 const PHASES = [['style'], ['characters', 'places'], ['portraits', 'covers', 'scenes']]

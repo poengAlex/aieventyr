@@ -33,3 +33,6 @@ yarn-error.log*
 # local .env files
 .env.local*
 .env
+
+# half-written images from an interrupted art run
+pipeline/art-output/**/*.tmp.webp

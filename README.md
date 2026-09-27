@@ -167,11 +167,22 @@ npm run pipeline:compare-tts-voices
 
 `pipeline:all`, `pipeline:story`, and `pipeline:variant` do not run TTS by default. Audio can be tested and rerun separately with the dedicated audio commands above.
 
+### Illustration sets
+
+```bash
+npm run art:generate -- --dry-run
+npm run art:generate -- --story=askesv
+npm run art:paragraphs -- --story=askesv
+```
+
+`art:generate` illustrates a whole set of texts from hand-written plans in `pipeline/art/<set>/`. It keeps characters, places and style consistent with model sheets and reference images, and writes to `pipeline/art-output/<set>/`. The first set covers the child-friendly texts. It is made to run unattended overnight; see `pipeline/art/README.md`.
+
 ## Documentation
 
 - `docs/architecture.md`
 - `docs/pipeline.md`
 - `docs/content-contract.md`
+- `pipeline/art/README.md`
 
 ## Verification
 
