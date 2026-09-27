@@ -1,0 +1,144 @@
+{
+  "storyId": "gudbrand",
+  "title": "Gudbrand i lien",
+  "textFile": "public/content/stories/gudbrand/modern/story.txt",
+  "world": "Present-day Norway, on a steep valley side in autumn. Gudbrand's smallholding sits so high up the slope that the snowplough turns in his yard: a small red wooden farmhouse with white window frames, an old grey cowshed, a little brew house with an old stable-style half-door, and a gravel yard. The neighbour's yellow house stands just below the driveway. Gudbrand drives a battered old dark-green estate car with a tow bar. Down in the valley lie the market town, a roundabout with a petrol station, bus shelters and farm shops. The animals: a black cow with a white face, a brown horse, a fat pink pig, a white milking goat, a woolly white sheep, a big white goose and a glossy cinnamon-brown rooster.",
+  "palette": "A cold, bright late-October day: a pale-blue sky, the last yellow birch leaves and rust-red bracken on the valley sides, wet grey tarmac, frost in the shadows and long amber afternoon light; then a clear, cold blue evening with warm yellow light in the farmhouse windows. Accents: the wife’s cornflower-blue apron, the red farmhouse and the orange of hi-vis.",
+  "cast": [
+    {
+      "slug": "gudbrand",
+      "name": "Gudbrand",
+      "promptName": "Gudbrand",
+      "replacesPortrait": "gudbrand",
+      "description": "En rolig småbruker øverst i lia som bytter seg nedover fra ku til hane på vei hjem fra markedet, trygg på at kona vil forstå.",
+      "look": "A short, round, easy-going smallholder of about fifty with a round belly, a shiny bald head, bushy grey-white side-whiskers from his ears down to his jaw, a clean-shaven chin, a big pink nose, small merry blue eyes and a calm, contented smile. He wears a dark-green tweed flat cap, a thick knitted cardigan with a black-and-white snowflake pattern and pewter clasps, brown work trousers and green rubber boots, with a short curved wooden pipe in his breast pocket.",
+      "portrait": "Background: the steep valley side with his small red farmhouse."
+    },
+    {
+      "slug": "gudbrands-wife",
+      "name": "Kona",
+      "promptName": "the Wife",
+      "replacesPortrait": "gudbrands-wife",
+      "description": "Gudbrands kone, som finner noe bra ved alt han finner på, og som følger langt bedre med enn bygda tror.",
+      "look": "A plump, cheerful woman of about forty-eight, a little shorter than Gudbrand, with a round, beaming face, rosy cheeks, a broad, freckled nose, merry hazel eyes that crinkle when she laughs and grey hair pinned up in a neat bun. She wears a rose-red knitted jumper with the sleeves pushed up, a bright cornflower-blue apron, dark jeans and thick grey woollen house socks.",
+      "portrait": "Background: the warm farmhouse kitchen with its wood stove."
+    },
+    {
+      "slug": "the-neighbor",
+      "name": "Naboen",
+      "promptName": "the Neighbour",
+      "replacesPortrait": "the-neighbor",
+      "description": "Nærmeste nabo, som er sikker på at Gudbrand får kjeft, vedder hundre tusen kroner på det og lytter ved halvdøra.",
+      "look": "A nosy, pot-bellied man of about fifty with a round, clean-shaven face, a long, pointed, twitchy nose, narrow doubtful eyes with one eyebrow always raised, big pink ears that stick straight out and short, spiky ginger hair. He wears a brown knitted beanie, a grey-and-orange work jacket with reflective stripes, faded jeans and black rubber boots.",
+      "portrait": "Background: the front steps of his yellow house."
+    },
+    {
+      "slug": "the-trader-teen",
+      "name": "Gutten med hanen",
+      "promptName": "the Teenager",
+      "replacesPortrait": "the-trader-teen",
+      "description": "En tenåring i hettegenser som vil bli kvitt morfarens hane fordi den galer klokka fire hver morgen, og som bytter den mot ei gås.",
+      "look": "A lanky, sleepy-eyed teenage boy of about fifteen with a pale, narrow face, dark shadows under his eyes, a few spots on his chin and a mop of messy dark-blond hair poking out of his hood. He wears a faded black hoodie with the hood up, grey joggers and muddy white trainers, and holds a cardboard box with a rooster's red comb poking out of the top.",
+      "portrait": "Background: a small wooden bus shelter beside a red barn."
+    }
+  ],
+  "places": [
+    {
+      "slug": "kjokkenet",
+      "name": "the Farmhouse Kitchen",
+      "look": "A cosy, cluttered farmhouse kitchen with pale wood-panelled walls: a pine table with mismatched chairs, a black wood stove with a kettle on top, a fridge covered with children's drawings and magnets, rag rugs on a worn wooden floor and a steep, narrow staircase up to the children's rooms. A short hallway with coats, caps and boots on pegs leads to the white front door."
+    }
+  ],
+  "cover": {
+    "prompt": "Gudbrand drives his battered old dark-green estate car up a winding valley road in the low October sun, smiling contentedly at the road ahead with both hands on the wheel. On the back seat, a big white goose in a wooden fruit crate stretches its neck forward and hisses at the back of his neck. Yellow birches and rust-red bracken line the road, and the valley falls away behind.",
+    "characters": ["gudbrand"],
+    "caption": "Gåsa freste mot nakken hans hele veien videre.",
+    "alt": "Gudbrand kjører den gamle bilen oppover dalen, og i baksetet står ei stor, hvit gås i en fruktkasse og freser mot nakken hans."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "På markedet ville alle klappe kua.",
+      "characters": ["gudbrand"],
+      "prompt": "At a busy autumn market in the town square, among stalls with striped awnings, Gudbrand stands patiently holding his black cow with the white face on a rope, his cap pushed back. A little crowd of people pat and stroke the cow and take pictures with their phones, but nobody reaches for a wallet. In front, a small boy in a red rain jacket stares up at the cow with wide eyes, pointing.",
+      "caption": "På markedet ville alle klappe kua. Ingen ville kjøpe henne.",
+      "alt": "På høstmarkedet står Gudbrand med kua i et tau. Mange klapper henne og tar bilder, og en liten gutt i regnjakke peker og stirrer, men ingen vil kjøpe."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "Gudbrand så på hesten.",
+      "characters": ["gudbrand"],
+      "prompt": "In a gravel lay-by just outside town, Gudbrand shakes hands with a wiry man in an orange cap and hands him the rope of the black cow with the white face. Beside them stands an old horse trailer with its ramp down and seven saddles and a row of bridles hanging inside, while a brown horse grazes in the ditch. At the roadside, Gudbrand's old estate car waits with an empty animal trailer.",
+      "caption": "Hest er bedre enn ku, tenkte han.",
+      "alt": "I en lomme ved veien tar Gudbrand en mann i oransje caps i hånda og gir ham kua. Ved siden av står en hestehenger full av saler, og en brun hest napper gress i grøftekanten."
+    },
+    {
+      "id": "03",
+      "paragraph": 15,
+      "anchor": "Gutten så på gåsa.",
+      "characters": ["gudbrand", "the-trader-teen"],
+      "prompt": "At a small wooden bus shelter beside a red barn, the Teenager holds his cardboard box with the rooster inside and looks doubtfully at the big white goose in a wooden fruit crate that Gudbrand is holding out to him. The goose stretches out its neck and hisses at the Teenager furiously. Gudbrand waits hopefully, his old estate car parked at the roadside behind him.",
+      "caption": "«Gås galer i hvert fall ikke», sa gutten.",
+      "alt": "I et busskur ved en rød låve står en tenåring med en pappeske med en hane i. Gudbrand holder fram gåsa i en fruktkasse, og gåsa freser mot gutten."
+    },
+    {
+      "id": "04",
+      "paragraph": 21,
+      "anchor": "Naboen hørte på med åpen munn.",
+      "characters": ["gudbrand", "the-neighbor"],
+      "prompt": "On the front steps of a yellow house in the late afternoon, the Neighbour listens to Gudbrand with his mouth hanging open and one eyebrow shooting up. Gudbrand stands at the bottom of the steps, cheerfully counting off the trades on his fingers, a paper bag of groceries in his other hand. His old estate car is parked in the yard behind him.",
+      "caption": "Naboen hørte på med åpen munn.",
+      "alt": "Naboen står på trappa til det gule huset og hører på med åpen munn. Gudbrand står nedenfor og teller på fingrene, med en pose mat i den andre hånda."
+    },
+    {
+      "id": "05",
+      "paragraph": 27,
+      "anchor": "Inngangen til bryggerset hadde en gammel halvdør, og naboen stilte seg der",
+      "characters": ["gudbrand", "the-neighbor"],
+      "prompt": "Dusk at Gudbrand's small red farmhouse high on the slope. At the entrance to the brew house, the Neighbour leans in over the bottom half of an old half-door, holding his breath, one hand cupped behind his big ear. A few steps away, Gudbrand, the paper bag of food slung over his shoulder, walks in at the kitchen door into warm yellow light, calm, but a little wobbly at the knees.",
+      "caption": "Men hundre tusen var hundre tusen, og det kjente han litt i knærne.",
+      "alt": "Det skumrer ved det lille, røde huset. Naboen lener seg inn over en gammel halvdør og holder pusten, mens Gudbrand går inn på kjøkkenet med posen over skulderen."
+    },
+    {
+      "id": "06",
+      "paragraph": 33,
+      "anchor": "«Nei, så fint!» sa kona.",
+      "characters": ["gudbrand", "gudbrands-wife"],
+      "places": ["kjokkenet"],
+      "prompt": "In the Farmhouse Kitchen in the evening, the Wife beams at Gudbrand and turns towards the staircase with her hands cupped round her mouth, calling up to the children. Gudbrand stands by the hallway with the paper bag over his shoulder and his cap in his hand. At the top of the stairs, nothing stirs: only dark, closed doors.",
+      "caption": "«Unger! Gå ut og sett inn hesten!»",
+      "alt": "Kona smiler til Gudbrand og roper opp trappa til ungene. Gudbrand står med posen over skulderen og lua i hånda. Oppe i trappa er det helt stille."
+    },
+    {
+      "id": "07",
+      "paragraph": 40,
+      "anchor": "Kona så på tegningen.",
+      "characters": ["gudbrand", "gudbrands-wife"],
+      "places": ["kjokkenet"],
+      "prompt": "At the pine table in the Farmhouse Kitchen, the Wife bends over a pencil drawing of a very pleased-looking goat with a beard and an udder, sketched on the blank back of a sheet of paper, and cheerfully adds fluffy wool all over it. Gudbrand sits opposite, scratching the back of his neck and watching her with relief. The wood stove glows behind them.",
+      "caption": "Så tok hun blyanten og tegnet ull på geita.",
+      "alt": "Kona sitter ved kjøkkenbordet og tegner ull på en tegning av ei fornøyd geit på baksiden av strømregningen. Gudbrand sitter overfor og klør seg i nakken."
+    },
+    {
+      "id": "08",
+      "paragraph": 47,
+      "anchor": "«Den har jeg ikke heller!» sa Gudbrand og slo ut med hendene.",
+      "characters": ["gudbrand", "gudbrands-wife"],
+      "places": ["kjokkenet"],
+      "prompt": "In the hallway of the Farmhouse Kitchen, the Wife has flung the white front door open onto the cold blue evening to let the rooster in herself, and the chill makes her pull her jumper sleeves over her hands. Behind her, Gudbrand throws out both hands with a sheepish grin. Beyond the doorway lies the dark gravel yard.",
+      "caption": "«Den har jeg ikke heller!» sa Gudbrand og slo ut med hendene.",
+      "alt": "Kona har åpnet ytterdøra for å slippe inn hanen, og kald kveldsluft slår inn i gangen. Bak henne slår Gudbrand ut med hendene og smiler flaut."
+    },
+    {
+      "id": "09",
+      "paragraph": 54,
+      "anchor": "«Nei, så fint», sa kona.",
+      "characters": ["gudbrand", "gudbrands-wife", "the-neighbor"],
+      "prompt": "Seen from the dark yard: the farmhouse's white front door stands open, pouring warm light across the gravel. In the light stands the Neighbour, gaping. On the doorstep, Gudbrand grins at him, while the Wife, looking from one man to the other, lays a hand on Gudbrand's arm and beams as if she had just had the best idea in the world.",
+      "caption": "«Nei, så fint», sa kona. «Da kan vi kjøpe ei ku.»",
+      "alt": "Ytterdøra står åpen, og varmt lys faller ut på tunet der naboen står og gaper. På trappa smiler Gudbrand, og kona legger hånda på armen hans og stråler."
+    }
+  ]
+}

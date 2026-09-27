@@ -67,6 +67,16 @@ To redo pictures you don't like, change the plan if needed and run for example `
 
 The API charges per token: $8 per million tokens for reference images going in, and $30 per million for image tokens coming out. A 1536×1024 picture at `high` is about $0.08 of output, and every reference image sent along adds roughly $0.05. That makes a scene with three characters and a place about $0.25. The estimate in the dry run uses these numbers.
 
+Estimates for the full plans (the dry run prints them per set):
+
+| Set              | Images | `high` | `medium` | `low` |
+| ---------------- | ------ | ------ | -------- | ----- |
+| `child-friendly` | 888    | ~$159  | ~$110    | ~$102 |
+| `classic`        | 821    | ~$144  | ~$99     | ~$92  |
+| `modern`         | 876    | ~$154  | ~$106    | ~$98  |
+
+Reference images make up most of the cost, so a lower quality saves less than you might expect. Skipping the portraits (`--only=style,characters,places,covers,scenes`) saves about $24 per set; the reader then shows the model sheets in the character gallery.
+
 Every image's real token use is logged in `run-log.jsonl`. At the end of a run, the runner prints what it spent and how many tokens a reference image really costs. Run one tale first and use that figure to set `--budget`.
 
 ## Output

@@ -26,7 +26,7 @@
       "slug": "fiskeren",
       "name": "Fiskeren",
       "promptName": "the Fisherman",
-      "description": "Guttens far, som har levert fisk til kongens kjøkken i tjue år, og som lover bort det han ikke vet at kona bærer under beltet.",
+      "description": "Guttens far, som har levert fisk til kongens kjøkken i tjue år, og som lover bort det han ikke vet at konen bærer under beltet.",
       "look": "A lean, wiry fisherman of about forty-five with a long, weather-beaten face, deep laughter lines, a sharp nose, kind, crinkly blue eyes and a long, drooping black moustache but no beard. He wears a round, brimless old sealskin cap, a thick grey wool jumper, orange oilskin bib trousers and white rubber boots.",
       "portrait": "Background: his small white fishing boat on the grey fjord."
     },
@@ -91,7 +91,7 @@
     }
   ],
   "cover": {
-    "prompt": "At night on a vast, dark sea, the small white fishing boat glides along all by itself with a white wave at the bow and its engine silent. The Fisher Lad sits in it in an orange life jacket, a dead phone in his hand, looking up at the stars in wonder; far ahead, a thin line of dazzling white shore glows on the horizon under the first pale light of dawn.",
+    "prompt": "At night on a vast, dark sea, the small white fishing boat glides along all by itself with a white wave at the bow and its engine silent. The Fisher Lad sits in it in an orange life jacket, his phone gone dark in his hand, looking up at the stars in wonder; far ahead, a thin line of dazzling white shore glows on the horizon under the first pale light of dawn.",
     "characters": ["gutten"],
     "caption": "Båten gikk hele natten.",
     "alt": "En liten, hvit fiskebåt glir av seg selv over et mørkt hav om natten. Gutten sitter i båten i redningsvest, og langt fremme lyser en kritthvit strand."

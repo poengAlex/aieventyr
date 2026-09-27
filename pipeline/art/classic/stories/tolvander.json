@@ -395,7 +395,12 @@
     },
     {
       "id": "12",
-      "characters": ["den-yngste-broren-vinge", "snohvit-og-rosenrod-dronning", "den-unge-kongen", "kongens-stemor"],
+      "characters": [
+        "den-yngste-broren-vinge",
+        "snohvit-og-rosenrod-dronning",
+        "den-unge-kongen",
+        "kongens-stemor"
+      ],
       "prompt": "In the smoky yard of the royal manor at dusk, the pyre burning low, twelve princes come riding up on twelve horses, tall and handsome, all in new pure-white caps, shirts and kerchiefs. At their head rides the Winged Brother, a large wild duck's wing where his left arm should be. The Maiden Queen, still between two guards, gazes up at them with shining eyes; the Young King turns in astonishment, and beside him the Stepmother freezes with her pointing hand still raised.",
       "variants": {
         "simplified": {
@@ -433,7 +438,12 @@
     },
     {
       "id": "14",
-      "characters": ["dronningen", "snohvit-og-rosenrod-dronning", "den-unge-kongen", "den-yngste-broren-vinge"],
+      "characters": [
+        "dronningen",
+        "snohvit-og-rosenrod-dronning",
+        "den-unge-kongen",
+        "den-yngste-broren-vinge"
+      ],
       "prompt": "A bright spring morning at the old royal manor, the birches in pale new leaf. The Queen, an old woman now with white hair, hurries down the steps with open arms to embrace the Maiden Queen. Beside them the Young King holds the baby girl, with two small boys with fair curls at his side, and behind them the Winged Brother and eleven more brothers in white lead their horses in through the gate. In the doorway waits her father, a thin old king with a short grey beard and a dark-green robe.",
       "variants": {
         "simplified": {

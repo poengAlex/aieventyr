@@ -129,7 +129,13 @@
   ],
   "cover": {
     "prompt": "On the dazzling White Beach under a pale spring sky, the Fisher Lad has just stepped out of his little rowing boat and stares in wonder at three princess heads sticking up out of the milk-white sand in a row: the Eldest Princess, the Middle Princess and the Youngest Princess, who smiles at him. On the hill behind, the gloomy troll castle looms, and the Three-Headed Troll, its three stacked heads grinning, peeks out of a tower window holding three bundles of birch twigs.",
-    "characters": ["gutten", "eldste-prinsessen", "mellomste-prinsessen", "den-yngste-prinsessen", "trollet-med-tre-hoder"],
+    "characters": [
+      "gutten",
+      "eldste-prinsessen",
+      "mellomste-prinsessen",
+      "den-yngste-prinsessen",
+      "trollet-med-tre-hoder"
+    ],
     "places": ["hvite-stranden"],
     "caption": "Tre prinsesser sitter fast i den hvite sanden i Hvittenland.",
     "alt": "Gutten står på en melkehvit strand og ser forundret på tre prinsessehoder som stikker opp av sanden. Oppe på bakken ligger et grått trollslott, og fra et tårnvindu titter et gult troll med tre hoder."
@@ -157,7 +163,13 @@
       "id": "03",
       "paragraph": 21,
       "anchor": "Langt borte stakk det tre hoder opp av sanden.",
-      "characters": ["gutten", "den-gamle-mannen-ved-stranden", "eldste-prinsessen", "mellomste-prinsessen", "den-yngste-prinsessen"],
+      "characters": [
+        "gutten",
+        "den-gamle-mannen-ved-stranden",
+        "eldste-prinsessen",
+        "mellomste-prinsessen",
+        "den-yngste-prinsessen"
+      ],
       "places": ["hvite-stranden"],
       "prompt": "Wide view of the White Beach in low, golden morning sun. The little rowing boat lies scraped up on the milk-white sand. The Old Man stands beside the Fisher Lad, leaning on his staff and calmly pointing far along the beach, where three small heads stick up out of the sand in a row: the Eldest Princess, the Middle Princess and the Youngest Princess, with nothing else of them showing. The Fisher Lad shades his eyes and stares.",
       "caption": "Langt borte stakk det tre hoder opp av sanden. Bare hoder!",
@@ -167,7 +179,12 @@
       "id": "04",
       "paragraph": 28,
       "anchor": "Den tredje prinsessen ropte ikke.",
-      "characters": ["gutten", "eldste-prinsessen", "mellomste-prinsessen", "den-yngste-prinsessen"],
+      "characters": [
+        "gutten",
+        "eldste-prinsessen",
+        "mellomste-prinsessen",
+        "den-yngste-prinsessen"
+      ],
       "places": ["hvite-stranden"],
       "prompt": "On the White Beach, seen low at sand level: in the foreground the heads of the Eldest Princess and the Middle Princess stick out of the white sand, calling after the Fisher Lad with pleading faces and wide-open mouths. He walks straight past them with his eyes fixed ahead, towards the head of the Youngest Princess further along, who does not call at all but simply looks at him calmly. Bright, pale morning light.",
       "caption": "Den tredje prinsessen ropte ikke. Hun bare så på ham.",
