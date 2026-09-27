@@ -792,6 +792,46 @@ export async function stageBuildInlineScenes(args = {}) {
   }
 }
 
+// Redraws individual scene images from the imagePrompt already stored in sections.json.
+// Unlike build-inline-scenes, it never re-splits the story text or rewrites sections.json.
+export async function stageRegenerateSceneImages(args = {}) {
+  const models = await loadModelsConfig()
+  const pipelineConfig = await loadPipelineConfig()
+  let fixes
+  if (args.story && args.variant && args.scene) {
+    const section = /^\d+$/.test(args.scene) ? `section-${args.scene}` : args.scene
+    fixes = [{ story: args.story, variant: args.variant, section }]
+  } else {
+    fixes = await readJson(rootPath(args.list || 'pipeline/config/scene-fixes.json'))
+    if (args.story) fixes = fixes.filter((fix) => fix.story === args.story)
+    if (args.variant) fixes = fixes.filter((fix) => fix.variant === args.variant)
+  }
+
+  for (const fix of fixes) {
+    const paths = getCanonicalPaths(fix.story, fix.variant)
+    const sections = await readJson(path.join(paths.variantDir, 'sections.json'))
+    const entry = sections.find((section) => section.id === fix.section)
+    if (!entry?.imagePrompt) {
+      throw new Error(`No image prompt for ${fix.story}/${fix.variant}/${fix.section}`)
+    }
+    console.log(`Regenerating ${fix.story}/${fix.variant}/${entry.imagePath}`)
+    try {
+      const response = await generateImage({
+        model: models.image.model,
+        prompt: sceneImagePrompt(entry.imagePrompt, fix.variant, models),
+        size: pipelineConfig.defaultImageSize,
+        quality: pipelineConfig.defaultImageQuality,
+      })
+      await writeImageFromResponse(response, path.join(paths.variantDir, entry.imagePath))
+    } catch (error) {
+      if (!isModerationBlocked(error)) throw error
+      console.warn(
+        `Skipped ${fix.story}/${fix.variant}/${fix.section}: blocked by moderation. Soften its imagePrompt in sections.json and rerun.`,
+      )
+    }
+  }
+}
+
 export async function stageCompareTtsVoices() {
   const models = await loadModelsConfig()
   const sampleText =

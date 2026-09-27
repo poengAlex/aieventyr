@@ -159,6 +159,7 @@ npm run pipeline:generate-variant-character-images
 npm run pipeline:generate-variant-main-images
 npm run pipeline:generate-variant-audio
 npm run pipeline:build-inline-scenes
+npm run pipeline:regenerate-scenes
 npm run pipeline:build-content-manifest
 npm run pipeline:validate
 npm run pipeline:compare-tts-voices

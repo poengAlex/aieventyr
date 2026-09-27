@@ -217,6 +217,18 @@ npm run pipeline:validate -- --story=gjertrud
 npm run pipeline:build-inline-scenes -- --story=askesv --variant=modern --force
 ```
 
+This also re-splits the text into new sections with generated titles and prompts. To redraw images and keep the sections, use `pipeline:regenerate-scenes`.
+
+### Redraw individual scene images
+
+```bash
+npm run pipeline:regenerate-scenes
+npm run pipeline:regenerate-scenes -- --story=tolvander
+npm run pipeline:regenerate-scenes -- --story=giske --variant=english --scene=3
+```
+
+Redraws single scene images from the `imagePrompt` stored in `sections.json`. Unlike `build-inline-scenes --force`, it doesn't re-split the story text, retitle sections or redraw the other scenes. Without `--scene` it works through `pipeline/config/scene-fixes.json`, the list of illustrations that contradict the current texts, each with a corrected prompt already in `sections.json`.
+
 ### Refresh only TTS for one story variant
 
 ```bash

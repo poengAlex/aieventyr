@@ -50,6 +50,8 @@ export function parseArgs(argv) {
   const args = {
     story: undefined,
     variant: undefined,
+    scene: undefined,
+    list: undefined,
     force: false,
   }
 
@@ -58,8 +60,12 @@ export function parseArgs(argv) {
     if (part === '--force') args.force = true
     if (part === '--story') args.story = argv[index + 1]
     if (part === '--variant') args.variant = argv[index + 1]
+    if (part === '--scene') args.scene = argv[index + 1]
+    if (part === '--list') args.list = argv[index + 1]
     if (part.startsWith('--story=')) args.story = part.split('=').slice(1).join('=')
     if (part.startsWith('--variant=')) args.variant = part.split('=').slice(1).join('=')
+    if (part.startsWith('--scene=')) args.scene = part.split('=').slice(1).join('=')
+    if (part.startsWith('--list=')) args.list = part.split('=').slice(1).join('=')
   }
 
   return args

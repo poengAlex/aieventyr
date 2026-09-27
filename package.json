@@ -23,6 +23,7 @@
     "pipeline:generate-variant-main-images": "node pipeline/commands/generate-variant-main-images.mjs",
     "pipeline:generate-variant-audio": "node pipeline/commands/generate-variant-audio.mjs",
     "pipeline:build-inline-scenes": "node pipeline/commands/build-inline-scenes.mjs",
+    "pipeline:regenerate-scenes": "node pipeline/commands/regenerate-scene-images.mjs",
     "pipeline:build-content-manifest": "node pipeline/commands/build-content-manifest.mjs",
     "pipeline:validate": "node pipeline/commands/validate-content.mjs",
     "pipeline:compare-tts-voices": "node pipeline/commands/compare-tts-voices.mjs",
