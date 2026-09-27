@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "The Doll in the Grass",
-  "description": "An English retelling that stays close to the folktale, following Ash-Lad’s chance meeting with a tiny grass-dwelling doll, her impossible shirt, a silver-spoon journey pulled by white mice, and a watery transformation that wins the king’s favor over the jealous brothers.",
-  "tone": "Classic, wonder-filled folktale with gentle humor and a triumphant ending",
+  "description": "Left behind by his eleven brothers, Ash-Lad sits crying in the long grass by the road, until a tussock in front of him begins to stir. A Norwegian fairy tale about a very small bride, told in lively modern English.",
+  "tone": "Gentle, whimsical and quietly funny",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Cast aside by his brothers, Ash-Lad wins a magical bride from the grass whose transformation secures their happy future.",
+  "summary": "Ash-Lad’s brothers leave him behind, but by the roadside he meets a girl no taller than his hand, who sews a shirt in a single day and becomes his bride.",
   "hasInlineScenes": true
 }

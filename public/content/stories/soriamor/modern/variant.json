@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Soria Moria Slot (Modern)",
-  "description": "A contemporary retelling where Halvor’s listless life in a small edge-of-town home breaks open through a container ship voyage, deserted glass-and-steel “castles” that feel like luxury compounds, and a warm smart-ring whose wish-magic collides with modern pride, gossip, and a wedding turned public reckoning—while trolls remain brutally real.",
-  "tone": "Contemporary folktale adventure with romance, wonder, and sharp consequences",
+  "description": "Halvor holdt ut fire dager på yrkesfag, to hos snekkeren og en formiddag på motivasjonskurs hos NAV. Så trenger en skipper en dekksgutt, og etter en storm går Halvor i land på en kyst som ikke finnes på kartplotteren.",
+  "tone": "Tørr, eventyrlig og romantisk",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A drifting young man rescues three heiresses from monstrous trolls, loses them through a careless boast, and races back to reclaim the love he earned.",
+  "summary": "Halvor hogger hodene av tre troll i tomme slott av glass og stein, men mister Siri da han skryter av henne hjemme i bygda.",
   "hasInlineScenes": true
 }

@@ -1,7 +1,7 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Hanen, Gjøken og Århanen (Barnevennlig)",
-  "description": "En barnevennlig og mild variant med mykere språk og trygg stemning, der uenigheten blir en liten lek og ender i en rolig oppfordring til å dele rettferdig.",
+  "description": "Hanen, Gjøken og Århanen har kjøpt ei ku sammen, men ei ku kan jo ikke bo tre steder på én gang. «Jeg vet en lek!» sier Hanen, og helt til slutt får du bestemme hvem som skal få kua.",
   "tone": "Varm, leken og beroligende",
   "characterCount": 4,
   "hasAudio": false,
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Tre fugler krangler vennlig om en ku og lærer at det beste er å dele rettferdig.",
+  "summary": "Tre fugler leker om kua de har kjøpt sammen: Den som våkner først i morgen, skal få henne.",
   "hasInlineScenes": true
 }

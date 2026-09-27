@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Kari Trestakk (Child Friendly)",
-  "description": "A gentler retelling with a warm, reassuring mood, focusing on kindness, courage, and magical help while keeping frightening moments softer and ending with a safe, joyful home for Kari.",
-  "tone": "Gentle, hopeful fairy tale",
+  "description": "Den blå oksen fniser når prinsessa stikker hånda inn i øret hans, for det kiler, og der inne ligger en duk som dekker på med kylling og jordbærkake. Et eventyr å lese høyt, med mye dunk og klapre-klapre og ingenting skummelt.",
+  "tone": "Leken, varm og eventyrlig",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A mistreated princess escapes with a magical blue ox and, through three enchanted Sundays, finds her true place and a loving future.",
+  "summary": "Prinsessa rømmer fra den nye dronninga på den blå oksen, blir kjøkkenjente i en klaprende kjole av tre og vinner prinsen med en gullsko.",
   "hasInlineScenes": true
 }

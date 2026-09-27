@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Somme Kjærringer er slige (Barnevennlig)",
-  "description": "Denne barnevennlige varianten gjør eventyret mildere og tryggere, med varm humor og snillere formuleringer: de rare hendelsene blir tydelig lek og misforståelser, stemningen er lysere, og ubehagelige detaljer tones ned slik at fokuset ligger på undring, oppfinnsomhet og at alle kan gjøre litt rare ting iblant.",
-  "tone": "Varm, leken og mild folkeeventyr-humor",
+  "description": "Kona spiser sju pølser hos slakteren, sovner der hun sitter og våkner så full av fjær at hun tror hun er blitt en fugl. En tullete historie til høytlesning, med mye flaksing.",
+  "tone": "Tullete, leken og varm",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En mann oppdager på sin ferd at det finnes flere enn kona hans som kan finne på de merkeligste ting.",
+  "summary": "Kona tror hun er blitt en fugl, og mannen drar ut i verden for å finne tre koner som er like tullete.",
   "hasInlineScenes": true
 }

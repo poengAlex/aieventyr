@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Hver synes bedst om sine Børn (Child Friendly)",
-  "description": "A softer, child-friendly retelling where the hunter is curious rather than harmful, and the mood stays gentle as a caring parent bird teaches a simple lesson about how everyone loves their own children best.",
-  "tone": "Gentle, warm, and reassuring",
+  "description": "«Kjære deg, ikke ta barna mine!» sier Myrsnipen, og jegeren lover å la dem være, for Myrsnipens barn er jo de vakreste i hele skogen. En liten, trygg fabel til høytlesning.",
+  "tone": "Lun, varm og trygg",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A curious hunter learns from a worried myrsnipe that every parent thinks their own children are the very best.",
+  "summary": "Jegeren lover Myrsnipen å la de vakreste barna i skogen være i fred, og så finner han noen rufsete unger i gresset.",
   "hasInlineScenes": true
 }

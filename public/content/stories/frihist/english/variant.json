@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "A Courting Tale",
-  "description": "An English retelling that stays close to the original folktale, highlighting the dry humor of a poor family pretending to be prosperous by flaunting and carefully using their single new belongings.",
-  "tone": "Wry, satirical folktale humor",
+  "description": "The family are as poor as church mice, but when a suitor calls, the Farmer dusts the table with his one brand-new sleeve and keeps the other arm behind his back. A tiny Norwegian comic tale in plain modern English.",
+  "tone": "Dry, brief and gently mocking",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A suitor visits a poor farm where each family member parades one new item to seem well-to-do.",
+  "summary": "A poor farm family tries to look well-off for a visiting suitor with one new sleeve, one new shoe and one new cap.",
   "hasInlineScenes": true
 }

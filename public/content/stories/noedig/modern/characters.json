@@ -9,7 +9,7 @@
   {
     "name": "Mannen",
     "slug": "mannen",
-    "description": "Utslitt småbruker som prøver å redde våronna, drar ut langs veien for å finne tre som er «like tullete», og kommer hjem med penger og historier som ikke hjelper.",
+    "description": "Utslitt småbruker uten såkorn som går hjemmefra med verktøybelte og spade, og som ikke vil komme tilbake før han har truffet tre kjerringer som er like gale.",
     "visualPrompt": "Norsk mann i 40–50-årene, mager og trøtt, lett skjeggstubb, kledd i slitt fleecejakke, ullgenser og arbeidsbukse; bærer et gammelt jaktgevær og har et stramt, oppgitt uttrykk",
     "imagePath": "characters/mannen.webp"
   },
@@ -23,7 +23,7 @@
   {
     "name": "Kona med dørslaget",
     "slug": "kona-med-dorslaget",
-    "description": "Nabo i et nybygd hus som mangler vinduer, og som i fullt alvor prøver å bære inn sollys i et dørslag, villig til å betale godt for en «løsning».",
+    "description": "Ei fremmed kvinne i et nybygd hus langs veien, som prøver å bære sola inn i et dørslag fordi byggefirmaet glemte vinduene.",
     "visualPrompt": "Kvinne i 30–40-årene i moderne treningsbukse og fleecevest, håret i stram hestehale; løper mellom inngang og stue med et metall-dørslag og et forkle som hun legger over som lokk, stående ved en ny trevegg uten vinduer",
     "imagePath": "characters/kona-med-dorslaget.webp"
   },

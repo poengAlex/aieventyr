@@ -7,7 +7,7 @@
     "imagePath": "characters/askeladden.webp"
   },
   {
-    "name": "Dukken i Græsset",
+    "name": "Dukken i gresset",
     "slug": "dukken-i-gresset",
     "description": "En bitte liten jente som bor i en skjult gress-lysning, syr en skjorte fra tråd til plagg på én dag, og blir senere forvandlet til en voksen kvinne etter å ha falt i innsjøen.",
     "visualPrompt": "En magisk jente først på størrelse med en håndflate, med glitrende hår og klare øyne, kledd som til fest i en liten, elegant kjole; senere som en vakker voksen kvinne med samme uttrykk og et subtilt skinn som om vann og måneskinn ligger i huden, uten overdrevet fantasi—bare stille, naturlig magi.",
@@ -23,7 +23,7 @@
   {
     "name": "Sjømannen fra innsjøen",
     "slug": "sjomannen-fra-innsjoen",
-    "description": "En gåtefull skikkelse som stiger opp av vannet og redder Dukken i gresset, som om innsjøen selv griper inn.",
+    "description": "En taus mann i mørk regnfrakk som bærer Dukken i gresset opp av innsjøen og forsvinner uten et ord; Askeladden kaller ham sjømannen, siden havmann blir feil i en innsjø.",
     "visualPrompt": "En underlig mann med vått hår og sjøgrønne øyne, kledd i en enkel, mørk regnfrakk som klistrer seg lett til kroppen; står ved en steinete innsjøkant med regnvåt glans, med et uttrykk som er både mildt og fremmed, som om han hører hjemme i vannet.",
     "imagePath": "characters/sjomannen-fra-innsjoen.webp"
   }

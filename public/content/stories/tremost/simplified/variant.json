@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "De tre Mostre (Forenklet)",
-  "description": "En forenklet versjon på moderne norsk med klarere setninger og lettere flyt, der handlingen om misunnelse ved hoffet og de tre «mostrene» blir ekstra enkel å følge.",
-  "tone": "Eventyrlig, lettlest og direkte",
+  "description": "Jegerdatteren har aldri sett en rokk, men nå skal hun spinne en halv kilo lin på ett døgn, og den gamle kona som kommer inn døra, ber bare om én ting: å bli kalt moster på hedersdagen hennes. Eventyret fortalt på lett, moderne norsk.",
+  "tone": "Klassisk, tørrvittig og underfundig",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En fattig jegerdatter får hjelp av tre merkelige «mostre» og ender med både bryllup og et løfte om et liv uten slit.",
+  "summary": "Tre gamle koner spinner, vever og syr for en fattig jegerdatter, og i bryllupet hennes kommer de for å bli kalt moster.",
   "hasInlineScenes": true
 }

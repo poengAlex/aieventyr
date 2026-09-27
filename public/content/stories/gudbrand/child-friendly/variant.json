@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Gudbrand i Lien (Child Friendly)",
-  "description": "A gentle, child-friendly retelling where Gudbrand’s many trades are presented as curious, harmless choices, and the focus stays on warmth, safety, and a loving home rather than blame or harsh words.",
-  "tone": "Warm, playful, reassuring, and family-friendly",
+  "description": "Brenner Gudbrand grøten, sier kona «Mmm! Røkt grøt!», men hva sier hun når han går til byen med kua og kommer hjem tomhendt? Til høytlesning, med nøff, mæ-æ-æ og kykeliky.",
+  "tone": "Lun, leken og full av dyrelyder",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Gudbrand makes a silly chain of trades on the road home and learns that kindness matters most.",
+  "summary": "Gudbrand bytter kua mot en hest, hesten mot en gris og så videre helt ned til en hane, og vedder med naboen om at kona ikke blir sint.",
   "hasInlineScenes": true
 }

@@ -1,7 +1,7 @@
 {
   "variant": "simplified",
   "displayTitle": "Gudbrand i Lien (forenklet)",
-  "description": "En forenklet versjon på moderne norsk med klarere setninger og lettere flyt, der Gudbrands rekke bytter og konas uventede støtte blir ekstra tydelige og enkle å følge.",
+  "description": "Gudbrand går til byen for å selge kua og bytter seg hjem igjen: kua mot en hest, hesten mot en gris, og slik går det nedover til han ikke har så mye som en hane. Men alt han gjør, synes kona er klokt gjort, og det tør han vedde hundre daler på.",
   "tone": "Varm, humoristisk og folkelig",
   "characterCount": 3,
   "hasAudio": false,
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Gudbrand bytter bort kua bit for bit, men hjemme møter han bare takknemlighet og vinner et veddemål.",
+  "summary": "Gudbrand bytter seg fra ku til hane på veien hjem fra byen, selger hanen for mat og vedder hundre daler på at kona ikke blir sint.",
   "hasInlineScenes": true
 }

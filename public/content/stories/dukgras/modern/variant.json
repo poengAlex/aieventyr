@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Dukken i Græsset (Modern)",
-  "description": "En moderne gjenfortelling lagt til et Norge med konsernkontor, leasingbiler og rasteplasser, der Askeladden blir valgt bort av brødrene, finner magi i veikanten og vinner kjærligheten gjennom en umulig skjorteprøve som ender i en dramatisk innsjøforvandling.",
-  "tone": "Moderne eventyr med magisk realisme, varme og rettferdighet",
+  "description": "Tolv brødre ruller ut porten i tolv nye biler, på jakt etter noen som kan sy en skjorte på én dag, og ved første rasteplass kjører de elleve eldste fra Askeladden. Men i gresset bak parkeringsplassen bor en jente som ikke er høyere enn mobilen hans.",
+  "tone": "Lavmælt, tørrvittig og varm",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En utstøtt yngstesønn finner en liten, magisk jente i gresset som syr en skjorte på én dag og blir til slutt hans ekte kjærlighet.",
+  "summary": "Forlatt på en rasteplass finner Askeladden en bitteliten jente i gresset, og skjorta hun syr på én dag, imponerer selv den strenge faren.",
   "hasInlineScenes": true
 }

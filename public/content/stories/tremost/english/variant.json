@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "The Three Aunts",
-  "description": "An English retelling close to the original folktale: a poor hunter’s daughter is trapped by courtly jealousy into impossible tasks, saved by three mysterious “aunts,” and finally freed from endless labor when their frightening transformations reveal the cost of spinning, weaving, and sewing.",
-  "tone": "Classic folktale, witty, suspenseful, and ultimately reassuring",
+  "description": "The jealous maids tell the Queen the new girl can spin a pound of flax in a day, though she has never seen a spinning wheel, and then a very long nose comes round the door. A Norwegian folktale, told in brisk modern English.",
+  "tone": "Wry, rhythmic and slyly funny",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A poor girl’s secret helpers win her a royal wedding—and an unexpected promise that she’ll never have to spin, weave, or sew again.",
+  "summary": "Three old women spin, weave and sew for a poor hunter’s daughter at the King’s manor, and all they ask is to be called Aunt on her day of honour.",
   "hasInlineScenes": true
 }

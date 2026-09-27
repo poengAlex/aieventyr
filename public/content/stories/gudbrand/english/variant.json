@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Gudbrand-on-the-Slope (English Retelling)",
-  "description": "A close English retelling of the Norwegian folktale, keeping the original chain of trades and the warm, comic domestic harmony where Gudbrand’s wife praises each choice—leading to a surprising wager and payoff.",
-  "tone": "Folktale humor, warm and lighthearted, with gentle satire",
+  "description": "Gudbrand walks to town to sell the cow and trades his way home: the cow for a horse, the horse for a pig, and on down until he hasn’t so much as a rooster. But whatever he does, his wife thinks it’s the wisest thing he could have done, and he’ll bet a hundred dalers on it.",
+  "tone": "Warm, dry and gently comic",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Gudbrand trades away a cow through a string of swaps until nothing is left, only to discover his wife’s unfailing approval wins him a wager.",
+  "summary": "Gudbrand trades his cow down to a rooster on the way home, sells the rooster for a meal, and bets his neighbor a hundred dalers that his wife won’t scold.",
   "hasInlineScenes": true
 }

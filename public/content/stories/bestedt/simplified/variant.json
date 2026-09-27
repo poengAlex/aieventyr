@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Hver synes best om sine barn (Forenklet)",
-  "description": "En forenklet variant på moderne norsk med klarere setninger og lettere flyt, som gjør den korte fabelen om stolthet og selvbedrag enkel å lese.",
-  "tone": "Enkel, fabelaktig og litt ironisk",
+  "description": "Myrsnipa ber skytteren skåne barna hennes, og det lover han gjerne, for hennes er jo de vakreste barna i skogen. Den korte fabelen på enkel, moderne norsk.",
+  "tone": "Knapp, tørr og mørkt ironisk",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En skytter lærer at alle synes deres egne barn er de vakreste.",
+  "summary": "En skytter lover myrsnipa å spare barna hennes, som hun sier er de vakreste i skogen.",
   "hasInlineScenes": true
 }

@@ -1,7 +1,7 @@
 {
   "variant": "modern",
   "displayTitle": "Hanen og Hønen (Modern)",
-  "description": "En moderne, hverdagsnær variant der konflikten blir en samtale om ansvar og selvstendighet: Høna er lei av tomme løfter, og hanen svarer kontant at hun kan bruke egne egg og kjøpe sko selv—med byen som et nærværende, samtidig bakteppe.",
+  "description": "Hønsehuset står på det siste småbruket før byen begynner, og høna sitter med de bare føttene på den kalde betongen. Hanen har lovet henne sko i fire år uten å se opp fra halmen.",
   "tone": "Samtidsnær, skarp og lett ironisk",
   "characterCount": 3,
   "hasAudio": false,
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Høna blir lei av hanens tomme løfter og bestemmer seg for å skaffe seg sko på egen hånd.",
+  "summary": "Høna krever skoene hanen har lovet henne i fire år, og hanen minner henne på at hun har egen inntekt.",
   "hasInlineScenes": true
 }

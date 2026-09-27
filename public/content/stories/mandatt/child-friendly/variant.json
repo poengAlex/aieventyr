@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Manddatteren og Kjærringdatteren (Barnevennlig)",
-  "description": "En barnevennlig og mildere variant med mykere stemning: den underjordiske ferden føles tryggere og mer eventyrlig, og de skumle og ekle øyeblikkene er dempet, mens budskapet om å være hjelpsom og forsiktig blir tydelig og varmt.",
-  "tone": "Gentle fairy-tale, cozy and reassuring, with a clear moral about kindness and care",
+  "description": "Mannens datter holder seg for nesen og hopper i brønnen, og på bunnen ligger ei grønn eng der gjerdet, kua og bukken kan snakke. Et rytmisk eventyr til høytlesning, med vers å synge med på.",
+  "tone": "Rytmisk, leken og lun",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En snill jente får hjelp av småfugler og vennlige dyr og belønnes, mens den uforsiktige stesøsteren lærer at det lønner seg å være god mot andre.",
+  "summary": "Mannens datter er snill mot alle hun møter på den grønne enga og kommer hjem med et skrin fullt av gull, og så vil Kone-datteren også prøve.",
   "hasInlineScenes": true
 }

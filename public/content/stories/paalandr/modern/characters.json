@@ -2,28 +2,28 @@
   {
     "name": "Pål Andrestuen",
     "slug": "paal-andrestuen",
-    "description": "A charming tenant renting the back part of the house, secretly involved with the wife and easily rattled when threatened.",
+    "description": "Den sjarmerende leieboeren i det lille grå huset i hagen, som har et hemmelig forhold til kona og blir fort redd når han tror mannen vet det.",
     "visualPrompt": "Young Scandinavian man in a casual hoodie and work boots, tense posture and wide eyes, mid-sprint near a backyard fence and tool shed, wind-tossed hair, modern suburban setting",
     "imagePath": "characters/paal-andrestuen.webp"
   },
   {
-    "name": "The Wife",
+    "name": "Kona",
     "slug": "the-wife",
-    "description": "Married to a kind deaf man but drawn to the tenant, she tries to keep the affair quiet until she’s cornered into shouting the truth.",
+    "description": "Gift med en snill, nesten døv mann, men mer opptatt av leieboeren; hun holder forholdet skjult til hun blir lurt til å rope det ut over hele gata.",
     "visualPrompt": "Scandinavian woman in her 30s–40s wearing a practical modern coat over casual clothes, flushed face and furious, frightened expression, clutching a bundled lunch under her jacket, caught in motion in a muddy yard",
     "imagePath": "characters/the-wife.webp"
   },
   {
-    "name": "The Deaf Husband",
+    "name": "Den døve mannen",
     "slug": "the-deaf-husband",
-    "description": "A decent, trusting man who follows along with what he’s told, unaware he’s being used as a prop in the teen’s scheme.",
+    "description": "En snill og tillitsfull mann som leser på munnen, går med hørselvern i garasjen og gjør det folk ber ham om.",
     "visualPrompt": "Middle-aged Scandinavian man with sturdy build, wearing workwear and gloves, calm but puzzled expression, holding a wood-splitting axe for chores, standing near a garage or stacked firewood in a modern yard",
     "imagePath": "characters/the-deaf-husband.webp"
   },
   {
-    "name": "The Handyman Boy",
+    "name": "Hjelpegutten",
     "slug": "the-handyman-boy",
-    "description": "A clever teen who notices the affair and turns it into a wager, engineering perfectly timed distractions and rumors to force a public confession.",
+    "description": "En kvikk syttenåring som jobber i garasjen, skjønner hva som foregår og gjør det til et veddemål om ti hundrelapper.",
     "visualPrompt": "Teen boy in a zip-up jacket and jeans with a sly, calculating look, standing casually near a garage doorway, one hand in pocket, watching events unfold in a contemporary suburban home setting",
     "imagePath": "characters/the-handyman-boy.webp"
   }

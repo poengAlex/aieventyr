@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Pål Andrestuen (Barnevennlig)",
-  "description": "En mild og barnevennlig variant der historien blir en leken fortelling om hemmelige besøk, misforståelser og en smart veddemålslek som ender med at alt kommer fram uten skumle eller harde ord.",
-  "tone": "Varm, humoristisk og trygg, med fokus på list og små misforståelser.",
+  "description": "Når den døve mannen er ute og arbeider, får Pål Andrestuen rømmegrøt med smør, sukker og kanel hos kona, mens mannen selv får tynn havregrøt. Men tjenestegutten ser alt, og han vedder ti daler på at hun skal rope ut hemmeligheten helt selv.",
+  "tone": "Lun, tullete og full av grøt",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En kvikk tjenestegutt bruker en uskyldig veddemålslek for å få fram en hemmelighet på gården.",
+  "summary": "En lur tjenestegutt vedder ti daler på at han kan få kona til å rope ut at hun gir Pål Andrestuen rømmegrøt i smug.",
   "hasInlineScenes": true
 }

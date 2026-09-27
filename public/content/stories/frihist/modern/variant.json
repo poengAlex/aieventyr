@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "En Frierhistorie (Modern)",
-  "description": "En moderne, hverdagsnær gjenfortelling der fattigdommen skjules med små «nye» oppgraderinger—et lappet erme, én ny joggesko og en lue med prislapp—mens en potensiell partner blir møtt med iscenesatt velstand og hektisk fasade.",
-  "tone": "Satirisk, varm og samtidsnær",
+  "description": "Datteren har invitert frieren hjem til gården med presenning på taket, og der tørker faren hennes støv med et nystrikket erme og holder den andre armen stivt bak ryggen. Den korte skrønen, flyttet til dagens Norge.",
+  "tone": "Tørr, lun og samtidsnær",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En singel mann besøker en sliten gård der familien later som de lever i velstand ved hjelp av tre små, nye plagg.",
+  "summary": "En frier er på besøk hos en fattig familie som vil virke velstående med ett nytt erme, én ny joggesko og ei lue som skal leveres tilbake.",
   "hasInlineScenes": true
 }

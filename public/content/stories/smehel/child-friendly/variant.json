@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Smeden som Djevelen ikke turte slippe inn (barnevennlig)",
-  "description": "En varm høytlesningsversjon der smeden lurer Djevelen opp i pæretreet, fast i lenestolen og inn i pengepungen, uten noe skummelt eller vondt underveis.",
-  "tone": "Varm, leken og lun, med et lite glimt i øyet",
+  "description": "Smeden har tre ønsker fra Vårherre, og Djevelen er glad i pærer, myke stoler og å vise seg fram, så det kan bare gå én vei. Høytlesning for de minste, med mye bråk og ingenting skummelt.",
+  "tone": "Leken, bråkete og lun",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En sta smed får tre rare ønsker og bruker dem til å lure Djevelen, men må til slutt finne ut hvor han egentlig hører hjemme.",
+  "summary": "En skrytete smed får tre rare ønsker av Vårherre og lurer Djevelen opp i pæretreet, fast i lenestolen og inn i pengepungen.",
   "hasInlineScenes": true
 }

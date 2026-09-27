@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Hanen, gjøken og århanen (forenklet)",
-  "description": "Denne forenklede varianten bruker moderne norsk med tydeligere setninger og lettere flyt, samtidig som den beholder den lekne rytmen og det åpne spørsmålet om hva som er rettferdig.",
-  "tone": "Lekent folkeeventyr med et lite rettferdighetsspørsmål",
+  "description": "Hanen, gjøken og århanen har kjøpt ei ku sammen, og den som våkner først i morgen, skal få henne. Så galer hanen fra gjerdet, gjøken svarer «Halv ku!», og til slutt er det du som må dømme.",
+  "tone": "Leken, rytmisk og kvikk",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Tre fugler kjøper en ku sammen og krangler om hvem som våknet først og dermed fortjener den.",
+  "summary": "Hanen, gjøken og århanen har kjøpt ei ku sammen og avtaler at den som våkner først om morgenen, skal få henne.",
   "hasInlineScenes": true
 }

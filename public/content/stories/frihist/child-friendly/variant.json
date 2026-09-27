@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "En Frierhistorie (Barnevennlig)",
-  "description": "Denne barnevennlige varianten forteller historien med et mykere språk og en tryggere stemning, der humoren ligger i små, snille detaljer om hvordan folk prøver å virke fine når de får besøk.",
-  "tone": "Varm, mild og humoristisk",
+  "description": "Bonden har fått ett nytt erme, kona én ny sko og datteren ei ny lue, og nå kommer det en frier på besøk. En kort og lun høytlesningshistorie med mye gni, dytt og nikk.",
+  "tone": "Lun, leken og rytmisk",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En snill frier besøker en gård der familien prøver sitt beste for å se velstående ut med bare én ny ting hver.",
+  "summary": "En fattig familie vil se rik ut når frieren kommer, og alle viser fram den ene nye tingen sin.",
   "hasInlineScenes": true
 }

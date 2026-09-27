@@ -1,7 +1,7 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Hanen og Hønen (Barnevennlig)",
-  "description": "En barnevennlig, mildere variant med varm stemning og snille ord, der uenigheten handler om å finne en praktisk løsning og ta vare på hverandre.",
+  "description": "Hønen verper egg hver dag, men går fortsatt barbeint, for skoene Hanen har lovet henne, kommer aldri. Et lite og lunt eventyr å lese høyt, der Hanen til slutt får en idé.",
   "tone": "Mild, trygg og varm",
   "characterCount": 2,
   "hasAudio": false,
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Hønen og Hanen finner en snill løsning så Hønen kan få sko og slippe å gå barfot.",
+  "summary": "Hønen vil ha skoene Hanen har lovet henne, og Hanen foreslår at hun tar eggene med til byen og kjøper dem selv.",
   "hasInlineScenes": true
 }

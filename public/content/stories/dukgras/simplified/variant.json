@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Dukken i Græsset (Simplified)",
-  "description": "En forenklet variant på moderne norsk med klarere setninger og lettere flyt, der Askeladdens møte med den bittelille Dukken i gresset og hennes magiske forvandling blir fortalt rett fram og tilgjengelig.",
-  "tone": "Eventyrlig, varm og lettlest",
+  "description": "Brødrene rir fra Askeladden, og mens han sitter i gresset og gråter, begynner en tue foran ham å røre på seg. Eventyret om den bittelille bruden, fortalt på lett, moderne norsk.",
+  "tone": "Lun, undrende og lettlest",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden finner en bitteliten dukke i gresset som syr en skjorte på én dag og blir til slutt hans vakre brud.",
+  "summary": "Askeladden blir forlatt av brødrene, men i gresset finner han en bitteliten jente som syr en skjorte på én dag og blir bruden hans.",
   "hasInlineScenes": true
 }

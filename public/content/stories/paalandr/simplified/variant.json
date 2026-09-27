@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Paal Andrestuen (Simplified)",
-  "description": "En forenklet, moderne norsk versjon med klarere setninger og jevnere flyt, der tjenesteguttens lure plan og den døve mannens misforståelser blir lettere å følge fra scene til scene.",
-  "tone": "Folkelig, humoristisk og litt skarp",
+  "description": "Mannen til kjerringa er døv og snill, og nettopp derfor liker hun Pål i den andre stua bedre. Tjenestegutten vedder ti daler på at han skal få henne til å avsløre sin egen skam.",
+  "tone": "Frekk og tørr bygdehumor",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En slu tjenestegutt lurer en utro kone til å rope ut hemmeligheten sin og taper et veddemål hun aldri burde tatt.",
+  "summary": "En lur tjenestegutt vedder ti daler på at han kan få kjerringa til å avsløre forholdet sitt til Pål Andrestuen med egen munn.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Somme Kjærringer er slige (Modern)",
-  "description": "En samtidstolkning der småbrukerkrise, Vipps, byggevarer og «for smarte» byfolk erstatter eventyrtidens rammer, mens den samme skrudde kjedereaksjonen av dumdristige valg, småsvindel og misforståelser eskalerer helt til gården ender med å bli sådd med veisalt.",
-  "tone": "Mørkt komisk, folkelig og satirisk med absurd realisme",
+  "description": "Kona selger kua for en hundrelapp og våkner i tjære og fjær på slakterens bakrom, og ikke engang mobilen kjenner henne igjen. Den gamle skrønen, lagt til et småbruk i dagens Norge.",
+  "tone": "Tørr, lakonisk og absurd",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Når en mistroisk småbrukerkone drar til byen for å selge kua, ender en serie moderne tabber og lureri i fjær, tapte penger og et åkerland sådd med veisalt.",
+  "summary": "En småbruker uten såkorn går hjemmefra og tjener seg rik på tre andre kjerringer som er like gale som kona.",
   "hasInlineScenes": true
 }

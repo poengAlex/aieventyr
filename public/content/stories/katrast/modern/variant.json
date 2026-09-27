@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Kari Træstak (Modern)",
-  "description": "A contemporary retelling where a grieving leader’s sleek castle is also a corporate headquarters, cruelty hides behind polished smiles, and Kari’s escape unfolds through modern status games—press, public announcements, and a website proclamation—while the old wonder remains: a talking blue-gray ox, metallic forests, and three Sunday transformations that expose the truth.",
-  "tone": "Contemporary fairytale, lyrical, tense, ultimately hopeful",
+  "description": "Mens kongen fører krig gjennom advokatene sine, tar stemora fra Kari først mobilen og så maten, og setter henne til å gjete kongehusets kyr. Men den blågrå oksen i flokken kan snakke, og i øret hans ligger en duk som dekker på av seg selv.",
+  "tone": "Tørr, spennende og eventyrlig",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Banished by her stepfamily, Kari flees with a talking ox and returns in secret splendor to claim her life back.",
+  "summary": "Kari rømmer fra stemora med en snakkende okse, tar oppvaskjobb på et fremmed slott i en trestakk og lar prinsen lete etter eieren av en gullsko.",
   "hasInlineScenes": true
 }

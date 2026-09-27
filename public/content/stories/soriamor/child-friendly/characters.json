@@ -2,35 +2,35 @@
   {
     "name": "Halvor",
     "slug": "halvor",
-    "description": "A dreamy, kind-hearted young man who discovers bravery and determination as he searches for Soria Moria and the princess he loves.",
+    "description": "En gutt som helst sitter i grua og roter i aska, men som blir modig nok til å møte tre troll og gå helt til Soria Moria for prinsessa si.",
     "visualPrompt": "A gentle Nordic fairytale boy/young man with tousled dark-blond hair and a thoughtful expression, wearing worn travel clothes and sturdy boots, later shown with a simple but elegant ring on his finger; approachable, courageous posture, warm storybook style.",
     "imagePath": "characters/halvor.webp"
   },
   {
-    "name": "The Youngest Princess",
+    "name": "Den yngste prinsessa",
     "slug": "youngest-princess",
-    "description": "The youngest of three sisters, clever and caring, who truly understands Halvor and guides him with magic and trust.",
+    "description": "Den yngste og vakreste av de tre prinsessene, som gir Halvor en ønskering og ber ham aldri si et ord om dem.",
     "visualPrompt": "A kind young princess in a soft, flowing gown in pale gold and cream, long hair neatly braided, bright gentle eyes, calm smile; she wears subtle fairytale jewelry and gives a reassuring, welcoming presence in a warm storybook style.",
     "imagePath": "characters/youngest-princess.webp"
   },
   {
-    "name": "The Three-Headed Troll",
+    "name": "Trollet med tre hoder",
     "slug": "three-headed-troll",
-    "description": "A blustering, magical troublemaker who fills the first castle with fear until Halvor faces him bravely.",
+    "description": "Trollet i det første slottet, som snuser med alle tre nesene og brøler «Huttetu!», men går opp i en liten, grå sky når Halvor svinger sverdet.",
     "visualPrompt": "A large, rounded troll with three comical heads, shaggy dark fur, and oversized hands; more grumpy than terrifying, with expressive faces and a shadowy aura that looks ready to blow away like smoke; child-friendly fairytale style.",
     "imagePath": "characters/three-headed-troll.webp"
   },
   {
-    "name": "The Old Cottage Woman",
+    "name": "Kona med den lange nesa",
     "slug": "old-cottage-woman",
-    "description": "A strange but helpful old woman in the forest who trades Halvor magic boots and calls on the moon and the west wind for guidance.",
+    "description": "Ei gammel kone med ei nese så lang at hun roter i glørne med den, som spør månen og vestavinden om veien til Soria Moria og gir Halvor et par støvler for hesten hans.",
     "visualPrompt": "An elderly woman with long gray hair and a very long nose, wrapped in a patched shawl and simple forest clothes, sitting by a cozy hearth; her look is quirky and friendly, with kind eyes and a wise, whimsical presence in a storybook style.",
     "imagePath": "characters/old-cottage-woman.webp"
   },
   {
-    "name": "The West Wind",
+    "name": "Vestavinden",
     "slug": "west-wind",
-    "description": "A swift, unseen helper that rushes across mountains and shores, guiding Halvor toward Soria Moria in time for the wedding.",
+    "description": "En travel vind som suser inn over skogen på vei til Soria Moria for å tørke bryllupsklærne, og som lar Halvor henge på så godt han kan.",
     "visualPrompt": "A personified wind spirit suggested by swirling ribbons of air and leaves, soft blue-gray and silver tones, forming a gentle flowing silhouette without sharp edges; energetic but friendly, fairytale illustration style.",
     "imagePath": "characters/west-wind.webp"
   }

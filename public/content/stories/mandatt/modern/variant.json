@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Manddatteren og Kjærringdatteren (Modern)",
-  "description": "En moderne bygde-fortelling om en sammensatt familie der «skjermfritt og sunt» blir en unnskyldning for kontroll, og en åpen brønn leder til en uhyggelig gård med umulige oppgaver, hjelpsomme dyr og en blå kiste som belønner omsorg—mens grådighet får en kroppsnær, grotesk straff.",
-  "tone": "Moderne eventyrmoral med mørk spenning og skarp rettferdighet",
+  "description": "Stemoren trenger bilder til nettbutikken sin, og ved den gamle steinbrønnen må Fars datter spinne grisebust om kapp med stesøsteren: Den som ryker først, hopper i brønnen. Eventyret lagt til dagens bygde-Norge.",
+  "tone": "Tørr, uhyggelig og skarp",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En stille stedatter faller gjennom en brønn, gjør godt mot dem hun møter, og kommer hjem med en blå kiste som avslører hvem som fortjener belønning.",
+  "summary": "Stemoren dytter Fars datter i brønnen, og ni dager senere kommer hun hjem med en blå kiste full av gull, så nå vil Mors datter også ha sommerjobb.",
   "hasInlineScenes": true
 }

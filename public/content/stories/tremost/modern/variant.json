@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "De tre Mostre (Modern)",
-  "description": "En samtidsnær versjon der den fattige jegerdatteren tar buss til Slottet for å få jobb, lærer via mobilen hun ikke mestrer, og blir dratt inn i en moderne «prestasjonstest» med spinnemaskin, vev og symaskin—før tre urovekkende «mostre» dukker opp i et bryllup med presse og tvinger fram en ny kongelig beslutning om arbeid, verdighet og teknologi.",
-  "tone": "Moderne eventyr, skarpt og satirisk, men varmt og håpefullt",
+  "description": "Den nye assistenten på Slottet har aldri sett en rokk utenfor et museum, men husøkonomen påstår at hun kan spinne en halv kilo lin på et døgn, og dronningen gir henne tjuefem timer. Et moderne eventyr fra Slottet, med kantine, prøvetid og pressen bak tauet.",
+  "tone": "Tørr, satirisk og lun",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En ung hushjelp ved Slottet får uventet hjelp til umulige oppgaver, men må holde løftet sitt når tre merkelige «mostre» møter opp i bryllupet.",
+  "summary": "Tre gamle damer spinner, vever og syr for den nyansatte på Slottet, og løftet hun ga dem, må hun holde foran pressen i sitt eget bryllup.",
   "hasInlineScenes": true
 }

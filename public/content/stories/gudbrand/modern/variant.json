@@ -1,7 +1,7 @@
 {
   "variant": "modern",
   "displayTitle": "Gudbrand i lien (Modern)",
-  "description": "En moderne gjenfortelling fra et småbruk i lia, der Gudbrand bytter seg fra ku til hane på vei hjem fra markedet og kona finner noe bra ved hvert eneste bytte.",
+  "description": "Gudbrand bor så høyt oppe i lia at brøytebilen snur på tunet hans. Når ingen vil kjøpe kua på høstmarkedet, bytter han henne mot en hest, en hestehenger og sju saler, og derfra går det bare nedover.",
   "tone": "Varm, tørrvittig og jordnær",
   "characterCount": 4,
   "hasAudio": false,
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Gudbrand bytter bort kua bit for bit til han bare har en pose mat igjen, men kona er like blid, og naboen taper hundre tusen kroner på å tro noe annet.",
+  "summary": "Gudbrand bytter seg fra ku til hane på vei hjem fra markedet og vedder hundre tusen kroner med naboen på at kona ikke sier et vondt ord.",
   "hasInlineScenes": true
 }

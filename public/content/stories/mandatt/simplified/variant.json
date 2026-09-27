@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Manddatteren og Kjærringdatteren (Simplified)",
-  "description": "En forenklet variant på moderne norsk med klarere setninger og lettere flyt, der kontrasten mellom den snille, arbeidsomme jenta og den late, ufine stesøsteren kommer tydelig fram gjennom en enkel reise, prøver hos trollkjerringa og en moralsk slutt.",
-  "tone": "Folkeeventyraktig, tydelig moralsk og lettlest",
+  "description": "Mannsdattera må spinne stiv grisebust om kapp med stesøsterens myke lin, og den som tråden ryker for først, skal i brønnen. Klassikeren på lett, moderne norsk, med småfuglenes vers.",
+  "tone": "Rytmisk, trolsk og spennende",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Ei snill jente får hjelp og rikdom for god oppførsel, mens den late stesøsteren ender med en grusom straff.",
+  "summary": "Mannsdattera havner i brønnen, tjener hos trollkjerringa og kommer hjem med et skrin fullt av gull, og så vil kjerringdattera prøve det samme.",
   "hasInlineScenes": true
 }

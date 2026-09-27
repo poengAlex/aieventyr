@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Pål Andrestuen (English Retelling)",
-  "description": "An English retelling that keeps the folktale’s brisk, earthy humor and classic trickster rhythm, following a farmhand’s wager to force a faithless wife to confess in front of her deaf husband.",
-  "tone": "Wry, mischievous, and sharply comedic",
+  "description": "The wife’s husband is deaf and kind, which is exactly why she’s fonder of Pål in the other house. The farmhand bets her ten daler he can make her blurt out her own shame.",
+  "tone": "Cheeky, dry and fast-moving",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A cunning farmhand provokes a guilty wife into blurting her secret and wins a wager in the process.",
+  "summary": "A sly farmhand bets a straying wife ten daler that he can make her give herself away, with her deaf husband as his unwitting helper.",
   "hasInlineScenes": true
 }

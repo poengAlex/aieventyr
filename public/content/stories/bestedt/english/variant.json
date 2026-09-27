@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Everyone Loves Their Own Children Best",
-  "description": "A close English retelling of a Scandinavian folktale in which a snipe’s proud claim about her “prettiest” chicks meets a hunter’s blunt idea of ugliness, landing on a wry proverb about parental bias.",
-  "tone": "Wry, simple, folktale-like, and gently moral",
+  "description": "“Don’t shoot my children!” begs the Snipe, and the Hunter agrees: he won’t touch the prettiest children in the forest. A tiny Norwegian fable with a sting, told in plain English.",
+  "tone": "Wry, terse and darkly funny",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A hunter and a snipe argue over which chicks are prettiest, revealing that every parent thinks their own are best.",
+  "summary": "A hunter agrees to spare a snipe’s chicks, which she swears are the prettiest in the forest.",
   "hasInlineScenes": true
 }

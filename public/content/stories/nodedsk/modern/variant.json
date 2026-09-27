@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Hanen og Høna i Nøddeskogen (Modern)",
-  "description": "En moderne, urban kjedereaksjon der en desperat hane må navigere QR-koder, apper, butikker og byråkrati i parken for å skaffe vann som redder høna fra å kveles på et nøtteskall.",
-  "tone": "Rask, humoristisk og samtidsnær med et varmt, dramatisk driv",
+  "description": "Tuppen får et nøtteskall i halsen i skogstripa bak blokkene, men den nye drikkefontenen vil ha en kode fra parkappen, og hanen har ikke mobil. Regla, flyttet til en lørdag i dagens drabantby.",
+  "tone": "Andpusten, tørr og samtidsnær",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Når Høna får et nøtteskall i halsen, løper Hanen gjennom en hel rekke moderne hinder for å skaffe vann og redde henne.",
+  "summary": "Høna har et nøtteskall i halsen, og for å få vann fra fontenen må hanen gjennom en lang kjede av krav, fra parkvakta til purka.",
   "hasInlineScenes": true
 }

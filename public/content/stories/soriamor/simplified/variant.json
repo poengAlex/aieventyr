@@ -1,7 +1,7 @@
 {
   "variant": "simplified",
   "displayTitle": "Soria Moria Slot (Forenklet)",
-  "description": "En forenklet variant på moderne norsk med klarere setninger og lettere flyt, der handlingen følger Halvor gjennom tre trollslott, den farlige tabben hjemme, og den lange veien tilbake til Soria Moria.",
+  "description": "Halvor har aldri gjort et slag, men når en skipper spør om han vil bli med til sjøs, er han for en gangs skyld kjapp opp av grua. En storm fører skuta til et fremmed land, der tre prinsesser sitter fanget hos tre troll.",
   "tone": "Eventyrlig, lettlest og spennende",
   "characterCount": 5,
   "hasAudio": false,
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Halvor redder tre prinsesser fra troll, mister dem ved et uhell, og kjemper seg tilbake til Soria Moria for å vinne den yngste igjen.",
+  "summary": "Halvor redder tre prinsesser fra troll, mister dem da han skryter av dem hjemme, og må finne veien til Soria Moria slott for å vinne den yngste tilbake.",
   "hasInlineScenes": true
 }

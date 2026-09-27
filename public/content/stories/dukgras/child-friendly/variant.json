@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Dukken i Græsset (Børnevenlig)",
-  "description": "En blidere, børnevenlig udgave med tryg stemning, hvor Askeladden møder en venlig lille dukke-pige i græsset, får hjælp med den magiske dags-skjorte, og hvor den dramatiske vand-scene ender roligt og forunderligt med en hjælpsom havmand og en lykkelig forvandling.",
-  "tone": "Warm, gentle, fairytale-like, reassuring",
+  "description": "Ut av en tue i gresset kommer en jente som ikke er større enn en dukke, og på én dag syr hun en hel skjorte: surr, klapp, stikk! Til høytlesning for de minste, med sølvskje, to hvite mus og mye klippeti-klopp.",
+  "tone": "Varm, leken og lydmalende",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden finder en venlig dukke i græsset, som hjælper ham hjem til slottet og bliver hans lykkelige brud.",
+  "summary": "Askeladden finner en jente på størrelse med en dukke, og skjorta hun syr på én dag, får kongen til å si ja til bryllup.",
   "hasInlineScenes": true
 }

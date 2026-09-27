@@ -2,28 +2,28 @@
   {
     "name": "Askeladden",
     "slug": "askeladden",
-    "description": "Den yngste prins, som bliver holdt udenfor af sine brødre, men møder verden med et godt hjerte og mod.",
+    "description": "Den yngste prinsen, som brødrene ikke vil ha med, men som møter verden med godt hjerte og mot.",
     "visualPrompt": "A friendly young prince with soft features and tousled brown hair, wearing simple sturdy travel clothes with a light cloak, approachable and kind expression, fairytale illustration style",
     "imagePath": "characters/askeladden.webp"
   },
   {
-    "name": "Dukken i Græsset",
+    "name": "Dukken i gresset",
     "slug": "dukken-i-graesset",
-    "description": "En fin og venlig pige, først så lille som en dukke, som kan spinde, væve og sy på én dag, og senere bliver forunderligt menneskestor.",
+    "description": "En fin og vennlig jente, først ikke større enn en dukke, som syr en skjorte på én dag og blir like stor som Askeladden etter at hun faller i vannet.",
     "visualPrompt": "A delicate doll-sized girl with bright clear eyes and pale hair, wearing a beautifully detailed tiny dress with lace-like trim; gentle, brave smile; fairytale style, with a subtle magical glow",
     "imagePath": "characters/dukken-i-graesset.webp"
   },
   {
     "name": "Kongen",
     "slug": "kongen",
-    "description": "Faren, der sætter prøven, men som også kan se dygtighed og godhed, når den står foran ham.",
+    "description": "Faren som setter prøven, men som kjenner igjen flinkhet og godhet når han ser det.",
     "visualPrompt": "An elderly king with a calm wise face, silver beard, and warm eyes, wearing a simple crown and elegant robes in muted royal colors, kind and fair presence, storybook fairytale style",
     "imagePath": "characters/kongen.webp"
   },
   {
-    "name": "Havmanden",
+    "name": "Havmannen",
     "slug": "havmanden",
-    "description": "En hjælpsom, venlig væsen fra vandet, der redder Dukken i Græsset og bringer magien til et godt sted.",
+    "description": "Et vennlig vesen med fiskehale som bærer Dukken i gresset opp av vannet, forvandlet til full størrelse.",
     "visualPrompt": "A gentle merman with kind eyes and flowing hair, emerging peacefully from rippling water, holding out a helping hand; shimmering tail in soft blues and greens, friendly fairytale illustration style",
     "imagePath": "characters/havmanden.webp"
   }

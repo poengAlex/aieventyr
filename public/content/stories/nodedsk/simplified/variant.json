@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Hanen og Høna i Nøtteskogen (Forenklet)",
-  "description": "En forenklet variant på moderne norsk med klarere setninger og lettere flyt, der den klassiske bytte-kjeden blir enkel å følge mens hanen haster for å redde høna.",
-  "tone": "Eventyrlig, varm og lett spennende",
+  "description": "Høna Tuppe får et nøtteskall på tvers i halsen, og hanen løper etter vann, men kilden vil ha løv først, og linden vil ha røde gullbånd. Ei regle som vokser for hvert ledd, på lett norsk.",
+  "tone": "Rytmisk, andpusten og lun",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En hane løper fra den ene hjelperen til den neste for å skaffe vann og redde høna som har fått et nøtteskall i halsen.",
+  "summary": "Høna har fått et nøtteskall i halsen, og hanen må gjennom en lang kjede av bytter for å skaffe henne vann.",
   "hasInlineScenes": true
 }

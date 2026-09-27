@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Enkesønnen (Barnevennlig)",
-  "description": "En mildere og tryggere variant med mykere språk, mindre skremmende stemning og ekstra vekt på mot, vennlighet og gode valg, mens eventyrets magi og spenning beholdes på en rolig måte for yngre lesere.",
-  "tone": "Warm, gentle, reassuring fairy-tale adventure with soft suspense and a hopeful mood.",
+  "description": "Hos den fremmede mannen får gutten pannekaker med syltetøy hver kveld, men de fire dørene i gangen må han aldri åpne. Et spennende eventyr til høytlesning, der trollene drikker seg kulerunde.",
+  "tone": "Spennende, leken og trygg",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En snill gutt får hjelp av en magisk hest til å flykte fra fare og redde et rike.",
+  "summary": "Gutten gir en sulten hest mat, rømmer fra trollet på hesteryggen og blir hagegutt på kongsgården, der prinsessa ser ham uten parykken.",
   "hasInlineScenes": true
 }

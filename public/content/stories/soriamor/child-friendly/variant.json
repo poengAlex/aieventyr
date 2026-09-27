@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Soria Moria Slot (Child Friendly)",
-  "description": "A gentler retelling with a warm, reassuring mood: the scary parts are softened, the trolls vanish like windblown shadow instead of feeling gruesome, and the focus stays on courage, kindness, and finding your way back to the people you love.",
-  "tone": "Cozy, adventurous, and reassuring; gentle suspense with a happy, heartwarming ending.",
+  "description": "Prinsessa skvetter når det sier GRRRRRR, men det er ikke trollet med tre hoder, bare magen til Halvor, som ikke har spist på hele dagen. Til høytlesning, med troll som går opp i røyk: PUFF!",
+  "tone": "Leken, eventyrlig og trygg",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A quiet boy named Halvor sets off to find a shining castle, frees three princesses, and journeys on until he can bring his happiest ending home.",
+  "summary": "Halvor redder tre prinsesser fra tre troll, mister den yngste da han sier for mye, og må finne veien til Soria Moria slott.",
   "hasInlineScenes": true
 }

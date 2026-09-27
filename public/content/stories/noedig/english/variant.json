@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Some Wives Are Like That",
-  "description": "An English retelling that keeps the folktale’s rustic Norwegian setting and dry, blunt humor, following a poor farmer who vows not to return until he finds three wives as foolish as his own—after she is tricked by a butcher, tarred and feathered, and later salts a ploughed field in earnest hope.",
-  "tone": "Earthy, comic, and sharply moralistic",
+  "description": "His wife sells the cow for a penny and comes home tarred and feathered, so the farmer walks out, swearing he won’t be back until he finds three wives just as mad. A Norwegian tall tale, told in brisk, dry English.",
+  "tone": "Dry, earthy and mischievous",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A fed-up farmer roams the road to prove his wife isn’t the only fool in the countryside.",
+  "summary": "A fed-up farmer leaves home to find three wives as foolish as his own, and makes money off every one of them.",
   "hasInlineScenes": true
 }

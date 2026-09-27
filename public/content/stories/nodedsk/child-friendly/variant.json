@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Hanen og Hønen i Nøddeskogen (Barnlig og Snill)",
-  "description": "Denne barnevennlige varianten forteller den samme kjede-historien med en trygg, varm stemning og mildt språk: Høna blir raskt bedre, og alle de Hanen møter er tydelig hjelpsomme, slik at spenningen føles rolig og trøstende for små lesere.",
-  "tone": "Gentle, reassuring, warm, child-friendly",
+  "description": "Pikk, pikk, pikk, hakker Tuppen, og så sier det GLUPP: Et nøtteskall sitter fast i halsen, og hanen må løpe etter vann. Ei lang regle å lese høyt, helt til pusten tar slutt.",
+  "tone": "Rytmisk, leken og trygg",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En modig hane løper fra venn til venn for å hente vann som hjelper høna når et nøtteskall sitter fast i halsen.",
+  "summary": "Tuppen har et nøtteskall i halsen, og hanen må skaffe løv, gullbånd, sko og mye mer før kilden gir ham vann.",
   "hasInlineScenes": true
 }

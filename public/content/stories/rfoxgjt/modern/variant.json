@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Ræven som Gjæter (Moderne)",
-  "description": "En moderne bygdefortelling der gjeterjobben blir til en praktisk dyrepasserjobb, møtene skjer ved bensinstasjon og nærbutikk, og en kjøkkenmaskin med fløte blir målet for revens lure triks—med samme klassiske forklaring på hvorfor reven har hvit haletipp.",
-  "tone": "Folkelig, spenningsfylt og lurt, med mørk humor og et eventyraktig moralsk stikk.",
+  "description": "Dama har tolv geiter, tjue sauer, tre kyr og full stilling på helsesenteret, og hun trenger en gjeter. Søkerne dukker opp ved bensinpumpene, ved skogstien og utenfor nærbutikken, og én av dem synger så fint at hun ikke ber om attest.",
+  "tone": "Tørr, bygdenær og mørkt morsom",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En dame hyrer en tilsynelatende snill dyrepasser som viser seg å være reven, og snart er både dyr og fløte borte.",
+  "summary": "Dama ansetter mannen med det fineste lokkeropet som gjeter, reiser på kurs i tre dager og kommer hjem til et tomt fjøs.",
   "hasInlineScenes": true
 }

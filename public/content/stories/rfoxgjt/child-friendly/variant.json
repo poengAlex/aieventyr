@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Ræven som Gjæter (Barnevennlig)",
-  "description": "En mildere og mer barnevennlig variant med mykere stemning og snillere formuleringer, der reven lærer at det ikke lønner seg å snike til seg godsaker, og forklaringen på den hvite haletippen blir fortalt uten skremmende detaljer.",
-  "tone": "Varm, rolig og lekent moralsk",
+  "description": "Reven synger «Dil-dal-holom!» så fint at kona ansetter ham som gjeter, men den første dagen sover han, den andre jager han mus, og den tredje synger han. Et lunt høytlesningseventyr uten noe skummelt.",
+  "tone": "Leken, lun og trygg",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En listig rev blir gjeter, men når han heller sniker til seg fløte, ender han opp med en hvit haletipp som påminnelse.",
+  "summary": "Reven blir gjeter, men lar dyra rusle sin vei og slikker i seg fløten, til kona slenger den siste skvetten etter ham.",
   "hasInlineScenes": true
 }

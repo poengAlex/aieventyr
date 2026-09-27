@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Enkesønnen (English Retelling)",
-  "description": "An English retelling that stays close to the original folktale’s plainspoken style, keeping its stark bargains, ominous forbidden rooms, troll-magic, and the hero’s secret double life as both ragged servant and shining champion.",
-  "tone": "Classic folkloric, suspenseful, and wonder-filled with dark fairy-tale peril",
+  "description": "The widow’s son gets an easy life with a stranger who forbids him just four rooms, and in the third, a cauldron boiling with no fire under it leaves his finger gilded. A classic Norwegian troll tale, told in brisk modern English.",
+  "tone": "Thrilling, dry and magical",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A widowed woman’s son escapes a troll and secretly becomes the kingdom’s champion to win a princess and a future forged by magic.",
+  "summary": "A poor widow’s son escapes a troll on a talking black horse, hides as a garden boy at the King’s manor, and wins the war and the Princess.",
   "hasInlineScenes": true
 }

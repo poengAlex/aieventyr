@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Somme Kjærringer er slige (Simplified)",
-  "description": "Denne varianten er skrevet på moderne norsk med enklere setninger og tydeligere formuleringer, slik at den klassiske skrønen flyter raskere og er lettere å lese uten å endre handlingen eller humoren.",
-  "tone": "Folkelig, komisk og skrønete, med tydelig moral om dumskap og list.",
+  "description": "Kona selger kua for en skilling og våkner i tjære og fjær, og da går mannen sin vei: Han kommer ikke hjem før han har funnet tre kjerringer som er like gale. Den gamle skrønen, fortalt på lett og muntlig norsk.",
+  "tone": "Tørr, folkelig og skrønete",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En bonde prøver å rømme fra sin ufornuftige kone, men finner tre like håpløse mennesker og ender opp med å godta at dumskap finnes overalt.",
+  "summary": "En fattig bonde går fra kona si og treffer tre kjerringer som er like gale, og alle tre gjør ham rikere.",
   "hasInlineScenes": true
 }

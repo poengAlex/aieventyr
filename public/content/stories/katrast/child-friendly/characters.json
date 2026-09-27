@@ -2,35 +2,35 @@
   {
     "name": "Kari Trestakk",
     "slug": "kari-treestakk",
-    "description": "A brave, gentle princess who is treated unfairly at home but stays kind, follows wise advice, and patiently shapes a better life.",
+    "description": "Ei snill prinsesse som rømmer fra den nye dronninga på ryggen av den blå oksen, og som vasker opp på et fremmed slott i en klaprende kjole av tre.",
     "visualPrompt": "Young princess with soft features and calm, determined eyes, wearing a rough, bundled wooden cloak over simple clothes; later shown with elegant copper, silver, and golden gowns and one delicate golden shoe; fairytale Nordic style, warm and child-friendly",
     "imagePath": "characters/kari-treestakk.webp"
   },
   {
-    "name": "The Blue Ox",
+    "name": "Den blå oksen",
     "slug": "the-blue-ox",
-    "description": "A loyal, magical ox who provides food, protects Kari on the road, and guides her toward safety and hope.",
+    "description": "En stor, blank okse med en matduk i øret, som bærer prinsessa gjennom skogene av kobber, sølv og gull og stanger trollene av veien.",
     "visualPrompt": "Large strong ox with a glossy deep-blue coat that seems to shine, gentle expressive eyes, friendly posture; fairytale magical aura, reassuring presence, child-friendly",
     "imagePath": "characters/the-blue-ox.webp"
   },
   {
-    "name": "The Prince",
+    "name": "Prinsen",
     "slug": "the-prince",
-    "description": "A curious prince who first overlooks Kari in her rough disguise, then recognizes her true self through the enchanted church visits and the golden shoe.",
+    "description": "En prins som jager kjøkkenjenta i trestakken ut av døra tre søndager på rad, men ikke klarer å ta øynene fra den fine jenta i kirka.",
     "visualPrompt": "Young prince in neat royal clothing with a curious, earnest expression; warm demeanor, fairytale castle setting, soft colors, approachable for children",
     "imagePath": "characters/the-prince.webp"
   },
   {
-    "name": "The New Queen (Stepmother)",
+    "name": "Den nye dronninga",
     "slug": "the-new-queen",
-    "description": "A jealous, strict queen who tries to keep Kari small and powerless, but is ultimately outwitted by kindness and truth.",
+    "description": "Kongens nye kone, som setter prinsessa til å gjete kyrne på tørre brødskalker og later som hun er syk for å få spise den blå oksen.",
     "visualPrompt": "Regal woman with sharp posture and controlled expression, rich dark gown and crown, hands folded tightly; fairytale villainy kept mild and non-scary, child-friendly",
     "imagePath": "characters/the-new-queen.webp"
   },
   {
-    "name": "The Mountain Helper",
+    "name": "Mannen i berget",
     "slug": "the-mountain-helper",
-    "description": "A mysterious helper who appears when Kari knocks on the rock, lending her beautiful outfits and a fine horse for church.",
+    "description": "En gammel mann med langt, hvitt skjegg og grønn kappe, som kommer ut når Kari banker på berget, og gir henne kjoler av kobber, sølv og gull og en hest til kirka.",
     "visualPrompt": "Kind, mysterious figure emerging from a rocky mountainside, simple cloak and gentle face, offering a softly glowing bundle of fabric and a bridle; magical but comforting fairytale style",
     "imagePath": "characters/the-mountain-helper.webp"
   }
