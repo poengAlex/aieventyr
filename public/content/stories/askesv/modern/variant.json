@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Askeladden og trollets sølvender, sengeteppe og gullharpe (Modern)",
-  "description": "En moderne gjenfortelling der Askeladden er kjøkkenhjelp på en kongsgård som fortsatt fungerer som en slags offisiell residens utenfor hovedstaden, og han bruker hverdagslige, smarte knep—korn, en spiker, en bjørkepinne og en lysstump—til å overliste et fjordtroll, mens misunnelige brødre prøver å sette ham opp til å mislykkes.",
-  "tone": "Contemporary folktale, clever, tense, darkly humorous",
+  "description": "Askeladden tar oppvasken på kongsgården ved fjorden, og brødrene hans skryter på hans vegne til kongen. Nå må han stjele fra trollet over vannet med et gammelt knadetrau, en spiker og en bjørkepinne.",
+  "tone": "Tørr, moderne og mørk humor",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En undervurdert kjøkkenhjelp lurer et fjordtroll og stjeler sølvender, et glitrende sengeteppe og en gullharpe som gjør alle glade.",
+  "summary": "En undervurdert kjøkkenhjelp ror over fjorden og lurer trollet tre ganger.",
   "hasInlineScenes": true
 }

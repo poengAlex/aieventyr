@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Askeladden og sølvendene, sengeteppet og gullharpa (barnevennlig)",
-  "description": "En mildere og tryggere variant for yngre lesere, med varm stemning, snillere språk og en mindre skremmende trollscene der kløkt og ro vinner uten brutale detaljer.",
-  "tone": "Gentle, cozy, playful, reassuring",
+  "description": "Plask, plask over vannet! Askeladden lokker sølvendene opp i trauet, napper teppet ned fra fjellet og lurer trolldatteren med en hyssing. En høytlesningsversjon uten noe skummelt.",
+  "tone": "Leken, varm og trygg",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden bruker mot og kløkt til å skaffe sølvender, et vakkert teppe og en gullharpe—og ender med både glede og forsoning.",
+  "summary": "Askeladden lurer trollet og henter sølvendene, sengeteppet og gullharpa hjem til kongen.",
   "hasInlineScenes": true
 }
