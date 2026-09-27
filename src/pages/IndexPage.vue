@@ -69,9 +69,10 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import VariantSelector from 'src/components/VariantSelector.vue'
+import { loadArtCover } from 'src/logic/art'
 import { loadManifest, resolveStoryVariant } from 'src/logic/content'
 import { createNotify } from 'src/logic/utils'
 import { useSettingsStore } from 'src/stores/settings'
@@ -81,6 +82,7 @@ const settings = useSettingsStore()
 const router = useRouter()
 const loading = ref(true)
 const stories = ref<StoryListItem[]>([])
+const artCovers = ref<Record<string, string>>({})
 
 const filteredStories = computed(() => {
   return stories.value.filter((story) => {
@@ -94,8 +96,24 @@ function getResolvedVariant(story: StoryListItem): VariantType {
 }
 
 function getCover(story: StoryListItem) {
-  return `/content/stories/${story.id}/${getResolvedVariant(story)}/main.webp`
+  const variant = getResolvedVariant(story)
+  return artCovers.value[`${story.id}:${variant}`] ?? `/content/stories/${story.id}/${variant}/main.webp`
 }
+
+// New covers from the illustration sets replace the older ones where they exist.
+async function loadArtCovers() {
+  const covers: Record<string, string> = {}
+  await Promise.all(
+    stories.value.map(async (story) => {
+      const variant = getResolvedVariant(story)
+      const cover = await loadArtCover(story.id, variant)
+      if (cover) covers[`${story.id}:${variant}`] = cover
+    }),
+  )
+  artCovers.value = covers
+}
+
+watch(() => settings.variant, loadArtCovers)
 
 function openStory(storyId: string) {
   void router.push(`/story/${storyId}`)
@@ -105,6 +123,7 @@ onMounted(async () => {
   try {
     const manifest = await loadManifest()
     stories.value = [...manifest.stories].sort((left, right) => left.index - right.index)
+    await loadArtCovers()
   } catch (error: unknown) {
     createNotify((error as Error).message, 'Failed to load library')
   } finally {

@@ -94,3 +94,51 @@ export interface VariantBundle {
   characters: VariantCharacter[]
   sections: StorySection[]
 }
+
+// Illustrations made by pipeline/commands/generate-art.mjs into public/content/art/<set>/.
+export interface ArtCharacter {
+  slug: string
+  name: string
+  description: string
+  look: string
+  sheet: string | null
+  portrait: string | null
+  replacesPortrait: string | null
+}
+
+export interface ArtPicture {
+  id: string
+  paragraph: number
+  anchor: string
+  file: string | null
+  caption: string
+  alt: string
+  prompt: string
+  characters: string[]
+  places: string[]
+  fullPrompt: string | null
+}
+
+export interface ArtManifest {
+  storyId: string
+  set: string
+  variant: VariantType
+  title: string
+  model: string
+  quality: string
+  updatedAt: string
+  cover: Omit<ArtPicture, 'id' | 'paragraph' | 'anchor' | 'places'>
+  characters: ArtCharacter[]
+  places: { slug: string; name: string; look: string; file: string | null }[]
+  illustrations: ArtPicture[]
+}
+
+export interface ArtIndex {
+  set: string
+  variants: VariantType[]
+  updatedAt: string
+  stories: Record<
+    string,
+    { cover: string | null; pictures: number; done: number; manifests: Record<string, string> }
+  >
+}

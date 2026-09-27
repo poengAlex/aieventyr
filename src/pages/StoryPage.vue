@@ -17,14 +17,25 @@
               <span>Text size</span>
               <q-slider v-model="settings.fontSize" :min="16" :max="28" :step="1" color="primary" />
             </div>
+            <q-btn
+              v-if="art && hasArtScenes"
+              unelevated
+              rounded
+              no-caps
+              color="primary"
+              icon="auto_stories"
+              label="Read as a picture book"
+              class="picture-book-button"
+              @click="pictureBookOpen = true"
+            />
           </div>
         </div>
         <q-img
-          :src="mainImagePath"
+          :src="heroImage"
           :ratio="1"
           class="hero-image clickable-image"
           fit="cover"
-          @click="openImage(mainImagePath, bundle.variant.displayTitle)"
+          @click="openImage(heroImage, bundle.variant.displayTitle)"
         />
       </section>
 
@@ -36,7 +47,15 @@
 
       <section class="reader-content">
         <div class="story-panel">
-          <div class="story-sections">
+          <illustrated-story
+            v-if="art && hasArtScenes"
+            :text="bundle.text"
+            :art="art"
+            :font-size="settings.fontSize"
+            @open-character="openCharacter"
+            @open-image="openImage"
+          />
+          <div v-else class="story-sections">
             <article v-for="section in bundle.sections" :key="section.id" class="story-section">
               <div class="story-section-copy">
                 <div class="story-text" :style="{ fontSize: `${settings.fontSize}px` }">
@@ -50,16 +69,16 @@
                 @click="openImage(getInlineScenePath(section.imagePath), section.title)"
               />
             </article>
-            <div ref="storyEndMarker" class="story-end-marker" aria-hidden="true" />
           </div>
+          <div ref="storyEndMarker" class="story-end-marker" aria-hidden="true" />
         </div>
 
         <div class="character-panel">
           <div class="panel-title">Characters in this variant</div>
           <div class="character-grid">
-            <q-card v-for="character in bundle.characters" :key="character.slug" flat class="character-card">
+            <q-card v-for="character in characterCards" :key="character.slug" flat class="character-card">
               <q-img
-                :src="getCharacterPath(character.imagePath)"
+                :src="character.image"
                 :ratio="1"
                 fit="cover"
                 class="clickable-image"
@@ -136,6 +155,15 @@
 
       <fullscreen-image-dialog v-model="imageDialogOpen" :src="activeImage.src" :alt="activeImage.alt" />
 
+      <picture-book
+        v-if="art && hasArtScenes"
+        v-model="pictureBookOpen"
+        :text="bundle.text"
+        :art="art"
+        :title="bundle.variant.displayTitle"
+        :font-size="settings.fontSize + 3"
+      />
+
       <q-dialog v-model="characterDialogOpen" maximized transition-show="fade" transition-hide="fade">
         <div v-if="currentCharacter" class="character-dialog">
           <q-btn
@@ -148,7 +176,7 @@
           />
 
           <q-btn
-            v-if="bundle.characters.length > 1"
+            v-if="characterCards.length > 1"
             round
             flat
             icon="chevron_left"
@@ -159,18 +187,28 @@
 
           <div class="character-dialog-content">
             <img
-              :src="getCharacterPath(currentCharacter.imagePath)"
+              :src="showSheet && currentCharacter.sheet ? currentCharacter.sheet : currentCharacter.image"
               :alt="currentCharacter.name"
               class="character-dialog-image"
             />
             <div class="character-dialog-copy">
               <div class="character-dialog-title">{{ currentCharacter.name }}</div>
               <div class="character-dialog-description">{{ currentCharacter.description }}</div>
+              <q-btn
+                v-if="currentCharacter.sheet && currentCharacter.sheet !== currentCharacter.image"
+                flat
+                no-caps
+                dense
+                color="primary"
+                :label="showSheet ? 'Show portrait' : 'Show model sheet'"
+                class="sheet-toggle"
+                @click="showSheet = !showSheet"
+              />
             </div>
           </div>
 
           <q-btn
-            v-if="bundle.characters.length > 1"
+            v-if="characterCards.length > 1"
             round
             flat
             icon="chevron_right"
@@ -188,7 +226,10 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import FullscreenImageDialog from 'src/components/FullscreenImageDialog.vue'
+import IllustratedStory from 'src/components/IllustratedStory.vue'
+import PictureBook from 'src/components/PictureBook.vue'
 import VariantSelector from 'src/components/VariantSelector.vue'
+import { artUrl, loadArt } from 'src/logic/art'
 import {
   getVariantBasePath,
   loadManifest,
@@ -198,7 +239,7 @@ import {
 } from 'src/logic/content'
 import { createNotify } from 'src/logic/utils'
 import { useSettingsStore, VARIANT_TEXT } from 'src/stores/settings'
-import type { StoryListItem, StoryMeta, VariantBundle, VariantCharacter, VariantType } from 'src/types/content'
+import type { ArtManifest, StoryListItem, StoryMeta, VariantBundle, VariantType } from 'src/types/content'
 
 const route = useRoute()
 const settings = useSettingsStore()
@@ -206,6 +247,9 @@ const settings = useSettingsStore()
 const loading = ref(true)
 const story = ref<StoryMeta | null>(null)
 const bundle = ref<VariantBundle | null>(null)
+const art = ref<ArtManifest | null>(null)
+const pictureBookOpen = ref(false)
+const showSheet = ref(false)
 const allVariantBundles = ref<VariantBundle[]>([])
 const manifestStories = ref<StoryListItem[]>([])
 const imageDialogOpen = ref(false)
@@ -233,9 +277,45 @@ const nextStory = computed(() =>
 const activeVariant = computed(() => bundle.value?.variant.variant ?? settings.variant)
 const baseVariantPath = computed(() => `/content/stories/${storyId.value}/${activeVariant.value}`)
 const mainImagePath = computed(() => `${baseVariantPath.value}/main.webp`)
-const currentCharacter = computed<VariantCharacter | null>(
-  () => bundle.value?.characters[activeCharacterIndex.value] ?? null,
+const hasArtScenes = computed(() => Boolean(art.value?.illustrations.some((picture) => picture.file)))
+const heroImage = computed(() =>
+  art.value?.cover.file ? artUrl(art.value.set, storyId.value, art.value.cover.file) : mainImagePath.value,
 )
+
+interface CharacterCard {
+  slug: string
+  name: string
+  description: string
+  image: string
+  sheet: string | null
+}
+
+// The new portraits when the story has them, otherwise the older character pictures.
+const characterCards = computed<CharacterCard[]>(() => {
+  const manifest = art.value
+  const fromArt = (manifest?.characters ?? []).flatMap((character) => {
+    const image = character.portrait || character.sheet
+    if (!manifest || !image) return []
+    return [
+      {
+        slug: character.slug,
+        name: character.name,
+        description: character.description,
+        image: artUrl(manifest.set, storyId.value, image),
+        sheet: character.sheet ? artUrl(manifest.set, storyId.value, character.sheet) : null,
+      },
+    ]
+  })
+  if (fromArt.length) return fromArt
+  return (bundle.value?.characters ?? []).map((character) => ({
+    slug: character.slug,
+    name: character.name,
+    description: character.description,
+    image: getCharacterPath(character.imagePath),
+    sheet: null,
+  }))
+})
+const currentCharacter = computed<CharacterCard | null>(() => characterCards.value[activeCharacterIndex.value] ?? null)
 
 interface GalleryItem {
   id: string
@@ -294,8 +374,33 @@ function buildGalleryItems(variantBundle: VariantBundle): GalleryItem[] {
   return items
 }
 
+function buildArtGalleryItems(manifest: ArtManifest): GalleryItem[] {
+  const variant = manifest.variant
+  const variantLabel = VARIANT_TEXT[variant]
+  const url = (file: string) => artUrl(manifest.set, storyId.value, file)
+  const items: GalleryItem[] = []
+  if (manifest.cover.file) {
+    const title = bundle.value?.variant.displayTitle ?? manifest.title
+    items.push({ id: 'art:cover', src: url(manifest.cover.file), alt: manifest.cover.alt, title, variant, variantLabel })
+  }
+  for (const picture of manifest.illustrations) {
+    if (!picture.file) continue
+    const src = url(picture.file)
+    items.push({ id: `art:${picture.id}`, src, alt: picture.alt, title: picture.caption, variant, variantLabel })
+  }
+  for (const character of manifest.characters) {
+    if (!character.portrait) continue
+    const src = url(character.portrait)
+    items.push({ id: `art:${character.slug}`, src, alt: character.name, title: character.name, variant, variantLabel })
+  }
+  return items
+}
+
+// The new pictures of this text when it has them; otherwise the older pictures of all variants.
 const galleryItems = computed(() =>
-  allVariantBundles.value.flatMap((variantBundle) => buildGalleryItems(variantBundle)),
+  art.value && hasArtScenes.value
+    ? buildArtGalleryItems(art.value)
+    : allVariantBundles.value.flatMap((variantBundle) => buildGalleryItems(variantBundle)),
 )
 
 function getCharacterPath(relativePath: string) {
@@ -312,9 +417,10 @@ function openImage(src: string, alt: string) {
 }
 
 function openCharacter(characterSlug: string) {
-  const nextIndex = bundle.value?.characters.findIndex((character) => character.slug === characterSlug) ?? -1
+  const nextIndex = characterCards.value.findIndex((character) => character.slug === characterSlug)
   if (nextIndex < 0) return
   activeCharacterIndex.value = nextIndex
+  showSheet.value = false
   characterDialogOpen.value = true
 }
 
@@ -351,14 +457,17 @@ function setupReadObserver() {
 }
 
 function showPreviousCharacter() {
-  if (!bundle.value?.characters.length) return
-  activeCharacterIndex.value =
-    (activeCharacterIndex.value - 1 + bundle.value.characters.length) % bundle.value.characters.length
+  const count = characterCards.value.length
+  if (!count) return
+  showSheet.value = false
+  activeCharacterIndex.value = (activeCharacterIndex.value - 1 + count) % count
 }
 
 function showNextCharacter() {
-  if (!bundle.value?.characters.length) return
-  activeCharacterIndex.value = (activeCharacterIndex.value + 1) % bundle.value.characters.length
+  const count = characterCards.value.length
+  if (!count) return
+  showSheet.value = false
+  activeCharacterIndex.value = (activeCharacterIndex.value + 1) % count
 }
 
 async function loadPage() {
@@ -377,6 +486,7 @@ async function loadPage() {
       settings.setVariant(resolvedVariant)
     }
     bundle.value = await loadVariantBundle(storyId.value, resolvedVariant)
+    art.value = await loadArt(storyId.value, resolvedVariant)
     allVariantBundles.value = await Promise.all(
       story.value.availableVariants.map((variant) => loadVariantBundle(storyId.value, variant)),
     )
@@ -460,6 +570,14 @@ watch(galleryItems, (items) => {
 .font-control {
   display: grid;
   gap: 6px;
+}
+
+.picture-book-button {
+  justify-self: start;
+}
+
+.sheet-toggle {
+  margin-top: 12px;
 }
 
 .hero-image {
