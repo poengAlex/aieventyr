@@ -5,7 +5,7 @@
     "verbosity": "medium"
   },
   "image": {
-    "model": "gpt-image-1.5",
+    "model": "gpt-image-2.5-flare",
     "size": "1024x1024",
     "quality": "low",
     "styleSuffix": "Create a polished, storybook-quality illustration with clear subjects, no text, and strong visual storytelling."

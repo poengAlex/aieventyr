@@ -225,10 +225,10 @@ This also re-splits the text into new sections with generated titles and prompts
 npm run pipeline:regenerate-scenes
 npm run pipeline:regenerate-scenes -- --story=tolvander
 npm run pipeline:regenerate-scenes -- --story=giske --variant=english --scene=3
-npm run pipeline:regenerate-scenes -- --story=tolvander --model=gpt-image-2.5-flare
+npm run pipeline:regenerate-scenes -- --story=tolvander --model=gpt-image-2.5-sunburst
 ```
 
-`--model` overrides `image.model` from `models.json` for this run only, which is handy for trying a newer image model on a few scenes before switching the whole pipeline.
+`--model` overrides `image.model` from `models.json` for this run only. The default is `gpt-image-2.5-flare`; `gpt-image-2.5-sunburst` is slower and more detailed, and the existing art was made with `gpt-image-1.5`.
 
 Redraws single scene images from the `imagePrompt` stored in `sections.json`. Unlike `build-inline-scenes --force`, it doesn't re-split the story text, retitle sections or redraw the other scenes. Without `--scene` it works through `pipeline/config/scene-fixes.json`, the list of illustrations that contradict the current texts, each with a corrected prompt already in `sections.json`.
 
