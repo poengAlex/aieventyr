@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
-  "displayTitle": "Lillekort (Child Friendly)",
-  "description": "A gentler retelling with a warm, reassuring mood: the danger feels more like a stormy fairy-tale test than a frightening threat, the trolls vanish like smoke instead of lingering on anything grim, and the story highlights kindness, clever teamwork, and a happy, fair ending for everyone.",
-  "tone": "Gentle, adventurous, hopeful, and comforting",
+  "displayTitle": "Lillekort (barnevennlig)",
+  "description": "En varm høytlesningsversjon med korte setninger og mange lydord. Lillekort finner kjerringas øyne i stedet for å stjele dem, trollene blir til røyk, og alt ender godt.",
+  "tone": "Varm, leken, spennende og trygg",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A brave little boy named Lillekort uses clever gifts and a good heart to save a princess, outsmart trolls, and bring happiness to a whole kingdom.",
+  "summary": "Den bitte lille Lillekort bruker list, et tryllesverd og et lommeskip til å redde to prinsesser og avsløre den skrytete Ridder Rød.",
   "hasInlineScenes": true
 }
