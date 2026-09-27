@@ -11,7 +11,7 @@
       "promptName": "the Servant Boy",
       "replacesPortrait": "tjenestegutten",
       "description": "En lur gårdsgutt som hører alt det mannen ikke hører, og som vedder ti daler med kona om hemmeligheten hennes.",
-      "look": "A very skinny, quick farm boy of about thirteen with a mousy-brown pudding-bowl haircut, a narrow, sunburnt face with a pointed chin, a wide, sly grin and quick green eyes that miss nothing. He wears a baggy, faded blue linen shirt and patched brown trousers held up by a single strap, too short for him so his bony ankles show, and he goes barefoot. His floppy grey-green knitted cap is always either on his head or waving in his hand.",
+      "look": "A very skinny, quick farm boy of about thirteen with a mousy-brown pudding-bowl haircut, a narrow, sunburnt face with a pointed chin, a wide, sly grin and quick green eyes that miss nothing. He wears a baggy, faded brick-red shirt and patched brown trousers that are too short for him, so his bony ankles show, and he goes barefoot. His round grey-green knitted cap with a little pompom on top is always either on his head or waving in his hand.",
       "portrait": "Background: the wide door of the big grey barn."
     },
     {
@@ -38,7 +38,7 @@
       "promptName": "Pål",
       "replacesPortrait": "pal-andrestuen",
       "description": "En ung nabo som gjerne stikker innom, men som blir lett skremt når han tror han har gjort noe galt.",
-      "look": "A soft, round-bellied young man of about twenty-five, shorter than most, with a round, pale, clean-shaven face, plump pink cheeks, a small upturned nose, big, droopy brown eyes and wavy light-brown hair combed into a proud swoop over his forehead. He wears a tight brown-and-cream checked jacket with big round wooden buttons straining over his tummy, a red-and-white spotted neckerchief, grey trousers and polished black shoes, and a wooden spoon always sticks out of his breast pocket.",
+      "look": "A soft, round-bellied young man of about twenty-five, shorter than most, with a round, pale, clean-shaven face, plump pink cheeks, a small upturned nose, big, droopy brown eyes and wavy light-brown hair combed into a proud swoop over his forehead. He wears a short brown jacket over a tight lemon-yellow waistcoat with shiny buttons straining over his tummy, a big floppy pink silk bow at his neck, grey trousers and polished black shoes, and a wooden spoon always sticks out of his breast pocket.",
       "portrait": "Background: the kitchen table with a bowl of porridge."
     }
   ],
@@ -120,7 +120,7 @@
       "paragraph": 54,
       "anchor": "Og Pål Andrestuen? Han lærte seg å koke grøt selv.",
       "characters": ["pal-andrestuen"],
-      "prompt": "Inside his own small, untidy log cottage, Pål stands at the hearth with an apron tied over his checked jacket, stirring a black pot of thick grey porridge with a long wooden spoon. He holds up a spoonful full of big lumps and stares at it with a disappointed pout. Spilled oats on the floor, a crooked stool and a thin wisp of steam. Warm, golden firelight.",
+      "prompt": "Inside his own small, untidy log cottage, Pål stands at the hearth with an apron tied over his yellow waistcoat, stirring a black pot of thick grey porridge with a long wooden spoon. He holds up a spoonful full of big lumps and stares at it with a disappointed pout. Spilled oats on the floor, a crooked stool and a thin wisp of steam. Warm, golden firelight.",
       "caption": "Pål lærte seg å koke grøt selv. Den ble klumpete.",
       "alt": "Pål står ved grua i den lille stua si og rører i en gryte. Han holder opp en skje full av klumpete grøt og ser skuffet ut."
     }

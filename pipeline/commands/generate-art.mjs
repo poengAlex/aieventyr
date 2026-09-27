@@ -117,21 +117,17 @@ const normalize = (value) =>
 const nameOf = (character) => character.promptName || character.name
 const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
-// Which cast members a prompt mentions by name. Names are matched with their own
-// capitalisation (only the first letter may differ), so "the King" is a mention and
-// "the king's farm" is not. Longer names go first, so "the Troll's Daughter" does not
-// also count as "the Troll".
+// Which cast members a prompt mentions by name. A leading "the" or "a" is optional, so
+// "the enormous Troll Guardian" mentions "the Troll Guardian", but the name itself must
+// keep its capitals, so "the king's farm" does not mention "the King". Longer names go
+// first, so "the Troll's Daughter" does not also count as "the Troll".
 function mentionedCast(story, prompt) {
   let rest = prompt
   const found = new Set()
-  const cast = [...story.cast].sort((a, b) => nameOf(b).length - nameOf(a).length)
+  const core = (character) => nameOf(character).replace(/^(the|a|an) /i, '')
+  const cast = [...story.cast].sort((a, b) => core(b).length - core(a).length)
   for (const character of cast) {
-    const name = nameOf(character)
-    const first = `[${escapeRegex(name[0].toLowerCase())}${escapeRegex(name[0].toUpperCase())}]`
-    const pattern = new RegExp(
-      `(?<![\\p{L}])${first}${escapeRegex(name.slice(1))}(?![\\p{L}])`,
-      'gu',
-    )
+    const pattern = new RegExp(`(?<![\\p{L}])${escapeRegex(core(character))}(?![\\p{L}])`, 'gu')
     if (pattern.test(rest)) {
       found.add(character.slug)
       rest = rest.replace(pattern, ' ')

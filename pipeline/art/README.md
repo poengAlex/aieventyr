@@ -120,7 +120,7 @@ Places: `slug`, `name` (English, capitalised like a proper name: "the Grey Mount
 ### Prompts
 
 - English, 50–110 words, one moment: who is where in the frame, what they do, their expressions, the key props with exact numbers, the setting and the light. Say how wide the view is when it matters.
-- Name every cast member in the picture by their exact `promptName` (with its capital letter: "the King", not "the king") and list them in `characters`. The checker requires this, and it sends only the sheets of listed characters.
+- Name every cast member in the picture by their `promptName`, keeping its capitals ("the King", not "the king"). Words may come between "the" and the name ("the enormous Troll Guardian"). List them all in `characters`. The checker requires this, and it sends only the sheets of listed characters.
 - Don't repeat the characters' looks; they are added automatically. Only mention what is different in this moment (soaking wet, wearing the troll's shawl, a crown on).
 - Don't mention art style, medium or "picture book"; those are added automatically too.
 - Minor figures that are not in the cast (guards, guests, a crowd) are described in the prompt, with exact numbers.
