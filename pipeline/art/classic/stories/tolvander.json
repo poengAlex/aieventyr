@@ -10,13 +10,13 @@
       "textFile": "public/content/stories/tolvander/english/story.txt"
     }
   },
-  "world": "Old rural Norway, long ago. The royal manors are clusters of dark log buildings with turf roofs, carved gables and small leaded windows around a yard. The Queen's sleigh is small and red, drawn by two brown horses. The thirteen silver spoons are small and exactly alike. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike: pale, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and the caps, shirts and kerchiefs sewn from it are snow-white. The snake pit is an old, dank walled stone yard behind the young King's manor. The three children are two small boys with fair curls and a baby girl with black hair.",
-  "palette": "One long tale through many seasons: a hushed white winter day of fresh snow under a low, pale sun at the start; mossy spruce-green forest and warm firelight in the brothers' cabin; the bog at sunrise, a sea of white bog cotton in thin mist and pale-gold light; cool grey stone and candlelight at the young King's manor; a smoky orange pyre glow under a slate-blue dusk; and a clear, fresh spring morning at the end. Accents of snow white, rose red and raven black.",
+  "world": "Old rural Norway, long ago. The royal manors are clusters of dark log buildings with turf roofs, carved gables and small leaded windows around a yard. The Queen's sleigh is small and red, drawn by two brown horses. The thirteen silver spoons are small and exactly alike. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike: pale, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and the caps, shirts and kerchiefs sewn from it are pure white. The snake pit is an old, dank walled stone yard behind the young King's manor. The three children are two small boys with fair curls and a baby girl with black hair.",
+  "palette": "One long tale through many seasons: a hushed white winter day of fresh snow under a low, pale sun at the start; mossy spruce-green forest and warm firelight in the brothers' cabin; the bog at sunrise, a sea of white bog cotton in thin mist and pale-gold light; cool grey stone and candlelight at the young King's manor; a smoky orange pyre glow under a slate-blue dusk; and a clear, fresh spring morning at the end. Accents of pure white, blood red and raven black.",
   "cast": [
     {
       "slug": "snohvit-og-rosenrod",
       "promptName": "the Maiden",
-      "look": "A slender young woman of about twenty with snow-pale skin, rose-red cheeks and lips, a soft oval face, a small straight nose and large dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a strip of white linen. She wears a plain dark-teal homespun wool dress with a deep pocket, where the handle of a small silver spoon peeks out, a long grey wool shawl and thin, worn brown leather shoes.",
+      "look": "A slender young woman of about twenty with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a strip of white linen. She wears a plain dark-teal homespun wool dress with a deep pocket, where the handle of a small silver spoon peeks out, a long grey wool shawl and thin, worn brown leather shoes.",
       "portrait": "Background: the White Bog at sunrise, white with bog cotton.",
       "variants": {
         "simplified": {
@@ -34,7 +34,7 @@
     {
       "slug": "snohvit-og-rosenrod-dronning",
       "promptName": "the Maiden Queen",
-      "look": "A slender young queen of about twenty-four with snow-pale skin, rose-red cheeks and lips, a soft oval face, a small straight nose and large dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder under a slender silver circlet. She wears a long, plain gown of white linen embroidered with small rose-red roses at the hem and cuffs, a rose-red girdle and soft grey leather slippers.",
+      "look": "A slender young queen of about twenty-four with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder under a slender silver circlet. She wears a long, plain gown of white linen embroidered with small red roses at the hem and cuffs, a deep-red girdle and soft grey leather slippers.",
       "portrait": "Background: a candlelit leaded window in the young King's manor.",
       "variants": {
         "simplified": {
@@ -137,7 +137,7 @@
     {
       "slug": "den-yngste-broren-vinge",
       "promptName": "the Winged Brother",
-      "look": "A slim young man of about twenty-six with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a new snow-white cap, shirt and kerchief of soft bog-cotton cloth, grey breeches and soft grey leather boots. In place of his left arm he has a large wild duck's wing of grey-brown feathers with a shiny blue-violet patch edged in white.",
+      "look": "A slim young man of about twenty-six with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a new pure-white cap, shirt and kerchief of soft bog-cotton cloth, grey breeches and soft grey leather boots. In place of his left arm he has a large wild duck's wing of grey-brown feathers with a shiny blue-violet patch edged in white.",
       "portrait": "Background: the yard of a royal manor in morning light.",
       "variants": {
         "simplified": {
@@ -339,7 +339,7 @@
     {
       "id": "09",
       "characters": ["snohvit-og-rosenrod-dronning", "kongens-stemor"],
-      "prompt": "Evening in a quiet chamber of the royal manor. The Maiden Queen sits on a bench by a small leaded window, sewing a snow-white shirt by candlelight, with a basket of finished white caps, shirts and kerchiefs at her feet. Behind her, in the half-open doorway, the Stepmother stands watching her with narrowed, jealous eyes, one ringed hand on the door frame.",
+      "prompt": "Evening in a quiet chamber of the royal manor. The Maiden Queen sits on a bench by a small leaded window, sewing a pure-white shirt by candlelight, with a basket of finished white caps, shirts and kerchiefs at her feet. Behind her, in the half-open doorway, the Stepmother stands watching her with narrowed, jealous eyes, one ringed hand on the door frame.",
       "variants": {
         "simplified": {
           "paragraph": 39,
@@ -377,7 +377,7 @@
     {
       "id": "11",
       "characters": ["snohvit-og-rosenrod-dronning"],
-      "prompt": "Dusk in the open yard of the royal manor. A tall pyre blazes in the middle, and around it twelve boards lie in a ring, each with a folded snow-white cap, shirt and kerchief; the last shirt has only one sleeve. Twelve wild ducks swoop down through the smoke and sparks, each snatching up its bundle of clothes in its beak. The Maiden Queen kneels beside the ring between two guards and looks up with sudden hope.",
+      "prompt": "Dusk in the open yard of the royal manor. A tall pyre blazes in the middle, and around it twelve boards lie in a ring, each with a folded pure-white cap, shirt and kerchief; the last shirt has only one sleeve. Twelve wild ducks swoop down through the smoke and sparks, each snatching up its bundle of clothes in its beak. The Maiden Queen kneels beside the ring between two guards and looks up with sudden hope.",
       "variants": {
         "simplified": {
           "paragraph": 51,
@@ -396,7 +396,7 @@
     {
       "id": "12",
       "characters": ["den-yngste-broren-vinge", "snohvit-og-rosenrod-dronning", "den-unge-kongen", "kongens-stemor"],
-      "prompt": "In the smoky yard of the royal manor at dusk, the pyre burning low, twelve princes come riding up on twelve horses, tall and handsome, all in new snow-white caps, shirts and kerchiefs. At their head rides the Winged Brother, a large wild duck's wing where his left arm should be. The Maiden Queen, still between two guards, gazes up at them with shining eyes; the Young King turns in astonishment, and beside him the Stepmother freezes with her pointing hand still raised.",
+      "prompt": "In the smoky yard of the royal manor at dusk, the pyre burning low, twelve princes come riding up on twelve horses, tall and handsome, all in new pure-white caps, shirts and kerchiefs. At their head rides the Winged Brother, a large wild duck's wing where his left arm should be. The Maiden Queen, still between two guards, gazes up at them with shining eyes; the Young King turns in astonishment, and beside him the Stepmother freezes with her pointing hand still raised.",
       "variants": {
         "simplified": {
           "paragraph": 55,
