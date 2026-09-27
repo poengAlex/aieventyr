@@ -1,0 +1,595 @@
+{
+  "storyId": "fugldam",
+  "variants": {
+    "simplified": {
+      "title": "Fugl Dam",
+      "textFile": "public/content/stories/fugldam/simplified/story.txt"
+    },
+    "english": {
+      "title": "Bird Dam",
+      "textFile": "public/content/stories/fugldam/english/story.txt"
+    }
+  },
+  "world": "Old Norway by the sea, over fourteen years of voyages. The princesses' father rules a royal manor of big log halls above a sandy beach. The twelve princes sail in one big, round-bellied wooden ship. On a small rocky island stands the troll prince's castle, with a tall hall of pale stone columns; far across the sea, the Black Castle on a rocky shore holds the Troll King's gilded chamber. The little dog on the island is fluffy and white, with floppy brown ears. The old sword is long and rusty, with a plain iron hilt; the troll's bottle is round, of dark-green glass. The crown cupboard is waist-high, painted blue with red-and-white rosemaling, and holds twelve small golden crowns. The iron boat is small and dark, with no oars or sail. The eleven older princes wear matching grey-blue coats; the eleven older princesses wear long dresses in soft colours.",
+  "palette": "The open northern sea in all its moods, from howling gales to glassy calm: jade-green and pewter-grey waves with white foam, towering silver-grey clouds, pale luminous summer nights and clear rosy dawns. Indoors, warm lamplight and the rich glow of gold. Accents: Sir Red's scarlet, the prince's forest green and gleaming golden crowns.",
+  "cast": [
+    {
+      "slug": "den-yngste-kongssonnen",
+      "promptName": "the Youngest Prince",
+      "look": "A slim, brave prince in his twenties with a kind, open face, a fine straight nose, calm green-grey eyes, a quick smile and wavy dark-brown hair falling to his shoulders. He wears a forest-green hunting coat with brass buttons and a high collar, a narrow gold belt, dark-grey riding trousers tucked into tall tan boots, and a small gold brooch shaped like a ship pinned to his collar.",
+      "portrait": "Background: the deck of the Ship and a jade-green sea.",
+      "variants": {
+        "simplified": {
+          "name": "Den yngste kongssønnen",
+          "description": "Den modigste av brødrene, som holder seg våken når andre sover, finner sannheten og våger seg inn i slottet for å redde prinsessene.",
+          "replacesPortrait": "den-yngste-kongssonnen"
+        },
+        "english": {
+          "name": "The Youngest Prince",
+          "description": "The only son who stays awake, follows the snarling dog into the island castle, slays the twelve-headed troll, is betrayed by Sir Red, and returns disguised to claim justice.",
+          "replacesPortrait": "youngest-prince"
+        }
+      }
+    },
+    {
+      "slug": "sjomannen",
+      "promptName": "the Sailor",
+      "look": "A slim young man in his twenties disguised as a poor sailor, with a kind face, a straight nose, steady green-grey eyes and a few days' dark stubble, his wavy dark-brown hair tucked under a red kerchief knotted round his head. He wears a huge, baggy, dark-blue knitted sailor's coat with wooden buttons that hangs down to his knees, patched canvas trousers and scuffed, salt-stained boots.",
+      "portrait": "Background: the door of a wretched little hut by the sea.",
+      "variants": {
+        "simplified": {
+          "name": "Sjømannen",
+          "description": "Den yngste kongssønnen i forkledning, i en stor matroskofte. Han later som han er en stakkars matros som har forlist, og siden kommer han som kremmer."
+        },
+        "english": {
+          "name": "The Sailor",
+          "description": "The youngest prince in disguise, in a great sailor’s coat. He passes himself off as a shipwrecked seaman, and later as a peddler."
+        }
+      }
+    },
+    {
+      "slug": "den-yngste-prinsessa",
+      "promptName": "the Youngest Princess",
+      "look": "A small, slight princess of about twenty with a round, solemn face, a short nose, deep-blue eyes under thick, level brows and a small, determined mouth. Her honey-brown hair is braided into a crown around her head. She wears a long ivory gown stitched with gold at the bodice and hem, with tight long sleeves and a narrow gold girdle, and a little silver anchor pinned at her collar.",
+      "portrait": "Background: the small-paned windows of the Great Hall with the sea beyond.",
+      "variants": {
+        "simplified": {
+          "name": "Den yngste prinsessa",
+          "description": "Prinsessa som sørger i stillhet og beskytter seg med et nakent sverd, og som til slutt tør å si hvem som virkelig reddet dem.",
+          "replacesPortrait": "den-yngste-prinsessa"
+        },
+        "english": {
+          "name": "The Youngest Princess",
+          "description": "The most faithful of the twelve, sorrowful under Sir Red’s threats, who finally speaks up when the crowns return and names the true rescuer.",
+          "replacesPortrait": "youngest-princess"
+        }
+      }
+    },
+    {
+      "slug": "fugl-dam",
+      "promptName": "the Giant Bird",
+      "look": "An enormous, friendly bird as tall as a three-storey house, so big that a man reaches only to its ankle, shaped a little like a giant gull. It has a pale silver-grey back, broad silver-grey wings with black tips, a snowy-white head and breast, kind dark eyes, a big hooked golden-yellow beak and huge orange webbed feet. From the back of its neck rises one enormous, stiff, copper-red feather, as thick as a young spruce.",
+      "portrait": "Background: the jade-green sea at sunrise.",
+      "variants": {
+        "simplified": {
+          "name": "Fugl Dam",
+          "description": "En urimelig stor fugl som spiser fire tønner rug til frokost og flyr kongssønnen og gullkronene over havet til trollprinsen.",
+          "replacesPortrait": "fugl-dam"
+        },
+        "english": {
+          "name": "Bird Dam",
+          "description": "A colossal, uncanny helper who demands four barrels of rye each morning and bears the prince and the crowns through the air, warning him of danger and deception.",
+          "replacesPortrait": "bird-dam"
+        }
+      }
+    },
+    {
+      "slug": "ridder-rod",
+      "promptName": "Sir Red",
+      "look": "A tall, barrel-chested, vain man of about forty with a big square jaw, a cleft chin, a short straight nose held high, small, cold pale-blue eyes and a proud smirk. He has short flame-red hair and a short, pointed flame-red beard. He wears a round, polished steel helmet with a stiff red crest, a long scarlet surcoat with a gold border over a shirt of chainmail, a wide black belt with a big gold buckle and tall black boots.",
+      "portrait": "Background: the high stern of the Ship with its big wooden tiller.",
+      "variants": {
+        "simplified": {
+          "name": "Ridder Rød",
+          "description": "Styrmann og rival som blir misunnelig, sviker den yngste prinsen og prøver å ta æren for redningen for å få den yngste prinsessa.",
+          "replacesPortrait": "ridder-rod"
+        },
+        "english": {
+          "name": "Sir Red",
+          "description": "The ship’s helmsman who covets the youngest princess, threatens the others into silence, and steals the credit for the rescue.",
+          "replacesPortrait": "sir-red"
+        }
+      }
+    },
+    {
+      "slug": "trollkongen",
+      "promptName": "the Troll King",
+      "look": "A huge, hulking troll about three times as tall as a man, with rust-red, warty skin, a broad, sagging barrel of a body, very long arms that hang down to the floor and short bowed legs. On his thick neck sits a bunch of exactly twelve small heads, packed tightly together like a bunch of turnips, each with a knobbly nose, droopy ears and a wispy tuft of pale straw-coloured hair. He wears a moth-eaten dark-blue velvet cloak with a tattered fur collar and heavy gold chains.",
+      "portrait": "Background: his gilded chamber in the Black Castle.",
+      "variants": {
+        "simplified": {
+          "name": "Trollkongen med tolv hoder",
+          "description": "Stortrollet med tolv hoder, som sitter pyntet i et prektig kammer mens de tolv prinsessene plukker lus av ham, til den yngste kongssønnen hogger hodene av.",
+          "replacesPortrait": "trollkongen-med-tolv-hoder"
+        },
+        "english": {
+          "name": "The Twelve-Headed Troll King",
+          "description": "The finery-clad monster who keeps the twelve princesses on golden chairs, picking the lice from his twelve heads, until the youngest prince strikes them off.",
+          "replacesPortrait": "twelve-headed-troll-king"
+        }
+      }
+    },
+    {
+      "slug": "trollprinsen",
+      "promptName": "the Troll Prince",
+      "look": "A huge, strange troll about three times as tall as a man, shaped like a giant sack of flour, with sloping shoulders, a small head, a big soft belly, short legs and huge webbed feet like a duck's. His skin is a weathered, ruddy tan. He has a nose as long as a cucumber, small kind amber eyes, big ears like cabbage leaves and a stiff crest of dark-brown hair standing straight up like a brush. He wears a mulberry-purple velvet tunic with a wide gold belt.",
+      "portrait": "Background: the tall pale-stone columns of his island castle.",
+      "variants": {
+        "simplified": {
+          "name": "Trollprinsen",
+          "description": "Et stort og stygt troll på øya, som gir kongssønnen sverdet og flaska, og som blir konge når trollkongen er borte."
+        },
+        "english": {
+          "name": "The Troll Prince",
+          "description": "A huge, ugly troll on the island who gives the prince the sword and the bottle, and becomes king once the Troll King is gone."
+        }
+      }
+    },
+    {
+      "slug": "trolldattera",
+      "promptName": "the Troll's Daughter",
+      "look": "A willowy young woman of about twenty with pale, milky skin, a long, narrow face, a tiny pointed nose, big silvery-grey eyes and long, pale-blonde hair that floats and drifts around her as if she were under water. A thin, misty veil floats around her too, as if lifted by a breeze. She wears a long, flowing apricot-coloured dress with a silver belt and goes barefoot.",
+      "portrait": "Background: the lamplit hall of pale stone columns.",
+      "variants": {
+        "simplified": {
+          "name": "Trollprinsessa",
+          "description": "Trollprinsens datter. Først er hun en liten hund som gjør og piper på en øy, så en vakker prinsesse. I mange år syr hun klær og lintøy til kongssønnen."
+        },
+        "english": {
+          "name": "The Troll’s Daughter",
+          "description": "The troll prince’s daughter. First she is a little dog yelping on an island, then a lovely princess, and for years she sews clothes and linen for the prince."
+        }
+      }
+    },
+    {
+      "slug": "kongen",
+      "promptName": "the King",
+      "look": "A small, wiry, elderly king with a narrow, kind, crinkly face, a small sharp nose, twinkling blue eyes, wisps of silver hair and a long silver-grey beard braided into two plaits tied with little gold rings. He wears a low, wide gold crown set with green stones, a long turquoise robe with a collar of spotted grey sealskin and silver clasps shaped like fish, and soft grey felt slippers.",
+      "portrait": "Background: his tall carved chair in the Great Hall.",
+      "variants": {
+        "simplified": {
+          "name": "Kongen",
+          "description": "Kongen med de tolv døtrene, som er så glad i dem at han helst vil ha dem hos seg hele tiden."
+        },
+        "english": {
+          "name": "The King",
+          "description": "The father of the twelve princesses, who loves them so dearly that he can hardly bear to have them out of his sight."
+        }
+      }
+    },
+    {
+      "slug": "den-nysgjerrige-kjerringa",
+      "promptName": "the Nosy Old Woman",
+      "look": "A short, bustling old woman with a plump little body on thin legs, like a robin, and a long neck that she cranes forward to see everything. She has a sharp little chin, a beaky nose, big curious eyes magnified by thick, round spectacles and wispy white hair scraped into a tiny topknot like an onion. She wears a faded lavender dress, an orange knitted shawl and a patched brown apron with a deep pocket.",
+      "portrait": "Background: her wretched little hut.",
+      "variants": {
+        "simplified": {
+          "name": "Den nysgjerrige kjerringa",
+          "description": "Ei gammel kjerring i ei falleferdig hytte, som spør og graver og løper rett til de andre sladrekjerringene med nyheten."
+        },
+        "english": {
+          "name": "The Nosy Old Woman",
+          "description": "An old woman in a wretched little hut who loves nothing better than a bit of news to run about with."
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "skipet",
+      "name": "the Ship",
+      "look": "A big, round-bellied old wooden sailing ship, its hull painted dark blue with a broad red stripe along the side, one tall mast with a single broad, square cream-coloured sail, a high carved stern with a big wooden tiller and a small cabin beneath it, a low rail around the deck, coils of rope and wooden barrels on deck, and a small wooden rowing boat hanging at its side."
+    },
+    {
+      "slug": "storsalen",
+      "name": "the Great Hall",
+      "look": "The great hall of the royal manor by the sea: a long, high log hall with a steep, dark-beamed roof, walls hung with red and blue woven tapestries, small-paned windows looking out over the sea, a long carved table with benches, a big stone fireplace, and at the far end, on a low platform, a tall carved royal chair and a long cushioned bench."
+    },
+    {
+      "slug": "svartslottet",
+      "name": "the Black Castle",
+      "look": "A grim castle of black stone on a rocky shore far across the sea, with heavy square towers, narrow windows glowing gold, and a great arched gate facing the sea. Inside the gate lies a wide flagstoned courtyard with an old grey storehouse on stilts in one corner. Dark rocks, seaweed and white surf at its foot."
+    }
+  ],
+  "cover": {
+    "prompt": "The Youngest Prince rides on the back of the Giant Bird high above a jade-green sea at sunrise, holding tight to its huge copper-red neck feather, his hair streaming in the wind. The blue crown cupboard hangs tied with ropes on one side of the bird's neck and a bulging sack of gold and silver on the other. The great wings spread wide across the picture, and far, far below, the Ship sails on.",
+    "characters": ["den-yngste-kongssonnen", "fugl-dam"],
+    "places": ["skipet"],
+    "variants": {
+      "simplified": {
+        "caption": "Så bar det av sted, så det suste.",
+        "alt": "Den yngste kongssønnen sitter på ryggen til en kjempestor fugl og flyr høyt over havet. På den ene siden av halsen henger et skap, på den andre en sekk med gull. Langt der nede seiler skipet."
+      },
+      "english": {
+        "caption": "Off they went, so fast that the air whistled past them.",
+        "alt": "The youngest prince rides on the back of an enormous bird, flying high above the sea. A cupboard hangs on one side of its neck and a sack of gold on the other. Far below, the ship sails on."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["kongen", "den-yngste-prinsessa"],
+      "places": ["storsalen"],
+      "prompt": "Noon in the Great Hall of the royal manor. The King lies stretched out on the long cushioned bench, fast asleep, his crown tipped over his nose. Past him, twelve princesses, each wearing a small golden crown, tiptoe in a line towards the open door and the sunshine outside: eleven sisters in dresses of different soft colours, and last of all the Youngest Princess, glancing back at their father with a small smile and one finger to her lips.",
+      "variants": {
+        "simplified": {
+          "paragraph": 0,
+          "anchor": "Det var en gang en konge som hadde tolv døtre",
+          "caption": "Bare om middagen, mens kongen tok seg en lur, fikk prinsessene gå ut og spasere.",
+          "alt": "Kongen sover på en benk i storsalen. Tolv prinsesser med små gullkroner lister seg forbi ham og ut døra for å gå tur."
+        },
+        "english": {
+          "paragraph": 0,
+          "anchor": "Once upon a time there was a king who had twelve daughters",
+          "caption": "Every day at noon, while the King took his nap, the princesses went out for a walk.",
+          "alt": "The King sleeps on a bench in the great hall. Twelve princesses with small golden crowns tiptoe past him and out of the door for their walk."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["den-yngste-kongssonnen", "ridder-rod"],
+      "places": ["skipet"],
+      "prompt": "The Ship sails out of a rocky harbour on a bright, breezy morning, its big square sail filling with wind. Along the rail, the Youngest Prince and his eleven older brothers in matching grey-blue coats wave farewell to the quay, where their white-haired father in a dark robe raises his hand. High on the stern, Sir Red grips the big wooden tiller and puffs out his chest. Gulls wheel over the green water.",
+      "variants": {
+        "simplified": {
+          "paragraph": 4,
+          "anchor": "Faren ville nødig la dem dra.",
+          "caption": "Han rustet ut et skip til dem og satte Ridder Rød til styrmann.",
+          "alt": "Tolv prinser vinker fra et stort skip som seiler ut fra land. Bakerst ved roret står Ridder Rød og kneiser."
+        },
+        "english": {
+          "paragraph": 2,
+          "anchor": "It wasn’t long before the news had travelled far and wide",
+          "caption": "He fitted out a ship for them and put Sir Red at the helm.",
+          "alt": "Twelve princes wave from a big ship sailing out of the harbour. At the helm stands Sir Red, puffing out his chest."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["ridder-rod", "den-yngste-kongssonnen"],
+      "places": ["skipet"],
+      "prompt": "A pale, windless morning after the storm, the sea as smooth as glass. On the deck of the Ship, the eleven older princes lie asleep in a heap among coils of rope, and Sir Red snores slumped over the tiller. Only the Youngest Prince is awake, leaning over the rail and holding out his hand towards a little rocky island gliding past, where a small fluffy white dog with floppy brown ears runs along the shore, barking at the ship.",
+      "variants": {
+        "simplified": {
+          "paragraph": 7,
+          "anchor": "Mens han gikk fram og tilbake på dekket, gled skipet forbi en liten øy.",
+          "caption": "På øya løp en liten hund langs strandkanten og gjødde og pep.",
+          "alt": "Alle på skipet sover, unntatt den yngste kongssønnen. Han lener seg over rekka og lokker på en liten hvit hund som løper og gjør på en liten øy."
+        },
+        "english": {
+          "paragraph": 4,
+          "anchor": "He was pacing up and down the deck when the ship drifted past a little rocky island",
+          "caption": "On the shore a little dog was running back and forth, yelping and snarling.",
+          "alt": "Everyone on the ship is asleep except the youngest prince. He leans over the rail, calling to a little white dog yelping on a small rocky island."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["den-yngste-kongssonnen", "trolldattera", "trollprinsen"],
+      "prompt": "Inside a great, splendid castle hall with tall pale-stone columns and warm lamplight, a swirl of glittering light fills the middle of the floor where the little white dog stood a moment ago, and out of it rises the Troll's Daughter, her pale hair and misty veil floating around her. The Youngest Prince stands rooted to the spot, eyes wide. On a long bench against the wall sits the Troll Prince, so huge and so ugly that the Youngest Prince has gone cold all over.",
+      "variants": {
+        "simplified": {
+          "paragraph": 11,
+          "anchor": "Midt på gulvet gjorde hunden seg om til en vakker prinsesse.",
+          "caption": "Midt på gulvet gjorde hunden seg om til en vakker prinsesse.",
+          "alt": "I en stor sal med høye søyler blir den lille hunden til en vakker prinsesse i et glitrende lys. Kongssønnen står stiv av skrekk, og på en benk sitter en diger, stygg mann."
+        },
+        "english": {
+          "paragraph": 6,
+          "anchor": "He rowed to the island and walked up to the dog.",
+          "caption": "There the dog turned into a lovely princess.",
+          "alt": "In a great hall with tall columns, the little dog turns into a lovely princess in a swirl of light. The prince stands frozen with fright, and on a bench sits a huge, ugly man."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["den-yngste-kongssonnen", "trollprinsen", "trolldattera"],
+      "prompt": "In the lamplit hall of tall pale-stone columns, the Youngest Prince swings a long, rusty old sword high over his head as lightly as a baker's paddle, grinning with surprise. The Troll Prince sits on his long bench against the wall holding up a round dark-green glass bottle and nodding with satisfaction, his big webbed feet crossed. Beside a column, the Troll's Daughter watches with a faint smile, her veil drifting.",
+      "variants": {
+        "simplified": {
+          "paragraph": 19,
+          "anchor": "Han tok en slurk, og da kunne han rikke sverdet.",
+          "caption": "Han svingte sverdet like lett som ei bakstefjøl.",
+          "alt": "Kongssønnen svinger et gammelt, rustent sverd over hodet like lett som ei bakstefjøl. Trollprinsen sitter på benken med flaska og nikker, og dattera hans ser på."
+        },
+        "english": {
+          "paragraph": 15,
+          "anchor": "After one swig the prince could rock the sword.",
+          "caption": "After three swigs he could swing it as lightly as a baker’s paddle.",
+          "alt": "The prince swings an old rusty sword over his head as lightly as a baker's paddle. The troll sits on his bench holding the bottle and nodding, and his daughter watches."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["den-yngste-kongssonnen"],
+      "places": ["svartslottet"],
+      "prompt": "Blue dusk before the great arched gate of the Black Castle, with surf breaking on the rocks below. Two grey wolves, two big brown bears and three lions have all lain down at the Youngest Prince's feet, heads on their paws, as meek as dogs. The Youngest Prince, the rusty old sword in his hand, steps carefully between them towards the gate, watching them with wide eyes.",
+      "variants": {
+        "simplified": {
+          "paragraph": 25,
+          "anchor": "Utenfor slottet sto vaktene, ulver og bjørner og løver.",
+          "caption": "Vaktene la seg for føttene hans, den ene etter den andre.",
+          "alt": "Utenfor et svart slott i skumringen ligger ulver, bjørner og løver for føttene til kongssønnen. Han går forsiktig mellom dem med sverdet i hånda."
+        },
+        "english": {
+          "paragraph": 22,
+          "anchor": "When the seven years were up, all but three days, everything happened just as the troll had said.",
+          "caption": "The wolves and the bears and the lions all fell down at his feet.",
+          "alt": "Outside a black castle at dusk, wolves, bears and lions lie down at the prince's feet. He steps carefully between them with the sword in his hand."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["trollkongen", "den-yngste-kongssonnen", "den-yngste-prinsessa"],
+      "prompt": "A splendid chamber hung with gold, where the Troll King sits sprawled asleep in a great carved seat, all twelve of his heads snoring with their mouths open. Around him stand twelve little golden chairs, emptying one by one as the twelve princesses, none of them wearing crowns, tiptoe away across the floor towards the Youngest Prince, who waits by the door with the rusty sword, beckoning. The Youngest Princess leads the line, looking back at the sleeping troll, and her eleven sisters follow.",
+      "variants": {
+        "simplified": {
+          "paragraph": 27,
+          "anchor": "Kongssønnen vinket til prinsessene at de skulle flytte seg.",
+          "caption": "Stille, stille listet prinsessene seg bort, den ene etter den andre.",
+          "alt": "Et rustrødt troll med tolv hoder sover og snorker i en stor stol. Tolv prinsesser lister seg bort fra gullstolene sine mot kongssønnen, som står ved døra med sverdet."
+        },
+        "english": {
+          "paragraph": 23,
+          "anchor": "There, in a splendid chamber, the Troll King lay sprawled asleep on a great seat",
+          "caption": "Quietly, one after another, the princesses slipped aside.",
+          "alt": "A rust-red troll with twelve heads sleeps and snores in a great seat. Twelve princesses slip away from their golden chairs towards the prince, who waits by the door with the sword."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["den-yngste-kongssonnen", "den-yngste-prinsessa"],
+      "places": ["skipet"],
+      "prompt": "A bright, windy morning at a rocky shore, where the Ship lies moored with a gangplank to the rocks. Princes and princesses carry chests and sacks of gold and silver aboard, laughing. At the foot of the gangplank, the Youngest Prince hands a heavy silver jug up to the Youngest Princess, and the two smile at each other. Eleven more princesses in soft-coloured dresses and eleven princes in grey-blue coats bustle about with treasure.",
+      "variants": {
+        "simplified": {
+          "paragraph": 34,
+          "anchor": "Alle var glade, men ingen var så glade som kongsdøtrene.",
+          "caption": "Alle var glade, men ingen var så glade som kongsdøtrene.",
+          "alt": "Prinsene og prinsessene bærer gull og sølv om bord på skipet og ler. Den yngste kongssønnen rekker ei sølvkanne opp til den yngste prinsessa."
+        },
+        "english": {
+          "paragraph": 30,
+          "anchor": "Now everyone was happy, but none were happier than the princesses",
+          "caption": "Everyone was happy, but none were happier than the princesses.",
+          "alt": "The princes and princesses laugh as they carry gold and silver aboard the ship. The youngest prince hands a silver jug up to the youngest princess."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["ridder-rod", "den-yngste-prinsessa"],
+      "places": ["skipet"],
+      "prompt": "On the deck of the Ship, lying at anchor with its sail lowered, Sir Red stands at the tiller with one fist raised, glaring and laying down the law. The eleven older princes in grey-blue coats huddle before him with bowed heads, not daring to answer. Behind them, the Youngest Princess clutches the rail and stares back towards the empty sea where a little rowing boat has vanished, while her eleven sisters cling to each other in fright.",
+      "variants": {
+        "simplified": {
+          "paragraph": 40,
+          "anchor": "«Det nytter ikke å ligge her og vente», sa han.",
+          "caption": "«Det er meg kongen har gitt makt og myndighet her. Jeg seiler når jeg vil.»",
+          "alt": "Ridder Rød står ved roret og truer med knyttneven, og de elleve prinsene bøyer hodet. Den yngste prinsessa holder seg i rekka og ser utover det tomme havet."
+        },
+        "english": {
+          "paragraph": 34,
+          "anchor": "“There’s no sense lying here waiting,” he said.",
+          "caption": "“Your father gave me command of this ship, so I sail when I choose.”",
+          "alt": "Sir Red stands at the helm shaking his fist, and the eleven princes bow their heads. The youngest princess clings to the rail, staring out over the empty sea."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "characters": ["den-yngste-kongssonnen"],
+      "places": ["svartslottet"],
+      "prompt": "Late afternoon on a grey-green sea off a rocky shore, with the Black Castle small and dark on the rocks behind. The Youngest Prince sits in a little rowing boat riding low in the water under the heavy blue crown cupboard wedged in beside him. He has stopped rowing and stares this way and that, one hand shading his eyes. All around, the sea is empty to the horizon: not a single sail.",
+      "variants": {
+        "simplified": {
+          "paragraph": 42,
+          "anchor": "Imens rodde den yngste kongssønnen i land, gikk opp i slottet og fant skapet med gullkronene.",
+          "caption": "Han så til alle kanter. Ikke et seil.",
+          "alt": "Kongssønnen sitter i en liten robåt med et tungt skap og ser seg rundt. Skipet er borte, og det er ikke et seil å se på hele havet."
+        },
+        "english": {
+          "paragraph": 36,
+          "anchor": "Meanwhile the youngest prince had rowed ashore and gone up to the castle.",
+          "caption": "He looked north and south and east and west, and there was no ship anywhere.",
+          "alt": "The prince sits in a little rowing boat with a heavy cupboard, looking all around. The ship is gone, and there is not a sail to be seen."
+        }
+      }
+    },
+    {
+      "id": "11",
+      "characters": ["fugl-dam", "den-yngste-kongssonnen"],
+      "places": ["svartslottet"],
+      "prompt": "Grey early morning in the flagstoned courtyard of the Black Castle. The Giant Bird towers over everything, taller than the castle gate, happily gobbling rye out of three big wooden barrels standing in a row, grains flying. The Youngest Prince, tiny beside its huge orange feet, rolls the fourth barrel over from the old storehouse on stilts in the corner, leaning his head far back to look up at the bird and its huge copper-red neck feather.",
+      "variants": {
+        "simplified": {
+          "paragraph": 48,
+          "anchor": "Kongssønnen gikk på stabburet og hentet fire tønner rug, og Fugl Dam spiste opp alt sammen.",
+          "caption": "Kongssønnen hentet fire tønner rug, og Fugl Dam spiste opp alt sammen.",
+          "alt": "I borggården står en kjempestor fugl og spiser rug av tre tønner. Kongssønnen triller den fjerde tønna fram fra stabburet og må legge hodet bakover for å se opp på fuglen."
+        },
+        "english": {
+          "paragraph": 41,
+          "anchor": "When he woke, it was still grey outside, and beside the bed stood a bird far bigger than any bird has a right to be",
+          "caption": "He fetched four barrels of rye, and Bird Dam ate every grain.",
+          "alt": "In the castle courtyard, an enormous bird eats rye from three barrels. The prince rolls the fourth barrel over from the storehouse, tipping his head far back to look up at the bird."
+        }
+      }
+    },
+    {
+      "id": "12",
+      "characters": ["den-yngste-prinsessa", "ridder-rod", "den-yngste-kongssonnen"],
+      "prompt": "Night in a small wooden cabin aboard ship, lit by moonlight through a little window. The Youngest Princess lies asleep alone in a narrow bunk with an unsheathed sword laid in front of her on the blanket. On the floor before the bunk, Sir Red lies asleep on his back, snoring, his helmet tipped over his face. In the low doorway, the Youngest Prince pauses with a small lantern, looking at her, one finger to his lips.",
+      "variants": {
+        "simplified": {
+          "paragraph": 53,
+          "anchor": "Da skipet seilte forbi, hadde det vært uvær igjen",
+          "caption": "Den yngste lå alene med et nakent sverd foran seg i senga.",
+          "alt": "I en liten lugar sover den yngste prinsessa alene med et blankt sverd foran seg. Ridder Rød sover på gulvet, og kongssønnen står stille i døra med en lykt."
+        },
+        "english": {
+          "paragraph": 47,
+          "anchor": "When the ship came sailing by, there had been another storm",
+          "caption": "The youngest lay alone, with a naked sword in front of her in the bed.",
+          "alt": "In a small cabin the youngest princess sleeps alone with a drawn sword in front of her. Sir Red sleeps on the floor, and the prince stands quietly in the doorway with a lantern."
+        }
+      }
+    },
+    {
+      "id": "13",
+      "characters": ["den-yngste-kongssonnen", "trollprinsen", "trolldattera"],
+      "prompt": "Dawn on the rocky shore of the troll's island. A small dark iron boat with no oars and no sail waits at the water's edge, a heavy iron club lying inside it, and the Youngest Prince is loading it with sacks of gold and silver. The Troll Prince, now wearing a golden crown, waves him off with one big hand, and the Troll's Daughter holds out a tall stack of folded linen shirts and clothes that she has sewn for him.",
+      "variants": {
+        "simplified": {
+          "paragraph": 56,
+          "anchor": "Da han reiste, fikk han med seg gull og sølv og mye annet gildt.",
+          "caption": "Trollprinsessa hadde sydd klær og lintøy til ham i alle disse årene.",
+          "alt": "Ved stranda ligger en liten jernbåt uten årer og seil. Kongssønnen laster inn gull og sølv, trollprinsen vinker med krone på hodet, og dattera hans rekker ham en stabel med klær."
+        },
+        "english": {
+          "paragraph": 49,
+          "anchor": "When he left, he was given so much gold and silver and so many fine things",
+          "caption": "He was given all the clothes and linen the troll’s daughter had sewn for him.",
+          "alt": "A small iron boat with no oars or sail waits at the shore. The prince loads it with gold and silver, the troll waves wearing a crown, and his daughter hands him a stack of clothes."
+        }
+      }
+    },
+    {
+      "id": "14",
+      "characters": ["den-yngste-kongssonnen"],
+      "places": ["skipet"],
+      "prompt": "On a rough, stormy sea, the small dark iron boat races along by itself with no oars and no sail, and the Youngest Prince carefully lowers the heavy iron club back into it with both hands, as gently as an egg. Close beside him the Ship heels over in a sudden gale, its sail bulging, white foam standing all round its hull and waves breaking over the deck, while tiny figures aboard haul on ropes, far too busy to look his way.",
+      "variants": {
+        "simplified": {
+          "paragraph": 58,
+          "anchor": "Da han var på siden av skipet, løftet han på klubba igjen.",
+          "caption": "Da brøt det løs en storm så det sto hvitt skum rundt skipet.",
+          "alt": "Kongssønnen suser forbi i en liten jernbåt og legger jernklubba varsomt ned. Ved siden av krenger skipet i stormen, og alle om bord har nok med seg selv."
+        },
+        "english": {
+          "paragraph": 50,
+          "anchor": "He had hardly sat down in the boat and said “Boat, go forward!” before off it went.",
+          "caption": "Such a storm blew up that the white foam stood round the ship.",
+          "alt": "The prince races past in a small iron boat, gently laying down the iron club. Beside him the ship heels over in the storm, and everyone aboard is far too busy to notice him."
+        }
+      }
+    },
+    {
+      "id": "15",
+      "characters": ["sjomannen", "den-nysgjerrige-kjerringa"],
+      "prompt": "Inside a wretched little hut with one tiny window, a sagging roof and hardly any furniture. The Sailor sits squeezed onto a stool in the corner among his bundles and chests, holding his head in both hands as if it aches badly. The Nosy Old Woman leans in so close that her nose almost touches his, one finger raised, firing questions at him while peering sideways at his bundles through her thick spectacles.",
+      "variants": {
+        "simplified": {
+          "paragraph": 65,
+          "anchor": "Om kvelden bar han inn sakene sine.",
+          "caption": "Hvem var han? Hvor var han fra? Hvor hadde han vært? Hvor skulle han?",
+          "alt": "I ei falleferdig hytte lener ei nysgjerrig gammel kjerring seg helt inn til sjømannen og spør og spør. Han sitter i et hjørne med sakene sine og holder seg for hodet."
+        },
+        "english": {
+          "paragraph": 55,
+          "anchor": "That evening he carried his things in",
+          "caption": "Who was he? Where was he from? Where had he been, and where was he going?",
+          "alt": "In a wretched little hut, a nosy old woman leans right up to the sailor and asks question after question. He sits in a corner with his bundles, holding his head."
+        }
+      }
+    },
+    {
+      "id": "16",
+      "characters": ["sjomannen", "kongen"],
+      "places": ["storsalen"],
+      "prompt": "In the Great Hall, the Sailor, in his huge baggy sailor's coat and red kerchief, stands before the tall carved chair with his hands clasped, as shabby as a shipwrecked man can be. The King leans forward from the chair, gripping its arms, his crinkly face lit up with hope, while four courtiers in long robes crane their necks to listen.",
+      "variants": {
+        "simplified": {
+          "paragraph": 75,
+          "anchor": "«Ja, det har jeg», sa sjømannen.",
+          "caption": "«Er de i live, kommer de nok om en fjorten dagers tid. Kanskje før.»",
+          "alt": "Sjømannen står i storsalen foran kongen i den store matroskofta si. Kongen lener seg fram i stolen og lyser av håp."
+        },
+        "english": {
+          "paragraph": 61,
+          "anchor": "“Yes, I have,” said the sailor.",
+          "caption": "“If they are alive, they’ll be here in a fortnight or so, and perhaps sooner.”",
+          "alt": "The sailor stands before the King in the great hall in his big sailor's coat. The King leans forward in his chair, his face lit up with hope."
+        }
+      }
+    },
+    {
+      "id": "17",
+      "characters": ["kongen", "den-yngste-prinsessa", "ridder-rod"],
+      "places": ["skipet"],
+      "prompt": "A bright day on the beach below the royal manor, with flags flying and the Ship drawn up at the water's edge, the eleven older princes cheering at its rail. The King, in his finest robe and crown, laughs with joy while eleven princesses dance and sing around him. A little apart, the Youngest Princess stands weeping into her hands, and Sir Red stands close beside her with his chest puffed out and a smug smile.",
+      "variants": {
+        "simplified": {
+          "paragraph": 77,
+          "anchor": "De elleve eldste prinsessene var glade og lystige, de også.",
+          "caption": "Men den yngste gråt og gikk tung og trist omkring.",
+          "alt": "På stranda danser elleve glade prinsesser rundt kongen. Den yngste prinsessa står litt borte og gråter, og ved siden av henne står Ridder Rød og kneiser."
+        },
+        "english": {
+          "paragraph": 63,
+          "anchor": "The eleven eldest princesses were happy and merry, too.",
+          "caption": "But the youngest, who was to marry Sir Red, wept and was always sad.",
+          "alt": "On the beach, eleven happy princesses dance around the King. The youngest princess stands a little apart, weeping, and beside her Sir Red puffs out his chest."
+        }
+      }
+    },
+    {
+      "id": "18",
+      "characters": ["sjomannen", "den-yngste-prinsessa", "kongen", "ridder-rod"],
+      "places": ["storsalen"],
+      "prompt": "In the Great Hall, the Sailor has set the blue crown cupboard down in the middle of the floor and swung its two doors open. Inside, twelve small golden crowns sit side by side, shining so brightly that golden light fills the hall. The Youngest Princess steps forward with tears in her eyes and points straight at the Sailor. Her eleven sisters crowd round the cupboard, the King leans forward from his tall chair in amazement, and Sir Red stands stiff and pale.",
+      "variants": {
+        "simplified": {
+          "paragraph": 86,
+          "anchor": "«Jeg synes det er rett at den som har frelst oss, får den lønna han har fortjent», sa hun.",
+          "caption": "«Det er han som kom med gullkronene våre. Han har frelst oss.»",
+          "alt": "Midt i storsalen står skapet åpent, og tolv gullkroner lyser. Den yngste prinsessa peker på sjømannen, kongen stirrer, og Ridder Rød blir hvit."
+        },
+        "english": {
+          "paragraph": 69,
+          "anchor": "“I think it’s only right,” she said, “that the one who saved us should have the reward he has earned.",
+          "caption": "“It’s the man who brought us our golden crowns. He saved us.”",
+          "alt": "In the middle of the great hall the cupboard stands open, and twelve golden crowns shine. The youngest princess points at the sailor, the King stares, and Sir Red goes pale."
+        }
+      }
+    },
+    {
+      "id": "19",
+      "characters": ["den-yngste-kongssonnen", "den-yngste-prinsessa", "kongen"],
+      "places": ["storsalen"],
+      "prompt": "A wedding feast in the Great Hall, hung with garlands and lit by many candles. Twelve bridal couples dance in a great ring to the music of three fiddlers: in the middle, the Youngest Prince in his finest clothes whirls the Youngest Princess round, and around them the eleven older princes dance with the eleven older princesses, every princess wearing her golden crown. The King claps along from his tall chair, beaming.",
+      "variants": {
+        "simplified": {
+          "paragraph": 89,
+          "anchor": "Nå ble det glede på kongsgården for alvor.",
+          "caption": "Så ble det bryllup, så det hørtes og spurtes over tolv kongeriker.",
+          "alt": "Tolv brudepar danser i storsalen. I midten danser den yngste kongssønnen og den yngste prinsessa, og kongen klapper i takt."
+        },
+        "english": {
+          "paragraph": 71,
+          "anchor": "Only then was there real joy at the King’s manor.",
+          "caption": "There was a wedding that was heard of and talked of across twelve kingdoms.",
+          "alt": "Twelve bridal couples dance in the great hall. In the middle dance the youngest prince and the youngest princess, and the King claps along."
+        }
+      }
+    }
+  ]
+}
