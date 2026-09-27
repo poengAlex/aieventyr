@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Enkesønnen (Modern)",
-  "description": "A contemporary retelling where the widow’s son is drawn into an isolated renovation mansion run by a hidden troll, escapes with the help of a cursed black horse, and uses salvaged gear, improvised “magic” objects, and a double life as a mocked garden worker to save a ruthless tycoon-king’s estate and win freedom, love, and power.",
-  "tone": "Dark modern fairy tale, suspenseful and gritty with moments of wonder and hard-won tenderness",
+  "description": "En moderne gjenfortelling: Enkesønnen sitter på med en fremmed i mørk bil, bryter fire forbud i et halvferdig hus i granskogen, rømmer på en snakkende svart hest og lever dobbeltliv som foraktet gartnergutt på kongsgården.",
+  "tone": "Mørkt moderne eventyr, spennende og tørrvittig, med øyeblikk av undring og ømhet",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A poor widow’s son flees a troll’s modern hideout and secretly becomes the armored rider who saves a powerful tycoon’s household.",
+  "summary": "En fattig enkesønn rømmer fra trollets hus og blir i all hemmelighet rytteren som redder kongen og vinner prinsessa.",
   "hasInlineScenes": true
 }
