@@ -1,0 +1,311 @@
+{
+  "storyId": "enkeson",
+  "title": "Enkesønnen",
+  "textFile": "public/content/stories/enkeson/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago. The widow lives in a tiny grey log cottage with a sagging turf roof. The Stranger's house stands alone in a dark spruce forest: a tall, gloomy house of smoke-blackened logs, whose long hallway has four identical closed plank doors painted dark oxblood red, with black iron ring handles. The thorn whip is a small bundle of thorny dog-rose twigs, the stone is round, grey and as big as a loaf, the water jar is a small brown clay jar with a cork, and the ointment sits in a tiny round blue clay pot. The copper cauldron is huge, round and gleaming. The hollow linden stands alone on a green meadow in the forest. The king's farm has big turf-roofed log halls and a round grey stone tower. The king's handkerchief is fine white linen with a small gold crown embroidered in one corner.",
+  "palette": "Midsummer: rosy-pink dawns with dew glittering on the grass, long pale-gold evenings that never quite turn dark, and lush deep-green meadows full of pink dog-roses and white clover. Inside the Stranger's house: dim candlelight, dark smoky timber and the warm glow of copper.",
+  "cast": [
+    {
+      "slug": "enkesonnen",
+      "name": "Enkesønnen",
+      "promptName": "the Widow's Son",
+      "replacesPortrait": "enkesonnen",
+      "description": "En godhjertet, nysgjerrig gutt som lærer å bruke motet sitt til å hjelpe andre og gjøre det rette, selv når han er redd.",
+      "look": "A slim, kind-faced boy of about fifteen with warm olive-tan skin, an oval face, a straight nose, big dark-brown eyes under thick straight eyebrows, rosy cheeks and short, glossy blue-black hair, wavy on top, with a cowlick sticking up at the crown. He wears a faded cornflower-blue wool waistcoat with three wooden buttons over a loose oatmeal-coloured linen shirt, dark-grey wool trousers, a small red neckerchief knotted at his throat and scuffed brown ankle boots.",
+      "portrait": "Background: the widow's little turf-roofed cottage on a dewy meadow."
+    },
+    {
+      "slug": "enkesonnen-parykk",
+      "name": "Hagegutten med lavparykken",
+      "promptName": "the Garden Boy",
+      "description": "Enkesønnen i forkledning. Med en pjuskete parykk av grå granlav på hodet kjenner ingen ham igjen på kongsgården.",
+      "look": "The same slim fifteen-year-old boy with warm olive-tan skin, big dark-brown eyes, a straight nose and rosy cheeks, but his hair is completely hidden under a huge, shaggy wig of pale grey-green beard lichen that hangs in long, wispy, tangled strands over his ears, neck and eyebrows, so he looks scruffy and odd. He wears the same faded cornflower-blue waistcoat, an oatmeal linen shirt with rolled-up sleeves, a small red neckerchief, soil-stained dark-grey trousers and scuffed brown boots.",
+      "portrait": "Background: the royal vegetable garden with rows of carrots."
+    },
+    {
+      "slug": "enkesonnen-ridder",
+      "name": "Den fremmede ridderen",
+      "promptName": "the Rusty Knight",
+      "description": "Enkesønnen i den rustne rustningen fra den hule linden. Han rir ut på den svarte hesten når kongen trenger hjelp, og ingen skjønner hvem han er.",
+      "look": "The same slim fifteen-year-old boy with warm olive-tan skin, big dark-brown eyes, a straight nose and rosy cheeks, now clad in an old suit of armour covered all over in blotchy orange-brown rust: a dented breastplate, jointed rusty arm and leg plates, a collar of rusty chain mail, and a round rusty helmet with a visor, usually pushed up so his face shows. A rusty old sword hangs at his hip from a cracked leather belt.",
+      "portrait": "Background: the hollow linden on the green forest meadow."
+    },
+    {
+      "slug": "enkesonnen-konge",
+      "name": "Den unge kongen",
+      "promptName": "the Young King",
+      "description": "Enkesønnen som har fått prinsessa og halve riket. Han glemmer aldri hesten som hjalp ham.",
+      "look": "The same slim boy, now a young king, with warm olive-tan skin, an oval face, a straight nose, big dark-brown eyes, rosy cheeks and short, glossy blue-black hair, wavy on top. He wears a small, plain gold crown, a deep cornflower-blue velvet tunic embroidered with golden leaves, a short cream wool cape fastened with a round gold clasp, a small red neckerchief, dark-grey hose and soft brown leather boots.",
+      "portrait": "Background: the royal garden with the little red gazebo on stilts."
+    },
+    {
+      "slug": "hesten",
+      "name": "Den snakkende hesten (fortryllet prins)",
+      "promptName": "the Black Horse",
+      "replacesPortrait": "snakkende-hest",
+      "description": "En klok, rolig hest som gir trygge råd, hjelper gutten å rømme, og viser seg til slutt å være en prins som blir fri fra en forbannelse.",
+      "look": "A big, powerful, coal-black horse with a glossy coat and no white markings at all, a long, thick, wavy mane and tail, a long forelock falling between his eyes, a proudly arched neck, a broad forehead, soft velvety nostrils, gentle, clever amber-brown eyes with long lashes, very expressive ears, and shaggy black feathering over his big round hooves.",
+      "portrait": "Background: a midsummer meadow full of pink dog-roses."
+    },
+    {
+      "slug": "prinsen",
+      "name": "Prinsen",
+      "promptName": "the Prince",
+      "description": "Den svarte hesten slik han egentlig er: en ung prins som ble trollet om til hest. Nå er han fri, og han og den unge kongen blir gode venner.",
+      "look": "A tall, lively young man of about twenty with fair skin, a long face, a strong straight nose, clever amber-brown eyes, a wide laughing mouth and a thick, swept-back mane of jet-black hair that reaches his collar; he is clean-shaven. He wears a black velvet doublet with silver buttons, a silver-grey cloak fastened with a silver horseshoe-shaped brooch, black breeches and tall black riding boots.",
+      "portrait": "Background: the royal stable filled with soft golden light."
+    },
+    {
+      "slug": "den-fremmede-mannen",
+      "name": "Den fremmede mannen",
+      "promptName": "the Stranger",
+      "replacesPortrait": "den-fremmede-mannen",
+      "description": "En streng og farlig herre som setter forbud og prøver å skremme gutten, men som til slutt mister makten når gutten får hjelp til å slippe unna.",
+      "look": "An unusually tall, gaunt figure who almost looks like a man: a long, craggy face with a stony grey complexion, a huge knobbly nose, small glinting black eyes under bushy iron-grey eyebrows, a wide thin mouth, big pointed ears and a short, bristly iron-grey beard. He has very long arms, huge knobbly hands and enormous flat feet in big black boots, and he wears a long black frock coat that reaches his ankles, buttoned with large horn buttons, and a tall, battered black hat.",
+      "portrait": "Background: the dim hallway with four closed oxblood-red doors."
+    },
+    {
+      "slug": "prinsessa",
+      "name": "Prinsessa",
+      "promptName": "the Princess",
+      "replacesPortrait": "prinsessa",
+      "description": "En modig og snill prinsesse som ser godheten i gutten og står opp for ham, og som gleder seg over at han hjelper riket.",
+      "look": "A warm, spirited princess of about seventeen with a round face, a small straight nose, bright hazel eyes, dimples and fair skin with rosy cheeks. Her dark-brown hair hangs in two long, thick braids tied with pink ribbons. She wears a rose-pink linen dress with puffed sleeves, a white embroidered collar and a darker pink sash, soft pink shoes, and a thin silver circlet set with a small pink stone.",
+      "portrait": "Background: a small-paned window of the royal hall, with the garden below."
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "promptName": "the King",
+      "replacesPortrait": "kongen",
+      "description": "En streng men rettferdig konge som først blir skeptisk, men som senere forstår sannheten og belønner mot og godhet.",
+      "look": "A broad, barrel-chested, middle-aged king with a square, stern face, a big hooked nose, deep-set dark eyes under heavy black eyebrows, and a thick, bushy black beard streaked with grey. He wears a heavy crown of dark iron topped with gold points, a long dark-green velvet robe with gold trim, a broad brown leather belt with a big gold buckle and tall black riding boots.",
+      "portrait": "Background: his hall, with a round stone tower seen through the window."
+    }
+  ],
+  "places": [
+    {
+      "slug": "myra",
+      "name": "the Great Bog",
+      "look": "A wide, flat, soggy bog under an open sky, with tussocks of white cotton grass, patches of green and rust-red moss, dark peaty pools that mirror the sky, a few crooked little birch trees and a muddy cart track along its edge. Low, heather-covered hills and dark spruce forest ring it in the distance."
+    },
+    {
+      "slug": "kongshagen",
+      "name": "the Royal Garden",
+      "look": "The garden of the king's farm: neat rows of carrots and cabbages, flower beds full of roses, gravel paths and a little white gate. In the middle stands a small red-painted gazebo with a pointed roof, raised on tall wooden stilts, with a steep wooden staircase leading up to it. Behind the garden rises the big two-storey royal hall of dark logs with a turf roof, carved gables and small-paned windows, and a round grey stone tower."
+    }
+  ],
+  "cover": {
+    "prompt": "The Rusty Knight gallops towards the viewer on the saddled Black Horse along a winding road through a midsummer meadow full of pink dog-roses. He leans forward with his visor pushed up and a brave, happy grin, and the horse's long black mane streams in the wind. Tied to the saddle are a little whip of thorny twigs, a round grey stone and a small brown water jar. Soft rosy morning light, and dark spruce forest behind.",
+    "characters": ["enkesonnen-ridder", "hesten"],
+    "caption": "Enkesønnen rir av sted på den store, svarte hesten.",
+    "alt": "En gutt i gammel, rusten rustning galopperer mot oss på en stor, svart hest gjennom ei eng full av rosa nyper. Hestemanen flagrer i vinden."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "Så fikk gutten den siste brødskiva og en lang klem, og så gikk han.",
+      "characters": ["enkesonnen"],
+      "prompt": "Early morning on the doorstep of a tiny grey log cottage with a sagging turf roof. The Widow's Son hugs his mother goodbye, holding the last slice of bread wrapped in a cloth. His mother, a thin, careworn widow with greying brown hair in a bun, a patched dark-grey dress and a grey shawl, holds him tight with her eyes closed. A narrow path winds away across a dewy meadow towards a dark spruce forest.",
+      "caption": "Gutten får den siste brødskiva og en lang klem, og så går han.",
+      "alt": "Gutten klemmer mora si farvel foran en liten, grå stue med torvtak. I hånda holder han den siste brødskiva, og en smal sti går over enga mot skogen."
+    },
+    {
+      "id": "02",
+      "paragraph": 7,
+      "anchor": "En dag sa mannen: «Nå reiser jeg bort i åtte dager.»",
+      "characters": ["den-fremmede-mannen", "enkesonnen"],
+      "prompt": "In the long, dim hallway of the Stranger's house, lit by a single candle, the four identical oxblood-red doors stand closed in a row. The Stranger, dressed for a journey with a travel bag in one huge hand, bends down and points sternly at the doors with a long, bony finger. The Widow's Son stands beside him, looking up at the doors with wide, curious eyes and nodding.",
+      "caption": "«Inn gjennom de dørene skal du ikke gå», sier mannen.",
+      "alt": "Den høye, fremmede mannen i lang, svart frakk peker strengt på fire lukkede dører i en mørk gang. Gutten står ved siden av og ser nysgjerrig på dørene."
+    },
+    {
+      "id": "03",
+      "paragraph": 16,
+      "anchor": "Og så brølte han, så vinduene klirret.",
+      "characters": ["den-fremmede-mannen", "enkesonnen"],
+      "prompt": "In the dim hallway, the first of the four oxblood-red doors stands open, and on a shelf inside lies a small whip of thorny twigs. The Stranger has thrown back his head and roars with his mouth wide open, so loud that the little window at the end of the hallway rattles in its frame and his hat wobbles. The Widow's Son stands in front of him with tears on his cheeks and his hands pressed together, saying sorry. Funny, not scary.",
+      "caption": "Mannen brøler så vinduene klirrer, og gutten sier unnskyld.",
+      "alt": "Den fremmede mannen står i gangen og brøler med åpen munn, så vinduet rister. Den første døra står åpen, og gutten gråter og sier unnskyld."
+    },
+    {
+      "id": "04",
+      "paragraph": 25,
+      "anchor": "Han strakk seg forsiktig ned og dyppet én finger i kjelen.",
+      "characters": ["enkesonnen"],
+      "prompt": "In a bare, dim room, the Widow's Son kneels at the edge of an open trapdoor in the plank floor, its heavy wooden lid propped up. Just below, in a small stone cellar, the huge round copper cauldron bubbles and steams, with no fire underneath at all. The Widow's Son holds up one finger in front of his astonished face: its tip has turned to shining gold and sparkles in the gloom.",
+      "caption": "Da han tok fingeren opp igjen, glitret fingertuppen. Den var blitt til gull!",
+      "alt": "Gutten kneler ved en åpen lem i gulvet. Under ham putrer en stor kobberkjele uten ild under, og fingertuppen hans har blitt til skinnende gull."
+    },
+    {
+      "id": "05",
+      "paragraph": 31,
+      "anchor": "Og da brølte han så taket lettet.",
+      "characters": ["den-fremmede-mannen", "enkesonnen"],
+      "prompt": "In the boy's small bedroom in the Stranger's house, the whole roof has lifted off the walls and floats in the air, so the pale evening sky shows through the gap. The Stranger stands in the doorway roaring with his mouth wide open, a torn rag in one hand. The Widow's Son dives under the thick patchwork duvet on his bed, pressing his hands over his ears, one golden fingertip gleaming. Funny, not scary.",
+      "caption": "Mannen brølte så taket lettet. Det gjorde det, altså!",
+      "alt": "Den fremmede mannen brøler så hele taket løfter seg og himmelen syns. Gutten stuper under dyna og holder seg for ørene, og den ene fingeren hans skinner av gull."
+    },
+    {
+      "id": "06",
+      "paragraph": 41,
+      "anchor": "Gutten holdt på å miste høyet.",
+      "characters": ["enkesonnen", "hesten"],
+      "prompt": "In a bare room with rough plank walls, the Black Horse stands tied to an iron ring with a thick rope. A wooden trough full of grey ash has been pushed aside, and a hay basket stands behind the horse's tail. The Widow's Son holds up a big armful of hay, his golden fingertip glinting, but he nearly drops it in surprise: wisps of hay fly and his mouth falls open, because the Black Horse has lowered its head and is speaking to him with a kind, gentle look.",
+      "caption": "«Takk», sier hesten, og gutten holder på å miste høyet.",
+      "alt": "En stor, svart hest står bundet i et bart rom og bøyer hodet ned mot gutten. Gutten holder en stor armfull høy og blir så overrasket at høyet flyr."
+    },
+    {
+      "id": "07",
+      "paragraph": 45,
+      "anchor": "Rustningen var tung.",
+      "characters": ["enkesonnen"],
+      "prompt": "In a room full of armour, rows of bright, polished suits of armour gleam on the walls. The Widow's Son staggers towards the top of a steep staircase with a rusty old helmet jammed crookedly on his head, an armful of clanking rusty armour pieces and a rusty sword under one arm, dragging a heavy, worn leather saddle behind him by its strap. His cheeks are puffed out with effort. Light from one small window glints on all the shiny armour he has left behind.",
+      "caption": "Rustningen var tung. Sverdet var tungt. Og salen var aller tyngst.",
+      "alt": "I et rom fullt av blanke rustninger drar gutten med seg den mest rustne rustningen, et rustent sverd og en tung sal mot trappa."
+    },
+    {
+      "id": "08",
+      "paragraph": 50,
+      "anchor": "Gutten tok tak under magen på hesten, og hopp!",
+      "characters": ["enkesonnen", "hesten"],
+      "prompt": "In the bare stall room, the Widow's Son, fresh from his bath in the copper cauldron, with dripping wet hair and cheeks as red as apples, lifts the Black Horse high above his head with both hands under its belly. All four of the horse's legs dangle in the air, and the Black Horse looks down at him, surprised and pleased. The rope hangs loose from the iron ring, and a trail of wet footprints leads across the plank floor.",
+      "caption": "Hopp! Gutten løfter hesten høyt opp, med alle fire beina i lufta.",
+      "alt": "Gutten har vått hår og kinn så røde som epler, og han løfter den store, svarte hesten høyt over hodet. Alle fire hestebeina henger i lufta."
+    },
+    {
+      "id": "09",
+      "paragraph": 57,
+      "anchor": "Gutten kastet pisken.",
+      "characters": ["enkesonnen-ridder", "hesten", "den-fremmede-mannen"],
+      "prompt": "On a winding road through a bright midsummer forest, the Rusty Knight gallops away on the saddled Black Horse, twisting round with his visor up, having just thrown the little thorn whip over his shoulder. A round grey stone and a small brown water jar are tied to the saddle. Behind them, a wall of thorny dog-rose bushes dotted with pink flowers has shot up, so thick that not even a mouse could get through. On the far side, the Stranger and twenty troll brothers in shabby black coats and hats skid to a stop, peering over the thorns.",
+      "caption": "Svisj! Med det samme vokste det opp en skog full av torner bak dem.",
+      "alt": "Gutten i rusten rustning galopperer av sted på den svarte hesten. Bak dem har det vokst opp et tett tornekratt, og trollet og brødrene hans stanser på den andre sida."
+    },
+    {
+      "id": "10",
+      "paragraph": 68,
+      "anchor": "Så kom trollene.",
+      "characters": ["enkesonnen-ridder", "hesten", "den-fremmede-mannen"],
+      "prompt": "A wide, calm lake glitters in the pale midsummer evening. Along the near shore rolls a long row of fifteen trolls in black coats who have gulped down so much lake water that they are round as balls and can no longer walk, so they roll slowly home, one after the other. The Stranger rolls at the front with his coat buttons popping, and a tiny troll great-grandmother in a lace nightcap rolls at the very end. Far away on the opposite shore, the Rusty Knight sits on the dripping-wet Black Horse, looking back and laughing.",
+      "caption": "Det siste gutten så, var en lang rekke kulerunde troll som trillet hjemover.",
+      "alt": "En lang rekke kulerunde troll triller sakte hjem langs et stort vann. Langt borte på den andre sida sitter gutten på den våte, svarte hesten og ler."
+    },
+    {
+      "id": "11",
+      "paragraph": 72,
+      "anchor": "Gutten gjorde som hesten sa.",
+      "characters": ["enkesonnen-parykk", "hesten"],
+      "prompt": "On a green meadow deep in the forest stands a big, old linden tree with a wide, dark hollow in its trunk, and the rusty armour, the sword, the saddle and the bridle hang neatly inside it. In front of the tree stands the Garden Boy, wearing his brand-new shaggy lichen wig for the first time and peering out from under the grey strands with a crooked grin. The Black Horse, free now, with no saddle or bridle, looks back at him over its shoulder with a twinkle in its eye as it trots off towards the trees.",
+      "caption": "Med den grå, lodne parykken på hodet kjenner ingen gutten igjen.",
+      "alt": "Gutten står på en grønn slette med en pjuskete parykk av grå granlav. Inne i en hul lind henger rustningen, sverdet og salen, og den svarte hesten traver av sted."
+    },
+    {
+      "id": "12",
+      "paragraph": 76,
+      "anchor": "«LUS?» skrek kokka.",
+      "characters": ["enkesonnen-parykk"],
+      "prompt": "In the big, warm royal kitchen, with copper pans hanging on the walls and a pot steaming on the hearth, a stout young cook with a round red face, fair hair under a white kerchief and a big white apron shrieks and jumps up onto a stool, clutching her skirts and pointing at the door. In the doorway stands the Garden Boy, scratching his shaggy lichen wig with an innocent look.",
+      "caption": "«LUS? På kjøkkenet mitt?» skriker kokka.",
+      "alt": "Kokka står oppå en krakk i det store kjøkkenet og skriker. I døråpningen står gutten med den lodne parykken og klør seg i hodet."
+    },
+    {
+      "id": "13",
+      "paragraph": 83,
+      "anchor": "Oppe i et vindu sto prinsessa.",
+      "characters": ["enkesonnen", "prinsessa"],
+      "places": ["kongshagen"],
+      "prompt": "In the Royal Garden at sunrise, the Widow's Son bends over a wooden washtub at the foot of the gazebo's tall stilts and splashes water on his face; his shaggy lichen wig lies on a stone beside him. The rising sun lights up his face and glossy black hair, and dew glitters on the roses and the rows of carrots. High above, at an open window of the royal hall, the Princess leans out with her hands clasped, gazing down at him in wonder.",
+      "caption": "Uten parykken var gutten så vakker at det var en glede å se.",
+      "alt": "Gutten vasker ansiktet i en vannbalje i hagen mens sola står opp, og parykken ligger på en stein. Oppe i et vindu står prinsessa og ser på ham."
+    },
+    {
+      "id": "14",
+      "paragraph": 92,
+      "anchor": "Tjenestejenta nappet i parykken.",
+      "characters": ["enkesonnen-parykk", "prinsessa"],
+      "prompt": "At night in the Princess's bedroom, lit by one candle, the Garden Boy lies on a straw mattress on the floor by the door, eyes shut, snoring with his mouth open and gripping his shaggy lichen wig with both hands. A skinny young maid with red hair in a bun, a grey dress and a white apron tiptoes beside him and tugs at the wig. The Princess stands a little way off in her rose-pink dress, holding the candle and pressing a finger to her lips, trying not to giggle.",
+      "caption": "Tjenestejenta napper i parykken, men gutten holder den fast med begge hendene.",
+      "alt": "Gutten ligger ved døra og snorker og holder parykken fast med begge hendene. Tjenestejenta napper i den, og prinsessa står med et lys og prøver å ikke fnise."
+    },
+    {
+      "id": "15",
+      "paragraph": 97,
+      "anchor": "«Hagegutten? Hos prinsessa?» ropte han.",
+      "characters": ["kongen"],
+      "prompt": "In the royal hall, the King stamps his foot in fury, his face red and his black-and-grey beard bristling, and points out of a window at a tall, round stone tower. He is so angry that his heavy iron-and-gold crown has jumped right up off his head and hangs in the air above it. By the door, two guards in brown leather jerkins stand stiffly to attention with their eyes wide.",
+      "caption": "Kongen ble så sint at krona hoppet på hodet hans.",
+      "alt": "Kongen stamper i gulvet og peker ut av vinduet mot et høyt steintårn. Han er så sint at krona har hoppet opp fra hodet hans."
+    },
+    {
+      "id": "16",
+      "paragraph": 106,
+      "anchor": "Soldatene lo og pekte og red videre.",
+      "characters": ["enkesonnen"],
+      "places": ["myra"],
+      "prompt": "On the Great Bog, the Widow's Son sits stuck in the mud on a bony old grey nag that stands on three legs and lets its fourth leg dangle. He wears a dented old saucepan as a helmet, its long handle sticking out behind, holds an old pot lid as a shield, and tugs at the reins, shouting. Along the cart track at the edge of the bog, five soldiers in dark-green tunics ride past on horseback, laughing and pointing at him.",
+      "caption": "«Hei, vil du opp! Hei, vil du opp!» Men den gamle hesten sitter fast.",
+      "alt": "Gutten sitter fast i myra på en gammel, halt hest, med en bulkete kasserolle som hjelm og et grytelokk som skjold. Soldatene rir forbi og ler og peker."
+    },
+    {
+      "id": "17",
+      "paragraph": 116,
+      "anchor": "Kongen syntes synd på ham.",
+      "characters": ["enkesonnen", "kongen"],
+      "places": ["myra"],
+      "prompt": "In the golden evening light at the edge of the Great Bog, the Widow's Son, still in his saucepan helmet on the old grey nag, clutches his shin and howls with his mouth wide open. The King, riding past on a big bay horse, leans over with a kind, sorry look and tosses him his fine white handkerchief with a small gold crown in one corner; it flutters through the air towards the boy. Three soldiers ride behind the King, grinning.",
+      "caption": "Kongen kaster lommetørkleet sitt til gutten: «Bind det rundt leggen.»",
+      "alt": "Gutten sitter på den gamle hesten i myra og holder seg på leggen. Kongen rir forbi og kaster et hvitt lommetørkle med ei lita gullkrone i hjørnet bort til ham."
+    },
+    {
+      "id": "18",
+      "paragraph": 121,
+      "anchor": "Men da de var borte, løp gutten til linden en siste gang.",
+      "characters": ["enkesonnen-ridder", "hesten"],
+      "places": ["myra"],
+      "prompt": "On the Great Bog during the battle, the Rusty Knight, visor closed, sits calmly on the Black Horse at the edge of a muddy pool. He has just given the enemy king a push, and the enemy king, a skinny man with a long pointed nose, a tall spiky gold crown and a black-and-yellow striped cloak, has tumbled off his white horse and landed bottom-first in the middle of the bog with a huge splash, mud flying everywhere, looking furious and silly. In the background, his soldiers in black-and-yellow tunics turn to run.",
+      "caption": "Plopp! Der landet fiendekongen, midt i en myr. Nå var det han som satt fast!",
+      "alt": "Ridderen i den rustne rustningen sitter rolig på den svarte hesten. Fiendekongen har ramlet av hesten sin og landet midt i myra, så gjørma spruter."
+    },
+    {
+      "id": "19",
+      "paragraph": 124,
+      "anchor": "«Det er jo lommetørkleet mitt!» sa kongen.",
+      "characters": ["kongen", "enkesonnen-ridder", "hesten"],
+      "places": ["myra"],
+      "prompt": "After the battle, at the edge of the Great Bog in the late afternoon sun, the King stands beside the Black Horse and points in astonishment at the Rusty Knight's leg, where the fine white handkerchief with the small gold crown is tied around his shin. The Rusty Knight sits in the saddle with his visor pushed up, grinning shyly. Four soldiers crowd behind the King with their mouths open.",
+      "caption": "«Det er jo lommetørkleet mitt! Da er du ... gutten fra myra!»",
+      "alt": "Kongen peker forbauset på det hvite lommetørkleet som er knyttet rundt leggen til ridderen. Ridderen sitter på den svarte hesten med hjelmen oppe og smiler."
+    },
+    {
+      "id": "20",
+      "paragraph": 128,
+      "anchor": "Kongen låste opp døra til prinsessa, og så ble det bryllup.",
+      "characters": ["enkesonnen-konge", "prinsessa", "kongen"],
+      "places": ["kongshagen"],
+      "prompt": "A joyful wedding in the sunny Royal Garden, decorated with birch branches and garlands of flowers. In the middle, the Young King and the Princess, who wears a sparkling silver bridal crown with little dangling spangles, hold hands and dance, laughing. The King, smiling at last, claps along. Around them, a fiddler plays and eight guests in colourful Sunday clothes dance and cheer.",
+      "caption": "Så ble det bryllup, og gutten fikk prinsessa og halve riket.",
+      "alt": "Den unge kongen og prinsessa danser i hagen, som er pyntet med blomster og bjørkegreiner. Prinsessa har brudekrone, og den gamle kongen klapper og smiler."
+    },
+    {
+      "id": "21",
+      "paragraph": 138,
+      "anchor": "Den unge kongen senket sverdet og måpte.",
+      "characters": ["enkesonnen-konge", "prinsen"],
+      "prompt": "Inside the royal stable, a soft golden light fills the air like morning sun. Where the horse stood a moment ago, only the last faint, misty outline of a black horse melts away, and in its place stands the Prince, alive and happy, laughing with his arms spread wide. The Young King, in his wedding clothes, holds his sword pointing down at the straw-covered floor and gapes at him with his mouth open.",
+      "caption": "Der hesten hadde stått, sto en ung prins, levende og glad.",
+      "alt": "Stallen er fylt av gyllent lys. Der hesten sto, står nå en ung prins og ler, og den unge kongen senker sverdet og måper."
+    },
+    {
+      "id": "22",
+      "paragraph": 140,
+      "anchor": "Og det gjorde de heller ikke.",
+      "characters": ["enkesonnen-konge", "prinsen"],
+      "places": ["kongshagen"],
+      "prompt": "On a sunny summer day at the little white gate of the Royal Garden, the Young King welcomes the Prince, who now wears a silver crown of his own, and the two of them laugh like the best of friends. The Young King holds out a sugar cube on his open palm with a cheeky grin, and the Prince pretends to nibble it like a horse.",
+      "caption": "Hver gang prinsen kom, hadde den unge kongen en sukkerbit i lomma.",
+      "alt": "Den unge kongen og prinsen står ved hageporten og ler som gode venner. Kongen holder fram en sukkerbit, og prinsen later som han er en hest."
+    }
+  ]
+}
