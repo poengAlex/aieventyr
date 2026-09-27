@@ -118,7 +118,7 @@
       "characters": ["snehvit-og-rosenrod"],
       "prompt": "A wide, lonely moor under a heavy grey sky, with sleet slanting down. The Maiden trudges along a muddy path between dark pools and tussocks, her grey shawl pulled up over her head, her shoes worn thin, a small bundle on her back. She looks tired but determined, one hand on her pocket where her silver spoon is. Far behind her, low hills fade into the mist.",
       "caption": "Hun går og går, gjennom regn og sludd, til skoene er tynne som papir.",
-      "alt": "Prinsessen går alene over en våt myr i sludd. Hun har sjalet over hodet og en liten bylt på ryggen, og skoene hennes er helt slitt."
+      "alt": "Prinsessen går alene over en våt myr i sludd. Hun har sjalet over hodet og en liten bylt på ryggen, og skoene hennes er helt utslitte."
     },
     {
       "id": "04",
@@ -146,7 +146,7 @@
       "anchor": "Så lette de.",
       "characters": ["den-yngste-broren", "snehvit-og-rosenrod"],
       "places": ["hytta"],
-      "prompt": "In the Brothers' Cabin, twelve princes crowd round one of the lower box beds. The Youngest Brother kneels and gently draws the Maiden out from under his bed by the hand; she is dusty and trembling, her eyes wide with fright. Around them ten brothers lean in, peering curiously, and the eldest, the tallest one with a short black beard, stands behind with his arms crossed and a stern frown. Golden evening light.",
+      "prompt": "In the Brothers' Cabin, twelve princes crowd round one of the lower box beds. The Youngest Brother kneels and gently draws the Maiden out from under his bed by the hand; she is trembling, her eyes wide with fright. Around them ten brothers lean in, peering curiously, and the eldest, the tallest one with a short black beard, stands behind with his arms crossed and a stern frown. Golden evening light.",
       "caption": "Under sengene? JA! Der ligger hun, så redd at hun nesten ikke tør å puste.",
       "alt": "Den yngste broren trekker prinsessen forsiktig fram fra under sengen sin. De andre brødrene står rundt og kikker, og den eldste står med armene i kors."
     },
@@ -204,14 +204,14 @@
       "places": ["slottsgarden"],
       "prompt": "Twelve princes on twelve horses ride in through the archway of the Castle Courtyard, all in new snow-white shirts, caps and scarves. In front rides the Winged Brother, a big grey-brown duck wing where his left arm should be, waving happily with his right hand. The Maiden Queen presses both hands to her heart, and the Young King stares in wonder. Morning sun on the cobbles.",
       "caption": "Tolv prinser kommer ridende. Men den yngste har en andevinge i stedet for arm!",
-      "alt": "Tolv prinser i nye hvite skjorter og luer rir inn i slottsgården. Den yngste rir først og har en andevinge i stedet for venstre arm. Dronningen og kongen ser forundret og glade på."
+      "alt": "Tolv prinser i nye hvite skjorter og luer rir inn i slottsgården. Den yngste rir først og har en andevinge i stedet for venstre arm. Dronningen og kongen kan nesten ikke tro det de ser."
     },
     {
       "id": "13",
       "paragraph": 86,
       "anchor": "Alle gikk etter ham, gjennom hele slottshagen",
       "characters": ["den-yngste-broren-vinge", "snehvit-og-rosenrod-dronning", "den-unge-kongen"],
-      "prompt": "Behind the tall, dense hedge at the far end of the castle garden, three small children play in a sunny patch of grass with two fat toads and a wriggly earthworm: two little boys and a little girl. The old gardener and his wife stand beside them, smiling. Pushing through a gap in the hedge come the Winged Brother, the Maiden Queen and the Young King, their faces lighting up with joy, and eleven brothers in white crowd behind them.",
+      "prompt": "Behind the tall, dense hedge at the far end of the castle garden, three small children play in a sunny patch of grass with two fat toads and a few wriggly earthworms: two little boys and a little girl. The old gardener and his wife stand beside them, smiling. Pushing through a gap in the hedge come the Winged Brother, the Maiden Queen and the Young King, their faces lighting up with joy, and eleven brothers in white crowd behind them.",
       "caption": "Bak hekken leker tre små barn med padder og meitemark.",
       "alt": "Bak en høy hekk leker to små gutter og en liten jente i gresset med padder og meitemark. Gartneren og konen hans passer på dem. Gjennom hekken kommer dronningen, kongen og brødrene."
     },

@@ -1,0 +1,350 @@
+{
+  "storyId": "askesv",
+  "variants": {
+    "simplified": {
+      "title": "Askeladden som stjal sølvendene til trollet",
+      "textFile": "public/content/stories/askesv/simplified/story.txt"
+    },
+    "english": {
+      "title": "Ash-Lad and the Troll's Silver Ducks",
+      "textFile": "public/content/stories/askesv/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway. The King's manor is a cluster of dark log buildings with turf roofs, carved gables and a hall with small leaded windows, on the shore of a wide, deep mountain lake. Straight across the lake rises the Grey Crag, where the trolls live behind a crack in the rock. The seven silver ducks are ordinary-sized ducks of solid, shining silver. The kneading trough is a long, shallow, oval trough of dark wood, big enough for a man to sit in; Askeladden rows it with a short wooden paddle. The troll's bedspread is a heavy quilt of alternating silver and gold squares. The golden harp is a small golden lap harp with a carved swan's head at the top.",
+  "palette": "Late summer on a wide mountain lake: cool clear mornings, silver glints on grey-blue water and low golden evening sun on bare rock. Inside the mountain: smoky orange firelight and deep brown shadow.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "promptName": "Askeladden",
+      "look": "A lanky young man of about eighteen with messy straw-blond hair, sharp blue-grey eyes, a narrow freckled face and a crooked, easy smile. He wears a faded red knitted cap, a patched undyed linen shirt, a short brown wool waistcoat with deep pockets, grey-brown knee breeches, grey wool stockings and worn leather shoes.",
+      "portrait": "Background: the lake with the Grey Crag far behind.",
+      "variants": {
+        "simplified": {
+          "name": "Askeladden",
+          "description": "Den yngste sønnen som alle undervurderer, men som er arbeidsom, rolig og smart nok til å overvinne både brødrenes intriger og trollets trusler.",
+          "replacesPortrait": "askeladden"
+        },
+        "english": {
+          "name": "Ash-Lad",
+          "description": "The youngest brother, dismissed as an ash-poker, who wins favor through hard work and triumphs through quick thinking, bold improvisation, and a stubbornly hopeful spirit.",
+          "replacesPortrait": "ash-lad"
+        }
+      }
+    },
+    {
+      "slug": "eldste-bror",
+      "promptName": "the Eldest Brother",
+      "look": "A tall, broad-shouldered man in his mid-twenties with a square jaw, short dark-brown hair, a thin moustache and a smug, lazy expression. He wears a dark-green wool jacket over a white shirt, brown breeches and tall black boots.",
+      "portrait": "Background: the stable yard of the King's manor.",
+      "variants": {
+        "simplified": {
+          "name": "Den eldste broren",
+          "description": "Stallgutten som helst vil slippe unna arbeid, og som sammen med broren skryter Askeladden inn i det ene farlige oppdraget etter det andre.",
+          "replacesPortrait": "brodrene"
+        },
+        "english": {
+          "name": "The Eldest Brother",
+          "description": "The stable hand who dodges every chore and, with his brother, boasts Ash-Lad into one deadly errand after another.",
+          "replacesPortrait": "elder-brothers"
+        }
+      }
+    },
+    {
+      "slug": "mellomste-bror",
+      "promptName": "the Middle Brother",
+      "look": "A heavyset man of about twenty-two with round red cheeks, curly ginger hair, a sulky mouth and small, suspicious eyes. He wears a mustard-yellow wool tunic with a rope belt, patched brown trousers and wooden clogs.",
+      "portrait": "Background: the kitchen garden of the King's manor.",
+      "variants": {
+        "simplified": {
+          "name": "Den mellomste broren",
+          "description": "Gartnergutten som blir grønn av misunnelse når lillebroren får skryt, og som hvisker med stallmesteren."
+        },
+        "english": {
+          "name": "The Middle Brother",
+          "description": "The gardener's lad who turns green with envy whenever his little brother is praised, and whispers with the Master of the Stables."
+        }
+      }
+    },
+    {
+      "slug": "kongen",
+      "promptName": "the King",
+      "look": "A stout, elderly king with a long white beard, rosy cheeks, small round spectacles on a red nose and a greedy, delighted look whenever he sees treasure. He wears a simple gold crown, a long red robe trimmed with white fur and gold embroidery, and soft red slippers.",
+      "portrait": "Background: a leaded window of his hall, looking out over the lake.",
+      "variants": {
+        "simplified": {
+          "name": "Kongen",
+          "description": "Herskeren på kongsgården som setter harde krav, men belønner Askeladden når han lykkes med de umulige oppdragene.",
+          "replacesPortrait": "kongen"
+        },
+        "english": {
+          "name": "The King",
+          "description": "A ruler who desires the troll's marvels and forces Ash-Lad into dangerous tasks, then rewards him with the princess and half the kingdom.",
+          "replacesPortrait": "the-king"
+        }
+      }
+    },
+    {
+      "slug": "trollet",
+      "promptName": "the Troll",
+      "look": "An enormous, ancient troll three times the height of a man, with grey-green skin like weathered rock patched with moss and lichen, a long knobbly nose, tiny black eyes under bushy brows, a wide mouth with two stubby teeth, huge ears, a tangled beard like dry grass and a young spruce growing from the top of his head. He wears a ragged hide tunic tied with rope and goes barefoot on huge flat feet.",
+      "portrait": "Background: the dark crack in the Grey Crag.",
+      "variants": {
+        "simplified": {
+          "name": "Trollet",
+          "description": "En farlig og grådig kjempe som bor i fjellet på andre siden av vannet og vokter sine skatter, men lar seg lure av Askeladdens svar og knep.",
+          "replacesPortrait": "trollet"
+        },
+        "english": {
+          "name": "The Troll",
+          "description": "A powerful, lake-side mountain troll whose treasured silver ducks, bedspread, and gold harp are stolen, driving it to rage and revenge.",
+          "replacesPortrait": "the-troll"
+        }
+      }
+    },
+    {
+      "slug": "trolldattera",
+      "promptName": "the Troll's Daughter",
+      "look": "A huge troll woman, about three times as tall as a man, with a broad moss-green face, a long bumpy nose, small squinting eyes, heavy arms and one enormous reddish-brown braid that reaches the floor. She wears a patched grey wool dress, a faded red shawl and a coarse sacking apron, and goes barefoot.",
+      "portrait": "Background: the firelit Mountain Hall.",
+      "variants": {
+        "simplified": {
+          "name": "Trolldattera",
+          "description": "Trollets datter som vokter Askeladden og til slutt blir lurt når han får henne til å låne ham kniven.",
+          "replacesPortrait": "trolldattera"
+        },
+        "english": {
+          "name": "The Troll's Daughter",
+          "description": "The troll's willing helper who tends the fattening-stall and prepares to slaughter Ash-Lad, until he turns her own knife-trick against her.",
+          "replacesPortrait": "trolls-daughter"
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "graakollen",
+      "name": "the Grey Crag",
+      "look": "A bare, rounded grey granite mountain rising straight out of the far shore of a wide mountain lake, with a strip of pebble beach, a few wind-bent birches and mossy boulders at its foot, and a tall, dark crack low in the rock face that leads inside."
+    },
+    {
+      "slug": "berghallen",
+      "name": "the Mountain Hall",
+      "look": "The trolls' home inside the mountain: a vast, smoky cave hall with rough grey walls and a high dark roof, lit by a big fire in a ring of stones. A long plank table with stump stools, a heavy wooden cupboard, iron hooks in the rock, a fattening pen of rough timber in one corner, and a tall arched wooden door with a small golden harp hanging above it."
+    }
+  ],
+  "cover": {
+    "prompt": "Askeladden sits in his long wooden kneading trough in the middle of the dark lake at dusk, rowing hard towards the viewer, with the seven silver ducks crowded into the trough around him. Behind him, on the far shore, the Troll leans out of the crack in the Grey Crag and shakes his fist.",
+    "characters": ["askeladden", "trollet"],
+    "places": ["graakollen"],
+    "variants": {
+      "simplified": {
+        "caption": "Askeladden ror fra trollet med de sju sølvendene.",
+        "alt": "Askeladden sitter i et langt knadetrau midt på vannet i skumringen og ror med sju blanke sølvender rundt seg. Bak ham lener trollet seg ut av en sprekk i berget og rister på neven."
+      },
+      "english": {
+        "caption": "Ash-Lad rows away from the troll with the seven silver ducks.",
+        "alt": "Ash-Lad sits in a long wooden kneading trough in the middle of the lake at dusk, rowing, with seven shining silver ducks around him. Behind him the troll leans out of a crack in the mountain, shaking his fist."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["askeladden", "eldste-bror", "mellomste-bror"],
+      "prompt": "A dirt road winding up to the gate of the royal manor on a grey morning. Far ahead, the Eldest Brother and the Middle Brother stride through the gate without looking back. Far behind them, Askeladden trudges up the road bent double under a huge oval wooden kneading trough strapped to his back, his face set and stubborn.",
+      "variants": {
+        "simplified": {
+          "paragraph": 3,
+          "anchor": "De to eldste kom til kongsgården og fikk arbeid der",
+          "caption": "Askeladden gikk etter, krumbøyd under knadetrauet.",
+          "alt": "De to eldste brødrene går inn gjennom porten til kongsgården. Langt bak dem kommer Askeladden gående, krumbøyd under et stort knadetrau av tre."
+        },
+        "english": {
+          "paragraph": 3,
+          "anchor": "The two eldest came to the King’s manor and were taken on there",
+          "caption": "Ash-Lad came trudging after, bent double under the kneading trough.",
+          "alt": "The two elder brothers walk through the gate of the King's manor. Far behind them, Ash-Lad trudges up the road, bent double under a big wooden kneading trough."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["kongen"],
+      "places": ["graakollen"],
+      "prompt": "Seen from inside the King's hall, over the King's shoulder: the King stands at a small leaded window with both hands on the sill, gazing longingly across the wide lake. Far out on the water, in front of the Grey Crag, seven silver ducks bob in a row, flashing in the sun.",
+      "variants": {
+        "simplified": {
+          "paragraph": 5,
+          "anchor": "Rett overfor kongsgården, på den andre siden av et vann, bodde et troll.",
+          "caption": "Kongen sto og så på sølvendene hver eneste dag.",
+          "alt": "Kongen står ved et vindu og ser lengselsfullt ut over vannet. Der ute ligger sju blinkende sølvender foran et grått berg."
+        },
+        "english": {
+          "paragraph": 5,
+          "anchor": "Straight across from the manor, on the far side of a lake, lived a troll.",
+          "caption": "The King looked at the silver ducks every single day.",
+          "alt": "The King stands at a window gazing out over the lake. Out on the water, seven flashing silver ducks bob in front of a grey mountain."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["askeladden"],
+      "places": ["graakollen"],
+      "prompt": "On the pebble beach at the foot of the Grey Crag on a clear morning, Askeladden walks along the water's edge scattering grain from a sack, while the seven silver ducks paddle after him and clamber, one after another, into the wooden kneading trough pulled up on the shore, which is half full of grain.",
+      "variants": {
+        "simplified": {
+          "paragraph": 13,
+          "anchor": "Han fikk kornet, helte det i knadetrauet og rodde over vannet i det.",
+          "caption": "Én etter én klatret sølvendene opp i trauet for å spise.",
+          "alt": "Askeladden går langs stranden under berget og strør korn. Sju sølvender svømmer etter ham og klatrer opp i knadetrauet, som står fullt av korn i vannkanten."
+        },
+        "english": {
+          "paragraph": 13,
+          "anchor": "He got his grain, tipped it into the kneading trough and rowed across the lake in it.",
+          "caption": "One by one, the silver ducks climbed into the trough to eat.",
+          "alt": "Ash-Lad walks along the beach below the mountain scattering grain. Seven silver ducks paddle after him and climb into the kneading trough, which is full of grain at the water's edge."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["askeladden", "trollet"],
+      "places": ["graakollen"],
+      "prompt": "Out in the middle of the lake, Askeladden rows the wooden trough as hard as he can, the seven silver ducks packed in around him. Behind him, the Troll has come out of the crack in the Grey Crag and stands at the water's edge, bellowing across the lake with one huge fist raised. Askeladden looks back over his shoulder, perfectly calm.",
+      "variants": {
+        "simplified": {
+          "paragraph": 14,
+          "anchor": "Midt ute på vannet kom trollet ut av berget og fikk se ham.",
+          "caption": "«Har du reist av med de sju sølvendene mine, du?»",
+          "alt": "Askeladden ror knadetrauet med de sju sølvendene over vannet. Bak ham står trollet i fjæra under berget og brøler med neven i været."
+        },
+        "english": {
+          "paragraph": 14,
+          "anchor": "When he was halfway across, the troll came out of the mountain and saw him.",
+          "caption": "“Have you gone off with my seven silver ducks?”",
+          "alt": "Ash-Lad rows the kneading trough with the seven silver ducks across the lake. Behind him the troll stands on the shore below the mountain, bellowing with his fist raised."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["askeladden"],
+      "places": ["graakollen"],
+      "prompt": "Below the Grey Crag in the late afternoon, Askeladden stands on a boulder and snatches down a heavy quilt of silver and gold squares that hangs out of the dark crack in the rock to air, glancing up at the crack to make sure nobody is watching. His trough waits on the beach below.",
+      "variants": {
+        "simplified": {
+          "paragraph": 24,
+          "anchor": "Da de tre dagene var gått, rodde han over i knadetrauet igjen.",
+          "caption": "Askeladden nappet sengeteppet til seg.",
+          "alt": "Askeladden står på en stein under berget og drar ned et sengeteppe med sølv- og gullruter som henger ut av en sprekk i fjellet. Nede i fjæra venter trauet."
+        },
+        "english": {
+          "paragraph": 24,
+          "anchor": "When the three days were up, he rowed across in the trough again",
+          "caption": "Ash-Lad snatched the bedspread down.",
+          "alt": "Ash-Lad stands on a boulder below the mountain, pulling down a bedspread of silver and gold squares that hangs out of a crack in the rock. His trough waits on the beach below."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["askeladden", "trollet"],
+      "places": ["graakollen"],
+      "prompt": "At dusk, at the mouth of the dark crack in the Grey Crag, the Troll carries Askeladden into the mountain under one enormous arm. Askeladden hangs there quite calmly, one hand pressed to the bulging pocket of his waistcoat. Behind them the lake lies still and blue.",
+      "variants": {
+        "simplified": {
+          "paragraph": 42,
+          "anchor": "Da grep trollet ham og tok ham med seg inn i berget.",
+          "caption": "Trollet grep Askeladden og tok ham med inn i berget.",
+          "alt": "Trollet bærer Askeladden under armen inn gjennom sprekken i berget. Askeladden holder rolig hånden over lomma."
+        },
+        "english": {
+          "paragraph": 42,
+          "anchor": "Then the troll grabbed him and dragged him into the mountain.",
+          "caption": "The troll grabbed Ash-Lad and dragged him into the mountain.",
+          "alt": "The troll carries Ash-Lad under his arm through the crack in the mountain. Ash-Lad calmly keeps one hand over his pocket."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["askeladden", "trolldattera"],
+      "places": ["berghallen"],
+      "prompt": "In a dim corner of the Mountain Hall, Askeladden sits inside a fattening pen of rough timber among empty bowls and cups, holding an iron nail out between the bars. The Troll's Daughter bends down low with a small knife, squinting hard in the gloom, and nicks the tip of the nail, thinking it is his little finger.",
+      "variants": {
+        "simplified": {
+          "paragraph": 46,
+          "anchor": "«Kom med lillefingeren din!» sa trolldattera.",
+          "caption": "Askeladden stakk fram spikeren i stedet for lillefingeren.",
+          "alt": "Askeladden sitter i en binge av grove planker og stikker en spiker ut mellom plankene. Trolldattera bøyer seg ned og myser i halvmørket."
+        },
+        "english": {
+          "paragraph": 46,
+          "anchor": "“Give me your little finger!” said the troll’s daughter.",
+          "caption": "Ash-Lad held out the nail instead of his little finger.",
+          "alt": "Ash-Lad sits in a pen of rough planks, holding a nail out between the bars. The troll's daughter bends down, squinting in the gloom."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["askeladden", "trolldattera"],
+      "places": ["berghallen"],
+      "prompt": "By the fire in the Mountain Hall, Askeladden sits on a stump stool honing a long knife on a whetstone with a serious, patient face, while the Troll's Daughter looms over him with her hands on her hips and her enormous braid hanging over one shoulder, waiting impatiently. Firelight flickers on the rock walls.",
+      "variants": {
+        "simplified": {
+          "paragraph": 58,
+          "anchor": "Hun rakte ham kniven, og han satte i gang med å slipe og bryne.",
+          "caption": "Askeladden slipte og brynte kniven.",
+          "alt": "Askeladden sitter ved bålet i fjellhallen og sliper en lang kniv på et bryne. Trolldattera står over ham med hendene i siden og venter."
+        },
+        "english": {
+          "paragraph": 58,
+          "anchor": "So she handed him the knife, and he honed it and whetted it.",
+          "caption": "Ash-Lad honed and whetted the knife.",
+          "alt": "Ash-Lad sits by the fire in the mountain hall, sharpening a long knife on a whetstone. The troll's daughter towers over him with her hands on her hips, waiting."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["askeladden", "trollet"],
+      "places": ["berghallen"],
+      "prompt": "At the arched door of the Mountain Hall, Askeladden, disguised in a huge patched grey dress and a faded red shawl far too big for him, steps out through the doorway playing the small golden harp. Inside, the Troll and three troll guests sit at the long table in the firelight, eyes half closed, swaying to the music. Outside, the wooden trough waits at the edge of the dark lake.",
+      "variants": {
+        "simplified": {
+          "paragraph": 67,
+          "anchor": "Askeladden lot seg ikke be to ganger.",
+          "caption": "Askeladden spilte på gullharpa, ut og inn av døra.",
+          "alt": "Askeladden, forkledd i altfor store kvinneklær, går ut gjennom døra i fjellet og spiller på gullharpa. Inne sitter trollet og tre trollgjester ved bordet og lytter med halvlukkede øyne."
+        },
+        "english": {
+          "paragraph": 67,
+          "anchor": "Ash-Lad didn’t need telling twice.",
+          "caption": "Ash-Lad played the golden harp, in and out of the door.",
+          "alt": "Ash-Lad, disguised in women's clothes far too big for him, steps out through the door in the mountain playing the golden harp. Inside, the troll and three troll guests sit at the table listening with half-closed eyes."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "characters": ["askeladden", "kongen", "eldste-bror", "mellomste-bror"],
+      "prompt": "In the yard of the King's manor on a bright morning, Askeladden lifts the golden harp out of his wooden trough, which is heaped with gold and silver. The beaming King opens his arms to welcome him, and beside the King stands a young princess in a moss-green gown with two long dark braids, smiling. At the back, the Eldest Brother and the Middle Brother stare with their mouths hanging open.",
+      "variants": {
+        "simplified": {
+          "paragraph": 77,
+          "anchor": "Da trollet hørte det, ble han så sint at han sprakk.",
+          "caption": "Askeladden fikk prinsessa og halve kongeriket.",
+          "alt": "Askeladden løfter gullharpa ut av trauet, som er fullt av gull og sølv. Kongen tar imot ham med åpne armer, og prinsessa smiler. Bak står brødrene og måper."
+        },
+        "english": {
+          "paragraph": 77,
+          "anchor": "When the troll heard that, he flew into such a rage that he burst.",
+          "caption": "Ash-Lad got the princess and half the kingdom.",
+          "alt": "Ash-Lad lifts the golden harp out of his trough, which is heaped with gold and silver. The King welcomes him with open arms and the princess smiles. Behind them the brothers stand and gape."
+        }
+      }
+    }
+  ]
+}

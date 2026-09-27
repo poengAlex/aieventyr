@@ -1,0 +1,165 @@
+{
+  "storyId": "askesv",
+  "title": "Askeladden som stjal sølvendene til trollet",
+  "textFile": "public/content/stories/askesv/modern/story.txt",
+  "world": "Present-day western Norway. The royal estate is a big, old white wooden manor with a glassed-in terrace, a lawn running down to a private quay, a boathouse and staff buildings, on one side of a narrow fjord. Straight across the fjord rises the Dark Mountain, where the troll lives behind a heavy stone door that grinds open in the rock. The seven silver ducks are real ducks of solid, gleaming silver, like small sculptures. The kneading trough is a big, old, dark wooden trough almost as long as a rowing boat; Askeladden paddles it with a worn wooden oar from the boathouse. The bedspread is a heavy quilt of alternating silver and gold squares. The golden harp is a small golden lap harp. Inside the mountain, ancient cave meets forgotten basement: raw concrete, metal shelving, old weights and a stone feasting hall.",
+  "palette": "Early summer on a western fjord: pale, cool mornings, glassy blue-green water, bright silver glints and white midsummer nights. Inside the mountain: flat fluorescent light on grey concrete, and warm lamp light in the stone hall.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "promptName": "Askeladden",
+      "replacesPortrait": "askeladden",
+      "description": "Den yngste broren, en rolig og hardtarbeidende kjøkkenhjelp som bærer et gammelt knadetraug og vinner med kløkt framfor styrke.",
+      "look": "A lanky young man of about nineteen with messy straw-blond hair, sharp blue-grey eyes, a narrow freckled face and a calm, crooked smile. He wears a faded red knitted beanie, a navy work jacket over a grey T-shirt, black work trousers and scuffed white trainers.",
+      "portrait": "Background: the fjord with the Dark Mountain behind, in pale morning light."
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "promptName": "the King",
+      "replacesPortrait": "kongen",
+      "description": "En jordnær, kravstor konge som fortsatt bruker kongsgården når han ikke er i hovedstaden, og som lokkes av trollets skatter.",
+      "look": "A stout, elderly king with a neat white beard, round tortoiseshell glasses, rosy cheeks and thinning white hair, a man used to getting his way. At home he wears a thick cream cardigan over a pale-blue shirt, brown corduroy trousers and sheepskin slippers.",
+      "portrait": "Background: the glassed-in terrace of the royal estate."
+    },
+    {
+      "slug": "trollet",
+      "name": "Trollet ved fjellet",
+      "promptName": "the Troll",
+      "replacesPortrait": "trollet-ved-fjellet",
+      "description": "Et gammelt fjordtroll som bor i et mørkt fjell og vokter sølvender, et rutete sengeteppe av sølv og gull, og en gullharpe med humørmagi.",
+      "look": "An enormous, ancient fjord troll three times as tall as a man, with grey-green skin like weathered rock patched with moss and lichen, a long knobbly nose, tiny black eyes under bushy brows, a wide mouth with two stubby teeth, huge ears, a beard like dry grass and a small spruce growing from the top of his head. He wears a huge, ragged, faded canvas work coat tied with rope, and goes barefoot on enormous flat feet.",
+      "portrait": "Background: the stone door in the Dark Mountain."
+    },
+    {
+      "slug": "trolldatteren",
+      "name": "Trolldatteren",
+      "promptName": "the Troll's Daughter",
+      "replacesPortrait": "trolldatteren",
+      "description": "Trollets datter som holder Askeladden fanget, tester om han er 'feit nok', og lar seg lure av hans rolige manipulasjon.",
+      "look": "A huge troll woman, about three times as tall as a man, with a broad moss-green face, a long bumpy nose, small squinting eyes, heavy arms and one enormous, heavy red braid that reaches her knees. She wears an enormous faded grey hoodie, black leggings and a big knitted shawl, and goes barefoot.",
+      "portrait": "Background: the concrete cellar under the mountain."
+    },
+    {
+      "slug": "prinsessa",
+      "name": "Prinsessa",
+      "promptName": "the Princess",
+      "replacesPortrait": "prinsessa",
+      "description": "Kongens datter, en moderne prinsesse som blir lovet bort som belønning når Askeladden henter gullharpa.",
+      "look": "A young woman in her early twenties with a sharp, curious face, dark hair in a short bob, brown eyes and a small gold stud in one ear. She wears a camel wool coat over a black turtleneck, dark jeans and ankle boots.",
+      "portrait": "Background: the private quay of the royal estate."
+    }
+  ],
+  "places": [
+    {
+      "slug": "det-morke-fjellet",
+      "name": "the Dark Mountain",
+      "look": "A dark, steep mountain rising straight out of the far side of a narrow fjord, its lower slopes covered in black spruce, with a narrow pebble beach at its foot and a heavy, door-shaped slab of stone set into the rock face just above the waterline."
+    }
+  ],
+  "cover": {
+    "prompt": "Askeladden paddles his big old wooden kneading trough across the glassy fjord in the pale morning, the seven silver ducks crowded into the trough around him. Behind him, the stone door in the Dark Mountain stands ajar, and the Troll leans out of it, bellowing.",
+    "characters": ["askeladden", "trollet"],
+    "places": ["det-morke-fjellet"],
+    "caption": "Askeladden padler over fjorden med de sju sølvendene.",
+    "alt": "Askeladden padler et stort, gammelt knadetrau over en blank fjord med sju sølvender rundt seg. Bak ham står en steindør i fjellet på gløtt, og trollet lener seg ut og brøler."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "Han tok med seg knadetrauet.",
+      "characters": ["askeladden"],
+      "prompt": "On the gravel shoulder of a winding fjord road, Askeladden walks bent almost double under a big, dark old wooden kneading trough strapped to his back. A small red car swishes past him on the wet asphalt. Birch trees, a guard rail and the fjord below; a grey, drizzly day.",
+      "caption": "Han bar knadetrauet på ryggen hele veien.",
+      "alt": "Askeladden går langs en fjordvei, krumbøyd under et stort, gammelt knadetrau av tre. En liten rød bil kjører forbi på den våte asfalten."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "Kongen sto på terrassen hver morgen med kaffen og kikkerten og så på dem.",
+      "characters": ["kongen"],
+      "places": ["det-morke-fjellet"],
+      "prompt": "On the glassed-in terrace of the royal estate early in the morning, the King stands in his slippers with a coffee mug in one hand and a pair of binoculars raised to his eyes, looking out across the fjord. Far away on the water in front of the Dark Mountain, seven silver ducks gleam in a row.",
+      "caption": "Kongen sto på terrassen hver morgen med kaffen og kikkerten.",
+      "alt": "Kongen står på terrassen i tøfler med en kaffekopp og kikker ut over fjorden. Langt der ute ligger sju blanke sølvender foran et mørkt fjell."
+    },
+    {
+      "id": "03",
+      "paragraph": 18,
+      "anchor": "På den andre siden gikk han langs stranden og strødde korn",
+      "characters": ["askeladden"],
+      "places": ["det-morke-fjellet"],
+      "prompt": "On the pebble beach at the foot of the Dark Mountain, Askeladden strolls along scattering grain from a paper sack like a pensioner feeding pigeons in a park, while the seven silver ducks waddle one after another up into the big wooden trough beached behind him. A worn oar leans against it.",
+      "caption": "Til slutt vagget endene opp i trauet, én etter én.",
+      "alt": "Askeladden går langs stranden under fjellet og strør korn fra en papirpose. Sju sølvender vagger etter hverandre opp i det store tretrauet."
+    },
+    {
+      "id": "04",
+      "paragraph": 19,
+      "anchor": "Midt ute på fjorden åpnet det seg en sprekk i fjellet, og trollet kom ut.",
+      "characters": ["askeladden", "trollet"],
+      "places": ["det-morke-fjellet"],
+      "prompt": "Mid-fjord, Askeladden paddles the wooden trough flat out with a worn oar, the seven silver ducks packed around him. Behind him the stone door in the Dark Mountain has ground open, and the Troll leans out bellowing, his voice echoing between the mountainsides. Askeladden glances back, unimpressed.",
+      "caption": "«Har du reist av med de sju sølvendene mine, du?»",
+      "alt": "Askeladden padler trauet med sølvendene over fjorden. Bak ham står steindøra i fjellet åpen, og trollet lener seg ut og brøler."
+    },
+    {
+      "id": "05",
+      "paragraph": 30,
+      "anchor": "Til slutt skurte det i stein, og en tung steindør gled på gløtt.",
+      "characters": ["askeladden"],
+      "places": ["det-morke-fjellet"],
+      "prompt": "In the shadow at the foot of the Dark Mountain, Askeladden sits on a rock beside his beached trough with a half-eaten packed lunch, frozen mid-bite and staring up. The heavy stone door above has slid ajar, and a grey hand as big as a car tyre is hanging a glittering quilt of silver and gold squares out to air.",
+      "caption": "En grå hånd, stor som et bildekk, hengte sengeteppet ut til lufting.",
+      "alt": "Askeladden sitter med matpakka ved fjellfoten og ser opp. Fra en steindør som står på gløtt, henger en diger grå hånd ut et glitrende sengeteppe med sølv- og gullruter."
+    },
+    {
+      "id": "06",
+      "paragraph": 54,
+      "anchor": "Askeladden stakk spikeren ut mellom sprinklene.",
+      "characters": ["askeladden", "trolldatteren"],
+      "prompt": "In a windowless concrete cellar with metal shelving, old weights and a dusty punching bag, Askeladden sits behind a barred steel door among stacks of empty takeaway boxes and plates, poking an iron nail out between the bars. The Troll's Daughter crouches outside with a kitchen knife, squinting in the flat fluorescent light, and nicks the nail.",
+      "caption": "Askeladden stakk spikeren ut mellom sprinklene.",
+      "alt": "Askeladden sitter bak sprinklene i en betongkjeller full av tomme matbokser og stikker ut en spiker. Trolldatteren sitter på huk utenfor, myser og skjærer i den."
+    },
+    {
+      "id": "07",
+      "paragraph": 65,
+      "anchor": "Hun nølte. Så låste hun opp og ga ham kniven.",
+      "characters": ["askeladden", "trolldatteren"],
+      "prompt": "In the concrete cellar, the barred door now unlocked and open, Askeladden sits on an upturned crate running a long kitchen knife along a sharpening stone with a professional's calm, while the Troll's Daughter leans against the doorframe in her enormous grey hoodie, arms folded, watching him suspiciously.",
+      "caption": "Han slipte lenge, til eggen sang.",
+      "alt": "Askeladden sitter på en kasse i kjelleren og sliper en lang kniv mot en stein. Trolldatteren lener seg mot dørkarmen med armene i kors og følger nøye med."
+    },
+    {
+      "id": "08",
+      "paragraph": 75,
+      "anchor": "Askeladden reiste seg og løftet harpa ned.",
+      "characters": ["askeladden", "trollet"],
+      "prompt": "In the stone feasting hall inside the mountain, the Troll and four huge, heavy troll guests sit frozen around a long table with their forks in the air, a couple of them smiling dreamily. Askeladden, his face hidden in an enormous grey hoodie and a knitted shawl, walks calmly towards the stone door playing the small golden harp, one clear note shimmering through the hall.",
+      "caption": "Gjestene ble sittende med gaflene i lufta.",
+      "alt": "Trollet og fire store trollgjester sitter stille rundt et langt bord med gaflene i lufta. Askeladden, gjemt i en altfor stor hettegenser og et sjal, går mot døra og spiller på gullharpa."
+    },
+    {
+      "id": "09",
+      "paragraph": 85,
+      "anchor": "Da ble trollet så rasende at han svulmet opp",
+      "characters": ["askeladden", "trollet"],
+      "places": ["det-morke-fjellet"],
+      "prompt": "On the beach at the foot of the Dark Mountain, the Troll has swollen with rage into a vast, round shape, bigger and bigger, his face dark with fury, about to burst. Far out on the calm fjord, Askeladden sits in his trough with the golden harp in his lap, looking back over his shoulder.",
+      "caption": "Trollet svulmet opp, større og større.",
+      "alt": "Trollet står i fjæra under fjellet og svulmer opp av raseri til en diger, rund skikkelse. Langt ute på fjorden sitter Askeladden i trauet med gullharpa og ser seg tilbake."
+    },
+    {
+      "id": "10",
+      "paragraph": 87,
+      "anchor": "Kongen holdt ord.",
+      "characters": ["askeladden", "kongen", "prinsessa"],
+      "prompt": "At the private quay of the royal estate on a bright midsummer evening, Askeladden steps out of his wooden trough, which is heaped with gold and silver, holding the golden harp. The King, still in his slippers, claps with delight, and the Princess comes down the jetty towards Askeladden with a small, knowing smile.",
+      "caption": "Kongen holdt ord, og prinsessa ville ha ham.",
+      "alt": "Askeladden stiger ut av trauet ved brygga med gullharpa. Trauet er fullt av gull og sølv. Kongen klapper i tøflene, og prinsessa går smilende ned brygga mot ham."
+    }
+  ]
+}

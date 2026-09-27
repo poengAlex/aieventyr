@@ -88,11 +88,42 @@ const verbose = Boolean(args.verbose)
 for (const kind of only)
   if (!KINDS.includes(kind)) fail(`Unknown --only value "${kind}". Use ${KINDS.join(', ')}.`)
 
+// The story variants this set illustrates. One set can show the same pictures in several
+// texts, such as the simplified Norwegian and the English version of a tale.
+const variantKeys = style.variants || [setName]
+
+// Plans for a set with one text may keep the title, the text placement, the captions and
+// the character names at the top level. With several texts, these go under "variants",
+// keyed by story variant. Plans are turned into the second form here.
+function normalizePlan(plan) {
+  if (plan.variants) return plan
+  const key = variantKeys[0]
+  const pick = (object, fields) =>
+    Object.fromEntries(fields.filter((f) => object?.[f] !== undefined).map((f) => [f, object[f]]))
+  return {
+    ...plan,
+    variants: { [key]: pick(plan, ['title', 'textFile']) },
+    cast: (plan.cast || []).map((c) => ({
+      ...c,
+      variants: { [key]: pick(c, ['name', 'description', 'replacesPortrait']) },
+    })),
+    cover: plan.cover && {
+      ...plan.cover,
+      variants: { [key]: pick(plan.cover, ['caption', 'alt']) },
+    },
+    illustrations: (plan.illustrations || []).map((image) => ({
+      ...image,
+      variants: { [key]: pick(image, ['paragraph', 'anchor', 'caption', 'alt']) },
+    })),
+  }
+}
+
 const allStories = []
 for (const file of (await fs.readdir(path.join(planDir, 'stories')))
   .filter((f) => f.endsWith('.json'))
   .sort()) {
-  allStories.push({ ...(await readJson(path.join(planDir, 'stories', file))), planFile: file })
+  const plan = await readJson(path.join(planDir, 'stories', file))
+  allStories.push({ ...normalizePlan(plan), planFile: file })
 }
 let stories = allStories
 if (args.story) {
@@ -141,29 +172,44 @@ function mentionedCast(story, prompt) {
 async function validateStory(story) {
   const problems = []
   const warnings = []
+  const many = variantKeys.length > 1
+  const where = (label, key) => (many ? `${label} (${key})` : label)
   if (`${story.storyId}.json` !== story.planFile)
     problems.push(`storyId "${story.storyId}" does not match the file name`)
-  if (!story.title) problems.push('missing title')
   if (!story.world || story.world.length < 80)
     problems.push('world is missing or shorter than 80 characters')
   if (!story.palette || story.palette.length < 40)
     problems.push('palette is missing or shorter than 40 characters')
-  let text
-  try {
-    text = await fs.readFile(path.join(ROOT, story.textFile || ''), 'utf8')
-  } catch {
-    problems.push(`textFile "${story.textFile}" not found`)
-    return { problems, warnings }
+  const paragraphs = {}
+  const portraits = {}
+  for (const key of variantKeys) {
+    const variant = story.variants?.[key]
+    if (!variant) {
+      problems.push(`missing the "${key}" variant`)
+      continue
+    }
+    if (!variant.title) problems.push(where('missing title', key))
+    try {
+      const text = await fs.readFile(path.join(ROOT, variant.textFile || ''), 'utf8')
+      paragraphs[key] = splitParagraphs(text)
+      if (key === variantKeys[0]) story.words = text.split(/\s+/).filter(Boolean).length
+    } catch {
+      problems.push(where(`textFile "${variant.textFile}" not found`, key))
+      continue
+    }
+    try {
+      portraits[key] = JSON.parse(
+        await fs.readFile(
+          path.join(ROOT, path.dirname(variant.textFile), 'characters.json'),
+          'utf8',
+        ),
+      )
+    } catch {
+      // no portrait list next to the text
+    }
   }
-  const paragraphs = splitParagraphs(text)
-  let portraits = null
-  try {
-    portraits = JSON.parse(
-      await fs.readFile(path.join(ROOT, path.dirname(story.textFile), 'characters.json'), 'utf8'),
-    )
-  } catch {
-    // no portrait list next to the text
-  }
+  if (problems.length) return { problems, warnings }
+  story.paragraphs = paragraphs
 
   const slugs = new Set()
   for (const character of story.cast || []) {
@@ -172,18 +218,21 @@ async function validateStory(story) {
       problems.push(`${label}: slug must be lowercase letters, digits and dashes`)
     if (slugs.has(character.slug)) problems.push(`${label}: duplicate slug`)
     slugs.add(character.slug)
-    if (!character.name) problems.push(`${label}: missing name`)
-    if (!character.description) problems.push(`${label}: missing description`)
     if (!character.look || character.look.length < 60)
       problems.push(`${label}: look is missing or shorter than 60 characters`)
-    if (
-      character.replacesPortrait &&
-      portraits &&
-      !portraits.some((p) => p.slug === character.replacesPortrait)
-    ) {
-      problems.push(
-        `${label}: replacesPortrait "${character.replacesPortrait}" is not in characters.json`,
-      )
+    for (const key of variantKeys) {
+      const text = character.variants?.[key] || {}
+      if (!text.name) problems.push(`${where(label, key)}: missing name`)
+      if (!text.description) problems.push(`${where(label, key)}: missing description`)
+      if (
+        text.replacesPortrait &&
+        portraits[key] &&
+        !portraits[key].some((p) => p.slug === text.replacesPortrait)
+      ) {
+        problems.push(
+          `${where(label, key)}: replacesPortrait "${text.replacesPortrait}" is not in characters.json`,
+        )
+      }
     }
   }
   for (const place of story.places || []) {
@@ -203,10 +252,13 @@ async function validateStory(story) {
   const checkPicture = (label, image) => {
     if (!image.prompt || image.prompt.length < 80)
       problems.push(`${label}: prompt is missing or shorter than 80 characters`)
-    if (!image.caption || image.caption.length > 140)
-      problems.push(`${label}: caption is missing or longer than 140 characters`)
-    if (!image.alt || image.alt.length > 300)
-      problems.push(`${label}: alt is missing or longer than 300 characters`)
+    for (const key of variantKeys) {
+      const text = image.variants?.[key] || {}
+      if (!text.caption || text.caption.length > 140)
+        problems.push(`${where(label, key)}: caption is missing or longer than 140 characters`)
+      if (!text.alt || text.alt.length > 300)
+        problems.push(`${where(label, key)}: alt is missing or longer than 300 characters`)
+    }
     const characters = image.characters || []
     const places = image.places || []
     for (const slug of characters)
@@ -241,28 +293,30 @@ async function validateStory(story) {
   if (!story.cover) problems.push('missing cover')
   else checkPicture('cover', story.cover)
   const seen = new Set()
-  let previous = -1
+  const previous = Object.fromEntries(variantKeys.map((key) => [key, -1]))
   for (const image of story.illustrations || []) {
     const label = `illustration ${image.id}`
     if (!/^\d{2}$/.test(image.id || '')) problems.push(`${label}: id must be two digits`)
     if (seen.has(image.id)) problems.push(`${label}: duplicate id`)
     seen.add(image.id)
-    if (
-      !Number.isInteger(image.paragraph) ||
-      image.paragraph < 0 ||
-      image.paragraph >= paragraphs.length
-    ) {
-      problems.push(`${label}: paragraph ${image.paragraph} is outside 0-${paragraphs.length - 1}`)
-    } else {
-      const start = normalize(image.anchor || '').slice(0, 40)
-      if (!start || !normalize(paragraphs[image.paragraph]).startsWith(start)) {
+    for (const key of variantKeys) {
+      const { paragraph, anchor } = image.variants?.[key] || {}
+      const list = paragraphs[key]
+      if (!Number.isInteger(paragraph) || paragraph < 0 || paragraph >= list.length) {
         problems.push(
-          `${label}: anchor "${image.anchor}" is not the start of paragraph ${image.paragraph}: "${paragraphs[image.paragraph].slice(0, 60)}"`,
+          `${where(label, key)}: paragraph ${paragraph} is outside 0-${list.length - 1}`,
+        )
+        continue
+      }
+      const start = normalize(anchor || '').slice(0, 40)
+      if (!start || !normalize(list[paragraph]).startsWith(start)) {
+        problems.push(
+          `${where(label, key)}: anchor "${anchor}" is not the start of paragraph ${paragraph}: "${list[paragraph].slice(0, 60)}"`,
         )
       }
-      if (image.paragraph <= previous)
-        problems.push(`${label}: pictures must be in text order, one per paragraph`)
-      previous = image.paragraph
+      if (paragraph <= previous[key])
+        problems.push(`${where(label, key)}: pictures must be in text order, one per paragraph`)
+      previous[key] = paragraph
     }
     checkPicture(label, image)
   }
@@ -276,7 +330,6 @@ async function validateStory(story) {
   }
   for (const [slug, count] of appearances)
     if (!count) warnings.push(`cast ${slug} is not in any picture`)
-  story.words = text.split(/\s+/).filter(Boolean).length
   return { problems, warnings }
 }
 
@@ -599,70 +652,90 @@ async function readIfExists(file) {
   return (await exists(file)) ? fs.readFile(file, 'utf8') : null
 }
 
-// illustrations.json holds everything the reader needs: files, captions, alt texts and
-// prompts. A file is null until its image exists.
-async function writeManifest(story) {
+// Which images of a story exist, and the prompts that made them.
+async function storyFiles(story) {
   const storyDir = path.join(outDir, story.storyId)
   const file = async (relative) => ((await exists(path.join(storyDir, relative))) ? relative : null)
-  const fullPrompt = (relative) => readIfExists(path.join(storyDir, relative))
-  const manifest = {
-    storyId: story.storyId,
-    set: setName,
-    title: story.title,
-    textFile: story.textFile,
-    placement:
-      'Each illustration belongs directly after the paragraph with index "paragraph" (0-based, paragraphs split on blank lines).',
-    model,
-    quality,
-    updatedAt: new Date().toISOString(),
-    cover: {
-      file: await file('cover.webp'),
-      caption: story.cover.caption,
-      alt: story.cover.alt,
-      prompt: story.cover.prompt,
-      characters: story.cover.characters || [],
-      fullPrompt: await fullPrompt('cover.prompt.txt'),
-    },
-    characters: await Promise.all(
-      story.cast.map(async (c) => ({
+  const prompt = (relative) => readIfExists(path.join(storyDir, relative))
+  const files = {
+    cover: await file('cover.webp'),
+    coverPrompt: await prompt('cover.prompt.txt'),
+    sheets: {},
+    portraits: {},
+    places: {},
+    scenes: {},
+    scenePrompts: {},
+  }
+  for (const c of story.cast) {
+    files.sheets[c.slug] = await file(`characters/${c.slug}.webp`)
+    files.portraits[c.slug] = await file(`portraits/${c.slug}.webp`)
+  }
+  for (const p of story.places || []) files.places[p.slug] = await file(`places/${p.slug}.webp`)
+  for (const image of story.illustrations) {
+    files.scenes[image.id] = await file(`scenes/${image.id}.webp`)
+    files.scenePrompts[image.id] = await prompt(`scenes/${image.id}.prompt.txt`)
+  }
+  return files
+}
+
+// illustrations.<variant>.json holds everything a reader of that text needs: files,
+// captions, alt texts and prompts. A file is null until its image exists.
+async function writeManifests(story, files) {
+  const storyDir = path.join(outDir, story.storyId)
+  await fs.mkdir(storyDir, { recursive: true })
+  for (const key of variantKeys) {
+    const manifest = {
+      storyId: story.storyId,
+      set: setName,
+      variant: key,
+      title: story.variants[key].title,
+      textFile: story.variants[key].textFile,
+      placement:
+        'Each illustration belongs directly after the paragraph with index "paragraph" (0-based, paragraphs split on blank lines).',
+      model,
+      quality,
+      updatedAt: new Date().toISOString(),
+      cover: {
+        file: files.cover,
+        caption: story.cover.variants[key].caption,
+        alt: story.cover.variants[key].alt,
+        prompt: story.cover.prompt,
+        characters: story.cover.characters || [],
+        fullPrompt: files.coverPrompt,
+      },
+      characters: story.cast.map((c) => ({
         slug: c.slug,
-        name: c.name,
-        description: c.description,
+        name: c.variants[key].name,
+        description: c.variants[key].description,
         look: c.look,
-        sheet: await file(`characters/${c.slug}.webp`),
-        portrait: await file(`portraits/${c.slug}.webp`),
-        replacesPortrait: c.replacesPortrait || null,
+        sheet: files.sheets[c.slug],
+        portrait: files.portraits[c.slug],
+        replacesPortrait: c.variants[key].replacesPortrait || null,
       })),
-    ),
-    places: await Promise.all(
-      (story.places || []).map(async (p) => ({
+      places: (story.places || []).map((p) => ({
         slug: p.slug,
         name: p.name,
         look: p.look,
-        file: await file(`places/${p.slug}.webp`),
+        file: files.places[p.slug],
       })),
-    ),
-    illustrations: await Promise.all(
-      story.illustrations.map(async (image) => ({
+      illustrations: story.illustrations.map((image) => ({
         id: image.id,
-        paragraph: image.paragraph,
-        anchor: image.anchor,
-        file: await file(`scenes/${image.id}.webp`),
-        caption: image.caption,
-        alt: image.alt,
+        paragraph: image.variants[key].paragraph,
+        anchor: image.variants[key].anchor,
+        file: files.scenes[image.id],
+        caption: image.variants[key].caption,
+        alt: image.variants[key].alt,
         prompt: image.prompt,
         characters: image.characters || [],
         places: image.places || [],
-        fullPrompt: await fullPrompt(`scenes/${image.id}.prompt.txt`),
+        fullPrompt: files.scenePrompts[image.id],
       })),
-    ),
+    }
+    await fs.writeFile(
+      path.join(storyDir, `illustrations.${key}.json`),
+      JSON.stringify(manifest, null, 2) + '\n',
+    )
   }
-  await fs.mkdir(storyDir, { recursive: true })
-  await fs.writeFile(
-    path.join(storyDir, 'illustrations.json'),
-    JSON.stringify(manifest, null, 2) + '\n',
-  )
-  return manifest
 }
 
 function figure(storyId, file, caption) {
@@ -672,45 +745,58 @@ function figure(storyId, file, caption) {
   return `<figure>${img}${caption ? `<figcaption>${caption}</figcaption>` : ''}</figure>`
 }
 
-async function writeReview(manifests) {
-  const sections = []
-  for (const m of manifests) {
-    const text = await fs.readFile(path.join(ROOT, m.textFile), 'utf8')
-    const paragraphs = splitParagraphs(text)
-    const done = m.illustrations.filter((i) => i.file).length
-    const details = (label, value) =>
-      value ? `<details><summary>${label}</summary><pre>${escapeHtml(value)}</pre></details>` : ''
-    const cast = m.characters
-      .map(
-        (c) =>
-          `<div class="card"><div class="pair">${figure(m.storyId, c.sheet, 'Model sheet')}${figure(m.storyId, c.portrait, 'Portrait')}</div>` +
-          `<b>${escapeHtml(c.name)}</b> <span class="muted">${escapeHtml(c.slug)}</span><p>${escapeHtml(c.description)}</p><p class="muted">${escapeHtml(c.look)}</p></div>`,
-      )
+function reviewSection(story, files) {
+  const first = variantKeys[0]
+  const details = (label, value) =>
+    value ? `<details><summary>${label}</summary><pre>${escapeHtml(value)}</pre></details>` : ''
+  const texts = (image, placed) =>
+    variantKeys
+      .map((key) => {
+        const text = image.variants[key]
+        const quote = placed
+          ? `<div class="muted">${escapeHtml(key)} · after paragraph ${text.paragraph}</div><blockquote>${escapeHtml(story.paragraphs[key][text.paragraph])}</blockquote>`
+          : ''
+        return `${quote}<p class="caption">${escapeHtml(text.caption)}</p><p class="muted">Alt: ${escapeHtml(text.alt)}</p>`
+      })
       .join('')
-    const places = m.places
-      .map((p) =>
-        figure(
-          m.storyId,
-          p.file,
-          `<b>${escapeHtml(p.name)}</b><p class="muted">${escapeHtml(p.look)}</p>`,
-        ),
-      )
-      .join('')
-    const scenes = m.illustrations
-      .map(
-        (i) =>
-          `<div class="scene">${figure(m.storyId, i.file, '')}<div><div class="muted">#${i.id} · after paragraph ${i.paragraph} · ${escapeHtml(i.characters.join(', '))}</div>` +
-          `<blockquote>${escapeHtml(paragraphs[i.paragraph])}</blockquote><p class="caption">${escapeHtml(i.caption)}</p>` +
-          `<p class="muted">Alt: ${escapeHtml(i.alt)}</p><p>${escapeHtml(i.prompt)}</p>${details('Full prompt', i.fullPrompt)}</div></div>`,
-      )
-      .join('')
-    sections.push(
-      `<section id="${m.storyId}"><h2>${escapeHtml(m.title)} <span class="muted">${m.storyId} · ${done}/${m.illustrations.length} pictures</span></h2>` +
-        `<div class="scene">${figure(m.storyId, m.cover.file, '')}<div><p class="caption">${escapeHtml(m.cover.caption)}</p><p class="muted">Alt: ${escapeHtml(m.cover.alt)}</p><p>${escapeHtml(m.cover.prompt)}</p>${details('Full prompt', m.cover.fullPrompt)}</div></div>` +
-        `<h3>Characters</h3><div class="grid">${cast}</div>${places ? `<h3>Places</h3><div class="grid">${places}</div>` : ''}<h3>Pictures</h3>${scenes}</section>`,
+  const done = story.illustrations.filter((image) => files.scenes[image.id]).length
+  const cast = story.cast
+    .map(
+      (c) =>
+        `<div class="card"><div class="pair">${figure(story.storyId, files.sheets[c.slug], 'Model sheet')}${figure(story.storyId, files.portraits[c.slug], 'Portrait')}</div>` +
+        `<b>${escapeHtml(c.variants[first].name)}</b> <span class="muted">${escapeHtml(c.slug)} · ${escapeHtml(nameOf(c))}</span><p>${escapeHtml(c.variants[first].description)}</p><p class="muted">${escapeHtml(c.look)}</p></div>`,
     )
-  }
-  const nav = manifests.map((m) => `<a href="#${m.storyId}">${escapeHtml(m.title)}</a>`).join(' · ')
+    .join('')
+  const places = (story.places || [])
+    .map((p) =>
+      figure(
+        story.storyId,
+        files.places[p.slug],
+        `<b>${escapeHtml(p.name)}</b><p class="muted">${escapeHtml(p.look)}</p>`,
+      ),
+    )
+    .join('')
+  const scenes = story.illustrations
+    .map(
+      (image) =>
+        `<div class="scene">${figure(story.storyId, files.scenes[image.id], '')}<div><div class="muted">#${image.id} · ${escapeHtml((image.characters || []).join(', '))}</div>` +
+        `${texts(image, true)}<p>${escapeHtml(image.prompt)}</p>${details('Full prompt', files.scenePrompts[image.id])}</div></div>`,
+    )
+    .join('')
+  return (
+    `<section id="${story.storyId}"><h2>${escapeHtml(story.variants[first].title)} <span class="muted">${story.storyId} · ${done}/${story.illustrations.length} pictures</span></h2>` +
+    `<div class="scene">${figure(story.storyId, files.cover, '')}<div>${texts(story.cover, false)}<p>${escapeHtml(story.cover.prompt)}</p>${details('Full prompt', files.coverPrompt)}</div></div>` +
+    `<h3>Characters</h3><div class="grid">${cast}</div>${places ? `<h3>Places</h3><div class="grid">${places}</div>` : ''}<h3>Pictures</h3>${scenes}</section>`
+  )
+}
+
+async function writeReview(sections) {
+  const nav = sections
+    .map(
+      ({ story }) =>
+        `<a href="#${story.storyId}">${escapeHtml(story.variants[variantKeys[0]].title)}</a>`,
+    )
+    .join(' · ')
   const html = `<!doctype html>
 <html lang="no"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Illustrations: ${escapeHtml(setName)}</title>
@@ -723,30 +809,56 @@ figure{margin:0}img{width:100%;display:block;border-radius:6px}.missing{aspect-r
 blockquote{margin:6px 0;padding-left:10px;border-left:3px solid #c9c1ae;color:#555}.caption{font-weight:600;font-size:17px}
 pre{white-space:pre-wrap;font-size:12px;background:#fff;padding:8px}@media(max-width:800px){.scene{grid-template-columns:1fr}}
 </style></head><body>
-<h1>Illustrations: ${escapeHtml(setName)}</h1><p class="muted">${escapeHtml(model)}, quality ${escapeHtml(quality)}, updated ${new Date().toLocaleString()}</p>
+<h1>Illustrations: ${escapeHtml(setName)}</h1><p class="muted">${escapeHtml(model)}, quality ${escapeHtml(quality)}, texts: ${escapeHtml(variantKeys.join(', '))}, updated ${new Date().toLocaleString()}</p>
 <figure style="max-width:480px">${(await exists(`${STYLE_BASE}.webp`)) ? '<img src="_style/style.webp" alt="">' : '<div class="missing">style reference not generated yet</div>'}<figcaption class="muted">Style reference</figcaption></figure>
-<nav>${nav}</nav>${sections.join('\n')}
+<nav>${nav}</nav>${sections.map(({ html: section }) => section).join('\n')}
 </body></html>
 `
   await fs.writeFile(path.join(outDir, 'review.html'), html)
 }
 
-// Manifests for the stories in this run, and for stories made in earlier runs so the
+// Manifests for the stories in this run, and for stories made in earlier runs, so the
 // review page shows the whole set.
 async function writeOutputs() {
-  const manifests = []
+  const sections = []
   for (const story of allStories) {
     const selected = stories.includes(story)
-    if (!selected && !(await exists(path.join(outDir, story.storyId, 'illustrations.json'))))
-      continue
+    const manifest = path.join(outDir, story.storyId, `illustrations.${variantKeys[0]}.json`)
+    if (!selected && !(await exists(manifest))) continue
     try {
-      manifests.push(await writeManifest(story))
+      if (!selected) {
+        const { problems } = await validateStory(story)
+        if (problems.length) throw new Error(problems[0])
+      }
+      const files = await storyFiles(story)
+      await writeManifests(story, files)
+      sections.push({ story, files, html: reviewSection(story, files) })
     } catch (error) {
       if (selected) throw error
-      console.warn(`Could not update ${story.storyId}/illustrations.json: ${error.message}`)
+      console.warn(`Could not update ${story.storyId}: ${error.message}`)
     }
   }
-  await writeReview(manifests)
+  await writeReview(sections)
+  // index.json tells the reader which stories have pictures in this set.
+  const index = {
+    set: setName,
+    variants: variantKeys,
+    updatedAt: new Date().toISOString(),
+    stories: Object.fromEntries(
+      sections.map(({ story, files }) => [
+        story.storyId,
+        {
+          cover: files.cover,
+          pictures: story.illustrations.length,
+          done: Object.values(files.scenes).filter(Boolean).length,
+          manifests: Object.fromEntries(
+            variantKeys.map((key) => [key, `${story.storyId}/illustrations.${key}.json`]),
+          ),
+        },
+      ]),
+    ),
+  }
+  await fs.writeFile(path.join(outDir, 'index.json'), JSON.stringify(index, null, 2) + '\n')
 }
 
 // ---------------------------------------------------------------- run

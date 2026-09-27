@@ -1,0 +1,152 @@
+{
+  "storyId": "vesleaas",
+  "title": "Vesle Aase gåsepike",
+  "textFile": "public/content/stories/vesleaas/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.",
+  "palette": "Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.",
+  "cast": [
+    {
+      "slug": "vesle-aase",
+      "name": "Vesle Aase",
+      "promptName": "Vesle Aase",
+      "replacesPortrait": "vesle-aase",
+      "description": "En snill og rolig gåsepike som passer kongens gjess og tør å være ærlig, selv når andre prøver å skjule sannheten.",
+      "look": "A small, sturdy goose girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with neat blue and green patches, a crisp white apron, wooden clogs and a little patchwork sewing bag hanging from her apron string.",
+      "portrait": "Background: the Goose Meadow with white and grey geese."
+    },
+    {
+      "slug": "vesle-aase-brud",
+      "name": "Vesle Aase som brud",
+      "promptName": "Vesle Aase the Bride",
+      "description": "Vesle Aase på bryllupsdagen, i en ny kjole uten en eneste lapp og med ringen til kongssønnen på fingeren.",
+      "look": "A small, sturdy girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes and thick, straight eyebrows. Her thick dark-brown hair is pinned up under a small, glittering silver bridal crown with dangling spangles. She wears a new buttercup-yellow wedding dress without a single patch, embroidered with white daisies around the hem, soft white shoes and a slim gold ring with a tiny red stone on one finger.",
+      "portrait": "Background: the festive castle hall decorated with birch branches."
+    },
+    {
+      "slug": "kongssonnen-fra-england",
+      "name": "Kongssønnen fra England",
+      "promptName": "the Prince",
+      "replacesPortrait": "kongssonnen-fra-england",
+      "description": "En høflig prins som leter etter den snilleste og mest ærlige han kan gifte seg med, og som velger å handle rolig når han blir skuffet.",
+      "look": "A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.",
+      "portrait": "Background: the white timber castle with carved balconies."
+    },
+    {
+      "slug": "sannhetssteinen",
+      "name": "Sannhetssteinen",
+      "promptName": "the Truth Stone",
+      "replacesPortrait": "sannhetssteinen",
+      "description": "En liten blank stein som avslører om noen prøver å lure, og som hjelper prinsen å forstå hvem som er ærlig.",
+      "look": "A small, smooth, egg-shaped stone no bigger than a plum, polished so shiny that it gleams like a pearl: milky white with faint swirls of pale gold and rose inside. It has no face, but when it speaks or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight. It lies quite still, looking wise and quietly magical.",
+      "portrait": "Background: the worn wooden threshold of a painted door at night."
+    },
+    {
+      "slug": "den-tredje-prinsessa",
+      "name": "Den tredje prinsessa",
+      "promptName": "the Third Princess",
+      "replacesPortrait": "den-tredje-prinsessa",
+      "description": "En vakker prinsesse som blir urolig for at sannheten skal komme fram, og derfor prøver å bytte plass med Aase om natta.",
+      "look": "A tall, willowy princess of about eighteen with a long neck, a narrow face, high arched brows over big, anxious dark-brown eyes, a delicate little mouth and glossy chocolate-brown hair in long, bouncy ringlets tied back with a pearl-studded ribbon. She wears a small pearl tiara, pearl earrings and a long peacock-blue gown with puffed sleeves and a lace collar, and carries a large white feather fan that she likes to hide behind.",
+      "portrait": "Background: a castle balcony with pointed towers."
+    }
+  ],
+  "places": [
+    {
+      "slug": "gaaseenga",
+      "name": "the Goose Meadow",
+      "look": "A wide, gently sloping green meadow full of golden dandelions and white dandelion clocks, with a dusty country road running along its lower edge between grassy ditches. A few young birches in bright new leaf and a low grey stone wall stand in the meadow, and in the background rises the king's big white timber castle with carved wooden balconies and blue window frames."
+    }
+  ],
+  "cover": {
+    "prompt": "Vesle Aase sits cross-legged in the middle of the dusty road beside the Goose Meadow, sewing a small patched dress in her lap, and looks straight out at the viewer with a calm, knowing little smile. Nine geese, big and small, white and grey, waddle and nibble grass around her. Far away down the road, a tiny rider on a bay horse is coming. Soft spring light and dandelions everywhere.",
+    "characters": ["vesle-aase"],
+    "places": ["gaaseenga"],
+    "caption": "Vesle Aase sitter midt i veien og syr lapp på lapp og sting på sting.",
+    "alt": "Vesle Aase sitter midt i veien med en liten kjole med mange lapper i fanget. Rundt henne går gjessene og napper gress, og langt borte kommer en rytter."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "Da kom det en prins ridende.",
+      "characters": ["vesle-aase", "kongssonnen-fra-england"],
+      "places": ["gaaseenga"],
+      "prompt": "On the dusty road beside the Goose Meadow, Vesle Aase sits right in the middle of the road, sewing a small patched dress in her lap, while nine geese, big and small, white and grey, nibble grass in the ditches around her. The Prince has had to rein in his tall bay horse just in front of her and looks down in surprise, one eyebrow raised. She keeps on sewing, perfectly calm. Fresh spring morning light.",
+      "caption": "Kongssønnen må stoppe hesten, for vesle Aase flytter seg ikke.",
+      "alt": "Vesle Aase sitter midt i veien og syr på en liten kjole med mange lapper. Rundt henne napper gjessene gress. Kongssønnen har stoppet hesten sin rett foran henne."
+    },
+    {
+      "id": "02",
+      "paragraph": 9,
+      "anchor": "«Henne!» sa han.",
+      "characters": ["kongssonnen-fra-england"],
+      "prompt": "In a sunny castle hall, fourteen painted portraits of different princesses in golden frames stand propped on easels and chairs and lean against the walls. The Prince slumps in a big armchair with tired, heavy eyes after three days of looking, and points firmly at one portrait: a plump princess with pale-blonde hair piled up high with a big bow on top, in a frilly peach-pink gown. On a little table beside him, a candle has burned right down to a stub.",
+      "caption": "I tre dager ser kongssønnen på bilder av prinsesser. Så peker han: «Henne!»",
+      "alt": "Kongssønnen sitter i en stor stol i en sal full av malte bilder av prinsesser. Han er trøtt, men peker bestemt på ett av bildene."
+    },
+    {
+      "id": "03",
+      "paragraph": 19,
+      "anchor": "«Ei som er ærlig tvers igjennom!» sa sannhetssteinen.",
+      "characters": ["vesle-aase", "kongssonnen-fra-england", "sannhetssteinen"],
+      "prompt": "Night in the dark castle corridor. Vesle Aase tiptoes in her stockings through the painted door of the fine bedchamber, carrying her clogs in one hand, and steps right over the Truth Stone on the worn threshold. The stone glows warm gold, lighting up her feet and the door frame. A few steps away in the shadows stands the Prince, listening with a pleased smile. Only the stone's glow and a little blue moonlight from a small window light the scene.",
+      "caption": "«Ei som er ærlig tvers igjennom!» sier sannhetssteinen.",
+      "alt": "I en mørk gang lister vesle Aase seg inn i kammeret og går over den lille steinen, som lyser gyllent. Kongssønnen står i skyggen og hører etter."
+    },
+    {
+      "id": "04",
+      "paragraph": 27,
+      "anchor": "«Takk for besøket», sa han høflig.",
+      "characters": ["kongssonnen-fra-england"],
+      "prompt": "In front of the white timber castle on a bright morning, two servants in blue livery stagger towards a waiting carriage with a huge, bulging travel trunk between them. The Prince stands on the front steps and bows politely, one hand on his heart. The first princess, plump, with pale-blonde hair piled up high with a big bow on top and a frilly peach-pink gown, hurries after her trunk with red cheeks. Two white horses wait in front of the carriage.",
+      "caption": "«Takk for besøket», sier kongssønnen høflig.",
+      "alt": "To tjenere bærer en stor koffert ut til vogna. Kongssønnen bukker høflig på trappa, og prinsessa skynder seg etter med røde kinn."
+    },
+    {
+      "id": "05",
+      "paragraph": 37,
+      "anchor": "Nå var kongssønnen nesten lei.",
+      "characters": ["kongssonnen-fra-england", "den-tredje-prinsessa"],
+      "prompt": "A long road winds over green, rolling hills towards a faraway castle with pointed towers. The Prince's tall bay horse plods along with drooping ears, half-closed eyes and its tongue hanging out, and the Prince slumps wearily in the saddle. But ahead, on a balcony of the castle, the Third Princess waves her white feather fan at him, and he perks up with a hopeful smile. Soft afternoon light.",
+      "caption": "Han reiser så langt at hesten blir lei den også.",
+      "alt": "Kongssønnen sitter sliten på en hest som henger med ørene og har tunga ute. Langt fremme står den tredje prinsessa på en balkong og vinker til ham."
+    },
+    {
+      "id": "06",
+      "paragraph": 51,
+      "anchor": "Da alle sov, listet han seg inn i kammeret med et lys i hånda.",
+      "characters": ["kongssonnen-fra-england", "vesle-aase", "sannhetssteinen"],
+      "prompt": "Inside the dark bedchamber at night, lit only by the candle in the Prince's hand, Vesle Aase lies fast asleep in a big carved bed under a white eiderdown, with a wreath of meadow flowers in her dark hair and one hand resting on the cover. The Prince bends over her and very carefully slides his small gold ring onto her finger. By the half-open painted door, the Truth Stone glows softly on the threshold. Hushed, gentle and tender.",
+      "caption": "Kongssønnen setter ringen sin forsiktig på fingeren til jenta som sover.",
+      "alt": "Kongssønnen står med et lys i hånda og setter ringen sin på fingeren til ei jente som sover med en krans av engblomster i håret. Ved døra lyser den lille steinen."
+    },
+    {
+      "id": "07",
+      "paragraph": 58,
+      "anchor": "Kongssønnen så på hendene til prinsessa.",
+      "characters": ["kongssonnen-fra-england", "den-tredje-prinsessa", "sannhetssteinen"],
+      "prompt": "Morning light in the corridor outside the painted bedchamber door. The Third Princess holds her hands nervously in front of her, and the Prince bends to peer closely at her fingers: no ring anywhere! He raises one eyebrow. She forces a nervous little smile, her feather fan tucked under one arm. On the threshold behind them, the Truth Stone gives a soft, knowing glow.",
+      "caption": "Kongssønnen ser på hendene til prinsessa. Ingen ring!",
+      "alt": "Kongssønnen bøyer seg og ser nøye på fingrene til den tredje prinsessa, men det er ingen ring der. Prinsessa smiler nervøst."
+    },
+    {
+      "id": "08",
+      "paragraph": 70,
+      "anchor": "Aase ristet på hodet.",
+      "characters": ["vesle-aase", "kongssonnen-fra-england"],
+      "places": ["gaaseenga"],
+      "prompt": "In the sunny Goose Meadow, the Prince kneels in the grass beside Vesle Aase and gently lifts a strip of rag from her finger. There on her finger sits his small gold ring, glittering in the sun. Aase sits very still, half shy and half proud. Seven curious geese crane their necks to see, and dandelions shine all around them. Bright spring light.",
+      "caption": "Og der, på fingeren hennes, sitter ringen hans og glitrer i sola.",
+      "alt": "Kongssønnen kneler i gresset ved vesle Aase og løfter forsiktig på filla rundt fingeren hennes. Der glitrer ringen hans. Gjessene strekker hals for å se."
+    },
+    {
+      "id": "09",
+      "paragraph": 73,
+      "anchor": "Så ble det bryllup på slottet.",
+      "characters": ["vesle-aase-brud", "kongssonnen-fra-england"],
+      "prompt": "A festive castle hall decorated with birch branches and spring flowers. Vesle Aase the Bride and the Prince stand hand in hand at the front, beaming. In the front row of wooden benches sit eight geese, white and grey, big and small, very proud and upright. Behind them ten smiling guests in their finest clothes clap their hands. Sunlight streams in through tall windows.",
+      "caption": "Vesle Aase får en kjole uten en eneste lapp, og gjessene sitter på første rad.",
+      "alt": "Vesle Aase står i en ny kjole uten lapper og holder kongssønnen i hånda. På første rad sitter gjessene, og bak dem klapper gjestene."
+    }
+  ]
+}

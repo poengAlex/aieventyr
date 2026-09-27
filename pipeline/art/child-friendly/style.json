@@ -1,9 +1,10 @@
 {
   "name": "Barnevennlig: nordisk bildebok",
+  "variants": ["child-friendly"],
   "model": "gpt-image-2.5-flare",
   "quality": "high",
   "concurrency": 3,
-  "outputDir": "pipeline/art-output/child-friendly",
+  "outputDir": "public/content/art/child-friendly",
   "webpQuality": 88,
   "sizes": {
     "style": "1536x1024",

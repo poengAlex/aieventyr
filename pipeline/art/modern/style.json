@@ -1,0 +1,55 @@
+{
+  "name": "Moderne: eventyr i dagens Norge",
+  "variants": ["modern"],
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "concurrency": 3,
+  "outputDir": "public/content/art/modern",
+  "webpQuality": 88,
+  "sizes": {
+    "style": "1536x1024",
+    "characters": "1536x1024",
+    "places": "1536x1024",
+    "portraits": "1024x1024",
+    "covers": "1024x1024",
+    "scenes": "1536x1024"
+  },
+  "styleReferenceFor": ["characters", "places"],
+  "similarLookThreshold": 0.3,
+  "style": "Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of deep teal, petrol blue, coral red, mustard yellow, sage green, warm off-white and charcoal, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. Not photorealistic, not 3D, not anime, no glossy digital look.",
+  "styleAnchor": "Create the style reference for a series of modern Norwegian fairy-tale retellings: one full-page illustration of a small fjord town at a clear winter dusk, with a quay and a moored car ferry, a row of wooden houses in muted colours with lit windows, a wet road with one parked car, and snowy mountains across the fjord. No people, animals or trolls, and no signs or writing. The picture shows off the flat shapes, the grain texture, the limited palette and the light.",
+  "characterSheet": "Create a character model sheet for an illustrated book of modern fairy tales. Show the same character three times side by side at the same scale: a front view, a three-quarter view and a side view, each full body from head to feet, standing in a natural, relaxed pose. Plain warm off-white background with a soft shadow on the ground. No scenery and no other characters. Only the props the description names. Even light, so the face, hair, colours and clothes are easy to see.",
+  "placeSheet": "Create a setting reference illustration for an illustrated book of modern fairy tales: one wide, clear view of the place described below, in daylight. No people, animals or trolls, and no signs or writing. The picture will be used to keep this place the same in every illustration, so show its shape, buildings, landforms and colours clearly.",
+  "portrait": "Create a portrait of {name} for the character gallery of an illustrated book of modern fairy tales: {name} from the waist up (full body for animals and small creatures), turned slightly towards the viewer with a characteristic expression, in front of a simple background from the story world.",
+  "cover": "Create the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.",
+  "scene": "Create one new illustration for an illustrated book of modern fairy tales, showing the moment described below.",
+  "rules": [
+    "No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.",
+    "Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.",
+    "Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury."
+  ],
+  "pictureRules": [
+    "Draw each named character only once.",
+    "Show exactly the number of people, animals and things the description asks for, and no extra people.",
+    "One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  ],
+  "softenOnModeration": "Keep this picture suitable for all ages: show the moment just before or just after any violence, with nobody hurt, no blood and no weapon striking anyone.",
+  "extraParams": {},
+  "extraEditParams": {},
+  "pricesUSDPerMillionTokens": {
+    "textInput": 5,
+    "imageInput": 8,
+    "imageOutput": 30
+  },
+  "estimate": {
+    "perImageUSDAt1024": {
+      "low": 0.006,
+      "medium": 0.013,
+      "high": 0.053,
+      "xhigh": 0.105,
+      "max": 0.211
+    },
+    "perReferenceUSD": 0.05,
+    "perPromptUSD": 0.008
+  }
+}
