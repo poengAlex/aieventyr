@@ -1,0 +1,143 @@
+{
+  "storyId": "asketrol",
+  "title": "Askeladden som kappåt med trollet",
+  "textFile": "public/content/stories/asketrol/modern/story.txt",
+  "world": "Present-day Norway. A small, run-down farm with a red farmhouse, a barn and a cramped kitchen with an old wood stove, where the letters from the bank pile up on the table. Up the hillside behind lies the farm's forest plot, steep and dark with old spruce, with a gravel forest road below it. The troll lives inside the mountain above, behind a stone door that slides aside. Inside, everything is far too big: a fireplace you could park a tractor in, benches as high as Askeladden's chest, a table made of one single stone slab, two iron buckets as big as barrels and a porridge pot deeper than he is tall. Askeladden's cheese is a small, round, soft white fresh cheese in baking paper. The chainsaws are two old orange chainsaws.",
+  "palette": "A grey, damp October: dark spruce, rust-orange birch leaves, wet green moss and cool grey mist on the hillside, with blue dusk falling early between the trunks. Inside the mountain: warm, flickering firelight on rough grey stone. In the farmhouse kitchen at night: one warm lamp over the table and gold glittering in its light.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "promptName": "Askeladden",
+      "replacesPortrait": "askeladden",
+      "description": "Den yngste sønnen som virker undervurdert, men som møter farer med ro, rask tenkning og frekke bløffer.",
+      "look": "A small, wiry lad of about sixteen, shorter than most, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, worn jeans, thick oatmeal-coloured wool socks and scuffed brown hiking boots, and carries a small, worn brown canvas backpack.",
+      "portrait": "Background: the misty spruce forest in October."
+    },
+    {
+      "slug": "trollet",
+      "name": "Trollet",
+      "promptName": "the Troll",
+      "replacesPortrait": "trollet",
+      "description": "En gigantisk skogvokter som truer alle som hogger, lett å skremme med det den tror er overmenneskelig styrke, og drevet av stolthet.",
+      "look": "A huge forest troll as big as a delivery van, grey and bristly all over, with cracked grey skin like an old pine trunk, a shaggy, bristly grey haystack of hair full of twigs and moss, a potato nose, eyes like two wet dark stones in a stream, an enormous mouth that stretches from ear to ear with big square teeth, long dangling arms, hands like upturned tree roots and a huge, round belly. He wears baggy, patched sackcloth trousers held up by braces of twisted roots.",
+      "portrait": "Background: dark spruces in grey mist."
+    },
+    {
+      "slug": "faren",
+      "name": "Faren",
+      "promptName": "the Father",
+      "replacesPortrait": "faren",
+      "description": "Eldre bonde presset av gjeld og regninger, hard i ordene av bekymring, men med et sterkt ønske om å beholde gården.",
+      "look": "A short, stocky, bow-legged old farmer of about seventy with a stiff back, a broad, weather-beaten, wrinkled face, a big bulbous nose, small eyes under shaggy grey eyebrows and a thick, bristly grey beard cut short and square. He wears reading glasses far down his nose, a patched grey-blue wool cardigan with horn buttons over a checked flannel shirt, brown work trousers with braces and thick grey wool socks.",
+      "portrait": "Background: the farmhouse kitchen with the old wood stove."
+    },
+    {
+      "slug": "eldstebror",
+      "name": "Eldstebror",
+      "promptName": "the Eldest Brother",
+      "replacesPortrait": "eldstebror",
+      "description": "Den eldste sønnen som heller utsetter arbeidet, og som blir skremt fra skogen ved første møte med trollet.",
+      "look": "A hulking, broad-shouldered young man of about twenty-two with a thick neck, a broad, flat face, a crooked nose, small pale-blue eyes, heavy black eyebrows and short, bristly black hair cropped close to his head. He wears a shaggy, sheepskin-lined sleeveless vest over a grey hoodie, baggy brown cargo trousers and heavy black boots.",
+      "portrait": "Background: the gravel forest road below the spruce plot."
+    },
+    {
+      "slug": "mellombror",
+      "name": "Mellombror",
+      "promptName": "the Middle Brother",
+      "description": "Den mellomste sønnen, som skal starte et enda bedre firma enn broren, men som også slipper saga og løper fra trollet.",
+      "look": "A thin, jittery young man of about twenty with a long neck, a narrow face, a long pointed nose, big worried eyes and frizzy light-brown hair. On his head sits a long, floppy, bright-yellow knitted beanie with a blue tassel. He wears a baggy blue hoodie, patched grey tracksuit trousers and wooden clogs.",
+      "portrait": "Background: the farmhouse kitchen."
+    }
+  ],
+  "places": [
+    {
+      "slug": "granteigen",
+      "name": "the Old Spruce",
+      "look": "A steep, dark stand of old spruce on a hillside above a small farm: in the middle, one huge old spruce with long grey beards of lichen hanging from its branches, surrounded by mossy boulders, ferns and a few rust-orange birches, with a gravel forest road and a red barrier below. Grey October mist hangs between the trunks."
+    }
+  ],
+  "cover": {
+    "prompt": "Askeladden strides up the gravel forest road into the misty spruce forest with an old orange chainsaw in one hand and his backpack on, whistling, not a bit afraid. Behind him, half-hidden among the dark spruces, the Troll leans out from between the trunks, as big as a delivery van, and peers down at him with curious eyes. Rust-orange birch leaves drift through the grey October mist.",
+    "characters": ["askeladden", "trollet"],
+    "caption": "Askeladden går opp i skogteigen, og han er ikke det minste redd for troll.",
+    "alt": "Askeladden går opp skogsbilveien med en motorsag og sekken på ryggen. Bak ham, mellom grantrærne, kikker et stort, grått troll fram."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 6,
+      "anchor": "Der sto et troll.",
+      "characters": ["eldstebror", "trollet"],
+      "places": ["granteigen"],
+      "prompt": "At the Old Spruce on a grey October morning, the Eldest Brother stands with his father's old orange chainsaw buzzing in his hands, the blade in the trunk, and has just turned round to find the Troll right behind him, as big as a delivery van, grey and bristly, staring down with eyes like two wet stones. The Eldest Brother's face has gone chalk-white.",
+      "caption": "Der sto et troll. Han var på størrelse med en varebil, grå og bustete.",
+      "alt": "Eldstebror står med motorsaga ved en gammel gran med langt lavskjegg. Bak ham står et grått, bustete troll på størrelse med en varebil og stirrer på ham."
+    },
+    {
+      "id": "02",
+      "paragraph": 18,
+      "anchor": "Brødrene lo.",
+      "characters": ["askeladden", "eldstebror", "mellombror", "faren"],
+      "prompt": "In the cramped farmhouse kitchen, Askeladden has risen from his stool by the old wood stove, the poker still in his hand, and quietly says he can go. At the kitchen table, the Eldest Brother and the Middle Brother lean back and laugh at him, and the Father looks up from his coffee cup over a pile of envelopes from the bank. Grey morning light at the window.",
+      "caption": "Brødrene lo. «Du? Du har jo knapt vært utenfor døra.»",
+      "alt": "Askeladden reiser seg fra vedovnen med ildraken i hånda. Ved kjøkkenbordet ler de to brødrene av ham, og faren ser opp fra kaffen og bunken med brev fra banken."
+    },
+    {
+      "id": "03",
+      "paragraph": 25,
+      "anchor": "Askeladden slo av saga og satte den fra seg.",
+      "characters": ["askeladden", "trollet"],
+      "places": ["granteigen"],
+      "prompt": "At the Old Spruce, Askeladden has switched off his chainsaw and set it down in the moss next to the other one. He holds up the small, round white cheese for the Troll to see and squeezes it, so that whey spurts out between his fingers and drips into the moss. The Troll stops dead above him, staring at the white stone and then at his own huge fist. Grey mist between the trunks.",
+      "caption": "Så klemte han. Mysa sprutet ut mellom fingrene og dryppet ned i mosen.",
+      "alt": "Askeladden holder opp en liten, hvit ost og klemmer så mysa spruter mellom fingrene. Trollet stopper og stirrer. I mosen ligger to motorsager."
+    },
+    {
+      "id": "04",
+      "paragraph": 31,
+      "anchor": "Og hogge kunne han.",
+      "characters": ["trollet", "askeladden"],
+      "places": ["granteigen"],
+      "prompt": "On the steep hillside by the Old Spruce, the Troll twists a whole spruce out of the ground with his bare hands, roots and all, while another lies at his feet stripped of its branches. Along the gravel forest road below, neat stacks of logs stretch away. Askeladden sits on a stump with his backpack beside him and his arms crossed, supervising. Blue dusk is falling between the trunks.",
+      "caption": "Han trengte ingen sag. Han vred grantrærne løs med bare hendene.",
+      "alt": "Trollet vrir et helt grantre løs med bare hendene. Langs skogsbilveien ligger tømmeret i pene lunner, og Askeladden sitter på en stubbe og følger med."
+    },
+    {
+      "id": "05",
+      "paragraph": 37,
+      "anchor": "«Det er ikke verdt bryet å gå med de fingerbølene», sa han.",
+      "characters": ["askeladden", "trollet"],
+      "prompt": "Inside the mountain, in the troll's hall where everything is far too big, Askeladden stands between two iron buckets as tall as his chest and waves a hand at them as if they were silly little thimbles. By a fireplace big enough to park a tractor in, the Troll, who was crouching to light the fire, spins round in alarm with his huge hands raised. Warm firelight on grey stone.",
+      "caption": "«Jeg tar heller med meg hele brønnen.»",
+      "alt": "Inne i fjellet står Askeladden mellom to jernbøtter som rekker ham til brystet og vifter med hånda. Ved den enorme peisen snur trollet seg forskrekket."
+    },
+    {
+      "id": "06",
+      "paragraph": 43,
+      "anchor": "Da sekken var full, tok han fram tollekniven",
+      "characters": ["askeladden", "trollet"],
+      "prompt": "At the troll's table, one single huge stone slab, seen low from the side so both above and below the tabletop show: Askeladden sits calmly on the chest-high bench with his backpack tied to his belt under the table edge, and has just slit its bottom with his pocket knife, so porridge oozes out into a sticky puddle on the floor. Beside him the Troll shovels porridge from a huge bowl like a snowblower.",
+      "caption": "Grøten rant ut og la seg i en klissete dam på gulvet.",
+      "alt": "Askeladden sitter ved det store steinbordet med sekken bundet under bordkanten, og grøten renner ut av en flenge i bunnen. Ved siden av ham spiser trollet som en snøfreser."
+    },
+    {
+      "id": "07",
+      "paragraph": 53,
+      "anchor": "Askeladden hentet trillebåra på låven.",
+      "characters": ["askeladden"],
+      "prompt": "Late at night on the gravel forest road below the dark mountain, Askeladden pushes a creaking old wheelbarrow piled high with iron-bound chests of silver, tangled gold jewellery and a battered suitcase, down towards the single lit window of the little farm far below. Moonlight and thin mist between the spruces.",
+      "caption": "Askeladden hentet trillebåra på låven. Det ble tre turer den natta.",
+      "alt": "Om natten triller Askeladden en trillebår full av kister med sølv, gullsmykker og en koffert nedover skogsbilveien mot gården."
+    },
+    {
+      "id": "08",
+      "paragraph": 61,
+      "anchor": "Faren hørte ikke på noen av dem.",
+      "characters": ["faren", "askeladden", "eldstebror", "mellombror"],
+      "prompt": "In the farmhouse kitchen late at night, the table is covered in open chests of silver, a battered suitcase and gold coins scattered over a spread of bills, glittering under the lamp. The Father smooths out one crumpled bill and lays it neatly aside, his tired face finally relaxing. Askeladden stands by the table with a small smile, and on the stairs the Eldest Brother and the Middle Brother stand in their socks, grumbling.",
+      "caption": "Noe i ansiktet hans som hadde vært spent i mange år, slapp taket.",
+      "alt": "Kjøkkenbordet er fullt av kister, en koffert og gullmynter over regningene. Faren glatter ut en purring og legger den pent til side. Askeladden smiler, og brødrene står i trappa."
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "storyId": "tentland",
+  "variants": {
+    "simplified": {
+      "title": "De tre prinsessene i Hvittenland",
+      "textFile": "public/content/stories/tentland/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Three Princesses in Whiteland",
+      "textFile": "public/content/stories/tentland/english/story.txt"
+    }
+  },
+  "world": "Old Norway by the sea. The fisherman's small grey log cottage with a turf roof stands on the rocky shore right below the royal castle, a long hall of dark timber and grey stone. His boat is a small, tarred, dark-brown rowing boat with two oars. Far across the sea lies Whiteland, whose shore is sand as white as snow, with a dark spruce forest behind it and, in the forest, a grim grey castle with two lions in its gateway. The wishing ring is a plain gold ring, and the ring the queen ties into his hair is a tiny gold ring. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are long and wooden, with curled tips.",
+  "palette": "The cold, clear light of the far north in winter: a copper-red sunset over a dark sea at the start, then the snow-white shore of Whiteland under a pale pearl-grey sky, spruce forest heavy with snow and long blue twilights. On the long journey: deep snow on blue mountains, a steel-grey sea and wild, racing storm clouds with flying snow. Accents: the queen’s sky blue and the gold of rings and crowns.",
+  "cast": [
+    {
+      "slug": "gutten",
+      "promptName": "the Fisher Lad",
+      "look": "A sturdy, broad-shouldered young man of about twenty with an open, square face, a strong nose with a small bump, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble on his cheeks and chin. He wears a thick, cream-coloured hand-knitted wool sweater with a cabled pattern, dark-blue homespun breeches and knee-high boots of tan leather, and a red handkerchief with white spots pokes out of his pocket.",
+      "portrait": "Background: the snow-white shore of Whiteland.",
+      "variants": {
+        "simplified": {
+          "name": "Fiskergutten som blir konge",
+          "description": "En modig og utholdende gutt oppdratt ved slottet, som kaster seg ut i prøvelser for å redde prinsessene og senere reiser verden rundt for å vinne dronningen tilbake.",
+          "replacesPortrait": "fiskergutten-som-blir-konge"
+        },
+        "english": {
+          "name": "The Fisherman’s Son (Young King)",
+          "description": "A fisherman’s child raised by the king, brave enough to endure trolls’ torment to free the princesses, yet fated to lose and reclaim his queen through hard-won wisdom.",
+          "replacesPortrait": "fishermans-son-young-king"
+        }
+      }
+    },
+    {
+      "slug": "den-unge-kongen",
+      "promptName": "the Young King",
+      "look": "A sturdy, broad-shouldered young king of about twenty-one with an open, square face, a strong nose with a small bump, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble. He wears a small, plain gold crown with five points and a long white wool cloak bordered with silver embroidery of little waves over a thick cream cabled sweater, dark-blue breeches and knee-high boots of tan leather.",
+      "portrait": "Background: snowy blue mountains under a pale sky.",
+      "variants": {
+        "simplified": {
+          "name": "Den unge kongen",
+          "description": "Fiskergutten når han har fått den yngste prinsessen til dronning. Han bryter løftet sitt og må lete i hele verden etter veien tilbake til Hvittenland."
+        },
+        "english": {
+          "name": "The Young King",
+          "description": "The fisherman’s son once the youngest princess has made him her king. He breaks his promise and must search the whole world for the way back to Whiteland."
+        }
+      }
+    },
+    {
+      "slug": "fiskeren",
+      "promptName": "the Fisherman",
+      "look": "A lean, wiry fisherman of about forty-five with a long, weather-beaten face, deep laughter lines, a sharp nose, kind, crinkly blue eyes and a long, drooping black moustache but no beard. He wears a round, brimless sealskin cap, a thick grey wool jumper under a long, stiff apron of dark oiled leather, grey breeches tucked into heavy wooden-soled boots, and a coil of fishing line at his belt.",
+      "portrait": "Background: his little rowing boat on a copper-red evening sea.",
+      "variants": {
+        "simplified": {
+          "name": "Fiskeren",
+          "description": "Guttens far, som fisker til kongens bord og lover bort det han ikke vet at kona bærer under beltet."
+        },
+        "english": {
+          "name": "The Fisherman",
+          "description": "The boy’s father, who fishes for the king’s table and promises away what he doesn’t know his wife is carrying."
+        }
+      }
+    },
+    {
+      "slug": "den-yngste-prinsessen",
+      "promptName": "the Youngest Princess",
+      "look": "A calm, thoughtful princess of about nineteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. A thin silver circlet with one pearl rests on her brow. She wears a plain sky-blue wool dress with long, close-fitting sleeves, a narrow belt of silver links and a hem sewn with small silver stars.",
+      "portrait": "Background: the snow-white shore and a cold grey sea.",
+      "variants": {
+        "simplified": {
+          "name": "Den yngste prinsessen (dronningen av Hvittenland)",
+          "description": "Den klokeste av de tre prinsessene, som vet hvordan trollene kan overvinnes, gir ham råd og en ring med to ønsker, og blir først borte når han bryter løftet.",
+          "replacesPortrait": "yngste-prinsessen-dronningen"
+        },
+        "english": {
+          "name": "The Youngest Princess of Whiteland (The Queen)",
+          "description": "The cleverest of the three sisters, she guides the hero through the trolls’ trial, becomes his queen, and sets the crucial condition he tragically breaks.",
+          "replacesPortrait": "youngest-princess-queen"
+        }
+      }
+    },
+    {
+      "slug": "dronningen",
+      "promptName": "the Queen",
+      "look": "A calm young queen of about nineteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. She wears a tall gold crown set with pale-blue stones, a sky-blue gown with a bodice laced with silver cord and a long train, and a short white fur cape fastened with a round silver clasp.",
+      "portrait": "Background: a bright castle hall with tall windows.",
+      "variants": {
+        "simplified": {
+          "name": "Dronningen av Hvittenland",
+          "description": "Den yngste prinsessen som dronning. Hun gir den unge kongen en ønskering, men må reise hjem igjen når han bryter løftet sitt."
+        },
+        "english": {
+          "name": "The Queen of Whiteland",
+          "description": "The youngest princess as queen. She gives the young king a wishing ring, but must go home when he breaks his promise."
+        }
+      }
+    },
+    {
+      "slug": "trollet-med-ni-hoder",
+      "promptName": "the Nine-Headed Troll",
+      "look": "An enormous troll that fills a room up to the ceiling, with a huge, round, lumpy body of pale, chalky-cream hide blotched with big peat-brown patches like an old birch stump, stumpy legs and big round hands. Nine heads grow in a ring around the top of its body like a crown of boulders, each with a broad pinkish snout, small sleepy brown eyes, floppy ears and a wide mouth. It wears a huge, ragged smock of faded red-and-white checked homespun.",
+      "portrait": "Background: the small dark room in the troll castle, lit by one candle.",
+      "variants": {
+        "simplified": {
+          "name": "Det ni-hodede trollet",
+          "description": "Den farligste av trollene som holder prinsessene fanget, pisker gutten til han besvimer og prøver å knuse ham, men blir til slutt hugget ned.",
+          "replacesPortrait": "det-ni-hodede-trollet"
+        },
+        "english": {
+          "name": "The Nine-Headed Troll",
+          "description": "The worst of the three trolls who buried the princesses. It whips the boy until he faints, but its own fury breaks the jar of ointment that saves him."
+        }
+      }
+    },
+    {
+      "slug": "nordavinden",
+      "promptName": "the North Wind",
+      "look": "A tall, lean, long-limbed storm giant, three times as tall as a man, with a long, bony, windburnt face, hollow cheeks, a long thin nose, a wide mouth pursed to blow and bright, shining silver eyes. His wild, tangled slate-grey hair and long, wispy beard stream sideways as if in a gale. He wears a huge, billowing cloak made of dark-grey storm clouds, torn into ragged wisps at the edges, and from the knees down he fades into swirling grey mist.",
+      "portrait": "Background: a stormy grey sky above the sea.",
+      "variants": {
+        "simplified": {
+          "name": "Nordavinden",
+          "description": "En mektig, personifisert vind som hjelper den unge kongen ved å skape storm ved slottet og blåse rivalen bort.",
+          "replacesPortrait": "nordavinden"
+        },
+        "english": {
+          "name": "The North Wind",
+          "description": "A roaring, personified force of nature who helps the young king drive away the false suitor and reclaim the castle.",
+          "replacesPortrait": "north-wind"
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "slottet-i-skogen",
+      "name": "the Forest Castle",
+      "look": "A grim old castle of grey stone standing in dark spruce forest just behind a shore of snow-white sand: steep dark roofs, three narrow towers, small deep-set windows and a high outer wall with a wide arched gateway. Inside the wall, a broad flight of stone steps leads up to a heavy arched oak door. Snow lies on the roofs and on the spruces all around."
+    }
+  ],
+  "cover": {
+    "prompt": "High above a dark, heaving sea under racing storm clouds, the North Wind strides through the sky with his cloud cloak streaming and bends down to talk to the Young King, who flies beside him in a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, a tiny gold ring glinting in his hair. Far ahead on the horizon gleams a shore as white as snow.",
+    "characters": ["den-unge-kongen", "nordavinden"],
+    "variants": {
+      "simplified": {
+        "caption": "Den unge kongen farer gjennom luften sammen med Nordavinden.",
+        "alt": "Nordavinden, en diger skikkelse i en kappe av stormskyer, farer gjennom luften over et mørkt hav sammen med den unge kongen, som har grå hatt, kappe og støvler."
+      },
+      "english": {
+        "caption": "The young king flies through the air with the North Wind.",
+        "alt": "The North Wind, a giant figure in a cloak of storm clouds, flies through the air over a dark sea beside the young king, who wears a grey hat, cloak and boots."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["fiskeren"],
+      "prompt": "At dusk on a calm, copper-red sea, the Fisherman sits in his small tarred rowing boat, which is brimming with glittering fish, and hauls in a line with a fish on every hook. Beside the boat, a huge, strange head with long seaweed for hair and barnacles in its green beard is sinking back into the dark water with a sly smile. Far behind, on the rocky shore, stand a small turf-roofed cottage and the dark royal castle.",
+      "variants": {
+        "simplified": {
+          "paragraph": 2,
+          "anchor": "Fiskeren sa ja med en gang.",
+          "caption": "Fra den dagen av hang det fisk på hver krok, så mye han ville ha.",
+          "alt": "Fiskeren sitter i båten sin, som er full av blank fisk, og drar inn ei line med fisk på hver krok. Ved siden av båten synker et underlig hode med tang i håret ned i vannet."
+        },
+        "english": {
+          "paragraph": 2,
+          "anchor": "The fisherman said yes on the spot.",
+          "caption": "From that day on there was a fish on every hook.",
+          "alt": "The fisherman sits in his boat, which is full of shining fish, hauling in a line with a fish on every hook. Beside the boat, a strange head with seaweed hair sinks back into the water."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["gutten", "fiskeren"],
+      "prompt": "Evening at the rocky shore below the castle. The little tarred rowing boat is racing out to sea all by itself, white foam churning around its bow, while the Fisher Lad pulls back on both oars with all his might, his face straining and his red spotted handkerchief in his fist. On the rocks at the water's edge, the Fisherman reaches out after him with one arm, shouting. The last red light fades over a cold, dark sea.",
+      "variants": {
+        "simplified": {
+          "paragraph": 7,
+          "anchor": "I samme øyeblikk begynte båten å gå.",
+          "caption": "Den gikk av seg selv, rett ut fra land, så det fosset om den.",
+          "alt": "Fiskergutten ror imot alt han kan, men båten farer ut fra land av seg selv. På berget står faren og roper og strekker armen etter ham."
+        },
+        "english": {
+          "paragraph": 7,
+          "anchor": "The moment his feet touched the boards, the boat began to move.",
+          "caption": "It went off on its own, straight out from the shore, with white foam churning around it.",
+          "alt": "The fisherman’s son pulls at the oars with all his might, but the boat speeds away from the shore by itself. On the rocks his father reaches out after him, shouting."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["gutten", "den-yngste-prinsessen"],
+      "places": ["slottet-i-skogen"],
+      "prompt": "On a long shore of snow-white sand under a pale, cold sky, three princesses are buried up to their chins in a row, only their heads showing. The two nearest, a haughty one with a high chocolate-brown ponytail and a round-faced one with a cloud of carrot-orange curls, call and beg after the Fisher Lad with pleading faces. He strides past them with his jaw set, heading for the third head, the Youngest Princess, who watches him calmly. Beyond the dunes, the Forest Castle rises from dark spruce.",
+      "variants": {
+        "simplified": {
+          "paragraph": 13,
+          "anchor": "Det gikk akkurat som den gamle hadde sagt.",
+          "caption": "Han bet tennene sammen og gikk forbi.",
+          "alt": "Tre prinsesser står nedgravd i den hvite sanden, så bare hodene stikker opp. De to første roper og ber, men fiskergutten går forbi dem, bort til den yngste."
+        },
+        "english": {
+          "paragraph": 13,
+          "anchor": "It happened just as the old man had said.",
+          "caption": "He set his jaw and walked on by.",
+          "alt": "Three princesses are buried in the white sand, only their heads showing. The first two call and beg, but the fisherman’s son walks past them to the youngest."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["gutten"],
+      "places": ["slottet-i-skogen"],
+      "prompt": "At the arched gateway of the Forest Castle, two great tawny lions with shaggy dark manes lie on either side of the path, as still as stone, following him with their yellow eyes. The Fisher Lad walks straight between them, looking neither left nor right, his back stiff and his hands clenched. Snow lies on the dark spruces around the grey walls in the cold blue dusk.",
+      "variants": {
+        "simplified": {
+          "paragraph": 19,
+          "anchor": "Gutten gjorde som hun sa.",
+          "caption": "Han gikk midt mellom løvene uten å se verken til høyre eller venstre.",
+          "alt": "To store løver ligger på hver sin side av porten til slottet. Fiskergutten går midt mellom dem uten å se verken til høyre eller venstre."
+        },
+        "english": {
+          "paragraph": 19,
+          "anchor": "The boy did as she said.",
+          "caption": "He walked right between the lions without looking left or right.",
+          "alt": "Two great lions lie on either side of the castle gate. The fisherman’s son walks straight between them without looking left or right."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["gutten", "trollet-med-ni-hoder"],
+      "prompt": "In a small, dark stone room lit by one candle, the Nine-Headed Troll fills the space up to the ceiling, nine bundles of birch rods drooping in its fists and all nine heads craning down in surprise. At the foot of the wall below, the Fisher Lad lies where he fell, and a clay jar has just smashed on the floor beside him: the ointment splashes over him with a soft golden glow, and his eyes are opening again. A sword hangs on the wall above him.",
+      "variants": {
+        "simplified": {
+          "paragraph": 22,
+          "anchor": "Den tredje natten kom det et troll med ni hoder og ni ris.",
+          "caption": "Krukken falt ned og knuste, og med ett var han like god igjen.",
+          "alt": "Det ni-hodede trollet fyller hele det mørke rommet. Gutten ligger ved veggen, og ved siden av ham har salvekrukken knust, så salven skvetter over ham og lyser."
+        },
+        "english": {
+          "paragraph": 22,
+          "anchor": "The third night a troll came with nine heads and nine bundles of rods.",
+          "caption": "Down came the jar, and in that instant he was as good as new.",
+          "alt": "The nine-headed troll fills the whole dark room. The boy lies by the wall, where the jar of ointment has just smashed beside him, splashing him with glowing ointment."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["den-unge-kongen", "fiskeren"],
+      "prompt": "Inside the fisherman's small, low cottage by the sea, the Young King has just appeared out of thin air in the middle of the floor, a plain gold ring on his finger. The Fisherman has jumped up from his stool with a net still in his hands, staring at his son in all his finery, and the fisherman's wife, a thin, gentle-faced woman with brown hair under a white kerchief, clasps her hands to her chest in wonder. Nets hang on the timber walls.",
+      "variants": {
+        "simplified": {
+          "paragraph": 27,
+          "anchor": "Det lovet han.",
+          "caption": "Foreldrene kunne ikke se seg mette på hvor staselig han var blitt.",
+          "alt": "Den unge kongen står plutselig midt på gulvet i den lille fiskerstua med ringen på fingeren. Fiskeren og konen hans ser forundret på ham."
+        },
+        "english": {
+          "paragraph": 27,
+          "anchor": "He promised.",
+          "caption": "His parents couldn’t get over how grand and fine he had become.",
+          "alt": "The young king suddenly stands in the middle of the little fisherman’s cottage with the ring on his finger. The fisherman and his wife stare at him in wonder."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["dronningen", "den-unge-kongen"],
+      "prompt": "In the old king's hall, the Queen, sad-eyed and pale, reaches up and ties a tiny gold ring into a lock of the Young King's hair; her figure is already growing faint at the edges, as if she were made of mist. The Young King stands with his head bowed in shame. On a tall throne behind them, the old king, a skinny, bald, clean-shaven man with a long pointed chin, a peacock-blue robe and a tall jewelled crown, glares at them.",
+      "variants": {
+        "simplified": {
+          "paragraph": 37,
+          "anchor": "Så knyttet hun en ring fast i håret hans, med navnet sitt på.",
+          "caption": "Så knyttet hun en ring fast i håret hans, med navnet sitt på.",
+          "alt": "Dronningen knytter en liten gullring fast i håret til den unge kongen, og hun begynner allerede å blekne bort. Den gamle kongen sitter på tronen og ser sint på dem."
+        },
+        "english": {
+          "paragraph": 36,
+          "anchor": "She tied a ring into his hair with her name on it.",
+          "caption": "She tied a ring into his hair with her name on it.",
+          "alt": "The Queen ties a tiny gold ring into the young king’s hair, and she is already beginning to fade away. The old king glares at them from his throne."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["den-unge-kongen"],
+      "prompt": "At the foot of a snowy mountain, an old man in a shaggy bearskin cloak blows a long, curved horn, and the animals of the forest come streaming through the snow from every side: brown bears, grey wolves, elk and red deer, foxes, lynxes and white hares, crowding round in a great ring. The Young King, a tiny gold ring glinting in his hair, stands in the middle with his cloak pulled tight, gazing at them in hope.",
+      "variants": {
+        "simplified": {
+          "paragraph": 43,
+          "anchor": "Så blåste han i hornet, og de kom fra alle kanter: bjørn og ulv, elg og hjort",
+          "caption": "De kom fra alle kanter: bjørn og ulv, elg og hjort, rev og gaupe og hare.",
+          "alt": "En gammel mann blåser i et langt horn, og bjørner, ulver, elg, hjort, rev, gauper og harer kommer fra alle kanter gjennom snøen. Den unge kongen står midt iblant dem."
+        },
+        "english": {
+          "paragraph": 42,
+          "anchor": "He blew his horn, and they came from every side—bears and wolves, elk and deer",
+          "caption": "They came from every side: bears and wolves, elk and deer, foxes and lynxes and hares.",
+          "alt": "An old man blows a long horn, and bears, wolves, elk, deer, foxes, lynxes and hares come through the snow from every side. The young king stands among them."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["den-unge-kongen"],
+      "prompt": "On a flat rock at the edge of a cold, steel-grey sea, a tall, thin old man in a sealskin cloak lowers his long horn, and the water in front of him boils with herring, cod and mackerel swimming round and round. Up through the middle, slow and heavy, rises a huge old pike as long as a rowing boat, olive-green with pale spots and weed trailing from her jaw. The Young King kneels at the edge of the rock and leans towards her.",
+      "variants": {
+        "simplified": {
+          "paragraph": 52,
+          "anchor": "Den tredje broren blåste i hornet sitt, og alle fiskene i havet kom svømmende, så det kokte i vannet.",
+          "caption": "Endelig kom en gammel, gammel gjedde.",
+          "alt": "Ved et kaldt, grått hav koker vannet av fisk, og en diger, gammel gjedde stiger opp midt iblant dem. Den unge kongen kneler på et berg og bøyer seg mot henne."
+        },
+        "english": {
+          "paragraph": 51,
+          "anchor": "The third brother blew his horn, and all the fish in the sea came swimming until the water boiled with them.",
+          "caption": "At last there came an old, old pike.",
+          "alt": "At the edge of a cold grey sea, the water boils with fish, and a huge old pike rises among them. The young king kneels on a rock, leaning towards her."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "characters": ["den-unge-kongen"],
+      "prompt": "Out on a wide brown bog with patches of snow, three ragged, ancient brothers with long, tangled white beards, who have been fighting for a hundred years, stop in the middle of a scuffle and gape. In front of them, the Young King, now wearing a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, is rising into the air and fading away like smoke, until the bog shows through him.",
+      "variants": {
+        "simplified": {
+          "paragraph": 59,
+          "anchor": "Og så ønsket han seg av sted.",
+          "caption": "Og så ønsket han seg av sted.",
+          "alt": "Tre eldgamle brødre med langt, hvitt skjegg står på myren og måper. Den unge kongen har fått på seg hatten, kappen og støvlene og forsvinner opp i luften."
+        },
+        "english": {
+          "paragraph": 58,
+          "anchor": "And with that he wished himself away.",
+          "caption": "And with that he wished himself away.",
+          "alt": "Three ancient brothers with long white beards stand on the bog and gape. The young king, in the hat, cloak and boots, vanishes into the air."
+        }
+      }
+    },
+    {
+      "id": "11",
+      "characters": ["den-unge-kongen", "nordavinden"],
+      "places": ["slottet-i-skogen"],
+      "prompt": "Snow whirls around the Forest Castle as the North Wind, towering above its roofs, blows a mighty blast that shakes the walls and carries a vain young prince in a fur-trimmed wedding coat tumbling head over heels up into the storm. On the stone steps by the door stands the Young King in the grey hat, cloak and boots, only a faint, see-through shimmer, brushing off his hands.",
+      "variants": {
+        "simplified": {
+          "paragraph": 64,
+          "anchor": "Kongen gjorde som Nordavinden sa.",
+          "caption": "Nordavinden grep ham og reiste av sted med ham.",
+          "alt": "Nordavinden blåser så snøen fyker rundt slottet, og prinsen som skulle gifte seg med dronningen, virvles opp i stormen. På trappen står den unge kongen, nesten usynlig."
+        },
+        "english": {
+          "paragraph": 63,
+          "anchor": "The king did as the North Wind said.",
+          "caption": "The North Wind caught him and carried him off.",
+          "alt": "The North Wind blows so hard that snow whirls around the castle, and the prince who was to marry the queen tumbles away into the storm. On the steps stands the young king, almost invisible."
+        }
+      }
+    },
+    {
+      "id": "12",
+      "characters": ["dronningen", "den-unge-kongen"],
+      "prompt": "In a bright hall of the castle, pale winter sun streaming through tall windows, the Young King, gaunt and pale from his long wandering, the grey hat in his hand, bows his head to show the tiny gold ring tied in his hair. The Queen, a white bridal veil over her golden hair, has just recognised him; she presses her hands to her cheeks, laughing and crying for joy.",
+      "variants": {
+        "simplified": {
+          "paragraph": 65,
+          "anchor": "Da han var kvitt ham, gikk kongen inn i slottet.",
+          "caption": "Da han viste henne ringen, ble hun hjertens glad.",
+          "alt": "Den unge kongen, mager og blek etter den lange vandringen, viser dronningen ringen i håret sitt. Dronningen har brudeslør og ler og gråter av glede."
+        },
+        "english": {
+          "paragraph": 64,
+          "anchor": "When he was rid of him, the king went into the castle.",
+          "caption": "When he showed her the ring, she was glad with all her heart.",
+          "alt": "The young king, thin and pale from his long wandering, shows the Queen the ring in his hair. The Queen, in a bridal veil, laughs and cries with joy."
+        }
+      }
+    }
+  ]
+}

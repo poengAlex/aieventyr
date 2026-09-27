@@ -1,0 +1,163 @@
+{
+  "storyId": "asketrol",
+  "variants": {
+    "simplified": {
+      "title": "Askeladden som kappåt med trollet",
+      "textFile": "public/content/stories/asketrol/simplified/story.txt"
+    },
+    "english": {
+      "title": "Askeladden Who Had an Eating Match with the Troll",
+      "textFile": "public/content/stories/asketrol/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, long ago. A poor old farmer lives with his three sons on a small farm with a low log cottage and a turf roof at the edge of a big forest of spruce and birch. Deep in the forest stands an old spruce with a long grey beard of lichen, and above it rises a steep, rocky mountain where the troll lives behind a heavy wooden door. Inside, everything is troll-sized: two iron buckets as big as barrels, a huge black iron pot over the fire, a long, rough plank table with a bench, giant wooden bowls and spoons as big as spades. Askeladden's cheese is small, round, soft and white, and fits in his hand. His knapsack is a small, worn brown leather knapsack. The brothers' axes are ordinary wood axes with short handles.",
+  "palette": "Misty autumn in a deep spruce forest: rust-red and orange birch leaves, golden ferns, dark spruces hung with grey lichen and cool grey mist drifting between the trunks in soft, pale daylight. Inside the mountain: warm amber firelight on rough brown rock. At the end, a cold, clear dawn over the valley.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "promptName": "Askeladden",
+      "look": "A small, wiry lad of about fourteen, shorter than most boys his age, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, dark-brown knee breeches, thick oatmeal-coloured wool stockings and scuffed brown boots, and carries a small, worn brown leather knapsack over one shoulder.",
+      "portrait": "Background: the misty autumn forest.",
+      "variants": {
+        "simplified": {
+          "name": "Askeladden",
+          "description": "Den yngste sønnen, rolig og kvikk i hodet, som bruker smarte knep for å vinne over trollet og skaffe penger til familien.",
+          "replacesPortrait": "askeladden"
+        },
+        "english": {
+          "name": "Askeladden",
+          "description": "The youngest son, underestimated at home but quick-witted enough to bluff a troll and turn danger into fortune.",
+          "replacesPortrait": "askeladden"
+        }
+      }
+    },
+    {
+      "slug": "trollet",
+      "promptName": "the Troll",
+      "look": "A giant forest troll three times as tall as a man, with cracked, bark-brown skin like an old pine trunk, a shaggy black haystack of hair full of twigs and dry leaves, a potato nose, small twinkly yellow eyes, an enormous mouth that stretches from ear to ear with big square teeth, long dangling arms and a huge, round belly. He wears baggy, patched sackcloth trousers held up by braces of twisted roots, and no shirt.",
+      "portrait": "Background: misty spruces and rust-red birches.",
+      "variants": {
+        "simplified": {
+          "name": "Trollet",
+          "description": "Et stort skogtroll som truer med å drepe den som hogger i skogen, men som lar seg lure av Askeladdens påfunn.",
+          "replacesPortrait": "trollet"
+        },
+        "english": {
+          "name": "The Troll",
+          "description": "A huge, territorial forest troll who threatens intruders but is easily led by pride and fear of the boy’s supposed strength.",
+          "replacesPortrait": "troll"
+        }
+      }
+    },
+    {
+      "slug": "eldste-bror",
+      "promptName": "the Eldest Brother",
+      "look": "A hulking, broad-shouldered young man of about twenty with a thick neck, a broad, flat face, a crooked nose, small pale-blue eyes, heavy black eyebrows and short, bristly black hair cropped close to his head. He wears a shaggy, sleeveless sheepskin vest over a rough grey homespun shirt, baggy brown trousers tied under the knees with leather laces and heavy black boots.",
+      "portrait": "Background: the edge of the forest by the farm.",
+      "variants": {
+        "simplified": {
+          "name": "Den eldste broren",
+          "description": "Askeladdens eldste bror, stor og sterk, som kaster fra seg øksa og løper hjem så fort trollet viser seg.",
+          "replacesPortrait": "de-to-eldste-brodrene"
+        },
+        "english": {
+          "name": "The Eldest Brother",
+          "description": "Askeladden’s big, strong eldest brother, who drops his axe and runs home the moment the troll appears.",
+          "replacesPortrait": "older-brothers"
+        }
+      }
+    }
+  ],
+  "cover": {
+    "prompt": "Askeladden strides along a narrow path through a misty autumn forest with an axe over his shoulder and his leather knapsack on his back, whistling, not a bit afraid. Behind him, half-hidden among the tall spruces and rust-red birches, the enormous Troll leans out from between the trunks and peers down at him with curious yellow eyes. Orange leaves drift through the grey mist.",
+    "characters": ["askeladden", "trollet"],
+    "variants": {
+      "simplified": {
+        "caption": "Askeladden går inn i skogen, og han er ikke det minste redd for troll.",
+        "alt": "Askeladden går langs en sti i den tåkete høstskogen med øks og skreppe. Bak ham, mellom grantrærne, kikker et digert troll fram."
+      },
+      "english": {
+        "caption": "Askeladden goes into the forest, and he isn’t the least bit afraid of trolls.",
+        "alt": "Askeladden walks along a path in the misty autumn forest with an axe and a knapsack. Behind him, among the spruces, a huge troll peers out."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["eldste-bror", "trollet"],
+      "prompt": "Deep in the misty autumn forest, beside an old spruce with a long grey beard of lichen and fresh axe cuts in its trunk, the Troll has stepped out from between the trees and towers over the Eldest Brother, glaring down at him. The Eldest Brother, white with terror, has let his axe fall among the roots and moss and is already turning to run for his life. Rust-red birch leaves drift through the grey mist.",
+      "variants": {
+        "simplified": {
+          "paragraph": 4,
+          "anchor": "Gutten ble stiv av skrekk.",
+          "caption": "Så kastet han øksa fra seg i mosen og la på sprang.",
+          "alt": "Ved en gammel gran med langt lavskjegg står et digert troll og glor. Den eldste broren har kastet fra seg øksa og løper for livet."
+        },
+        "english": {
+          "paragraph": 4,
+          "anchor": "The boy froze with his axe in the air.",
+          "caption": "He let the axe drop among the roots and ran for his life.",
+          "alt": "By an old spruce with a long beard of lichen, a huge troll stands glaring. The eldest brother has dropped his axe and is running for his life."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["askeladden", "trollet"],
+      "prompt": "In the misty forest by the old lichen-bearded spruce, Askeladden stands with his feet planted wide and squeezes the small round white cheese in his fist, so that whey spurts out between his fingers, glaring up with a fierce, cheeky frown. His leather knapsack lies open on the moss. The Troll bends over him, eyes goggling and his enormous mouth dropping open in amazement. An axe is stuck in the spruce trunk.",
+      "variants": {
+        "simplified": {
+          "paragraph": 15,
+          "anchor": "Men Askeladden var ikke sen.",
+          "caption": "Han fikk tak i osten og klemte til, så mysa sprutet mellom fingrene.",
+          "alt": "Askeladden klemmer en liten, hvit ost så mysa spruter mellom fingrene. Trollet bøyer seg over ham og glor med store øyne og åpen munn."
+        },
+        "english": {
+          "paragraph": 15,
+          "anchor": "But Askeladden was quick.",
+          "caption": "He squeezed the cheese till the whey spurted between his fingers.",
+          "alt": "Askeladden squeezes a small white cheese so the whey spurts between his fingers. The troll bends over him, goggling, his mouth hanging open."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["askeladden", "trollet"],
+      "prompt": "Inside the mountain, at a long, rough plank table lit by a roaring fire, seen low from the side so that both above and below the tabletop show: Askeladden sits on the bench with his leather knapsack tied in front of his belly under the table edge and innocently spoons porridge into it, while porridge runs out of a slit in its bottom onto the floor. Beside him the Troll shovels porridge from a giant wooden bowl with a spoon as big as a spade.",
+      "variants": {
+        "simplified": {
+          "paragraph": 28,
+          "anchor": "De satte seg til bords.",
+          "caption": "Så øste han mer i skreppa enn han spiste selv.",
+          "alt": "Askeladden sitter ved det lange bordet inne i berget og øser grøt i skreppa under bordkanten, og grøten renner ut av et hull. Ved siden av ham spiser trollet med en skje så stor som en spade."
+        },
+        "english": {
+          "paragraph": 29,
+          "anchor": "They sat down at the table.",
+          "caption": "More porridge went into the knapsack than into Askeladden.",
+          "alt": "Askeladden sits at the long table inside the mountain, spooning porridge into the knapsack under the table edge, and it runs out through a hole. Beside him, the troll eats with a spoon as big as a spade."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["askeladden"],
+      "prompt": "At a cold, clear dawn, Askeladden steps out through the heavy wooden door in the side of the rocky mountain, bent under a big, bulging sack of silver and gold slung over his shoulder, with a few gold coins spilling from its mouth and glinting on the path. Below him the misty autumn forest falls away towards a small farm with a turf roof far off in the valley. He grins to himself.",
+      "variants": {
+        "simplified": {
+          "paragraph": 36,
+          "anchor": "Men Askeladden tok alt sølvet og gullet som fantes i berget, og bar det hjem.",
+          "caption": "Askeladden tok alt sølvet og gullet som fantes i berget, og bar det hjem.",
+          "alt": "I morgengryet kommer Askeladden ut av døra i fjellet med en stor sekk full av sølv og gull på ryggen. Langt nede i dalen ligger en liten gård."
+        },
+        "english": {
+          "paragraph": 36,
+          "anchor": "So the troll did as Askeladden said, and you can guess how that ended.",
+          "caption": "Askeladden took all the silver and gold he could find and carried it home.",
+          "alt": "At dawn, Askeladden comes out of the door in the mountain with a big sack of silver and gold on his back. Far below in the valley lies a small farm."
+        }
+      }
+    }
+  ]
+}
