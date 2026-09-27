@@ -1,0 +1,196 @@
+{
+  "storyId": "noedig",
+  "title": "Noen kjerringer er slik",
+  "textFile": "public/content/stories/noedig/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.",
+  "palette": "A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.",
+  "cast": [
+    {
+      "slug": "kona",
+      "name": "Kona",
+      "promptName": "the Wife",
+      "replacesPortrait": "kona",
+      "description": "En sta og impulsiv, men godhjertet kone som lett lar seg rive med og ender i små, rare situasjoner.",
+      "look": "A cheerful, dreamy farm wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red wool. She wears a rust-orange wool skirt, a black bodice laced with red ribbon over a white blouse with wide sleeves, wooden-soled shoes and a big white apron with one deep front pocket.",
+      "portrait": "Background: the Little Farm and its brown field."
+    },
+    {
+      "slug": "kona-med-fjaer",
+      "name": "Kona med fjærene",
+      "promptName": "the Feathered Wife",
+      "description": "Kona etter slakterens rampestrek: full av tjæreprikker og fjær, så hun tror hun er blitt en stor, rar fugl.",
+      "look": "The Wife after the Butcher's prank: the same cheerful woman of about forty-five with a long ski-jump nose, big round amazed blue eyes and two long straw-yellow plaits tied with red wool, in her rust-orange skirt, black laced bodice and white apron, but now covered from head to toe with round black tar dots and fluffy white, grey and brown feathers stuck to her clothes, arms, hair and cheeks, so that she looks like a big, ruffled bird.",
+      "portrait": "Background: a sunny farmyard with a few feathers drifting in the air."
+    },
+    {
+      "slug": "mannen",
+      "name": "Mannen",
+      "promptName": "the Husband",
+      "replacesPortrait": "mannen",
+      "description": "En tålmodig bonde som blir oppgitt, men forsøker å finne trøst i at andre også gjør merkelige ting.",
+      "look": "A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.",
+      "portrait": "Background: a dusty country road between birches."
+    },
+    {
+      "slug": "slakteren",
+      "name": "Slakteren",
+      "promptName": "the Butcher",
+      "replacesPortrait": "slakteren",
+      "description": "En listig, men ikke skummel handelsmann som finner på en ufarlig rampestrek og får alt til å virke enda rarere.",
+      "look": "A huge, barrel-chested butcher of about fifty with a round, shiny red face, a bulbous nose, twinkling little black eyes, bushy black eyebrows, a sly grin and a big, round, bushy black beard. He wears a small white linen cap, a red shirt with the sleeves rolled up over thick arms and a long white apron with blue stripes, and he always has a string of sausages slung over one shoulder.",
+      "portrait": "Background: his wooden booth hung with rows of sausages."
+    },
+    {
+      "slug": "kona-som-vil-bare-inn-sola",
+      "name": "Kona som vil bære inn sola",
+      "promptName": "the Sieve Wife",
+      "replacesPortrait": "kona-som-vil-bare-inn-sola",
+      "description": "En ivrig husmor som tror hun må bære solskinn inn i et nytt hus og blir overlykkelig når hun får en enkel løsning.",
+      "look": "A tiny, quick, bird-like young wife of about twenty-two, hardly taller than a ten-year-old, with a small round face, a pointed chin, bright eager green eyes, rosy cheeks and a mass of glossy black curls tied up in a sunflower-yellow kerchief. She wears an apricot-orange dress with a white apron and red shoes, and she always carries a big, round, shallow wooden sieve with a bottom full of tiny holes.",
+      "portrait": "Background: a brand-new house of pale logs in the sunshine."
+    },
+    {
+      "slug": "den-nysgjerrige-gardskona",
+      "name": "Den nysgjerrige gårdskona",
+      "promptName": "the Curious Farm Wife",
+      "replacesPortrait": "den-nysgjerrige-gardskona",
+      "description": "En pratsom og godtroende kone som misforstår hvor den reisende er fra og vil sende gaver til en avdød ektemann.",
+      "look": "A tall, big, well-fed farm wife of about sixty with a large round face, a double chin, pink cheeks, a big mouth always open to talk, bright little inquisitive eyes and iron-grey ringlets under a large round black bonnet trimmed with lace and tied under her chins. She wears a wine-red wool dress with silver buttons and a green silk shawl, and she always holds a long brass ear trumpet to one ear.",
+      "portrait": "Background: the big, rich farm with its stable."
+    },
+    {
+      "slug": "per",
+      "name": "Per nummer tre",
+      "promptName": "Per",
+      "description": "Gårdskonas tredje mann, en gretten bonde som blir lurt av mannen fra Ringerike, men som heller dikter opp en historie enn å innrømme det.",
+      "look": "A tall, heavy, grumpy farmer of about fifty with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black stocking cap, a patched leather jerkin over a rust-red shirt, brown knee breeches and tall muddy boots.",
+      "portrait": "Background: a ploughed field with a chestnut-brown horse."
+    }
+  ],
+  "places": [
+    {
+      "slug": "smagarden",
+      "name": "the Little Farm",
+      "look": "A small, poor farm on a gentle slope: a low grey log cottage with a turf roof sprouting dandelions, a tiny barn, and a little storehouse standing on four stone legs with a steep roof of wooden shingles. In front lies a small brown field ringed by a split-rail fence, with a few birches in their first spring leaf and white wood anemones along the fence."
+    }
+  ],
+  "cover": {
+    "prompt": "The Feathered Wife stands in the middle of a sunny country road, arms spread wide like wings, gazing at her feathery sleeves with a delighted, puzzled face. Fluffy white feathers drift around her in the breeze, and her long plaits stick out from a tuft of feathers on her head. Behind her, the road winds between birches and fields towards a small grey cottage under a pale-blue sky with small round clouds.",
+    "characters": ["kona-med-fjaer"],
+    "caption": "Er det meg, eller er det ikke meg?",
+    "alt": "Kona står på en solfylt vei, full av fjær og svarte prikker, og strekker ut armene som vinger. Hun ser forundret og fornøyd på fjærene sine."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 8,
+      "anchor": "Slakteren så på høna.",
+      "characters": ["slakteren", "kona"],
+      "prompt": "Beside the Butcher's wooden booth near the little town, hung with rows of sausages, the Wife proudly holds out the scrawny, half-bald speckled hen in both hands. The Butcher bends down until he is nose to beak with the hen, and the two of them stare at each other with exactly the same doubtful look. The thin fawn-coloured cow stands beside the Wife, its rope looped over her arm, chewing calmly. Bright, dusty spring sunshine.",
+      "caption": "Slakteren så på høna. Høna så på slakteren.",
+      "alt": "Kona holder fram ei tynn høne som har mistet halvparten av fjærene. Slakteren bøyer seg ned, og han og høna ser mistenksomt på hverandre. Ved siden av står kua."
+    },
+    {
+      "id": "02",
+      "paragraph": 17,
+      "anchor": "Nå fikk slakteren en rampete idé.",
+      "characters": ["kona", "slakteren"],
+      "prompt": "On the bench in front of the Butcher's booth, the Wife sleeps sitting up, snoring happily with her head tipped back and her mouth open, an empty plate with seven sausage strings beside her. Her clothes are already dotted all over with round black tar spots. Grinning mischievously, the Butcher stands behind the bench and shakes a big, split-open feather duvet over her, so that white feathers snow down onto her. A little pot of black tar with a brush stands on the ground.",
+      "caption": "Nå fikk slakteren en rampete idé.",
+      "alt": "Kona sover på benken foran boden etter sju pølser. Slakteren står bak henne og rister ei dyne, så fjærene daler ned over klærne hennes, som er fulle av svarte prikker."
+    },
+    {
+      "id": "03",
+      "paragraph": 29,
+      "anchor": "Da kom mannen ut med en stor håv.",
+      "characters": ["kona-med-fjaer", "mannen"],
+      "places": ["smagarden"],
+      "prompt": "At the Little Farm, the Feathered Wife stands on the steep shingle roof of the little storehouse, arms spread wide, flapping with all her might, feathers whirling off her into the air. Below in the yard, the Husband comes striding out of the cottage with a huge long-handled fishing net held up high, squinting up at her with a big grin as if at an enormous bird. A small brown dog sits in the yard with its head tilted. Clear spring afternoon.",
+      "caption": "«For en diger fugl!» sa mannen. «Den skal jeg fange!»",
+      "alt": "Kona står på stabburstaket, full av fjær, og flakser med armene. Nede på tunet kommer mannen med en stor håv og myser opp mot den rare fuglen."
+    },
+    {
+      "id": "04",
+      "paragraph": 36,
+      "anchor": "Ute holdt hun soldet opp mot sola.",
+      "characters": ["kona-som-vil-bare-inn-sola", "mannen"],
+      "prompt": "In front of a brand-new house built of pale, fresh logs, the Sieve Wife holds her big round sieve up towards the bright sun with both arms, standing on tiptoe, ready to throw her apron over it and dash inside. Her yellow kerchief bobs and her apron flaps; she is in a great hurry. At the edge of the yard stands the Husband, dusty from the road, scratching his head in wonder. The door of the house stands open onto pitch darkness.",
+      "caption": "Ut og inn, ut og inn, med soldet i hendene.",
+      "alt": "Utenfor et nytt hus av lyse tømmerstokker holder ei ung kone et stort, rundt sold opp mot sola. Mannen står i utkanten av tunet og klør seg i hodet."
+    },
+    {
+      "id": "05",
+      "paragraph": 44,
+      "anchor": "Kona stoppet midt i et hopp.",
+      "characters": ["kona-som-vil-bare-inn-sola", "mannen"],
+      "prompt": "Inside the dim new house of pale logs, a freshly chopped square hole in the wall lets in the sun, which lies across the floor in long golden stripes. The Sieve Wife has stopped in the middle of a jump, one foot still in the air, staring at the sunshine with her mouth open and hugging her big sieve to her chest. The Husband stands by the new hole with an axe resting on his shoulder and wood chips around his boots, smiling.",
+      "caption": "Kona stoppet midt i et hopp og så på sola.",
+      "alt": "Gjennom et nytt hull i veggen skinner sola inn i lange, gule striper. Kona står på ett bein midt i et hopp og klemmer soldet, og mannen står med øksa på skulderen og smiler."
+    },
+    {
+      "id": "06",
+      "paragraph": 54,
+      "anchor": "Klipp, klipp, klipp!",
+      "characters": ["mannen"],
+      "prompt": "Inside a small, plain farmhouse, a stocky man stands in the middle of the floor with a long new white shirt pulled right down over his head and arms. Up through a freshly snipped hole at the top pops his head, with bristly brown hair sticking out in all directions and a big, relieved grin. The Husband steps back, holding a pair of scissors. The man's stout wife, in a brown dress and a white cap, claps her hands in amazement.",
+      "caption": "Klipp, klipp, klipp! Og opp gjennom hullet kom et hode.",
+      "alt": "Mannen har klippet et hull i en ny skjorte, og opp gjennom hullet stikker et hode med bustete hår og smiler. Kona i huset klapper i hendene."
+    },
+    {
+      "id": "07",
+      "paragraph": 62,
+      "anchor": "Mannen klødde seg i hodet.",
+      "characters": ["den-nysgjerrige-gardskona", "mannen"],
+      "prompt": "In the big, bright kitchen of the rich farm, the Curious Farm Wife leans far across the table with her brass ear trumpet aimed at the Husband, her eyes shining with excitement, one finger pointing up towards the sky. The Husband sits on the bench with a bowl of porridge in front of him, scratching his head under his cap and thinking fast. Through the window behind them: green fields and a big red stable.",
+      "caption": "«Jo da», sa mannen. «Per nummer to kjenner jeg godt.»",
+      "alt": "Gårdskona lener seg over bordet med et langt hørerør av messing og peker opp mot himmelen. Mannen sitter på benken med ei skål og klør seg i hodet."
+    },
+    {
+      "id": "08",
+      "paragraph": 72,
+      "anchor": "Men ute på jordet gikk Per nummer tre og pløyde.",
+      "characters": ["per", "mannen", "den-nysgjerrige-gardskona"],
+      "prompt": "A wide spring landscape. In the foreground, Per walks behind a wooden plough pulled by the chestnut-brown horse, cutting a dark furrow in the field; he has stopped and looks over his shoulder with a suspicious frown. Far off along the road, the blue-grey dappled horse trots away pulling the little cart piled high with folded clothes, a chest and jars, the Husband on the seat holding the reins. By the farm gate, the Curious Farm Wife waves a handkerchief.",
+      "caption": "Per nummer tre så den blå hesten trave av sted med en fremmed kar på kjerra.",
+      "alt": "Per pløyer åkeren med en brun hest og snur seg mistenksomt. Langt borte traver den blå hesten av sted med mannen på kjerra, som er full av klær og et skrin."
+    },
+    {
+      "id": "09",
+      "paragraph": 79,
+      "anchor": "Så kom Per nummer tre ridende.",
+      "characters": ["mannen", "per"],
+      "prompt": "On a small grassy hill at the edge of a birch wood, the Husband lies on his back in the grass with his hands behind his head, staring up at the white clouds with a look of great wonder. Three long blue-grey horse hairs are tied to a branch of the birch beside him, fluttering in the breeze. Up the road comes Per on the chestnut-brown horse, scowling at the strange sight. The blue-grey horse and the cart are nowhere to be seen.",
+      "caption": "Mannen lå på ryggen og stirret opp i skyene. Så kom Per ridende.",
+      "alt": "Mannen ligger på ryggen i gresset på en liten bakke og stirrer opp i skyene. Tre blå hestehår henger i ei bjørk ved siden av ham, og Per kommer ridende og rynker pannen."
+    },
+    {
+      "id": "10",
+      "paragraph": 86,
+      "anchor": "Mens han lå der, listet mannen fra Ringerike seg bort.",
+      "characters": ["per", "mannen"],
+      "prompt": "A wide view of the little grassy hill. Per lies flat on his back, staring up at the clouds so hard that tears run from his wide-open eyes, his stocking cap fallen off beside him. Behind him, the Husband tiptoes away down the slope with a finger on his lips, leading the chestnut-brown horse by the bridle towards the edge of the birch wood, where the blue-grey dappled horse waits, hitched to the loaded cart. Soft white clouds drift across the blue sky.",
+      "caption": "Mens Per stirret opp i skyene, listet mannen seg bort.",
+      "alt": "Per ligger på ryggen og stirrer opp i skyene til øynene renner. Bak ham lister mannen seg bort med den brune hesten, mot den blå hesten og kjerra i skogkanten."
+    },
+    {
+      "id": "11",
+      "paragraph": 94,
+      "anchor": "Men hva var dette?",
+      "characters": ["mannen", "kona"],
+      "places": ["smagarden"],
+      "prompt": "At the Little Farm, the Husband arrives on the cart pulled by the blue-grey dappled horse, with the chestnut-brown horse tied on behind and the cart piled with folded clothes and a chest of silver coins. He stops with his mouth open: the brown field is already ploughed and sown in neat furrows. At the edge of the field stands the Wife, neat and tidy again, smiling proudly with a wooden bowl of salt in one hand, her fingertips white with salt.",
+      "caption": "Åkeren var allerede pløyd og sådd! Kona sto ved kanten og smilte stolt.",
+      "alt": "Mannen kommer hjem på ei kjerre full av klær og et skrin, med to hester. Åkeren er pløyd og sådd, og ved kanten står kona stolt med ei saltskål i hånda."
+    },
+    {
+      "id": "12",
+      "paragraph": 99,
+      "anchor": "For pengene kjøpte de ekte såkorn og ei ny ku.",
+      "characters": ["mannen", "kona"],
+      "places": ["smagarden"],
+      "prompt": "A bright, fresh morning at the Little Farm. The Husband walks along the field with a seed basket hung round his neck, scattering real golden seed grain in a wide arc. By the fence, a sturdy new brown-and-white cow grazes, and the Wife hugs a plump new hen with glossy snow-white feathers close to her cheek, smiling as if she would never, ever sell her. The blue-grey horse and the chestnut-brown horse graze behind the barn.",
+      "caption": "Og ei ny høne. Hun var ikke til salgs.",
+      "alt": "Mannen sår ekte korn på åkeren. Ved gjerdet beiter ei ny ku, og kona klemmer ei ny, fin høne som ikke er til salgs."
+    }
+  ]
+}

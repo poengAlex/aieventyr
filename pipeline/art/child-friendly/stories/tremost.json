@@ -18,8 +18,8 @@
       "slug": "bruden",
       "name": "Bruden",
       "promptName": "the Bride",
-      "description": "Jenta på bryllupsdagen sin, med sølvkrone og brudekjole. Nå skjønner hun hvilken stor dag mostrene mente.",
-      "look": "The Girl on her wedding day: the same slim girl of about sixteen with an oval, freckled face, a snub nose, big hazel eyes and a wide smile, her mousy-brown hair now brushed out long and wavy over her shoulders. She wears a tall silver bridal crown with tiny dangling spangles, a long cream wool dress embroidered with red and green flowers along the hem and sleeves, a red woven sash, and the blue jay feather tucked behind one ear.",
+      "description": "Jenta på bryllupsdagen sin, med blomsterkrans og brudekjole. Nå skjønner hun hvilken stor dag mostrene mente.",
+      "look": "The Girl on her wedding day: the same slim girl of about sixteen with an oval, freckled face, a snub nose, big hazel eyes and a wide smile, her mousy-brown hair now brushed out long and wavy over her shoulders under a wreath of pink and white roses and green myrtle. She wears a flowing cream-white linen wedding dress with lace at the square neckline and cuffs, a pale-green silk sash tied in a big bow, and the blue jay feather tucked into the wreath.",
       "portrait": "Background: the candlelit Great Hall."
     },
     {
@@ -28,7 +28,7 @@
       "promptName": "the Queen",
       "replacesPortrait": "dronningen",
       "description": "En håndarbeidsglad dronning som setter pris på det som er vakkert laget, og som til slutt viser omsorg og godhet.",
-      "look": "A tall, willowy, gentle queen of about fifty with a long neck, a long oval face, kind grey eyes with smile lines, a slightly long nose and dark hair streaked with silver in a low, coiled knot under a slim gold crown. She wears a sea-green gown with a white lace collar and a long rainbow-striped knitted shawl, and she is always knitting with two long wooden needles, a half-finished striped scarf and a ball of pink yarn.",
+      "look": "A tall, willowy, kindly queen of about fifty with a long neck, a long oval face, crinkly grey eyes, a slightly long nose and dark hair streaked with silver in a low, coiled knot under a small gold crown. She wears a sea-green gown with a frilled cream collar and a long rainbow-striped knitted shawl, and she is always knitting with two long wooden needles, a half-finished striped scarf and a ball of pink yarn.",
       "portrait": "Background: a cosy sitting room with baskets of wool."
     },
     {
@@ -37,7 +37,7 @@
       "promptName": "the Prince",
       "replacesPortrait": "prinsen",
       "description": "En høflig og nysgjerrig prins som forstår at kjærlighet også handler om å ta vare på hverandre.",
-      "look": "A tall, slender, polite young prince of about nineteen with a long, gentle, clean-shaven face, a straight nose, warm dark-brown eyes, thick dark eyebrows and short, tidy black curls. He wears a small silver crown, a deep-teal velvet jacket with silver buttons over a white linen shirt, dark-grey breeches and tall brown boots.",
+      "look": "A tall, slender, polite young prince of about nineteen with a long, clean-shaven face, a dimpled chin, a long nose with a little bump, earnest dark eyes under thick eyebrows and short, tidy black curls. He wears a small silver crown, a deep-teal velvet jacket with a row of silver buttons, a ruffled cream shirt, charcoal breeches and tall tan riding boots.",
       "portrait": "Background: the candlelit Great Hall."
     },
     {
@@ -46,7 +46,7 @@
       "promptName": "the Long-Nosed Aunt",
       "replacesPortrait": "de-tre-mostrene",
       "description": "Den første mosteren, som spinner alt linet for jenta om natta. Nesa har blitt så lang av all nikkingen ved rokken.",
-      "look": "A small, slim, spry old woman of about eighty who stands very straight, with a kind, wrinkled face, merry little blue eyes, rosy cheeks and an enormous nose as long and thick as a cucumber, sticking straight out in front of her face with a round pink tip. Her white hair is in a small knot. She wears a long brown wool dress and a big moss-green shawl with a fringe, and leans on a crooked walking stick.",
+      "look": "A small, slim, spry old woman of about eighty who holds herself upright, with a kindly, wrinkled face, merry little blue eyes, rosy cheeks and an enormous nose as long and thick as a cucumber, poking far out in front of her face with a round pink tip. Her white hair is in a small knot. She wears a long nut-brown dress and a big moss-green shawl with a fringe, and leans on a crooked walking stick.",
       "portrait": "Background: a spinning wheel by a candlelit window."
     },
     {
@@ -143,7 +143,7 @@
       "places": ["bryllupssalen"],
       "prompt": "The wedding feast in the candlelit Great Hall. The Bride has risen from her seat beside the Prince at the long table and makes a pretty curtsy, smiling warmly towards the door. There, leaning on her stick with a wicker basket on her arm, stands the Long-Nosed Aunt, her enormous nose poking far into the room. Six wedding guests in festive clothes have turned round in their seats to stare at the nose with their mouths open. The Prince looks puzzled, and the Queen keeps knitting.",
       "caption": "Alle gjestene glor på nesa. Men bruden reiser seg og neier pent.",
-      "alt": "I bryllupet reiser bruden seg og neier for ei gammel kone i døra, som har stokk, kurv og en nese lengre enn en agurk. Gjestene snur seg og glaner på nesa."
+      "alt": "I bryllupet reiser bruden seg og neier for ei gammel kone i døra, som har stokk, kurv og en nese lengre enn en agurk. Gjestene snur seg og stirrer på nesa."
     },
     {
       "id": "07",
@@ -153,7 +153,7 @@
       "places": ["bryllupssalen"],
       "prompt": "In the candlelit Great Hall, the Teary-Eyed Aunt comes in through the tall door, dabbing her huge, saucer-round, watery eyes with her handkerchief. At the long table, the Bride rises once more to greet her with a warm smile, while the Prince leans forward, very curious. Already seated at the table are the Long-Nosed Aunt, her nose reaching out over her plate, and the Broad-Hipped Aunt, sitting comfortably on two chairs pushed side by side.",
       "caption": "Inn kom ei tredje gammel kone, med øyne så store som tallerkener.",
-      "alt": "Ei tredje gammel kone med store, rennende øyne kommer inn og tørker dem med et lommetørkle. Bruden reiser seg igjen. Ved bordet sitter mosteren med den lange nesa og mosteren som sitter på to stoler."
+      "alt": "Ei tredje gammel kone med store, rennende øyne kommer inn og tørker dem med et lommetørkle. Bruden reiser seg igjen. Ved bordet sitter allerede mosteren med den lange nesa, og den brede mosteren har fått to stoler."
     },
     {
       "id": "08",
