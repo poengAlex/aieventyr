@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "De tolv Vildænder (Barnevennlig)",
-  "description": "En mildere og mer trygg variant for yngre lesere, med mykere stemning og fokus på omtanke, håp og familie—der vanskelige hendelser blir fortalt varsomt og ender med at alle blir reddet og gjenforent.",
-  "tone": "Varm, rolig og eventyrlig, med mykt språk, trygg spenning og en trøstende slutt.",
+  "description": "Tolv brødre er blitt til villender, og søsteren deres må sy luer og skjorter av myrdun uten å si et ord. Hun får ikke fnise en eneste gang, og ikke gråte, selv om hun stikker seg på nålen.",
+  "tone": "Lun, spennende og trøstende",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En modig prinsesse holder et stille løfte for å redde sine tolv fortryllede brødre og finne hjem til familien sin igjen.",
+  "summary": "Snehvit og Rosenrød syr klær av myrdun uten å si et ord for å få de tolv brødrene sine tilbake, selv når stemoren lyver om henne.",
   "hasInlineScenes": true
 }

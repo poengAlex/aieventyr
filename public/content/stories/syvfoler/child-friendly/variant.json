@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "De syv føllene (Snill og barnevennlig)",
-  "description": "En mildere, barnevennlig utgave av eventyret med varm stemning og mykere språk: Askeladden møter en fristende pause i skogen, følger de sju føllene med mot og kløkt, og løser en gammel forvandling på en trygg og håpefull måte.",
-  "tone": "Warm, gentle, child-friendly fairy tale",
+  "description": "Hva spiser og drikker kongens sju føll? Brødrene sovner hos den gamle kona i bergskorten, men Askeladden griper halen på det bakerste føllet og flyr etter som en papirdrage.",
+  "tone": "Rytmisk, fjollete og trygg",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden følger sju magiske føll, finner ut hva de egentlig spiser og drikker, og hjelper dem å bli prinser igjen.",
+  "summary": "Askeladden må finne ut hva kongens sju føll spiser og drikker, og han må ikke sovne hos den gamle kona slik brødrene gjorde.",
   "hasInlineScenes": true
 }

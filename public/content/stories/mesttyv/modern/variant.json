@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Mestertyven (Modern)",
-  "description": "En samtidsnorsk versjon der fattigdom, småbystatus og moderne rekvisitter (mobiler, biler, dress, konkurransehester) gir eventyret et røffere og mer sosialrealistisk preg, mens mesterstyveriet blir en smart kamp mot gjenger og lokale maktfolk.",
-  "tone": "Rask, slu og jordnær, med mørk humor og en underliggende varme.",
+  "description": "Husmannssønnen går i lære hos en gjeng ranere i en ombygd industrilåve og blir bedre enn dem alle. Så vil han ha dattera til stormannen, som eier sagbruket og halve sentrum, og stormannen vil ha bevis: søndagssteken, rett ut av ovnen.",
+  "tone": "Frekk, lun og bygdenær",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En blakk yngstesønn blir en mesterlig svindler som utmanøvrerer en gjeng og en rik stormann for å skape seg et nytt liv.",
+  "summary": "Husmannssønnen blir mestertyv og må lure stormannen, presten og stallkarene for å få stormannens datter, som har egne meninger om saken.",
   "hasInlineScenes": true
 }

@@ -2,28 +2,28 @@
   {
     "name": "Giske",
     "slug": "giske",
-    "description": "A stubborn, talkative farmhand who’s determined to marry her employer—until a humiliating prank leaves her bald, greasy, and soot-blackened, convinced she must be the devil.",
+    "description": "Langbeint gårdshjelp som vil gifte seg med sjefen sin, blir barbert skallet og smurt inn med talg og sot mens hun sover, og konkluderer rolig med at hun må være fanden.",
     "visualPrompt": "A long-legged woman in work clothes suited for a modern smallholding, scalp freshly shaved, skin and clothing smeared with greasy tallow and black chimney soot; intense, earnest expression; hands rough from fieldwork; unsettling yet oddly pitiable presence.",
     "imagePath": "characters/giske.webp"
   },
   {
-    "name": "The Widower",
+    "name": "Enkemannen",
     "slug": "the-widower",
-    "description": "A solitary smallholder who wants peace and quiet, and resorts to a cruel, practical stunt to get Giske to leave without a direct confrontation.",
+    "description": "Konfliktsky småbruker som heller barberer og sotsverter gårdshjelpen sin enn å si nei til henne rett ut.",
     "visualPrompt": "A middle-aged widower in practical modern farmwear—worn jacket, work boots, weathered face—standing near a tractor and tools; cautious eyes, tight-lipped expression that suggests equal parts guilt and relief; rural Norwegian setting.",
     "imagePath": "characters/the-widower.webp"
   },
   {
-    "name": "The Petty Thieves",
+    "name": "Tyvene",
     "slug": "the-petty-thieves",
-    "description": "Two small-time local crooks who try to steal livestock and pantry goods, only to have their plans ruined by Giske’s booming voice and terrifying appearance.",
+    "description": "To småtyver i hettegensere som tar med Giske fordi hun er lokalkjent, og som får hvert eneste tokt ødelagt av at hun roper.",
     "visualPrompt": "Two lanky men in mismatched hoodies and cheap outdoor jackets with stuffed sacks, moving nervously along a forest track; faces tense and wary; body language ready to bolt; modern village-outskirts vibe.",
     "imagePath": "characters/the-petty-thieves.webp"
   },
   {
-    "name": "The Priest",
+    "name": "Presten",
     "slug": "the-priest",
-    "description": "A sleepy parish priest hauled out on a Sunday morning to ‘bind the devil,’ who ends up literally thrown into a bog when panic takes over.",
+    "description": "Sokneprest som blir hentet ut i tøfler og strikkelue en søndag morgen for å binde fanden, lokket av en kalvestek, og havner i myra.",
     "visualPrompt": "An older priest hurriedly dressed for early morning—wool hat, slippers, and a partially buttoned coat over sleepwear—clutching a small book; expression shifting from stern duty to alarm; wet, misty bogland nearby.",
     "imagePath": "characters/the-priest.webp"
   }

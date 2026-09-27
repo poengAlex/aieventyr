@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "The Twelve Wild Ducks (English Retelling)",
-  "description": "An English retelling that stays close to the folktale, following Snow-White and Rose-Red’s vow of silence as she spins bog-cotton into garments to break her brothers’ curse, survives a jealous stepmother’s deceit, and wins vindication at the pyre.",
-  "tone": "Folktale, wintry, suspenseful, ultimately triumphant",
+  "description": "A Queen wishes for a daughter as white as snow and as red as blood, and a troll-wife promises her one, at the price of her twelve sons. To save her brothers, Snow-White and Rose-Red must sew clothes of bog-cotton without speaking, laughing or weeping.",
+  "tone": "Wintry, grave and suspenseful",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A silent queen must weave twelve garments of bog-cotton to free her brothers from a curse before she is burned for a crime she did not commit.",
+  "summary": "A silent princess sews shirts of bog-cotton to free her twelve brothers, while the King’s stepmother schemes to have her burned.",
   "hasInlineScenes": true
 }

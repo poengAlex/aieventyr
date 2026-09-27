@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "The Boy and the Devil",
-  "description": "A close English retelling of the Norwegian folktale, keeping the brisk, playful trickster tone as a nut-cracking boy outwits the Devil by trapping him in a worm-holed nut and taking him to a blacksmith’s forge.",
-  "tone": "Folktale, witty, brisk, slightly dark",
+  "description": "A boy cracking nuts along the road meets the Devil and asks whether it’s true that he can make himself as small as he likes. It is, and the Devil should never have shown him.",
+  "tone": "Short, sharp and mischievous",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A clever boy traps the Devil in a nut and has a blacksmith smash it open.",
+  "summary": "A boy tricks the Devil into a worm-eaten nut and asks the blacksmith to crack it.",
   "hasInlineScenes": true
 }

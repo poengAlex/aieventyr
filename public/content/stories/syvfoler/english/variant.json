@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "The Seven Colts (English Retelling)",
-  "description": "A close English retelling of the Scandinavian folktale in which Ash-Lad succeeds where his brothers fail by refusing the hag’s comfort, learning the colts’ enchanted secret, and using sacred bread and wine to answer the king’s test—then breaking the spell at his wedding.",
-  "tone": "Classic folktale, brisk, magical, and darkly comic",
+  "description": "Herd the King’s seven colts for a whole day, tell him what they eat and drink, and you win the princess and half the kingdom. Fail, and he cuts three red strips out of your back.",
+  "tone": "Rhythmic, suspenseful and dry",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Ash-Lad outwits a king’s cruel test, learns the truth of seven enchanted colts, and wins a princess by breaking their spell.",
+  "summary": "Ash-Lad’s brothers fall for the hag in the mountain cleft, but he hangs on to the colts all day and learns what they really eat and drink.",
   "hasInlineScenes": true
 }

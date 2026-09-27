@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Vesle Aase, gåsepiken og sannhetssteinen",
-  "description": "En barnevennlig, mildere variant med mykere stemning og tydelig fokus på ærlighet og vennlighet, der skuffelser blir håndtert rolig og alle blir sendt hjem med fine ord i stedet for hard straff.",
-  "tone": "Varm, trygg og eventyrlig",
+  "description": "Vesle Aase sitter midt i veien og syr lapp på lapp og sting på sting, og hun flytter seg ikke. Hun venter på kongssønnen fra England, sier hun til kongssønnen fra England.",
+  "tone": "Rolig, rytmisk og trygg",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Gåsepiken Aase møter en prins med en sannhetsstein og viser at ærlighet er den beste veien til lykke.",
+  "summary": "Kongssønnen fra England leter etter ei ærlig brud med en stein som alltid sier sant, men vesle Aase har bestemt seg for å få ham.",
   "hasInlineScenes": true
 }

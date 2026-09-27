@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Vesle Aase – gåsepiken (Forenklet)",
-  "description": "En forenklet variant på moderne norsk med klarere setninger og jevnere flyt, som gjør eventyret lettere å lese uten å endre handlingen: Aase går fra gåsepike til brud ved å avsløre prinsessenes bedrag med hjelp av en sannhetstalende stein og en ring som avslører hvem som virkelig lå hos prinsen.",
-  "tone": "Folkeeventyraktig, rett fram og lettlest, med lureri, rettferdighet og en tydelig moral",
+  "description": "Hver gang kongssønnen fra England rir ut for å fri, sitter vesle Aase gåsepike midt i veien og setter bot på bot og lapp på lapp. «Skal jeg ha ham, så får jeg ham nok», sier hun.",
+  "tone": "Tørrvittig, rytmisk og lur",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En gåsepike lurer fram sannheten om prinsessene og ender med å gifte seg med prinsen hun vil ha.",
+  "summary": "Kongssønnen fra England prøver hver ny brud med en stein som vet alt, men vesle Aase gåsepike har bestemt seg for å få ham selv.",
   "hasInlineScenes": true
 }

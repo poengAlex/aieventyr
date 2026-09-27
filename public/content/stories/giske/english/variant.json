@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Giske (English Retelling)",
-  "description": "A close-to-the-folktale English retelling in which a widower disguises his pushy housekeeper as a devilish figure, triggering a chain of terrified misunderstandings that ripple from thieves to farmers to a priest.",
-  "tone": "Mischievous, darkly comic folktale",
+  "description": "Giske wants to marry the widower she keeps house for, and she tells him so morning, evening and in between. Then she falls asleep in the hemp field and wakes up black with tallow and soot, and since that can’t be Giske, it must be the Devil himself.",
+  "tone": "Rowdy, deadpan and farcical",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A widower’s trick makes Giske believe she is the Devil, and her loud “help” sends an entire district into panic.",
+  "summary": "Smeared black by her master, Giske decides she must be the Devil, joins two thieves and ruins every raid by shouting.",
   "hasInlineScenes": true
 }

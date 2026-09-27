@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Herreper (Barnevennlig)",
-  "description": "En mild og trygg gjenfortelling med mykere stemning, der Per og den kloke katten bruker vennlighet, smarte ord og litt magi for å åpne veien til et glitrende slott—uten skremmende detaljer, men med varme og undring.",
-  "tone": "Gentle, whimsical, reassuring",
+  "description": "Katten rir ut av skogen på et reinsdyr og styrer med hornene som med et sykkelstyre. Reinsdyret gjør som hun sier, for ellers synger hun for det.",
+  "tone": "Lun, morsom og trygg",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Den fattige Per og den snarrådige katten hans får kongen til å tro på Herreper og finner til slutt et slott fullt av magi og lykke.",
+  "summary": "Per får bare en katt i arv, men katten lurer både kongen og en lodden vokter og skaffer Per et glitrende slott.",
   "hasInlineScenes": true
 }

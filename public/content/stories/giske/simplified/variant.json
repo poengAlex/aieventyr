@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Giske (Simplified)",
-  "description": "En modernisert og forenklet versjon på klarere norsk, med jevnere flyt og enklere setninger, der den komiske misforståelsen om «fanden» står ekstra tydelig fram.",
-  "tone": "Folkelig, komisk og litt mørk",
+  "description": "Giske vil gifte seg med enkemannen hun steller hus for, og det sier hun både morgen og kveld. Så sovner hun i hampåkeren og våkner svart av talg og sot, og da kan det vel ikke være noen annen enn fanden selv.",
+  "tone": "Folkelig, rå og komisk",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Når husholderska Giske blir gjort ugjenkjennelig av husbonden, tror hun selv at hun er fanden og skaper panikk i bygda.",
+  "summary": "Smurt svart av husbonden tror Giske at hun er fanden, slår følge med to tyver og roper så høyt at hele bygda begynner å be.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Bjørnen og Ræven (Modern)",
-  "description": "En moderne gjenfortelling der eventyret flyttes til en parkeringsplass ved et lite vann, med plastpose-fisk fra disken, «lifehack»-snakk og en julesmørboks gjemt under gran—mens reven fortsatt lurer bjørnen like elegant som før.",
-  "tone": "Humoristisk, skarp og hverdagsnær med folkeeventyr-slemmhet",
+  "description": "Isfiskerne har sittet der siden sju og fått én abbor til sammen, så da reven kommer med en plastpose full av fisk, vil bjørnen vite hvordan han gjør det. De gamle revestrekene, lagt til et islagt vann i dagens Norge, midt i smørmangelen.",
+  "tone": "Tørr, lakonisk og vinterlig",
   "characterCount": 2,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En slu rev lurer en godtroende bjørn til å miste halen og ta skylda for julesmøret.",
+  "summary": "En bjørn mister halen i isen på revens råd, og midt i smørmangelen forsvinner julesmøret de har spleiset på.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Giske (Child Friendly)",
-  "description": "A gentler, more playful retelling that focuses on silly misunderstandings and comic mix-ups, keeping the mood warm and non-scary as Giske tries to figure out who she is after a harmless prank goes too far.",
-  "tone": "Warm, whimsical folktale humor with a soft, reassuring mood",
+  "description": "Giske våkner i hampåkeren med svarte armer, svarte bein og en stor, svart klatt på nesa. «Kan det være meg?» sier hun. Nei, dette må være et troll!",
+  "tone": "Bråkete, tøysete og trygg",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "After a harmless prank leaves her unrecognizable, Giske wanders from place to place causing cheerful confusion as she tries to discover who she is.",
+  "summary": "Giske tror hun er blitt et troll, slår følge med to tyver og roper så høyt at alle gårdene i bygda våkner.",
   "hasInlineScenes": true
 }

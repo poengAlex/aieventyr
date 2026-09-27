@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "De tolv Vildænder (Moderne)",
-  "description": "En samtidstolkning der kongelige, mediestyrt makt og politisk prestisje erstatter slott og trolldom: Snehvit-Rosenrød må bryte en forbannelse ved å sy i taushet, mens en statsminister og hans manipulerende stemor gjør tragedien til en offentlig skandale før sannheten avsløres.",
-  "tone": "Moderne eventyrdrama, mørkt og håpefullt, med sosial realisme og mytisk understrøm",
+  "description": "Dronningen står med neseblod i snøen ved veien og ønsker seg en datter, og en gammel kvinne i boblejakke lover henne en, på vanlige vilkår. Under dåpen blir de tolv prinsene til villender; offisielt studerer de i utlandet.",
+  "tone": "Mørk, spennende og skarp",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En ung kvinne syr i taushet for å befri sine tolv forheksede brødre og redde familien sin fra en livsfarlig løgn.",
+  "summary": "Snehvit-Rosenrød syr i taushet for å frelse de tolv brødrene sine, mens statsministerens stemor anklager henne for å ha drept barna sine.",
   "hasInlineScenes": true
 }

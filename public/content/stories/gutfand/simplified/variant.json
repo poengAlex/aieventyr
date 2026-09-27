@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Gutten og Fanden (forenklet)",
-  "description": "En forenklet versjon på moderne norsk med tydeligere setninger og jevnere flyt, der den kvikke gutten lurer fanden med en ormstukket nøtt og får hjelp av en smed som prøver å knuse den.",
-  "tone": "Lett og humoristisk folkeeventyr",
+  "description": "En gutt som går og knekker nøtter, møter Fanden og spør om det er sant at han kan gjøre seg så liten han vil. Det kan han, og det skulle han aldri ha vist fram.",
+  "tone": "Kort, kjapp og lun",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En smart gutt får fanden til å krype inn i en nøtt og tar ham med til smeden for å knuse den.",
+  "summary": "En gutt lurer Fanden inn i en markspist nøtt og ber smeden knuse den.",
   "hasInlineScenes": true
 }

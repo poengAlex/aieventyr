@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "De syv føllene (forenklet)",
-  "description": "En forenklet variant på moderne norsk med tydeligere setninger og jevnere leseflyt, der eventyret om Askeladden og de sju forheksede føllene fortelles klart og rett fram uten å miste spenning og humor.",
-  "tone": "Eventyrlig, spennende og lett humoristisk",
+  "description": "Kongen lover prinsessa og halve riket til den som kan gjete de sju føllene hans en hel dag og si hva de spiser og drikker. Klarer du det ikke, skjærer han tre røde remmer av ryggen din.",
+  "tone": "Rytmisk, spennende og folkelig",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden må gjete kongens sju føll og finne ut hva de spiser og drikker for å vinne prinsessa og bryte en forbannelse.",
+  "summary": "Brødrene blir lurt av kjerringa i bergsprekken, men Askeladden henger med føllene hele dagen og finner ut hva de spiser og drikker.",
   "hasInlineScenes": true
 }

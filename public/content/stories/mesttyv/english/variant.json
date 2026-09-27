@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Mestertyven (English)",
-  "description": "An English retelling that stays close to the old folktale’s plainspoken style, keeping the episodic chain of clever thefts, rustic humor, and swift moral turns without modern additions.",
-  "tone": "Folktale, sly, brisk, and humorous",
+  "description": "A cottager’s son learns thieving from robbers and steals three oxen from the same farmer on the same road. Then he wants the Bailiff’s daughter, and the Bailiff wants proof: the Sunday roast, lifted off the spit while the whole household stands guard.",
+  "tone": "Cheeky, quick and crafty",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A penniless youngest son becomes a master thief by outwitting robbers, a rich bailiff, and even a parson to win a bride and a better life.",
+  "summary": "A poor cottager’s son becomes a master thief and must fool the Bailiff, his whole household and the parson to win the Bailiff’s daughter.",
   "hasInlineScenes": true
 }

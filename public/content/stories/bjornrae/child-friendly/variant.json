@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Bjørnen og Ræven (Snill og barnevennlig)",
-  "description": "En mild og barnevennlig variant med mykere ordvalg, tryggere stemning og en leken tone som gjør reven mindre skummel og bjørnens uhell mer forsiktig og trøstende.",
-  "tone": "Varm, rolig og leken, med myk humor og uten skremmende detaljer.",
+  "description": "Bjørnen vil gjerne fiske like godt som reven, så han hogger et hull i isen, stikker halen ned i det iskalde vannet og venter. To lune revestreker til høytlesning.",
+  "tone": "Leken, lun og trygg",
   "characterCount": 2,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En lur rev finner på rampestreker, og en godhjertet bjørn lærer å være litt mer forsiktig.",
+  "summary": "Bjørnen stikker halen ned i isen fordi reven sier det, og snart etter forsvinner julesmøret de har kjøpt sammen.",
   "hasInlineScenes": true
 }

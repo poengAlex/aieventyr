@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Gutten og Fanden (Snillere utgave)",
-  "description": "Denne barnevennlige varianten gjør møtet med Fanden mindre skummelt og legger vekt på humor, trygghet og guttens smarte påfunn uten truende stemning.",
-  "tone": "Varm, leken og trygg",
+  "description": "Knekk, knekk, knekk! En gutt går og knekker nøtter, og så kommer Fanden tuslende, liten, med horn og hale og veldig fornøyd med seg selv. Et kort og lydrikt eventyr å lese høyt.",
+  "tone": "Leken, lydrik og trygg",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En nøtteknekkende gutt lurer Fanden inn i en nøtt og får en smed til å slå den opp med et stort brak.",
+  "summary": "En gutt lurer Fanden inn i en nøtt, og smeden prøver hammer etter hammer for å knekke den.",
   "hasInlineScenes": true
 }

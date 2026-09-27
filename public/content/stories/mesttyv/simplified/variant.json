@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Mestertyven (Forenklet)",
-  "description": "En forenklet utgave skrevet på moderne norsk med tydeligere setninger og jevnere flyt, som gjør den klassiske fortellingen lettere å lese uten å endre handlingen eller humoren.",
-  "tone": "Eventyrlig, spennende og humoristisk",
+  "description": "Husmannens yngste sønn går i lære hos røvere og stjeler tre okser fra samme bonde på samme vei. Så vil han ha amtmannens datter, og amtmannen vil først se hva en mestertyv duger til.",
+  "tone": "Frekk, kvikk og tørrvittig",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En fattig gutt blir mestertyv og må bevise evnene sine gjennom dristige knep for å vinne amtmannens datter.",
+  "summary": "En husmannssønn blir mestertyv og må stjele steken, lure presten og ta hestene fra amtmannen for å få dattera hans.",
   "hasInlineScenes": true
 }
