@@ -1,0 +1,162 @@
+{
+  "storyId": "vesleaas",
+  "title": "Vesle Aase gåsepike",
+  "textFile": "public/content/stories/vesleaas/modern/story.txt",
+  "world": "Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.",
+  "palette": "Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.",
+  "cast": [
+    {
+      "slug": "aase",
+      "name": "Aase (Aase Gåsepike)",
+      "promptName": "Aase",
+      "replacesPortrait": "aase-gaasepike",
+      "description": "Gåsepasser ved slottet som sitter ved porten og lapper klær; rolig, sta og uvanlig ekte i en verden av glans og strategi.",
+      "look": "A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears brown work trousers covered in neat blue and green patches, a white T-shirt, a white canvas apron and green rubber boots.",
+      "portrait": "Background: the palace gate with white and grey geese."
+    },
+    {
+      "slug": "aase-brud",
+      "name": "Aase som brud",
+      "promptName": "Aase the Bride",
+      "description": "Aase på bryllupsdagen i slottsparken, i brudekjole uten en eneste lapp og med signetringen til prinsen låst rundt fingeren.",
+      "look": "A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool, under a short white veil. She wears a simple white wedding dress without a single patch, white trainers and a heavy gold signet ring on one finger.",
+      "portrait": "Background: the palace park with tulip beds and geese on the lawn."
+    },
+    {
+      "slug": "prinsen",
+      "name": "Prinsen fra England",
+      "promptName": "the Prince",
+      "replacesPortrait": "prinsen-fra-england",
+      "description": "En moderne prins som er lei av polerte fasader og bruker teknologi for å finne sannhet, men må lære å se mennesket foran seg.",
+      "look": "A tall, lean man of about twenty-six with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a navy suit, a white shirt, a scarlet tie, polished brown brogues and a long dark-navy overcoat, with a thin gold chain round his neck on which hangs a heavy gold signet ring.",
+      "portrait": "Background: the tall windows of the palace guest wing."
+    },
+    {
+      "slug": "smartmatta",
+      "name": "Smartmatta",
+      "promptName": "the Smart Mat",
+      "replacesPortrait": "smartmatta",
+      "description": "Prinsens stein som vet alt, støpt inn i en gummimatte med høyttaler; den svarer sant med stemmen til en togannonsering, men bare på det den blir spurt om.",
+      "look": "A round black rubber mat about the size of a bath mat, with a smooth, milky-white stone disc set into its centre, faint swirls of pale gold and rose inside the stone, and a small round speaker grille at one edge with a tiny light. When it speaks, or someone steps on it, the stone and the light glow a soft, warm gold.",
+      "portrait": "Background: a polished parquet floor in front of a bed at night."
+    },
+    {
+      "slug": "tredje-prinsesse",
+      "name": "Den tredje utvalgte prinsessen",
+      "promptName": "the Third Princess",
+      "replacesPortrait": "tredje-prinsesse",
+      "description": "Rolig, belest og bedre organisert enn de to før henne, men like lur: hun legger opp byttet med Aase på klokkeslett.",
+      "look": "A tall, willowy young woman of about twenty-four with a long neck, a narrow face, high arched brows over big dark-brown eyes, a delicate little mouth and a calm, measured smile. Her glossy chocolate-brown hair falls in long, bouncy ringlets held back with a pearl clip. She wears pearl earrings, a peacock-blue silk blouse, a tailored cream skirt and low cream heels, and carries a slim white leather planner.",
+      "portrait": "Background: the gravel driveway of the palace with a dark car."
+    }
+  ],
+  "places": [
+    {
+      "slug": "slottsporten",
+      "name": "the Palace Gate",
+      "look": "The wide gravel driveway just inside the tall wrought-iron gate of a big cream-white palace, with broad stone main stairs, a low stone edge along the driveway to sit on, a small pond with reeds, clipped lawns, pink and red tulip beds, and dozens of white and grey geese sitting and wandering everywhere."
+    },
+    {
+      "slug": "gjesterommet",
+      "name": "the Guest Bedroom",
+      "look": "A large, elegant bedroom in the palace's guest wing, with a wide bed with a pale-grey upholstered headboard, a crisp white duvet and tall wooden bedposts, tall windows with heavy blue curtains, a polished parquet floor, a bedside table with a small lamp, and a tall white door to the corridor."
+    }
+  ],
+  "cover": {
+    "prompt": "Aase sits on the low stone edge by the Palace Gate, sewing yet another patch onto the knee of her patched work trousers, and looks straight out at the viewer with a calm, knowing little smile. White and grey geese doze on the gravel and paddle in the pond around her, and one goose rests its head on her boot. Clear spring morning light.",
+    "characters": ["aase"],
+    "places": ["slottsporten"],
+    "caption": "Aase satt på steinkanten ved porten og sydde lapp på lapp.",
+    "alt": "Aase sitter på steinkanten ved slottsporten og syr en lapp på arbeidsbuksen sin. Rundt henne sover og svømmer gjessene."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 9,
+      "anchor": "«Jo, skal jeg ha ham, så får jeg ham nok», sa Aase og bet av tråden.",
+      "characters": ["aase", "prinsen"],
+      "places": ["slottsporten"],
+      "prompt": "On the gravel driveway inside the Palace Gate, a long black car has crept to a halt among dozens of dawdling geese, and in its open back window the Prince leans forward, polite and puzzled. Aase sits on the low stone edge beside the car, sewing a patch onto her work trousers without looking up, and bites off her thread. Two guards in dark suits standing by the car glance at each other, and a press officer in the back seat stares at the Prince.",
+      "caption": "«Jo, skal jeg ha ham, så får jeg ham nok», sa Aase og bet av tråden.",
+      "alt": "En svart bil har stoppet blant gjessene innenfor slottsporten, og prinsen lener seg ut av vinduet. Aase sitter på steinkanten og syr uten å se opp, mens vaktene ser på hverandre."
+    },
+    {
+      "id": "02",
+      "paragraph": 14,
+      "anchor": "«Hvis du har hatt noen kjærester før», sa hun",
+      "characters": ["aase"],
+      "places": ["slottsporten"],
+      "prompt": "At the Palace Gate, a white car carrying the first chosen princess has stopped while the geese take their time crossing the driveway. Aase bends down to the open back window and speaks quietly and seriously. Inside, the princess, a young woman with a sleek platinum bob and a pale-pink coat, listens with her eyes getting wider and wider.",
+      "caption": "«Den sier ham alt om deg.»",
+      "alt": "Gjessene har stoppet bilen til den første prinsessen ved porten. Aase bøyer seg ned mot vinduet og advarer henne, og prinsessen gjør store øyne."
+    },
+    {
+      "id": "03",
+      "paragraph": 26,
+      "anchor": "Prinsen ble liggende og se i taket.",
+      "characters": ["prinsen", "smartmatta"],
+      "places": ["gjesterommet"],
+      "prompt": "Morning in the Guest Bedroom. A technician in blue overalls kneels on the parquet floor, testing the Smart Mat with a small handheld meter, while the Prince, in striped pyjamas and a dressing gown, sits on the edge of the rumpled bed with his chin in his hand, frowning at it. The mat glows a calm, steady gold. The other side of the bed is empty.",
+      "caption": "Han fikk Smartmatta sjekket av en tekniker. Den var i orden.",
+      "alt": "En tekniker i kjeledress sjekker Smartmatta foran sengen, mens prinsen sitter på sengekanten i pyjamas og rynker pannen."
+    },
+    {
+      "id": "04",
+      "paragraph": 37,
+      "anchor": "Prinsen ble stående og stirre ned på den.",
+      "characters": ["prinsen", "smartmatta"],
+      "places": ["gjesterommet"],
+      "prompt": "Early morning in the Guest Bedroom. The Prince, in a dressing gown and bare feet, stands on the Smart Mat staring down at it as it glows and crackles. In the open doorway behind him stands the second chosen princess, dressed for engagement photos, with her auburn hair pinned up, a tiara in place and a long glittering silver dress. Without a word, she is turning to go.",
+      "caption": "Hun sa ingenting. Hun snudde seg og gikk.",
+      "alt": "Prinsen står i morgenkåpe på Smartmatta og stirrer ned på den. I døråpningen står den andre prinsessen med tiara og glitrende kjole og snur seg for å gå."
+    },
+    {
+      "id": "05",
+      "paragraph": 45,
+      "anchor": "«Da gjør vi det slik», sa hun.",
+      "characters": ["tredje-prinsesse", "aase"],
+      "places": ["slottsporten"],
+      "prompt": "By the Palace Gate, among the geese, the Third Princess stands with her slim white planner open in one hand, tapping it with a pen as she lays out the plan, her measured smile exactly as wide as she means it to be. Aase stands in front of her in her patched trousers, calm and unimpressed, with a goose leaning against her boot. Behind them the princess's dark car waits with its door open.",
+      "caption": "«Du går inn klokka elleve. Jeg kommer klokka tre. Du går ut bakveien.»",
+      "alt": "Den tredje prinsessen står ved slottsporten med en kalender og legger en plan, med et smil som er akkurat passe bredt. Aase står rolig foran henne blant gjessene."
+    },
+    {
+      "id": "06",
+      "paragraph": 52,
+      "anchor": "I stedet tok han av seg kjedet han bar rundt halsen.",
+      "characters": ["prinsen", "aase", "smartmatta"],
+      "places": ["gjesterommet"],
+      "prompt": "Midnight in the dim Guest Bedroom, lit only by the faint golden glow of the Smart Mat on the floor. The Prince, still fully dressed in his suit, sits on the edge of the bed with the gold chain from his neck in one hand, and very carefully slides his heavy gold signet ring onto the finger of Aase, who sits under the duvet in a plain grey T-shirt, looking down at her hand. Neither of them says a word.",
+      "caption": "Han trådte ringen forsiktig over fingeren hennes. Det sa klikk.",
+      "alt": "Prinsen sitter påkledd på sengekanten i halvmørket og trer signetringen sin på fingeren til Aase. Hun ser ned på hånden sin, og ingen av dem sier noe."
+    },
+    {
+      "id": "07",
+      "paragraph": 63,
+      "anchor": "«Du spurte ikke», sa Smartmatta.",
+      "characters": ["prinsen", "smartmatta"],
+      "places": ["gjesterommet"],
+      "prompt": "Morning in the Guest Bedroom. The Prince, in yesterday's rumpled suit, sits cross-legged on the parquet floor in front of the Smart Mat, both hands raised, staring at it in furious disbelief. The mat glows calmly gold, as unbothered as a train announcement. The bed behind him is empty, and a forgotten toothbrush lies on the bedside table.",
+      "caption": "«Du spurte ikke», sa Smartmatta.",
+      "alt": "Prinsen sitter på gulvet foran Smartmatta i krøllete dress og stirrer vantro på den. Matta lyser rolig og gyllent."
+    },
+    {
+      "id": "08",
+      "paragraph": 71,
+      "anchor": "Han løftet hånden hennes, forsiktig.",
+      "characters": ["aase", "prinsen"],
+      "prompt": "Early morning on the wet fields behind the palace, with fog lying low over the grass and white and grey geese wandering in the mist. Aase sits on a stone. The Prince, his long coat thrown over yesterday's suit, has gently lifted her hand, and as she pulls it back, the rag slips off her finger: there sits his gold signet ring, shiny and locked, tight round her finger. He looks at her properly for the first time.",
+      "caption": "Der satt signetringen hans, blank og låst, stramt rundt fingeren hennes.",
+      "alt": "Prinsen holder hånden til Aase på et tåkete jorde med gjess rundt dem. Fillen har glidd av, og signetringen hans sitter stramt rundt fingeren hennes."
+    },
+    {
+      "id": "09",
+      "paragraph": 75,
+      "anchor": "Han tok henne med opp på slottet",
+      "characters": ["aase-brud", "prinsen"],
+      "prompt": "A bright summer day in the palace park, where a wedding is held on the lawn between the tulip beds. Aase the Bride and the Prince stand hand in hand under a birch tree, smiling, while dozens of white and grey geese strut across the lawn between the rows of guests' chairs. Far at the back, at a very safe distance, three ambassadors in dark suits stand watching the geese warily.",
+      "caption": "Slik fikk vesle Aase prinsen fra England likevel, bare fordi hun skulle ha ham.",
+      "alt": "Aase i brudekjole og prinsen står hånd i hånd under en bjørk i slottsparken. Gjessene spankulerer mellom stolene, og langt bak står tre ambassadører på trygg avstand."
+    }
+  ]
+}

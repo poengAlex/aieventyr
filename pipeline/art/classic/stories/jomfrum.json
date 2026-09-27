@@ -1,0 +1,326 @@
+{
+  "storyId": "jomfrum",
+  "variants": {
+    "simplified": {
+      "title": "Jomfru Maria som gudmor",
+      "textFile": "public/content/stories/jomfrum/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Virgin Mary as Godmother",
+      "textFile": "public/content/stories/jomfrum/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, long ago, in and around a great, dark forest of spruce and birch. The poor couple live in a tiny log cottage deep in the forest. The foster mother's house is big, quiet and whitewashed; along its longest corridor stand three tall, heavy doors of dark oak. Behind them wait a small, sharp silver-white star, a big, round, cold white moon and a small, blazing golden sun. Far off through the forest, a clear spring lies under a tall old oak, close to a castle of grey stone with steep dark roofs and a queen's bedchamber with a carved wooden cradle. The babies are wrapped in white linen.",
+  "palette": "Cool, quiet light that changes with the years: blue dusk and pearl-grey morning mist in a dark spruce forest, whitewashed rooms lit by the star's silver, the moon's cold white and the sun's molten gold, candlelit stone chambers in the castle, and at the end a pale, snowy winter morning. Accents: the deep blue of the foster mother's veil and the apricot of the queen's gown.",
+  "cast": [
+    {
+      "slug": "fostermoren",
+      "promptName": "the Foster Mother",
+      "look": "A tall, slender, serene woman of about thirty-five with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, grave smile. Her dark hair is hidden under a long deep-blue veil that falls to her shoulders. She wears a long cream-white gown with a band of silver embroidery at the hem, a deep-blue mantle fastened at the throat with a small silver lily brooch, and soft grey leather shoes.",
+      "portrait": "Background: the quiet, whitewashed corridor with the three dark oak doors.",
+      "variants": {
+        "simplified": {
+          "name": "Jomfru Maria (fostermoren)",
+          "description": "En mild, velkledd frue som tar barnet som foster­mor, setter forbudte rom som prøve, og vender tilbake for å straffe og til slutt tilgi.",
+          "replacesPortrait": "jomfru-maria-fostermoren"
+        },
+        "english": {
+          "name": "The Virgin Mary (the foster-mother)",
+          "description": "A splendid, compassionate yet stern guardian who tests obedience through three forbidden chambers and later returns to reveal the truth, restore the children, and lift the maiden’s punishment.",
+          "replacesPortrait": "virgin-mary"
+        }
+      }
+    },
+    {
+      "slug": "jenta-liten",
+      "promptName": "the Little Girl",
+      "look": "A small girl of about eight with a heart-shaped face, a button nose, big curious grey-green eyes, rosy cheeks and long ash-blonde hair in a single plait tied with a coral-pink ribbon. She wears a simple peach-coloured dress with long sleeves, a white pinafore and little brown shoes, and a tiny silver christening cross on a cord round her neck.",
+      "portrait": "Background: the whitewashed corridor with a small deep-set window.",
+      "variants": {
+        "simplified": {
+          "name": "Jenta som liten",
+          "description": "Jenta som vokser opp hos fostermoren i det store, stille huset, og som ikke klarer å la være å kikke inn i kamrene hun ikke får gå inn i."
+        },
+        "english": {
+          "name": "The Maiden as a Little Girl",
+          "description": "The poor couple’s daughter as a child, growing up in her foster-mother’s big, quiet house, who simply cannot leave the forbidden doors alone."
+        }
+      }
+    },
+    {
+      "slug": "jenta",
+      "promptName": "the Maiden",
+      "look": "A lovely young woman of about eighteen with a heart-shaped face, a small nose, large grey-green eyes and a gentle, wistful mouth. Her long ash-blonde hair falls to her waist, held back by a coral-pink ribbon. She wears a simple peach-coloured dress with a laced rose-brown bodice, little brown shoes and a tiny silver christening cross on a cord round her neck.",
+      "portrait": "Background: the leafy branches of the tall oak above the forest spring.",
+      "variants": {
+        "simplified": {
+          "name": "Jenta",
+          "description": "Jenta når hun er nesten voksen. Hun velger å bli den vakreste av alle kvinner, men fra den dagen kan hun ikke si et eneste ord."
+        },
+        "english": {
+          "name": "The Maiden (the foster-daughter)",
+          "description": "Born to a poor couple and raised by a mysterious, noble foster-mother, her irresistible curiosity releases the star, moon, and sun; she chooses beauty at the cost of speech and is later made queen, suffering in silence until vindicated.",
+          "replacesPortrait": "the-maiden"
+        }
+      }
+    },
+    {
+      "slug": "den-unge-dronningen",
+      "promptName": "the Young Queen",
+      "look": "A lovely young queen of about twenty with a heart-shaped face, a small nose, large grey-green eyes and a gentle, sorrowful mouth, and long ash-blonde hair flowing down her back under a slender silver crown set with small pearls. She wears a long apricot gown with wide sleeves and silver embroidery at the neckline over a cream underdress, grey felt slippers and a tiny silver christening cross at her throat.",
+      "portrait": "Background: a tall arched window of the castle.",
+      "variants": {
+        "simplified": {
+          "name": "Den unge dronningen",
+          "description": "En fattig jente som vokser opp hos en streng, men god foster­mor; hun blir uvanlig vakker, men mister stemmen og blir senere dronning.",
+          "replacesPortrait": "den-unge-dronningen"
+        },
+        "english": {
+          "name": "The Young Queen",
+          "description": "The mute maiden, now married to the prince and made his queen. Three times her newborn child is taken from her, and she cannot say a word in her own defence."
+        }
+      }
+    },
+    {
+      "slug": "prinsen",
+      "promptName": "the Prince",
+      "look": "A tall, easy-going young prince of about twenty-four with a long, open face, a strong nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to his collar and a short, neatly trimmed light-brown beard. He wears a knee-length teal-blue coat with a row of small silver buttons over a dove-grey shirt, charcoal breeches, black riding boots and a narrow silver circlet.",
+      "portrait": "Background: the forest spring in the morning mist.",
+      "variants": {
+        "simplified": {
+          "name": "Prinsen",
+          "description": "Arvingen til slottet som finner den vakre, stumme jenta ved kilden og kjemper for å få henne til dronning.",
+          "replacesPortrait": "prinsen"
+        },
+        "english": {
+          "name": "The Prince",
+          "description": "A determined young ruler who discovers the maiden by the spring, marries her despite doubts, and repeatedly pleads to save her when she is falsely accused.",
+          "replacesPortrait": "the-prince"
+        }
+      }
+    },
+    {
+      "slug": "den-gamle-dronningen",
+      "promptName": "the Old Queen",
+      "look": "A short, stout, stiff-backed old queen of about sixty-five with a round double chin, a haughty little upturned nose, small sharp black eyes, thin pencilled eyebrows and pursed lips. Her silver-white hair is piled high in stiff curls under a heavy gold crown set with red stones. She wears a high-necked deep-purple velvet gown with a stiff white pleated collar, and holds a gold lorgnette on a stick for peering at people.",
+      "portrait": "Background: a carved chair in the castle hall.",
+      "variants": {
+        "simplified": {
+          "name": "Den gamle dronningen",
+          "description": "Prinsens mor, mistenksom og streng, som tror den stumme dronningen er farlig, men som til slutt blir forsonet.",
+          "replacesPortrait": "den-gamle-dronningen"
+        },
+        "english": {
+          "name": "The Old Queen (the Prince’s mother)",
+          "description": "Suspicious of the mute stranger and quick to believe the worst, she pushes for harsh punishment until the truth is revealed and her heart changes.",
+          "replacesPortrait": "the-old-queen"
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "gangen",
+      "name": "the Corridor",
+      "look": "A long, quiet corridor in a big, whitewashed house: plain white timber walls, scrubbed pale floorboards, a small deep-set window with a white sill at the far end, and along one wall three tall, heavy doors of dark oak side by side, each with black iron hinges and an iron latch, all shut."
+    },
+    {
+      "slug": "kilden",
+      "name": "the Forest Spring",
+      "look": "A small, perfectly clear spring in a ring of mossy stones and ferns, still as a mirror, in a quiet clearing of a great spruce-and-birch forest. A tall old oak with broad, spreading branches leans right over the water. Through the trees on one side rise the grey stone towers and steep dark roofs of a castle close by."
+    }
+  ],
+  "cover": {
+    "prompt": "The Maiden sits silent on a broad branch of the tall oak over the Forest Spring in the pearly dawn, her long ash-blonde hair falling loose, looking down at her own lovely face mirrored in the still water. In the pale sky above the treetops hang a single silver star, a fading white moon and the first gold of the rising sun.",
+    "characters": ["jenta"],
+    "places": ["kilden"],
+    "variants": {
+      "simplified": {
+        "caption": "Den vakre jenta i treet over kilden kunne ikke si et ord.",
+        "alt": "Ei vakker jente med langt, lyst hår sitter på en grein i et høyt tre over en klar kilde og ser ansiktet sitt i vannet. På himmelen over trærne ser man en stjerne, en blek måne og sola som står opp."
+      },
+      "english": {
+        "caption": "The lovely maiden in the tree above the spring could not say a word.",
+        "alt": "A lovely maiden with long fair hair sits on a branch of a tall tree over a clear spring, looking at her face in the water. In the sky above the trees are a star, a pale moon and the rising sun."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["fostermoren"],
+      "prompt": "Blue dusk on a narrow forest path between tall, dark spruces. A thin, poor man of about thirty in a patched brown jacket and worn boots has stopped short and pulled off his grey knitted cap, holding it in both hands, tired and amazed. Before him on the path stands the Foster Mother in her splendid clothes, looking at him with a kind, gentle smile. The last cold light glows between the trees.",
+      "variants": {
+        "simplified": {
+          "paragraph": 2,
+          "anchor": "Da han gikk hjem i skumringen, sto det en frue på stien mellom grantrærne.",
+          "caption": "Hun var så inderlig snill og god å se til at mannen tok av seg lua.",
+          "alt": "I skumringen står en fattig mann på en sti mellom høye grantrær med lua i hendene. Foran ham står en fin frue i lang, lys kjole og dypblått slør og ser vennlig på ham."
+        },
+        "english": {
+          "paragraph": 2,
+          "anchor": "As he trudged home through the dusk, he met a lady on the path.",
+          "caption": "She looked so kind and so good that he stopped in his tracks.",
+          "alt": "At dusk a poor man stands on a path between tall spruces with his cap in his hands. Before him stands a fine lady in a long pale gown and a deep-blue veil, looking kindly at him."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["jenta-liten"],
+      "places": ["gangen"],
+      "prompt": "In the Corridor, the Little Girl has opened the first of the three heavy oak doors just a crack. Out of the gap shoots a small, sharp, silver-white star, twinkling and scattering tiny sparks as it flies up towards the ceiling. The Little Girl stands frozen with one hand still on the iron latch, her face lit silver and her mouth open in a little O.",
+      "variants": {
+        "simplified": {
+          "paragraph": 11,
+          "anchor": "Så reiste hun. Men jenta klarte likevel ikke å la være.",
+          "caption": "Hun åpnet døra bare en glipe – og vips! så fløy det ut en stjerne.",
+          "alt": "Den lille jenta har åpnet den første av tre tunge dører på gløtt. En liten, sølvhvit stjerne flyr ut og opp mot taket, og jenta står stiv med hånda på klinken og munnen åpen."
+        },
+        "english": {
+          "paragraph": 14,
+          "anchor": "Then off she went.",
+          "caption": "She opened one of the doors, just a crack, and whoosh! out flew a star.",
+          "alt": "The little girl has opened the first of three heavy doors a crack. A small silver-white star flies out and up towards the ceiling, and the girl stands frozen with her hand on the latch and her mouth open."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["fostermoren", "jenta-liten"],
+      "places": ["gangen"],
+      "prompt": "Night in the Corridor. The second oak door stands ajar, and through the small window at the far end a big, round, cold white moon hangs in the dark sky, filling the corridor with silver light. The Foster Mother, just home, stands before the open door with a deeply sorrowful face. The Little Girl, a little older now, clings to the hem of her blue mantle, weeping and begging to stay.",
+      "variants": {
+        "simplified": {
+          "paragraph": 14,
+          "anchor": "Denne gangen ble ikke fostermoren sint.",
+          "caption": "Denne gangen ble ikke fostermoren sint. Hun ble bedrøvet.",
+          "alt": "Den andre døra står på gløtt, og gjennom vinduet skinner en stor, rund måne. Fostermoren står bedrøvet foran døra, og den lille jenta holder seg fast i kappa hennes og gråter."
+        },
+        "english": {
+          "paragraph": 17,
+          "anchor": "This time the foster-mother was not angry.",
+          "caption": "This time the foster-mother was not angry. She was sorrowful.",
+          "alt": "The second door stands ajar, and a big round moon shines in through the window. The foster-mother stands sorrowfully before the door, and the little girl clings to her mantle, weeping."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["jenta"],
+      "places": ["gangen"],
+      "prompt": "In the Corridor, the Maiden, nearly grown, has opened the third heavy oak door a crack, and a small, blazing golden sun streams out, flooding the whole corridor with dazzling light and heat. She reels back with one hand still on the iron latch and the other held up before her eyes, her long ash-blonde hair and her dress lit gold. The shadows of the doors stretch long across the floorboards.",
+      "variants": {
+        "simplified": {
+          "paragraph": 17,
+          "anchor": "Nei, det ville hun ikke, for fostermorens skyld.",
+          "caption": "Vips! så fløy sola ut, og et varmt skinn fylte hele rommet.",
+          "alt": "Jenta, som nå er nesten voksen, har åpnet den tredje døra på gløtt. En liten, glødende sol strømmer ut og fyller gangen med gyllent lys, og jenta rygger bakover med hånda for øynene."
+        },
+        "english": {
+          "paragraph": 20,
+          "anchor": "No. She wouldn’t, for her foster-mother’s sake.",
+          "caption": "Whoosh! out flew the sun, and golden light poured down the corridor.",
+          "alt": "The girl, now nearly grown, has opened the third door a crack. A small blazing sun streams out and floods the corridor with golden light, and the girl reels back with her hand over her eyes."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["jenta"],
+      "places": ["kilden"],
+      "prompt": "Early morning at the Forest Spring, with mist between the trees. A plump young maid in a brown dress, white apron and white cap tosses her head with her nose in the air and marches off towards the castle, her wooden bucket flung down on the mossy bank behind her. High above in the tall oak over the spring, the Maiden, so lovely that she seems to glow, sits silently on a broad branch and watches her go.",
+      "variants": {
+        "simplified": {
+          "paragraph": 23,
+          "anchor": "Like ved lå et slott.",
+          "caption": "«Er jeg så vakker, så er jeg for god til å gå og bære vann.»",
+          "alt": "En tjenestejente har slengt fra seg bøtta ved kilden og går sin vei med nesen i været. Høyt oppe i eika over kilden sitter den vakre jenta helt stille og ser etter henne."
+        },
+        "english": {
+          "paragraph": 26,
+          "anchor": "Close by stood a castle.",
+          "caption": "“If I’m as pretty as that, I’m far too good to be carrying water.”",
+          "alt": "A maid has flung down her bucket by the spring and marches off with her nose in the air. High in the oak above the spring, the lovely maiden sits quite still and watches her go."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["prinsen", "jenta"],
+      "places": ["kilden"],
+      "prompt": "At the Forest Spring in the pale morning mist, the Prince stands on the mossy bank at the foot of the tall oak with both arms raised, coaxing gently. Above him, the Maiden reaches down through the branches, shy and silent, about to climb down to him. Her lovely face is mirrored in the still water of the spring, and the grey towers of the castle show through the trees.",
+      "variants": {
+        "simplified": {
+          "paragraph": 28,
+          "anchor": "Han rakte hånda opp mot henne og lokket henne ned",
+          "caption": "Han rakte hånda opp mot henne og lokket henne ned.",
+          "alt": "Prinsen står ved foten av eika over kilden og strekker armene opp mot jenta i treet. Hun rekker ned mot ham mellom greinene. Gjennom trærne ser man tårnene på slottet."
+        },
+        "english": {
+          "paragraph": 30,
+          "anchor": "He stood on the bank with his arms raised and coaxed her down.",
+          "caption": "He stood on the bank with his arms raised and coaxed her down.",
+          "alt": "The prince stands at the foot of the oak by the spring, reaching up to the maiden in the tree. She reaches down to him through the branches. Through the trees, the castle towers can be seen."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["den-unge-dronningen", "den-gamle-dronningen", "prinsen"],
+      "prompt": "Grey morning in the queen's stone bedchamber in the castle. Beside an empty carved wooden cradle, the Young Queen sits pale and silent on the edge of the bed, her hands folded in her lap. The Old Queen stands over her, pointing at her with her gold lorgnette and demanding her punishment, while the Prince kneels before his mother with his hands clasped, pleading. In the doorway, three guards who have just woken stare in dismay.",
+      "variants": {
+        "simplified": {
+          "paragraph": 33,
+          "anchor": "Da vaktene våknet, trodde de at dronningen hadde spist sitt eget barn.",
+          "caption": "Den gamle dronningen ville ha henne brent. Men prinsen fikk bedt henne fri.",
+          "alt": "Den unge dronningen sitter blek og taus på sengekanten ved siden av en tom vugge. Den gamle dronningen peker på henne, og prinsen ligger på kne foran moren sin og ber for henne."
+        },
+        "english": {
+          "paragraph": 35,
+          "anchor": "When the guards woke up, they believed the queen had eaten her own child.",
+          "caption": "The old queen wanted her burned. But the prince begged her free.",
+          "alt": "The young queen sits pale and silent on the edge of the bed beside an empty cradle. The old queen points at her, and the prince kneels before his mother, pleading for his wife."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["fostermoren", "den-unge-dronningen"],
+      "prompt": "Night in the queen's candlelit bedchamber in the castle. Nine guards lie and slump fast asleep along the walls and across the doorway. In the middle of the room stands the Foster Mother, holding a newborn baby wrapped in white linen, and speaks gravely to the Young Queen, who half rises from the bed without her crown, stretching out her empty arms. Cold blue moonlight falls through the window.",
+      "variants": {
+        "simplified": {
+          "paragraph": 37,
+          "anchor": "«Nå skal du bli så bedrøvet som jeg ble da du slapp ut sola», sa hun.",
+          "caption": "«Nå skal du bli så bedrøvet som jeg ble da du slapp ut sola.»",
+          "alt": "Om natta sover ni vakter langs veggene i dronningens kammer. Fostermoren står midt i rommet med et nyfødt barn i armene og snakker til den unge dronningen, som strekker armene etter barnet."
+        },
+        "english": {
+          "paragraph": 39,
+          "anchor": "“Now you shall be as sorrowful as I was when you let out the sun,” she said.",
+          "caption": "“Now you shall be as sorrowful as I was when you let out the sun.”",
+          "alt": "At night nine guards sleep along the walls of the queen's chamber. The foster-mother stands in the middle of the room with a newborn baby in her arms, speaking to the young queen, who reaches out for her child."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["den-unge-dronningen", "fostermoren", "prinsen", "den-gamle-dronningen"],
+      "prompt": "A pale winter morning on an open, snowy slope, where a crowd of townsfolk stands well back. Behind the Young Queen rises a tall pyre of stacked logs. She stands pale in a plain white linen shift and a grey shawl, without her crown, her hands clasped at her breast. Before her, the Foster Mother, in a soft golden glow, holds out the three children: two toddlers by the hand and a baby in her arm. Nearby, the Prince stares and the Old Queen stands frozen.",
+      "variants": {
+        "simplified": {
+          "paragraph": 41,
+          "anchor": "«Her er barna dine», sa hun.",
+          "caption": "«Her er barna dine», sa hun. «Nå skal du få dem igjen.»",
+          "alt": "Foran et høyt bål står den unge dronningen blek i en enkel, hvit kjole. Fostermoren står i et mildt lys og rekker fram de tre barna til henne. Prinsen og den gamle dronningen stirrer."
+        },
+        "english": {
+          "paragraph": 43,
+          "anchor": "“Here are your children,” said the foster-mother.",
+          "caption": "“Here are your children,” said the foster-mother. “Now you shall have them back.”",
+          "alt": "In front of a tall pyre, the young queen stands pale in a plain white shift. The foster-mother, in a soft light, holds out the three children to her. The prince and the old queen stare."
+        }
+      }
+    }
+  ]
+}

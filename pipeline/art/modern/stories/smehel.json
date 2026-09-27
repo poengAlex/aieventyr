@@ -1,0 +1,190 @@
+{
+  "storyId": "smehel",
+  "title": "Smeden som de ikke turte slippe inn i helvete",
+  "textFile": "public/content/stories/smehel/modern/story.txt",
+  "world": "Present-day Norway, a farming valley in summer. The Smith is the national champion farrier. His workshop is a long, dark-red steel-clad building by a county road, with a gravel yard for horse trailers, an old pear tree heavy with yellow pears against the side wall and his old mother's small white house next door. Inside are a coal forge with an electric fan and a big anvil, and in the break room a worn armchair patched with grey gaffer tape on one armrest. The steel-wire bag is a small, round coin purse of braided silver-grey steel wire with a snap clasp. Far along the road, the way forks: one road climbs into white clouds to a tall, pale gate; the other drops into a smoky gully to a tall black steel gate with an intercom and nine locks.",
+  "palette": "A hot, bright Norwegian summer: dusty gravel, yellow fields and green verges, cow parsley in the ditches and ripe yellow pears in the low evening sun. Inside the workshop: charcoal greys lit by the orange forge and white sparks. At the end, the gate of Heaven glows pale gold in white cloud, and the gate of Hell stands in plum-grey smoke.",
+  "cast": [
+    {
+      "slug": "smeden",
+      "name": "Smeden",
+      "promptName": "the Smith",
+      "replacesPortrait": "smeden",
+      "description": "En selvsikker, sotete verkstedeier med et skryte-skilt over porten og en djevelkontrakt i skuffen; smart nok til å lure Fanden, men dumdristig nok til å etterligne mirakler han ikke forstår.",
+      "look": "A tall, long-legged blacksmith and farrier of about forty with a broad barrel chest and thick, strong forearms, a long, cocky face with a jutting chin, a big bumpy nose, twinkling hazel eyes, a chestnut-brown handlebar moustache curled up at both ends and short chestnut hair that sticks straight up like a brush. He wears a charcoal work T-shirt, a long scorched brown leather apron, dark-blue work trousers with knee pads, steel-toed black boots and a red bandana knotted round his neck.",
+      "portrait": "Background: the glowing forge in his workshop."
+    },
+    {
+      "slug": "var-herre",
+      "name": "Vår Herre",
+      "promptName": "Our Lord",
+      "replacesPortrait": "var-herre",
+      "description": "En rolig vandrer som avslører ekte mesterskap ved å sko en hest og gjøre en gammel kvinne ung igjen, og som tilbyr smeden tre ønsker som blir brukt på list, ikke nåde.",
+      "look": "A calm, slim man of about forty-five with an upright bearing, an oval face, a straight nose, warm dark-brown eyes with smile lines, long, curly dark-brown hair with a few silver threads falling to his shoulders and a short, neat dark-brown beard. He wears a loose, light linen shirt, pale linen trousers and worn leather sandals, and carries a slate-grey canvas sack over his shoulder and a plain wooden staff. No halo.",
+      "portrait": "Background: the county road in bright summer sunshine."
+    },
+    {
+      "slug": "sankt-peter",
+      "name": "Sankt Peter",
+      "promptName": "Saint Peter",
+      "replacesPortrait": "sankt-peter",
+      "description": "Følgesvennen som ser gjennom smedens dumme ønsker og senere står ved himmelporten der bare en smal glippe åpnes.",
+      "look": "A tall, broad-shouldered old fisherman of about seventy with a weathered, ruddy face, a big round nose, pale blue eyes under bushy grey eyebrows and a thick, curly grey beard. He wears a navy-blue fisherman's cap with a short peak, a worn rust-brown canvas jacket over a grey fleece, dark trousers and sturdy hiking boots, and carries a sack and a wooden staff. A big, old iron key hangs from a leather cord at his belt. No halo.",
+      "portrait": "Background: soft white clouds."
+    },
+    {
+      "slug": "fanden",
+      "name": "Fanden",
+      "promptName": "the Devil",
+      "replacesPortrait": "fanden",
+      "description": "Kontraktsbundet innkrever som lar seg lokke av bekvemmelighet og stolthet, og blir fanget i pæretreet, i lenestolen på pauserommet og til slutt i smedens lille ståltrådveske.",
+      "look": "A short, pot-bellied devil no taller than a boy of ten, with shiny tomato-red skin, a round face with a button nose, big goggly amber eyes, pointy ears, a long, pointed black goatee, two big black ram's horns curling out of his forehead and a very long, thin tail with an arrow-shaped tip. He wears a long black overcoat, a soot-black waistcoat with shiny brass buttons stretched over his belly and polished black shoes far too fine for gravel. Vain and silly rather than frightening.",
+      "portrait": "Background: the old pear tree full of yellow pears."
+    },
+    {
+      "slug": "skredderlaerlingen",
+      "name": "Skredderlærlingen",
+      "promptName": "the Tailor's Apprentice",
+      "description": "En tynn, ung skredderlærling med et strykejern under armen og ledningen surret rundt, som skal prøve å slippe inn i himmelen.",
+      "look": "A thin, narrow-shouldered young man of about nineteen with a narrow pale face, a long pointed nose, big anxious grey eyes and neat, slicked-down black hair with a straight side parting. He wears a snug plum-purple knitted vest over a white shirt, slim grey trousers and black trainers, with a yellow tape measure round his neck and a red pincushion on his wrist, and carries an electric steam iron under his arm with its cord wrapped round it.",
+      "portrait": "Background: the fork in the long country road."
+    }
+  ],
+  "places": [
+    {
+      "slug": "verkstedet",
+      "name": "the Workshop",
+      "look": "Inside a big smithy and farrier workshop in a steel-clad hall: a coal forge with a steel hood and an electric fan, a big black anvil on a steel stand, racks of horseshoes, hammers and tongs on pegboard walls, a scuffed concrete floor, a window looking out on a pear tree, and wide sliding doors open onto a sunny gravel yard with a horse trailer."
+    },
+    {
+      "slug": "tunet",
+      "name": "the Yard",
+      "look": "Outside the workshop: a long, dark-red steel-clad building with wide sliding doors and a roof vent, a gravel yard with a horse trailer, an old pear tree heavy with yellow pears against the side wall and a small white house next door. Beyond a low fence runs a county road with a guard rail, a grassy ditch full of cow parsley and summer fields."
+    }
+  ],
+  "cover": {
+    "prompt": "In the gravel yard of the Workshop on a hot summer evening, the Smith leans on his big sledgehammer with a sly, twinkling grin, while the Devil, in his long black coat and shoes far too fine for the gravel, stands beside him with his arms crossed, tapping one foot impatiently and glaring up at him. Behind them, the old pear tree hangs heavy with yellow pears in the low sun.",
+    "characters": ["smeden", "fanden"],
+    "places": ["tunet"],
+    "caption": "Smeden og Fanden, som har kommet for å hente ham.",
+    "alt": "Smeden lener seg på slegga og smiler lurt. Ved siden av står en liten, rød djevel i lang, svart frakk med armene i kors. Bak dem henger pæretreet fullt av gule pærer."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 6,
+      "anchor": "Smeden så ikke opp fra ambolten.",
+      "characters": ["smeden", "var-herre", "sankt-peter"],
+      "places": ["verkstedet"],
+      "prompt": "Inside the Workshop, the Smith bends over the anvil hammering a glowing horseshoe and does not even look up. In the wide sliding doorway, against the bright summer light, stand Our Lord, calm and curious, and Saint Peter behind him with his sack and staff. Sparks fly from the anvil, and a horse trailer is parked on the gravel outside.",
+      "caption": "«Les skiltet», sa smeden uten å se opp.",
+      "alt": "Smeden står bøyd over ambolten og hamrer på en glødende hestesko uten å se opp. I døråpningen står to vandringsmenn med sekk og stav."
+    },
+    {
+      "id": "02",
+      "paragraph": 12,
+      "anchor": "Smeden sto med munnen halvåpen og en hammer han hadde glemt at han holdt.",
+      "characters": ["var-herre", "smeden"],
+      "places": ["verkstedet"],
+      "prompt": "Inside the Workshop, Our Lord pats the neck of a cream-coloured fjord horse with an upright black-and-cream mane, which now stands on four shining new shoes, calmly chewing its lead rope. By the sliding door, the horse's owner, a woman in a quilted vest and riding boots, holds up her phone, forgetting to film. The Smith stands with his mouth half open, holding a hammer he has forgotten about.",
+      "caption": "Smeden sto med munnen halvåpen og en hammer han hadde glemt at han holdt.",
+      "alt": "Vår Herre klapper en fjordhest som står på fire blanke, nye sko. Hesteeieren holder opp mobilen, men glemmer å filme, og smeden står og måper med en hammer i hånda."
+    },
+    {
+      "id": "03",
+      "paragraph": 17,
+      "anchor": "Hun så lenge på hendene sine.",
+      "characters": ["var-herre", "smeden"],
+      "places": ["tunet"],
+      "prompt": "In the gravel yard, the Smith's mother, now a straight-backed young woman with rosy cheeks and a dark-blonde bob, still in her lilac cardigan and long grey skirt, walks home towards the small white house next door, carrying her rollator under one arm and gazing at her smooth young hands. Behind her, Our Lord stands calmly in the workshop doorway, and the Smith, beside him, clears his throat.",
+      "caption": "Så gikk hun hjem igjen og bar rullatoren under armen.",
+      "alt": "Mora til smeden er blitt ei ung kvinne i den samme lilla strikkejakka. Hun går hjem over tunet med rullatoren under armen og ser på hendene sine."
+    },
+    {
+      "id": "04",
+      "paragraph": 27,
+      "anchor": "Lærlingen gikk ut og ble stående i grøfta med ryggen til.",
+      "characters": ["var-herre", "smeden"],
+      "places": ["tunet"],
+      "prompt": "In the grassy roadside ditch in front of the workshop, among tall cow parsley, the young apprentice, a lanky boy in a grey hoodie and a leather apron, stands with his back turned to the building, shoulders hunched. Behind him in the wide doorway, Our Lord faces the Smith with a grave, sorrowful look, and the Smith avoids his eyes. A thin wisp of grey smoke drifts from the roof vent.",
+      "caption": "Lærlingen gikk ut og ble stående i grøfta med ryggen til.",
+      "alt": "Lærlingen står i grøfta foran verkstedet med ryggen til. Bak ham i døråpningen ser Vår Herre alvorlig på smeden, som ikke møter blikket hans."
+    },
+    {
+      "id": "05",
+      "paragraph": 33,
+      "anchor": "Han trengte ikke lang betenkningstid.",
+      "characters": ["smeden", "var-herre", "sankt-peter"],
+      "places": ["verkstedet"],
+      "prompt": "In the Workshop, the Smith points out through the window at the old pear tree by the wall, heavy with yellow pears, and with his other hand holds up a little round bag of braided steel wire. Through an open door behind him, a worn armchair with grey gaffer tape on one armrest can be seen in the break room. Our Lord listens with a patient smile, and Saint Peter sighs.",
+      "caption": "Han trengte ikke lang betenkningstid.",
+      "alt": "Smeden peker ut vinduet mot pæretreet og holder opp ei lita veske av flettet ståltråd. Bak ham skimtes en slitt lenestol. Vår Herre smiler, og Sankt Peter sukker."
+    },
+    {
+      "id": "06",
+      "paragraph": 43,
+      "anchor": "Fanden ba.",
+      "characters": ["fanden", "smeden"],
+      "places": ["tunet"],
+      "prompt": "In the Yard in the low evening sun, the Devil sits stuck high in the old pear tree in his long black coat, one arm stretched towards the biggest yellow pear, pleading down at the Smith. Below on the gravel, the Smith leans on his sledgehammer, not even trying to look sorry. On the county road beyond the fence, two cars have slowed down, and a neighbour in shorts has stopped his bicycle to take a photo with his phone.",
+      "caption": "Bilene på fylkesveien satte ned farten, og en nabo stoppet og tok bilde.",
+      "alt": "Fanden sitter fast i pæretreet i en lang, svart frakk og ber om å få komme ned. Smeden lener seg på slegga. Ute på veien sakker bilene farten, og en nabo tar bilde."
+    },
+    {
+      "id": "07",
+      "paragraph": 50,
+      "anchor": "Fanden ba først pent om å få reise seg.",
+      "characters": ["fanden", "smeden"],
+      "prompt": "In the cramped break room of the workshop, with a coffee machine, a microwave and a small window, the Devil sits stuck fast in the worn armchair with grey gaffer tape on the armrest, red with fury, jabbing a finger as he rants about breach of contract. In the doorway, the Smith spreads his hands apologetically, holding up an iron nail in his tongs as if it were all the iron’s fault.",
+      "caption": "Han snakket om kontraktsbrudd og advokater.",
+      "alt": "Fanden sitter fast i en slitt lenestol med gaffateip på pauserommet og kjefter rasende. I døra sprer smeden hendene unnskyldende ut."
+    },
+    {
+      "id": "08",
+      "paragraph": 58,
+      "anchor": "«Gjerne det», sa Fanden.",
+      "characters": ["smeden", "fanden"],
+      "places": ["verkstedet"],
+      "prompt": "Close-up at the anvil in the Workshop: the Smith holds the little round bag of braided steel wire wide open in his big, calloused hands with an innocent face. The Devil, shrunk to the size of a mouse, is climbing into it head first among the coins, with only his tiny polished shoes and his long, thin tail still sticking out. Warm orange forge light.",
+      "caption": "Han gjorde seg liten, for det var noe han var god til, og krøp inn.",
+      "alt": "Smeden holder ei lita ståltrådveske åpen i hånda. Fanden er blitt bitte liten og kryper inn, så bare skoene og halen stikker ut."
+    },
+    {
+      "id": "09",
+      "paragraph": 67,
+      "anchor": "Han åpnet veska, og Fanden forsvant ut porten uten å se seg tilbake.",
+      "characters": ["fanden", "smeden"],
+      "places": ["tunet"],
+      "prompt": "Wide view of the Yard on a bright afternoon: the Devil, back to his full size, sprints away along the county road in his flapping black coat, not daring to look back, his fine shoes scattering gravel. In the wide workshop door stands the Smith, holding up the open, soot-blackened steel-wire bag with a broad grin.",
+      "caption": "Fanden forsvant ut porten uten å se seg tilbake.",
+      "alt": "Fanden løper bortover veien i den svarte frakken uten å se seg tilbake. I verkstedporten står smeden med den åpne ståltrådveska og gliser."
+    },
+    {
+      "id": "10",
+      "paragraph": 71,
+      "anchor": "Ved skiltet tok han igjen en tynn ung mann med et strykejern under",
+      "characters": ["smeden", "skredderlaerlingen"],
+      "prompt": "Where a long country road forks under a hot, hazy sky, the Smith, his sledgehammer over his shoulder, catches up with the Tailor's Apprentice, who hurries along with a steam iron under his arm, its cord wrapped round it. Ahead of them the road splits: one way climbs a green hill into soft white clouds towards a pale gate far away; the other drops into a smoky grey gully.",
+      "caption": "Han tok igjen en tynn ung mann med et strykejern under armen.",
+      "alt": "Smeden med slegga på skulderen tar igjen en tynn skredderlærling med et strykejern under armen der veien deler seg. Den ene veien går opp i skyene, den andre ned i røyk."
+    },
+    {
+      "id": "11",
+      "paragraph": 80,
+      "anchor": "Det ble stille igjen.",
+      "characters": ["smeden"],
+      "prompt": "In a smoky grey gully, the Smith stands with his sledgehammer on his shoulder before a tall black steel gate with a small intercom panel on the gatepost, eyebrows raised, as nine heavy locks slam shut one after another down the gate and a big padlock swings on the bolt. Plum-grey smoke curls over the top of the gate. Seen from just behind him.",
+      "caption": "Så hørte han låsene gå, én etter én, ni i tallet.",
+      "alt": "Smeden står foran en høy, svart stålport med porttelefon i en røykfylt kløft. Ni låser smeller igjen nedover porten, og en hengelås dingler på slåen."
+    },
+    {
+      "id": "12",
+      "paragraph": 83,
+      "anchor": "Her gjelder det å være rask, tenkte han.",
+      "characters": ["sankt-peter", "skredderlaerlingen", "smeden"],
+      "prompt": "High among soft white clouds, Saint Peter holds a tall, pale gate open just a crack, and the Tailor's Apprentice slips in sideways with his steam iron as golden light spills out. At that very moment the Smith's sledgehammer sails through the gap in a high arc above their heads, and six or seven steps behind, the Smith leans forward with his arm still stretched out from the throw.",
+      "caption": "Han grep slegga og kastet den med all kraft inn gjennom glipa.",
+      "alt": "Sankt Peter holder himmelporten på gløtt, og skredderlærlingen smetter inn. Over hodene deres flyr smedens slegge inn gjennom glipa, mens smeden står noen skritt bak."
+    }
+  ]
+}

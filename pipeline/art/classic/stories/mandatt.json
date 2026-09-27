@@ -1,0 +1,461 @@
+{
+  "storyId": "mandatt",
+  "variants": {
+    "simplified": {
+      "title": "Mannens datter og kjerringens datter",
+      "textFile": "public/content/stories/mandatt/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Man’s Daughter and the Wife’s Daughter",
+      "textFile": "public/content/stories/mandatt/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway. At home: a small grey log farmhouse with a turf roof, a round stone well in the grass in front, and a small pigsty of rough grey planks. At the bottom of the well lies another world, where the well is only a dark stone arch in a grassy bank: a wide green meadow crossed by a low fence woven of brushwood, and a big old apple tree with a long pole against its trunk. Far beyond lies the troll farm, a big, dark old log farm with a cowshed and a well in the yard. The troll hag's daughter is a younger, slimmer copy of her mother with the same long hooked nose. The sieve is a big round wooden sieve. The three chests are small wooden chests with curved lids: one red, one green, and one blue with three little white crosses on its lid.",
+  "palette": "Two worlds. Above the well: a raw, overcast day at a poor farm, with wet grass and muted browns and greys. Below it: a strange, bright summer that never ends, with jewel-green grass, clover, buttercups and red apples under a pale, hazy sky; the troll farm in dark timber and deep shadow, lit by a small fire and by shafts of light in the cowshed. At the end, the pigsty glows with gold and silver. Accents: the Girl's blue headscarf and the red, green and blue chests.",
+  "cast": [
+    {
+      "slug": "mannsdattera",
+      "promptName": "the Girl",
+      "look": "A slender, kind girl of about sixteen, a little small for her age, with a narrow, gentle face, big grey eyes, a small nose, pink cheeks and a shy smile. Her light-brown wavy hair falls to her shoulders from under a blue linen headscarf knotted at the nape of her neck. She wears a plain, patched undyed linen dress, a faded brown apron and worn brown leather shoes.",
+      "portrait": "Background: the green meadow at the bottom of the well.",
+      "variants": {
+        "simplified": {
+          "name": "Mannsdattera",
+          "description": "Den arbeidsomme og snille jenta som viser respekt og hjelpsomhet, får råd av småfuglene og blir belønnet med et blått skrin fullt av rikdom.",
+          "replacesPortrait": "mannsdattera"
+        },
+        "english": {
+          "name": "The Man’s Daughter",
+          "description": "A clever, hardworking stepdaughter whose gentleness earns help from creatures, birds, and the landscape itself.",
+          "replacesPortrait": "mans-daughter"
+        }
+      }
+    },
+    {
+      "slug": "kjerringdattera",
+      "promptName": "the Stepsister",
+      "look": "A sturdy, broad-shouldered girl of about seventeen with a broad, square face, a heavy jaw, full lips pushed out in a sulk, a wide flat nose, small dark eyes under heavy black eyebrows drawn together in a scowl, and a big, bushy cloud of black frizzy hair tied on top with a red ribbon. She wears a fussy mustard-yellow wool dress with puffed sleeves and a ruffled white collar, red leather shoes with buckles and a small cloth pouch of raisins at her waist.",
+      "portrait": "Background: the grey farmhouse with the stone well in front.",
+      "variants": {
+        "simplified": {
+          "name": "Kjerringdattera",
+          "description": "Den late og ufine stesøsteren som tråkker på alt hun møter, nekter å høre på råd og velger det røde skrinet som gir henne en forferdelig straff.",
+          "replacesPortrait": "kjerringdattera"
+        },
+        "english": {
+          "name": "The Wife’s Daughter",
+          "description": "A lazy, selfish stepsister who mistreats those she meets and refuses good advice, bringing a curse upon herself.",
+          "replacesPortrait": "wifes-daughter"
+        }
+      }
+    },
+    {
+      "slug": "stemora",
+      "promptName": "the Stepmother",
+      "look": "A short, stout, bossy farmwife of about forty-five with a big, doughy face, heavy cheeks, a small snub nose, small cold black eyes, a sour little mouth and frizzy black hair streaked with grey, bundled into a big knot on top of her head. She wears a stiff dark-plum wool dress with a black bodice and a starched white collar fastened with a large round silver brooch, and she usually stands with her arms folded.",
+      "portrait": "Background: the grey farmhouse on a damp, overcast day.",
+      "variants": {
+        "simplified": {
+          "name": "Stemora",
+          "description": "Kjerringa som mannen giftet seg med, og mor til kjerringdattera. Mannsdattera kan aldri gjøre henne til lags, og hun vil helst bli kvitt henne."
+        },
+        "english": {
+          "name": "The Stepmother",
+          "description": "The wife the man married, and mother of the wife’s daughter. The man’s daughter can never please her, and she would gladly be rid of the girl."
+        }
+      }
+    },
+    {
+      "slug": "trollkjerringa",
+      "promptName": "the Troll Hag",
+      "look": "A big, heavy, barrel-shaped troll woman, a head taller than a grown woman and twice as broad, with a wrinkled, sallow face, a very long, hooked nose, one thick bushy grey eyebrow straight across her forehead, squinting black eyes, a sour down-turned mouth and a wart on her chin. Stiff grey hair pokes out of a red headscarf tied under her chin. She wears a coarse charcoal-grey dress, a sacking apron and huge, clumpy wooden clogs.",
+      "portrait": "Background: the smoky Troll Farm Room.",
+      "variants": {
+        "simplified": {
+          "name": "Trollkjerringa",
+          "description": "En streng og lur trollkone som tester tjenestejenter med umulige oppgaver og prøver å stoppe den som får med seg riktig skrin.",
+          "replacesPortrait": "trollkjerringa"
+        },
+        "english": {
+          "name": "The Troll-Wife",
+          "description": "A harsh mistress living on a remote farm who sets impossible tasks, then offers three chests as wages.",
+          "replacesPortrait": "troll-wife"
+        }
+      }
+    },
+    {
+      "slug": "smafuglene",
+      "promptName": "the Little Birds",
+      "look": "A little flock of exactly three identical tiny songbirds, blue tits no bigger than a plum: round and fluffy, with a sky-blue cap, wings and tail, a lemon-yellow breast, white cheeks with a thin black stripe through each eye, a short black beak, shiny black bead eyes and thin grey legs. They always stay together and sing with their beaks wide open.",
+      "portrait": "Background: the rim of a stone well in bright, hazy light.",
+      "variants": {
+        "simplified": {
+          "name": "Småfuglene",
+          "description": "De syngende fuglene som gir enkle råd som gjør at den snille jenta klarer oppgavene og tar riktige valg.",
+          "replacesPortrait": "smafuglene"
+        },
+        "english": {
+          "name": "The Singing Birds",
+          "description": "Small birds that guide the worthy with practical instructions and warnings, acting as unseen helpers against the troll-wife.",
+          "replacesPortrait": "singing-birds"
+        }
+      }
+    },
+    {
+      "slug": "kua",
+      "promptName": "the Cow",
+      "look": "A big, gentle, plump cow with a brindled coat of dark brown and black streaks over reddish brown, long curved cream-coloured horns, big soft brown eyes with long lashes, a wet pink nose, a calm, friendly face and a swishing tail with a white tuft. Her udder is full and round, and a wooden milking bowl hangs by a leather thong from her horns.",
+      "portrait": "Background: the green meadow at the bottom of the well.",
+      "variants": {
+        "simplified": {
+          "name": "Kua",
+          "description": "Den store, brandete kua på enga, med ei melkekolle på hornene. Hun vil bli melket, og siden gjemmer hun mannsdattera under juret sitt."
+        },
+        "english": {
+          "name": "The Cow",
+          "description": "The big brindled cow in the meadow, with a milking bowl on her horns. She asks to be milked, and later hides the man’s daughter under her udder."
+        }
+      }
+    },
+    {
+      "slug": "bukken",
+      "promptName": "the Ram",
+      "look": "A big, round ram with creamy-white wool so long and thick that it drags along the ground behind him like a cloud, a black face, black legs, big curly golden-brown horns, sleepy half-closed amber eyes and a soft, silly smile. A big pair of iron sheep shears hangs from one of his horns.",
+      "portrait": "Background: the green meadow at the bottom of the well.",
+      "variants": {
+        "simplified": {
+          "name": "Bukken",
+          "description": "En sauebukk med så mye ull at den sleper etter ham. Han vil bli klipt, og siden gjemmer han mannsdattera under ulla rundt halsen sin."
+        },
+        "english": {
+          "name": "The Ram",
+          "description": "A ram with so much wool that it drags behind him. He asks to be sheared, and later hides the man’s daughter under the wool round his neck."
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "enga",
+      "name": "the Green Meadow",
+      "look": "A wide, gently rolling meadow of bright, jewel-green grass dotted with white clover and buttercups, stretching as far as the eye can see under a pale, hazy sky. A narrow earth path winds across it, past a low fence woven of brushwood twigs and a big, old, gnarled apple tree with a long pole leaning against its trunk. Behind, a dark stone arch opens in a grassy bank."
+    },
+    {
+      "slug": "trollstua",
+      "name": "the Troll Farm Room",
+      "look": "The main room of an old troll farm: a big, low, smoky room of soot-black logs, with a stone hearth and a small fire, a heavy plank table, a long bench along the wall, thick ceiling beams hung with bunches of dried herbs, one small window with a deep sill, and a heavy plank door out to the yard."
+    }
+  ],
+  "cover": {
+    "prompt": "In the bright Green Meadow at the bottom of the well, the Girl walks along the path hugging the small blue chest and looks up with a smile at the Little Birds fluttering round her head. Beside the path stand the brindled Cow with the wooden bowl on her horns and the Ram, freshly sheared, with a thick scarf of wool wound round his neck, both watching her kindly. Behind them rises the big old apple tree.",
+    "characters": ["mannsdattera", "smafuglene", "kua", "bukken"],
+    "places": ["enga"],
+    "variants": {
+      "simplified": {
+        "caption": "Mannsdattera er snill mot alle hun møter på den grønne enga.",
+        "alt": "Mannsdattera går over ei grønn eng med et blått skrin i armene, og småfuglene flyr rundt hodet hennes. Ved stien står ei brandet ku og en nyklipt bukk med ull rundt halsen, og bak dem står et epletre."
+      },
+      "english": {
+        "caption": "The man’s daughter is kind to everyone she meets in the green meadow.",
+        "alt": "The man's daughter walks across a green meadow with a blue chest in her arms while the little birds flutter round her head. A brindled cow and a sheared ram with a scarf of wool stand by the path, with an apple tree behind them."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["mannsdattera", "kjerringdattera", "stemora"],
+      "prompt": "A grey, overcast day in front of a small grey log farmhouse with a turf roof. The Girl and the Stepsister sit on a bench by the round stone well, spinning with wooden hand spindles. The Stepsister spins soft, pale-gold flax with a smug face, while the Girl struggles with a basket of stiff black pig's bristles that will hardly twist into thread. In the doorway behind them, the Stepmother stands with her arms folded, watching.",
+      "variants": {
+        "simplified": {
+          "paragraph": 1,
+          "anchor": "En dag skulle de to jentene sitte ved brønnen og spinne.",
+          "caption": "Kjerringdattera fikk fint, mykt lin. Mannsdattera fikk ikke annet enn bust.",
+          "alt": "To jenter sitter ved brønnen foran en liten grå gård og spinner. Kjerringdattera har mykt lin, mens mannsdattera strever med stiv bust. I døra står stemora med armene i kors."
+        },
+        "english": {
+          "paragraph": 1,
+          "anchor": "One day the two girls were sent to sit by the well and spin.",
+          "caption": "The wife’s daughter got fine, soft flax. The man’s daughter got nothing but bristles.",
+          "alt": "Two girls sit by the well in front of a small grey farmhouse, spinning. The wife's daughter has soft flax, while the man's daughter struggles with stiff bristles. In the doorway, the stepmother stands with folded arms."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["mannsdattera"],
+      "places": ["enga"],
+      "prompt": "Bright, hazy light in the Green Meadow at the bottom of the well. Behind the Girl, the well is only a dark stone arch in a grassy bank. In front of her, the low fence woven of brushwood crosses the path, and she steps over it on tiptoe, as light as a feather, holding up her skirt and barely touching the twigs. The green meadow stretches away as far as the eye can see.",
+      "variants": {
+        "simplified": {
+          "paragraph": 8,
+          "anchor": "Da gjorde hun seg lett som ei fjær",
+          "caption": "Hun gjorde seg lett som ei fjær og trådte varsomt over risgjerdet.",
+          "alt": "Mannsdattera trår varsomt over et lavt gjerde av flettede kvister på ei stor, grønn eng. Bak henne er brønnen bare en mørk steinbue i en gressbakke."
+        },
+        "english": {
+          "paragraph": 8,
+          "anchor": "So she made herself as light as a feather",
+          "caption": "She made herself as light as a feather and hardly touched the fence.",
+          "alt": "The man's daughter steps carefully over a low fence of woven brushwood in a wide green meadow. Behind her, the well is just a dark stone arch in a grassy bank."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["mannsdattera", "kua"],
+      "places": ["enga"],
+      "prompt": "In the Green Meadow, the Girl crouches beside the big brindled Cow and carefully pours the last of the milk from the wooden bowl over the Cow's front hooves, just as she was asked. The udder hangs soft and light now, and the Cow turns her head to look at the Girl with gentle, grateful eyes. Clover and buttercups in the grass, bright hazy light.",
+      "variants": {
+        "simplified": {
+          "paragraph": 11,
+          "anchor": "Mannsdattera gjorde som kua ba.",
+          "caption": "Hun drakk til hun ikke var tørst lenger og helte resten på klauvene.",
+          "alt": "Mannsdattera sitter på huk ved den store, brandete kua og heller resten av melka over klauvene hennes. Kua snur hodet og ser takknemlig på henne."
+        },
+        "english": {
+          "paragraph": 11,
+          "anchor": "The man’s daughter did as the cow asked.",
+          "caption": "She drank until she wasn’t thirsty any more and poured the rest over the cow’s hooves.",
+          "alt": "The man's daughter crouches beside the big brindled cow and pours the last of the milk over her hooves. The cow turns her head and looks at her gratefully."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["mannsdattera", "bukken"],
+      "places": ["enga"],
+      "prompt": "In the Green Meadow, the Girl sits in the grass with the big Ram lying as still as a stone across her lap, his eyes closed in bliss, and shears him neatly with the big iron shears. Half of him is already clipped short and clean; the other half is still a long, thick cloud of wool trailing over the grass. A soft heap of wool lies beside her.",
+      "variants": {
+        "simplified": {
+          "paragraph": 14,
+          "anchor": "Det ville hun gjerne.",
+          "caption": "Bukken la seg selv opp i fanget hennes og lå musestille.",
+          "alt": "Den store bukken ligger musestille i fanget til mannsdattera, og hun klipper ham pent med ei stor saks. Halve bukken er klipt, og ved siden av henne ligger en haug med ull."
+        },
+        "english": {
+          "paragraph": 14,
+          "anchor": "She was glad to.",
+          "caption": "The ram climbed into her lap of his own accord and lay as still as a stone.",
+          "alt": "The big ram lies perfectly still in the man's daughter's lap while she shears him neatly with big shears. Half of him is clipped, and a heap of wool lies beside her."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["trollkjerringa", "mannsdattera", "smafuglene"],
+      "places": ["trollstua"],
+      "prompt": "In the Troll Farm Room, lit by a small fire, the Troll Hag holds up the big round wooden sieve, brimming with water that does not spill, its bottom smeared with grey clay and straws poked through the holes, and turns it this way and that, squinting at it suspiciously. The Girl stands before her with her hands clasped, calm and polite. On the deep windowsill behind them, the Little Birds sit in a row.",
+      "variants": {
+        "simplified": {
+          "paragraph": 23,
+          "anchor": "Og det gjorde hun. Hun klinte leire på soldet",
+          "caption": "«Det har du ikke funnet på selv!» sa trollkjerringa.",
+          "alt": "Inne hos trollkjerringa holder hun opp soldet, som er klint med leire og stukket med strå og fullt av vann. Hun snur og vender på det og myser mistenksomt. Mannsdattera står rolig foran henne."
+        },
+        "english": {
+          "paragraph": 23,
+          "anchor": "So she did. She smeared clay over the sieve",
+          "caption": "“You never thought of that yourself!” said the troll-wife.",
+          "alt": "Inside the troll-wife's house, she holds up the sieve, smeared with clay, stuck with straw and full of water, turning it this way and that. The man's daughter stands calmly in front of her."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["mannsdattera", "smafuglene"],
+      "prompt": "Inside the dim, low cowshed of the troll farm, with shafts of light through one small window. Three big black cows stand perfectly still in their stalls, as calm as lambs. The Girl sits on a milking stool beside the nearest one and squirts a thin stream of milk towards the window, where the Little Birds sit on the sill, catching the drops in their open beaks. A huge, heavy shovel leans against the wall.",
+      "variants": {
+        "simplified": {
+          "paragraph": 28,
+          "anchor": "Hun sprutet en liten stråle melk ut til småfuglene",
+          "caption": "«Liten streng, liten sup, til alle småfugler sprut!»",
+          "alt": "I det dunkle fjøset sitter mannsdattera og melker, og kyrne står helt stille. Hun spruter en tynn stråle melk mot vinduet, der småfuglene sitter og drikker."
+        },
+        "english": {
+          "paragraph": 28,
+          "anchor": "So she squirted a thin stream of milk out to the birds",
+          "caption": "“A little squirt, a little sup, for little birds to drink it up!”",
+          "alt": "In the dim cowshed the man's daughter sits milking while the cows stand perfectly still. She squirts a thin stream of milk towards the window, where the little birds sit and drink."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["mannsdattera", "smafuglene", "trollkjerringa"],
+      "places": ["trollstua"],
+      "prompt": "In the Troll Farm Room, three small wooden chests with curved lids stand in a row on the long bench: a red one, a green one and a blue one with three little white crosses on its lid. The Girl lifts the blue chest in both hands. The Little Birds have fluttered in through the small window and perch on a thick ceiling beam, singing. Across the room, the Troll Hag stares at her, her face gone as hard as stone.",
+      "variants": {
+        "simplified": {
+          "paragraph": 34,
+          "anchor": "Så tok hun det blå, slik fuglene sang.",
+          "caption": "Så tok hun det blå, slik fuglene sang.",
+          "alt": "Tre skrin står på benken: et rødt, et grønt og et blått med tre små kors på lokket. Mannsdattera løfter det blå. Oppe på bjelken synger småfuglene, og trollkjerringa stirrer stygt på henne."
+        },
+        "english": {
+          "paragraph": 34,
+          "anchor": "So she took the blue one, just as the birds had sung.",
+          "caption": "So she took the blue one, just as the birds had sung.",
+          "alt": "Three chests stand on the bench: a red one, a green one and a blue one with three small crosses on the lid. The man's daughter lifts the blue one. The little birds sing up on a beam, and the troll-wife glares at her."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["mannsdattera", "trollkjerringa"],
+      "places": ["enga"],
+      "prompt": "In the Green Meadow, the Girl crouches hidden among the low, leafy branches of the big old apple tree, whose boughs now stand straight and light without their apples, clutching the blue chest and holding her breath. On the path right beside the tree, the Troll Hag and her daughter come rushing up, red-faced and puffing, their big clogs thudding on the earth.",
+      "variants": {
+        "simplified": {
+          "paragraph": 39,
+          "anchor": "Det gjorde hun, og rett som det var, kom trollkjerringa og dattera farende.",
+          "caption": "«Kryp inn under greinene mine og gjem deg», sa epletreet.",
+          "alt": "Mannsdattera har gjemt seg under de lave greinene på epletreet med det blå skrinet. På stien kommer trollkjerringa og dattera hennes farende."
+        },
+        "english": {
+          "paragraph": 39,
+          "anchor": "She did, and before long the troll-wife and her daughter came rushing up.",
+          "caption": "“Creep in under my branches and hide,” said the apple tree.",
+          "alt": "The man's daughter hides under the low branches of the apple tree with the blue chest. Along the path come the troll-wife and her daughter, rushing up."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["bukken", "mannsdattera", "trollkjerringa"],
+      "places": ["enga"],
+      "prompt": "In the Green Meadow, the Ram stands on the path, freshly sheared, with the rest of his wool wound round his neck in a huge, fluffy scarf, and gazes back with innocent, sleepy eyes. Hidden deep inside the woolly scarf, the Girl cannot be seen at all; only the tip of her blue headscarf peeks out. The Troll Hag has come tearing up the road and bends down to him, scowling.",
+      "variants": {
+        "simplified": {
+          "paragraph": 46,
+          "anchor": "«Har du sett noen jente gå her, du?» sa hun til bukken.",
+          "caption": "Hun krøp inn under ulla som hun selv hadde surret rundt halsen hans.",
+          "alt": "Den nyklipte bukken står på stien med et tykt ullskjerf rundt halsen, og inni ulla er mannsdattera gjemt. Trollkjerringa bøyer seg fram og spør om han har sett noen jente."
+        },
+        "english": {
+          "paragraph": 46,
+          "anchor": "“Have you seen a girl go by here?” she asked the ram.",
+          "caption": "She crept in under the wool she had wound round his neck herself.",
+          "alt": "The freshly sheared ram stands on the path with a thick scarf of wool round his neck, and the man's daughter is hidden inside it. The troll-wife bends down and asks if he has seen a girl."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "characters": ["trollkjerringa", "mannsdattera"],
+      "places": ["enga"],
+      "prompt": "In the Green Meadow, the low brushwood fence has grown furious: it spits and crackles and rears up, twig by twig, into a huge, thick wall of bristling brushwood, far taller than the Troll Hag. She stands before it with her hands on her hips, glaring up; there is no getting over it. Low down under the twigs on the far side, the Girl crouches safely, clutching the blue chest.",
+      "variants": {
+        "simplified": {
+          "paragraph": 59,
+          "anchor": "«Nei, jeg har ikke sett noen jente», sa risgjerdet.",
+          "caption": "Risgjerdet freste og knitret og gjorde seg så stort at det ikke var tale om å komme over.",
+          "alt": "Risgjerdet har vokst seg kjempehøyt og tett og freser og knitrer. Trollkjerringa står foran det med hendene i siden, mens mannsdattera sitter trygt gjemt under kvistene."
+        },
+        "english": {
+          "paragraph": 59,
+          "anchor": "“No, I haven’t seen any girl,” said the fence.",
+          "caption": "It spat and crackled, and made itself so big and tall that there was no getting over it.",
+          "alt": "The brushwood fence has grown huge and thick, spitting and crackling. The troll-wife stands before it with her hands on her hips, while the man's daughter hides safely under the twigs."
+        }
+      }
+    },
+    {
+      "id": "11",
+      "characters": ["mannsdattera", "stemora", "kjerringdattera"],
+      "prompt": "Inside the little pigsty, scrubbed clean: the blue chest stands open, and so much gold and silver and so many lovely things have poured out of it that the walls and roof are hung with them from end to end, glowing. Two pigs stand and gape. The Girl, lovelier than ever, sits beside the chest with a string of pearls round her neck. In the doorway, the Stepmother and the Stepsister have stopped dead, beside themselves.",
+      "variants": {
+        "simplified": {
+          "paragraph": 62,
+          "anchor": "Da stemora og kjerringdattera fikk se det",
+          "caption": "Det var blitt finere i grisehuset enn på den gjeveste kongsgård.",
+          "alt": "Det blå skrinet står åpent i grisehuset, og vegger og tak henger fulle av gull, sølv og vakre ting. Mannsdattera sitter ved skrinet, og i døra står stemora og kjerringdattera og gaper."
+        },
+        "english": {
+          "paragraph": 62,
+          "anchor": "When her stepmother and stepsister saw that",
+          "caption": "The pigsty was finer than the grandest king’s palace.",
+          "alt": "The blue chest stands open in the pigsty, and the walls and roof are hung with gold, silver and lovely things. The man's daughter sits by the chest, and in the doorway her stepmother and stepsister stand gaping."
+        }
+      }
+    },
+    {
+      "id": "12",
+      "characters": ["kjerringdattera", "kua"],
+      "places": ["enga"],
+      "prompt": "In the Green Meadow, the Stepsister, milk dribbling down her chin, flings the empty wooden bowl away down the hillside and marches off with her nose in the air. Behind her the brindled Cow stands with dry hooves, gazing after her sadly. Further back along the path, the brushwood fence lies trampled and cracked where she stamped across it.",
+      "variants": {
+        "simplified": {
+          "paragraph": 70,
+          "anchor": "Hun melket kua og drakk så lenge hun orket.",
+          "caption": "Kolla slengte hun bortover bakken, og så gikk hun.",
+          "alt": "Kjerringdattera slenger melkekolla bortover bakken og går sin vei. Kua står igjen med tørre klauver og ser trist etter henne. Lenger bak ligger risgjerdet nedtråkket."
+        },
+        "english": {
+          "paragraph": 70,
+          "anchor": "She milked the cow and drank as long as she could",
+          "caption": "She flung the bowl away down the hillside and walked on.",
+          "alt": "The wife's daughter flings the wooden bowl away down the hillside and stalks off. The cow is left with dry hooves, gazing sadly after her. Further back, the brushwood fence lies trampled."
+        }
+      }
+    },
+    {
+      "id": "13",
+      "characters": ["kjerringdattera", "smafuglene", "trollkjerringa"],
+      "prompt": "By the well in the yard of the troll farm, the Stepsister stomps away with the empty wooden sieve, the last water dribbling out through it, a lump of grey clay still in her fist and a furious scowl on her face. Far off above the dark roofs, the Little Birds fly away as fast as they can. In the doorway of the farmhouse, the Troll Hag waits with her arms folded.",
+      "variants": {
+        "simplified": {
+          "paragraph": 82,
+          "anchor": "Men hun brydde seg ikke om fuglesangen.",
+          "caption": "Hun kastet leire etter fuglene, og så måtte hun gå hjem med tomt sold.",
+          "alt": "Kjerringdattera tramper av sted fra brønnen med et tomt sold og en leireklump i neven. Småfuglene flyr langt bort, og i døra venter trollkjerringa med armene i kors."
+        },
+        "english": {
+          "paragraph": 82,
+          "anchor": "But she didn’t care about their singing.",
+          "caption": "She threw clay at the birds, and then she had to go home with an empty sieve.",
+          "alt": "The wife's daughter stomps away from the well with an empty sieve and a lump of clay in her fist. The little birds fly far away, and the troll-wife waits in the doorway with her arms folded."
+        }
+      }
+    },
+    {
+      "id": "14",
+      "characters": ["kjerringdattera", "smafuglene", "trollkjerringa"],
+      "places": ["trollstua"],
+      "prompt": "In the Troll Farm Room, the three small chests stand in a row on the long bench. The Stepsister snatches up the red one, which glows the most, with a greedy grin, not listening at all. Up on a ceiling beam, the Little Birds sing their warning with wide-open beaks. By the hearth, the Troll Hag watches her with a thin, sour little smile.",
+      "variants": {
+        "simplified": {
+          "paragraph": 89,
+          "anchor": "Hun brydde seg ikke om hva fuglene sang.",
+          "caption": "Hun tok det røde, for det glødet mest.",
+          "alt": "Kjerringdattera griper det røde skrinet, som gløder mest. Oppe på bjelken synger småfuglene, og ved grua smiler trollkjerringa surt."
+        },
+        "english": {
+          "paragraph": 89,
+          "anchor": "She didn’t care what the birds sang.",
+          "caption": "She took the red one, because it glowed the most.",
+          "alt": "The wife's daughter grabs the red chest, which glows the most. Up on a beam the little birds sing, and by the hearth the troll-wife gives a sour smile."
+        }
+      }
+    },
+    {
+      "id": "15",
+      "characters": ["kjerringdattera", "stemora"],
+      "prompt": "The best room of the grey farmhouse. The red chest stands open in the middle of the floor, and out of it pour worms and toads, heaps of them, crawling and hopping all over the floorboards. The Stepsister, who has just flung back the lid, stares with her grin gone, and the Stepmother stands frozen stiff with fright, her hands raised.",
+      "variants": {
+        "simplified": {
+          "paragraph": 91,
+          "anchor": "Da hun kom hjem, ble mora glad som en lerke.",
+          "caption": "Men ut veltet det bare ormer og padder.",
+          "alt": "Det røde skrinet står åpent midt på gulvet i storstua, og ut kryper og hopper ormer og padder. Kjerringdattera stirrer, og stemora står stiv av skrekk."
+        },
+        "english": {
+          "paragraph": 91,
+          "anchor": "When she got home, her mother was overjoyed.",
+          "caption": "Out poured nothing but worms and toads.",
+          "alt": "The red chest stands open in the middle of the best room, and worms and toads crawl and hop out across the floor. The wife's daughter stares, and her mother stands stiff with fright."
+        }
+      }
+    }
+  ]
+}

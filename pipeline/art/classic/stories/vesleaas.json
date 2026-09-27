@@ -1,0 +1,258 @@
+{
+  "storyId": "vesleaas",
+  "variants": {
+    "simplified": {
+      "title": "Vesle Aase gåsepike",
+      "textFile": "public/content/stories/vesleaas/simplified/story.txt"
+    },
+    "english": {
+      "title": "Aase the Goose-Girl",
+      "textFile": "public/content/stories/vesleaas/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway in late spring. The royal manor is a cluster of big, dark timber buildings with carved balconies and turf roofs among green meadows, beside a dusty country road with grassy ditches. The King has more geese than he can count, white and grey, big and small. Aase always sits sewing patch on patch, her skirt more patch than skirt. The King's son from England rides a tall bay horse, with a retinue of two riders in grey cloaks. His fine bedchamber has a big carved bed with a canopy, and at night the Knowing Stone lies on the floor in front of it. The ring he gives is a slim gold ring with a tiny red stone.",
+  "palette": "Late spring: fresh green meadows full of golden dandelions, white and grey geese, soft blue skies and clear, milky morning light. The night scenes are a deep, hushed blue, lit only by a single candle, a strip of moonlight or the stone's warm golden glow.",
+  "cast": [
+    {
+      "slug": "aase",
+      "promptName": "Aase",
+      "look": "A small, sturdy young woman of about eighteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with patch on patch of blue and green, a white apron, wooden clogs and a little patchwork sewing bag at her waist.",
+      "portrait": "Background: the Goose Meadow with white and grey geese.",
+      "variants": {
+        "simplified": {
+          "name": "Aase (gåsepiken)",
+          "description": "En sta og smart gåsepike som vet hva hun vil, og som til slutt avsløres som den rette for prinsen.",
+          "replacesPortrait": "aase-gaasepike"
+        },
+        "english": {
+          "name": "Aase the Goose-girl",
+          "description": "A patched, steadfast goose-herd who calmly insists she is meant to marry the English prince and is ultimately proven right.",
+          "replacesPortrait": "aase-the-goose-girl"
+        }
+      }
+    },
+    {
+      "slug": "kongssonnen",
+      "promptName": "the Prince",
+      "look": "A tall, lean prince of about twenty-four with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a thin gold circlet, a scarlet wool tunic with gold braid across the chest, a long scarlet riding cloak, cream hose and brown riding boots with turned-down cuffs.",
+      "portrait": "Background: the royal manor with its carved balconies.",
+      "variants": {
+        "simplified": {
+          "name": "Kongssønnen fra England",
+          "description": "En prins som leter etter en brud og bruker en magisk stein for å finne sannheten.",
+          "replacesPortrait": "kongsson-fra-england"
+        },
+        "english": {
+          "name": "The King’s Son from England",
+          "description": "A traveling English prince seeking a pure bride, wary of deception, who uses a knowing stone and a hidden ring to uncover the truth.",
+          "replacesPortrait": "kings-son-from-england"
+        }
+      }
+    },
+    {
+      "slug": "sannhetssteinen",
+      "promptName": "the Knowing Stone",
+      "look": "A small, smooth, egg-shaped stone no bigger than a plum, polished like a river pebble, milky white with faint swirls of pale gold and rose inside. It has no face and never moves, but when it speaks, or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight.",
+      "portrait": "Background: the worn wooden floor in front of a carved bed at night.",
+      "variants": {
+        "simplified": {
+          "name": "Sannhetssteinen",
+          "description": "En magisk stein som avslører hvem som er ren og hvem som lyver når noen går over den.",
+          "replacesPortrait": "sannhetssteinen"
+        },
+        "english": {
+          "name": "The Knowing Stone",
+          "description": "A mysterious stone placed before the prince’s bed that reveals the truth about whoever steps in or out.",
+          "replacesPortrait": "the-knowing-stone"
+        }
+      }
+    },
+    {
+      "slug": "tredje-prinsesse",
+      "promptName": "the Third Princess",
+      "look": "A tall, willowy princess of about twenty with a long neck, a narrow face, high arched brows over big, anxious dark-brown eyes, a delicate little mouth and glossy chocolate-brown hair in long, bouncy ringlets tied back with a pearl-studded ribbon. She wears a thin circlet of pearls, pearl earrings and a long peacock-blue gown with full sleeves and a lace collar, and carries a white feather fan that she likes to hide behind.",
+      "portrait": "Background: a fine room of the royal manor with a painted door.",
+      "variants": {
+        "simplified": {
+          "name": "Den tredje prinsessen",
+          "description": "Den siste av prinsessene som prøver å lure prinsen ved å sende Aase i stedet for seg.",
+          "replacesPortrait": "tredje-prinsesse"
+        },
+        "english": {
+          "name": "The Third Princess",
+          "description": "The last of the three princesses, every bit as sly as the other two, who whispers to Aase to take her place and is exposed by the stone.",
+          "replacesPortrait": "the-third-princess"
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "gaaseenga",
+      "name": "the Goose Meadow",
+      "look": "A wide, gently sloping green meadow full of golden dandelions, with a dusty country road running along its lower edge between grassy ditches, a few young birches in bright new leaf and a low grey stone wall. In the background stands the royal manor, a cluster of big, dark timber buildings with carved balconies and turf roofs."
+    },
+    {
+      "slug": "kammerset",
+      "name": "the Bedchamber",
+      "look": "A fine bedchamber in the royal manor, with dark timber walls painted with blue and red rosemaling flowers, a big carved wooden bed with a canopy, white linen and a white eiderdown, tall carved bedposts, a small leaded window, a painted chest beside the bed and a wide, worn wooden floor in front of the bed."
+    }
+  ],
+  "cover": {
+    "prompt": "Aase sits bolt upright in the middle of the dusty road beside the Goose Meadow, sewing patch on patch in her lap, and looks straight out at the viewer with a calm, knowing little smile. A flock of white and grey geese mills behind her. Far away down the road, a rider in a scarlet cloak on a tall bay horse is coming, with two more riders behind him.",
+    "characters": ["aase"],
+    "places": ["gaaseenga"],
+    "variants": {
+      "simplified": {
+        "caption": "«Jeg venter kongssønnen fra England i dag.»",
+        "alt": "Aase sitter midt i veien med gjessene bak seg og syr lapp på lapp. Langt borte kommer en rytter i rød kappe."
+      },
+      "english": {
+        "caption": "“I’m waiting for the King’s son from England today.”",
+        "alt": "Aase sits in the middle of the road with her geese behind her, sewing patch on patch. Far away, a rider in a red cloak is coming."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["aase", "kongssonnen"],
+      "places": ["gaaseenga"],
+      "prompt": "On the dusty road beside the Goose Meadow on a fresh spring morning, Aase sits bolt upright in the middle of the road, sewing patch on patch in her lap, with a flock of white and grey geese milling behind her. The Prince has had to rein in his tall bay horse right in front of her and looks down, amused and puzzled. Two riders of his retinue in grey cloaks wait behind him. Aase looks straight up at him, perfectly sure of herself.",
+      "variants": {
+        "simplified": {
+          "paragraph": 5,
+          "anchor": "«Jo, skal jeg ha ham, så får jeg ham nok», sa vesle Aase.",
+          "caption": "«Jo, skal jeg ha ham, så får jeg ham nok», sa vesle Aase.",
+          "alt": "Aase sitter rak i ryggen midt i veien og syr lapp på lapp, med gjessene bak seg. Kongssønnen fra England har måttet holde inn hesten og ser ned på henne."
+        },
+        "english": {
+          "paragraph": 5,
+          "anchor": "“Oh yes. If I’m to have him, I’ll get him all right,” said little Aase.",
+          "caption": "“If I’m to have him, I’ll get him all right,” said little Aase.",
+          "alt": "Aase sits bolt upright in the middle of the road, sewing patch on patch, with her geese behind her. The King's son from England has had to rein in his horse and looks down at her."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["aase", "sannhetssteinen", "kongssonnen"],
+      "places": ["kammerset"],
+      "prompt": "Night in the dark Bedchamber, lit only by a thin strip of moonlight from the small window. Aase, in a long, plain white linen nightgown, steps barefoot over the Knowing Stone on the floor in front of the big carved bed, and the little stone glows with a soft golden light that lights up her feet. In the bed, the Prince, in a white nightshirt, sits up and peers into the dark, listening.",
+      "variants": {
+        "simplified": {
+          "paragraph": 14,
+          "anchor": "«Ren og skjær jomfru!» sa steinen.",
+          "caption": "«Ren og skjær jomfru!» sa steinen.",
+          "alt": "Aase i hvit nattkjole går over den lille steinen foran sengen i det mørke kammerset, og steinen lyser gyllent. I sengen sitter kongssønnen og lytter."
+        },
+        "english": {
+          "paragraph": 14,
+          "anchor": "“A maiden, pure and simple!” said the stone.",
+          "caption": "“A maiden, pure and simple!” said the stone.",
+          "alt": "Aase, in a white nightgown, steps over the little stone in front of the bed in the dark bedchamber, and the stone glows gold. In the bed, the King's son sits up, listening."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["kongssonnen", "sannhetssteinen"],
+      "places": ["kammerset"],
+      "prompt": "Early morning light in the Bedchamber. The first princess, a plump young woman with pale-blonde hair piled up high, in a peach-pink nightgown, has stopped dead with one bare foot on the floor just past the Knowing Stone, her face gone white. The Prince stands by the bedpost in his white nightshirt, his face hard, staring at her. The little stone lies still with a faint golden glow.",
+      "variants": {
+        "simplified": {
+          "paragraph": 18,
+          "anchor": "Prinsessen sto på gulvet og var blitt hvit i ansiktet.",
+          "caption": "Prinsessen var blitt hvit i ansiktet. Steinen sa ikke mer.",
+          "alt": "Prinsessen står på gulvet ved den lille steinen og er blitt hvit i ansiktet. Kongssønnen står ved sengen og ser strengt på henne."
+        },
+        "english": {
+          "paragraph": 18,
+          "anchor": "The princess stopped with one bare foot on the floor.",
+          "caption": "The King’s son stood by the bedpost, and his face went hard.",
+          "alt": "The princess stands frozen by the little stone, white in the face. The King's son stands by the bedpost, staring at her with a hard face."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["tredje-prinsesse", "aase", "sannhetssteinen"],
+      "places": ["kammerset"],
+      "prompt": "In one of the fine rooms of the royal manor, the Third Princess, gone pale, leans in close to whisper in Aase's ear, half hiding behind her white feather fan. Aase, in her patched dress and white apron, stands quite still and does not so much as blink. Through an open door behind them, the Knowing Stone lies on the floor in front of the big carved bed of the Bedchamber.",
+      "variants": {
+        "simplified": {
+          "paragraph": 34,
+          "anchor": "Den tredje prinsessen ble blek om nesen.",
+          "caption": "Den tredje prinsessen ble blek om nesen.",
+          "alt": "Den tredje prinsessen er blitt blek og hvisker Aase i øret bak vifta si. Gjennom en åpen dør ligger steinen på gulvet foran sengen."
+        },
+        "english": {
+          "paragraph": 35,
+          "anchor": "The third princess went pale.",
+          "caption": "The third princess went pale. But she was every bit as sly as the other two.",
+          "alt": "The third princess, gone pale, whispers in Aase's ear from behind her fan. Through an open door, the stone lies on the floor in front of the bed."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["kongssonnen", "aase", "sannhetssteinen"],
+      "places": ["kammerset"],
+      "prompt": "Late at night in the Bedchamber, lit by a single candle on the painted chest. Aase lies fast asleep in the big carved bed under the white eiderdown, one hand resting on the cover. The Prince, propped on one elbow on his side of the bed, leans over and carefully slides a slim gold ring onto her finger, his face thoughtful. At the foot of the bed the Knowing Stone lies quiet and dark, since nobody has asked it anything.",
+      "variants": {
+        "simplified": {
+          "paragraph": 39,
+          "anchor": "Ut på natten, mens Aase sov, lente han seg over henne",
+          "caption": "Nå hadde han et merke å kjenne den rette igjen på.",
+          "alt": "Aase sover i den store sengen. Kongssønnen lener seg over henne i skinnet fra et lys og skyver en ring på fingeren hennes. Steinen ligger stille ved sengefoten."
+        },
+        "english": {
+          "paragraph": 42,
+          "anchor": "Late in the night, while Aase slept, he slipped a ring onto her finger",
+          "caption": "Now he had a mark to know the right one by.",
+          "alt": "Aase sleeps in the big bed. By the light of a candle, the King's son leans over and slides a ring onto her finger. The stone lies quiet at the foot of the bed."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["kongssonnen", "sannhetssteinen"],
+      "places": ["kammerset"],
+      "prompt": "Morning in the Bedchamber, the bed rumpled and the door flung wide open. The Prince sits on the edge of the bed in his white nightshirt with his elbows on his knees, glaring down at the Knowing Stone on the floor in front of him, utterly exasperated. The little stone glows a calm, soft gold, looking as if it had all the time in the world. Pale spring sunlight falls through the small window.",
+      "variants": {
+        "simplified": {
+          "paragraph": 47,
+          "anchor": "«Du har ikke spurt», sa steinen.",
+          "caption": "«Du har ikke spurt», sa steinen.",
+          "alt": "Kongssønnen sitter på sengekanten og stirrer oppgitt på den lille steinen på gulvet. Steinen lyser rolig og gyllent."
+        },
+        "english": {
+          "paragraph": 50,
+          "anchor": "“You never asked,” said the stone.",
+          "caption": "“You never asked,” said the stone.",
+          "alt": "The King's son sits on the edge of the bed, glaring in exasperation at the little stone on the floor. The stone glows calmly gold."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["aase", "kongssonnen"],
+      "places": ["gaaseenga"],
+      "prompt": "In the sunny Goose Meadow, the Prince crouches beside Aase and holds her hand firmly while she pulls back with all her might, and the strip of rag has just slipped off her finger: there sits his slim gold ring, glinting in the sun. White and grey geese crowd round them with their necks stretched out, honking. Aase's cheeks are red, half cross and half proud.",
+      "variants": {
+        "simplified": {
+          "paragraph": 53,
+          "anchor": "Men Aase ville slett ikke ta av fillen.",
+          "caption": "Så gled fillen av. Der satt ringen hans og blinket i solen.",
+          "alt": "Kongssønnen holder Aase i hånden på gåseenga, og fillen har glidd av fingeren hennes. Der blinker ringen hans i solen, og gjessene strekker hals rundt dem."
+        },
+        "english": {
+          "paragraph": 55,
+          "anchor": "He crouched down beside her and asked to see",
+          "caption": "The rag slipped off. There was his ring.",
+          "alt": "The King's son holds Aase's hand in the goose meadow, and the rag has slipped off her finger. His ring glints in the sun, while the geese crowd round with their necks stretched out."
+        }
+      }
+    }
+  ]
+}
