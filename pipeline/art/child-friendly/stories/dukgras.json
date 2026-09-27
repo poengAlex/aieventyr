@@ -54,7 +54,7 @@
   "cover": {
     "prompt": "A low, close view in a sunny early-summer meadow: the Tiny Grass Maiden stands among buttercups and daisies that tower over her like trees, holding out her skirt in a little curtsy with a bright smile. Right above her, Askeladden lies on his stomach in the grass with his chin on his hands and peers down at her, delighted, his long face dimpled with a big smile. Dew sparkles in the morning light.",
     "characters": ["askeladden", "dukken-i-graesset"],
-    "caption": "Askeladden og Dukken i gresset, som ikke er større enn en dukke.",
+    "caption": "Askeladden og Dukken i gresset. Hun er liten, men flink, hun!",
     "alt": "En bitte liten jente i hvit kjole står blant smørblomster og prestekrager som er høye som trær. Over henne ligger Askeladden på magen i gresset og smiler ned til henne."
   },
   "illustrations": [
@@ -72,9 +72,9 @@
       "paragraph": 15,
       "anchor": "Hun spant tråden: surr, surr, surr.",
       "characters": ["askeladden", "dukken-i-graesset"],
-      "prompt": "Inside the snug, round room under the tussock, with walls of woven grass roots, the Tiny Grass Maiden sits on her tiny chair and sews the last stitches of a tiny white shirt, her tiny spinning wheel and tiny loom beside her. Askeladden has squeezed in and lies on his stomach with his chin in his hands, watching her with wonder; next to him she is as small as a doll. A golden sunset beam slants in through the little door.",
+      "prompt": "Inside the snug, round room under the tussock, with walls of woven grass roots, the Tiny Grass Maiden sits on her tiny chair and sews the last stitches of a tiny white shirt, her tiny spinning wheel and tiny loom beside her. Askeladden has squeezed in and sits hunched with his knees drawn up and his head brushing the root ceiling, watching her with wonder; next to him she is as small as a doll. A golden sunset beam slants in through the little door.",
       "caption": "Surr, surr! Klapp, klapp! Stikk, stikk! Før sola går ned, er skjorta ferdig.",
-      "alt": "Inne i tua sitter den lille jenta på en bitte liten stol og syr en bitte liten skjorte, med en rokk og en vevstol ved siden av seg. Askeladden ligger på magen og ser på."
+      "alt": "Inne i tua sitter den lille jenta på en bitte liten stol og syr en bitte liten skjorte, med en rokk og en vevstol ved siden av seg. Askeladden sitter sammenkrøpet og ser på."
     },
     {
       "id": "03",
@@ -100,7 +100,7 @@
       "anchor": "Men hva var dette? Hun var ikke liten lenger!",
       "characters": ["askeladden", "dukken-i-graesset-stor", "havmanden"],
       "prompt": "At the edge of the big, still lake, the Merman has risen waist-deep out of the water among the water lilies, smiling, and holds the Grass Maiden by the hand as she steps onto the shore, no longer tiny but as tall as Askeladden, water drops sparkling on her dress. Askeladden stands on the bank with his mouth open and his arms spread in amazement. The silver spoon lies tipped over in the reeds with the two white mice peeking out from behind it, and the horse waits behind him.",
-      "caption": "Men hva var dette? Hun er ikke liten lenger!",
+      "caption": "Men hva er dette? Hun er ikke liten lenger!",
       "alt": "En smilende havmann med langt, grønt hår og blank fiskehale holder jenta i hånda ved vannkanten. Hun er blitt like stor som Askeladden, som står på bredden og måper."
     },
     {

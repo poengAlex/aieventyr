@@ -136,7 +136,7 @@
       "characters": ["enkesonnen"],
       "prompt": "In a bare, dim room, the Widow's Son kneels at the edge of an open trapdoor in the plank floor, its heavy wooden lid propped up. Just below, in a small stone cellar, the huge round copper cauldron bubbles and steams, with no fire underneath at all. The Widow's Son holds up one finger in front of his astonished face: its tip has turned to shining gold and sparkles in the gloom.",
       "caption": "Da han tok fingeren opp igjen, glitret fingertuppen. Den var blitt til gull!",
-      "alt": "Gutten kneler ved en åpen lem i gulvet. Under ham putrer en stor kobberkjele uten ild under, og fingertuppen hans har blitt til skinnende gull."
+      "alt": "Gutten kneler ved en åpen lem i gulvet. Der nede putrer en stor kobberkjele uten noen ild under, og fingertuppen hans har blitt til skinnende gull."
     },
     {
       "id": "05",
@@ -145,7 +145,7 @@
       "characters": ["den-fremmede-mannen", "enkesonnen"],
       "prompt": "In the boy's small bedroom in the Stranger's house, the whole roof has lifted off the walls and floats in the air, so the pale evening sky shows through the gap. The Stranger stands in the doorway roaring with his mouth wide open, a torn rag in one hand. The Widow's Son dives under the thick patchwork duvet on his bed, pressing his hands over his ears, one golden fingertip gleaming. Funny, not scary.",
       "caption": "Mannen brølte så taket lettet. Det gjorde det, altså!",
-      "alt": "Den fremmede mannen brøler så hele taket løfter seg og himmelen syns. Gutten stuper under dyna og holder seg for ørene, og den ene fingeren hans skinner av gull."
+      "alt": "Den fremmede mannen brøler så hele taket løfter seg og himmelen syns. Gutten stuper under dyna og holder seg for ørene, og den ene fingertuppen hans skinner av gull."
     },
     {
       "id": "06",
@@ -179,16 +179,16 @@
       "paragraph": 57,
       "anchor": "Gutten kastet pisken.",
       "characters": ["enkesonnen-ridder", "hesten", "den-fremmede-mannen"],
-      "prompt": "On a winding road through a bright summer forest, the Rusty Knight gallops away on the Black Horse, twisting round with his visor up, having just thrown the little thorn whip over his shoulder. A round grey stone and a small brown water jar are tied to the saddle. Behind them, a wall of thorny dog-rose bushes dotted with pink flowers has shot up, so thick that not even a mouse could get through. On the far side, the Stranger and twenty troll brothers in shabby black coats and hats skid to a stop, peering over the thorns.",
+      "prompt": "On a winding road through a bright summer forest, the Rusty Knight gallops away on the Black Horse, twisting round with his visor up, having just thrown the little thorn whip over his shoulder. A round grey stone and a small brown water jar are tied to the saddle. Behind them, a whole forest of tall, thorny dog-rose bushes dotted with pink flowers has shot up, so thick that not even a mouse could get through. On the far side, the Stranger and twenty troll brothers in shabby black coats and hats skid to a stop, peering over the thorns.",
       "caption": "Svisj! Med det samme vokste det opp en skog full av torner bak dem.",
-      "alt": "Gutten i rusten rustning galopperer av sted på den svarte hesten. Bak dem har det vokst opp et tett tornekratt, og trollet og brødrene hans stanser på den andre sida."
+      "alt": "Gutten i den rustne rustningen galopperer av sted på den svarte hesten. Bak dem har det vokst opp et tett tornekratt, og trollet og brødrene hans stanser på den andre sida."
     },
     {
       "id": "10",
       "paragraph": 68,
       "anchor": "Så kom trollene.",
       "characters": ["enkesonnen-ridder", "hesten", "den-fremmede-mannen"],
-      "prompt": "A wide, calm lake glitters in the golden summer evening. Along the near shore rolls a long row of fifteen trolls in black coats who have gulped down so much lake water that they are round as balls and can no longer walk, so they roll slowly home, one after the other. The Stranger rolls at the front with his coat buttons popping, and a tiny troll great-grandmother in a lace nightcap rolls at the very end. Far away on the opposite shore, the Rusty Knight sits on the Black Horse, still dripping wet from its swim, looking back and laughing.",
+      "prompt": "A wide, calm lake glitters in the golden summer evening. Along the near shore rolls a long row of fifteen trolls in black coats who have gulped down so much lake water that they are round as balls and can no longer walk, so they roll slowly home, one after the other. The first in the row is the Stranger, his coat buttons popping, and the last and tiniest is the troll great-grandmother in a lace nightcap. Far away on the opposite shore, the Rusty Knight sits on the Black Horse, still dripping wet from its swim, looking back and laughing.",
       "caption": "Det siste gutten så, var en lang rekke kulerunde troll som trillet hjemover.",
       "alt": "En lang rekke kulerunde troll triller sakte hjem langs et stort vann. Langt borte på den andre sida sitter gutten på den våte, svarte hesten og ler."
     },
@@ -244,7 +244,7 @@
       "anchor": "Soldatene lo og pekte og red videre.",
       "characters": ["enkesonnen"],
       "places": ["myra"],
-      "prompt": "On the Great Bog, the Widow's Son sits stuck in the mud on a bony old grey nag that stands on three legs and lets its fourth leg dangle. He wears a dented old saucepan as a helmet, its long handle sticking out behind, holds an old pot lid as a shield, and tugs at the reins, shouting. Along the cart track at the edge of the bog, five soldiers in dark-green tunics ride past on horseback, laughing and pointing at him.",
+      "prompt": "On the Great Bog, the Widow's Son sits stuck in the mud on a bony, rickety old grey nag that limps on three legs and drags the fourth behind it. He wears a dented old saucepan as a helmet, its long handle sticking out behind, holds an old pot lid as a shield, and tugs at the reins, shouting. Along the cart track at the edge of the bog, five soldiers in dark-green tunics ride past on horseback, laughing and pointing at him.",
       "caption": "«Hei, vil du opp! Hei, vil du opp!» Men den gamle hesten sitter fast.",
       "alt": "Gutten sitter fast i myra på en gammel, halt hest, med en bulkete kasserolle som hjelm og et grytelokk som skjold. Soldatene rir forbi og ler og peker."
     },
@@ -254,7 +254,7 @@
       "anchor": "Kongen syntes synd på ham.",
       "characters": ["enkesonnen", "kongen"],
       "places": ["myra"],
-      "prompt": "In the golden evening light at the edge of the Great Bog, the Widow's Son, still in his saucepan helmet on the old grey nag, clutches his shin and howls with his mouth wide open. The King, riding past on a big bay horse, leans over with a kind, sorry look and tosses him his fine white handkerchief with a small gold crown in one corner; it flutters through the air towards the boy. Three soldiers ride behind the King, grinning.",
+      "prompt": "In the golden evening light at the edge of the Great Bog, the Widow's Son, stuck in the mud again on the old grey nag and still wearing his saucepan helmet, clutches his shin and howls with his mouth wide open. The King, riding past on a big bay horse, leans over with a kind, sorry look and tosses him his fine white handkerchief with a small gold crown in one corner; it flutters through the air towards the boy. Three soldiers ride behind the King, grinning.",
       "caption": "Kongen kaster lommetørkleet sitt til gutten: «Bind det rundt leggen.»",
       "alt": "Gutten sitter på den gamle hesten i myra og holder seg på leggen. Kongen rir forbi og kaster et hvitt lommetørkle med ei lita gullkrone i hjørnet bort til ham."
     },
