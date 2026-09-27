@@ -1,0 +1,680 @@
+{
+  "storyId": "katrast",
+  "variants": {
+    "simplified": {
+      "title": "Kari Trestakk",
+      "textFile": "public/content/stories/katrast/simplified/story.txt"
+    },
+    "english": {
+      "title": "Kari Woodsmock",
+      "textFile": "public/content/stories/katrast/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.",
+  "palette": "Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.",
+  "cast": [
+    {
+      "slug": "prinsessa",
+      "promptName": "the Princess",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.",
+      "portrait": "Background: a mountain pasture with grazing cattle.",
+      "variants": {
+        "simplified": {
+          "name": "Kongedatteren",
+          "description": "Kongens snille datter, som stemoren sulter og setter til å gjete buskapen, og som får en trofast venn i den blå oksen."
+        },
+        "english": {
+          "name": "The King's Daughter",
+          "description": "The King's kind daughter, starved by her stepmother and sent out to herd the cattle, whose truest friend is the blue bull."
+        }
+      }
+    },
+    {
+      "slug": "kari-trestakk",
+      "promptName": "Kari Woodsmock",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid dulled with ash. Over a plain grey linen shift she wears the wooden smock: a stiff, bell-shaped garment of thin, grey-brown wooden boards laced together like the staves of a barrel, reaching from her neck to her ankles, and wooden clogs.",
+      "portrait": "Background: the sooty castle kitchen with copper pans on the wall.",
+      "variants": {
+        "simplified": {
+          "name": "Kari Trestakk (kongedatteren)",
+          "description": "En snill og modig kongedatter som blir gjort til tjenestejente og skjuler seg i en trestakk, men beholder styrken til å overleve og finne veien til et nytt liv.",
+          "replacesPortrait": "kari-trestakk"
+        },
+        "english": {
+          "name": "Kari Woodsmock (the king’s daughter)",
+          "description": "A gentle princess driven from her home by her cruel stepmother, she endures hardship, keeps three strange tokens, and hides in a wooden smock while fate leads her to a prince.",
+          "replacesPortrait": "kari-woodsmock"
+        }
+      }
+    },
+    {
+      "slug": "kari-kobberkjole",
+      "promptName": "Kari in the Copper Dress",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair falling loose down her back under a thin copper band. She wears a long, flowing gown of shining copper cloth that glows warm orange-pink like polished copper, embroidered with small copper leaves, with long copper-coloured gloves and soft copper slippers.",
+      "portrait": "Background: the shining copper wood.",
+      "variants": {
+        "simplified": {
+          "name": "Kari i kobberkjolen",
+          "description": "Kari den første søndagen, i en kjole like blank som kobberskogen, på vei til kirken til hest."
+        },
+        "english": {
+          "name": "Kari in the Copper Dress",
+          "description": "Kari on the first Sunday, riding to church in a dress that shines like the copper wood."
+        }
+      }
+    },
+    {
+      "slug": "kari-solvkjole",
+      "promptName": "Kari in the Silver Dress",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair in one loose braid woven with silver ribbons. She wears a long gown stitched all over with silver thread that glitters like frost, trimmed with rows of tiny silver leaves, a short silver-grey riding cape and silver slippers, and carries a slim riding whip with a silver handle.",
+      "portrait": "Background: the glittering silver wood.",
+      "variants": {
+        "simplified": {
+          "name": "Kari i sølvkjolen",
+          "description": "Kari den andre søndagen, i en kjole sydd med sølv over det hele, på en hest med sølvbrodert dekken."
+        },
+        "english": {
+          "name": "Kari in the Silver Dress",
+          "description": "Kari on the second Sunday, in a dress stitched all over with silver, on a horse with a silver-embroidered saddlecloth."
+        }
+      }
+    },
+    {
+      "slug": "kari-gullkjole",
+      "promptName": "Kari in the Gold Dress",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose under a slender gold band. She wears a long, full gown of gold cloth sewn all over with small sparkling diamonds that glitter like dew, and two small, pointed shoes of shining gold.",
+      "portrait": "Background: the golden wood, where gold drips from the leaves.",
+      "variants": {
+        "simplified": {
+          "name": "Kari i gullkjolen",
+          "description": "Kari den tredje søndagen, i en kjole av nesten bare gull og diamanter, med små sko av gull."
+        },
+        "english": {
+          "name": "Kari in the Gold Dress",
+          "description": "Kari on the third Sunday, in a dress of almost nothing but gold and diamonds, with little shoes of gold."
+        }
+      }
+    },
+    {
+      "slug": "blaa-oksen",
+      "promptName": "the Blue Bull",
+      "look": "A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.",
+      "portrait": "Background: a heathery fell under a clear autumn sky.",
+      "variants": {
+        "simplified": {
+          "name": "Den blå oksen",
+          "description": "En stor, blank blå okse som hjelper Kari med mat og redder henne fra stemoren, og som kjemper mot trollene i metallskogene.",
+          "replacesPortrait": "bla-okse"
+        },
+        "english": {
+          "name": "The Blue Bull",
+          "description": "A powerful enchanted bull who feeds and protects Kari, fights three trolls, and leaves behind a hidden source of magic that continues to aid her.",
+          "replacesPortrait": "blue-bull"
+        }
+      }
+    },
+    {
+      "slug": "dronninga",
+      "promptName": "the Queen",
+      "look": "A tall, thin queen of about forty with a long, pinched face, a sharp pointed nose, narrow pale-green eyes, thin arched eyebrows, a small mouth turned down at the corners and jet-black hair scraped into a tight bun under a tall, spiky silver crown. She wears a stiff, high-collared gown of dark slate-grey wool with a narrow white linen collar, a black velvet cloak and many heavy rings, and holds a white linen handkerchief.",
+      "portrait": "Background: a dim royal bedchamber with heavy curtains.",
+      "variants": {
+        "simplified": {
+          "name": "Stemoren (dronningen)",
+          "description": "En misunnelig og hard dronning som plager Kari og legger planer for å bli kvitt den blå oksen.",
+          "replacesPortrait": "stemoren-dronningen"
+        },
+        "english": {
+          "name": "The Stepmother Queen",
+          "description": "A jealous, calculating queen who starves and beats her stepdaughter and schemes to have the blue bull killed to destroy Kari’s secret help.",
+          "replacesPortrait": "stepmother-queen"
+        }
+      }
+    },
+    {
+      "slug": "dronningens-datter",
+      "promptName": "the Stepsister",
+      "look": "A gangly young woman of about eighteen with a long, sour face, a pinched, turned-up nose, small squinting pale-green eyes, a pouting mouth and thin, straw-pale hair in two stiff braids that stick out sideways. She wears an over-trimmed dress of sour gooseberry-green wool covered in far too many pink ribbons, white stockings and pointed green shoes on very long, big feet.",
+      "portrait": "Background: a candlelit hall with carved wooden pillars.",
+      "variants": {
+        "simplified": {
+          "name": "Datteren til dronningen",
+          "description": "Dronningens datter, like stygg og slem som kongedatteren er snill og vakker. Hun får gullskoen på og blir pyntet til brud."
+        },
+        "english": {
+          "name": "The Queen's Daughter",
+          "description": "The Queen's daughter, as ugly and mean as the King's daughter is kind and fair, who gets the gold shoe on and is dressed as a bride."
+        }
+      }
+    },
+    {
+      "slug": "prinsen",
+      "promptName": "the Prince",
+      "look": "A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.",
+      "portrait": "Background: the castle of pale-grey stone with green copper roofs.",
+      "variants": {
+        "simplified": {
+          "name": "Prinsen",
+          "description": "En stolt prins som først avviser Kari i trestakken, men blir dypt betatt av den ukjente jenta i de skinnende kjolene og leter etter henne med gullskoen.",
+          "replacesPortrait": "prinsen"
+        },
+        "english": {
+          "name": "The Prince",
+          "description": "The castle’s young prince who scorns the clattering kitchen girl yet falls hopelessly in love with the mysterious church-going lady and searches for her through the lost gold shoe.",
+          "replacesPortrait": "prince"
+        }
+      }
+    },
+    {
+      "slug": "mannen-i-berget",
+      "promptName": "the Old Man of the Mountain",
+      "look": "A small, sturdy old man no taller than a young girl, with a round, rosy, wrinkled face, a big round nose, twinkling bright-blue eyes under bushy white eyebrows and a long, silky white beard that reaches his knees. He wears a long, hooded moss-green cloak with a wooden toggle, a brown tunic with a rope belt and soft brown boots, and carries a small brass lantern that glows warm yellow.",
+      "portrait": "Background: the crack in the grey cliff, glowing with warm light.",
+      "variants": {
+        "simplified": {
+          "name": "Mannen i berget",
+          "description": "En mann som kommer ut av bergveggen når Kari banker på med kjeppen, og som gir henne kjoler av kobber, sølv og gull og en hest å ri til kirken."
+        },
+        "english": {
+          "name": "The Man in the Cliff",
+          "description": "A man who comes out of the cliff whenever Kari knocks with the stick, and gives her dresses of copper, silver and gold and a horse to ride to church."
+        }
+      }
+    },
+    {
+      "slug": "trollet-med-tre-hoder",
+      "promptName": "the Three-Headed Troll",
+      "look": "A squat, pot-bellied troll about twice as tall as a man, with pale, chalky grey-white skin like weathered limestone, speckled with grey freckles and patches of moss, short bandy legs and long dangling arms. It has three bald, egg-shaped heads on three thick necks, each with a big red bulbous nose, small round orange eyes, one crooked tooth and tufts of stiff orange hair behind the ears. It wears a ragged brown sacking kilt, with a curved cow horn of ointment hanging from its rope belt.",
+      "portrait": "Background: the shining copper wood.",
+      "variants": {
+        "simplified": {
+          "name": "Trollet med tre hoder",
+          "description": "Trollet som eier kobberskogen, og som kommer farende med alle tre hodene når kongedatteren river av et blad."
+        },
+        "english": {
+          "name": "The Three-Headed Troll",
+          "description": "The troll who owns the copper wood, and who comes rushing out with all three heads when the King's daughter tears off a leaf."
+        }
+      }
+    },
+    {
+      "slug": "trollet-med-seks-hoder",
+      "promptName": "the Six-Headed Troll",
+      "look": "A tall, lanky troll about three times as tall as a man, with knobbly, rusty-orange skin like iron-stained rock, patched with grey lichen, long skinny arms and legs and huge flat feet. On a wide, bony pair of shoulders sit six small heads in a row, each with a long droopy nose, sleepy yellow eyes, big flappy ears and wispy white hair like bog cotton. It wears a moth-eaten grey wool tunic, with a curved cow horn of ointment on a string at its belt.",
+      "portrait": "Background: the glittering silver wood.",
+      "variants": {
+        "simplified": {
+          "name": "Trollet med seks hoder",
+          "description": "Trollet som eier sølvskogen. Det er dobbelt så sterkt som det første, og det slåss med oksen i tre hele døgn."
+        },
+        "english": {
+          "name": "The Six-Headed Troll",
+          "description": "The troll who owns the silver wood, twice as strong as the first, who fights the bull for three whole days."
+        }
+      }
+    },
+    {
+      "slug": "trollet-med-ni-hoder",
+      "promptName": "the Nine-Headed Troll",
+      "look": "An enormous, pear-shaped troll as tall as six men, with lumpy skin the dusky pink and purple of blooming heather, a huge round belly and short, stumpy arms and legs like tree stumps. Along its broad shoulders sit nine small round heads in a row, each with puffy cheeks, a tiny snub nose, small black eyes under bushy grey brows, big round ears and a shock of spiky grey hair. It wears a huge patched brown hide tunic, with a curved cow horn of ointment hanging from its belt.",
+      "portrait": "Background: the golden wood, where gold drips from the leaves.",
+      "variants": {
+        "simplified": {
+          "name": "Trollet med ni hoder",
+          "description": "Trollet som eier gullskogen, større og sterkere enn de to andre trollene til sammen. For hvert hode oksen stanger i hjel, blåser de andre liv i det igjen.",
+          "replacesPortrait": "trollene-i-metallskogene"
+        },
+        "english": {
+          "name": "The Nine-Headed Troll",
+          "description": "The terrible guardian of the golden wood, whose many heads keep reviving one another until the blue bull finally defeats him in a brutal week-long struggle.",
+          "replacesPortrait": "nine-headed-troll"
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "kirkebakken",
+      "name": "the Church Hill",
+      "look": "A small, dark, tarred stave church with steep, tiered shingle roofs, carved dragon heads on the gables and a tall arched door inside a low, covered wooden porch, standing on top of a green hill below the castle. A low stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path with a few stone steps leads up to the porch past a wooden hitching rail for horses."
+    }
+  ],
+  "cover": {
+    "prompt": "From a high heather ridge at sunrise, the Princess rides on the Blue Bull's back, holding on to his horns, her long copper hair blowing in the wind. Far below them, three magic woods lie one behind another in the valleys: the nearest of shining copper, the next of glittering silver and the farthest of glowing gold. The Blue Bull strides forward, calm and strong, and she gazes out over the woods in wonder.",
+    "characters": ["prinsessa", "blaa-oksen"],
+    "variants": {
+      "simplified": {
+        "caption": "Kongedatteren rir på den blå oksen mot skogene av kobber, sølv og gull.",
+        "alt": "Kongedatteren sitter på ryggen til en stor, blå okse på en lyngås i soloppgangen. Nedenfor ligger tre skoger, én av kobber, én av sølv og én av gull."
+      },
+      "english": {
+        "caption": "The King's daughter rides the blue bull towards the woods of copper, silver and gold.",
+        "alt": "The King's daughter sits on the back of a big blue bull on a heather ridge at sunrise. Below them lie three woods, one of copper, one of silver and one of gold."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "On a steep forest pasture above the royal palace, eight red and brown cows graze among birches and grey boulders. The Princess, pale and thin, sits hunched on a rock with her face in her hands, crying. The Blue Bull has left the herd and walks up to her, lowering his great, glossy head gently towards her. A cool, clear autumn morning with blue fells in the distance.",
+      "variants": {
+        "simplified": {
+          "paragraph": 3,
+          "anchor": "I buskapen var det en stor, blå okse.",
+          "caption": "I buskapen var det en stor, blå okse.",
+          "alt": "Kongedatteren sitter blek og mager på en stein på fjellbeitet og gråter. En stor, blank blå okse kommer bort til henne og bøyer hodet."
+        },
+        "english": {
+          "paragraph": 5,
+          "anchor": "Among the cattle was a big blue bull who always looked freshly polished.",
+          "caption": "Among the cattle was a big blue bull who always looked freshly polished.",
+          "alt": "The King's daughter sits pale and thin on a rock in the mountain pasture, crying. A big, glossy blue bull comes over and lowers his head to her."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "In a sunny forest clearing, a white cloth lies spread on the grass, laid with steaming dishes of roast meat, white bread, sweet cakes and two shining cups of wine and mead. The Princess kneels at the cloth and eats hungrily, a little colour already back in her cheeks. The Blue Bull stands close beside her and watches her with big, gentle eyes. Three cows graze among the birches behind them.",
+      "variants": {
+        "simplified": {
+          "paragraph": 5,
+          "anchor": "Hun stakk hånden inn i øret hans, og der lå duken, pent sammenbrettet.",
+          "caption": "Med ett disket duken opp med alt hun kunne ønske seg.",
+          "alt": "Kongedatteren kneler ved en hvit duk på gresset, full av dampende fat, brød og kaker. Den blå oksen står tett ved siden av og ser på at hun spiser."
+        },
+        "english": {
+          "paragraph": 9,
+          "anchor": "She knelt beside him and slipped her hand into his left ear",
+          "caption": "At once the cloth set itself with the finest food anyone could wish for.",
+          "alt": "The King's daughter kneels by a white cloth on the grass, laid with steaming dishes, bread and cakes. The blue bull stands close beside her, watching her eat."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["dronninga"],
+      "prompt": "In a dim royal bedchamber with the bed curtains half drawn, the Queen lies propped up on pillows, pretending to be ill, one hand pressed to her brow. With the other she pushes a heavy leather purse of coins into the hand of the doctor, a plump, bald man in a long black gown, who is already slipping it into his pocket with a sly look. A single candle burns on the bedside table.",
+      "variants": {
+        "simplified": {
+          "paragraph": 9,
+          "anchor": "Kongen kom tilbake fra krigen.",
+          "caption": "Dronningen la seg til sengs og ga doktoren en god slump penger.",
+          "alt": "Dronningen ligger i en himmelseng og later som hun er syk. Hun gir doktoren en tung pengepung, og han putter den i lommen."
+        },
+        "english": {
+          "paragraph": 12,
+          "anchor": "Now the King came home from the war.",
+          "caption": "The Queen took to her bed and pressed a heavy purse into the doctor's hand.",
+          "alt": "The Queen lies in a canopy bed, pretending to be ill. She presses a heavy purse into the doctor's hand, and he slips it into his pocket."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "Deep in a moonlit night, the Blue Bull gallops away from the dark, sleeping palace across a frosty meadow towards the black forest, with the Princess on his back, clinging to his neck, her copper hair and grey shawl streaming out behind her. Behind them the byre door stands open, and not a single window is lit. Wide view, silver moonlight and long blue shadows.",
+      "variants": {
+        "simplified": {
+          "paragraph": 17,
+          "anchor": "Om kvelden, da alle andre hadde lagt seg, listet hun seg ned i fjøset.",
+          "caption": "Oksen tok henne på ryggen og satte av sted så fort han kunne.",
+          "alt": "I måneskinnet galopperer den blå oksen bort fra det mørke slottet med kongedatteren på ryggen. Fjøsdøra står åpen bak dem."
+        },
+        "english": {
+          "paragraph": 22,
+          "anchor": "That night, when everyone was asleep, she crept down to the byre.",
+          "caption": "The bull took her on his back and was off as fast as his legs would carry him.",
+          "alt": "In the moonlight, the blue bull gallops away from the dark palace with the King's daughter on his back. The byre door stands open behind them."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["prinsessa", "blaa-oksen", "trollet-med-tre-hoder"],
+      "prompt": "At the far edge of the copper wood, where every trunk, leaf and flower shines like polished copper in the low sun, the Three-Headed Troll comes rushing out between the trees, all three heads bellowing. The Blue Bull plants his hooves and lowers his long horns to face him, and the Princess on his back shrinks away, clutching a single copper leaf to her chest.",
+      "variants": {
+        "simplified": {
+          "paragraph": 23,
+          "anchor": "Straks etter var de ved enden av skogen, og da kom trollet farende",
+          "caption": "Da kom trollet farende, med alle tre hodene.",
+          "alt": "Ved enden av kobberskogen kommer et troll med tre hoder farende mellom de blanke kobbertrærne. Oksen senker hornene, og kongedatteren holder et kobberblad tett inntil seg."
+        },
+        "english": {
+          "paragraph": 28,
+          "anchor": "They had barely reached the far edge of the wood when a troll",
+          "caption": "A troll with three heads came rushing at them.",
+          "alt": "At the edge of the copper wood, a troll with three heads comes rushing between the shining copper trees. The bull lowers his horns, and the King's daughter clutches a copper leaf to her chest."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["prinsessa", "blaa-oksen", "trollet-med-seks-hoder"],
+      "prompt": "Deep in the dense silver wood, where every trunk, branch and leaf glitters like frost, the Six-Headed Troll strides out between the trees, so tall that its six small heads peer down from above the silver treetops. The Princess stands behind the Blue Bull with a silver leaf in her hand, peeping out past his shoulder, while the Blue Bull turns to face the troll with his head held low. Cold, glittering light.",
+      "variants": {
+        "simplified": {
+          "paragraph": 34,
+          "anchor": "Rett som det var, kom trollet.",
+          "caption": "Rett som det var, kom trollet.",
+          "alt": "I den tette sølvskogen kommer et langt troll med seks små hoder ut mellom trærne. Kongedatteren står bak oksen med et sølvblad i hånden."
+        },
+        "english": {
+          "paragraph": 39,
+          "anchor": "The words were hardly out of his mouth when the troll came.",
+          "caption": "The words were hardly out of his mouth when the troll came.",
+          "alt": "In the dense silver wood, a towering troll with six small heads strides out between the trees. The King's daughter stands behind the bull with a silver leaf in her hand."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "Three days later, in a quiet hollow of the silver wood at dusk, the Blue Bull lies exhausted on a bed of fallen silver leaves, his head sunk low and his eyes half closed. The Princess kneels beside him and gently rubs ointment into his shoulder from a curved cow horn, her face full of worry and tenderness. Blue dusk light glimmers on the silver trees, and there is no one else in sight.",
+      "variants": {
+        "simplified": {
+          "paragraph": 38,
+          "anchor": "«Kan så være», sa oksen, og gikk løs på trollet.",
+          "caption": "Kongedatteren tok smurningshornet og smurte oksen.",
+          "alt": "Oksen ligger utslitt på bakken i sølvskogen. Kongedatteren kneler ved siden av ham og smører ham med salve fra et krumt kuhorn."
+        },
+        "english": {
+          "paragraph": 43,
+          "anchor": "“Suits me,” said the bull",
+          "caption": "She took the horn of ointment and rubbed the bull with it.",
+          "alt": "The bull lies exhausted on the ground in the silver wood. The King's daughter kneels beside him, rubbing him with ointment from a curved cow horn."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "Deep inside the golden wood, where gold drips from the leaves like honey, the trees crowd so close that the Blue Bull can barely squeeze between them. The Princess, riding on his back, twists and ducks with her eyes squeezed shut as golden branches lash her face, and her hand has just closed around a golden apple torn from a branch. The Blue Bull turns his head back towards her in alarm. Warm, glowing light.",
+      "variants": {
+        "simplified": {
+          "paragraph": 42,
+          "anchor": "Men gullskogen var enda tettere enn sølvskogen, og jo lenger inn de kom",
+          "caption": "Før hun visste ordet av det, satt hun med et gulleple i hånden.",
+          "alt": "Kongedatteren rir på oksen gjennom den tette gullskogen og bøyer seg unna greinene. I hånden har hun et gulleple."
+        },
+        "english": {
+          "paragraph": 48,
+          "anchor": "But the golden wood was thicker than the silver one",
+          "caption": "Before she knew it, she had a golden apple in her hand.",
+          "alt": "The King's daughter rides the bull through the dense golden wood, ducking the branches. In her hand she holds a golden apple."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["prinsessa", "blaa-oksen", "trollet-med-ni-hoder"],
+      "prompt": "In a clearing in the golden wood, the enormous Nine-Headed Troll looms up as tall as the trees, all nine heads roaring at once, its shadow falling across the glittering ground. The Blue Bull stands squarely in front of it, head lowered and horns aimed, braced to charge. Off to one side, the Princess presses the golden apple to her chest and turns her face away. Gold dust glitters in the air.",
+      "variants": {
+        "simplified": {
+          "paragraph": 49,
+          "anchor": "Så braste de sammen, og det var så fælt å se på at kongedatteren holdt",
+          "caption": "Kongedatteren sto og trykket gulleplet mot brystet.",
+          "alt": "Et enormt troll med ni hoder brøler i gullskogen, og oksen senker hornene foran det. Ved siden av står kongedatteren og trykker gulleplet mot brystet."
+        },
+        "english": {
+          "paragraph": 55,
+          "anchor": "Then they ran at each other",
+          "caption": "She clutched the golden apple to her chest and turned her face away.",
+          "alt": "An enormous troll with nine heads roars in the golden wood, and the bull lowers his horns in front of it. To one side, the King's daughter clutches the golden apple to her chest."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "Wide view of a flat, windswept mountain plateau under a huge pale-blue sky. The Princess sits on the Blue Bull's back and points far ahead, and on the distant horizon, beyond the heather and grey boulders, a castle is just visible, as tiny as a toy. The Blue Bull walks slowly, thin and tired from the long journey, his head low. Clear afternoon light and long shadows.",
+      "variants": {
+        "simplified": {
+          "paragraph": 56,
+          "anchor": "«Ja, jeg ser et lite slott, langt, langt borte.»",
+          "caption": "«Ja, jeg ser et lite slott, langt, langt borte.»",
+          "alt": "Kongedatteren sitter på oksen på en vid fjellslette og peker. Langt borte i horisonten skimtes et lite slott."
+        },
+        "english": {
+          "paragraph": 62,
+          "anchor": "“Yes, I can see a little castle, far, far away,” said the princess.",
+          "caption": "“Yes, I can see a little castle, far, far away.”",
+          "alt": "The King's daughter sits on the bull on a wide mountain plateau, pointing. Far away on the horizon, a tiny castle can just be seen."
+        }
+      }
+    },
+    {
+      "id": "11",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "On a grassy mound at the foot of a sheer grey cliff, with the great castle close below in the valley, the Princess has flung her arms around the Blue Bull's neck and presses her face into his coat, sobbing. The Blue Bull stands quite still with his eyes half closed and his great head bowed gently over her shoulder. A plain wooden stick leans against the rock behind them. Grey, windy evening light.",
+      "variants": {
+        "simplified": {
+          "paragraph": 62,
+          "anchor": "Først ville hun ikke.",
+          "caption": "Først ville hun ikke.",
+          "alt": "Kongedatteren har slått armene rundt halsen på den blå oksen og gråter. De står under en bratt bergvegg, og slottet ligger like nedenfor."
+        },
+        "english": {
+          "paragraph": 68,
+          "anchor": "“No,” she said.",
+          "caption": "“No,” she said. “I can’t.”",
+          "alt": "The King's daughter has flung her arms around the blue bull's neck and is crying. They stand below a sheer cliff, with the castle close below."
+        }
+      }
+    },
+    {
+      "id": "12",
+      "characters": ["kari-trestakk"],
+      "prompt": "In the dim, sooty castle kitchen, Kari Woodsmock stands at a big wooden washtub full of greasy pots and scrubs hard, her face and arms black with soot. Behind her, two plump kitchen maids in white aprons whisper and giggle by the hearth, and a stout cook stirs a great iron pot over the fire. Copper pans hang on the smoke-blackened walls, and grey daylight falls through one small window.",
+      "variants": {
+        "simplified": {
+          "paragraph": 67,
+          "anchor": "Og oppvasken gjorde hun ordentlig nok.",
+          "caption": "Der sto hun ved baljen, svart av sot, og sa ikke mer enn hun måtte.",
+          "alt": "Kari Trestakk står ved en stor balje i det sotete slottskjøkkenet og skrubber gryter, svart av sot. Bak henne hvisker og fniser to kjøkkenjenter."
+        },
+        "english": {
+          "paragraph": 74,
+          "anchor": "She turned out to be rather good at washing up",
+          "caption": "Before long she was as black with soot as the pots she scrubbed.",
+          "alt": "Kari Woodsmock stands at a big washtub in the sooty castle kitchen, scrubbing pots, black with soot. Behind her, two kitchen maids whisper and giggle."
+        }
+      }
+    },
+    {
+      "id": "13",
+      "characters": ["kari-trestakk", "prinsen"],
+      "prompt": "At the top of the steep, dark oak staircase, the Prince stands in the doorway of his chamber and flings a basin of washing water over Kari Woodsmock, who stands on the top step in her wooden smock. The water splashes over her head and shoulders. His face is twisted with disgust; Kari keeps her eyes lowered and her lips pressed together. Candlelight flickers on the whitewashed wall.",
+      "variants": {
+        "simplified": {
+          "paragraph": 73,
+          "anchor": "«Tror du jeg vil ha vaskevann som du har båret?»",
+          "caption": "«Tror du jeg vil ha vaskevann som du har båret?»",
+          "alt": "Øverst i den bratte trappen står prinsen i døråpningen og slår en balje vaskevann over Kari Trestakk. Hun står stille i trestakken med blikket ned."
+        },
+        "english": {
+          "paragraph": 80,
+          "anchor": "“Do you think I want washing water you’ve carried?”",
+          "caption": "“Do you think I want washing water you’ve carried?”",
+          "alt": "At the top of a steep staircase, the Prince stands in his doorway, throwing a basin of washing water over Kari Woodsmock. She stands still in her wooden smock, eyes lowered."
+        }
+      }
+    },
+    {
+      "id": "14",
+      "characters": ["kari-trestakk", "mannen-i-berget"],
+      "prompt": "At the foot of the sheer grey cliff, a narrow crack in the rock stands open with warm light inside. The Old Man of the Mountain has stepped out with his lantern and holds up a long gown of shining copper cloth that glows like the copper wood. Kari Woodsmock, still sooty in her wooden smock, stares at it with her hands pressed to her mouth. A saddled chestnut horse waits beside them.",
+      "variants": {
+        "simplified": {
+          "paragraph": 77,
+          "anchor": "Da kom han med en kjole som var like blank som kobberskogen",
+          "caption": "Han kom med en kjole som var like blank som kobberskogen.",
+          "alt": "Ved foten av bergveggen holder en liten, gammel mann med lykt opp en skinnende kobberkjole. Kari Trestakk står i trestakken og ser forundret på den. Ved siden av venter en salet hest."
+        },
+        "english": {
+          "paragraph": 84,
+          "anchor": "So he brought her a dress that shone like the copper wood",
+          "caption": "He brought her a dress that shone like the copper wood.",
+          "alt": "At the foot of the cliff, a small old man with a lantern holds up a shining copper dress. Kari Woodsmock, in her wooden smock, stares at it in wonder. A saddled horse waits beside them."
+        }
+      }
+    },
+    {
+      "id": "15",
+      "characters": ["kari-kobberkjole", "prinsen"],
+      "places": ["kirkebakken"],
+      "prompt": "Outside the stave church on the Church Hill, Kari in the Copper Dress sits on her chestnut horse and speaks the magic words: a dazzling light shines in front of her, and a wall of deep darkness has fallen behind her. The Prince stands at her stirrup, holding out one of her copper gloves, and throws up his other arm against the glare. Five churchgoers in Sunday clothes gape by the churchyard wall.",
+      "variants": {
+        "simplified": {
+          "paragraph": 82,
+          "anchor": "«Lyst foran og mørkt bak, så prinsen ikke ser hvor jeg rir i dag!»",
+          "caption": "«Lyst foran og mørkt bak, så prinsen ikke ser hvor jeg rir i dag!»",
+          "alt": "Kari sitter på hesten i kobberkjolen utenfor kirken. Foran henne skinner et sterkt lys, og bak henne er det mørkt. Prinsen holder fram hansken hennes og skjermer øynene."
+        },
+        "english": {
+          "paragraph": 88,
+          "anchor": "“Light before and dark behind, so where I ride the Prince can’t find!”",
+          "caption": "“Light before and dark behind, so where I ride the Prince can’t find!”",
+          "alt": "Kari sits on her horse in the copper dress outside the church. A dazzling light shines before her and darkness falls behind. The Prince holds out her glove, shielding his eyes."
+        }
+      }
+    },
+    {
+      "id": "16",
+      "characters": ["kari-trestakk", "prinsen"],
+      "prompt": "Seen from the foot of the steep, dark oak staircase, where two kitchen maids peek round the corner, giggling behind their hands: at the top of the stairs, the Prince snatches a white towel from Kari Woodsmock and flings it straight into her sooty face. Kari stands frozen on the landing in her wooden smock, and his chamber door stands open behind him.",
+      "variants": {
+        "simplified": {
+          "paragraph": 88,
+          "anchor": "Men Kari ga seg ikke før hun fikk lov",
+          "caption": "Prinsen rev til seg håndkleet og kastet det rett i ansiktet på henne.",
+          "alt": "Øverst i trappen kaster prinsen et hvitt håndkle rett i ansiktet på Kari Trestakk. Nede ved trappefoten titter to kjøkkenjenter fram og fniser."
+        },
+        "english": {
+          "paragraph": 93,
+          "anchor": "But Kari wouldn’t give up.",
+          "caption": "He snatched the towel and flung it straight in her face.",
+          "alt": "At the top of the stairs, the Prince flings a white towel straight in Kari Woodsmock's face. At the foot of the stairs, two kitchen maids peek out, giggling."
+        }
+      }
+    },
+    {
+      "id": "17",
+      "characters": ["kari-solvkjole", "prinsen"],
+      "places": ["kirkebakken"],
+      "prompt": "On the Church Hill on a bright, windy Sunday morning, Kari in the Silver Dress leaps lightly down from a dapple-grey horse with a silver-embroidered saddlecloth and a silver bit. The Prince, who has come running to hold her horse, stands with his hand stretched out for the bridle, a moment too late. Eight churchgoers in their Sunday best stand by the church door, staring and whispering.",
+      "variants": {
+        "simplified": {
+          "paragraph": 93,
+          "anchor": "Da hun kom til kirken, sto folk ennå ute på bakken",
+          "caption": "Prinsen ville holde hesten, men hun hoppet ned selv.",
+          "alt": "Kari hopper lett ned fra en apalgrå hest med sølvdekken utenfor kirken. Prinsen strekker ut hånden etter tøylene, men kommer for sent. Kirkefolket står og stirrer."
+        },
+        "english": {
+          "paragraph": 97,
+          "anchor": "When the King’s daughter reached the church",
+          "caption": "The Prince ran to hold her horse, but she jumped down by herself.",
+          "alt": "Kari leaps lightly down from a dapple-grey horse with a silver saddlecloth outside the church. The Prince reaches for the bridle, too late. The churchgoers stand and stare."
+        }
+      }
+    },
+    {
+      "id": "18",
+      "characters": ["prinsen"],
+      "prompt": "On a muddy country road winding between hills and birch woods, the Prince reins in his horse at a farm gate and holds out a silver-handled riding whip to an old farmer and his wife, asking them something eagerly. The old couple look at each other and shake their heads, and his shoulders sag. A grey, drizzly autumn afternoon with low clouds over the hills.",
+      "variants": {
+        "simplified": {
+          "paragraph": 99,
+          "anchor": "Borte var hun igjen.",
+          "caption": "Prinsen reiste vidt og bredt og spurte etter Håndkleland.",
+          "alt": "Prinsen sitter på hesten ved en grind og viser fram en ridepisk til en gammel bonde og kona hans. De rister på hodet."
+        },
+        "english": {
+          "paragraph": 102,
+          "anchor": "And she was gone.",
+          "caption": "He rode far and wide asking for Towelland.",
+          "alt": "The Prince sits on his horse at a farm gate, showing a riding whip to an old farmer and his wife. They shake their heads."
+        }
+      }
+    },
+    {
+      "id": "19",
+      "characters": ["kari-gullkjole", "prinsen"],
+      "places": ["kirkebakken"],
+      "prompt": "On the Church Hill, the priest in a long black robe and sixteen churchgoers in Sunday clothes stand crowded outside the stave church, all turning to stare as Kari in the Gold Dress rides up the path on a cream-coloured horse with a gold-embroidered saddlecloth and a golden bit, glittering in the sun. The Prince hurries down the path towards her, one hand already reaching for the bridle.",
+      "variants": {
+        "simplified": {
+          "paragraph": 104,
+          "anchor": "Denne gangen sto både presten og hele menigheten ute på kirkebakken",
+          "caption": "Denne gangen sto hele menigheten ute på kirkebakken og ventet på henne.",
+          "alt": "Presten og hele menigheten står utenfor kirken og stirrer på Kari, som kommer ridende i en glitrende gullkjole på en lys hest. Prinsen skynder seg ned mot henne."
+        },
+        "english": {
+          "paragraph": 107,
+          "anchor": "This time, when she reached the church",
+          "caption": "This time the priest and the whole congregation were waiting outside for her.",
+          "alt": "The priest and the whole congregation stand outside the church, staring at Kari, who rides up in a glittering gold dress on a pale horse. The Prince hurries down to meet her."
+        }
+      }
+    },
+    {
+      "id": "20",
+      "characters": ["kari-gullkjole", "prinsen"],
+      "places": ["kirkebakken"],
+      "prompt": "In the dark wooden porch of the stave church on the Church Hill, a thick pool of black tar covers the floor. Kari in the Gold Dress has just leapt clean across it and lands on the steps outside in the sunlight, one foot in a white stocking, while one small gold shoe stays stuck fast in the tar behind her. Inside the church door, the Prince pushes through the crowd, too late.",
+      "variants": {
+        "simplified": {
+          "paragraph": 107,
+          "anchor": "Da prekenen var slutt og hun skulle ut av kirken",
+          "caption": "Hun satte foten midt i tjæren og hoppet, og der ble den ene gullskoen sittende igjen.",
+          "alt": "Kari hopper over en dam av svart tjære i kirkedøren. Den ene gullskoen sitter fast i tjæren bak henne, og inne i kirken trenger prinsen seg fram."
+        },
+        "english": {
+          "paragraph": 110,
+          "anchor": "The Prince had a plan, though.",
+          "caption": "She put her foot in the tar and jumped, and one of her gold shoes stayed stuck in it.",
+          "alt": "Kari leaps across a pool of black tar in the church porch. One gold shoe stays stuck in the tar behind her, and inside the church the Prince pushes through the crowd."
+        }
+      }
+    },
+    {
+      "id": "21",
+      "characters": ["dronningens-datter", "prinsen"],
+      "prompt": "A wedding procession rides along a country road lined with yellowing birches towards the stave church. In front, the Stepsister sits on a white horse in her finest gooseberry-green gown with a tall silver bridal crown on her head, smirking, and beside her the Prince rides stiff and glum. On a birch branch by the road, a little brown bird sings down at them with its beak wide open. Six wedding guests follow on foot.",
+      "variants": {
+        "simplified": {
+          "paragraph": 113,
+          "anchor": "«Et stykke av hæl og et stykke av tå, Kari Trestakks sko er full av blod!»",
+          "caption": "En liten fugl satt i et tre og sang.",
+          "alt": "Et brudefølge rir mot kirken. Datteren til dronningen sitter på en hvit hest med brudekrone, og prinsen rir sur ved siden av. I en bjørk ved veien sitter en liten fugl og synger."
+        },
+        "english": {
+          "paragraph": 115,
+          "anchor": "“Heel cut short and toe cut too, there’s blood in Kari Woodsmock’s shoe!”",
+          "caption": "A little bird sat in a tree and sang.",
+          "alt": "A wedding party rides towards the church. The Queen's daughter sits on a white horse wearing a bridal crown, and the Prince rides glumly beside her. In a birch by the road, a little bird is singing."
+        }
+      }
+    },
+    {
+      "id": "22",
+      "characters": ["kari-gullkjole", "prinsen"],
+      "prompt": "In the great hall of the castle, Kari in the Gold Dress stands in the middle of the floor, shining, with a gold shoe on each foot and the wooden smock lying in a heap of grey boards at her feet. The Prince stands before her, staring in wonder. Around the walls, twelve maids, servants and townsfolk gape with open mouths, their laughter gone. Light falls from tall windows.",
+      "variants": {
+        "simplified": {
+          "paragraph": 121,
+          "anchor": "Kari tok skoen, satte foten i den så lett som ingenting og kastet",
+          "caption": "Der sto hun i gullkjolen, så det lyste av henne.",
+          "alt": "Kari står midt i salen i en skinnende gullkjole, med trestakken i en haug ved føttene. Prinsen stirrer på henne, og folkene langs veggene står med åpen munn."
+        },
+        "english": {
+          "paragraph": 122,
+          "anchor": "Kari picked up the shoe and slipped her foot into it as easily as anything.",
+          "caption": "There she stood in the dress of gold and diamonds, shining.",
+          "alt": "Kari stands in the middle of the great hall in a shining gold dress, with the wooden smock in a heap at her feet. The Prince stares at her, and the people along the walls gape."
+        }
+      }
+    }
+  ]
+}

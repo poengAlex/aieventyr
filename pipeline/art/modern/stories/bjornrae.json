@@ -1,0 +1,106 @@
+{
+  "storyId": "bjornrae",
+  "title": "Bjørnen og reven",
+  "textFile": "public/content/stories/bjornrae/modern/story.txt",
+  "world": "Present-day Norway in late November and December, where a bear and a fox live among people and talk. Below a spruce forest lies the Frozen Lake, a small lake frozen since late November, with ice fishers hunched on plastic buckets over their holes. By the shore there is a ploughed gravel parking lot with high snowbanks, a small grocery shop, and on Thursdays a white fish van. Up at the edge of the forest is the Sunny Slope, with one dense spruce at the top. The fox's fish are neatly bundled and packed in a plastic bag. The butter is one round yellow plastic tub with a snap-on lid and no readable label. The bear and the fox are wild animals without clothes: they walk on four legs, but can sit up and use their front paws like hands.",
+  "palette": "Late November to just before Christmas: short, grey-blue days over a white frozen lake, with the warm orange glow of the shop window and headlights in the parking lot; then a clear, cold December day of low, golden sun on the snowy slope and long blue shadows. Accents: the fox's flame red, butter yellow and dark spruce green.",
+  "cast": [
+    {
+      "slug": "bjornen",
+      "name": "Bjørnen",
+      "promptName": "the Bear",
+      "replacesPortrait": "bjornen",
+      "description": "En stor, søvnig og rettferdig bjørn som lar seg overtale til å fiske med halen og ender opp med både kort hale og ufortjent skyld.",
+      "look": "A huge, heavy, slow-moving and rather sleepy brown bear, taller than a man when he stands up, with thick, shaggy dark chocolate-brown winter fur, a broad head with small round ears, small, gentle black eyes under heavy brows, a short greyish-tan muzzle with a big black nose and a patient, slightly puzzled look. He has enormous flat paws with blunt claws and, unlike real bears, a long, fine, plume-like bushy tail that sweeps the snow behind him.",
+      "portrait": "Background: the frozen lake with ice fishers far out on the ice."
+    },
+    {
+      "slug": "bjornen-stubbrumpet",
+      "name": "Den stubbrumpete bjørnen",
+      "promptName": "the Stub-tailed Bear",
+      "description": "Bjørnen etter isfisket, med bare en liten stump igjen bak. Han bærer ikke nag, han utsetter dvalen til over nyttår for julesmørets skyld, og han liker ting som er rettferdige.",
+      "look": "The same huge, heavy, slow-moving and rather sleepy brown bear after his fishing trip: thick, shaggy dark chocolate-brown winter fur, a broad head with small round ears, small, gentle black eyes under heavy brows, a short greyish-tan muzzle with a big black nose, a patient, slightly puzzled look and enormous flat paws with blunt claws. His long tail is gone: all that is left is a tiny, round, fluffy stump on his big round bottom.",
+      "portrait": "Background: the Sunny Slope with the dense spruce."
+    },
+    {
+      "slug": "reven",
+      "name": "Reven",
+      "promptName": "the Fox",
+      "replacesPortrait": "raeven",
+      "description": "En glatt og selvsikker rev som lærer bjørnen å fiske med halen og tar telefoner som aldri ringer, mens julesmøret forsvinner.",
+      "look": "A slim, light-footed, long-legged red fox with sleek, bright flame-red winter fur, a snow-white chin, throat and chest, black lower legs and paws, tall pointed ears with black backs, narrow amber eyes with a sly sideways glance, a long pointed snout with long whiskers and a smooth, self-confident grin. His big, bushy red tail ends in a clean white tip.",
+      "portrait": "Background: a snowy parking lot at dusk, with a lit shop window."
+    }
+  ],
+  "places": [
+    {
+      "slug": "isvannet",
+      "name": "the Frozen Lake",
+      "look": "A small lake below a dark spruce forest, frozen solid under snow-dusted grey-blue ice, with a few round holes and empty plastic buckets out on it. Along the near shore runs a ploughed gravel parking lot with high snowbanks, a small grocery shop with a lit window, a short wooden jetty and a few bare birches."
+    },
+    {
+      "slug": "solhellinga",
+      "name": "the Sunny Slope",
+      "look": "A south-facing slope at the edge of the spruce forest above the lake, where the low December sun shines: smooth, sparkling snow, a few grey rocks and tufts of dry golden grass, and at the top one dense, dark spruce whose low branches sweep the snow, with a hollow underneath. Through the trees below, glimpses of the frozen lake and the parking lot."
+    }
+  ],
+  "cover": {
+    "prompt": "The Frozen Lake on a grey late-November morning. Out on the ice, among three ice fishers hunched on plastic buckets over their holes, the Bear sits with his long bushy tail down a hole he has kicked in the ice, teeth gritted, frost in his fur. Far behind him, in the parking lot between high snowbanks, the Fox slips away with his plastic bag of fish. The ice fishers stare at him.",
+    "characters": ["bjornen", "reven"],
+    "places": ["isvannet"],
+    "caption": "Svir det, er det fisken som biter.",
+    "alt": "Bjørnen sitter ute på isen mellom tre isfiskere på bøtter og har halen nede i et hull. Isfiskerne stirrer på ham. Langt bak på parkeringsplassen lusker reven av sted med fiskeposen sin."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 1,
+      "anchor": "Bjørnen sto på parkeringsplassen og så på dem",
+      "characters": ["reven", "bjornen"],
+      "places": ["isvannet"],
+      "prompt": "The gravel parking lot by the Frozen Lake on a grey November morning, with high snowbanks, a few parked cars and a white fish van with its side hatch open. The Fox comes slinking between the cars with a plastic bag of neatly bundled, packed fish, looking innocent. The Bear, standing at the edge of the parking lot, turns his big head to stare at the bag. Out on the ice beyond, three ice fishers sit on buckets.",
+      "caption": "«Jeg har vært og fisket, jeg», sa reven.",
+      "alt": "Reven lusker mellom bilene på parkeringsplassen med en plastpose full av pent pakket fisk. Bjørnen står og stirrer på posen. Ved siden av står fiskebilen, og ute på isen sitter tre isfiskere."
+    },
+    {
+      "id": "02",
+      "paragraph": 13,
+      "anchor": "Resten av vinteren stakk halen hans opp av isen",
+      "characters": [],
+      "places": ["isvannet"],
+      "prompt": "The Frozen Lake on a bright, cold winter day. Out on the ice, a long, plume-like dark chocolate-brown bear's tail sticks straight up out of a frozen hole like a small frozen flagpole, glittering with frost. Around it, eight people in winter jackets and hats are taking pictures of it with their phones, and more cars are pulling into the parking lot behind them. Further out, three ice fishers sit on their buckets, still waiting for a bite.",
+      "caption": "Resten av vinteren stakk halen hans opp av isen som en liten, frossen flaggstang.",
+      "alt": "Ute på isen stikker en lang, buskete bjørnehale rett opp av et frosset hull. Rundt den står en flokk folk og tar bilder med mobilene sine."
+    },
+    {
+      "id": "03",
+      "paragraph": 20,
+      "anchor": "Bjørnen hadde ikke hørt at den ringte.",
+      "characters": ["bjornen-stubbrumpet", "reven"],
+      "places": ["solhellinga"],
+      "prompt": "The Sunny Slope in low December sun. The Stub-tailed Bear lies fast asleep on his side in the snow, snoring. Beside him the Fox sits up with a phone pressed to his ear, its screen dark and silent, and answers it eagerly, already half on his feet. Up at the top of the slope, the dense spruce hides the spot where the tub of butter is buried in the snow.",
+      "caption": "Bjørnen hadde ikke hørt at den ringte. Det var fordi den ikke ringte.",
+      "alt": "Bjørnen sover i snøen i solhellinga. Ved siden av ham sitter reven med mobilen mot øret og later som han snakker med noen, selv om telefonen ikke ringer."
+    },
+    {
+      "id": "04",
+      "paragraph": 39,
+      "anchor": "Bjørnen løftet den opp, så ned i den og snudde den opp ned.",
+      "characters": ["bjornen-stubbrumpet", "reven"],
+      "places": ["solhellinga"],
+      "prompt": "The Sunny Slope under the dense spruce, beside a hole dug in the snow. The Stub-tailed Bear holds the empty yellow butter tub upside down in both front paws and glares at the Fox, his face flushed red under his fur and the tiny stump of his tail standing straight up in outrage. The Fox sits in the snow with his head tilted and an innocent look. Low, golden afternoon sun.",
+      "caption": "Han ble rød under pelsen, og stumpen bak på ham sto rett til værs.",
+      "alt": "Bjørnen står under grana og holder den tomme smørboksen opp ned. Han er rød under pelsen, og halestumpen står rett til værs. Reven sitter i snøen med hodet på skakke og ser uskyldig ut."
+    },
+    {
+      "id": "05",
+      "paragraph": 51,
+      "anchor": "Bjørnen vred seg rundt og så.",
+      "characters": ["bjornen-stubbrumpet", "reven"],
+      "places": ["solhellinga"],
+      "prompt": "Late afternoon on the Sunny Slope, long blue shadows on the snow. The Stub-tailed Bear has just woken and twists round to look at his own backside, which glistens with a thin, shiny coat of melted butter. The Fox sits up beside him, pointing at it with one paw and a solemn, sorry face. The empty butter tub stands in the snow next to them as evidence.",
+      "caption": "Han kunne ikke huske at han hadde spist noe, men bevis var bevis.",
+      "alt": "Bjørnen vrir seg rundt og ser på baken sin, som glinser av smeltet smør. Reven sitter ved siden av og peker. Den tomme smørboksen står i snøen som bevis."
+    }
+  ]
+}

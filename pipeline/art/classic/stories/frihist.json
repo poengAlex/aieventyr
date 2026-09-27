@@ -1,0 +1,144 @@
+{
+  "storyId": "frihist",
+  "variants": {
+    "simplified": {
+      "title": "En frierhistorie",
+      "textFile": "public/content/stories/frihist/simplified/story.txt"
+    },
+    "english": {
+      "title": "A Courting Tale",
+      "textFile": "public/content/stories/frihist/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway in late winter. The poor little farm is a single tiny, lopsided cottage of grey weathered logs with a sagging, snow-covered turf roof, a crooked chimney, one small window and a low door. Inside is one cramped, smoky room with a bare plank floor, a rough little table, a wobbly bench along the wall, two rickety stools and two old chairs, a small stone hearth with a sooty kettle, and one shelf with two cracked clay bowls. Everything is old, grey and patched except the family's three new things: the farmer's one new sleeve, the wife's one new shoe and the daughter's new cap. The suitor carries a small, square brown leather travel bag with a brass clasp.",
+  "palette": "Late winter on a frosty February afternoon: old, crusted snow with lilac-blue shadows, long icicles on the eaves and a low, pink sun. Inside the cottage: warm orange firelight and smoky brown shadows, from which the family's three new things shine out: a bright lingonberry-red sleeve, a glossy black shoe with a silver buckle and an emerald-green cap.",
+  "cast": [
+    {
+      "slug": "frieren",
+      "promptName": "the Suitor",
+      "look": "A tall, gangly young man of about twenty with a round, eager face, apple-pink cheeks, a small blunt nose, hopeful pale-blue eyes, a nervous smile and neat butter-blond hair parted in the middle and slicked down flat, except for one unruly cowlick at the back. He wears his Sunday best: a slightly too short cinnamon-brown wool jacket with brass buttons, a white shirt with a black neckerchief, grey striped trousers, polished black boots and a tall black hat.",
+      "portrait": "Background: the tiny snow-covered cottage.",
+      "variants": {
+        "simplified": {
+          "name": "Frieren",
+          "description": "En ung gutt som reiser rundt for å fri og ender opp på en gård som prøver å imponere ham.",
+          "replacesPortrait": "frieren"
+        },
+        "english": {
+          "name": "The Suitor",
+          "description": "A visiting young lad who comes courting and quietly observes the family's performance.",
+          "replacesPortrait": "the-suitor"
+        }
+      }
+    },
+    {
+      "slug": "bonden",
+      "promptName": "the Farmer",
+      "look": "A big, burly, barrel-chested farmer of about fifty with a broad, ruddy face, a small snub nose, twinkling little blue eyes, bushy brown eyebrows, a shock of unruly brown hair and a long brown beard that splits into two scraggly forks. He wears a faded, darned grey-brown knitted sweater whose right sleeve is brand-new, bright lingonberry red and spotless, while the old left sleeve has a big hole at the elbow, patched brown trousers and worn-out boots.",
+      "portrait": "Background: the cramped cottage room with the little table.",
+      "variants": {
+        "simplified": {
+          "name": "Mannen på gården",
+          "description": "Faren i familien, fattig men stolt, som skjuler slitasjen ved å vise fram ett nytt erme og late som han rydder.",
+          "replacesPortrait": "mannen-pa-garden"
+        },
+        "english": {
+          "name": "The Farmer",
+          "description": "The father who tries to look well-to-do by cleaning with his one new sweater sleeve and hiding the other arm.",
+          "replacesPortrait": "the-farmer"
+        }
+      }
+    },
+    {
+      "slug": "kona-pa-garden",
+      "promptName": "the Farmer's Wife",
+      "look": "A small, wiry, bustling woman of about forty-five with a narrow, freckled face, a long pointed nose, bright little grey eyes, a busy, pursed mouth and frizzy ginger hair escaping from a patched brown headscarf. She wears a patched mud-brown skirt, a faded grey-blue blouse and a ragged grey shawl. On her right foot is one brand-new, glossy black leather shoe with a big silver buckle; on her left foot, an old, holey grey felt slipper.",
+      "portrait": "Background: the cramped cottage room with the rickety stools.",
+      "variants": {
+        "simplified": {
+          "name": "Kona på gården",
+          "description": "Moren som har fått én ny sko og bruker den til å sparke bort ting mens hun klager over rot.",
+          "replacesPortrait": "kona-pa-garden"
+        },
+        "english": {
+          "name": "The Farmer's Wife",
+          "description": "The mother who shows off her single new shoe by kicking and prying at furniture as if tidying.",
+          "replacesPortrait": "the-farmers-wife"
+        }
+      }
+    },
+    {
+      "slug": "datteren",
+      "promptName": "the Daughter",
+      "look": "A cheeky farm lass of eighteen with a long face, a sharp chin, a snub, upturned nose, big round brown eyes, rosy cheeks, a little rosebud mouth and thick black hair in two short, stiff plaits that poke straight out to the sides. She wears a patched, faded brown pinafore dress over a grey blouse, and on her head a brand-new, bright emerald-green knitted cap with a big white tassel, which she is very proud of.",
+      "portrait": "Background: the low cottage door.",
+      "variants": {
+        "simplified": {
+          "name": "Datteren",
+          "description": "Datteren som bare stikker hodet inn og nikker, ivrig etter å beskytte den nye lua si.",
+          "replacesPortrait": "datteren"
+        },
+        "english": {
+          "name": "The Daughter",
+          "description": "Their girl who displays her new cap by only poking her head in and nodding as if helping.",
+          "replacesPortrait": "the-daughter"
+        }
+      }
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "On a frosty late-winter afternoon, the Suitor, in his Sunday best and tall hat, with his little travel bag in one hand, walks up a trodden path through deep snow to a tiny, lopsided grey cottage with a sagging, snow-covered turf roof and long icicles on the eaves. At its one small window, three curious faces crowd together to peer out at him: the Farmer, the Farmer's Wife and the Daughter in her new green cap. Low pink sun and lilac-blue shadows.",
+    "characters": ["frieren", "bonden", "kona-pa-garden", "datteren"],
+    "variants": {
+      "simplified": {
+        "caption": "En dag kom det en frier til en fattig liten gård.",
+        "alt": "En ung frier i fine klær går gjennom snøen mot ei lita, skjev stue. I det lille vinduet trykker tre nysgjerrige ansikter seg sammen og kikker ut på ham."
+      },
+      "english": {
+        "caption": "One day a suitor came calling at a poor little farm.",
+        "alt": "A young suitor in his best clothes walks through the snow towards a tiny, crooked cottage. At its small window, three curious faces crowd together to peer out at him."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["bonden", "frieren"],
+      "prompt": "In the cramped, smoky cottage room, the Suitor sits stiffly on the wobbly bench with his tall hat and little travel bag on his knees. In front of him the Farmer bends over the rough little table and rubs it hard with his one brand-new red sleeve in great sweeping strokes, keeping his other arm, with its holey old sleeve, hidden behind his back. The Suitor watches with raised eyebrows and a polite smile. A sooty kettle hangs over the small fire.",
+      "variants": {
+        "simplified": {
+          "paragraph": 3,
+          "anchor": "Og så gikk mannen rundt og gned og tørket på benker og bord med det splitter nye ermet.",
+          "caption": "Mannen gned og tørket med det splitter nye ermet.",
+          "alt": "Mannen på gården gnir bordet med det nye, røde ermet og holder den andre armen på ryggen. Frieren sitter på benken med hatten på fanget."
+        },
+        "english": {
+          "paragraph": 3,
+          "anchor": "And the Farmer went round rubbing and wiping the benches and the table with his brand-new sleeve.",
+          "caption": "The Farmer rubbed and wiped with his brand-new sleeve.",
+          "alt": "The farmer rubs the table with his new red sleeve, keeping his other arm behind his back. The suitor sits on the bench with his hat on his knees."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["kona-pa-garden", "datteren", "frieren", "bonden"],
+      "prompt": "In the cramped, firelit cottage room, the Farmer's Wife shoves a rickety stool across the floor with her one glossy new black shoe, her other foot in an old holey slipper, scolding about the mess. In the low doorway only the Daughter's head pokes in, in her brand-new green cap, nodding briskly this way and that. The Farmer stands by the table with his new red sleeve held out in front of him. On the bench, the Suitor clutches his hat and tries hard not to laugh.",
+      "variants": {
+        "simplified": {
+          "paragraph": 7,
+          "anchor": "«Jeg kan da ikke være alle steder, jeg heller!» sa hun.",
+          "caption": "Datteren stakk bare hodet inn gjennom døra og nikket hit og dit.",
+          "alt": "Kona sparker en krakk bortover gulvet med den ene nye skoen sin. I døråpningen stikker datteren inn hodet med den nye lua og nikker, og frieren prøver å ikke le."
+        },
+        "english": {
+          "paragraph": 7,
+          "anchor": "“I can’t be everywhere at once, can I?” she said.",
+          "caption": "The Daughter only put her head round the door and nodded this way and that.",
+          "alt": "The farmer's wife kicks a stool across the floor with her one new shoe. In the doorway the daughter pokes her head in, wearing her new cap and nodding, and the suitor tries not to laugh."
+        }
+      }
+    }
+  ]
+}

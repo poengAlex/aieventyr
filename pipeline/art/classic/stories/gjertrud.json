@@ -1,0 +1,144 @@
+{
+  "storyId": "gjertrud",
+  "variants": {
+    "simplified": {
+      "title": "Gjertrudsfuglen",
+      "textFile": "public/content/stories/gjertrud/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Gertrud Bird",
+      "textFile": "public/content/stories/gjertrud/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, in the days when Our Lord and St Peter still wandered the earth. Gjertrud's home is a small, low log cottage with a mossy turf roof and a squat grey stone chimney, alone at the edge of a spruce forest. Inside is one smoky, firelit room: an open stone hearth with a smoke hood and chimney above it, a big, round, flat iron griddle over the embers, a long wooden baking board dusted with flour, a rolling pin and a wooden bench by the door. The flatbreads are lefser: big, thin and round, pale with brown speckles. Every one Gjertrud rolls, however tiny the scrap of dough, spreads on the griddle until it covers it from rim to rim.",
+  "palette": "A raw, wet afternoon in early spring: grey snow melting in the shadows, dark dripping spruce, bare birches with swelling buds, brown puddles on the path and heavy slate-grey rain clouds rolling in. Inside the cottage: warm amber firelight on smoky timber, golden-brown flatbread and pale flour. Accents: the bright scarlet of the red cap and the deep black of soot.",
+  "cast": [
+    {
+      "slug": "gjertrud",
+      "promptName": "Gjertrud",
+      "look": "A stout, square-built farm woman of about fifty-five with a square jaw, pinched thin lips, a sharp little upturned nose, small darting black eyes and two thick iron-grey plaits hanging over her shoulders. On her head sits a tall, pointed, bright-scarlet knitted stocking cap with a tassel at the tip. She wears a black wool bodice over a white linen blouse with rolled-up sleeves, a long charcoal-grey homespun skirt and a flour-dusted white apron.",
+      "portrait": "Background: her firelit hearth with the big round griddle.",
+      "variants": {
+        "simplified": {
+          "name": "Gjertrud",
+          "description": "En kvinne som baker lefser, men er så gjerrig at hun ikke vil dele, selv når hun blir bedt pent.",
+          "replacesPortrait": "gjertrud"
+        },
+        "english": {
+          "name": "Gertrud",
+          "description": "A baker in a red cap whose stinginess prevents her from giving even a small flatbread to hungry travelers.",
+          "replacesPortrait": "gertrud"
+        }
+      }
+    },
+    {
+      "slug": "varherre",
+      "promptName": "Our Lord",
+      "look": "A very old, tall and slightly stooped wanderer with a long, gentle face, deep-set, kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long, flowing white beard that reaches his belt. He wears a plain, ankle-length hooded robe of brown homespun tied with a rope and simple sandals over woollen foot-wraps, and leans on a tall, knobbly wooden staff. A humble traveller with no halo.",
+      "portrait": "Background: a dripping spruce forest under grey rain clouds.",
+      "variants": {
+        "simplified": {
+          "name": "Vår Herre",
+          "description": "En vandrer som ber om mat, og som straffer Gjertrud når hun nekter å gi fra seg noe.",
+          "replacesPortrait": "var-herre"
+        },
+        "english": {
+          "name": "Our Lord",
+          "description": "A weary wanderer who asks kindly for a taste of bread and pronounces the punishment when refused.",
+          "replacesPortrait": "our-lord"
+        }
+      }
+    },
+    {
+      "slug": "sankt-peder",
+      "promptName": "St Peter",
+      "look": "A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a knee-length faded green tunic with a leather belt, brown woollen leggings, a short brown hooded cape and worn leather boots, with a small bronze key hanging from his belt. No halo.",
+      "portrait": "Background: the muddy path up to the cottage.",
+      "variants": {
+        "simplified": {
+          "name": "St. Peter",
+          "description": "Følgesvennen som vandrer sammen med Vår Herre og deler sulten og reisen.",
+          "replacesPortrait": "st-peter"
+        },
+        "english": {
+          "name": "Saint Peter",
+          "description": "Our Lord’s companion on the road, sharing the hunger and witnessing Gertrud’s refusal.",
+          "replacesPortrait": "saint-peter"
+        }
+      }
+    },
+    {
+      "slug": "gjertrudsfuglen",
+      "promptName": "the Red-Capped Bird",
+      "look": "A black woodpecker, sooty black all over from beak to tail, its feathers a little ruffled and smudged with soot, and on top of its head a bright-scarlet crest that rises to a small pointed tuft at the back, exactly like a tiny knitted stocking cap. It has a strong, pointed, pale ivory beak, round pale-yellow eyes with a sour, grumpy look, stiff black tail feathers for propping itself against tree trunks and grey clawed feet.",
+      "portrait": "Background: a mossy spruce trunk under a rainy sky.",
+      "variants": {
+        "simplified": {
+          "name": "Gjertrudsfuglen",
+          "description": "Gjertrud etter forvandlingen: en sotsvart fugl med rød lue som hakker i trærne og piper før regn.",
+          "replacesPortrait": "gjertrudsfuglen"
+        },
+        "english": {
+          "name": "The Gertrud-bird",
+          "description": "Gertrud transformed into a soot-black bird with a red cap, condemned to peck for dry food and drink only when it rains.",
+          "replacesPortrait": "gertrud-bird"
+        }
+      }
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "At the edge of a dark, dripping spruce forest, the Red-Capped Bird clings to the trunk of an old spruce and pecks at the bark, her scarlet cap bright against the dark wood and her beak open as if piping. Below her, heavy slate-grey rain clouds roll in over a small turf-roofed log cottage, where a thin curl of smoke rises from the stone chimney. The first raindrops glint on the spruce needles.",
+    "characters": ["gjertrudsfuglen"],
+    "variants": {
+      "simplified": {
+        "caption": "Hun hakker og pikker i trærne etter mat.",
+        "alt": "En svart fugl med knallrød lue på hodet sitter på en granstamme og hakker i barken. Tunge regnskyer driver inn over et lite hus med torvtak nedenfor."
+      },
+      "english": {
+        "caption": "She pecks and taps at the trees for her food.",
+        "alt": "A black bird with a bright red cap clings to a spruce trunk, pecking at the bark. Heavy rain clouds roll in over a small turf-roofed cottage below."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["gjertrud", "varherre", "sankt-peder"],
+      "prompt": "Inside the smoky, firelit cottage, Gjertrud sits on a low stool at the hearth with her rolling pin in her floury hand and stares as the third flatbread on the big round iron griddle spreads and spreads until it covers the griddle from rim to rim. Beside her on the baking board lie two more enormous flatbreads, one on top of the other. On the bench by the door sit Our Lord and St Peter, travel-worn and hungry, watching her quietly.",
+      "variants": {
+        "simplified": {
+          "paragraph": 7,
+          "anchor": "Tredje gangen tok hun en klump som knapt var større enn ei ert.",
+          "caption": "Tredje gangen tok hun en klump som knapt var større enn ei ert.",
+          "alt": "Gjertrud sitter ved grua med kjevla i hånda og ser at lefsa på takka blir altfor stor. Ved siden av ligger to svære lefser til. På benken ved døra sitter Vår Herre og St. Peter og venter."
+        },
+        "english": {
+          "paragraph": 7,
+          "anchor": "The third time she took a scrap no bigger than a pea.",
+          "caption": "The third time she took a scrap no bigger than a pea.",
+          "alt": "Gertrud sits at the hearth with her rolling pin, watching the flatbread on the griddle grow far too big. Two more huge flatbreads lie beside her. On the bench by the door, Our Lord and Saint Peter sit waiting."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["gjertrudsfuglen", "varherre", "sankt-peder"],
+      "prompt": "Inside the firelit cottage, a burst of black soot billows from the hearth as the Red-Capped Bird, sooty black all over except for her scarlet cap, flaps up from the baking board and shoots straight up into the chimney. Our Lord stands calm and stern by the fire with one hand raised. Beside him, St Peter gapes with his mouth wide open and both hands flung up. The empty stool, the rolling pin and three huge flatbreads lie abandoned by the fire.",
+      "variants": {
+        "simplified": {
+          "paragraph": 11,
+          "anchor": "Han hadde knapt sagt det siste ordet før hun ble til Gjertrudsfuglen.",
+          "caption": "Hun fløy rett opp gjennom skorsteinen, så soten føk.",
+          "alt": "En sotsvart fugl med rød lue flyr opp gjennom pipa i en sky av sot. Vår Herre står ved grua med hånda løftet, og St. Peter står og måper."
+        },
+        "english": {
+          "paragraph": 11,
+          "anchor": "The last word was hardly out of his mouth before she turned into the Gertrud-bird.",
+          "caption": "Up she flew, straight up the chimney in a cloud of soot.",
+          "alt": "A soot-black bird with a red cap flies up the chimney in a cloud of soot. Our Lord stands by the hearth with his hand raised, and Saint Peter stares open-mouthed."
+        }
+      }
+    }
+  ]
+}

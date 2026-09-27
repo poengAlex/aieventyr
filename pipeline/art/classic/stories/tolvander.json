@@ -1,0 +1,454 @@
+{
+  "storyId": "tolvander",
+  "variants": {
+    "simplified": {
+      "title": "De tolv villendene",
+      "textFile": "public/content/stories/tolvander/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Twelve Wild Ducks",
+      "textFile": "public/content/stories/tolvander/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, long ago. The royal manors are clusters of dark log buildings with turf roofs, carved gables and small leaded windows around a yard. The Queen's sleigh is small and red, drawn by two brown horses. The thirteen silver spoons are small and exactly alike. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike: pale, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and the caps, shirts and kerchiefs sewn from it are snow-white. The snake pit is an old, dank walled stone yard behind the young King's manor. The three children are two small boys with fair curls and a baby girl with black hair.",
+  "palette": "One long tale through many seasons: a hushed white winter day of fresh snow under a low, pale sun at the start; mossy spruce-green forest and warm firelight in the brothers' cabin; the bog at sunrise, a sea of white bog cotton in thin mist and pale-gold light; cool grey stone and candlelight at the young King's manor; a smoky orange pyre glow under a slate-blue dusk; and a clear, fresh spring morning at the end. Accents of snow white, rose red and raven black.",
+  "cast": [
+    {
+      "slug": "snohvit-og-rosenrod",
+      "promptName": "the Maiden",
+      "look": "A slender young woman of about twenty with snow-pale skin, rose-red cheeks and lips, a soft oval face, a small straight nose and large dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a strip of white linen. She wears a plain dark-teal homespun wool dress with a deep pocket, where the handle of a small silver spoon peeks out, a long grey wool shawl and thin, worn brown leather shoes.",
+      "portrait": "Background: the White Bog at sunrise, white with bog cotton.",
+      "variants": {
+        "simplified": {
+          "name": "Snøhvit og Rosenrød",
+          "description": "Prinsessen som drar ut for å finne sine tolv brødre, og som må holde helt munn mens hun arbeider for å frelse dem og senere seg selv.",
+          "replacesPortrait": "snohvit-og-rosenrod"
+        },
+        "english": {
+          "name": "Snow-White and Rose-Red",
+          "description": "A princess born as white as snow and as red as blood, who sets out to save her twelve brothers and endures years of silent work and false accusations without giving up.",
+          "replacesPortrait": "snow-white-and-rose-red"
+        }
+      }
+    },
+    {
+      "slug": "snohvit-og-rosenrod-dronning",
+      "promptName": "the Maiden Queen",
+      "look": "A slender young queen of about twenty-four with snow-pale skin, rose-red cheeks and lips, a soft oval face, a small straight nose and large dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder under a slender silver circlet. She wears a long, plain gown of white linen embroidered with small rose-red roses at the hem and cuffs, a rose-red girdle and soft grey leather slippers.",
+      "portrait": "Background: a candlelit leaded window in the young King's manor.",
+      "variants": {
+        "simplified": {
+          "name": "Snøhvit og Rosenrød som dronning",
+          "description": "Snøhvit og Rosenrød etter at hun har giftet seg med den unge kongen. Hun syr på skjortene hver dag og kan ikke si et ord, selv når den gamle dronningen lyver om henne."
+        },
+        "english": {
+          "name": "Snow-White and Rose-Red as Queen",
+          "description": "Snow-White and Rose-Red after she marries the young King. She sews on the shirts every day and cannot say a word, not even when the old Queen lies about her."
+        }
+      }
+    },
+    {
+      "slug": "dronningen",
+      "promptName": "the Queen",
+      "look": "A warm, motherly queen of about forty-five with a round face, a soft double chin, a small snub nose, kind hazel eyes, rosy cheeks and wavy chestnut hair going grey at the temples, pinned up under a small gold crown. She wears a long plum-purple wool cloak lined and trimmed with thick white fur over a plum gown, white fur mittens and fur-lined boots.",
+      "portrait": "Background: snowy fields and a grey split-rail fence.",
+      "variants": {
+        "simplified": {
+          "name": "Dronningen",
+          "description": "Moren til de tolv prinsene og Snøhvit og Rosenrød. Hun ønsket seg en datter så hvit som snø og så rød som blod, og måtte gi bort sønnene sine for å få henne."
+        },
+        "english": {
+          "name": "The Queen",
+          "description": "Mother of the twelve princes and of Snow-White and Rose-Red. She wished for a daughter as white as snow and as red as blood, and gave away her sons to have her."
+        }
+      }
+    },
+    {
+      "slug": "trollkjerringa",
+      "promptName": "the Troll Hag",
+      "look": "A short, stout old troll woman, no taller than a fence rail, with lumpy, sandy-beige skin like weathered sandstone, a huge knobbly nose shaped like a big potato, small beady black eyes, a wide crooked grin with three teeth and an enormous tangle of black-and-grey hair like a crow's nest, stuck with twigs and one black feather. A thin cow's tail with a tuft pokes out under her patched grey skirt, and she wears a ragged moss-green shawl and big grey felt boots.",
+      "portrait": "Background: a grey split-rail fence in fresh snow.",
+      "variants": {
+        "simplified": {
+          "name": "Trollkjerringa",
+          "description": "Ei trollkjerring som dukker opp i snøen og lover dronningen en datter, men som vil ha de tolv sønnene hennes i bytte."
+        },
+        "english": {
+          "name": "The Troll-Wife",
+          "description": "A supernatural bargain-maker who promises the queen a daughter and claims the twelve sons once the child is christened.",
+          "replacesPortrait": "troll-wife"
+        }
+      }
+    },
+    {
+      "slug": "den-unge-kongen",
+      "promptName": "the Young King",
+      "look": "A tall, slim young king of about twenty-six, clean-shaven, with a long, friendly face, a straight nose, warm brown eyes, a wide smile and fair, straight hair tied back at the neck with a dark-blue ribbon, a thin gold circlet on his head. He wears a sky-blue wool coat trimmed with white braid, a broad brown leather belt, fawn breeches, soft grey leather boots and a short grey riding cloak.",
+      "portrait": "Background: the yard of his royal manor.",
+      "variants": {
+        "simplified": {
+          "name": "Den unge kongen",
+          "description": "Landets konge som finner henne på myra, gifter seg med henne, og som til slutt forstår sannheten når brødrene hennes kommer tilbake.",
+          "replacesPortrait": "den-unge-kongen"
+        },
+        "english": {
+          "name": "The Young King",
+          "description": "A hunting king who falls in love with the silent maiden, marries her, and is misled by blood and lies until the truth is spoken and the children are found alive.",
+          "replacesPortrait": "young-king"
+        }
+      }
+    },
+    {
+      "slug": "kongens-stemor",
+      "promptName": "the Stepmother",
+      "look": "A bony, very upright old dowager queen with a long, pointed chin, a small hooked nose, narrow darting black eyes, thin lips and a chalk-pale face with two hard spots of rouge. Her steel-grey hair is piled high in a tall coil stuck with jewelled pins. She wears a stiff black wool gown shot with silver thread, a high collar of grey lace, rings on every finger and a small silver hand mirror on a chain at her waist.",
+      "portrait": "Background: a dim, candlelit passage in the young King's manor.",
+      "variants": {
+        "simplified": {
+          "name": "Kongens stemor (den gamle dronningen)",
+          "description": "Misunnelig og hensynsløs, stjeler dronningens barn og legger skylden på henne for å få henne dømt til døden.",
+          "replacesPortrait": "kongens-stemor"
+        },
+        "english": {
+          "name": "The Old Queen (Stepmother)",
+          "description": "The king’s jealous stepmother who frames the young queen by stealing her children and smearing blood, driving the court toward a wrongful burning.",
+          "replacesPortrait": "old-queen-stepmother"
+        }
+      }
+    },
+    {
+      "slug": "den-yngste-broren",
+      "promptName": "the Youngest Brother",
+      "look": "A slim young man of about twenty-three, the smallest of twelve brothers, with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a faded bottle-green wool cap, a worn chestnut-brown wool tunic with a white linen collar and a rope belt, patched grey breeches and soft grey leather boots.",
+      "portrait": "Background: the firelit Brothers' Cabin.",
+      "variants": {
+        "simplified": {
+          "name": "Den yngste broren",
+          "description": "Den yngste av de tolv brødrene, som er villender om dagen og prinser om natta. Han forsvarer søsteren sin da den eldste vil drepe henne.",
+          "replacesPortrait": "de-tolv-brodrene"
+        },
+        "english": {
+          "name": "The Youngest Brother",
+          "description": "The youngest of the twelve princes, wild ducks by day and princes by night, who speaks up for his sister when the eldest wants her killed.",
+          "replacesPortrait": "twelve-princes-wild-ducks"
+        }
+      }
+    },
+    {
+      "slug": "den-yngste-broren-vinge",
+      "promptName": "the Winged Brother",
+      "look": "A slim young man of about twenty-six with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a new snow-white cap, shirt and kerchief of soft bog-cotton cloth, grey breeches and soft grey leather boots. In place of his left arm he has a large wild duck's wing of grey-brown feathers with a shiny blue-violet patch edged in white.",
+      "portrait": "Background: the yard of a royal manor in morning light.",
+      "variants": {
+        "simplified": {
+          "name": "Den yngste broren med andevingen",
+          "description": "Den yngste broren når trolldommen er brutt. Skjorta hans fikk aldri venstre erme, så han har en andevinge der han skulle hatt venstre arm."
+        },
+        "english": {
+          "name": "The Youngest Brother with the Duck's Wing",
+          "description": "The youngest brother once the spell is broken. His shirt never got its left sleeve, so he has a duck's wing where his left arm should be."
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "hytta",
+      "name": "the Brothers' Cabin",
+      "look": "The inside of a small log cabin deep in a great spruce forest: walls of round, dark-honey logs, twelve narrow box beds built into the walls in two tiers of six, twelve wooden pegs by the plank door, a long plank table with twelve chairs, a stone corner hearth with an iron pot hanging over the fire, a worn plank floor and one small window looking out on tall spruces."
+    },
+    {
+      "slug": "myra",
+      "name": "the White Bog",
+      "look": "A vast, flat forest bog stretching as far as the eye can see, so thick with nodding white tufts of bog cotton that it looks covered in snow, with dark pools of water, reeds, tussocks of moss and heather, and a few stunted pines. A low ridge with dark spruce forest rims the far side, where the sun comes up."
+    }
+  ],
+  "cover": {
+    "prompt": "Sunrise on the White Bog, the first low light catching every tuft of bog cotton. The Maiden stands knee-deep among the white tufts with her arms full of bog cotton and her lips pressed together in silence, and looks up as twelve wild ducks fly low over her head in a long line against the pale-gold sky. A full sack rests on a tussock beside her.",
+    "characters": ["snohvit-og-rosenrod"],
+    "places": ["myra"],
+    "variants": {
+      "simplified": {
+        "caption": "Snøhvit og Rosenrød sanker myrdun, og hun sier ikke et ord.",
+        "alt": "En ung kvinne med kullsvart hår står på en myr full av hvit myrdun med armene fulle. Over henne flyr tolv villender i soloppgangen."
+      },
+      "english": {
+        "caption": "Snow-White and Rose-Red gathers bog-cotton without a word.",
+        "alt": "A young woman with raven-black hair stands in a bog white with bog-cotton, her arms full. Above her, twelve wild ducks fly past in the sunrise."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["dronningen", "trollkjerringa"],
+      "prompt": "A snowy country road on a still winter day, the fresh snow sparkling under a low, pale sun. The Queen's small red sleigh waits on the road, its two horses steaming in the cold. The Queen stands at a grey split-rail fence holding a white linen cloth to her nose, and starts back in fright: the Troll Hag has suddenly appeared right at her side in the snow, leaning in close to her face with a sly, crooked grin.",
+      "variants": {
+        "simplified": {
+          "paragraph": 2,
+          "anchor": "Det var nesten ikke sagt før det sto ei trollkjerring foran henne.",
+          "caption": "Det var nesten ikke sagt før det sto ei trollkjerring foran henne.",
+          "alt": "Dronningen står ved et gjerde i nysnøen og holder et tøystykke mot nesen. Tett inntil henne står ei trollkjerring med potetnese og floket hår og lener seg fram med et lurt glis."
+        },
+        "english": {
+          "paragraph": 2,
+          "anchor": "The words were hardly out of her mouth before a troll-wife stood at her elbow",
+          "caption": "The words were hardly out of her mouth before a troll-wife stood at her elbow.",
+          "alt": "The Queen stands by a fence in fresh snow, holding a cloth to her nose. A troll-wife with a potato nose and a nest of tangled hair has appeared at her elbow, leaning in close with a sly grin."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["dronningen"],
+      "prompt": "The yard of the royal manor on a raw, grey day, with frost on the turf roofs. On the steps of the hall, the Queen holds the newly christened baby princess in a long white christening gown and stretches out her free hand in horror: twelve wild ducks are flapping up from the yard and flying off over the roofs in a long, ragged line.",
+      "variants": {
+        "simplified": {
+          "paragraph": 5,
+          "anchor": "Rett etter at prinsessa var døpt, ble de tolv prinsene til tolv villender",
+          "caption": "Rett etter dåpen ble de tolv prinsene til tolv villender og fløy sin vei.",
+          "alt": "Dronningen står på trappa til kongsgården med den nydøpte prinsessa i armene og strekker ut hånden. Tolv villender flyr bort over takene."
+        },
+        "english": {
+          "paragraph": 5,
+          "anchor": "The moment the princess had been christened, the twelve princes turned into twelve wild ducks",
+          "caption": "The moment the princess was christened, the twelve princes turned into wild ducks.",
+          "alt": "The Queen stands on the steps of the manor with the newly christened princess in her arms, reaching out a hand. Twelve wild ducks fly away over the roofs."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["snohvit-og-rosenrod", "dronningen"],
+      "prompt": "Early morning at the gate of the royal manor, the fields around it bare and wet with melting snow. The Maiden sets off down the road with a small bundle over her shoulder and her grey shawl round her, and looks back one last time. In the gateway the Queen, her chestnut hair gone grey now, weeps and stretches out both hands to her, pleading. The empty road winds away towards dark, distant forest.",
+      "variants": {
+        "simplified": {
+          "paragraph": 12,
+          "anchor": "Fra den dagen hadde prinsessa ingen ro på seg.",
+          "caption": "Dronningen gråt og ba, men det hjalp ikke.",
+          "alt": "Prinsessa går ut av porten til kongsgården med en liten bylt på skulderen og ser seg tilbake. I porten står dronningen og gråter og strekker armene etter henne."
+        },
+        "english": {
+          "paragraph": 12,
+          "anchor": "From that day on the princess had no peace.",
+          "caption": "The Queen wept and pleaded, but it was no use.",
+          "alt": "The princess walks out of the manor gate with a small bundle over her shoulder, looking back. In the gateway the Queen weeps and reaches out after her."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["snohvit-og-rosenrod"],
+      "places": ["hytta"],
+      "prompt": "Inside the Brothers' Cabin by daylight, empty and silent. The Maiden, dusty and travel-worn, stands at the long table and holds up her own small silver spoon beside the twelve silver spoons lying there in a row, all exactly alike. Around her stand twelve beds and twelve chairs. Her tired face lights up with joy for the first time in years. Soft light falls through the small window.",
+      "variants": {
+        "simplified": {
+          "paragraph": 14,
+          "anchor": "Det var ingen hjemme.",
+          "caption": "Tolv senger, tolv stoler og tolv sølvskjeer, akkurat like den hun hadde i lomma.",
+          "alt": "Prinsessa står ved bordet i en tom tømmerhytte og holder sølvskjeen sin ved siden av tolv like sølvskjeer. Rundt henne står tolv senger og tolv stoler."
+        },
+        "english": {
+          "paragraph": 14,
+          "anchor": "There was nobody home.",
+          "caption": "Twelve beds, twelve chairs and twelve silver spoons, just like the one in her pocket.",
+          "alt": "The princess stands at the table in an empty log cabin, holding her silver spoon beside twelve spoons exactly like it. Around her stand twelve beds and twelve chairs."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["den-yngste-broren", "snohvit-og-rosenrod"],
+      "places": ["hytta"],
+      "prompt": "Evening in the Brothers' Cabin: a fire crackles in the hearth, the floor is swept, the table is laid and a pot of food steams. The door has flown open onto the dark forest, and the last three wild ducks are flying in over the threshold, while nine young men already stand in the room, just turned from ducks, the Youngest Brother among them. Under one of the lower beds, the Maiden lies hidden in the shadow, only her wide eyes showing.",
+      "variants": {
+        "simplified": {
+          "paragraph": 16,
+          "anchor": "Hun hadde knapt lagt seg før det suste og hvein i lufta",
+          "caption": "Inn kom alle de tolv villendene. Over dørstokken ble de til prinser.",
+          "alt": "Døra står åpen, og tre villender flyr inn over dørstokken. Ni unge menn står allerede i stua, der maten står klar. Under en av sengene ligger prinsessa gjemt."
+        },
+        "english": {
+          "paragraph": 16,
+          "anchor": "She had hardly lain down when there came a rushing and a whistling in the air",
+          "caption": "The moment they were over the threshold, they turned into princes.",
+          "alt": "The door stands open and three wild ducks fly in over the threshold. Nine young men already stand in the room, where supper is ready. The princess lies hidden under a bed."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["snohvit-og-rosenrod", "den-yngste-broren"],
+      "places": ["hytta"],
+      "prompt": "Candlelit night in the Brothers' Cabin. Two brothers have just dragged the Maiden out from under one of the beds, and she kneels on the floor with her hands clasped, weeping and pleading for her life. The eldest brother, the tallest, with a short black beard, stands over her with folded arms and a hard face, while the Youngest Brother steps between them with one hand raised. Eight more brothers crowd round, staring.",
+      "variants": {
+        "simplified": {
+          "paragraph": 23,
+          "anchor": "Så begynte de å lete etter henne, både høyt og lavt.",
+          "caption": "Under senga til den yngste fant de henne og dro henne fram.",
+          "alt": "To brødre har funnet prinsessa under en seng og dratt henne fram. Hun står på kne og ber for livet. Den eldste står over henne med armene i kors, mens den yngste stiller seg imellom."
+        },
+        "english": {
+          "paragraph": 23,
+          "anchor": "So they searched for her high and low, and at last they looked under the beds.",
+          "caption": "Under the youngest brother’s bed they found her, and they dragged her out.",
+          "alt": "Two brothers have dragged the princess out from under a bed. She kneels on the floor, begging for her life. The eldest stands over her with folded arms, while the youngest steps in between."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["snohvit-og-rosenrod", "den-yngste-broren"],
+      "places": ["myra"],
+      "prompt": "Sunrise on the White Bog, every tuft of bog cotton catching the first light. The twelve brothers stand around the Maiden in a half-circle. The eldest, the tallest one with a short black beard, hands her an empty sack and points out across the bog; the Youngest Brother only looks at her. The Maiden holds the sack tight against her chest and nods, her lips pressed together.",
+      "variants": {
+        "simplified": {
+          "paragraph": 32,
+          "anchor": "Brødrene sto rundt henne i en halvsirkel.",
+          "caption": "Hun holdt hardt i sekken og nikket. Hun sa ikke et ord.",
+          "alt": "Tolv brødre står i en halvsirkel rundt prinsessa på en myr full av hvit myrdun i soloppgangen. Den eldste gir henne en sekk og peker, og hun holder sekken tett inntil seg og nikker."
+        },
+        "english": {
+          "paragraph": 32,
+          "anchor": "The brothers stood around her in a half-circle.",
+          "caption": "She held the sack tight and nodded. She didn’t say a word.",
+          "alt": "Twelve brothers stand in a half-circle around the princess on a bog white with bog-cotton at sunrise. The eldest hands her a sack and points, and she holds it close and nods."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["den-unge-kongen", "snohvit-og-rosenrod"],
+      "places": ["myra"],
+      "prompt": "A summer morning on the White Bog. The Young King, out hunting with a bow on his back, has reined in his tall grey horse at the edge of the bog and leans forward in wonder. The Maiden stands knee-deep among the reeds with her arms full of bog cotton and looks up at him without a word. Two full sacks lie on a tussock beside her. Behind him, two huntsmen on horseback wait with a pair of hounds.",
+      "variants": {
+        "simplified": {
+          "paragraph": 35,
+          "anchor": "Men så hendte det en dag hun var ute på myra og sanket myrdun",
+          "caption": "Hvem kunne vel den vakre jomfrua være, som gikk der ute på myra og sanket myrdun?",
+          "alt": "Den unge kongen sitter på hesten sin i kanten av myra og ser undrende på prinsessa. Hun står med armene fulle av myrdun og svarer ikke. Bak ham venter to jegere med hunder."
+        },
+        "english": {
+          "paragraph": 35,
+          "anchor": "But then one day, when she was out on the bog gathering bog-cotton",
+          "caption": "Who could this lovely girl be, wading about the bog all by herself?",
+          "alt": "The young King sits on his horse at the edge of the bog, looking at the princess in wonder. She stands knee-deep among the reeds with her arms full of bog-cotton and does not answer. Two huntsmen wait behind him."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["snohvit-og-rosenrod-dronning", "kongens-stemor"],
+      "prompt": "Evening in a quiet chamber of the royal manor. The Maiden Queen sits on a bench by a small leaded window, sewing a snow-white shirt by candlelight, with a basket of finished white caps, shirts and kerchiefs at her feet. Behind her, in the half-open doorway, the Stepmother stands watching her with narrowed, jealous eyes, one ringed hand on the door frame.",
+      "variants": {
+        "simplified": {
+          "paragraph": 39,
+          "anchor": "Kongen brydde seg ikke om hva hun sa.",
+          "caption": "Men skjortene glemte hun ikke for det. Hun sydde på dem hver eneste dag.",
+          "alt": "Den unge dronningen sitter ved et vindu og syr på en hvit skjorte i levende lys. Ved føttene står en kurv med ferdige luer og skjorter. I døra står den gamle dronningen og ser misunnelig på henne."
+        },
+        "english": {
+          "paragraph": 39,
+          "anchor": "The King paid her no heed.",
+          "caption": "But she didn’t forget the shirts for all that. She sewed on them every single day.",
+          "alt": "The young Queen sits by a window sewing a white shirt by candlelight, with a basket of finished caps and shirts at her feet. In the doorway the old Queen watches her with jealous, narrowed eyes."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "characters": ["snohvit-og-rosenrod-dronning", "kongens-stemor"],
+      "prompt": "Deep night in the royal bedchamber, lit by a thin shaft of moonlight. The Maiden Queen lies fast asleep in a great carved bed. Beside it stands a small wooden cradle with a sleeping baby wrapped in white. The Stepmother creeps in on tiptoe, shielding a candle with one hand, and bends over the cradle with her other ringed hand reaching in, her face lit from below.",
+      "variants": {
+        "simplified": {
+          "paragraph": 45,
+          "anchor": "Før året var omme, fikk hun en sønn til, og med ham gikk det akkurat likedan.",
+          "caption": "Den gamle dronningen listet seg inn om natta.",
+          "alt": "Den unge dronningen sover i en stor seng i måneskinnet. Den gamle dronningen lister seg inn med et lys og bøyer seg over vugga der den lille prinsen ligger."
+        },
+        "english": {
+          "paragraph": 45,
+          "anchor": "Before the year was out, she had another son, and it went exactly the same way.",
+          "caption": "The old Queen crept in by night, while the young Queen slept.",
+          "alt": "The young Queen sleeps in a great bed in the moonlight. The old Queen creeps in with a candle and bends over the cradle where the little prince lies."
+        }
+      }
+    },
+    {
+      "id": "11",
+      "characters": ["snohvit-og-rosenrod-dronning"],
+      "prompt": "Dusk in the open yard of the royal manor. A tall pyre blazes in the middle, and around it twelve boards lie in a ring, each with a folded snow-white cap, shirt and kerchief; the last shirt has only one sleeve. Twelve wild ducks swoop down through the smoke and sparks, each snatching up its bundle of clothes in its beak. The Maiden Queen kneels beside the ring between two guards and looks up with sudden hope.",
+      "variants": {
+        "simplified": {
+          "paragraph": 51,
+          "anchor": "Hun hadde knapt lagt den på plass før det suste og bruste i lufta.",
+          "caption": "Tolv villender stupte ned gjennom røyken og tok klærne sine i nebbet.",
+          "alt": "Et bål brenner i skumringen. Rundt det ligger tolv fjøler med hvite luer, skjorter og tørklær. Tolv villender stuper ned gjennom røyken og tar klærne i nebbet, mens den unge dronningen kneler mellom to vakter."
+        },
+        "english": {
+          "paragraph": 51,
+          "anchor": "No sooner had she done this than there came a rushing and a roaring in the air",
+          "caption": "Twelve wild ducks swooped down through the smoke and sparks.",
+          "alt": "A pyre blazes at dusk, ringed by twelve boards with white caps, shirts and kerchiefs. Twelve wild ducks swoop down through the smoke to snatch up the clothes, while the young Queen kneels between two guards."
+        }
+      }
+    },
+    {
+      "id": "12",
+      "characters": ["den-yngste-broren-vinge", "snohvit-og-rosenrod-dronning", "den-unge-kongen", "kongens-stemor"],
+      "prompt": "In the smoky yard of the royal manor at dusk, the pyre burning low, twelve princes come riding up on twelve horses, tall and handsome, all in new snow-white caps, shirts and kerchiefs. At their head rides the Winged Brother, a large wild duck's wing where his left arm should be. The Maiden Queen, still between two guards, gazes up at them with shining eyes; the Young King turns in astonishment, and beside him the Stepmother freezes with her pointing hand still raised.",
+      "variants": {
+        "simplified": {
+          "paragraph": 55,
+          "anchor": "I det samme kom tolv prinser ridende",
+          "caption": "Men den yngste hadde en andevinge der han skulle hatt venstre arm.",
+          "alt": "Tolv prinser i nye hvite skjorter og luer kommer ridende til bålet. Den yngste rir først og har en andevinge i stedet for venstre arm. Den unge dronningen ser opp på dem, kongen snur seg forbløffet, og stemoren står som frosset."
+        },
+        "english": {
+          "paragraph": 56,
+          "anchor": "At that very moment twelve princes came riding up",
+          "caption": "But the youngest had a duck’s wing where his left arm should have been.",
+          "alt": "Twelve princes in new white shirts and caps ride up to the pyre. The youngest rides first, with a duck's wing in place of his left arm. The young Queen gazes up at them, the King turns in astonishment, and the old Queen freezes."
+        }
+      }
+    },
+    {
+      "id": "13",
+      "characters": ["den-unge-kongen", "den-yngste-broren-vinge", "snohvit-og-rosenrod-dronning"],
+      "prompt": "Behind the royal manor in the last grey light, the Young King, the Winged Brother and the Maiden Queen, weeping with joy, stand at the gate of an old, dank walled stone yard, with eleven more brothers in white crowding behind them. Inside, on damp mossy flagstones among grass snakes and fat toads, three small children lie playing and laughing: two little boys with fair curls and a baby girl with black hair, one boy holding up a toad.",
+      "variants": {
+        "simplified": {
+          "paragraph": 60,
+          "anchor": "Ormegården var en gammel steingård bak kongsgården",
+          "caption": "Der lå de tre barna og lekte med ormene og paddene.",
+          "alt": "Kongen, broren med andevingen og den unge dronningen står i porten til en gammel, fuktig steingård. Der inne ligger tre små barn og leker med ormer og padder, og dronningen gråter av glede."
+        },
+        "english": {
+          "paragraph": 61,
+          "anchor": "The princes took the King and led him to the snake pit, and everyone followed.",
+          "caption": "And there lay the three children, playing with the snakes and the toads.",
+          "alt": "The King, the brother with the duck's wing and the young Queen stand at the gate of an old, damp stone yard. Inside, three small children play happily with snakes and toads, and the young Queen weeps with joy."
+        }
+      }
+    },
+    {
+      "id": "14",
+      "characters": ["dronningen", "snohvit-og-rosenrod-dronning", "den-unge-kongen", "den-yngste-broren-vinge"],
+      "prompt": "A bright spring morning at the old royal manor, the birches in pale new leaf. The Queen, an old woman now with white hair, hurries down the steps with open arms to embrace the Maiden Queen. Beside them the Young King holds the baby girl, with two small boys with fair curls at his side, and behind them the Winged Brother and eleven more brothers in white lead their horses in through the gate. In the doorway waits her father, a thin old king with a short grey beard and a dark-green robe.",
+      "variants": {
+        "simplified": {
+          "paragraph": 66,
+          "anchor": "Men Snøhvit og Rosenrød tok med seg kongen og barna",
+          "caption": "Og det ble fryd og glede over hele kongeriket.",
+          "alt": "Dronningen, som nå er gammel og hvithåret, skynder seg ned trappa og klemmer datteren sin. Den unge kongen står ved siden av med de tre barna, og bak dem leder de tolv brødrene hestene inn gjennom porten."
+        },
+        "english": {
+          "paragraph": 67,
+          "anchor": "But Snow-White and Rose-Red took the King and her children",
+          "caption": "And there was joy and gladness throughout the kingdom.",
+          "alt": "Her mother, the Queen, white-haired now, hurries down the steps to embrace her daughter. The young King stands beside them with the three children, and behind them the twelve brothers lead their horses through the gate."
+        }
+      }
+    }
+  ]
+}

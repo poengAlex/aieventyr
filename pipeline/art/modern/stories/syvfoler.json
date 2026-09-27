@@ -1,0 +1,207 @@
+{
+  "storyId": "syvfoler",
+  "title": "De syv føllene",
+  "textFile": "public/content/stories/syvfoler/modern/story.txt",
+  "world": "Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.",
+  "palette": "Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "promptName": "Askeladden",
+      "replacesPortrait": "askeladden",
+      "description": "Yngstesønnen som alle undervurderer, men som nekter å gi etter for lettvinte snarveier og følger sporene helt til han kan bryte trolldommen.",
+      "look": "A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.",
+      "portrait": "Background: purple heather and violet mountains in the midsummer night."
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "promptName": "the King",
+      "replacesPortrait": "kongen",
+      "description": "En streng, mistenksom hersker som setter brutale vilkår for å teste hvem som virkelig kan mestre de sju føllene og forstå hemmeligheten deres.",
+      "look": "A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark charcoal overcoat over a dark-red roll-neck jumper, charcoal trousers, polished black shoes and a heavy gold signet ring.",
+      "portrait": "Background: the stone steps of the royal estate, with a guard at the door."
+    },
+    {
+      "slug": "den-gamle-strikkekona",
+      "name": "Den gamle strikkekona",
+      "promptName": "the Knitting Woman",
+      "replacesPortrait": "den-gamle-strikkekona",
+      "description": "En krokrygget fristerinne ved bergsprekken som lokker med trøst og hvile for å få gjeterne til å svikte.",
+      "look": "A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She wears many layered cardigans and scarves in faded blue, brown, plum and grey over a long dark skirt, fingerless mittens and worn felt boots, and she is always knitting something very long and grey.",
+      "portrait": "Background: the narrow rock cleft by the mountain path."
+    },
+    {
+      "slug": "det-yngste-follet",
+      "name": "Det yngste føllet",
+      "promptName": "the Youngest Foal",
+      "replacesPortrait": "det-yngste-follet",
+      "description": "Askeladdens nøkkelallierte blant de forheksede føllene, den som snakker og leder ham til sverdet, kirka og veien som kan gjøre dem til prinser igjen.",
+      "look": "A small, slender foal, the youngest and smallest of seven, with long, knobbly legs, a glossy light-chestnut coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark eyes with a clever, far too human look and a neat white star on his forehead.",
+      "portrait": "Background: a steep green valley side with waterfalls like white threads."
+    },
+    {
+      "slug": "den-yngste-prinsen",
+      "name": "Den yngste prinsen",
+      "promptName": "the Youngest Prince",
+      "description": "Det yngste føllet slik han egentlig er: den yngste av de sju prinsene og lillebror til prinsessa, som gnir seg i nakken når trolldommen slipper.",
+      "look": "A slim young man of about seventeen, the youngest of seven brothers, with a round, freckled face, big dark eyes, a huge beaming smile and tousled strawberry-blonde hair. He wears shining white clothes with gold trim: a white shirt embroidered with gold, with a small white star on the chest, a short white jacket, white trousers and white leather boots.",
+      "portrait": "Background: the stable with skylights, filled with warm light."
+    },
+    {
+      "slug": "prinsessa",
+      "name": "Prinsessa",
+      "promptName": "the Princess",
+      "replacesPortrait": "prinsessa",
+      "description": "Kongens datter, som nekter å bli gitt bort som premie, men gjerne blir sittende og snakke med Askeladden til sola står opp.",
+      "look": "A cheerful young woman of about twenty with a round, freckled face, warm brown eyes, a wide, amused smile and a mass of bouncy strawberry-blonde curls falling past her shoulders. She wears a pale-green shirt dress with a white collar, a cropped denim jacket, white trainers and small gold earrings, each set with one green stone.",
+      "portrait": "Background: a second-floor window of the castle of stone and glass."
+    },
+    {
+      "slug": "eldste-bror",
+      "name": "Den eldste broren",
+      "promptName": "the Eldest Brother",
+      "description": "Askeladdens storebror, som trodde at det med de røde remmene var et uttrykk, og som sover bort hele dagen med hodet i fanget til strikkekona.",
+      "look": "A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked flannel shirt with rolled sleeves, baggy brown work trousers held up by a single braces strap, a wide, frayed straw hat and scuffed white trainers.",
+      "portrait": "Background: the run-down house where the gravel road ends."
+    }
+  ],
+  "places": [
+    {
+      "slug": "kongsgarden",
+      "name": "the Royal Estate",
+      "look": "A castle of grey stone and glass at the bottom of a green valley, with broad stone front steps, a guarded gate with a small guard hut, a courtyard the size of a football pitch covered in pale gravel, and a long stable building with skylights in its roof. Steep green valley sides with birch woods and thin waterfalls rise behind it."
+    }
+  ],
+  "cover": {
+    "prompt": "At dawn on a narrow mountain path along a valley side so steep that waterfalls hang like white threads on both sides, Askeladden, hood up, clings to the back of the Youngest Foal as it races along behind the six other chestnut foals. His backpack bounces and his face is set and determined. Low golden sun, violet mountains far beyond.",
+    "characters": ["askeladden", "det-yngste-follet"],
+    "caption": "Over berg og dal, langs lier så bratte at fossene hang som hvite tråder.",
+    "alt": "Askeladden klamrer seg til ryggen på et lite føll som galopperer langs en smal sti i ei bratt li med fosser. Foran dem løper seks andre føll."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 1,
+      "anchor": "Nede i dalen lå kongsgården: et slott av grå stein og glass",
+      "characters": ["kongen"],
+      "places": ["kongsgarden"],
+      "prompt": "Early morning in the vast gravel courtyard of the Royal Estate. The stable doors stand open, and seven chestnut foals are racing away up the steep green hillside, the smallest with a white star on his forehead. The King stands in the middle of the courtyard holding a drone remote control, staring grimly after a small white drone that buzzes away over the ridge behind the foals, getting smaller and smaller.",
+      "caption": "Kongen hadde sendt opp en drone. Den kom aldri tilbake.",
+      "alt": "Kongen står på det store tunet med en fjernkontroll og ser en liten drone forsvinne over åsen etter sju føll som løper oppover lia."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "I grålysningen åpnet stallmesteren boksene",
+      "characters": ["eldste-bror"],
+      "places": ["kongsgarden"],
+      "prompt": "First grey light at the Royal Estate. The seven chestnut foals have exploded out of the stable and are already across the gravel courtyard and halfway up the hillside, while a stable master in a green fleece holds the stable door. In the foreground the Eldest Brother hops on one foot, still trying to pull on his second trainer, his straw hat tumbling off and his mouth open in dismay.",
+      "caption": "Føllene var oppe i lia før gutten hadde fått på seg den andre skoen.",
+      "alt": "Sju føll suser ut av stallen og oppover lia i grålysningen. Den eldste broren hopper på ett bein og prøver å få på seg den andre skoen."
+    },
+    {
+      "id": "03",
+      "paragraph": 11,
+      "anchor": "Gutten visste ikke hva lyske var.",
+      "characters": ["den-gamle-strikkekona", "eldste-bror"],
+      "prompt": "At a narrow cleft by a mountain path in warm midday sun, the Knitting Woman sits on her low stone with a long, grey piece of knitting trailing down beside her, running her fingers through the hair of the Eldest Brother. He lies with his head in her lap, fast asleep with a blissful smile, his straw hat on his chest. Far off in the scrub, seven foals disappear like shadows.",
+      "caption": "Borte i krattet forsvant føllene som skygger. Så sov han.",
+      "alt": "Den eldste broren sover med hodet i fanget til strikkekona ved bergsprekken, og hun stryker ham i håret. Langt borte forsvinner føllene i krattet."
+    },
+    {
+      "id": "04",
+      "paragraph": 20,
+      "anchor": "Kongen så på mosen.",
+      "characters": ["kongen", "eldste-bror"],
+      "places": ["kongsgarden"],
+      "prompt": "Dusk in the courtyard of the Royal Estate, the castle windows glowing. The Eldest Brother holds out a handful of moss and a bottle of brook water with a hopeful grin. The King, in his long dark coat, looks at the moss, then at the boy, for a long moment, and gives a small nod over his shoulder to two guards in dark uniforms, who step forward from beside the guard hut.",
+      "caption": "Kongen så lenge på gutten. Så nikket han til vaktene.",
+      "alt": "Den eldste broren holder fram mose og ei flaske bekkevann på tunet. Kongen ser lenge på ham og nikker til to vakter som kommer fram ved vaktbua."
+    },
+    {
+      "id": "05",
+      "paragraph": 30,
+      "anchor": "Brødrene lå på magen på hver sin benk og lo, forsiktig.",
+      "characters": ["askeladden", "eldste-bror"],
+      "prompt": "The small, shabby living room of the family's house, by the wood stove. Askeladden has just got up from the ashes, a poking stick still in his hand and his calm face set. On two benches along the wall, the Eldest Brother and the middle brother, a short, stocky lad with a round pink face and short, spiky black hair, lie carefully on their stomachs, both laughing at him very cautiously and wincing a little.",
+      "caption": "Brødrene lå på magen på hver sin benk og lo, forsiktig.",
+      "alt": "Askeladden har reist seg fra vedovnen. På hver sin benk ligger brødrene på magen og ler forsiktig av ham."
+    },
+    {
+      "id": "06",
+      "paragraph": 42,
+      "anchor": "Oppe i et vindu i andre etasje var det noen som lo.",
+      "characters": ["askeladden", "kongen", "prinsessa"],
+      "places": ["kongsgarden"],
+      "prompt": "Dusk at the Royal Estate, seen from the courtyard. The King stands on the stone steps in his long dark coat, scowling down at Askeladden, who stands below with his backpack on and a calm, cheeky smile. High above them, in a lit second-floor window of the castle, the Princess leans on the sill, laughing out loud.",
+      "caption": "«Jeg vil heller ha prinsessa», sa Askeladden. Oppe i et vindu var det noen som lo.",
+      "alt": "Kongen står på trappa og skuler ned på Askeladden. Høyt oppe i et opplyst vindu i andre etasje står prinsessa og ler."
+    },
+    {
+      "id": "07",
+      "paragraph": 46,
+      "anchor": "«Kyss meg bak!» ropte Askeladden og klamret seg fast.",
+      "characters": ["den-gamle-strikkekona", "askeladden", "det-yngste-follet"],
+      "prompt": "The narrow cleft by the mountain path. The Knitting Woman has risen from her stone and holds up her grey knitting, now so long that it trails all the way down to the path, smiling sweetly. Askeladden clings to the back of the Youngest Foal as it thunders past behind the six other foals, and shouts back at her over his shoulder, grinning. Dust flies from the hooves.",
+      "caption": "«Kyss meg bak!» ropte Askeladden og klamret seg fast.",
+      "alt": "Strikkekona holder opp et strikketøy så langt at det rekker ned til stien. Askeladden suser forbi på ryggen av det yngste føllet og roper tilbake til henne."
+    },
+    {
+      "id": "08",
+      "paragraph": 60,
+      "anchor": "Stubben var så stor at tre mann ikke ville ha nådd rundt den.",
+      "characters": ["askeladden", "det-yngste-follet"],
+      "prompt": "A clearing in a strange birch forest. The biggest of the seven chestnut foals has set its shoulder against a white birch stump so huge that three men could not reach around it, and the stump slides aside like the lid of a cake tin, revealing narrow earthen steps going down into the ground. Askeladden, still on the back of the Youngest Foal, leans forward and stares down the steps.",
+      "caption": "Stubben gled til side som lokket på en kakeboks.",
+      "alt": "Det største føllet skyver en diger bjørkestubbe til side, og under den går ei trapp ned i bakken. Askeladden sitter på det yngste føllet og stirrer ned."
+    },
+    {
+      "id": "09",
+      "paragraph": 66,
+      "anchor": "Askeladden så på sverdet.",
+      "characters": ["askeladden", "det-yngste-follet"],
+      "prompt": "A small, cool room under the ground, with earthen walls, a low stone chimney, one stool and a clay jar on the floor, lit only by daylight from the steps. Askeladden holds a big, rusty sword easily in one hand and looks from the blade to the Youngest Foal, who stands close beside him in the half-dark. His face is troubled and pleading; the foal's clever eyes are steady.",
+      "caption": "«Finnes det ingen annen måte?»",
+      "alt": "I et lite jordrom under bakken holder Askeladden et stort, rustent sverd og ser bekymret på det yngste føllet, som står tett ved ham i halvmørket."
+    },
+    {
+      "id": "10",
+      "paragraph": 78,
+      "anchor": "Da føllene kom inn på kirkegården, ble de til mennesker.",
+      "characters": ["askeladden", "den-yngste-prinsen"],
+      "prompt": "The churchyard of a small, black-tarred church with a tall tower, in low afternoon sun. Where seven foals trotted in through the gate a moment ago, seven young men now stand in clothes so fine that they shine, the smallest of them the Youngest Prince, grinning. Just inside the gate, Askeladden stands with his phone forgotten in his hand and his jaw dropped.",
+      "caption": "Askeladden hadde sett mye rart den dagen. Dette satte han øverst.",
+      "alt": "På kirkegården står sju unge menn i klær som lyser, der det nettopp var sju føll. Askeladden står ved porten med mobilen i hånda og måper."
+    },
+    {
+      "id": "11",
+      "paragraph": 88,
+      "anchor": "«Halve riket kan du gi bort, pappa», sa prinsessa.",
+      "characters": ["kongen", "prinsessa", "askeladden"],
+      "places": ["kongsgarden"],
+      "prompt": "Nearly dark in the courtyard of the Royal Estate, light spilling from the open front door. The King stands holding a communion wafer, still lost for words. Behind him in the doorway the Princess, arms folded, looks past her father at Askeladden, taking in the mud on his trousers and the twig in his hair, with an amused, interested smile. Askeladden looks back at her, holding a bottle of communion wine.",
+      "caption": "«Meg kan du ikke gi bort. Men vi kan jo snakke sammen.»",
+      "alt": "Kongen står med alterbrødet i hånda på tunet. Bak ham i døra står prinsessa med armene i kors og smiler til Askeladden, som har gjørme på buksene og kvist i håret."
+    },
+    {
+      "id": "12",
+      "paragraph": 94,
+      "anchor": "Så kom lyset.",
+      "characters": ["askeladden", "den-yngste-prinsen"],
+      "prompt": "Inside the long stable with skylights and shiny steel stalls, a warm golden light pours out from everywhere at once and fills the whole building up to the skylights. Out of the light, seven young men in shining clothes step from the straw, stiff in their joints and stretching; the smallest, the Youngest Prince, rubs the back of his neck. Askeladden, in a white shirt with straw in his hair, stands watching, dazzled.",
+      "caption": "Ut av lyset steg sju unge menn, stive i leddene, i klær som skinte.",
+      "alt": "Et varmt lys fyller stallen, og ut av lyset stiger sju unge menn i skinnende klær. Den yngste gnir seg i nakken, og Askeladden står i hvit skjorte med halm i håret og ser på."
+    },
+    {
+      "id": "13",
+      "paragraph": 96,
+      "anchor": "Han kysset Askeladden på begge kinnene",
+      "characters": ["kongen", "askeladden", "prinsessa", "den-yngste-prinsen"],
+      "prompt": "The wedding hall of the castle, long tables with white cloths and candles, a toppled chair behind the King. The King kisses Askeladden on both cheeks and claps his shoulders, while seven princes in shining clothes stand behind Askeladden, the Youngest Prince among them. The Princess, in a simple white wedding dress, looks from her brothers to her husband and the straw in his hair, her eyes shining. The guests stare in silence.",
+      "caption": "Kongen kysset Askeladden på begge kinnene, klappet ham på skuldrene og kysset ham igjen.",
+      "alt": "I festsalen kysser kongen Askeladden på begge kinnene. Bak dem står sju prinser i skinnende klær, og bruden ser på mannen sin, som har halm i håret."
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "storyId": "noedig",
+  "variants": {
+    "simplified": {
+      "title": "Noen kjerringer er slik",
+      "textFile": "public/content/stories/noedig/simplified/story.txt"
+    },
+    "english": {
+      "title": "Some Wives Are Like That",
+      "textFile": "public/content/stories/noedig/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway at sowing time, in the Ringerike country. The Farmer and his Wife have a small, poor farm with one brown field. A dusty road leads to the market town, where the Butcher has his shop and yard. Far along the roads stand a brand-new log house with no windows that still smells of resin, a small plain cottage, and a big farm with a storehouse and a field being ploughed. The Wife's hen is a scrawny, half-bald speckled hen. The widow's blue horse is a sturdy blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled wooden cart; Per the Third's horse is chestnut-brown. The sieve is a big, round, shallow sieve with a wooden rim.",
+  "palette": "Late April at sowing time: a dry, breezy spring with pale sunshine and drifting cloud, bare brown fields and fresh dark furrows, birches in their first mouse-ear green, the last grey snow patches in the shade of the spruce, yellow coltsfoot in the ditches and dusty roads. At the end, a heavy grey sky that promises rain. Accents: the Wife's rust-orange skirt, white feathers and the blue-grey horse.",
+  "cast": [
+    {
+      "slug": "kona",
+      "promptName": "the Wife",
+      "look": "A cheerful, dreamy farm wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red wool. She wears a rust-orange wool skirt, a black bodice laced with red ribbon over a white blouse with wide sleeves, a big white apron with one deep front pocket and wooden-soled shoes.",
+      "portrait": "Background: the Little Farm and its brown field.",
+      "variants": {
+        "simplified": {
+          "name": "Kona",
+          "description": "Sta og lettlurt, havner i trøbbel når hun skal selge kua, og blir så forvirret at hun ikke kjenner seg selv igjen.",
+          "replacesPortrait": "kona"
+        },
+        "english": {
+          "name": "The Farmer’s Wife",
+          "description": "An anxious, impulsive woman who tries to protect the household but is easily fooled—ending up tarred and feathered, then confidently sowing salt as seed.",
+          "replacesPortrait": "farmers-wife"
+        }
+      }
+    },
+    {
+      "slug": "kona-med-fjaer",
+      "promptName": "the Feathered Wife",
+      "look": "The Wife after the Butcher's prank: the same cheerful woman of about forty-five with a long ski-jump nose, big round amazed blue eyes and two long straw-yellow plaits tied with red wool, in her rust-orange skirt, black laced bodice and white apron, but now sticky with black tar and covered from head to toe with fluffy white, grey and brown feathers on her clothes, arms, hair and cheeks, so that she looks like a big, ruffled bird.",
+      "portrait": "Background: a dusty road between brown fields, with a few feathers drifting in the air.",
+      "variants": {
+        "simplified": {
+          "name": "Kona med tjære og fjær",
+          "description": "Kona etter slakterens puss: full av tjære og fjær fra topp til tå, så hun tror hun må være en stor, underlig fugl."
+        },
+        "english": {
+          "name": "The Farmer’s Wife, Tarred and Feathered",
+          "description": "The farmer’s wife after the butcher’s prank, feathers from head to toe and quite sure she must be some great strange bird."
+        }
+      }
+    },
+    {
+      "slug": "mannen",
+      "promptName": "the Farmer",
+      "look": "A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.",
+      "portrait": "Background: a dusty country road between birches in their first green.",
+      "variants": {
+        "simplified": {
+          "name": "Mannen fra Ringerike",
+          "description": "En fattig, men kvikk bonde som bruker vett og frekke løgner for å skaffe penger og komme seg ut av knipa.",
+          "replacesPortrait": "mannen-fra-ringerike"
+        },
+        "english": {
+          "name": "The Farmer from Ringerike",
+          "description": "A poor, practical man driven to exasperation by his wife’s blunders, who sets out to find proof that other households are just as foolish.",
+          "replacesPortrait": "farmer-from-ringerike"
+        }
+      }
+    },
+    {
+      "slug": "slakteren",
+      "promptName": "the Butcher",
+      "look": "A huge, barrel-chested butcher of about fifty with a round, shiny red face, a bulbous nose, twinkling little black eyes, bushy black eyebrows, a sly grin and a big, round, bushy black beard. He wears a small white linen cap, a red shirt with the sleeves rolled up over thick arms and a long white apron with blue stripes, and he always has a string of sausages slung over one shoulder.",
+      "portrait": "Background: his yard at the edge of the market town.",
+      "variants": {
+        "simplified": {
+          "name": "Slakteren",
+          "description": "En slu bymann som utnytter konas dumskap, byr på mat og brennevin og lurer henne skikkelig.",
+          "replacesPortrait": "slakteren"
+        },
+        "english": {
+          "name": "The Butcher",
+          "description": "A sly town butcher who cheats the wife, gets her drunk, and plays a cruel prank to rid himself of her demands.",
+          "replacesPortrait": "the-butcher"
+        }
+      }
+    },
+    {
+      "slug": "soldkjerringa",
+      "promptName": "the Sieve Woman",
+      "look": "A tiny, quick, bird-like woman of about thirty with a small round face, a pointed chin, bright eager green eyes, rosy cheeks and a mass of glossy black curls tied up in a sunflower-yellow kerchief. She wears an apricot-orange dress with a white apron and red shoes, and she always carries a big, round, shallow sieve with a wooden rim and a bottom full of tiny holes.",
+      "portrait": "Background: the brand-new log house of pale timber in the sunshine.",
+      "variants": {
+        "simplified": {
+          "name": "Kjerringa som vil bære inn sol",
+          "description": "Ei kjerring i ei nytømret stue uten vinduer, som springer ut og inn med et sold for å bære inn sola.",
+          "replacesPortrait": "kjerringa-som-vil-baere-inn-sol"
+        },
+        "english": {
+          "name": "The Sunshine-Sieve Woman",
+          "description": "A frantic householder who tries to carry sunshine indoors in a sieve because her new room has no windows.",
+          "replacesPortrait": "sunshine-sieve-woman"
+        }
+      }
+    },
+    {
+      "slug": "enka",
+      "promptName": "the Widow",
+      "look": "A tall, big, well-fed farm wife of about sixty with a large round face, a double chin, pink cheeks, a big mouth always open to talk, bright little inquisitive eyes and iron-grey ringlets under a large round black bonnet trimmed with lace and tied under her chins. She wears a wine-red wool dress with silver buttons and a green silk shawl, and she always holds a long brass ear trumpet to one ear.",
+      "portrait": "Background: the big farm with its storehouse.",
+      "variants": {
+        "simplified": {
+          "name": "Kjerringa på gården",
+          "description": "Ei godtroende kjerring som har vært gift tre ganger, hver gang med en Per. Hun hører «Himmerike» når mannen sier Ringerike, og sender klær, sølvpenger og hest til Per den andre i himmelen."
+        },
+        "english": {
+          "name": "The Widow of Per the Second",
+          "description": "A credulous woman married three times who believes a stranger can carry aid to her kind late husband in Heaven, and gives away a cartload of goods.",
+          "replacesPortrait": "widow-of-per-the-second"
+        }
+      }
+    },
+    {
+      "slug": "per",
+      "promptName": "Per the Third",
+      "look": "A tall, heavy, grumpy farmer of about fifty with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black stocking cap, a patched leather jerkin over a rust-red shirt, brown knee breeches and tall muddy boots.",
+      "portrait": "Background: a ploughed field with a chestnut-brown horse.",
+      "variants": {
+        "simplified": {
+          "name": "Per den tredje",
+          "description": "Kjerringas tredje mann, en gretten bonde som setter etter mannen fra Ringerike, men blir lurt til å ligge og glane opp i skyene."
+        },
+        "english": {
+          "name": "Per the Third",
+          "description": "The widow’s third husband, a sour farmer who gallops after the man from Ringerike, only to be tricked into staring at the clouds."
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "smagarden",
+      "name": "the Little Farm",
+      "look": "A small, poor farm on a gentle slope: a low grey log cottage with a turf roof, a tiny cowshed, and a little storehouse standing on four stone legs with a steep roof of wooden shingles. In front lies one small brown field ringed by a split-rail fence, with a few birches in their first spring leaf and yellow coltsfoot along the fence."
+    }
+  ],
+  "cover": {
+    "prompt": "On the dusty road home in the low evening sun, the Feathered Wife walks along with her arms held out in front of her, staring at her feathery sleeves in wonder, fluffy feathers drifting off her in the breeze. Behind her the road winds back between bare brown fields and birches in their first green, and far ahead, on a gentle slope, lies the Little Farm.",
+    "characters": ["kona-med-fjaer"],
+    "places": ["smagarden"],
+    "variants": {
+      "simplified": {
+        "caption": "Kona ville selge kua selv, og hjem kom hun full av fjær.",
+        "alt": "Kona går hjemover på den støvete veien, full av fjær, og ser forundret på armene sine. Langt borte ligger den lille gården."
+      },
+      "english": {
+        "caption": "She would sell the cow herself, and home she came covered in feathers.",
+        "alt": "The farmer's wife walks home along the dusty road covered in feathers, staring at her arms in wonder. Far ahead lies the little farm."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["kona", "slakteren"],
+      "prompt": "Just outside the market town, by the Butcher's yard with its wooden gate, the Wife proudly holds out a scrawny, half-bald speckled hen in both hands, a thin fawn-coloured cow on a rope beside her. The Butcher bends down until he is nose to beak with the hen, and the two of them stare at each other with exactly the same doubtful look. Dusty spring sunshine, with the town's roofs behind them.",
+      "variants": {
+        "simplified": {
+          "paragraph": 8,
+          "anchor": "Slakteren så på høna.",
+          "caption": "Slakteren så på høna. Den hadde ikke mange fjær igjen.",
+          "alt": "Kona holder stolt fram ei skrinn høne med nesten ingen fjær. Slakteren bøyer seg ned og ser tvilende på den, og ved siden av står kua i tau."
+        },
+        "english": {
+          "paragraph": 7,
+          "anchor": "The butcher looked at the hen.",
+          "caption": "The butcher looked at the hen. She hadn't many feathers left.",
+          "alt": "The farmer's wife proudly holds out a scrawny hen with hardly any feathers. The butcher bends down and eyes it doubtfully, and the cow stands beside them on a rope."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["kona-med-fjaer"],
+      "prompt": "In a dim storeroom with sausages hanging from the beams, lit by one guttering candle, the Feathered Wife sits up on the floorboards beside an open barrel of black tar and a heap of loose feathers, and stares at her own arms in utter amazement, holding them out and turning them this way and that. Feathers drift down around her. An empty brandy jug and two cups stand on a table. Nobody else is there.",
+      "variants": {
+        "simplified": {
+          "paragraph": 15,
+          "anchor": "«Er det meg, eller er det ikke meg?» sa hun.",
+          "caption": "«Er det meg, eller er det ikke meg?» sa hun.",
+          "alt": "Kona sitter på gulvet, full av tjære og fjær fra topp til tå, og stirrer forundret på armene sine. Ved siden av står ei tjæretønne og en haug med fjær."
+        },
+        "english": {
+          "paragraph": 14,
+          "anchor": "“Is it me, or isn’t it me?” she said.",
+          "caption": "“Is it me, or isn’t it me?” she said.",
+          "alt": "The farmer's wife sits on the floor, covered in tar and feathers from head to toe, staring at her arms in amazement. Beside her stand a barrel of tar and a heap of feathers."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["kona-med-fjaer", "mannen"],
+      "places": ["smagarden"],
+      "prompt": "At the Little Farm on a clear spring evening, the Feathered Wife stands on the steep shingle roof of the little storehouse with her arms spread wide like wings, feathers whirling off her. Below in the yard, the Farmer has just lowered his old rifle so that it points at the ground and stares up at her with his mouth open, while a small shaggy dog leaps and barks at his heels.",
+      "variants": {
+        "simplified": {
+          "paragraph": 23,
+          "anchor": "«Er det deg», sa mannen",
+          "caption": "«Er det deg, så ikke stå der oppe som ei geit.»",
+          "alt": "Kona står på stabburstaket full av fjær og slår med armene som vinger. Nede på tunet har mannen senket rifla og glaner opp på henne, mens hunden hopper og bjeffer."
+        },
+        "english": {
+          "paragraph": 22,
+          "anchor": "“If it’s you,” said the farmer",
+          "caption": "“If it’s you, don’t stand up there like a goat.”",
+          "alt": "The wife stands on the storehouse roof covered in feathers, flapping her arms like wings. Down in the yard, her husband has lowered his rifle and gapes up at her while the dog leaps and barks."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["soldkjerringa", "mannen"],
+      "prompt": "Inside a brand-new log house with no windows, the axe has just broken through the wall with a shower of wood chips, and a broad beam of sunlight falls across the dim floor. The Sieve Woman stands right in it with her empty sieve in both hands, staring at the sunlight with her mouth wide open. The Farmer stands by the new hole with the axe, wiping his brow.",
+      "variants": {
+        "simplified": {
+          "paragraph": 31,
+          "anchor": "Hun hentet ei øks.",
+          "caption": "Sola strømmet inn og traff henne midt i ansiktet.",
+          "alt": "Inne i den nye stua har øksa gått gjennom veggen, og sola strømmer inn over gulvet. Kjerringa står midt i lyset med det tomme soldet og måper, og mannen står ved hullet med øksa."
+        },
+        "english": {
+          "paragraph": 30,
+          "anchor": "She brought him an axe.",
+          "caption": "A broad beam of sunlight fell across the floor, right where she had emptied it.",
+          "alt": "Inside the new log house the axe has broken through the wall, and sunlight streams across the floor. The woman stands in the light with her empty sieve, mouth open, and the farmer stands by the hole with the axe."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["mannen"],
+      "prompt": "Inside a small, plain cottage, a stocky man stands in the middle of the floor with a long new white shirt pulled right down over his head and arms, and his red, rumpled head has just popped up through a freshly snipped hole at the top, blinking with relief. The Farmer steps back holding a pair of scissors. The man's stout wife, in a brown dress and a white cap, stands with her flat wooden washing bat lowered, staring in amazement.",
+      "variants": {
+        "simplified": {
+          "paragraph": 39,
+          "anchor": "Han fikk ei saks, klippet et hull og gikk videre med pengene sine.",
+          "caption": "Han fikk ei saks og klippet et hull.",
+          "alt": "En mann står med ei ny skjorte trukket over hodet, og gjennom et nyklippet hull titter hodet hans fram. Mannen fra Ringerike holder saksa, og kjerringa med banketreet ser forbløffet på."
+        },
+        "english": {
+          "paragraph": 38,
+          "anchor": "He got the scissors, snipped a hole, and set off again with his money.",
+          "caption": "He got the scissors and snipped a hole.",
+          "alt": "A man stands with a new shirt pulled over his head, and his head pops out through a freshly snipped hole. The farmer holds the scissors, and the wife with the washing bat stares in amazement."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["enka", "mannen"],
+      "prompt": "Inside a dim storehouse, rows of a dead man's old clothes hang from the rafters: coats, shirts, breeches and hats. The Widow throws back the lid of a heavy chest that is full to the brim with bright silver coins and points at it proudly, her ear trumpet dangling from a cord. The Farmer stands beside her with his cap in his hands and a solemn face, trying hard not to smile.",
+      "variants": {
+        "simplified": {
+          "paragraph": 50,
+          "anchor": "Hun tok ham med ut i bua.",
+          "caption": "Kista var full til kanten av blanke sølvpenger.",
+          "alt": "I bua henger klærne etter Per den andre fra bjelkene. Kjerringa slår opp lokket på ei kiste full av blanke sølvpenger, og mannen fra Ringerike står ved siden av med lua i hendene."
+        },
+        "english": {
+          "paragraph": 49,
+          "anchor": "She took him into the storehouse.",
+          "caption": "It was full to the brim with bright silver coins.",
+          "alt": "In the storehouse, Per the Second's clothes hang from the rafters. The widow throws back the lid of a chest full of bright silver coins, and the farmer from Ringerike stands beside her with his cap in his hands."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["per", "mannen"],
+      "prompt": "A wide spring landscape. In the foreground, Per the Third walks behind a wooden plough pulled by a chestnut-brown horse, cutting a dark furrow; he has stopped and looks over his shoulder with a suspicious frown. Far off along the road, the blue-grey dappled horse trots away pulling a small two-wheeled cart piled high with clothes and a chest, with the Farmer on the seat holding the reins.",
+      "variants": {
+        "simplified": {
+          "paragraph": 55,
+          "anchor": "Men borte på jordet gikk kjerringas tredje mann og pløyde",
+          "caption": "Per den tredje så en fremmed kar kjøre fra gården.",
+          "alt": "Per den tredje går bak plogen og ser seg mistenksomt over skulderen. Langt borte på veien kjører mannen fra Ringerike av sted med den blå hesten og et fullt kjerrelass."
+        },
+        "english": {
+          "paragraph": 54,
+          "anchor": "But out in the field, ploughing, was the widow’s third husband",
+          "caption": "Per the Third saw a stranger drive off from the farm.",
+          "alt": "Per the Third walks behind his plough and looks suspiciously over his shoulder. Far away on the road, the farmer from Ringerike drives off with the blue horse and a full cartload."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["mannen", "per"],
+      "prompt": "On a little grassy hill at the edge of a birch thicket, the Farmer lies on his back under a birch with his hands behind his head, gazing up at the white clouds with a look of great wonder. A tuft of long grey horsehair is tied to a branch above him, fluttering in the breeze. Per the Third has just got down from his chestnut-brown horse and stands scowling at him, the reins in his hand.",
+      "variants": {
+        "simplified": {
+          "paragraph": 60,
+          "anchor": "Per steg av hesten og ble stående og se på ham.",
+          "caption": "Var karen tullete, eller hva var dette for noe?",
+          "alt": "Mannen fra Ringerike ligger på ryggen under ei bjørk og stirrer opp i skyene. En dott hestetagl henger i bjørka, og Per den tredje står ved hesten sin og glor på ham."
+        },
+        "english": {
+          "paragraph": 59,
+          "anchor": "Per got off his horse and stood looking at him a while",
+          "caption": "Was the fellow simple, or what on earth was this?",
+          "alt": "The farmer from Ringerike lies on his back under a birch, staring up at the clouds. A tuft of horsehair hangs from the birch, and Per the Third stands by his horse, glaring at him."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["per", "mannen"],
+      "prompt": "A wide view of the little grassy hill by the birch thicket. Per the Third lies flat on his back in the grass, staring up at the clouds so hard that tears run from his wide-open eyes, his stocking cap fallen off beside him. Behind him, the Farmer tiptoes away down the slope, leading the chestnut-brown horse by the reins towards the thicket, where the blue-grey dappled horse waits in the shafts of the loaded cart.",
+      "variants": {
+        "simplified": {
+          "paragraph": 64,
+          "anchor": "Per la seg på ryggen i gresset og glante så øynene rant.",
+          "caption": "Per la seg på ryggen i gresset og glante så øynene rant.",
+          "alt": "Per den tredje ligger på ryggen og stirrer opp i skyene så øynene renner. Bak ham lister mannen fra Ringerike seg bort med hesten hans mot kjerra."
+        },
+        "english": {
+          "paragraph": 63,
+          "anchor": "So Per lay down in the grass and stared at the clouds until his eyes streamed.",
+          "caption": "Per lay down in the grass and stared at the clouds until his eyes streamed.",
+          "alt": "Per the Third lies on his back staring up at the clouds until his eyes stream. Behind him, the farmer from Ringerike tiptoes away with his horse towards the cart."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "characters": ["mannen", "kona"],
+      "places": ["smagarden"],
+      "prompt": "At the Little Farm under a heavy grey sky, the Farmer has just pulled up in the loaded cart behind the blue-grey dappled horse, with the chestnut-brown horse tied on behind. He stares at the brown field: it has been ploughed, and white salt glitters in every furrow. The Wife stands proudly at the end of the furrows with an empty wooden bucket on her hip and empty sacks at her feet.",
+      "variants": {
+        "simplified": {
+          "paragraph": 69,
+          "anchor": "«Å», sa hun, «jeg har alltid hørt at den som noe sår, han noe får.",
+          "caption": "«Så jeg sådde saltet som handelskaren fra nord satte inn på stabburet.»",
+          "alt": "Mannen kommer hjem med hester og et fullt kjerrelass. Jordet er pløyd, og i furene glitrer hvitt salt. Kona står stolt ved åkerkanten med ei tom bøtte på hofta."
+        },
+        "english": {
+          "paragraph": 68,
+          "anchor": "“Oh,” she said, “I’ve always heard: sow nothing, reap nothing.",
+          "caption": "“So I sowed the salt the trader from the north left in our storehouse.”",
+          "alt": "The farmer comes home with two horses and a loaded cart. The field has been ploughed, and white salt glitters in the furrows. His wife stands proudly at the edge with an empty bucket on her hip."
+        }
+      }
+    }
+  ]
+}

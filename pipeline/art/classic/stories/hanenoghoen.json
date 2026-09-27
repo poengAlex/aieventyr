@@ -1,0 +1,117 @@
+{
+  "storyId": "hanenoghoen",
+  "variants": {
+    "simplified": {
+      "title": "Hanen og høna",
+      "textFile": "public/content/stories/hanenoghoen/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Rooster and the Hen",
+      "textFile": "public/content/stories/hanenoghoen/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, where the farm birds can talk. The hen and the rooster live on a small hillside farm with a little weathered log chicken coop on short stilts, a plank ramp up to its tiny door, a stacked woodpile and a grey split-rail fence with a gate. From the gate a dusty cart road winds down through birches to a small market town far off in the valley, with a white church and red and yellow wooden houses. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding six brown eggs; she carries it hooked over one wing. The birds wear no clothes, and the hen goes barefoot.",
+  "palette": "A dry, bright day in late May: a dusty yard and cart road, fresh pale-green birches, dandelions in the grass and a high blue sky with small white clouds, the little town far off in a soft blue haze. Accents: the hen's chestnut brown, the rooster's rust red and gold, and weathered silver-grey wood.",
+  "cast": [
+    {
+      "slug": "hona",
+      "promptName": "the Hen",
+      "look": "A plump, round, hard-working farm hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare yellow feet are big, with long, spread-out toes, and dusty from the yard. She carries a small round wicker basket of eggs, lined with straw, hooked over one wing.",
+      "portrait": "Background: the little log coop on stilts.",
+      "variants": {
+        "simplified": {
+          "name": "Høna",
+          "description": "Arbeidsom og direkte, lei av å gå barbeint og av løfter som ikke blir holdt.",
+          "replacesPortrait": "hona"
+        },
+        "english": {
+          "name": "The Hen",
+          "description": "A hardworking hen who is tired of empty promises and wants shoes for her bare feet.",
+          "replacesPortrait": "the-hen"
+        }
+      }
+    },
+    {
+      "slug": "hanen",
+      "promptName": "the Rooster",
+      "look": "A tall, handsome farm rooster speckled all over in rust red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He holds himself very grandly, chest out, and likes to wave one wing about while he talks.",
+      "portrait": "Background: the farm gate and the dusty road down to the town.",
+      "variants": {
+        "simplified": {
+          "name": "Hanen",
+          "description": "Selvsikker og litt unnvikende, lover sko men skyver ansvaret over på høna.",
+          "replacesPortrait": "hanen"
+        },
+        "english": {
+          "name": "The Rooster",
+          "description": "A confident rooster who brushes off the Hen’s complaints and offers a blunt, practical answer.",
+          "replacesPortrait": "the-rooster"
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "tunet",
+      "name": "the Farmyard",
+      "look": "A small, dusty farmyard on a hillside: a little weathered log chicken coop on short stilts with a plank ramp and a tiny door, a stacked woodpile with a chopping block, a grey split-rail fence with an open gate and a few young birches. Through the gate a dusty cart road winds down the slope towards a small town far off in the valley, with a white church and red and yellow wooden houses."
+    }
+  ],
+  "cover": {
+    "prompt": "A low view across the Farmyard at the Hen's eye level on a bright morning: in the foreground she stands in the dust with her basket of six eggs hooked over one wing, looking down at her bare yellow toes with a long-suffering sigh. Behind her, up on the roof of the coop, the Rooster crows grandly at the sun with his chest puffed out and his eyes closed.",
+    "characters": ["hona", "hanen"],
+    "places": ["tunet"],
+    "variants": {
+      "simplified": {
+        "caption": "Høna går barfot, år for år.",
+        "alt": "Høna står på tunet med en kurv egg på vingen og ser ned på de bare føttene sine. Oppå hønsehuset står hanen og galer mot sola."
+      },
+      "english": {
+        "caption": "Year after year, the Hen goes barefoot.",
+        "alt": "The hen stands in the farmyard with a basket of eggs on her wing, looking down at her bare feet. On the henhouse roof, the rooster crows at the sun."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["hanen", "hona"],
+      "places": ["tunet"],
+      "prompt": "In the dusty Farmyard in front of the little log coop, the Rooster puffs out his chest and crows a grand promise, head thrown back and eyes half closed, very pleased with himself. Facing him, the Hen stands with her feathers fluffed up in indignation, her basket of six eggs on one wing and one bare, dusty foot planted forward, glaring up at him. Bright late-spring sun and short shadows.",
+      "variants": {
+        "simplified": {
+          "paragraph": 2,
+          "anchor": "Hanen skjøt brystet fram og gol: «Du skal nok få sko!»",
+          "caption": "«Du lover meg sko år for år, og jeg får ingen sko!»",
+          "alt": "Hanen skyter brystet fram og galer foran hønsehuset. Høna står foran ham med bustete fjær og bare føtter og ser sint på ham."
+        },
+        "english": {
+          "paragraph": 2,
+          "anchor": "The Rooster puffed out his chest.",
+          "caption": "“You promise me shoes year after year, and I never get any shoes!”",
+          "alt": "The rooster puffs out his chest and crows in front of the henhouse. The hen stands before him with ruffled feathers and bare, dusty feet, glaring at him."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["hanen", "hona"],
+      "places": ["tunet"],
+      "prompt": "Wide view from the gate of the Farmyard: the Rooster stands on the gatepost and waves one wing grandly down the dusty cart road that winds through the birches to the little town far off in the valley. Below him, the Hen hugs her basket of six eggs tightly to her chest and looks down the long road with a sceptical, narrow-eyed face. Fresh green birches and a high blue sky.",
+      "variants": {
+        "simplified": {
+          "paragraph": 6,
+          "anchor": "«Så ta eggene dine og reis til byen og kjøp deg sko», gol han",
+          "caption": "«Så ta eggene dine og reis til byen og kjøp deg sko!»",
+          "alt": "Hanen står på grindstolpen og vifter med vingen nedover veien mot en liten by langt borte. Høna klemmer eggekurven inntil seg og ser tvilende ut."
+        },
+        "english": {
+          "paragraph": 6,
+          "anchor": "“Then take your eggs to town and buy yourself some shoes,” he crowed",
+          "caption": "“Then take your eggs to town and buy yourself some shoes!”",
+          "alt": "The rooster stands on the gatepost, waving a wing down the road towards a little town far away. The hen hugs her basket of eggs, looking doubtful."
+        }
+      }
+    }
+  ]
+}

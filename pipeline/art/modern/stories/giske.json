@@ -1,0 +1,185 @@
+{
+  "storyId": "giske",
+  "title": "Giske",
+  "textFile": "public/content/stories/giske/modern/story.txt",
+  "world": "Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.",
+  "palette": "The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.",
+  "cast": [
+    {
+      "slug": "giske",
+      "name": "Giske",
+      "promptName": "Giske",
+      "replacesPortrait": "giske",
+      "description": "Langbeint gårdshjelp som vil gifte seg med sjefen sin, blir barbert skallet og smurt inn med talg og sot mens hun sover, og konkluderer rolig med at hun må være fanden.",
+      "look": "A very tall, strong farmhand of about thirty, a head taller than any man, with extremely long legs and big hands rough from farm work. She has a long oval face, rosy weathered cheeks, a wide eager smile, a small turned-up nose, bright hazel eyes and flaxen hair wound into a tall bun on top of her head. She wears a plum-purple fleece sweater with the sleeves pushed up, dark-green work trousers with knee pockets, black rubber boots and a big bunch of keys on a carabiner at her belt.",
+      "portrait": "Background: the hemp field on a hazy afternoon."
+    },
+    {
+      "slug": "giske-skallet",
+      "name": "Giske som fanden",
+      "promptName": "Sooty Giske",
+      "description": "Giske etter spøken: barbert skallet, blank av talg og svart av sot, så ikke engang mobilen kjenner henne igjen. Når hun ikke er Giske, må hun vel være fanden.",
+      "look": "Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.",
+      "portrait": "Background: a gravel forest road at dusk."
+    },
+    {
+      "slug": "enkemannen",
+      "name": "Enkemannen",
+      "promptName": "the Widower",
+      "replacesPortrait": "the-widower",
+      "description": "Konfliktsky småbruker som heller barberer og sotsverter gårdshjelpen sin enn å si nei til henne rett ut.",
+      "look": "A skinny, stooped smallholder of about fifty with a long, narrow, tired face, heavy-lidded eyes, a long crooked nose, hollow cheeks, a scruffy salt-and-pepper chin beard and thin dark hair combed flat, with cheap reading glasses pushed up on his forehead. He wears a pilled heather-brown fleece jacket over a faded checked flannel shirt, baggy grey work trousers and green rubber clogs, and always looks as if he would rather be somewhere else.",
+      "portrait": "Background: the kitchen window of his red farmhouse."
+    },
+    {
+      "slug": "tyven-tynn",
+      "name": "Den tynne tyven",
+      "promptName": "the Skinny Thief",
+      "replacesPortrait": "the-petty-thieves",
+      "description": "Den ene av de to småtyvene fra bygda som lever av det som ikke er boltet fast. Han er tynn og skvetten, og det er han som hysjer mest.",
+      "look": "A skinny, jittery petty thief of about thirty, a head shorter than Giske, with a long pale face, a long pointy nose, big frightened eyes, a wispy ginger goatee and lank hair under a floppy black beanie. He wears a charcoal hoodie that is too short in the arms, grey tracksuit trousers and worn-out trainers, and carries a big canvas sack on his back.",
+      "portrait": "Background: a spruce forest at dusk."
+    },
+    {
+      "slug": "tyven-tykk",
+      "name": "Den tykke tyven",
+      "promptName": "the Plump Thief",
+      "description": "Den andre småtyven. Han er liten og rund, har ikke spist ordentlig siden tirsdag og vil aller helst ikke bli tatt.",
+      "look": "A short, round, nervous petty thief of about forty, much shorter than Giske, with a round red face, puffy cheeks, a stubbly double chin, tiny eyes, a big bushy black moustache and a bald head under a brown flat cap. He wears a mustard-brown hoodie stretched tight over his belly, baggy jeans and big unlaced work boots, with a coil of rope over his shoulder and a canvas sack on his back.",
+      "portrait": "Background: a spruce forest at dusk."
+    },
+    {
+      "slug": "bonden",
+      "name": "Bonden med sauefjøset",
+      "promptName": "the Sheep Farmer",
+      "description": "Bonden med solcellepanel på låvetaket og en drone som teller sauene. Han har aldri trodd på noe han ikke kan se, helt til noe langt og svart kommer farende ut av sauefjøset hans.",
+      "look": "A lean, wiry sheep farmer of about forty-five with a bony, hollow-cheeked face, a hooked nose, bristly grey stubble, startled round eyes and wild, tousled grey hair, just woken from sleep. He wears only a faded grey T-shirt and baggy navy-blue boxer shorts, with bare skinny legs and bare feet, and a chunky black sports watch on one wrist.",
+      "portrait": "Background: his farmyard at night, lit by a yard light."
+    },
+    {
+      "slug": "nepebonden",
+      "name": "Bonden med nepeåkeren",
+      "promptName": "the Turnip Farmer",
+      "description": "Bonden som eier nepeåkeren. Han har ligget våken og lest om fanden i bygdegruppa hele natta, og han lover presten en kalvestek for å få ham med ut på myra.",
+      "look": "A short, sturdy, bow-legged farmer of about fifty with a square, weather-beaten face, a big bristly chestnut moustache, round startled eyes, bushy eyebrows and wiry grey hair sticking up under a wide, frayed straw hat. He wears a rust-orange quilted vest over a blue-striped pyjama top, grey work trousers pulled on over his pyjama bottoms and green rubber boots.",
+      "portrait": "Background: the turnip field above the bog in morning fog."
+    },
+    {
+      "slug": "presten",
+      "name": "Presten",
+      "promptName": "the Priest",
+      "replacesPortrait": "the-priest",
+      "description": "Sokneprest som blir hentet ut i tøfler og strikkelue en søndag morgen for å binde fanden, lokket av en kalvestek, og havner i myra.",
+      "look": "A very round, heavy parish priest of about sixty-five with a big belly, short legs, a pink, jowly, clean-shaven face, puffy sleepy eyes, bushy white eyebrows and a fringe of white curls under a red-and-white striped knitted hat with a pompom. He wears a crumpled white pyjama shirt stuffed into black trousers he has pulled on in a hurry and a pair of blue felt slippers, and carries a small black book.",
+      "portrait": "Background: the hall of a white-painted parsonage."
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "Night on a gravel farm road, in the orange beam of a single yard light. Sooty Giske stands in the middle of the road with her arms flung wide and her bald head gleaming, shouting something happily at the top of her voice. Behind her, the Skinny Thief and the Plump Thief crouch with their sacks on their backs, clapping their hands over their ears and looking around in panic at the dark farmhouses.",
+    "characters": ["giske-skallet", "tyven-tynn", "tyven-tykk"],
+    "caption": "Fanden var i hvert fall lokalkjent.",
+    "alt": "Giske står skallet og svart av sot midt på en grusvei om natta med armene ut og roper. Bak henne krøker to tyver med sekker seg sammen og holder seg for ørene."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 0,
+      "anchor": "Giske hadde vært gårdshjelp hos enkemannen i fire år",
+      "characters": ["giske", "enkemannen"],
+      "prompt": "At the checkout of a small village supermarket, Giske stands in the queue right behind the Widower with a shopping basket on her arm, leaning down towards him and talking loudly and happily about getting married. The Widower stares hard at the conveyor belt with his shoulders up to his ears. Around them, a cashier and four other customers in rain jackets have gone quiet and are listening with great interest.",
+      "caption": "En gang sa hun det i kassakøen, høyt nok til at halve bygda fikk det med seg.",
+      "alt": "I kassakøen på butikken lener Giske seg ned mot enkemannen og snakker høyt om å gifte seg. Han stirrer ned i båndet, mens kassadama og kundene lytter."
+    },
+    {
+      "id": "02",
+      "paragraph": 4,
+      "anchor": "Enkemannen sto lenge og så på henne.",
+      "characters": ["giske", "enkemannen"],
+      "prompt": "Between the rows of a field of tall, ripe industrial hemp on a hazy late-summer afternoon, Giske lies fast asleep on her back with her head on a sack and her mouth open. The Widower stands over her, looking down at her for a long time, with an electric hair trimmer in one hand and a white plastic bucket of tallow in the other, his tired face slowly making up its mind.",
+      "caption": "Enkemannen sto lenge og så på henne.",
+      "alt": "Giske sover mellom radene i hampåkeren med hodet på en sekk. Enkemannen står over henne med en hårtrimmer i den ene hånda og ei bøtte talg i den andre."
+    },
+    {
+      "id": "03",
+      "paragraph": 7,
+      "anchor": "Giske våknet av at hun frøs på hodet.",
+      "characters": ["giske-skallet"],
+      "prompt": "Sooty Giske sits up among the flattened hemp stalks in the low evening sun, holding her phone up at arm's length with its back towards us, and stares into its dark screen with a baffled, suspicious frown, one hand feeling her bald, greasy scalp. Swallows swoop low over the field behind her, and the red farmhouse stands far off at the top of the land.",
+      "caption": "Mobilen ville ikke låse seg opp. Den kjente henne ikke igjen.",
+      "alt": "Giske sitter i hampåkeren, skallet og svart av sot, og holder mobilen opp foran ansiktet. Hun stirrer forvirret på den mørke skjermen og kjenner seg på hodet."
+    },
+    {
+      "id": "04",
+      "paragraph": 18,
+      "anchor": "Tyvene var ikke enige.",
+      "characters": ["giske-skallet", "tyven-tynn", "tyven-tykk"],
+      "prompt": "At dusk on a gravel forest road between tall spruces, the Skinny Thief and the Plump Thief run for their lives with their sacks bouncing on their backs, arms pumping, faces white with terror, as they have not run since school gym class. Right behind them, having just stepped out of the forest, Sooty Giske follows with long, easy strides, her bald head shining, calling after them in a friendly way.",
+      "caption": "De løp som de ikke hadde løpt siden gymtimene på ungdomsskolen.",
+      "alt": "To menn i hettegensere med sekker på ryggen løper for livet nedover en skogsbilvei. Rett bak dem kommer Giske, skallet og svart, med lange steg."
+    },
+    {
+      "id": "05",
+      "paragraph": 31,
+      "anchor": "«Ja, men vil dere ha bukk eller søye?",
+      "characters": ["giske-skallet", "tyven-tynn", "tyven-tykk"],
+      "prompt": "Inside a sheep barn at night, lit by one bare bulb, Sooty Giske stands in an open pen among eight woolly white sheep that stare at her, pointing at them with a big adjustable wrench and shouting towards the door at the top of her voice. A wall of hanging tools is behind her. Outside the open barn door, the Skinny Thief and the Plump Thief wave their arms frantically and hiss at her to be quiet.",
+      "caption": "«Ja, men vil dere ha bukk eller søye?» ropte Giske og pekte med skiftenøkkelen.",
+      "alt": "Inne i sauefjøset står Giske blant sauene med en skiftenøkkel og roper. Utenfor døra vifter tyvene med armene og hysjer på henne."
+    },
+    {
+      "id": "06",
+      "paragraph": 37,
+      "anchor": "Bonden ble liggende i grusen.",
+      "characters": ["bonden", "giske-skallet"],
+      "prompt": "A farmyard at night. The Sheep Farmer lies on his back in the gravel outside his lit farmhouse door, propped up on his elbows, staring in open-mouthed disbelief after Sooty Giske, a long black bald shape with a wrench in her hand, vanishing into the dark beyond the orange yard light. Behind him, the sheep barn is built wall to wall with the farmhouse, with solar panels on its roof, and a small grey drone sits on the porch step.",
+      "caption": "Han hadde aldri trodd på noe han ikke kunne se. Nå hadde han sett det.",
+      "alt": "Bonden ligger på ryggen i grusen på tunet i bokser og T-skjorte og stirrer. Ute i mørket forsvinner en lang, svart og skallet skikkelse med en skiftenøkkel."
+    },
+    {
+      "id": "07",
+      "paragraph": 44,
+      "anchor": "Mens de sto og kranglet, begynte én gås å skrike.",
+      "characters": ["giske-skallet", "tyven-tynn", "tyven-tykk"],
+      "prompt": "Night outside a goose house on another farm. A flock of twelve white geese tumbles out of the door, shrieking and flapping all around Sooty Giske, who is already racing off after the Skinny Thief and the Plump Thief as they vanish into the darkness at the edge of the picture. On the farmhouse steps, a tall, gaunt farmer in striped pyjamas holds up a storm lantern and gapes at the black, bald streak flashing past.",
+      "caption": "Langbeint var hun, og uten hår var hun strømlinjeformet i tillegg.",
+      "alt": "Gjessene flakser og skriker rundt Giske, som suser etter tyvene inn i mørket. På trappa står en bonde i stripete pysjamas med ei stormlykt og måper."
+    },
+    {
+      "id": "08",
+      "paragraph": 50,
+      "anchor": "«Vil dere ha spekeskinke eller fenalår eller pølse eller flatbrød?»",
+      "characters": ["giske-skallet", "tyven-tynn", "tyven-tykk"],
+      "prompt": "Night at a big farm at the edge of the forest. Sooty Giske stands in the open door at the top of the stone steps of an old timber storehouse on stilts, arms flung wide, bellowing so the log walls ring; behind her, cured hams and dried legs of mutton hang in rows from the beams above shelves of sausages and flatbread. At the foot of the steps, the Skinny Thief and the Plump Thief clutch their heads in despair.",
+      "caption": "«Vil dere ha spekeskinke eller fenalår eller pølse eller flatbrød?»",
+      "alt": "Giske står i døra til et gammelt stabbur fullt av spekeskinker, fenalår og pølser og roper med armene ut. Nede ved trappa holder tyvene seg for hodet."
+    },
+    {
+      "id": "09",
+      "paragraph": 58,
+      "anchor": "Bonden som eide nepeåkeren, hadde ligget våken og lest i bygdegruppa hele natta",
+      "characters": ["nepebonden", "giske-skallet"],
+      "prompt": "Six o'clock on a Sunday morning in thick white fog. At the edge of a dark bog, the Turnip Farmer stands frozen with fright in his rubber boots, his phone still glowing in his hand, staring up the slope. In the turnip field above the bog, Sooty Giske crouches among the rows, a long black shape half hidden in the fog, tugging and tugging at the turnips.",
+      "caption": "Han trengte ikke lang tid. Det var fanden.",
+      "alt": "Bonden står ved myra i morgentåka med mobilen i hånda og stirrer skrekkslagen opp mot nepeåkeren. Der oppe rusker en lang, svart skikkelse i nepene."
+    },
+    {
+      "id": "10",
+      "paragraph": 62,
+      "anchor": "Bonden kjørte til prestegården og ringte på.",
+      "characters": ["presten", "nepebonden"],
+      "prompt": "Early morning in the hall of a white-painted parsonage. The Priest comes hurrying down the staircase in his slippers and knitted hat, hopping on one foot as he drags his trousers up, his face eager. The Turnip Farmer waits just inside the front door with his straw hat in his hands. The Priest's grown-up daughter, a woman of about thirty in a long grey dressing gown, holds the door open and eyes the farmer sceptically.",
+      "caption": "Presten rev på seg buksa og kom ned med det samme, i tøfler og strikkelue.",
+      "alt": "Presten kommer skyndsomt ned trappa i tøfler og strikkelue og drar på seg buksa. Bonden venter i gangen, og datteren i morgenkåpe holder døra."
+    },
+    {
+      "id": "11",
+      "paragraph": 70,
+      "anchor": "Og så ble han så redd at han kastet presten av ryggen",
+      "characters": ["presten", "nepebonden", "giske-skallet"],
+      "prompt": "Low white fog over a dark bog on Sunday morning. In the middle of the bog, the Priest sits up to his chest in black mud among the tussocks, holding his small black book high out of the muck, his knitted hat askew, speechless with outrage. The Turnip Farmer sprints away across the tussocks towards his car parked on the road below. Up at the edge of the turnip field, Sooty Giske stands with a turnip in each hand, peering after him.",
+      "caption": "Og har ikke presten kommet seg opp, så ligger han der nok ennå.",
+      "alt": "Presten sitter fast i den svarte myra med den lille boka hevet over gjørma. Bonden løper mot bilen, og oppe ved nepeåkeren står Giske og ser etter ham."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "storyId": "frihist",
+  "title": "En frierhistorie",
+  "textFile": "public/content/stories/frihist/modern/story.txt",
+  "world": "Present-day Norway in late winter. The family's small farm lies at the very end of a narrow valley: an old white farmhouse with peeling paint and a roof patched with a big blue tarpaulin, a sagging red barn and a snowy yard with a rusty old tractor. The farm kitchen is small and worn smooth: a scrubbed pine table with mismatched chairs and two stools, a wood-burning stove, a rag rug on cracked linoleum, a coffee pot and a plate of sweet buns. Everything is old and faded except the family's three new things: the farmer's one new sleeve, the wife's one new trainer and the daughter's new beanie. The suitor carries a small brown leather shoulder bag.",
+  "palette": "Late winter at the end of a narrow valley: old grey snow, blue shadows and a pale, low sun. Inside the kitchen, warm light from the stove and a hanging lamp on faded pine and worn linoleum, from which the three new things shine out: a bright red sleeve, a spotless white trainer and an emerald-green beanie.",
+  "cast": [
+    {
+      "slug": "frieren",
+      "name": "Frieren",
+      "promptName": "the Suitor",
+      "replacesPortrait": "frieren",
+      "description": "En moderne singel på jakt etter noen å dele livet med, som tar inntrykk av det han ser og hører på gården.",
+      "look": "A tall, gangly man of about twenty-seven with a round, eager face, apple-pink cheeks, a small blunt nose, hopeful pale-blue eyes, a nervous smile and neat butter-blond hair parted in the middle and combed down flat, except for one unruly cowlick at the back. He wears his best date outfit: a slightly too short cinnamon-brown corduroy blazer over a white shirt buttoned to the top, grey chinos and polished black boots, with a small brown leather shoulder bag.",
+      "portrait": "Background: a snowy farmyard at the end of a valley."
+    },
+    {
+      "slug": "gards-eieren",
+      "name": "Gårdseieren",
+      "promptName": "the Farmer",
+      "replacesPortrait": "gards-eieren",
+      "description": "Husets mann som prøver å virke velstående ved å late som han vasker og rydder, mens han skjuler hvor lite han har.",
+      "look": "A big, burly, barrel-chested farmer of about fifty-five with a broad, ruddy face, a small snub nose, twinkling little blue eyes, bushy brown eyebrows, a shock of unruly brown hair and a long brown beard that splits into two scraggly forks. He wears a faded, pilled dusty-red wool jumper with one brand-new sleeve knitted in almost the same red, only brighter and crisper, while the old sleeve has a hole at the elbow, patched work trousers and thick grey wool socks.",
+      "portrait": "Background: the worn farm kitchen with the wood stove."
+    },
+    {
+      "slug": "gardskona",
+      "name": "Gårdskona",
+      "promptName": "the Farmer's Wife",
+      "replacesPortrait": "gardskona",
+      "description": "Kona som demonstrerer «orden og velstand» ved å sparke og skyve ting på plass med sin ene nye joggesko.",
+      "look": "A small, wiry, bustling woman of about fifty with a narrow, freckled face, a long pointed nose, bright little grey eyes, a busy, pursed mouth and frizzy ginger hair escaping from a big brown hair clip. She wears a faded grey-blue fleece, mud-brown corduroy trousers and an apron. On her right foot is one brand-new, spotless white trainer; on her left foot, an old, scuffed grey one.",
+      "portrait": "Background: the farm kitchen with its mismatched chairs."
+    },
+    {
+      "slug": "datteren",
+      "name": "Datteren",
+      "promptName": "the Daughter",
+      "replacesPortrait": "datteren",
+      "description": "Datteren som later som hun er altfor travel til å rydde, og holder avstand for å bevare inntrykket av kontroll.",
+      "look": "A cheeky young woman of about twenty-five with a long face, a sharp chin, a snub, upturned nose, big round brown eyes, rosy cheeks, a little rosebud mouth and thick black hair in two short, stiff plaits that poke straight out to the sides. She wears a faded brown hoodie and old grey jeans, and on her head a brand-new, bright emerald-green knitted beanie with a big fluffy white pom-pom.",
+      "portrait": "Background: the kitchen doorway of the old farmhouse."
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "In a snowy farmyard at the very end of a narrow valley, the Suitor has just stepped out of his small car and stands looking up at an old white farmhouse with peeling paint, its roof patched with a big blue tarpaulin. At the kitchen window, three faces crowd together to peer out at him: the Farmer, the Farmer's Wife and the Daughter in her new green beanie. Pale late-winter sun and blue shadows.",
+    "characters": ["frieren", "gards-eieren", "gardskona", "datteren"],
+    "caption": "Allerede på tunet skjønte han at her var det lite å rutte med.",
+    "alt": "Frieren står på et snødekt tun og ser opp på et gammelt våningshus med presenning på taket. I kjøkkenvinduet trykker tre ansikter seg sammen og kikker ut på ham."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 4,
+      "anchor": "Og så begynte han å gni langs bordkanten med det nye ermet, fram og tilbake, fram og tilbake.",
+      "characters": ["gards-eieren", "frieren"],
+      "prompt": "In the small, worn farm kitchen, the Suitor sits politely on a mismatched chair with a coffee cup, in front of a plate of sweet buns. Beside him the Farmer rubs the edge of the scrubbed pine table with his one brand-new red sleeve, back and forth, back and forth, keeping his other arm stiffly behind his back. The Suitor watches the sleeve with raised eyebrows and a polite, puzzled smile. The wood stove glows in the corner.",
+      "caption": "«Sett deg, sett deg! Men så støvete det er her!»",
+      "alt": "Gårdseieren gnir bordkanten med det nye ermet på genseren og holder den andre armen stivt bak ryggen. Frieren sitter med en kaffekopp og ser forundret på."
+    },
+    {
+      "id": "02",
+      "paragraph": 7,
+      "anchor": "Så ropte de på datteren at hun måtte komme og rydde.",
+      "characters": ["gardskona", "datteren", "frieren", "gards-eieren"],
+      "prompt": "In the worn farm kitchen, the Farmer's Wife kicks a stool into place toe first with her one spotless new white trainer, so that it shows, her other foot in an old grey one. In the doorway only the Daughter's head pokes in, in her brand-new green beanie, nodding busily this way and that. The Farmer stands by the table holding out his new red sleeve. At the table, the Suitor holds a half-eaten sweet bun and tries hard to keep a straight face.",
+      "caption": "Prislappen hang fortsatt på innsiden, for lua skulle leveres tilbake på mandag.",
+      "alt": "Gårdskona sparker en krakk på plass med den nye, hvite joggeskoen. I døra stikker datteren inn hodet med ny, grønn lue og nikker, og frieren prøver å holde maska."
+    }
+  ]
+}

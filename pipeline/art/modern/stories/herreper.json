@@ -1,0 +1,194 @@
+{
+  "storyId": "herreper",
+  "title": "Herreper",
+  "textFile": "public/content/stories/herreper/modern/story.txt",
+  "world": "Present-day eastern Norway in late summer. Per's family's small, worn wooden house stands empty at the end of a gravel track. A main road with steel guard rails runs through dark spruce forest to the royal estate: a large white manor with guards, fences and cameras at the front, and at the back a delivery yard with a loading bay, rubbish containers and a gravel courtyard. Per waits in a rented bedsit in a shabby block of flats behind the railway. Herreper drives a low, dark, gleaming sports car; the King rides in a long black car with advisers, security men with earpieces and four Royal Guard riders carrying small Norwegian flags. Far away lies the Silver Estate, where everything inside is gold, even the light switches. The pot is a black cast-iron pot, the griddle a big, flat, round iron griddle.",
+  "palette": "Late August: harvest-gold stubble fields with round white bales, dark blue-green spruce, dewy pastures and low, golden evening sun. The one night at the Silver Estate is dark and starry, with warm gold light spilling from its windows, until a cool pink dawn breaks over the ridge. Accents: navy, silver-grey, coral red and dazzling gold.",
+  "cast": [
+    {
+      "slug": "per",
+      "name": "Per",
+      "promptName": "Per",
+      "replacesPortrait": "per",
+      "description": "Yngste bror uten arv og uten plan, som lar seg bære av kattens dristige opplegg og lærer å spille rollen som «Herreper» i en moderne verden.",
+      "look": "A gangly, gentle young man of about twenty-three with a long neck, long arms, a kind oval face, soft brown eyes, a straight nose, a shy smile, a few days' stubble and chestnut hair tied back in a short ponytail. He wears his late father's old grey wool jacket, too broad in the shoulders and too long in the sleeves, over a washed-out blue flannel shirt, baggy brown cargo trousers, old canvas sneakers and a shapeless oatmeal beanie.",
+      "portrait": "Background: a steel guard rail along a main road through spruce forest."
+    },
+    {
+      "slug": "herreper",
+      "name": "Herreper",
+      "promptName": "Herreper",
+      "description": "Per i mørkeblå dress og blanke sko, med en lav, mørk bil som katten har skaffet. Alt kongen viser ham, har han finere hjemme.",
+      "look": "A gangly young man of about twenty-three with a long neck, a kind oval face, soft brown eyes, a straight nose and a shy smile, now freshly shaved, with his chestnut hair neatly tied back in a short ponytail, standing straighter than he is used to. He wears a dark navy three-piece suit that fits perfectly, a crisp white shirt, a slim dark-green silk tie and black shoes polished to a mirror shine.",
+      "portrait": "Background: the three gates of the Silver Estate."
+    },
+    {
+      "slug": "katten",
+      "name": "Katten",
+      "promptName": "the Cat",
+      "replacesPortrait": "katten-forbannet-kvinne",
+      "description": "En talende grå katt med iskald autoritet som orkestrerer gaver, rykter og eierskap—og som skjuler at hun egentlig er en kvinne under en forbannelse.",
+      "look": "A heavy, dignified grey tabby cat, bigger and more solid than an ordinary house cat, with dark silver-grey stripes, four snow-white paws, a white chest and chin, big green-gold eyes, long white whiskers and a long striped tail that she carries straight up. Around her neck she wears an old, worn collar of faded red leather with a small tarnished brass buckle. She sits bolt upright, like a general inspecting her troops.",
+      "portrait": "Background: the windowsill of an old wooden house."
+    },
+    {
+      "slug": "kvinnen",
+      "name": "Den unge kvinnen",
+      "promptName": "the Young Woman",
+      "description": "Katten i sin egen skikkelse. Trollet tok huset og landet hennes og gjorde henne til katt. Nå er hun fri og kan gjøre som hun vil.",
+      "look": "A graceful young woman of about twenty-three with a small pointed chin, high cheekbones, almond-shaped green-gold eyes like a cat's, a little upturned nose and a calm, direct gaze. Her very long, straight hair is silver-grey and falls to her waist. She wears a long, plain white dress with long sleeves and a high neck, and goes barefoot.",
+      "portrait": "Background: the Golden Dining Hall in morning light."
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "promptName": "the King",
+      "replacesPortrait": "kongen",
+      "description": "En moderne monark vant til å bli beundret, som både lar seg imponere og provosere når en ukjent «Herreper» viser tegn på å være rikere enn ham.",
+      "look": "A short, very fat king of about sixty with a round, shiny bald head, bulging cheeks, a red nose, small beady eyes, a grumpy look and a huge drooping grey walrus moustache that hides his mouth. On ordinary days he wears a dark plum-coloured three-piece suit stretched tight over his enormous belly, a white shirt, a gold tie clip, a heavy gold signet ring and polished oxblood shoes.",
+      "portrait": "Background: the white royal manor behind a gravel courtyard."
+    },
+    {
+      "slug": "trollet",
+      "name": "Trollet (den skjulte eieren)",
+      "promptName": "the Troll",
+      "replacesPortrait": "trollet-den-skjulte-eieren",
+      "description": "En truende, usett makt bak godset—en brutal «eier» som opptrer som et monster i moderne forkledning og som katten til slutt lurer i dagslyset.",
+      "look": "A colossal troll about four times a man's height, round-shouldered and heavy, with long, matted, oatmeal-beige fur covering his head and face, two round yellow eyes that glow like lanterns, a big potato nose and a broad mouth with two blunt buck teeth. His huge bare hands are grey as stone. He wears a gigantic, worn olive-drab work jacket with the hood up and baggy grey work trousers, and goes barefoot on broad, hairy feet.",
+      "portrait": "Background: the gold gate of the Silver Estate at night."
+    }
+  ],
+  "places": [
+    {
+      "slug": "godset",
+      "name": "the Silver Estate",
+      "look": "A country estate on a gentle rise among harvest fields: a long, elegant manor house made all of polished silver, with tall windows, a silver roof and chimneys, shining so brightly in the sun that it hurts the eyes. In front of it, three tall wrought gates stand one behind the other across a paved drive: the first of brass, the second of silver and the third of gold, each between two square stone gateposts with lamps. Behind it rises a low wooded ridge."
+    },
+    {
+      "slug": "spisesalen",
+      "name": "the Golden Dining Hall",
+      "look": "A long dining hall inside the Silver Estate where everything is gold: gold walls and doors, gold chairs, a very long golden table, golden plates and goblets, two big crystal-and-gold chandeliers and even golden light switches by the door. Tall windows with heavy cream curtains look out on the three gates, and the floor is polished golden parquet."
+    }
+  ],
+  "cover": {
+    "prompt": "On a country road between golden stubble fields and round white bales, the Cat runs along the verge with her tail straight up, leading the way. Close behind her, Herreper crawls along in his low, dark, gleaming sports car with the window down and one elbow out, looking a little unsure. Far behind follows a slow convoy: a long black car and four Royal Guard riders on horseback with small flags. Early morning sun.",
+    "characters": ["katten", "herreper"],
+    "caption": "Først katten, med halen rett opp. Så Per, i tjue kilometer i timen.",
+    "alt": "Katten løper langs veikanten med halen rett opp. Bak henne kjører Per sakte i en lav, blank sportsbil, og langt bak kommer en lang, svart bil og fire ryttere med flagg."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 4,
+      "anchor": "«Låner jeg henne bort, får jeg ingenting», sa han.",
+      "characters": ["per", "katten"],
+      "prompt": "In the emptied living room of a small, worn wooden house, with bare walls, pale squares where pictures once hung and a stack of flattened moving boxes, Per lifts the heavy grey Cat into his arms, and she looks back at him coolly. In the doorway his two older brothers are leaving: a broad one in a quilted gilet carrying a black cast-iron pot, and a thin one in a grey hoodie carrying a big, flat, round iron griddle. Flat grey daylight.",
+      "caption": "«Men jeg tar henne med. Hun skal ikke gå her i et tomt hus og sulte.»",
+      "alt": "I et tomt hus løfter Per opp en tung, grå katt. I døra går de to brødrene hans, den ene med ei gryte og den andre med ei takke."
+    },
+    {
+      "id": "02",
+      "paragraph": 12,
+      "anchor": "En halvtime senere kom hun ut av skogen igjen, på hodet til et reinsdyr.",
+      "characters": ["per", "katten"],
+      "prompt": "Beside a main road through dark spruce forest, Per sits on the steel guard rail with his hands in his jacket pockets. Out of the trees behind the rail steps a big grey-brown reindeer with wide antlers, and the Cat sits bolt upright on its head between the antlers, as if she had done this many times before. Per stares with his mouth open. The empty grey road curves away into the forest.",
+      "caption": "Hun satt midt mellom hornene, rak i ryggen.",
+      "alt": "Per sitter på autovernet langs riksveien. Ut av granskogen kommer et reinsdyr, og midt mellom hornene sitter katten, rak i ryggen."
+    },
+    {
+      "id": "03",
+      "paragraph": 18,
+      "anchor": "Det gikk to minutter før kongen sto i døra, med to rådgivere og tre mann fra sikkerheten på slep.",
+      "characters": ["kongen", "per", "katten"],
+      "prompt": "In the delivery yard behind the royal manor, next to a white van with its back doors open, a big grey-brown reindeer stands on the tarmac while Per holds its halter. The King has come out of the loading-bay door, followed by two advisers and three security men in dark suits, and bends forward to look the reindeer in the eye. From between the antlers, the Cat stares straight back at the King, and he looks away. A delivery driver with a crate of potatoes and two cooks in white hats stand frozen.",
+      "caption": "Katten så på kongen. Kongen så bort.",
+      "alt": "Ved varemottaket bak kongsgården holder Per et reinsdyr i grimen. Kongen bøyer seg fram og ser dyret inn i øynene, mens katten stirrer på ham fra hornene. En sjåfør og to kokker står helt stille."
+    },
+    {
+      "id": "04",
+      "paragraph": 28,
+      "anchor": "Elgen kom seg ikke inn i varemottaket, så kongen måtte ut på gårdsplassen.",
+      "characters": ["kongen", "per", "katten"],
+      "prompt": "On the gravel courtyard in front of the white royal manor, an enormous dark-brown moose stands with the Cat sitting on its head between its broad antlers. The King hops from one foot to the other in front of it, beaming, arms flung wide. Per stands beside the moose holding a fat white envelope so stuffed with money that it won't close. Behind the King, two advisers in dark suits clap politely.",
+      "caption": "Kongen ble så glad at han ikke visste hvilket bein han skulle stå på.",
+      "alt": "På gårdsplassen står en diger elg med katten mellom hornene. Kongen tripper av glede, og Per holder en konvolutt som er så full at den ikke vil lukke seg."
+    },
+    {
+      "id": "05",
+      "paragraph": 36,
+      "anchor": "Den tredje kvelden sto det en bil utenfor.",
+      "characters": ["herreper", "katten"],
+      "prompt": "Evening outside a shabby block of flats beside a railway line, a streetlamp just coming on. A low, dark, gleaming sports car stands at the kerb, looking as if it has come to the wrong address. Herreper, freshly shaved in his perfectly fitting navy suit, stands beside it studying his own reflection in the car's dark side window, as if looking at a stranger. The Cat sits on the car's roof, waiting.",
+      "caption": "Det var ikke ham. Det var en som het Herreper.",
+      "alt": "Utenfor en slitt blokk står en lav, mørk og blank bil. Per står i mørkeblå dress og ser på speilbildet sitt i bilruta. Katten sitter på biltaket og venter."
+    },
+    {
+      "id": "06",
+      "paragraph": 46,
+      "anchor": "Da kaffen kom, manglet det en sølvskje, ei sølvøse og et sølvbeger.",
+      "characters": ["kongen", "herreper", "katten"],
+      "prompt": "In the royal banqueting hall, hung with dark oil portraits in gilt frames, a waiter in a white jacket pours coffee at a long table laid with heavy silver. The King has pushed back his chair and risen, his face dark red with anger, while Herreper sits very straight and tries to look bored. Under the long white tablecloth, unseen by everyone, the Cat lies curled up beside a silver spoon, a silver ladle and a silver cup.",
+      "caption": "Da kaffen kom, manglet det en sølvskje, ei sølvøse og et sølvbeger.",
+      "alt": "Kongen har reist seg fra middagsbordet, rød i ansiktet, og Per sitter rak i ryggen. Under duken ligger katten ved siden av ei sølvskje, ei sølvøse og et sølvbeger."
+    },
+    {
+      "id": "07",
+      "paragraph": 60,
+      "anchor": "Gjeteren var førtisju år.",
+      "characters": ["kongen", "katten"],
+      "prompt": "On a country road between pastures, a long black car has stopped with its rear window rolled down, and the King leans out in full regalia: a small gold crown on his bald head, a long red cape trimmed with ermine and rows of medals. He smiles at the shepherd by the fence, a weathered, grey-bearded man of forty-seven in a fleece jacket and wellies, who holds a silver spoon. Behind him grazes a great flock of sheep with wool so long it almost drags on the ground. Far ahead along the verge, the Cat trots on.",
+      "caption": "«Hvem eier den, vesle gutten min?» Gjeteren var førtisju år.",
+      "alt": "Kongen lener seg ut av bilvinduet med krone og rød kappe og smiler til en voksen gjeter med ei sølvskje i hånda. Bak gjeteren beiter sauer med ull som nesten sleper i bakken."
+    },
+    {
+      "id": "08",
+      "paragraph": 70,
+      "anchor": "Kongen steg ut av bilen og ble stående ved den første porten.",
+      "characters": ["kongen", "katten", "herreper"],
+      "places": ["godset"],
+      "prompt": "Morning sun strikes the Silver Estate so brightly that it hurts to look at. The Cat streaks through the three gates of brass, silver and gold like a grey shadow, and Herreper follows a little more slowly, hands in his pockets. The King, in his crown, red ermine cape and medals, has climbed out of his long black car and stands at the first gate, staring, as if his face does not quite know what to do.",
+      "caption": "Kongen så på messingen og sølvet og gullet.",
+      "alt": "Et hus av sølv skinner i morgensola bak tre porter av messing, sølv og gull. Katten løper gjennom portene, og Per går etter. Kongen står ved den første porten i krone og kappe og stirrer."
+    },
+    {
+      "id": "09",
+      "paragraph": 79,
+      "anchor": "Gjennom vinduet så Per ham i lyset fra porten",
+      "characters": ["herreper", "kongen", "trollet", "katten"],
+      "places": ["spisesalen", "godset"],
+      "prompt": "Night in the Golden Dining Hall. Herreper stands at a tall window, pale as chalk, looking out. Outside, in the light of the gate lamps, looms the Troll, a huge hooded figure with grey stone hands and glowing eyes, listening to the Cat, who sits on a gatepost, talking. Behind Herreper, the King sits at the end of the long golden table in his crown, his fork frozen in mid-air, and two bodyguards stand with one hand pressed to their earpieces.",
+      "caption": "En diger skikkelse i en slitt jakke med hetta oppe. Øynene lyste.",
+      "alt": "Om natta står Per ved vinduet i den gylne spisesalen. Ute ved porten står trollet med hetta oppe og lysende øyne, og katten snakker til ham. Kongen sitter ved bordet med gaffelen i lufta."
+    },
+    {
+      "id": "10",
+      "paragraph": 87,
+      "anchor": "Da støvet hadde lagt seg, lå det en haug med grus utenfor porten.",
+      "characters": ["katten"],
+      "places": ["godset"],
+      "prompt": "Early morning outside the gold gate of the Silver Estate, the sun just up over the ridge. On the paved drive lies a heap of grey gravel as tall as a man, with a huge, worn, hooded olive work jacket spread over the top of it, and fine dust still hangs in the golden air. On the road behind, the hazard lights of a row of parked cars all blink at once. The Cat sits on a gatepost, washing a paw.",
+      "caption": "Oppå grushaugen lå en slitt jakke.",
+      "alt": "I morgensola utenfor porten ligger en haug med grå grus, og oppå ligger en stor, slitt jakke. Bak blinker lysene på en rekke biler, og katten sitter på portstolpen og vasker seg."
+    },
+    {
+      "id": "11",
+      "paragraph": 95,
+      "anchor": "Da han åpnet dem igjen, var katten borte.",
+      "characters": ["herreper", "kvinnen", "kongen"],
+      "places": ["spisesalen"],
+      "prompt": "Morning light in the Golden Dining Hall, among golden chairs, chandeliers and the remains of a roast on the long golden table. In the middle of the floor stands the Young Woman in her long white dress, her silver-grey hair falling down her back, looking calmly at Herreper. He has taken off his suit jacket and stands in his shirt and waistcoat, trembling, unable to say a word. At the far end of the table, the King snores in his chair with his crown in his lap.",
+      "caption": "Midt på gulvet sto en ung kvinne i en lang, hvit kjole.",
+      "alt": "I den gylne spisesalen står en ung kvinne med sølvgrått hår i en lang, hvit kjole. Per står i skjorte og vest og skjelver. Ved enden av bordet sover kongen med krona i fanget."
+    },
+    {
+      "id": "12",
+      "paragraph": 100,
+      "anchor": "Bryllupet varte i åtte dager.",
+      "characters": ["herreper", "kvinnen", "kongen"],
+      "places": ["spisesalen"],
+      "prompt": "A wedding party in the Golden Dining Hall, with white summer flowers along the long golden table and strings of little lights under the chandeliers. In the middle of the floor, Herreper and the Young Woman dance together, she in a simple white wedding dress with a crown of wildflowers. At the table, the King, in his crown and red ermine cape, raises a glass to them and smiles for once, among eight guests in suits and summer dresses.",
+      "caption": "Kongen sa ikke én eneste gang at han hadde det finere hjemme.",
+      "alt": "I bryllupet danser Per og den unge kvinnen midt på gulvet i den gylne salen. Kongen sitter ved bordet i krone og kappe og skåler for dem."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "storyId": "dukgras",
+  "title": "Dukken i gresset",
+  "textFile": "public/content/stories/dukgras/modern/story.txt",
+  "world": "Present-day Norway in early summer. The family conglomerate began with one loom in a basement; now it owns three factories, a glass-fronted head office and a white villa by the water behind a wrought-iron gate. The rest area is a roadside café with a car park on a main road; behind it lies a meadow of long grass and wildflowers with round tussocks. Under one tussock is the Doll's home: a small room of grass with flowers growing from the ceiling and a single tiny chair. The tiny shirt is white linen, no longer than a car key. Her carriage is a polished silver spoon with a harness of sewing thread, pulled by two white mice. The old road is a narrow gravel road along a dark lake, squeezed between a rock wall and wet stones, with the new road high above.",
+  "palette": "Early summer with long, light days: fresh green grass and wildflowers (buttercups, clover, cow parsley) behind a grey tarmac car park and a low golden evening sun; the lake dark and cold under a drizzly grey sky; the homecoming at the villa in steady summer rain; the wedding on a pale, bright midsummer evening by the water. Accents: polished silver, sky blue and grass green.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "promptName": "Askeladden",
+      "replacesPortrait": "askeladden",
+      "description": "Yngstesønnen som blir etterlatt ved en rasteplass, men som møter det uventede med åpent sinn og ender med å være den eneste som kommer hjem med noe ekte.",
+      "look": "A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.",
+      "portrait": "Background: a roadside rest area with a flowering meadow behind it."
+    },
+    {
+      "slug": "dukken-i-gresset",
+      "name": "Dukken i gresset",
+      "promptName": "the Tiny Grass Maiden",
+      "replacesPortrait": "dukken-i-gresset",
+      "description": "En bitte liten jente som bor i en skjult gress-lysning, syr en skjorte fra tråd til plagg på én dag, og blir senere forvandlet til en voksen kvinne etter å ha falt i innsjøen.",
+      "look": "A tiny young woman no taller than a mobile phone, perfectly formed with the natural proportions of a grown woman, slim and quick, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with little white and yellow flowers tucked into it. She wears a simple white dress to her ankles and tiny green shoes.",
+      "portrait": "Background: a grassy tussock among wildflowers."
+    },
+    {
+      "slug": "dukken-i-gresset-stor",
+      "name": "Dukken i gresset (stor)",
+      "promptName": "the Grass Maiden",
+      "description": "Dukken i gresset etter at sjømannen har båret henne opp av innsjøen: like stor som et hvilket som helst voksent menneske, og vakrere enn før.",
+      "look": "A young woman in her twenties, now as tall as any grown woman, slim and upright, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with a small gold crown pinned on top. She wears a simple cornflower-blue dress to her ankles and green shoes.",
+      "portrait": "Background: the old gravel road along the lake."
+    },
+    {
+      "slug": "faren",
+      "name": "Faren",
+      "promptName": "the Chairman",
+      "replacesPortrait": "faren",
+      "description": "En selvskapt konsernsjef og lokal maktperson som setter en hard prøve for sønnene, men som respekterer håndverket og holder ord når kravet er oppfylt.",
+      "look": "A tall, thin, elderly self-made industrialist of about seventy with narrow, sloping shoulders, a long, lined face, a long pointed nose, shrewd grey eyes under thin arched eyebrows and a neat, pointed grey goatee. He wears a deep-blue three-piece suit, a silk tie patterned with rosemaling flowers in red, white and yellow and polished dark-blue shoes, and keeps a small brass folding magnifier, a thread counter, in his waistcoat pocket.",
+      "portrait": "Background: his glass-walled office above the factory roofs."
+    },
+    {
+      "slug": "sjomannen",
+      "name": "Sjømannen fra innsjøen",
+      "promptName": "the Lake Man",
+      "replacesPortrait": "sjomannen-fra-innsjoen",
+      "description": "En taus mann i mørk regnfrakk som bærer Dukken i gresset opp av innsjøen og forsvinner uten et ord; Askeladden kaller ham sjømannen, siden havmann blir feil i en innsjø.",
+      "look": "A tall, broad-shouldered man of no clear age with a broad, weathered, kind face, a wide flat nose, calm sea-green eyes and long, straight black hair plastered wet down his back, with a strand of pondweed in it. He wears a long dark raincoat, soaked through and clinging to him, dark trousers and bare feet, and a necklace of small white river shells at his throat. Water streams from him constantly.",
+      "portrait": "Background: the dark lake below a rock wall."
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "Behind a roadside rest area, in long grass full of wildflowers, Askeladden sits with his knees up, his car keys dangling from one hand. On the open palm of his other hand stands the Tiny Grass Maiden, looking straight up at him, calm and curious. He stares back at her, his tear-streaked face breaking into a dimpled, astonished smile. The grey car park lies just beyond the grass.",
+    "characters": ["askeladden", "dukken-i-gresset"],
+    "caption": "Hun var ikke høyere enn mobilen hans.",
+    "alt": "Askeladden sitter i det høye gresset bak rasteplassen med bilnøklene i hånda. I den andre hånda står en bitteliten jente i hvit kjole og ser opp på ham."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 6,
+      "anchor": "Hver av dem fikk en ny bil og en ny dress",
+      "characters": ["askeladden"],
+      "prompt": "A roadside rest area on a Friday morning: twelve new cars stand parked in a row outside a small roadside café. The eleven older brothers, eleven young men in new dark suits, have gathered in a tight half-circle around the youngest one's car. Askeladden stands with his back against his car door, car keys in his hand, looking from face to face, while the eldest brother does the talking.",
+      "caption": "Ved den første rasteplassen samlet de elleve eldste seg rundt bilen til den yngste.",
+      "alt": "Tolv nye biler står parkert ved en veikro. De elleve eldste brødrene i nye dresser står i ring rundt Askeladden, som lener seg mot bilen sin med bilnøklene i hånda."
+    },
+    {
+      "id": "02",
+      "paragraph": 16,
+      "anchor": "Hvordan han kom seg ned, klarte han aldri å forklare etterpå.",
+      "characters": ["askeladden", "dukken-i-gresset"],
+      "prompt": "Inside a small, round room made of grass, with long stalks arching overhead, wildflowers growing down from the ceiling and green light filtering through. The Tiny Grass Maiden sits upright in her single tiny chair in the middle of the room, smoothing her dress and folding her hands in her lap, looking up at her guest. Askeladden sits cross-legged on the grass floor in front of her, hunched under the low ceiling, blinking in wonder.",
+      "caption": "Jenta satte seg i stolen, glattet på kjolen og la hendene i fanget.",
+      "alt": "Inne i et lite rom av gress med blomster i taket sitter den bittelille jenta i en stol og glatter på kjolen. Askeladden sitter sammenkrøpet på gulvet og ser på henne."
+    },
+    {
+      "id": "03",
+      "paragraph": 22,
+      "anchor": "Faren satt bak skrivebordet da Askeladden la skjorta foran ham.",
+      "characters": ["faren", "askeladden"],
+      "prompt": "In a large, glass-walled office with a view over factory roofs, the Chairman sits behind a broad, empty desk and bends low over the tiny white shirt lying on it, peering at the stitches through a small brass thread counter held close to his eye. A desk drawer stands open. Askeladden stands on the other side of the desk with his hands in his pockets, bracing himself for laughter.",
+      "caption": "Så tok han fram trådtelleren og bøyde seg over skjorta.",
+      "alt": "Faren sitter bak et stort skrivebord og studerer den bittelille skjorta gjennom en liten lupe. Askeladden står på den andre siden og venter på at han skal le."
+    },
+    {
+      "id": "04",
+      "paragraph": 35,
+      "anchor": "Bilen fikk stå på rasteplassen med dressen i baksetet",
+      "characters": ["askeladden", "dukken-i-gresset"],
+      "prompt": "A narrow, empty gravel road runs along a still lake under birches in the afternoon. On one side of the road, the Tiny Grass Maiden, dressed today in a little cornflower-blue dress with a tiny gold crown in her hair instead of her white dress, sits upright in a polished silver spoon pulled by two white mice, holding reins of sewing thread. On the far side of the road, Askeladden walks bent forward with his rucksack on his back, watching every step.",
+      "caption": "Musene trakk. Askeladden gikk på den andre siden av veien.",
+      "alt": "Den bittelille jenta i blå kjole og liten krone sitter i en sølvskje som to hvite mus drar langs en grusvei ved vannet. På den andre siden av veien går Askeladden forsiktig med sekk på ryggen."
+    },
+    {
+      "id": "05",
+      "paragraph": 42,
+      "anchor": "Mannen vasset inn mot land og la henne i armene til Askeladden.",
+      "characters": ["sjomannen", "dukken-i-gresset-stor", "askeladden"],
+      "prompt": "At the foot of a rock wall, where the old gravel road runs right down to the dark lake among wet, slippery stones, the Lake Man wades in towards the shore through waist-deep water, carrying the Grass Maiden in his arms, now as tall as any grown woman, water streaming from her hair. Askeladden kneels on the stones at the water's edge, soaked to the shoulders, holding out his arms to take her. A silver spoon lies upside down on the stones.",
+      "caption": "Mannen vasset inn mot land og la henne i armene til Askeladden.",
+      "alt": "En mann i mørk regnfrakk vasser inn mot land med jenta i armene. Nå er hun like stor som et voksent menneske. Askeladden kneler på steinene i vannkanten og strekker ut armene."
+    },
+    {
+      "id": "06",
+      "paragraph": 51,
+      "anchor": "Faren gikk ned et trinn og gned en svart dråpe mellom tommelen og pekefingeren.",
+      "characters": ["faren", "askeladden", "dukken-i-gresset-stor"],
+      "prompt": "Steady rain outside a white villa by the water. The Chairman stands on the top step under the porch roof, rubbing a black drop between his thumb and forefinger with a critical frown. Below him on the wet gravel stand the eleven brothers in soaked suits, each beside a sulky sweetheart in a big black hat, with black streaks running down all eleven of the sweethearts' faces. At the open wrought-iron gate behind them, Askeladden and the Grass Maiden have just arrived.",
+      "caption": "«Ikke fargeekte», sa faren.",
+      "alt": "Faren står på trappa til villaen og gnir en svart dråpe mellom fingrene. Nedenfor står de elleve brødrene med kjærestene sine, som har svarte striper nedover ansiktene. Ved porten kommer Askeladden og jenta."
+    },
+    {
+      "id": "07",
+      "paragraph": 58,
+      "anchor": "Askeladden og Dukken i gresset holdt bryllup ved vannet samme sommer.",
+      "characters": ["faren", "askeladden", "dukken-i-gresset-stor"],
+      "prompt": "A bright midsummer evening on the lawn of the villa by the water, with a long wedding table under birch trees. The Chairman stands at the head of the table giving his speech, holding up a tiny white shirt in a small glass frame for everyone to see. Beside him sit the bride and groom, Askeladden and the Grass Maiden, with a wreath of wildflowers in her hair, smiling at each other. Twelve seated guests raise their glasses.",
+      "caption": "Denne gangen hadde faren med seg en skjorte å vise fram.",
+      "alt": "Ved et langbord ved vannet holder faren tale og viser fram en bitteliten skjorte i en glassramme. Ved siden av ham sitter Askeladden og bruden og smiler til hverandre."
+    }
+  ]
+}

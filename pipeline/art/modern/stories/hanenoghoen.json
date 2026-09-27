@@ -1,0 +1,63 @@
+{
+  "storyId": "hanenoghoen",
+  "title": "Hanen og høna",
+  "textFile": "public/content/stories/hanenoghoen/modern/story.txt",
+  "world": "Present-day Norway, on the last smallholding before a small town begins. The hen and the rooster live in a little red-painted wooden chicken coop with a cold concrete floor and doorstep, straw bedding, a wooden nest box along one wall and a wire-mesh run beside it. A coral-red garden gate in the white picket fence opens onto a street with a pavement and lamp posts, and a little way down it the town's main street begins, with shop fronts, parked bicycles and a bus stop. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding six brown eggs. The birds wear no clothes, and the hen's feet are bare.",
+  "palette": "A cold, bright April afternoon: pale sun and long shadows, grey concrete, the last grubby snow in the corners and bare trees with the first green buds, while down the street the shop windows glow warm. Accents: the hen's chestnut brown, the rooster's rust red and gold, and the coral-red gate.",
+  "cast": [
+    {
+      "slug": "hona",
+      "name": "Høna",
+      "promptName": "the Hen",
+      "replacesPortrait": "hona",
+      "description": "Pliktoppfyllende og utslitt av å levere hver dag uten å få noe tilbake, men klar for å ta kontroll over sitt eget liv.",
+      "look": "A plump, round, hard-working hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare yellow feet are big, with long, spread-out toes. She carries a small round wicker basket of eggs, lined with straw, hooked over one wing.",
+      "portrait": "Background: the little red coop with its door open."
+    },
+    {
+      "slug": "hanen",
+      "name": "Hanen",
+      "promptName": "the Rooster",
+      "replacesPortrait": "hanen",
+      "description": "Avslappet og unnvikende, vant til å love uten å levere, men til slutt brutalt direkte om at hun bør ordne opp selv.",
+      "look": "A tall, handsome rooster speckled all over in rust red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He has a relaxed, evasive air and likes to shrug with his wings.",
+      "portrait": "Background: the straw-strewn floor of the little red coop."
+    }
+  ],
+  "places": [
+    {
+      "slug": "honsehuset",
+      "name": "the Red Coop",
+      "look": "A little red-painted wooden chicken coop on the last smallholding before a small town: a low doorway with a grey concrete step and a concrete apron in front, straw on the floor inside, a wooden nest box along one wall and a wire-mesh run beside it. A white picket fence with a coral-red garden gate opens onto a street, and beyond it rise the rooftops and shop fronts of a small town."
+    }
+  ],
+  "cover": {
+    "prompt": "Late afternoon on the last smallholding before the town: the Hen marches out through the open coral-red garden gate onto the pavement, head high, her basket of six eggs hooked over one wing, heading for the warmly lit shop windows down the street. Behind her, in the doorway of the Red Coop, the Rooster watches her go with his beak open, a little surprised.",
+    "characters": ["hona", "hanen"],
+    "places": ["honsehuset"],
+    "caption": "Hanen hadde lovet sko i fire år.",
+    "alt": "Høna marsjerer ut gjennom porten med eggekurven på vingen, mot butikkvinduene nede i gata. I døra til hønsehuset står hanen og ser overrasket etter henne."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "«Du skal nok få sko», sa hanen.",
+      "characters": ["hona", "hanen"],
+      "places": ["honsehuset"],
+      "prompt": "On the cold concrete doorstep of the Red Coop, the Hen sits heavily with her bare yellow feet on the grey concrete, her feathers drooping, complaining. Just inside, the Rooster pokes about in the straw with his beak and does not look up, as if he has heard it all many times before. Pale, cold April light and the last grubby snow in a corner of the yard.",
+      "caption": "Det hadde han sagt i fire år.",
+      "alt": "Høna sitter tungt på betongtrappa foran hønsehuset med de bare føttene på den kalde betongen. Inne pirker hanen i halmen og ser ikke opp."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "Porten ut mot gata sto åpen, og skobutikken i Storgata hadde åpent til seks.",
+      "characters": ["hanen", "hona"],
+      "places": ["honsehuset"],
+      "prompt": "In front of the Red Coop, the Rooster has finally turned round and gives a big, careless shrug of his wings. The Hen stands before him clutching her basket of six eggs to her chest, her beak open in disbelief. Behind them, the coral-red garden gate stands open onto the street, and a little way down it the shop windows of the town glow in the cold afternoon light.",
+      "caption": "«Du har jo egen inntekt», sa han.",
+      "alt": "Hanen trekker på vingene foran hønsehuset. Høna klemmer eggekurven inntil seg og gaper. Bak dem står porten åpen ut mot gata og butikkene."
+    }
+  ]
+}

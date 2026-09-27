@@ -1,0 +1,198 @@
+{
+  "storyId": "dukgras",
+  "variants": {
+    "simplified": {
+      "title": "Dukken i gresset",
+      "textFile": "public/content/stories/dukgras/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Doll in the Grass",
+      "textFile": "public/content/stories/dukgras/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway in early summer. The King's manor is a large royal farm of dark log buildings with turf roofs, carved dragon gables and a wide yard, among flowering meadows. The road from the manor runs through the meadows past the tussock where the Doll in the Grass lives: a round, knee-high hump of grass and clover that parts like a curtain, with a snug little room beneath it. The tiny shirt is snow-white linen, no longer than a man's finger. Her carriage is an ordinary shining silver tablespoon drawn by two little white mice with reins of red thread. Further on, the road runs along a great, wide, dark lake fringed with reeds. Askeladden's horse is a dun fjord horse with a black-and-cream striped mane.",
+  "palette": "Early summer: meadows full of buttercups, clover, cornflowers and white daisies, fresh green birches and soft morning light under a pale-blue sky with small white clouds. The great lake is dark slate-blue under drifting cloud. The homecoming is a grey, rain-washed afternoon with puddles and dripping eaves. Accents: shining silver, grass green and sky blue.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "promptName": "Askeladden",
+      "look": "A tall, gangly young prince of about nineteen with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and copper-red hair cut in a round bowl cut. He wears a sky-blue linen smock with a small silver clasp at the collar, belted with a broad brown leather belt, loose grey wool breeches and tall, worn brown riding boots.",
+      "portrait": "Background: a flowering roadside meadow in early summer.",
+      "variants": {
+        "simplified": {
+          "name": "Askeladden",
+          "description": "Den yngste prinsen som blir avvist av brødrene, men som møter Dukken i gresset og viser godhet og mot.",
+          "replacesPortrait": "askeladden"
+        },
+        "english": {
+          "name": "Ash-Lad",
+          "description": "The overlooked youngest brother whose kindness and courage lead him to a wondrous bride and a better fate than his proud siblings.",
+          "replacesPortrait": "ash-lad"
+        }
+      }
+    },
+    {
+      "slug": "dukken-i-gresset",
+      "promptName": "the Tiny Grass Maiden",
+      "look": "A tiny young woman of about eighteen, no taller than a man's hand, perfectly formed with the natural proportions of a grown girl, slim and light on her feet, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with daisies tucked in. She wears a fine ankle-length white linen dress with a grass-green sash, and a faint glow shines about her.",
+      "portrait": "Background: her grassy tussock among buttercups and clover.",
+      "variants": {
+        "simplified": {
+          "name": "Dukken i gresset",
+          "description": "En bitteliten, praktfullt pyntet kvinne som kan spinne, veve og sy på en dag, og som forvandles til full størrelse etter å ha falt i vannet.",
+          "replacesPortrait": "dukken-i-gresset"
+        },
+        "english": {
+          "name": "The Doll in the Grass",
+          "description": "A lovely, tiny maiden who lives hidden among grassy tussocks, rides in a silver spoon, and becomes full-grown after falling into the water.",
+          "replacesPortrait": "doll-in-the-grass"
+        }
+      }
+    },
+    {
+      "slug": "dukken-i-gresset-stor",
+      "promptName": "the Grass Maiden",
+      "look": "A young woman of about eighteen, now as tall as any grown woman, slim and graceful, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, under a wreath of daisies and buttercups. She wears a fine ankle-length white linen dress embroidered with little green leaves along the hem and sleeves, and a grass-green sash.",
+      "portrait": "Background: the yard of the royal manor after a summer rain.",
+      "variants": {
+        "simplified": {
+          "name": "Dukken i gresset (stor)",
+          "description": "Dukken i gresset etter at havmannen har båret henne opp av vannet: like stor som et hvilket som helst voksent menneske, og mye vakrere enn før."
+        },
+        "english": {
+          "name": "The Doll in the Grass (full-grown)",
+          "description": "The Doll in the Grass after the merman brings her up out of the lake: as tall as any grown woman, and far lovelier than before."
+        }
+      }
+    },
+    {
+      "slug": "kongen",
+      "promptName": "the King",
+      "look": "A tall, thin, elderly king with narrow, sloping shoulders, a long, lined face, a long pointed nose, shrewd grey eyes under thin arched eyebrows and a neat, pointed grey goatee. He wears a tall, pointed gold crown, a long deep-blue wool robe with a wide border of rosemaling flowers embroidered in red, white and yellow, and pointed dark-blue leather shoes.",
+      "portrait": "Background: a leaded window in his timbered hall.",
+      "variants": {
+        "simplified": {
+          "name": "Kongen",
+          "description": "Faren som setter den strenge prøven for svigerdøtrene og til slutt velger Askeladden og Dukken i gresset.",
+          "replacesPortrait": "kongen"
+        },
+        "english": {
+          "name": "The King",
+          "description": "Father of twelve sons, stern in his demands but quick to recognize true worth when Ash-Lad returns with a remarkable bride.",
+          "replacesPortrait": "the-king"
+        }
+      }
+    },
+    {
+      "slug": "havmannen",
+      "promptName": "the Merman",
+      "look": "A big, broad-chested merman, a man from the waist up and a great salmon from the waist down, with a broad, weathered, kind face, a wide flat nose, twinkling sea-green eyes, long wet dark-green hair hanging to his waist with strands of pondweed in it, a curly dark-green beard and a small, plain crown of tarnished gold. He wears a necklace of white river shells, and his long tail is silver with small black spots and a pink sheen, ending in a broad forked fin.",
+      "portrait": "Background: the wide, dark lake fringed with reeds.",
+      "variants": {
+        "simplified": {
+          "name": "Havmannen",
+          "description": "Den mystiske skikkelsen som redder Dukken i gresset fra vannet og gjør at hun kommer opp forvandlet.",
+          "replacesPortrait": "havmannen"
+        },
+        "english": {
+          "name": "The Merman",
+          "description": "A mysterious being of the water who returns the Doll in the Grass and triggers her wondrous transformation.",
+          "replacesPortrait": "the-merman"
+        }
+      }
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "A wide view of a sunny country road winding through meadows of buttercups and daisies. On one side of the road, the Tiny Grass Maiden sits upright in a shining silver tablespoon drawn by two little white mice, holding reins of red thread and smiling proudly. On the far side of the road, Askeladden rides his dun horse at a slow, careful walk, leaning out of the saddle to keep an anxious eye on her.",
+    "characters": ["askeladden", "dukken-i-gresset"],
+    "variants": {
+      "simplified": {
+        "caption": "Han på hesten og hun i sølvskjeen.",
+        "alt": "Den bittelille jenta kjører i en sølvskje som to hvite mus drar. På den andre siden av veien rir Askeladden forsiktig og holder et øye med henne."
+      },
+      "english": {
+        "caption": "He on his horse and she in her silver spoon.",
+        "alt": "The tiny girl rides in a silver spoon pulled by two white mice. On the far side of the road, Ash-Lad rides carefully, keeping a worried eye on her."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["askeladden", "dukken-i-gresset"],
+      "prompt": "A low, close view in a sunny early-summer meadow by the road. Askeladden sits in the long grass with tear stains on his cheeks and his knees drawn up, his new steel armour flung down in the grass beside him and his dun horse grazing behind. In front of him, a round grassy tussock has parted like a curtain, and out steps the Tiny Grass Maiden, no taller than his hand, shining softly. Askeladden stares down at her in astonishment.",
+      "variants": {
+        "simplified": {
+          "paragraph": 4,
+          "anchor": "Men da han hadde sittet en liten stund, begynte en av tuene foran ham å røre på seg.",
+          "caption": "Det var en jente, nydelig og fint pyntet, men ikke større enn hånda hans.",
+          "alt": "Askeladden sitter i gresset med tårer på kinnene, og rustningen ligger slengt ved siden av ham. Ut av en tue foran ham kommer en bitteliten jente i hvit kjole."
+        },
+        "english": {
+          "paragraph": 5,
+          "anchor": "He hadn’t been sitting there long when one of the tussocks in front of him began to stir.",
+          "caption": "A girl, and a lovely one, but no taller than his hand.",
+          "alt": "Ash-Lad sits in the long grass with tears on his cheeks, his armour flung down beside him. Out of a tussock in front of him steps a tiny girl in a white dress."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["kongen", "askeladden"],
+      "prompt": "In the timbered hall of the royal manor, the King stands at a small leaded window and holds the tiny white shirt up to the light between his finger and thumb, squinting at the stitches for a long while with one eye shut. Askeladden stands beside him with his cheeks burning and his eyes on his boots, ashamed of how small the shirt is. Dust glitters in the sunbeam.",
+      "variants": {
+        "simplified": {
+          "paragraph": 12,
+          "anchor": "Med den skjorta red Askeladden hjem.",
+          "caption": "Kongen holdt skjorta opp mot lyset en lang stund.",
+          "alt": "Kongen står ved et vindu og holder en bitteliten, hvit skjorte opp mot lyset mellom to fingre. Askeladden står ved siden av ham, rød i kinnene, og ser ned."
+        },
+        "english": {
+          "paragraph": 13,
+          "anchor": "Ash-Lad rode home with it, but when he took it out to show the King, he was ashamed of it",
+          "caption": "The King held it up to the light for a long while.",
+          "alt": "The King stands at a window, holding a tiny white shirt up to the light between two fingers. Ash-Lad stands beside him, red-cheeked, looking at the floor."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["havmannen", "dukken-i-gresset-stor", "askeladden"],
+      "prompt": "At the edge of the great, dark lake, the water bubbles and swirls where the Merman has risen chest-deep among the reeds, his salmon tail curling just below the surface. He hands the Grass Maiden, now as tall as any grown woman and dripping wet, towards Askeladden, who kneels on the bank and reaches out his arms in wonder. The shining silver spoon lies overturned in the reeds, and the dun horse waits on the road behind.",
+      "variants": {
+        "simplified": {
+          "paragraph": 17,
+          "anchor": "Men om en liten stund begynte det å boble, og opp av dypet steg en havmann med grønt skjegg og krone på hodet.",
+          "caption": "Havmannen rakte henne til Askeladden på bredden.",
+          "alt": "En havmann med grønt hår og skjegg og en liten krone står i vannet og rekker den nå fullvoksne jenta til Askeladden, som kneler på bredden. Sølvskjeen ligger veltet i sivet."
+        },
+        "english": {
+          "paragraph": 18,
+          "anchor": "But after a little while the water began to bubble",
+          "caption": "The merman handed her to Ash-Lad on the bank.",
+          "alt": "A merman with green hair, a green beard and a small crown rises from the lake and hands the now full-grown girl to Ash-Lad, who kneels on the bank. The silver spoon lies overturned in the reeds."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["kongen", "askeladden", "dukken-i-gresset-stor"],
+      "prompt": "In the rain-wet yard of the royal manor under a clearing sky, the King beams at Askeladden and the Grass Maiden, who stand hand in hand before him, and with one hand points sternly towards the gate. Along the wall stand the eleven older brothers, glaring with jealousy, each beside his scowling sweetheart; every one of the eleven sweethearts wears a hat daubed with tar and soot, with black streaks running down her face. Puddles shine on the ground.",
+      "variants": {
+        "simplified": {
+          "paragraph": 20,
+          "anchor": "Da brødrene fikk se kjæresten til Askeladden, ble de misunnelige, alle elleve.",
+          "caption": "Kongen ble så glad i de to at han jaget alle de andre sin vei.",
+          "alt": "Kongen smiler til Askeladden og jenta, som står hånd i hånd, og peker mot porten. Langs veggen står de elleve brødrene med sure kjærester som har svarte striper nedover ansiktene."
+        },
+        "english": {
+          "paragraph": 21,
+          "anchor": "When the brothers saw Ash-Lad’s sweetheart, all eleven of them were eaten up with jealousy.",
+          "caption": "The King was so taken with the two of them that he sent all the others packing.",
+          "alt": "The King beams at Ash-Lad and the girl, who stand hand in hand, and points to the gate. Along the wall stand the eleven jealous brothers with their scowling sweethearts, black streaks running down their faces."
+        }
+      }
+    }
+  ]
+}

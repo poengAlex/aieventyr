@@ -1,0 +1,262 @@
+{
+  "storyId": "nodedsk",
+  "variants": {
+    "simplified": {
+      "title": "Hanen og høna i Nøtteskogen",
+      "textFile": "public/content/stories/nodedsk/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Rooster and the Hen in the Hazelwood",
+      "textFile": "public/content/stories/nodedsk/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, at harvest time. The Hazelwood is a small, sunny wood of tall hazel bushes heavy with ripe nuts, on a hillside above a farming village. Just outside it, a clear, cold spring bubbles up between mossy stones and splashes into a little pool below a huge old linden tree. From there, paths run along the edge of the wood and down to the village: turf-roofed log farms, a barn with a threshing floor, a sow's muddy pen by a fence, a woodpile at the edge of the spruce forest and a small smithy. Deep in the forest lies the charcoal burner's clearing with its smoking, earth-covered kiln. The red-gold ribbons are narrow red silk ribbons woven with gold thread.",
+  "palette": "Early September harvest time on a bright, breezy day: hazel bushes still green with the first yellow leaves, clusters of ripe brown nuts, dew-wet meadows, golden stubble fields and stooks of grain under a high blue sky with small white clouds, in crisp, clear sunlight. Accents: the Rooster's scarlet comb, the red-gold ribbons and the Virgin Mary's light blue. In the forest: dark spruce and drifting blue-grey kiln smoke.",
+  "cast": [
+    {
+      "slug": "hanen",
+      "promptName": "the Rooster",
+      "look": "A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.",
+      "portrait": "Background: the sunny Hazelwood with ripe nuts on the bushes.",
+      "variants": {
+        "simplified": {
+          "name": "Hanen",
+          "description": "En rask og sta hane som nekter å gi opp før han har skaffet vann til høna si.",
+          "replacesPortrait": "hanen"
+        },
+        "english": {
+          "name": "The Rooster",
+          "description": "A brave, quick-footed rooster who will do anything to save his darling hen, running from one helper to the next to complete an impossible-sounding chain of trades.",
+          "replacesPortrait": "the-rooster"
+        }
+      }
+    },
+    {
+      "slug": "hona",
+      "promptName": "the Hen",
+      "look": "A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.",
+      "portrait": "Background: the mossy floor of the Hazelwood, scattered with nuts.",
+      "variants": {
+        "simplified": {
+          "name": "Tuppe (Høna)",
+          "description": "Høna som får et nøtteskall i halsen og trenger hjelp før det er for sent.",
+          "replacesPortrait": "tuppe-hona"
+        },
+        "english": {
+          "name": "The Hen",
+          "description": "The rooster’s beloved companion, weakened after a piece of nutshell lodges in her throat, waiting in the hazelwood for help.",
+          "replacesPortrait": "the-hen"
+        }
+      }
+    },
+    {
+      "slug": "kilden",
+      "promptName": "the Spring",
+      "look": "A small, round, crystal-clear spring welling up between mossy grey stones and splashing down into a little pool about as wide as a cartwheel, fringed with ferns and blue forget-me-nots. In its bubbling surface a face can just be seen in the ripples: two round, shining bubble eyes and a wide, gurgling mouth. The water is so clear that the pebbles on the bottom glint.",
+      "portrait": "Background: ferns and the roots of the great linden.",
+      "variants": {
+        "simplified": {
+          "name": "Kilden",
+          "description": "En streng, men rettferdig kilde som bare gir vann når den får det den ber om.",
+          "replacesPortrait": "kilden"
+        },
+        "english": {
+          "name": "The Spring",
+          "description": "A woodland spring that withholds water until it receives leaves, setting the urgent bargain-chain in motion.",
+          "replacesPortrait": "the-spring"
+        }
+      }
+    },
+    {
+      "slug": "linden",
+      "promptName": "the Linden",
+      "look": "An enormous, ancient linden tree with a broad, rounded crown of heart-shaped leaves, green with the first touches of yellow, a thick, gnarled grey-brown trunk and big knobbly roots like toes. In the bark of the trunk is a kind, sleepy old face: two knot-hole eyes under mossy bark eyebrows, a round knobbly nose and a wide, gentle mouth, and two low branches bend like arms.",
+      "portrait": "Background: the green hillside above the spring.",
+      "variants": {
+        "simplified": {
+          "name": "Lindetreet",
+          "description": "Et stort lindetre som krever røde gullbånd før det vil gi fra seg løv.",
+          "replacesPortrait": "lindetreet"
+        },
+        "english": {
+          "name": "The Linden",
+          "description": "A huge old linden tree that shakes out its branches and will give no leaves until it gets red-gold ribbons."
+        }
+      }
+    },
+    {
+      "slug": "jomfru-maria",
+      "promptName": "the Virgin Mary",
+      "look": "A small, soft, grandmotherly woman of about seventy with a round, kind, wrinkled face, twinkling light-grey eyes, a gentle smile and silver hair under a simple white linen veil. She wears a light-blue wool shawl over a plain, long lavender dress and goes barefoot. She looks like a humble country grandmother, with no halo and no crown.",
+      "portrait": "Background: the path at the edge of the wood, among ferns and harebells.",
+      "variants": {
+        "simplified": {
+          "name": "Jomfru Maria",
+          "description": "En rolig skikkelse som kan gi røde gullbånd, men først vil ha sko.",
+          "replacesPortrait": "jomfru-maria"
+        },
+        "english": {
+          "name": "The Virgin Mary",
+          "description": "A gentle, barefoot figure on the path at the edge of the wood, who will give red-gold ribbons, but only for a pair of shoes."
+        }
+      }
+    },
+    {
+      "slug": "kullbrenneren",
+      "promptName": "the Charcoal Burner",
+      "look": "A tall, lean, kindly man of about sixty, black with soot from his hood to his boots, so that only his friendly pale-blue eyes and a white-toothed smile shine out of a long, sooty face with a hooked nose and grey stubble. He wears a pointed grey wool hood over his head and shoulders, a long patched leather apron, sooty brown trousers and heavy boots.",
+      "portrait": "Background: his smoking, earth-covered kiln in the dark spruce forest.",
+      "variants": {
+        "simplified": {
+          "name": "Kullbrenneren",
+          "description": "Den sotsvarte kullbrenneren inne i skogen. Han er den eneste som ikke vil ha noe tilbake, for han synes synd på hanen."
+        },
+        "english": {
+          "name": "The Charcoal Burner",
+          "description": "The one who finally takes pity, giving charcoal that unlocks the chain and makes the rescue possible.",
+          "replacesPortrait": "the-charcoal-burner"
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "notteskogen",
+      "name": "the Hazelwood",
+      "look": "A small, sunny wood of tall, many-stemmed hazel bushes heavy with clusters of ripe brown hazelnuts in green-and-brown husks, their leaves still green with the first yellow ones, over a soft carpet of emerald moss scattered with fallen nuts and broken shells and a few mossy grey stones. A narrow winding path leads out between the bushes towards open fields."
+    }
+  ],
+  "cover": {
+    "prompt": "In the Hazelwood on a bright morning, the Rooster races towards the viewer along the mossy path at full tilt, wings half spread and every feather streaming, a fierce, determined look in his eye. Behind him, under a hazel bush heavy with ripe nuts, the Hen lies in the moss among broken shells, watching him go. The path winds away between the bushes towards a sunny meadow.",
+    "characters": ["hanen", "hona"],
+    "places": ["notteskogen"],
+    "variants": {
+      "simplified": {
+        "caption": "Hanen løper for å skaffe vann til Tuppe, høna si.",
+        "alt": "Hanen spurter mot oss langs stien i Nøtteskogen med vingene ut. Bak ham ligger høna i mosen under en hasselbusk og ser etter ham."
+      },
+      "english": {
+        "caption": "The Rooster runs to fetch water for Tuppen, his hen.",
+        "alt": "The rooster races towards us along the path through the Hazelwood with his wings out. Behind him, the hen lies in the moss under a hazel bush, watching him go."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["hona", "hanen"],
+      "places": ["notteskogen"],
+      "prompt": "In the Hazelwood on a bright morning, seen close at bird height: the Hen lies on her side in the moss among fallen hazelnuts and broken shells, flapping her wings, her beak wide open without a sound. The Rooster stands over her with every feather on end, crowing with his beak thrown open and one wing flung out towards the path. Sunlight slants between the hazel stems.",
+      "variants": {
+        "simplified": {
+          "paragraph": 3,
+          "anchor": "«Vann!» gol han.",
+          "caption": "«Vann!» gol han. «Du skal få vann, Tuppe!»",
+          "alt": "Høna ligger i mosen blant nøtter og knuste skall og spreller med vingene. Hanen står over henne med alle fjærene rett til værs og galer."
+        },
+        "english": {
+          "paragraph": 3,
+          "anchor": "“Water!” he crowed.",
+          "caption": "“Water!” he crowed. “You’ll have water, Tuppen!”",
+          "alt": "The hen lies in the moss among nuts and broken shells, flapping her wings. The rooster stands over her with every feather on end, crowing."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["hanen", "linden", "kilden"],
+      "prompt": "Just outside the wood, seen from low down: the Rooster stands on the knobbly roots of the enormous Linden and calls up to it, one foot raised. The Linden's sleepy old face in the bark looks down with a frown as it shakes out its branches, and a few heart-shaped leaves come fluttering down. At the foot of the tree, the Spring bubbles up between mossy stones into its little pool, its rippling face watching with pursed lips. Bright morning sun.",
+      "variants": {
+        "simplified": {
+          "paragraph": 7,
+          "anchor": "«Du får ikke løv av meg før jeg får røde gullbånd av deg»",
+          "caption": "«Du får ikke løv av meg før jeg får røde gullbånd av deg», sa linden.",
+          "alt": "Hanen står på røttene til et diger lindetre og roper opp til det. Lindetreet har et gammelt ansikt i barken og rister på greinene. Nedenfor bobler kilden mellom mosegrodde steiner."
+        },
+        "english": {
+          "paragraph": 8,
+          "anchor": "“You’ll get no leaves from me till I get red-gold ribbons from you,”",
+          "caption": "“You’ll get no leaves from me till I get red-gold ribbons from you.”",
+          "alt": "The rooster stands on the roots of a huge linden tree, calling up to it. The linden has an old face in its bark and shakes its branches. Below them, the spring bubbles up between mossy stones."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["jomfru-maria", "hanen"],
+      "prompt": "On the path at the edge of the wood, among ferns and harebells, the Virgin Mary stands barefoot with her hands folded, smiling kindly and looking down at her bare toes on the stony path. A few narrow red ribbons woven with gold hang from her folded hands. The Rooster stands before her, breathless, looking up at her with his beak open. Behind them, sunlit stubble fields slope down towards the village.",
+      "variants": {
+        "simplified": {
+          "paragraph": 11,
+          "anchor": "«Du får ikke røde gullbånd av meg før jeg får sko av deg.»",
+          "caption": "«Du får ikke røde gullbånd av meg før jeg får sko av deg.»",
+          "alt": "Jomfru Maria står barbeint på stien i skogkanten med hendene foldet og kikker ned på tærne sine. Hanen står foran henne og ser opp."
+        },
+        "english": {
+          "paragraph": 12,
+          "anchor": "“You’ll get no red-gold ribbons from me till I get shoes from you.”",
+          "caption": "“You’ll get no red-gold ribbons from me till I get shoes from you.”",
+          "alt": "The Virgin Mary stands barefoot on the path at the edge of the wood with her hands folded, looking down at her bare toes. The rooster stands before her, looking up."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["hanen"],
+      "prompt": "At a big woodpile at the edge of the spruce forest, a burly woodcutter with a bushy black beard, rolled-up sleeves, a leather jerkin and a brown felt hat holds up a bare wooden axe handle with nothing on the end of it, staring at it with a comically baffled face. The Rooster stands on a chopping block in front of him, panting, his feathers ruffled. Split logs and wood chips lie all around.",
+      "variants": {
+        "simplified": {
+          "paragraph": 24,
+          "anchor": "Vedhoggeren sto med bare skaftet i nevene.",
+          "caption": "Vedhoggeren sto med bare skaftet i nevene.",
+          "alt": "En kraftig vedhogger med svart skjegg står ved en vedstabel og holder opp et økseskaft uten øksehode. Hanen står andpusten på en hoggestabbe foran ham."
+        },
+        "english": {
+          "paragraph": 26,
+          "anchor": "The Woodcutter was holding a handle with nothing on the end of it.",
+          "caption": "The Woodcutter was holding a handle with nothing on the end of it.",
+          "alt": "A burly woodcutter with a black beard stands by a woodpile holding up an axe handle with no head on it. The rooster stands panting on a chopping block in front of him."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["kullbrenneren", "hanen"],
+      "prompt": "In a smoky clearing deep in the spruce forest, beside a big dome-shaped charcoal kiln covered with earth and turf that sends up soft blue-grey smoke, the Charcoal Burner kneels down and, with a gentle smile, holds out a small sack of charcoal to the Rooster. The Rooster stands before him, panting hard, his white feathers ruffled and dusty and his comb drooping.",
+      "variants": {
+        "simplified": {
+          "paragraph": 31,
+          "anchor": "Men kullbrenneren ville ikke ha noe.",
+          "caption": "Kullbrenneren syntes synd på hanen og ga ham en sekk kull.",
+          "alt": "I en rykende lysning inne i skogen kneler den sotsvarte kullbrenneren og rekker hanen en sekk kull. Hanen står andpusten foran ham med rufsete fjær."
+        },
+        "english": {
+          "paragraph": 33,
+          "anchor": "But the Charcoal Burner didn’t want anything.",
+          "caption": "He felt sorry for the Rooster, and he filled a sack with charcoal for him.",
+          "alt": "In a smoky clearing deep in the forest, the soot-black charcoal burner kneels and holds out a sack of charcoal to the rooster, who stands panting in front of him with ruffled feathers."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["hona", "hanen"],
+      "places": ["notteskogen"],
+      "prompt": "Back in the Hazelwood at midday, the Hen stands bright-eyed and perky again, her comb red, drinking the last drops from a small round birchwood bowl of water. Beside her, the Rooster lies flat on his back in the moss with his wings spread and his feet in the air, bedraggled and panting, his comb drooping. Ripe hazelnuts and broken shells lie all around in the sunshine.",
+      "variants": {
+        "simplified": {
+          "paragraph": 34,
+          "anchor": "Da ble hun frisk igjen.",
+          "caption": "Da ble hun frisk igjen. Det tok litt lenger tid med hanen.",
+          "alt": "Høna står frisk og rød i kammen og drikker av ei lita trebolle. Ved siden av ligger hanen på ryggen i mosen med beina i været og peser."
+        },
+        "english": {
+          "paragraph": 36,
+          "anchor": "And so she was well again.",
+          "caption": "And so she was well again. The Rooster took a little longer.",
+          "alt": "The hen stands well again, her comb red, drinking from a small wooden bowl. Beside her the rooster lies on his back in the moss with his feet in the air, panting."
+        }
+      }
+    }
+  ]
+}

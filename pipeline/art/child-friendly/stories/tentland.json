@@ -1,0 +1,299 @@
+{
+  "storyId": "tentland",
+  "title": "De tre prinsessene i Hvittenland",
+  "textFile": "public/content/stories/tentland/child-friendly/story.txt",
+  "world": "Old Norway by the sea, long ago. The fisherman's small grey cottage with a turf roof stands on the shore right next to the king's castle, and his boat is a small, tarred, dark-brown rowing boat with two oars. Far across the great sea lies Hvittenland, whose beach is sand as white as milk, with the trolls' gloomy grey castle on a hill behind it and two lions at its gate. The queen's own castle in Hvittenland is white, with a stone stair up to its door. The trolls' birch switches are bundles of thin, bare birch twigs. The queen's wish ring is a plain gold ring, and the little ring she ties into his hair is a tiny gold ring on a blue thread. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and a pair of tall brown boots.",
+  "palette": "The bright, cold light of early spring in the far north: a copper-red sunset over the sea at the start, then the dazzling milk-white beach of Hvittenland under a pale pearl-blue sky, with turquoise shallows and pale lemon sunrises. The tickling nights happen in near darkness, lit by one warm candle. On the long journey: deep snow still on blue mountains, a steel-grey cold sea and wild, racing storm clouds. Accents: the princess's sky blue and the gold of rings and crowns.",
+  "cast": [
+    {
+      "slug": "gutten",
+      "name": "Fiskergutten",
+      "promptName": "the Fisher Lad",
+      "description": "Fiskerens sønn, som vokser opp på slottet hos kongen, driver over havet til Hvittenland og holder ut tre netter med trollkiling.",
+      "look": "A sturdy, broad-shouldered young man of about twenty with an open, square face, a strong nose with a small bump, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble on his cheeks and chin. He wears a thick, cream-coloured cable-knit fisherman's sweater, dark-blue canvas trousers rolled up at the ankles and sturdy knee-high sea boots of tan leather, and a red handkerchief with white dots pokes out of his pocket.",
+      "portrait": "Background: the milk-white beach of Hvittenland."
+    },
+    {
+      "slug": "den-unge-kongen",
+      "name": "Den unge kongen",
+      "promptName": "the Young King",
+      "replacesPortrait": "den-unge-kongen",
+      "description": "Fiskerens sønn som blir oppdratt på slottet, viser mot og tålmodighet, og legger ut på en lang reise for å finne tilbake til dronningen sin.",
+      "look": "A sturdy, broad-shouldered young king of about twenty, a fisherman's son, with an open, square face, a strong nose with a small bump, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble. On his head sits a small, plain gold crown with five points. Over his thick cream cable-knit fisherman's sweater he wears a long white wool cloak edged with silver embroidery of little waves, dark-blue trousers and knee-high boots of tan leather.",
+      "portrait": "Background: snowy blue mountains under a pale sky."
+    },
+    {
+      "slug": "fiskeren",
+      "name": "Fiskeren",
+      "promptName": "the Fisherman",
+      "description": "Faren til gutten, en fattig fisker som fisker til kongens bord og lover bort noe han ikke vet hva er.",
+      "look": "A lean, wiry fisherman of about forty-five with a long, weather-beaten face, deep laughter lines, a sharp nose, kind, crinkly blue eyes and a long, drooping black moustache, but no beard. On his head sits a round, brimless sealskin cap. He wears a thick grey wool jumper under a long, stiff fishing apron of dark oiled leather, grey trousers tucked into heavy wooden-soled boots, and a coil of fishing line hangs at his belt.",
+      "portrait": "Background: his little rowing boat on the sea at sunset."
+    },
+    {
+      "slug": "den-gamle-mannen-ved-stranden",
+      "name": "Den gamle mannen ved stranden",
+      "promptName": "the Old Man",
+      "replacesPortrait": "den-gamle-mannen-ved-stranden",
+      "description": "En vennlig veiviser med langt hvitt skjegg som gir gutten de avgjørende rådene ved den melkehvite stranden.",
+      "look": "A lean, straight-backed old man of about eighty, as bony and long-limbed as a heron, with a long, narrow, sun-browned face, a hooked nose, bright pale-blue eyes under wild white eyebrows and a long white beard braided into one thin plait with a tiny white shell tied at its end. He wears a battered yellow sou'wester hat, a long, faded yellow oilskin coat and tall black sea boots, and leans on a tall, twisted, silver-grey driftwood staff.",
+      "portrait": "Background: the milk-white beach and a pale turquoise sea."
+    },
+    {
+      "slug": "den-yngste-prinsessen",
+      "name": "Den yngste prinsessen",
+      "promptName": "the Youngest Princess",
+      "replacesPortrait": "den-yngste-prinsessen",
+      "description": "Den kloke og snille prinsessen som gir gode råd, hjelper ham å bryte magien, og lengter etter å bli gjenforent når de blir skilt.",
+      "look": "A calm, thoughtful princess of about eighteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. A thin silver circlet with one pearl rests on her forehead. She wears a plain sky-blue linen dress with long, close-fitting sleeves, a narrow belt of silver links and a hem sewn with small silver stars, and soft white shoes.",
+      "portrait": "Background: the milk-white beach and a pale turquoise sea."
+    },
+    {
+      "slug": "dronningen",
+      "name": "Dronningen av Hvittenland",
+      "promptName": "the Queen",
+      "description": "Den yngste prinsessen etter bryllupet, nå dronning i Hvittenland. Hun gir den unge kongen en ønskering og knytter en liten ring fast i håret hans.",
+      "look": "A calm young queen of about eighteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. On her head sits a tall gold crown set with pale-blue stones. She wears a sky-blue gown with a bodice laced with silver cord and a long train, and a short white fur cape fastened with a round silver clasp.",
+      "portrait": "Background: a bright white castle hall with tall windows."
+    },
+    {
+      "slug": "eldste-prinsessen",
+      "name": "Den eldste prinsessen",
+      "promptName": "the Eldest Princess",
+      "description": "Den eldste av de tre prinsessene som sitter fast i sanden. Hun roper og lokker på gutten.",
+      "look": "A very tall, thin princess of about twenty-two with a long neck, a narrow, haughty face, a sharp chin, a thin nose turned up at the tip, pale-blue eyes and glossy chocolate-brown hair pulled up into one very high, tight ponytail that swings like a horse's tail. She wears a stiff magenta silk dress with long, pointed hanging sleeves, a gold-trimmed bodice and a very wide skirt, many jingling gold bracelets on both wrists, and a little gold crown tilted to one side.",
+      "portrait": "Background: the milk-white beach of Hvittenland."
+    },
+    {
+      "slug": "mellomste-prinsessen",
+      "name": "Den mellomste prinsessen",
+      "promptName": "the Middle Princess",
+      "description": "Den mellomste av de tre prinsessene som sitter fast i sanden. Hun roper og lokker på gutten, hun også.",
+      "look": "A small, plump, chatty princess of about twenty with a round, pink face, a wide mouth that hardly ever stops talking, a turned-up nose, big round hazel eyes and a huge, fluffy cloud of carrot-orange curls piled on top of her head with a pink bow. She wears a lime-green dress with white polka dots and three rows of ruffles on the skirt, a pink sash, and a string of big pink beads around her neck.",
+      "portrait": "Background: the milk-white beach of Hvittenland."
+    },
+    {
+      "slug": "trollet-med-tre-hoder",
+      "name": "Trollet med tre hoder",
+      "promptName": "the Three-Headed Troll",
+      "description": "Det første trollet i trollslottet. Det kommer med tre ris og kiler gutten en hel natt.",
+      "look": "A round, fuzzy troll about twice as tall as a man, with bright mustard-yellow skin covered in short, soft fuzz like a bumblebee, a fat round belly, short arms and huge flat feet. It has exactly three heads stacked on top of one another like a snowman: a big head at the bottom, a middle-sized one and a small one on top, each with a long pink nose, round black eyes and a wide, cheeky grin. It wears baggy, patched brown trousers with braces.",
+      "portrait": "Background: the little dark room in the troll castle, lit by one candle."
+    },
+    {
+      "slug": "trollet-med-seks-hoder",
+      "name": "Trollet med seks hoder",
+      "promptName": "the Six-Headed Troll",
+      "description": "Det andre trollet, med seks hoder og seks ris. Det kiler enda verre enn det første.",
+      "look": "A tall, lanky troll about three times as tall as a man, with sooty black skin, a big white belly like a puffin's, long thin arms and big orange feet. It has exactly six small, round heads on long, thin necks, three growing from each shoulder like two bunches of flowers; each head has a big, bright orange nose, small white eyes with black dots and a tuft of white hair sticking straight up. It wears a short grey wool kilt.",
+      "portrait": "Background: the little dark room in the troll castle, lit by one candle."
+    },
+    {
+      "slug": "trollet-med-ni-hoder",
+      "name": "Trollet med ni hoder",
+      "promptName": "the Nine-Headed Troll",
+      "description": "Det største trollet av dem alle, med ni hoder og ni ris. Det kiler lengst og ler høyest.",
+      "look": "The biggest troll of all, as tall as a house, with a huge, round, lumpy body of creamy-white skin covered in big chocolate-brown patches like a cow's, stumpy legs and big round hands. It has exactly nine heads growing in a ring around the top of its body like a crown; each head has a wide pink snout, sleepy little brown eyes, floppy ears and a big mouth made for laughing. It wears a huge, patched nightshirt with red-and-white checks.",
+      "portrait": "Background: the little dark room in the troll castle, lit by one candle."
+    },
+    {
+      "slug": "nordavinden",
+      "name": "Nordavinden",
+      "promptName": "the North Wind",
+      "replacesPortrait": "nordavinden",
+      "description": "En kraftig, men hjelpsom vind som lager et bråk ved slottet og rydder veien slik at kongen kan komme inn.",
+      "look": "A tall, lean, long-limbed storm giant, three times as tall as a man, with a long, bony, windburnt face, hollow cheeks, a long thin nose, a wide mouth pursed to blow and bright, shining silver eyes. His wild, tangled slate-grey hair and long, wispy beard stream sideways as if in a gale. He wears a huge, billowing cloak made of dark-grey storm clouds, torn into ragged wisps at the edges, and from the knees down he fades into swirling grey mist.",
+      "portrait": "Background: a stormy grey sky above the sea."
+    },
+    {
+      "slug": "den-gamle-gjedda",
+      "name": "Den gamle gjedda",
+      "promptName": "the Old Pike",
+      "replacesPortrait": "den-gamle-gjedda",
+      "description": "En svært gammel fisk som husker veien til Hvittenland og avslører at dronningen snart skal giftes bort, så kongen skynder seg videre.",
+      "look": "A huge, very old pike as long as a rowing boat, with a long, flat, duck-bill snout, a slightly jutting lower jaw with a kind, closed-mouth smile, and wise, wrinkled golden eyes. Her back is dark olive-green with rows of pale yellow spots, fading to a creamy-white belly, and her fins and tail are ragged and frayed at the edges. Long strands of green waterweed trail from her chin like a thin beard.",
+      "portrait": "Background: dark, cold sea water with a glittering ring of fish."
+    }
+  ],
+  "places": [
+    {
+      "slug": "hvite-stranden",
+      "name": "the White Beach",
+      "look": "A long, wide beach of sand as smooth and white as fresh milk, beside a calm, pale turquoise sea with tiny waves. A few smooth white pebbles and pale shells lie scattered about, and low white dunes with tufts of silver-grey grass rise behind the beach. Farther inland, on a low hill, stands a gloomy castle of dark grey stone with pointed towers and a big arched gate."
+    },
+    {
+      "slug": "det-morke-rommet",
+      "name": "the Little Dark Room",
+      "look": "A small, bare, dark room inside the troll castle, with rough dark-grey stone walls, a floor of worn wooden planks, one heavy, creaking wooden door and a single candle in an iron holder. On one wall hang two things side by side on iron hooks: a small round green-glass flask of salve on a string, and a plain sword in a leather sheath."
+    }
+  ],
+  "cover": {
+    "prompt": "On the dazzling White Beach under a pale spring sky, the Fisher Lad has just stepped out of his little rowing boat and stares in wonder at three princess heads sticking up out of the milk-white sand in a row: the Eldest Princess, the Middle Princess and the Youngest Princess, who smiles at him. On the hill behind, the gloomy troll castle looms, and the Three-Headed Troll, its three stacked heads grinning, peeks out of a tower window holding three bundles of birch twigs.",
+    "characters": ["gutten", "eldste-prinsessen", "mellomste-prinsessen", "den-yngste-prinsessen", "trollet-med-tre-hoder"],
+    "places": ["hvite-stranden"],
+    "caption": "Tre prinsesser sitter fast i den hvite sanden i Hvittenland.",
+    "alt": "Gutten står på en melkehvit strand og ser forundret på tre prinsessehoder som stikker opp av sanden. Oppe på bakken ligger et grått trollslott, og fra et tårnvindu titter et gult troll med tre hoder."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 4,
+      "anchor": "Og vips! Båten ble full av sprellende fisk.",
+      "characters": ["fiskeren"],
+      "prompt": "At sunset on the open sea, the Fisherman sits in his small, tarred rowing boat, which has suddenly filled to the brim with wriggling, jumping silver fish; he throws up his arms in delighted surprise as fish flop over his knees. Beside the boat, a big, strange head with long seaweed for hair and two little crabs in its beard is sinking back into the copper-red water with a sly smile. Far behind, the castle and a small cottage sit on the shore.",
+      "caption": "Og vips! Båten ble full av sprellende fisk.",
+      "alt": "Fiskeren sitter i en liten robåt som plutselig er full av sprellende fisk. Ved siden av båten synker et rart hode med tang i håret og krabber i skjegget ned i det solnedgangsrøde vannet."
+    },
+    {
+      "id": "02",
+      "paragraph": 15,
+      "anchor": "Han hoppet ned i båten for å hente det.",
+      "characters": ["gutten", "fiskeren"],
+      "prompt": "Evening at the shore below the king's castle: the Fisher Lad stands in the little rowing boat, holding up his red handkerchief, and looks back in astonishment as the boat glides away from land all by itself, leaving a long silvery trail in the still water. On the stony shore, the Fisherman reaches out after him with both arms, his mouth open in a shout. Dusky blue light and the first stars.",
+      "caption": "Svisj! Båten gled ut fra land. Helt av seg selv!",
+      "alt": "Gutten står i robåten med lommetørkleet i hånden og ser seg forskrekket tilbake mens båten glir ut fra land av seg selv. På stranden strekker faren armene etter ham."
+    },
+    {
+      "id": "03",
+      "paragraph": 21,
+      "anchor": "Langt borte stakk det tre hoder opp av sanden.",
+      "characters": ["gutten", "den-gamle-mannen-ved-stranden", "eldste-prinsessen", "mellomste-prinsessen", "den-yngste-prinsessen"],
+      "places": ["hvite-stranden"],
+      "prompt": "Wide view of the White Beach in low, golden morning sun. The little rowing boat lies scraped up on the milk-white sand. The Old Man stands beside the Fisher Lad, leaning on his staff and calmly pointing far along the beach, where three small heads stick up out of the sand in a row: the Eldest Princess, the Middle Princess and the Youngest Princess, with nothing else of them showing. The Fisher Lad shades his eyes and stares.",
+      "caption": "Langt borte stakk det tre hoder opp av sanden. Bare hoder!",
+      "alt": "På en melkehvit strand står en gammel mann med langt, hvitt skjegg og peker. Langt borte stikker tre prinsessehoder opp av sanden, og gutten skygger for øynene og stirrer."
+    },
+    {
+      "id": "04",
+      "paragraph": 28,
+      "anchor": "Den tredje prinsessen ropte ikke.",
+      "characters": ["gutten", "eldste-prinsessen", "mellomste-prinsessen", "den-yngste-prinsessen"],
+      "places": ["hvite-stranden"],
+      "prompt": "On the White Beach, seen low at sand level: in the foreground the heads of the Eldest Princess and the Middle Princess stick out of the white sand, calling after the Fisher Lad with pleading faces and wide-open mouths. He walks straight past them with his eyes fixed ahead, towards the head of the Youngest Princess further along, who does not call at all but simply looks at him calmly. Bright, pale morning light.",
+      "caption": "Den tredje prinsessen ropte ikke. Hun bare så på ham.",
+      "alt": "To prinsessehoder stikker opp av den hvite sanden og roper på gutten. Han går rett forbi dem, bort mot den tredje prinsessen med gyllent hår, som bare ser rolig på ham."
+    },
+    {
+      "id": "05",
+      "paragraph": 39,
+      "anchor": "Men gutten gikk rett mellom dem, og de gjorde ham ingenting.",
+      "characters": ["gutten"],
+      "places": ["hvite-stranden"],
+      "prompt": "At the big arched gate of the gloomy grey troll castle, two huge lions with shaggy golden manes lie on either side of the path. The Fisher Lad walks straight between them with his chin up, stiff as a post and trying hard to look brave. The lion on the left lifts its head with a rumbling growl, while the lion on the right yawns an enormous, sleepy yawn. Late afternoon light on the white sand.",
+      "caption": "Gutten gikk rett mellom løvene. Og den ene gjespet!",
+      "alt": "To store løver ligger ved porten til et grått trollslott. Gutten går stivt og modig rett mellom dem, og den ene løven gjesper stort."
+    },
+    {
+      "id": "06",
+      "paragraph": 43,
+      "anchor": "Og så kilte trollet.",
+      "characters": ["gutten", "trollet-med-tre-hoder"],
+      "places": ["det-morke-rommet"],
+      "prompt": "In the Little Dark Room, lit by a single candle, the Fisher Lad lies on his back on the plank floor, laughing so hard that tears fly from his eyes, clutching his sides. Over him bends the Three-Headed Troll, all three stacked heads grinning, tickling the soles of his bare feet, his armpits and his tummy with three bundles of birch twigs. His boots lie tossed in a corner. Warm candlelight, funny and cosy, not scary.",
+      "caption": "Kile, kile, kile! Gutten lo så tårene trillet.",
+      "alt": "Et gult troll med tre hoder stablet oppå hverandre kiler gutten under føttene og på magen med tre ris. Gutten ligger på gulvet og ler så tårene triller."
+    },
+    {
+      "id": "07",
+      "paragraph": 46,
+      "anchor": "Den andre natten kom et troll med seks hoder og seks ris.",
+      "characters": ["gutten", "trollet-med-seks-hoder"],
+      "places": ["det-morke-rommet"],
+      "prompt": "Seen from the doorway of the Little Dark Room: the tall Six-Headed Troll crouches under the low ceiling, all six heads bobbing, and waves six bundles of birch twigs at once. The Fisher Lad is curled up on the floor, red-faced from laughing, a big hiccup jerking his shoulders up, one hand over his mouth. The candle flame flickers, and little bits of twig fly through the air.",
+      "caption": "Kile, kile, kile, kile, kile, kile! Gutten lo så mye at han fikk hikke.",
+      "alt": "Et høyt, svart troll med seks hoder kiler med seks ris i det lille, mørke rommet. Gutten ligger krøllet sammen på gulvet med rødt ansikt og har fått hikke av all latteren."
+    },
+    {
+      "id": "08",
+      "paragraph": 51,
+      "anchor": "Da begynte trollet å le.",
+      "characters": ["gutten", "trollet-med-ni-hoder"],
+      "places": ["det-morke-rommet"],
+      "prompt": "In the Little Dark Room, the Nine-Headed Troll throws back all nine heads and laughs with all nine mouths wide open, holding its belly, so hard that the stone walls shake and dust trickles down. The small green-glass flask of salve has just tumbled off its hook and broken on the floor, and the salve splashes over the Fisher Lad, who lies as flat as a wet mitten, glittering like warm light on his hands. Candlelight.",
+      "caption": "HO HO HO! Trollet lo så høyt at flasken med salve ramlet ned.",
+      "alt": "Et digert troll med ni hoder ler med alle ni munnene så veggene rister. Flasken med salve har ramlet ned, og salven glitrer som varmt lys på gutten, som ligger flat på gulvet."
+    },
+    {
+      "id": "09",
+      "paragraph": 53,
+      "anchor": "Om morgenen sto alle tre prinsessene på stranden og ristet sand ut av håret.",
+      "characters": ["eldste-prinsessen", "mellomste-prinsessen", "den-yngste-prinsessen"],
+      "places": ["hvite-stranden"],
+      "prompt": "Morning on the White Beach in bright, clear sunshine: the Eldest Princess, the Middle Princess and the Youngest Princess stand free on the milk-white sand at last, laughing and shaking the sand out of their hair, which flies around them in glittering sprays. The Middle Princess hops on one foot to empty a shoe, and the Youngest Princess looks towards the castle gate with a warm smile. Three empty holes lie in the sand behind them.",
+      "caption": "Om morgenen sto alle tre prinsessene på stranden. De var fri!",
+      "alt": "Tre prinsesser står på den melkehvite stranden og rister sand ut av håret i morgensolen. Bak dem er det tre tomme hull i sanden."
+    },
+    {
+      "id": "10",
+      "paragraph": 59,
+      "anchor": "Den unge kongen ønsket seg hjem.",
+      "characters": ["den-unge-kongen", "fiskeren"],
+      "prompt": "In the small, low kitchen of the fisherman's cottage, the Young King has just appeared in a puff of glittering smoke, a plain gold ring on his finger. The Fisherman, sitting at the table with a spoon halfway to his mouth, stares at his grown-up son in wonder, and the fisherman's wife, a thin woman with a long, gentle face, brown hair under a white headscarf and a striped apron, has dropped her ladle and clasps her hands. Fishing nets hang on the wall.",
+      "caption": "POFF! Der sto han på kjøkkenet til mor og far.",
+      "alt": "Den unge kongen dukker opp i en sky av glitrende røyk på det lille kjøkkenet. Faren sitter med skjeen i luften, og moren har mistet sleiven og ser på ham med store øyne."
+    },
+    {
+      "id": "11",
+      "paragraph": 68,
+      "anchor": "Så knøt hun en liten ring fast i håret hans, med navnet sitt på.",
+      "characters": ["dronningen", "den-unge-kongen"],
+      "prompt": "In the old king's grand hall, the Queen stands close to the Young King, sad-eyed but gentle, tying a tiny gold ring on a blue thread into a lock of his brown hair; her figure is already beginning to fade and sparkle at the edges. The Young King hangs his head in shame. Behind them, on a tall throne, the old king, a skinny, bald, clean-shaven man with a long pointy chin, a huge lace ruff, a frilly peacock-blue robe and a tall jewelled crown, gapes with his mouth open.",
+      "caption": "«Så du ikke glemmer meg», sa dronningen, og knøt en liten ring i håret hans.",
+      "alt": "Dronningen knytter en liten gullring fast i håret til den unge kongen, og hun begynner allerede å forsvinne. Han henger med hodet, og bak dem sitter den gamle kongen på tronen og gaper."
+    },
+    {
+      "id": "12",
+      "paragraph": 75,
+      "anchor": "Svisj, svisj, sa skiene, over berg og dal.",
+      "characters": ["den-unge-kongen"],
+      "prompt": "Wide, sweeping view of snowy blue mountains: the Young King, the tiny gold ring glinting in his hair, whooshes downhill on a pair of long wooden skis that run all by themselves, his white cloak flying and one hand holding his crown on, eyes wide with surprise. Far behind on a mountain top, the master of all the animals, a huge, bearded man in a bearskin cape with a long curved horn, waves goodbye among a brown bear, two grey wolves, a red fox, three white hares and two squirrels.",
+      "caption": "Svisj, svisj, sa skiene, over berg og dal!",
+      "alt": "Den unge kongen suser nedover et snødekt fjell på ski som går helt av seg selv. Langt bak vinker dyrenes herre fra en fjelltopp, sammen med en bjørn, ulver, en rev, harer og ekorn."
+    },
+    {
+      "id": "13",
+      "paragraph": 83,
+      "anchor": "Helt til slutt kom det noe stort svømmende, langsomt, langsomt.",
+      "characters": ["den-unge-kongen", "den-gamle-gjedda"],
+      "prompt": "At the edge of a cold, steel-grey sea, the Young King kneels on a flat rock, and beside him the master of the fishes, a tall, thin man in a sealskin cape with a long curved horn, points at the water. In front of them, a great glittering ring of herring, cod and mackerel swims round and round, and up through the middle of it, slowly, slowly, rises the Old Pike, blinking her wise eyes. Cold, clear light.",
+      "caption": "Helt til slutt kom den gamle gjedda, langsomt, langsomt.",
+      "alt": "Den unge kongen sitter på kne på en stein ved et kaldt hav. En stor, glitrende ring av fisk svømmer rundt, og midt i ringen kommer den gamle gjedda sakte opp og blunker med de kloke øynene sine."
+    },
+    {
+      "id": "14",
+      "paragraph": 92,
+      "anchor": "Det syntes brødrene var en god idé.",
+      "characters": ["den-unge-kongen"],
+      "prompt": "Out on a wide brown moor with grey rocks and patches of snow, the Young King, already wearing a tall grey felt hat and a long dark-grey hooded cloak, hops on one foot as he pulls on the second of a pair of tall brown boots; his own white cloak and crown lie on a rock. Three very old brothers who look alike, each with a white beard so long that they stand on the end of it, watch him eagerly, leaning forward with their hands clasped.",
+      "caption": "Den unge kongen tok på seg hatten, kappen og støvlene.",
+      "alt": "Ute på en brun myr står den unge kongen på ett bein og trekker på seg en høy støvel. Han har allerede grå hatt og lang, grå kappe. Tre gamle brødre med skjegg så lange at de tråkker på dem, ser ivrig på."
+    },
+    {
+      "id": "15",
+      "paragraph": 98,
+      "anchor": "«Du farer nok fortere enn meg», sa Nordavinden",
+      "characters": ["den-unge-kongen", "nordavinden"],
+      "prompt": "High above a stormy grey sea, among racing clouds, the North Wind strides through the sky with his cloud cloak billowing, bending down to talk to the Young King, who flies beside him in the magic grey hat, cloak and boots. Because he is invisible, the Young King is only a faint, see-through shimmer, like a soap bubble in the shape of a young man. Far below lie tiny waves and one little island.",
+      "caption": "Høyt oppe i luften fikk den unge kongen følge med Nordavinden.",
+      "alt": "Nordavinden, en høy stormkjempe med kappe av grå skyer, bøyer seg ned og snakker med den unge kongen. Kongen flyr ved siden av ham, men han er usynlig, bare et svakt, gjennomsiktig glimt."
+    },
+    {
+      "id": "16",
+      "paragraph": 103,
+      "anchor": "Da tok den unge kongen ham i kragen og dro ham bort fra døren.",
+      "characters": ["den-unge-kongen", "nordavinden"],
+      "prompt": "Outside a white castle, a wild gust sweeps across the courtyard: trees bend, windows rattle and leaves whirl. The North Wind, huge above the rooftops, blows a mighty blast that carries off a skinny, dressed-up prince in a frilly pink suit and a feathered hat, who tumbles head over heels into the sky. On the steps by the door stands the invisible Young King, only a faint, see-through shadow in the grey hat and cloak, dusting off his hands.",
+      "caption": "VOOOSJ! Nordavinden feide prinsen av sted, over sju hav og sju fjell.",
+      "alt": "Ved et hvitt slott bøyer trærne seg i vinden. Nordavinden blåser en pyntet prins opp i luften, og han tumler rundt. På trappen står den usynlige unge kongen, bare som en svak skygge."
+    },
+    {
+      "id": "17",
+      "paragraph": 106,
+      "anchor": "Da lyste hele dronningen opp.",
+      "characters": ["dronningen", "den-unge-kongen"],
+      "prompt": "In a bright white hall of the castle, the Young King, thin and pale from his long journey and without his crown, holds the grey magic hat in one hand and bows his head to show the tiny gold ring tied in his hair. The Queen, a white bridal veil over her golden hair, has flung her hands to her cheeks and is laughing and crying at once, with tears of joy on her face. Sunlight streams in through tall windows.",
+      "caption": "Da lyste hele dronningen opp. Hun lo, og hun gråt, og hun lo igjen.",
+      "alt": "Den unge kongen, tynn og blek etter den lange reisen, bøyer hodet og viser fram den lille ringen i håret. Dronningen ler og gråter på en gang av glede."
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "storyId": "herreper",
+  "variants": {
+    "simplified": {
+      "title": "Herreper",
+      "textFile": "public/content/stories/herreper/simplified/story.txt"
+    },
+    "english": {
+      "title": "Sir Per",
+      "textFile": "public/content/stories/herreper/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.",
+  "palette": "High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.",
+  "cast": [
+    {
+      "slug": "per",
+      "promptName": "Per",
+      "look": "A gangly, gentle young man of about nineteen with a long neck, long arms, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail. He wears a grey homespun coat far too big for him, its sleeves rolled up and its elbows mended, over a washed-out blue smock, baggy brown trousers tucked into cracked old boots tied with string, and a shapeless oatmeal knitted cap.",
+      "portrait": "Background: a country road at the edge of a spruce forest in summer sun.",
+      "variants": {
+        "simplified": {
+          "name": "Per",
+          "description": "Den yngste sønnen som arver katten og blir kjent som «Herreper» når han følger kattens plan.",
+          "replacesPortrait": "per-herreper"
+        },
+        "english": {
+          "name": "Per",
+          "description": "The youngest son, poor and ragged at first, who becomes “Sir Per” through the cat’s schemes and ends up ruling a realm.",
+          "replacesPortrait": "per"
+        }
+      }
+    },
+    {
+      "slug": "herreper",
+      "promptName": "Sir Per",
+      "look": "A lanky young man of about nineteen with a long neck, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail, dressed as a fine lord and standing a little taller than before. He wears a bright green velvet jacket with rows of gold buttons and gold braid, a flowing scarlet cape fastened with a gold clasp, a broad-brimmed hat with a long curling white feather, cream breeches and tall brown riding boots.",
+      "portrait": "Background: the three gates of the Silver Castle.",
+      "variants": {
+        "simplified": {
+          "name": "Herreper",
+          "description": "Per i de fine klærne som katten skaffet ham. Alt kongen viser ham, sier han at han har mye finere hjemme."
+        },
+        "english": {
+          "name": "Sir Per",
+          "description": "Per in the fine clothes the cat found for him. Whatever the King shows him, he says he has it far finer at home."
+        }
+      }
+    },
+    {
+      "slug": "katten",
+      "promptName": "the Cat",
+      "look": "A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest and chin, big green-gold eyes, long white whiskers and a long striped tail that she carries high. Around her neck she wears an old, worn collar of faded red leather with a small tarnished brass buckle. She sits very upright, like a small queen.",
+      "portrait": "Background: the doorstep of an old grey log cottage.",
+      "variants": {
+        "simplified": {
+          "name": "Katten",
+          "description": "En smart katt som legger en plan, skaffer gaver til kongen, narrer et troll og viser seg å være en forhekset prinsesse.",
+          "replacesPortrait": "katten"
+        },
+        "english": {
+          "name": "The Cat",
+          "description": "A sharp-tongued, fearless cat who coerces forest animals into becoming royal gifts and later transforms into a princess freed from a troll’s enchantment.",
+          "replacesPortrait": "cat-enchanted-princess"
+        }
+      }
+    },
+    {
+      "slug": "katten-pyntet",
+      "promptName": "the Dressed-up Cat",
+      "look": "A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest, big green-gold eyes, long white whiskers and her old faded red leather collar, now dressed for visiting: a small red hat with a curling white feather set at a jaunty angle between her ears, and a little moss-green cloak fastened at her throat with a tiny brass clasp. She walks and sits upright and proud, her striped tail held high.",
+      "portrait": "Background: a summer road winding over green hills.",
+      "variants": {
+        "simplified": {
+          "name": "Katten i hatt og kappe",
+          "description": "Katten i sin egen fjærhatt og lille kappe. Hun springer foran vogna, deler ut kongens sølv og vet alltid hva som skal skje."
+        },
+        "english": {
+          "name": "The Cat in Hat and Cloak",
+          "description": "The cat in her own feathered hat and little green cloak. She runs ahead of the carriage, hands out the King’s silver and always knows what comes next."
+        }
+      }
+    },
+    {
+      "slug": "kongen",
+      "promptName": "the King",
+      "look": "A short, very fat king of about sixty with a round, shiny bald head, bulging cheeks, a red nose, small beady eyes, a grumpy look and a huge drooping grey walrus moustache that hides his mouth. A small gold crown sits right on top of his bald head. He wears a long purple wool robe with a spotted ermine collar, stretched tight over his enormous belly, a wide gold belt, white stockings and pointed red leather shoes.",
+      "portrait": "Background: his great hall, with gold on the dark timber walls.",
+      "variants": {
+        "simplified": {
+          "name": "Kongen",
+          "description": "Mottar gavene, blir nysgjerrig på Herreper og drar for å se om rikdommen hans er ekte.",
+          "replacesPortrait": "kongen"
+        },
+        "english": {
+          "name": "The King",
+          "description": "A proud ruler delighted by lavish gifts, then irritated by Per’s boasting, who follows him to see the supposed splendor for himself.",
+          "replacesPortrait": "king"
+        }
+      }
+    },
+    {
+      "slug": "trollet",
+      "promptName": "the Troll",
+      "look": "A colossal old troll about four times a man's height, round-shouldered and heavy, covered all over in long, matted, oatmeal-beige fur like a giant unshorn ram, with heather and twigs caught in it. Two round yellow eyes glow like lanterns above a big potato nose, and his broad, soft mouth shows two blunt buck teeth. He has little round ears, great grey hands like stone, a long cow's tail with a tuft at the end and broad, hairy bare feet.",
+      "portrait": "Background: the golden gate of the Silver Castle at night.",
+      "variants": {
+        "simplified": {
+          "name": "Trollet",
+          "description": "Eieren av slottet som truer inntrengerne, men blir lurt til å se sola og sprekker.",
+          "replacesPortrait": "trollet"
+        },
+        "english": {
+          "name": "The Troll of the Castle",
+          "description": "The monstrous owner of the shining castle, undone when the cat tricks him into turning toward the rising sun.",
+          "replacesPortrait": "troll"
+        }
+      }
+    },
+    {
+      "slug": "prinsessa",
+      "promptName": "the Princess",
+      "look": "A graceful young woman of about nineteen with a small pointed chin, high cheekbones, almond-shaped green-gold eyes like a cat's, a little upturned nose and very long, straight golden hair falling to her knees, with one silver-grey streak at her left temple. She wears a dove-grey silk gown with snow-white cuffs, a white lace collar and fine silver embroidery at the hem, and a thin silver circlet on her brow.",
+      "portrait": "Background: the sunlit Golden Hall.",
+      "variants": {
+        "simplified": {
+          "name": "Prinsessa",
+          "description": "Blir fri fra trollets forbannelse når katten mister hodet, og kan bli Herreper sin dronning.",
+          "replacesPortrait": "prinsessa"
+        },
+        "english": {
+          "name": "The Princess",
+          "description": "The cat’s true self: a princess the troll had bewitched. Freed at last, she lets Sir Per decide whether to make her his queen."
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "slottet",
+      "name": "the Silver Castle",
+      "look": "A great castle made all of polished silver, with slender towers and steep silver roofs, standing on a green rise in a wide summer landscape and shining so brightly in the sun that it hurts the eyes. In front of it, three tall arched gates stand one behind the other across the road: the first of brass, the second of silver and the third of gold, each between two thick stone gateposts. Across a meadow opposite the gates rises a low wooded ridge."
+    },
+    {
+      "slug": "gullsalen",
+      "name": "the Golden Hall",
+      "look": "A great hall inside the Silver Castle where everything is made of gold: gold-panelled walls carved with scrolling leaves, a long golden table, golden chairs and benches, golden candlesticks, plates and cups, and a wide golden hearth at one end. Tall arched windows with small panes look out towards the three gates, and the floor is of polished golden wood."
+    }
+  ],
+  "cover": {
+    "prompt": "On a long summer road winding over green hills, the Dressed-up Cat runs ahead with her tail straight up and her red feathered hat at a jaunty angle. Behind her comes Sir Per, driving his small gilded carriage drawn by four white horses, holding the reins and looking both proud and a little nervous. Far away on a green rise, the Silver Castle glitters in the sun.",
+    "characters": ["katten-pyntet", "herreper"],
+    "places": ["slottet"],
+    "variants": {
+      "simplified": {
+        "caption": "Katten sprang foran, og Herreper kjørte etter.",
+        "alt": "Katten i fjærhatt og kappe springer foran langs en sommervei, og bak kommer Herreper i ei lita forgylt vogn med fire hvite hester. Langt borte glitrer et slott av sølv."
+      },
+      "english": {
+        "caption": "Sir Per drove after the cat as she ran ahead.",
+        "alt": "The cat in a feathered hat and cloak runs ahead along a summer road, and behind her Sir Per drives a small gilded carriage with four white horses. Far away a silver castle glitters."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["per", "katten"],
+      "prompt": "Inside a bare, grey little cottage with a cold hearth, an empty bench and one small window, Per kneels on the floorboards and gently lifts the Cat into his arms; she presses her head against his chin. By the open door his two older brothers are leaving with smug grins: a tall, thin one with a black beard carrying a round black iron pot, and a short, stocky fair-haired one with a big flat iron griddle. Pale morning light.",
+      "variants": {
+        "simplified": {
+          "paragraph": 7,
+          "anchor": "«Låner jeg bort katten, får jeg ingenting for det», sa Per.",
+          "caption": "«Men jeg tar henne med likevel», sa Per.",
+          "alt": "I den tomme, gamle stua løfter Per katten opp i armene. Ved døra går brødrene hans, den ene med ei gryte og den andre med ei takke."
+        },
+        "english": {
+          "paragraph": 7,
+          "anchor": "“If I lend out the cat, I’ll get nothing for her,” said Per.",
+          "caption": "“But I’ll take her with me all the same,” said Per.",
+          "alt": "In the bare old cottage, Per lifts the cat into his arms. By the door his brothers are leaving, one with a pot and the other with a griddle."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["katten", "per"],
+      "prompt": "Where a country road runs along the edge of a dark spruce forest on a bright summer morning, a big grey-brown reindeer with wide antlers steps out from between the trees, and the Cat sits bolt upright on its head between the antlers, as calm as a queen on her throne. Per, sitting on a boulder by the roadside, stares at them with his mouth open. Far off across the green hills lies a cluster of dark log buildings with turf roofs.",
+      "variants": {
+        "simplified": {
+          "paragraph": 10,
+          "anchor": "Per hadde ikke ventet lenge før katten kom ut av skogen med et reinsdyr.",
+          "caption": "Katten hadde satt seg godt til rette mellom hornene.",
+          "alt": "Et stort reinsdyr kommer ut av granskogen, og katten sitter rak i ryggen mellom hornene. Per sitter på en stein ved veien og måper."
+        },
+        "english": {
+          "paragraph": 10,
+          "anchor": "Per hadn’t been waiting long before the cat came out of the forest with a reindeer.",
+          "caption": "The cat had settled herself between the antlers.",
+          "alt": "A big reindeer steps out of the spruce forest with the cat sitting upright between its antlers. Per sits on a stone by the road, gaping."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["kongen", "per"],
+      "prompt": "In the big, smoky royal kitchen hung with copper kettles, an enormous moose fills half the room: it is so tall that its head and antlers disappear above the top edge of the picture, and only its dark-brown body and long legs are seen. In front of it the King hops from one foot to the other with joy, arms flung wide. Per, in his too-big grey coat, holds the moose by a rope. Two cooks in white aprons back into a pantry doorway, and a kitchen maid has climbed onto a bench.",
+      "variants": {
+        "simplified": {
+          "paragraph": 25,
+          "anchor": "Elgen fylte halve kjøkkenet.",
+          "caption": "Kongen ble så glad at han ikke visste hvilket bein han skulle stå på.",
+          "alt": "En diger elg fyller halve kjøkkenet på kongsgården. Kongen hopper av glede foran den, og Per holder elgen i et tau. Kokkene har trukket seg unna."
+        },
+        "english": {
+          "paragraph": 25,
+          "anchor": "The moose filled half the kitchen.",
+          "caption": "The King was so happy he didn’t know which foot to stand on.",
+          "alt": "A huge moose fills half the royal kitchen. The King hops with joy in front of it, and Per holds it by a rope. The cooks have backed away."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["herreper", "katten-pyntet"],
+      "prompt": "On the country road at the edge of the spruce forest, a small gilded carriage drawn by four white horses has pulled up in the morning sun. Sir Per, in his splendid new clothes, stands beside it holding out his arms and looking down at himself in wonder, his old too-big grey coat lying folded on a stone. The Dressed-up Cat sits on the carriage step in her red feathered hat and little green cloak, looking very pleased with herself.",
+      "variants": {
+        "simplified": {
+          "paragraph": 33,
+          "anchor": "Da de tre dagene var gått, kom katten med vogn og hester og klær og alt Per trengte.",
+          "caption": "Alt sammen var så fint at ingen hadde sett maken.",
+          "alt": "Ei lita forgylt vogn med fire hvite hester står på veien. Per står i nye, fine klær og ser forundret ned på seg selv. Katten sitter på vogntrinnet med fjærhatt og kappe."
+        },
+        "english": {
+          "paragraph": 32,
+          "anchor": "When the three days were up, the cat came with a carriage and horses and clothes and everything Per needed",
+          "caption": "It was all so splendid that nobody had ever seen the like.",
+          "alt": "A small gilded carriage with four white horses stands on the road. Per, in fine new clothes, looks down at himself in wonder. The cat sits on the step in a feathered hat and cloak."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["kongen", "herreper", "katten-pyntet"],
+      "prompt": "In the King's great hall, with gold on its dark timber walls, the King sits at the head of a long table laid with silver spoons, silver ladles and silver cups, frowning over the silver cup in his hand. Across from him, Sir Per waves one hand airily with his nose in the air. Under the long white tablecloth, unseen by them both, the Dressed-up Cat quietly tucks a silver spoon under her green cloak, a silver ladle and a silver cup already beside her.",
+      "variants": {
+        "simplified": {
+          "paragraph": 40,
+          "anchor": "Katten satt under bordet og sa ingenting.",
+          "caption": "«Bra nok, det», sa Per. «Men hjemme har jeg det mye finere.»",
+          "alt": "Kongen sitter ved et langt bord med sølvskjeer, sølvøser og sølvbeger og ser sur ut, mens Per vifter med hånda. Under bordet gjemmer katten ei sølvskje under kappa si."
+        },
+        "english": {
+          "paragraph": 39,
+          "anchor": "The cat sat under the table and said nothing.",
+          "caption": "“Not bad,” said Per. “But I have it a great deal finer at home.”",
+          "alt": "The King sits at a long table laid with silver spoons, ladles and cups, looking sour, while Per waves a hand. Under the table, the cat tucks a silver spoon under her cloak."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["katten-pyntet"],
+      "prompt": "On a sunny green hillside beside the country road grazes a great flock of handsome sheep, their creamy wool so long that it nearly sweeps the ground. The Dressed-up Cat stands on a boulder at the roadside holding out a shining silver spoon to a barefoot shepherd boy of about ten with a crook, who stares at it with big eyes. Far back down the road, a cloud of dust rises where the carriages are coming.",
+      "variants": {
+        "simplified": {
+          "paragraph": 47,
+          "anchor": "«Sier du at det er han Herreper som eier saueflokken når kongen spør, skal du få denne sølvskjea», sa katten til gjetergutten.",
+          "caption": "«Sier du at det er han Herreper som eier saueflokken, skal du få denne sølvskjea.»",
+          "alt": "På en grønn beitemark går sauer med så lang ull at den nesten sleper i bakken. Katten holder fram ei sølvskje til en barbeint gjetergutt. Langt bak på veien virvler støvet opp."
+        },
+        "english": {
+          "paragraph": 46,
+          "anchor": "She held out a silver spoon to the shepherd boy.",
+          "caption": "“If you say this flock belongs to Sir Per, you shall have this spoon.”",
+          "alt": "Sheep with wool that nearly sweeps the ground graze on a green hillside. The cat holds out a silver spoon to a barefoot shepherd boy. Far down the road, a cloud of dust rises."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["herreper", "katten-pyntet", "kongen"],
+      "places": ["slottet"],
+      "prompt": "The Silver Castle blazes in the afternoon sun beyond its three gates of brass, silver and gold, so bright it hurts to look at. Sir Per has stepped down from his gilded carriage and stands easily at the first gate, as if he had lived there all his life, sweeping one arm towards the castle, and the Dressed-up Cat rubs against his boots. Beside the big dark-red royal carriage, the King stands frozen with one hand half raised, staring up at the towers, speechless.",
+      "variants": {
+        "simplified": {
+          "paragraph": 63,
+          "anchor": "Per steg ut av vogna og så ut som en som hadde bodd der hele livet.",
+          "caption": "Per så ut som en som hadde bodd der hele livet.",
+          "alt": "Et slott av sølv skinner i sola bak tre porter av messing, sølv og gull. Per står ved porten som om han bodde der, med katten ved beina. Kongen står målløs med hånda i været."
+        },
+        "english": {
+          "paragraph": 66,
+          "anchor": "The King stared up at the towers and said nothing at all.",
+          "caption": "“Welcome to my home,” said Per, with a sweep of his arm.",
+          "alt": "A silver castle blazes in the sun behind three gates of brass, silver and gold. Per stands at the gate as if he lived there, the cat at his feet. The King stands speechless, one hand half raised."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["kongen", "herreper", "trollet", "katten-pyntet"],
+      "places": ["gullsalen"],
+      "prompt": "Evening in the Golden Hall, lit by candles on the long golden table. The King, sour and sulky, and Sir Per have both started up from their supper at a thunderous pounding. Through the tall arched window, in the blue dusk outside, the huge shaggy shape of the Troll looms at the golden gate, hammering on it with one enormous fist, his round yellow eyes glowing. The Dressed-up Cat has already sprung down from her chair, ears pricked.",
+      "variants": {
+        "simplified": {
+          "paragraph": 68,
+          "anchor": "«Hvem er det som eter maten min og drikker mjøden min som svin her inne?» brølte trollet.",
+          "caption": "Trollet som eide slottet, dundret på porten.",
+          "alt": "Kongen og Per farer opp fra kveldsmaten ved et langt gullbord. Gjennom vinduet ser man et digert, lodent troll med lysende gule øyne som dundrer på porten. Katten har hoppet ned fra stolen."
+        },
+        "english": {
+          "paragraph": 71,
+          "anchor": "“Who’s that in there eating my food and swilling my mead like swine?” roared the troll.",
+          "caption": "The troll who owned the castle came home and hammered on the gate.",
+          "alt": "The King and Per start up from their supper at a long golden table. Through the window, a huge shaggy troll with glowing yellow eyes pounds on the gate. The cat has jumped down from her chair."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["trollet", "katten-pyntet"],
+      "places": ["slottet"],
+      "prompt": "First light outside the golden gate of the Silver Castle. The enormous Troll has stood listening all night and still stands with his back to the low wooded ridge, where the rim of the rising sun is just breaking over the trees in a blaze of gold. On top of a gatepost the Dressed-up Cat points past him with one paw, and the Troll is just beginning to turn his great head to look behind him, his yellow eyes wide and eager.",
+      "variants": {
+        "simplified": {
+          "paragraph": 76,
+          "anchor": "«Se deg om», sa katten til trollet, «så får du se den vakre, deilige jomfrua som står bak deg!»",
+          "caption": "Da kom sola opp.",
+          "alt": "I grålysningen står det store, lodne trollet foran porten, og bak ham kommer sola opp over åsen. Katten sitter på portstolpen og peker bak ham."
+        },
+        "english": {
+          "paragraph": 79,
+          "anchor": "“Look round,” said the cat, “and you’ll see the loveliest maiden standing right behind you!”",
+          "caption": "Then the sun came up.",
+          "alt": "At first light the huge, shaggy troll stands in front of the gate, and behind him the sun is rising over the ridge. The cat sits on the gatepost, pointing behind him."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "characters": ["herreper", "prinsessa"],
+      "places": ["gullsalen"],
+      "prompt": "Morning sun streams through the tall windows of the Golden Hall. In the middle of the floor, in a fading shimmer of glittering light, stands the Princess, freed from the spell at last; a tiny red hat with a white feather and a little green cloak lie empty on the floor at her feet. Sir Per stands before her, empty-handed and quite enchanted, staring. She looks back at him with a calm, knowing smile.",
+      "variants": {
+        "simplified": {
+          "paragraph": 81,
+          "anchor": "Så måtte Herreper gjøre det, så nødig han ville.",
+          "caption": "Hun ble til den vakreste prinsessa noen har sett.",
+          "alt": "I den gylne salen står en vakker prinsesse i et glitrende lys. Herreper står foran henne og er rent betatt. På gulvet ligger en liten fjærhatt og ei lita grønn kappe."
+        },
+        "english": {
+          "paragraph": 85,
+          "anchor": "So Sir Per had to do it, much as he hated to.",
+          "caption": "She turned into the loveliest princess anyone ever laid eyes on.",
+          "alt": "In the golden hall a lovely princess stands in a glittering light. Sir Per stands before her, quite enchanted. A tiny feathered hat and a little green cloak lie on the floor."
+        }
+      }
+    },
+    {
+      "id": "11",
+      "characters": ["herreper", "prinsessa"],
+      "places": ["gullsalen"],
+      "prompt": "A wedding feast in the Golden Hall, hung with garlands of summer flowers, the long golden table crowded with dishes and ten guests in their best clothes. At the head of the table sit Sir Per and the Princess, both wearing golden crowns, holding hands and smiling at each other, while three fiddlers play beside the golden hearth. Warm evening light falls through the tall windows.",
+      "variants": {
+        "simplified": {
+          "paragraph": 83,
+          "anchor": "Å jo, det kan vel hende at Herreper ville ha henne til dronning.",
+          "caption": "Så ble det bryllup og gjestebud i åtte dager.",
+          "alt": "Herreper og prinsessa sitter med gullkroner ved enden av et langt gullbord i bryllupet. Gjestene spiser og drikker, og tre spillemenn spiller."
+        },
+        "english": {
+          "paragraph": 87,
+          "anchor": "Well, it may just be that Sir Per wanted her for his queen.",
+          "caption": "So there was a wedding, and a feast that lasted eight days.",
+          "alt": "Sir Per and the princess sit wearing golden crowns at the head of a long golden table at their wedding. The guests feast, and three fiddlers play."
+        }
+      }
+    }
+  ]
+}

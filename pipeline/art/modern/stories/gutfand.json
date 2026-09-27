@@ -1,0 +1,72 @@
+{
+  "storyId": "gutfand",
+  "title": "Gutten og Fanden",
+  "textFile": "public/content/stories/gutfand/modern/story.txt",
+  "world": "Present-day Norway, a small town by a river on a mild September evening. A paved footpath with streetlights and rubbish bins runs along the river, lined with wild hazel bushes. The worm-eaten nut is an ordinary brown hazelnut with one tiny round wormhole, which the boy plugs with a wooden toothpick and snaps off. By the river stands an old metal workshop: a low, shabby building of brick and corrugated metal with a rusty roof and a wide open door, holding a small forge, a big black anvil, a workbench with an angle grinder, shelves of tools and hammers on the wall, from small ones to a huge sledgehammer that hangs there mostly for decoration.",
+  "palette": "A mild September evening: violet-blue dusk over a dark river, warm yellow streetlights with pools of light on the path, the first yellow leaves on the hazel and birch, and a few early stars. Inside the workshop: harsh white work light, the orange glow of the forge, blue-white grinder sparks and drifting grey dust.",
+  "cast": [
+    {
+      "slug": "gutten",
+      "name": "Gutten",
+      "promptName": "the Boy",
+      "replacesPortrait": "gutten",
+      "description": "En kvikk og fryktløs tenåring som går langs gangveien og knekker hasselnøtter, og som uten å blunke utfordrer Fanden med en enkel, smart felle.",
+      "look": "A wiry, fearless boy of fifteen with a round, tanned face, a turned-up nose, bright black eyes, a wide, cheeky grin and straight dark-brown hair cut in a thick, blunt fringe down to his eyebrows. He wears an open, faded red zip-up jacket over a baggy grey hoodie, black track pants and scuffed skate shoes, and his jacket pockets bulge with hazelnuts.",
+      "portrait": "Background: the riverside footpath under a streetlight at dusk."
+    },
+    {
+      "slug": "fanden",
+      "name": "Fanden",
+      "promptName": "the Devil",
+      "replacesPortrait": "fanden",
+      "description": "En tilsynelatende vanlig mann som gjør luften kaldere når han nærmer seg, og som uten videre viser at han kan krympe seg til støvkornstørrelse.",
+      "look": "A slim man of about forty with a completely ordinary, forgettable face, neat short dark hair, narrow, sly green eyes under thin arched eyebrows and a thin, pleased smile. He wears a long black wool coat buttoned to the neck, black trousers, polished black shoes and a brick-red scarf. His breath always steams, as if the air around him were freezing.",
+      "portrait": "Background: a streetlight by the dark river, his breath steaming."
+    },
+    {
+      "slug": "smeden",
+      "name": "Smeden",
+      "promptName": "the Smith",
+      "replacesPortrait": "smeden",
+      "description": "En kraftig verkstedarbeider med vernebriller som først tar jobben lett, men blir rystet når nøtta tåler alt—helt til den største slegga utløser et voldsomt brak.",
+      "look": "A stocky, powerful man of about sixty, short and broad, with huge forearms, a wide, soot-smudged face, crinkly brown eyes under thick grey eyebrows and a long, bushy charcoal-grey beard singed at the tips. He has a fuzz of short grey hair, and clear safety goggles sit pushed up on his forehead. He wears a black leather apron with burn holes over a faded red flannel shirt with rolled-up sleeves, grey work trousers and steel-toed boots.",
+      "portrait": "Background: the workshop, with the forge glowing and hammers on the wall."
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "On a riverside footpath at dusk under a row of streetlights, the Boy walks along holding a hazelnut up to the lamplight, a cracked shell between his teeth. Beside him, the Devil walks in step without looking at him, hands in his coat pockets, his breath steaming in the mild evening air. The dark river runs alongside, and a little way ahead the open door of an old workshop glows orange.",
+    "characters": ["gutten", "fanden"],
+    "caption": "Gutten hadde ikke hørt ham komme.",
+    "alt": "Gutten går langs gangveien ved elva og holder ei hasselnøtt opp mot gatelykta. Ved siden av ham går en mann i svart frakk, og pusten hans ryker i den milde kvelden."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 7,
+      "anchor": "Fanden smilte.",
+      "characters": ["gutten", "fanden"],
+      "prompt": "Under a streetlight on the riverside path at dusk, the Boy holds up a hazelnut between finger and thumb, a wooden toothpick in the corner of his mouth, watching calmly. Beside him, the Devil, still smiling, is dissolving from the feet up into a thin swirl of glittering dust that spirals through the lamplight into the tiny wormhole in the shell. His empty place on the path is already fading, and a last wisp of steaming breath hangs in the air.",
+      "caption": "Et støvkorn virvlet i lyset fra gatelykta og forsvant inn i markhullet.",
+      "alt": "Under en gatelykt holder gutten opp ei nøtt. Mannen i svart frakk smiler og løses opp i en virvel av glitrende støv som forsvinner inn i markhullet."
+    },
+    {
+      "id": "02",
+      "paragraph": 19,
+      "anchor": "Gutten sto ved benken og så på.",
+      "characters": ["smeden", "gutten"],
+      "prompt": "Inside the old workshop under harsh white work light, the Smith, red in the face, lifts the huge sledgehammer high over his head with both hands, about to bring it down on the tiny hazelnut lying alone on the big black anvil. Smaller hammers lie discarded beside the anvil. The Boy stands by the workbench a few steps away, watching steadily without blinking. The forge glows orange in the corner.",
+      "caption": "Gutten sto ved benken og så på. Han blunket ikke.",
+      "alt": "Smeden løfter storslegga over hodet med begge hender, og på ambolten ligger den lille nøtta. Gutten står ved benken og ser på uten å blunke."
+    },
+    {
+      "id": "03",
+      "paragraph": 24,
+      "anchor": "Gutten børstet støv av jakkeermet.",
+      "characters": ["smeden", "gutten"],
+      "prompt": "Inside the workshop just after the bang: a roof panel has torn loose and hangs askew, cold evening air and a few stars showing through the hole, and a cloud of dust and splinters still hangs over the anvil. Tools have tumbled off the shelves onto the floor. The Smith has backed away two steps and stands staring at the anvil, the sledgehammer hanging from one hand. The Boy calmly brushes dust off his jacket sleeve.",
+      "caption": "«Det var jaggu Fanden i den nøtta», sa smeden.",
+      "alt": "En takplate henger på skeive, og støvet står rundt ambolten. Smeden har rygget unna og stirrer på ambolten, mens gutten rolig børster støv av jakkeermet."
+    }
+  ]
+}

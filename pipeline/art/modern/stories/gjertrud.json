@@ -1,0 +1,81 @@
+{
+  "storyId": "gjertrud",
+  "title": "Gjertrudsfuglen",
+  "textFile": "public/content/stories/gjertrud/modern/story.txt",
+  "world": "Present-day Norway in July. Gjertrud's lefse shack stands alone by a county road: a small, low wooden hut painted red, with one window, a bench outside and a gravel lay-by. Inside is one room with a glass-fronted counter, a big round electric griddle on a steel table, a floury worktop with a rolling pin, and a steel extractor hood above the griddle whose fan hums from opening to closing time; its duct runs up into the hut's old brick chimney, black with twenty-two years of grease and soot. The lefser are big, thin, round flatbreads, pale with brown speckles, and every one Gjertrud rolls, however tiny the scrap of dough, spreads until it covers the whole griddle.",
+  "palette": "A hot, still July afternoon: pale dusty gravel, bleached grass and tall purple lupins along the county road, a hazy white sky and dark spruce behind. Inside the shack: flat, cool daylight from the window, brushed steel, the orange glow of the griddle and pale flour. Accents: the scarlet knitted hat and the greasy black of old soot.",
+  "cast": [
+    {
+      "slug": "gjertrud",
+      "name": "Gjertrud",
+      "promptName": "Gjertrud",
+      "replacesPortrait": "gjertrud",
+      "description": "Eier av et lite veikantkjøkken som baker lefser; hun sier ja med munnen, men holder igjen med hendene, og blir fanget av sin egen smålighet.",
+      "look": "A stout, square-built woman of about fifty-five with a square jaw, pinched thin lips, a sharp little upturned nose and small darting black eyes. Her iron-grey hair is tucked away under a tall, pointed, bright-scarlet knitted hat with a tassel, pulled down to her eyebrows. She wears a white short-sleeved work tunic, a flour-dusted white apron, dark-grey trousers and white clogs.",
+      "portrait": "Background: the counter and the big electric griddle of her lefse shack."
+    },
+    {
+      "slug": "jesus",
+      "name": "Jesus",
+      "promptName": "Jesus",
+      "replacesPortrait": "jesus",
+      "description": "En stille, sliten vandrer som ber høflig om en liten smakebit og svarer med hard rettferdighet når godhet nektes.",
+      "look": "A very old, tall and slightly stooped man with a long, gentle face, deep-set, kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long white beard that reaches his belt. He wears a long, plain, hooded brown cloak over a simple undyed tunic, both dusty to the knees, and worn leather sandals, and carries a tall, knobbly wooden staff. No halo.",
+      "portrait": "Background: the dusty county road in the July heat."
+    },
+    {
+      "slug": "peter",
+      "name": "Peter",
+      "promptName": "Peter",
+      "replacesPortrait": "peter",
+      "description": "Reisekameraten som følger etter, sulten og trøtt, og blir vitne til både mirakel og straff uten å styre utfallet.",
+      "look": "A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a long, faded green hooded cloak over a knee-length belted tunic, dusty to the knees, and worn leather sandals, with a small bronze key on a cord at his belt. No halo.",
+      "portrait": "Background: the gravel lay-by outside the lefse shack."
+    },
+    {
+      "slug": "gjertrudsfuglen",
+      "name": "Gjertrudsfuglen",
+      "promptName": "the Red-Capped Bird",
+      "replacesPortrait": "gjertrudsfuglen",
+      "description": "Gjertruds nye skikkelse: en svart fugl med rød topp som hakker i treverk, alltid sulten og tørst, alltid ventende på regn.",
+      "look": "A black woodpecker, sooty black all over from beak to tail, its feathers a little ruffled and greasy with soot, and on top of its head a bright-scarlet crest that rises to a small pointed tuft at the back, exactly like a tiny knitted hat. It has a strong, pointed, pale ivory beak, round pale-yellow eyes with a sour, grumpy look, stiff black tail feathers for propping itself against poles and trunks, and grey clawed feet.",
+      "portrait": "Background: a weathered wooden telephone pole under a grey sky."
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "The Red-Capped Bird clings to a weathered wooden telephone pole beside an empty county road and pecks at the wood, her scarlet crest bright against heavy grey rain clouds rolling in over the dark spruce. Below her stands the small red lefse shack with its bench and gravel lay-by, and the first fat raindrops are darkening the dusty gravel.",
+    "characters": ["gjertrudsfuglen"],
+    "caption": "Gjertrudsfuglen er der ute ennå.",
+    "alt": "En svart fugl med rød topp hakker i en telefonstolpe ved veien. Under står den lille, røde lefsebua, og tunge regnskyer kommer inn over granskogen."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "De kom inn en ettermiddag i juli, i lange kapper og sandaler og med støv til knærne.",
+      "characters": ["gjertrud", "jesus", "peter"],
+      "prompt": "A hot July afternoon in the small lefse shack by the county road. Jesus and Peter step in through the open door out of the glare, in long hooded cloaks and sandals, dusty to the knees, Jesus leaning on his staff. Behind the glass counter, Gjertrud looks up from the big round electric griddle with a rolling pin in her floury hand and sizes them up; the extractor hood hums above her. Through the door lie the gravel lay-by, purple lupins and the road.",
+      "caption": "De kom inn en ettermiddag i juli, i lange kapper og sandaler og med støv til knærne.",
+      "alt": "To gamle vandringsmenn i lange kapper og sandaler kommer inn i den lille lefsebua. Bak disken står Gjertrud i rød strikkelue med kjevla i hånda og ser på dem."
+    },
+    {
+      "id": "02",
+      "paragraph": 14,
+      "anchor": "«Se», sa hun. «Så lite tok jeg.»",
+      "characters": ["gjertrud", "jesus", "peter"],
+      "prompt": "Inside the lefse shack, a third huge lefse covers the electric griddle from rim to rim, and the first two, just as big, lie folded in the glass counter. Gjertrud holds up a tiny crumb of dough between her thumb and forefinger to show how little she took, and raises her other hand, palm out, towards the door. Peter is already halfway out, sighing, while Jesus stands in the doorway and looks back at her, quiet and grave.",
+      "caption": "«Se», sa hun. «Så lite tok jeg.»",
+      "alt": "Gjertrud holder opp en bitte liten deigsmule mellom tommel og pekefinger og løfter den andre hånda mot døra. På takka ligger en kjempestor lefse, og Peter er på vei ut."
+    },
+    {
+      "id": "03",
+      "paragraph": 18,
+      "anchor": "Peter sto med munnen åpen.",
+      "characters": ["gjertrudsfuglen", "jesus", "peter"],
+      "prompt": "In the lefse shack, the Red-Capped Bird, her red hat now a scarlet crest, beats her wings in panic and shoots up into the steel extractor hood above the griddle, while a shower of black soot drifts down onto the huge lefse below. Jesus stands still in the doorway, grave and calm. Peter stands by the counter with his mouth wide open and his hands frozen in mid-air. The fan hums on as if nothing had happened.",
+      "caption": "Peter sto med munnen åpen. Vifta summet videre.",
+      "alt": "En svart fugl med rød topp flyr opp i avtrekkshetta over takka, og svart sot drysser ned over lefsa. Jesus står i døra, og Peter står med munnen åpen."
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "storyId": "syvfoler",
+  "variants": {
+    "simplified": {
+      "title": "De syv føllene",
+      "textFile": "public/content/stories/syvfoler/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Seven Colts",
+      "textFile": "public/content/stories/syvfoler/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.",
+  "palette": "Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "promptName": "Askeladden",
+      "look": "A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.",
+      "portrait": "Background: purple heather and violet mountains in the midsummer night.",
+      "variants": {
+        "simplified": {
+          "name": "Askeladden",
+          "description": "Yngstesønnen som alle undervurderer, men som holder hodet kaldt, sier fra til kjerringa, og følger føllene helt til han finner sannheten og bryter forbannelsen.",
+          "replacesPortrait": "askeladden"
+        },
+        "english": {
+          "name": "Ash-Lad",
+          "description": "The youngest son, mocked for idleness, who keeps pace with the colts, discovers their enchantment, and answers the king’s riddle truthfully in a clever way.",
+          "replacesPortrait": "ash-lad"
+        }
+      }
+    },
+    {
+      "slug": "kongen",
+      "promptName": "the King",
+      "look": "A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark-red wool robe with a grey fur collar, a thick gold chain across his chest, a small, spiky gold crown and pointed black shoes.",
+      "portrait": "Background: the front steps of the Royal Farm.",
+      "variants": {
+        "simplified": {
+          "name": "Kongen",
+          "description": "Streng og mistenksom herre som setter en brutal prøve, men belønner den som faktisk klarer oppgaven.",
+          "replacesPortrait": "kongen"
+        },
+        "english": {
+          "name": "The King",
+          "description": "A stern ruler who wagers his daughter and half his kingdom against a brutal punishment to test those who herd his seven colts.",
+          "replacesPortrait": "the-king"
+        }
+      }
+    },
+    {
+      "slug": "kjerringa-i-bergsprekken",
+      "promptName": "the Spinning Hag",
+      "look": "A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She is wrapped in many layered shawls of faded blue, brown, plum and grey over a long dark skirt, wears worn felt slippers and always holds a distaff wound with grey wool.",
+      "portrait": "Background: her grey rock cleft beside the forest path.",
+      "variants": {
+        "simplified": {
+          "name": "Den gamle kjerringa i bergsprekken",
+          "description": "Listig gammel kone som lokker gjetere til å sløse bort dagen og gir dem falske svar til kongen.",
+          "replacesPortrait": "kjerringa-i-bergsprekken"
+        },
+        "english": {
+          "name": "The Spinning Hag",
+          "description": "A deceitful old woman in the mountain cleft who lures the first two brothers into laziness and tries to stop Ash-Lad.",
+          "replacesPortrait": "the-spinning-hag"
+        }
+      }
+    },
+    {
+      "slug": "det-yngste-follet",
+      "promptName": "the Youngest Colt",
+      "look": "A small, slender chestnut colt, the youngest and smallest of seven, with long, knobbly legs, a glossy red-brown coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark, clever eyes with long lashes and a neat white star on his forehead.",
+      "portrait": "Background: a heather-covered hillside at midsummer.",
+      "variants": {
+        "simplified": {
+          "name": "Det yngste føllet (forhekset prins)",
+          "description": "Føllet som snakker med Askeladden og leder ham til stubben og kirken, der de får brød og vin som bevis på hva de spiser og drikker.",
+          "replacesPortrait": "det-yngste-follet"
+        },
+        "english": {
+          "name": "The Youngest Colt (Enchanted Prince)",
+          "description": "The speaking colt who aids Ash-Lad, leads him to the hidden stump-door and church, and reveals how to break the spell on the seven brothers.",
+          "replacesPortrait": "youngest-colt"
+        }
+      }
+    },
+    {
+      "slug": "den-yngste-prinsen",
+      "promptName": "the Youngest Prince",
+      "look": "A slight boy prince of about twelve, the youngest of seven brothers, with a round, freckled face, big dark eyes, a huge beaming smile and tousled strawberry-blonde hair. He wears shining white-and-gold clothes: a white tunic embroidered with gold, with a small white star on the chest, a short white cloak with gold trim, white hose and soft white leather boots.",
+      "portrait": "Background: the churchyard in the low midsummer sun.",
+      "variants": {
+        "simplified": {
+          "name": "Den yngste prinsen",
+          "description": "Det yngste føllet slik han egentlig er: den yngste av de sju kongssønnene og lillebror til prinsessa."
+        },
+        "english": {
+          "name": "The Youngest Prince",
+          "description": "The youngest colt as he truly is: the youngest of the seven king's sons and the princess's little brother."
+        }
+      }
+    },
+    {
+      "slug": "prinsessa",
+      "promptName": "the Princess",
+      "look": "A cheerful princess of about nineteen with a round, freckled face, warm brown eyes, a wide, happy smile and a mass of bouncy strawberry-blonde curls falling past her shoulders, crowned with a small gold circlet set with one green stone. She wears a long pale-green wool gown with a white linen collar and cuffs, a gold-embroidered belt and soft green shoes.",
+      "portrait": "Background: the Royal Farm in the pale midsummer night.",
+      "variants": {
+        "simplified": {
+          "name": "Prinsessa",
+          "description": "Kongens datter som blir Askeladdens brud, og som får se brødrene sine komme tilbake som prinser når forbannelsen brytes.",
+          "replacesPortrait": "prinsessa"
+        },
+        "english": {
+          "name": "The Princess",
+          "description": "The king’s daughter, promised as the prize for the successful herdsman and sister to the seven enchanted princes.",
+          "replacesPortrait": "the-princess"
+        }
+      }
+    },
+    {
+      "slug": "eldste-bror",
+      "promptName": "the Eldest Brother",
+      "look": "A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked homespun shirt with rolled sleeves, baggy brown breeches held up by a single strap and a wide, frayed straw hat, and he goes barefoot.",
+      "portrait": "Background: the tumbledown hut in the spruce forest.",
+      "variants": {
+        "simplified": {
+          "name": "Den eldste broren",
+          "description": "Askeladdens eldste bror, som drar ut for å tjene, men blir liggende hele dagen med hodet i fanget til kjerringa i bergsprekken."
+        },
+        "english": {
+          "name": "The Eldest Brother",
+          "description": "Ash-Lad's eldest brother, who sets out to find work but idles the whole day away with his head in the hag's lap."
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "kongsgarden",
+      "name": "the Royal Farm",
+      "look": "A grand old royal farm of ox-blood-red log buildings with white window frames, turf roofs and carved dragon-head gables around a wide, sandy yard. The main hall has broad wooden front steps with carved railings up to a big double door. Across the yard stands a long red log stable with a wide door, and a split-rail paddock fence runs along the birch trees, with violet mountains far behind."
+    },
+    {
+      "slug": "bergsprekken",
+      "name": "the Grey Cleft",
+      "look": "A narrow, shallow cleft at the foot of a grey, lichen-streaked cliff beside a winding forest path, with a flat, mossy stone in its mouth to sit on, ferns and heather around it, and birch trees and dark spruce on the slope below, where the path runs on towards the hills."
+    }
+  ],
+  "cover": {
+    "prompt": "In the pale light of a midsummer night, Askeladden rides the Youngest Colt at full gallop across a ridge of purple heather, bent low over his neck, with the six other chestnut colts streaming ahead of them. Far behind, violet mountains glow under a lilac sky, and the low sun lies gold along the ridge.",
+    "characters": ["askeladden", "det-yngste-follet"],
+    "variants": {
+      "simplified": {
+        "caption": "Over berg og dal, gjennom kratt og kjerr.",
+        "alt": "Askeladden rir på et lite, rødbrunt føll med hvit stjerne i panna over en lyngås i midtsommernatta. Foran dem galopperer seks andre føll, og langt borte ligger fiolette fjell."
+      },
+      "english": {
+        "caption": "Over hill and dale, through thicket and bog.",
+        "alt": "Ash-Lad rides a small chestnut colt with a white star across a heathery ridge in the midsummer night. Six other colts gallop ahead, and violet mountains rise far away."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["kongen", "eldste-bror"],
+      "places": ["kongsgarden"],
+      "prompt": "Evening at the Royal Farm, long golden light across the sandy yard, seen from the foot of the front steps. The King towers at the top of the steps, stern and unsmiling, one hand raised with three fingers held up in warning. Below him the Eldest Brother, straw hat in hand, grins lazily as if it were easy work. Beyond the split-rail fence, seven glossy chestnut colts frisk in the paddock, the smallest with a white star on his forehead.",
+      "variants": {
+        "simplified": {
+          "paragraph": 4,
+          "anchor": "«Vil du tjene hos meg og gjete de sju føllene mine?» sa kongen.",
+          "caption": "«Kan du gjete dem en hel dag, skal du få prinsessa og halve riket.»",
+          "alt": "Kongen står øverst på trappa og løfter tre fingre mot den eldste broren, som står nedenfor med stråhatten i hånda. Bak gjerdet leker sju føll."
+        },
+        "english": {
+          "paragraph": 4,
+          "anchor": "“Will you work for me and herd my seven colts?” said the King.",
+          "caption": "“Will you work for me and herd my seven colts?”",
+          "alt": "The King stands at the top of the steps holding up three fingers to the eldest brother, who waits below with his straw hat in his hand. Behind the fence, seven colts frisk about."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["kjerringa-i-bergsprekken", "eldste-bror"],
+      "places": ["bergsprekken"],
+      "prompt": "Midday at the Grey Cleft. The Spinning Hag sits on the mossy stone in the mouth of the cleft, holding her distaff in one hand and running a small bone comb through the hair of the Eldest Brother with the other. He lies stretched out with his head in her lap, fast asleep with his mouth open, his straw hat fallen in the heather. Far away between the birches, seven chestnut colts vanish down the path.",
+      "variants": {
+        "simplified": {
+          "paragraph": 8,
+          "anchor": "Det ville gutten mer enn gjerne.",
+          "caption": "Kjerringa spant med den ene hånda og luset ham med den andre.",
+          "alt": "Den eldste broren sover med hodet i fanget til kjerringa i bergsprekken. Hun spinner med den ene hånda og luser ham med den andre, mens føllene forsvinner mellom bjørkene."
+        },
+        "english": {
+          "paragraph": 8,
+          "anchor": "The boy asked for nothing better.",
+          "caption": "She combed and combed, while the colts vanished down the path.",
+          "alt": "The eldest brother sleeps with his head in the hag's lap in the cleft. She holds her distaff in one hand and combs his hair with the other, while the colts vanish between the birches."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["eldste-bror", "kongen"],
+      "places": ["kongsgarden"],
+      "prompt": "Evening in the yard of the Royal Farm. The Eldest Brother, rumpled and with bits of heather in his hair, proudly holds up a tuft of green moss in one hand and a small water flask in the other. On the front steps above him the King stares down at the moss, his bushy black eyebrows drawn together in a thunderous frown and his fists clenched. Long shadows stretch across the sand.",
+      "variants": {
+        "simplified": {
+          "paragraph": 15,
+          "anchor": "Gutten holdt fram mosedotten og vannflaska.",
+          "caption": "«Der ser du maten, og der ser du drikken deres.»",
+          "alt": "Den eldste broren holder stolt fram en mosedott og en vannflaske på tunet. På trappa ser kongen ned på ham med en mørk, sint rynke i panna."
+        },
+        "english": {
+          "paragraph": 15,
+          "anchor": "The boy held up the moss and the water flask.",
+          "caption": "“There’s their food, and there’s their drink.”",
+          "alt": "The eldest brother proudly holds up a tuft of moss and a water flask in the yard. On the steps the King glares down at him with a dark, angry frown."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["kjerringa-i-bergsprekken"],
+      "places": ["bergsprekken"],
+      "prompt": "Late morning at the Grey Cleft. The Spinning Hag leans out from the shadow of the cleft, smiling as sweetly as she can and beckoning with one crooked finger, her distaff in her other hand. Stumbling towards her up the path comes the middle brother, a short, stocky lad with a round pink face and short, spiky black hair, in a sweat-soaked blue smock, red in the face and worn out. Far behind him, seven colts race away over a ridge.",
+      "variants": {
+        "simplified": {
+          "paragraph": 19,
+          "anchor": "I grålysningen slapp stallmesteren ut føllene",
+          "caption": "«Kom hit, kom hit, min fine gutt, så skal jeg luse deg!»",
+          "alt": "Kjerringa i bergsprekken smiler søtt og vinker på den mellomste broren, som kommer svett og sliten oppover stien. Langt borte forsvinner føllene over en ås."
+        },
+        "english": {
+          "paragraph": 19,
+          "anchor": "At first grey light the Master of the Stables let the colts out",
+          "caption": "“Come here, come here, my fine lad, and let me comb your hair!”",
+          "alt": "The hag in the cleft smiles sweetly and beckons to the middle brother, who comes stumbling up the path, hot and worn out. Far away, the colts race over a ridge."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["askeladden", "eldste-bror"],
+      "prompt": "Inside the tumbledown hut, lit by one small window. Askeladden, knapsack on his back and ash still on his breeches, walks calmly towards the low door. On the bench along the wall, the Eldest Brother and the middle brother, a short, stocky lad with a round pink face and short, spiky black hair, jeer and point at him, while their parents, a thin, grey-haired old couple in patched clothes, reach out their hands, begging him to stay.",
+      "variants": {
+        "simplified": {
+          "paragraph": 26,
+          "anchor": "Brødrene flirte og foreldrene ba, men det hjalp ikke.",
+          "caption": "Brødrene flirte og foreldrene ba, men det hjalp ikke. Askeladden gikk.",
+          "alt": "Askeladden går mot døra i den skrale hytta med sekken på ryggen. På benken ler brødrene og peker, og de gamle foreldrene rekker ut hendene og ber ham bli."
+        },
+        "english": {
+          "paragraph": 26,
+          "anchor": "His brothers jeered and his parents begged, but it was no use.",
+          "caption": "His brothers jeered and his parents begged, but it was no use.",
+          "alt": "Ash-Lad walks towards the door of the tumbledown hut with his knapsack on his back. On the bench his brothers jeer and point, and his old parents reach out, begging him to stay."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["askeladden", "det-yngste-follet"],
+      "places": ["kongsgarden"],
+      "prompt": "First grey light at the Royal Farm. The Master of the Stables, an old man in a leather apron, has just flung open the stable door, and seven chestnut colts burst out across the sandy yard towards the hills. Askeladden has caught the nearest one, the Youngest Colt, by the rump with both hands and hangs on for dear life, his boots skidding in the sand and his knapsack flying.",
+      "variants": {
+        "simplified": {
+          "paragraph": 36,
+          "anchor": "Neste morgen i grålysningen slapp stallmesteren ut de sju føllene",
+          "caption": "Askeladden fikk tak i det nærmeste føllet og holdt fast.",
+          "alt": "I grålysningen stormer sju føll ut av stallen på kongsgården. Askeladden har fått tak i det minste føllet bakfra og henger fast med begge hendene."
+        },
+        "english": {
+          "paragraph": 36,
+          "anchor": "At first grey light the Master of the Stables let the seven colts out again",
+          "caption": "Ash-Lad caught the nearest colt by the rump and hung on.",
+          "alt": "In the grey dawn, seven colts burst out of the stable at the royal manor. Ash-Lad has caught the smallest one by the rump and hangs on with both hands."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["askeladden", "det-yngste-follet"],
+      "prompt": "A far clearing in the birch forest in pale midsummer light. The biggest of the seven chestnut colts, the eldest, has taken hold of a huge white birch stump and wrenched it aside, and where it stood, a small, low wooden door is set into the ground. Askeladden, sitting on the back of the Youngest Colt, leans forward with wide, curious eyes, and the five other colts stand around in a half circle.",
+      "variants": {
+        "simplified": {
+          "paragraph": 52,
+          "anchor": "Da de kom fram, tok det eldste føllet tak i stubben og vippet den til side",
+          "caption": "Der stubben hadde stått, var det en dør.",
+          "alt": "I en lysning har det største føllet vippet en diger, hvit bjørkestubbe til side, og der den sto, er det en liten dør. Askeladden sitter på det yngste føllet og ser nysgjerrig på."
+        },
+        "english": {
+          "paragraph": 49,
+          "anchor": "When they reached the stump, the eldest colt took hold of it and wrenched it aside",
+          "caption": "Where the stump had stood, there was a door.",
+          "alt": "In a clearing, the biggest colt has wrenched a huge white birch stump aside, and where it stood there is a small door. Ash-Lad sits on the youngest colt, watching with curious eyes."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["askeladden", "det-yngste-follet"],
+      "prompt": "Inside the small, dim room under the stump, with rough walls, a cold little hearth and two stools. Askeladden holds the great rusty sword up in one hand as lightly as a stick, a small clay jar in the other, and listens with a grave face. In the low doorway stands the Youngest Colt, earnestly telling him the secret, his big dark eyes solemn, pale daylight behind him.",
+      "variants": {
+        "simplified": {
+          "paragraph": 55,
+          "anchor": "«Ja, nå må du ta sverdet med deg», sa føllet.",
+          "caption": "«Vi er brødrene til prinsessa du skal få.»",
+          "alt": "I den lille stua under stubben holder Askeladden det store, rustne sverdet lett i den ene hånda og ei krukke i den andre. I døra står det yngste føllet og forteller ham hemmeligheten."
+        },
+        "english": {
+          "paragraph": 52,
+          "anchor": "“Now you must take the sword with you,” said the colt.",
+          "caption": "“We are the brothers of the princess you shall have.”",
+          "alt": "In the little room under the stump, Ash-Lad holds the great rusty sword lightly in one hand and a little jar in the other. In the doorway, the youngest colt tells him the secret."
+        }
+      }
+    },
+    {
+      "id": "09",
+      "characters": ["askeladden", "den-yngste-prinsen"],
+      "prompt": "The green churchyard of a small, dark, tarred church with a tall tower, in low afternoon sun. Where seven colts trotted in through the gate a moment ago, seven young princes now walk towards the church door in clothes so fine that they shine, the smallest of them the Youngest Prince, beaming. Just inside the gate, Askeladden has stopped dead with his mouth open, staring after them.",
+      "variants": {
+        "simplified": {
+          "paragraph": 68,
+          "anchor": "Da føllene kom inn på kirkegården, ble de til mennesker igjen.",
+          "caption": "Da føllene kom inn på kirkegården, ble de til mennesker igjen.",
+          "alt": "På kirkegården utenfor en liten, mørk kirke går sju kongssønner i klær som lyser. Askeladden står innenfor porten og gaper."
+        },
+        "english": {
+          "paragraph": 64,
+          "anchor": "When the colts came into the churchyard, they turned into people",
+          "caption": "When the colts came into the churchyard, they turned into people.",
+          "alt": "In the churchyard of a small dark church walk seven king's sons in shining clothes. Ash-Lad stands just inside the gate, gaping."
+        }
+      }
+    },
+    {
+      "id": "10",
+      "characters": ["askeladden", "det-yngste-follet", "kjerringa-i-bergsprekken"],
+      "places": ["bergsprekken"],
+      "prompt": "Late afternoon on the forest path below the Grey Cleft. The seven chestnut colts thunder past at full gallop, and Askeladden rides the Youngest Colt, bent low over his neck, the neck of a wine bottle poking out of his knapsack. In the mouth of the cleft the Spinning Hag has jumped up from her stone, shrieking after them and shaking her distaff, her shawls flapping. Dust and leaves whirl in their wake.",
+      "variants": {
+        "simplified": {
+          "paragraph": 69,
+          "anchor": "I samme stund som de sju kongssønnene kom ut på kirkegården",
+          "caption": "Så mye hørte han at han skjønte kjerringa var fælt sint.",
+          "alt": "Askeladden rir forbi bergsprekken på det yngste føllet, og de andre føllene galopperer foran. Kjerringa har hoppet opp og skriker og rister på håndteinen."
+        },
+        "english": {
+          "paragraph": 65,
+          "anchor": "The moment the seven king’s sons came out into the churchyard",
+          "caption": "He heard enough to know she was hopping mad.",
+          "alt": "Ash-Lad gallops past the cleft on the youngest colt, with the other colts ahead. The hag has jumped up and is screeching after them, shaking her distaff."
+        }
+      }
+    },
+    {
+      "id": "11",
+      "characters": ["askeladden", "kongen"],
+      "places": ["kongsgarden"],
+      "prompt": "Nearly dark in the yard of the Royal Farm under a pale lilac midsummer sky, a lantern glowing by the door. The King stands waiting in the yard with his arms folded. Askeladden, dusty from the long ride, holds out a round white communion wafer in one hand and a bottle of wine in the other. The King leans forward, his stern face beginning to change. Behind Askeladden the seven colts stand quietly by the stable.",
+      "variants": {
+        "simplified": {
+          "paragraph": 74,
+          "anchor": "Askeladden tok fram alterbrødet og vinflaska og viste kongen.",
+          "caption": "Askeladden tok fram alterbrødet og vinflaska og viste kongen.",
+          "alt": "I halvmørket på tunet holder Askeladden fram et alterbrød og en vinflaske til kongen, som lener seg fram. Bak dem står de sju føllene ved stallen."
+        },
+        "english": {
+          "paragraph": 70,
+          "anchor": "Ash-Lad brought out the communion wafer and the bottle of wine and showed them to the King.",
+          "caption": "Ash-Lad brought out the communion wafer and the bottle of wine.",
+          "alt": "In the dusk of the yard, Ash-Lad holds out a communion wafer and a bottle of wine to the King, who leans forward. Behind them the seven colts stand by the stable."
+        }
+      }
+    },
+    {
+      "id": "12",
+      "characters": ["askeladden", "kongen", "prinsessa", "den-yngste-prinsen"],
+      "prompt": "The candlelit wedding hall of the royal farm, with a long bridal table decked with birch branches. Askeladden has just come back in with seven princes in shining white-and-gold clothes behind him, the smallest the Youngest Prince. The King, overjoyed, kisses Askeladden on the cheek and claps him on the back, and the Princess, in a silver bridal crown, beams at him. Twelve guests at the table stare with their spoons in the air.",
+      "variants": {
+        "simplified": {
+          "paragraph": 78,
+          "anchor": "Da han kom inn til brudebordet med de sju prinsene",
+          "caption": "Kongen ble så glad at han både kysset og klappet Askeladden.",
+          "alt": "Askeladden kommer inn til brudebordet med sju prinser i skinnende klær. Kongen kysser ham og klapper ham på ryggen, og bruden smiler strålende."
+        },
+        "english": {
+          "paragraph": 74,
+          "anchor": "When he came back to the bridal table with the seven princes behind him",
+          "caption": "The King was so overjoyed that he kissed Ash-Lad and clapped him on the back.",
+          "alt": "Ash-Lad comes back to the bridal table with seven princes in shining clothes. The King kisses him and claps him on the back, and the bride beams."
+        }
+      }
+    }
+  ]
+}
