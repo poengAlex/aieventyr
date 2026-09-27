@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "The Three Princesses in Whiteland",
-  "description": "A faithful English retelling that keeps close to the original folktale’s cadence and structure, following the fisherman’s adopted son as he braves trolls, enchanted gifts, and the North Wind to win back his queen in the stark realm of Whiteland.",
-  "tone": "Classic folktale, adventurous, magical, and perilous with a hopeful ending",
+  "description": "The fisherman promises a head in the water whatever his wife carries under her belt, not knowing she is expecting a child. Years later the boat sets off by itself with the boy aboard and sails all night to a pale white shore. A long Norwegian wonder tale.",
+  "tone": "Sweeping, magical and brisk",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A fisherman's adopted son journeys to Whiteland, frees three buried princesses from trolls, and must fight his way back to the youngest when he loses her by breaking a promise.",
+  "summary": "A fisherman’s son frees three princesses from the trolls of Whiteland and marries the youngest, then loses her by breaking a promise.",
   "hasInlineScenes": true
 }

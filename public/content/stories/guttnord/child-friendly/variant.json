@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Gutten og Nordavinden: Duken, Bukken og Kjeppen",
-  "description": "En barnevennlig, mildere variant med tryggere stemning og mykere språk, der gutten møter Nordavinden og lærer en rettferdig måte å få hjelpen sin tilbake på uten skremmende detaljer.",
-  "tone": "Varm, rolig og eventyrlig med en tydelig, snill rettferdighet",
+  "description": "Sssssuuuuusj! Tre ganger blåser Nordavinden grøtmelet av gårde, og da går gutten helt opp på fjellet for å si ifra. Et høytlesningseventyr med magiske ord og en bukk som ikke alltid gjør penger.",
+  "tone": "Leken, lydrik og lun",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En modig gutt går til Nordavinden for å få rettferdighet og kommer hjem med tre magiske gaver som hjelper ham og moren.",
+  "summary": "Gutten går til Nordavinden for å få igjen melet, får tre magiske gaver og må lure gjestgiveren som bytter dem bort.",
   "hasInlineScenes": true
 }

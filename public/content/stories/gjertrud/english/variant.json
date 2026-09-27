@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Gjertrudsfuglen (English)",
-  "description": "A close English retelling of the folktale in which a stingy baker named Gertrud refuses to share even a taste of flatbread with our Lord and Saint Peter, bringing on a swift moral transformation into the thirsty Gertrud-bird.",
-  "tone": "Folktale, moral, and briskly cautionary",
+  "description": "Our Lord and Saint Peter ask Gertrud for a taste of flatbread, and she says of course. But every scrap of dough she rolls out spreads across the griddle until it is far too big to give away. A short, sharp Norwegian legend.",
+  "tone": "Terse, dry and cautionary",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A miserly baker refuses to share bread and is changed into a bird doomed to peck for dry food and thirst for rain.",
+  "summary": "Gertrud grudges Our Lord a single flatbread and is turned into a soot-black bird that pecks at trees and always thirsts for rain.",
   "hasInlineScenes": true
 }

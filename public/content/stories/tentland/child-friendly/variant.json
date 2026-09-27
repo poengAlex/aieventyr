@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "De tre prinsessene i Hvittenland (Snill og barnevennlig)",
-  "description": "En mildere og tryggere variant av eventyret, med mykere stemning og ordvalg: prøvene i slottet føles mer som magiske utfordringer enn skremmende fare, og reisen handler tydelig om mot, gode råd og å finne tilbake til den man er glad i.",
-  "tone": "Gentle, reassuring fairy-tale; warm, hopeful, and adventurous without harsh edges",
+  "description": "Stranden i Hvittenland er hvit som melk, og der stikker tre prinsessehoder opp av sanden. For å få dem fri må gutten la trollene kile ham, en hel natt for hver av dem. Et langt og morsomt eventyr å lese høyt.",
+  "tone": "Fjollete, spennende og varm",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En ung konge reiser gjennom magi og vennlige hjelpere for å finne tilbake til dronningen i Hvittenland.",
+  "summary": "Fiskergutten tåler tre netter med trollkiling, gifter seg med den yngste prinsessen og må lete lenge da hun blir borte.",
   "hasInlineScenes": true
 }

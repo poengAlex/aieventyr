@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Askeladden og trollet i skogen (Barnevennlig)",
-  "description": "Denne barnevennlige varianten forteller om Askeladdens møte med trollet med et mildere språk og en tryggere stemning, der spenningen blir mer lek og kløkt enn skremsel, og slutten føles varm og rettferdig for små lesere.",
-  "tone": "Varm, mild og eventyrlig, med lett spenning og humor.",
+  "description": "«Hogger du i skogen min, skal jeg klemme deg flat som flatbrød!» Begge brødrene springer hjem, men Askeladden har med seg en liten, hvit ost. Et morsomt eventyr å lese høyt, med et troll som aldri har tapt en spisekonkurranse.",
+  "tone": "Morsom, spennende og trygg",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden bruker kløkt og ro til å overvinne et troll og hjelpe familien sin.",
+  "summary": "Askeladden lurer trollet med en ost og en sekk under bordet, og kommer hjem med gull og sølv så faren kan betale det han skylder.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Jomfru Maria som Gudmor (Barnevennlig)",
-  "description": "En mildere og tryggere gjenfortelling med mykere språk, roligere stemning og tydelig vekt på læring, tilgivelse og å holde løfter, der magien med stjerne, måne og sol står i sentrum uten å bli for skremmende.",
-  "tone": "Varm, eventyrlig og trøstende",
+  "description": "Tre små dører med et lite hjerte på hver, og jenta får ikke åpne dem, ikke en gang et bitte lite gløtt. Et stille høytlesningseventyr om stjerna, månen og sola, og om vakter som sovner mens de teller sauer.",
+  "tone": "Stille, varm og trøstende",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En snill foster-mor lærer en nysgjerrig jente å holde løfter, før alt ender i tilgivelse og glede for hele familien.",
+  "summary": "Jenta slipper ut stjerna, månen og sola, mister stemmen og blir en stum dronning som ikke kan forklare hvor babyene hennes blir av.",
   "hasInlineScenes": true
 }

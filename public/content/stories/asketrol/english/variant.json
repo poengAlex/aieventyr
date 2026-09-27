@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Askeladden and the Troll in the Forest (English Retelling)",
-  "description": "A faithful English retelling of the classic Norwegian folktale, keeping the original’s brisk, cunning humor as Askeladden outwits a forest troll with quick thinking, bold bluffing, and a knapsack trick.",
-  "tone": "Folktale, witty, and suspenseful",
+  "description": "“Chop in my forest and I’ll kill you!” The troll has sent both of Askeladden’s brothers running home, but Askeladden heads into the forest with nothing in his knapsack but a little homemade cheese. A cheeky Norwegian classic, told in lively modern English.",
+  "tone": "Cheeky, deadpan and lively",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A clever youngest son bluffs and tricks a troll to win treasure and save his family from debt.",
+  "summary": "Askeladden bluffs a forest troll with a cheese and a knapsack full of porridge, and carries home gold to pay off some of the family debt.",
   "hasInlineScenes": true
 }

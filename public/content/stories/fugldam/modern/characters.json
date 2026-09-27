@@ -9,7 +9,7 @@
   {
     "name": "Ridder Rød",
     "slug": "ridder-rod",
-    "description": "Den erfarne styrmannen i rød jakke som styrer ekspedisjonen og senere stjeler æren med trusler, vold og en påtvunget forlovelse.",
+    "description": "Styrmannen i den røde seilerjakken, som seiler fra den yngste kongssønnen, tar æren for redningen og sender ut pressemeldingen om forlovelsen selv.",
     "visualPrompt": "Broad-shouldered middle-aged man with hard jaw and slicked-back dark hair, wearing a vivid red jacket over modern maritime gear; confident predatory smile, cold eyes; posture like a man used to command; hands ready to seize; modern fairytale villain aesthetic.",
     "imagePath": "characters/ridder-rod.webp"
   },
@@ -23,14 +23,14 @@
   {
     "name": "Fugl Dam",
     "slug": "fugl-dam",
-    "description": "En gigantisk, gåtefull hjelpefugl som krever fire tønner rug som betaling og flyr prinsen forbi skipet og mot oppgjøret, som en gammel kraft midt i moderne verden.",
+    "description": "En fugl så stor at den nesten fyller gårdsplassen, med fjær som kabler og bark, som spiser fire tønner rug til frokost og flyr kongssønnen forbi yachten.",
     "visualPrompt": "Enorm bird filling a courtyard, feathers textured like intertwined cables and rough bark, eyes ancient and intelligent; a single neck feather as thick as a small tree trunk; powerful wings half-spread; it bears uneven cargo balanced on each side; presence both protective and unsettling; modern mythic creature style.",
     "imagePath": "characters/fugl-dam.webp"
   },
   {
     "name": "Trollkongen (øya-slottet)",
     "slug": "trollkongen-oya-slottet",
-    "description": "Den skremmende, kalkulerende herskeren i det skjulte slottet som gir prinsen styrke og verktøy, men alltid med sin egen agenda og krav om gjenytelser.",
+    "description": "Det store, stygge trollet på benken i slottet av stein og glass, som gir kongssønnen sverdet og flasken for å bli kvitt husbonden sin, og som går i dress og krone når han selv blir konge.",
     "visualPrompt": "Tall, imposing troll-king figure with coarse grayish skin and heavy features, dressed in a strange blend of antique regalia and modern tailored garments; jewelry and worn insignia glint against dark fabric; expression measured, transactional, eerily calm; stands in a sleek stone-and-glass hall that feels both ancient and contemporary.",
     "imagePath": "characters/trollkongen-oya-slottet.webp"
   }

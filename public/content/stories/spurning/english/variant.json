@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Spurning (English Retelling)",
-  "description": "A close English retelling of the Norwegian folktale in which Askeladden defeats a sharp-tongued princess not with grand speeches, but with quick, literal-minded answers and a bundle of odd found objects.",
-  "tone": "Witty, folkloric, and lightly triumphant",
+  "description": "The Princess has an answer for everything, and Askeladden’s clever brothers get nowhere. He sets off, picking up whatever he finds on the road: a dead magpie, two crooked goat’s horns and a shoe sole worn right through. A short, quick-witted Norwegian tale.",
+  "tone": "Quick, dry and playful",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden wins a princess and half a kingdom by outsmarting her barbs with humble roadside treasures.",
+  "summary": "Askeladden wins the Princess and half the kingdom by tongue-tying her with things he picked up along the road.",
   "hasInlineScenes": true
 }

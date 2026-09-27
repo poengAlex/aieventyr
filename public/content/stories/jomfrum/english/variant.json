@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "The Virgin Mary as Godmother",
-  "description": "An English retelling that closely follows the traditional folktale: a poor couple’s daughter is fostered by a splendid lady who forbids three chambers, and the girl’s curiosity unleashes the star, moon, and sun—leading to muteness, a royal marriage, and a harsh trial before a merciful revelation.",
-  "tone": "Folktale, moral, devotional, and suspenseful",
+  "description": "Everyone would be delighted to stand godparent to the poor man’s baby; nobody would be delighted to pay. Then a splendid lady on the forest path offers to see the child christened, if afterwards the girl will live with her. A grave, beautiful legend.",
+  "tone": "Solemn, eerie and tender",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A curious foster-daughter loses her voice and must endure three terrible trials before the Virgin Mary restores her children and her speech.",
+  "summary": "A girl who lets out the star, the moon and the sun loses her voice, marries a prince, and is accused of a terrible crime when her babies vanish.",
   "hasInlineScenes": true
 }

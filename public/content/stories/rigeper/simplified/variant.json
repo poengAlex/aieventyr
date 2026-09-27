@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Rige Per Kræmmer (Simplified)",
-  "description": "En forenklet variant på moderne norsk med tydeligere setninger og jevnere flyt, der den klassiske eventyrhandlingen beholdes, men språket er gjort lettere å lese.",
-  "tone": "Folkeeventyraktig, spennende og lett humoristisk, med klar og enkel fortellerstemme",
+  "description": "Når Rike-Per Kremmer betaler godt nok, ser stjernekikkerne det i stjernene: Dattera hans skal få møllerbarnet som nettopp er født i kverna nedenfor gården. Det har Per ikke tenkt å finne seg i. Fortalt på lett og levende norsk.",
+  "tone": "Spennende, lun og litt skadefro",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En rik kremmer prøver å unngå en spådom, men ender med å bli lurt av skjebnen og den fattige møllergutten.",
+  "summary": "Rike-Per Kremmer prøver alt for å bli kvitt møllergutten som skal få dattera hans, og sender ham til slutt til Dragen av Dybenfart.",
   "hasInlineScenes": true
 }

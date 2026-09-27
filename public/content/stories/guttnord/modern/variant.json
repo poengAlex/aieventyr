@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Om gutten som utfordret Nordavinden (Modern)",
-  "description": "En moderne, urban gjenfortelling der et vindkast i en blokk tar havremelet til en fattig mor og sønn, og gutten følger sporene nordover med buss, tog og en natt på et neonskinnende motell—der grådige eiere bytter ut magiske gaver og tvinger fram et oppgjør.",
-  "tone": "Samtidig, skarp og rettferdsdrevet med folkeeventyrmagi i hverdagslige omgivelser",
+  "description": "Det er sju dager til trygda kommer, og Nordavinden tar alle tre posene med havremel rett av svalgangen. Én gang kan være uflaks, men tre ganger er tyveri, så gutten tar bussen nordover for å kreve melet tilbake.",
+  "tone": "Lavmælt, tørrvittig og varm",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En gutt reiser nordover for å kreve tilbake det vinden tok, og ender med magiske gaver som må forsvares mot svindel.",
+  "summary": "Gutten krever havremelet tilbake fra Nordavinden, men gavene han får, forsvinner på motellet i veikrysset.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "De tre prinsessene i Hvittenland (forenklet)",
-  "description": "En forenklet, moderne norsk versjon med tydeligere setninger og lettere flyt, der fiskergutten havner i Hvittenland, frigjør tre prinsesser fra trollenes makt, mister dronningen sin ved å bryte et råd, og må finne veien tilbake ved hjelp av naturens herrer, magiske gjenstander og nordavinden.",
-  "tone": "Eventyrlig, lettlest og spennende",
+  "description": "Fiskeren lover et hode i vannet det konen bærer under beltet, og vet ikke at det er et barn. Mange år senere går båten av seg selv med gutten om bord, rett ut fra land og mot en strand som er hvit som snø. Et langt eventyr, fortalt på lett norsk.",
+  "tone": "Magisk, spennende og lettlest",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En ung konge reiser til Hvittenland, redder tre prinsesser og må kjempe seg tilbake til dronningen han nesten mister.",
+  "summary": "Fiskergutten berger tre prinsesser i Hvittenland og får den yngste, men mister henne igjen og må finne veien tilbake.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Spurningen (Modern)",
-  "description": "A contemporary retelling where the “princess” is a razor-tongued corporate heiress and the suitor who bests her does it with quick modern wordplay and everyday found objects—zip ties, broken café plates, bicycle horns, and a worn shoe sole—turning today’s clutter into a surprising victory.",
-  "tone": "Witty, contemporary folktale with playful banter and a light triumph",
+  "description": "I et direktesendt intervju lover konsernsjefen bort dattera og halve konsernet til den som klarer å gjøre henne målløs. Det er ment som en spøk, men snart står friere i kø utenfor villaen ved sjøen. Askeladden tar bussen.",
+  "tone": "Kvikk, frekk og nåtidig",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A clever underdog out-talks a sharp-tongued corporate heiress using a handful of discarded modern items.",
+  "summary": "Askeladden fra et småbruk i innlandet målbinder konsernsjefens datter med en strips, to sykkelhorn og en utgått skosåle.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Spurningen (Simplified)",
-  "description": "En forenklet variant på moderne norsk med klarere setninger og bedre flyt, der Askeladden bruker funnene sine i en lettlest ordduell for å gjøre den kvikke prinsessa svar skyldig.",
-  "tone": "Folkeeventyraktig, leken og kvikk",
+  "description": "Prinsessa har svar på alt, og de to eldste brødrene kommer ingen vei med henne. Askeladden tar med seg det han finner på veien: en død skjære, to krokete bukkehorn og en skosåle som er slitt tvers igjennom. Et kort eventyr på lett norsk.",
+  "tone": "Kjapp, lur og lettlest",
   "characterCount": 3,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden bruker smarte ordspill og rare gjenstander for å gjøre den vrange prinsessa svar skyldig og vinne henne og halve riket.",
+  "summary": "Askeladden vinner prinsessa og halve kongeriket ved å målbinde henne med ting han har funnet langs veien.",
   "hasInlineScenes": true
 }

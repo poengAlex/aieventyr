@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Gjertrudsfuglen (Barnevennlig)",
-  "description": "En mildere, barnevennlig variant med mykere stemning der lærdommen om å dele kommer fram uten skremmende ord, og forvandlingen til fugl oppleves mer som en magisk påminnelse enn en straff.",
-  "tone": "Varm, rolig og eventyrlig, med en enkel moral om å dele",
+  "description": "Rummel, rummel! Vårherre og Sankt Peder er sultne, men hver lefse Gjertrud baker, vokser seg større og større og STØRRE. Et kort og rytmisk eventyr å lese høyt.",
+  "tone": "Kort, rytmisk og rolig",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Gjertrud lærer å dele når en liten deigklump blir til store lefser og hun til slutt blir til en liten fugl med rød lue.",
+  "summary": "Gjertrud vil ikke dele ei eneste lefse med Vårherre og Sankt Peder, og blir til en liten svart fugl med rød lue.",
   "hasInlineScenes": true
 }

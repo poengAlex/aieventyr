@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Fugl Dam (English Retelling)",
-  "description": "An English retelling that stays close to the original folktale: twelve missing princesses, a sea-long quest, a many-headed troll, and the mysterious Bird Dam who carries a betrayed prince back toward justice.",
-  "tone": "mythic, suspenseful, dark-fairytale adventure",
+  "description": "Seven years into the search for twelve stolen princesses, a storm leaves the whole crew asleep, all but the youngest prince. Only he sees the little dog yelping at the ship from a rocky island. A Norwegian tale of trolls, treachery and a very large bird.",
+  "tone": "Grand, suspenseful and wry",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A youngest prince rescues twelve stolen princesses, survives betrayal at sea, and returns in disguise to reveal the truth.",
+  "summary": "The youngest prince frees twelve princesses from a twelve-headed troll, but Sir Red sails off without him and takes the credit.",
   "hasInlineScenes": true
 }

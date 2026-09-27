@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Fugl Dam (Simplified)",
-  "description": "A simplified, modern-Norwegian retelling with clearer phrasing and smoother reading flow, keeping the adventure, betrayal, and magical rescue easy to follow.",
-  "tone": "Eventyrlig, spennende og lettlest, med klare vendinger og rett fram fortelling",
+  "description": "Etter sju år på havet og tre døgn i storm sovner alle om bord, alle unntatt den yngste kongssønnen. Bare han ser den lille hunden på øya, som bjeffer og piper mot skipet. Eventyret om de tolv bergtatte prinsessene, på lett og levende norsk.",
+  "tone": "Spennende, storslått og lettlest",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En yngste prins redder tolv bortførte prinsesser, blir sviktet av Ridder Rød, og får hjelp av den mektige Fugl Dam til å vinne sannheten tilbake.",
+  "summary": "Den yngste kongssønnen frelser tolv prinsesser fra et troll med tolv hoder, men Ridder Rød seiler fra ham og tar æren.",
   "hasInlineScenes": true
 }

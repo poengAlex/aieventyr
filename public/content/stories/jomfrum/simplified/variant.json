@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Jomfru Maria som Gudmor (Forenklet)",
-  "description": "En forenklet variant på moderne norsk med tydeligere setninger og lettere flyt, der eventyrets magiske prøvelser og straffen–forløsningen fortelles rett fram og mer tilgjengelig.",
-  "tone": "Eventyrlig, tydelig og lettlest, med alvorlige prøvelser og en varm forsoning til slutt.",
+  "description": "Alle vil gjerne være fadder, men ingen vil betale. Så lover en fin frue på stien å sørge for dåpen, om hun får beholde jenta etterpå, og i huset hennes er det tre kamre jenta aldri må åpne. Et alvorlig eventyr på lett norsk.",
+  "tone": "Alvorlig, vakker og lettlest",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En stum, vakker kvinne må tåle tre prøvelser og falske anklager før Jomfru Maria gir henne barna og stemmen tilbake.",
+  "summary": "Jenta slipper ut stjerna, månen og sola, mister stemmen og blir en vakker, stum dronning som må se barna sine forsvinne, ett etter ett.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "The Boy Who Went to the North Wind and Demanded His Meal Back",
-  "description": "An English retelling that stays close to the original Scandinavian folktale: a poor boy confronts the personified North Wind, receives three enchanted gifts, and outwits a thieving innkeeper to win back justice for what was stolen.",
-  "tone": "Folktale; brisk, witty, and morally satisfying, with a touch of magical menace",
+  "description": "Three times the North Wind snatches the boy’s porridge meal off the storehouse steps, so he walks all the way to the North Wind’s house, where every tree leans south, to demand it back. A Norwegian classic in brisk modern English.",
+  "tone": "Rhythmic, wry and warm",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A poor boy tracks down the North Wind for stealing his meal and returns home with magical gifts that expose a thief and set things right.",
+  "summary": "A poor boy demands his meal back from the North Wind and gets a magic cloth, a gold-making goat and a stick, but a greedy innkeeper wants them all.",
   "hasInlineScenes": true
 }

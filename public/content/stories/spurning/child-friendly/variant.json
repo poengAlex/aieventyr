@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Spurningen (Child Friendly)",
-  "description": "En mildere, mer leken versjon for yngre lesere, der konkurransen føles som en vennlig ordlek og stemningen er varm og trygg, med mykere språk og fokus på nysgjerrighet og snillhet.",
-  "tone": "Warm, playful, gentle",
+  "description": "«Jeg er den klokeste i hele bygda», sier storebroren. «Da må det være en liten bygd», svarer prinsessen. Så er det Askeladdens tur, med en sekk full av rare ting han har funnet på veien. Et kort eventyr å lese høyt.",
+  "tone": "Leken, kvikk og varm",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden bruker rare småting og snille ord til å vinne en vennlig ordlek mot prinsessen.",
+  "summary": "Askeladden gjør den kvikke prinsessen målløs med en skjære, to bukkehorn og en skosåle med hull, og får både henne og halve kongeriket.",
   "hasInlineScenes": true
 }

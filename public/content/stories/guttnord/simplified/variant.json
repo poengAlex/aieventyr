@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Gutten og nordavinden (forenklet)",
-  "description": "En forenklet versjon på moderne norsk, med klarere setninger og lettere flyt, der gutten følger nordavinden for å få rettferdighet for melet som ble tatt.",
-  "tone": "Eventyrlig, rettferdig og lettlest",
+  "description": "Tre ganger tar Nordavinden grøtmelet fra gutten på stabburstrappa. Da går han like godt til Nordavinden selv, langt mot nord der alle trærne står på skrå, for å kreve melet tilbake. Eventyret fortalt på enkel, levende norsk.",
+  "tone": "Rytmisk, lun og lettlest",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En fattig gutt går helt til nordavinden for å få igjen melet sitt og ender med magiske gaver som sikrer rettferdighet.",
+  "summary": "Gutten krever melet tilbake fra Nordavinden og får en duk, en bukk og en kjepp, men gjestgiveren vil ha gavene for seg selv.",
   "hasInlineScenes": true
 }

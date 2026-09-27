@@ -1,8 +1,8 @@
 {
   "variant": "simplified",
   "displayTitle": "Askeladden som kappeåt med trollet (forenklet)",
-  "description": "En forenklet utgave i moderne norsk med klarere setninger og lettere flyt, som gjør eventyret mer tilgjengelig uten å miste humoren i Askeladdens lure triks mot trollet.",
-  "tone": "Lett, spennende og humoristisk",
+  "description": "«Hogger du i skogen min, så dreper jeg deg!» Trollet har jaget begge storebrødrene hjem. Askeladden har ikke annet i skreppa enn en liten, nyystet ost. Klassikeren på lett og muntlig norsk.",
+  "tone": "Frekk, morsom og lettlest",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Askeladden lurer et skogtroll med ost og grøt og kommer hjem med gull nok til å betale gjelda.",
+  "summary": "Askeladden lurer trollet i skogen med en ost og en skreppe full av grøt, og bærer hjem gull og sølv til gjelda.",
   "hasInlineScenes": true
 }

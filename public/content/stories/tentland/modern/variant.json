@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "De tre prinsessene i Hvittenland (Modern)",
-  "description": "En samtidsnær gjenfortelling der magien glir inn i dagens verden: en fisker ved fjorden, en kongelig residens med vakter og protokoll, et hvitt slott som virker både gammelt og høyteknologisk, og en slank «smart-ring» som kan oppfylle ønsker—men bare to.",
-  "tone": "Eventyrlig, moderne og drivende, med mørke prøvelser, håp og en sterk kjærlighet som settes på prøve av stolthet og feil valg.",
+  "description": "Ekkoloddet har vært blankt hele dagen da et hode stikker opp av sjøen og byr fiskeren fisk nok, mot det konen hans bærer under beltet. Han sier ja før han rekker å tenke.",
+  "tone": "Tørr, vemodig og storslått",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En ung mann må finne tilbake til Hvittenland og dronningen sin etter at et ønske går galt og river dem fra hverandre.",
+  "summary": "Fiskerens sønn, oppvokst på residensen, berger tre prinsesser i Hvittenland, men mister dronningen sin og må finne et land som ikke står på noe kart.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Fugl Dam (Child Friendly)",
-  "description": "A gentler retelling with a warm, reassuring mood: the danger is softened into a sleepy, many-headed troll and brave-but-kind helpers, with an emphasis on rescue, fairness, and everyone returning safely home.",
-  "tone": "Gentle, adventurous, and reassuring",
+  "description": "Snork, snork! Tolv prinsesser må klø en trollkonge i hodene dagen lang, for når man har tolv hoder, klør det alltid et sted. Et høytlesningseventyr om den yngste kongssønnen og en fugl som spiser fire tønner rug til frokost.",
+  "tone": "Leken, spennende og trygg",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A youngest prince follows a helpful bird to rescue twelve missing princesses and make things right.",
+  "summary": "Den yngste kongssønnen redder tolv prinsesser fra trollkongen, blir lurt av Ridder Rød og får hjelp av den kjempestore Fugl Dam.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Rike Per Kremmer (Modern)",
-  "description": "En moderne gjenfortelling der Rike-Per eier halve dalen og prøver å kjøpe seg ut av en spådom, møllergutten overlever kista på elva, og dragen bor i et prisbelønt hus av glass og stål.",
-  "tone": "Tørrvittig, spennende og moderne, med eventyrets magi tatt helt bokstavelig",
+  "description": "Rike-Per eier halve dalen og betaler stjernekikkerne godt, men svaret liker han ikke: Dattera hans skal gifte seg med et spedbarn fra ei kvern som går med underskudd. Eventyret i vår tid, med tvangsauksjoner, dokumentfalsk og en drage i et prisbelønt betonghus.",
+  "tone": "Satirisk, skarp og spennende",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Rike-Per prøver alt for å bli kvitt gutten som skal arve ham, men hver felle blir til lykke for møllergutten.",
+  "summary": "Rike-Per kjøper møllergutten to ganger for å bli kvitt ham, men gutten gifter seg med dattera hans og blir sendt til Dragen av Dybenfart.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "modern",
   "displayTitle": "Gjertrudsfuglen (Modern)",
-  "description": "En samtidstolkning der Gjertrud driver et lite veikantkjøkken i en moderne verden, og mirakelet skjer på en steketakke under avtrekksvifta—med en rød lue som blir til et skarpt kjennetegn når grådigheten ender i en brå, urban folkeeventyr-forvandling.",
-  "tone": "Moderne folkeeventyr, skarpt moralsk, underlig og urovekkende",
+  "description": "Gjertrud har stekt lefser i bua ved fylkesveien i tjueto år, da Jesus og Peter kommer inn i sandaler og uten penger. Hver lefse hun steker til dem, blir for stor til å gi bort, men ikke for stor til å selge.",
+  "tone": "Tørr, lavmælt og litt uhyggelig",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "Da en smågrådig veikantbaker nekter å dele en smakebit, blir hun forvandlet til en svart fugl med rød topp som bare finner mat i treverk og drikke i regnet.",
+  "summary": "Gjertrud i lefsebua ved fylkesveien vil ikke gi Jesus en smakebit og blir til en svart fugl med rød lue.",
   "hasInlineScenes": true
 }

@@ -1,8 +1,8 @@
 {
   "variant": "english",
   "displayTitle": "Rich Per the Pedlar (English Retelling)",
-  "description": "An English retelling that stays close to the original Scandinavian folktale, preserving its episodic structure: a prophecy resisted by a wealthy pedlar, a child’s survival by chance and kindness, a forged letter that turns murder into marriage, and a dragon-quest whose answers unravel the villain’s fate.",
-  "tone": "Classic folktale; brisk, ironic, and adventurous with darkly comic justice.",
+  "description": "The stargazers say Rich Per’s daughter will marry the miller’s baby, born at the mill just below his farm, so Per buys the child, seals him in a chest and pushes it out into the river. But it is a very good chest, and it doesn’t leak.",
+  "tone": "Ironic, brisk and darkly comic",
   "characterCount": 5,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A wealthy pedlar tries to outwit a prophecy, but a miller’s boy survives, wins a bride, defeats a dragon, and turns the schemer into an eternal ferryman.",
+  "summary": "Rich Per the Pedlar tries every trick to get rid of the miller’s boy who is fated to marry his daughter, and finally sends him to the Dragon of Deep-Ford.",
   "hasInlineScenes": true
 }

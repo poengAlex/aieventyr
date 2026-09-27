@@ -1,8 +1,8 @@
 {
   "variant": "child-friendly",
   "displayTitle": "Rige Per Kræmmer (Child Friendly)",
-  "description": "En mildere og tryggere variant for yngre lesere, der språket er mykere og stemningen varmere, med ekstra vekt på mot, hjelpsomhet og en rettferdig slutt uten å dvele ved det skumle.",
-  "tone": "Gentle, hopeful, reassuring fairy-tale",
+  "description": "Stjernekikkerne sier at dattera til Rike Per Kremmer skal gifte seg med babyen i mølla. «En som ikke har tenner en gang? Aldri i livet!» sier Per. Et høytlesningseventyr med tolv røvere og en drage som ikke får sove.",
+  "tone": "Lun, rytmisk og morsom",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "En snill møllergutt overvinner vansker med hjelp fra gode venner og finner lykken, mens grådighet til slutt får en rettferdig lærepenge.",
+  "summary": "Møllergutten får gifte seg med dattera til Rike Per Kremmer, men for å beholde henne må han hente tre fjær fra Dragen ved Dybenfart.",
   "hasInlineScenes": true
 }
