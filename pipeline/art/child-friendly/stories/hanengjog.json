@@ -3,7 +3,7 @@
   "title": "Hanen, gjøken og århanen",
   "textFile": "public/content/stories/hanengjog/child-friendly/story.txt",
   "world": "Old rural Norway, long ago, where farm animals and wild birds can talk. On a small farm at the edge of a birch wood, the rooster, the cuckoo and the black grouse have bought one cow together. The rooster's home is a little hen hatch with a ladder in the cowshed wall, the cuckoo's home is a tall birch tree in the wood, and the black grouse's home is the purple-brown heather moor on the hill above. At night the three birds sleep on the big heap of golden straw beside the cowshed, next to the cow. The birds and the cow are natural animals without clothes.",
-  "palette": "A May morning at sunrise: a rose-pink and apricot sky fading to pale lemon, silver mist lying low over the dewy meadow, cool lilac shadows and fresh pale-green birch leaves, with the first golden sunbeams catching the birds' feathers. The opening picture has a soft, warm pink evening glow instead.",
+  "palette": "Sunrise on an early-summer morning: a blazing saffron-and-gold sky with the sun coming up over the heather moor, long cool-blue shadows, thin silver mist lying in the hollows, and every feather rimmed with golden light. The opening picture is set in soft, warm afternoon light instead.",
   "cast": [
     {
       "slug": "hanen",
@@ -11,7 +11,7 @@
       "promptName": "the Rooster",
       "replacesPortrait": "hanen",
       "description": "En ivrig og stolt hane som våkner først og blir veldig glad for å ha vunnet leken.",
-      "look": "A proud, strutting farm rooster with glossy jet-black feathers that shimmer beetle-green in the light, a tall, bright-red jagged comb standing straight up, long red wattles, small white earlobes, fiery orange eyes, a sharp dark-grey beak, slate-grey legs with long toes, and a tall, arching fountain of long green-black tail feathers. He holds his chest puffed out and his head high.",
+      "look": "A sleek, swaggering rooster with jet-black plumage that shimmers beetle-green in the sun, a tall, jagged scarlet comb standing straight up, long dangling wattles, small white earlobes, fiery orange eyes, a sharp slate-grey beak, slate-grey legs with long toes, and a fountain of long, curving green-black sickle feathers for a tail. He struts about with his head held high and loves the sound of his own voice.",
       "portrait": "Background: the tall gatepost against a pink sunrise."
     },
     {
@@ -63,7 +63,7 @@
       "anchor": "Hanen, Gjøken og Århanen hadde kjøpt ei ku sammen.",
       "characters": ["kua", "hanen", "gjoken", "arhanen"],
       "places": ["smaabruket"],
-      "prompt": "Wide view of the Little Farm in a soft pink evening glow. In the middle of the meadow stands the Cow, looking puzzled from one bird to the next. Around her hooves, the three birds each point a wing in a different direction: the Rooster towards the hen hatch in the cowshed wall, the Cuckoo towards a tall birch tree in the wood, and the Black Grouse up towards the heather moor on the hill. Each one looks certain that the Cow should live with him.",
+      "prompt": "Wide view of the Little Farm in soft, warm afternoon light. In the middle of the meadow stands the Cow, looking puzzled from one bird to the next. Around her hooves, the three birds each point a wing in a different direction: the Rooster towards the hen hatch in the cowshed wall, the Cuckoo towards a tall birch tree in the wood, and the Black Grouse up towards the heather moor on the hill. Each one looks certain that the Cow should live with him.",
       "caption": "Men ei ku kan jo ikke bo tre steder på én gang.",
       "alt": "Kua står midt i enga og ser forvirret fra den ene fuglen til den andre. Hanen peker mot fjøset, Gjøken mot ei bjørk og Århanen opp mot lyngheia."
     },
@@ -73,7 +73,7 @@
       "anchor": "Gjøken skvatt opp i halmen.",
       "characters": ["hanen", "gjoken", "arhanen", "kua"],
       "places": ["smaabruket"],
-      "prompt": "Sunrise at the Little Farm, pink sky and silver mist. On top of the tall gatepost, the Rooster stands with his wings flapping and his beak wide open, crowing proudly at the rising sun. Below him, the Cuckoo has jumped straight up out of the straw heap in surprise, feathers ruffled and wisps of straw flying, calling out with his beak open. Beside them, the Black Grouse is still fast asleep in the straw with his head tucked under his wing, and the Cow lies in the straw, calmly chewing.",
+      "prompt": "Sunrise at the Little Farm: a saffron-gold sky and thin silver mist. On top of the tall gatepost, the Rooster stands with his wings flapping and his beak wide open, crowing proudly at the rising sun. Below him, the Cuckoo has jumped straight up out of the straw heap in surprise, feathers ruffled and wisps of straw flying, calling out with his beak open. Beside them, the Black Grouse is still fast asleep in the straw with his head tucked under his wing, and the Cow lies in the straw, calmly chewing.",
       "caption": "«Nå er kua mi!» galer Hanen, og Gjøken skvetter opp i halmen.",
       "alt": "Det er soloppgang. Hanen står på en høy stolpe og galer. Nedenfor skvetter Gjøken opp av halmen, mens Århanen sover videre med hodet under vingen og Kua ligger og tygger."
     },

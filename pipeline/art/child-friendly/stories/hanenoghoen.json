@@ -3,7 +3,7 @@
   "title": "Hanen og høna",
   "textFile": "public/content/stories/hanenoghoen/child-friendly/story.txt",
   "world": "Old rural Norway, long ago, where the farm birds can talk. The hen and the rooster live on a small hillside farm with a little red henhouse on short stilts. From the farm gate, a muddy gravel road winds down past bare birches to a small town far away in the valley, with a white church and red and yellow wooden houses. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding exactly six light-brown eggs. The hen and the rooster are natural birds without clothes, and the hen is barefoot; she carries her basket hooked over one wing.",
-  "palette": "Early spring thaw: the last grey patches of snow melting in the shade, rich brown mud and shining puddles, bare birches with the first pale-green buds, yellow coltsfoot flowers along the road, and a washed, pale-blue sky with soft, cool sunshine.",
+  "palette": "Early spring on a muddy farm: grey patches of old snow melting in the shade, rich brown mud and shining puddles everywhere, bare birches, silvery pussy-willow catkins, and a soft, pearly-grey sky with watery sunshine breaking through.",
   "cast": [
     {
       "slug": "honen",
@@ -11,7 +11,7 @@
       "promptName": "the Hen",
       "replacesPortrait": "honen",
       "description": "En flittig høne som verper egg hver dag, går barbeint og har ventet på skoene sine i år etter år.",
-      "look": "A plump, round, busy farm hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a small neat red comb and tiny red wattles, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare, bright-yellow feet are big, with long, spread-out toes. She carries a small round wicker basket lined with straw over one wing.",
+      "look": "A plump, round, busy farm hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare, bright-yellow feet are big, with long, spread-out toes. She carries a small round wicker basket lined with straw over one wing.",
       "portrait": "Background: the little red henhouse and a shining puddle."
     },
     {
@@ -20,7 +20,7 @@
       "promptName": "the Rooster",
       "replacesPortrait": "hanen",
       "description": "En omsorgsfull hane som vil hjelpe, og som foreslår en enkel og positiv plan så Hønen kan få det bedre.",
-      "look": "A tall, handsome farm rooster speckled all over in rust-red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a big red comb that flops over to one side, short red wattles, kind hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of dark bronze sickle feathers. He looks gentle and a little sheepish, and likes to point with one wing.",
+      "look": "A tall, handsome farm rooster speckled all over in rust-red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, kind hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He looks gentle and a little sheepish, and likes to point with one wing.",
       "portrait": "Background: the farm gate and the muddy road to town."
     }
   ],

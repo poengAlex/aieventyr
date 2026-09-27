@@ -2,8 +2,8 @@
   "storyId": "rfoxgjt",
   "title": "Reven som gjeter",
   "textFile": "public/content/stories/rfoxgjt/child-friendly/story.txt",
-  "world": "Old rural Norway, long ago, where the animals can talk. The farm wife lives on a small farm at the edge of the forest: a red-painted log farmhouse with a grass roof and a stone doorstep, a small grey cowshed, a split-rail log fence around a green pasture, and below it a clear, stony brook with a little grove of birch and alder beyond. A grassy cart track leads from the farm up into the woods. Her animals are exactly two white goats, three woolly white sheep and two brown-and-white cows. Her butter churn is a tall, narrow wooden churn with dark hoops and a long wooden dasher sticking out of its lid. The wolf and the fox are natural animals, apart from the fox's little pouch.",
-  "palette": "High summer: lush, deep-green pastures full of buttercups and pink clover, a hot cornflower-blue sky with puffy white clouds, and cool, shady spruce woods. The evening scene glows coral-pink and orange as the sun goes down. Accents: the fox's golden orange and creamy white.",
+  "world": "Old rural Norway, long ago, where the animals can talk. The farm wife spends the summer at her mountain summer farm, high up where the birch forest ends: a small grey log hut with a grass roof and a stone doorstep, a little cowshed, and a split-rail fence around a green mountain pasture, with a clear, stony brook below and a little grove of birches beyond it. A grassy track leads from the hut down into the birch forest. Her animals are exactly two white goats, three woolly white sheep and two brown-and-white cows. Her butter churn is a tall, narrow wooden churn with dark hoops and a long wooden dasher sticking out of its lid. The wolf and the fox are natural animals, apart from the fox's little pouch.",
+  "palette": "Late August at a mountain summer farm, when the fells take on their first autumn colours: carpets of deep-red dwarf birch and golden grass on the slopes, ripe blueberries, blue ridges far away, and clear, cool, sunny air. The evening scene glows orange and rose over the mountains. Accents: dwarf-birch red, the fox's golden orange and creamy white.",
   "cast": [
     {
       "slug": "kona",
@@ -11,8 +11,8 @@
       "promptName": "the Farm Wife",
       "replacesPortrait": "kona",
       "description": "En snill, men bestemt bondekone som vil ha en gjeter med et trygt og pent lokkerop, og som setter grenser når reven lurer henne.",
-      "look": "A tall, bony, brisk farm wife of about fifty with a long, sun-browned face, high cheekbones, a straight sharp nose, deep-set grey eyes with laughter lines and a firm, wide mouth. A thick dark-blonde braid hangs down her back from under a white linen kerchief knotted at the nape. She wears a rust-red wool bodice over a white blouse with rolled-up sleeves, a long charcoal-grey skirt, a green-and-white striped apron and wooden clogs, and carries a tall, knobbly birch walking stick.",
-      "portrait": "Background: the red farmhouse above the green pasture."
+      "look": "A strong, broad-shouldered farm wife of about forty with a wide, sun-browned face, a broad nose, sharp blue eyes under straight black eyebrows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red kerchief knotted at the nape. She wears a dark-green wool dress with short sleeves, a blue-and-white checked apron, a round silver brooch at her collar and sturdy leather shoes, and carries a long, white-barked birch stick.",
+      "portrait": "Background: the grey log hut on the mountain pasture."
     },
     {
       "slug": "reven",
@@ -21,7 +21,7 @@
       "replacesPortrait": "reven",
       "description": "En sjarmerende og litt for smart rev som synger pent for å få jobben, men som fristes av fløte og lærer en mild lekse.",
       "look": "A small, round, fluffy young fox with soft golden-orange fur the colour of marigolds, a creamy-white bib and cheeks, dark-brown paws, big soft ears lined with cream fur, large round honey-brown eyes with long lashes, a short snout and a sweet, innocent smile. His fluffy golden-orange tail ends in a sooty black tip. Across his chest he wears a thin strap with a little brown leather shepherd's pouch.",
-      "portrait": "Background: buttercups and birches at the Forest Edge."
+      "portrait": "Background: red dwarf birch and blueberry bushes at the Forest Edge."
     },
     {
       "slug": "bjornen",
@@ -30,7 +30,7 @@
       "replacesPortrait": "bjornen",
       "description": "En stor, brummende bjørn som gjerne vil være gjeter, men som høres for grov ut til jobben.",
       "look": "A big, round, cuddly bear with fluffy honey-blond fur, paler cream-coloured fur on his muzzle and round tummy, a wide round face, small half-moon ears, a shiny black button nose, little kind brown eyes and a tuft of fur sticking up on top of his head. He walks upright on his hind legs like a man and carries a long wooden shepherd's crook and a worn leather shoulder bag, like a proper shepherd.",
-      "portrait": "Background: the leafy birches along the cart track."
+      "portrait": "Background: the mountain birches along the track."
     },
     {
       "slug": "ulven",
@@ -46,11 +46,11 @@
     {
       "slug": "skogkanten",
       "name": "the Forest Edge",
-      "look": "Where the wife's pasture ends and the forest begins: a grassy cart track winding between leafy birches and dark spruces, a big mossy grey boulder beside the track, a tall birch with low, spreading branches, ferns and buttercups in the long grass, and a glimpse back down the track to the red farmhouse far below."
+      "look": "Where the mountain pasture meets the birch forest: a grassy track winding between crooked, white-stemmed mountain birches with the first yellow leaves and a few dark spruces, a big mossy grey boulder beside the track, one tall birch with low, spreading branches, patches of red dwarf birch, blueberry bushes and golden grass along the verges, and blue mountain ridges far away."
     }
   ],
   "cover": {
-    "prompt": "On the grassy cart track at the Forest Edge, the Farm Wife leans on her stick and looks over three hopeful animals lined up in a row on the verge, each one wanting to be her shepherd: the Bear standing upright with his shepherd's crook and leather bag, the Wolf trying his best to look polite, and the Fox sitting neatly with his tail curled around his paws, smiling sweetly. Bright summer morning, buttercups in the grass.",
+    "prompt": "On the grassy track at the Forest Edge, the Farm Wife leans on her stick and looks over three hopeful animals lined up in a row on the verge, each one wanting to be her shepherd: the Bear standing upright with his shepherd's crook and leather bag, the Wolf trying his best to look polite, and the Fox sitting neatly with his tail curled around his paws, smiling sweetly. Clear, cool morning sunshine, with red dwarf birch and golden grass along the verge.",
     "characters": ["kona", "bjornen", "ulven", "reven"],
     "places": ["skogkanten"],
     "caption": "Kona trenger en gjeter. Hvem av dem skal hun velge?",
@@ -63,7 +63,7 @@
       "anchor": "Bjørnen trakk pusten.",
       "characters": ["bjornen", "kona"],
       "places": ["skogkanten"],
-      "prompt": "On the cart track at the Forest Edge, the Bear stands on his hind legs with his shepherd's crook raised high and his chest puffed up, bellowing with his mouth wide open, so loudly that the birches shake and a flurry of green leaves whirls off the branches. A few steps away, the Farm Wife leans backwards with her eyes squeezed shut, one hand clamped on her kerchief and the other gripping her stick, her braid flying. Bright summer morning.",
+      "prompt": "On the track at the Forest Edge, the Bear stands on his hind legs with his shepherd's crook raised high and his chest puffed up, bellowing with his mouth wide open, so loudly that the birches shake and a flurry of yellow birch leaves whirls off the branches. A few steps away, the Farm Wife leans backwards with her eyes squeezed shut, one hand pressed over her ear and the other gripping her stick, her apron flapping. Clear, cool, sunny morning.",
       "caption": "«Hø-il!» brummer bjørnen, så bladene rister på trærne.",
       "alt": "Bjørnen står på bakbeina med gjeterstaven i været og brøler, så bladene virvler av trærne. Kona lener seg bakover og kniper igjen øynene."
     },
@@ -73,7 +73,7 @@
       "anchor": "«Dil-dal-holom!» sang reven, så lyst og fint at fuglene ble stille.",
       "characters": ["reven", "kona"],
       "places": ["skogkanten"],
-      "prompt": "At the Forest Edge, the Fox sits very straight on the mossy boulder with his tail wrapped neatly around his paws, his eyes closed and his snout raised, singing a sweet, clear song. On a low branch of the tall birch above him, four small birds sit perfectly still with their beaks shut, listening. The Farm Wife stands on the cart track with both hands folded on top of her stick, smiling in delight. Soft, golden morning sunshine.",
+      "prompt": "At the Forest Edge, the Fox sits very straight on the mossy boulder with his tail wrapped neatly around his paws, his eyes closed and his snout raised, singing a sweet, clear song. On a low branch of the tall birch above him, four small birds sit perfectly still with their beaks shut, listening. The Farm Wife stands on the track with both hands folded on top of her stick, smiling in delight. Soft, golden morning sunshine.",
       "caption": "«Dil-dal-holom!» synger reven, så lyst og fint at fuglene blir stille.",
       "alt": "Reven sitter rett opp og ned på en mosegrodd stein og synger med lukkede øyne. Fire små fugler sitter musestille i bjørka og lytter, og kona smiler."
     },
@@ -82,7 +82,7 @@
       "paragraph": 29,
       "anchor": "Nå ble kona sint.",
       "characters": ["kona", "reven"],
-      "prompt": "Evening in the farmyard in front of the red farmhouse, lit by a coral-pink sunset. The Farm Wife stands by the tall wooden butter churn on the stone doorstep, flinging the last splash of cream from a wooden scoop, her face cross. The Fox dashes off towards the forest with drops of cream on his whiskers, looking back over his shoulder in surprise as the white splash lands right on the black tip of his tail. Behind the log fence, two goats, three sheep and two cows are safely home again.",
+      "prompt": "Evening outside the little grey log hut of the summer farm, lit by an orange-and-rose sunset over the mountains. The Farm Wife stands by the tall wooden butter churn on the stone doorstep, flinging the last splash of cream from a wooden scoop, her face cross. The Fox dashes off towards the birch forest with drops of cream on his whiskers, looking back over his shoulder in surprise as the white splash lands right on the black tip of his tail. Behind the log fence, two goats, three sheep and two cows are safely home again.",
       "caption": "Plask! Den siste fløteskvetten treffer reven helt ytterst på halen.",
       "alt": "Det er kveld på gården. Kona slenger en skvett fløte etter reven, som springer mot skogen med fløte i værhårene. Skvetten treffer ham helt ytterst på halen."
     }

@@ -1,0 +1,324 @@
+{
+  "storyId": "katrast",
+  "title": "Kari Trestakk",
+  "textFile": "public/content/stories/katrast/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago. The princess grows up at her father's long, white-painted timber palace, with a red cowshed and forest pastures around it. The blue ox keeps a small white cloth in his left ear; spread on the grass, it fills itself with food. Far away lie three magic forests: one of copper, where every trunk and leaf is polished copper and clinks in the wind; one of silver, whose leaves tinkle like little bells; and one of gold, where gold drips from the leaves like honey. Each troll carries a curved cow horn of healing salve on a string at its belt. Beyond the forests, a steep rock wall looks down on the prince's huge castle of pale-grey stone with green copper roofs, with a small pigsty below it and a dark stave church nearby. The gold shoes are small, pointed and shining.",
+  "palette": "Cool, clear early autumn under high, pale-blue skies: blue-grey fells, silver birches just turning yellow and purple heather, with the ox's deep, glossy blue as the strongest colour until the magic forests blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, warm and sooty; the church Sundays are fresh and green.",
+  "cast": [
+    {
+      "slug": "prinsessa",
+      "name": "Prinsessa",
+      "promptName": "the Princess",
+      "description": "Kongsdattera som må gjete kyrne på tørre brødskalker, og som får en god venn i den blå oksen. Senere kaller hun seg Kari Trestakk.",
+      "look": "A slender girl of about fifteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.",
+      "portrait": "Background: a forest pasture with grazing cows."
+    },
+    {
+      "slug": "kari-trestakk",
+      "name": "Kari Trestakk",
+      "promptName": "Kari Trestakk",
+      "replacesPortrait": "kari-treestakk",
+      "description": "Ei snill prinsesse som rømmer fra den nye dronninga på ryggen av den blå oksen, og som vasker opp på et fremmed slott i en klaprende kjole av tre.",
+      "look": "A slender girl of about fifteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows and a dimple in her chin, her face and hands smudged with black soot and her long, wavy copper hair in a messy braid dulled with ash. Over a plain grey shift she wears the trestakk: a stiff, bell-shaped dress of rough, narrow grey-brown wooden slats laced together with rope, reaching from her shoulders to her ankles, and wooden clogs.",
+      "portrait": "Background: the sooty castle kitchen with copper pots on the wall."
+    },
+    {
+      "slug": "kari-kobberkjole",
+      "name": "Kari i kobberkjolen",
+      "promptName": "Kari in the Copper Gown",
+      "description": "Kari den første søndagen, i en kjole som skinner som kobberskogen, på vei til kirka på en hvit hest.",
+      "look": "A slender girl of about fifteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair falling loose down her back under a thin copper band. She wears a long, flowing gown of shining copper cloth that glows warm orange-pink like polished copper, embroidered with small copper leaves, with long copper-coloured gloves and soft copper slippers.",
+      "portrait": "Background: the shining copper forest."
+    },
+    {
+      "slug": "kari-solvkjole",
+      "name": "Kari i sølvkjolen",
+      "promptName": "Kari in the Silver Gown",
+      "description": "Kari den andre søndagen, i en kjole som glitrer som sølvskogen, på en hest med sølv på salen.",
+      "look": "A slender girl of about fifteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair in one loose braid woven with silver ribbons. She wears a long gown of shimmering silver cloth that glitters like frost, trimmed with rows of tiny silver leaves like little bells, a short silver-grey riding cape and silver slippers.",
+      "portrait": "Background: the tinkling silver forest."
+    },
+    {
+      "slug": "kari-gullkjole",
+      "name": "Kari i gullkjolen",
+      "promptName": "Kari in the Gold Gown",
+      "description": "Kari den tredje søndagen, i den fineste kjolen av alle, av gull og glitrende steiner, med små sko av gull.",
+      "look": "A slender girl of about fifteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose under a thin gold circlet. She wears a long, full gown of gold cloth sewn all over with small glittering clear stones that sparkle like dew, and two small, pointed shoes of shining gold.",
+      "portrait": "Background: the golden forest, where gold drips like honey."
+    },
+    {
+      "slug": "blaa-oksen",
+      "name": "Den blå oksen",
+      "promptName": "the Blue Ox",
+      "replacesPortrait": "the-blue-ox",
+      "description": "En stor, blank okse med en matduk i øret, som bærer prinsessa gjennom skogene av kobber, sølv og gull og stanger trollene av veien.",
+      "look": "A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that shines like polished enamel, a paler blue muzzle, big soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards with rounded tips, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, kind and very strong.",
+      "portrait": "Background: a heathery mountainside under a clear autumn sky."
+    },
+    {
+      "slug": "prinsen",
+      "name": "Prinsen",
+      "promptName": "the Prince",
+      "replacesPortrait": "the-prince",
+      "description": "En prins som jager kjøkkenjenta i trestakken ut av døra tre søndager på rad, men ikke klarer å ta øynene fra den fine jenta i kirka.",
+      "look": "A broad-shouldered prince of about twenty with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows, and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple velvet doublet with gold buttons, a cream linen shirt with a ruffled collar, a short dark-green cape fastened with a round gold brooch, black breeches and soft black leather boots.",
+      "portrait": "Background: the prince's castle of pale-grey stone with green copper roofs."
+    },
+    {
+      "slug": "den-nye-dronninga",
+      "name": "Den nye dronninga",
+      "promptName": "the New Queen",
+      "replacesPortrait": "the-new-queen",
+      "description": "Kongens nye kone, som setter prinsessa til å gjete kyrne på tørre brødskalker og later som hun er syk for å få spise den blå oksen.",
+      "look": "A tall, thin queen of about forty with a long, pinched face, a sharp pointed nose, narrow pale-green eyes, thin arched eyebrows, a small mouth turned down at the corners and jet-black hair scraped into a tight bun under a tall, spiky silver crown. She wears a stiff, high-collared gown of dark slate-grey silk with a white lace ruff, a black velvet cape and many rings, and holds a lace handkerchief.",
+      "portrait": "Background: a grand bedchamber with a canopy bed."
+    },
+    {
+      "slug": "dattera-til-dronninga",
+      "name": "Dattera til dronninga",
+      "promptName": "the Queen's Daughter",
+      "description": "Den nye dronningas datter, så sur at melka surner bare hun går forbi fjøset. Hun vil så gjerne få gullskoen på.",
+      "look": "A gangly girl of about sixteen with a long, sour face, a pinched, turned-up nose, small squinting pale-green eyes, a pouting mouth and thin, straw-pale hair in two stiff braids that stick out sideways. She wears a frilly dress the sour green of unripe gooseberries, covered in too many pink bows, white stockings, and pointed green shoes on very long, big feet.",
+      "portrait": "Background: the door of a red cowshed with a milk pail."
+    },
+    {
+      "slug": "mannen-i-berget",
+      "name": "Mannen i berget",
+      "promptName": "the Old Man of the Mountain",
+      "replacesPortrait": "the-mountain-helper",
+      "description": "En gammel mann med langt, hvitt skjegg og grønn kappe, som kommer ut når Kari banker på berget, og gir henne kjoler av kobber, sølv og gull og en hest til kirka.",
+      "look": "A small, sturdy old man, no taller than a girl of fifteen, with a round, rosy, wrinkled face, a big round nose, twinkling bright-blue eyes under bushy white eyebrows and a long, silky white beard that reaches his knees. He wears a long, hooded moss-green cloak with a wooden toggle, a brown tunic with a rope belt and soft brown boots, and carries a small brass lantern that glows warm yellow.",
+      "portrait": "Background: the glowing doorway in the rock wall."
+    },
+    {
+      "slug": "trollet-med-tre-hoder",
+      "name": "Trollet med tre hoder",
+      "promptName": "the Three-Headed Troll",
+      "description": "Trollet i kobberskogen. Alle tre hodene brøler når noen rører skogen, men til slutt sitter det til halsen i myra.",
+      "look": "A squat, pot-bellied troll about twice as tall as a man, with chalk-white, lumpy skin speckled with grey freckles and patches of moss, short bandy legs and long dangling arms. It has three bald, egg-shaped heads on three thick necks, each with a big red bulbous nose, small round orange eyes, one crooked tooth and tufts of stiff orange hair behind the ears. It wears a ragged brown sacking kilt, with a curved cow horn of salve hanging from its rope belt.",
+      "portrait": "Background: the shining copper forest."
+    },
+    {
+      "slug": "trollet-med-seks-hoder",
+      "name": "Trollet med seks hoder",
+      "promptName": "the Six-Headed Troll",
+      "description": "Trollet i sølvskogen, dobbelt så sterkt som det første. De seks hodene kjefter på hverandre når det henger fast i et sølvtre.",
+      "look": "A tall, lanky troll about three times as tall as a man, with bright pumpkin-orange, knobbly skin patched with grey lichen, long skinny arms and legs and huge flat feet. On a wide, bony pair of shoulders sit six small heads, each with a long droopy nose, sleepy yellow eyes, big flappy ears and wispy white hair like dandelion fluff. It wears a moth-eaten grey wool tunic, with a curved cow horn of salve hanging on a string from its belt.",
+      "portrait": "Background: the tinkling silver forest."
+    },
+    {
+      "slug": "trollet-med-ni-hoder",
+      "name": "Trollet med ni hoder",
+      "promptName": "the Nine-Headed Troll",
+      "description": "Trollet i gullskogen, så stort at det skygger for sola. Det blåser seg opp og seiler av sted som en diger, sint ballong.",
+      "look": "An enormous, pear-shaped troll as tall as six men, with rosy heather-pink, lumpy skin, a huge round belly and short, stumpy arms and legs. Along its broad shoulders sit nine small round heads in a row, each with puffy cheeks, a tiny snub nose, small black eyes under bushy grey eyebrows, big round ears and a shock of spiky grey hair. It wears a huge patched brown hide tunic, with a curved cow horn of salve hanging from its belt.",
+      "portrait": "Background: the golden forest, where gold drips like honey."
+    }
+  ],
+  "places": [
+    {
+      "slug": "bergveggen",
+      "name": "the Rock Wall",
+      "look": "A steep, pale-grey rock wall rising from a high, windswept mountainside covered in purple heather, juniper bushes and grey boulders. Rusty-orange lichen streaks the rock, and a faint arched crack in it looks like a hidden door. At its foot juts a flat, overhanging stone shelf with a low, dark gap underneath, and from the ledge in front there is a wide view down over a green valley."
+    },
+    {
+      "slug": "kirkebakken",
+      "name": "the Church Hill",
+      "look": "A small, dark-brown stave church with steep, tiered shingle roofs, carved dragon heads on the gable tips and a tall, arched wooden door with carved frames, standing on top of a green hill. A low stone wall surrounds the churchyard, a gravel path with a few stone steps leads up to the door, and slim birch trees with yellowing leaves stand around it."
+    }
+  ],
+  "cover": {
+    "prompt": "The Princess rides on the Blue Ox's back along a ridge of purple heather at sunrise, holding on to his horns, her long copper hair blowing in the wind. Below them stretch three magical forests side by side, one of shining copper, one of glittering silver and one of glowing gold. The ox strides forward, calm and strong, and she gazes out over the forests in wonder.",
+    "characters": ["prinsessa", "blaa-oksen"],
+    "caption": "Prinsessa rir på den blå oksen mot skogene av kobber, sølv og gull.",
+    "alt": "Prinsessa sitter på ryggen til den store blå oksen og holder seg i hornene. Nedenfor dem ligger tre skoger, en av kobber, en av sølv og en av gull."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "Men blant kyrne gikk det en stor, blå okse, så blank at han skinte.",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "A forest pasture on a hillside, with birches, spruces and grey boulders. The Princess, thin and pale, sits in the grass with a dry crust of bread in one hand and tear tracks on her cheeks. The Blue Ox lies beside her with his big head resting in her lap, eyes half closed with pleasure, as she scratches him behind the ears. Four brown-and-white cows graze around them. Cool, clear morning light makes the ox's blue coat gleam.",
+      "caption": "Den blå oksen legger hodet i fanget til prinsessa, så hun kan klø ham bak ørene.",
+      "alt": "Prinsessa sitter tynn og blek i gresset med en tørr brødskalk. Den store, blanke blå oksen har lagt hodet i fanget hennes, og hun klør ham bak ørene. Rundt dem beiter kyrne."
+    },
+    {
+      "id": "02",
+      "paragraph": 11,
+      "anchor": "Der inne lå det en liten, hvit duk.",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "Close view in the forest pasture: the Princess kneels in the grass beside a small white cloth she has just spread out, her mouth open in amazement. On the cloth stand a roasted chicken, a warm loaf of bread, a plate of little cakes topped with strawberries and a jug of sweet red juice, with a few magic sparkles still popping in the air. The Blue Ox lies beside her giggling, his left ear twitching as if it still tickles.",
+      "caption": "Plopp, plopp! Der står kylling, brød, jordbærkaker og en mugge med søt, rød saft.",
+      "alt": "Prinsessa kneler ved en liten hvit duk i gresset. På duken står en stekt kylling, et varmt brød, kaker med jordbær og en mugge med rød saft. Ved siden av ligger den blå oksen og fniser."
+    },
+    {
+      "id": "03",
+      "paragraph": 18,
+      "anchor": "Så ga hun doktoren en pose med gullpenger.",
+      "characters": ["den-nye-dronninga"],
+      "prompt": "In a grand bedchamber with heavy curtains, the New Queen lies in a big canopy bed with a damp cloth on her forehead, pretending to moan. But one eye peeks open slyly as she slips a fat little bag of gold coins to the doctor, a round, bald little man in a long black coat, who drops it into his pocket with a clink and strokes his chin as if thinking hard. Soft daylight through the curtains.",
+      "caption": "Klirr, sier det i lomma til doktoren. «Hm, hm», sier han.",
+      "alt": "Dronninga ligger i senga med en klut på panna og later som hun er syk. Hun kikker lurt med det ene øyet og gir doktoren en pose med gullpenger, som han putter i lomma."
+    },
+    {
+      "id": "04",
+      "paragraph": 24,
+      "anchor": "Den natta, da hele slottet snorket, listet hun seg ned i fjøset.",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "Night under a big full moon. The Blue Ox gallops out through the creaking door of the red cowshed with the Princess on his back, her arms around his neck and her copper hair streaming. Behind them the long white timber palace lies dark and fast asleep, every window black. The ox's glossy coat gleams silver-blue in the moonlight as they thunder away across the dark meadow towards the forest.",
+      "caption": "Dunk, dunk, dunk! Prinsessa og oksen rømmer gjennom mørket.",
+      "alt": "Det er natt og fullmåne. Den blå oksen galopperer ut av fjøset med prinsessa på ryggen. Bak dem ligger slottet mørkt, og alle sover."
+    },
+    {
+      "id": "05",
+      "paragraph": 29,
+      "anchor": "Men skogen var så tett, så tett.",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "Deep in the copper forest, where every trunk, branch and leaf is shining copper, the Blue Ox squeezes carefully between the dense branches with the Princess riding on his back. She has just snapped off a copper leaf by accident and stares at it in her hand, gasping, while the ox looks back over his shoulder with wide, worried eyes. Copper leaves clink and glint all around them in cool, clear light.",
+      "caption": "Knekk! Der sitter det et kobberblad i hånda hennes.",
+      "alt": "Den blå oksen går gjennom en tett skog der alt er av blankt kobber. Prinsessa sitter på ryggen hans og holder et kobberblad hun har knekt av. Oksen ser bekymret bakover."
+    },
+    {
+      "id": "06",
+      "paragraph": 36,
+      "anchor": "DUNK! DUNK! Slik holdt de på hele dagen",
+      "characters": ["prinsessa", "blaa-oksen", "trollet-med-tre-hoder"],
+      "prompt": "At the edge of the copper forest, the Three-Headed Troll sits sunk in a brown, bubbling bog right up to its three necks, so only its three muddy heads stick out, spluttering and glaring in three directions. On firm ground the Blue Ox stands panting but proud, legs planted wide, his coat a little ruffled and muddy. The Princess peeks out from behind a shining copper tree trunk with both hands over her mouth. Low late-afternoon light.",
+      "caption": "PLASK! Trollet sitter til halsen i gjørma. Til alle tre halsene.",
+      "alt": "Trollet med tre hoder sitter til halsen i myra, så bare de tre gjørmete hodene stikker opp. Den blå oksen står stolt på land, og prinsessa kikker fram bak et kobbertre."
+    },
+    {
+      "id": "07",
+      "paragraph": 48,
+      "anchor": "Denne gangen sloss de i tre dager",
+      "characters": ["prinsessa", "blaa-oksen", "trollet-med-seks-hoder"],
+      "prompt": "In the silver forest, the Six-Headed Troll hangs stuck high in the branches of the thickest silver tree, long legs kicking, while its six heads squabble and scold each other. From its belt a curved cow horn of salve dangles low on a string, and the Princess stretches up on tiptoe to grab it. Below, the Blue Ox stands with his head lowered, tired but pleased. Silver leaves tinkle all around in frosty light.",
+      "caption": "Trollet henger fast i sølvtreet, og alle seks hodene kjefter på hverandre.",
+      "alt": "Trollet med seks hoder henger fast i et sølvtre, og hodene kjefter på hverandre. Prinsessa står på tå og strekker seg etter et horn med salve. Den blå oksen hviler under treet."
+    },
+    {
+      "id": "08",
+      "paragraph": 52,
+      "anchor": "Men greinene slo henne i øynene",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "prompt": "In the golden forest, where molten gold drips slowly from the leaves like honey, the Blue Ox pushes through the thickest tangle of golden branches with the Princess on his back. Branches brush her face, and she holds a shining golden apple in her hand, crying big tears of fright. The ox turns his head back towards her with a calm, kind look. Everything glows warm gold, with deep shadows between the trunks.",
+      "caption": "Før hun vet ordet av det, sitter det et gulleple i hånda hennes.",
+      "alt": "Den blå oksen går gjennom en tett skog av gull, der gullet drypper som honning. Prinsessa sitter på ryggen hans med et gulleple i hånda og gråter, og oksen ser snilt bakover på henne."
+    },
+    {
+      "id": "09",
+      "paragraph": 59,
+      "anchor": "Hver gang oksen dunket et av hodene så det sovnet",
+      "characters": ["prinsessa", "blaa-oksen", "trollet-med-ni-hoder"],
+      "prompt": "Wide view over the golden forest under a clear blue sky: the Nine-Headed Troll has blown itself up so round with air that it has lifted off the ground and floats away over the golden treetops like an enormous, angry balloon, all nine heads puffing out their cheeks and scowling, its stubby arms and legs sticking out stiffly. Far below in a golden clearing, the Blue Ox, worn out, and the Princess look up in astonishment. Funny, not scary.",
+      "caption": "Trollet blir rundere og rundere, og så seiler det av sted som en diger, sint ballong.",
+      "alt": "Trollet med ni hoder har blåst seg opp som en diger ballong og seiler bort over gulltrærne. Langt nede står den blå oksen og prinsessa og ser forundret opp."
+    },
+    {
+      "id": "10",
+      "paragraph": 70,
+      "anchor": "«Nå ser jeg slottet like ved. Og det er kjempestort!»",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "places": ["bergveggen"],
+      "prompt": "High on a heathery mountainside in front of the Rock Wall, the Princess stands on a flat boulder, pointing down in amazement, while the Blue Ox stands beside her, calm and a little weary. Far below, across a green valley, rises the prince's huge castle of pale-grey stone with many towers and green copper roofs, with a tiny pigsty below it. Late-afternoon light and a cool wind in the purple heather.",
+      "caption": "«Nå ser jeg slottet like ved. Og det er kjempestort!»",
+      "alt": "Prinsessa og den blå oksen står høyt oppe på fjellet foran en bratt bergvegg. Prinsessa peker ned mot et kjempestort slott med mange tårn."
+    },
+    {
+      "id": "11",
+      "paragraph": 76,
+      "anchor": "Han la mulen mot kinnet hennes.",
+      "characters": ["prinsessa", "blaa-oksen"],
+      "places": ["bergveggen"],
+      "prompt": "Evening at the foot of the Rock Wall. The Blue Ox gently lays his soft muzzle against the Princess's cheek to say goodbye, and she hugs his big head with both arms, her eyes full of tears. Behind them the rock has creaked open into a tall, narrow doorway glowing with warm golden light from deep inside the mountain. A plain wooden walking stick leans against the rock. Purple heather sways in the cool evening wind.",
+      "caption": "Oksen legger mulen mot kinnet hennes. Så går han inn i berget.",
+      "alt": "Den blå oksen legger mulen mot kinnet til prinsessa, og hun klemmer hodet hans. Bak dem har berget åpnet seg, og det lyser varmt der inne."
+    },
+    {
+      "id": "12",
+      "paragraph": 88,
+      "anchor": "«Fra deg? Nei takk!» Prinsen dyttet bollen fra seg",
+      "characters": ["kari-trestakk", "prinsen"],
+      "prompt": "At the top of a stone staircase in the prince's castle, the Prince stands scowling in his open doorway, having just shoved the washbowl away, and a big splash of washing water flies back all over Kari Trestakk. She stands dripping in her wooden dress, sooty hair plastered to her cheeks and eyes squeezed shut, still holding the empty brass bowl. Morning light falls through a narrow window. Funny rather than mean.",
+      "caption": "Skvulp! Der får Kari hele vaskevannet over seg.",
+      "alt": "Prinsen står i døra og dytter bort vaskebollen. Kari Trestakk står i den klaprende kjolen av tre og får hele vaskevannet over seg."
+    },
+    {
+      "id": "13",
+      "paragraph": 94,
+      "anchor": "Mannen smilte i skjegget og holdt fram en kjole",
+      "characters": ["kari-trestakk", "mannen-i-berget"],
+      "places": ["bergveggen"],
+      "prompt": "At the foot of the Rock Wall, the stone has slid aside and warm yellow light pours out of the mountain. In the opening stands the Old Man of the Mountain, smiling into his beard as he holds out a long gown that shines like polished copper. Beside him waits a white horse with a shiny saddle. Kari Trestakk, still damp and sooty in her wooden dress, with the walking stick in her hand, gazes at the gown with shining eyes.",
+      "caption": "Mannen i berget holder fram en kjole som skinner som kobberskogen.",
+      "alt": "Berget har åpnet seg, og det lyser gult og varmt der inne. En liten gammel mann med langt, hvitt skjegg og grønn kappe holder fram en kobberkjole til Kari. Ved siden av står en hvit hest."
+    },
+    {
+      "id": "14",
+      "paragraph": 102,
+      "anchor": "Og vips, så ble det lyst foran henne og mørkt bak henne",
+      "characters": ["kari-kobberkjole", "prinsen"],
+      "places": ["kirkebakken"],
+      "prompt": "On the Church Hill, Kari in the Copper Gown gallops away on her white horse, her copper hair flying. Everything in front of her is bright and sunny, but everything behind her has gone dark as night: there the Prince stands in the gloom by the church door, holding up her copper-coloured glove and squinting blindly after her. The bright side and the dark side meet right behind the horse's tail.",
+      "caption": "«Lyst foran og mørkt bak, så prinsen ikke ser hvor jeg rir i dag!»",
+      "alt": "Kari i kobberkjolen rir bort på en hvit hest, og foran henne er det lyst. Bak henne er det mørkt som natta, og prinsen står ved kirkedøra med hansken hennes og ser ingenting."
+    },
+    {
+      "id": "15",
+      "paragraph": 108,
+      "anchor": "Nå sto folk ute på kirkebakken og ventet.",
+      "characters": ["kari-solvkjole", "prinsen"],
+      "places": ["kirkebakken"],
+      "prompt": "On the Church Hill, six villagers in their Sunday best stand by the path and stare. Kari in the Silver Gown hops lightly down from a dapple-grey horse with a silver saddle, all by herself, her gown shimmering like frost. The Prince comes running up with one hand stretched out for the bridle, a moment too late, his mouth open in surprise. Bright Sunday morning light.",
+      "caption": "Prinsen kommer løpende for å holde hesten, men Kari hopper ned selv.",
+      "alt": "Kari i sølvkjolen hopper ned av en grå hest med sølv på salen. Prinsen kommer løpende for å holde hesten, men han er for sein. Folk på kirkebakken står og ser på."
+    },
+    {
+      "id": "16",
+      "paragraph": 119,
+      "anchor": "«Han får nok annet å se på», sa Kari.",
+      "characters": ["kari-trestakk"],
+      "prompt": "In the castle's big, smoky kitchen, with copper pots on the walls and a fire in a huge stone hearth, a round, red-faced cook in a white apron and cap and two young kitchen maids laugh and point at Kari Trestakk. She stands by a tub of dirty dishes in her wooden dress, black with soot from head to toe, and looks back at them calmly with a small secret smile. Warm, smoky firelight.",
+      "caption": "«Han får nok annet å se på», sier Kari.",
+      "alt": "Kokken og to kjøkkenjenter ler og peker på Kari Trestakk, som er svart av sot. Kari står rolig ved oppvasken og smiler lurt."
+    },
+    {
+      "id": "17",
+      "paragraph": 124,
+      "anchor": "Men Kari stoppet ikke.",
+      "characters": ["kari-gullkjole", "prinsen"],
+      "places": ["kirkebakken"],
+      "prompt": "In front of the church door on the Church Hill, a wide puddle of black, sticky tar gleams on the ground. Kari in the Gold Gown leaps over it in one bold jump, her glittering gown and copper hair flying, but one of her small gold shoes stays stuck fast in the middle of the tar. The Prince stands to one side holding an empty wooden bucket, mouth wide open. A honey-gold horse with a gold saddle waits at the foot of the path.",
+      "caption": "Klisj! Den ene gullskoen blir sittende fast i tjæra.",
+      "alt": "Kari i gullkjolen hopper over en stor pytt med svart tjære foran kirkedøra, men den ene gullskoen blir sittende fast. Prinsen står ved siden av med en tom bøtte og gaper."
+    },
+    {
+      "id": "18",
+      "paragraph": 132,
+      "anchor": "Dattera krøllet tærne og klemte hælen.",
+      "characters": ["dattera-til-dronninga", "den-nye-dronninga", "prinsen"],
+      "prompt": "In the prince's great hall, the Queen's Daughter sits on a low stool, red in the face, forcing her long foot into the small gold shoe: toes curled up tight, heel squashed flat. The New Queen kneels behind her, pushing on the heel with both hands. The Prince stands beside them looking glum, his arms hanging. Three other girls who have already tried the shoe watch from the side, giggling behind their hands.",
+      "caption": "Hun presser og vrikker og vrir, og skvisj! Der er foten inne.",
+      "alt": "Dattera til dronninga sitter på en krakk og presser den store foten inn i den lille gullskoen. Dronninga dytter på hælen, og prinsen ser slett ikke glad ut."
+    },
+    {
+      "id": "19",
+      "paragraph": 141,
+      "anchor": "Prinsen knelte og holdt fram gullskoen.",
+      "characters": ["kari-gullkjole", "prinsen", "den-nye-dronninga", "dattera-til-dronninga"],
+      "prompt": "In the great hall, the Prince kneels and holds out the gold shoe, and Kari in the Gold Gown has just slipped her foot into it. She shakes herself, and the rough wooden slats of her old wooden dress clatter to the floor all around her, uncovering her gold gown sewn with glittering stones, so bright that it lights up the whole hall. Behind them the New Queen, the Queen's Daughter and three other girls stare with open mouths.",
+      "caption": "Klapperi-klapp! Trestakken faller av, og der står Kari i en kjole av gull.",
+      "alt": "Prinsen kneler med gullskoen, og Kari har fått den på. Kjolen av tre faller av henne, og hun står i en skinnende kjole av gull og glitrende steiner. Alle i salen gaper."
+    },
+    {
+      "id": "20",
+      "paragraph": 146,
+      "anchor": "Og inne i berget ligger den blå oksen og sover, god og fornøyd.",
+      "characters": ["blaa-oksen"],
+      "prompt": "Inside the mountain, in a snug cave filled with a soft golden glow, the Blue Ox lies asleep on a thick bed of green moss, his legs tucked under him, his head resting on the moss and a small, contented smile on his face. Tiny sparkles of light drift in the warm air, and the rough rock walls glitter faintly with specks of copper, silver and gold. Peaceful and cosy.",
+      "caption": "Og inne i berget ligger den blå oksen og sover, god og fornøyd.",
+      "alt": "Den blå oksen ligger og sover på en seng av mose inne i berget. Det lyser mykt og gyllent rundt ham, og han smiler i søvne."
+    }
+  ]
+}

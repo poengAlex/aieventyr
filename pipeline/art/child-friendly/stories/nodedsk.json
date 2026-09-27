@@ -1,0 +1,144 @@
+{
+  "storyId": "nodedsk",
+  "title": "Hanen og høna i Nøtteskogen",
+  "textFile": "public/content/stories/nodedsk/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago, in the countryside around the Nut Wood, a sunny little wood of hazel bushes heavy with ripe hazelnuts. A winding path leads out of the wood to a small bubbling spring with a huge old linden tree on the grassy bank just above it, and from there on to the Virgin Mary's little cottage, the farms and barns of a village, a woodpile at the edge of the spruce forest, a smithy and, deep in the forest, the charcoal burner's clearing with its smoking charcoal stack. The red gold ribbons are shiny red silk ribbons with gold edges, wound on wooden spools. The little wooden bowl is a small, round birchwood bowl.",
+  "palette": "Golden October on a clear, crisp day: hazel leaves turned butter-yellow and drifting down, ripe brown hazelnuts, russet bracken and emerald moss under a deep-blue sky, in low, bright sunshine with long shadows. Accents: the rooster's red comb, the red-and-gold ribbons and the Virgin Mary's light blue. In the charcoal burner's clearing: soft blue-grey smoke.",
+  "cast": [
+    {
+      "slug": "hanen",
+      "name": "Hanen",
+      "promptName": "the Rooster",
+      "replacesPortrait": "hanen",
+      "description": "En omsorgsfull og modig hane som ikke gir opp før han har funnet hjelp til Høna.",
+      "look": "A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright red comb, red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with little spurs and a tall, arching tail of long white plumes. He carries himself very upright with his chest puffed out, full of courage, and runs with his wings half spread.",
+      "portrait": "Background: the path out of the Nut Wood."
+    },
+    {
+      "slug": "hona-tuppen",
+      "name": "Høna (Tuppen)",
+      "promptName": "the Hen",
+      "replacesPortrait": "hona-tuppen",
+      "description": "Hanen sin beste venn som får et nøtteskall i halsen, men blir raskt bedre når hun får vann.",
+      "look": "A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.",
+      "portrait": "Background: the mossy floor of the Nut Wood."
+    },
+    {
+      "slug": "kilden",
+      "name": "Kilden",
+      "promptName": "the Gurgling Spring",
+      "replacesPortrait": "kilden",
+      "description": "En klar, vennlig liten kilde som gir vann når den får friske blader.",
+      "look": "A small, round, crystal-clear spring welling up in a ring of mossy grey stones, about as wide as a cartwheel, fringed with ferns and blue forget-me-nots. On its gently bubbling surface a friendly face shows in the ripples: two round, shining bubble eyes and a wide, gurgling mouth. The water is so clear that the pebbles on the bottom sparkle.",
+      "portrait": "Background: the grassy bank below the big linden tree."
+    },
+    {
+      "slug": "linden",
+      "name": "Linden",
+      "promptName": "the Linden Tree",
+      "replacesPortrait": "linden",
+      "description": "Et stort og snilt lindetre som gir grønne blader når det får røde gullbånd.",
+      "look": "An enormous, ancient linden tree with a broad, rounded crown of heart-shaped leaves just turning from green to gold, a thick, gnarled grey-brown trunk and big roots like knobbly toes. In the bark of the trunk is a kind, sleepy old face: two knot-hole eyes under mossy bark eyebrows, a round knobbly nose and a wide, gentle mouth. Two low branches bend like arms.",
+      "portrait": "Background: a clear deep-blue autumn sky."
+    },
+    {
+      "slug": "jomfru-maria",
+      "name": "Jomfru Maria",
+      "promptName": "the Virgin Mary",
+      "replacesPortrait": "jomfru-maria",
+      "description": "En mild hjelper som gir røde gullbånd når hun får et par sko.",
+      "look": "A small, soft, grandmotherly woman of about seventy with a round, kind, wrinkly face, twinkling light-grey eyes, a sweet smile and silver hair under a simple white linen veil. She wears a light-blue knitted shawl over a plain, long lavender dress, and on her feet only darned grey woollen socks, because she has no shoes. She looks like an ordinary kind grandmother, with no halo.",
+      "portrait": "Background: her cosy parlour with spools of ribbon on the table."
+    }
+  ],
+  "places": [
+    {
+      "slug": "notteskogen",
+      "name": "the Nut Wood",
+      "look": "A sunny little wood of tall, many-stemmed hazel bushes heavy with clusters of ripe brown hazelnuts in papery husks, with butter-yellow leaves drifting down, a soft carpet of emerald moss scattered with fallen leaves and nutshells, a few mossy grey stones, and a narrow winding path leading out between the bushes towards open fields."
+    }
+  ],
+  "cover": {
+    "prompt": "In the sunny Nut Wood, the Rooster dashes towards the viewer along the mossy path at full speed, wings flapping, feet a blur and a determined look in his eye, with the winding path stretching away behind him between the hazel bushes. Under a hazel bush in the background, the Hen sits in the moss and watches him go with hopeful eyes. Ripe hazelnuts hang all around.",
+    "characters": ["hanen", "hona-tuppen"],
+    "places": ["notteskogen"],
+    "caption": "Tripp, tripp, tripp! Hanen løper så fort han kan.",
+    "alt": "Den hvite hanen løper av sted langs en mosegrodd sti i nøtteskogen med vingene ute. Bak ham sitter den lille, grå høna under en hasselbusk og ser etter ham."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "«Vent her, Tuppen!» ropte hanen og skjøt brystet fram.",
+      "characters": ["hona-tuppen", "hanen"],
+      "places": ["notteskogen"],
+      "prompt": "In the Nut Wood, the Hen lies on her side in the soft moss beside a little scatter of hazelnut shells, flapping her wings, her beak wide open but without a sound and her eyes big with surprise. The Rooster stands tall beside her with his chest puffed right out and one wing flung towards the path, ready to dash off for water. Crisp morning light slants between the hazel bushes. Seen close up, at bird height.",
+      "caption": "«Vent her, Tuppen!» roper hanen og skyter brystet fram. «Jeg henter vann!»",
+      "alt": "Høna Tuppen ligger i mosen og flakser med vingene uten å få fram et eneste kakel. Ved siden av står hanen med brystet fram og peker med vingen mot stien."
+    },
+    {
+      "id": "02",
+      "paragraph": 5,
+      "anchor": "Så løp hanen til lindetreet:",
+      "characters": ["hanen", "kilden", "linden"],
+      "prompt": "Beside the Gurgling Spring, which bubbles in its ring of mossy stones, the Rooster has run up the grassy bank to the knobbly roots of the huge Linden Tree and calls up to it with his beak wide open and one foot raised. High above him, the Linden Tree's kind old face in the bark peers down with raised eyebrows, its heart-shaped leaves rustling. Bright morning sun sparkles on the water. Seen from low down, looking up the enormous trunk.",
+      "caption": "Kilden vil ha løv før den gir vann. Så hanen løper til lindetreet.",
+      "alt": "Hanen står ved røttene til et digert lindetre og roper opp mot det. I barken har treet et snilt, gammelt ansikt. Nedenfor bobler en liten, klar kilde mellom mosegrodde steiner."
+    },
+    {
+      "id": "03",
+      "paragraph": 9,
+      "anchor": "«Du får ikke røde gullbånd av meg før jeg får sko av deg.»",
+      "characters": ["jomfru-maria", "hanen"],
+      "prompt": "In the Virgin Mary's cosy little parlour, the Virgin Mary bends down with a gentle smile and ties a small red ribbon bow onto the Rooster's comb, while he stands very still on the scrubbed floorboards, rolling his eyes up to watch. On the table behind her lie wooden spools of red, yellow and golden ribbons. Sunlight falls through a small window with a white curtain.",
+      "caption": "Jomfru Maria knyter en liten rød sløyfe på kammen hans. «Så du husker det.»",
+      "alt": "Jomfru Maria bøyer seg ned og knyter en liten rød sløyfe på kammen til hanen. På bordet bak henne ligger spoler med røde, gule og gylne bånd."
+    },
+    {
+      "id": "04",
+      "paragraph": 13,
+      "anchor": "Purka åpnet det ene øyet.",
+      "characters": ["hanen"],
+      "prompt": "In a muddy pigsty behind a farm, a huge pink sow with black spots lies sprawled in the squelchy brown mud and has just opened one sleepy eye. The Rooster, with the little red bow on his comb, stands on the rim of an empty wooden trough right by her snout, talking fast with his wings spread, while a big snort from her nose ruffles his feathers. A wooden fence and warm sunshine behind them.",
+      "caption": "Purka åpner det ene øyet. «Snøft.»",
+      "alt": "Ei stor, rosa purke med svarte flekker ligger i gjørma og åpner det ene øyet. Hanen med den røde sløyfa står på kanten av et tomt trau og snakker fort."
+    },
+    {
+      "id": "05",
+      "paragraph": 15,
+      "anchor": "Magen til treskemannen knurret som en liten bjørn.",
+      "characters": ["hanen"],
+      "prompt": "Wide view inside a big log barn full of dusty golden light: a tall, lanky thresher with a straw-coloured beard, a faded blue shirt and a battered straw hat leans on his wooden flail and clutches his rumbling tummy with a long, hungry face. Heaps of golden grain and straw cover the barn floor. The Rooster, with the little red bow on his comb, stands in the grain and looks up at him with his head on one side.",
+      "caption": "Magen til treskemannen knurrer som en liten bjørn.",
+      "alt": "En lang og tynn treskemann står i låven og holder seg på magen, som knurrer av sult. Hanen med den røde sløyfa står i kornet og ser opp på ham."
+    },
+    {
+      "id": "06",
+      "paragraph": 19,
+      "anchor": "Vedhoggeren viste fram et skaft uten øks.",
+      "characters": ["hanen"],
+      "prompt": "At a big woodpile at the edge of the spruce forest, a burly woodcutter with a bushy black beard, rolled-up sleeves, a leather waistcoat and a brown felt hat holds up an empty wooden axe handle with no axe head on it and shrugs with a comically helpless face. The Rooster, with the little red bow on his comb, stares up at the headless handle with his beak open. Split logs and wood chips lie all around.",
+      "caption": "Vedhoggeren viser fram et skaft uten øks.",
+      "alt": "En stor vedhogger med svart skjegg holder opp et økseskaft uten øks og trekker på skuldrene. Hanen med den røde sløyfa ser forundret opp på skaftet."
+    },
+    {
+      "id": "07",
+      "paragraph": 25,
+      "anchor": "«Stakkars liten. Her har du kull. Du trenger ikke gi meg noe.»",
+      "characters": ["hanen"],
+      "prompt": "In a smoky clearing deep in the forest, beside a big, dome-shaped charcoal stack of earth and turf that sends up soft blue-grey smoke, a kindly old charcoal burner, black with soot from his cap to his boots except for his friendly eyes and white smile, kneels down and holds out a little sack of charcoal to the Rooster. The Rooster stands before him panting hard, his feathers ruffled and the little red bow on his comb askew.",
+      "caption": "«Stakkars liten. Her har du kull. Du trenger ikke gi meg noe.»",
+      "alt": "En kullbrenner, svart av sot, bøyer seg ned i en røykfylt lysning og gir hanen en liten sekk med kull. Hanen står andpusten foran ham med rufsete fjær."
+    },
+    {
+      "id": "08",
+      "paragraph": 29,
+      "anchor": "Hanen svarte ikke.",
+      "characters": ["hona-tuppen", "hanen"],
+      "places": ["notteskogen"],
+      "prompt": "Back in the Nut Wood, the Hen stands perky and bright-eyed again with her head cocked, peering hopefully up at a cluster of hazelnuts. Beside her the little birchwood bowl lies empty on its side, next to the nutshell that popped out. The Rooster lies flat on his back in the soft moss with his wings spread wide and his feet in the air, panting and panting, the red bow on his comb all crooked. Seen from above.",
+      "caption": "«Er det flere nøtter?» spør Tuppen. Men hanen ligger rett ut i mosen og puster.",
+      "alt": "Høna Tuppen er frisk igjen og kikker opp etter flere nøtter. Ved siden av ligger ei tom treskål og nøtteskallet. Hanen ligger på ryggen i mosen med beina i været og puster og puster."
+    }
+  ]
+}

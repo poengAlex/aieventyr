@@ -1,0 +1,251 @@
+{
+  "storyId": "rigeper",
+  "title": "Rike Per Kremmer",
+  "textFile": "public/content/stories/rigeper/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago. Rich Per Kremmer lives on a big, prosperous farm; just below it a little grey watermill turns on a brook, and far downstream on the river stands a second, older mill with a big wooden waterwheel. The little chest is a small pine box painted with blue and red rosemaling flowers, with an iron key in its lock. Per's letters are folded papers sealed with red wax. The robbers' farm is a shabby log farmhouse deep in a dark spruce forest. At a wide river far away waits the old ferry: a long, flat-bottomed, tarred black punt with square ends, pushed with a very long wooden pole. On the hill beyond it stands the Dragon's crooked, slate-grey stone castle at Dybenfart. The three feathers are long, shining golden feathers, each as long as a man's arm.",
+  "palette": "Late spring along the rivers: fast, high, glittering water, bird-cherry trees foaming with white blossom on the banks, marsh marigolds glowing yellow in the wet meadows, and long rosy-gold sunsets. At night: deep blue shadows and warm lamplight. Inside the Dragon's castle: slate-blue gloom and ember-orange firelight.",
+  "cast": [
+    {
+      "slug": "mollergutten",
+      "name": "Møllergutten",
+      "promptName": "the Miller's Boy",
+      "replacesPortrait": "mollergutten",
+      "description": "En modig, høflig og snill gutt som møter prøvelser uten å miste hjertet sitt, og som til slutt skaper et godt liv for seg og den han elsker.",
+      "look": "A sturdy, slightly plump, good-natured lad of about sixteen with a round, open face, a button nose, friendly light-blue eyes, a wide, warm smile and short, curly strawberry-blond hair. He wears a floppy, wide-brimmed grey felt hat with a broad red hatband, a loose white linen shirt, a white miller's apron tied over brown knee breeches, grey stockings and wooden clogs, with a light dusting of flour on his sleeves and hat.",
+      "portrait": "Background: the old watermill with its big wooden waterwheel."
+    },
+    {
+      "slug": "rike-per-kremmer",
+      "name": "Rike Per Kremmer",
+      "promptName": "Rich Per",
+      "replacesPortrait": "rike-per-kremmer",
+      "description": "En svært rik, sta handelsmann som vil styre alt, men som lærer at grådighet og urett ikke lønner seg.",
+      "look": "A tall, bony merchant of about fifty with a long, horsey face, a jutting chin, a sharp hooked nose, small, darting, greedy grey eyes, a thin mouth, bushy salt-and-pepper side-whiskers and slicked-back black hair with a pointed widow's peak. He wears a long wine-red frock coat whose big pockets bulge with rolls of coloured ribbon, a shiny green-and-gold striped silk waistcoat, grey knee breeches, white stockings and buckled shoes, a gold ring on every finger and a fat leather money purse on his belt.",
+      "portrait": "Background: his parlour with the three iron-bound money chests."
+    },
+    {
+      "slug": "pers-datter",
+      "name": "Pers datter",
+      "promptName": "Per's Daughter",
+      "replacesPortrait": "pers-datter",
+      "description": "En rolig og vennlig ung kvinne som blir behandlet som en premie, men som ender med et liv der godhet og samarbeid betyr mer enn penger.",
+      "look": "A kind, soft-spoken young woman of about eighteen, tall and willowy, with a long neck, a narrow face with a delicate chin, a small straight nose, soft brown eyes under pale brows, pink cheeks, and thick auburn hair in one long plait reaching her waist, tied with a white ribbon. She wears a midnight-blue wool dress with a band of red-and-white woven trim at the hem and cuffs, and a round silver brooch at her collar.",
+      "portrait": "Background: the farm under the ridge, with bird-cherry trees in white blossom."
+    },
+    {
+      "slug": "prinsessa-ved-dybenfart",
+      "name": "Prinsessa ved Dybenfart",
+      "promptName": "the Princess",
+      "replacesPortrait": "prinsessa-ved-dybenfart",
+      "description": "En klok prinsesse som hjelper møllergutten med list og mot, og som endelig får reise hjem.",
+      "look": "A small, quick-witted princess of about twenty with a round face, a pointed little chin, a small straight nose, bright dark eyes that miss nothing and a wry, lopsided smile. Her dark hair is cut short in a cap of springy curls, held back by a thin silver band set with one pearl. She wears a long turquoise gown with wide bell sleeves, a silver-embroidered belt and soft grey slippers.",
+      "portrait": "Background: the gloomy stone hall of the castle, lit by the fire."
+    },
+    {
+      "slug": "dragen",
+      "name": "Dragen ved Dybenfart",
+      "promptName": "the Dragon",
+      "description": "En diger, gretten drage med tre skinnende gullfjær ytterst på stjerten. Han liker ikke fremmede folk, og han vil helst få sove i fred.",
+      "look": "An enormous, pot-bellied dragon about four times as tall as a man, with bumpy plum-purple scales, a pale lavender belly, short thick legs with big blunt claws, small leathery wings that look far too small for him, a long snout with round nostrils that puff little grey smoke clouds, big sleepy amber eyes under heavy lids, and a row of soft orange spikes down his back. His long tail ends in exactly three long, shining golden feathers.",
+      "portrait": "Background: his enormous four-poster bed in the gloomy castle hall."
+    },
+    {
+      "slug": "ferjemannen",
+      "name": "Ferjemannen",
+      "promptName": "the Old Ferryman",
+      "description": "En krokrygget gubbe som har staket folk over den brede elva i hundre år, og som gjerne vil bli fri.",
+      "look": "A tiny, wiry, very old man, bent almost double like a fish hook, with a wrinkled nut-brown face, a sharp little beak of a nose, bright little black eyes twinkling under bushy snow-white eyebrows, a toothless grin and no beard, and thin white hair tied at the back in a stubby little pigtail. He wears a battered, wide-brimmed straw hat, a faded sea-green smock with patched elbows and rolled-up grey trousers, goes barefoot on knobbly feet and always holds a very long wooden punting pole.",
+      "portrait": "Background: the wide, brimming river with his black ferry punt."
+    }
+  ],
+  "places": [
+    {
+      "slug": "kremmerstua",
+      "name": "the Merchant's Parlour",
+      "look": "A large, rich farmhouse parlour with walls of honey-coloured logs, small-paned windows, benches along the walls and a long table with a white cloth. A tall corner cupboard painted with red and blue rosemaling is full of cups and plates, shelves hold rolls of ribbon, boxes of buttons and packets of needles, and three heavy, iron-bound oak money chests stand in a row against one wall."
+    },
+    {
+      "slug": "borgsalen",
+      "name": "the Castle Hall",
+      "look": "A huge, gloomy hall in an old stone castle, with rough slate-grey walls, a high vaulted ceiling, tall narrow arched windows and grey flagstone floors. A big stone fireplace glows with embers. On one side stands an enormous, dragon-sized four-poster bed with a rumpled plum-coloured quilt, and beside it a small, plain bed. A huge old two-handed sword hangs on iron hooks on the wall, above a long table and bench."
+    }
+  ],
+  "cover": {
+    "prompt": "At night in the Castle Hall, the Miller's Boy tiptoes past the enormous Dragon, who sleeps in his huge four-poster bed, snoring, with a little puff of smoke curling from his nostrils. The Dragon's long tail hangs out of the bed and curls across the floor in the foreground, ending in three long, shining golden feathers. The Miller's Boy looks at the feathers with a finger on his lips and a cheeky, hopeful smile. The fire glows orange.",
+    "characters": ["mollergutten", "dragen"],
+    "places": ["borgsalen"],
+    "caption": "Møllergutten må hente tre fjær fra stjerten til Dragen ved Dybenfart.",
+    "alt": "Møllergutten lister seg forbi den store, sovende dragen med fingeren foran munnen. Dragestjerten med tre skinnende gullfjær ligger i en bue på gulvet foran ham."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 4,
+      "anchor": "«For rar på nesa», sa han til den tredje.",
+      "characters": ["rike-per-kremmer", "pers-datter"],
+      "places": ["kremmerstua"],
+      "prompt": "In the Merchant's Parlour, Rich Per stands with his arms crossed and his nose in the air, shaking his head at a hopeful young suitor with an enormously long, curly nose, who holds out a bunch of flowers. Through the open door behind them, two earlier suitors trudge sadly away: a poor young man in patched clothes and a very thin young man as skinny as a beanpole. Per's Daughter watches quietly from beside the window with her hands folded. The three iron-bound money chests stand against the wall.",
+      "caption": "«For fattig», «for tynn» og «for rar på nesa», sier Per.",
+      "alt": "Rike Per Kremmer står med armene i kors og nesa i været foran en frier med ei lang, krøllete nese. Gjennom døra går to andre friere lei seg sin vei, og dattera ser stille på."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "Per la en pengepung på bordet.",
+      "characters": ["rike-per-kremmer"],
+      "prompt": "At night in a round tower room with a wide opening in the roof to the starry sky, three old stargazers in long, dusty indigo robes and tall pointed caps have turned away from their big brass telescope. They stare with shining, greedy eyes at a fat leather money purse that Rich Per has just plonked down on the table. Rich Per taps the purse with one finger and a sly smile. A crescent moon and hundreds of stars glitter above.",
+      "caption": "Stjernekikkerne kikket på pengepungen. Så kikket de på stjernene igjen.",
+      "alt": "Tre gamle stjernekikkere i lange kapper og spisse luer stirrer på en tjukk pengepung som Rike Per Kremmer har lagt på bordet. Over dem skinner stjernene."
+    },
+    {
+      "id": "03",
+      "paragraph": 15,
+      "anchor": "Så fikk Per en snekker til å lage ei lita, fin kiste.",
+      "characters": ["rike-per-kremmer"],
+      "prompt": "At sunset on a riverbank, the water glittering pink and gold, Rich Per, wearing a fine dark-blue travel cloak over his coat, straightens up and dusts off his hands with a smug look. On the gently flowing river in front of him, the little rosemaling-painted chest bobs calmly away downstream, closed, with the iron key still in its lock and a corner of a soft yellow blanket sticking out beside it. Bird-cherry trees in white blossom line the bank.",
+      "caption": "Kista vugger av sted på elva. Gutten sover.",
+      "alt": "Rike Per Kremmer står i ei fin reisekappe ved elva i solnedgangen. Ei lita, blomstermalt kiste flyter av sted på vannet, med et hjørne av et teppe stikkende ut ved låsen."
+    },
+    {
+      "id": "04",
+      "paragraph": 18,
+      "anchor": "Mølleren fant kista og bar den inn til kona.",
+      "characters": [],
+      "prompt": "In a cosy, flour-dusted mill kitchen, a big, broad old miller with bushy grey eyebrows, a flour-dusted grey beard and a white cap, and his small, thin wife with grey hair wound around her head in a braid and a blue-striped apron, bend over the open rosemaling chest on the table, their faces full of wonder. Inside, on a soft yellow blanket, lies the sweetest tiny baby boy with a wisp of strawberry-blond hair, yawning and smiling up at them. Through the window, the big wooden waterwheel stands still.",
+      "caption": "Der lå den søteste lille gutten de noen gang hadde sett.",
+      "alt": "En gammel møller og kona hans bøyer seg over ei åpen, blomstermalt kiste. Oppi ligger en liten baby på et mykt teppe og gjesper og smiler til dem."
+    },
+    {
+      "id": "05",
+      "paragraph": 31,
+      "anchor": "Møllergutten stakk brevet under hattebåndet og gikk.",
+      "characters": ["mollergutten", "rike-per-kremmer"],
+      "prompt": "Outside an old timber inn at the edge of a big, dark spruce forest, in the late afternoon light, the Miller's Boy, with a small knapsack on his back, tucks a folded letter sealed with red wax under the red band of his hat and sets off cheerfully towards the trees. Rich Per stands in the inn doorway waving him off with a too-sweet, false smile, his other hand hidden behind his back with its fingers crossed.",
+      "caption": "Møllergutten stakk brevet under hattebåndet og gikk.",
+      "alt": "Møllergutten stikker et brev med rødt segl under hattebåndet og går mot den mørke skogen. I døra til vertshuset står Rike Per Kremmer og vinker med et falskt smil."
+    },
+    {
+      "id": "06",
+      "paragraph": 36,
+      "anchor": "Da de kom hjem og tente lampa, ble de stående rundt senga og se på gutten.",
+      "characters": ["mollergutten"],
+      "prompt": "At night in a shabby farmhouse bedroom deep in the forest, twelve robbers crowd around a bed and peer at the sleeping Miller's Boy with big, curious eyes, one of them holding up a lamp. They are a funny bunch in patched, mismatched clothes and floppy caps, with twelve very different beards: long, short, curly, forked, braided, red, black, brown and grey. The Miller's Boy sleeps on top of the covers with all his clothes on and his hat over his face, the letter tucked under its band.",
+      "caption": "Tolv røvere med tolv skjegg står rundt senga. «Hvem er nå dette?»",
+      "alt": "Tolv røvere med vidt forskjellige skjegg står rundt ei seng og kikker. En av dem holder en lampe. I senga sover møllergutten med hatten over ansiktet."
+    },
+    {
+      "id": "07",
+      "paragraph": 47,
+      "anchor": "Men et brev er et brev.",
+      "characters": ["mollergutten", "pers-datter"],
+      "places": ["kremmerstua"],
+      "prompt": "A merry wedding in the Merchant's Parlour, hung with birch branches. In the middle, the Miller's Boy, with a flower tucked into his hatband, dances with Per's Daughter, who wears a sparkling silver bridal crown; both of them are beaming. A fiddler stamps his foot as he plays, a tall tower cake of stacked almond rings stands on the table, and the bride's mother, a small, bird-like woman with grey curls and a lace-trimmed bonnet, claps along.",
+      "caption": "Så ble det bryllup, med kake og fele og dans.",
+      "alt": "Møllergutten og Pers datter danser i bryllupet sitt. Hun har brudekrone, og han har en blomst i hattebåndet. En spillemann spiller fele, og på bordet står en høy kransekake."
+    },
+    {
+      "id": "08",
+      "paragraph": 51,
+      "anchor": "Per leste brevet.",
+      "characters": ["rike-per-kremmer"],
+      "places": ["kremmerstua"],
+      "prompt": "In the Merchant's Parlour, Rich Per clutches a crumpled letter, his face turned bright purple with rage and his side-whiskers bristling, and he stamps his foot so hard that the cups and plates jump right off the shelves of the painted corner cupboard. His wife, a small, bird-like woman with grey curls and a lace-trimmed bonnet, peeks out from behind the three money chests with her hands over her ears.",
+      "caption": "Per ble rød i ansiktet. Så ble han lilla. Og så: DUNK!",
+      "alt": "Rike Per Kremmer er lilla i ansiktet av sinne og stamper i gulvet, så koppene hopper i skapet. Kona hans titter fram bak pengekistene og holder seg for ørene."
+    },
+    {
+      "id": "09",
+      "paragraph": 61,
+      "anchor": "«Oi, oi», sa kongen.",
+      "characters": ["mollergutten"],
+      "prompt": "In the sunny yard of a royal farm, beside an old stone well, a short, plump king with a long, braided brown beard that reaches his knees, a little gold crown and a honey-yellow robe holds up a bucket of water as brown as hot cocoa and pulls a disgusted face. The Miller's Boy, a knapsack on his back, peers into the bucket with raised eyebrows. A bird-cherry tree in white blossom and a turf-roofed hall stand behind them.",
+      "caption": "«Hvorfor er vannet i brønnen min brunt som kakao?» spør kongen.",
+      "alt": "En liten, rund konge med langt, flettet skjegg holder opp ei bøtte med vann som er brunt som kakao. Møllergutten kikker oppi bøtta."
+    },
+    {
+      "id": "10",
+      "paragraph": 74,
+      "anchor": "«Jeg staker alle over som skal til Dragen», sa gubben.",
+      "characters": ["mollergutten", "ferjemannen"],
+      "prompt": "At a wide, fast-flowing river brimming to its banks, the Old Ferryman stands in his long, flat black punt by the bank, leaning on his very long pole and rubbing his crooked back with a sigh. The Miller's Boy stands on the bank beside him, listening kindly. Across the river a green hill rises, and on top of it looms a crooked, slate-grey stone castle under drifting clouds.",
+      "caption": "«Jeg har staket folk over i hundre år», sier gubben.",
+      "alt": "En gammel, krokrygget ferjemann står i en flat pram med en lang stake. Møllergutten står på bredden og hører på. På den andre sida av elva ligger et mørkt slott på en bakke."
+    },
+    {
+      "id": "11",
+      "paragraph": 84,
+      "anchor": "Møllergutten tok flaska med begge hender og drakk.",
+      "characters": ["mollergutten", "prinsessa-ved-dybenfart"],
+      "places": ["borgsalen"],
+      "prompt": "In the Castle Hall, the Miller's Boy holds the huge old two-handed sword high above his head with one hand, grinning in amazement, his hat tumbling off. An empty pair of iron hooks on the wall shows where the sword hung. The Princess stands beside him holding a small round glass flask whose drink glitters like stars, her eyebrows raised in surprise and delight.",
+      "caption": "Én slurk til, og nå kunne han svinge sverdet. Svisj, svosj!",
+      "alt": "Møllergutten holder et digert sverd høyt over hodet og smiler forbauset. Prinsessa står ved siden av med ei lita flaske der drikken glitrer som stjerner."
+    },
+    {
+      "id": "12",
+      "paragraph": 103,
+      "anchor": "«HVA NÅ?» Nå sprutet det gnister av Dragen.",
+      "characters": ["dragen", "prinsessa-ved-dybenfart", "mollergutten"],
+      "places": ["borgsalen"],
+      "prompt": "Night in the Castle Hall, lit only by glowing embers. The Dragon lies in his enormous four-poster bed under a rumpled quilt, propped up on one elbow and glaring grumpily, while little harmless orange sparks spray out of his nostrils. In the small bed beside it, the Princess sits up in a white nightgown, blinking innocently as if she has just had a strange dream. Under the Dragon's bed, the Miller's Boy lies flat on his tummy in the shadows, listening with wide eyes and a hand over his mouth.",
+      "caption": "«HVA NÅ?» Nå spruter det gnister av Dragen.",
+      "alt": "Dragen ligger i ei diger seng og glor sint, og det spruter gnister fra nesa hans. Prinsessa sitter oppe i senga ved siden av, og under dragesenga ligger møllergutten og lytter."
+    },
+    {
+      "id": "13",
+      "paragraph": 114,
+      "anchor": "Tre fjær seilte ned på gulvet.",
+      "characters": ["dragen", "mollergutten"],
+      "places": ["borgsalen"],
+      "prompt": "In the grey light just before sunrise, the Dragon sits on the edge of his enormous four-poster bed with his big feet on the flagstones, stretching and yawning a huge yawn with his eyes squeezed shut. Behind him, the Miller's Boy, who has crept out from under the bed, holds the big sword lowered, and three long, shining golden feathers float down through the air from the end of the Dragon's tail towards the floor. The Miller's Boy stares at them with round eyes.",
+      "caption": "SVISJ! sa sverdet. Tre fjær seilte ned på gulvet.",
+      "alt": "Dragen sitter på sengekanten og gjesper. Bak ham står møllergutten med sverdet, og tre lange, skinnende gullfjær seiler ned mot gulvet."
+    },
+    {
+      "id": "14",
+      "paragraph": 116,
+      "anchor": "«Du klarte det!» ropte prinsessa.",
+      "characters": ["mollergutten", "prinsessa-ved-dybenfart"],
+      "places": ["borgsalen"],
+      "prompt": "In the Castle Hall, in the first pale light of morning, a big heap of grey flint stones lies on the floor beside the enormous, empty four-poster bed, a little puff of grey dust still hanging over it. The Miller's Boy stands next to the heap, holding up three long, shining golden feathers, and the Princess runs towards him with her arms flung up in joy, shouting.",
+      "caption": "Der Dragen hadde stått, lå det bare en haug med grå flintestein.",
+      "alt": "Midt i den store salen ligger en haug med grå flintestein. Møllergutten holder opp tre skinnende gullfjær, og prinsessa løper mot ham og jubler."
+    },
+    {
+      "id": "15",
+      "paragraph": 122,
+      "anchor": "Dronninga ble rød som ei tomat.",
+      "characters": ["mollergutten"],
+      "prompt": "In a bright royal hall, a tall, elegant queen with a long neck, black hair piled high in a tower-like bun, a lemon-yellow gown and a big white ruff collar has turned as red as a tomato. She flaps one hand to say hush and with the other hands the Miller's Boy a fat, jingling purse of silver coins. The Miller's Boy bows politely, hat in hand, with a knowing little smile.",
+      "caption": "Dronninga ble rød som ei tomat. «Hysj, hysj!» sa hun.",
+      "alt": "En høy dronning med stort, oppsatt hår blir rød som ei tomat og hysjer. Samtidig gir hun møllergutten en tjukk pengepung, og han bukker høflig."
+    },
+    {
+      "id": "16",
+      "paragraph": 123,
+      "anchor": "Hos den neste kongen løp prinsessa rett i armene på faren sin.",
+      "characters": ["prinsessa-ved-dybenfart", "mollergutten"],
+      "prompt": "In the courtyard of a royal farm, the Princess runs straight into the arms of her father, an elderly king with bushy silver curls, a clean-shaven, crinkly face and a turquoise robe, who hugs her tight, crying and laughing at the same time, his little crown slipping sideways. The Miller's Boy stands a little behind them with his hat in his hands, smiling warmly, beside two sacks and a chest full of gold and silver.",
+      "caption": "Kongen gråt og lo på én gang.",
+      "alt": "Prinsessa løper rett i armene på faren sin, en gammel konge med sølvgrå krøller. Kongen gråter og ler på én gang, og møllergutten står bak og smiler."
+    },
+    {
+      "id": "17",
+      "paragraph": 128,
+      "anchor": "Da Per fikk fjærene, kunne han ikke si et ord mot bryllupet.",
+      "characters": ["rike-per-kremmer", "mollergutten", "pers-datter"],
+      "prompt": "In the yard of the farm under the ridge, a wagon piled high with gleaming sacks and chests of gold and silver stands behind two brown horses. Per's Daughter hugs the Miller's Boy, overjoyed to have him home. Rich Per holds the three long, shining golden feathers in one hand, but he doesn't look at them at all: he stares at the gold on the wagon with huge, greedy eyes and his mouth hanging open.",
+      "caption": "Per klarte ikke å slutte å se på alt gullet.",
+      "alt": "På tunet står ei vogn full av gull og sølv. Pers datter klemmer møllergutten, mens Rike Per Kremmer holder de tre fjærene og glaner grådig på gullet."
+    },
+    {
+      "id": "18",
+      "paragraph": 135,
+      "anchor": "Per staket og surmulte.",
+      "characters": ["rike-per-kremmer", "ferjemannen"],
+      "prompt": "On the wide river, Rich Per stands sulking in the flat black punt with the very long pole in his hands, his fine wine-red coat splashed with river water and a huge food sack at his feet. On the bank beside him, the Old Ferryman has hopped ashore and, for the first time in a hundred years, stands straight and tall, stretching his arms up to the sky and whistling happily as he strolls away. Far across the river, many horses wait on the other bank.",
+      "caption": "Per staket og surmulte, og gubben gikk plystrende av sted.",
+      "alt": "Rike Per Kremmer står sur i prammen med den lange staken. På bredden har den gamle ferjemannen hoppet i land og retter ut ryggen for første gang på hundre år."
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "title": "Hver synes best om sine barn",
   "textFile": "public/content/stories/bestedt/child-friendly/story.txt",
   "world": "A forest in old Norway, long ago, where the birds can talk. A narrow footpath winds through a light forest of pine, spruce and birch and along the edge of a wide, open bog with white tufts of cotton grass, soft moss, heather, cloudberry plants and small dark pools. The dunlin's four chicks hide in a grassy tussock beside the path, a little way from where she first meets the hunter. The hunter is a kind man out for a stroll: he carries only his walking stick and a leather game bag. The dunlin and her chicks are natural birds.",
-  "palette": "Early summer at midday: bright, clear sunshine with soft dappled shade, fresh light-green birches and dark spruces, nodding white tufts of cotton grass, white cloudberry flowers, rusty-red and green bog moss, dark pools reflecting the blue sky, and a few blue dragonflies.",
+  "palette": "A still July midday at the bog: warm sunshine with soft dappled shade under the pines, fluffy white tufts of cotton grass, ripening orange cloudberries, rusty-red and olive-green bog moss, dark pools reflecting a hazy pale sky, and a few blue dragonflies.",
   "cast": [
     {
       "slug": "jegeren",
@@ -11,7 +11,7 @@
       "promptName": "the Hunter",
       "replacesPortrait": "jegeren",
       "description": "En snill jeger som finner noen rufsete fugleunger i gresset og vil ta dem med hjem, fordi han tror de ikke har noen mor.",
-      "look": "A big, gentle hunter of about fifty with broad shoulders and a round belly, a weather-beaten round face, a red bulbous nose, small twinkling blue eyes and a thick, bushy salt-and-pepper beard. He wears a floppy brown felt hat with a single grey feather, a moss-green wool jacket with big patch pockets, brown leather knee breeches, grey knitted stockings and heavy lace-up boots, with a leather game bag across his chest, and carries only a crooked hazel walking stick.",
+      "look": "A sturdy, cheerful hunter of about thirty-five with a round, sunburnt face, a snub nose, merry green eyes, straight dark-brown hair and a thick dark-brown beard that splits into two little forks at the chin. He wears a small green felt hat with a curled brim and one bright-blue jay feather, an olive-brown wool jacket with big patch pockets, brown leather knee breeches, red knitted socks and lace-up boots, with a leather game bag across his chest, and carries only a crooked hazel walking stick.",
       "portrait": "Background: the Bog Path through the sunny forest."
     },
     {
@@ -41,7 +41,7 @@
     }
   ],
   "cover": {
-    "prompt": "Low, close view at the edge of the bog: the Dunlin, tiny and proud, stands on a mossy tussock among white cotton grass, her chest puffed out and her head held high, looking very sure of herself. Behind her, further along the Bog Path, the Hunter strolls through the sunny forest with his walking stick, smiling to himself. Warm early-summer light and two blue dragonflies.",
+    "prompt": "Low, close view at the edge of the bog: the Dunlin, tiny and proud, stands on a mossy tussock among white cotton grass, her chest puffed out and her head held high, looking very sure of herself. Behind her, further along the Bog Path, the Hunter strolls through the sunny forest with his walking stick, smiling to himself. Warm midday light and two blue dragonflies.",
     "characters": ["myrsnipen", "jegeren"],
     "places": ["myrstien"],
     "caption": "Myrsnipen er sikker på at barna hennes er de vakreste i hele skogen.",

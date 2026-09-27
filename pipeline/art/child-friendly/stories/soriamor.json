@@ -1,0 +1,334 @@
+{
+  "storyId": "soriamor",
+  "title": "Soria Moria slott",
+  "textFile": "public/content/stories/soriamor/child-friendly/story.txt",
+  "world": "Old Norway, long ago. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the sea, with one low room, a big open stone hearth full of ashes and not a single chair. Far across the sea lies an empty green land where three troll castles stand far apart, each grander than the last, with light in every window. The troll sword in each castle is a big old sword with a plain iron hilt; the magic bottle is a small green glass bottle with a cork. The wishing ring is a chunky silver ring with one round blue stone; the ring left in its place is a small, plain gold band. The magic boots are cracked old brown leather boots. Halvor's horse is a skinny, shaggy dun horse with a drooping head. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.",
+  "palette": "Early autumn, mostly long blue dusks and clear moonlit nights: deep ultramarine and indigo skies, silver moonlight, violet-blue shadows and warm golden light glittering from castle windows far away. Indoors, amber firelight gleams on gold and silver. Daylight is cool and silvery. Accents: the youngest princess's red and the rose-and-ember glow of the sunset over Halvor's home.",
+  "cast": [
+    {
+      "slug": "halvor",
+      "name": "Halvor",
+      "promptName": "Halvor",
+      "replacesPortrait": "halvor",
+      "description": "En gutt som helst sitter i grua og roter i aska, men som blir modig nok til å møte tre troll og gå helt til Soria Moria for prinsessa si.",
+      "look": "A tall, lanky lad of about eighteen with a lazy slouch, a long face, a long straight nose, sleepy half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead. His cheeks are smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown trousers held up with a piece of rope, and battered brown shoes, with a charred poking stick tucked into the rope.",
+      "portrait": "Background: the glowing ashes of the open stone hearth at home."
+    },
+    {
+      "slug": "halvor-fine",
+      "name": "Halvor i fine klær",
+      "promptName": "Halvor in Fine Clothes",
+      "description": "Halvor etter at prinsessene har gitt ham klær så fine at han kunne vært en kongssønn.",
+      "look": "A tall, lanky lad of about eighteen with a long face, a long straight nose, sleepy hazel eyes, a lopsided smile and messy auburn hair, now washed clean and dressed like a king's son: a royal-blue velvet coat with gold buttons and gold-embroidered cuffs, a white linen shirt with a frilled collar, a wide lingonberry-red sash, cream breeches, white stockings and shiny black buckled shoes.",
+      "portrait": "Background: the rosy sunset sky over his parents' little cottage."
+    },
+    {
+      "slug": "eldest-princess",
+      "name": "Den eldste prinsessa",
+      "promptName": "the Eldest Princess",
+      "description": "Den eldste av de tre prinsessene. Hun sitter ved rokken i det første slottet og liker å ha det ryddig.",
+      "look": "A tall, stately princess of about twenty-four with warm golden-brown skin, a long oval face, a straight nose, calm dark-brown eyes, neat arched eyebrows and thick black hair coiled into two round buns over her ears. She wears a small gold crown, a long plum-purple velvet dress with a high collar and long sleeves, and a crisp white apron with a lace edge, because she likes everything tidy.",
+      "portrait": "Background: her spinning wheel by the fire in the Spinning Room."
+    },
+    {
+      "slug": "middle-princess",
+      "name": "Den mellomste prinsessa",
+      "promptName": "the Middle Princess",
+      "description": "Den mellomste av de tre prinsessene, som blir så glad når trollet er borte at hun ikke vet hvilket bein hun skal stå på.",
+      "look": "A short, bouncy princess of about twenty-one with warm golden-brown skin, a round face with dimpled cheeks, a small button nose, merry black eyes and glossy black hair cut in a thick, chin-length bob with a straight fringe. She wears a small gold crown, a long sunflower-yellow dress with puffed sleeves and a wide white sash, and a necklace of big white pearls.",
+      "portrait": "Background: a candlelit castle hall with a painted ceiling."
+    },
+    {
+      "slug": "youngest-princess",
+      "name": "Den yngste prinsessa",
+      "promptName": "the Youngest Princess",
+      "replacesPortrait": "youngest-princess",
+      "description": "Den yngste og vakreste av de tre prinsessene, som gir Halvor en ønskering og ber ham aldri si et ord om dem.",
+      "look": "A graceful, slender princess of about eighteen with warm golden-brown skin, a heart-shaped face, a small straight nose, large, bright dark-brown eyes with long lashes, a warm smile and long, straight, glossy black hair falling loose to her waist. She wears a small gold crown, a long red dress with a square neckline and wide bell sleeves edged with gold braid, and a tiny gold sun pendant on a thin chain.",
+      "portrait": "Background: the tall arched windows of the Grand Hall at dusk."
+    },
+    {
+      "slug": "three-headed-troll",
+      "name": "Trollet med tre hoder",
+      "promptName": "the Three-Headed Troll",
+      "replacesPortrait": "three-headed-troll",
+      "description": "Trollet i det første slottet, som snuser med alle tre nesene og brøler «Huttetu!», men går opp i en liten, grå sky når Halvor svinger sverdet.",
+      "look": "A big, pear-shaped troll about twice as tall as a man, with blue-grey, knobbly skin, long dangling arms and huge flat feet. He has exactly three heads side by side on his broad shoulders, each with a big round nose: the left head is sleepy, with droopy eyelids and a floppy red nightcap; the middle head is grumpy, with one bushy black eyebrow; the right head is surprised, with round eyes and a tuft of white hair. He wears a patched brown leather jerkin tied with rope.",
+      "portrait": "Background: a dark stone castle corridor."
+    },
+    {
+      "slug": "six-headed-troll",
+      "name": "Trollet med seks hoder",
+      "promptName": "the Six-Headed Troll",
+      "description": "Trollet i det andre slottet. Han er så stor at han må snu seg sidelengs for å komme inn døra, men PUFF! sier han likevel.",
+      "look": "A huge, barrel-shaped troll about three times as tall as a man, with pale sandstone-yellow skin covered in brown freckles and warts, and shoulders so wide that he must turn sideways to get through doors. He has exactly six heads in one long row along his shoulders, each with a long pointed nose, small beady eyes and a stiff tuft of black hair. He wears a huge patchwork coat sewn from old sacks and goes barefoot.",
+      "portrait": "Background: a castle doorway far too narrow for him."
+    },
+    {
+      "slug": "nine-headed-troll",
+      "name": "Trollet med ni hoder",
+      "promptName": "the Nine-Headed Troll",
+      "description": "Det største og seigeste trollet, i det tredje slottet. Han blir blekere og blekere for hver SVISJ, helt til han går opp i en stor, grå sky.",
+      "look": "An enormous troll as tall as a house, the biggest of all, with dark charcoal-grey skin, rough and lumpy like wet rock, a round belly and thick, stumpy legs. He has exactly nine small, round heads on short, thick necks, spread out in a wide fan above his shoulders, each with a potato nose, bushy white eyebrows and a wide, frog-like mouth. He wears a ragged sheepskin cloak and a belt of knotted rope.",
+      "portrait": "Background: the huge arched door of the Grand Hall."
+    },
+    {
+      "slug": "mother",
+      "name": "Mor",
+      "promptName": "the Mother",
+      "description": "Halvors mor, som ler så hun må holde seg på magen, og som kjenner igjen gutten sin når ilden blusser opp.",
+      "look": "A small, sturdy, quick-moving woman of about fifty with a round chin, a wide mouth made for laughing, a little upturned nose, bright brown eyes and dark-brown hair streaked with grey, tucked under a faded yellow headscarf knotted on top of her head. She wears a patched rust-brown wool dress with rolled-up sleeves, a faded green apron and wooden clogs.",
+      "portrait": "Background: the open hearth of the tiny cottage."
+    },
+    {
+      "slug": "father",
+      "name": "Far",
+      "promptName": "the Father",
+      "description": "Halvors far, en stille mann som ser inn i ilden og savner gutten sin.",
+      "look": "A tall, thin, stooped man of about sixty with a long, gentle face, deep-set grey eyes under big bushy grey eyebrows, a hooked nose, a short scruffy grey beard and thin grey hair under a floppy brown felt hat. He wears a worn blue-grey wool smock tied with a cord, patched brown knee breeches, grey knitted stockings and wooden clogs.",
+      "portrait": "Background: the fire in the open hearth of the cottage."
+    },
+    {
+      "slug": "old-cottage-woman",
+      "name": "Kona med den lange nesa",
+      "promptName": "the Old Woman",
+      "replacesPortrait": "old-cottage-woman",
+      "description": "Ei gammel kone med ei nese så lang at hun roter i glørne med den, som spør månen og vestavinden om veien til Soria Moria og gir Halvor et par støvler for hesten hans.",
+      "look": "A tall, bony, very old woman with a long thin neck, knobbly hands, a wrinkled, cheerful face, small twinkling black eyes and an enormously long, thin, pointed nose with a rosy tip, as long as a wooden spoon, which she uses to poke the embers. Her dove-grey hair peeps out in wisps from under a white linen cap. She wears a faded heather-blue wool dress, a black apron and wooden clogs.",
+      "portrait": "Background: her tiny cottage hearth with glowing embers."
+    },
+    {
+      "slug": "west-wind",
+      "name": "Vestavinden",
+      "promptName": "the West Wind",
+      "replacesPortrait": "west-wind",
+      "description": "En travel vind som suser inn over skogen på vei til Soria Moria for å tørke bryllupsklærne, og som lar Halvor henge på så godt han kan.",
+      "look": "A friendly wind spirit the size of a big man, with a round, rosy, beardless face, a wide merry grin and bright green eyes. His wild, streaming hair is made of whirling leaves and spruce needles, with three wooden clothes-pegs clipped in it, because he dries the washing. From the chest down his body turns into long, curling swirls of misty sea-green and silver air with leaves spinning inside, and he has long, thin, windy arms.",
+      "portrait": "Background: moonlit mountains with leaves whirling past."
+    }
+  ],
+  "places": [
+    {
+      "slug": "spinning-room",
+      "name": "the Spinning Room",
+      "look": "A warm, high-ceilinged room in the first troll castle, panelled in pale carved pine, with a crackling fire in a big stone fireplace with a wide chimney, a wooden spinning wheel with a three-legged stool in the middle of the floor, a small round table and a narrow wooden shelf on the wall. A tall arched wooden door leads out to a dark corridor, and an open doorway shows a kitchen where gold pots and silver pans hang gleaming."
+    },
+    {
+      "slug": "grand-hall",
+      "name": "the Grand Hall",
+      "look": "The grandest hall of the third troll castle: vast and high, with white stone walls, gilded pillars, a polished floor of blue and white tiles, tall arched windows looking out over blue mountains, and one huge arched double door of dark oak. In one corner stands a big, round, white-and-blue tiled stove, glowing warm, with a brass rail around it."
+    },
+    {
+      "slug": "forest-cottage",
+      "name": "the Forest Cottage",
+      "look": "A tiny, crooked log cottage with a sagging grass roof and one small window glowing orange, deep in a huge, dark spruce forest that never ends. A thin curl of smoke rises from its stone chimney. Behind it lies a little clearing, and beside it a small garden with a wattle fence, a few cabbages and a lopsided gate."
+    }
+  ],
+  "cover": {
+    "prompt": "Halvor stands on a mossy hilltop at night, turned three-quarters towards the viewer, looking over his shoulder at the far horizon with a sleepy, wondering smile. There, beyond rows of deep-blue ridges and dark spruce forests, the golden castle of Soria Moria glitters like a tiny jewel under a huge, round, silver moon. Moonlight catches his messy hair, and a few stars sparkle in the indigo sky.",
+    "characters": ["halvor"],
+    "caption": "Halvor ser mot Soria Moria slott, som glitrer langt, langt borte.",
+    "alt": "Halvor står på en haug i måneskinnet og ser mot et gyllent slott som glitrer langt borte bak mange blå åser."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 4,
+      "anchor": "«Ja!» sa Halvor. Og så fort hadde ingen sett ham komme seg opp av grua før.",
+      "characters": ["halvor"],
+      "prompt": "Inside a tiny, dim log cottage, Halvor springs up out of the big open stone hearth in a puff of grey ash, wide awake for once, arms flung out and grinning. In the low open doorway stands a stout, red-cheeked skipper with a bushy grey beard, a dark-blue peaked cap and a thick blue sailor's jacket, his eyebrows shooting up in surprise. Through the door, far down the hill, a big sailing ship lies at anchor on the sea in bright morning light.",
+      "caption": "Så fort hadde ingen sett Halvor komme seg opp av grua før!",
+      "alt": "Halvor spretter opp av grua i en sky av grå aske. I døra står en skipper med skjegg og lue, og langt nede ved sjøen ligger et stort skip."
+    },
+    {
+      "id": "02",
+      "paragraph": 13,
+      "anchor": "Snart kom han til en vei.",
+      "characters": ["halvor"],
+      "prompt": "A wide view of an empty green land at dusk, with no people anywhere. Halvor walks along a perfectly smooth, pale road that winds over soft grassy hills, the wind tousling his hair and flapping his ragged shirt. Far away, where the road ends, a big castle with many towers stands against the deep-blue evening sky, with warm golden light glowing in every single window. The first stars are coming out.",
+      "caption": "Langt borte, der veien sluttet, lå et stort slott med lys i hvert eneste vindu.",
+      "alt": "Halvor går på en helt jevn vei over grønne bakker om kvelden. Langt borte ligger et stort slott med lys i alle vinduene."
+    },
+    {
+      "id": "03",
+      "paragraph": 17,
+      "anchor": "Da hun fikk se Halvor, slapp hun tråden.",
+      "characters": ["halvor", "eldest-princess"],
+      "places": ["spinning-room"],
+      "prompt": "In the Spinning Room, lit by a crackling fire, the Eldest Princess sits at her wooden spinning wheel. She has just let go of the thread, which dangles loose, and stares at the doorway with her eyes as big as teacups and one hand at her mouth. In the open kitchen doorway stands Halvor, ragged and sooty, lifting one hand in a shy hello. Behind him, gold pots and silver pans gleam on their hooks in the firelight.",
+      "caption": "Prinsessa slapp tråden. Øynene hennes ble store som tekopper.",
+      "alt": "En prinsesse sitter ved en rokk og har sluppet tråden. Hun stirrer med store øyne på Halvor i døråpningen. Bak ham skinner gryter av gull og panner av sølv."
+    },
+    {
+      "id": "04",
+      "paragraph": 25,
+      "anchor": "Halvor dro og slet, men sverdet ble hengende der det hang.",
+      "characters": ["halvor", "eldest-princess"],
+      "places": ["spinning-room"],
+      "prompt": "In the Spinning Room, Halvor hangs from the hilt of the big old sword on the wall with both hands, his feet braced against the wall and his face red from pulling, but the sword does not budge at all. The Eldest Princess stands beside him with her hands clasped, trying not to smile. On the shelf next to the sword stands the small green glass bottle, and on the little table behind them are an empty soup bowl, bread crusts and a plate with only the bones of a roast chicken left.",
+      "caption": "Halvor dro og slet, men sverdet ble hengende der det hang.",
+      "alt": "Halvor henger i sverdet på veggen og drar så han blir rød i ansiktet, men sverdet rikker seg ikke. Prinsessa står ved siden av, og på hylla står en liten grønn flaske."
+    },
+    {
+      "id": "05",
+      "paragraph": 29,
+      "anchor": "Tramp, tramp, tramp, sa det ute i gangen.",
+      "characters": ["halvor", "three-headed-troll"],
+      "places": ["spinning-room"],
+      "prompt": "Low view across the Spinning Room towards the tall door, which has swung open. The Three-Headed Troll is ducking in from the dark corridor, and his three heads come round the door frame one after another, all three big noses sniffing the air: first the sleepy head in its red nightcap, then the grumpy head, then the surprised head. Behind the open door, pressed flat against the wall, Halvor hides with the old sword held upright, peeking out with one eye.",
+      "caption": "Inn kom et hode. Og ett hode til. Og ett hode til.",
+      "alt": "Et stort, blågrått troll med tre hoder stikker hodene inn døra og snuser. Bak døra gjemmer Halvor seg med sverdet og kikker fram med ett øye."
+    },
+    {
+      "id": "06",
+      "paragraph": 39,
+      "anchor": "«Det ordner seg nok», sa Halvor.",
+      "characters": ["halvor", "eldest-princess"],
+      "places": ["spinning-room"],
+      "prompt": "Close, cosy view in the firelit Spinning Room: all that is left of the troll is a small heap of grey soot on the floor. Halvor, bent over, sweeps it neatly into a dustpan with a birch-twig broom, while the Eldest Princess, hands on her hips and smiling, points at one last little speck he has missed. The old sword leans against the wall, and the spinning wheel stands behind them.",
+      "caption": "Men først feide Halvor opp sota etter trollet, for prinsessa likte å ha det ryddig.",
+      "alt": "Halvor feier en liten haug med grå sot opp på et feiebrett. Prinsessa står med hendene i sida, smiler og peker på litt sot han har glemt."
+    },
+    {
+      "id": "07",
+      "paragraph": 48,
+      "anchor": "TRAMP, TRAMP, TRAMP. Trollet kom hjem.",
+      "characters": ["halvor", "middle-princess", "six-headed-troll"],
+      "prompt": "In the candlelit hall of the second castle, even grander than the first, with a painted ceiling and gold candlesticks, the Six-Headed Troll squeezes sideways through a doorway he barely fits. The door frame bends and creaks, and his six heads in a row sniff the air with their long pointed noses. In the middle of the room Halvor stands calmly with the old sword resting on his shoulder, and behind a tall-backed chair the Middle Princess peeks out with her hands over her mouth.",
+      "caption": "Trollet var så stort at han måtte snu seg sidelengs for å komme inn døra.",
+      "alt": "Et digert troll med seks hoder på rad presser seg sidelengs gjennom døra, så dørkarmen knaker. Halvor står rolig med sverdet, og prinsessa kikker fram bak en stol."
+    },
+    {
+      "id": "08",
+      "paragraph": 59,
+      "anchor": "«Ni hoder, og ni til, og enda ni til», sa Halvor.",
+      "characters": ["halvor", "youngest-princess"],
+      "places": ["grand-hall"],
+      "prompt": "In the Grand Hall, the Youngest Princess, so lovely that she almost seems to glow, flaps both hands anxiously towards the big door, telling the visitor to run. But Halvor just stands beside the big round tiled stove, calmly warming his hands, with a sleepy, relaxed smile. Evening light glows through the tall arched windows, and the old sword hangs on the wall with the small green bottle beside it.",
+      "caption": "«For meg kan han ha så mange han vil. Jeg går ikke.»",
+      "alt": "Halvor står rolig ved en stor ovn og varmer hendene. Den yngste prinsessa i rød kjole vifter redd med hendene mot døra."
+    },
+    {
+      "id": "09",
+      "paragraph": 68,
+      "anchor": "SVISJ! sa sverdet igjen.",
+      "characters": ["halvor", "youngest-princess", "nine-headed-troll"],
+      "places": ["grand-hall"],
+      "prompt": "Wide view of the Grand Hall. The Nine-Headed Troll, as tall as a house, has turned so pale that he is see-through: the tall windows and the wall show right through his body. All nine heads look down at themselves in astonishment, bushy eyebrows raised. In front of him Halvor stands panting, the old sword lowered with its tip resting on the floor, and the Youngest Princess peeks out from behind the tiled stove. Funny, not scary.",
+      "caption": "Nå ble trollet så blekt at Halvor kunne se veggen tvers gjennom ham.",
+      "alt": "Det digre trollet med ni hoder er blitt så blekt at man ser veggen tvers gjennom det. Alle de ni hodene ser forbauset ned på seg selv, mens Halvor puster og peser."
+    },
+    {
+      "id": "10",
+      "paragraph": 78,
+      "anchor": "Nå fikk han klær så fine at han kunne vært en kongssønn.",
+      "characters": ["halvor-fine", "eldest-princess", "middle-princess", "youngest-princess"],
+      "places": ["grand-hall"],
+      "prompt": "Morning sunbeams slant through the tall arched windows of the Grand Hall. Halvor in Fine Clothes holds out his hand and looks down shyly, while the Youngest Princess slips the chunky silver ring with the round blue stone onto his finger. Behind them the Eldest Princess and the Middle Princess stand side by side, smiling and clapping their hands.",
+      "caption": "Den yngste prinsessa satte en ring på fingeren til Halvor.",
+      "alt": "Halvor står i fine, blå klær, og den yngste prinsessa setter en sølvring med blå stein på fingeren hans. De to andre prinsessene står bak og klapper."
+    },
+    {
+      "id": "11",
+      "paragraph": 83,
+      "anchor": "Før han visste ordet av det, sto han på trappa hjemme.",
+      "characters": ["halvor-fine", "mother", "father"],
+      "prompt": "Just after sunset outside the tiny turf-roofed cottage, under a rose and orange sky with deep-blue shadows. Halvor in Fine Clothes stands on the worn stone step, smiling. The low wooden door has just opened, and in the doorway the Mother and the Father stand staring at the fine stranger with their mouths open, not recognising him at all. A thin curl of smoke rises from the chimney.",
+      "caption": "Hvem var denne fine herren? Mor og far kjente ham ikke igjen!",
+      "alt": "Halvor står i fine klær på trappa foran en liten stue i solnedgangen. I døråpningen står mor og far og stirrer. De kjenner ham ikke igjen."
+    },
+    {
+      "id": "12",
+      "paragraph": 94,
+      "anchor": "Mor slapp ildrakeren.",
+      "characters": ["halvor-fine", "mother", "father"],
+      "prompt": "Warm, close view inside the tiny, dark cottage at night. Halvor in Fine Clothes sits right in the ashes of the big open stone hearth, poking the embers with a stick, and the fire has just flared up, lighting his face bright gold. The Mother has dropped the iron poker, which clatters on the floor, and holds both hands to her cheeks in joy. The Father, sitting on an upturned wooden bucket, looks up with his mouth wide open.",
+      "caption": "«Halvor!» sa mor. «Jammen er det deg!»",
+      "alt": "Halvor sitter i fine klær i grua og pirker i aska, og ilden lyser opp ansiktet hans. Mor har sluppet ildrakeren og holder hendene mot kinnene, og far ser forbauset opp."
+    },
+    {
+      "id": "13",
+      "paragraph": 102,
+      "anchor": "Og i samme stund husket Halvor hva han hadde lovet.",
+      "characters": ["halvor-fine", "eldest-princess", "middle-princess", "youngest-princess"],
+      "prompt": "In the warm, daylit parlour of a big, rich farm, the Eldest Princess, the Middle Princess and the Youngest Princess have suddenly appeared in the middle of the room in a swirl of golden sparkles. By the fireplace, two snooty farm girls in lace-trimmed dresses gape at them with their mouths open. Halvor in Fine Clothes, the silver ring on his finger glowing faintly, claps both hands over his mouth with wide eyes, suddenly remembering his promise.",
+      "caption": "Vips! Der sto de, alle tre. Og i samme stund husket Halvor hva han hadde lovet.",
+      "alt": "Tre prinsesser står plutselig midt i stua på storgården i et glitter av gull. To jenter ved peisen gaper, og Halvor holder seg for munnen."
+    },
+    {
+      "id": "14",
+      "paragraph": 109,
+      "anchor": "Så tok hun søstrene i hendene og sa:",
+      "characters": ["halvor-fine", "eldest-princess", "middle-princess", "youngest-princess"],
+      "prompt": "Evening on a soft green hill beside a big, still lake that mirrors the rosy-blue sky. Halvor in Fine Clothes lies fast asleep on the grass, a small plain gold ring on his finger. Beside him the Youngest Princess, wearing the chunky silver ring with the blue stone, stands between the Eldest Princess and the Middle Princess, holding their hands and saying the wish with her eyes closed. Golden sparkles begin to swirl up around the three sisters' feet.",
+      "caption": "«Hold i meg, som jeg holder i dere – og gid vi var på Soria Moria slott!»",
+      "alt": "Halvor sover i gresset ved et blankt vann. Ved siden av ham holder de tre prinsessene hverandre i hendene, og det begynner å glitre rundt føttene deres."
+    },
+    {
+      "id": "15",
+      "paragraph": 118,
+      "anchor": "Lyset kom fra en bitte liten stue.",
+      "characters": ["halvor-fine", "old-cottage-woman"],
+      "places": ["forest-cottage"],
+      "prompt": "Night deep in the endless spruce forest. Halvor in Fine Clothes, a little travel-worn, peeks in through the small glowing window of the Forest Cottage, while the skinny horse waits behind him with its head drooping. Through the window we see the Old Woman sitting by the hearth, poking the glowing embers with her enormously long nose, and beside her a little old man asleep on a stool with his chin on his chest.",
+      "caption": "Og nesa hennes! Den var så lang at hun brukte den til å rote i glørne med.",
+      "alt": "Halvor kikker inn vinduet på en bitte liten stue i skogen. Der inne sitter en gammel kone og roter i glørne med den lange nesa si, mens en gammel mann sover ved siden av."
+    },
+    {
+      "id": "16",
+      "paragraph": 123,
+      "anchor": "Så kom månen opp over tretoppene, rund og blank som et fat.",
+      "characters": ["halvor-fine", "old-cottage-woman"],
+      "places": ["forest-cottage"],
+      "prompt": "Behind the Forest Cottage, in the little clearing, a huge full moon, round and shiny as a plate and with a faint, friendly face, rises over the black spruce tops. The Old Woman stands with her bony arms raised high towards it, calling up to it, her long nose pointing at the sky. Halvor in Fine Clothes tiptoes after her and peeks round the corner of the cottage. Everything is silver and deep blue.",
+      "caption": "«Du måne, du måne! Kan du si meg veien til Soria Moria slott?»",
+      "alt": "Bak stua står den gamle kona med armene løftet mot en stor, rund måne over tretoppene. Halvor lister seg etter og kikker fram rundt hjørnet."
+    },
+    {
+      "id": "17",
+      "paragraph": 129,
+      "anchor": "Det ville Halvor gjerne.",
+      "characters": ["halvor-fine", "old-cottage-woman"],
+      "places": ["forest-cottage"],
+      "prompt": "In the moonlit garden beside the Forest Cottage, the Old Woman claps her hands and dances round and round the skinny horse, her white cap bobbing and her long nose in the air, while the horse looks puzzled. Halvor in Fine Clothes stands by the wattle fence holding the pair of cracked old brown leather boots, grinning at her.",
+      "caption": "Kona klappet i hendene og danset rundt hesten.",
+      "alt": "I måneskinnet danser den gamle kona rundt den magre hesten og klapper i hendene. Halvor står ved gjerdet med et par gamle støvler."
+    },
+    {
+      "id": "18",
+      "paragraph": 136,
+      "anchor": "Han trakk på seg støvlene og sprang ut.",
+      "characters": ["halvor-fine", "west-wind"],
+      "prompt": "A huge, wide moonlit view high over mountains and fjords at night. Halvor in Fine Clothes, wearing the old brown boots, takes one gigantic running stride from one snowy mountaintop to the next, his coat flapping and his hair streaming back. Beside him the West Wind rushes along with a big grin, leaves and spruce needles whirling in his wake. Far below lie tiny forests, farms and silver fjords.",
+      "caption": "Over hei og ås, over fjell og fjære! Halvor tok de lengste skrittene noen har tatt.",
+      "alt": "Halvor tar et kjempeskritt fra fjelltopp til fjelltopp i de gamle støvlene. Ved siden av ham suser vestavinden med et stort glis."
+    },
+    {
+      "id": "19",
+      "paragraph": 142,
+      "anchor": "Og der, bak åsen, lå Soria Moria slott, fullt av hester og vogner og folk i fine klær.",
+      "characters": ["halvor-fine"],
+      "prompt": "Early morning. In the foreground, three washing girls scrub clothes in one big wooden tub by a stream at the foot of a grassy ridge. On top of the ridge stands Halvor in Fine Clothes, his fine clothes now torn to muddy rags with twigs caught in them, gazing down with his mouth open at Soria Moria in the valley beyond: a castle of glittering golden towers, its courtyards full of horses, carriages and people in fine clothes. Wide view.",
+      "caption": "Bak åsen lå Soria Moria slott, fullt av hester og vogner og folk i fine klær.",
+      "alt": "Tre vaskejenter skrubber klær i en stor balje. Oppe på åsen står Halvor i fillete klær og ser ned på Soria Moria slott, som skinner av gull og er fullt av hester, vogner og fine folk."
+    },
+    {
+      "id": "20",
+      "paragraph": 148,
+      "anchor": "Bruden så ned i glasset.",
+      "characters": ["halvor-fine", "youngest-princess"],
+      "prompt": "Wide view of the great wedding hall of Soria Moria, glowing with candles and gold. At the head of a long banquet table with twenty finely dressed guests, the Youngest Princess, the bride, wearing a tall silver bridal crown, rises from her chair and stares into her glass, where a small gold ring glints. Beside her the other bridegroom, a stiff young lord with a pointed nose and a curled moustache, gapes. At the very back of the hall, Halvor in Fine Clothes, his clothes still in muddy tatters, watches hopefully.",
+      "caption": "Bruden så ned i glasset. Hun så ringen. Og så reiste hun seg.",
+      "alt": "I en stor festsal reiser bruden seg ved langbordet og ser ned i glasset sitt, der det ligger en liten gullring. Helt bakerst i salen står Halvor i fillete klær."
+    },
+    {
+      "id": "21",
+      "paragraph": 154,
+      "anchor": "Og så holdt Halvor og den yngste prinsessa bryllup, og det var det gildeste bryllupet noen hadde sett.",
+      "characters": ["halvor-fine", "youngest-princess"],
+      "prompt": "A cosy evening in a warm room at Soria Moria. Halvor in Fine Clothes sits on a low stool by a big stone fireplace, happily poking the ashes with a little stick, just like in the old days. The Youngest Princess sits beside him with her head on his shoulder, laughing softly. Through a tall open doorway behind them, wedding guests dance in golden candlelight under garlands of flowers.",
+      "caption": "Men hver kveld pirket Halvor litt i aska. Bare fordi det var så koselig.",
+      "alt": "Halvor sitter i fine klær ved en stor peis og pirker fornøyd i aska med en pinne. Den yngste prinsessa sitter ved siden av ham, og bak dem danser bryllupsgjestene."
+    }
+  ]
+}

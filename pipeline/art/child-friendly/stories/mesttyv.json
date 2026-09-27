@@ -1,0 +1,327 @@
+{
+  "storyId": "mesttyv",
+  "title": "Mestertyven",
+  "textFile": "public/content/stories/mesttyv/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago. The cottager's tiny, crooked turf-roofed hut stands alone at the edge of the woods. Deep in a dark spruce forest lies the robbers' big, dim timber house with a stone fireplace. The farmer walks his three oxen, big and gentle, reddish-brown with white faces and short curved horns, along the Forest Road. The Bailiff lives at the Manor Farm, with a goose house full of white geese and a long stable of twelve stalls for his twelve dun fjord horses with cream-and-black manes; he himself rides a big dapple-grey horse. The priest lives at the vicarage, with a huge old linden tree in the garden. The master thief's sack is a big patched brown sack, and the barrel is a big oak barrel on a small two-wheeled cart pulled by a bony old brown mare.",
+  "palette": "A blustery, rain-washed late spring: a stormy blue-black night at the start, then fresh leaf-green birches, apple blossom and tulips at the Manor Farm, and dusty, sunny country roads by day. Many of the tricks happen at dusk or at night, in deep indigo moonlight with warm amber lantern and candle glow, and the mornings come up rosy pink. Accent colours: the thief's bottle-green, brass and blossom pink.",
+  "cast": [
+    {
+      "slug": "mestertyven",
+      "name": "Den yngste sønnen (Mestertyven)",
+      "promptName": "the Master Thief",
+      "replacesPortrait": "mestertyven",
+      "description": "Den yngste av tre brødre, en vennlig og oppfinnsom gutt som lærer å snike seg til ting, men som også har et godt hjerte og retter opp det som blir galt.",
+      "look": "A slim, nimble young man of about twenty with a narrow, clever face, a pointed chin, quick dark-brown eyes under arched eyebrows, a sly lopsided grin and a thin black moustache. Short curly black hair pokes out from under a small dark-grey felt hat with a narrow brim, always worn tilted over one eye. He wears a long, patched bottle-green coat with deep pockets over a cream shirt, a red neckerchief, narrow charcoal trousers and soft black boots.",
+      "portrait": "Background: the Forest Road winding between birches."
+    },
+    {
+      "slug": "mestertyven-general",
+      "name": "Mestertyven i uniform",
+      "promptName": "the General",
+      "description": "Mestertyven i en uniform med gullsnorer og blanke knapper, som han fant blant røverskattene. Slik rir han hjem til faren, som nesten ikke kjenner ham igjen.",
+      "look": "The master thief dressed up as a grand general: the same slim young man of about twenty with a narrow, clever face, a sly lopsided grin, a thin black moustache and short curly black hair. He wears a black two-cornered hat with a white plume, a navy-blue uniform coat with two rows of shiny brass buttons, gold cords looped across the chest and gold-fringed epaulettes, a wide red sash, white breeches and tall polished black riding boots.",
+      "portrait": "Background: the cottager's little turf-roofed hut."
+    },
+    {
+      "slug": "mestertyven-fillegutt",
+      "name": "Mestertyven som fillegutt",
+      "promptName": "the Ragged Boy",
+      "description": "Mestertyven forkledd som en fillete gutt med en sekk. Ingen ser noe rart ved ham, men i sekken har han tre levende harer.",
+      "look": "The master thief disguised as a ragged beggar boy: the same slim young man with a narrow, clever face, a sly lopsided grin and a thin black moustache, his cheeks smudged with dirt. He wears a torn, floppy straw hat, a baggy sackcloth smock full of holes and patches tied with string, and frayed trousers rolled up to the knees, and goes barefoot, with a big patched brown sack over one shoulder.",
+      "portrait": "Background: the sunny yard of the Manor Farm."
+    },
+    {
+      "slug": "mestertyven-engel",
+      "name": "Mestertyven som engel",
+      "promptName": "the Pretend Angel",
+      "description": "Mestertyven med et hvitt laken over seg og vinger av gåsefjær på ryggen. Slik lurer han presten til å tro at han skal til himmelen.",
+      "look": "The master thief disguised as an angel: the same slim young man with a narrow, clever face, a sly lopsided grin and a thin black moustache. A big white bed sheet is draped over his head and body like a long hooded robe, leaving his face free, and two huge home-made wings of grey-and-white goose feathers are tied onto his back with string, a little crooked. His bare feet peek out below the sheet.",
+      "portrait": "Background: the branches of the big linden tree at dusk."
+    },
+    {
+      "slug": "mestertyven-kjerring",
+      "name": "Mestertyven som kjerring",
+      "promptName": "the Beggar Crone",
+      "description": "Mestertyven forkledd som ei gammel, krokete kjerring med stav og filler. Hun fryser så fælt og vil bare sitte litt innenfor stalldøra.",
+      "look": "The master thief disguised as a crooked old beggar woman: a stooped, limping figure leaning on a knobbly wooden staff. A faded black headscarf is pulled low over a tangled grey wig, but a thin black moustache and a sly grin peek out underneath. She wears a patched grey horse blanket as a shawl, a ragged brown skirt that is too short, showing big muddy boots, and a torn apron with a deep pocket.",
+      "portrait": "Background: the lantern-lit stable door at night."
+    },
+    {
+      "slug": "mestertyven-tonnemann",
+      "name": "Mestertyven med geiteskjegg",
+      "promptName": "the Barrel Man",
+      "description": "Mestertyven forkledd som en fillete mann med et stort, bustete skjegg av geitehår. Han skal i bryllup med ei tønne og holder fingeren i hullet hele tida.",
+      "look": "The master thief disguised as a shabby old carter: the same slim young man with sly, narrow eyes, but his face is almost hidden behind a huge, bushy false beard of shaggy grey-white goat hair that reaches down to his belt. He wears a squashed, wide-brimmed black hat, a ragged mud-brown coat tied with rope, patched knee breeches and worn clogs.",
+      "portrait": "Background: the wide, open plain under a big sky."
+    },
+    {
+      "slug": "gammel-kone",
+      "name": "Den gamle kona i huset",
+      "promptName": "the Old Woman",
+      "replacesPortrait": "gammel-kone",
+      "description": "En sliten, men godhjertet gammel kvinne som advarer gutten og håper han skal klare seg, og som til slutt blir møtt med takknemlighet.",
+      "look": "A short, round, jolly old woman of about seventy with bright red apple cheeks, a button nose, twinkling blue eyes, deep laugh lines and wisps of white hair escaping from a red-and-white checked headscarf tied under her chin. She wears a long dark-brown wool dress with the sleeves pushed up, a wide sunflower-yellow apron with a big pocket and sturdy clogs, and keeps a big wooden ladle tucked into her apron strings.",
+      "portrait": "Background: the crackling fireplace in the robbers' house."
+    },
+    {
+      "slug": "husmannen",
+      "name": "Husmannen",
+      "promptName": "the Cottager",
+      "description": "Faren til mestertyven, en fattig husmann som ikke har noe å gi sønnene sine. Han er redd for fine folk, men sitter stolt øverst ved bordet i bryllupet.",
+      "look": "A thin, timid old cottager of about sixty-five with a long, droopy, worried face, big sad grey eyes under bushy brows, a red-tipped nose, sunken cheeks with grey stubble and thin grey hair sticking up in tufts. He wears a threadbare, patched mouse-brown smock tied with a cord, baggy patched trousers and old clogs, with a worn grey-and-blue striped blanket wrapped round his shoulders like a shawl.",
+      "portrait": "Background: the doorway of his tiny turf-roofed hut."
+    },
+    {
+      "slug": "bonden",
+      "name": "Bonden med oksene",
+      "promptName": "the Farmer",
+      "description": "En snill bonde som skal til byen og selge oksene sine, og som blir lurt tre ganger på den samme veien. Kona hans er så sur at han bare tør å plystre langt ute på jordet.",
+      "look": "A big, broad, soft-hearted farmer of about forty with a round, sunburnt face, a bulbous red nose, small worried blue eyes, large ears and a short, curly light-brown beard. He wears a battered brown felt hat, a woolly sheepskin vest over a blue work shirt with rolled-up sleeves and brown trousers tucked into muddy boots, and carries a long coiled rope over one shoulder.",
+      "portrait": "Background: the Forest Road with one of his oxen."
+    },
+    {
+      "slug": "amtmannen",
+      "name": "Amtmannen",
+      "promptName": "the Bailiff",
+      "replacesPortrait": "amtmannen",
+      "description": "En rik og selvsikker mann som setter prøver for å teste gutten, og som ender med å le av sin egen overraskelse og holde ord.",
+      "look": "A stout, self-important gentleman of about fifty-five with a huge round belly, a pink double chin, rosy jowls, small twinkling eyes, a snub nose, a neat grey moustache waxed into two curly tips and grey hair curling over his ears. He wears a round-crowned black hat, a tobacco-brown frock coat with brass buttons over a canary-yellow waistcoat stretched tight across his belly, a gold watch chain, grey striped trousers and shiny black shoes.",
+      "portrait": "Background: the white manor house of the Manor Farm."
+    },
+    {
+      "slug": "amtmannens-datter",
+      "name": "Amtmannens datter",
+      "promptName": "the Bailiff's Daughter",
+      "replacesPortrait": "amtmannens-datter",
+      "description": "Amtmannens snille og kloke datter, som står i døra og smiler når faren setter den første prøven, og som til slutt selv sier ja til mestertyven.",
+      "look": "A kind, clever young woman of about nineteen with a heart-shaped face, a dimple in one cheek, lively grey-green eyes that always seem to be laughing, a small straight nose and nut-brown hair in two braids coiled into round buns over her ears. She wears a long apricot-coloured dress with a white embroidered collar and puffed sleeves, and a sprig of white lily of the valley pinned at her collar.",
+      "portrait": "Background: an open doorway at the Manor Farm, with apple blossom outside."
+    },
+    {
+      "slug": "presten",
+      "name": "Presten",
+      "promptName": "the Priest",
+      "replacesPortrait": "presten",
+      "description": "En stolt, men ufarlig skikkelse som blir lurt på en måte som mest er pinlig og morsom, og som lærer å være litt mer forsiktig.",
+      "look": "A tall, stiff, very proud priest of about fifty with a long thin face, a long pointed nose held high, raised eyebrows, a small pursed mouth and a long, pointed sandy-grey beard. He wears a round, wide-brimmed black hat, a long black cassock buttoned to the chin, a big white pleated millstone ruff around his neck and black buckled shoes, and clasps a small black hymn book to his chest.",
+      "portrait": "Background: the vicarage garden with the big linden tree."
+    }
+  ],
+  "places": [
+    {
+      "slug": "landeveien",
+      "name": "the Forest Road",
+      "look": "A narrow, dusty dirt road winding through a light forest of white-trunked birches and dark spruces, with a grassy ditch along one side, big mossy grey stones and round green bushes at the roadside, and a weathered grey wooden rail fence where the road bends. Here and there a big old birch leans over the road with a thick, low branch."
+    },
+    {
+      "slug": "amtmannsgarden",
+      "name": "the Manor Farm",
+      "look": "A large, prosperous farm around a big grassy yard with a stone well. On one side stands a grand two-storey manor house of white-painted timber with a dark hipped roof, rows of small-paned windows with green shutters, a carved front porch and a bed of red and yellow tulips under the upstairs windows. Around the yard stand a long red stable, a small red goose house and a kitchen wing, with blossoming apple trees and birches behind."
+    }
+  ],
+  "cover": {
+    "prompt": "The Master Thief tiptoes along a moonlit country road towards the viewer, a big patched brown sack slung over his shoulder, one finger on his lips and one eye closed in a cheeky wink. Behind him on a gentle hill lies the Manor Farm with one warm, lit window, and a curious white goose waddles after him. A deep-blue starry sky.",
+    "characters": ["mestertyven"],
+    "places": ["amtmannsgarden"],
+    "caption": "Mestertyven har alltid et nytt knep på lur.",
+    "alt": "Mestertyven i grønn frakk og skjev hatt lister seg bortover veien i måneskinnet med en stor sekk på ryggen og fingeren foran munnen. Bak ham ligger en stor gård med lys i vinduet, og ei gås tusler etter ham."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "Han fulgte dem til veien delte seg i tre, og der gikk de hver sin vei.",
+      "characters": ["husmannen", "mestertyven"],
+      "prompt": "A wide view of a spot where a dirt road splits into three, one road winding into a dark spruce forest, one over a green hill and one along a river. The Cottager stands at the fork, wrapped in his striped blanket, waving goodbye with a wobbly smile. His two elder sons, a tall one and a stocky one, each with a small bundle on a stick, walk off along the hill road and the river road. On the forest road, the Master Thief strides away, looking back over his shoulder with a grin. Fresh morning light.",
+      "caption": "Der veien delte seg i tre, gikk de hver sin vei.",
+      "alt": "Tre veier går hver sin vei. Faren står der veien deler seg og vinker, og de tre sønnene går fra ham. Den yngste går mot skogen og ser seg tilbake."
+    },
+    {
+      "id": "02",
+      "paragraph": 7,
+      "anchor": "«Huttetu, for et vær!» sa gutten og ristet vannet av seg som en hund.",
+      "characters": ["mestertyven", "gammel-kone"],
+      "prompt": "Inside the robbers' big, dim timber house on a stormy night, the Master Thief stands just inside the open door, dripping wet, shaking the rain off himself like a dog so that drops fly from his hair and coat, his hat in one hand. By the big stone fireplace, where a fire crackles under a black pot, the Old Woman has stopped stirring and stares at him with her ladle raised. Behind him, rain pours down on the dark forest.",
+      "caption": "«Huttetu, for et vær!» sa gutten og ristet vannet av seg som en hund.",
+      "alt": "Gutten står søkkvåt innenfor døra og rister vannet av seg. Ved peisen står en rund, gammel kone med rutete skaut og ser forundret på ham."
+    },
+    {
+      "id": "03",
+      "paragraph": 17,
+      "anchor": "Røverne stakk hodene sammen og hvisket og tisket om hva de skulle gjøre med ham.",
+      "characters": ["mestertyven", "gammel-kone"],
+      "prompt": "In the firelit robbers' house, six big, shaggy-bearded robbers with mud up to their knees stand in a tight huddle by the long table, heads pressed together, whispering behind their hands. They look more like grumpy bears than villains and carry no weapons. The Master Thief, his clothes still damp, walks straight up to them with his hands in his pockets and a cheeky grin. By the fireplace, the Old Woman peeks round with both hands pressed to her cheeks.",
+      "caption": "Røverne hvisket og tisket. Da gikk gutten rett bort til dem.",
+      "alt": "Seks store, skjeggete røvere med gjørme til knærne står med hodene sammen og hvisker. Gutten går rett bort til dem, og den gamle kona kikker engstelig fra peisen."
+    },
+    {
+      "id": "04",
+      "paragraph": 27,
+      "anchor": "Klopp, klopp, klopp. Der kom bonden med den store oksen sin i et tau.",
+      "characters": ["bonden", "mestertyven"],
+      "places": ["landeveien"],
+      "prompt": "Early morning on the Forest Road, seen from behind a round green bush. In the foreground, the Master Thief crouches behind the bush, peeking out between the leaves with his cheeks puffed out, holding his breath. Out on the road, the Farmer, leading his biggest ox on a rope, bends down with his hands on his knees to stare at one fine black shoe with a shiny silver buckle lying in the middle of the road. Low golden sunbeams slant between the birches.",
+      "caption": "Klopp, klopp, klopp. Der kom bonden, og han fikk øye på skoen.",
+      "alt": "En bonde med en stor okse i et tau bøyer seg over en blank sko med sølvspenne midt i veien. Bak en grønn busk sitter gutten og holder pusten."
+    },
+    {
+      "id": "05",
+      "paragraph": 34,
+      "anchor": "Han tok skoen under armen, bandt oksen til et gjerde og sprang tilbake for å hente den første.",
+      "characters": ["bonden", "mestertyven"],
+      "places": ["landeveien"],
+      "prompt": "On the Forest Road, the Farmer kneels in the grassy ditch in the foreground, peering under a bush with a puzzled frown, the shiny silver-buckled shoe clearly tucked under his arm. Far back up the road, the Master Thief tiptoes away, leading the biggest ox by its rope from the wooden rail fence where it was tied, one finger on his lips. The ox follows him calmly.",
+      "caption": "Bonden lette og lette. Men skoen hadde han jo under armen!",
+      "alt": "Bonden ligger på kne i grøfta og leter under en busk, med den blanke skoen under armen. Langt bak ham lister gutten seg av sted med oksen."
+    },
+    {
+      "id": "06",
+      "paragraph": 47,
+      "anchor": "«En kar til!» sa han.",
+      "characters": ["mestertyven", "bonden"],
+      "places": ["landeveien"],
+      "prompt": "Looking up from the Forest Road at a big birch: the Master Thief dangles from a thick, low branch in a rope loop tied around his chest under his arms, arms stretched stiffly out to the sides like a scarecrow, legs hanging, hat askew, his face frozen as he tries not to laugh. Below him, the Farmer, leading his second ox, has stopped and gapes up at him, scratching his head. The ox gazes up too.",
+      "caption": "«Vokser det karer på trærne i denne skogen?»",
+      "alt": "Gutten henger i et tre med et tau under armene, med armene rett ut og hatten på snei, som et fugleskremsel. Under står bonden med oksen og klør seg i hodet."
+    },
+    {
+      "id": "07",
+      "paragraph": 57,
+      "anchor": "Bonden lyste opp.",
+      "characters": ["mestertyven", "bonden"],
+      "places": ["landeveien"],
+      "prompt": "At the edge of the forest beside the Forest Road. In the foreground, hidden behind a thick spruce trunk, the Master Thief cups both hands around his mouth and bellows as deep as he can, cheeks puffed out and eyes squeezed shut. Out on the road, the Farmer, holding his third ox on a rope, has turned towards the forest with a hopeful, beaming face and one hand cupped behind his ear.",
+      "caption": "«MØØØØØ!» brølte gutten, og bonden lyste opp.",
+      "alt": "Gutten gjemmer seg bak en tykk gran og brøler med hendene rundt munnen. Ute på veien står bonden med den tredje oksen og lytter glad."
+    },
+    {
+      "id": "08",
+      "paragraph": 67,
+      "anchor": "Han trodde ikke sine egne øyne.",
+      "characters": ["mestertyven", "gammel-kone", "bonden"],
+      "prompt": "A wide view of a small farm at sunrise, under a pink-and-gold sky. Down the dusty road, the Master Thief walks calmly behind three big reddish-brown oxen, driving them in through the open wooden gate with a long switch. Behind him, the Old Woman rides a gentle brown horse and leads three more horses loaded with bulging sacks and bundles of fine clothes. In the farmyard by the barn, the Farmer throws both hands in the air, his mouth wide open with joy.",
+      "caption": "Bonden trodde ikke sine egne øyne.",
+      "alt": "I soloppgangen driver gutten tre okser inn gjennom grinda. Bak ham rir den gamle kona med hester fulle av sekker. Bonden står på tunet og slår hendene i været."
+    },
+    {
+      "id": "09",
+      "paragraph": 74,
+      "anchor": "Faren myste.",
+      "characters": ["mestertyven-general", "husmannen", "gammel-kone"],
+      "prompt": "In front of a tiny, crooked turf-roofed hut in the late afternoon, the General sits tall on a fine chestnut horse, smiling down with a twinkle in his eye. The Cottager stands in the low doorway, wrapped in his old blanket, squinting up at him with his nose screwed up and one hand shading his eyes. Behind them, the Old Woman sits on a brown horse beside three horses loaded with sacks of treasure, grinning.",
+      "caption": "Faren myste. «Er det ... er det deg?»",
+      "alt": "En fin kar i uniform med gullsnorer sitter på en hest foran ei lita stue. Faren står i døra og myser, og bak dem sitter den gamle kona på en hest."
+    },
+    {
+      "id": "10",
+      "paragraph": 83,
+      "anchor": "Borte i døra sto amtmannens datter og hørte på.",
+      "characters": ["amtmannen", "mestertyven-general", "husmannen", "amtmannens-datter"],
+      "prompt": "In the grand, wood-panelled parlour of the Manor Farm, the Bailiff leans back in a big carved armchair, laughing so hard that his round belly bounces, and points at the General, who bows confidently before him. Beside the General, the Cottager clutches his blanket and trembles, tears on his cheeks. In an open doorway at the side, the Bailiff's Daughter stands listening quietly, with a small, secret smile.",
+      "caption": "Amtmannens datter sto i døra og hørte på. Og hun smilte.",
+      "alt": "Amtmannen sitter i en stor stol og ler så magen hopper. Foran ham bukker mestertyven i uniform, og faren skjelver. I døra står datteren og smiler."
+    },
+    {
+      "id": "11",
+      "paragraph": 95,
+      "anchor": "Imens smøg mestertyven inn på kjøkkenet, løftet steken av spiddet, puttet den i sekken og gikk.",
+      "characters": ["amtmannen", "mestertyven-fillegutt"],
+      "places": ["amtmannsgarden"],
+      "prompt": "A wide view of the sunny yard of the Manor Farm on a Sunday. In the foreground, one brown hare dashes round in a circle with the whole household chasing after it: the Bailiff with his coat tails flying, a stout cook in a white apron waving a ladle, a young maid holding up her skirts, a stable boy diving with his arms out, and a ginger cat. In the background, unseen by them all, the Ragged Boy tiptoes out of the open kitchen door with a big, bulging sack over his shoulder and a satisfied grin.",
+      "caption": "Rundt og rundt på tunet! Og imens lister mestertyven seg av sted med steken.",
+      "alt": "Amtmannen, kokka, tjenestejenta, stallgutten og katten jager en hare rundt på tunet. Bak dem lister en fillete gutt seg ut av kjøkkendøra med en full sekk på ryggen."
+    },
+    {
+      "id": "12",
+      "paragraph": 101,
+      "anchor": "Den kvelden tok mestertyven et stort, hvitt laken over seg og bandt to store vinger av gåsefjær på ryggen.",
+      "characters": ["mestertyven-engel", "presten"],
+      "prompt": "Dusk in the vicarage garden, seen from below. High in the branches of a huge old linden tree sits the Pretend Angel, his white sheet glowing pale in the twilight and his goose-feather wings spread wide, one arm raised grandly as he calls down. On the garden path by the little white gate, the Priest, just come home, stops dead and stares up with his mouth open and his hands clasped. A thin crescent moon rises over the treetops.",
+      "caption": "Med laken og gåsevinger satt mestertyven oppe i det store treet.",
+      "alt": "I skumringen sitter mestertyven høyt oppe i et tre, kledd i et hvitt laken og med store vinger av gåsefjær. Nede i hagen står presten og ser forundret opp."
+    },
+    {
+      "id": "13",
+      "paragraph": 108,
+      "anchor": "«Det er den trange veien til himmelen», sa mestertyven.",
+      "characters": ["mestertyven-engel"],
+      "prompt": "Night on a bumpy forest path under the moon, seen from the side. The Pretend Angel, his sheet flapping and his goose-feather wings a little crooked, leans forward and hauls a big, lumpy, wriggling sack by a rope over roots and stones, grinning to himself. The sack bounces over a bump in the path, bulging in odd shapes. Silvery moonlight falls between the spruce trees.",
+      "caption": "«Det er den trange veien til himmelen. Den er litt humpete.»",
+      "alt": "I måneskinnet drar mestertyven, fortsatt i laken og vinger, en stor, humpete sekk etter seg over stokk og stein."
+    },
+    {
+      "id": "14",
+      "paragraph": 119,
+      "anchor": "Hun løste opp sekken, og ut krabbet presten, med halm i håret og fjær i skjegget.",
+      "characters": ["presten"],
+      "prompt": "Inside the goose house in the morning, sunbeams stream through the open door and loose white feathers swirl in the light. In the middle of the straw-covered floor, the Priest crawls out of a big open sack on his hands and knees, blinking, with straw sticking out of his hair, white goose feathers caught in his beard and his round black hat squashed and crooked. A small goose girl of about ten with a ginger plait and a green dress holds the sack open and giggles, while eight white geese crowd around, honking and flapping.",
+      "caption": "Ut krabbet presten, med halm i håret og fjær i skjegget.",
+      "alt": "I gåsehuset kryper presten ut av en stor sekk med halm i håret og fjær i skjegget. Ei gåsejente holder sekken og ler, og gjessene flokker seg rundt."
+    },
+    {
+      "id": "15",
+      "paragraph": 130,
+      "anchor": "«Huttetu!» sa kjerringa.",
+      "characters": ["mestertyven-kjerring"],
+      "prompt": "Night in the long stable of the Manor Farm, lit by one lantern, with twelve stalls in a row stretching back into the dark. On each of the twelve dun horses sits a shivering farmhand, twelve farmhands in all, hugging themselves, their breath puffing in little clouds. Just inside the door, on an upturned bucket, the Beggar Crone takes a big swig from a small brown bottle with her eyes closed in bliss, and the nearest farmhands lean down from their horses, staring at the bottle with longing.",
+      "caption": "«Huttetu!» sa kjerringa. Så tok hun fram ei flaske. Klukk, klukk.",
+      "alt": "Tolv karer sitter på tolv hester i en lang stall og fryser. Ved døra sitter ei krokete kjerring og drikker av ei lita flaske, og karene ser lengselsfullt på."
+    },
+    {
+      "id": "16",
+      "paragraph": 138,
+      "anchor": "Men skilleveggene sto like stille.",
+      "characters": ["amtmannen"],
+      "prompt": "Morning light falls into the long stable, where all twelve stalls stand empty. Nine farmhands sit astride the wooden walls between the stalls, one leg on each side, kicking their heels as if riding, and three more have toppled off into the straw and sit there blinking. They all look very silly. In the doorway, the Bailiff stands with his hands on his hips and his mouth wide open.",
+      "caption": "«Hopp, hest!» Men skilleveggene sto like stille.",
+      "alt": "I den tomme stallen sitter karene på skilleveggene mellom båsene og sparker med hælene. Tre har ramlet ned i halmen. I døra står amtmannen og måper."
+    },
+    {
+      "id": "17",
+      "paragraph": 143,
+      "anchor": "Hele tida holdt mannen fingeren i et lite hull i tønna.",
+      "characters": ["amtmannen", "mestertyven-tonnemann"],
+      "prompt": "A wide, open plain under a huge sky with drifting clouds. The Bailiff sits on his big dapple-grey horse and leans down to question the Barrel Man, who stands beside a small two-wheeled cart pulled by a bony old brown mare. On the cart lies a big oak barrel on its side, and the Barrel Man keeps one finger pressed into a small hole in it, peering up innocently through his huge bushy beard.",
+      "caption": "Hele tida holdt mannen fingeren i et lite hull i tønna.",
+      "alt": "Ute på sletta sitter amtmannen på hesten sin og snakker med en fillete mann med stort, bustete skjegg. Mannen holder fingeren i et hull i ei stor tønne på ei kjerre."
+    },
+    {
+      "id": "18",
+      "paragraph": 151,
+      "anchor": "Der lå den gamle kona fra røverhuset.",
+      "characters": ["amtmannen", "gammel-kone"],
+      "prompt": "Close up beside the cart with the big oak barrel on the empty plain, while the old brown mare nibbles grass. The Bailiff stands alone, holding up his cold, stiff finger and staring in astonishment, for the round lid at the end of the barrel has swung open like a little door. Inside, curled up snugly on a cushion, lies the Old Woman, grinning from ear to ear and holding out her palm for her coins.",
+      "caption": "I tønna lå den gamle kona fra røverhuset!",
+      "alt": "Amtmannen står alene på sletta og holder opp den stive fingeren sin. I den åpne tønna ligger den gamle kona og gliser og rekker fram hånda."
+    },
+    {
+      "id": "19",
+      "paragraph": 156,
+      "anchor": "«Der er mestertyven, mor!» sa amtmannen og dyttet borti kona.",
+      "characters": ["amtmannen", "mestertyven"],
+      "places": ["amtmannsgarden"],
+      "prompt": "Night outside the Manor Farm, looking up at the house wall. At an open upstairs window with warm lamplight behind him, the Bailiff in a white nightshirt and nightcap leans out and pushes with a broom at a big straw doll dressed in old clothes and a battered old hat, which tumbles backwards off the top of a tall wooden ladder towards the tulip bed below. Halfway down the same ladder, in the shadow of the wall, the Master Thief climbs down fast, grinning.",
+      "caption": "Dunk! Ned i blomsterbedet falt dukken.",
+      "alt": "Om natta lener amtmannen seg ut av vinduet i nattskjorte og dytter en halmdukke ned fra en stige med kosten. Lenger nede på stigen klatrer mestertyven og gliser."
+    },
+    {
+      "id": "20",
+      "paragraph": 162,
+      "anchor": "Kona rakte lakenet fram mot ham, med øynene nesten igjen.",
+      "characters": ["mestertyven"],
+      "prompt": "A dark bedroom at night. Through the half-open door, a stripe of warm lantern light falls across a big carved bed. The lady of the manor, a plump woman with grey curls under a frilly white nightcap, sits half up in bed with her eyes almost shut, yawning, and holds out a bed sheet that glows chalk-white in the stripe of light. In the shadows beside the bed, the Master Thief reaches for it with a sly grin, one finger on his lips.",
+      "caption": "Kona rakte fram lakenet med øynene nesten igjen.",
+      "alt": "I et mørkt soverom sitter amtmannens kone halvveis opp i senga og gjesper. Hun rekker et kritthvitt laken mot mestertyven, som står i skyggen og smiler lurt."
+    },
+    {
+      "id": "21",
+      "paragraph": 175,
+      "anchor": "Så ble det bryllup.",
+      "characters": ["mestertyven", "amtmannens-datter", "presten", "husmannen", "gammel-kone"],
+      "places": ["amtmannsgarden"],
+      "prompt": "A merry wedding feast in the sunny yard of the Manor Farm, with a long table full of food under garlands of birch leaves and flowers. In the middle, the Master Thief and the Bailiff's Daughter, wearing a small silver bridal crown, stand hand in hand and laugh as the Priest blesses them, though he glances nervously over his shoulder at two white geese waddling past. At the head of the table sits the Cottager, proud in a smart new dark-blue coat, and in front of the table the Old Woman dances a lively jig, her checked headscarf fluttering.",
+      "caption": "Så ble det bryllup, og den gamle kona danset så skautet flagret.",
+      "alt": "Mestertyven og amtmannens datter holder hverandre i hånda i bryllupet på tunet. Presten ser seg over skulderen etter gjessene, faren sitter øverst ved bordet, og den gamle kona danser."
+    }
+  ]
+}

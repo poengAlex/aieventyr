@@ -3,7 +3,7 @@
   "title": "Jomfru Maria som gudmor",
   "textFile": "public/content/stories/jomfrum/child-friendly/story.txt",
   "world": "Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.",
-  "palette": "Mild, still spring: fresh pale-green birch leaves, white apple blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.",
+  "palette": "Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.",
   "cast": [
     {
       "slug": "fostermoren",
@@ -27,7 +27,7 @@
       "name": "Jenta",
       "promptName": "the Girl",
       "description": "Jenta når hun er blitt stor: så vakker at det nesten lyser av henne, men hun kan ikke si et eneste ord.",
-      "look": "A tall, slender girl of about seventeen, so lovely that she almost seems to glow, with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a soft, gentle smile. Her long ash-blonde hair falls loose to her waist, held back by a thin coral-pink ribbon. She wears a simple peach-coloured linen dress with a laced rose-brown bodice and soft brown leather shoes.",
+      "look": "A tall, slender, lovely girl of about seventeen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a soft, gentle smile. Her long ash-blonde hair falls loose to her waist, held back by a thin coral-pink ribbon. She wears a simple peach-coloured linen dress with a laced rose-brown bodice and soft brown leather shoes.",
       "portrait": "Background: the leafy branches of the tall oak above the forest spring."
     },
     {
@@ -45,7 +45,7 @@
       "promptName": "the Prince",
       "replacesPortrait": "prinsen",
       "description": "En godhjertet prins som stoler på den unge dronningen og står ved hennes side når andre tviler.",
-      "look": "A tall, friendly young prince of about twenty-two with a long, open face, a strong straight nose, warm hazel eyes, a dimpled chin and short, thick black curly hair; he is clean-shaven. He wears a knee-length teal-blue coat with silver buttons over a white shirt, grey breeches, tall brown riding boots and a thin silver circlet on his head.",
+      "look": "A tall, friendly young prince of about twenty-three with a long, open face, a strong straight nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to the nape of his neck and a short, neatly trimmed light-brown beard. He wears a knee-length teal-blue coat with silver buttons over a pale-grey shirt, charcoal breeches, soft black boots and a thin silver circlet on his head.",
       "portrait": "Background: the forest spring in the morning light."
     },
     {
@@ -148,9 +148,9 @@
       "anchor": "Plask! sa bøtta da hun slapp den.",
       "characters": ["jenta"],
       "places": ["kilden"],
-      "prompt": "Early morning at the Forest Spring, with pink dawn light and mist over the water: a plump young maid in a brown dress, white apron and white cap kneels at the water's edge, clasping her hands to her cheeks in delight at the lovely face reflected in the still spring, which she thinks is her own. Her wooden bucket drops into the water with a big splash. High in the oak above, the Girl peeks down between the leaves.",
+      "prompt": "Early morning at the Forest Spring, with pink dawn light and mist over the water: a plump young maid in a brown dress, white apron and white cap kneels at the water's edge and bends over it, clasping her hands to her cheeks in delight at the lovely face reflected in the still spring, which she thinks is her own. Her wooden bucket drops into the water with a big splash. High in the oak above, the Girl, so lovely that she almost glows, peeks down between the leaves.",
       "caption": "«Oi! Er det meg? Så vakker jeg er!» Plask! sier bøtta.",
-      "alt": "Ei tjenestejente sitter på kne ved kilden og ser et nydelig ansikt i vannet. Hun tror det er henne selv og slipper bøtta. Oppe i treet sitter jenta og kikker ned."
+      "alt": "Ei tjenestejente bøyer seg over kilden og ser et nydelig ansikt i vannet. Hun tror det er henne selv og slipper bøtta. Oppe i treet sitter jenta og kikker ned."
     },
     {
       "id": "08",
@@ -158,7 +158,7 @@
       "anchor": "«God morgen», sa prinsen, og han rakte hånda opp mot henne.",
       "characters": ["prinsen", "jenta"],
       "places": ["kilden"],
-      "prompt": "At the Forest Spring in fresh morning light, the Prince stands at the foot of the tall oak and reaches one hand up towards the Girl with a warm, friendly smile. The Girl sits on a broad branch above him and looks down shyly, smiling back. Two wooden buckets bob on the still water of the spring beside them, and the castle towers show through the trees. Seen from the side.",
+      "prompt": "At the Forest Spring in fresh morning light, the Prince stands at the foot of the tall oak and reaches one hand up towards the Girl with a warm, friendly smile. The Girl, so lovely that she almost glows, sits on a broad branch above him and looks down shyly, smiling back. Two wooden buckets bob on the still water of the spring beside them, and the castle towers show through the trees. Seen from the side.",
       "caption": "«God morgen», sier prinsen. «Vil du ikke komme ned?»",
       "alt": "Prinsen står under treet ved kilden og rekker hånda opp mot jenta, som sitter på en grein og smiler. I kilden flyter to bøtter."
     },
@@ -198,7 +198,7 @@
       "places": ["slottssalen"],
       "prompt": "In the bright, still Great Hall, the Young Queen, wearing a plain grey travelling cloak over her gown, kneels on the floor with her arms wide open as two happy little toddlers, a boy and a girl, run laughing into her arms. In the open doorway behind them stands the Foster Mother in a soft golden light, with the smallest baby on her arm. The Prince and the Old Queen stare in astonishment from the side.",
       "caption": "Dronningen faller på kne og tar imot barna med åpne armer.",
-      "alt": "Den unge dronningen sitter på kne i reisekappa og tar imot to små barn med åpne armer. I døra står fostermoren i et mildt lys med babyen på armen. Prinsen og den gamle dronningen ser forundret på."
+      "alt": "Den unge dronningen har falt på kne i reisekappa og tar imot to små barn med åpne armer. I døra står fostermoren i et mildt lys med babyen på armen. Prinsen og den gamle dronningen ser forundret på."
     },
     {
       "id": "13",
@@ -206,7 +206,7 @@
       "anchor": "Fra den dagen var hun glad i den unge dronningen.",
       "characters": ["den-gamle-dronningen", "den-unge-dronningen", "prinsen"],
       "places": ["slottssalen"],
-      "prompt": "A sunny afternoon in the Great Hall: the Old Queen, smiling warmly now, sits in a big carved chair with two giggling toddlers on her lap and the smallest baby in the crook of her arm. Beside her, the Young Queen and the Prince sit close together, laughing. Apple blossom shows at the tall windows, and the gold lorgnette lies forgotten on a little table.",
+      "prompt": "A sunny afternoon in the Great Hall: the Old Queen, smiling warmly now, sits in a big carved chair with two giggling toddlers on her lap and the smallest baby in the crook of her arm. Beside her, the Young Queen and the Prince sit close together, laughing. Cherry blossom shows at the tall windows, and the gold lorgnette lies forgotten on a little table.",
       "caption": "Og barnebarna får sitte på fanget hennes så mye de vil.",
       "alt": "Den gamle dronningen smiler og har to små barn på fanget og babyen på armen. Ved siden av sitter den unge dronningen og prinsen og ler."
     }

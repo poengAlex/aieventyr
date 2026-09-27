@@ -1,0 +1,72 @@
+{
+  "storyId": "spurning",
+  "title": "Spørsmålet",
+  "textFile": "public/content/stories/spurning/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago. The king's castle is a tall castle of dark, tarred timber with steep turf roofs and one slender tower, on a green hill above ploughed fields, a winding road and birch groves. The princess receives her suitors in the castle's bright hall, which has tall windows, walls painted with red and blue rosemaling flowers, a long carved oak table and a tall carved chair for her. Askeladden's finds are a small hoop of bent green willow, a pale shard of a broken blue-and-white bowl, two crooked goat horns that look exactly alike, and an old, worn-out leather shoe sole with a big hole in it. He carries them in a patched brown sack.",
+  "palette": "A windy spring day: white clouds racing across a bright blue sky, fresh yellow-green birch leaves and young grass, dandelions and coltsfoot, and cloaks, hair and grass all blowing in the wind. Inside the castle: clear, cool daylight through tall windows, with the fresh spring green outside.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "promptName": "Askeladden",
+      "replacesPortrait": "askeladden",
+      "description": "En rolig og oppfinnsom gutt som møter ordlek med vennlighet og finner smarte løsninger med små ting han har samlet på veien.",
+      "look": "A slim, lean lad of about sixteen with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded wool cloak fastened with a wooden toggle over a knee-length ochre tunic with a woven belt, dark-grey trousers and soft brown leather shoes.",
+      "portrait": "Background: a windy spring field with the castle on its hill."
+    },
+    {
+      "slug": "prinsessen",
+      "name": "Prinsessen",
+      "promptName": "the Princess",
+      "replacesPortrait": "prinsessen",
+      "description": "En kvikk prinsesse som elsker raske svar, men som blir mer nysgjerrig enn spydig når Askeladden gjør ordleken til noe morsomt.",
+      "look": "A quick-witted princess of about eighteen, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun with a small silver crown pinned in front of it. She wears a long lilac dress with a fitted bodice, puffed sleeves and silver embroidery at the neckline, and small silver earrings.",
+      "portrait": "Background: the bright castle hall with rosemaling on the walls."
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "promptName": "the King",
+      "replacesPortrait": "kongen",
+      "description": "En rettferdig og godhjertet konge som vil se at utfordringen løses på en klok og fredelig måte.",
+      "look": "A tired, stooped, elderly king with a long, gentle, wrinkled face, sleepy grey eyes with heavy bags under them, bushy grey eyebrows and a huge, drooping grey moustache that hangs down past his chin, but no beard. He wears a long mustard-yellow robe with a brown fur collar, a simple gold crown that always sits askew, and soft brown slippers.",
+      "portrait": "Background: a tall window of the castle hall."
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "On a windy spring day, Askeladden strides up the winding road towards the king's castle on its green hill, his brown cloak flapping, his bulging sack over his shoulder and a crooked goat horn in his hand. High above in an open tower window, the Princess leans on the windowsill with her arms crossed and her chin up, one sharp eyebrow raised. White clouds race across the bright blue sky and the young birch leaves shine yellow-green.",
+    "characters": ["askeladden", "prinsessen"],
+    "caption": "Askeladden er på vei til den kvikke prinsessen med en sekk full av rare ting.",
+    "alt": "Askeladden går opp veien mot slottet med sekken over skulderen og et bukkehorn i hånda. Fra et vindu i tårnet lener prinsessen seg ut med armene i kors."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 7,
+      "anchor": "Så var det Askeladdens tur.",
+      "characters": ["askeladden"],
+      "prompt": "On a windy spring field below the king's castle, Askeladden crouches in the young grass and holds up an old, worn-out leather shoe sole towards the sky, peering through the big hole in it with one eye and a delighted grin. His patched brown sack lies open beside him, with the little green willow hoop, the shard of a blue-and-white bowl and two crooked goat horns that look exactly alike poking out of it. Dandelions bend in the wind and white clouds race over the castle on its hill.",
+      "caption": "Askeladden skryter ikke. Han bare går og ser seg rundt, og alt putter han i sekken.",
+      "alt": "Askeladden sitter på huk på et jorde nedenfor slottet og kikker gjennom hullet i en gammel skosåle. I sekken ved siden av ham ligger en vidjebøyle, et skår og to like bukkehorn."
+    },
+    {
+      "id": "02",
+      "paragraph": 19,
+      "anchor": "«Her ser du maken», sa Askeladden og holdt opp det andre hornet.",
+      "characters": ["askeladden", "prinsessen"],
+      "prompt": "In the castle's bright hall with rosemaling flowers on the walls, Askeladden stands at the long carved table and holds up two crooked goat horns, one in each hand, exactly alike, with an innocent, cheeky smile. Across the table the Princess sits bolt upright in her tall carved chair, eyes wide, her sharp eyebrows shooting up and her cheeks turning pink, lips pressed together as she searches for an answer. The willow hoop and the bowl shard lie on the table, and clouds race past the tall windows.",
+      "caption": "«Her ser du maken!» Og det andre bukkehornet er helt likt.",
+      "alt": "Askeladden står ved et langt bord i slottssalen og holder opp to bukkehorn som er helt like. Prinsessen sitter i den høye stolen, gjør store øyne og blir rød i kinnene."
+    },
+    {
+      "id": "03",
+      "paragraph": 27,
+      "anchor": "Da begynte prinsessen å le.",
+      "characters": ["askeladden", "prinsessen", "kongen"],
+      "prompt": "In the bright castle hall, the Princess has burst out laughing: she throws her head back with her hands pressed to her cheeks and her eyes squeezed shut with joy. In front of her, Askeladden still holds up the worn-out shoe sole and grins at her through the hole. Behind the table the King leans back in his chair and smiles a big, happy smile under his huge moustache, his crown more crooked than ever. Spring sunshine pours in through the tall windows.",
+      "caption": "Prinsessen ler og ler. Det er det morsomste som har hendt henne på lenge.",
+      "alt": "Prinsessen kaster hodet bakover og ler. Askeladden holder opp en utslitt skosåle og smiler gjennom hullet, og bak dem smiler kongen under den store barten."
+    }
+  ]
+}

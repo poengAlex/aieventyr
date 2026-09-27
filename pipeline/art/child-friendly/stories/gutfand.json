@@ -1,0 +1,63 @@
+{
+  "storyId": "gutfand",
+  "title": "Gutten og fanden",
+  "textFile": "public/content/stories/gutfand/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago, on an autumn evening. A narrow dirt road winds between hazel bushes and birches with golden leaves, past stubble fields and grey stone walls. The boy eats walnuts: big, round, wrinkly, light-brown walnuts. The special nut is one of them, with one tiny round hole in its shell, which the boy plugs with a little wooden peg. By the road stands the smithy: a small, low log smithy with a turf roof and a stone chimney, a wide open door, a glowing forge with leather bellows, a big black anvil on a tree stump and a rack of hammers from tiny to huge, the biggest a sledgehammer as long as a man's leg.",
+  "palette": "An autumn evening: low amber sunlight and long shadows on the road, golden and russet hazel leaves, and a violet-blue dusk sky with the first star. Inside and around the smithy: the orange glow of the forge fire and a hanging lantern against sooty dark walls, with sparks and swirling dust.",
+  "cast": [
+    {
+      "slug": "gutten",
+      "name": "Gutten",
+      "promptName": "the Boy",
+      "replacesPortrait": "gutten",
+      "description": "En nysgjerrig og smart gutt som elsker å knekke nøtter og finner på et ufarlig, lurt triks.",
+      "look": "A scruffy, cheeky boy of about twelve, small and nimble, with a round, tanned face, a turned-up nose, bright black eyes, a wide, mischievous grin and straight dark-brown hair cut in a thick, blunt fringe down to his eyebrows. He wears an open, patched red waistcoat over a baggy, untucked undyed shirt, short brown trousers with frayed hems and worn ankle boots, and every pocket bulges with walnuts.",
+      "portrait": "Background: the autumn road between hazel bushes."
+    },
+    {
+      "slug": "fanden",
+      "name": "Fanden",
+      "promptName": "the Little Devil",
+      "replacesPortrait": "fanden",
+      "description": "En liten, rampete skikkelse som kan gjøre seg bitteliten og lar seg lure inn i en nøtt, mer komisk enn skummel.",
+      "look": "A small, skinny imp no taller than a toddler, with dusty, matte brick-red skin, a narrow, pointy face with a sharp, beardless chin, narrow, sly green eyes under thin arched eyebrows, a wide, smug grin, big pointed ears and two tiny stubby horns like little thorns. He has thin arms, knobbly knees, long bare feet with curling toes and a long thin tail ending in a black tuft like a paintbrush, and wears only short, ragged brown breeches held up by a string. Silly, not scary.",
+      "portrait": "Background: hazel bushes by the road in the evening."
+    },
+    {
+      "slug": "smeden",
+      "name": "Smeden",
+      "promptName": "the Smith",
+      "replacesPortrait": "smeden",
+      "description": "En godhjertet smed som prøver flere hammere og blir overrasket når nøtta endelig knaser.",
+      "look": "A kind, stocky old blacksmith of about seventy, short and broad, with huge, sooty forearms, a wide, soot-smudged face, kind, crinkly brown eyes, thick grey eyebrows and a long, bushy charcoal-grey beard singed at the tips. He has a fuzz of short grey hair, and small round wire spectacles sit pushed up on his forehead. He wears a heavy, scorched black leather apron over a faded red flannel shirt with rolled-up sleeves, sooty black trousers and big wooden clogs.",
+      "portrait": "Background: the glowing forge in the smithy."
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "On a country road in golden autumn evening light, the Boy strolls along cracking a walnut in his hands, his pockets bulging with more and a trail of cracked shells behind him. Beside the road the Little Devil comes tiptoeing out from behind a hazel bush with his chest puffed out and a sly, smug grin, his tufted tail curling up behind him. Russet leaves drift down, and far along the road a small smithy puffs smoke from its chimney.",
+    "characters": ["gutten", "fanden"],
+    "caption": "Knekk, knekk, knekk! En gutt går bortover veien og knekker nøtter.",
+    "alt": "En gutt i rød vest går bortover en høstvei og knekker nøtter. Bak en hasselbusk kommer en liten, rød skikkelse med horn og hale listende og smiler lurt."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "Fanden ble mindre og mindre og mindre.",
+      "characters": ["gutten", "fanden"],
+      "prompt": "A close, low view on the autumn road between hazel bushes: the Boy crouches and holds up a big walnut between finger and thumb, grinning. The Little Devil has shrunk to the size of a ladybird and is diving head first into the tiny hole in the shell, so that only his thin legs and tufted tail still stick out, wiggling. A few cracked walnut shells lie on the road, and low amber evening sun shines through the golden leaves.",
+      "caption": "Mindre og mindre og mindre ... Vips! Så kryper Fanden inn i nøtta.",
+      "alt": "Gutten sitter på huk på veien og holder opp en stor nøtt. Fanden er blitt så liten som en marihøne og kryper inn i et lite hull i nøtta, så bare beina og halen stikker ut."
+    },
+    {
+      "id": "02",
+      "paragraph": 17,
+      "anchor": "Nøtta sprakk i tusen biter, og taket hoppet opp og landet igjen, litt på skjeve.",
+      "characters": ["gutten", "fanden", "smeden"],
+      "prompt": "Outside the little log smithy at dusk: its turf roof has just jumped up and landed crooked, and dust puffs out from under the eaves. Out of the open door, lit orange by the forge fire, the Little Devil, back to his normal small size, scampers away down the road in a cloud of dust, looking back over his shoulder with a baffled face, his tufted tail flying. In the doorway the Smith stands gaping with the big sledgehammer in his hands, and beside him the Boy grins with his hands in his pockets. Bits of walnut shell lie on the doorstep.",
+      "caption": "KNAS! PANG! Ut tumler Fanden, og han piler av sted så støvet står.",
+      "alt": "Taket på smia har hoppet opp og landet på skjeve. Fanden piler ut døra og bortover veien i en sky av støv, mens smeden måper med slegga i døråpningen og gutten smiler."
+    }
+  ]
+}
