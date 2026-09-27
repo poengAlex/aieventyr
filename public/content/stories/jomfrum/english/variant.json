@@ -4,17 +4,11 @@
   "description": "An English retelling that closely follows the traditional folktale: a poor couple’s daughter is fostered by a splendid lady who forbids three chambers, and the girl’s curiosity unleashes the star, moon, and sun—leading to muteness, a royal marriage, and a harsh trial before a merciful revelation.",
   "tone": "Folktale, moral, devotional, and suspenseful",
   "characterCount": 5,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:42:20.895Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T12:46:07.066Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T12:42:20.895Z"
   },
   "paths": {
     "text": "story.txt",

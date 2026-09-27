@@ -4,17 +4,11 @@
   "description": "En mildere og tryggere variant med mykere språk, mindre skremmende stemning og ekstra vekt på mot, vennlighet og gode valg, mens eventyrets magi og spenning beholdes på en rolig måte for yngre lesere.",
   "tone": "Warm, gentle, reassuring fairy-tale adventure with soft suspense and a hopeful mood.",
   "characterCount": 5,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T14:34:01.236Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T14:39:15.012Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T14:34:01.236Z"
   },
   "paths": {
     "text": "story.txt",

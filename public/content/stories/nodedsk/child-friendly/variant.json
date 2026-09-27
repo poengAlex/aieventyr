@@ -4,17 +4,11 @@
   "description": "Denne barnevennlige varianten forteller den samme kjede-historien med en trygg, varm stemning og mildt språk: Høna blir raskt bedre, og alle de Hanen møter er tydelig hjelpsomme, slik at spenningen føles rolig og trøstende for små lesere.",
   "tone": "Gentle, reassuring, warm, child-friendly",
   "characterCount": 5,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T15:20:45.601Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T15:24:14.320Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T15:20:45.601Z"
   },
   "paths": {
     "text": "story.txt",

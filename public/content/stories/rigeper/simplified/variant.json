@@ -4,17 +4,11 @@
   "description": "En forenklet variant på moderne norsk med tydeligere setninger og jevnere flyt, der den klassiske eventyrhandlingen beholdes, men språket er gjort lettere å lese.",
   "tone": "Folkeeventyraktig, spennende og lett humoristisk, med klar og enkel fortellerstemme",
   "characterCount": 5,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T09:30:58.533Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T09:35:08.886Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T09:30:58.533Z"
   },
   "paths": {
     "text": "story.txt",

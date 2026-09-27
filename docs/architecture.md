@@ -21,7 +21,7 @@ The pipeline writes canonical content bundles into `public/content`, and the fro
 - `src/pages/IndexPage.vue`
   Library view. Loads the manifest, shows available stories, lets the user choose a preferred variant, and filters read stories.
 - `src/pages/StoryPage.vue`
-  Reader view. Loads one story bundle, renders hero image, audio, text sections, character gallery, and the cross-variant image carousel.
+  Reader view. Loads one story bundle, renders hero image, text sections, character gallery, and the cross-variant image carousel. Audio playback is currently removed.
 - `src/pages/AboutPage.vue`
   Short explanation of the project and generation approach.
 
@@ -67,7 +67,6 @@ This module is the key boundary between app code and generated output. If the co
    - `sections.json`
 5. Render:
    - hero area
-   - audio player
    - section text + inline images
    - character gallery
    - all-images carousel across available variants

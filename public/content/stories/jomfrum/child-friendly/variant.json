@@ -4,17 +4,11 @@
   "description": "En mildere og tryggere gjenfortelling med mykere språk, roligere stemning og tydelig vekt på læring, tilgivelse og å holde løfter, der magien med stjerne, måne og sol står i sentrum uten å bli for skremmende.",
   "tone": "Varm, eventyrlig og trøstende",
   "characterCount": 4,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:47:13.660Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T12:51:05.358Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T12:47:13.660Z"
   },
   "paths": {
     "text": "story.txt",

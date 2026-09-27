@@ -4,17 +4,11 @@
   "description": "En moderne gjenfortelling der Askeladden er kjøkkenhjelp på en kongsgård som fortsatt fungerer som en slags offisiell residens utenfor hovedstaden, og han bruker hverdagslige, smarte knep—korn, en spiker, en bjørkepinne og en lysstump—til å overliste et fjordtroll, mens misunnelige brødre prøver å sette ham opp til å mislykkes.",
   "tone": "Contemporary folktale, clever, tense, darkly humorous",
   "characterCount": 5,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T10:52:19.388Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T10:56:52.433Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T10:52:19.388Z"
   },
   "paths": {
     "text": "story.txt",

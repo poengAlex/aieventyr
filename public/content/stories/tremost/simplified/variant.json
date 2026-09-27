@@ -4,17 +4,11 @@
   "description": "En forenklet versjon på moderne norsk med klarere setninger og lettere flyt, der handlingen om misunnelse ved hoffet og de tre «mostrene» blir ekstra enkel å følge.",
   "tone": "Eventyrlig, lettlest og direkte",
   "characterCount": 4,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T14:02:17.207Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T14:05:49.063Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T14:02:17.207Z"
   },
   "paths": {
     "text": "story.txt",

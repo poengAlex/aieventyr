@@ -4,17 +4,11 @@
   "description": "En barnevennlig og mildere variant med mykere stemning: den underjordiske ferden føles tryggere og mer eventyrlig, og de skumle og ekle øyeblikkene er dempet, mens budskapet om å være hjelpsom og forsiktig blir tydelig og varmt.",
   "tone": "Gentle fairy-tale, cozy and reassuring, with a clear moral about kindness and care",
   "characterCount": 4,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T15:00:29.820Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T15:05:03.377Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T15:00:29.820Z"
   },
   "paths": {
     "text": "story.txt",

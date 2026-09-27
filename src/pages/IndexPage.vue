@@ -4,10 +4,10 @@
       <div class="hero-intro">
         <div class="hero-copy">
           <div class="eyebrow">A New Reading Edition</div>
-          <h1>Norske folkeeventyr, rebuilt for reading, listening, and browsing.</h1>
+          <h1>Norske folkeeventyr, rebuilt for reading and browsing.</h1>
           <p class="hero-lead">
             This library turns scanned Norwegian folktales into a clean AI reading edition with modern
-            variants, artwork, characters, and audio.
+            variants, artwork, and characters.
           </p>
           <div class="hero-meta-row">
             <div class="hero-meta-card">
@@ -17,7 +17,7 @@
             </div>
             <div class="hero-meta-card">
               <span class="hero-meta-label">Format</span>
-              <strong>Text + Audio</strong>
+              <strong>Text + Art</strong>
               <span>Each story has its own reading version</span>
             </div>
           </div>

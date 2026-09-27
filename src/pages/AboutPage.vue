@@ -4,11 +4,11 @@
       <div class="eyebrow">About</div>
       <h1>Readable folktales, rebuilt with AI</h1>
       <p>
-        I wanted the original Norwegian fairytales in a format that is easier to read, easier to listen
-        to, and easier to revisit than the scanned source material.
+        I wanted the original Norwegian fairytales in a format that is easier to read and easier to
+        revisit than the scanned source material.
       </p>
       <p>
-        This is a 100% AI-generated project. The text, variants, images, character art, and audio are all
+        This is a 100% AI-generated project. The text, variants, images, and character art are all
         produced through one pipeline built around modern OpenAI models.
       </p>
       <div class="fact-grid">
@@ -18,7 +18,7 @@
         </div>
         <div>
           <div class="fact-label">Creative Output</div>
-          <div class="fact-value">Each variant gets its own text, images, characters, and narration</div>
+          <div class="fact-value">Each variant gets its own text, images, and characters</div>
         </div>
         <div>
           <div class="fact-label">Pipeline</div>
@@ -31,7 +31,7 @@
           <li>The original source is extracted from scanned folktale material.</li>
           <li>AI cleans the OCR and restores the text into a readable base version.</li>
           <li>That base version is rewritten into different reading variants like simplified Norwegian and English.</li>
-          <li>Each text variant is then used to generate its own characters, scene prompts, images, and audio.</li>
+          <li>Each text variant is then used to generate its own characters, scene prompts, and images.</li>
         </ol>
       </div>
     </div>

@@ -35,10 +35,6 @@
       </section>
 
       <section class="reader-content">
-        <div v-if="audioPath" class="audio-panel">
-          <audio controls :src="audioPath" class="full-width" />
-        </div>
-
         <div class="story-panel">
           <div class="story-sections">
             <article v-for="section in bundle.sections" :key="section.id" class="story-section">
@@ -237,7 +233,6 @@ const nextStory = computed(() =>
 const activeVariant = computed(() => bundle.value?.variant.variant ?? settings.variant)
 const baseVariantPath = computed(() => `/content/stories/${storyId.value}/${activeVariant.value}`)
 const mainImagePath = computed(() => `${baseVariantPath.value}/main.webp`)
-const audioPath = computed(() => (bundle.value?.variant.hasAudio ? `${baseVariantPath.value}/audio.mp3` : ''))
 const currentCharacter = computed<VariantCharacter | null>(
   () => bundle.value?.characters[activeCharacterIndex.value] ?? null,
 )
@@ -432,7 +427,6 @@ watch(galleryItems, (items) => {
 }
 
 .hero-text,
-.audio-panel,
 .story-panel,
 .character-panel,
 .image-carousel-panel,
@@ -486,7 +480,6 @@ watch(galleryItems, (items) => {
   min-width: 0;
 }
 
-.audio-panel,
 .story-panel,
 .character-panel,
 .image-carousel-panel {

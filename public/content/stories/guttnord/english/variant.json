@@ -4,17 +4,11 @@
   "description": "An English retelling that stays close to the original Scandinavian folktale: a poor boy confronts the personified North Wind, receives three enchanted gifts, and outwits a thieving innkeeper to win back justice for what was stolen.",
   "tone": "Folktale; brisk, witty, and morally satisfying, with a touch of magical menace",
   "characterCount": 5,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:23:28.061Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T12:27:03.879Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T12:23:28.061Z"
   },
   "paths": {
     "text": "story.txt",

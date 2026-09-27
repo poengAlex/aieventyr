@@ -4,17 +4,11 @@
   "description": "Denne barnevennlige varianten gjør eventyret mildere og tryggere, med varm humor og snillere formuleringer: de rare hendelsene blir tydelig lek og misforståelser, stemningen er lysere, og ubehagelige detaljer tones ned slik at fokuset ligger på undring, oppfinnsomhet og at alle kan gjøre litt rare ting iblant.",
   "tone": "Varm, leken og mild folkeeventyr-humor",
   "characterCount": 5,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:32:15.843Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T13:36:39.985Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T13:32:15.843Z"
   },
   "paths": {
     "text": "story.txt",

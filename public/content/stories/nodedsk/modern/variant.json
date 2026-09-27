@@ -4,17 +4,11 @@
   "description": "En moderne, urban kjedereaksjon der en desperat hane må navigere QR-koder, apper, butikker og byråkrati i parken for å skaffe vann som redder høna fra å kveles på et nøtteskall.",
   "tone": "Rask, humoristisk og samtidsnær med et varmt, dramatisk driv",
   "characterCount": 4,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T15:25:05.640Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T15:28:49.349Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T15:25:05.640Z"
   },
   "paths": {
     "text": "story.txt",

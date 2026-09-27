@@ -4,17 +4,11 @@
   "description": "A faithful English retelling that keeps close to the original folktale’s cadence and structure, following the fisherman’s adopted son as he braves trolls, enchanted gifts, and the North Wind to win back his queen in the stark realm of Whiteland.",
   "tone": "Classic folktale, adventurous, magical, and perilous with a hopeful ending",
   "characterCount": 5,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:03:42.072Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T13:08:08.235Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T13:03:42.072Z"
   },
   "paths": {
     "text": "story.txt",

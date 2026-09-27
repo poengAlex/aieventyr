@@ -4,17 +4,11 @@
   "description": "Denne barnevennlige varianten forteller historien med et mykere språk og en tryggere stemning, der humoren ligger i små, snille detaljer om hvordan folk prøver å virke fine når de får besøk.",
   "tone": "Varm, mild og humoristisk",
   "characterCount": 4,
-  "hasAudio": true,
+  "hasAudio": false,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:56:39.351Z",
-    "audio": {
-      "model": "gpt-4o-mini-tts",
-      "prompt": "tts",
-      "generatedAt": "2026-03-28T13:58:38.850Z",
-      "voice": "nova"
-    }
+    "generatedAt": "2026-03-28T13:56:39.351Z"
   },
   "paths": {
     "text": "story.txt",

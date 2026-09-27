@@ -96,6 +96,8 @@ The app treats each story variant as an independent bundle with its own:
 - character portraits
 - audio
 
+Audio is currently turned off: the reader has no audio player, no `audio.mp3` files are checked in, and every `variant.json` has `hasAudio: false`. The audio pipeline commands below can bring it back.
+
 ## Main commands
 
 ### App
