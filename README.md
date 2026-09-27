@@ -98,6 +98,8 @@ The app treats each story variant as an independent bundle with its own:
 
 Audio is currently turned off: the reader has no audio player, no `audio.mp3` files are checked in, and every `variant.json` has `hasAudio: false`. The audio pipeline commands below can bring it back.
 
+The texts of the four public variants (`story.txt` and `sections.json`) and their blurbs were rewritten by hand, not by the pipeline. The pipeline skips outputs that already exist, but running a text stage with `--force` replaces them with generated text.
+
 ## Main commands
 
 ### App

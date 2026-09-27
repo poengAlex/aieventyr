@@ -83,6 +83,8 @@ npm run pipeline:variant -- --story=askesv --variant=english --force
 
 The pipeline skips outputs that already exist unless `--force` is used.
 
+The current texts of the four public variants (`story.txt`, `sections.json`) and their metadata were rewritten by hand. Forcing the text, variant or inline-scene stages replaces them with generated output.
+
 ## Stage commands
 
 ### Text stages
