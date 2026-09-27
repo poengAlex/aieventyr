@@ -21,7 +21,13 @@ The pipeline writes canonical content bundles into `public/content`, and the fro
 - `src/pages/IndexPage.vue`
   Library view. Loads the manifest, shows available stories, lets the user choose a preferred variant, and filters read stories.
 - `src/pages/StoryPage.vue`
-  Reader view. Loads one story bundle, renders hero image, text sections, character gallery, and the cross-variant image carousel. Audio playback is currently removed.
+  Reader view. Loads one story bundle, renders hero image, text sections, character gallery, and the cross-variant image carousel. When the story has an illustration set, it renders `IllustratedStory` instead of the sections, and offers `PictureBook`. Audio playback is currently removed.
+- `src/components/IllustratedStory.vue`
+  Text with the pictures of an illustration set. On wide screens one picture stays beside the text and changes when the reader reaches its paragraph; on narrow screens the pictures sit between the paragraphs. Character names open the character's portrait.
+- `src/components/PictureBook.vue`
+  Full-screen picture-book mode: one picture and the text that leads up to it per page.
+- `src/components/ArtFigure.vue`
+  One picture with its caption and a toggle that shows the prompt that made it.
 - `src/pages/AboutPage.vue`
   Short explanation of the project and generation approach.
 
@@ -46,13 +52,16 @@ The pipeline writes canonical content bundles into `public/content`, and the fro
 
 This module is the key boundary between app code and generated output. If the content tree changes, this is the first place that should be updated.
 
+- `src/logic/art.ts`
+  Loads the illustration sets made by `npm run art:generate` from `public/content/art/<set>/`. `child-friendly` has its own set, `simplified` and `english` share `classic`, and `modern` has its own. It reads `index.json` for which stories have pictures, then `<story>/illustrations.<variant>.json`. It places each picture after its paragraph, using the anchor text if the paragraph numbers have shifted, and finds character names in the text.
+
 ## Runtime data flow
 
 ### Library page
 
 1. Load `/content/manifest.json`
 2. Sort stories by `index`
-3. Resolve a cover image from the user’s selected variant or a fallback available variant
+3. Resolve a cover image from the user’s selected variant or a fallback available variant; a cover from the variant's illustration set replaces it when there is one
 4. Navigate to `/story/:id`
 
 ### Story page
@@ -65,11 +74,12 @@ This module is the key boundary between app code and generated output. If the co
    - `story.txt`
    - `characters.json`
    - `sections.json`
-5. Render:
+5. Load the variant's illustration set, if the story has one
+6. Render:
    - hero area
-   - section text + inline images
-   - character gallery
-   - all-images carousel across available variants
+   - with illustrations: paragraphs with the pictures of the set, picture-book mode, and the set's portraits
+   - without: section text + inline images, and the variant's character gallery
+   - image carousel
 
 ## Pipeline structure
 
