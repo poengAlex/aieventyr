@@ -1,0 +1,212 @@
+{
+  "storyId": "paalandr",
+  "variants": {
+    "simplified": {
+      "title": "Pål Andrestuen",
+      "textFile": "public/content/stories/paalandr/simplified/story.txt"
+    },
+    "english": {
+      "title": "Pål Andrestuen",
+      "textFile": "public/content/stories/paalandr/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, long ago, at threshing and ploughing time. A small farm on a green hillside: a dark log farmhouse with a turf roof, a covered porch and small-paned windows; across the yard, a smaller, crooked log cottage, the Other House, and a big grey barn with a wide double door and a threshing floor. Below them a meadow slopes down past a fence of slanting grey poles to a brown field with a wooden plough. The farmhouse main room has a long scrubbed table with benches, an open hearth and a plank door to a small side room. Sour-cream porridge is thick and creamy-white, served in a big round wooden dish with a golden pool of melted butter in the middle. Lefse is a big, round, thin, soft flatbread.",
+  "palette": "Early autumn at threshing and ploughing time: golden stubble and a green-gold meadow, birches turning yellow, red rowan berries, fresh-turned chocolate-brown earth and a clear blue sky with warm, low afternoon sun. Indoors: warm hearth light, scrubbed pale wood and the creamy white of the porridge.",
+  "cast": [
+    {
+      "slug": "tjenestegutten",
+      "promptName": "the Farmhand",
+      "look": "A very skinny, quick lad of about fifteen with a mousy-brown pudding-bowl haircut, a narrow, sunburnt face with a pointed chin, a wide, sly grin and quick green eyes that miss nothing. He wears a baggy, faded brick-red homespun shirt and patched brown knee breeches that are too short for him, so his bony shins show, and goes barefoot. His round grey-green knitted cap with a little tassel is either on his head or waving in his hand.",
+      "portrait": "Background: the wide double door of the big grey barn.",
+      "variants": {
+        "simplified": {
+          "name": "Tjenestegutten",
+          "description": "En kvikk og utspekulert gårdsgutt som legger en plan for å få kjerringa til å avsløre seg høyt.",
+          "replacesPortrait": "tjenestegutten"
+        },
+        "english": {
+          "name": "The Farmhand",
+          "description": "A sharp-eyed hired hand who spotted the wife’s secret long ago and sets out to win his ten daler with one staged misunderstanding after another.",
+          "replacesPortrait": "farmhand"
+        }
+      }
+    },
+    {
+      "slug": "kjerringa",
+      "promptName": "the Wife",
+      "look": "A pretty, lively farm wife of about thirty-five, of medium height, with a round, dimpled face, a small pointed nose, bright dark-brown eyes under arched eyebrows and wheat-blonde hair in a thick braid coiled at the back of her head and tied with a red ribbon. She wears a sky-blue laced bodice over a pale-yellow blouse with full sleeves, a long red-and-white striped skirt, a big white apron and a string of red glass beads.",
+      "portrait": "Background: the firelit farmhouse main room.",
+      "variants": {
+        "simplified": {
+          "name": "Kjerringa",
+          "description": "Kona som skjuler forholdet sitt, blir stadig mer stresset, og ender med å rope ut løftet sitt i panikk.",
+          "replacesPortrait": "kjerringa"
+        },
+        "english": {
+          "name": "The Wife",
+          "description": "Restless and volatile, she hides her affair and swings between anger and sweetness as she tries to stay ahead of suspicion.",
+          "replacesPortrait": "wife"
+        }
+      }
+    },
+    {
+      "slug": "den-dove-mannen",
+      "promptName": "the Husband",
+      "look": "A huge, slow, kind-hearted farmer of about fifty-five, tall and broad as a barn door, with a long, calm face, a big round nose, sleepy pale-blue eyes under bushy eyebrows and a big, fan-shaped, straw-coloured beard, his straw-coloured hair combed straight back. He wears a black-and-white speckled knitted jumper with silver clasps at the neck, brown knee breeches, white knitted stockings and heavy boots, and has big, work-worn hands.",
+      "portrait": "Background: the meadow and the fence of slanting grey poles.",
+      "variants": {
+        "simplified": {
+          "name": "Den døve mannen",
+          "description": "En snill, tillitsfull ektemann som ikke hører hva som foregår og stadig misforstår situasjonen.",
+          "replacesPortrait": "den-dove-mannen"
+        },
+        "english": {
+          "name": "The Deaf Husband",
+          "description": "A good-natured man who hears little and follows suggestions easily, unaware of the true drama unfolding around him.",
+          "replacesPortrait": "deaf-husband"
+        }
+      }
+    },
+    {
+      "slug": "pal-andrestuen",
+      "promptName": "Pål",
+      "look": "A soft, round-bellied young man of about twenty-five, shorter than most, with a round, pale, clean-shaven face, plump pink cheeks, a small upturned nose, big, droopy brown eyes and wavy light-brown hair combed into a proud swoop over his forehead. He wears a short brown jacket over a tight lemon-yellow waistcoat with shiny brass buttons straining over his belly, a floppy pink silk neckerchief tied in a big bow, grey knee breeches and polished black buckled shoes, with a carved wooden spoon in his breast pocket.",
+      "portrait": "Background: his brown field with the wooden plough.",
+      "variants": {
+        "simplified": {
+          "name": "Pål Andrestuen",
+          "description": "Mannen i den andre stua som kjerringa holder av, og som blir skremt til å flykte når ryktene om øksa når ham.",
+          "replacesPortrait": "pal-andrestuen"
+        },
+        "english": {
+          "name": "Pål Andrestuen",
+          "description": "The wife’s lover, bold until he is spooked into fleeing by the farmhand’s planted fears.",
+          "replacesPortrait": "pal-andrestuen"
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "gaarden",
+      "name": "the Farm",
+      "look": "A small farm on a green hillside in old rural Norway: a dark log farmhouse with a turf roof, a covered porch and small-paned windows; across the yard, a smaller, crooked log cottage and a big grey barn with a wide double door. Below them, a sloping meadow with a fence of slanting grey poles, a winding footpath, a brown ploughed field with a wooden plough, and birch-covered hills beyond."
+    }
+  ],
+  "cover": {
+    "prompt": "Golden autumn light on the Farm. In the foreground, the Farmhand sits on the grey pole fence at the bottom of the meadow, grinning slyly and tossing a big silver coin in the air. Behind him, up the meadow, the Wife stands in the farmhouse door and beckons with a secret smile, and Pål tiptoes across the yard towards her on the toes of his polished shoes, licking his lips.",
+    "characters": ["tjenestegutten", "kjerringa", "pal-andrestuen"],
+    "places": ["gaarden"],
+    "variants": {
+      "simplified": {
+        "caption": "Tjenestegutten veddet ti daler på at kjerringa skulle avsløre seg selv.",
+        "alt": "Tjenestegutten sitter på skigarden og kaster en sølvmynt i lufta med et lurt glis. Oppe på tunet står kjerringa i døra og vinker, og Pål lister seg bort mot henne."
+      },
+      "english": {
+        "caption": "The farmhand bet ten daler that he could make the wife give herself away.",
+        "alt": "The farmhand sits on the fence tossing a silver coin with a sly grin. Up in the yard, the wife beckons from the doorway, and Pål tiptoes towards her."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["den-dove-mannen", "tjenestegutten", "pal-andrestuen"],
+      "places": ["gaarden"],
+      "prompt": "Inside the big grey barn on the Farm on a golden autumn morning, the Husband swings a wooden flail over sheaves of grain on the threshing floor, noticing nothing. Beside him, the Farmhand has stopped threshing and leans on his flail, peering out through the wide-open double door with a sly grin: across the sunny yard, Pål tiptoes up the porch steps and slips into the farmhouse.",
+      "variants": {
+        "simplified": {
+          "paragraph": 4,
+          "anchor": "Så var det en dag gutten og den døve mannen sto på låven og tresket.",
+          "caption": "Da fikk gutten se at Pål Andrestuen smatt inn til kjerringa. Han sa ingenting.",
+          "alt": "Den døve mannen tresker korn på låvegulvet og merker ingenting. Tjenestegutten har stanset og kikker ut av den store låvedøra. Borte på tunet lister Pål seg inn i våningshuset."
+        },
+        "english": {
+          "paragraph": 4,
+          "anchor": "Now one day the farmhand and the deaf husband were in the barn, threshing.",
+          "caption": "Through the open door the farmhand saw Pål slip into the house. He said nothing.",
+          "alt": "The deaf husband threshes grain on the barn floor, noticing nothing. The farmhand has stopped and peers out through the big barn door. Across the yard, Pål slips into the farmhouse."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["den-dove-mannen", "tjenestegutten", "kjerringa", "pal-andrestuen"],
+      "prompt": "In the warm, firelit main room of the farmhouse, the Husband and the Farmhand sit at the long scrubbed table, spooning up sour-cream porridge from one big round wooden dish with a golden pool of butter in the middle. The Husband beams with delight; the Farmhand eats with a sly sideways look. The Wife stands by the hearth with her arms folded and a sour face, watching every spoonful. The door of the little side room stands open a crack, and Pål peeks out.",
+      "variants": {
+        "simplified": {
+          "paragraph": 11,
+          "anchor": "Mannen og gutten spiste til fatet var tomt",
+          "caption": "Mannen og gutten spiste til fatet var tomt, og kjerringa fulgte hver skje med øynene.",
+          "alt": "Mannen og tjenestegutten sitter ved bordet og spiser rømmegrøt fra et stort fat. Kjerringa står ved grua med armene i kors og ser sur ut. Gjennom en glipe i kammersdøra kikker Pål ut."
+        },
+        "english": {
+          "paragraph": 10,
+          "anchor": "“Oh yes, you’re having it,” said the wife",
+          "caption": "“Oh yes, you’re having it,” said the wife, a good deal sourer than the cream.",
+          "alt": "The husband and the farmhand sit at the table eating sour-cream porridge from a big dish. The wife stands by the hearth with her arms folded, looking sour. Through a crack in the side-room door, Pål peeks out."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["den-dove-mannen", "tjenestegutten", "kjerringa"],
+      "places": ["gaarden"],
+      "prompt": "An autumn afternoon on the Farm. By a freshly mended stretch of the grey pole fence at the bottom of the meadow, the Husband and the Farmhand sit in the grass feasting on big rounds of lefse with butter, and the Husband raises a small cup of brandy, beaming. The Wife stands over them with her empty apron bunched in her fists and a face like thunder, and the Farmhand winks up at her.",
+      "variants": {
+        "simplified": {
+          "paragraph": 20,
+          "anchor": "Så satte de seg i graset og levde godt på lefse og smør",
+          "caption": "Så satte de seg i graset og levde godt på lefse og smør, med en dram attåt.",
+          "alt": "Mannen og tjenestegutten sitter i graset ved skigarden og spiser lefse med smør, og mannen løfter en liten dram. Kjerringa står over dem med et sint ansikt, og gutten blunker til henne."
+        },
+        "english": {
+          "paragraph": 19,
+          "anchor": "So they sat in the grass and feasted on lefse",
+          "caption": "So they sat in the grass and feasted on lefse, with a dram of brandy to wash it down.",
+          "alt": "The husband and the farmhand sit in the grass by the fence eating lefse with butter, and the husband raises a small dram. The wife stands over them looking furious, and the farmhand winks at her."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["pal-andrestuen", "den-dove-mannen", "kjerringa", "tjenestegutten"],
+      "places": ["gaarden"],
+      "prompt": "The brown ploughed field on the Farm on a bright autumn afternoon. Pål runs for his life across the furrows, jacket flapping, arms flailing and his wooden spoon flying out of his pocket, leaving his wooden plough behind. The Husband strolls up the footpath towards the plough with an axe resting calmly on his shoulder, looking puzzled. Far off by the fence, the Wife watches with her hands to her mouth, and the Farmhand leans on the fence, grinning. Little bits of lefse dot the path.",
+      "variants": {
+        "simplified": {
+          "paragraph": 28,
+          "anchor": "Ja, mannen tok øksa og gikk.",
+          "caption": "Pål tok beina fatt og løp det forteste han kunne.",
+          "alt": "Pål springer for livet over åkeren og lar plogen stå igjen. Den døve mannen kommer rolig bortover stien med øksa på skulderen. Ved skigarden står kjerringa og tjenestegutten og ser på."
+        },
+        "english": {
+          "paragraph": 27,
+          "anchor": "So the husband took his axe and went.",
+          "caption": "No sooner had Pål seen him coming than he took to his heels and ran for his life.",
+          "alt": "Pål runs for his life across the field, leaving his plough behind. The deaf husband strolls up the path with his axe on his shoulder, looking puzzled. By the fence, the wife and the farmhand watch."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["kjerringa", "den-dove-mannen", "tjenestegutten"],
+      "places": ["gaarden"],
+      "prompt": "The meadow of the Farm in the golden late afternoon. The Wife runs up the footpath towards the farmhouse with her striped skirt gathered in her fists, looking back over her shoulder and screaming. Behind her, the Husband comes running too, puffing and anxious, his big beard blowing and his hands full of bits of lefse. Down by the fence, the Farmhand waves his knitted cap high in the air and shouts in triumph.",
+      "variants": {
+        "simplified": {
+          "paragraph": 37,
+          "anchor": "«Nå er de ti dalerne mine!» ropte gutten.",
+          "caption": "«Nå er de ti dalerne mine!» ropte gutten.",
+          "alt": "Kjerringa springer oppover enga mot huset og skriker. Bak henne kommer den døve mannen springende med hendene fulle av lefsebiter. Nede ved skigarden vifter tjenestegutten med lua og roper."
+        },
+        "english": {
+          "paragraph": 36,
+          "anchor": "“Those ten daler are mine!” shouted the farmhand.",
+          "caption": "“Those ten daler are mine!” shouted the farmhand.",
+          "alt": "The wife runs up the meadow towards the house, screaming. Behind her comes the deaf husband, running with his hands full of bits of lefse. Down by the fence, the farmhand waves his cap and shouts."
+        }
+      }
+    }
+  ]
+}

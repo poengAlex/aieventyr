@@ -1,0 +1,109 @@
+{
+  "storyId": "paalandr",
+  "title": "Pål Andrestuen",
+  "textFile": "public/content/stories/paalandr/modern/story.txt",
+  "world": "Present-day Norway, a quiet housing estate of detached wooden houses along one street. The couple's house is white, with a big kitchen window, a wooden terrace and a detached double garage whose door opens onto a workshop full of tools. At the bottom of the garden, reached by a path of flagstones across the lawn, stands the annex, a small grey wooden house that the tenant rents, and his hens scratch in the grass. A new low picket fence runs between the lawn and the annex, and the garden gate opens onto the street. Rømmegrøt is thick, creamy-white sour-cream porridge with a golden pool of melted butter and cinnamon; lefse is a big, round, thin, soft flatbread.",
+  "palette": "A bright, breezy Tuesday in late May: freshly mown lawns, apple trees in white blossom, lilacs and tulips, a clean blue sky with fast white clouds and crisp noon light. Indoors: a pale birch-wood kitchen, white walls and the creamy white of the porridge with its golden butter.",
+  "cast": [
+    {
+      "slug": "hjelpegutten",
+      "name": "Hjelpegutten",
+      "promptName": "the Apprentice",
+      "replacesPortrait": "the-handyman-boy",
+      "description": "En kvikk syttenåring som jobber i garasjen, skjønner hva som foregår og gjør det til et veddemål om ti hundrelapper.",
+      "look": "A very skinny, quick lad of seventeen with a mousy-brown bowl haircut, a narrow, pale face with a pointed chin, a wide, sly grin and quick green eyes that miss nothing. He wears a faded brick-red hoodie, grease-stained brown work trousers that are a little too short, so his bony ankles show, and scuffed white trainers, and a round grey-green knitted beanie with a small pompom.",
+      "portrait": "Background: the open garage workshop."
+    },
+    {
+      "slug": "kona",
+      "name": "Kona",
+      "promptName": "the Wife",
+      "replacesPortrait": "the-wife",
+      "description": "Gift med en snill, nesten døv mann, men mer opptatt av leieboeren; hun holder forholdet skjult til hun blir lurt til å rope det ut over hele gata.",
+      "look": "A pretty, lively woman of about forty, of medium height, with a round, dimpled face, a small pointed nose, bright dark-brown eyes under arched eyebrows and wheat-blonde hair in a thick braid coiled into a bun at the back of her head with a red scrunchie. She wears a sky-blue knitted cardigan over a pale-yellow blouse, a red-and-white striped skirt, white trainers and a string of red glass beads.",
+      "portrait": "Background: the bright kitchen with the big window."
+    },
+    {
+      "slug": "mannen",
+      "name": "Den døve mannen",
+      "promptName": "the Husband",
+      "replacesPortrait": "the-deaf-husband",
+      "description": "En snill og tillitsfull mann som leser på munnen, går med hørselvern i garasjen og gjør det folk ber ham om.",
+      "look": "A huge, slow, kind-hearted man of about fifty-five, tall and broad as a garage door, with a long, calm face, a big round nose, sleepy pale-blue eyes under bushy eyebrows and a big, fan-shaped, straw-coloured beard, his straw-coloured hair combed straight back. He wears a black-and-white patterned Norwegian knitted sweater with pewter clasps, brown work trousers, heavy work boots and bright orange ear defenders, on his ears or round his neck.",
+      "portrait": "Background: the workbench in the garage."
+    },
+    {
+      "slug": "pal",
+      "name": "Pål Andrestuen",
+      "promptName": "Pål",
+      "replacesPortrait": "paal-andrestuen",
+      "description": "Den sjarmerende leieboeren i det lille grå huset i hagen, som har et hemmelig forhold til kona og blir fort redd når han tror mannen vet det.",
+      "look": "A soft, round-bellied man of about twenty-eight, shorter than most, with a round, pale, clean-shaven face, plump pink cheeks, a small upturned nose, big, droopy brown eyes and wavy light-brown hair combed into a proud quiff. He wears a tight lemon-yellow knitted vest over a pale-pink shirt, a floppy pink silk scarf knotted at the neck, grey chinos and polished brown loafers, with a wooden spoon sticking out of his shirt pocket.",
+      "portrait": "Background: the doorway of the little grey annex."
+    }
+  ],
+  "places": [
+    {
+      "slug": "hagen",
+      "name": "the Garden",
+      "look": "A tidy garden in a Norwegian housing estate: a white two-storey wooden house with a big kitchen window and a wooden terrace, a detached double garage with its door open onto a workshop, a green lawn crossed by a path of flagstones to a small grey wooden annex at the bottom of the garden, a new low white picket fence between the lawn and the annex, apple trees, and a gate onto a quiet street of similar houses."
+    }
+  ],
+  "cover": {
+    "prompt": "A sunny May morning in the Garden. In the open garage in the foreground, the Husband bends over his workbench with his orange ear defenders on, noticing nothing, while the Apprentice, coiling a garden hose, looks out through the door with one eyebrow raised. Out on the lawn, Pål tiptoes from the little grey annex towards the kitchen door of the white house, licking his lips, his wooden spoon in his hand.",
+    "characters": ["mannen", "hjelpegutten", "pal"],
+    "places": ["hagen"],
+    "caption": "Mannen hørte ingenting, men hjelpegutten så alt.",
+    "alt": "Pål lister seg over plenen mot kjøkkendøra med en skje i hånda. Inne i garasjen står mannen med hørselvern over arbeidsbenken og merker ingenting, men hjelpegutten ser alt."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 12,
+      "anchor": "«Ja», sa kona. «Sett dere.»",
+      "characters": ["mannen", "hjelpegutten", "kona", "pal"],
+      "prompt": "In the bright kitchen of the white house on a Tuesday morning, the Husband, his orange ear defenders round his neck, and the Apprentice sit at the kitchen table with bowls of sour-cream porridge, each with a golden eye of butter and a dusting of cinnamon. The Husband beams in amazement; the Apprentice glances sideways with a sly look. The Wife stands with her arms folded and a tight face. Behind her, the laundry-room door stands open a crack, and Pål peeks out.",
+      "caption": "«Rømmegrøt? På en tirsdag?» «Ja», sa kona. «Sett dere.»",
+      "alt": "Mannen og hjelpegutten sitter ved kjøkkenbordet med rømmegrøt med smørøye og kanel. Kona står med armene i kors. Døra til vaskerommet står på gløtt, og Pål kikker ut."
+    },
+    {
+      "id": "02",
+      "paragraph": 21,
+      "anchor": "Hun pakket ut lefse med smør og sukker og to flasker øl som åpenbart ikke var ment for mannen.",
+      "characters": ["kona", "mannen", "hjelpegutten"],
+      "places": ["hagen"],
+      "prompt": "Noon on the wooden terrace of the white house. The Husband and the Apprentice sit with a glass of water each, the brand-new picket fence gleaming behind them. The Wife, her short navy jacket just unbuttoned, unpacks lefse with butter and sugar and two bottles of beer onto the terrace table, with a stiff, bright smile. The Husband gazes at her in happy amazement, and the Apprentice hides a grin behind his glass.",
+      "caption": "Hun pakket ut lefse og to flasker øl som åpenbart ikke var ment for mannen.",
+      "alt": "Mannen og hjelpegutten sitter på terrassen med hvert sitt glass vann, med det nye gjerdet bak seg. Kona pakker ut lefse og to flasker øl og smiler et stivt smil."
+    },
+    {
+      "id": "03",
+      "paragraph": 30,
+      "anchor": "Pål sto ved vinduet.",
+      "characters": ["pal", "mannen", "hjelpegutten"],
+      "places": ["hagen"],
+      "prompt": "The Garden in bright noon light. Pål bursts out of the door of the little grey annex and flees along the path with his arms pumping like pistons, his wooden spoon flying, and leaps over the new picket fence. On the flagstones behind him, the Husband walks calmly towards the annex with a huge adjustable spanner, looking puzzled, and the Apprentice strolls after him with his hands in his pockets.",
+      "caption": "Så var Pål ute av døra, over det nye gjerdet og borte.",
+      "alt": "Pål løper ut av det lille grå annekset og hopper over det nye gjerdet med armene som stempler. Mannen kommer rolig bortover hellene med en stor skiftenøkkel, og hjelpegutten rusler etter."
+    },
+    {
+      "id": "04",
+      "paragraph": 35,
+      "anchor": "«Stein», sa gutten.",
+      "characters": ["kona", "hjelpegutten", "mannen"],
+      "prompt": "In the bright kitchen of the white house, the Wife stands at the big window with one hand pressed to her chest, staring out. Out on the flagstones across the lawn, the Husband comes slowly back from the grey annex, stooping to pick something up every third step. Beside her, the Apprentice, just in from the garden, says a single word with a perfectly straight face.",
+      "caption": "«Hva er det han plukker?» «Stein», sa gutten.",
+      "alt": "Kona står ved kjøkkenvinduet med hånda mot brystet og stirrer ut. Ute på hellene kommer mannen langsomt og bøyer seg etter noe for hvert tredje skritt. Ved siden av henne står hjelpegutten med et helt alvorlig ansikt."
+    },
+    {
+      "id": "05",
+      "paragraph": 45,
+      "anchor": "«Da er de ti hundrelappene mine!» ropte gutten fra porten.",
+      "characters": ["kona", "mannen", "hjelpegutten"],
+      "places": ["hagen"],
+      "prompt": "The quiet street of the housing estate at noon, with apple blossom in the gardens. The Wife runs down the middle of the street without her jacket, screaming, looking back over her shoulder. Behind her, the Husband jogs happily after her with bits of lefse sticking out of his pocket. A neighbour has switched off his lawnmower and stares; on a veranda, an elderly couple freeze with their coffee cups halfway to their mouths; curtains twitch aside. At the garden gate, the Apprentice cups his hands and shouts.",
+      "caption": "«Da er de ti hundrelappene mine!» ropte gutten fra porten.",
+      "alt": "Kona løper midt i gata og skriker, og mannen jogger fornøyd etter henne. En nabo har slått av gressklipperen, et eldre par stirrer med kaffekoppene i lufta, og gardinene glir til side. Ved porten roper hjelpegutten."
+    }
+  ]
+}

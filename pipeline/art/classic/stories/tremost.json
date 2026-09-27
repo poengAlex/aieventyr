@@ -1,0 +1,325 @@
+{
+  "storyId": "tremost",
+  "variants": {
+    "simplified": {
+      "title": "De tre mostrene",
+      "textFile": "public/content/stories/tremost/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Three Aunts",
+      "textFile": "public/content/stories/tremost/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, long ago. The royal manor is a big cluster of dark log buildings with turf roofs, carved gables and small leaded windows around a cobbled yard. The flax is soft, pale-gold fibre in a great heap; spun, it becomes smooth, shining pale-gold thread wound in coils; woven, it becomes a thick bolt of fine cream-white linen; sewn, it becomes a pile of white linen shirts with buttons. The Queen's other maids are three young women in grey wool dresses, white aprons and white linen caps. The wedding feast is held in the Great Hall, with a long table, candles and six guests in festive clothes.",
+  "palette": "A long, rainy late summer at the royal manor: silver rain on small leaded windows, dripping green gardens and soft grey-violet skies, then fresh, rain-washed mornings with sun on wet cobbles. Indoors: warm candle and firelight on pale-gold thread, cream linen and white shirts, and a wedding feast glowing with candles and red-and-green rosemaling. Accents: flax gold and the Queen's rainbow-striped knitting.",
+  "cast": [
+    {
+      "slug": "jenta",
+      "promptName": "the Girl",
+      "look": "A slim, cheerful hunter's daughter of about eighteen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder. She wears a plain pine-green linen dress with the sleeves rolled up, a short brown sheepskin vest, a leather belt and sturdy brown shoes, and has a blue jay feather tucked behind one ear.",
+      "portrait": "Background: a small leaded window with rain running down the glass.",
+      "variants": {
+        "simplified": {
+          "name": "Jenta",
+          "description": "Datteren til en fattig jeger; snill og vakker, men uten erfaring med håndarbeid, og redd for å bli avslørt ved hoffet.",
+          "replacesPortrait": "jenta"
+        },
+        "english": {
+          "name": "The Hunter’s Daughter",
+          "description": "A gentle, pretty young woman who comes to the royal manor seeking honest work, is cornered into impossible claims, and survives by accepting help she barely understands.",
+          "replacesPortrait": "hunters-daughter"
+        }
+      }
+    },
+    {
+      "slug": "bruden",
+      "promptName": "the Bride",
+      "look": "A slim young bride of about eighteen with an oval face dusted with freckles, a snub nose, big hazel eyes and a wide smile, her mousy-brown hair brushed out long and wavy over her shoulders under a tall silver bridal crown hung with little dangling spangles. She wears a long cream wool dress embroidered with red and green flowers at the hem and cuffs, a red woven sash, and a blue jay feather tucked behind one ear.",
+      "portrait": "Background: the candlelit Great Hall.",
+      "variants": {
+        "simplified": {
+          "name": "Bruden",
+          "description": "Jenta på bryllupsdagen, med brudekrone. Nå kommer hedersdagen, og hun har lovet å kalle tre gamle koner moster."
+        },
+        "english": {
+          "name": "The Bride",
+          "description": "The hunter’s daughter on her wedding day, in a bridal crown. Her day of honour has come, and she has promised to call three old women Aunt."
+        }
+      }
+    },
+    {
+      "slug": "dronningen",
+      "promptName": "the Queen",
+      "look": "A tall, willowy, kindly queen of about fifty with a long neck, a long oval face, crinkly grey eyes, a slightly long nose and dark hair streaked with silver in a low, coiled knot under a small gold crown. She wears a sea-green wool gown with a cream linen collar and a long rainbow-striped knitted shawl, and she is never without her knitting: two long wooden needles, a half-finished striped scarf and a ball of pink yarn.",
+      "portrait": "Background: a warm room with baskets of wool by the fire.",
+      "variants": {
+        "simplified": {
+          "name": "Dronningen",
+          "description": "Liker jenta godt og elsker håndarbeid, men lar seg lett påvirke av sladder og krav om prestasjoner.",
+          "replacesPortrait": "dronningen"
+        },
+        "english": {
+          "name": "The Queen",
+          "description": "A queen so fond of handiwork that she cannot sit through a meal without her knitting. She takes the new maid to her heart, and believes every tale the other maids tell her."
+        }
+      }
+    },
+    {
+      "slug": "prinsen",
+      "promptName": "the Prince",
+      "look": "A tall, slender, polite young prince of about twenty with a long, clean-shaven face, a dimpled chin, a long nose with a little bump, earnest dark eyes under thick eyebrows and short, tidy black curls. He wears a small silver circlet, a deep-teal wool tunic with a row of silver buttons, a cream linen shirt, charcoal breeches and tall tan leather boots.",
+      "portrait": "Background: the candlelit Great Hall.",
+      "variants": {
+        "simplified": {
+          "name": "Prinsen",
+          "description": "Blir glad i jenta og gifter seg med henne, men blir sjokkert når de tre «mostrene» dukker opp i bryllupet.",
+          "replacesPortrait": "prinsen"
+        },
+        "english": {
+          "name": "The Prince",
+          "description": "A young nobleman who marries the girl and, shocked by her “aunts,” draws the practical lesson that saves his bride from a life of punishing handiwork.",
+          "replacesPortrait": "the-prince"
+        }
+      }
+    },
+    {
+      "slug": "moster-langnese",
+      "promptName": "the Long-Nosed Aunt",
+      "look": "A small, slim, spry old woman of about eighty who holds herself very upright, with a kindly, wrinkled face, merry little blue eyes, rosy cheeks and crooked, work-worn hands. Her nose is enormous: thick as a cucumber at the root and nearly six feet long, it sticks straight out in front of her like a branch and ends in a round pink tip. Her white hair is in a small knot. She wears a long nut-brown dress and a big moss-green fringed shawl, and leans on a crooked walking stick.",
+      "portrait": "Background: a spinning wheel by a candlelit window.",
+      "variants": {
+        "simplified": {
+          "name": "Mosteren med den lange nesa",
+          "description": "Den første mosteren, som spinner alt linet for jenta på én natt. Hun har sittet ved rokken og hakket og nikket hele livet, og nå er nesa nesten to meter lang.",
+          "replacesPortrait": "de-tre-mostrene"
+        },
+        "english": {
+          "name": "The First Aunt (Long Nose)",
+          "description": "An old hag-like woman who spins flawless thread overnight and bears a nose stretched to an impossible length from years of spinning.",
+          "replacesPortrait": "first-aunt-long-nose"
+        }
+      }
+    },
+    {
+      "slug": "moster-bred",
+      "promptName": "the Broad-Hipped Aunt",
+      "look": "A short old woman of about eighty with narrow shoulders, a small round head and enormously broad hips and backside, so wide that she can only just squeeze through a door and her skirt looks like a haystack. She has a square little face, a snub nose, bright squinting eyes, a gap-toothed grin and grey hair in a tight bun under a small round black felt hat. She wears a huge, bell-shaped skirt with wide red and ochre stripes, a white blouse and a short dark-brown knitted jacket.",
+      "portrait": "Background: a big upright wooden loom.",
+      "variants": {
+        "simplified": {
+          "name": "Mosteren med den brede baken",
+          "description": "Den andre mosteren, som vever alt garnet til lerret på én natt. Hun har skubbet seg fram og tilbake på vevbenken hele livet, så nå kommer hun så vidt gjennom døra."
+        },
+        "english": {
+          "name": "The Second Aunt (Broad Backside)",
+          "description": "A misshapen old woman who weaves perfect cloth and is so enormously broad-hipped that she can scarcely fit through a doorway.",
+          "replacesPortrait": "second-aunt-broad-backside"
+        }
+      }
+    },
+    {
+      "slug": "moster-roede-oyne",
+      "promptName": "the Teary-Eyed Aunt",
+      "look": "A round-shouldered old woman of about eighty, of middle height, with a soft, wrinkled face and enormous round eyes as big as small plates, red-rimmed and always running with tears, so she keeps dabbing them with a big white lace handkerchief. Her silver hair is braided and pinned in a ring on top of her head. She wears a dusty-rose dress with a white collar, a red tomato-shaped pincushion on her wrist and a silver thimble on one finger.",
+      "portrait": "Background: a sewing table with spools of thread by candlelight.",
+      "variants": {
+        "simplified": {
+          "name": "Mosteren med de røde øynene",
+          "description": "Den tredje mosteren, som syr alle skjortene på én natt. Hun har stirret og sydd natt og dag siden hun var lita, og nå er øynene store som tallerkener, røde og rennende."
+        },
+        "english": {
+          "name": "The Third Aunt (Red Eyes)",
+          "description": "A frightening old woman who sews exquisite shirts overnight and has huge red, running eyes from a lifetime of staring at stitches.",
+          "replacesPortrait": "third-aunt-red-eyes"
+        }
+      }
+    }
+  ],
+  "places": [
+    {
+      "slug": "kammeret",
+      "name": "the Little Chamber",
+      "look": "A small room of its own up under the roof of the royal manor, with dark log walls and a low, beamed ceiling. A narrow wooden bed with a woollen blanket stands against one wall, a small table and a candlestick sit under a four-paned leaded window with rain running down the glass, a wooden spinning wheel stands beside it, a big upright wooden loom fills the far corner, and a plank door has an iron latch."
+    },
+    {
+      "slug": "storsalen",
+      "name": "the Great Hall",
+      "look": "A long, warm feasting hall of dark timber with a high ceiling and red-and-green rosemaling on the carved beams, lit by candles in iron chandeliers. Down the middle runs a long table covered with a white linen cloth and set with pewter dishes, tall candles and bowls of garden flowers, with benches and carved chairs along both sides. At one end stands a tall, carved double door."
+    }
+  ],
+  "cover": {
+    "prompt": "Night in the candlelit Little Chamber, rain streaking the small window. The Girl sits at the spinning wheel with a hopeless tangle of pale-gold flax in her lap and looks up in surprise: the door has creaked open, and three old faces peer round it, one above the other: the Long-Nosed Aunt at the top with her enormous nose poking far into the room, the Teary-Eyed Aunt in the middle dabbing her huge eyes, and the Broad-Hipped Aunt at the bottom, her wide striped skirt filling the doorway.",
+    "characters": ["jenta", "moster-langnese", "moster-roede-oyne", "moster-bred"],
+    "places": ["kammeret"],
+    "variants": {
+      "simplified": {
+        "caption": "Tre gamle koner kommer for å hjelpe jenta.",
+        "alt": "Jenta sitter ved rokken med en floke av lin i fanget. I døra titter tre gamle koner inn: én med kjempelang nese, én med store, rennende øyne og én med et kjempebredt, stripete skjørt."
+      },
+      "english": {
+        "caption": "Three old women come to help the girl.",
+        "alt": "The girl sits at the spinning wheel with a tangle of flax in her lap. Three old women peer round the door: one with an enormously long nose, one with huge, runny eyes and one with an enormous striped skirt."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["dronningen", "jenta"],
+      "prompt": "A warm room in the royal manor on a rainy day, rain on the small leaded windows. The Queen sits by the fire winding pale wool into a ball, while the Girl, newly arrived, holds the skein for her on outstretched hands; they smile at each other. In a dim corner, three maids in grey dresses, white aprons and white caps put their heads together, whispering and glaring.",
+      "variants": {
+        "simplified": {
+          "paragraph": 3,
+          "anchor": "Så la jenta i vei, og veien førte henne rett til kongsgården.",
+          "caption": "Dronningen kalte henne «vennen min» alt den første uka.",
+          "alt": "Dronningen sitter ved peisen og vinder garn, mens jenta holder hespa for henne. I en krok står tre tjenestejenter og hvisker."
+        },
+        "english": {
+          "paragraph": 3,
+          "anchor": "So off she went to find a place in service",
+          "caption": "Before long the Queen was letting her hold the skeins while she wound her wool.",
+          "alt": "The Queen sits by the fire winding wool while the girl holds the skein for her. In a corner, three maids stand whispering."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["jenta"],
+      "places": ["kammeret"],
+      "prompt": "The Little Chamber on a grey, rainy afternoon. The Girl sits at the spinning wheel crying, one foot on the treadle, and the wheel whirs round and round, while a great heap of pale-gold flax lies untouched beside her and a limp tangle of it droops from the wheel. Not a single thread. Rain streams down the small window.",
+      "variants": {
+        "simplified": {
+          "paragraph": 8,
+          "anchor": "Der satt hun og gråt.",
+          "caption": "Hjulet surret rundt og rundt, men garn ble det ikke av det.",
+          "alt": "Jenta sitter ved rokken og gråter. Hjulet surrer rundt, men ved siden av henne ligger en stor haug med lin, og garn blir det ikke."
+        },
+        "english": {
+          "paragraph": 8,
+          "anchor": "There she sat and cried.",
+          "caption": "The wheel whirred round and round, but no thread came of it.",
+          "alt": "The girl sits at the spinning wheel, crying. The wheel whirs round, but beside her lies a great heap of flax, and no thread comes of it."
+        }
+      }
+    },
+    {
+      "id": "03",
+      "characters": ["jenta", "moster-langnese"],
+      "places": ["kammeret"],
+      "prompt": "Night in the candlelit Little Chamber, rain on the black window. The Girl lies fast asleep in the narrow bed, smiling. At the spinning wheel sits the Long-Nosed Aunt, spinning so fast that the wheel is a blur, her enormous nose nodding up and down over the thread like a pecking bird, her walking stick leaning against the wall. Coils of smooth, shining pale-gold thread pile up on the table beside her.",
+      "variants": {
+        "simplified": {
+          "paragraph": 15,
+          "anchor": "Ja, det ville jenta gjerne. Hun gikk og la seg.",
+          "caption": "«Vil du kalle meg moster på hedersdagen din, så skal jeg spinne for deg.»",
+          "alt": "Jenta sover i senga. Ved rokken sitter ei gammel kone med en kjempelang nese og spinner så hjulet surrer, og blanke garnnøster hoper seg opp på bordet."
+        },
+        "english": {
+          "paragraph": 15,
+          "anchor": "The girl was glad to do that, and went and lay down.",
+          "caption": "“If you’ll call me Aunt on your day of honour, I’ll spin for you.”",
+          "alt": "The girl sleeps in her bed. At the spinning wheel an old woman with an enormously long nose spins so fast that the wheel whirs, and shining coils of thread pile up on the table."
+        }
+      }
+    },
+    {
+      "id": "04",
+      "characters": ["jenta", "moster-bred"],
+      "places": ["kammeret"],
+      "prompt": "The Little Chamber on a grey, rainy evening, coils of golden thread heaped by the big wooden loom. The Girl sits on the loom bench, crying into her hands. The door has just opened, and in comes an old woman again: the Broad-Hipped Aunt, her enormous striped skirt filling the whole doorway, peering at the Girl with bright, squinting eyes and a gap-toothed, friendly grin.",
+      "variants": {
+        "simplified": {
+          "paragraph": 21,
+          "anchor": "Der satt hun og gråt på nytt og visste ikke sin arme råd.",
+          "caption": "Så kom det inn ei gammel kone igjen.",
+          "alt": "Jenta sitter ved vevstolen og gråter. I døra kommer ei ny gammel kone med et kjempebredt, stripete skjørt."
+        },
+        "english": {
+          "paragraph": 21,
+          "anchor": "There she sat, crying and at her wits’ end, and in came an old woman again.",
+          "caption": "In came an old woman again. Not the same one, the girl thought.",
+          "alt": "The girl sits by the loom, crying. In the doorway appears another old woman, with an enormous striped skirt."
+        }
+      }
+    },
+    {
+      "id": "05",
+      "characters": ["dronningen", "jenta"],
+      "prompt": "A sunny, rain-washed morning in the Queen's room at the royal manor. The Queen claps her hands in delight over a neat pile of snow-white linen shirts on the table, each with a row of shining buttons, her knitting tucked under one arm. The Girl stands beside the table with her eyes lowered, saying nothing. In the doorway, three maids in grey stare at the shirts, sour-faced.",
+      "variants": {
+        "simplified": {
+          "paragraph": 32,
+          "anchor": "Da dronningen fikk se arbeidet, slo hun hendene sammen.",
+          "caption": "«Så vakker søm har jeg aldri verken hatt eller sett!»",
+          "alt": "Dronningen slår hendene sammen over en stabel hvite skjorter med knapper. Jenta står stille ved bordet, og i døra står tjenestejentene og surmuler."
+        },
+        "english": {
+          "paragraph": 32,
+          "anchor": "When the Queen saw the work",
+          "caption": "“Such stitching I have never had nor seen!”",
+          "alt": "The Queen claps her hands over a pile of white shirts with buttons. The girl stands quietly by the table, and in the doorway the maids look sour."
+        }
+      }
+    },
+    {
+      "id": "06",
+      "characters": ["bruden", "moster-langnese", "prinsen"],
+      "places": ["storsalen"],
+      "prompt": "The wedding feast in the candlelit Great Hall. The Bride has risen from her seat beside the Prince at the long table and sinks into a deep curtsy towards the tall door, smiling as sweetly as she can. There stands the Long-Nosed Aunt, leaning on her stick, her enormous nose reaching far into the hall over the dishes. Six guests in festive clothes shrink back and whisper behind their napkins, and the Prince stares, astonished.",
+      "variants": {
+        "simplified": {
+          "paragraph": 37,
+          "anchor": "Bruden reiste seg, neiet dypt og smilte så pent hun kunne.",
+          "caption": "«God dag, moster!» sa bruden.",
+          "alt": "I bryllupet reiser bruden seg og neier dypt for ei gammel kone i døra, som har en kjempelang nese. Gjestene trekker seg unna, og prinsen stirrer."
+        },
+        "english": {
+          "paragraph": 37,
+          "anchor": "The bride rose, sank into a deep curtsy",
+          "caption": "“Good day, Aunt!”",
+          "alt": "At the wedding feast the bride rises and curtsies deeply to an old woman in the doorway with an enormously long nose. The guests shrink back, and the Prince stares."
+        }
+      }
+    },
+    {
+      "id": "07",
+      "characters": ["moster-roede-oyne", "bruden", "moster-langnese", "moster-bred", "prinsen"],
+      "places": ["storsalen"],
+      "prompt": "In the candlelit Great Hall, the Teary-Eyed Aunt comes in through the tall door, her enormous round eyes red and streaming, dabbing them with her handkerchief. The Bride rises once more to greet her with a warm smile. At the long table the Long-Nosed Aunt sits with her nose stretching out over the dishes, and the Broad-Hipped Aunt is wedged in beside her, her huge skirts spilling out on both sides. The Prince sits very still, forcing a smile.",
+      "variants": {
+        "simplified": {
+          "paragraph": 47,
+          "anchor": "Men knapt hadde hun satt seg",
+          "caption": "Hun hadde øyne så store som tallerkener, røde og rennende.",
+          "alt": "Ei tredje gammel kone med store, røde og rennende øyne kommer inn i salen, og bruden reiser seg igjen. Ved bordet sitter mosteren med den lange nesa og mosteren med den brede baken."
+        },
+        "english": {
+          "paragraph": 46,
+          "anchor": "But she had hardly sat down when in came a third ugly old woman",
+          "caption": "In came a third ugly old woman, with eyes as big as dinner plates.",
+          "alt": "A third old woman with huge, red, runny eyes comes into the hall, and the bride rises again. At the table sit the aunt with the long nose and the aunt with the broad backside."
+        }
+      }
+    },
+    {
+      "id": "08",
+      "characters": ["prinsen", "bruden", "moster-langnese", "moster-bred", "moster-roede-oyne"],
+      "places": ["storsalen"],
+      "prompt": "Late in the wedding feast in the Great Hall, the candles burning low. The Prince has risen at the long table and makes his declaration with one hand raised. Beside him the Bride keeps her face grave and her hands folded, but her eyes are shining. Along the table the three aunts nod solemnly: the Long-Nosed Aunt tapping her nose, the Broad-Hipped Aunt patting her hips and the Teary-Eyed Aunt dabbing her eyes.",
+      "variants": {
+        "simplified": {
+          "paragraph": 55,
+          "anchor": "«Jaså», sa prinsen.",
+          "caption": "«Så skal bruden min aldri i sine dager verken spinne eller veve eller sy mer!»",
+          "alt": "Prinsen har reist seg ved bordet og løfter hånden. Bruden sitter alvorlig med hendene i fanget, men øynene hennes skinner. Langs bordet nikker de tre mostrene."
+        },
+        "english": {
+          "paragraph": 53,
+          "anchor": "“Is that so?” said the Prince.",
+          "caption": "“My bride shall never spin nor weave nor sew another day in her life!”",
+          "alt": "The Prince has risen at the table with one hand raised. The bride sits gravely with her hands folded, but her eyes are shining. Along the table the three aunts nod."
+        }
+      }
+    }
+  ]
+}

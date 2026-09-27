@@ -1,0 +1,125 @@
+{
+  "storyId": "spurning",
+  "variants": {
+    "simplified": {
+      "title": "Spørsmålet",
+      "textFile": "public/content/stories/spurning/simplified/story.txt"
+    },
+    "english": {
+      "title": "The Question",
+      "textFile": "public/content/stories/spurning/english/story.txt"
+    }
+  },
+  "world": "Old rural Norway, long ago. The King's manor is a cluster of dark, tarred timber buildings with steep turf roofs on a green rise above ploughed fields where muck has just been spread, with a winding road and birch groves below. The Princess receives her suitors in the manor's hall, which has small-paned windows, walls painted with red and blue rosemaling flowers, a long carved oak table and the King's tall carved high seat. Askeladden's finds are a small ring of twisted green willow, a shard of a broken blue-and-white bowl, a dead black-and-white magpie, two crooked goat horns that look exactly alike, and an old, worn-out leather shoe sole with a hole right through it. He carries them in a patched brown sack.",
+  "palette": "A windy spring day: white clouds racing across a bright blue sky, fresh yellow-green birch leaves, young grass and dark, freshly manured fields, with cloaks, hair and grass all blowing in the wind. Inside the hall: clear, cool daylight through small windows on warm wood and red and blue rosemaling.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "promptName": "Askeladden",
+      "look": "A slim, lean young man of about eighteen with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded wool cloak fastened with a wooden toggle over a knee-length ochre tunic with a woven belt, dark-grey trousers and soft brown leather shoes, and carries a patched brown sack.",
+      "portrait": "Background: a windy spring field with the royal manor on its rise.",
+      "variants": {
+        "simplified": {
+          "name": "Askeladden",
+          "description": "Den yngste broren, rolig og oppfinnsom, som samler småting på veien og bruker dem til å vende prinsessas ord mot henne.",
+          "replacesPortrait": "askeladden"
+        },
+        "english": {
+          "name": "Askeladden",
+          "description": "The youngest brother, underestimated but quick-witted, who carries strange roadside items and turns the Princess’s jabs back on her.",
+          "replacesPortrait": "askeladden"
+        }
+      }
+    },
+    {
+      "slug": "prinsessa",
+      "promptName": "the Princess",
+      "look": "A quick-witted princess of about eighteen, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun with a small silver crown pinned in front of it. She wears a long lilac wool gown with a fitted bodice, long sleeves and silver embroidery at the neckline, and small silver earrings.",
+      "portrait": "Background: the manor hall with rosemaling on the walls.",
+      "variants": {
+        "simplified": {
+          "name": "Prinsessa",
+          "description": "Kongens datter som er vrien i ord og alltid finner en utvei, helt til hun møter en som svarer enda raskere.",
+          "replacesPortrait": "prinsessa"
+        },
+        "english": {
+          "name": "The Princess",
+          "description": "A sharp-tongued, contrary royal who prides herself on always having the last word—until Askeladden leaves her speechless.",
+          "replacesPortrait": "princess"
+        }
+      }
+    },
+    {
+      "slug": "kongen",
+      "promptName": "the King",
+      "look": "A tired, stooped, elderly king with a long, gentle, wrinkled face, sleepy grey eyes with heavy bags under them, bushy grey eyebrows and a huge, drooping grey moustache that hangs down past his chin, but no beard. He wears a long mustard-yellow robe with a brown fur collar, a simple gold crown that always sits askew, and soft brown slippers.",
+      "portrait": "Background: his carved high seat in the manor hall.",
+      "variants": {
+        "simplified": {
+          "name": "Kongen",
+          "description": "Faren som lover bort prinsessa og halve kongeriket til den som klarer å fange henne i ordene hennes.",
+          "replacesPortrait": "kongen"
+        },
+        "english": {
+          "name": "The King",
+          "description": "The ruler who promises his daughter and half the kingdom to anyone who can silence her.",
+          "replacesPortrait": "king"
+        }
+      }
+    }
+  ],
+  "cover": {
+    "prompt": "On a windy spring day, Askeladden strides up the winding road towards the royal manor on its green rise, his brown cloak flapping, his bulging sack over his shoulder and a crooked goat horn in his hand. In the open door of the manor hall, the Princess stands waiting with her arms crossed and her chin up, one sharp eyebrow raised. White clouds race across the bright blue sky, and the young birch leaves shine yellow-green.",
+    "characters": ["askeladden", "prinsessa"],
+    "variants": {
+      "simplified": {
+        "caption": "Askeladden er på vei til den vrange prinsessa med en sekk full av rare ting.",
+        "alt": "Askeladden går opp veien mot kongsgården med sekken over skulderen og et bukkehorn i hånda. I døra står prinsessa med armene i kors og venter."
+      },
+      "english": {
+        "caption": "Askeladden is on his way to the contrary Princess with a sack full of odd things.",
+        "alt": "Askeladden walks up the road to the King's manor with his sack over his shoulder and a goat horn in his hand. In the doorway, the Princess waits with her arms crossed."
+      }
+    }
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "characters": ["askeladden"],
+      "prompt": "On a windy spring day, Askeladden crouches in a dark, freshly manured field below the royal manor on its green rise and holds up an old, worn-out shoe sole, peering through the hole in it with one eye and a delighted grin. His patched sack hangs open from his shoulder, showing a ring of twisted willow, a shard of a blue-and-white bowl, two crooked goat horns and the black-and-white tail feathers of a magpie. White clouds race overhead.",
+      "variants": {
+        "simplified": {
+          "paragraph": 2,
+          "anchor": "Da han hadde gått et stykke, fant han en vidjespenning",
+          "caption": "Han fant en gammel skosåle, så utgått at den var slitt tvers igjennom.",
+          "alt": "Askeladden sitter på huk på et gjødslet jorde nedenfor kongsgården og kikker gjennom hullet i en gammel skosåle. I sekken har han en vidjespenning, et skår, to bukkehorn og en skjære."
+        },
+        "english": {
+          "paragraph": 2,
+          "anchor": "A little way along the road he found a willow withy",
+          "caption": "He found an old shoe sole, so worn out it had a hole right through it.",
+          "alt": "Askeladden crouches in a freshly manured field below the King's manor, peering through the hole in an old shoe sole. In his sack are a willow ring, a bowl shard, two goat horns and a magpie."
+        }
+      }
+    },
+    {
+      "id": "02",
+      "characters": ["prinsessa", "askeladden", "kongen"],
+      "prompt": "In the manor's bright hall with red and blue rosemaling on the walls, the Princess stands speechless for the first time in her life, her mouth half open and one hand raised, but not a word comes out. In front of her, Askeladden calmly holds up the worn-out shoe sole with a lopsided grin. The willow ring, the bowl shard and the two goat horns lie on the long oak table. In his carved high seat, the King leans forward, gripping the armrests in astonishment.",
+      "variants": {
+        "simplified": {
+          "paragraph": 18,
+          "anchor": "Da var prinsessa målbundet.",
+          "caption": "Da var prinsessa målbundet.",
+          "alt": "Prinsessa står med åpen munn i salen og får ikke fram et ord. Askeladden holder opp en utslitt skosåle, og kongen lener seg fram i høysetet."
+        },
+        "english": {
+          "paragraph": 17,
+          "anchor": "And then the Princess was tongue-tied.",
+          "caption": "And then the Princess was tongue-tied.",
+          "alt": "The Princess stands open-mouthed in the hall, unable to get a word out. Askeladden holds up a worn-out shoe sole, and the King leans forward on his throne."
+        }
+      }
+    }
+  ]
+}

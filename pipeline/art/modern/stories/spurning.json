@@ -1,0 +1,71 @@
+{
+  "storyId": "spurning",
+  "title": "Spørsmålet",
+  "textFile": "public/content/stories/spurning/modern/story.txt",
+  "world": "Present-day Norway. The Tycoon's villa stands by the sea: a long, white modernist house of glass and concrete with a driveway lined with tall potted palms, a wide lawn, a gleaming white kitchen with a marble counter that nobody has ever cooked on, a huge living room with a thick pale carpet, and a marble foyer with tall glass doors facing the fjord, overlooked by an open gallery. Askeladden's finds are a black zip tie, a shard of a white saucer wrapped in a paper napkin, a dead magpie, two crooked old brass bicycle horns with black rubber bulbs that look exactly alike, and an old, worn-out shoe sole with a hole right through it. He carries them in a patched brown tote bag.",
+  "palette": "A bright, windy spring day by the sea: racing white clouds, a glittering blue-grey fjord and fresh yellow-green lawns and birches along the road. Inside the villa: cool white marble, glass and pale stone, with the lilac of her suit and the warm brass of the horns as the only strong colours.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "promptName": "Askeladden",
+      "replacesPortrait": "askeladden",
+      "description": "Lillebroren fra et småbruk i innlandet, som tar bussen til villaen og plukker med seg alt han finner i veikanten, slik han alltid har gjort.",
+      "look": "A slim, lean young man of about twenty with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded canvas jacket over an ochre hoodie, dark-grey jeans and worn brown trainers, and carries a patched brown tote bag over his shoulder.",
+      "portrait": "Background: a windy coastal road with a bus stop."
+    },
+    {
+      "slug": "dattera",
+      "name": "Dattera",
+      "promptName": "the Heiress",
+      "replacesPortrait": "heiress",
+      "description": "Konsernsjefens datter, så kvass i ord at journalister, styreledere og friere har forlatt villaen med blikket til folk som har gått rett i en glassdør.",
+      "look": "A quick-witted young woman of about twenty-five, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun held by a slim silver clip. She wears a sharply tailored lilac trouser suit over a white silk top, small silver earrings and pointed silver-grey heels.",
+      "portrait": "Background: the white marble foyer of the villa with glass doors to the sea."
+    },
+    {
+      "slug": "konsernsjefen",
+      "name": "Konsernsjefen",
+      "promptName": "the Tycoon",
+      "replacesPortrait": "tycoon-father",
+      "description": "Faren som i et direktesendt intervju lover bort dattera og halve konsernet til den som klarer å gjøre henne målløs, og som mener det som en spøk.",
+      "look": "A tired, stooped, elderly businessman with a long, gentle, wrinkled face, sleepy grey eyes with heavy bags under them, bushy grey eyebrows and a huge, drooping grey moustache that hangs down past his chin, but no beard. He wears a mustard-yellow cashmere cardigan over a white shirt, dark trousers and soft brown loafers, with gold-rimmed reading glasses pushed up crookedly on his head.",
+      "portrait": "Background: the open gallery above the marble foyer."
+    }
+  ],
+  "cover": {
+    "prompt": "On the palm-lined driveway of the long white villa by the sea, Askeladden walks up with his bulging tote bag over his shoulder and a crooked brass bicycle horn in his hand. In the tall glass door at the top of the steps, the Heiress stands in her lilac suit with her arms crossed and one sharp eyebrow raised. White clouds race across a bright spring sky over the glittering fjord.",
+    "characters": ["askeladden", "dattera"],
+    "caption": "Askeladden er på vei til villaen med ei veske full av rare ting.",
+    "alt": "Askeladden går opp oppkjørselen med palmer mot en hvit villa ved sjøen, med ei veske over skulderen og et sykkelhorn i hånda. I glassdøra står dattera med armene i kors."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "Han tok bussen og gikk det siste stykket.",
+      "characters": ["askeladden"],
+      "prompt": "On the verge of a quiet coastal road on a windy spring day, just after the bus has pulled away, Askeladden crouches by the ditch and reaches into a bush for a crooked old brass bicycle horn, already holding its exact twin in his other hand. His patched tote bag on the grass holds a black zip tie, a saucer shard wrapped in a paper napkin and the black-and-white tail of a magpie. White clouds race over the fjord.",
+      "caption": "Ti meter lenger borte lå maken til det. Askeladden tok med alt.",
+      "alt": "Askeladden sitter på huk i veikanten og plukker opp et gammelt sykkelhorn av messing. Maken holder han i den andre hånda, og i veska har han en strips, et skår og en skjære."
+    },
+    {
+      "id": "02",
+      "paragraph": 17,
+      "anchor": "«Nei, jeg er ikke krokete», sa Askeladden.",
+      "characters": ["askeladden", "dattera"],
+      "prompt": "In the villa's huge living room, with a thick pale carpet and tall windows onto the sea, the Heiress walks away in her lilac suit and glances back over her shoulder with a cutting look. Behind her, Askeladden holds up a crooked old brass bicycle horn and squeezes its black rubber bulb with a perfectly straight face. Through a doorway behind them, the gleaming white kitchen with its marble counter can be seen.",
+      "caption": "«Nei, jeg er ikke krokete», sa Askeladden. «Men dette er krokete.»",
+      "alt": "Dattera går over teppet i stua i lilla dress og ser seg tilbake over skulderen. Askeladden holder opp et krokete sykkelhorn av messing og klemmer på ballongen."
+    },
+    {
+      "id": "03",
+      "paragraph": 25,
+      "anchor": "Hun svarte ikke.",
+      "characters": ["dattera", "askeladden", "konsernsjefen"],
+      "prompt": "In the marble foyer of the villa, the Heiress, speechless for the first time in her life, her lips pressed together, pulls the tall glass door shut again with the glittering fjord behind it. Askeladden stands before her holding an old, worn-out shoe sole with a hole right through it and a calm, lopsided smile. Up on the open gallery above them, the Tycoon slowly sets down his coffee cup.",
+      "caption": "Hun svarte ikke. Men hun lukket glassdøra.",
+      "alt": "I foajeen lukker dattera glassdøra igjen uten å si et ord. Askeladden står foran henne med en utslitt skosåle, og oppe på galleriet setter faren fra seg kaffekoppen."
+    }
+  ]
+}

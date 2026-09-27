@@ -128,8 +128,8 @@
     "prompt": "The Master Thief leans against a rusty farm gate at the foot of a long birch avenue in the blue, rainy dusk, tipping his tilted flat cap to the viewer with a sly grin, a big lumpy sack over one shoulder. Behind him, at the top of the avenue, the white main house of the Big Farm has one lit window, and a white goose peers round the gatepost.",
     "characters": ["mestertyven"],
     "places": ["storgarden"],
-    "caption": "Mestertyven lurte både ranere, en bonde, stormannen og presten.",
-    "alt": "Mestertyven i grønn parkas og skjev sixpence lener seg mot en grind i regnet og løfter på lua med et lurt smil. Han har en stor sekk over skulderen. Bak ham ligger en stor, hvit gård med lys i ett vindu."
+    "caption": "Mestertyven lurte både ranerne, bonden, stormannen og presten.",
+    "alt": "Mestertyven i grønn parkas og skjev sixpence lener seg mot en grind i regnet og løfter på sixpencen med et lurt smil. Han har en stor sekk over skulderen. Bak ham ligger en stor, hvit gård med lys i ett vindu."
   },
   "illustrations": [
     {
@@ -138,7 +138,7 @@
       "anchor": "Det gjorde han også, ned til krysset ved riksveien, der tre veier går hver sin vei.",
       "characters": ["faren", "mestertyven"],
       "prompt": "A crossroads by a main road on a grey, drizzly morning: one road leads into dark spruce forest, one over a bare hill and one along a river. The Father stands on the verge, wrapped in his striped blanket, watching them go. His three sons walk away, one on each road, each with a backpack: a tall young man over the hill, a stocky one along the river, and the Master Thief into the forest, glancing back with a grin.",
-      "caption": "Ved krysset ved riksveien tok de hver sin vei.",
+      "caption": "Ved riksveien, der tre veier går hver sin vei, tok de hver sin.",
       "alt": "Faren står i veikanten ved et veikryss og ser etter sønnene sine. Tre unge menn med ryggsekk går hver sin vei, og den yngste går inn i skogen og ser seg tilbake med et glis."
     },
     {
