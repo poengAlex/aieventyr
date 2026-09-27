@@ -1,0 +1,63 @@
+{
+  "storyId": "hanenoghoen",
+  "title": "Hanen og høna",
+  "textFile": "public/content/stories/hanenoghoen/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago, where the farm birds can talk. The hen and the rooster live on a small hillside farm with a little red henhouse on short stilts. From the farm gate, a muddy gravel road winds down past bare birches to a small town far away in the valley, with a white church and red and yellow wooden houses. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding exactly six light-brown eggs. The hen and the rooster are natural birds without clothes, and the hen is barefoot; she carries her basket hooked over one wing.",
+  "palette": "Early spring thaw: the last grey patches of snow melting in the shade, rich brown mud and shining puddles, bare birches with the first pale-green buds, yellow coltsfoot flowers along the road, and a washed, pale-blue sky with soft, cool sunshine.",
+  "cast": [
+    {
+      "slug": "honen",
+      "name": "Hønen",
+      "promptName": "the Hen",
+      "replacesPortrait": "honen",
+      "description": "En flittig høne som verper egg hver dag, går barbeint og har ventet på skoene sine i år etter år.",
+      "look": "A plump, round, busy farm hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a small neat red comb and tiny red wattles, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare, bright-yellow feet are big, with long, spread-out toes. She carries a small round wicker basket lined with straw over one wing.",
+      "portrait": "Background: the little red henhouse and a shining puddle."
+    },
+    {
+      "slug": "hanen",
+      "name": "Hanen",
+      "promptName": "the Rooster",
+      "replacesPortrait": "hanen",
+      "description": "En omsorgsfull hane som vil hjelpe, og som foreslår en enkel og positiv plan så Hønen kan få det bedre.",
+      "look": "A tall, handsome farm rooster speckled all over in rust-red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a big red comb that flops over to one side, short red wattles, kind hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of dark bronze sickle feathers. He looks gentle and a little sheepish, and likes to point with one wing.",
+      "portrait": "Background: the farm gate and the muddy road to town."
+    }
+  ],
+  "places": [
+    {
+      "slug": "tunet",
+      "name": "the Farmyard",
+      "look": "A small, muddy farmyard on a hillside: a little red-painted henhouse on short stilts with a wooden ramp and a tiny door, a stacked woodpile with a chopping block, a grey split-rail fence with an open gate, shining puddles and a few patches of melting snow. Through the gate, a muddy road winds down past bare birches towards a small town far away in the valley, with a white church and red and yellow houses."
+    }
+  ],
+  "cover": {
+    "prompt": "In the Farmyard, the Hen stands at the edge of a shining puddle with her basket of six eggs hooked over one wing, lifting one bare yellow foot and looking down at her cold toes with a big sigh. Behind her, the Rooster stands on top of the woodpile, puffing out his chest and crowing at the morning sun. Patches of melting snow and bare birches around them.",
+    "characters": ["honen", "hanen"],
+    "places": ["tunet"],
+    "caption": "Hønen har ventet på sko i år etter år.",
+    "alt": "Hønen står ved en vanndam på tunet med en kurv egg på vingen og ser ned på de bare føttene sine. Bak henne står Hanen på vedstabelen og galer."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "«Jeg verper egg hver dag», sa Hønen og løftet kurven, «og likevel går jeg barbeint!»",
+      "characters": ["honen", "hanen"],
+      "places": ["tunet"],
+      "prompt": "Medium view in the muddy Farmyard in front of the red henhouse: the Hen, her feathers fluffed up in indignation, lifts her basket of six eggs high with one wing and points at her bare, muddy yellow feet with the other, scolding. Facing her, the Rooster tilts his head and nods kindly, one wing pressed to his chest as if making a promise. Puddles shine around them in the cool spring sunshine.",
+      "caption": "«Jeg verper egg hver dag», sier Hønen, «og likevel går jeg barbeint!»",
+      "alt": "Hønen står på det gjørmete tunet og løfter kurven med seks egg, mens hun peker på de bare føttene sine. Hanen står foran henne og nikker vennlig."
+    },
+    {
+      "id": "02",
+      "paragraph": 5,
+      "anchor": "«Så lurt!» sa Hønen.",
+      "characters": ["hanen", "honen"],
+      "places": ["tunet"],
+      "prompt": "Wide view from the gate of the Farmyard: the Rooster stands on the gatepost, pointing one wing proudly down the muddy road that winds past bare birches to the little town far away in the valley. Beside the gate, the Hen hugs her basket of six eggs, her beak open in a delighted gasp and her eyes shining at the idea. Bright spring sunshine breaks through the clouds, and the puddles on the road glitter.",
+      "caption": "«Så lurt!» sier Hønen. «Hvorfor sa du ikke det før?»",
+      "alt": "Hanen står på grindstolpen og peker med vingen nedover veien mot en liten by langt borte. Hønen klemmer eggekurven og ser glad og overrasket ut."
+    }
+  ]
+}

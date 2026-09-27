@@ -1,0 +1,73 @@
+{
+  "storyId": "gjertrud",
+  "title": "Gjertrudsfuglen",
+  "textFile": "public/content/stories/gjertrud/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago, in the days when Our Lord and St Peter wandered the earth. Gjertrud's home is a small, low log cottage with a thick snow-covered turf roof and a squat grey stone chimney, alone at the edge of a snowy spruce forest. Inside is one warm, firelit room: an open stone hearth with a big, round, flat iron griddle over the embers, a long wooden baking board dusted with flour, a rolling pin, a wooden bench by the door, and a tall stack of lefser, which are big, thin, round, soft flatbreads, pale with brown speckles. Every lefse she rolls, however tiny the lump of dough, grows on the griddle until it is far too big.",
+  "palette": "Deep midwinter on a still, snowy afternoon turning to dusk: soft white snow on roofs and spruces, cool blue shadows and a low pink-and-lavender sky. Inside the cottage: warm amber firelight, golden-brown lefser and pale flour. The bright scarlet of the red cap is the one strong accent colour, later joined by the bird's sooty black.",
+  "cast": [
+    {
+      "slug": "gjertrud",
+      "name": "Gjertrud",
+      "promptName": "Gjertrud",
+      "replacesPortrait": "gjertrud",
+      "description": "En kone med rød lue som baker lefser og har mer enn nok, men som ikke vil dele en eneste bit.",
+      "look": "A stout, square-built farm woman of about fifty-five with a square jaw, pinched thin lips, a sharp little upturned nose, small darting black eyes and two thick iron-grey plaits hanging over her shoulders. On her head sits a tall, pointed, bright scarlet knitted stocking cap with a tassel at the tip. She wears a black wool bodice over a white blouse with rolled-up sleeves, a long charcoal-grey skirt and a flour-dusted white apron.",
+      "portrait": "Background: her firelit hearth with the big round lefse griddle."
+    },
+    {
+      "slug": "varherre",
+      "name": "Vårherre",
+      "promptName": "Our Lord",
+      "replacesPortrait": "varherre",
+      "description": "En vennlig vandrer som ber høflig om en liten smakebit og minner om at det er godt å dele.",
+      "look": "A very old, tall and slightly stooped wanderer with a long, gentle face, deep-set kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long, flowing white beard that reaches his belt. He wears a plain, ankle-length hooded brown homespun robe tied with a rope, and simple sandals over woollen foot-wraps. He leans on a tall, knobbly wooden staff. A humble traveller with no halo.",
+      "portrait": "Background: a snowy spruce forest at dusk."
+    },
+    {
+      "slug": "sankt-peder",
+      "name": "Sankt Peder",
+      "promptName": "St Peter",
+      "replacesPortrait": "sankt-peder",
+      "description": "En trofast følgesvenn på vandringen som står ved siden av og følger med.",
+      "look": "A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a knee-length faded green tunic with a leather belt, brown woollen leggings, a short brown hooded cape and worn leather boots. A small bronze key hangs from his belt. No halo.",
+      "portrait": "Background: the snowy path up to the cottage."
+    },
+    {
+      "slug": "gjertrudsfuglen",
+      "name": "Gjertrudsfuglen",
+      "promptName": "the Red-Capped Bird",
+      "replacesPortrait": "gjertrudsfuglen",
+      "description": "Den lille fuglen Gjertrud blir til, mørk av sot men fortsatt med en rød lue, som leter etter mat i trær og gleder seg til regn.",
+      "look": "A small black woodpecker, sooty black all over from beak to tail with slightly ruffled, soot-smudged feathers, and on top of its head a bright scarlet crest shaped exactly like a tiny pointed stocking cap with a tassel. It has a strong, pointed ivory-white beak, round pale-yellow eyes with a slightly grumpy look, stiff black tail feathers for propping itself against tree trunks and grey clawed feet for clinging to bark.",
+      "portrait": "Background: a mossy spruce trunk in the snowy forest."
+    }
+  ],
+  "places": [],
+  "cover": {
+    "prompt": "At the edge of a snowy spruce forest in the pink winter dusk, Our Lord and St Peter walk up a trodden path towards a small snow-covered cottage, sniffing the air with happy, hungry faces as a curl of smoke rises from the chimney. Through the warm, glowing window, Gjertrud in her bright red cap can be seen bent over her baking. Their footprints trail behind them in the snow.",
+    "characters": ["varherre", "sankt-peder", "gjertrud"],
+    "places": [],
+    "caption": "Vårherre og Sankt Peder kommer til et hus der det lukter nybakt.",
+    "alt": "To vandringsmenn går gjennom snøen mot et lite hus der det ryker fra pipa. Gjennom det lyse vinduet ser vi Gjertrud med rød lue, som står og baker."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 8,
+      "anchor": "Tredje gangen tok hun en klump så liten som et sandkorn.",
+      "characters": ["gjertrud", "varherre", "sankt-peder"],
+      "prompt": "Inside the warm, firelit cottage, Gjertrud leans back from the hearth with wide eyes and her rolling pin raised, as the third lefse on the big round iron griddle swells bigger and bigger and flops over the edges. Beside her stands a tall stack of huge lefser, reaching almost to the top of the window. On the bench by the door sit Our Lord and St Peter with snow on their shoulders and hands on their rumbling tummies, watching hopefully. Blue snowy dusk outside.",
+      "caption": "Og lefsa vokser, større og større og STØRRE!",
+      "alt": "Gjertrud står ved grua med kjevla i været og ser at lefsa på takka blir kjempestor. Ved siden av står en høy stabel med lefser. På benken ved døra sitter Vårherre og Sankt Peder og venter."
+    },
+    {
+      "id": "02",
+      "paragraph": 12,
+      "anchor": "Svisj! Og så var Gjertrud en liten fugl.",
+      "characters": ["gjertrudsfuglen"],
+      "prompt": "Outside the little snow-covered cottage at dusk, the Red-Capped Bird pops out of the top of the stone chimney in a big puff of black soot, sooty black all over and blinking in surprise, with only the little pointed scarlet cap on her head still bright red. Black soot flecks drift down onto the white snow on the turf roof. Warm firelight glows in the small window below, and snowy spruces stand behind under a lavender sky.",
+      "caption": "Ut på toppen kom hun, svart over hele seg. Bare lua var like rød.",
+      "alt": "En liten, kullsvart fugl med ei knallrød lue på hodet kommer opp av pipa på et lite hus med snø på taket, i en sky av sot."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "storyId": "smehel",
+  "title": "Smeden som Djevelen ikke turte slippe inn",
+  "textFile": "public/content/stories/smehel/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago. The smith's smithy is a squat log building with a grass-covered turf roof, soot-blackened walls and wide double doors, standing beside a dusty country road. A gnarled old pear tree, heavy with ripe yellow pears, grows against its sunny side wall. The wire purse is a small, round coin purse of woven silver-grey steel wire, the size of a child's hand, with a snap clasp. The smith's big hammer is a heavy iron sledgehammer with a long ash handle. Far along the road, the way splits in two: one road climbs a green hill into soft white clouds to the gate of heaven, a tall arched gate of white-painted wood with gold hinges; the other dips into a smoky, rocky gully to the Devil's gate, a tall, crooked, soot-black iron gate with nine big iron locks in a row and one huge padlock.",
+  "palette": "Bright, hot high summer: clear sunshine, a deep cornflower-blue sky with fat white clouds, lush green grass, a dusty yellow road and the pear tree's glossy dark-green leaves and ripe yellow pears. Inside the smithy: sooty charcoal greys and browns, glowing orange embers and bright sparks. At the gate of heaven: soft white clouds and pale gold light; at the Devil's gate: a smoky plum-purple haze.",
+  "cast": [
+    {
+      "slug": "smeden",
+      "name": "Smeden",
+      "promptName": "the Smith",
+      "replacesPortrait": "smeden",
+      "description": "En flink, men skrytete smed som lurer Djevelen med tre ønsker og til slutt må finne ut hvor han hører hjemme.",
+      "look": "A tall, long-legged blacksmith of about forty with a broad barrel chest and thick, strong forearms, a long, cocky face with a jutting chin, a big bumpy nose, twinkling hazel eyes, a chestnut-brown handlebar moustache curled up at both ends and short chestnut hair that sticks straight up like a brush. He wears a collarless undyed linen shirt with rolled-up sleeves, a long scorched brown leather apron, dark-blue wool trousers, heavy black boots and a red kerchief knotted round his neck.",
+      "portrait": "Background: the glowing forge in his smithy."
+    },
+    {
+      "slug": "vor-herre",
+      "name": "Vårherre",
+      "promptName": "Our Lord",
+      "replacesPortrait": "vor-herre",
+      "description": "En rolig vandringsmann som skor en hest på et blunk, gjør smedens gamle mor ung igjen og gir smeden tre ønsker.",
+      "look": "A calm, slim traveller of about forty-five with an upright bearing, an oval face, a straight nose, warm dark-brown eyes with smile lines, short curly dark-brown hair with a few silver threads and a short, neat dark-brown beard. He wears a long, hooded slate-grey travelling cloak over a plain undyed linen tunic tied with a cord, and worn leather sandals. He looks like an ordinary, humble wanderer, with no halo.",
+      "portrait": "Background: the dusty country road in summer sunshine."
+    },
+    {
+      "slug": "sankt-peter",
+      "name": "Sankt Peter",
+      "promptName": "St Peter",
+      "replacesPortrait": "sankt-peter",
+      "description": "Vårherres følgesvenn, som sier at smeden heller burde ha ønsket seg å bli venn med Vårherre, og som til slutt setter himmelporten på gløtt.",
+      "look": "A tall, broad-shouldered old fisherman of about seventy with a weathered, ruddy face, a big round nose, pale blue eyes under bushy white eyebrows and a thick, curly white beard. He wears a navy-blue fisherman's cap with a short peak, a long rust-brown coat over a grey sailcloth smock, rolled-up dark trousers and sturdy boots. A big, old iron key hangs from a leather cord at his belt. No halo.",
+      "portrait": "Background: soft white clouds."
+    },
+    {
+      "slug": "djaevlen",
+      "name": "Djevelen",
+      "promptName": "the Devil",
+      "replacesPortrait": "djaevlen",
+      "description": "En liten, rød og skrytete djevel med horn og hale som blir lurt opp i pæretreet, fast i lenestolen og inn i pengepungen, og som til slutt låser porten sin for smeden.",
+      "look": "A small, pot-bellied devil about as tall as a seven-year-old child, with shiny tomato-red skin, a round face with a button nose, big goggly amber eyes, pointy ears, a long, pointed black goatee and two big black ram's horns curling out of his forehead. He has a very long, thin tail with an arrow-shaped tip and little black goat hooves. He wears a smart soot-black waistcoat with shiny brass buttons stretched over his tummy. Vain, boastful and silly, never scary.",
+      "portrait": "Background: the pear tree full of yellow pears."
+    },
+    {
+      "slug": "skreddergutten",
+      "name": "Skreddergutten",
+      "promptName": "the Tailor Boy",
+      "description": "En tynn liten skreddergutt med et strykejern i hånda, som også er på vei til himmelen.",
+      "look": "A thin little tailor's apprentice of about twelve with a narrow pale face, a long pointed nose, big anxious grey eyes and neat, slicked-down black hair with a straight side parting. He wears a snug plum-purple waistcoat with a row of tiny silver buttons over a white shirt, grey knee breeches, white stockings and black buckle shoes, with a yellow tape measure hanging round his neck and a red pincushion on his wrist. He carries a heavy black flat-iron.",
+      "portrait": "Background: the fork in the dusty road."
+    }
+  ],
+  "places": [
+    {
+      "slug": "smia",
+      "name": "the Smithy",
+      "look": "The inside of a small, sooty log smithy with a low beamed ceiling: a brick forge with a hood and glowing coals, a big leather bellows beside it, a black anvil on a thick tree stump in the middle, hammers, tongs and horseshoes hanging on the dark log walls, a wooden water barrel by the wall, a three-legged stool by the forge, and a big, squashy armchair of faded rose-red plush in the corner. Wide double doors open onto bright sunshine."
+    },
+    {
+      "slug": "smietunet",
+      "name": "the Smithy Yard",
+      "look": "Outside the smithy: a squat, soot-blackened log building with a grass-covered turf roof, a crooked stone chimney and wide double doors, beside a dusty yellow country road with grassy verges. A gnarled old pear tree heavy with ripe yellow pears grows against its sunny side wall over soft green grass, with a split-rail fence behind. Rolling green hills and a few birches in the distance."
+    }
+  ],
+  "cover": {
+    "prompt": "In front of the soot-blackened smithy on a bright summer day, the Smith leans on his big hammer with a sly, twinkling grin and holds up one finger to show that he is nearly done. Beside him the Devil stands with his arms crossed, tapping one hoof impatiently and twitching his long tail as he glares up at him. Behind them the old pear tree hangs full of ripe yellow pears.",
+    "characters": ["smeden", "djaevlen"],
+    "places": ["smietunet"],
+    "caption": "«Er du ferdig nå?» spør Djevelen. «Nesten», sier smeden.",
+    "alt": "Den høye smeden lener seg på hammeren og holder opp en finger med et lurt smil. Ved siden av står en liten, rød djevel med armene i kors og tripper utålmodig. Bak dem henger pæretreet fullt av gule pærer."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 4,
+      "anchor": "«Les over døra», sa smeden og strakk på seg.",
+      "characters": ["smeden", "vor-herre", "sankt-peter"],
+      "places": ["smia"],
+      "prompt": "Inside the Smithy, the Smith stands beside his anvil and stretches himself up as tall as he can, chest puffed out, chin in the air and thumbs hooked behind his apron straps, grinning boastfully. Our Lord has just stepped in through the wide-open doors and looks at him calmly with a kind little smile, while St Peter peers in over his shoulder with raised eyebrows. Bright summer sunshine streams in behind them.",
+      "caption": "Smeden strekker på seg og skryter til de to vandringsmennene.",
+      "alt": "Inne i smia står smeden ved ambolten og strekker seg høy og stolt. I døråpningen står en rolig vandringsmann med mørkt skjegg og smiler, og bak ham kikker en gammel mann med fiskerlue inn."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "Vårherre satte seg på kne og løftet opp den ene hoven.",
+      "characters": ["vor-herre", "smeden"],
+      "places": ["smia"],
+      "prompt": "Just inside the wide-open doors of the Smithy, Our Lord kneels beside a patient brown horse with its last hoof resting on his knee, tapping a new horseshoe into place with a small hammer, quick as a wink. Three shiny new shoes already sit on the other hooves. The Smith stands by the glowing forge with his mouth hanging open. The horse's owner, a stocky farmer in a straw hat, holds the halter and beams.",
+      "caption": "Tikk, tikk, tikk! Vårherre skor hesten før smeden rekker å blunke.",
+      "alt": "Vårherre sitter på kne ved en brun hest og slår en ny hestesko på plass med en liten hammer. Smeden står ved essa og gaper, og bonden som eier hesten, smiler fornøyd."
+    },
+    {
+      "id": "03",
+      "paragraph": 13,
+      "anchor": "Han tok de gamle hendene hennes og holdt dem over den varme gløden.",
+      "characters": ["vor-herre", "smeden"],
+      "places": ["smia"],
+      "prompt": "Inside the Smithy, the Smith's mother, who came in bent double with age a moment ago, now stands young and straight with rosy cheeks, in her long brown dress, white headscarf and black shawl, and dances towards the open doors with her skirt swirling. Her old wooden walking stick lies forgotten on the floor. Our Lord stands by the glowing forge and smiles, and the Smith stares after her, scratching his head.",
+      "caption": "Rynkene glatter seg ut, og mora til smeden danser hjem, ung og fin.",
+      "alt": "Mora til smeden er blitt ung igjen, med røde kinn, og danser mot døra. Stokken hennes ligger igjen på gulvet. Vårherre smiler ved essa, og smeden klør seg i håret."
+    },
+    {
+      "id": "04",
+      "paragraph": 17,
+      "anchor": "Han hoppet fra hov til hov og hamret i vei.",
+      "characters": ["smeden"],
+      "places": ["smia"],
+      "prompt": "Inside the Smithy, the Smith has just landed bottom-first in the big wooden water barrel, his long legs and arms sticking up out of it and water splashing high in every direction. In the middle of the floor, a stocky dun fjord horse with an upright black-and-cream mane looks back over its shoulder with an innocent face; all four of its new shoes sit crooked. The horse's owner, a thin man in a green jacket, clutches his hat in dismay.",
+      "caption": "PLASK! Smeden flyr tvers gjennom smia og lander i vanntønna.",
+      "alt": "Smeden sitter med rumpa ned i ei stor vanntønne med armer og bein i været, og vannet spruter. Midt på gulvet ser en lys fjordhest uskyldig bakover, og eieren holder seg på hatten."
+    },
+    {
+      "id": "05",
+      "paragraph": 22,
+      "anchor": "Men smeden hørte ikke etter.",
+      "characters": ["smeden", "vor-herre"],
+      "places": ["smia"],
+      "prompt": "By the glowing forge in the Smithy, a prim, thin old woman in a lilac dress and a black bonnet sits bolt upright on the three-legged stool, clutching her folded black umbrella. Her face and hands are covered in black soot like a chimney sweep's, and only her cross, blinking eyes show white. The Smith stands at the big bellows with a sheepish grin as the last grey smoke drifts away, and Our Lord watches from the doorway.",
+      "caption": "Kona er like gammel som før, bare svart i ansiktet som en skorsteinsfeier.",
+      "alt": "Ei gammel kone sitter på en krakk ved essa med paraplyen sin. Ansiktet hennes er helt svart av sot. Smeden står ved blåsebelgen og ser flau ut, og Vårherre ser på fra døra."
+    },
+    {
+      "id": "06",
+      "paragraph": 32,
+      "anchor": "Sankt Peter ristet på hodet.",
+      "characters": ["smeden", "vor-herre", "sankt-peter"],
+      "places": ["smia"],
+      "prompt": "In the Smithy, the Smith stands in the sunny doorway and proudly holds up a little round purse of woven steel wire between his finger and thumb. Behind him in the corner stands the big, squashy rose-red armchair, and outside the open doors the old pear tree full of yellow pears glows in the sun. Our Lord listens with a patient smile, and St Peter, beside him, shakes his head with a puzzled frown.",
+      "caption": "«Det var noen rare ønsker», sier Sankt Peter og rister på hodet.",
+      "alt": "Smeden holder stolt opp en liten pengepung av ståltråd. Bak ham står en stor, myk lenestol, og ute skinner pæretreet. Vårherre smiler, og Sankt Peter rister på hodet."
+    },
+    {
+      "id": "07",
+      "paragraph": 35,
+      "anchor": "Dagene gikk, og årene gikk.",
+      "characters": ["smeden", "djaevlen"],
+      "places": ["smia"],
+      "prompt": "Inside the Smithy, the Smith stands at his anvil with a nail held in his tongs and his hammer raised, and looks up. Round the edge of the open door, the Devil pokes his head in, nose first, with an impatient, sly grin, one hoof peeking round the doorpost and his long tail curling up behind him in the sunshine. Seen from inside the dim smithy, looking towards the bright doorway.",
+      "caption": "Sju år senere stikker Djevelen nesa inn gjennom døra.",
+      "alt": "Smeden står ved ambolten med en spiker i tanga. Rundt dørkarmen stikker en liten, rød djevel med horn og lang hale inn hodet og smiler lurt."
+    },
+    {
+      "id": "08",
+      "paragraph": 42,
+      "anchor": "Men han kom ikke ned.",
+      "characters": ["djaevlen", "smeden"],
+      "places": ["smietunet"],
+      "prompt": "In the Smithy Yard in warm afternoon sunshine, the Devil sits stuck high up in the old pear tree among the leaves and yellow pears, wriggling, twisting and kicking his legs in the air, his tail tangled round a branch and the biggest yellow pear dangling just out of reach. Down on the grass below, the Smith stands with his hand under his chin, pretending to think very hard. Seen from low down, looking up into the tree.",
+      "caption": "Djevelen vrikker og vrir seg, men han sitter like fast som pærene.",
+      "alt": "Djevelen sitter fast oppe i pæretreet mellom gule pærer og sparker med beina. Nede på gresset står smeden med hånda under haka og later som han tenker."
+    },
+    {
+      "id": "09",
+      "paragraph": 53,
+      "anchor": "Djevelen prøvde å reise seg.",
+      "characters": ["djaevlen", "smeden"],
+      "places": ["smia"],
+      "prompt": "Inside the Smithy, the Devil is stuck fast in the big, squashy rose-red armchair and bounces across the floor with it, the chair hopping in the air with all four feet off the ground. He waves his arms, his tail whips about and his cheeks puff up with rage. The Smith stands by the anvil with his hand under his chin and an innocent face. Little clouds of dust puff up from the floor. Wide view of the whole room.",
+      "caption": "Bump, bump, bump! Djevelen og lenestolen hopper over hele gulvet.",
+      "alt": "Djevelen sitter fast i den store, røde lenestolen og hopper rundt på gulvet i smia med stolen på baken. Smeden står ved ambolten med hånda under haka og ser uskyldig ut."
+    },
+    {
+      "id": "10",
+      "paragraph": 62,
+      "anchor": "«Pøh, lett!» sa Djevelen.",
+      "characters": ["smeden", "djaevlen"],
+      "places": ["smia"],
+      "prompt": "Close-up at the anvil in the Smithy: the Smith holds the little round wire purse open on the palm of his big hand, smiling innocently. The Devil, who has shrunk until he is no bigger than a matchbox, is climbing into the purse head first, with only his little hooves and his long, thin tail still sticking out. Warm orange forge light glows behind them.",
+      "caption": "Djevelen blir mindre og mindre, og så kryper han inn i pungen.",
+      "alt": "Smeden holder en liten pengepung av ståltråd åpen i hånda. Djevelen er ikke større enn ei fyrstikkeske og kryper inn i pungen, så bare beina og halen stikker ut."
+    },
+    {
+      "id": "11",
+      "paragraph": 71,
+      "anchor": "Han åpnet pungen.",
+      "characters": ["djaevlen", "smeden"],
+      "places": ["smietunet"],
+      "prompt": "Wide view of the Smithy Yard on a bright day: the Devil, grown back to his full size, races away down the dusty yellow road as fast as his legs will go, his tail streaming out behind him and dust flying from his hooves, never once looking back. In the smithy doorway stands the Smith, holding up the open wire purse with a broad grin.",
+      "caption": "Djevelen løper så fort at han ikke tør se seg tilbake en eneste gang.",
+      "alt": "Djevelen løper av sted bortover den støvete veien med halen flagrende bak seg. I døra til smia står smeden med den åpne pengepungen og gliser."
+    },
+    {
+      "id": "12",
+      "paragraph": 74,
+      "anchor": "Han gikk og gikk, helt til veien delte seg i to.",
+      "characters": ["smeden", "skreddergutten"],
+      "prompt": "Wide view of a fork in a long, dusty road in late-afternoon light: the Smith, with his big hammer over his shoulder, has caught up with the Tailor Boy, and they stand side by side looking at the two ways. One road climbs a green hill up into soft white clouds, where a tall white gate gleams far away; the other winds down into a smoky, rocky gully towards a dark iron gate.",
+      "caption": "Der veien deler seg, tar smeden igjen en tynn liten skreddergutt.",
+      "alt": "Smeden med hammeren på skulderen og en tynn skreddergutt med et strykejern står der veien deler seg. Den ene veien går opp mot en hvit port i skyene, den andre ned mot en mørk port."
+    },
+    {
+      "id": "13",
+      "paragraph": 82,
+      "anchor": "Klikk, klikk, klikk, sa låsene, helt til ni.",
+      "characters": ["smeden", "djaevlen"],
+      "prompt": "At the bottom of a smoky, rocky gully, the Smith stands before a tall, crooked, soot-black iron gate with his hammer on his shoulder, blinking in surprise. Down the middle of the gate, nine big iron locks have all snapped shut in a row, and a huge padlock still swings on the bolt. Over the top of the gate pop the Devil's curly horns and wide, panicky eyes as he jumps up to peek. Funny, not scary.",
+      "caption": "Klikk, klikk, klikk, helt til ni låser. Og til slutt: KLONK!",
+      "alt": "Smeden står foran en høy, svart jernport med ni store låser og en diger hengelås. Over porten titter Djevelen fram med hornene og store, redde øyne."
+    },
+    {
+      "id": "14",
+      "paragraph": 87,
+      "anchor": "Hammeren fløy rett inn, akkurat idet skreddergutten smatt inn.",
+      "characters": ["sankt-peter", "skreddergutten", "smeden"],
+      "prompt": "High up among soft white clouds, St Peter holds the tall white gate of heaven open just a crack, and the Tailor Boy slips in sideways with his flat-iron. At that very moment the Smith's big hammer sails through the gap in a high arc above their heads, and St Peter looks up in surprise. Six or seven steps behind, the Smith leans forward with one arm still stretched out from the throw, puffing and red-faced. Warm golden light spills out through the crack.",
+      "caption": "Vissj! Hammeren flyr rett inn, akkurat idet skreddergutten smetter inn.",
+      "alt": "Sankt Peter holder himmelporten på gløtt, og skreddergutten smetter inn. Over hodene deres flyr smedens store hammer inn gjennom åpningen, mens smeden står noen skritt bak med armen strukket ut."
+    }
+  ]
+}
