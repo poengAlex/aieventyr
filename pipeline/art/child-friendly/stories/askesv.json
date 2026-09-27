@@ -1,0 +1,200 @@
+{
+  "storyId": "askesv",
+  "title": "Askeladden som stjal sølvendene til trollet",
+  "textFile": "public/content/stories/askesv/child-friendly/story.txt",
+  "world": "Old rural Norway, long ago. The king's farm is a cluster of dark-brown log buildings with grass-covered turf roofs, carved dragon-head gables and a big hall with small-paned windows, on the shore of a wide, calm mountain lake. Straight across the lake rises the Grey Mountain, where the troll lives. The seven silver ducks look like ordinary ducks made of shining, polished silver. Askeladden's kneading trough is a long, shallow, oval wooden trough, big enough for a boy to sit in; he rows it with one short wooden paddle. The troll's bedspread is a thick quilt of alternating silver and gold squares that shimmers. The golden harp is a small golden lap harp with a carved swan head at the top.",
+  "palette": "Late summer on a mountain lake: long honey-gold afternoons, glittering fjord-blue water and bright silver highlights on the ducks. Inside the mountain: warm red-orange firelight against dark blue-grey rock.",
+  "cast": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "promptName": "Askeladden",
+      "replacesPortrait": "askeladden",
+      "description": "Den yngste broren, snill og oppfinnsom, som aldri gir opp og bruker kløkt framfor styrke.",
+      "look": "A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.",
+      "portrait": "Background: the calm lake with the Grey Mountain far behind."
+    },
+    {
+      "slug": "eldste-bror",
+      "name": "Den eldste broren",
+      "promptName": "the Eldest Brother",
+      "description": "Den eldste broren, stor i kjeften og lat, som heller sover i høyet enn å stelle hestene.",
+      "look": "A tall, broad-shouldered young man of about twenty with a square jaw, a smug grin, short dark-brown hair and a thin moustache. He wears a dark-green wool jacket over a white shirt, brown breeches and tall black boots.",
+      "portrait": "Background: the stable at the king's farm."
+    },
+    {
+      "slug": "mellomste-bror",
+      "name": "Den mellomste broren",
+      "promptName": "the Middle Brother",
+      "description": "Den mellomste broren, som skulle stelle hagen, men helst surmuler når andre får skryt.",
+      "look": "A plump young man of about eighteen with round red cheeks, a sulky pout and curly ginger hair. He wears a mustard-yellow wool tunic with a rope belt, patched brown trousers and wooden clogs.",
+      "portrait": "Background: the vegetable garden at the king's farm."
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "promptName": "the King",
+      "replacesPortrait": "kongen",
+      "description": "En rettferdig konge som elsker vakre ting og holder ord når Askeladden lykkes.",
+      "look": "A kindly, round-bellied old king with a long, soft white beard, rosy cheeks and small round spectacles. He wears a small gold crown, a long red robe with white fur trim and gold embroidery, and soft red slippers.",
+      "portrait": "Background: a small-paned window of his log hall."
+    },
+    {
+      "slug": "trollet",
+      "name": "Trollet i fjellet",
+      "promptName": "the Troll",
+      "replacesPortrait": "trollet-i-fjellet",
+      "description": "Et stort troll som bor inne i fjellet, brøler mye og blir til slutt så sint at han sprekker som en ballong.",
+      "look": "An enormous, round-bellied troll three times as tall as a man, with grey-green lumpy skin patched with moss and lichen, a long knobbly nose, tiny black eyes under bushy brows, a wide grumpy mouth with two stubby teeth, big floppy ears, a tangled beard like dry grass and a small spruce sapling growing on top of his head. He wears a ragged brown hide tunic tied with rope and goes barefoot on huge flat feet.",
+      "portrait": "Background: the dark crack in the Grey Mountain."
+    },
+    {
+      "slug": "trolldatteren",
+      "name": "Trolldatteren",
+      "promptName": "the Troll's Daughter",
+      "replacesPortrait": "trolldatteren",
+      "description": "Trollets store datter, lett å lure når Askeladden prater rolig og smart.",
+      "look": "A huge troll girl, about three times as tall as Askeladden, with a round moss-green face, a long bumpy nose, small squinting eyes, pink cheeks and one enormous reddish-brown braid so long that it trails on the floor behind her. She wears a patched grey wool dress with a big faded red shawl over her shoulders and goes barefoot.",
+      "portrait": "Background: the firelit Cave Hall."
+    }
+  ],
+  "places": [
+    {
+      "slug": "graafjellet",
+      "name": "the Grey Mountain",
+      "look": "A huge, rounded grey granite mountain rising straight out of the far shore of a wide, calm lake, with birch trees, mossy boulders and a narrow pebble beach along its foot, and a tall, dark, door-shaped crack low in the rock face."
+    },
+    {
+      "slug": "fjellhallen",
+      "name": "the Cave Hall",
+      "look": "A vast cave hall inside the mountain with rough grey rock walls and a high, dark ceiling, lit red and gold by a big open fire in a ring of stones. A long, rough plank table with tree-stump stools stands near the fire, a huge dark wooden food cupboard stands against one wall, big iron hooks are hammered into the rock, and a small golden harp hangs on a hook above a tall arched wooden door. Everything is troll-sized: huge and chunky."
+    }
+  ],
+  "cover": {
+    "prompt": "Askeladden sits in his big wooden kneading trough in the middle of the calm lake, paddling towards the viewer with a cheeky grin, the seven silver ducks riding in the trough around him. Far behind him the Troll leans out of the dark crack in the Grey Mountain and shakes his fist. The water glitters in golden evening light.",
+    "characters": ["askeladden", "trollet"],
+    "places": ["graafjellet"],
+    "caption": "Askeladden ror over vannet med de sju sølvendene til trollet.",
+    "alt": "Askeladden sitter i et stort trau av tre midt på vannet med sju blanke sølvender rundt seg. Langt bak ham lener trollet seg ut av fjellet og rister på neven."
+  },
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "Det var derfor alle kalte ham Askeladden.",
+      "characters": ["askeladden", "eldste-bror", "mellomste-bror"],
+      "prompt": "Inside a small, dim farmhouse kitchen, Askeladden sits on the stone hearth poking the ashes with a stick, soot on his cheek and his cap askew. In the open doorway behind him stand the Eldest Brother and the Middle Brother with travel bundles on sticks over their shoulders, pointing at him and laughing. Morning light falls in through the door, and the big oval wooden kneading trough leans against the wall beside the hearth.",
+      "caption": "Brødrene ler av Askeladden, som sitter og roter i aska.",
+      "alt": "Askeladden sitter ved grua med sot på kinnet og roter i aska med en pinne. I døråpningen står de to storebrødrene med skreppene sine og ler og peker."
+    },
+    {
+      "id": "02",
+      "paragraph": 6,
+      "anchor": "Brødrene kom til kongsgården og fikk arbeid.",
+      "characters": ["askeladden", "eldste-bror", "mellomste-bror"],
+      "prompt": "In the yard of the royal farm, between dark log buildings with grass roofs, Askeladden comes staggering in through the gate, bent almost double under the huge oval wooden kneading trough on his back. On the left the Eldest Brother, holding a brown horse by its halter, stops and stares; on the right the Middle Brother leans on a rake in a vegetable garden and rolls his eyes. Three chickens scatter out of Askeladden's way.",
+      "caption": "Litt etter kom Askeladden stavrende med trauet på ryggen.",
+      "alt": "Askeladden kommer inn på tunet på kongsgården, bøyd under et stort trau av tre. Den ene broren holder en hest, den andre står med en rive i hagen, og begge glor."
+    },
+    {
+      "id": "03",
+      "paragraph": 10,
+      "anchor": "Rett over vannet lå et stort fjell.",
+      "characters": ["kongen"],
+      "places": ["graafjellet"],
+      "prompt": "Seen from inside the royal hall, over the King's shoulder: the King stands at an open small-paned window with his chin in his hand, gazing longingly across the wide, calm lake. Out on the water in front of the Grey Mountain, seven silver ducks swim in a neat row, gleaming and sparkling in the sunshine.",
+      "caption": "Kongen står i vinduet og ser på de sju sølvendene.",
+      "alt": "Kongen står i et vindu og ser lengselsfullt ut over vannet. Der ute svømmer sju skinnende sølvender foran et stort, grått fjell."
+    },
+    {
+      "id": "04",
+      "paragraph": 18,
+      "anchor": "Han helte kornet i trauet, satte seg oppi og rodde over vannet.",
+      "characters": ["askeladden"],
+      "places": ["graafjellet"],
+      "prompt": "On the pebble beach at the foot of the Grey Mountain, the wooden kneading trough lies half pulled up on the shore, full of golden grain. Askeladden crouches beside it, grinning, scattering a last handful of grain on the beach, while the seven silver ducks hop one after another into the trough to eat, wings flapping and water drops flying. Bright midday light.",
+      "caption": "Hopp, hopp, hopp! Alle de sju sølvendene hopper opp i trauet.",
+      "alt": "Askeladden sitter på huk i fjæra og strør korn. Sju blanke sølvender hopper opp i trauet hans, som er fullt av korn."
+    },
+    {
+      "id": "05",
+      "paragraph": 20,
+      "anchor": "Men midt ute på vannet kom trollet ut av fjellet.",
+      "characters": ["askeladden", "trollet"],
+      "places": ["graafjellet"],
+      "prompt": "Askeladden paddles his wooden trough across the middle of the lake as fast as he can, the seven silver ducks packed in around him. Behind him on the far shore, the Troll has squeezed halfway out of the dark crack in the Grey Mountain and bellows after him with his mouth wide open and one huge fist in the air, the little spruce on his head shaking. Askeladden looks back over his shoulder, calm and cheeky.",
+      "caption": "«Har du tatt de sju sølvendene mine?» brøler trollet.",
+      "alt": "Askeladden ror trauet med sølvendene over vannet. Bak ham har trollet stukket seg halvveis ut av fjellet og brøler med neven i været."
+    },
+    {
+      "id": "06",
+      "paragraph": 32,
+      "anchor": "Askeladden ventet til alt var stille igjen.",
+      "characters": ["askeladden"],
+      "places": ["graafjellet"],
+      "prompt": "At the foot of the Grey Mountain, Askeladden stands on tiptoe on a mossy boulder, carefully pulling down a huge, shimmering bedspread of silver and gold squares that hangs out of the crack in the rock like washing put out to air. He holds one finger to his lips. His wooden trough waits on the shore behind him in the quiet evening light.",
+      "caption": "Forsiktig, forsiktig tar Askeladden ned det fine sengeteppet.",
+      "alt": "Askeladden står på tærne på en stein og drar forsiktig ned et stort sengeteppe med ruter av sølv og gull, som henger ut av en sprekk i fjellet."
+    },
+    {
+      "id": "07",
+      "paragraph": 51,
+      "anchor": "Da tok trollet Askeladden under armen og bar ham inn i fjellet.",
+      "characters": ["askeladden", "trollet", "trolldatteren"],
+      "places": ["fjellhallen"],
+      "prompt": "In the Cave Hall, lit red and gold by the big fire, the Troll stomps in with Askeladden tucked under one arm like a parcel; Askeladden's legs dangle and he looks around with great interest. By the fire sits the Troll's Daughter, as big as a spruce tree, combing the end of her enormous braid, which coils across the floor. The small golden harp hangs above the door.",
+      "caption": "Trollet bærer Askeladden inn i fjellet, der trolldatteren sitter ved bålet.",
+      "alt": "Trollet kommer inn i en stor fjellhall med Askeladden under armen. Ved bålet sitter trolldatteren med en lang, lang hårflette. Over døra henger gullharpa."
+    },
+    {
+      "id": "08",
+      "paragraph": 55,
+      "anchor": "Askeladden stakk fram spikeren.",
+      "characters": ["askeladden", "trolldatteren"],
+      "places": ["fjellhallen"],
+      "prompt": "In the dim, firelit Cave Hall, Askeladden sits on a big tree-stump stool among empty porridge bowls and a plate of pancakes, holding out an iron nail between his fingers instead of his little finger and trying not to giggle. The Troll's Daughter bends down low, squinting hard in the dark, and pinches the tip of the nail between her enormous finger and thumb.",
+      "caption": "Askeladden stikker fram spikeren i stedet for lillefingeren.",
+      "alt": "Askeladden sitter blant tomme grøtboller og holder fram en spiker. Den store trolldatteren bøyer seg ned, myser i mørket og klemmer på spikeren."
+    },
+    {
+      "id": "09",
+      "paragraph": 67,
+      "anchor": "Trolldatteren ble så stolt at hun bøyde seg ned og viste ham fletta.",
+      "characters": ["askeladden", "trolldatteren"],
+      "places": ["fjellhallen"],
+      "prompt": "The Troll's Daughter kneels proudly with her head bowed and her eyes closed, showing off her enormous braid. Behind her back, quick as a squirrel, Askeladden ties the end of the braid to a big iron hook in the rock wall with a piece of string, the tip of his tongue poking out in concentration and three knots already done.",
+      "caption": "Kvikk som et ekorn knyter Askeladden fletta fast i veggen.",
+      "alt": "Trolldatteren bøyer stolt hodet og viser fram den lange fletta si. Bak henne knyter Askeladden fletta fast i en jernkrok i veggen med en hyssing."
+    },
+    {
+      "id": "10",
+      "paragraph": 77,
+      "anchor": "Askeladden tok ned gullharpa og strøk over strengene.",
+      "characters": ["askeladden", "trollet"],
+      "places": ["fjellhallen"],
+      "prompt": "In the firelit Cave Hall, the Troll and four lumpy troll guests sit around the long plank table piled with sausages, bread and mushrooms, smiling blissfully and nodding with their mouths full. Askeladden, wrapped in a huge faded red shawl and a brown cloak far too big for him that trail on the floor, walks towards the open door playing the small golden harp and glancing back with a sly grin. Little sparkles of music float in the air.",
+      "caption": "Pling, plong! Askeladden spiller på gullharpa, helt ut døra.",
+      "alt": "Trollet og fire trollgjester sitter rundt et langt bord med mat og smiler. Askeladden, i et altfor stort sjal og en lang kappe, går mot døra og spiller på gullharpa."
+    },
+    {
+      "id": "11",
+      "paragraph": 88,
+      "anchor": "Da ble trollet så sint, så sint, at han blåste seg opp som en ballong.",
+      "characters": ["askeladden", "trollet"],
+      "places": ["graafjellet"],
+      "prompt": "On the shore at the foot of the Grey Mountain, the Troll has puffed himself up with rage into an enormous round balloon shape: cheeks bulging, arms and legs sticking out stiffly, face bright red, bobbing up on his tiptoes. Far out on the glittering lake, Askeladden sits in his wooden trough with the golden harp, looking back with wide eyes and his hands over his ears. Funny, not scary.",
+      "caption": "Trollet blir så sint at han blåser seg opp som en ballong.",
+      "alt": "Trollet står i fjæra og har blåst seg opp til en diger, rund ballong av sinne. Langt ute på vannet sitter Askeladden i trauet med gullharpa og holder seg for ørene."
+    },
+    {
+      "id": "12",
+      "paragraph": 91,
+      "anchor": "Og trolldatteren? Hun står visst der inne i fjellet ennå",
+      "characters": ["trolldatteren"],
+      "places": ["fjellhallen"],
+      "prompt": "In the quiet Cave Hall, the fire burned down to glowing embers, the Troll's Daughter stands grumpily with her arms crossed, her long braid still tied to the iron hook in the rock wall with a tangle of knotted string. She tugs at it with one hand and pulls a sulky face. A few gold coins glint on the floor. A funny, gentle ending.",
+      "caption": "Og trolldatteren står visst der inne i fjellet ennå.",
+      "alt": "Trolldatteren står sur med armene i kors inne i fjellet. Fletta hennes er fortsatt knyttet fast til en jernkrok i veggen."
+    }
+  ]
+}
