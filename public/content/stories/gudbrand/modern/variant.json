@@ -1,8 +1,8 @@
 {
   "variant": "modern",
-  "displayTitle": "Gudbrand up the Hill (Modern)",
-  "description": "A contemporary retelling where Gudbrand’s day of swapping spirals through modern rural life—trailers, a beater car, and quick cash—while the heart of the tale stays the same: his wife’s unshakable trust turns every “mistake” into a win.",
-  "tone": "Warm, comedic, and down-to-earth",
+  "displayTitle": "Gudbrand i lien (Modern)",
+  "description": "En moderne gjenfortelling fra et småbruk i lia, der Gudbrand bytter seg fra ku til hane på vei hjem fra markedet og kona finner noe bra ved hvert eneste bytte.",
+  "tone": "Varm, tørrvittig og jordnær",
   "characterCount": 4,
   "hasAudio": false,
   "generation": {
@@ -17,6 +17,6 @@
     "audio": "audio.mp3",
     "sections": "sections.json"
   },
-  "summary": "A hillside farmer trades his way from a cow to a meal, only to discover his wife’s unwavering support is the real fortune.",
+  "summary": "Gudbrand bytter bort kua bit for bit til han bare har en pose mat igjen, men kona er like blid, og naboen taper hundre tusen kroner på å tro noe annet.",
   "hasInlineScenes": true
 }
