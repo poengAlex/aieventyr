@@ -453,7 +453,7 @@ onBeforeUnmount(() => {
 .sheet {
   position: relative;
   overflow: hidden;
-  background: var(--card);
+  background: var(--paper);
 }
 
 .sheet-single {
@@ -518,7 +518,7 @@ onBeforeUnmount(() => {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background: var(--card);
+  background: var(--paper);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }

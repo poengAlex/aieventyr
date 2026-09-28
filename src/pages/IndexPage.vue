@@ -1,80 +1,108 @@
 <template>
-  <q-page class="library">
-    <header class="site-bar">
-      <router-link to="/" class="wordmark">Eventyr</router-link>
-      <nav class="bar-actions">
-        <button
-          type="button"
-          class="icon-button"
-          :aria-label="settings.night ? t.day : t.night"
-          @click="settings.toggleNight()"
-        >
-          <q-icon :name="settings.night ? 'light_mode' : 'dark_mode'" />
-        </button>
-        <router-link to="/about" class="text-button">{{ t.about }}</router-link>
-      </nav>
-    </header>
+  <q-page class="library" :class="editionClass">
+    <div class="spread">
+      <aside v-if="wide" class="left-page">
+        <cover-plate
+          v-if="featured"
+          :to="featured.to"
+          :src="featured.src"
+          :srcset="featured.srcset"
+          sizes="(max-width: 1400px) 36vw, 460px"
+          :numeral="featured.numeral"
+          :title="featured.title"
+          :note="featured.note"
+        />
+      </aside>
 
-    <section class="intro">
-      <h1>{{ t.heading }}</h1>
-      <p v-if="stories.length">{{ t.subheading(stories.length) }}</p>
-      <edition-switch v-model="settings.variant" />
-    </section>
+      <div class="right-page">
+        <header class="running-head">
+          <span class="caps">Eventyr</span>
+          <span class="running-actions">
+            <router-link to="/about" class="caps-link">{{ t.about }}</router-link>
+            <button
+              type="button"
+              class="caps-link"
+              :aria-label="settings.night ? t.dayMode : t.nightMode"
+              @click="settings.toggleNight()"
+            >
+              {{ settings.night ? t.day : t.night }}
+            </button>
+          </span>
+        </header>
 
-    <router-link
-      v-if="continueItem"
-      :to="`/story/${continueItem.id}?resume=1`"
-      class="continue-card"
-    >
-      <img :src="continueItem.cover.src" :srcset="continueItem.cover.srcset" sizes="96px" alt="" />
-      <div class="continue-copy">
-        <div class="eyebrow">{{ t.continueReading }}</div>
-        <div class="continue-title">{{ continueItem.title }}</div>
-        <div class="continue-progress">
-          <span :style="{ width: `${continueItem.progress}%` }" />
+        <div class="title-page">
+          <div class="ornament" aria-hidden="true"><i /></div>
+          <h1>
+            {{ t.heading[0] }}<br />
+            {{ t.heading[1] }}
+          </h1>
+          <p class="byline">{{ t.byline }}</p>
+          <edition-switch v-model="settings.variant" />
         </div>
+
+        <cover-plate
+          v-if="!wide && featured"
+          class="inline-frontispiece"
+          :to="featured.to"
+          :src="featured.src"
+          :srcset="featured.srcset"
+          sizes="70vw"
+          :numeral="featured.numeral"
+          :title="featured.title"
+          :note="featured.note"
+        />
+
+        <section class="contents">
+          <h2 class="contents-head caps">
+            <span>{{ t.contents }}</span>
+            <span>{{ t.minShort }}</span>
+          </h2>
+          <ol v-if="!loading">
+            <li v-for="item in items" :key="item.id">
+              <contents-entry
+                :to="`/story/${item.id}`"
+                :numeral="roman(item.index)"
+                :title="item.title"
+                :minutes="item.minutes"
+                :read="item.read"
+                :read-label="t.read"
+                :active="wide && item.id === featured?.id"
+                @mouseenter="hovered = item.id"
+                @focus="hovered = item.id"
+              />
+            </li>
+          </ol>
+        </section>
       </div>
-      <q-icon name="arrow_forward" class="continue-arrow" />
-    </router-link>
-
-    <div v-if="loading" class="shelf">
-      <div v-for="n in 8" :key="n" class="placeholder" />
     </div>
-    <section v-else class="shelf">
-      <story-card
-        v-for="item in items"
-        :key="item.id"
-        :story-id="item.id"
-        :title="item.title"
-        :cover="item.cover"
-        :meta="item.meta"
-        :read="item.read"
-        :read-label="t.read"
-      />
-    </section>
-
-    <footer class="site-footer">
-      <router-link to="/about">{{ t.about }}</router-link>
-    </footer>
   </q-page>
 </template>
 
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
+import { useQuasar } from 'quasar'
+import ContentsEntry from 'src/components/ContentsEntry.vue'
 import EditionSwitch from 'src/components/EditionSwitch.vue'
-import StoryCard from 'src/components/StoryCard.vue'
-import { loadArtCover } from 'src/logic/art'
+import CoverPlate from 'src/components/CoverPlate.vue'
+import { artSetFor, loadArtCover } from 'src/logic/art'
 import { loadManifest, resolveStoryVariant } from 'src/logic/content'
-import { readingMinutes, useText } from 'src/logic/i18n'
+import { readingMinutes, roman, useText } from 'src/logic/i18n'
 import { createNotify } from 'src/logic/utils'
 import { useSettingsStore } from 'src/stores/settings'
 import type { StoryListItem, VariantType } from 'src/types/content'
 
+const $q = useQuasar()
 const settings = useSettingsStore()
-const { t, editionName } = useText()
+const { t } = useText()
 const loading = ref(true)
 const stories = ref<StoryListItem[]>([])
 const artCovers = ref<Record<string, { src: string; srcset: string }>>({})
+const hovered = ref<string | null>(null)
+
+// Wide screens show the library as an open book, with the cover of the tale under the
+// pointer on the left page.
+const wide = computed(() => $q.screen.gt.sm)
+const editionClass = computed(() => `edition-${artSetFor(settings.variant) ?? 'classic'}`)
 
 const variantFor = (story: StoryListItem): VariantType =>
   resolveStoryVariant(story.availableVariants, settings.variant)
@@ -91,41 +119,49 @@ function coverFor(story: StoryListItem, variant: VariantType) {
 const items = computed(() =>
   stories.value.map((story) => {
     const variant = variantFor(story)
-    const minutes = readingMinutes(story.words?.[variant], variant)
     return {
       id: story.id,
+      index: story.index,
       title: story.titles?.[variant] ?? story.canonicalTitle,
       cover: coverFor(story, variant),
-      meta: minutes ? t.value.minutes(minutes) : '',
+      minutes: readingMinutes(story.words?.[variant], variant),
       read: settings.isRead(story.id, variant),
     }
   }),
 )
 
-// The story the reader stopped in the middle of, if any.
-const continueItem = computed(() => {
+// The tale the reader stopped in the middle of, if any.
+const unfinished = computed(() => {
   const last = settings.lastRead
   if (!last || last.progress < 0.03 || last.progress > 0.97) return null
-  const story = stories.value.find((item) => item.id === last.storyId)
-  if (!story || !story.availableVariants.includes(last.variant)) return null
+  return items.value.some((item) => item.id === last.storyId) ? last.storyId : null
+})
+
+// The plate shows the tale under the pointer, else the unfinished one, else the first.
+const featured = computed(() => {
+  const id = hovered.value ?? unfinished.value ?? items.value[0]?.id
+  const item = items.value.find((entry) => entry.id === id)
+  if (!item) return null
+  const resume = item.id === unfinished.value
   return {
-    id: story.id,
-    title: story.titles?.[last.variant] ?? story.canonicalTitle,
-    cover: coverFor(story, last.variant),
-    progress: Math.round(last.progress * 100),
-    edition: editionName(last.variant),
+    to: resume ? `/story/${item.id}?resume=1` : `/story/${item.id}`,
+    id: item.id,
+    src: item.cover.src,
+    srcset: item.cover.srcset,
+    numeral: roman(item.index),
+    title: item.title,
+    note: resume ? t.value.continueHere : undefined,
   }
 })
 
 // New covers from the illustration sets replace the older ones where they exist.
 async function loadArtCovers() {
   const covers: Record<string, { src: string; srcset: string }> = {}
-  const wanted = stories.value.map((story) => [story.id, variantFor(story)] as const)
-  if (settings.lastRead) wanted.push([settings.lastRead.storyId, settings.lastRead.variant])
   await Promise.all(
-    wanted.map(async ([id, variant]) => {
-      const cover = await loadArtCover(id, variant)
-      if (cover) covers[`${id}:${variant}`] = cover
+    stories.value.map(async (story) => {
+      const variant = variantFor(story)
+      const cover = await loadArtCover(story.id, variant)
+      if (cover) covers[`${story.id}:${variant}`] = cover
     }),
   )
   artCovers.value = covers
@@ -147,134 +183,93 @@ onMounted(async () => {
 </script>
 
 <style lang="scss" scoped>
-.library {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 0 max(20px, env(safe-area-inset-left)) 48px;
+.library .spread {
+  min-height: 100vh;
 }
 
-.site-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 18px 0;
-}
-
-.wordmark {
-  font-family: var(--serif);
-  font-size: 1.35rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-}
-
-.bar-actions {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.intro {
+.left-page {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  height: 100vh;
   display: grid;
-  justify-items: start;
-  gap: 10px;
-  padding: clamp(24px, 6vw, 64px) 0 clamp(20px, 4vw, 36px);
+  place-items: center;
+  padding: 56px clamp(32px, 5vw, 72px);
 }
 
-.intro h1 {
-  margin: 0;
-  font-size: clamp(2.2rem, 6vw, 3.8rem);
-  line-height: 1.02;
-  font-weight: 600;
+.right-page {
+  padding: 28px clamp(40px, 6vw, 88px) 96px;
 }
 
-.intro p {
-  margin: 0 0 12px;
-  max-width: 34em;
-  font-family: var(--serif);
-  font-size: clamp(1.02rem, 2.2vw, 1.2rem);
+.running-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: var(--ink-muted);
+}
+
+.running-actions {
+  display: flex;
+  gap: 18px;
+}
+
+.title-page {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  padding: 44px 0 40px;
+  text-align: center;
+}
+
+.title-page h1 {
+  margin-top: 6px;
+  font-size: clamp(2.2rem, 4.2vw, 3rem);
+  line-height: 1.12;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.byline {
+  margin: 0 0 10px;
+  font-style: italic;
+  font-size: 1.3rem;
   color: var(--ink-soft);
 }
 
-.continue-card {
-  display: grid;
-  grid-template-columns: 72px minmax(0, 1fr) auto;
-  gap: 16px;
-  align-items: center;
-  max-width: 560px;
-  margin-bottom: 36px;
-  padding: 12px 18px 12px 12px;
-  border-radius: 20px;
-  background: var(--card);
-  box-shadow: var(--shadow-soft);
-  transition: box-shadow 0.2s;
+.contents-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 6px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--ink);
+  color: var(--ink);
 }
 
-.continue-card:hover {
-  box-shadow: var(--shadow);
+.contents ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.continue-card img {
-  width: 72px;
-  height: 72px;
-  object-fit: cover;
-  border-radius: 12px;
+.inline-frontispiece {
+  margin: 8px auto 44px;
 }
 
-.continue-title {
-  font-family: var(--serif);
-  font-size: 1.08rem;
-  font-weight: 600;
-  line-height: 1.25;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  overflow: hidden;
+.inline-frontispiece :deep(.plate) {
+  width: min(70vw, 360px);
 }
 
-.continue-progress {
-  height: 4px;
-  margin-top: 8px;
-  border-radius: 2px;
-  background: var(--line);
-  overflow: hidden;
-}
+@media (max-width: 1023px) {
+  .right-page {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: max(18px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) 72px
+      max(20px, env(safe-area-inset-left));
+    box-shadow: none;
+  }
 
-.continue-progress span {
-  display: block;
-  height: 100%;
-  background: var(--accent);
-}
-
-.continue-arrow {
-  font-size: 22px;
-  color: var(--ink-muted);
-}
-
-.shelf {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(230px, 42vw), 1fr));
-  gap: clamp(18px, 3vw, 34px) clamp(14px, 2.4vw, 28px);
-}
-
-.placeholder {
-  aspect-ratio: 1;
-  border-radius: var(--radius);
-  background: var(--paper-deep);
-  animation: pulse 1.4s ease-in-out infinite;
-}
-
-.site-footer {
-  margin-top: 72px;
-  padding-top: 20px;
-  border-top: 1px solid var(--line);
-  font-size: 0.9rem;
-  color: var(--ink-muted);
-}
-
-@keyframes pulse {
-  50% {
-    opacity: 0.55;
+  .title-page {
+    padding: 36px 0 30px;
   }
 }
 </style>

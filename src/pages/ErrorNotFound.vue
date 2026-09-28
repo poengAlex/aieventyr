@@ -1,9 +1,9 @@
 <template>
   <q-page class="not-found">
-    <div class="ornament" aria-hidden="true">✦</div>
+    <div class="ornament" aria-hidden="true"><i /></div>
     <h1>{{ t.notFound }}</h1>
     <p>{{ t.notFoundText }}</p>
-    <router-link to="/" class="primary-button">{{ t.allTales }}</router-link>
+    <router-link to="/" class="caps-link accent">‹ {{ t.contents }}</router-link>
   </q-page>
 </template>
 
@@ -18,23 +18,20 @@ const { t } = useText()
   display: grid;
   place-content: center;
   justify-items: center;
-  gap: 12px;
+  gap: 16px;
   min-height: 100vh;
   padding: 24px;
   text-align: center;
 }
 
-.not-found .ornament {
-  margin: 0;
-}
-
 .not-found h1 {
-  margin: 0;
   font-size: clamp(2rem, 6vw, 3rem);
 }
 
 .not-found p {
-  margin: 0 0 12px;
+  margin: 0 0 8px;
+  font-style: italic;
+  font-size: 1.2rem;
   color: var(--ink-soft);
 }
 </style>

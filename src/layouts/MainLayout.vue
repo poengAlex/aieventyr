@@ -21,7 +21,7 @@ watch(
     $q.dark.set(night)
     document
       .querySelector('meta[name="theme-color"]')
-      ?.setAttribute('content', night ? '#14181a' : '#f4eee2')
+      ?.setAttribute('content', night ? '#1a1713' : '#f3ede1')
   },
   { immediate: true },
 )

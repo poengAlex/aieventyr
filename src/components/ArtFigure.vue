@@ -5,13 +5,14 @@
       :srcset="srcset ?? ''"
       :sizes="sizes ?? ''"
       :alt="picture.alt"
+      :style="{ aspectRatio: ratio ?? '3 / 2' }"
       loading="lazy"
       decoding="async"
-      class="art-image"
+      class="plate art-image"
       @click="emit('open')"
     />
-    <figcaption v-if="picture.caption || picture.prompt" class="art-caption-row">
-      <span class="art-caption">{{ picture.caption }}</span>
+    <figcaption v-if="picture.caption || picture.prompt" class="art-caption">
+      {{ picture.caption }}
       <button
         v-if="picture.prompt"
         type="button"
@@ -25,7 +26,7 @@
       </button>
     </figcaption>
     <div v-if="showPrompt" class="art-prompt">
-      <div class="eyebrow">{{ t.howMade }}</div>
+      <div class="caps">{{ t.howMade }}</div>
       <p>{{ picture.prompt }}</p>
       <details v-if="picture.fullPrompt">
         <summary>{{ t.fullPrompt }}</summary>
@@ -44,6 +45,7 @@ const props = defineProps<{
   src: string
   srcset?: string | undefined
   sizes?: string | undefined
+  ratio?: string | undefined
 }>()
 
 const emit = defineEmits<{ open: [] }>()
@@ -59,64 +61,59 @@ watch(
 <style lang="scss" scoped>
 .art-figure {
   margin: 0;
-  display: grid;
-  gap: 10px;
+  text-align: center;
 }
 
 .art-image {
-  display: block;
   width: 100%;
-  aspect-ratio: 3 / 2;
   object-fit: cover;
-  border-radius: 14px;
-  background: var(--paper-deep);
-  box-shadow: var(--shadow-soft);
   cursor: zoom-in;
 }
 
-.art-caption-row {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
-}
-
 .art-caption {
-  font-family: var(--serif);
+  margin: 18px auto 0;
+  max-width: 30em;
   font-style: italic;
-  font-size: 0.95rem;
-  line-height: 1.45;
+  font-size: max(0.95rem, 0.8em);
+  line-height: 1.4;
   color: var(--ink-soft);
 }
 
 .prompt-toggle {
-  flex: none;
-  display: grid;
+  display: inline-grid;
   place-items: center;
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
+  margin-left: 4px;
   padding: 0;
   border: 0;
   border-radius: 50%;
   background: transparent;
   color: var(--ink-muted);
-  font-size: 18px;
+  font-size: 15px;
+  font-style: normal;
+  vertical-align: -3px;
   cursor: pointer;
 }
 
 .prompt-toggle:hover,
 .prompt-toggle[aria-expanded='true'] {
-  color: var(--ink);
-  background: color-mix(in srgb, var(--ink) 7%, transparent);
+  color: var(--accent);
 }
 
 .art-prompt {
-  padding: 12px 14px;
-  border-radius: 12px;
-  background: color-mix(in srgb, var(--ink) 5%, transparent);
-  font-size: 0.85rem;
+  margin: 14px auto 0;
+  max-width: 34em;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+  text-align: left;
+  font-size: 0.95rem;
   line-height: 1.5;
   color: var(--ink-soft);
+}
+
+.art-prompt .caps {
+  color: var(--ink-muted);
 }
 
 .art-prompt p {
@@ -125,6 +122,7 @@ watch(
 
 .art-prompt summary {
   cursor: pointer;
+  font-style: italic;
   color: var(--ink-muted);
 }
 

@@ -2,6 +2,7 @@
   <div class="book-face" :class="`part-${part}`">
     <div v-if="part !== 'text'" class="face-picture">
       <img
+        class="plate"
         :src="page.src"
         :srcset="page.srcset ?? ''"
         :sizes="part === 'full' ? '94vw' : '50vw'"
@@ -12,6 +13,7 @@
     <div v-if="part !== 'picture'" class="face-text">
       <template v-if="title">
         <h2 class="face-title">{{ title }}</h2>
+        <div class="ornament" aria-hidden="true"><i /></div>
         <p class="face-hint">{{ t.swipeHint }}</p>
       </template>
       <p v-for="(paragraph, index) in page.paragraphs" :key="index">{{ paragraph }}</p>
@@ -40,7 +42,8 @@ defineProps<{
   inset: 0;
   display: flex;
   flex-direction: column;
-  background: var(--card);
+  background-color: var(--paper);
+  background-image: var(--grain);
 }
 
 .face-picture {
@@ -48,7 +51,7 @@ defineProps<{
   min-height: 0;
   display: grid;
   place-items: center;
-  padding: clamp(10px, 3vh, 28px);
+  padding: clamp(16px, 4vh, 36px);
 }
 
 .part-full .face-picture {
@@ -58,11 +61,9 @@ defineProps<{
 }
 
 .face-picture img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: calc(100% - 14px);
+  max-height: calc(100% - 14px);
   object-fit: contain;
-  border-radius: 10px;
-  box-shadow: 0 6px 18px rgba(73, 56, 27, 0.16);
   -webkit-user-drag: none;
 }
 
@@ -76,7 +77,7 @@ defineProps<{
   overflow-y: auto;
   padding: clamp(14px, 4vh, 40px) clamp(16px, 3.4vw, 44px);
   font-size: var(--book-font, 20px);
-  line-height: 1.6;
+  line-height: 1.55;
   color: var(--ink);
   font-family: var(--serif);
 }
@@ -88,19 +89,26 @@ defineProps<{
 }
 
 .face-text p {
-  margin: 0 0 0.75em;
+  margin: 0;
+}
+
+.face-text p + p {
+  text-indent: 1.4em;
 }
 
 .face-title {
-  margin: 0 0 0.4em;
-  font-size: 1.7em;
-  line-height: 1.12;
+  margin: 0 0 0.6em;
+  font-size: 1.8em;
+  line-height: 1.1;
+  text-align: center;
 }
 
 .face-hint {
-  font-size: 0.7em;
+  margin-top: 1.2em;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.75em;
   color: var(--ink-muted);
-  font-family: var(--sans);
 }
 
 .face-caption {

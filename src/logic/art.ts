@@ -226,6 +226,67 @@ export interface TextSegment {
   character?: string
 }
 
+// A piece of the opening paragraph: the large initial, the first words in small capitals,
+// or ordinary text. Character names keep their link.
+export interface TextPiece extends TextSegment {
+  versal?: boolean
+  lead?: boolean
+}
+
+// Opens a tale as in an old book: the first letter (with any opening quote) becomes a large
+// initial, and the first few words, up to the first comma or full stop, are set in small
+// capitals.
+export function openingPieces(segments: TextSegment[], leadWords = 4): TextPiece[] {
+  const pieces: TextPiece[] = []
+  let versal = false
+  let leadDone = false
+  let inWord = false
+  let words = 0
+  for (const segment of segments) {
+    let text = segment.text
+    if (!versal) {
+      const initial = /^[\s«»"'“”‘’(–—-]*\p{L}/u.exec(text)
+      if (!initial) {
+        pieces.push({ ...segment })
+        continue
+      }
+      pieces.push({ text: initial[0], versal: true })
+      text = text.slice(initial[0].length)
+      versal = true
+      inWord = true
+    }
+    if (!text) continue
+    if (leadDone) {
+      pieces.push({ ...segment, text })
+      continue
+    }
+    let cut = -1
+    for (let i = 0; i < text.length; i++) {
+      const char = text[i]!
+      if (/[\p{L}\p{N}'’-]/u.test(char)) {
+        inWord = true
+        continue
+      }
+      if (inWord) {
+        words += 1
+        inWord = false
+      }
+      if (words >= leadWords || /[,.;:!?]/.test(char)) {
+        cut = i
+        break
+      }
+    }
+    if (cut < 0) {
+      pieces.push({ ...segment, text, lead: true })
+      continue
+    }
+    if (cut > 0) pieces.push({ ...segment, text: text.slice(0, cut), lead: true })
+    pieces.push({ ...segment, text: text.slice(cut) })
+    leadDone = true
+  }
+  return pieces
+}
+
 const escapeRegex = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 // Straight and curly apostrophes count as the same letter: "Troll's" matches "troll’s".
 const namePattern = (name: string) => escapeRegex(name).replace(/['’]/g, "['’]")

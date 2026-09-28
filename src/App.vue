@@ -3,8 +3,7 @@
 </template>
 
 <script setup lang="ts">
-// Literata, served with the site: upright with optical sizes for the headings, and the
-// lighter italic file for captions.
-import '@fontsource-variable/literata/opsz.css'
-import '@fontsource-variable/literata/wght-italic.css'
+// EB Garamond, served with the site: the book face for the whole site.
+import '@fontsource-variable/eb-garamond/wght.css'
+import '@fontsource-variable/eb-garamond/wght-italic.css'
 </script>

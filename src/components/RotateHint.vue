@@ -30,14 +30,9 @@
       </svg>
       <div class="rotate-title">{{ t.turnPhone }}</div>
       <div class="rotate-text">{{ t.turnPhoneText }}</div>
-      <q-btn
-        flat
-        no-caps
-        rounded
-        class="rotate-skip"
-        :label="t.readUpright"
-        @click="emit('dismiss')"
-      />
+      <button type="button" class="caps-link rotate-skip" @click="emit('dismiss')">
+        {{ t.readUpright }}
+      </button>
     </div>
   </div>
 </template>
@@ -67,11 +62,14 @@ const { t } = useText()
   justify-items: center;
   gap: 6px;
   max-width: 320px;
-  padding: 24px 22px 14px;
-  border-radius: 24px;
-  background: var(--card);
+  padding: 24px 24px 18px;
+  border-radius: 2px;
+  background-color: var(--paper);
+  background-image: var(--grain);
   text-align: center;
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  box-shadow:
+    0 0 0 1px var(--rule),
+    0 24px 60px rgba(0, 0, 0, 0.35);
 }
 
 .rotate-art {
@@ -86,7 +84,7 @@ const { t } = useText()
 }
 
 .phone-body {
-  fill: #2f3b33;
+  fill: #1c1915;
 }
 
 .phone-screen {
@@ -98,7 +96,7 @@ const { t } = useText()
 }
 
 .screen-picture {
-  fill: #c98b4b;
+  fill: var(--accent);
 }
 
 .screen-line {
@@ -122,7 +120,7 @@ const { t } = useText()
 .turn-arrow,
 .turn-arrow-head {
   fill: none;
-  stroke: #c98b4b;
+  stroke: var(--accent);
   stroke-width: 5;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -132,20 +130,20 @@ const { t } = useText()
 .rotate-title {
   margin-top: 4px;
   font-family: var(--serif);
-  font-size: 1.35rem;
-  font-weight: 600;
+  font-size: 1.45rem;
+  font-weight: 500;
   line-height: 1.2;
   color: var(--ink);
 }
 
 .rotate-text {
-  font-size: 0.9rem;
+  font-style: italic;
+  font-size: 1.05rem;
   color: var(--ink-soft);
 }
 
 .rotate-skip {
-  margin-top: 6px;
-  color: rgba(47, 59, 51, 0.75);
+  margin-top: 10px;
 }
 
 // Upright for a moment, turn a quarter clockwise, hold while the book opens on the

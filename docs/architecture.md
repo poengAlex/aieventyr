@@ -11,13 +11,13 @@ The pipeline writes canonical content bundles into `public/content`, and the fro
 
 ## Frontend structure
 
-The site is built for reading: a library of covers, and a story page that is mostly text and pictures. The interface has few words, and they follow the chosen edition (English for the English texts, Norwegian for the rest).
+The site is set like a printed storybook. The library is a title page and a table of contents; a tale opens like a chapter, and on wide screens as an open book with the picture on the left page and the text on the right. The interface has few words, and they follow the chosen edition (English for the English texts, Norwegian for the rest).
 
 ### Look
 
 - `src/css/app.scss`
-  The design tokens (paper, ink, fjord teal, lingonberry, honey, moss), the Literata serif for text and headings, the system sans for controls, night mode (`body--dark`), and one accent per edition (`.edition-child-friendly`, `.edition-classic`, `.edition-modern`). The illustration styles in `pipeline/art/*/style.json` use the same palette.
-- `src/App.vue` loads Literata from `@fontsource-variable/literata`, so the font is served with the site.
+  The tokens (cream paper, black ink, rules, and one printing colour per edition: `.edition-child-friendly`, `.edition-classic`, `.edition-modern`), a faint paper grain, night mode (`body--dark`, the same book by lamplight), and the shared pieces: letter-spaced capitals (`.caps`, `.caps-link`), Roman numerals (`.numeral`), pictures framed as plates (`.plate`), the printer's ornament (`.ornament`) and the two-page spread (`.spread`, `.left-page`, `.right-page`). The illustration styles in `pipeline/art/*/style.json` describe printed-book plates on the same cream paper, each edition leaning on its printing colour.
+- `src/App.vue` loads EB Garamond from `@fontsource-variable/eb-garamond`, so the font is served with the site. It is the only typeface.
 
 ### App shell
 
@@ -27,9 +27,9 @@ The site is built for reading: a library of covers, and a story page that is mos
 ### Pages
 
 - `src/pages/IndexPage.vue`
-  The library: a heading, the edition switch, a "continue reading" card for a story left halfway, and a shelf of covers with title and reading time.
+  The library: a title page with the edition switch, and a table of contents with each tale's number, title and reading time. On wide screens the left page shows the cover of the tale under the pointer, or of the tale left halfway, with a link to continue where the reader stopped; on phones that plate sits between the title page and the contents.
 - `src/pages/StoryPage.vue`
-  The reader. A slim bar with the way back, the title once it has scrolled away, the `Aa` settings and a reading-progress line. Then the cover, title, reading time, edition switch and the picture-book button; the text with its pictures; and at the end the cast, the next tale and the original title. It remembers how far the reader has come and marks the story read at the end.
+  The reader. A slim bar with the way back to the contents, the title once it has scrolled away, the `Aa` settings and a reading-progress line. The tale opens like a chapter: number, title, reading time, edition switch and the picture-book link; then the text, opening with a large initial and small capitals; and at the end the cast, the next tale and the original title. It remembers how far the reader has come, marks the story read at the end, and "continue where you left off" reopens a tale in the edition it was read in.
 - `src/pages/AboutPage.vue`
   A few lines on where the tales come from and what the four editions are.
 - `src/pages/ErrorNotFound.vue`
@@ -37,15 +37,16 @@ The site is built for reading: a library of covers, and a story page that is mos
 
 ### Components
 
-- `src/components/StoryCard.vue` – one cover on the shelf.
-- `src/components/EditionSwitch.vue` – the four editions as a segmented switch.
+- `src/components/ContentsEntry.vue` – one line of a table of contents: number, title, dotted leader and minutes.
+- `src/components/CoverPlate.vue` – a tale's cover framed as a plate, with its number and title.
+- `src/components/EditionSwitch.vue` – the four editions as small-capital links.
 - `src/components/ReadingSettings.vue` – the `Aa` menu: text size, day or night, edition.
 - `src/components/IllustratedStory.vue`
-  Text with the pictures of an illustration set. On wide screens one picture stays beside the text and changes when the reader reaches its paragraph; on narrow screens the pictures sit between the paragraphs. Character names open the character's portrait.
+  Text with the pictures of an illustration set. From 1024px it is an open book: the picture for the passage being read stays on the left page and changes when the reader reaches its paragraph. Below that the pictures sit between the paragraphs. Paragraphs are indented as in a book, and the first opens with a large initial and small capitals (`openingPieces` in `src/logic/art.ts`). Character names open the character's portrait.
 - `src/components/ArtFigure.vue`
-  One picture with its caption, and a small button that shows the prompt that made it.
+  One picture as a plate, with its caption and a small button that shows the prompt that made it.
 - `src/components/CharacterDialog.vue`
-  A character's portrait and description, with the model sheet one tap away, and arrows to the next character.
+  A character's portrait and description, with the model sheet one tap away, and links to the next character.
 - `src/components/PictureBook.vue`
   Full-screen picture-book mode: one picture and the text that leads up to it per page. Wide screens show an open book, with the picture on the left page and the text on the right; upright phones show one page. Pages turn with a 3D page-turn animation, by tap, arrow keys or a swipe that the page follows. On an upright phone, `RotateHint.vue` first suggests turning the phone sideways and closes once it is turned. It opens only for stories with new pictures.
 - `src/components/FullscreenImageDialog.vue` – a picture on its own, full screen.
@@ -58,12 +59,12 @@ The site is built for reading: a library of covers, and a story page that is mos
   - text size
   - night mode
   - which stories have been read, per edition
-  - where the reader last stopped (`lastRead`), for "continue reading"
+  - where the reader last stopped (`lastRead`), for "continue where you left off"
 
 ### Texts
 
 - `src/logic/i18n.ts`
-  The interface words in Norwegian and English, the edition names, and reading time (150 words a minute for the children's edition, 200 for the rest).
+  The interface words in Norwegian and English, the edition names, reading time (150 words a minute for the children's edition, 200 for the rest) and Roman numerals for the tale numbers.
 
 ### Content access layer
 
@@ -86,8 +87,8 @@ This module is the key boundary between app code and generated output. If the co
 
 1. Load `/content/manifest.json` (titles and word counts per edition are in it)
 2. Sort stories by `index`
-3. Show each story's cover from the edition's illustration set, or the variant's older `main.webp` until there is one
-4. Navigate to `/story/:id` (with `?resume=1` from "continue reading")
+3. List the tales as a table of contents, with covers from the edition's illustration set, or the variant's older `main.webp` until there is one
+4. Navigate to `/story/:id` (with `?resume=1` from "continue where you left off")
 
 ### Story page
 

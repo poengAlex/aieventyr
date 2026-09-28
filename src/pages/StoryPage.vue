@@ -1,94 +1,93 @@
 <template>
   <q-page class="story-page" :class="editionClass">
     <header class="reading-bar">
-      <router-link to="/" class="text-button back">
-        <q-icon name="arrow_back" />
-        <span class="back-label">{{ t.allTales }}</span>
-      </router-link>
+      <router-link to="/" class="caps-link back">‹ {{ t.contents }}</router-link>
       <div class="bar-title" :class="{ visible: pastHead }">{{ title }}</div>
-      <reading-settings :available="story?.availableVariants" />
+      <div class="bar-end">
+        <reading-settings :available="story?.availableVariants" />
+      </div>
       <div class="reading-progress"><span :style="{ transform: `scaleX(${progress})` }" /></div>
     </header>
 
-    <div v-if="loading" class="loading"><q-spinner size="36px" color="primary" /></div>
+    <div v-if="loading" class="loading"><q-spinner size="32px" color="primary" /></div>
 
-    <article v-else-if="bundle && story" class="tale">
-      <header ref="headElement" class="tale-head">
-        <button
-          type="button"
-          class="cover-button"
-          :aria-label="cover.alt"
-          @click="openImage(cover.src, cover.alt)"
-        >
-          <img
-            :src="cover.src"
-            :srcset="cover.srcset ?? ''"
-            sizes="(max-width: 600px) 64vw, 380px"
-            :alt="cover.alt"
-          />
-        </button>
-        <h1>{{ title }}</h1>
-        <div v-if="minutes" class="tale-meta">{{ t.minutes(minutes) }}</div>
-        <edition-switch v-model="settings.variant" :available="story.availableVariants" small />
-        <button
-          v-if="bookReady"
-          type="button"
-          class="primary-button book-button"
-          @click="pictureBookOpen = true"
-        >
-          <q-icon name="auto_stories" />
-          {{ t.pictureBook }}
-        </button>
-      </header>
-
-      <div ref="bodyElement" class="tale-body">
-        <illustrated-story
-          v-if="readerArt"
-          :text="bundle.text"
-          :art="readerArt"
-          :font-size="settings.fontSize"
-          @open-character="openCharacter"
-          @open-image="openImage"
-        />
-      </div>
-
-      <div class="ornament" aria-hidden="true">✦ ✦ ✦</div>
-
-      <section v-if="characterCards.length" class="cast">
-        <h2>{{ t.characters }}</h2>
-        <div class="cast-row">
+    <illustrated-story
+      v-else-if="bundle && story && readerArt"
+      ref="storyElement"
+      :text="bundle.text"
+      :art="readerArt"
+      :font-size="settings.fontSize"
+      @open-character="openCharacter"
+      @open-image="openImage"
+    >
+      <template #head>
+        <header ref="headElement" class="tale-head">
           <button
-            v-for="(character, index) in characterCards"
-            :key="character.slug"
+            v-if="compact"
             type="button"
-            class="cast-member"
-            @click="openCharacterAt(index)"
+            class="opening-plate"
+            :aria-label="cover.alt"
+            @click="openImage(cover.src, cover.alt)"
           >
-            <img :src="character.image" alt="" loading="lazy" />
-            <span>{{ character.name }}</span>
+            <img
+              class="plate"
+              :src="cover.src"
+              :srcset="cover.srcset ?? ''"
+              sizes="(max-width: 600px) 64vw, 340px"
+              :alt="cover.alt"
+            />
           </button>
-        </div>
-      </section>
+          <div v-if="listItem" class="numeral">{{ roman(listItem.index) }}</div>
+          <h1>{{ title }}</h1>
+          <div v-if="minutes" class="tale-meta">{{ t.minutes(minutes) }}</div>
+          <edition-switch v-model="settings.variant" :available="story.availableVariants" />
+          <button
+            v-if="bookReady"
+            type="button"
+            class="caps-link accent book-link"
+            @click="pictureBookOpen = true"
+          >
+            {{ t.pictureBook }} ›
+          </button>
+        </header>
+      </template>
 
-      <router-link v-if="nextStory" :to="`/story/${nextStory.id}`" class="next-card">
-        <img
-          :src="nextStory.cover.src"
-          :srcset="nextStory.cover.srcset ?? ''"
-          sizes="88px"
-          alt=""
-          loading="lazy"
-        />
-        <div class="next-copy">
-          <div class="eyebrow">{{ t.nextTale }}</div>
-          <div class="next-title">{{ nextStory.title }}</div>
-        </div>
-        <q-icon name="arrow_forward" class="next-arrow" />
-      </router-link>
+      <template #end>
+        <footer class="tale-end">
+          <div class="ornament" aria-hidden="true"><i /></div>
 
-      <p class="colophon">
-        {{ t.originalTitle }}: <em>{{ story.originalTitle }}</em>
-      </p>
-    </article>
+          <section v-if="characterCards.length" class="cast">
+            <h2 class="caps">{{ t.characters }}</h2>
+            <div class="cast-row">
+              <button
+                v-for="(character, index) in characterCards"
+                :key="character.slug"
+                type="button"
+                class="cast-member"
+                @click="openCharacterAt(index)"
+              >
+                <img class="plate" :src="character.image" alt="" loading="lazy" />
+                <span>{{ character.name }}</span>
+              </button>
+            </div>
+          </section>
+
+          <nav v-if="nextStory" class="next">
+            <div class="caps next-label">{{ t.nextTale }}</div>
+            <contents-entry
+              :to="`/story/${nextStory.id}`"
+              :numeral="roman(nextStory.index)"
+              :title="nextStory.title"
+              :minutes="nextStory.minutes"
+            />
+          </nav>
+
+          <p class="colophon">
+            {{ t.originalTitle }}: <em>{{ story.originalTitle }}</em>
+          </p>
+        </footer>
+      </template>
+    </illustrated-story>
 
     <picture-book
       v-if="bookReady && art && bundle"
@@ -96,7 +95,7 @@
       :text="bundle.text"
       :art="art"
       :title="title"
-      :font-size="settings.fontSize + 2"
+      :font-size="settings.fontSize + 1"
     />
     <fullscreen-image-dialog
       v-model="imageDialogOpen"
@@ -114,13 +113,15 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
+import { useQuasar } from 'quasar'
 import CharacterDialog from 'src/components/CharacterDialog.vue'
+import ContentsEntry from 'src/components/ContentsEntry.vue'
 import EditionSwitch from 'src/components/EditionSwitch.vue'
 import FullscreenImageDialog from 'src/components/FullscreenImageDialog.vue'
 import IllustratedStory from 'src/components/IllustratedStory.vue'
 import PictureBook from 'src/components/PictureBook.vue'
 import ReadingSettings from 'src/components/ReadingSettings.vue'
-import { artSetFor, artSrcset, artUrl, fallbackArt, loadArt, loadArtCover } from 'src/logic/art'
+import { artSetFor, artSrcset, artUrl, fallbackArt, loadArt } from 'src/logic/art'
 import {
   getVariantBasePath,
   loadManifest,
@@ -128,7 +129,7 @@ import {
   loadVariantBundle,
   resolveStoryVariant,
 } from 'src/logic/content'
-import { readingMinutes, useText } from 'src/logic/i18n'
+import { readingMinutes, roman, useText } from 'src/logic/i18n'
 import { createNotify } from 'src/logic/utils'
 import { useSettingsStore } from 'src/stores/settings'
 import type {
@@ -137,9 +138,11 @@ import type {
   StoryListItem,
   StoryMeta,
   VariantBundle,
+  VariantType,
 } from 'src/types/content'
 
 const route = useRoute()
+const $q = useQuasar()
 const settings = useSettingsStore()
 const { t } = useText()
 
@@ -148,7 +151,6 @@ const story = ref<StoryMeta | null>(null)
 const bundle = ref<VariantBundle | null>(null)
 const art = ref<ArtManifest | null>(null)
 const manifestStories = ref<StoryListItem[]>([])
-const nextCover = ref<{ src: string; srcset?: string } | null>(null)
 
 const pictureBookOpen = ref(false)
 const imageDialogOpen = ref(false)
@@ -156,11 +158,12 @@ const activeImage = ref({ src: '', alt: '' })
 const characterDialogOpen = ref(false)
 const characterIndex = ref(0)
 
+const storyElement = ref<InstanceType<typeof IllustratedStory> | null>(null)
 const headElement = ref<HTMLElement | null>(null)
-const bodyElement = ref<HTMLElement | null>(null)
 const progress = ref(0)
 const pastHead = ref(false)
 
+const compact = computed(() => $q.screen.lt.md)
 const storyId = computed(() => String(route.params.id))
 const variant = computed(() => bundle.value?.variant.variant ?? settings.variant)
 const listItem = computed(() => manifestStories.value.find((item) => item.id === storyId.value))
@@ -234,11 +237,9 @@ const nextStory = computed(() => {
   const nextVariant = resolveStoryVariant(next.availableVariants, settings.variant)
   return {
     id: next.id,
+    index: next.index,
     title: next.titles?.[nextVariant] ?? next.canonicalTitle,
-    cover: nextCover.value ?? {
-      src: `${getVariantBasePath(next.id, nextVariant)}/main.webp`,
-      srcset: undefined,
-    },
+    minutes: readingMinutes(next.words?.[nextVariant], nextVariant),
   }
 })
 
@@ -265,14 +266,14 @@ let lastSaved = 0
 // How far the reader has come: the share of the text above a line 60% down the window.
 function measure() {
   frame = 0
-  const body = bodyElement.value
-  if (!body) return
-  const rect = body.getBoundingClientRect()
+  const text = storyElement.value?.textElement
+  if (!text) return
+  const rect = text.getBoundingClientRect()
   progress.value = Math.min(
     1,
     Math.max(0, (window.innerHeight * 0.6 - rect.top) / Math.max(1, rect.height)),
   )
-  pastHead.value = (headElement.value?.getBoundingClientRect().bottom ?? 1) < 0
+  pastHead.value = (headElement.value?.getBoundingClientRect().bottom ?? 1) < 60
   if (!story.value) return
   if (progress.value > 0.97) settings.markAsRead(story.value.id, variant.value, true)
   const now = Date.now()
@@ -286,15 +287,18 @@ function onScroll() {
   if (!frame) frame = requestAnimationFrame(measure)
 }
 
-// Back to where the reader stopped, when they came from "continue reading".
+// Back to where the reader stopped, when they came from "continue where you left off".
 function resume() {
   const last = settings.lastRead
-  const body = bodyElement.value
-  if (!route.query.resume || !last || !body) return
+  const text = storyElement.value?.textElement
+  if (!route.query.resume || !last || !text) return
   if (last.storyId !== storyId.value || last.variant !== variant.value) return
-  const top = body.getBoundingClientRect().top + window.scrollY
-  window.scrollTo({ top: top + last.progress * body.offsetHeight - window.innerHeight * 0.6 })
+  const top = text.getBoundingClientRect().top + window.scrollY
+  window.scrollTo({ top: top + last.progress * text.offsetHeight - window.innerHeight * 0.6 })
 }
+
+// The edition being loaded, so the edition watcher below does not load it twice.
+let loadingVariant: VariantType | null = null
 
 async function loadPage() {
   loading.value = true
@@ -303,11 +307,16 @@ async function loadPage() {
     const manifest = await loadManifest()
     manifestStories.value = [...manifest.stories].sort((left, right) => left.index - right.index)
     story.value = await loadStory(storyId.value)
+    // Continuing a tale opens it in the edition it was being read in.
+    const last = settings.lastRead
+    const wanted =
+      route.query.resume && last?.storyId === storyId.value ? last.variant : settings.variant
     const resolved = resolveStoryVariant(
       story.value.availableVariants,
-      settings.variant,
+      wanted,
       manifest.defaultVariant,
     )
+    loadingVariant = resolved
     if (resolved !== settings.variant) settings.setVariant(resolved)
     const [loadedBundle, loadedArt] = await Promise.all([
       loadVariantBundle(storyId.value, resolved),
@@ -315,11 +324,6 @@ async function loadPage() {
     ])
     bundle.value = loadedBundle
     art.value = loadedArt
-    const index = manifestStories.value.findIndex((item) => item.id === storyId.value)
-    const next = manifestStories.value[index + 1]
-    nextCover.value = next
-      ? await loadArtCover(next.id, resolveStoryVariant(next.availableVariants, resolved))
-      : null
   } catch (error: unknown) {
     createNotify((error as Error).message, t.value.loadingFailed)
   } finally {
@@ -345,15 +349,19 @@ onBeforeUnmount(() => {
   }
 })
 
-watch([storyId, () => settings.variant], () => void loadPage())
+watch(storyId, () => {
+  window.scrollTo({ top: 0 })
+  void loadPage()
+})
+watch(
+  () => settings.variant,
+  (next) => {
+    if (next !== loadingVariant) void loadPage()
+  },
+)
 </script>
 
 <style lang="scss" scoped>
-.story-page {
-  background: var(--paper);
-  transition: background-color 0.3s ease;
-}
-
 .reading-bar {
   position: sticky;
   top: 0;
@@ -361,22 +369,26 @@ watch([storyId, () => settings.variant], () => void loadPage())
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
-  gap: 8px;
-  padding: max(8px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) 8px
-    max(8px, env(safe-area-inset-left));
-  background: color-mix(in srgb, var(--paper) 88%, transparent);
-  backdrop-filter: blur(10px);
+  gap: 12px;
+  height: calc(var(--bar-height) + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) max(18px, env(safe-area-inset-right)) 0
+    max(18px, env(safe-area-inset-left));
+  border-bottom: 1px solid var(--rule);
+  background-color: var(--paper);
+  background-image: var(--grain);
 }
 
 .back {
-  padding-left: 8px;
+  justify-self: start;
+  white-space: nowrap;
 }
 
 .bar-title {
+  justify-self: center;
+  max-width: 100%;
   overflow: hidden;
-  font-family: var(--serif);
-  font-weight: 600;
-  text-align: center;
+  font-style: italic;
+  font-size: 1.08rem;
   white-space: nowrap;
   text-overflow: ellipsis;
   opacity: 0;
@@ -387,13 +399,16 @@ watch([storyId, () => settings.variant], () => void loadPage())
   opacity: 1;
 }
 
+.bar-end {
+  justify-self: end;
+}
+
 .reading-progress {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -1px;
   height: 2px;
-  background: var(--line);
 }
 
 .reading-progress span {
@@ -410,141 +425,107 @@ watch([storyId, () => settings.variant], () => void loadPage())
   min-height: 60vh;
 }
 
-.tale {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 0 max(20px, env(safe-area-inset-left)) 64px;
-}
-
 .tale-head {
   display: grid;
   justify-items: center;
-  gap: 14px;
-  padding: clamp(20px, 5vw, 48px) 0 clamp(28px, 6vw, 56px);
+  gap: 10px;
+  padding: 24px 0 44px;
   text-align: center;
 }
 
-.cover-button {
+.opening-plate {
+  margin: 20px 0 22px;
   padding: 0;
   border: 0;
   background: none;
   cursor: zoom-in;
 }
 
-.cover-button img {
-  display: block;
-  width: min(380px, 64vw);
+.opening-plate img {
+  width: min(64vw, 340px);
   aspect-ratio: 1;
   object-fit: cover;
-  border-radius: 22px;
-  background: var(--paper-deep);
-  box-shadow: var(--shadow);
 }
 
 .tale-head h1 {
-  max-width: 18em;
-  margin: 10px 0 0;
-  font-size: clamp(2rem, 5.4vw, 3.3rem);
+  max-width: 13em;
+  font-size: clamp(2.3rem, 5.4vw, 3.4rem);
   line-height: 1.06;
 }
 
 .tale-meta {
-  font-size: 0.92rem;
+  margin-bottom: 8px;
+  font-style: italic;
+  font-size: 1.08rem;
   color: var(--ink-muted);
 }
 
-.book-button {
-  margin-top: 6px;
+.book-link {
+  margin-top: 4px;
+}
+
+.tale-end {
+  display: grid;
+  gap: 48px;
+  margin-top: 56px;
 }
 
 .cast h2 {
-  margin: 0 0 16px;
-  font-size: 1.3rem;
+  margin-bottom: 22px;
   text-align: center;
+  color: var(--ink-muted);
 }
 
 .cast-row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 18px 22px;
+  gap: 26px 24px;
 }
 
 .cast-member {
   display: grid;
   justify-items: center;
-  gap: 8px;
-  width: 104px;
+  align-content: start;
+  gap: 14px;
+  width: 112px;
   padding: 0;
   border: 0;
   background: none;
   color: var(--ink);
-  font: 500 0.88rem/1.25 var(--sans);
-  text-align: center;
+  font-style: italic;
+  font-size: 1.02rem;
+  line-height: 1.25;
   cursor: pointer;
 }
 
 .cast-member img {
-  width: 88px;
-  height: 88px;
+  width: 84px;
+  height: 84px;
   object-fit: cover;
   border-radius: 50%;
-  background: var(--paper-deep);
-  box-shadow: var(--shadow-soft);
-  transition: transform 0.2s;
 }
 
-.cast-member:hover img {
-  transform: scale(1.05);
+.cast-member:hover span,
+.cast-member:focus-visible span {
+  color: var(--accent);
 }
 
-.next-card {
-  display: grid;
-  grid-template-columns: 88px minmax(0, 1fr) auto;
-  gap: 18px;
-  align-items: center;
-  max-width: 560px;
-  margin: 56px auto 0;
-  padding: 12px 20px 12px 12px;
-  border-radius: 22px;
-  background: var(--card);
-  box-shadow: var(--shadow-soft);
-  transition: box-shadow 0.2s;
-}
-
-.next-card:hover {
-  box-shadow: var(--shadow);
-}
-
-.next-card img {
-  width: 88px;
-  height: 88px;
-  object-fit: cover;
-  border-radius: 14px;
-}
-
-.next-title {
-  font-family: var(--serif);
-  font-size: 1.15rem;
-  font-weight: 600;
-  line-height: 1.25;
-}
-
-.next-arrow {
-  font-size: 22px;
+.next-label {
+  margin-bottom: 6px;
   color: var(--ink-muted);
 }
 
 .colophon {
-  margin: 40px 0 0;
+  margin: 0;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.98rem;
   color: var(--ink-muted);
 }
 
-@media (max-width: 600px) {
-  .back-label {
-    display: none;
+@media (max-width: 1023px) {
+  .tale-head {
+    padding-top: 8px;
   }
 }
 </style>

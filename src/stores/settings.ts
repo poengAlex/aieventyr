@@ -20,7 +20,7 @@ export interface ReadingPosition {
 export const useSettingsStore = defineStore('settings', {
   state: () => ({
     variant: 'simplified' as VariantTypes,
-    fontSize: 20,
+    fontSize: 21,
     night: false,
     readStoryIds: [] as string[],
     lastRead: null as ReadingPosition | null,
@@ -34,7 +34,7 @@ export const useSettingsStore = defineStore('settings', {
       this.variant = variant
     },
     setFontSize(size: number) {
-      this.fontSize = Math.min(28, Math.max(16, size))
+      this.fontSize = Math.min(30, Math.max(16, size))
     },
     toggleNight() {
       this.night = !this.night
