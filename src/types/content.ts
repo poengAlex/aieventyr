@@ -14,6 +14,9 @@ export interface StoryListItem {
   summary: string
   availableVariants: VariantType[]
   coverImage: string
+  // Each edition's own title and word count.
+  titles?: Partial<Record<VariantType, string>>
+  words?: Partial<Record<VariantType, number>>
 }
 
 export interface ContentManifest {
@@ -96,6 +99,12 @@ export interface VariantBundle {
 }
 
 // Illustrations made by pipeline/commands/generate-art.mjs into public/content/art/<set>/.
+// One size of a web copy, for srcset.
+export interface ArtSource {
+  file: string
+  width: number
+}
+
 export interface ArtCharacter {
   slug: string
   name: string
@@ -103,6 +112,7 @@ export interface ArtCharacter {
   look: string
   sheet: string | null
   portrait: string | null
+  portraitSources?: ArtSource[]
   replacesPortrait: string | null
 }
 
@@ -111,6 +121,7 @@ export interface ArtPicture {
   paragraph: number
   anchor: string
   file: string | null
+  sources?: ArtSource[]
   caption: string
   alt: string
   prompt: string
@@ -129,7 +140,7 @@ export interface ArtManifest {
   updatedAt: string
   cover: Omit<ArtPicture, 'id' | 'paragraph' | 'anchor' | 'places'>
   characters: ArtCharacter[]
-  places: { slug: string; name: string; look: string; file: string | null }[]
+  places: { slug: string; name: string; look: string }[]
   illustrations: ArtPicture[]
 }
 
@@ -141,4 +152,14 @@ export interface ArtIndex {
     string,
     { cover: string | null; pictures: number; done: number; manifests: Record<string, string> }
   >
+}
+
+// A character as the reader shows it: the new portrait and model sheet when the story
+// has them, otherwise the older character picture.
+export interface CharacterCard {
+  slug: string
+  name: string
+  description: string
+  image: string
+  sheet: string | null
 }

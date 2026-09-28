@@ -29,7 +29,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/askesv/simplified/main.webp"
+      "coverImage": "stories/askesv/simplified/main.webp",
+      "titles": {
+        "simplified": "Askeladden som stjal sølvendene til trollet",
+        "english": "Ash-Lad and the Troll’s Silver Ducks, Bedspread, and Gold Harp",
+        "child-friendly": "Askeladden som stjal sølvendene til trollet",
+        "modern": "Askeladden som stjal sølvendene til trollet"
+      },
+      "words": {
+        "simplified": 1576,
+        "english": 1660,
+        "child-friendly": 1496,
+        "modern": 1683
+      }
     },
     {
       "id": "gjertrud",
@@ -43,7 +55,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/gjertrud/simplified/main.webp"
+      "coverImage": "stories/gjertrud/simplified/main.webp",
+      "titles": {
+        "simplified": "Gjertrudsfuglen",
+        "english": "The Gertrud Bird",
+        "child-friendly": "Gjertrudsfuglen",
+        "modern": "Gjertrudsfuglen"
+      },
+      "words": {
+        "simplified": 326,
+        "english": 354,
+        "child-friendly": 304,
+        "modern": 521
+      }
     },
     {
       "id": "fugldam",
@@ -57,7 +81,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/fugldam/simplified/main.webp"
+      "coverImage": "stories/fugldam/simplified/main.webp",
+      "titles": {
+        "simplified": "Fugl Dam",
+        "english": "Bird Dam",
+        "child-friendly": "Fugl Dam",
+        "modern": "Fugl Dam"
+      },
+      "words": {
+        "simplified": 3536,
+        "english": 4074,
+        "child-friendly": 2555,
+        "modern": 4410
+      }
     },
     {
       "id": "spurning",
@@ -71,7 +107,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/spurning/simplified/main.webp"
+      "coverImage": "stories/spurning/simplified/main.webp",
+      "titles": {
+        "simplified": "Spørsmålet",
+        "english": "The Question",
+        "child-friendly": "Spørsmålet",
+        "modern": "Spørsmålet"
+      },
+      "words": {
+        "simplified": 382,
+        "english": 426,
+        "child-friendly": 432,
+        "modern": 533
+      }
     },
     {
       "id": "rigeper",
@@ -85,7 +133,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/rigeper/simplified/main.webp"
+      "coverImage": "stories/rigeper/simplified/main.webp",
+      "titles": {
+        "simplified": "Rike Per Kremmer",
+        "english": "Rich Per the Pedlar",
+        "child-friendly": "Rike Per Kremmer",
+        "modern": "Rike Per Kremmer"
+      },
+      "words": {
+        "simplified": 3483,
+        "english": 4178,
+        "child-friendly": 2356,
+        "modern": 4340
+      }
     },
     {
       "id": "asketrol",
@@ -99,7 +159,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/asketrol/simplified/main.webp"
+      "coverImage": "stories/asketrol/simplified/main.webp",
+      "titles": {
+        "simplified": "Askeladden som kappåt med trollet",
+        "english": "Askeladden Who Had an Eating Match with the Troll",
+        "child-friendly": "Askeladden som kappåt med trollet",
+        "modern": "Askeladden som kappåt med trollet"
+      },
+      "words": {
+        "simplified": 766,
+        "english": 852,
+        "child-friendly": 796,
+        "modern": 1329
+      }
     },
     {
       "id": "guttnord",
@@ -113,7 +185,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/guttnord/simplified/main.webp"
+      "coverImage": "stories/guttnord/simplified/main.webp",
+      "titles": {
+        "simplified": "Om gutten som gikk til nordavinden og krevde melet tilbake",
+        "english": "The Boy Who Went to the North Wind and Demanded His Meal Back",
+        "child-friendly": "Om gutten som gikk til nordavinden og krevde melet tilbake",
+        "modern": "Om gutten som gikk til nordavinden og krevde melet tilbake"
+      },
+      "words": {
+        "simplified": 1046,
+        "english": 1226,
+        "child-friendly": 981,
+        "modern": 1681
+      }
     },
     {
       "id": "jomfrum",
@@ -127,7 +211,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/jomfrum/simplified/main.webp"
+      "coverImage": "stories/jomfrum/simplified/main.webp",
+      "titles": {
+        "simplified": "Jomfru Maria som gudmor",
+        "english": "The Virgin Mary as Godmother",
+        "child-friendly": "Jomfru Maria som gudmor",
+        "modern": "Jomfru Maria som gudmor"
+      },
+      "words": {
+        "simplified": 1455,
+        "english": 1717,
+        "child-friendly": 1654,
+        "modern": 2392
+      }
     },
     {
       "id": "tentland",
@@ -141,7 +237,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/tentland/simplified/main.webp"
+      "coverImage": "stories/tentland/simplified/main.webp",
+      "titles": {
+        "simplified": "De tre prinsessene i Hvittenland",
+        "english": "The Three Princesses in Whiteland",
+        "child-friendly": "De tre prinsessene i Hvittenland",
+        "modern": "De tre prinsessene i Hvittenland"
+      },
+      "words": {
+        "simplified": 2069,
+        "english": 2233,
+        "child-friendly": 2079,
+        "modern": 2841
+      }
     },
     {
       "id": "noedig",
@@ -155,7 +263,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/noedig/simplified/main.webp"
+      "coverImage": "stories/noedig/simplified/main.webp",
+      "titles": {
+        "simplified": "Noen kjerringer er slik",
+        "english": "Some Wives Are Like That",
+        "child-friendly": "Noen kjerringer er slik",
+        "modern": "Noen kjerringer er slik"
+      },
+      "words": {
+        "simplified": 1851,
+        "english": 1994,
+        "child-friendly": 1637,
+        "modern": 2242
+      }
     },
     {
       "id": "bestedt",
@@ -169,7 +289,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/bestedt/simplified/main.webp"
+      "coverImage": "stories/bestedt/simplified/main.webp",
+      "titles": {
+        "simplified": "Hver synes best om sine barn",
+        "english": "Everyone Loves Their Own Children Best",
+        "child-friendly": "Hver synes best om sine barn",
+        "modern": "Hver synes best om sine barn"
+      },
+      "words": {
+        "simplified": 129,
+        "english": 145,
+        "child-friendly": 186,
+        "modern": 197
+      }
     },
     {
       "id": "frihist",
@@ -183,7 +315,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/frihist/simplified/main.webp"
+      "coverImage": "stories/frihist/simplified/main.webp",
+      "titles": {
+        "simplified": "En frierhistorie",
+        "english": "A Courting Tale",
+        "child-friendly": "En frierhistorie",
+        "modern": "En frierhistorie"
+      },
+      "words": {
+        "simplified": 182,
+        "english": 186,
+        "child-friendly": 233,
+        "modern": 280
+      }
     },
     {
       "id": "tremost",
@@ -197,7 +341,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/tremost/simplified/main.webp"
+      "coverImage": "stories/tremost/simplified/main.webp",
+      "titles": {
+        "simplified": "De tre mostrene",
+        "english": "The Three Aunts",
+        "child-friendly": "De tre mostrene",
+        "modern": "De tre mostrene"
+      },
+      "words": {
+        "simplified": 1335,
+        "english": 1475,
+        "child-friendly": 1084,
+        "modern": 1931
+      }
     },
     {
       "id": "enkeson",
@@ -211,7 +367,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/enkeson/simplified/main.webp"
+      "coverImage": "stories/enkeson/simplified/main.webp",
+      "titles": {
+        "simplified": "Enkesønnen",
+        "english": "The Widow’s Son",
+        "child-friendly": "Enkesønnen",
+        "modern": "Enkesønnen"
+      },
+      "words": {
+        "simplified": 3050,
+        "english": 3304,
+        "child-friendly": 2713,
+        "modern": 3833
+      }
     },
     {
       "id": "mandatt",
@@ -225,7 +393,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/mandatt/simplified/main.webp"
+      "coverImage": "stories/mandatt/simplified/main.webp",
+      "titles": {
+        "simplified": "Mannens datter og kjerringens datter",
+        "english": "The Man’s Daughter and the Wife’s Daughter",
+        "child-friendly": "Mannens datter og kjerringens datter",
+        "modern": "Mannens datter og kjerringens datter"
+      },
+      "words": {
+        "simplified": 2657,
+        "english": 2834,
+        "child-friendly": 2149,
+        "modern": 2839
+      }
     },
     {
       "id": "nodedsk",
@@ -239,7 +419,19 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/nodedsk/simplified/main.webp"
+      "coverImage": "stories/nodedsk/simplified/main.webp",
+      "titles": {
+        "simplified": "Hanen og høna i Nøtteskogen",
+        "english": "The Rooster and the Hen in the Hazelwood",
+        "child-friendly": "Hanen og høna i Nøtteskogen",
+        "modern": "Hanen og høna i Nøtteskogen"
+      },
+      "words": {
+        "simplified": 1053,
+        "english": 1378,
+        "child-friendly": 964,
+        "modern": 1398
+      }
     },
     {
       "id": "bjornrae",
@@ -255,7 +447,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/bjornrae/simplified/main.webp"
+      "coverImage": "stories/bjornrae/simplified/main.webp",
+      "titles": {
+        "raw": "Bjørnen og Ræven",
+        "cleaned": "Bjørnen og Ræven",
+        "simplified": "Bjørnen og reven",
+        "english": "The Bear and the Fox",
+        "child-friendly": "Bjørnen og reven",
+        "modern": "Bjørnen og reven"
+      },
+      "words": {
+        "raw": 636,
+        "cleaned": 614,
+        "simplified": 672,
+        "english": 798,
+        "child-friendly": 651,
+        "modern": 930
+      }
     },
     {
       "id": "gudbrand",
@@ -271,7 +479,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/gudbrand/simplified/main.webp"
+      "coverImage": "stories/gudbrand/simplified/main.webp",
+      "titles": {
+        "raw": "Gudbrand i Lien",
+        "cleaned": "Gudbrand i Lien",
+        "simplified": "Gudbrand i lien",
+        "english": "Gudbrand-on-the-Slope",
+        "child-friendly": "Gudbrand i lien",
+        "modern": "Gudbrand i lien"
+      },
+      "words": {
+        "raw": 1468,
+        "cleaned": 1426,
+        "simplified": 1375,
+        "english": 1355,
+        "child-friendly": 852,
+        "modern": 1602
+      }
     },
     {
       "id": "katrast",
@@ -287,7 +511,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/katrast/simplified/main.webp"
+      "coverImage": "stories/katrast/simplified/main.webp",
+      "titles": {
+        "raw": "Kari Træstak",
+        "cleaned": "Kari Træstak",
+        "simplified": "Kari Trestakk",
+        "english": "Kari Woodsmock",
+        "child-friendly": "Kari Trestakk",
+        "modern": "Kari Trestakk"
+      },
+      "words": {
+        "raw": 4263,
+        "cleaned": 4155,
+        "simplified": 3784,
+        "english": 4135,
+        "child-friendly": 2507,
+        "modern": 3952
+      }
     },
     {
       "id": "rfoxgjt",
@@ -303,7 +543,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/rfoxgjt/simplified/main.webp"
+      "coverImage": "stories/rfoxgjt/simplified/main.webp",
+      "titles": {
+        "raw": "Ræven som Gjæter",
+        "cleaned": "Ræven som Gjæter",
+        "simplified": "Reven som gjeter",
+        "english": "The Fox as Herdsman",
+        "child-friendly": "Reven som gjeter",
+        "modern": "Reven som gjeter"
+      },
+      "words": {
+        "raw": 340,
+        "cleaned": 329,
+        "simplified": 364,
+        "english": 426,
+        "child-friendly": 373,
+        "modern": 550
+      }
     },
     {
       "id": "smehel",
@@ -319,7 +575,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/smehel/simplified/main.webp"
+      "coverImage": "stories/smehel/simplified/main.webp",
+      "titles": {
+        "raw": "Smeden som de ikke torde slippe ind i Helvede",
+        "cleaned": "Smeden som de ikke torde slippe ind i Helvede",
+        "simplified": "Smeden som de ikke turte slippe inn i helvete",
+        "english": "The Blacksmith They Dared Not Let into Hell",
+        "child-friendly": "Smeden som Djevelen ikke turte slippe inn",
+        "modern": "Smeden som de ikke turte slippe inn i helvete"
+      },
+      "words": {
+        "raw": 2122,
+        "cleaned": 2047,
+        "simplified": 2082,
+        "english": 2282,
+        "child-friendly": 1747,
+        "modern": 2115
+      }
     },
     {
       "id": "hanenoghoen",
@@ -335,7 +607,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/hanenoghoen/simplified/main.webp"
+      "coverImage": "stories/hanenoghoen/simplified/main.webp",
+      "titles": {
+        "raw": "Hanen og Hønen",
+        "cleaned": "Hanen og Hønen",
+        "simplified": "Hanen og høna",
+        "english": "The Rooster and the Hen",
+        "child-friendly": "Hanen og høna",
+        "modern": "Hanen og høna"
+      },
+      "words": {
+        "raw": 79,
+        "cleaned": 58,
+        "simplified": 81,
+        "english": 84,
+        "child-friendly": 70,
+        "modern": 135
+      }
     },
     {
       "id": "hanengjog",
@@ -351,7 +639,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/hanengjog/simplified/main.webp"
+      "coverImage": "stories/hanengjog/simplified/main.webp",
+      "titles": {
+        "raw": "Hanen, Gjøgen, og Aarhanen",
+        "cleaned": "Hanen, Gjøgen, og Aarhanen",
+        "simplified": "Hanen, gjøken og århanen",
+        "english": "The Rooster, the Cuckoo, and the Black Grouse",
+        "child-friendly": "Hanen, gjøken og århanen",
+        "modern": "Hanen, gjøken og århanen"
+      },
+      "words": {
+        "raw": 110,
+        "cleaned": 101,
+        "simplified": 123,
+        "english": 136,
+        "child-friendly": 116,
+        "modern": 249
+      }
     },
     {
       "id": "lillekort",
@@ -367,7 +671,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/lillekort/simplified/main.webp"
+      "coverImage": "stories/lillekort/simplified/main.webp",
+      "titles": {
+        "raw": "Lillekort",
+        "cleaned": "Lillekort",
+        "simplified": "Lillekort",
+        "english": "Littlecourt",
+        "child-friendly": "Lillekort",
+        "modern": "Lillekort"
+      },
+      "words": {
+        "raw": 5014,
+        "cleaned": 4845,
+        "simplified": 4461,
+        "english": 5003,
+        "child-friendly": 4037,
+        "modern": 4224
+      }
     },
     {
       "id": "dukgras",
@@ -383,7 +703,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/dukgras/simplified/main.webp"
+      "coverImage": "stories/dukgras/simplified/main.webp",
+      "titles": {
+        "raw": "Dukken i Græsset",
+        "cleaned": "Dukken i Græsset",
+        "simplified": "Dukken i gresset",
+        "english": "The Doll in the Grass",
+        "child-friendly": "Dukken i gresset",
+        "modern": "Dukken i gresset"
+      },
+      "words": {
+        "raw": 740,
+        "cleaned": 718,
+        "simplified": 718,
+        "english": 801,
+        "child-friendly": 755,
+        "modern": 1411
+      }
     },
     {
       "id": "paalandr",
@@ -399,7 +735,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/paalandr/simplified/main.webp"
+      "coverImage": "stories/paalandr/simplified/main.webp",
+      "titles": {
+        "raw": "Paal Andrestuen",
+        "cleaned": "Paal Andrestuen",
+        "simplified": "Pål Andrestuen",
+        "english": "Pål Andrestuen",
+        "child-friendly": "Pål Andrestuen",
+        "modern": "Pål Andrestuen"
+      },
+      "words": {
+        "raw": 732,
+        "cleaned": 707,
+        "simplified": 799,
+        "english": 851,
+        "child-friendly": 842,
+        "modern": 847
+      }
     },
     {
       "id": "soriamor",
@@ -415,7 +767,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/soriamor/simplified/main.webp"
+      "coverImage": "stories/soriamor/simplified/main.webp",
+      "titles": {
+        "raw": "Soria Moria Slot",
+        "cleaned": "Soria Moria Slot",
+        "simplified": "Soria Moria slott",
+        "english": "Soria Moria Castle",
+        "child-friendly": "Soria Moria slott",
+        "modern": "Soria Moria slott"
+      },
+      "words": {
+        "raw": 3763,
+        "cleaned": 3654,
+        "simplified": 3318,
+        "english": 3666,
+        "child-friendly": 2834,
+        "modern": 3646
+      }
     },
     {
       "id": "herreper",
@@ -431,7 +799,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/herreper/simplified/main.webp"
+      "coverImage": "stories/herreper/simplified/main.webp",
+      "titles": {
+        "raw": "Herreper",
+        "cleaned": "Herreper",
+        "simplified": "Herreper",
+        "english": "Sir Per",
+        "child-friendly": "Herreper",
+        "modern": "Herreper"
+      },
+      "words": {
+        "raw": 1846,
+        "cleaned": 1783,
+        "simplified": 1810,
+        "english": 2051,
+        "child-friendly": 1411,
+        "modern": 2177
+      }
     },
     {
       "id": "vesleaas",
@@ -447,7 +831,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/vesleaas/simplified/main.webp"
+      "coverImage": "stories/vesleaas/simplified/main.webp",
+      "titles": {
+        "raw": "Vesle Aase Gaasepige",
+        "cleaned": "Vesle Aase Gaasepige",
+        "simplified": "Vesle Aase gåsepike",
+        "english": "Aase the Goose-Girl",
+        "child-friendly": "Vesle Aase gåsepike",
+        "modern": "Vesle Aase gåsepike"
+      },
+      "words": {
+        "raw": 1130,
+        "cleaned": 1084,
+        "simplified": 1155,
+        "english": 1309,
+        "child-friendly": 1138,
+        "modern": 1742
+      }
     },
     {
       "id": "gutfand",
@@ -463,7 +863,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/gutfand/simplified/main.webp"
+      "coverImage": "stories/gutfand/simplified/main.webp",
+      "titles": {
+        "raw": "Gutten og Fanden",
+        "cleaned": "Gutten og Fanden",
+        "simplified": "Gutten og fanden",
+        "english": "The Boy and the Devil",
+        "child-friendly": "Gutten og fanden",
+        "modern": "Gutten og fanden"
+      },
+      "words": {
+        "raw": 244,
+        "cleaned": 234,
+        "simplified": 256,
+        "english": 284,
+        "child-friendly": 271,
+        "modern": 514
+      }
     },
     {
       "id": "syvfoler",
@@ -479,7 +895,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/syvfoler/simplified/main.webp"
+      "coverImage": "stories/syvfoler/simplified/main.webp",
+      "titles": {
+        "raw": "De syv Folerne",
+        "cleaned": "De syv Folerne",
+        "simplified": "De syv føllene",
+        "english": "The Seven Colts",
+        "child-friendly": "De syv føllene",
+        "modern": "De syv føllene"
+      },
+      "words": {
+        "raw": 2323,
+        "cleaned": 2261,
+        "simplified": 2159,
+        "english": 2345,
+        "child-friendly": 1659,
+        "modern": 2292
+      }
     },
     {
       "id": "giske",
@@ -495,7 +927,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/giske/simplified/main.webp"
+      "coverImage": "stories/giske/simplified/main.webp",
+      "titles": {
+        "raw": "Giske",
+        "cleaned": "Giske",
+        "simplified": "Giske",
+        "english": "Giske",
+        "child-friendly": "Giske",
+        "modern": "Giske"
+      },
+      "words": {
+        "raw": 1883,
+        "cleaned": 1823,
+        "simplified": 1881,
+        "english": 2013,
+        "child-friendly": 1146,
+        "modern": 2073
+      }
     },
     {
       "id": "tolvander",
@@ -511,7 +959,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/tolvander/simplified/main.webp"
+      "coverImage": "stories/tolvander/simplified/main.webp",
+      "titles": {
+        "raw": "De tolv Vildænder",
+        "cleaned": "De tolv Vildænder",
+        "simplified": "De tolv villendene",
+        "english": "The Twelve Wild Ducks",
+        "child-friendly": "De tolv villendene",
+        "modern": "De tolv villendene"
+      },
+      "words": {
+        "raw": 2453,
+        "cleaned": 2386,
+        "simplified": 2367,
+        "english": 2448,
+        "child-friendly": 2113,
+        "modern": 2974
+      }
     },
     {
       "id": "mesttyv",
@@ -527,7 +991,23 @@
         "child-friendly",
         "modern"
       ],
-      "coverImage": "stories/mesttyv/simplified/main.webp"
+      "coverImage": "stories/mesttyv/simplified/main.webp",
+      "titles": {
+        "raw": "Mestertyven",
+        "cleaned": "Mestertyven",
+        "simplified": "Mestertyven",
+        "english": "The Master Thief",
+        "child-friendly": "Mestertyven",
+        "modern": "Mestertyven"
+      },
+      "words": {
+        "raw": 5183,
+        "cleaned": 5012,
+        "simplified": 4385,
+        "english": 5480,
+        "child-friendly": 3153,
+        "modern": 4750
+      }
     }
   ]
 }

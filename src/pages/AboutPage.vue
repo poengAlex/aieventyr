@@ -1,125 +1,86 @@
 <template>
-  <q-page class="about-page">
-    <div class="about-card">
-      <div class="eyebrow">About</div>
-      <h1>Readable folktales, rebuilt with AI</h1>
+  <q-page class="about">
+    <header class="site-bar">
+      <router-link to="/" class="text-button"
+        ><q-icon name="arrow_back" /> {{ t.allTales }}</router-link
+      >
+    </header>
+
+    <article v-if="lang === 'en'" class="about-text">
+      <h1>About the tales</h1>
       <p>
-        I wanted the original Norwegian fairytales in a format that is easier to read and easier to
-        revisit than the scanned source material.
+        The tales come from <em>Norske Folkeeventyr</em>, the Norwegian folk tales Peter Christen
+        Asbjørnsen and Jørgen Moe collected in the 1800s.
       </p>
+      <p>Every tale comes in four editions:</p>
+      <ul>
+        <li><b>For children</b> is shorter, gentler and made for reading aloud.</li>
+        <li><b>Classic</b> follows the old tale in plain, easy Norwegian.</li>
+        <li><b>Modern</b> moves the tale to today's Norway.</li>
+        <li><b>English</b> retells the classic tale in English.</li>
+      </ul>
       <p>
-        This is a 100% AI-made project. The stories are written by Claude, Anthropic's AI model, and
-        the illustrations and character art are made with OpenAI's image models.
+        The texts were retold, and the pictures drawn, with the help of AI, following a written plan
+        for every tale.
       </p>
-      <div class="fact-grid">
-        <div>
-          <div class="fact-label">Text</div>
-          <div class="fact-value">Every version retold by Claude from the cleaned 1840s source</div>
-        </div>
-        <div>
-          <div class="fact-label">Art</div>
-          <div class="fact-value">Each version gets its own illustrations and character portraits</div>
-        </div>
-        <div>
-          <div class="fact-label">Pipeline</div>
-          <div class="fact-value">One canonical content tree under <code>public/content</code></div>
-        </div>
-      </div>
-      <div class="steps">
-        <div class="steps-title">How the stories are made</div>
-        <ol>
-          <li>The original source is extracted from scanned folktale material.</li>
-          <li>AI cleans the OCR and restores the text into a readable base version.</li>
-          <li>
-            Claude retells each tale four ways: simplified Norwegian, English, a read-aloud version for
-            children and a modern retelling. Each is written as a story in its own right, not
-            paraphrased line by line.
-          </li>
-          <li>Each version is illustrated scene by scene, with its own cast of characters.</li>
-        </ol>
-      </div>
-    </div>
+    </article>
+
+    <article v-else class="about-text">
+      <h1>Om eventyrene</h1>
+      <p>
+        Eventyrene er hentet fra <em>Norske Folkeeventyr</em>, som Peter Christen Asbjørnsen og
+        Jørgen Moe samlet på 1800-tallet.
+      </p>
+      <p>Hvert eventyr finnes i fire utgaver:</p>
+      <ul>
+        <li><b>For barn</b> er kortere, snillere og laget for høytlesning.</li>
+        <li><b>Klassisk</b> følger det gamle eventyret på lett, levende norsk.</li>
+        <li><b>Moderne</b> flytter eventyret til dagens Norge.</li>
+        <li><b>English</b> forteller det klassiske eventyret på engelsk.</li>
+      </ul>
+      <p>
+        Tekstene er fortalt på nytt, og bildene tegnet, med hjelp av kunstig intelligens, etter en
+        skrevet plan for hvert eventyr.
+      </p>
+    </article>
   </q-page>
 </template>
 
+<script setup lang="ts">
+import { useText } from 'src/logic/i18n'
+
+const { t, lang } = useText()
+</script>
+
 <style lang="scss" scoped>
-.about-page {
-  max-width: 900px;
+.about {
+  max-width: 720px;
   margin: 0 auto;
-  padding: 32px 20px 48px;
+  padding: 0 max(20px, env(safe-area-inset-left)) 64px;
 }
 
-.about-card {
-  background: rgba(255, 252, 244, 0.8);
-  border-radius: 28px;
-  padding: 28px;
-  box-shadow: 0 16px 34px rgba(72, 55, 26, 0.08);
+.site-bar {
+  padding: 18px 0;
 }
 
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  font-size: 0.78rem;
-  color: #7a5d30;
-}
-
-h1 {
-  margin: 12px 0 16px;
-  font-size: clamp(2rem, 4vw, 3rem);
-  line-height: 1;
-}
-
-p {
-  color: rgba(47, 59, 51, 0.82);
-  font-size: 1rem;
+.about-text {
+  font-family: var(--serif);
+  font-size: 1.12rem;
   line-height: 1.7;
+  color: var(--ink-soft);
 }
 
-.fact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 14px;
-  margin: 22px 0;
+.about-text h1 {
+  margin: 24px 0 20px;
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  line-height: 1.1;
 }
 
-.fact-grid > div {
-  background: rgba(245, 238, 223, 0.88);
-  border-radius: 18px;
-  padding: 16px;
+.about-text b {
+  color: var(--ink);
 }
 
-.fact-label {
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: rgba(70, 62, 42, 0.62);
-  margin-bottom: 8px;
-}
-
-.fact-value {
-  font-weight: 600;
-  line-height: 1.4;
-}
-
-.steps {
-  margin-top: 24px;
-  padding: 18px;
-  border-radius: 20px;
-  background: rgba(245, 238, 223, 0.88);
-}
-
-.steps-title {
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: rgba(70, 62, 42, 0.62);
-  margin-bottom: 10px;
-}
-
-ol {
-  margin: 0;
-  padding-left: 20px;
-  color: rgba(47, 59, 51, 0.82);
-  line-height: 1.7;
+.about-text li {
+  margin-bottom: 6px;
 }
 </style>

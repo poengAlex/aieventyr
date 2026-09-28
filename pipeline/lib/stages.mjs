@@ -558,6 +558,18 @@ export async function stageBuildContentManifest(args = {}) {
     }
     storyMeta.availableVariants = existingVariants
     await writeStoryMeta(section.id, storyMeta)
+    // Per-variant titles (without the "(barnevennlig)" style suffix) and word counts, so the
+    // library can show each edition's own title and a reading time without loading every text.
+    const titles = {}
+    const words = {}
+    for (const variant of existingVariants) {
+      const paths = getCanonicalPaths(section.id, variant)
+      const variantMeta = await readJson(paths.variantMeta)
+      titles[variant] = String(variantMeta.displayTitle || storyMeta.canonicalTitle)
+        .replace(/\s*\([^)]*\)\s*$/, '')
+        .trim()
+      words[variant] = (await readText(paths.storyText)).split(/\s+/).filter(Boolean).length
+    }
     stories.push({
       id: storyMeta.id,
       index: storyMeta.index,
@@ -566,6 +578,8 @@ export async function stageBuildContentManifest(args = {}) {
       summary: storyMeta.summary,
       availableVariants: storyMeta.availableVariants,
       coverImage: `stories/${storyMeta.id}/${pipelineConfig.defaultVariant}/main.webp`,
+      titles,
+      words,
     })
   }
 

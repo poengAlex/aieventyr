@@ -1,5 +1,5 @@
 <template>
-  <div class="rotate-hint" role="dialog" aria-label="Turn your phone sideways for the picture book">
+  <div class="rotate-hint" role="dialog" :aria-label="t.turnPhone">
     <div class="rotate-card">
       <svg class="rotate-art" viewBox="0 0 160 160" aria-hidden="true">
         <!-- The arrow runs from the top of the phone to its right side: turn it clockwise. -->
@@ -28,14 +28,14 @@
           </g>
         </g>
       </svg>
-      <div class="rotate-title">Turn your phone sideways</div>
-      <div class="rotate-text">The picture book opens up like a real book.</div>
+      <div class="rotate-title">{{ t.turnPhone }}</div>
+      <div class="rotate-text">{{ t.turnPhoneText }}</div>
       <q-btn
         flat
         no-caps
         rounded
         class="rotate-skip"
-        label="Read upright instead"
+        :label="t.readUpright"
         @click="emit('dismiss')"
       />
     </div>
@@ -43,7 +43,10 @@
 </template>
 
 <script setup lang="ts">
+import { useText } from 'src/logic/i18n'
+
 const emit = defineEmits<{ dismiss: [] }>()
+const { t } = useText()
 </script>
 
 <style lang="scss" scoped>
@@ -66,7 +69,7 @@ const emit = defineEmits<{ dismiss: [] }>()
   max-width: 320px;
   padding: 24px 22px 14px;
   border-radius: 24px;
-  background: #fbf6ea;
+  background: var(--card);
   text-align: center;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
 }
@@ -128,14 +131,16 @@ const emit = defineEmits<{ dismiss: [] }>()
 
 .rotate-title {
   margin-top: 4px;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #2b2f27;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--ink);
 }
 
 .rotate-text {
   font-size: 0.9rem;
-  color: rgba(47, 59, 51, 0.72);
+  color: var(--ink-soft);
 }
 
 .rotate-skip {

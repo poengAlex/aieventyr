@@ -11,6 +11,8 @@
             :key="picture.id"
             :picture="picture"
             :src="url(picture.file!)"
+            :srcset="artSrcset(art.set, art.storyId, picture.sources)"
+            sizes="(max-width: 700px) 92vw, 640px"
             class="inline-picture"
             @open="emit('open-image', url(picture.file!), picture.alt)"
           />
@@ -25,7 +27,8 @@
             :key="current.id"
             :picture="current"
             :src="url(current.file!)"
-            large
+            :srcset="artSrcset(art.set, art.storyId, current.sources)"
+            sizes="(max-width: 1180px) 42vw, 500px"
             @open="emit('open-image', url(current.file!), current.alt)"
           />
         </transition>
@@ -46,7 +49,7 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useQuasar } from 'quasar'
 import ArtFigure from 'src/components/ArtFigure.vue'
-import { artUrl, linkCharacters, placePictures, splitParagraphs } from 'src/logic/art'
+import { artSrcset, artUrl, linkCharacters, placePictures, splitParagraphs } from 'src/logic/art'
 import type { ArtManifest, ArtPicture } from 'src/types/content'
 
 const props = defineProps<{
@@ -146,23 +149,37 @@ watch(paragraphs, () => {
 <style lang="scss" scoped>
 .illustrated-story {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.85fr);
-  gap: 32px;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.8fr);
+  gap: clamp(32px, 5vw, 64px);
   align-items: start;
 }
 
 .illustrated-story.compact {
   grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
 }
 
 .story-column {
+  width: 100%;
+  max-width: 34em;
+  font-family: var(--serif);
   line-height: 1.75;
-  color: #2b2f27;
-  max-width: 68ch;
+  color: var(--ink);
+  font-optical-sizing: auto;
 }
 
 .story-paragraph {
   margin: 0 0 1em;
+}
+
+// A drop cap opens the tale, as in an old storybook.
+.story-paragraph:first-child::first-letter {
+  float: left;
+  margin: 0.08em 0.1em 0 0;
+  font-size: 3.4em;
+  font-weight: 600;
+  line-height: 0.82;
+  color: var(--accent);
 }
 
 .character-link {
@@ -172,30 +189,32 @@ watch(paragraphs, () => {
   border: 0;
   background: none;
   cursor: pointer;
-  text-decoration: underline dotted rgba(47, 59, 51, 0.45);
-  text-underline-offset: 3px;
+  text-decoration: underline dotted color-mix(in srgb, var(--ink) 40%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
 .character-link:hover,
 .character-link:focus-visible {
-  color: #6b4a1f;
+  color: var(--accent);
   text-decoration-color: currentColor;
 }
 
 .inline-picture {
-  margin: 8px 0 28px;
+  margin: 12px 0 36px;
+  font-size: 1rem;
 }
 
-/* The column spans the whole text, so the picture inside it can stay in view. */
+// The column spans the whole text, so the picture inside it can stay in view.
 .picture-column {
   align-self: stretch;
 }
 
 .sticky-picture {
   position: sticky;
-  top: 84px;
+  top: 88px;
   display: grid;
-  gap: 12px;
+  gap: 14px;
 }
 
 .picture-progress {
@@ -206,20 +225,20 @@ watch(paragraphs, () => {
 }
 
 .progress-dot {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: rgba(47, 59, 51, 0.18);
+  background: var(--line);
   transition: background 0.3s;
 }
 
 .progress-dot.active {
-  background: rgba(107, 74, 31, 0.8);
+  background: var(--accent);
 }
 
 .picture-fade-enter-active,
 .picture-fade-leave-active {
-  transition: opacity 0.35s ease;
+  transition: opacity 0.4s ease;
 }
 
 .picture-fade-enter-from,

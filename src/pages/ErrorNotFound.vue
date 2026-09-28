@@ -1,27 +1,40 @@
 <template>
-  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
-    <div>
-      <div style="font-size: 30vh">
-        404
-      </div>
-
-      <div class="text-h2" style="opacity:.4">
-        Oops. Nothing here...
-      </div>
-
-      <q-btn
-        class="q-mt-xl"
-        color="white"
-        text-color="blue"
-        unelevated
-        to="/"
-        label="Go Home"
-        no-caps
-      />
-    </div>
-  </div>
+  <q-page class="not-found">
+    <div class="ornament" aria-hidden="true">✦</div>
+    <h1>{{ t.notFound }}</h1>
+    <p>{{ t.notFoundText }}</p>
+    <router-link to="/" class="primary-button">{{ t.allTales }}</router-link>
+  </q-page>
 </template>
 
 <script setup lang="ts">
-//
+import { useText } from 'src/logic/i18n'
+
+const { t } = useText()
 </script>
+
+<style lang="scss" scoped>
+.not-found {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 12px;
+  min-height: 100vh;
+  padding: 24px;
+  text-align: center;
+}
+
+.not-found .ornament {
+  margin: 0;
+}
+
+.not-found h1 {
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 3rem);
+}
+
+.not-found p {
+  margin: 0 0 12px;
+  color: var(--ink-soft);
+}
+</style>

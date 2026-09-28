@@ -1,21 +1,34 @@
 <template>
-  <figure class="art-figure" :class="{ large }">
-    <img :src="src" :alt="picture.alt" loading="lazy" class="art-image" @click="emit('open')" />
-    <figcaption class="art-caption-row">
+  <figure class="art-figure">
+    <img
+      :src="src"
+      :srcset="srcset ?? ''"
+      :sizes="sizes ?? ''"
+      :alt="picture.alt"
+      loading="lazy"
+      decoding="async"
+      class="art-image"
+      @click="emit('open')"
+    />
+    <figcaption v-if="picture.caption || picture.prompt" class="art-caption-row">
       <span class="art-caption">{{ picture.caption }}</span>
       <button
+        v-if="picture.prompt"
         type="button"
         class="prompt-toggle"
         :aria-expanded="showPrompt"
+        :aria-label="t.howMade"
+        :title="t.howMade"
         @click="showPrompt = !showPrompt"
       >
-        {{ showPrompt ? 'Hide prompt' : 'How this picture was made' }}
+        <q-icon name="info_outline" />
       </button>
     </figcaption>
     <div v-if="showPrompt" class="art-prompt">
+      <div class="eyebrow">{{ t.howMade }}</div>
       <p>{{ picture.prompt }}</p>
       <details v-if="picture.fullPrompt">
-        <summary>Full prompt sent to the image model</summary>
+        <summary>{{ t.fullPrompt }}</summary>
         <pre>{{ picture.fullPrompt }}</pre>
       </details>
     </div>
@@ -24,14 +37,17 @@
 
 <script setup lang="ts">
 import { ref, watch } from 'vue'
+import { useText } from 'src/logic/i18n'
 
 const props = defineProps<{
   picture: { id: string; caption: string; alt: string; prompt: string; fullPrompt: string | null }
   src: string
-  large?: boolean
+  srcset?: string | undefined
+  sizes?: string | undefined
 }>()
 
 const emit = defineEmits<{ open: [] }>()
+const { t } = useText()
 
 const showPrompt = ref(false)
 watch(
@@ -44,58 +60,72 @@ watch(
 .art-figure {
   margin: 0;
   display: grid;
-  gap: 8px;
+  gap: 10px;
 }
 
 .art-image {
+  display: block;
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
-  border-radius: 18px;
-  box-shadow: 0 12px 28px rgba(73, 56, 27, 0.12);
+  border-radius: 14px;
+  background: var(--paper-deep);
+  box-shadow: var(--shadow-soft);
   cursor: zoom-in;
-  background: rgba(241, 234, 220, 0.6);
 }
 
 .art-caption-row {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 4px 12px;
+  gap: 12px;
 }
 
 .art-caption {
+  font-family: var(--serif);
   font-style: italic;
-  color: rgba(43, 47, 39, 0.86);
+  font-size: 0.95rem;
   line-height: 1.45;
-}
-
-.large .art-caption {
-  font-size: 1.05rem;
+  color: var(--ink-soft);
 }
 
 .prompt-toggle {
-  border: 0;
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
   padding: 0;
-  background: none;
-  color: rgba(47, 59, 51, 0.6);
-  font-size: 0.8rem;
-  text-decoration: underline dotted;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink-muted);
+  font-size: 18px;
   cursor: pointer;
 }
 
+.prompt-toggle:hover,
+.prompt-toggle[aria-expanded='true'] {
+  color: var(--ink);
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+}
+
 .art-prompt {
-  padding: 10px 12px;
+  padding: 12px 14px;
   border-radius: 12px;
-  background: rgba(241, 234, 220, 0.7);
+  background: color-mix(in srgb, var(--ink) 5%, transparent);
   font-size: 0.85rem;
   line-height: 1.5;
-  color: rgba(43, 47, 39, 0.86);
+  color: var(--ink-soft);
 }
 
 .art-prompt p {
-  margin: 0 0 6px;
+  margin: 6px 0;
+}
+
+.art-prompt summary {
+  cursor: pointer;
+  color: var(--ink-muted);
 }
 
 .art-prompt pre {

@@ -20,7 +20,7 @@
         flat
         icon="close"
         class="book-close"
-        aria-label="Close picture book"
+        :aria-label="t.close"
         @click="emit('update:modelValue', false)"
       />
 
@@ -80,7 +80,7 @@
           text-color="dark"
           icon="chevron_left"
           :disable="!canTurn(-1)"
-          aria-label="Previous page"
+          :aria-label="t.previousPage"
           @click="turnPage(-1)"
         />
         <span class="book-counter">{{ pageIndex + 1 }} / {{ pages.length }}</span>
@@ -91,7 +91,7 @@
           text-color="dark"
           icon="chevron_right"
           :disable="!canTurn(1)"
-          aria-label="Next page"
+          :aria-label="t.nextPage"
           @click="turnPage(1)"
         />
       </div>
@@ -106,6 +106,7 @@ import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import BookFace from 'src/components/BookFace.vue'
 import RotateHint from 'src/components/RotateHint.vue'
 import { bookPages, type BookPage } from 'src/logic/art'
+import { useText } from 'src/logic/i18n'
 import type { ArtManifest } from 'src/types/content'
 
 const props = defineProps<{
@@ -117,6 +118,7 @@ const props = defineProps<{
 }>()
 
 const emit = defineEmits<{ 'update:modelValue': [value: boolean] }>()
+const { t } = useText()
 
 const stage = ref<HTMLElement | null>(null)
 const bookElement = ref<HTMLElement | null>(null)
@@ -397,8 +399,6 @@ onBeforeUnmount(() => {
 </script>
 
 <style lang="scss" scoped>
-$paper: #fbf6ea;
-
 .picture-book {
   position: relative;
   width: 100vw;
@@ -437,19 +437,23 @@ $paper: #fbf6ea;
 .layout-spread .book {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: min(100%, 1400px, calc((100dvh - 96px) * 1.9));
+  width: min(calc(100% - 112px), 1400px, calc((100dvh - 96px) * 1.9));
   height: min(calc(100dvh - 96px), 860px);
+}
+
+.picture-book.layout-single {
+  padding-top: max(60px, calc(env(safe-area-inset-top) + 50px));
 }
 
 .layout-single .book {
   width: min(100%, 620px);
-  height: calc(100dvh - 104px);
+  height: calc(100dvh - 152px);
 }
 
 .sheet {
   position: relative;
   overflow: hidden;
-  background: $paper;
+  background: var(--card);
 }
 
 .sheet-single {
@@ -514,7 +518,7 @@ $paper: #fbf6ea;
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background: $paper;
+  background: var(--card);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
@@ -538,7 +542,7 @@ $paper: #fbf6ea;
 }
 
 .leaf-single .leaf-back {
-  background: #f1e9d6;
+  background: var(--paper-deep);
 }
 
 // The turning page darkens towards the fold as it lifts.
@@ -581,7 +585,7 @@ $paper: #fbf6ea;
 
   .layout-spread .book {
     height: calc(100dvh - 62px);
-    width: min(100%, calc((100dvh - 62px) * 2.1));
+    width: min(calc(100% - 96px), calc((100dvh - 62px) * 2.1));
   }
 
   .book-controls {

@@ -1,113 +1,131 @@
 <template>
-  <q-page class="library-page">
-    <section class="hero-panel">
-      <div class="hero-intro">
-        <div class="hero-copy">
-          <div class="eyebrow">A New Reading Edition</div>
-          <h1>Norske folkeeventyr, rebuilt for reading and browsing.</h1>
-          <p class="hero-lead">
-            This library turns scanned Norwegian folktales into a clean AI reading edition with modern
-            variants, artwork, and characters.
-          </p>
-          <div class="hero-meta-row">
-            <div class="hero-meta-card">
-              <span class="hero-meta-label">Collection</span>
-              <strong>{{ stories.length }}</strong>
-              <span>Tales in the library</span>
-            </div>
-            <div class="hero-meta-card">
-              <span class="hero-meta-label">Format</span>
-              <strong>Text + Art</strong>
-              <span>Each story has its own reading version</span>
-            </div>
-          </div>
-        </div>
-      </div>
+  <q-page class="library">
+    <header class="site-bar">
+      <router-link to="/" class="wordmark">Eventyr</router-link>
+      <nav class="bar-actions">
+        <button
+          type="button"
+          class="icon-button"
+          :aria-label="settings.night ? t.day : t.night"
+          @click="settings.toggleNight()"
+        >
+          <q-icon :name="settings.night ? 'light_mode' : 'dark_mode'" />
+        </button>
+        <router-link to="/about" class="text-button">{{ t.about }}</router-link>
+      </nav>
+    </header>
 
-      <div class="hero-selector-panel">
-        <div class="hero-controls-title">Choose a reading version</div>
-        <variant-selector />
-        <p class="hero-controls-note">
-          Pick one version once, then browse the whole collection in that reading style.
-        </p>
-      </div>
+    <section class="intro">
+      <h1>{{ t.heading }}</h1>
+      <p v-if="stories.length">{{ t.subheading(stories.length) }}</p>
+      <edition-switch v-model="settings.variant" />
     </section>
 
-    <div class="library-headline">
-      <div>
-        <div class="headline-title">Browse the tales</div>
-        <div class="headline-caption">{{ filteredStories.length }} stories in this view</div>
+    <router-link
+      v-if="continueItem"
+      :to="`/story/${continueItem.id}?resume=1`"
+      class="continue-card"
+    >
+      <img :src="continueItem.cover.src" :srcset="continueItem.cover.srcset" sizes="96px" alt="" />
+      <div class="continue-copy">
+        <div class="eyebrow">{{ t.continueReading }}</div>
+        <div class="continue-title">{{ continueItem.title }}</div>
+        <div class="continue-progress">
+          <span :style="{ width: `${continueItem.progress}%` }" />
+        </div>
       </div>
-      <q-toggle v-model="settings.showRead" label="Include read stories" color="primary" class="read-toggle" />
-    </div>
+      <q-icon name="arrow_forward" class="continue-arrow" />
+    </router-link>
 
-    <div v-if="loading" class="loading-panel">
-      <q-spinner color="primary" size="40px" />
+    <div v-if="loading" class="shelf">
+      <div v-for="n in 8" :key="n" class="placeholder" />
     </div>
+    <section v-else class="shelf">
+      <story-card
+        v-for="item in items"
+        :key="item.id"
+        :story-id="item.id"
+        :title="item.title"
+        :cover="item.cover"
+        :meta="item.meta"
+        :read="item.read"
+        :read-label="t.read"
+      />
+    </section>
 
-    <div v-else class="story-grid">
-      <q-card
-        v-for="story in filteredStories"
-        :key="story.id"
-        class="story-card"
-        :class="{ read: settings.isRead(story.id, getResolvedVariant(story)) }"
-        flat
-        tabindex="0"
-        role="link"
-        @click="openStory(story.id)"
-        @keyup.enter="openStory(story.id)"
-      >
-        <div v-if="settings.isRead(story.id, getResolvedVariant(story))" class="read-badge">Read</div>
-        <q-img :src="getCover(story)" :ratio="1" fit="cover" class="story-image">
-          <div class="story-overlay">
-            <div class="story-title">{{ story.canonicalTitle }}</div>
-          </div>
-        </q-img>
-      </q-card>
-    </div>
+    <footer class="site-footer">
+      <router-link to="/about">{{ t.about }}</router-link>
+    </footer>
   </q-page>
 </template>
 
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
-import { useRouter } from 'vue-router'
-import VariantSelector from 'src/components/VariantSelector.vue'
+import EditionSwitch from 'src/components/EditionSwitch.vue'
+import StoryCard from 'src/components/StoryCard.vue'
 import { loadArtCover } from 'src/logic/art'
 import { loadManifest, resolveStoryVariant } from 'src/logic/content'
+import { readingMinutes, useText } from 'src/logic/i18n'
 import { createNotify } from 'src/logic/utils'
 import { useSettingsStore } from 'src/stores/settings'
 import type { StoryListItem, VariantType } from 'src/types/content'
 
 const settings = useSettingsStore()
-const router = useRouter()
+const { t, editionName } = useText()
 const loading = ref(true)
 const stories = ref<StoryListItem[]>([])
-const artCovers = ref<Record<string, string>>({})
+const artCovers = ref<Record<string, { src: string; srcset: string }>>({})
 
-const filteredStories = computed(() => {
-  return stories.value.filter((story) => {
-    if (!settings.showRead && settings.isRead(story.id, getResolvedVariant(story))) return false
-    return true
-  })
+const variantFor = (story: StoryListItem): VariantType =>
+  resolveStoryVariant(story.availableVariants, settings.variant)
+
+function coverFor(story: StoryListItem, variant: VariantType) {
+  return (
+    artCovers.value[`${story.id}:${variant}`] ?? {
+      src: `/content/stories/${story.id}/${variant}/main.webp`,
+      srcset: '',
+    }
+  )
+}
+
+const items = computed(() =>
+  stories.value.map((story) => {
+    const variant = variantFor(story)
+    const minutes = readingMinutes(story.words?.[variant], variant)
+    return {
+      id: story.id,
+      title: story.titles?.[variant] ?? story.canonicalTitle,
+      cover: coverFor(story, variant),
+      meta: minutes ? t.value.minutes(minutes) : '',
+      read: settings.isRead(story.id, variant),
+    }
+  }),
+)
+
+// The story the reader stopped in the middle of, if any.
+const continueItem = computed(() => {
+  const last = settings.lastRead
+  if (!last || last.progress < 0.03 || last.progress > 0.97) return null
+  const story = stories.value.find((item) => item.id === last.storyId)
+  if (!story || !story.availableVariants.includes(last.variant)) return null
+  return {
+    id: story.id,
+    title: story.titles?.[last.variant] ?? story.canonicalTitle,
+    cover: coverFor(story, last.variant),
+    progress: Math.round(last.progress * 100),
+    edition: editionName(last.variant),
+  }
 })
-
-function getResolvedVariant(story: StoryListItem): VariantType {
-  return resolveStoryVariant(story.availableVariants, settings.variant)
-}
-
-function getCover(story: StoryListItem) {
-  const variant = getResolvedVariant(story)
-  return artCovers.value[`${story.id}:${variant}`] ?? `/content/stories/${story.id}/${variant}/main.webp`
-}
 
 // New covers from the illustration sets replace the older ones where they exist.
 async function loadArtCovers() {
-  const covers: Record<string, string> = {}
+  const covers: Record<string, { src: string; srcset: string }> = {}
+  const wanted = stories.value.map((story) => [story.id, variantFor(story)] as const)
+  if (settings.lastRead) wanted.push([settings.lastRead.storyId, settings.lastRead.variant])
   await Promise.all(
-    stories.value.map(async (story) => {
-      const variant = getResolvedVariant(story)
-      const cover = await loadArtCover(story.id, variant)
-      if (cover) covers[`${story.id}:${variant}`] = cover
+    wanted.map(async ([id, variant]) => {
+      const cover = await loadArtCover(id, variant)
+      if (cover) covers[`${id}:${variant}`] = cover
     }),
   )
   artCovers.value = covers
@@ -115,17 +133,13 @@ async function loadArtCovers() {
 
 watch(() => settings.variant, loadArtCovers)
 
-function openStory(storyId: string) {
-  void router.push(`/story/${storyId}`)
-}
-
 onMounted(async () => {
   try {
     const manifest = await loadManifest()
     stories.value = [...manifest.stories].sort((left, right) => left.index - right.index)
     await loadArtCovers()
   } catch (error: unknown) {
-    createNotify((error as Error).message, 'Failed to load library')
+    createNotify((error as Error).message)
   } finally {
     loading.value = false
   }
@@ -133,226 +147,134 @@ onMounted(async () => {
 </script>
 
 <style lang="scss" scoped>
-.library-page {
+.library {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 28px 20px 48px;
+  padding: 0 max(20px, env(safe-area-inset-left)) 48px;
 }
 
-.hero-panel {
-  display: grid;
-  gap: 18px;
-  padding: 26px;
-  background:
-    radial-gradient(circle at top right, rgba(255, 248, 232, 0.7), transparent 30%),
-    linear-gradient(135deg, rgba(226, 204, 162, 0.88), rgba(248, 242, 229, 0.94));
-  border-radius: 32px;
-  box-shadow: 0 22px 44px rgba(87, 67, 32, 0.1);
-  margin-bottom: 28px;
-}
-
-.hero-intro {
-  display: grid;
-}
-
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  font-size: 0.78rem;
-  color: rgba(90, 64, 24, 0.72);
-  margin-bottom: 12px;
-}
-
-.hero-copy h1 {
-  font-size: clamp(2.1rem, 4vw, 3.5rem);
-  line-height: 0.96;
-  margin: 0 0 16px;
-  max-width: 15ch;
-}
-
-.hero-lead {
-  margin: 0;
-  font-size: 1.02rem;
-  line-height: 1.6;
-  color: rgba(54, 45, 28, 0.8);
-  max-width: 64ch;
-}
-
-.hero-meta-row {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 20px;
-}
-
-.hero-meta-card {
-  display: grid;
-  gap: 4px;
-  padding: 14px 16px;
-  border-radius: 20px;
-  background: rgba(255, 250, 241, 0.64);
-  box-shadow: inset 0 0 0 1px rgba(90, 64, 24, 0.08);
-  color: rgba(54, 45, 28, 0.78);
-}
-
-.hero-meta-card strong {
-  font-size: 1.1rem;
-  color: #2f3b33;
-}
-
-.hero-meta-label {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: rgba(90, 64, 24, 0.56);
-}
-
-.hero-selector-panel {
-  display: grid;
-  gap: 14px;
-  padding: 18px;
-  border-radius: 24px;
-  background: rgba(255, 252, 246, 0.74);
-  box-shadow: inset 0 0 0 1px rgba(73, 56, 27, 0.08);
-}
-
-.hero-controls-title {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: rgba(73, 56, 27, 0.62);
-}
-
-.hero-controls-note {
-  margin: 0;
-  font-size: 0.94rem;
-  line-height: 1.5;
-  color: rgba(47, 59, 51, 0.72);
-}
-
-.library-headline {
+.site-bar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 18px;
+  justify-content: space-between;
+  padding: 18px 0;
 }
 
-.headline-title {
-  font-size: 1.7rem;
-  font-weight: 700;
-  line-height: 1.05;
+.wordmark {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
-.headline-caption {
-  color: rgba(47, 59, 51, 0.72);
-  margin-top: 4px;
+.bar-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
-.read-toggle {
-  padding: 10px 14px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.7);
-}
-
-.loading-panel {
-  min-height: 220px;
+.intro {
   display: grid;
-  place-items: center;
+  justify-items: start;
+  gap: 10px;
+  padding: clamp(24px, 6vw, 64px) 0 clamp(20px, 4vw, 36px);
 }
 
-.story-grid {
+.intro h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 6vw, 3.8rem);
+  line-height: 1.02;
+  font-weight: 600;
+}
+
+.intro p {
+  margin: 0 0 12px;
+  max-width: 34em;
+  font-family: var(--serif);
+  font-size: clamp(1.02rem, 2.2vw, 1.2rem);
+  color: var(--ink-soft);
+}
+
+.continue-card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-  gap: 14px;
-  align-items: stretch;
+  grid-template-columns: 72px minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: center;
+  max-width: 560px;
+  margin-bottom: 36px;
+  padding: 12px 18px 12px 12px;
+  border-radius: 20px;
+  background: var(--card);
+  box-shadow: var(--shadow-soft);
+  transition: box-shadow 0.2s;
 }
 
-.story-card {
-  position: relative;
-  border-radius: 24px;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.72);
-  box-shadow: 0 14px 24px rgba(77, 59, 27, 0.08);
-  cursor: pointer;
-  transition:
-    transform 160ms ease,
-    box-shadow 160ms ease;
+.continue-card:hover {
+  box-shadow: var(--shadow);
 }
 
-.story-card:hover,
-.story-card:focus-visible {
-  transform: translateY(-2px);
-  box-shadow: 0 18px 32px rgba(77, 59, 27, 0.12);
-  outline: none;
+.continue-card img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
-.story-card.read {
-  background: rgba(241, 241, 237, 0.82);
-}
-
-.story-card.read .story-image {
-  filter: saturate(0.82) brightness(0.95);
-}
-
-.read-badge {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 2;
-  padding: 5px 9px;
-  border-radius: 999px;
-  background: rgba(42, 52, 45, 0.82);
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.story-image {
-  min-height: 168px;
-}
-
-.story-overlay {
-  position: absolute;
-  inset: auto 0 0 0;
-  padding: 12px;
-  background: linear-gradient(180deg, rgba(20, 20, 18, 0) 0%, rgba(20, 20, 18, 0.82) 100%);
-}
-
-.story-title {
-  display: inline-flex;
-  max-width: 100%;
-  padding: 8px 10px;
-  border-radius: 14px;
-  background: rgba(255, 248, 239, 0.38);
-  backdrop-filter: blur(4px);
-  color: #2c2113;
-  font-size: 0.92rem;
-  font-weight: 700;
+.continue-title {
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  font-weight: 600;
   line-height: 1.25;
-  box-shadow: 0 8px 18px rgba(18, 14, 8, 0.14);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
 }
 
-@media (min-width: 1240px) {
-  .story-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
+.continue-progress {
+  height: 4px;
+  margin-top: 8px;
+  border-radius: 2px;
+  background: var(--line);
+  overflow: hidden;
 }
 
-@media (max-width: 840px) {
-  .hero-copy h1 {
-    max-width: none;
-  }
+.continue-progress span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+}
 
-  .hero-meta-row {
-    grid-template-columns: 1fr;
-  }
+.continue-arrow {
+  font-size: 22px;
+  color: var(--ink-muted);
+}
 
-  .library-headline {
-    align-items: start;
-    flex-direction: column;
+.shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(230px, 42vw), 1fr));
+  gap: clamp(18px, 3vw, 34px) clamp(14px, 2.4vw, 28px);
+}
+
+.placeholder {
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  background: var(--paper-deep);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+.site-footer {
+  margin-top: 72px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.55;
   }
 }
 </style>

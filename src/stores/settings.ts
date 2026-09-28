@@ -3,50 +3,41 @@ import type { VariantType } from 'src/types/content'
 
 export type VariantTypes = VariantType
 
-export const VARIANTS = [
-  'simplified',
-  'english',
-  'child-friendly',
-  'modern',
-] as const
-
-export const VARIANT_TEXT: Record<VariantTypes, string> = {
-  raw: 'Original OCR',
-  cleaned: 'Cleaned',
-  simplified: 'Simplified',
-  english: 'English',
-  'child-friendly': 'Child Friendly',
-  modern: 'Modern',
-}
-
-export const VARIANT_EXPLANATION: Record<VariantTypes, string> = {
-  raw: 'Raw OCR text from the archive source.',
-  cleaned: 'OCR restored while keeping the original voice.',
-  simplified: 'Modern Norwegian with easier reading flow.',
-  english: 'English retelling of the folktale.',
-  'child-friendly': 'A gentler version for younger readers.',
-  modern: 'A contemporary reimagining of the story.',
-}
-
 const READ_KEY_SEPARATOR = '::'
 
 function getReadKey(storyId: string, variant: VariantType) {
   return `${storyId}${READ_KEY_SEPARATOR}${variant}`
 }
 
+export interface ReadingPosition {
+  storyId: string
+  variant: VariantType
+  // 0 to 1: how far down the text the reader has come.
+  progress: number
+  at: number
+}
+
 export const useSettingsStore = defineStore('settings', {
   state: () => ({
     variant: 'simplified' as VariantTypes,
-    fontSize: 19,
-    showRead: false,
+    fontSize: 20,
+    night: false,
     readStoryIds: [] as string[],
+    lastRead: null as ReadingPosition | null,
   }),
   getters: {
-    isRead: (state) => (storyId: string, variant: VariantType) => state.readStoryIds.includes(getReadKey(storyId, variant)),
+    isRead: (state) => (storyId: string, variant: VariantType) =>
+      state.readStoryIds.includes(getReadKey(storyId, variant)),
   },
   actions: {
     setVariant(variant: VariantTypes) {
       this.variant = variant
+    },
+    setFontSize(size: number) {
+      this.fontSize = Math.min(28, Math.max(16, size))
+    },
+    toggleNight() {
+      this.night = !this.night
     },
     markAsRead(storyId: string, variant: VariantType, read = true) {
       const readKey = getReadKey(storyId, variant)
@@ -56,8 +47,12 @@ export const useSettingsStore = defineStore('settings', {
         this.readStoryIds = this.readStoryIds.filter((item) => item !== readKey)
       }
     },
+    saveReadingPosition(storyId: string, variant: VariantType, progress: number) {
+      this.lastRead = { storyId, variant, progress, at: Date.now() }
+    },
     resetProgress() {
       this.readStoryIds = []
+      this.lastRead = null
     },
   },
   persist: true,

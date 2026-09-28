@@ -1,4 +1,11 @@
-import type { ArtIndex, ArtManifest, ArtPicture, VariantType } from 'src/types/content'
+import type {
+  ArtIndex,
+  ArtManifest,
+  ArtPicture,
+  ArtSource,
+  VariantBundle,
+  VariantType,
+} from 'src/types/content'
 
 // Which illustration set belongs to each text. The simplified and English texts tell the
 // same tale moment by moment, so they share the classic pictures.
@@ -53,16 +60,85 @@ export async function loadArt(storyId: string, variant: VariantType) {
   return manifestCache.get(key)!
 }
 
-// The cover for the library grid, or null when the story has no new cover.
+// The cover for the library grid, or null when the story has no new cover. The small
+// size sits next to the big one, named <cover>-512.webp.
 export async function loadArtCover(storyId: string, variant: VariantType) {
   const set = artSetFor(variant)
   if (!set) return null
   const cover = (await loadArtIndex(set))?.stories[storyId]?.cover
-  return cover ? artUrl(set, storyId, cover) : null
+  if (!cover) return null
+  const small = cover.replace(/\.webp$/, '-512.webp')
+  return {
+    src: artUrl(set, storyId, small),
+    srcset: `${artUrl(set, storyId, small)} 512w, ${artUrl(set, storyId, cover)} 1024w`,
+  }
 }
 
+// Files in a manifest are relative to the story's folder in its set. Absolute paths
+// (the older pictures, see fallbackArt) are used as they are.
 export function artUrl(set: string, storyId: string, file: string) {
-  return `/content/art/${set}/${storyId}/${file}`
+  return file.startsWith('/') ? file : `/content/art/${set}/${storyId}/${file}`
+}
+
+// A srcset attribute for the sizes of a web copy, or undefined when there is only one.
+export function artSrcset(set: string, storyId: string, sources: ArtSource[] | undefined) {
+  if (!sources || sources.length < 2) return undefined
+  return sources.map((source) => `${artUrl(set, storyId, source.file)} ${source.width}w`).join(', ')
+}
+
+// Until a story has its new pictures, the reader shows the older section pictures in the
+// same way: each section's picture after the section's first paragraph.
+export function fallbackArt(bundle: VariantBundle, storyId: string): ArtManifest {
+  const variant = bundle.variant.variant
+  const base = `/content/stories/${storyId}/${variant}`
+  const illustrations: ArtPicture[] = []
+  let paragraph = 0
+  for (const section of bundle.sections) {
+    const paragraphs = splitParagraphs(section.text)
+    if (paragraphs.length && section.imagePath) {
+      illustrations.push({
+        id: section.id,
+        paragraph,
+        anchor: paragraphs[0]!.slice(0, 40),
+        file: `${base}/${section.imagePath}`,
+        caption: '',
+        alt: section.title,
+        prompt: '',
+        characters: [],
+        places: [],
+        fullPrompt: null,
+      })
+    }
+    paragraph += paragraphs.length
+  }
+  return {
+    storyId,
+    set: '',
+    variant,
+    title: bundle.variant.displayTitle,
+    model: '',
+    quality: '',
+    updatedAt: '',
+    cover: {
+      file: `${base}/main.webp`,
+      caption: '',
+      alt: bundle.variant.displayTitle,
+      prompt: '',
+      characters: [],
+      fullPrompt: null,
+    },
+    characters: bundle.characters.map((character) => ({
+      slug: character.slug,
+      name: character.name,
+      description: character.description,
+      look: '',
+      sheet: null,
+      portrait: `${base}/${character.imagePath}`,
+      replacesPortrait: null,
+    })),
+    places: [],
+    illustrations,
+  }
 }
 
 export function splitParagraphs(text: string) {
@@ -100,6 +176,7 @@ export function placePictures(paragraphs: string[], pictures: ArtPicture[]) {
 // One page of the picture book: a picture and the text that leads up to it.
 export interface BookPage {
   src: string
+  srcset?: string | undefined
   alt: string
   caption: string
   paragraphs: string[]
@@ -115,13 +192,20 @@ export function bookPages(text: string, art: ArtManifest): BookPage[] {
   )
   const pages: BookPage[] = []
   if (art.cover.file) {
-    pages.push({ src: url(art.cover.file), alt: art.cover.alt, caption: '', paragraphs: [] })
+    pages.push({
+      src: url(art.cover.file),
+      srcset: artSrcset(art.set, art.storyId, art.cover.sources),
+      alt: art.cover.alt,
+      caption: '',
+      paragraphs: [],
+    })
   }
   let start = 0
   for (const [index, pictures] of placed) {
     pictures.forEach((picture, n) => {
       pages.push({
         src: url(picture.file!),
+        srcset: artSrcset(art.set, art.storyId, picture.sources),
         alt: picture.alt,
         caption: picture.caption,
         paragraphs: n === 0 ? paragraphs.slice(start, index + 1) : [],
