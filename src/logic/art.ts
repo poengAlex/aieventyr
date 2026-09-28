@@ -97,6 +97,46 @@ export function placePictures(paragraphs: string[], pictures: ArtPicture[]) {
   return placed
 }
 
+// One page of the picture book: a picture and the text that leads up to it.
+export interface BookPage {
+  src: string
+  alt: string
+  caption: string
+  paragraphs: string[]
+}
+
+// Page one is the cover with the title. Every picture then gets a page with the text
+// that leads up to it. Text after the last picture joins the last page.
+export function bookPages(text: string, art: ArtManifest): BookPage[] {
+  const paragraphs = splitParagraphs(text)
+  const url = (file: string) => artUrl(art.set, art.storyId, file)
+  const placed = [...placePictures(paragraphs, art.illustrations).entries()].sort(
+    (a, b) => a[0] - b[0],
+  )
+  const pages: BookPage[] = []
+  if (art.cover.file) {
+    pages.push({ src: url(art.cover.file), alt: art.cover.alt, caption: '', paragraphs: [] })
+  }
+  let start = 0
+  for (const [index, pictures] of placed) {
+    pictures.forEach((picture, n) => {
+      pages.push({
+        src: url(picture.file!),
+        alt: picture.alt,
+        caption: picture.caption,
+        paragraphs: n === 0 ? paragraphs.slice(start, index + 1) : [],
+      })
+    })
+    start = index + 1
+  }
+  const rest = paragraphs.slice(start)
+  const last = pages[pages.length - 1]
+  if (rest.length && last && pages.length > 1) last.paragraphs = [...last.paragraphs, ...rest]
+  else if (rest.length)
+    pages.push({ src: pages[0]?.src ?? '', alt: '', caption: '', paragraphs: rest })
+  return pages
+}
+
 export interface TextSegment {
   text: string
   character?: string

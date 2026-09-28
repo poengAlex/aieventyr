@@ -25,7 +25,7 @@ The pipeline writes canonical content bundles into `public/content`, and the fro
 - `src/components/IllustratedStory.vue`
   Text with the pictures of an illustration set. On wide screens one picture stays beside the text and changes when the reader reaches its paragraph; on narrow screens the pictures sit between the paragraphs. Character names open the character's portrait.
 - `src/components/PictureBook.vue`
-  Full-screen picture-book mode: one picture and the text that leads up to it per page.
+  Full-screen picture-book mode: one picture and the text that leads up to it per page. Wide screens show an open book, with the picture on the left page and the text on the right; upright phones show one page. Pages turn with a 3D page-turn animation, by tap, arrow keys or a swipe that the page follows. On an upright phone, `RotateHint.vue` first suggests turning the phone sideways and closes once it is turned.
 - `src/components/ArtFigure.vue`
   One picture with its caption and a toggle that shows the prompt that made it.
 - `src/pages/AboutPage.vue`
