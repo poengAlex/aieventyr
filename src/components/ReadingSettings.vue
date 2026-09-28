@@ -110,7 +110,7 @@ const { t } = useText()
 }
 
 .size-button:hover {
-  background: var(--card);
+  background: var(--raised);
 }
 
 .small-a {

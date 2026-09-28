@@ -66,7 +66,7 @@ button:hover {
 }
 
 button.active {
-  background: var(--card);
+  background: var(--raised);
   color: var(--ink);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
