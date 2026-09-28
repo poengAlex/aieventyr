@@ -35,4 +35,5 @@ yarn-error.log*
 .env
 
 # half-written images from an interrupted art run
-public/content/art/**/*.tmp.webp
+public/content/art/**/*.tmp.*
+pipeline/art-raw/**/*.tmp.*

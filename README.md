@@ -175,7 +175,7 @@ npm run art:generate -- --story=askesv
 npm run art:paragraphs -- --story=askesv
 ```
 
-`art:generate` illustrates a whole set of texts from hand-written plans in `pipeline/art/<set>/`. It keeps characters, places and style consistent with model sheets and reference images, and writes to `public/content/art/<set>/`. The sets are `child-friendly`, `classic` (the simplified and English texts share its pictures) and `modern`; pick one with `--set`. It is made to run unattended overnight; see `pipeline/art/README.md`.
+`art:generate` illustrates a whole set of texts from hand-written plans in `pipeline/art/<set>/`. It keeps characters, places and style consistent with model sheets and reference images, It saves full-quality masters in `pipeline/art-raw/<set>/` and resized WebP copies for the site in `public/content/art/<set>/`. The sets are `child-friendly`, `classic` (the simplified and English texts share its pictures) and `modern`; pick one with `--set`. It is made to run unattended overnight; see `pipeline/art/README.md`.
 
 ## Documentation
 

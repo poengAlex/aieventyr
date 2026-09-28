@@ -40,7 +40,7 @@ npm run art:generate -- --set=classic --budget=150         # the same for the cl
 npm run art:generate -- --set=modern --budget=150          # and the modern set
 ```
 
-- Finished images are skipped, so you can stop with Ctrl+C and start again, and a second run retries only what failed.
+- Finished images are skipped, so you can stop with Ctrl+C and start again, and a second run retries only what failed. Check the pictures in `pipeline/art-raw/<set>/review.html`.
 - `--budget=USD` stops starting new images once the estimated spend reaches the amount.
 - `--concurrency=N` sets how many images are made at once (default 3). Raise it if your OpenAI tier allows more images per minute.
 - The run stops by itself if the key is rejected, the account runs out of credit, the model is not available, or 8 images in a row fail.
@@ -81,24 +81,36 @@ Every image's real token use is logged in `run-log.jsonl`. At the end of a run, 
 
 ## Output
 
-Each set writes to `public/content/art/<set>/`, where the reader picks the pictures up:
+Each image is saved twice:
+
+- **Master:** full quality, in `pipeline/art-raw/<set>/`. This is the copy sent as a reference image, and the source of the web copies. It stays in the repo but is never served.
+- **Web copies:** resized, compressed WebP files in `public/content/art/<set>/`, where the site picks them up.
 
 ```
-_style/style.webp                     the style reference
-<story>/characters/<slug>.webp        model sheets
-<story>/portraits/<slug>.webp         portraits for the character gallery
-<story>/places/<slug>.webp            place references
-<story>/cover.webp                    the cover (square)
-<story>/scenes/01.webp ...            the pictures in reading order
-<story>/illustrations.<variant>.json  everything a reader of that text needs (below)
-index.json                            which stories have pictures, per variant
-review.html                           all pictures next to their paragraphs, captions and prompts
-run-log.jsonl                         one line per image: time, cost, tokens, errors
+pipeline/art-raw/<set>/                  masters (WebP at quality 95, or PNG with "raw": {"format": "png"})
+  _style/style.webp                      the style reference
+  <story>/characters/<slug>.webp         model sheets
+  <story>/portraits/<slug>.webp          portraits
+  <story>/places/<slug>.webp             place references
+  <story>/cover.webp                     the cover (square)
+  <story>/scenes/01.webp ...             the pictures in reading order
+  ...next to each: <name>.prompt.txt     the exact prompt that made it
+  review.html                            all pictures next to their paragraphs, captions and prompts
+  run-log.jsonl                          one line per image: time, cost, tokens, errors
+
+public/content/art/<set>/                web copies for the site
+  <story>/cover.webp, cover-512.webp     each image in the widths set in style.json (web.widths)
+  <story>/scenes/01.webp, 01-768.webp
+  <story>/portraits/…, <story>/characters/…
+  <story>/illustrations.<variant>.json   everything a reader of that text needs (below)
+  index.json                             which stories have pictures, per variant
 ```
 
-Each image has a `.prompt.txt` next to it with the exact prompt that made it. Open `review.html` in a browser to check the pictures against the text.
+The style reference and the place pictures are only references, so they get no web copy. `style.json` sets the web widths and quality (`web`); after changing them, run `npm run art:generate -- --set=<set> --export` to remake every web copy and manifest from the masters without calling the API.
 
-`illustrations.<variant>.json` has the cover, the characters (name, description, sheet, portrait, and the old portrait each one replaces), the places, and the pictures: `paragraph` (0-based index into that variant's `story.txt`, split on blank lines; the picture belongs directly after that paragraph), `anchor` (the start of that paragraph, to find it again if the text changes), `file`, `caption`, `alt`, `prompt` (the short scene description, for showing to readers) and `fullPrompt` (everything that was sent). A file is `null` until its image exists.
+Masters take room: about 0.5 MB each as WebP, so roughly 1.3 GB for all three sets (PNG masters would be about four times that). Commit them set by set.
+
+`illustrations.<variant>.json` has the cover, the characters (name, description, sheet, portrait, and the old portrait each one replaces), the places, and the pictures: `paragraph` (0-based index into that variant's `story.txt`, split on blank lines; the picture belongs directly after that paragraph), `anchor` (the start of that paragraph, to find it again if the text changes), `file` (the largest web copy), `sources` (every web size with its width, for `srcset`), `caption`, `alt`, `prompt` (the short scene description, for showing to readers) and `fullPrompt` (everything that was sent). `file` is `null` until the image exists.
 
 ## Writing a plan
 

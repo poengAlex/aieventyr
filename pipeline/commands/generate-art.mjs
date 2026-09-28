@@ -5,14 +5,18 @@
 // so characters, places and style stay the same from picture to picture. Finished
 // images are skipped, so a run can be stopped and started again at any time.
 //
+// Full-quality masters, prompts and the review page go to pipeline/art-raw/<set>/. The
+// site gets resized, compressed WebP copies and the manifests in public/content/art/<set>/.
+//
 //   npm run art:generate -- --dry-run                  check the plans, count images, estimate the cost
 //   npm run art:generate -- --story=askesv             one story, to check the look
 //   npm run art:generate -- --budget=60                everything that is missing, stopping at about $60
 //   npm run art:generate -- --story=askesv --only=scenes --ids=03,07 --force   redo two pictures
+//   npm run art:generate -- --export                   remake the web copies and manifests from the masters
 //
 // Options: --set=child-friendly --story=a,b --only=style,characters,places,portraits,covers,scenes
 //          --ids=03,askeladden --limit=N --budget=USD --concurrency=N --model=... --quality=...
-//          --out=dir --force --dry-run --verbose
+//          --out=dir --raw=dir --force --dry-run --export --verbose
 import 'dotenv/config'
 import fs from 'fs/promises'
 import path from 'path'
@@ -77,6 +81,15 @@ const style = await readJson(path.join(planDir, 'style.json'))
 const model = String(args.model || style.model)
 const quality = String(args.quality || style.quality)
 const outDir = path.resolve(ROOT, String(args.out || style.outputDir))
+const rawDir = path.resolve(
+  ROOT,
+  String(args.raw || style.rawDir || path.join('pipeline/art-raw', setName)),
+)
+const rawFormat = style.raw?.format === 'png' ? 'png' : 'webp'
+const webQuality = style.web?.quality ?? 78
+const webWidths = style.web?.widths ?? {}
+const exportOnly = Boolean(args.export)
+const master = (base) => `${base}.${rawFormat}`
 const concurrency = Math.max(1, Number(args.concurrency || style.concurrency || 3))
 const limit = args.limit ? Number(args.limit) : Infinity
 const budget = args.budget ? Number(args.budget) : Infinity
@@ -370,7 +383,7 @@ function similarLooks(storyList, threshold) {
 
 // ---------------------------------------------------------------- prompts
 
-const STYLE_BASE = path.join(outDir, '_style', 'style')
+const STYLE_BASE = path.join(rawDir, '_style', 'style')
 const bullets = (lines) => lines.map((line) => `- ${line}`).join('\n')
 const compose = (parts) => parts.filter(Boolean).join('\n\n')
 const artStyle = () => `Art style: ${style.style}`
@@ -385,23 +398,23 @@ const placeOf = (story, slug) => story.places.find((p) => p.slug === slug)
 function references(story, kind, characterSlugs = [], placeSlugs = []) {
   const files = []
   const lines = []
-  const storyDir = path.join(outDir, story.storyId)
+  const storyDir = path.join(rawDir, story.storyId)
   if (style.styleReferenceFor.includes(kind) || !characterSlugs.length + placeSlugs.length) {
-    files.push(`${STYLE_BASE}.webp`)
+    files.push(master(STYLE_BASE))
     lines.push(
       `Image ${files.length}: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.`,
     )
   }
   for (const slug of characterSlugs) {
     const name = nameOf(castOf(story, slug))
-    files.push(path.join(storyDir, 'characters', `${slug}.webp`))
+    files.push(master(path.join(storyDir, 'characters', slug)))
     lines.push(
       `Image ${files.length}: model sheet for ${name}, the same character seen from three sides. Keep ${name}'s face, hair, body shape, age, colours and clothes exactly as shown. Draw ${name} only once, in the pose this picture needs, and ignore the sheet's layout and plain background.`,
     )
   }
   for (const slug of placeSlugs) {
     const place = placeOf(story, slug)
-    files.push(path.join(storyDir, 'places', `${slug}.webp`))
+    files.push(master(path.join(storyDir, 'places', slug)))
     lines.push(
       `Image ${files.length}: setting reference for ${place.name}. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.`,
     )
@@ -492,14 +505,15 @@ function planJobs() {
     },
   ]
   for (const story of stories) {
-    const storyDir = path.join(outDir, story.storyId)
     const add = (kind, id, relative, characterSlugs, placeSlugs, build) => {
       const refs = references(story, kind, characterSlugs, placeSlugs)
       jobs.push({
         kind,
         id,
         label: `${story.storyId}/${relative}`,
-        out: path.join(storyDir, ...relative.split('/')),
+        // `out` is the master (without extension); `web` the public copy, for kinds the site shows.
+        out: path.join(rawDir, story.storyId, ...relative.split('/')),
+        web: webWidths[kind] ? path.join(outDir, story.storyId, ...relative.split('/')) : null,
         size: style.sizes[kind],
         refs: refs.files,
         prompt: build(refs),
@@ -652,37 +666,86 @@ async function readIfExists(file) {
   return (await exists(file)) ? fs.readFile(file, 'utf8') : null
 }
 
-// Which images of a story exist, and the prompts that made them.
+// The images of a story, in the order they are made.
+function storyImages(story) {
+  return [
+    ...story.cast.map((c) => ({
+      kind: 'characters',
+      key: c.slug,
+      relative: `characters/${c.slug}`,
+    })),
+    ...(story.places || []).map((p) => ({
+      kind: 'places',
+      key: p.slug,
+      relative: `places/${p.slug}`,
+    })),
+    ...story.cast.map((c) => ({ kind: 'portraits', key: c.slug, relative: `portraits/${c.slug}` })),
+    { kind: 'covers', key: 'cover', relative: 'cover' },
+    ...story.illustrations.map((i) => ({ kind: 'scenes', key: i.id, relative: `scenes/${i.id}` })),
+  ]
+}
+
+// Web copies: the master resized to each width in style.web.widths (never enlarged), as
+// WebP. The largest is <name>.webp, the others <name>-<width>.webp.
+async function exportWeb(kind, source, webBase) {
+  const widths = [...webWidths[kind]].sort((a, b) => b - a)
+  await fs.mkdir(path.dirname(webBase), { recursive: true })
+  for (const [index, width] of widths.entries()) {
+    const target = index === 0 ? `${webBase}.webp` : `${webBase}-${width}.webp`
+    await sharp(source)
+      .resize({ width, withoutEnlargement: true })
+      .webp({ quality: webQuality, effort: 5 })
+      .toFile(`${target}.tmp.webp`)
+    await fs.rename(`${target}.tmp.webp`, target)
+  }
+}
+
+// Makes the web copies that are missing, or all of them with --export.
+async function ensureWeb(story) {
+  for (const item of storyImages(story)) {
+    if (!webWidths[item.kind]) continue
+    const source = master(path.join(rawDir, story.storyId, ...item.relative.split('/')))
+    const webBase = path.join(outDir, story.storyId, ...item.relative.split('/'))
+    if (!(await exists(source))) continue
+    if (!exportOnly && (await exists(`${webBase}.webp`))) continue
+    await exportWeb(item.kind, source, webBase)
+  }
+}
+
+// Which images of a story exist: the web copies with their widths (for the manifests),
+// the masters (for the review page) and the prompts that made them.
 async function storyFiles(story) {
-  const storyDir = path.join(outDir, story.storyId)
-  const file = async (relative) => ((await exists(path.join(storyDir, relative))) ? relative : null)
-  const prompt = (relative) => readIfExists(path.join(storyDir, relative))
-  const files = {
-    cover: await file('cover.webp'),
-    coverPrompt: await prompt('cover.prompt.txt'),
-    sheets: {},
-    portraits: {},
-    places: {},
-    scenes: {},
-    scenePrompts: {},
-  }
-  for (const c of story.cast) {
-    files.sheets[c.slug] = await file(`characters/${c.slug}.webp`)
-    files.portraits[c.slug] = await file(`portraits/${c.slug}.webp`)
-  }
-  for (const p of story.places || []) files.places[p.slug] = await file(`places/${p.slug}.webp`)
-  for (const image of story.illustrations) {
-    files.scenes[image.id] = await file(`scenes/${image.id}.webp`)
-    files.scenePrompts[image.id] = await prompt(`scenes/${image.id}.prompt.txt`)
+  const webDir = path.join(outDir, story.storyId)
+  const rawStoryDir = path.join(rawDir, story.storyId)
+  const files = { web: {}, raw: {}, prompts: {} }
+  for (const item of storyImages(story)) {
+    const id = `${item.kind}:${item.key}`
+    const rawFile = `${item.relative}.${rawFormat}`
+    files.raw[id] = (await exists(path.join(rawStoryDir, rawFile))) ? rawFile : null
+    files.prompts[id] = await readIfExists(path.join(rawStoryDir, `${item.relative}.prompt.txt`))
+    files.web[id] = null
+    if (!webWidths[item.kind] || !(await exists(path.join(webDir, `${item.relative}.webp`))))
+      continue
+    const sources = []
+    for (const [index, width] of [...webWidths[item.kind]].sort((a, b) => b - a).entries()) {
+      const file = index === 0 ? `${item.relative}.webp` : `${item.relative}-${width}.webp`
+      if (!(await exists(path.join(webDir, file)))) continue
+      const actual = (await sharp(path.join(webDir, file)).metadata()).width || width
+      sources.push({ file, width: actual })
+    }
+    files.web[id] = { file: `${item.relative}.webp`, sources }
   }
   return files
 }
 
 // illustrations.<variant>.json holds everything a reader of that text needs: files,
-// captions, alt texts and prompts. A file is null until its image exists.
+// captions, alt texts and prompts. `file` is the largest web copy and `sources` lists all
+// sizes; both are empty until the image exists.
 async function writeManifests(story, files) {
   const storyDir = path.join(outDir, story.storyId)
   await fs.mkdir(storyDir, { recursive: true })
+  const web = (id) => files.web[id]?.file ?? null
+  const sources = (id) => files.web[id]?.sources ?? []
   for (const key of variantKeys) {
     const manifest = {
       storyId: story.storyId,
@@ -696,39 +759,37 @@ async function writeManifests(story, files) {
       quality,
       updatedAt: new Date().toISOString(),
       cover: {
-        file: files.cover,
+        file: web('covers:cover'),
+        sources: sources('covers:cover'),
         caption: story.cover.variants[key].caption,
         alt: story.cover.variants[key].alt,
         prompt: story.cover.prompt,
         characters: story.cover.characters || [],
-        fullPrompt: files.coverPrompt,
+        fullPrompt: files.prompts['covers:cover'],
       },
       characters: story.cast.map((c) => ({
         slug: c.slug,
         name: c.variants[key].name,
         description: c.variants[key].description,
         look: c.look,
-        sheet: files.sheets[c.slug],
-        portrait: files.portraits[c.slug],
+        sheet: web(`characters:${c.slug}`),
+        portrait: web(`portraits:${c.slug}`),
+        portraitSources: sources(`portraits:${c.slug}`),
         replacesPortrait: c.variants[key].replacesPortrait || null,
       })),
-      places: (story.places || []).map((p) => ({
-        slug: p.slug,
-        name: p.name,
-        look: p.look,
-        file: files.places[p.slug],
-      })),
+      places: (story.places || []).map((p) => ({ slug: p.slug, name: p.name, look: p.look })),
       illustrations: story.illustrations.map((image) => ({
         id: image.id,
         paragraph: image.variants[key].paragraph,
         anchor: image.variants[key].anchor,
-        file: files.scenes[image.id],
+        file: web(`scenes:${image.id}`),
+        sources: sources(`scenes:${image.id}`),
         caption: image.variants[key].caption,
         alt: image.variants[key].alt,
         prompt: image.prompt,
         characters: image.characters || [],
         places: image.places || [],
-        fullPrompt: files.scenePrompts[image.id],
+        fullPrompt: files.prompts[`scenes:${image.id}`],
       })),
     }
     await fs.writeFile(
@@ -759,11 +820,12 @@ function reviewSection(story, files) {
         return `${quote}<p class="caption">${escapeHtml(text.caption)}</p><p class="muted">Alt: ${escapeHtml(text.alt)}</p>`
       })
       .join('')
-  const done = story.illustrations.filter((image) => files.scenes[image.id]).length
+  const raw = (id) => files.raw[id]
+  const done = story.illustrations.filter((image) => raw(`scenes:${image.id}`)).length
   const cast = story.cast
     .map(
       (c) =>
-        `<div class="card"><div class="pair">${figure(story.storyId, files.sheets[c.slug], 'Model sheet')}${figure(story.storyId, files.portraits[c.slug], 'Portrait')}</div>` +
+        `<div class="card"><div class="pair">${figure(story.storyId, raw(`characters:${c.slug}`), 'Model sheet')}${figure(story.storyId, raw(`portraits:${c.slug}`), 'Portrait')}</div>` +
         `<b>${escapeHtml(c.variants[first].name)}</b> <span class="muted">${escapeHtml(c.slug)} · ${escapeHtml(nameOf(c))}</span><p>${escapeHtml(c.variants[first].description)}</p><p class="muted">${escapeHtml(c.look)}</p></div>`,
     )
     .join('')
@@ -771,7 +833,7 @@ function reviewSection(story, files) {
     .map((p) =>
       figure(
         story.storyId,
-        files.places[p.slug],
+        raw(`places:${p.slug}`),
         `<b>${escapeHtml(p.name)}</b><p class="muted">${escapeHtml(p.look)}</p>`,
       ),
     )
@@ -779,13 +841,13 @@ function reviewSection(story, files) {
   const scenes = story.illustrations
     .map(
       (image) =>
-        `<div class="scene">${figure(story.storyId, files.scenes[image.id], '')}<div><div class="muted">#${image.id} · ${escapeHtml((image.characters || []).join(', '))}</div>` +
-        `${texts(image, true)}<p>${escapeHtml(image.prompt)}</p>${details('Full prompt', files.scenePrompts[image.id])}</div></div>`,
+        `<div class="scene">${figure(story.storyId, raw(`scenes:${image.id}`), '')}<div><div class="muted">#${image.id} · ${escapeHtml((image.characters || []).join(', '))}</div>` +
+        `${texts(image, true)}<p>${escapeHtml(image.prompt)}</p>${details('Full prompt', files.prompts[`scenes:${image.id}`])}</div></div>`,
     )
     .join('')
   return (
     `<section id="${story.storyId}"><h2>${escapeHtml(story.variants[first].title)} <span class="muted">${story.storyId} · ${done}/${story.illustrations.length} pictures</span></h2>` +
-    `<div class="scene">${figure(story.storyId, files.cover, '')}<div>${texts(story.cover, false)}<p>${escapeHtml(story.cover.prompt)}</p>${details('Full prompt', files.coverPrompt)}</div></div>` +
+    `<div class="scene">${figure(story.storyId, raw('covers:cover'), '')}<div>${texts(story.cover, false)}<p>${escapeHtml(story.cover.prompt)}</p>${details('Full prompt', files.prompts['covers:cover'])}</div></div>` +
     `<h3>Characters</h3><div class="grid">${cast}</div>${places ? `<h3>Places</h3><div class="grid">${places}</div>` : ''}<h3>Pictures</h3>${scenes}</section>`
   )
 }
@@ -810,11 +872,11 @@ blockquote{margin:6px 0;padding-left:10px;border-left:3px solid #c9c1ae;color:#5
 pre{white-space:pre-wrap;font-size:12px;background:#fff;padding:8px}@media(max-width:800px){.scene{grid-template-columns:1fr}}
 </style></head><body>
 <h1>Illustrations: ${escapeHtml(setName)}</h1><p class="muted">${escapeHtml(model)}, quality ${escapeHtml(quality)}, texts: ${escapeHtml(variantKeys.join(', '))}, updated ${new Date().toLocaleString()}</p>
-<figure style="max-width:480px">${(await exists(`${STYLE_BASE}.webp`)) ? '<img src="_style/style.webp" alt="">' : '<div class="missing">style reference not generated yet</div>'}<figcaption class="muted">Style reference</figcaption></figure>
+<figure style="max-width:480px">${(await exists(master(STYLE_BASE))) ? `<img src="_style/style.${rawFormat}" alt="">` : '<div class="missing">style reference not generated yet</div>'}<figcaption class="muted">Style reference</figcaption></figure>
 <nav>${nav}</nav>${sections.map(({ html: section }) => section).join('\n')}
 </body></html>
 `
-  await fs.writeFile(path.join(outDir, 'review.html'), html)
+  await fs.writeFile(path.join(rawDir, 'review.html'), html)
 }
 
 // Manifests for the stories in this run, and for stories made in earlier runs, so the
@@ -824,12 +886,14 @@ async function writeOutputs() {
   for (const story of allStories) {
     const selected = stories.includes(story)
     const manifest = path.join(outDir, story.storyId, `illustrations.${variantKeys[0]}.json`)
-    if (!selected && !(await exists(manifest))) continue
+    const made = (await exists(manifest)) || (await exists(path.join(rawDir, story.storyId)))
+    if (!selected && !made) continue
     try {
       if (!selected) {
         const { problems } = await validateStory(story)
         if (problems.length) throw new Error(problems[0])
       }
+      await ensureWeb(story)
       const files = await storyFiles(story)
       await writeManifests(story, files)
       sections.push({ story, files, html: reviewSection(story, files) })
@@ -848,9 +912,9 @@ async function writeOutputs() {
       sections.map(({ story, files }) => [
         story.storyId,
         {
-          cover: files.cover,
+          cover: files.web['covers:cover']?.file ?? null,
           pictures: story.illustrations.length,
-          done: Object.values(files.scenes).filter(Boolean).length,
+          done: story.illustrations.filter((image) => files.web[`scenes:${image.id}`]).length,
           manifests: Object.fromEntries(
             variantKeys.map((key) => [key, `${story.storyId}/illustrations.${key}.json`]),
           ),
@@ -881,14 +945,26 @@ if (warnings.length) console.warn(`Warnings:\n${warnings.map((w) => `  ${w}`).jo
 if (problems.length)
   fail(`The plan has ${problems.length} problem(s):\n${problems.map((p) => `  ${p}`).join('\n')}`)
 
+// --export makes no images: it remakes the web copies and manifests from the masters,
+// for example after changing style.web.
+if (exportOnly) {
+  await fs.mkdir(outDir, { recursive: true })
+  await fs.mkdir(rawDir, { recursive: true })
+  await writeOutputs()
+  console.log(
+    `Remade the web copies and manifests in ${path.relative(ROOT, outDir)} from the masters in ${path.relative(ROOT, rawDir)}.`,
+  )
+  process.exit(0)
+}
+
 const jobs = planJobs().filter((job) => only.has(job.kind) && (!ids || ids.has(job.id)))
 const todo = []
-for (const job of jobs) if (force || !(await exists(`${job.out}.webp`))) todo.push(job)
+for (const job of jobs) if (force || !(await exists(master(job.out)))) todo.push(job)
 const planned = todo.slice(0, Math.min(todo.length, limit))
 const plannedCost = planned.reduce((sum, job) => sum + estimate(job), 0)
 
 console.log(
-  `Art set ${setName}: ${stories.length} stories, model ${model}, quality ${quality}, output ${path.relative(ROOT, outDir) || outDir}`,
+  `Art set ${setName}: ${stories.length} stories, model ${model}, quality ${quality}, masters in ${path.relative(ROOT, rawDir)}, web copies in ${path.relative(ROOT, outDir)}`,
 )
 if (dryRun || verbose) {
   for (const story of stories) {
@@ -918,7 +994,8 @@ if (!process.env.OPENAI_API_KEY)
   fail('OPENAI_API_KEY is not set. Put it in .env in the project folder or in the environment.')
 
 await fs.mkdir(outDir, { recursive: true })
-const logFile = path.join(outDir, 'run-log.jsonl')
+await fs.mkdir(rawDir, { recursive: true })
+const logFile = path.join(rawDir, 'run-log.jsonl')
 const results = { done: 0, failed: [] }
 const tokensPerReference = []
 let spent = 0
@@ -963,9 +1040,9 @@ async function runJob(job) {
   for (const ref of job.refs) {
     if (!(await exists(ref))) {
       results.failed.push(
-        `${job.label}: its reference ${path.relative(outDir, ref)} does not exist (it failed or was skipped)`,
+        `${job.label}: its reference ${path.relative(rawDir, ref)} does not exist (it failed or was skipped)`,
       )
-      progress(job, 'skip', `(missing reference ${path.relative(outDir, ref)})`)
+      progress(job, 'skip', `(missing reference ${path.relative(rawDir, ref)})`)
       return
     }
   }
@@ -979,10 +1056,14 @@ async function runJob(job) {
       tokensPerReference.push(usage.input_tokens_details.image_tokens / job.refs.length)
     await fs.mkdir(path.dirname(job.out), { recursive: true })
     await fs.writeFile(`${job.out}.prompt.txt`, prompt)
-    await sharp(buffer)
-      .webp({ quality: style.webpQuality || 88 })
-      .toFile(`${job.out}.tmp.webp`)
-    await fs.rename(`${job.out}.tmp.webp`, `${job.out}.webp`)
+    const temporary = `${job.out}.tmp.${rawFormat}`
+    if (rawFormat === 'png') await fs.writeFile(temporary, buffer)
+    else
+      await sharp(buffer)
+        .webp({ quality: style.raw?.quality ?? 95 })
+        .toFile(temporary)
+    await fs.rename(temporary, master(job.out))
+    if (job.web) await exportWeb(job.kind, master(job.out), job.web)
     results.done++
     failuresInARow = 0
     progress(job, 'ok', `${Math.round((Date.now() - begin) / 1000)}s $${actual.toFixed(3)}`)
@@ -1044,4 +1125,4 @@ if (results.failed.length)
   console.log(
     `Failed:\n${results.failed.map((f) => `  ${f}`).join('\n')}\nRun the same command again to retry them.`,
   )
-console.log(`Review the pictures in ${path.relative(ROOT, path.join(outDir, 'review.html'))}`)
+console.log(`Review the pictures in ${path.relative(ROOT, path.join(rawDir, 'review.html'))}`)

@@ -240,7 +240,7 @@ npm run art:generate -- --story=askesv
 npm run art:generate -- --budget=150
 ```
 
-A separate runner, apart from the stages above. It reads hand-written plans from `pipeline/art/<set>/`, one per story, with the cast, places, cover and pictures tied to paragraphs, plus captions and alt texts. It makes model sheets first and sends them along as reference images, so characters look the same in every picture. There are three sets: `child-friendly`, `classic` (shared by the simplified and English texts) and `modern`. Output goes to `public/content/art/<set>/`, with an `illustrations.<variant>.json` per story, an `index.json` and a `review.html` for checking. It doesn't touch the story folders. Details are in `pipeline/art/README.md`.
+A separate runner, apart from the stages above. It reads hand-written plans from `pipeline/art/<set>/`, one per story, with the cast, places, cover and pictures tied to paragraphs, plus captions and alt texts. It makes model sheets first and sends them along as reference images, so characters look the same in every picture. There are three sets: `child-friendly`, `classic` (shared by the simplified and English texts) and `modern`. Full-quality masters, prompts and a `review.html` for checking go to `pipeline/art-raw/<set>/`. The site gets resized WebP copies in `public/content/art/<set>/`, with an `illustrations.<variant>.json` per story and an `index.json`. It doesn't touch the story folders. Details are in `pipeline/art/README.md`.
 
 ### Refresh only TTS for one story variant
 
