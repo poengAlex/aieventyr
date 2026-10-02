@@ -52,7 +52,7 @@
           v-if="leaf"
           class="leaf"
           :class="leaf.className"
-          :style="{ transform: `rotateY(${leaf.angle}deg)` }"
+          :style="{ transform: `rotateY(${leaf.angle}deg)`, '--fade': leaf.fade ?? 1 }"
         >
           <div class="leaf-face leaf-front">
             <book-face
@@ -192,19 +192,16 @@ const leaf = computed(() => {
           back: { page: at(index - 1), part: 'text' as const },
         }
   }
-  return current.dir > 0
-    ? {
-        className: 'leaf-single',
-        angle: -180 * progress,
-        front: { page: at(index), part: 'full' as const },
-        back: null,
-      }
-    : {
-        className: 'leaf-single',
-        angle: -180 * (1 - progress),
-        front: { page: at(index - 1), part: 'full' as const },
-        back: null,
-      }
+  // A single page has nowhere to land, so once it is past upright it fades as it falls
+  // away (and turning back, it fades in as it rises).
+  const away = current.dir > 0 ? progress : 1 - progress
+  return {
+    className: 'leaf-single',
+    angle: -180 * away,
+    fade: Math.min(1, 2 * (1 - away)),
+    front: { page: at(current.dir > 0 ? index : index - 1), part: 'full' as const },
+    back: null,
+  }
 })
 
 // The shadow on the turning page and on the page below is darkest halfway through.
@@ -527,35 +524,53 @@ onBeforeUnmount(() => {
   transform: rotateY(180deg);
 }
 
-.leaf-right .leaf-face,
-.leaf-single .leaf-front {
+// Only the outer edge of a page is rounded. The back is mirrored, so it rounds the
+// opposite side from its front and matches the page it lands on.
+.leaf-right .leaf-front,
+.leaf-left .leaf-back {
   border-radius: 0 14px 14px 0;
 }
 
-.leaf-left .leaf-face,
-.leaf-single .leaf-back {
+.leaf-left .leaf-front,
+.leaf-right .leaf-back {
   border-radius: 14px 0 0 14px;
 }
 
-.leaf-single .leaf-front {
+// A single page is not bound to a spine: it is rounded all round, and fades on its own
+// faces (opacity on the leaf itself would flatten the turn).
+.leaf-single .leaf-face {
   border-radius: 14px;
+  opacity: var(--fade);
 }
 
 .leaf-single .leaf-back {
   background: var(--paper-deep);
 }
 
-// The turning page darkens towards the fold as it lifts.
+// The turning page keeps the fold of the page it lifts off and lands on, and darkens
+// towards the spine as it lifts.
 .leaf-right .leaf-front::after,
-.leaf-left .leaf-back::after,
-.leaf-single .leaf-front::after {
-  background: linear-gradient(to right, rgba(40, 30, 15, 0.45), rgba(40, 30, 15, 0) 55%);
-  opacity: var(--shade);
+.leaf-left .leaf-back::after {
+  background: linear-gradient(
+      to right,
+      rgba(40, 30, 15, calc(0.45 * var(--shade))),
+      rgba(40, 30, 15, 0) 55%
+    ),
+    linear-gradient(to right, rgba(60, 45, 25, 0.22), rgba(60, 45, 25, 0) 9%);
 }
 
 .leaf-left .leaf-front::after,
 .leaf-right .leaf-back::after {
-  background: linear-gradient(to left, rgba(40, 30, 15, 0.45), rgba(40, 30, 15, 0) 55%);
+  background: linear-gradient(
+      to left,
+      rgba(40, 30, 15, calc(0.45 * var(--shade))),
+      rgba(40, 30, 15, 0) 55%
+    ),
+    linear-gradient(to left, rgba(60, 45, 25, 0.22), rgba(60, 45, 25, 0) 9%);
+}
+
+.leaf-single .leaf-front::after {
+  background: linear-gradient(to right, rgba(40, 30, 15, 0.45), rgba(40, 30, 15, 0) 55%);
   opacity: var(--shade);
 }
 
