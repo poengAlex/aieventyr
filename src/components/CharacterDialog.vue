@@ -14,7 +14,15 @@
       >
         {{ t.close }}
       </button>
+      <plate-video
+        v-if="showTurn && character.turn"
+        :key="character.turn"
+        :src="character.turn"
+        :label="character.name"
+        class="character-image"
+      />
       <plate-image
+        v-else
         :src="showSheet && character.sheet ? character.sheet : character.image"
         :alt="character.name"
         class="character-image"
@@ -49,6 +57,7 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import PlateImage from 'src/components/PlateImage.vue'
+import PlateVideo from 'src/components/PlateVideo.vue'
 import { useText } from 'src/logic/i18n'
 import type { CharacterCard } from 'src/types/content'
 
@@ -67,14 +76,22 @@ const { t } = useText()
 const showSheet = ref(false)
 const character = computed(() => props.characters[props.index] ?? null)
 
+// "From all sides" plays the character turning when there is a turn video, except for
+// readers who have asked for less motion: they get the still model sheet.
+const reduceMotion =
+  typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+const showTurn = computed(() => showSheet.value && !reduceMotion)
+
 function step(direction: number) {
   const count = props.characters.length
   emit('update:index', (props.index + direction + count) % count)
 }
 
+// A character with a turn opens turning, so it is seen without hunting for the link; the
+// others open on the portrait.
 watch(
   () => [props.index, props.modelValue],
-  () => (showSheet.value = false),
+  () => (showSheet.value = Boolean(character.value?.turn) && !reduceMotion),
 )
 </script>
 

@@ -22,6 +22,7 @@ import fs from 'fs/promises'
 import path from 'path'
 import sharp from 'sharp'
 import { fileURLToPath } from 'url'
+import { ensureTurn, ffmpegProblem, turnFile, turnOverride } from '../lib/turn.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 const API = `${(process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1').replace(/\/$/, '')}/images`
@@ -700,15 +701,29 @@ async function exportWeb(kind, source, webBase) {
   }
 }
 
-// Makes the web copies that are missing, or all of them with --export.
+// Makes the web copies that are missing, or all of them with --export. Every model sheet
+// also gets its turn animation (lib/turn.mjs) when ffmpeg is installed; a sheet that
+// cannot be turned keeps only the still sheet.
 async function ensureWeb(story) {
   for (const item of storyImages(story)) {
     if (!webWidths[item.kind]) continue
     const source = master(path.join(rawDir, story.storyId, ...item.relative.split('/')))
     const webBase = path.join(outDir, story.storyId, ...item.relative.split('/'))
     if (!(await exists(source))) continue
-    if (!exportOnly && (await exists(`${webBase}.webp`))) continue
-    await exportWeb(item.kind, source, webBase)
+    if (exportOnly || !(await exists(`${webBase}.webp`)))
+      await exportWeb(item.kind, source, webBase)
+    if (item.kind === 'characters' && !(await ffmpegProblem())) {
+      try {
+        const override = await turnOverride(planDir, story.storyId, item.key)
+        const { made, mirrored } = await ensureTurn(source, turnFile(webBase), override)
+        if (made && mirrored)
+          console.log(
+            `Turn for ${story.storyId}/${item.key}: side view mirrored to face the same way`,
+          )
+      } catch (error) {
+        console.warn(`No turn for ${story.storyId}/${item.key}: ${error.message}`)
+      }
+    }
   }
 }
 
@@ -717,12 +732,14 @@ async function ensureWeb(story) {
 async function storyFiles(story) {
   const webDir = path.join(outDir, story.storyId)
   const rawStoryDir = path.join(rawDir, story.storyId)
-  const files = { web: {}, raw: {}, prompts: {} }
+  const files = { web: {}, raw: {}, prompts: {}, turns: {} }
   for (const item of storyImages(story)) {
     const id = `${item.kind}:${item.key}`
     const rawFile = `${item.relative}.${rawFormat}`
     files.raw[id] = (await exists(path.join(rawStoryDir, rawFile))) ? rawFile : null
     files.prompts[id] = await readIfExists(path.join(rawStoryDir, `${item.relative}.prompt.txt`))
+    const turn = turnFile(item.relative)
+    files.turns[id] = (await exists(path.join(webDir, turn))) ? turn : null
     files.web[id] = null
     if (!webWidths[item.kind] || !(await exists(path.join(webDir, `${item.relative}.webp`))))
       continue
@@ -773,6 +790,7 @@ async function writeManifests(story, files) {
         description: c.variants[key].description,
         look: c.look,
         sheet: web(`characters:${c.slug}`),
+        turn: files.turns[`characters:${c.slug}`],
         portrait: web(`portraits:${c.slug}`),
         portraitSources: sources(`portraits:${c.slug}`),
         replacesPortrait: c.variants[key].replacesPortrait || null,

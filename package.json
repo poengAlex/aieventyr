@@ -35,6 +35,7 @@
     "pipeline:variant-audio": "node pipeline/commands/pipeline-variant-audio.mjs",
     "art:generate": "node pipeline/commands/generate-art.mjs",
     "art:paragraphs": "node pipeline/commands/art-paragraphs.mjs",
+    "art:turns": "node pipeline/commands/generate-turns.mjs",
     "content:glossary": "node pipeline/commands/check-glossary.mjs",
     "content:share-cards": "node pipeline/commands/build-share-cards.mjs",
     "content:icons": "node pipeline/commands/build-icons.mjs"

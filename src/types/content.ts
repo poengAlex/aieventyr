@@ -114,6 +114,8 @@ export interface ArtCharacter {
   description: string
   look: string
   sheet: string | null
+  // The sheet as a short looping video of the character turning (pipeline/lib/turn.mjs).
+  turn?: string | null
   portrait: string | null
   portraitSources?: ArtSource[]
   replacesPortrait: string | null
@@ -165,4 +167,5 @@ export interface CharacterCard {
   description: string
   image: string
   sheet: string | null
+  turn: string | null
 }

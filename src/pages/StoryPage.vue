@@ -49,6 +49,12 @@
           >
             {{ t.pictureBook }} ›
           </button>
+          <cast-lineup
+            v-if="lineup.length"
+            :characters="lineup"
+            :label="t.characters"
+            @open="openCharacter"
+          />
         </header>
       </template>
 
@@ -124,6 +130,7 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { useQuasar } from 'quasar'
+import CastLineup from 'src/components/CastLineup.vue'
 import CharacterDialog from 'src/components/CharacterDialog.vue'
 import ContentsEntry from 'src/components/ContentsEntry.vue'
 import EditionSwitch from 'src/components/EditionSwitch.vue'
@@ -234,6 +241,7 @@ const characterCards = computed<CharacterCard[]>(() => {
         description: character.description,
         image: artUrl(manifest.set, storyId.value, image),
         sheet: character.sheet ? artUrl(manifest.set, storyId.value, character.sheet) : null,
+        turn: character.turn ? artUrl(manifest.set, storyId.value, character.turn) : null,
       },
     ]
   })
@@ -244,8 +252,17 @@ const characterCards = computed<CharacterCard[]>(() => {
     description: character.description,
     image: `${getVariantBasePath(storyId.value, variant.value)}/${character.imagePath}`,
     sheet: null,
+    turn: null,
   }))
 })
+
+// The children's edition introduces its cast under the title, standing and turning, like
+// the character page of a picture book. Only characters with a turn video stand in it.
+const lineup = computed(() =>
+  variant.value === 'child-friendly'
+    ? characterCards.value.filter((character) => character.turn)
+    : [],
+)
 
 const nextStory = computed(() => {
   const index = manifestStories.value.findIndex((item) => item.id === storyId.value)

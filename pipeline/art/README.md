@@ -63,6 +63,25 @@ To redo pictures you don't like, change the plan if needed and run for example `
 
 `style.json` can pass extra API parameters in `extraParams`, for example `"moderation": "low"` if too many harmless pictures are blocked.
 
+### Turn animations
+
+Each model sheet also becomes a short looping video of the character turning from the front to the side and back (`pipeline/lib/turn.mjs`). The three views are cut out and lined up on the head and feet, and ffmpeg's motion interpolation draws the frames in between. The reader plays it under "Vis fra alle kanter" and shows the still sheet to readers who have asked for less motion.
+
+The art runner makes the turns at the end of every run. For sheets made by an earlier run, or by a run that is still going, make them afterwards:
+
+```bash
+npm run art:turns                                         # every missing or outdated turn in child-friendly
+npm run art:turns -- --set=classic --story=askesv --ids=askeladden --force
+```
+
+It needs ffmpeg with `minterpolate` and `libx264` (`brew install ffmpeg`), no API key. A turn is made again when its sheet is newer, and the command adds the turns to the manifests, so run it again after an art run that was already going when the turns were added. A sheet whose three views overlap (long tails, trailing braids, a sheet with extra props) gets no turn and keeps the still sheet; the command lists them. Where two neighbouring views differ a lot, as when an animal turns to show its long side, the middle frames of that step are left out, so it snaps round instead of showing two heads. Each turn is about 160 KB. After changing `pipeline/lib/turn.mjs`, remake them all with `--force`.
+
+Image models often draw the side view facing the other way from the three-quarter view, so the figure would start turning one way and end up facing the other. The turn compares the two views (the whole figures and the heads) and mirrors the side view when it faces away; the command lists the ones it mirrored. Where it gets one wrong, list it in `pipeline/art/<set>/turns.json`, and the next `npm run art:turns` (or art run) makes that turn again:
+
+```json
+{ "mirror": ["askesv/eldste-bror"], "keep": ["nodedsk/hona"] }
+```
+
 ### Cost
 
 The API charges per token: $8 per million tokens for reference images going in, and $30 per million for image tokens coming out. A 1536×1024 picture at `high` is about $0.08 of output, and every reference image sent along adds roughly $0.05. That makes a scene with three characters and a place about $0.25. The estimate in the dry run uses these numbers.
@@ -102,6 +121,7 @@ public/content/art/<set>/                web copies for the site
   <story>/cover.webp, cover-512.webp     each image in the widths set in style.json (web.widths)
   <story>/scenes/01.webp, 01-768.webp
   <story>/portraits/…, <story>/characters/…
+  <story>/characters/<slug>-turn.mp4     the model sheet as a turn animation
   <story>/illustrations.<variant>.json   everything a reader of that text needs (below)
   index.json                             which stories have pictures, per variant
 ```
@@ -110,7 +130,7 @@ The style reference and the place pictures are only references, so they get no w
 
 Masters take room: about 0.5 MB each as WebP, so roughly 1.3 GB for all three sets (PNG masters would be about four times that). Commit them set by set.
 
-`illustrations.<variant>.json` has the cover, the characters (name, description, sheet, portrait, and the old portrait each one replaces), the places, and the pictures: `paragraph` (0-based index into that variant's `story.txt`, split on blank lines; the picture belongs directly after that paragraph), `anchor` (the start of that paragraph, to find it again if the text changes), `file` (the largest web copy), `sources` (every web size with its width, for `srcset`), `caption`, `alt`, `prompt` (the short scene description, for showing to readers) and `fullPrompt` (everything that was sent). `file` is `null` until the image exists.
+`illustrations.<variant>.json` has the cover, the characters (name, description, sheet, turn, portrait, and the old portrait each one replaces), the places, and the pictures: `paragraph` (0-based index into that variant's `story.txt`, split on blank lines; the picture belongs directly after that paragraph), `anchor` (the start of that paragraph, to find it again if the text changes), `file` (the largest web copy), `sources` (every web size with its width, for `srcset`), `caption`, `alt`, `prompt` (the short scene description, for showing to readers) and `fullPrompt` (everything that was sent). `file` is `null` until the image exists.
 
 ## Writing a plan
 
