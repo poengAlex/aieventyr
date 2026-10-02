@@ -21,6 +21,11 @@ export default defineRouter(function (/* { store, ssrContext } */) {
     ? createMemoryHistory
     : (process.env.VUE_ROUTER_MODE === 'history' ? createWebHistory : createWebHashHistory);
 
+  // Links from before the site had real addresses look like /#/story/askesv.
+  if (!process.env.SERVER && window.location.hash.startsWith('#/')) {
+    window.history.replaceState(null, '', window.location.hash.slice(1));
+  }
+
   const Router = createRouter({
     scrollBehavior: () => ({ left: 0, top: 0 }),
     routes,
@@ -29,6 +34,20 @@ export default defineRouter(function (/* { store, ssrContext } */) {
     // quasar.conf.js -> build -> vueRouterMode
     // quasar.conf.js -> build -> publicPath
     history: createHistory(process.env.VUE_ROUTER_BASE),
+  });
+
+  // Every page is built as a folder with an index.html (scripts/build-share-pages.mjs), and
+  // the host serves those only for the address with a trailing slash. Keeping addresses in
+  // that form means a copied link opens the tale's own page, with its preview.
+  Router.beforeEach((to) =>
+    to.path.endsWith('/')
+      ? true
+      : { path: `${to.path}/`, query: to.query, hash: to.hash, replace: true },
+  );
+
+  // Pages that know a better title set it once they have loaded (StoryPage).
+  Router.afterEach(() => {
+    if (!process.env.SERVER) document.title = 'Eventyr';
   });
 
   return Router;

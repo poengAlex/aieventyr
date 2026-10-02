@@ -177,6 +177,19 @@ npm run art:paragraphs -- --story=askesv
 
 `art:generate` illustrates a whole set of texts from hand-written plans in `pipeline/art/<set>/`. It keeps characters, places and style consistent with model sheets and reference images, It saves full-quality masters in `pipeline/art-raw/<set>/` and resized WebP copies for the site in `public/content/art/<set>/`. The sets are `child-friendly`, `classic` (the simplified and English texts share its pictures) and `modern`; pick one with `--set`. It is made to run unattended overnight; see `pipeline/art/README.md`.
 
+### Link previews
+
+```bash
+npm run content:share-cards
+npm run content:icons
+```
+
+`content:share-cards` draws the 1200×630 pictures that link previews show, one per tale and one for the book, into `public/content/share/`. Run it again when new covers land. `npm run build` then gives every tale its own page, `dist/spa/story/<id>/index.html`, with the tale's title, blurb and card in its tags (`scripts/build-share-pages.mjs`), plus a `404.html` that loads the app for any other address. The tags point to `https://www.aieventyr.no`; set `SITE_URL` to build for another address.
+
+The cards, the favicons and the logo at the top of the contents page share one mark, a printer's initial E in the classic edition's red, drawn from EB Garamond in `pipeline/lib/logo.mjs`. `content:icons` draws the favicons and home-screen icons from it into `public/icons/` and `public/favicon.ico`; `src/components/SiteLogo.vue` carries a copy of its outline.
+
+The site uses real addresses (`/story/askesv/`, not `/#/story/askesv`). App Platform serves a folder's `index.html` only with the trailing slash, so the app keeps addresses in that form; old `#/` links are forwarded.
+
 ## Documentation
 
 - `docs/architecture.md`

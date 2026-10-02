@@ -29,7 +29,7 @@ The site is set like a printed storybook. The library is a title page and a tabl
 - `src/pages/IndexPage.vue`
   The library: a title page with the edition switch, and a table of contents with each tale's number, title and reading time. On wide screens the left page shows the cover of the tale under the pointer, or of the tale left halfway, with a link to continue where the reader stopped; on phones that plate sits between the title page and the contents.
 - `src/pages/StoryPage.vue`
-  The reader. A slim bar with the way back to the contents, the title once it has scrolled away, the `Aa` settings and a reading-progress line. The tale opens like a chapter: number, title, reading time, edition switch and the picture-book link; then the text, opening with a large initial and small capitals; and at the end the cast, the next tale and the original title. It remembers how far the reader has come, marks the story read at the end, and "continue where you left off" reopens a tale in the edition it was read in.
+  The reader. A slim bar with the way back to the contents, the title once it has scrolled away, the `Aa` settings and a reading-progress line. The tale opens like a chapter: number, title, reading time, edition switch and the picture-book link; then the text, opening with a large initial and small capitals; and at the end the cast, the next tale and the original title. The browser tab shows the tale's title. It remembers how far the reader has come, marks the story read at the end, and "continue where you left off" reopens a tale in the edition it was read in.
 - `src/pages/AboutPage.vue`
   A few lines on where the tales come from and what the four editions are.
 - `src/pages/ErrorNotFound.vue`
@@ -80,6 +80,10 @@ This module is the key boundary between app code and generated output. If the co
 
 - `src/logic/art.ts`
   Loads the illustration sets made by `npm run art:generate` from `public/content/art/<set>/`. `child-friendly` has its own set, `simplified` and `english` share `classic`, and `modern` has its own. It reads `index.json` for which stories have pictures, then `<story>/illustrations.<variant>.json`, and builds `srcset` lists from the web sizes the runner wrote. It places each picture after its paragraph, using the anchor text if the paragraph numbers have shifted, and finds character names in the text. Until a story has new pictures, `fallbackArt` shows the older section pictures in the same reader.
+
+### Addresses and link previews
+
+The router uses real addresses (`history` mode in `quasar.config.ts`), always with a trailing slash: `/`, `/story/<id>/`, `/about/`. `src/router/index.ts` adds the slash when it is missing and forwards old `/#/story/<id>` links. After `quasar build`, `scripts/build-share-pages.mjs` copies `index.html` into `story/<id>/index.html` and `about/index.html` with each page's title, description, canonical address and card (`public/content/share/<id>.jpg`, drawn by `npm run content:share-cards`), since link previews read those tags without running the app. `404.html` is the app itself, so any other address still opens it; App Platform serves it for paths it has no file for.
 
 ## Runtime data flow
 

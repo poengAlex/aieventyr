@@ -74,7 +74,7 @@
           <nav v-if="nextStory" class="next">
             <div class="caps next-label">{{ t.nextTale }}</div>
             <contents-entry
-              :to="`/story/${nextStory.id}`"
+              :to="`/story/${nextStory.id}/`"
               :numeral="roman(nextStory.index)"
               :title="nextStory.title"
               :minutes="nextStory.minutes"
@@ -174,6 +174,11 @@ const minutes = computed(() =>
   readingMinutes(listItem.value?.words?.[variant.value], variant.value),
 )
 const editionClass = computed(() => `edition-${artSetFor(variant.value) ?? 'classic'}`)
+
+// The browser tab shows the tale (the router resets the title on every page change).
+watch([title, () => route.fullPath], ([value]) => {
+  if (value) document.title = `${value} · Eventyr`
+})
 
 // The new pictures when this text has them; until then the older section pictures. The
 // picture book waits for the new ones.

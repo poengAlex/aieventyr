@@ -8,7 +8,7 @@ const routes: RouteRecordRaw[] = [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: 'story/:id', component: () => import('pages/StoryPage.vue') },
       { path: 'about', component: () => import('pages/AboutPage.vue') },
-      { path: 'om', redirect: '/about' },
+      { path: 'om', redirect: '/about/' },
       // Pages from the earlier design.
       { path: 'images', redirect: '/' },
       { path: 'settings', redirect: '/' },

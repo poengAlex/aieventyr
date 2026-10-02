@@ -16,9 +16,9 @@
 
       <div class="right-page">
         <header class="running-head">
-          <span class="caps">Eventyr</span>
+          <site-logo />
           <span class="running-actions">
-            <router-link to="/about" class="caps-link">{{ t.about }}</router-link>
+            <router-link to="/about/" class="caps-link">{{ t.about }}</router-link>
             <button
               type="button"
               class="caps-link"
@@ -60,7 +60,7 @@
           <ol v-if="!loading">
             <li v-for="item in items" :key="item.id">
               <contents-entry
-                :to="`/story/${item.id}`"
+                :to="`/story/${item.id}/`"
                 :numeral="roman(item.index)"
                 :title="item.title"
                 :minutes="item.minutes"
@@ -84,6 +84,7 @@ import { useQuasar } from 'quasar'
 import ContentsEntry from 'src/components/ContentsEntry.vue'
 import EditionSwitch from 'src/components/EditionSwitch.vue'
 import CoverPlate from 'src/components/CoverPlate.vue'
+import SiteLogo from 'src/components/SiteLogo.vue'
 import { artSetFor, loadArtCover } from 'src/logic/art'
 import { loadManifest, resolveStoryVariant } from 'src/logic/content'
 import { readingMinutes, roman, useText } from 'src/logic/i18n'
@@ -141,7 +142,7 @@ const featured = computed(() => {
   if (!item?.cover) return null
   const resume = item.id === unfinished.value
   return {
-    to: resume ? `/story/${item.id}?resume=1` : `/story/${item.id}`,
+    to: resume ? `/story/${item.id}/?resume=1` : `/story/${item.id}/`,
     id: item.id,
     src: item.cover.src,
     srcset: item.cover.srcset,
@@ -213,16 +214,31 @@ onMounted(async () => {
   padding: 28px clamp(40px, 6vw, 88px) 96px;
 }
 
+// On the narrowest phones the links drop below the logo rather than run into it.
 .running-head {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  gap: 8px 16px;
   color: var(--ink-muted);
 }
 
 .running-actions {
   display: flex;
   gap: 18px;
+  margin-left: auto;
+}
+
+@media (max-width: 419px) {
+  .running-actions {
+    gap: 14px;
+  }
+
+  .running-actions .caps-link {
+    font-size: 0.74rem;
+    letter-spacing: 0.1em;
+  }
 }
 
 .title-page {
