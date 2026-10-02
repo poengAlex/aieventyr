@@ -1,0 +1,137 @@
+{
+  "storyId": "hanenoghoen",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Hanen og høna",
+  "textFile": "public/content/stories/hanenoghoen/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:22.096Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Hønen har ventet på sko i år etter år.",
+    "alt": "Hønen står ved en vanndam på gårdsplassen med en kurv egg på vingen og ser ned på de bare føttene sine. Bak henne står Hanen på vedstabelen og galer.",
+    "prompt": "In the Farmyard, the Hen stands at the edge of a shining puddle with her basket of six eggs hooked over one wing, lifting one bare yellow foot and looking down at her cold toes with a big sigh. Behind her, the Rooster stands on top of the woodpile, puffing out his chest and crowing at the morning sun. Patches of melting snow and bare birches around them.",
+    "characters": [
+      "honen",
+      "hanen"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Farmyard. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: In the Farmyard, the Hen stands at the edge of a shining puddle with her basket of six eggs hooked over one wing, lifting one bare yellow foot and looking down at her cold toes with a big sigh. Behind her, the Rooster stands on top of the woodpile, puffing out his chest and crowing at the morning sun. Patches of melting snow and bare birches around them.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Hen: A plump, round, busy farm hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare, bright-yellow feet are big, with long, spread-out toes. She carries a small round wicker basket lined with straw over one wing.\n- the Rooster: A tall, handsome farm rooster speckled all over in rust-red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, kind hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He looks gentle and a little sheepish, and likes to point with one wing.\n\nSetting:\n- the Farmyard: A small, muddy farmyard on a hillside: a little red-painted henhouse on short stilts with a wooden ramp and a tiny door, a stacked woodpile with a chopping block, a grey split-rail fence with an open gate, shining puddles and a few patches of melting snow. Through the gate, a muddy road winds down past bare birches towards a small town far away in the valley, with a white church and red and yellow houses.\n\nStory world: Old rural Norway, long ago, where the farm birds can talk. The hen and the rooster live on a small hillside farm with a little red henhouse on short stilts. From the farm gate, a muddy gravel road winds down past bare birches to a small town far away in the valley, with a white church and red and yellow wooden houses. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding exactly six light-brown eggs. The hen and the rooster are natural birds without clothes, and the hen is barefoot; she carries her basket hooked over one wing.\n\nThis story's season, light and colours: Early spring on a muddy farm: grey patches of old snow melting in the shade, rich brown mud and shining puddles everywhere, bare birches, silvery pussy-willow catkins, and a soft, pearly-grey sky with watery sunshine breaking through.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "honen",
+      "name": "Hønen",
+      "description": "En flittig høne som verper egg hver dag, går barbeint og har ventet på skoene sine i år etter år.",
+      "look": "A plump, round, busy farm hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare, bright-yellow feet are big, with long, spread-out toes. She carries a small round wicker basket lined with straw over one wing.",
+      "sheet": "characters/honen.webp",
+      "turn": "characters/honen-turn.mp4",
+      "portrait": "portraits/honen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/honen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/honen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "honen"
+    },
+    {
+      "slug": "hanen",
+      "name": "Hanen",
+      "description": "En omsorgsfull hane som vil hjelpe, og som foreslår en enkel og positiv plan så Hønen kan få det bedre.",
+      "look": "A tall, handsome farm rooster speckled all over in rust-red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, kind hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He looks gentle and a little sheepish, and likes to point with one wing.",
+      "sheet": "characters/hanen.webp",
+      "turn": "characters/hanen-turn.mp4",
+      "portrait": "portraits/hanen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/hanen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/hanen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "hanen"
+    }
+  ],
+  "places": [
+    {
+      "slug": "tunet",
+      "name": "the Farmyard",
+      "look": "A small, muddy farmyard on a hillside: a little red-painted henhouse on short stilts with a wooden ramp and a tiny door, a stacked woodpile with a chopping block, a grey split-rail fence with an open gate, shining puddles and a few patches of melting snow. Through the gate, a muddy road winds down past bare birches towards a small town far away in the valley, with a white church and red and yellow houses."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "«Jeg verper egg hver dag», sa Hønen og løftet kurven, «og likevel går jeg barbeint!»",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Jeg verper egg hver dag», sier Hønen, «og likevel går jeg barbeint!»",
+      "alt": "Hønen står på den gjørmete gårdsplassen og løfter kurven med seks egg, mens hun peker på de bare føttene sine. Hanen står foran henne og nikker vennlig.",
+      "prompt": "Medium view in the muddy Farmyard in front of the red henhouse: the Hen, her feathers fluffed up in indignation, lifts her basket of six eggs high with one wing and points at her bare, muddy yellow feet with the other, scolding. Facing her, the Rooster tilts his head and nods kindly, one wing pressed to his chest as if making a promise. Puddles shine around them in the cool spring sunshine.",
+      "characters": [
+        "honen",
+        "hanen"
+      ],
+      "places": [
+        "tunet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Farmyard. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Medium view in the muddy Farmyard in front of the red henhouse: the Hen, her feathers fluffed up in indignation, lifts her basket of six eggs high with one wing and points at her bare, muddy yellow feet with the other, scolding. Facing her, the Rooster tilts his head and nods kindly, one wing pressed to his chest as if making a promise. Puddles shine around them in the cool spring sunshine.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Hen: A plump, round, busy farm hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare, bright-yellow feet are big, with long, spread-out toes. She carries a small round wicker basket lined with straw over one wing.\n- the Rooster: A tall, handsome farm rooster speckled all over in rust-red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, kind hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He looks gentle and a little sheepish, and likes to point with one wing.\n\nSetting:\n- the Farmyard: A small, muddy farmyard on a hillside: a little red-painted henhouse on short stilts with a wooden ramp and a tiny door, a stacked woodpile with a chopping block, a grey split-rail fence with an open gate, shining puddles and a few patches of melting snow. Through the gate, a muddy road winds down past bare birches towards a small town far away in the valley, with a white church and red and yellow houses.\n\nStory world: Old rural Norway, long ago, where the farm birds can talk. The hen and the rooster live on a small hillside farm with a little red henhouse on short stilts. From the farm gate, a muddy gravel road winds down past bare birches to a small town far away in the valley, with a white church and red and yellow wooden houses. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding exactly six light-brown eggs. The hen and the rooster are natural birds without clothes, and the hen is barefoot; she carries her basket hooked over one wing.\n\nThis story's season, light and colours: Early spring on a muddy farm: grey patches of old snow melting in the shade, rich brown mud and shining puddles everywhere, bare birches, silvery pussy-willow catkins, and a soft, pearly-grey sky with watery sunshine breaking through.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 5,
+      "anchor": "«Så lurt!» sa Hønen.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Så lurt!» sier Hønen. «Hvorfor sa du ikke det før?»",
+      "alt": "Hanen står på portstolpen og peker med vingen nedover veien mot en liten by langt borte. Hønen klemmer eggekurven og ser glad og overrasket ut.",
+      "prompt": "Wide view from the gate of the Farmyard: the Rooster stands on the gatepost, pointing one wing proudly down the muddy road that winds past bare birches to the little town far away in the valley. Beside the gate, the Hen hugs her basket of six eggs, her beak open in a delighted gasp and her eyes shining at the idea. Bright spring sunshine breaks through the clouds, and the puddles on the road glitter.",
+      "characters": [
+        "hanen",
+        "honen"
+      ],
+      "places": [
+        "tunet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Farmyard. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Wide view from the gate of the Farmyard: the Rooster stands on the gatepost, pointing one wing proudly down the muddy road that winds past bare birches to the little town far away in the valley. Beside the gate, the Hen hugs her basket of six eggs, her beak open in a delighted gasp and her eyes shining at the idea. Bright spring sunshine breaks through the clouds, and the puddles on the road glitter.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A tall, handsome farm rooster speckled all over in rust-red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, kind hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He looks gentle and a little sheepish, and likes to point with one wing.\n- the Hen: A plump, round, busy farm hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare, bright-yellow feet are big, with long, spread-out toes. She carries a small round wicker basket lined with straw over one wing.\n\nSetting:\n- the Farmyard: A small, muddy farmyard on a hillside: a little red-painted henhouse on short stilts with a wooden ramp and a tiny door, a stacked woodpile with a chopping block, a grey split-rail fence with an open gate, shining puddles and a few patches of melting snow. Through the gate, a muddy road winds down past bare birches towards a small town far away in the valley, with a white church and red and yellow houses.\n\nStory world: Old rural Norway, long ago, where the farm birds can talk. The hen and the rooster live on a small hillside farm with a little red henhouse on short stilts. From the farm gate, a muddy gravel road winds down past bare birches to a small town far away in the valley, with a white church and red and yellow wooden houses. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding exactly six light-brown eggs. The hen and the rooster are natural birds without clothes, and the hen is barefoot; she carries her basket hooked over one wing.\n\nThis story's season, light and colours: Early spring on a muddy farm: grey patches of old snow melting in the shade, rich brown mud and shining puddles everywhere, bare birches, silvery pussy-willow catkins, and a soft, pearly-grey sky with watery sunshine breaking through.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

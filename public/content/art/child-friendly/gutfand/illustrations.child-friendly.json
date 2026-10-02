@@ -1,0 +1,148 @@
+{
+  "storyId": "gutfand",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Gutten og fanden",
+  "textFile": "public/content/stories/gutfand/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:22.028Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Knekk, knekk, knekk! En gutt går bortover veien og knekker nøtter.",
+    "alt": "En gutt i rød vest går bortover en høstvei og knekker nøtter. Bak en hasselbusk kommer en liten, rød skikkelse med horn og hale listende og smiler lurt.",
+    "prompt": "On a country road in golden autumn evening light, the Boy strolls along cracking a walnut in his hands, his pockets bulging with more and a trail of cracked shells behind him. Beside the road the Little Devil comes tiptoeing out from behind a hazel bush with his chest puffed out and a sly, smug grin, his tufted tail curling up behind him. Russet leaves drift down, and far along the road a small smithy puffs smoke from its chimney.",
+    "characters": [
+      "gutten",
+      "fanden"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Little Devil, the same character seen from three sides. Keep the Little Devil's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Little Devil only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: On a country road in golden autumn evening light, the Boy strolls along cracking a walnut in his hands, his pockets bulging with more and a trail of cracked shells behind him. Beside the road the Little Devil comes tiptoeing out from behind a hazel bush with his chest puffed out and a sly, smug grin, his tufted tail curling up behind him. Russet leaves drift down, and far along the road a small smithy puffs smoke from its chimney.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A scruffy, cheeky boy of about twelve, small and nimble, with a round, tanned face, a turned-up nose, bright black eyes, a wide, mischievous grin and straight dark-brown hair cut in a thick, blunt fringe down to his eyebrows. He wears an open, patched red waistcoat over a baggy, untucked undyed shirt, short brown trousers with frayed hems and worn ankle boots, and every pocket bulges with walnuts.\n- the Little Devil: A small, skinny imp no taller than a toddler, with dusty, matte brick-red skin, a narrow, pointy face with a sharp, beardless chin, narrow, sly green eyes under thin arched eyebrows, a wide, smug grin, big pointed ears and two tiny stubby horns like little thorns. He has thin arms, knobbly knees, long bare feet with curling toes and a long thin tail ending in a black tuft like a paintbrush, and wears only short, ragged brown breeches held up by a string. Silly, not scary.\n\nStory world: Old rural Norway, long ago, on an autumn evening. A narrow dirt road winds between hazel bushes and birches with golden leaves, past stubble fields and grey stone walls. The boy eats walnuts: big, round, wrinkly, light-brown walnuts. The special nut is one of them, with one tiny round hole in its shell, which the boy plugs with a little wooden peg. By the road stands the smithy: a small, low log smithy with a turf roof and a stone chimney, a wide open door, a glowing forge with leather bellows, a big black anvil on a tree stump and a rack of hammers from tiny to huge, the biggest a sledgehammer as long as a man's leg.\n\nThis story's season, light and colours: An autumn evening: low amber sunlight and long shadows on the road, golden and russet hazel leaves, and a violet-blue dusk sky with the first star. Inside and around the smithy: the orange glow of the forge fire and a hanging lantern against sooty dark walls, with sparks and swirling dust.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "gutten",
+      "name": "Gutten",
+      "description": "En nysgjerrig og smart gutt som elsker å knekke nøtter og finner på et ufarlig, lurt triks.",
+      "look": "A scruffy, cheeky boy of about twelve, small and nimble, with a round, tanned face, a turned-up nose, bright black eyes, a wide, mischievous grin and straight dark-brown hair cut in a thick, blunt fringe down to his eyebrows. He wears an open, patched red waistcoat over a baggy, untucked undyed shirt, short brown trousers with frayed hems and worn ankle boots, and every pocket bulges with walnuts.",
+      "sheet": "characters/gutten.webp",
+      "turn": "characters/gutten-turn.mp4",
+      "portrait": "portraits/gutten.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/gutten.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/gutten-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "gutten"
+    },
+    {
+      "slug": "fanden",
+      "name": "Fanden",
+      "description": "En liten, rampete skikkelse som kan gjøre seg bitteliten og lar seg lure inn i en nøtt, mer komisk enn skummel.",
+      "look": "A small, skinny imp no taller than a toddler, with dusty, matte brick-red skin, a narrow, pointy face with a sharp, beardless chin, narrow, sly green eyes under thin arched eyebrows, a wide, smug grin, big pointed ears and two tiny stubby horns like little thorns. He has thin arms, knobbly knees, long bare feet with curling toes and a long thin tail ending in a black tuft like a paintbrush, and wears only short, ragged brown breeches held up by a string. Silly, not scary.",
+      "sheet": "characters/fanden.webp",
+      "turn": null,
+      "portrait": "portraits/fanden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/fanden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/fanden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "fanden"
+    },
+    {
+      "slug": "smeden",
+      "name": "Smeden",
+      "description": "En godhjertet smed som prøver flere hammere og blir overrasket når nøtta endelig knaser.",
+      "look": "A kind, stocky old blacksmith of about seventy, short and broad, with huge, sooty forearms, a wide, soot-smudged face, kind, crinkly brown eyes, thick grey eyebrows and a long, bushy charcoal-grey beard singed at the tips. He has a fuzz of short grey hair, and small round wire spectacles sit pushed up on his forehead. He wears a heavy, scorched black leather apron over a faded red flannel shirt with rolled-up sleeves, sooty black trousers and big wooden clogs.",
+      "sheet": "characters/smeden.webp",
+      "turn": "characters/smeden-turn.mp4",
+      "portrait": "portraits/smeden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/smeden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/smeden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "smeden"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "Fanden ble mindre og mindre og mindre.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Mindre og mindre og mindre ... Vips! Så kryper Fanden inn i nøtta.",
+      "alt": "Gutten sitter på huk på veien og holder opp en stor nøtt. Fanden er blitt så liten som en marihøne og kryper inn i et lite hull i nøtta, så bare beina og halen stikker ut.",
+      "prompt": "A close, low view on the autumn road between hazel bushes: the Boy crouches and holds up a big walnut between finger and thumb, grinning. The Little Devil has shrunk to the size of a ladybird and is diving head first into the tiny hole in the shell, so that only his thin legs and tufted tail still stick out, wiggling. A few cracked walnut shells lie on the road, and low amber evening sun shines through the golden leaves.",
+      "characters": [
+        "gutten",
+        "fanden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Little Devil, the same character seen from three sides. Keep the Little Devil's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Little Devil only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A close, low view on the autumn road between hazel bushes: the Boy crouches and holds up a big walnut between finger and thumb, grinning. The Little Devil has shrunk to the size of a ladybird and is diving head first into the tiny hole in the shell, so that only his thin legs and tufted tail still stick out, wiggling. A few cracked walnut shells lie on the road, and low amber evening sun shines through the golden leaves.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A scruffy, cheeky boy of about twelve, small and nimble, with a round, tanned face, a turned-up nose, bright black eyes, a wide, mischievous grin and straight dark-brown hair cut in a thick, blunt fringe down to his eyebrows. He wears an open, patched red waistcoat over a baggy, untucked undyed shirt, short brown trousers with frayed hems and worn ankle boots, and every pocket bulges with walnuts.\n- the Little Devil: A small, skinny imp no taller than a toddler, with dusty, matte brick-red skin, a narrow, pointy face with a sharp, beardless chin, narrow, sly green eyes under thin arched eyebrows, a wide, smug grin, big pointed ears and two tiny stubby horns like little thorns. He has thin arms, knobbly knees, long bare feet with curling toes and a long thin tail ending in a black tuft like a paintbrush, and wears only short, ragged brown breeches held up by a string. Silly, not scary.\n\nStory world: Old rural Norway, long ago, on an autumn evening. A narrow dirt road winds between hazel bushes and birches with golden leaves, past stubble fields and grey stone walls. The boy eats walnuts: big, round, wrinkly, light-brown walnuts. The special nut is one of them, with one tiny round hole in its shell, which the boy plugs with a little wooden peg. By the road stands the smithy: a small, low log smithy with a turf roof and a stone chimney, a wide open door, a glowing forge with leather bellows, a big black anvil on a tree stump and a rack of hammers from tiny to huge, the biggest a sledgehammer as long as a man's leg.\n\nThis story's season, light and colours: An autumn evening: low amber sunlight and long shadows on the road, golden and russet hazel leaves, and a violet-blue dusk sky with the first star. Inside and around the smithy: the orange glow of the forge fire and a hanging lantern against sooty dark walls, with sparks and swirling dust.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 17,
+      "anchor": "Nøtta sprakk i tusen biter, og taket hoppet opp og landet igjen, litt på skjeve.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "KNAS! PANG! Ut tumler Fanden, og han piler av sted så støvet står.",
+      "alt": "Taket på smia har hoppet opp og landet på skjeve. Fanden piler ut døra og bortover veien i en sky av støv, mens smeden måper med slegga i døråpningen og gutten smiler.",
+      "prompt": "Outside the little log smithy at dusk: its turf roof has just jumped up and landed crooked, and dust puffs out from under the eaves. Out of the open door, lit orange by the forge fire, the Little Devil, back to his normal small size, scampers away down the road in a cloud of dust, looking back over his shoulder with a baffled face, his tufted tail flying. In the doorway the Smith stands gaping with the big sledgehammer in his hands, and beside him the Boy grins with his hands in his pockets. Bits of walnut shell lie on the doorstep.",
+      "characters": [
+        "gutten",
+        "fanden",
+        "smeden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Little Devil, the same character seen from three sides. Keep the Little Devil's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Little Devil only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Smith, the same character seen from three sides. Keep the Smith's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Smith only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Outside the little log smithy at dusk: its turf roof has just jumped up and landed crooked, and dust puffs out from under the eaves. Out of the open door, lit orange by the forge fire, the Little Devil, back to his normal small size, scampers away down the road in a cloud of dust, looking back over his shoulder with a baffled face, his tufted tail flying. In the doorway the Smith stands gaping with the big sledgehammer in his hands, and beside him the Boy grins with his hands in his pockets. Bits of walnut shell lie on the doorstep.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A scruffy, cheeky boy of about twelve, small and nimble, with a round, tanned face, a turned-up nose, bright black eyes, a wide, mischievous grin and straight dark-brown hair cut in a thick, blunt fringe down to his eyebrows. He wears an open, patched red waistcoat over a baggy, untucked undyed shirt, short brown trousers with frayed hems and worn ankle boots, and every pocket bulges with walnuts.\n- the Little Devil: A small, skinny imp no taller than a toddler, with dusty, matte brick-red skin, a narrow, pointy face with a sharp, beardless chin, narrow, sly green eyes under thin arched eyebrows, a wide, smug grin, big pointed ears and two tiny stubby horns like little thorns. He has thin arms, knobbly knees, long bare feet with curling toes and a long thin tail ending in a black tuft like a paintbrush, and wears only short, ragged brown breeches held up by a string. Silly, not scary.\n- the Smith: A kind, stocky old blacksmith of about seventy, short and broad, with huge, sooty forearms, a wide, soot-smudged face, kind, crinkly brown eyes, thick grey eyebrows and a long, bushy charcoal-grey beard singed at the tips. He has a fuzz of short grey hair, and small round wire spectacles sit pushed up on his forehead. He wears a heavy, scorched black leather apron over a faded red flannel shirt with rolled-up sleeves, sooty black trousers and big wooden clogs.\n\nStory world: Old rural Norway, long ago, on an autumn evening. A narrow dirt road winds between hazel bushes and birches with golden leaves, past stubble fields and grey stone walls. The boy eats walnuts: big, round, wrinkly, light-brown walnuts. The special nut is one of them, with one tiny round hole in its shell, which the boy plugs with a little wooden peg. By the road stands the smithy: a small, low log smithy with a turf roof and a stone chimney, a wide open door, a glowing forge with leather bellows, a big black anvil on a tree stump and a rack of hammers from tiny to huge, the biggest a sledgehammer as long as a man's leg.\n\nThis story's season, light and colours: An autumn evening: low amber sunlight and long shadows on the road, golden and russet hazel leaves, and a violet-blue dusk sky with the first star. Inside and around the smithy: the orange glow of the forge fire and a hanging lantern against sooty dark walls, with sparks and swirling dust.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

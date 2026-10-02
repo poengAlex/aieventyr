@@ -1,0 +1,37 @@
+{
+  "method": "built-in image_gen",
+  "story": "askesv",
+  "updatedAt": "2026-09-30T10:46:50.607Z",
+  "done": [
+    "_style/style",
+    "askesv/characters/askeladden",
+    "askesv/characters/eldste-bror",
+    "askesv/characters/mellomste-bror",
+    "askesv/characters/kongen",
+    "askesv/characters/trollet",
+    "askesv/characters/trolldatteren",
+    "askesv/places/graafjellet",
+    "askesv/places/fjellhallen",
+    "askesv/portraits/askeladden",
+    "askesv/portraits/eldste-bror",
+    "askesv/portraits/mellomste-bror",
+    "askesv/portraits/kongen",
+    "askesv/portraits/trollet",
+    "askesv/portraits/trolldatteren",
+    "askesv/scenes/01",
+    "askesv/scenes/02",
+    "askesv/scenes/03",
+    "askesv/scenes/06"
+  ],
+  "pending": [
+    "askesv/cover",
+    "askesv/scenes/04",
+    "askesv/scenes/05",
+    "askesv/scenes/07",
+    "askesv/scenes/08",
+    "askesv/scenes/09",
+    "askesv/scenes/10",
+    "askesv/scenes/11",
+    "askesv/scenes/12"
+  ]
+}

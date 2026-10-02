@@ -1,0 +1,168 @@
+{
+  "storyId": "gjertrud",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Gjertrudsfuglen",
+  "textFile": "public/content/stories/gjertrud/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:21.909Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Vårherre og Sankt Peder kommer til et hus der det lukter nybakt.",
+    "alt": "To vandringsmenn går gjennom snøen mot et lite hus der det ryker fra pipa. Gjennom det lyse vinduet ser vi Gjertrud med rød lue, som sitter og baker.",
+    "prompt": "At the edge of a snowy spruce forest in the deep-blue winter dusk, with big, soft snowflakes drifting down, Our Lord and St Peter walk up a trodden path towards a small snow-covered cottage, sniffing the air with happy, hungry faces as a curl of smoke rises from the chimney. Through the warm, glowing window, Gjertrud in her bright red cap can be seen sitting bent over her baking. Their footprints trail behind them in the snow.",
+    "characters": [
+      "varherre",
+      "sankt-peder",
+      "gjertrud"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Our Lord, the same character seen from three sides. Keep Our Lord's face, hair, body shape, age, colours and clothes exactly as shown. Draw Our Lord only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for St Peter, the same character seen from three sides. Keep St Peter's face, hair, body shape, age, colours and clothes exactly as shown. Draw St Peter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for Gjertrud, the same character seen from three sides. Keep Gjertrud's face, hair, body shape, age, colours and clothes exactly as shown. Draw Gjertrud only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: At the edge of a snowy spruce forest in the deep-blue winter dusk, with big, soft snowflakes drifting down, Our Lord and St Peter walk up a trodden path towards a small snow-covered cottage, sniffing the air with happy, hungry faces as a curl of smoke rises from the chimney. Through the warm, glowing window, Gjertrud in her bright red cap can be seen sitting bent over her baking. Their footprints trail behind them in the snow.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Our Lord: A very old, tall and slightly stooped wanderer with a long, gentle face, deep-set kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long, flowing white beard that reaches his belt. He wears a plain, ankle-length hooded brown homespun robe tied with a rope, and simple sandals over woollen foot-wraps. He leans on a tall, knobbly wooden staff. A humble traveller with no halo.\n- St Peter: A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a knee-length faded green tunic with a leather belt, brown woollen leggings, a short brown hooded cape and worn leather boots. A small bronze key hangs from his belt. No halo.\n- Gjertrud: A stout, square-built farm woman of about fifty-five with a square jaw, pinched thin lips, a sharp little upturned nose, small darting black eyes and two thick iron-grey plaits hanging over her shoulders. On her head sits a tall, pointed, bright scarlet knitted stocking cap with a tassel at the tip. She wears a black wool bodice over a white blouse with rolled-up sleeves, a long charcoal-grey skirt and a flour-dusted white apron.\n\nStory world: Old rural Norway, long ago, in the days when Our Lord and St Peter wandered the earth. Gjertrud's home is a small, low log cottage with a thick snow-covered turf roof and a squat grey stone chimney, alone at the edge of a snowy spruce forest. Inside is one warm, firelit room: an open stone hearth with a big, round, flat iron griddle over the embers, a long wooden baking board dusted with flour, a rolling pin, a wooden bench by the door, and a tall stack of lefser, which are big, thin, round, soft flatbreads, pale with brown speckles. Every lefse she rolls, however tiny the lump of dough, grows on the griddle until it is far too big.\n\nThis story's season, light and colours: A hushed early-winter evening in the blue hour: big, soft snowflakes drifting down, thick snow on roofs and spruces, and everything outside in deep, velvety blues. Inside the cottage: warm amber firelight, golden-brown lefser and pale flour. The bright scarlet of the red cap is the one strong accent colour, later joined by the bird's sooty black.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "gjertrud",
+      "name": "Gjertrud",
+      "description": "En kone med rød lue som baker lefser og har mer enn nok, men som ikke vil dele en eneste bit.",
+      "look": "A stout, square-built farm woman of about fifty-five with a square jaw, pinched thin lips, a sharp little upturned nose, small darting black eyes and two thick iron-grey plaits hanging over her shoulders. On her head sits a tall, pointed, bright scarlet knitted stocking cap with a tassel at the tip. She wears a black wool bodice over a white blouse with rolled-up sleeves, a long charcoal-grey skirt and a flour-dusted white apron.",
+      "sheet": "characters/gjertrud.webp",
+      "turn": "characters/gjertrud-turn.mp4",
+      "portrait": "portraits/gjertrud.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/gjertrud.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/gjertrud-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "gjertrud"
+    },
+    {
+      "slug": "varherre",
+      "name": "Vårherre",
+      "description": "En vennlig vandrer som ber høflig om en liten smakebit og minner om at det er godt å dele.",
+      "look": "A very old, tall and slightly stooped wanderer with a long, gentle face, deep-set kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long, flowing white beard that reaches his belt. He wears a plain, ankle-length hooded brown homespun robe tied with a rope, and simple sandals over woollen foot-wraps. He leans on a tall, knobbly wooden staff. A humble traveller with no halo.",
+      "sheet": "characters/varherre.webp",
+      "turn": "characters/varherre-turn.mp4",
+      "portrait": "portraits/varherre.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/varherre.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/varherre-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "varherre"
+    },
+    {
+      "slug": "sankt-peder",
+      "name": "Sankt Peder",
+      "description": "En trofast følgesvenn på vandringen som står ved siden av og følger med.",
+      "look": "A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a knee-length faded green tunic with a leather belt, brown woollen leggings, a short brown hooded cape and worn leather boots. A small bronze key hangs from his belt. No halo.",
+      "sheet": "characters/sankt-peder.webp",
+      "turn": "characters/sankt-peder-turn.mp4",
+      "portrait": "portraits/sankt-peder.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/sankt-peder.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/sankt-peder-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "sankt-peder"
+    },
+    {
+      "slug": "gjertrudsfuglen",
+      "name": "Gjertrudsfuglen",
+      "description": "Den lille fuglen Gjertrud blir til, mørk av sot men fortsatt med en rød lue, som leter etter mat i trær og gleder seg til regn.",
+      "look": "A small black woodpecker, sooty black all over from beak to tail with slightly ruffled, soot-smudged feathers, and on top of its head a bright scarlet crest shaped exactly like a tiny pointed stocking cap with a tassel. It has a strong, pointed ivory-white beak, round pale-yellow eyes with a slightly grumpy look, stiff black tail feathers for propping itself against tree trunks and grey clawed feet for clinging to bark.",
+      "sheet": "characters/gjertrudsfuglen.webp",
+      "turn": "characters/gjertrudsfuglen-turn.mp4",
+      "portrait": "portraits/gjertrudsfuglen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/gjertrudsfuglen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/gjertrudsfuglen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "gjertrudsfuglen"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 8,
+      "anchor": "Tredje gangen tok hun en klump så liten som et sandkorn.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Og lefsa vokser, større og større og STØRRE!",
+      "alt": "Gjertrud sitter ved peisen med kjevlet i været og ser at lefsa på stekeplata blir kjempestor. Ved siden av står en høy stabel med lefser. På benken ved døra sitter Vårherre og Sankt Peder og venter.",
+      "prompt": "Inside the warm, firelit cottage, Gjertrud sits on a low stool at the hearth and leans back with wide eyes and her rolling pin raised, as the third lefse on the big round iron griddle swells bigger and bigger and flops over the edges. Beside her stands a tall stack of huge lefser, reaching almost to the top of the window. On the bench by the door sit Our Lord and St Peter with snow on their shoulders and hands on their rumbling tummies, watching hopefully. Snowflakes drift past the small window in the blue dusk.",
+      "characters": [
+        "gjertrud",
+        "varherre",
+        "sankt-peder"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Gjertrud, the same character seen from three sides. Keep Gjertrud's face, hair, body shape, age, colours and clothes exactly as shown. Draw Gjertrud only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Our Lord, the same character seen from three sides. Keep Our Lord's face, hair, body shape, age, colours and clothes exactly as shown. Draw Our Lord only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for St Peter, the same character seen from three sides. Keep St Peter's face, hair, body shape, age, colours and clothes exactly as shown. Draw St Peter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Inside the warm, firelit cottage, Gjertrud sits on a low stool at the hearth and leans back with wide eyes and her rolling pin raised, as the third lefse on the big round iron griddle swells bigger and bigger and flops over the edges. Beside her stands a tall stack of huge lefser, reaching almost to the top of the window. On the bench by the door sit Our Lord and St Peter with snow on their shoulders and hands on their rumbling tummies, watching hopefully. Snowflakes drift past the small window in the blue dusk.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Gjertrud: A stout, square-built farm woman of about fifty-five with a square jaw, pinched thin lips, a sharp little upturned nose, small darting black eyes and two thick iron-grey plaits hanging over her shoulders. On her head sits a tall, pointed, bright scarlet knitted stocking cap with a tassel at the tip. She wears a black wool bodice over a white blouse with rolled-up sleeves, a long charcoal-grey skirt and a flour-dusted white apron.\n- Our Lord: A very old, tall and slightly stooped wanderer with a long, gentle face, deep-set kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long, flowing white beard that reaches his belt. He wears a plain, ankle-length hooded brown homespun robe tied with a rope, and simple sandals over woollen foot-wraps. He leans on a tall, knobbly wooden staff. A humble traveller with no halo.\n- St Peter: A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a knee-length faded green tunic with a leather belt, brown woollen leggings, a short brown hooded cape and worn leather boots. A small bronze key hangs from his belt. No halo.\n\nStory world: Old rural Norway, long ago, in the days when Our Lord and St Peter wandered the earth. Gjertrud's home is a small, low log cottage with a thick snow-covered turf roof and a squat grey stone chimney, alone at the edge of a snowy spruce forest. Inside is one warm, firelit room: an open stone hearth with a big, round, flat iron griddle over the embers, a long wooden baking board dusted with flour, a rolling pin, a wooden bench by the door, and a tall stack of lefser, which are big, thin, round, soft flatbreads, pale with brown speckles. Every lefse she rolls, however tiny the lump of dough, grows on the griddle until it is far too big.\n\nThis story's season, light and colours: A hushed early-winter evening in the blue hour: big, soft snowflakes drifting down, thick snow on roofs and spruces, and everything outside in deep, velvety blues. Inside the cottage: warm amber firelight, golden-brown lefser and pale flour. The bright scarlet of the red cap is the one strong accent colour, later joined by the bird's sooty black.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 12,
+      "anchor": "Svisj! Og så var Gjertrud en liten fugl.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Ut på toppen kom hun, svart over hele seg. Bare lua var like rød.",
+      "alt": "En liten, kullsvart fugl med ei knallrød lue på hodet kommer opp av pipa på et lite hus med snø på taket, i en sky av sot.",
+      "prompt": "Outside the little snow-covered cottage at dusk, the Red-Capped Bird pops out of the top of the stone chimney in a big puff of black soot, sooty black all over and blinking in surprise, with only the little pointed scarlet cap on her head still bright red. Black soot flecks drift down onto the white snow on the turf roof. Warm firelight glows in the small window below, soft snowflakes drift down, and snowy spruces stand behind under a deep-blue evening sky.",
+      "characters": [
+        "gjertrudsfuglen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Red-Capped Bird, the same character seen from three sides. Keep the Red-Capped Bird's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Red-Capped Bird only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Outside the little snow-covered cottage at dusk, the Red-Capped Bird pops out of the top of the stone chimney in a big puff of black soot, sooty black all over and blinking in surprise, with only the little pointed scarlet cap on her head still bright red. Black soot flecks drift down onto the white snow on the turf roof. Warm firelight glows in the small window below, soft snowflakes drift down, and snowy spruces stand behind under a deep-blue evening sky.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Red-Capped Bird: A small black woodpecker, sooty black all over from beak to tail with slightly ruffled, soot-smudged feathers, and on top of its head a bright scarlet crest shaped exactly like a tiny pointed stocking cap with a tassel. It has a strong, pointed ivory-white beak, round pale-yellow eyes with a slightly grumpy look, stiff black tail feathers for propping itself against tree trunks and grey clawed feet for clinging to bark.\n\nStory world: Old rural Norway, long ago, in the days when Our Lord and St Peter wandered the earth. Gjertrud's home is a small, low log cottage with a thick snow-covered turf roof and a squat grey stone chimney, alone at the edge of a snowy spruce forest. Inside is one warm, firelit room: an open stone hearth with a big, round, flat iron griddle over the embers, a long wooden baking board dusted with flour, a rolling pin, a wooden bench by the door, and a tall stack of lefser, which are big, thin, round, soft flatbreads, pale with brown speckles. Every lefse she rolls, however tiny the lump of dough, grows on the griddle until it is far too big.\n\nThis story's season, light and colours: A hushed early-winter evening in the blue hour: big, soft snowflakes drifting down, thick snow on roofs and spruces, and everything outside in deep, velvety blues. Inside the cottage: warm amber firelight, golden-brown lefser and pale flour. The bright scarlet of the red cap is the one strong accent colour, later joined by the bird's sooty black.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

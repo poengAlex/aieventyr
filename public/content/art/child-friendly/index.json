@@ -1,0 +1,281 @@
+{
+  "set": "child-friendly",
+  "variants": [
+    "child-friendly"
+  ],
+  "updatedAt": "2026-10-02T07:19:26.476Z",
+  "stories": {
+    "askesv": {
+      "cover": "cover.webp",
+      "pictures": 12,
+      "done": 12,
+      "manifests": {
+        "child-friendly": "askesv/illustrations.child-friendly.json"
+      }
+    },
+    "asketrol": {
+      "cover": "cover.webp",
+      "pictures": 6,
+      "done": 6,
+      "manifests": {
+        "child-friendly": "asketrol/illustrations.child-friendly.json"
+      }
+    },
+    "bestedt": {
+      "cover": "cover.webp",
+      "pictures": 3,
+      "done": 3,
+      "manifests": {
+        "child-friendly": "bestedt/illustrations.child-friendly.json"
+      }
+    },
+    "bjornrae": {
+      "cover": "cover.webp",
+      "pictures": 5,
+      "done": 5,
+      "manifests": {
+        "child-friendly": "bjornrae/illustrations.child-friendly.json"
+      }
+    },
+    "dukgras": {
+      "cover": "cover.webp",
+      "pictures": 6,
+      "done": 6,
+      "manifests": {
+        "child-friendly": "dukgras/illustrations.child-friendly.json"
+      }
+    },
+    "enkeson": {
+      "cover": "cover.webp",
+      "pictures": 22,
+      "done": 22,
+      "manifests": {
+        "child-friendly": "enkeson/illustrations.child-friendly.json"
+      }
+    },
+    "frihist": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "child-friendly": "frihist/illustrations.child-friendly.json"
+      }
+    },
+    "fugldam": {
+      "cover": "cover.webp",
+      "pictures": 20,
+      "done": 20,
+      "manifests": {
+        "child-friendly": "fugldam/illustrations.child-friendly.json"
+      }
+    },
+    "giske": {
+      "cover": "cover.webp",
+      "pictures": 9,
+      "done": 9,
+      "manifests": {
+        "child-friendly": "giske/illustrations.child-friendly.json"
+      }
+    },
+    "gjertrud": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "child-friendly": "gjertrud/illustrations.child-friendly.json"
+      }
+    },
+    "gudbrand": {
+      "cover": "cover.webp",
+      "pictures": 7,
+      "done": 7,
+      "manifests": {
+        "child-friendly": "gudbrand/illustrations.child-friendly.json"
+      }
+    },
+    "gutfand": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "child-friendly": "gutfand/illustrations.child-friendly.json"
+      }
+    },
+    "guttnord": {
+      "cover": "cover.webp",
+      "pictures": 8,
+      "done": 8,
+      "manifests": {
+        "child-friendly": "guttnord/illustrations.child-friendly.json"
+      }
+    },
+    "hanengjog": {
+      "cover": "cover.webp",
+      "pictures": 3,
+      "done": 3,
+      "manifests": {
+        "child-friendly": "hanengjog/illustrations.child-friendly.json"
+      }
+    },
+    "hanenoghoen": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "child-friendly": "hanenoghoen/illustrations.child-friendly.json"
+      }
+    },
+    "herreper": {
+      "cover": "cover.webp",
+      "pictures": 11,
+      "done": 11,
+      "manifests": {
+        "child-friendly": "herreper/illustrations.child-friendly.json"
+      }
+    },
+    "jomfrum": {
+      "cover": "cover.webp",
+      "pictures": 13,
+      "done": 13,
+      "manifests": {
+        "child-friendly": "jomfrum/illustrations.child-friendly.json"
+      }
+    },
+    "katrast": {
+      "cover": "cover.webp",
+      "pictures": 20,
+      "done": 20,
+      "manifests": {
+        "child-friendly": "katrast/illustrations.child-friendly.json"
+      }
+    },
+    "lillekort": {
+      "cover": "cover.webp",
+      "pictures": 28,
+      "done": 28,
+      "manifests": {
+        "child-friendly": "lillekort/illustrations.child-friendly.json"
+      }
+    },
+    "mandatt": {
+      "cover": "cover.webp",
+      "pictures": 16,
+      "done": 16,
+      "manifests": {
+        "child-friendly": "mandatt/illustrations.child-friendly.json"
+      }
+    },
+    "mesttyv": {
+      "cover": "cover.webp",
+      "pictures": 21,
+      "done": 21,
+      "manifests": {
+        "child-friendly": "mesttyv/illustrations.child-friendly.json"
+      }
+    },
+    "nodedsk": {
+      "cover": "cover.webp",
+      "pictures": 8,
+      "done": 8,
+      "manifests": {
+        "child-friendly": "nodedsk/illustrations.child-friendly.json"
+      }
+    },
+    "noedig": {
+      "cover": "cover.webp",
+      "pictures": 12,
+      "done": 12,
+      "manifests": {
+        "child-friendly": "noedig/illustrations.child-friendly.json"
+      }
+    },
+    "paalandr": {
+      "cover": "cover.webp",
+      "pictures": 7,
+      "done": 7,
+      "manifests": {
+        "child-friendly": "paalandr/illustrations.child-friendly.json"
+      }
+    },
+    "rfoxgjt": {
+      "cover": "cover.webp",
+      "pictures": 3,
+      "done": 3,
+      "manifests": {
+        "child-friendly": "rfoxgjt/illustrations.child-friendly.json"
+      }
+    },
+    "rigeper": {
+      "cover": "cover.webp",
+      "pictures": 18,
+      "done": 18,
+      "manifests": {
+        "child-friendly": "rigeper/illustrations.child-friendly.json"
+      }
+    },
+    "smehel": {
+      "cover": "cover.webp",
+      "pictures": 14,
+      "done": 14,
+      "manifests": {
+        "child-friendly": "smehel/illustrations.child-friendly.json"
+      }
+    },
+    "soriamor": {
+      "cover": "cover.webp",
+      "pictures": 21,
+      "done": 21,
+      "manifests": {
+        "child-friendly": "soriamor/illustrations.child-friendly.json"
+      }
+    },
+    "spurning": {
+      "cover": "cover.webp",
+      "pictures": 3,
+      "done": 3,
+      "manifests": {
+        "child-friendly": "spurning/illustrations.child-friendly.json"
+      }
+    },
+    "syvfoler": {
+      "cover": "cover.webp",
+      "pictures": 12,
+      "done": 12,
+      "manifests": {
+        "child-friendly": "syvfoler/illustrations.child-friendly.json"
+      }
+    },
+    "tentland": {
+      "cover": "cover.webp",
+      "pictures": 17,
+      "done": 17,
+      "manifests": {
+        "child-friendly": "tentland/illustrations.child-friendly.json"
+      }
+    },
+    "tolvander": {
+      "cover": "cover.webp",
+      "pictures": 15,
+      "done": 15,
+      "manifests": {
+        "child-friendly": "tolvander/illustrations.child-friendly.json"
+      }
+    },
+    "tremost": {
+      "cover": "cover.webp",
+      "pictures": 8,
+      "done": 8,
+      "manifests": {
+        "child-friendly": "tremost/illustrations.child-friendly.json"
+      }
+    },
+    "vesleaas": {
+      "cover": "cover.webp",
+      "pictures": 9,
+      "done": 9,
+      "manifests": {
+        "child-friendly": "vesleaas/illustrations.child-friendly.json"
+      }
+    }
+  }
+}

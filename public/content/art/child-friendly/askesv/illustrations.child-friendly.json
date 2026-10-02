@@ -1,0 +1,487 @@
+{
+  "storyId": "askesv",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Askeladden som stjal sølvendene til trollet",
+  "textFile": "public/content/stories/askesv/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:21.566Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Askeladden ror over vannet med de sju sølvendene til trollet.",
+    "alt": "Askeladden sitter i et stort trau av tre midt på vannet med sju blanke sølvender rundt seg. Langt bak ham lener trollet seg ut av fjellet og rister på neven.",
+    "prompt": "Askeladden sits in his big wooden kneading trough in the middle of the calm lake, paddling towards the viewer with a cheeky grin, the seven silver ducks riding in the trough around him. Far behind him the Troll leans out of the dark crack in the Grey Mountain and shakes his fist. The water glitters in golden evening light.",
+    "characters": [
+      "askeladden",
+      "trollet"
+    ],
+    "fullPrompt": "Create a square, full-bleed children's storybook cover illustration, no title or text. Warm Scandinavian gouache and watercolour on cream textured paper, soft coloured-pencil outlines, visible handmade brushwork, rounded friendly shapes, cosy magical mood. Late-summer golden evening at a blue mountain lake in old rural Norway. Askeladden sits in a broad shallow oval bread-kneading trough carved from solid wood, paddling toward the viewer with one short wooden paddle and a cheeky grin. Exactly seven polished silver ducks sit around him inside the trough: three to his left and four to his right, each head clearly visible. The trough has blunt rounded ends and thick rough edges; no pointed boat bow, planks or benches. Far behind him across the lake, a huge rounded grey granite mountain rises at the opposite shore. The Troll leans from a dark door-shaped crack in that mountain, comically grumpy and shaking one fist. Keep the Troll small in the distant composition; no threat or harm. Birch trees and mossy boulders line the mountain's narrow pebble beach. Lingonberry red is the recurring accent, warm cream highlights, honey-yellow light, forest green, fjord-blue water. Image 1 is Askeladden's character sheet; match his straw-blond messy hair, red knitted cap, blue-grey eyes, freckles, ash-smudged cheek, patched linen shirt, short brown waistcoat, grey-brown breeches. Draw him once. Image 2 is the Troll's sheet; match his round belly, lumpy mossy grey-green skin, long knobbly nose, two stubby teeth, floppy ears, dry-grass beard, spruce sapling on his head, ragged brown tunic and rope belt. Draw him once. Single clear scene, no borders, no lettering, no extra characters, no photorealism or glossy 3D.\n\nUse case: illustration-story. Square format, 1024 × 1024."
+  },
+  "characters": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "description": "Den yngste broren, snill og oppfinnsom, som aldri gir opp og bruker hodet i stedet for kreftene.",
+      "look": "A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.",
+      "sheet": "characters/askeladden.webp",
+      "turn": "characters/askeladden-turn.mp4",
+      "portrait": "portraits/askeladden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/askeladden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/askeladden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "askeladden"
+    },
+    {
+      "slug": "eldste-bror",
+      "name": "Den eldste broren",
+      "description": "Den eldste broren, stor i kjeften og lat, som heller sover i høyet enn å stelle hestene.",
+      "look": "A tall, broad-shouldered young man of about twenty with a square jaw, a smug grin, short dark-brown hair and a thin moustache. He wears a dark-green wool jacket over a white shirt, brown breeches and tall black boots.",
+      "sheet": "characters/eldste-bror.webp",
+      "turn": "characters/eldste-bror-turn.mp4",
+      "portrait": "portraits/eldste-bror.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/eldste-bror.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/eldste-bror-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "mellomste-bror",
+      "name": "Den mellomste broren",
+      "description": "Den mellomste broren, som skulle stelle hagen, men helst surmuler når andre får skryt.",
+      "look": "A plump young man of about eighteen with round red cheeks, a sulky pout and curly ginger hair. He wears a mustard-yellow wool tunic with a rope belt, patched brown trousers and wooden clogs.",
+      "sheet": "characters/mellomste-bror.webp",
+      "turn": "characters/mellomste-bror-turn.mp4",
+      "portrait": "portraits/mellomste-bror.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/mellomste-bror.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/mellomste-bror-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "description": "En rettferdig konge som elsker vakre ting og holder ord når Askeladden lykkes.",
+      "look": "A kindly, round-bellied old king with a long, soft white beard, rosy cheeks and small round spectacles. He wears a small gold crown, a long red robe with white fur trim and gold embroidery, and soft red slippers.",
+      "sheet": "characters/kongen.webp",
+      "turn": "characters/kongen-turn.mp4",
+      "portrait": "portraits/kongen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kongen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kongen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kongen"
+    },
+    {
+      "slug": "trollet",
+      "name": "Trollet i fjellet",
+      "description": "Et stort troll som bor inne i fjellet, brøler mye og blir til slutt så sint at han sprekker som en ballong.",
+      "look": "An enormous, round-bellied troll three times as tall as a man, with grey-green lumpy skin patched with moss and lichen, a long knobbly nose, tiny black eyes under bushy brows, a wide grumpy mouth with two stubby teeth, big floppy ears, a tangled beard like dry grass and a small spruce sapling growing on top of his head. He wears a ragged brown hide tunic tied with rope and goes barefoot on huge flat feet.",
+      "sheet": "characters/trollet.webp",
+      "turn": "characters/trollet-turn.mp4",
+      "portrait": "portraits/trollet.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollet.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollet-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "trollet-i-fjellet"
+    },
+    {
+      "slug": "trolldatteren",
+      "name": "Trolldatteren",
+      "description": "Trollets store datter, lett å lure når Askeladden prater rolig og smart.",
+      "look": "A huge troll girl, about three times as tall as Askeladden, with a round moss-green face, a long bumpy nose, small squinting eyes, pink cheeks and one enormous reddish-brown braid so long that it trails on the floor behind her. She wears a patched grey wool dress with a big faded red shawl over her shoulders and goes barefoot.",
+      "sheet": "characters/trolldatteren.webp",
+      "turn": null,
+      "portrait": "portraits/trolldatteren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trolldatteren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trolldatteren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "trolldatteren"
+    }
+  ],
+  "places": [
+    {
+      "slug": "graafjellet",
+      "name": "the Grey Mountain",
+      "look": "A huge, rounded grey granite mountain rising straight out of the far shore of a wide, calm lake, with birch trees, mossy boulders and a narrow pebble beach along its foot, and a tall, dark, door-shaped crack low in the rock face."
+    },
+    {
+      "slug": "fjellhallen",
+      "name": "the Cave Hall",
+      "look": "A vast cave hall inside the mountain with rough grey rock walls and a high, dark ceiling, lit red and gold by a big open fire in a ring of stones. A long, rough plank table with tree-stump stools stands near the fire, a huge dark wooden food cupboard stands against one wall, big iron hooks are hammered into the rock, and a small golden harp hangs on a hook above a tall arched wooden door. Everything is troll-sized: huge and chunky."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "Det var derfor alle kalte ham Askeladden.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Brødrene ler av Askeladden, som sitter og roter i aska.",
+      "alt": "Askeladden sitter ved peisen med sot på kinnet og roter i aska med en pinne. I døråpningen står de to storebrødrene med sekkene sine og ler og peker.",
+      "prompt": "Inside a small, dim farmhouse kitchen, Askeladden sits on the stone hearth poking the ashes with a stick, soot on his cheek and his cap askew. In the open doorway behind him stand the Eldest Brother and the Middle Brother with travel bundles on sticks over their shoulders, pointing at him and laughing. Morning light falls in through the door, and the big oval wooden kneading trough leans against the wall beside the hearth.",
+      "characters": [
+        "askeladden",
+        "eldste-bror",
+        "mellomste-bror"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Middle Brother, the same character seen from three sides. Keep the Middle Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Middle Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Inside a small, dim farmhouse kitchen, Askeladden sits on the stone hearth poking the ashes with a stick, soot on his cheek and his cap askew. In the open doorway behind him stand the Eldest Brother and the Middle Brother with travel bundles on sticks over their shoulders, pointing at him and laughing. Morning light falls in through the door, and the big oval wooden kneading trough leans against the wall beside the hearth.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\n- the Eldest Brother: A tall, broad-shouldered young man of about twenty with a square jaw, a smug grin, short dark-brown hair and a thin moustache. He wears a dark-green wool jacket over a white shirt, brown breeches and tall black boots.\n- the Middle Brother: A plump young man of about eighteen with round red cheeks, a sulky pout and curly ginger hair. He wears a mustard-yellow wool tunic with a rope belt, patched brown trousers and wooden clogs.\n\nStory world: Old rural Norway, long ago. The king's farm is a cluster of dark-brown log buildings with grass-covered turf roofs, carved dragon-head gables and a big hall with small-paned windows, on the shore of a wide, calm mountain lake. Straight across the lake rises the Grey Mountain, where the troll lives. The seven silver ducks look like ordinary ducks made of shining, polished silver. Askeladden's kneading trough is a long, shallow, oval wooden trough, big enough for a boy to sit in; he rows it with one short wooden paddle. The troll's bedspread is a thick quilt of alternating silver and gold squares that shimmers. The golden harp is a small golden lap harp with a carved swan head at the top.\n\nThis story's season, light and colours: Late summer on a mountain lake: long honey-gold afternoons, glittering fjord-blue water and bright silver highlights on the ducks. Inside the mountain: warm red-orange firelight against dark blue-grey rock.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels.\n\nUse case: illustration-story. Landscape format, 1536 × 1024."
+    },
+    {
+      "id": "02",
+      "paragraph": 6,
+      "anchor": "Brødrene kom til kongsgården og fikk arbeid.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Litt etter kom Askeladden slitende med trauet på ryggen.",
+      "alt": "Askeladden kommer inn på gårdsplassen på kongsgården, bøyd under et stort trau av tre. Den ene broren holder en hest, den andre står med en rive i hagen, og begge glor.",
+      "prompt": "In the yard of the royal farm, between dark log buildings with grass roofs, Askeladden comes staggering in through the gate, bent almost double under the huge oval wooden kneading trough on his back. On the left the Eldest Brother, holding a brown horse by its halter, stops and stares; on the right the Middle Brother leans on a rake in a vegetable garden and rolls his eyes. Three chickens scatter out of Askeladden's way.",
+      "characters": [
+        "askeladden",
+        "eldste-bror",
+        "mellomste-bror"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Middle Brother, the same character seen from three sides. Keep the Middle Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Middle Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the yard of the royal farm, between dark log buildings with grass roofs, Askeladden comes staggering in through the gate, bent almost double under the huge oval wooden kneading trough on his back. On the left the Eldest Brother, holding a brown horse by its halter, stops and stares; on the right the Middle Brother leans on a rake in a vegetable garden and rolls his eyes. Three chickens scatter out of Askeladden's way.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\n- the Eldest Brother: A tall, broad-shouldered young man of about twenty with a square jaw, a smug grin, short dark-brown hair and a thin moustache. He wears a dark-green wool jacket over a white shirt, brown breeches and tall black boots.\n- the Middle Brother: A plump young man of about eighteen with round red cheeks, a sulky pout and curly ginger hair. He wears a mustard-yellow wool tunic with a rope belt, patched brown trousers and wooden clogs.\n\nStory world: Old rural Norway, long ago. The king's farm is a cluster of dark-brown log buildings with grass-covered turf roofs, carved dragon-head gables and a big hall with small-paned windows, on the shore of a wide, calm mountain lake. Straight across the lake rises the Grey Mountain, where the troll lives. The seven silver ducks look like ordinary ducks made of shining, polished silver. Askeladden's kneading trough is a long, shallow, oval wooden trough, big enough for a boy to sit in; he rows it with one short wooden paddle. The troll's bedspread is a thick quilt of alternating silver and gold squares that shimmers. The golden harp is a small golden lap harp with a carved swan head at the top.\n\nThis story's season, light and colours: Late summer on a mountain lake: long honey-gold afternoons, glittering fjord-blue water and bright silver highlights on the ducks. Inside the mountain: warm red-orange firelight against dark blue-grey rock.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels.\n\nUse case: illustration-story. Landscape format, 1536 × 1024."
+    },
+    {
+      "id": "03",
+      "paragraph": 10,
+      "anchor": "Rett over vannet lå et stort fjell.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kongen står i vinduet og ser på de sju sølvendene.",
+      "alt": "Kongen står i et vindu og ser lengselsfullt ut over vannet. Der ute svømmer sju skinnende sølvender foran et stort, grått fjell.",
+      "prompt": "Seen from inside the royal hall, over the King's shoulder: the King stands at an open small-paned window with his chin in his hand, gazing longingly across the wide, calm lake. Out on the water in front of the Grey Mountain, seven silver ducks swim in a neat row, gleaming and sparkling in the sunshine.",
+      "characters": [
+        "kongen"
+      ],
+      "places": [
+        "graafjellet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Grey Mountain. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Seen from inside the royal hall, over the King's shoulder: the King stands at an open small-paned window with his chin in his hand, gazing longingly across the wide, calm lake. Out on the water in front of the Grey Mountain, seven silver ducks swim in a neat row, gleaming and sparkling in the sunshine.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King: A kindly, round-bellied old king with a long, soft white beard, rosy cheeks and small round spectacles. He wears a small gold crown, a long red robe with white fur trim and gold embroidery, and soft red slippers.\n\nSetting:\n- the Grey Mountain: A huge, rounded grey granite mountain rising straight out of the far shore of a wide, calm lake, with birch trees, mossy boulders and a narrow pebble beach along its foot, and a tall, dark, door-shaped crack low in the rock face.\n\nStory world: Old rural Norway, long ago. The king's farm is a cluster of dark-brown log buildings with grass-covered turf roofs, carved dragon-head gables and a big hall with small-paned windows, on the shore of a wide, calm mountain lake. Straight across the lake rises the Grey Mountain, where the troll lives. The seven silver ducks look like ordinary ducks made of shining, polished silver. Askeladden's kneading trough is a long, shallow, oval wooden trough, big enough for a boy to sit in; he rows it with one short wooden paddle. The troll's bedspread is a thick quilt of alternating silver and gold squares that shimmers. The golden harp is a small golden lap harp with a carved swan head at the top.\n\nThis story's season, light and colours: Late summer on a mountain lake: long honey-gold afternoons, glittering fjord-blue water and bright silver highlights on the ducks. Inside the mountain: warm red-orange firelight against dark blue-grey rock.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels.\n\nUse case: illustration-story. Landscape format, 1536 × 1024."
+    },
+    {
+      "id": "04",
+      "paragraph": 18,
+      "anchor": "Han helte kornet i trauet, satte seg oppi og rodde over vannet.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hopp, hopp, hopp! Alle de sju sølvendene hopper opp i trauet.",
+      "alt": "Askeladden sitter på huk i fjæra og strør korn. Sju blanke sølvender hopper opp i trauet hans, som er fullt av korn.",
+      "prompt": "On the pebble beach at the foot of the Grey Mountain, the wooden kneading trough lies half pulled up on the shore, full of golden grain. Askeladden crouches beside it, grinning, scattering a last handful of grain on the beach, while the seven silver ducks hop one after another into the trough to eat, wings flapping and water drops flying. Bright midday light.",
+      "characters": [
+        "askeladden"
+      ],
+      "places": [
+        "graafjellet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: On the pebble beach at the foot of the Grey Mountain, the wooden kneading trough lies half pulled up on the shore, full of golden grain. Askeladden crouches beside it, grinning, scattering a last handful of grain on the beach, while the seven silver ducks hop one after another into the trough to eat, wings flapping and water drops flying. Bright midday light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\n\nSetting:\n- the Grey Mountain: A huge, rounded grey granite mountain rising straight out of the far shore of a wide, calm lake, with birch trees, mossy boulders and a narrow pebble beach along its foot, and a tall, dark, door-shaped crack low in the rock face.\n\nStory world: Old rural Norway, long ago. The king's farm is a cluster of dark-brown log buildings with grass-covered turf roofs, carved dragon-head gables and a big hall with small-paned windows, on the shore of a wide, calm mountain lake. Straight across the lake rises the Grey Mountain, where the troll lives. The seven silver ducks look like ordinary ducks made of shining, polished silver. Askeladden's kneading trough is a long, shallow, oval wooden trough, big enough for a boy to sit in; he rows it with one short wooden paddle. The troll's bedspread is a thick quilt of alternating silver and gold squares that shimmers. The golden harp is a small golden lap harp with a carved swan head at the top.\n\nThis story's season, light and colours: Late summer on a mountain lake: long honey-gold afternoons, glittering fjord-blue water and bright silver highlights on the ducks. Inside the mountain: warm red-orange firelight against dark blue-grey rock.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels.\n\nComposition clarification: There are exactly SEVEN ducks total: three hopping along the shore and four feeding inside the trough; seven heads and seven bodies, no other ducks. Camera is on the mountain-side beach. The Grey Mountain rock face rises directly behind Askeladden and the trough, near its dark doorway. The royal farm, if visible, is tiny across the lake on the opposite shore. Do not copy the distant viewpoint of the setting reference.\n\nProp accuracy: the vessel is a broad shallow oval bread-kneading trough carved from one solid piece of wood, with rounded ends and thick rough edges. It is not a boat: no pointed bow, no keel, no planked hull, no ribs, no seats, no gunwales.\n\nUse case: illustration-story. Landscape format, 1536 × 1024."
+    },
+    {
+      "id": "05",
+      "paragraph": 20,
+      "anchor": "Men midt ute på vannet kom trollet ut av fjellet.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Har du tatt de sju sølvendene mine?» brøler trollet.",
+      "alt": "Askeladden ror trauet med sølvendene over vannet. Bak ham har trollet stukket seg halvveis ut av fjellet og brøler med neven i været.",
+      "prompt": "Askeladden paddles his wooden trough across the middle of the lake as fast as he can, the seven silver ducks packed in around him. Behind him on the far shore, the Troll has squeezed halfway out of the dark crack in the Grey Mountain and bellows after him with his mouth wide open and one huge fist in the air, the little spruce on his head shaking. Askeladden looks back over his shoulder, calm and cheeky.",
+      "characters": [
+        "askeladden",
+        "trollet"
+      ],
+      "places": [
+        "graafjellet"
+      ],
+      "fullPrompt": "Create one landscape 1536 × 1024 children's storybook illustration, full bleed with no border or text.\n\nScene: Askeladden paddles his wooden trough across the middle of the lake as fast as he can, the seven silver ducks packed in around him. Behind him on the far shore, the Troll has squeezed halfway out of the dark crack in the Grey Mountain and bellows after him with his mouth wide open and one huge fist in the air, the little spruce on his head shaking. Askeladden looks back over his shoulder, calm and cheeky.\n\nReference image: match Askeladden and the Troll's faces, clothes, proportions and the painted storybook technique from this cover. Keep the trough shape if it appears. Change the composition and action to the described scene. Each named character appears once.\n\nCast: Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\nthe Troll: An enormous, round-bellied troll three times as tall as a man, with grey-green lumpy skin patched with moss and lichen, a long knobbly nose, tiny black eyes under bushy brows, a wide grumpy mouth with two stubby teeth, big floppy ears, a tangled beard like dry grass and a small spruce sapling growing on top of his head. He wears a ragged brown hide tunic tied with rope and goes barefoot on huge flat feet.\n\nSetting: A huge, rounded grey granite mountain rising straight out of the far shore of a wide, calm lake, with birch trees, mossy boulders and a narrow pebble beach along its foot, and a tall, dark, door-shaped crack low in the rock face.\n\nStyle: Warm Scandinavian picture-book gouache and watercolour, soft coloured-pencil outlines, visible brushwork and cream paper texture. Rounded friendly shapes, clear expressions, uncluttered composition. Lingonberry-red accents, moss and spruce greens, fjord teal, honey yellow, warm browns. Late-summer honey-gold light outdoors; red-gold firelight and blue-grey rock inside. Old rural Norway. No photography, 3D, anime, glossy finish, lettering, violence, wounds or frightening imagery.\n\nKeep the exact character and object counts. Only the single moment described.\nThe trough is a shallow oval bread-kneading vessel carved from solid wood, with round ends, no pointed bow, planks or benches. There is one short wooden paddle.\nExactly seven silver ducks in total, three on one side of the boy and four on the other, all heads visible.\n\nUse case: illustration-story. Landscape format, 1536 × 1024.\n\nFinal corrective edit:\nEdit only the duck count in this illustration. There are currently nine silver ducks: four left of the boy, five right of him. Remove exactly two ducks: (1) the front duck in the left group, whose head is at approximately x320 y585 in this 1536x1024 image; (2) the backmost left duck in the right group, whose head is approximately x815 y585. Remove each selected duck's whole body and head and naturally fill its space. Keep all remaining ducks unchanged: exactly THREE on the left and FOUR on the right, SEVEN total. Preserve the boy, his hands, paddle, trough, troll, mountain, lake, lighting, texture, dimensions and all other details. No new objects or text."
+    },
+    {
+      "id": "06",
+      "paragraph": 32,
+      "anchor": "Askeladden ventet til alt var stille igjen.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Forsiktig, forsiktig tar Askeladden ned det fine sengeteppet.",
+      "alt": "Askeladden står på tærne på en stein og drar forsiktig ned et stort sengeteppe med ruter av sølv og gull, som henger ut av en sprekk i fjellet.",
+      "prompt": "At the foot of the Grey Mountain, Askeladden stands on tiptoe on a mossy boulder, carefully pulling down a huge, shimmering bedspread of silver and gold squares that hangs out of the crack in the rock like washing put out to air. He holds one finger to his lips. His wooden trough waits on the shore behind him in the quiet evening light.",
+      "characters": [
+        "askeladden"
+      ],
+      "places": [
+        "graafjellet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Grey Mountain. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: At the foot of the Grey Mountain, Askeladden stands on tiptoe on a mossy boulder, carefully pulling down a huge, shimmering bedspread of silver and gold squares that hangs out of the crack in the rock like washing put out to air. He holds one finger to his lips. His wooden trough waits on the shore behind him in the quiet evening light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\n\nSetting:\n- the Grey Mountain: A huge, rounded grey granite mountain rising straight out of the far shore of a wide, calm lake, with birch trees, mossy boulders and a narrow pebble beach along its foot, and a tall, dark, door-shaped crack low in the rock face.\n\nStory world: Old rural Norway, long ago. The king's farm is a cluster of dark-brown log buildings with grass-covered turf roofs, carved dragon-head gables and a big hall with small-paned windows, on the shore of a wide, calm mountain lake. Straight across the lake rises the Grey Mountain, where the troll lives. The seven silver ducks look like ordinary ducks made of shining, polished silver. Askeladden's kneading trough is a long, shallow, oval wooden trough, big enough for a boy to sit in; he rows it with one short wooden paddle. The troll's bedspread is a thick quilt of alternating silver and gold squares that shimmers. The golden harp is a small golden lap harp with a carved swan head at the top.\n\nThis story's season, light and colours: Late summer on a mountain lake: long honey-gold afternoons, glittering fjord-blue water and bright silver highlights on the ducks. Inside the mountain: warm red-orange firelight against dark blue-grey rock.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels.\n\nUse case: illustration-story. Landscape format, 1536 × 1024."
+    },
+    {
+      "id": "07",
+      "paragraph": 51,
+      "anchor": "Da tok trollet Askeladden under armen og bar ham inn i fjellet.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Trollet bærer Askeladden inn i fjellet, der trolldatteren sitter ved bålet.",
+      "alt": "Trollet kommer inn i en stor fjellhall med Askeladden under armen. Ved bålet sitter trolldatteren med en lang, lang hårflette. Over døra henger gullharpa.",
+      "prompt": "In the Cave Hall, lit red and gold by the big fire, the Troll stomps in with Askeladden tucked under one arm like a parcel; Askeladden's legs dangle and he looks around with great interest. By the fire sits the Troll's Daughter, as big as a spruce tree, combing the end of her enormous braid, which coils across the floor. The small golden harp hangs above the door.",
+      "characters": [
+        "askeladden",
+        "trollet",
+        "trolldatteren"
+      ],
+      "places": [
+        "fjellhallen"
+      ],
+      "fullPrompt": "Create one landscape 1536 × 1024 children's storybook illustration, full bleed with no border or text.\n\nScene: In the Cave Hall, lit red and gold by the big fire, the Troll stomps in with Askeladden tucked under one arm like a parcel; Askeladden's legs dangle and he looks around with great interest. By the fire sits the Troll's Daughter, as big as a spruce tree, combing the end of her enormous braid, which coils across the floor. The small golden harp hangs above the door.\n\nCast: Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\nthe Troll: An enormous, round-bellied troll three times as tall as a man, with grey-green lumpy skin patched with moss and lichen, a long knobbly nose, tiny black eyes under bushy brows, a wide grumpy mouth with two stubby teeth, big floppy ears, a tangled beard like dry grass and a small spruce sapling growing on top of his head. He wears a ragged brown hide tunic tied with rope and goes barefoot on huge flat feet.\nthe Troll's Daughter: A huge troll girl, about three times as tall as Askeladden, with a round moss-green face, a long bumpy nose, small squinting eyes, pink cheeks and one enormous reddish-brown braid so long that it trails on the floor behind her. She wears a patched grey wool dress with a big faded red shawl over her shoulders and goes barefoot.\n\nSetting: A vast cave hall inside the mountain with rough grey rock walls and a high, dark ceiling, lit red and gold by a big open fire in a ring of stones. A long, rough plank table with tree-stump stools stands near the fire, a huge dark wooden food cupboard stands against one wall, big iron hooks are hammered into the rock, and a small golden harp hangs on a hook above a tall arched wooden door. Everything is troll-sized: huge and chunky.\n\nStyle: Warm Scandinavian picture-book gouache and watercolour, soft coloured-pencil outlines, visible brushwork and cream paper texture. Rounded friendly shapes, clear expressions, uncluttered composition. Lingonberry-red accents, moss and spruce greens, fjord teal, honey yellow, warm browns. Late-summer honey-gold light outdoors; red-gold firelight and blue-grey rock inside. Old rural Norway. No photography, 3D, anime, glossy finish, lettering, violence, wounds or frightening imagery.\n\nKeep the exact character and object counts. Only the single moment described.\n\nUse case: illustration-story. Landscape format, 1536 × 1024."
+    },
+    {
+      "id": "08",
+      "paragraph": 55,
+      "anchor": "Askeladden stakk fram spikeren.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Askeladden stikker fram spikeren i stedet for lillefingeren.",
+      "alt": "Askeladden sitter blant tomme grøtboller og holder fram en spiker. Den store trolldatteren bøyer seg ned, myser i mørket og klemmer på spikeren.",
+      "prompt": "In the dim, firelit Cave Hall, Askeladden sits on a big tree-stump stool among empty porridge bowls and a plate of pancakes, holding out an iron nail between his fingers instead of his little finger and trying not to giggle. The Troll's Daughter bends down low, squinting hard in the dark, and pinches the tip of the nail between her enormous finger and thumb.",
+      "characters": [
+        "askeladden",
+        "trolldatteren"
+      ],
+      "places": [
+        "fjellhallen"
+      ],
+      "fullPrompt": "Create one landscape 1536 × 1024 children's storybook illustration, full bleed with no border or text.\n\nScene: In the dim, firelit Cave Hall, Askeladden sits on a big tree-stump stool among empty porridge bowls and a plate of pancakes, holding out an iron nail between his fingers instead of his little finger and trying not to giggle. The Troll's Daughter bends down low, squinting hard in the dark, and pinches the tip of the nail between her enormous finger and thumb.\n\nCast: Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\nthe Troll's Daughter: A huge troll girl, about three times as tall as Askeladden, with a round moss-green face, a long bumpy nose, small squinting eyes, pink cheeks and one enormous reddish-brown braid so long that it trails on the floor behind her. She wears a patched grey wool dress with a big faded red shawl over her shoulders and goes barefoot.\n\nSetting: A vast cave hall inside the mountain with rough grey rock walls and a high, dark ceiling, lit red and gold by a big open fire in a ring of stones. A long, rough plank table with tree-stump stools stands near the fire, a huge dark wooden food cupboard stands against one wall, big iron hooks are hammered into the rock, and a small golden harp hangs on a hook above a tall arched wooden door. Everything is troll-sized: huge and chunky.\n\nStyle: Warm Scandinavian picture-book gouache and watercolour, soft coloured-pencil outlines, visible brushwork and cream paper texture. Rounded friendly shapes, clear expressions, uncluttered composition. Lingonberry-red accents, moss and spruce greens, fjord teal, honey yellow, warm browns. Late-summer honey-gold light outdoors; red-gold firelight and blue-grey rock inside. Old rural Norway. No photography, 3D, anime, glossy finish, lettering, violence, wounds or frightening imagery.\n\nKeep the exact character and object counts. Only the single moment described.\n\nUse case: illustration-story. Landscape format, 1536 × 1024."
+    },
+    {
+      "id": "09",
+      "paragraph": 67,
+      "anchor": "Trolldatteren ble så stolt at hun bøyde seg ned og viste ham fletta.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kvikk som et ekorn knyter Askeladden fletta fast i veggen.",
+      "alt": "Trolldatteren bøyer stolt hodet og viser fram den lange fletta si. Bak henne knyter Askeladden fletta fast i en jernkrok i veggen med en hyssing.",
+      "prompt": "The Troll's Daughter kneels proudly with her head bowed and her eyes closed, showing off her enormous braid. Behind her back, quick as a squirrel, Askeladden ties the end of the braid to a big iron hook in the rock wall with a piece of string, the tip of his tongue poking out in concentration and three knots already done.",
+      "characters": [
+        "askeladden",
+        "trolldatteren"
+      ],
+      "places": [
+        "fjellhallen"
+      ],
+      "fullPrompt": "Create one landscape 1536 × 1024 children's storybook illustration, full bleed with no border or text.\n\nScene: The Troll's Daughter kneels proudly with her head bowed and her eyes closed, showing off her enormous braid. Behind her back, quick as a squirrel, Askeladden ties the end of the braid to a big iron hook in the rock wall with a piece of string, the tip of his tongue poking out in concentration and three knots already done.\n\nReference image: use the boy and troll girl's appearance, clothes, painting technique and cave details from this scene, but change their poses and the composition to the new moment described. Draw each character once.\n\nCast: Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\nthe Troll's Daughter: A huge troll girl, about three times as tall as Askeladden, with a round moss-green face, a long bumpy nose, small squinting eyes, pink cheeks and one enormous reddish-brown braid so long that it trails on the floor behind her. She wears a patched grey wool dress with a big faded red shawl over her shoulders and goes barefoot.\n\nSetting: A vast cave hall inside the mountain with rough grey rock walls and a high, dark ceiling, lit red and gold by a big open fire in a ring of stones. A long, rough plank table with tree-stump stools stands near the fire, a huge dark wooden food cupboard stands against one wall, big iron hooks are hammered into the rock, and a small golden harp hangs on a hook above a tall arched wooden door. Everything is troll-sized: huge and chunky.\n\nStyle: Warm Scandinavian picture-book gouache and watercolour, soft coloured-pencil outlines, visible brushwork and cream paper texture. Rounded friendly shapes, clear expressions, uncluttered composition. Lingonberry-red accents, moss and spruce greens, fjord teal, honey yellow, warm browns. Late-summer honey-gold light outdoors; red-gold firelight and blue-grey rock inside. Old rural Norway. No photography, 3D, anime, glossy finish, lettering, violence, wounds or frightening imagery.\n\nKeep the exact character and object counts. Only the single moment described.\nThe girl has exactly ONE single long braid descending behind her head and ending at the wall hook, with no second braid or branching hair.\n\nUse case: illustration-story. Landscape format, 1536 × 1024."
+    },
+    {
+      "id": "10",
+      "paragraph": 77,
+      "anchor": "Askeladden tok ned gullharpa og strøk over strengene.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Pling, plong! Askeladden spiller på gullharpa, helt ut døra.",
+      "alt": "Trollet og fire trollgjester sitter rundt et langt bord med mat og smiler. Askeladden, i et altfor stort sjal og en lang kappe, går mot døra og spiller på gullharpa.",
+      "prompt": "In the firelit Cave Hall, the Troll and four lumpy troll guests sit around the long plank table piled with sausages, bread and mushrooms, smiling blissfully and nodding with their mouths full. Askeladden, wrapped in a huge faded red shawl and a brown cloak far too big for him that trail on the floor, walks towards the open door playing the small golden harp and glancing back with a sly grin. Little sparkles of music float in the air.",
+      "characters": [
+        "askeladden",
+        "trollet"
+      ],
+      "places": [
+        "fjellhallen"
+      ],
+      "fullPrompt": "Create one landscape 1536 × 1024 children's storybook illustration, full bleed with no border or text.\n\nScene: In the firelit Cave Hall, the Troll and four lumpy troll guests sit around the long plank table piled with sausages, bread and mushrooms, smiling blissfully and nodding with their mouths full. Askeladden, wrapped in a huge faded red shawl and a brown cloak far too big for him that trail on the floor, walks towards the open door playing the small golden harp and glancing back with a sly grin. Little sparkles of music float in the air.\n\nCast: Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\nthe Troll: An enormous, round-bellied troll three times as tall as a man, with grey-green lumpy skin patched with moss and lichen, a long knobbly nose, tiny black eyes under bushy brows, a wide grumpy mouth with two stubby teeth, big floppy ears, a tangled beard like dry grass and a small spruce sapling growing on top of his head. He wears a ragged brown hide tunic tied with rope and goes barefoot on huge flat feet.\n\nSetting: A vast cave hall inside the mountain with rough grey rock walls and a high, dark ceiling, lit red and gold by a big open fire in a ring of stones. A long, rough plank table with tree-stump stools stands near the fire, a huge dark wooden food cupboard stands against one wall, big iron hooks are hammered into the rock, and an empty hook is visible above a tall arched wooden door. Everything is troll-sized: huge and chunky.\n\nStyle: Warm Scandinavian picture-book gouache and watercolour, soft coloured-pencil outlines, visible brushwork and cream paper texture. Rounded friendly shapes, clear expressions, uncluttered composition. Lingonberry-red accents, moss and spruce greens, fjord teal, honey yellow, warm browns. Late-summer honey-gold light outdoors; red-gold firelight and blue-grey rock inside. Old rural Norway. No photography, 3D, anime, glossy finish, lettering, violence, wounds or frightening imagery.\n\nKeep the exact character and object counts. Only the single moment described.\nThe golden harp is a small lap harp with a carved swan head at its top. There is exactly one harp, held by Askeladden; no harp remains on the wall.\nExactly five trolls at the table: the Troll plus four guests. Exactly one boy by the door.\n\nUse case: illustration-story. Landscape format, 1536 × 1024."
+    },
+    {
+      "id": "11",
+      "paragraph": 88,
+      "anchor": "Da ble trollet så sint, så sint, at han blåste seg opp som en ballong.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Trollet blir så sint at han blåser seg opp som en ballong.",
+      "alt": "Trollet står i fjæra og har blåst seg opp til en diger, rund ballong av sinne. Langt ute på vannet sitter Askeladden i trauet med gullharpa og holder seg for ørene.",
+      "prompt": "On the shore at the foot of the Grey Mountain, the Troll has puffed himself up with rage into an enormous round balloon shape: cheeks bulging, arms and legs sticking out stiffly, face bright red, bobbing up on his tiptoes. Far out on the glittering lake, Askeladden sits in his wooden trough with the golden harp, looking back with wide eyes and his hands over his ears. Funny, not scary.",
+      "characters": [
+        "askeladden",
+        "trollet"
+      ],
+      "places": [
+        "graafjellet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Troll, the same character seen from three sides. Keep the Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Grey Mountain. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: On the shore at the foot of the Grey Mountain, the Troll has puffed himself up with rage into an enormous round balloon shape: cheeks bulging, arms and legs sticking out stiffly, face bright red, bobbing up on his tiptoes. Far out on the glittering lake, Askeladden sits in his wooden trough with the golden harp, looking back with wide eyes and his hands over his ears. Funny, not scary.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.\n- the Troll: An enormous, round-bellied troll three times as tall as a man, with grey-green lumpy skin patched with moss and lichen, a long knobbly nose, tiny black eyes under bushy brows, a wide grumpy mouth with two stubby teeth, big floppy ears, a tangled beard like dry grass and a small spruce sapling growing on top of his head. He wears a ragged brown hide tunic tied with rope and goes barefoot on huge flat feet.\n\nSetting:\n- the Grey Mountain: A huge, rounded grey granite mountain rising straight out of the far shore of a wide, calm lake, with birch trees, mossy boulders and a narrow pebble beach along its foot, and a tall, dark, door-shaped crack low in the rock face.\n\nStory world: Old rural Norway, long ago. The king's farm is a cluster of dark-brown log buildings with grass-covered turf roofs, carved dragon-head gables and a big hall with small-paned windows, on the shore of a wide, calm mountain lake. Straight across the lake rises the Grey Mountain, where the troll lives. The seven silver ducks look like ordinary ducks made of shining, polished silver. Askeladden's kneading trough is a long, shallow, oval wooden trough, big enough for a boy to sit in; he rows it with one short wooden paddle. The troll's bedspread is a thick quilt of alternating silver and gold squares that shimmers. The golden harp is a small golden lap harp with a carved swan head at the top.\n\nThis story's season, light and colours: Late summer on a mountain lake: long honey-gold afternoons, glittering fjord-blue water and bright silver highlights on the ducks. Inside the mountain: warm red-orange firelight against dark blue-grey rock.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 91,
+      "anchor": "Og trolldatteren? Hun står visst der inne i fjellet ennå",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Og trolldatteren står visst der inne i fjellet ennå.",
+      "alt": "Trolldatteren står sur med armene i kors inne i fjellet. Fletta hennes er fortsatt knyttet fast til en jernkrok i veggen.",
+      "prompt": "In the quiet Cave Hall, the fire burned down to glowing embers, the Troll's Daughter stands grumpily with her arms crossed, her long braid still tied to the iron hook in the rock wall with a tangle of knotted string. She tugs at it with one hand and pulls a sulky face. A few gold coins glint on the floor. A funny, gentle ending.",
+      "characters": [
+        "trolldatteren"
+      ],
+      "places": [
+        "fjellhallen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Troll's Daughter, the same character seen from three sides. Keep the Troll's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Cave Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the quiet Cave Hall, the fire burned down to glowing embers, the Troll's Daughter stands grumpily with her arms crossed, her long braid still tied to the iron hook in the rock wall with a tangle of knotted string. She tugs at it with one hand and pulls a sulky face. A few gold coins glint on the floor. A funny, gentle ending.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Troll's Daughter: A huge troll girl, about three times as tall as Askeladden, with a round moss-green face, a long bumpy nose, small squinting eyes, pink cheeks and one enormous reddish-brown braid so long that it trails on the floor behind her. She wears a patched grey wool dress with a big faded red shawl over her shoulders and goes barefoot.\n\nSetting:\n- the Cave Hall: A vast cave hall inside the mountain with rough grey rock walls and a high, dark ceiling, lit red and gold by a big open fire in a ring of stones. A long, rough plank table with tree-stump stools stands near the fire, a huge dark wooden food cupboard stands against one wall, big iron hooks are hammered into the rock, and a small golden harp hangs on a hook above a tall arched wooden door. Everything is troll-sized: huge and chunky.\n\nStory world: Old rural Norway, long ago. The king's farm is a cluster of dark-brown log buildings with grass-covered turf roofs, carved dragon-head gables and a big hall with small-paned windows, on the shore of a wide, calm mountain lake. Straight across the lake rises the Grey Mountain, where the troll lives. The seven silver ducks look like ordinary ducks made of shining, polished silver. Askeladden's kneading trough is a long, shallow, oval wooden trough, big enough for a boy to sit in; he rows it with one short wooden paddle. The troll's bedspread is a thick quilt of alternating silver and gold squares that shimmers. The golden harp is a small golden lap harp with a carved swan head at the top.\n\nThis story's season, light and colours: Late summer on a mountain lake: long honey-gold afternoons, glittering fjord-blue water and bright silver highlights on the ducks. Inside the mountain: warm red-orange firelight against dark blue-grey rock.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "storyId": "jomfrum",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Jomfru Maria som gudmor",
+  "textFile": "public/content/stories/jomfrum/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:22.180Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Jenta vokser opp hos fostermoren i et lyst og stille hus.",
+    "alt": "Fostermoren i dypblått slør og den lille jenta med lys flette går hånd i hånd mot et hvitt hus med røde blomster i vinduene.",
+    "prompt": "The Foster Mother and the Little Girl walk hand in hand up a flower-lined path towards a bright, whitewashed house with red geraniums in every window. The Little Girl skips along and looks up at her with a big, happy smile, and the Foster Mother smiles down at her. Behind the house rises the great dark-green forest, and soft rose-and-gold evening light falls over everything.",
+    "characters": [
+      "fostermoren",
+      "jenta-liten"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Foster Mother, the same character seen from three sides. Keep the Foster Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Foster Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Little Girl, the same character seen from three sides. Keep the Little Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Little Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: The Foster Mother and the Little Girl walk hand in hand up a flower-lined path towards a bright, whitewashed house with red geraniums in every window. The Little Girl skips along and looks up at her with a big, happy smile, and the Foster Mother smiles down at her. Behind the house rises the great dark-green forest, and soft rose-and-gold evening light falls over everything.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Foster Mother: A tall, slender, serene woman of about thirty-five with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, quiet smile. Her dark hair is hidden under a long deep-blue veil that falls to her shoulders. She wears a long, simple cream-white gown with a band of silver embroidery at the hem, a deep-blue mantle fastened at the throat with a small silver lily brooch, and soft grey shoes.\n- the Little Girl: A small, slender girl of about eight with a heart-shaped face, a small straight nose, big curious grey-green eyes, rosy cheeks and long ash-blonde hair in a single loose plait tied with a coral-pink ribbon. She wears a simple peach-coloured linen dress with short puffed sleeves and a white pinafore apron, and she goes barefoot.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "fostermoren",
+      "name": "Fostermoren (Jomfru Maria)",
+      "description": "En mild og rettferdig fostermor som setter grenser, lærer jenta å holde det hun lover, og til slutt gir tilbake det som ble tatt og gjør alt godt igjen.",
+      "look": "A tall, slender, serene woman of about thirty-five with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, quiet smile. Her dark hair is hidden under a long deep-blue veil that falls to her shoulders. She wears a long, simple cream-white gown with a band of silver embroidery at the hem, a deep-blue mantle fastened at the throat with a small silver lily brooch, and soft grey shoes.",
+      "sheet": "characters/fostermoren.webp",
+      "turn": "characters/fostermoren-turn.mp4",
+      "portrait": "portraits/fostermoren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/fostermoren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/fostermoren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "fostermoren-jomfru-maria"
+    },
+    {
+      "slug": "jenta-liten",
+      "name": "Jenta som liten",
+      "description": "Den lille jenta som vokser opp hos fostermoren i det lyse huset, og som ikke klarer å la være å kikke bak de små dørene.",
+      "look": "A small, slender girl of about eight with a heart-shaped face, a small straight nose, big curious grey-green eyes, rosy cheeks and long ash-blonde hair in a single loose plait tied with a coral-pink ribbon. She wears a simple peach-coloured linen dress with short puffed sleeves and a white pinafore apron, and she goes barefoot.",
+      "sheet": "characters/jenta-liten.webp",
+      "turn": "characters/jenta-liten-turn.mp4",
+      "portrait": "portraits/jenta-liten.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/jenta-liten.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/jenta-liten-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "jenta",
+      "name": "Jenta",
+      "description": "Jenta når hun er blitt stor: så vakker at det nesten lyser av henne, men hun kan ikke si et eneste ord.",
+      "look": "A tall, slender, lovely girl of about seventeen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a soft, gentle smile. Her long ash-blonde hair falls loose to her waist, held back by a thin coral-pink ribbon. She wears a simple peach-coloured linen dress with a laced rose-brown bodice and soft brown leather shoes.",
+      "sheet": "characters/jenta.webp",
+      "turn": "characters/jenta-turn.mp4",
+      "portrait": "portraits/jenta.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/jenta.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/jenta-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "den-unge-dronningen",
+      "name": "Jenta (den unge dronningen)",
+      "description": "En snill og nysgjerrig jente som vokser opp hos en mild fostermor, mister stemmen en tid, men finner mot, kjærlighet og glede igjen.",
+      "look": "A lovely young queen of about nineteen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a gentle smile, and long ash-blonde hair falling loose down her back under a slim silver crown set with small pearls. She wears a long, flowing apricot silk gown with wide sleeves, silver embroidery at the neckline and a white lace collar, and soft silver slippers.",
+      "sheet": "characters/den-unge-dronningen.webp",
+      "turn": "characters/den-unge-dronningen-turn.mp4",
+      "portrait": "portraits/den-unge-dronningen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-unge-dronningen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-unge-dronningen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "jenta-den-unge-dronningen"
+    },
+    {
+      "slug": "prinsen",
+      "name": "Prinsen",
+      "description": "En godhjertet prins som stoler på den unge dronningen og står ved hennes side når andre tviler.",
+      "look": "A tall, friendly young prince of about twenty-three with a long, open face, a strong straight nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to the nape of his neck and a short, neatly trimmed light-brown beard. He wears a knee-length teal-blue coat with silver buttons over a pale-grey shirt, charcoal breeches, soft black boots and a thin silver circlet on his head.",
+      "sheet": "characters/prinsen.webp",
+      "turn": "characters/prinsen-turn.mp4",
+      "portrait": "portraits/prinsen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "prinsen"
+    },
+    {
+      "slug": "den-gamle-dronningen",
+      "name": "Den gamle dronningen",
+      "description": "Prinsens mor som først er streng og mistenksom, men lærer å skamme seg, forstå og vise kjærlighet når sannheten kommer fram.",
+      "look": "A short, stout, stiff-backed old queen of about sixty-five with a round double chin, a haughty little upturned nose, small sharp black eyes, thin pencilled eyebrows and pursed lips. Her silver-white hair is piled high in stiff curls under a heavy gold crown set with red stones. She wears a high-necked deep-purple velvet gown with a stiff white ruff collar, and holds a gold lorgnette on a stick for peering at people.",
+      "sheet": "characters/den-gamle-dronningen.webp",
+      "turn": "characters/den-gamle-dronningen-turn.mp4",
+      "portrait": "portraits/den-gamle-dronningen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-gamle-dronningen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-gamle-dronningen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-gamle-dronningen"
+    }
+  ],
+  "places": [
+    {
+      "slug": "gangen",
+      "name": "the Hallway",
+      "look": "A bright, quiet hallway in a whitewashed house: pale scrubbed floorboards, white walls, a small window with red geraniums on the sill letting in soft light, and along one wall three small, child-height doors of pale wood side by side, each with a little heart carved in the middle and a small round brass knob."
+    },
+    {
+      "slug": "kilden",
+      "name": "the Forest Spring",
+      "look": "A small, perfectly clear forest spring in a ring of mossy stones and ferns, still as a mirror, in a quiet clearing at the edge of a great spruce-and-birch forest. A tall old oak with broad, spreading branches leans right over the water. Through the trees on one side, the pale towers and slate-blue roofs of a castle can be seen close by."
+    },
+    {
+      "slug": "slottssalen",
+      "name": "the Great Hall",
+      "look": "The castle's great hall: a long, high room with pale sandstone walls, tall arched windows letting in soft light, a polished wooden floor, beams painted with blue-and-gold vines, a low dais with two carved wooden chairs, and a tall, arched double door of carved oak at the far end."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "På vei hjem om kvelden møtte faren en dame i fine klær.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Damen har et så snilt ansikt at faren blir varm om hjertet.",
+      "alt": "På en smal sti i skogen om kvelden står en fattig mann med lua i hendene. Foran ham står en høy dame i fine klær og dypblått slør og smiler vennlig til ham.",
+      "prompt": "Wide view of a narrow path through the great forest at dusk: a thin, poor father in a patched brown jacket and worn boots stops in surprise, clutching his cap in both hands. Before him on the path stands the Foster Mother, looking at him with a kind, warm smile, and his tired face softens into a shy smile too. Rose-and-lavender evening light glows between the tall, dark spruces.",
+      "characters": [
+        "fostermoren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Foster Mother, the same character seen from three sides. Keep the Foster Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Foster Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Wide view of a narrow path through the great forest at dusk: a thin, poor father in a patched brown jacket and worn boots stops in surprise, clutching his cap in both hands. Before him on the path stands the Foster Mother, looking at him with a kind, warm smile, and his tired face softens into a shy smile too. Rose-and-lavender evening light glows between the tall, dark spruces.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Foster Mother: A tall, slender, serene woman of about thirty-five with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, quiet smile. Her dark hair is hidden under a long deep-blue veil that falls to her shoulders. She wears a long, simple cream-white gown with a band of silver embroidery at the hem, a deep-blue mantle fastened at the throat with a small silver lily brooch, and soft grey shoes.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 11,
+      "anchor": "Det var tre små dører med et lite hjerte på hver.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Tre små dører med et lite hjerte på hver. Dem skal jenta ikke åpne.",
+      "alt": "I en lys gang peker fostermoren på tre små dører med et hjerte på hver. Den lille jenta står ved siden av og ser nysgjerrig på dem.",
+      "prompt": "In the Hallway, the Foster Mother, ready for a journey with a small travelling bag in one hand, bends down and points gently at the three small doors with carved hearts, one finger raised in warning. The Little Girl stands beside her in her pinafore and looks at the three little doors with big, curious eyes. Soft morning light falls from the window with the red geraniums.",
+      "characters": [
+        "fostermoren",
+        "jenta-liten"
+      ],
+      "places": [
+        "gangen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Foster Mother, the same character seen from three sides. Keep the Foster Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Foster Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Little Girl, the same character seen from three sides. Keep the Little Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Little Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Hallway. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the Hallway, the Foster Mother, ready for a journey with a small travelling bag in one hand, bends down and points gently at the three small doors with carved hearts, one finger raised in warning. The Little Girl stands beside her in her pinafore and looks at the three little doors with big, curious eyes. Soft morning light falls from the window with the red geraniums.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Foster Mother: A tall, slender, serene woman of about thirty-five with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, quiet smile. Her dark hair is hidden under a long deep-blue veil that falls to her shoulders. She wears a long, simple cream-white gown with a band of silver embroidery at the hem, a deep-blue mantle fastened at the throat with a small silver lily brooch, and soft grey shoes.\n- the Little Girl: A small, slender girl of about eight with a heart-shaped face, a small straight nose, big curious grey-green eyes, rosy cheeks and long ash-blonde hair in a single loose plait tied with a coral-pink ribbon. She wears a simple peach-coloured linen dress with short puffed sleeves and a white pinafore apron, and she goes barefoot.\n\nSetting:\n- the Hallway: A bright, quiet hallway in a whitewashed house: pale scrubbed floorboards, white walls, a small window with red geraniums on the sill letting in soft light, and along one wall three small, child-height doors of pale wood side by side, each with a little heart carved in the middle and a small round brass knob.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 15,
+      "anchor": "Vips! Ut fløy en stjerne!",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Vips! Ut flyr en stjerne som glitrer som et lite lys.",
+      "alt": "Den lille jenta har åpnet den første lille døra på gløtt. En glitrende sølvstjerne svever opp mot taket, og jenta ser etter den med åpen munn.",
+      "prompt": "In the Hallway, the Little Girl has opened the first small heart door just a tiny crack. Out of it floats a small, glittering silver-white star, twinkling like a little light as it drifts up, up towards the ceiling and scatters tiny silver sparkles. The Little Girl stands frozen with one hand still on the brass knob and her mouth open in a little O, watching it rise.",
+      "characters": [
+        "jenta-liten"
+      ],
+      "places": [
+        "gangen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Little Girl, the same character seen from three sides. Keep the Little Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Little Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Hallway. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the Hallway, the Little Girl has opened the first small heart door just a tiny crack. Out of it floats a small, glittering silver-white star, twinkling like a little light as it drifts up, up towards the ceiling and scatters tiny silver sparkles. The Little Girl stands frozen with one hand still on the brass knob and her mouth open in a little O, watching it rise.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Little Girl: A small, slender girl of about eight with a heart-shaped face, a small straight nose, big curious grey-green eyes, rosy cheeks and long ash-blonde hair in a single loose plait tied with a coral-pink ribbon. She wears a simple peach-coloured linen dress with short puffed sleeves and a white pinafore apron, and she goes barefoot.\n\nSetting:\n- the Hallway: A bright, quiet hallway in a whitewashed house: pale scrubbed floorboards, white walls, a small window with red geraniums on the sill letting in soft light, and along one wall three small, child-height doors of pale wood side by side, each with a little heart carved in the middle and a small round brass knob.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 23,
+      "anchor": "Vips! Ut seilte månen, stor og rund og sølvhvit, og så var den borte, den også.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Vips! Ut seiler månen, stor og rund og sølvhvit.",
+      "alt": "En stor, rund og sølvhvit måne seiler ut av den andre lille døra og svever over hodet på jenta. Hun holder hendene for munnen og gjør store øyne.",
+      "prompt": "In the Hallway, a big, round, silver-white moon sails slowly out of the second small heart door, which stands open a crack, and floats up over the Little Girl's head, filling the hallway with cool, silvery light. The Little Girl has stepped back with both hands over her mouth and wide eyes. The first and third little doors are shut. Seen from low down, looking up past her at the moon.",
+      "characters": [
+        "jenta-liten"
+      ],
+      "places": [
+        "gangen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Little Girl, the same character seen from three sides. Keep the Little Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Little Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Hallway. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the Hallway, a big, round, silver-white moon sails slowly out of the second small heart door, which stands open a crack, and floats up over the Little Girl's head, filling the hallway with cool, silvery light. The Little Girl has stepped back with both hands over her mouth and wide eyes. The first and third little doors are shut. Seen from low down, looking up past her at the moon.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Little Girl: A small, slender girl of about eight with a heart-shaped face, a small straight nose, big curious grey-green eyes, rosy cheeks and long ash-blonde hair in a single loose plait tied with a coral-pink ribbon. She wears a simple peach-coloured linen dress with short puffed sleeves and a white pinafore apron, and she goes barefoot.\n\nSetting:\n- the Hallway: A bright, quiet hallway in a whitewashed house: pale scrubbed floorboards, white walls, a small window with red geraniums on the sill letting in soft light, and along one wall three small, child-height doors of pale wood side by side, each with a little heart carved in the middle and a small round brass knob.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 30,
+      "anchor": "Vips! Ut strømmet sola!",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Vips! Ut strømmer sola, og det blir så lyst og varmt i gangen.",
+      "alt": "Jenta er blitt stor. En strålende gyllen sol strømmer ut av den siste lille døra og fyller gangen med lys, og jenta rygger bakover med hendene mot brystet.",
+      "prompt": "In the Hallway, a small, blazing golden sun streams out of the third small heart door and rises up, up towards the ceiling, flooding the whole hallway with dazzling warm light. The Girl, now grown up, steps backwards with both hands pressed to her chest, squinting and astonished, her long hair and dress lit gold. The red geraniums on the windowsill glow in the light.",
+      "characters": [
+        "jenta"
+      ],
+      "places": [
+        "gangen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Hallway. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the Hallway, a small, blazing golden sun streams out of the third small heart door and rises up, up towards the ceiling, flooding the whole hallway with dazzling warm light. The Girl, now grown up, steps backwards with both hands pressed to her chest, squinting and astonished, her long hair and dress lit gold. The red geraniums on the windowsill glow in the light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Girl: A tall, slender, lovely girl of about seventeen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a soft, gentle smile. Her long ash-blonde hair falls loose to her waist, held back by a thin coral-pink ribbon. She wears a simple peach-coloured linen dress with a laced rose-brown bodice and soft brown leather shoes.\n\nSetting:\n- the Hallway: A bright, quiet hallway in a whitewashed house: pale scrubbed floorboards, white walls, a small window with red geraniums on the sill letting in soft light, and along one wall three small, child-height doors of pale wood side by side, each with a little heart carved in the middle and a small round brass knob.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 35,
+      "anchor": "Så gikk jenta ut i verden, gjennom en stor, stor skog.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Jenta sover trygt mellom greinene i et høyt tre over en klar kilde.",
+      "alt": "Det er natt i skogen. Jenta sover trygt oppe i et høyt tre, og under henne speiler månen og stjernene seg i en blank kilde.",
+      "prompt": "Wide view of the Forest Spring at night: high up in the broad branches of the tall old oak, the Girl sleeps peacefully, curled up safely against the trunk with her cheek on her hands and her long hair hanging down. A faint, gentle glow surrounds her. Below, the still water of the spring mirrors the round moon and the stars. Deep-indigo sky and soft silver moonlight.",
+      "characters": [
+        "jenta"
+      ],
+      "places": [
+        "kilden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Forest Spring. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Wide view of the Forest Spring at night: high up in the broad branches of the tall old oak, the Girl sleeps peacefully, curled up safely against the trunk with her cheek on her hands and her long hair hanging down. A faint, gentle glow surrounds her. Below, the still water of the spring mirrors the round moon and the stars. Deep-indigo sky and soft silver moonlight.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Girl: A tall, slender, lovely girl of about seventeen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a soft, gentle smile. Her long ash-blonde hair falls loose to her waist, held back by a thin coral-pink ribbon. She wears a simple peach-coloured linen dress with a laced rose-brown bodice and soft brown leather shoes.\n\nSetting:\n- the Forest Spring: A small, perfectly clear forest spring in a ring of mossy stones and ferns, still as a mirror, in a quiet clearing at the edge of a great spruce-and-birch forest. A tall old oak with broad, spreading branches leans right over the water. Through the trees on one side, the pale towers and slate-blue roofs of a castle can be seen close by.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 39,
+      "anchor": "Plask! sa bøtta da hun slapp den.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Oi! Er det meg? Så vakker jeg er!» Plask! sier bøtta.",
+      "alt": "Ei tjenestejente bøyer seg over kilden og ser et nydelig ansikt i vannet. Hun tror det er henne selv og slipper bøtta. Oppe i treet sitter jenta og kikker ned.",
+      "prompt": "Early morning at the Forest Spring, with pink dawn light and mist over the water: a plump young maid in a brown dress, white apron and white cap kneels at the water's edge and bends over it, clasping her hands to her cheeks in delight at the lovely face reflected in the still spring, which she thinks is her own. Her wooden bucket drops into the water with a big splash. High in the oak above, the Girl, so lovely that she almost glows, peeks down between the leaves.",
+      "characters": [
+        "jenta"
+      ],
+      "places": [
+        "kilden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Forest Spring. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Early morning at the Forest Spring, with pink dawn light and mist over the water: a plump young maid in a brown dress, white apron and white cap kneels at the water's edge and bends over it, clasping her hands to her cheeks in delight at the lovely face reflected in the still spring, which she thinks is her own. Her wooden bucket drops into the water with a big splash. High in the oak above, the Girl, so lovely that she almost glows, peeks down between the leaves.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Girl: A tall, slender, lovely girl of about seventeen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a soft, gentle smile. Her long ash-blonde hair falls loose to her waist, held back by a thin coral-pink ribbon. She wears a simple peach-coloured linen dress with a laced rose-brown bodice and soft brown leather shoes.\n\nSetting:\n- the Forest Spring: A small, perfectly clear forest spring in a ring of mossy stones and ferns, still as a mirror, in a quiet clearing at the edge of a great spruce-and-birch forest. A tall old oak with broad, spreading branches leans right over the water. Through the trees on one side, the pale towers and slate-blue roofs of a castle can be seen close by.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 46,
+      "anchor": "«God morgen», sa prinsen, og han rakte hånda opp mot henne.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«God morgen», sier prinsen. «Vil du ikke komme ned?»",
+      "alt": "Prinsen står under treet ved kilden og rekker hånda opp mot jenta, som sitter på en grein og smiler. I kilden flyter to bøtter.",
+      "prompt": "At the Forest Spring in fresh morning light, the Prince stands at the foot of the tall oak and reaches one hand up towards the Girl with a warm, friendly smile. The Girl, so lovely that she almost glows, sits on a broad branch above him and looks down shyly, smiling back. Two wooden buckets bob on the still water of the spring beside them, and the castle towers show through the trees. Seen from the side.",
+      "characters": [
+        "prinsen",
+        "jenta"
+      ],
+      "places": [
+        "kilden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Forest Spring. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: At the Forest Spring in fresh morning light, the Prince stands at the foot of the tall oak and reaches one hand up towards the Girl with a warm, friendly smile. The Girl, so lovely that she almost glows, sits on a broad branch above him and looks down shyly, smiling back. Two wooden buckets bob on the still water of the spring beside them, and the castle towers show through the trees. Seen from the side.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, friendly young prince of about twenty-three with a long, open face, a strong straight nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to the nape of his neck and a short, neatly trimmed light-brown beard. He wears a knee-length teal-blue coat with silver buttons over a pale-grey shirt, charcoal breeches, soft black boots and a thin silver circlet on his head.\n- the Girl: A tall, slender, lovely girl of about seventeen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a soft, gentle smile. Her long ash-blonde hair falls loose to her waist, held back by a thin coral-pink ribbon. She wears a simple peach-coloured linen dress with a laced rose-brown bodice and soft brown leather shoes.\n\nSetting:\n- the Forest Spring: A small, perfectly clear forest spring in a ring of mossy stones and ferns, still as a mirror, in a quiet clearing at the edge of a great spruce-and-birch forest. A tall old oak with broad, spreading branches leans right over the water. Through the trees on one side, the pale towers and slate-blue roofs of a castle can be seen close by.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 50,
+      "anchor": "Han ga seg ikke.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Det blir bryllup, og jenta fra treet blir den unge dronningen.",
+      "alt": "I den store salen holder prinsen og den unge dronningen hverandre i hånda, og gjestene klapper. Den gamle dronningen står for seg selv og myser mistenksomt på bruden.",
+      "prompt": "The wedding in the Great Hall: the Young Queen, radiant in her silver crown, stands hand in hand with the Prince on the dais, smiling shyly. Four guests in festive clothes clap and cheer, and flower petals lie on the floor. At the edge of the dais, the Old Queen stands stiffly apart and peers at the bride through her gold lorgnette with a deep, suspicious frown.",
+      "characters": [
+        "den-unge-dronningen",
+        "prinsen",
+        "den-gamle-dronningen"
+      ],
+      "places": [
+        "slottssalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Young Queen, the same character seen from three sides. Keep the Young Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Old Queen, the same character seen from three sides. Keep the Old Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: setting reference for the Great Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: The wedding in the Great Hall: the Young Queen, radiant in her silver crown, stands hand in hand with the Prince on the dais, smiling shyly. Four guests in festive clothes clap and cheer, and flower petals lie on the floor. At the edge of the dais, the Old Queen stands stiffly apart and peers at the bride through her gold lorgnette with a deep, suspicious frown.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young Queen: A lovely young queen of about nineteen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a gentle smile, and long ash-blonde hair falling loose down her back under a slim silver crown set with small pearls. She wears a long, flowing apricot silk gown with wide sleeves, silver embroidery at the neckline and a white lace collar, and soft silver slippers.\n- the Prince: A tall, friendly young prince of about twenty-three with a long, open face, a strong straight nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to the nape of his neck and a short, neatly trimmed light-brown beard. He wears a knee-length teal-blue coat with silver buttons over a pale-grey shirt, charcoal breeches, soft black boots and a thin silver circlet on his head.\n- the Old Queen: A short, stout, stiff-backed old queen of about sixty-five with a round double chin, a haughty little upturned nose, small sharp black eyes, thin pencilled eyebrows and pursed lips. Her silver-white hair is piled high in stiff curls under a heavy gold crown set with red stones. She wears a high-necked deep-purple velvet gown with a stiff white ruff collar, and holds a gold lorgnette on a stick for peering at people.\n\nSetting:\n- the Great Hall: The castle's great hall: a long, high room with pale sandstone walls, tall arched windows letting in soft light, a polished wooden floor, beams painted with blue-and-gold vines, a low dais with two carved wooden chairs, and a tall, arched double door of carved oak at the far end.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 55,
+      "anchor": "Da kom fostermoren, stille, stille.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Stille, stille kommer fostermoren og løfter babyen forsiktig opp.",
+      "alt": "Om natta løfter fostermoren en sovende baby forsiktig opp av vogga. Den unge dronningen sitter i senga og strekker armene etter henne. Ved døra sover fire vakter.",
+      "prompt": "Night in the Young Queen's moonlit bedchamber: the Foster Mother bends quietly over the carved wooden cradle and gently lifts the sleeping baby, wrapped in a white shawl, into her arms, her face serious and sad. The Young Queen, in a white nightgown and without her crown, sits up in her big bed and reaches out with both arms, her mouth open but silent. By the open door, four guards sit slumped on the floor, fast asleep.",
+      "characters": [
+        "fostermoren",
+        "den-unge-dronningen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Foster Mother, the same character seen from three sides. Keep the Foster Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Foster Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Young Queen, the same character seen from three sides. Keep the Young Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Night in the Young Queen's moonlit bedchamber: the Foster Mother bends quietly over the carved wooden cradle and gently lifts the sleeping baby, wrapped in a white shawl, into her arms, her face serious and sad. The Young Queen, in a white nightgown and without her crown, sits up in her big bed and reaches out with both arms, her mouth open but silent. By the open door, four guards sit slumped on the floor, fast asleep.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Foster Mother: A tall, slender, serene woman of about thirty-five with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, quiet smile. Her dark hair is hidden under a long deep-blue veil that falls to her shoulders. She wears a long, simple cream-white gown with a band of silver embroidery at the hem, a deep-blue mantle fastened at the throat with a small silver lily brooch, and soft grey shoes.\n- the Young Queen: A lovely young queen of about nineteen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a gentle smile, and long ash-blonde hair falling loose down her back under a slim silver crown set with small pearls. She wears a long, flowing apricot silk gown with wide sleeves, silver embroidery at the neckline and a white lace collar, and soft silver slippers.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 68,
+      "anchor": "Så vaktene telte ingenting.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Vaktene teller ingenting, men alle tolv sovner likevel.",
+      "alt": "Tolv vakter sover i to rader utenfor døra til dronningen. Noen lener seg på hverandre, og én snorker med åpen munn.",
+      "prompt": "In a warm, quiet castle corridor at night, outside the closed door of the queen's bedchamber, twelve guards in blue-and-white uniforms and round caps have fallen fast asleep in two rows of six: some leaning on each other's shoulders, some slumped against the wall with their caps over their eyes, and one snoring with his mouth wide open. A single candle glows in a holder on the wall. Funny and cosy.",
+      "characters": [],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In a warm, quiet castle corridor at night, outside the closed door of the queen's bedchamber, twelve guards in blue-and-white uniforms and round caps have fallen fast asleep in two rows of six: some leaning on each other's shoulders, some slumped against the wall with their caps over their eyes, and one snoring with his mouth wide open. A single candle glows in a holder on the wall. Funny and cosy.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 73,
+      "anchor": "De to største slapp hendene hennes og løp.",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Dronningen faller på kne og tar imot barna med åpne armer.",
+      "alt": "Den unge dronningen har falt på kne i reisekappa og tar imot to små barn med åpne armer. I døra står fostermoren i et mildt lys med babyen på armen. Prinsen og den gamle dronningen ser forundret på.",
+      "prompt": "In the bright, still Great Hall, the Young Queen, wearing a plain grey travelling cloak over her gown, kneels on the floor with her arms wide open as two happy little toddlers, a boy and a girl, run laughing into her arms. In the open doorway behind them stands the Foster Mother in a soft golden light, with the smallest baby on her arm. The Prince and the Old Queen stare in astonishment from the side.",
+      "characters": [
+        "den-unge-dronningen",
+        "fostermoren",
+        "prinsen",
+        "den-gamle-dronningen"
+      ],
+      "places": [
+        "slottssalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Young Queen, the same character seen from three sides. Keep the Young Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Foster Mother, the same character seen from three sides. Keep the Foster Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Foster Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: model sheet for the Old Queen, the same character seen from three sides. Keep the Old Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 6: setting reference for the Great Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the bright, still Great Hall, the Young Queen, wearing a plain grey travelling cloak over her gown, kneels on the floor with her arms wide open as two happy little toddlers, a boy and a girl, run laughing into her arms. In the open doorway behind them stands the Foster Mother in a soft golden light, with the smallest baby on her arm. The Prince and the Old Queen stare in astonishment from the side.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young Queen: A lovely young queen of about nineteen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a gentle smile, and long ash-blonde hair falling loose down her back under a slim silver crown set with small pearls. She wears a long, flowing apricot silk gown with wide sleeves, silver embroidery at the neckline and a white lace collar, and soft silver slippers.\n- the Foster Mother: A tall, slender, serene woman of about thirty-five with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, quiet smile. Her dark hair is hidden under a long deep-blue veil that falls to her shoulders. She wears a long, simple cream-white gown with a band of silver embroidery at the hem, a deep-blue mantle fastened at the throat with a small silver lily brooch, and soft grey shoes.\n- the Prince: A tall, friendly young prince of about twenty-three with a long, open face, a strong straight nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to the nape of his neck and a short, neatly trimmed light-brown beard. He wears a knee-length teal-blue coat with silver buttons over a pale-grey shirt, charcoal breeches, soft black boots and a thin silver circlet on his head.\n- the Old Queen: A short, stout, stiff-backed old queen of about sixty-five with a round double chin, a haughty little upturned nose, small sharp black eyes, thin pencilled eyebrows and pursed lips. Her silver-white hair is piled high in stiff curls under a heavy gold crown set with red stones. She wears a high-necked deep-purple velvet gown with a stiff white ruff collar, and holds a gold lorgnette on a stick for peering at people.\n\nSetting:\n- the Great Hall: The castle's great hall: a long, high room with pale sandstone walls, tall arched windows letting in soft light, a polished wooden floor, beams painted with blue-and-gold vines, a low dais with two carved wooden chairs, and a tall, arched double door of carved oak at the far end.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "13",
+      "paragraph": 77,
+      "anchor": "Fra den dagen var hun glad i den unge dronningen.",
+      "file": "scenes/13.webp",
+      "sources": [
+        {
+          "file": "scenes/13.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/13-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Og barnebarna får sitte på fanget hennes så mye de vil.",
+      "alt": "Den gamle dronningen smiler og har to små barn på fanget og babyen på armen. Ved siden av sitter den unge dronningen og prinsen og ler.",
+      "prompt": "A sunny afternoon in the Great Hall: the Old Queen, smiling warmly now, sits in a big carved chair with two giggling toddlers on her lap and the smallest baby in the crook of her arm. Beside her, the Young Queen and the Prince sit close together, laughing. Cherry blossom shows at the tall windows, and the gold lorgnette lies forgotten on a little table.",
+      "characters": [
+        "den-gamle-dronningen",
+        "den-unge-dronningen",
+        "prinsen"
+      ],
+      "places": [
+        "slottssalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Old Queen, the same character seen from three sides. Keep the Old Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Young Queen, the same character seen from three sides. Keep the Young Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: setting reference for the Great Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A sunny afternoon in the Great Hall: the Old Queen, smiling warmly now, sits in a big carved chair with two giggling toddlers on her lap and the smallest baby in the crook of her arm. Beside her, the Young Queen and the Prince sit close together, laughing. Cherry blossom shows at the tall windows, and the gold lorgnette lies forgotten on a little table.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Old Queen: A short, stout, stiff-backed old queen of about sixty-five with a round double chin, a haughty little upturned nose, small sharp black eyes, thin pencilled eyebrows and pursed lips. Her silver-white hair is piled high in stiff curls under a heavy gold crown set with red stones. She wears a high-necked deep-purple velvet gown with a stiff white ruff collar, and holds a gold lorgnette on a stick for peering at people.\n- the Young Queen: A lovely young queen of about nineteen with a heart-shaped face, a small straight nose, large grey-green eyes with dark lashes and a gentle smile, and long ash-blonde hair falling loose down her back under a slim silver crown set with small pearls. She wears a long, flowing apricot silk gown with wide sleeves, silver embroidery at the neckline and a white lace collar, and soft silver slippers.\n- the Prince: A tall, friendly young prince of about twenty-three with a long, open face, a strong straight nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to the nape of his neck and a short, neatly trimmed light-brown beard. He wears a knee-length teal-blue coat with silver buttons over a pale-grey shirt, charcoal breeches, soft black boots and a thin silver circlet on his head.\n\nSetting:\n- the Great Hall: The castle's great hall: a long, high room with pale sandstone walls, tall arched windows letting in soft light, a polished wooden floor, beams painted with blue-and-gold vines, a low dais with two carved wooden chairs, and a tall, arched double door of carved oak at the far end.\n\nStory world: Old rural Norway, long ago, in and around a great, deep forest of spruce and birch. The poor couple live in a tiny log hut far inside the forest. The foster mother's house is a bright, quiet, whitewashed house with pale wooden floors and red geraniums in every window. In its hallway are three small, child-height doors of pale wood side by side, each with a little carved heart. Behind them wait a glittering silver-white star the size of an apple, a big, round, silver-white moon and a small, blazing golden sun. Far across the forest, a clear spring lies below a tall old oak, close to a storybook castle of pale sandstone with steep slate-blue roofs and round towers. The babies are wrapped in white shawls and sleep in a carved wooden cradle.\n\nThis story's season, light and colours: Mild, still spring: fresh pale-green birch leaves, white cherry blossom and lilac; pearly-pink dawns with mist over the spring, rose-and-lavender dusks, and deep-indigo nights with soft silver light. The foster mother's house glows creamy white and pale gold. Accents: the silver of the star and the moon, the warm gold of the sun and the deep blue of the foster mother's veil.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

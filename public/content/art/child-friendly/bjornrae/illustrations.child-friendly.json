@@ -1,0 +1,241 @@
+{
+  "storyId": "bjornrae",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Bjørnen og reven",
+  "textFile": "public/content/stories/bjornrae/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:21.699Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Reven har en hel haug med fisk, og bjørnen vil så gjerne lære å fiske.",
+    "alt": "Reven sitter i snøen ved et islagt vann og holder fram en haug med blanke fisk. Den store, brune bjørnen med lang, buskete hale bøyer seg ned og ser på fisken med store øyne.",
+    "prompt": "On the snowy shore of the Frozen Lake, the Fox sits up on his haunches and proudly holds out his bundle of five silver fish, with a sly grin. The Bear, huge beside him, leans down towards the fish, sniffing, with big, admiring eyes, his long bushy tail curled round in the snow behind him. Snow-laden spruces and a pale, low winter sun behind them, and the frozen lake stretching away, white and blue.",
+    "characters": [
+      "rev",
+      "bjorn"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Fox, the same character seen from three sides. Keep the Fox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Bear, the same character seen from three sides. Keep the Bear's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Bear only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Frozen Lake. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: On the snowy shore of the Frozen Lake, the Fox sits up on his haunches and proudly holds out his bundle of five silver fish, with a sly grin. The Bear, huge beside him, leans down towards the fish, sniffing, with big, admiring eyes, his long bushy tail curled round in the snow behind him. Snow-laden spruces and a pale, low winter sun behind them, and the frozen lake stretching away, white and blue.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fox: A slim, light-footed, long-legged red fox with sleek, bright flame-red fur, a snow-white chin, throat and chest, black lower legs and paws, tall pointed ears with black backs, narrow amber eyes with a sly sideways glance, a long, pointed snout with long whiskers and a cheeky lopsided grin. His big, bushy red tail ends in a clean white tip.\n- the Bear: A huge, heavy, slow-moving bear, taller than a man when he stands up, with thick, shaggy dark chocolate-brown winter fur, a broad head with small round ears, small, gentle black eyes under heavy brows, a short greyish-tan muzzle with a big black nose, and a patient, slightly puzzled look. He has enormous flat paws with blunt claws and, unlike bears today, a long, fine, plume-like bushy tail that reaches the ground and sweeps the snow behind him.\n\nSetting:\n- the Frozen Lake: A small, round forest lake frozen solid, its thick ice pale grey-blue and dusted with snow, ringed by tall, snow-laden spruces and a few bare birches. Snowy reeds poke up along the shore, round boulders wear caps of snow, the shore is a soft, deep snowbank, and gentle white hills rise beyond.\n\nStory world: A snowy forest in old Norway, long ago, where the animals can talk. Below the spruce woods lies the Frozen Lake, a small forest lake covered with thick, snow-dusted ice. Up the hill is the Sunny Slope, an open clearing where the low winter sun shines, with one dense, dark spruce bush at its upper edge. The fox's bundle of fish is five plump silver fish tied together by their tails with a piece of string. The butter tub is a small, round wooden keg with a flat lid and two bent-wood hoops, about as tall as the fox, full of bright-yellow butter. The bear and the fox are natural wild animals without clothes: they walk on four legs, but can sit up and use their front paws like hands.\n\nThis story's season, light and colours: Deep midwinter in bright, dazzling sunshine: sparkling white snow, a clear turquoise-blue sky, cool blue shadows and hoarfrost glittering on every twig, with the frozen lake a pale grey-blue. Near Christmas the Sunny Slope basks in warm lemon-yellow sunshine, and the last picture is a clear, deep-blue evening with a lemon glow low in the sky and the first stars. Accents: the fox's flame red, butter yellow and dark spruce green.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "bjorn",
+      "name": "Bjørnen",
+      "description": "Stor og sterk, men litt lett å lure; han vil gjerne lære og gjøre det rette, selv når det går litt galt.",
+      "look": "A huge, heavy, slow-moving bear, taller than a man when he stands up, with thick, shaggy dark chocolate-brown winter fur, a broad head with small round ears, small, gentle black eyes under heavy brows, a short greyish-tan muzzle with a big black nose, and a patient, slightly puzzled look. He has enormous flat paws with blunt claws and, unlike bears today, a long, fine, plume-like bushy tail that reaches the ground and sweeps the snow behind him.",
+      "sheet": "characters/bjorn.webp",
+      "turn": null,
+      "portrait": "portraits/bjorn.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/bjorn.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/bjorn-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "bjorn"
+    },
+    {
+      "slug": "bjorn-stubbrumpet",
+      "name": "Den stubbrumpete bjørnen",
+      "description": "Den samme snille bjørnen etter isfisket, nå med bare en liten halestump igjen; han blir aldri sint lenge og stoler fortsatt på reven.",
+      "look": "The same huge, heavy, slow-moving bear after his fishing trip: thick, shaggy dark chocolate-brown winter fur, a broad head with small round ears, small, gentle black eyes under heavy brows, a short greyish-tan muzzle with a big black nose, a patient, slightly puzzled look and enormous flat paws with blunt claws. His long tail is gone: all that is left is a tiny, round, fluffy stump on his big round bottom.",
+      "sheet": "characters/bjorn-stubbrumpet.webp",
+      "turn": "characters/bjorn-stubbrumpet-turn.mp4",
+      "portrait": "portraits/bjorn-stubbrumpet.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/bjorn-stubbrumpet.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/bjorn-stubbrumpet-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "rev",
+      "name": "Reven",
+      "description": "Smart og rampete, mer ertende enn slem; han liker å finne på små triks og gliser når han lykkes.",
+      "look": "A slim, light-footed, long-legged red fox with sleek, bright flame-red fur, a snow-white chin, throat and chest, black lower legs and paws, tall pointed ears with black backs, narrow amber eyes with a sly sideways glance, a long, pointed snout with long whiskers and a cheeky lopsided grin. His big, bushy red tail ends in a clean white tip.",
+      "sheet": "characters/rev.webp",
+      "turn": "characters/rev-turn.mp4",
+      "portrait": "portraits/rev.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/rev.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/rev-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "rev"
+    }
+  ],
+  "places": [
+    {
+      "slug": "isvannet",
+      "name": "the Frozen Lake",
+      "look": "A small, round forest lake frozen solid, its thick ice pale grey-blue and dusted with snow, ringed by tall, snow-laden spruces and a few bare birches. Snowy reeds poke up along the shore, round boulders wear caps of snow, the shore is a soft, deep snowbank, and gentle white hills rise beyond."
+    },
+    {
+      "slug": "solbakken",
+      "name": "the Sunny Slope",
+      "look": "A gentle, south-facing clearing on a snowy hillside in the spruce forest, where the low winter sun shines all day: smooth, sparkling snow with a few grey rocks and tufts of dry golden grass poking through, and at its upper edge one dense, dark-green spruce bush whose low branches sweep the snow, leaving a hollow underneath. Tall spruces and birches ring the clearing, with blue hills far away."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 7,
+      "anchor": "Reven sto et stykke unna med fisken sin og gliste.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Bjørnen stikker halen ned i det iskalde vannet. Brrr!",
+      "alt": "Bjørnen sitter ute på isen med halen nede i et hull og hutrer med øynene igjen. Inne ved land sitter reven på en stein med fisken sin og gliser.",
+      "prompt": "Wide view of the Frozen Lake on a cold, bright morning. Out on the snowy ice, the Bear sits beside a round hole he has just chopped, with chips of ice scattered around it and his long bushy tail dangling down into the black, icy water. He hunches his shoulders and squeezes his eyes shut, shivering, his breath a frosty cloud. A little way off on the snowy shore, the Fox sits on a boulder with his bundle of five silver fish and grins.",
+      "characters": [
+        "bjorn",
+        "rev"
+      ],
+      "places": [
+        "isvannet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Bear, the same character seen from three sides. Keep the Bear's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Bear only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Fox, the same character seen from three sides. Keep the Fox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Frozen Lake. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Wide view of the Frozen Lake on a cold, bright morning. Out on the snowy ice, the Bear sits beside a round hole he has just chopped, with chips of ice scattered around it and his long bushy tail dangling down into the black, icy water. He hunches his shoulders and squeezes his eyes shut, shivering, his breath a frosty cloud. A little way off on the snowy shore, the Fox sits on a boulder with his bundle of five silver fish and grins.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Bear: A huge, heavy, slow-moving bear, taller than a man when he stands up, with thick, shaggy dark chocolate-brown winter fur, a broad head with small round ears, small, gentle black eyes under heavy brows, a short greyish-tan muzzle with a big black nose, and a patient, slightly puzzled look. He has enormous flat paws with blunt claws and, unlike bears today, a long, fine, plume-like bushy tail that reaches the ground and sweeps the snow behind him.\n- the Fox: A slim, light-footed, long-legged red fox with sleek, bright flame-red fur, a snow-white chin, throat and chest, black lower legs and paws, tall pointed ears with black backs, narrow amber eyes with a sly sideways glance, a long, pointed snout with long whiskers and a cheeky lopsided grin. His big, bushy red tail ends in a clean white tip.\n\nSetting:\n- the Frozen Lake: A small, round forest lake frozen solid, its thick ice pale grey-blue and dusted with snow, ringed by tall, snow-laden spruces and a few bare birches. Snowy reeds poke up along the shore, round boulders wear caps of snow, the shore is a soft, deep snowbank, and gentle white hills rise beyond.\n\nStory world: A snowy forest in old Norway, long ago, where the animals can talk. Below the spruce woods lies the Frozen Lake, a small forest lake covered with thick, snow-dusted ice. Up the hill is the Sunny Slope, an open clearing where the low winter sun shines, with one dense, dark spruce bush at its upper edge. The fox's bundle of fish is five plump silver fish tied together by their tails with a piece of string. The butter tub is a small, round wooden keg with a flat lid and two bent-wood hoops, about as tall as the fox, full of bright-yellow butter. The bear and the fox are natural wild animals without clothes: they walk on four legs, but can sit up and use their front paws like hands.\n\nThis story's season, light and colours: Deep midwinter in bright, dazzling sunshine: sparkling white snow, a clear turquoise-blue sky, cool blue shadows and hoarfrost glittering on every twig, with the frozen lake a pale grey-blue. Near Christmas the Sunny Slope basks in warm lemon-yellow sunshine, and the last picture is a clear, deep-blue evening with a lemon glow low in the sky and the first stars. Accents: the fox's flame red, butter yellow and dark spruce green.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 15,
+      "anchor": "Han satte seg opp og så bak seg.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Den lange, fine halen var borte. Bare en liten stump var igjen.",
+      "alt": "Bjørnen sitter på isen og snur seg for å se på baken sin. Der er det bare en liten, rund halestump igjen, og han gaper av overraskelse.",
+      "prompt": "Close view on the snowy ice of the Frozen Lake: the Stub-tailed Bear sits in the snow where he has tumbled, twisting round to peer over his shoulder at his bottom, where only a tiny, round, fluffy stump of a tail is left. His eyes are huge and his mouth hangs open in astonishment, one paw raised. Behind him, a long skid mark in the snow leads back to the little ice hole, now frozen over. Crisp, cold sunshine. Funny, not sad.",
+      "characters": [
+        "bjorn-stubbrumpet"
+      ],
+      "places": [
+        "isvannet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Stub-tailed Bear, the same character seen from three sides. Keep the Stub-tailed Bear's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stub-tailed Bear only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Frozen Lake. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Close view on the snowy ice of the Frozen Lake: the Stub-tailed Bear sits in the snow where he has tumbled, twisting round to peer over his shoulder at his bottom, where only a tiny, round, fluffy stump of a tail is left. His eyes are huge and his mouth hangs open in astonishment, one paw raised. Behind him, a long skid mark in the snow leads back to the little ice hole, now frozen over. Crisp, cold sunshine. Funny, not sad.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Stub-tailed Bear: The same huge, heavy, slow-moving bear after his fishing trip: thick, shaggy dark chocolate-brown winter fur, a broad head with small round ears, small, gentle black eyes under heavy brows, a short greyish-tan muzzle with a big black nose, a patient, slightly puzzled look and enormous flat paws with blunt claws. His long tail is gone: all that is left is a tiny, round, fluffy stump on his big round bottom.\n\nSetting:\n- the Frozen Lake: A small, round forest lake frozen solid, its thick ice pale grey-blue and dusted with snow, ringed by tall, snow-laden spruces and a few bare birches. Snowy reeds poke up along the shore, round boulders wear caps of snow, the shore is a soft, deep snowbank, and gentle white hills rise beyond.\n\nStory world: A snowy forest in old Norway, long ago, where the animals can talk. Below the spruce woods lies the Frozen Lake, a small forest lake covered with thick, snow-dusted ice. Up the hill is the Sunny Slope, an open clearing where the low winter sun shines, with one dense, dark spruce bush at its upper edge. The fox's bundle of fish is five plump silver fish tied together by their tails with a piece of string. The butter tub is a small, round wooden keg with a flat lid and two bent-wood hoops, about as tall as the fox, full of bright-yellow butter. The bear and the fox are natural wild animals without clothes: they walk on four legs, but can sit up and use their front paws like hands.\n\nThis story's season, light and colours: Deep midwinter in bright, dazzling sunshine: sparkling white snow, a clear turquoise-blue sky, cool blue shadows and hoarfrost glittering on every twig, with the frozen lake a pale grey-blue. Near Christmas the Sunny Slope basks in warm lemon-yellow sunshine, and the last picture is a clear, deep-blue evening with a lemon glow low in the sky and the first stars. Accents: the fox's flame red, butter yellow and dark spruce green.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 29,
+      "anchor": "Men snart spisset reven ørene.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Nam, nam, nam, nam! Reven er ved smørtønna igjen.",
+      "alt": "Under en tett granbusk stikker reven snuten ned i smørtønna og spiser gult smør. Små revespor går gjennom snøen bort til bjørnen, som sover på ryggen i solbakken.",
+      "prompt": "On the Sunny Slope, under the low branches of the dense spruce bush, the Fox has pushed the lid off the little wooden butter tub and buries his snout in the yellow butter, eyes shut in bliss and tail waving. The tub is about half empty. A trail of small fox tracks runs across the sparkling snow from the tub back to the Stub-tailed Bear, who lies asleep on his back in the sunshine further down the slope, snoring, with his paws in the air. Bright midday winter sun.",
+      "characters": [
+        "rev",
+        "bjorn-stubbrumpet"
+      ],
+      "places": [
+        "solbakken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Fox, the same character seen from three sides. Keep the Fox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Stub-tailed Bear, the same character seen from three sides. Keep the Stub-tailed Bear's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stub-tailed Bear only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Sunny Slope. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: On the Sunny Slope, under the low branches of the dense spruce bush, the Fox has pushed the lid off the little wooden butter tub and buries his snout in the yellow butter, eyes shut in bliss and tail waving. The tub is about half empty. A trail of small fox tracks runs across the sparkling snow from the tub back to the Stub-tailed Bear, who lies asleep on his back in the sunshine further down the slope, snoring, with his paws in the air. Bright midday winter sun.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fox: A slim, light-footed, long-legged red fox with sleek, bright flame-red fur, a snow-white chin, throat and chest, black lower legs and paws, tall pointed ears with black backs, narrow amber eyes with a sly sideways glance, a long, pointed snout with long whiskers and a cheeky lopsided grin. His big, bushy red tail ends in a clean white tip.\n- the Stub-tailed Bear: The same huge, heavy, slow-moving bear after his fishing trip: thick, shaggy dark chocolate-brown winter fur, a broad head with small round ears, small, gentle black eyes under heavy brows, a short greyish-tan muzzle with a big black nose, a patient, slightly puzzled look and enormous flat paws with blunt claws. His long tail is gone: all that is left is a tiny, round, fluffy stump on his big round bottom.\n\nSetting:\n- the Sunny Slope: A gentle, south-facing clearing on a snowy hillside in the spruce forest, where the low winter sun shines all day: smooth, sparkling snow with a few grey rocks and tufts of dry golden grass poking through, and at its upper edge one dense, dark-green spruce bush whose low branches sweep the snow, leaving a hollow underneath. Tall spruces and birches ring the clearing, with blue hills far away.\n\nStory world: A snowy forest in old Norway, long ago, where the animals can talk. Below the spruce woods lies the Frozen Lake, a small forest lake covered with thick, snow-dusted ice. Up the hill is the Sunny Slope, an open clearing where the low winter sun shines, with one dense, dark spruce bush at its upper edge. The fox's bundle of fish is five plump silver fish tied together by their tails with a piece of string. The butter tub is a small, round wooden keg with a flat lid and two bent-wood hoops, about as tall as the fox, full of bright-yellow butter. The bear and the fox are natural wild animals without clothes: they walk on four legs, but can sit up and use their front paws like hands.\n\nThis story's season, light and colours: Deep midwinter in bright, dazzling sunshine: sparkling white snow, a clear turquoise-blue sky, cool blue shadows and hoarfrost glittering on every twig, with the frozen lake a pale grey-blue. Near Christmas the Sunny Slope basks in warm lemon-yellow sunshine, and the last picture is a clear, deep-blue evening with a lemon glow low in the sky and the first stars. Accents: the fox's flame red, butter yellow and dark spruce green.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 45,
+      "anchor": "Men reven listet seg bort til tønna.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Reven holder pusten og smører smøret på bjørnebaken.",
+      "alt": "Bjørnen sover på siden i sola. Bak ham står reven på tærne med oppblåste kinn og smører en liten smørklatt på bjørnebaken.",
+      "prompt": "Close, low view on the Sunny Slope: the Stub-tailed Bear lies fast asleep on his side in the warm sunshine, his big round bottom with its tiny stump of a tail turned towards us. On tiptoe behind him, cheeks puffed out because he is holding his breath, the Fox carefully dabs a small blob of yellow butter onto the sleeping bear's bottom with one claw. The empty butter tub lies on its side under the spruce bush in the background.",
+      "characters": [
+        "bjorn-stubbrumpet",
+        "rev"
+      ],
+      "places": [
+        "solbakken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Stub-tailed Bear, the same character seen from three sides. Keep the Stub-tailed Bear's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stub-tailed Bear only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Fox, the same character seen from three sides. Keep the Fox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Sunny Slope. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Close, low view on the Sunny Slope: the Stub-tailed Bear lies fast asleep on his side in the warm sunshine, his big round bottom with its tiny stump of a tail turned towards us. On tiptoe behind him, cheeks puffed out because he is holding his breath, the Fox carefully dabs a small blob of yellow butter onto the sleeping bear's bottom with one claw. The empty butter tub lies on its side under the spruce bush in the background.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Stub-tailed Bear: The same huge, heavy, slow-moving bear after his fishing trip: thick, shaggy dark chocolate-brown winter fur, a broad head with small round ears, small, gentle black eyes under heavy brows, a short greyish-tan muzzle with a big black nose, a patient, slightly puzzled look and enormous flat paws with blunt claws. His long tail is gone: all that is left is a tiny, round, fluffy stump on his big round bottom.\n- the Fox: A slim, light-footed, long-legged red fox with sleek, bright flame-red fur, a snow-white chin, throat and chest, black lower legs and paws, tall pointed ears with black backs, narrow amber eyes with a sly sideways glance, a long, pointed snout with long whiskers and a cheeky lopsided grin. His big, bushy red tail ends in a clean white tip.\n\nSetting:\n- the Sunny Slope: A gentle, south-facing clearing on a snowy hillside in the spruce forest, where the low winter sun shines all day: smooth, sparkling snow with a few grey rocks and tufts of dry golden grass poking through, and at its upper edge one dense, dark-green spruce bush whose low branches sweep the snow, leaving a hollow underneath. Tall spruces and birches ring the clearing, with blue hills far away.\n\nStory world: A snowy forest in old Norway, long ago, where the animals can talk. Below the spruce woods lies the Frozen Lake, a small forest lake covered with thick, snow-dusted ice. Up the hill is the Sunny Slope, an open clearing where the low winter sun shines, with one dense, dark spruce bush at its upper edge. The fox's bundle of fish is five plump silver fish tied together by their tails with a piece of string. The butter tub is a small, round wooden keg with a flat lid and two bent-wood hoops, about as tall as the fox, full of bright-yellow butter. The bear and the fox are natural wild animals without clothes: they walk on four legs, but can sit up and use their front paws like hands.\n\nThis story's season, light and colours: Deep midwinter in bright, dazzling sunshine: sparkling white snow, a clear turquoise-blue sky, cool blue shadows and hoarfrost glittering on every twig, with the frozen lake a pale grey-blue. Near Christmas the Sunny Slope basks in warm lemon-yellow sunshine, and the last picture is a clear, deep-blue evening with a lemon glow low in the sky and the first stars. Accents: the fox's flame red, butter yellow and dark spruce green.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 50,
+      "anchor": "Men den kvelden fikk reven vondt i magen.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Den kvelden fikk reven vondt i magen. En hel smørtønne er mye smør!",
+      "alt": "Det er kveld, og reven ligger på ryggen i snøen ved granbusken og holder seg på den runde, stramme magen. Ved siden av ligger den tomme smørtønna.",
+      "prompt": "Evening on the Sunny Slope: the snow lies deep blue under the first stars, with a last lemon-yellow glow behind the spruces. The Fox lies on his back in the snow beside the spruce bush, his tummy round and tight as a ball, holding it with both front paws, his ears drooping and a sorry, queasy look on his face. Next to him the little wooden butter tub lies on its side, licked completely clean. Funny and gentle.",
+      "characters": [
+        "rev"
+      ],
+      "places": [
+        "solbakken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Fox, the same character seen from three sides. Keep the Fox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Sunny Slope. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Evening on the Sunny Slope: the snow lies deep blue under the first stars, with a last lemon-yellow glow behind the spruces. The Fox lies on his back in the snow beside the spruce bush, his tummy round and tight as a ball, holding it with both front paws, his ears drooping and a sorry, queasy look on his face. Next to him the little wooden butter tub lies on its side, licked completely clean. Funny and gentle.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fox: A slim, light-footed, long-legged red fox with sleek, bright flame-red fur, a snow-white chin, throat and chest, black lower legs and paws, tall pointed ears with black backs, narrow amber eyes with a sly sideways glance, a long, pointed snout with long whiskers and a cheeky lopsided grin. His big, bushy red tail ends in a clean white tip.\n\nSetting:\n- the Sunny Slope: A gentle, south-facing clearing on a snowy hillside in the spruce forest, where the low winter sun shines all day: smooth, sparkling snow with a few grey rocks and tufts of dry golden grass poking through, and at its upper edge one dense, dark-green spruce bush whose low branches sweep the snow, leaving a hollow underneath. Tall spruces and birches ring the clearing, with blue hills far away.\n\nStory world: A snowy forest in old Norway, long ago, where the animals can talk. Below the spruce woods lies the Frozen Lake, a small forest lake covered with thick, snow-dusted ice. Up the hill is the Sunny Slope, an open clearing where the low winter sun shines, with one dense, dark spruce bush at its upper edge. The fox's bundle of fish is five plump silver fish tied together by their tails with a piece of string. The butter tub is a small, round wooden keg with a flat lid and two bent-wood hoops, about as tall as the fox, full of bright-yellow butter. The bear and the fox are natural wild animals without clothes: they walk on four legs, but can sit up and use their front paws like hands.\n\nThis story's season, light and colours: Deep midwinter in bright, dazzling sunshine: sparkling white snow, a clear turquoise-blue sky, cool blue shadows and hoarfrost glittering on every twig, with the frozen lake a pale grey-blue. Near Christmas the Sunny Slope basks in warm lemon-yellow sunshine, and the last picture is a clear, deep-blue evening with a lemon glow low in the sky and the first stars. Accents: the fox's flame red, butter yellow and dark spruce green.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

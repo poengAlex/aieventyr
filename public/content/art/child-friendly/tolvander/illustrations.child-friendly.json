@@ -1,0 +1,590 @@
+{
+  "storyId": "tolvander",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "De tolv villendene",
+  "textFile": "public/content/stories/tolvander/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:26.372Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Snehvit og Rosenrød syr skjorter av myrull til de tolv brødrene sine.",
+    "alt": "En jente med kullsvart hår sitter i kanten av en myr og syr på en hvit skjorte. Rundt henne står hvit myrull, og bak henne flyr tolv villender forbi.",
+    "prompt": "The Maiden sits on a mossy tussock at the misty edge of a bog, sewing a snow-white shirt in her lap, her lips pressed together in silence. All around her the fluffy white bog cotton glows in soft sunlight, and behind her twelve wild ducks fly past in a long V against the pale sky. A small basket of white caps stands at her feet.",
+    "characters": [
+      "snehvit-og-rosenrod"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Maiden, the same character seen from three sides. Keep the Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: The Maiden sits on a mossy tussock at the misty edge of a bog, sewing a snow-white shirt in her lap, her lips pressed together in silence. All around her the fluffy white bog cotton glows in soft sunlight, and behind her twelve wild ducks fly past in a long V against the pale sky. A small basket of white caps stands at her feet.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Maiden: A slim girl of about seventeen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a white ribbon. She wears a plain dark-teal wool dress with a deep front pocket, where the handle of a small silver spoon peeks out, a long grey knitted shawl and thin, worn brown shoes.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "snehvit-og-rosenrod",
+      "name": "Snehvit og Rosenrød",
+      "description": "Den stille, snille prinsessen som vandrer ut i verden for å gjøre godt igjen og redde sine tolv brødre ved å arbeide tålmodig og modig.",
+      "look": "A slim girl of about seventeen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a white ribbon. She wears a plain dark-teal wool dress with a deep front pocket, where the handle of a small silver spoon peeks out, a long grey knitted shawl and thin, worn brown shoes.",
+      "sheet": "characters/snehvit-og-rosenrod.webp",
+      "turn": "characters/snehvit-og-rosenrod-turn.mp4",
+      "portrait": "portraits/snehvit-og-rosenrod.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/snehvit-og-rosenrod.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/snehvit-og-rosenrod-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "snehvit-og-rosenrod"
+    },
+    {
+      "slug": "snehvit-og-rosenrod-dronning",
+      "name": "Snehvit og Rosenrød som dronning",
+      "description": "Prinsessen etter at hun har giftet seg med den unge kongen. Om kveldene syr hun skjorter av myrull, og hun kan ikke si et ord, selv når stemoren lyver om henne.",
+      "look": "A slim young woman of about eighteen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, under a slender silver crown. She wears a long, simple gown of snow-white linen embroidered with small rose-red roses along the hem and cuffs, a rose-red sash and soft grey slippers.",
+      "sheet": "characters/snehvit-og-rosenrod-dronning.webp",
+      "turn": "characters/snehvit-og-rosenrod-dronning-turn.mp4",
+      "portrait": "portraits/snehvit-og-rosenrod-dronning.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/snehvit-og-rosenrod-dronning.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/snehvit-og-rosenrod-dronning-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "dronningen",
+      "name": "Dronningen",
+      "description": "Moren til de tolv prinsene og prinsessen. Hun ønsket seg en datter så hvit som snø og så rød som blod, og så mistet hun de tolv guttene sine.",
+      "look": "A warm, motherly queen of about forty with a round face, a soft double chin, a small snub nose, kind hazel eyes, rosy cheeks and wavy chestnut hair going grey at the temples, pinned up under a small gold crown. She wears a long plum-purple winter cloak lined and trimmed with thick white fur over a plum gown, white fur mittens and fur-lined boots.",
+      "sheet": "characters/dronningen.webp",
+      "turn": "characters/dronningen-turn.mp4",
+      "portrait": "portraits/dronningen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dronningen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dronningen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "trollkjerringen",
+      "name": "Trollkjerringen",
+      "description": "En gammel trollkjerring med nese som en potet og hår som et kråkereir, som gjør de tolv prinsene om til villender.",
+      "look": "A short, stout old troll woman, no taller than a fence, with lumpy, sandy-beige skin, a huge knobbly nose exactly like a big potato, small beady black eyes, a wide crooked grin with three teeth, and an enormous tangle of black-and-grey hair like a crow's nest, stuck with twigs and one black feather. A thin cow's tail with a tuft pokes out under her patched grey skirt, and she wears a ragged moss-green shawl and big grey felt boots.",
+      "sheet": "characters/trollkjerringen.webp",
+      "turn": "characters/trollkjerringen-turn.mp4",
+      "portrait": "portraits/trollkjerringen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollkjerringen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollkjerringen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "den-unge-kongen",
+      "name": "Den unge kongen",
+      "description": "En godhjertet konge som møter prinsessen på myra, tar vare på henne og søker sannheten når det oppstår mistanke.",
+      "look": "A tall, slim young king of about twenty-five, clean-shaven, with a long, friendly face, a straight nose, warm brown eyes, a wide smile and fair, straight hair tied back at the neck with a dark-blue ribbon. On his head sits a thin gold circlet. He wears a sky-blue wool coat trimmed with white braid and fastened with brass toggles, a broad brown leather belt, fawn trousers, soft grey suede boots and a short grey travelling cloak.",
+      "sheet": "characters/den-unge-kongen.webp",
+      "turn": "characters/den-unge-kongen-turn.mp4",
+      "portrait": "portraits/den-unge-kongen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-unge-kongen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-unge-kongen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-unge-kongen"
+    },
+    {
+      "slug": "den-gamle-stemoren",
+      "name": "Den gamle stemoren",
+      "description": "En misunnelig, lur kvinne ved slottet som skaper uro med løgner, men til slutt blir sendt bort så hun ikke kan skade noen.",
+      "look": "A bony, very upright old woman with a long, pointed chin, a small hooked nose, narrow darting eyes, thin lips, a heavily powdered white face with two round spots of pink rouge, and a tall tower of steel-grey hair stuck with jewelled pins. She wears a stiff black brocade gown shot with silver thread and a tall, fan-shaped collar of grey lace, rings on every finger, and a silver hand mirror on a chain at her waist.",
+      "sheet": "characters/den-gamle-stemoren.webp",
+      "turn": "characters/den-gamle-stemoren-turn.mp4",
+      "portrait": "portraits/den-gamle-stemoren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-gamle-stemoren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-gamle-stemoren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-gamle-stemoren"
+    },
+    {
+      "slug": "den-yngste-broren",
+      "name": "Den yngste broren",
+      "description": "Den yngste av de tolv brødrene som er villender om dagen og prinser om natten. Han er snill mot søsteren sin fra første stund.",
+      "look": "A slim young man of about sixteen, the smallest of twelve brothers, with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a faded bottle-green cap, a worn chestnut-brown wool tunic with a white collar and a rope belt, patched grey trousers and soft grey boots.",
+      "sheet": "characters/den-yngste-broren.webp",
+      "turn": "characters/den-yngste-broren-turn.mp4",
+      "portrait": "portraits/den-yngste-broren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-yngste-broren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-yngste-broren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "de-tolv-brodrene"
+    },
+    {
+      "slug": "den-yngste-broren-vinge",
+      "name": "Den yngste broren med vingen",
+      "description": "Den yngste broren når trolldommen er brutt. Den siste skjorten fikk bare ett erme, så han har en andevinge i stedet for venstre arm.",
+      "look": "A slim young man of about sixteen with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a new, soft snow-white shirt, cap and scarf woven from bog cotton, grey trousers and soft grey boots. In place of his left arm he has a large wild duck's wing of grey-brown feathers with a shiny blue-violet patch edged in white.",
+      "sheet": "characters/den-yngste-broren-vinge.webp",
+      "turn": "characters/den-yngste-broren-vinge-turn.mp4",
+      "portrait": "portraits/den-yngste-broren-vinge.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-yngste-broren-vinge.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-yngste-broren-vinge-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    }
+  ],
+  "places": [
+    {
+      "slug": "hytta",
+      "name": "the Brothers' Cabin",
+      "look": "The inside of a small, cosy log cabin deep in a spruce forest: walls of round honey-brown logs, twelve narrow box beds built into the walls in two tiers of six, twelve wooden pegs by the door, a long plank table with twelve chairs, a squat black iron stove with a woodbox beside it, a braided rag rug on the plank floor and one small window looking out on tall spruces."
+    },
+    {
+      "slug": "slottsgarden",
+      "name": "the Castle Courtyard",
+      "look": "A wide cobbled courtyard in front of the young king's castle, a long, dark-red painted timber castle with white window frames, a tall gate tower with a shingled spire and a broad wooden stair up to the main door. A round stone well stands in the middle, and a wide archway in the far wall opens onto a bumpy road leading into the spruce forest."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "Bak gjerdet sto en gammel trollkjerring.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Bak gjerdet står en gammel trollkjerring med nese som en potet.",
+      "alt": "Dronningen står ved et gjerde i snøen med et lommetørkle mot nesen. Bak gjerdet stikker en trollkjerring med potetnese og hår som et kråkereir opp hodet og smiler lurt.",
+      "prompt": "Wide view of a snowy country road under a pale winter sun. The small red sleigh and its brown horse wait on the road, while the Queen stands beside a grey split-rail fence, holding a white handkerchief to her nose. From behind the fence, the Troll Hag has popped up and leans her elbows on the top rail with a sly, crooked grin. The Queen stares at her in surprise. Fresh, sparkling snow everywhere.",
+      "characters": [
+        "dronningen",
+        "trollkjerringen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Queen, the same character seen from three sides. Keep the Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Troll Hag, the same character seen from three sides. Keep the Troll Hag's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll Hag only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Wide view of a snowy country road under a pale winter sun. The small red sleigh and its brown horse wait on the road, while the Queen stands beside a grey split-rail fence, holding a white handkerchief to her nose. From behind the fence, the Troll Hag has popped up and leans her elbows on the top rail with a sly, crooked grin. The Queen stares at her in surprise. Fresh, sparkling snow everywhere.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Queen: A warm, motherly queen of about forty with a round face, a soft double chin, a small snub nose, kind hazel eyes, rosy cheeks and wavy chestnut hair going grey at the temples, pinned up under a small gold crown. She wears a long plum-purple winter cloak lined and trimmed with thick white fur over a plum gown, white fur mittens and fur-lined boots.\n- the Troll Hag: A short, stout old troll woman, no taller than a fence, with lumpy, sandy-beige skin, a huge knobbly nose exactly like a big potato, small beady black eyes, a wide crooked grin with three teeth, and an enormous tangle of black-and-grey hair like a crow's nest, stuck with twigs and one black feather. A thin cow's tail with a tuft pokes out under her patched grey skirt, and she wears a ragged moss-green shawl and big grey felt boots.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 12,
+      "anchor": "«Nei! Kom tilbake!» ropte dronningen",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Tolv villender flyr av sted, og dronningen roper: «Nei! Kom tilbake!»",
+      "alt": "Dronningen står i sleden med den lille prinsessen i armen og strekker ut hånden. Tolv villender flyr bort over de hvite jordene. I snøen blir fotsporene til andeføtter.",
+      "prompt": "By the grey fence on the snowy road, the Queen stands up in the red sleigh with a tiny baby wrapped in white fur in one arm, stretching her other hand out in dismay. Twelve wild ducks flap up from the snow and fly away low over the white fields in a long, ragged line. In the snow beside the sleigh, twelve trails of boot prints end suddenly in webbed duck footprints. Pale, low winter sun.",
+      "characters": [
+        "dronningen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Queen, the same character seen from three sides. Keep the Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: By the grey fence on the snowy road, the Queen stands up in the red sleigh with a tiny baby wrapped in white fur in one arm, stretching her other hand out in dismay. Twelve wild ducks flap up from the snow and fly away low over the white fields in a long, ragged line. In the snow beside the sleigh, twelve trails of boot prints end suddenly in webbed duck footprints. Pale, low winter sun.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Queen: A warm, motherly queen of about forty with a round face, a soft double chin, a small snub nose, kind hazel eyes, rosy cheeks and wavy chestnut hair going grey at the temples, pinned up under a small gold crown. She wears a long plum-purple winter cloak lined and trimmed with thick white fur over a plum gown, white fur mittens and fur-lined boots.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 19,
+      "anchor": "Dronningen gråt og ba henne bli.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun går og går, gjennom regn og sludd, til skoene er tynne som papir.",
+      "alt": "Prinsessen går alene over en våt myr i sludd. Hun har sjalet over hodet og en liten sekk på ryggen, og skoene hennes er helt utslitte.",
+      "prompt": "A wide, lonely moor under a heavy grey sky, with sleet slanting down. The Maiden trudges along a muddy path between dark pools and tussocks, her grey shawl pulled up over her head, her shoes worn thin, a small bundle on her back. She looks tired but determined, one hand on her pocket where her silver spoon is. Far behind her, low hills fade into the mist.",
+      "characters": [
+        "snehvit-og-rosenrod"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Maiden, the same character seen from three sides. Keep the Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A wide, lonely moor under a heavy grey sky, with sleet slanting down. The Maiden trudges along a muddy path between dark pools and tussocks, her grey shawl pulled up over her head, her shoes worn thin, a small bundle on her back. She looks tired but determined, one hand on her pocket where her silver spoon is. Far behind her, low hills fade into the mist.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Maiden: A slim girl of about seventeen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a white ribbon. She wears a plain dark-teal wool dress with a deep front pocket, where the handle of a small silver spoon peeks out, a long grey knitted shawl and thin, worn brown shoes.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 23,
+      "anchor": "Der inne sto det tolv senger og tolv stoler.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Tolv senger, tolv stoler, tolv luer og tolv sølvskjeer!",
+      "alt": "Prinsessen står inne i en liten tømmerhytte med tolv senger, tolv stoler og tolv luer på knagger. På bordet ligger tolv sølvskjeer, og hun holder opp sin egen skje.",
+      "prompt": "Inside the Brothers' Cabin, the Maiden stands just inside the door with her hands clasped in delight, gazing around. Twelve box beds line the walls in two tiers of six, twelve bottle-green caps hang on the twelve pegs by the door, and twelve chairs stand around the long table, where twelve silver spoons lie in a neat row. She holds up her own silver spoon to compare. Soft daylight falls through the small window.",
+      "characters": [
+        "snehvit-og-rosenrod"
+      ],
+      "places": [
+        "hytta"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Maiden, the same character seen from three sides. Keep the Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Brothers' Cabin. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Inside the Brothers' Cabin, the Maiden stands just inside the door with her hands clasped in delight, gazing around. Twelve box beds line the walls in two tiers of six, twelve bottle-green caps hang on the twelve pegs by the door, and twelve chairs stand around the long table, where twelve silver spoons lie in a neat row. She holds up her own silver spoon to compare. Soft daylight falls through the small window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Maiden: A slim girl of about seventeen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a white ribbon. She wears a plain dark-teal wool dress with a deep front pocket, where the handle of a small silver spoon peeks out, a long grey knitted shawl and thin, worn brown shoes.\n\nSetting:\n- the Brothers' Cabin: The inside of a small, cosy log cabin deep in a spruce forest: walls of round honey-brown logs, twelve narrow box beds built into the walls in two tiers of six, twelve wooden pegs by the door, a long plank table with twelve chairs, a squat black iron stove with a woodbox beside it, a braided rag rug on the plank floor and one small window looking out on tall spruces.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 26,
+      "anchor": "Snart suste det utenfor.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "SUS, SUS, SUS! Inn flakser tolv villender, og over dørstokken blir de til prinser.",
+      "alt": "Døren står åpen, og tre villender flakser inn. Ni prinser med bustete hår står allerede i stuen og snuser på suppen. Under en seng kikker prinsessen fram.",
+      "prompt": "Evening in the Brothers' Cabin, swept and tidy, a big pot of soup steaming on the stove. The door has flown open: the last three wild ducks are still flapping in over the threshold, while eight tousle-haired princes and the Youngest Brother already stand in the room, just changed from ducks, stretching and sniffing the soup. From under the lowest bed on the right, the Maiden peeks out with wide eyes. Golden evening sun through the window.",
+      "characters": [
+        "den-yngste-broren",
+        "snehvit-og-rosenrod"
+      ],
+      "places": [
+        "hytta"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Youngest Brother, the same character seen from three sides. Keep the Youngest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Maiden, the same character seen from three sides. Keep the Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Brothers' Cabin. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Evening in the Brothers' Cabin, swept and tidy, a big pot of soup steaming on the stove. The door has flown open: the last three wild ducks are still flapping in over the threshold, while eight tousle-haired princes and the Youngest Brother already stand in the room, just changed from ducks, stretching and sniffing the soup. From under the lowest bed on the right, the Maiden peeks out with wide eyes. Golden evening sun through the window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Youngest Brother: A slim young man of about sixteen, the smallest of twelve brothers, with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a faded bottle-green cap, a worn chestnut-brown wool tunic with a white collar and a rope belt, patched grey trousers and soft grey boots.\n- the Maiden: A slim girl of about seventeen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a white ribbon. She wears a plain dark-teal wool dress with a deep front pocket, where the handle of a small silver spoon peeks out, a long grey knitted shawl and thin, worn brown shoes.\n\nSetting:\n- the Brothers' Cabin: The inside of a small, cosy log cabin deep in a spruce forest: walls of round honey-brown logs, twelve narrow box beds built into the walls in two tiers of six, twelve wooden pegs by the door, a long plank table with twelve chairs, a squat black iron stove with a woodbox beside it, a braided rag rug on the plank floor and one small window looking out on tall spruces.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 35,
+      "anchor": "Så lette de.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Under sengene? JA! Der ligger hun, så redd at hun nesten ikke tør å puste.",
+      "alt": "Den yngste broren trekker prinsessen forsiktig fram fra under sengen sin. De andre brødrene står rundt og kikker, og den eldste står med armene i kors.",
+      "prompt": "In the Brothers' Cabin, twelve princes crowd round one of the lower box beds. The Youngest Brother kneels and gently draws the Maiden out from under his bed by the hand; she is trembling, her eyes wide with fright. Around them ten brothers lean in, peering curiously, and the eldest, the tallest one with a short black beard, stands behind with his arms crossed and a stern frown. Golden evening light.",
+      "characters": [
+        "den-yngste-broren",
+        "snehvit-og-rosenrod"
+      ],
+      "places": [
+        "hytta"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Youngest Brother, the same character seen from three sides. Keep the Youngest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Maiden, the same character seen from three sides. Keep the Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Brothers' Cabin. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the Brothers' Cabin, twelve princes crowd round one of the lower box beds. The Youngest Brother kneels and gently draws the Maiden out from under his bed by the hand; she is trembling, her eyes wide with fright. Around them ten brothers lean in, peering curiously, and the eldest, the tallest one with a short black beard, stands behind with his arms crossed and a stern frown. Golden evening light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Youngest Brother: A slim young man of about sixteen, the smallest of twelve brothers, with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a faded bottle-green cap, a worn chestnut-brown wool tunic with a white collar and a rope belt, patched grey trousers and soft grey boots.\n- the Maiden: A slim girl of about seventeen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a white ribbon. She wears a plain dark-teal wool dress with a deep front pocket, where the handle of a small silver spoon peeks out, a long grey knitted shawl and thin, worn brown shoes.\n\nSetting:\n- the Brothers' Cabin: The inside of a small, cosy log cabin deep in a spruce forest: walls of round honey-brown logs, twelve narrow box beds built into the walls in two tiers of six, twelve wooden pegs by the door, a long plank table with twelve chairs, a squat black iron stove with a woodbox beside it, a braided rag rug on the plank floor and one small window looking out on tall spruces.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 48,
+      "anchor": "Neste morgen tok de henne med til en stor myr.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Myrullen står så hvit at det ser ut som snø midt på sommeren.",
+      "alt": "Prinsessen står midt på en stor myr full av hvit myrull. Foran henne står tolv villender på rad og ser opp på henne, og hun nikker alvorlig.",
+      "prompt": "Early morning on a vast bog, so thick with fluffy white bog cotton that it looks like snow in the middle of summer. The Maiden stands among the white tufts with one hand on her heart and gives a small, solemn nod. In front of her, twelve wild ducks stand in a row on a mossy hummock, looking up at her. Soft golden sunrise light, thin mist and dew sparkling on the grass.",
+      "characters": [
+        "snehvit-og-rosenrod"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Maiden, the same character seen from three sides. Keep the Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Early morning on a vast bog, so thick with fluffy white bog cotton that it looks like snow in the middle of summer. The Maiden stands among the white tufts with one hand on her heart and gives a small, solemn nod. In front of her, twelve wild ducks stand in a row on a mossy hummock, looking up at her. Soft golden sunrise light, thin mist and dew sparkling on the grass.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Maiden: A slim girl of about seventeen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a white ribbon. She wears a plain dark-teal wool dress with a deep front pocket, where the handle of a small silver spoon peeks out, a long grey knitted shawl and thin, worn brown shoes.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 59,
+      "anchor": "Hun så lenge på ham.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun sier ingenting. Hun bare peker på sekkene sine.",
+      "alt": "Den unge kongen lener seg fram fra hesten og smiler. Prinsessen står i myrullen og peker på tre store sekker. Bak kongen venter fire menn på hester i tåken.",
+      "prompt": "On the misty bog, with sunlight shining through the fog, the Young King leans down from his tall chestnut horse, smiling with delighted curiosity. The Maiden stands silently among the white bog cotton and points at three big, bulging sacks stuffed with bog cotton beside her. Behind the king, four of his men wait on horseback in the mist, looking puzzled.",
+      "characters": [
+        "snehvit-og-rosenrod",
+        "den-unge-kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Maiden, the same character seen from three sides. Keep the Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: On the misty bog, with sunlight shining through the fog, the Young King leans down from his tall chestnut horse, smiling with delighted curiosity. The Maiden stands silently among the white bog cotton and points at three big, bulging sacks stuffed with bog cotton beside her. Behind the king, four of his men wait on horseback in the mist, looking puzzled.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Maiden: A slim girl of about seventeen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, tied with a white ribbon. She wears a plain dark-teal wool dress with a deep front pocket, where the handle of a small silver spoon peeks out, a long grey knitted shawl and thin, worn brown shoes.\n- the Young King: A tall, slim young king of about twenty-five, clean-shaven, with a long, friendly face, a straight nose, warm brown eyes, a wide smile and fair, straight hair tied back at the neck with a dark-blue ribbon. On his head sits a thin gold circlet. He wears a sky-blue wool coat trimmed with white braid and fastened with brass toggles, a broad brown leather belt, fawn trousers, soft grey suede boots and a short grey travelling cloak.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 67,
+      "anchor": "Gartneren var redd for henne.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Gartneren og konen hans gir babyen varm melk og synger for ham.",
+      "alt": "Bak en høy hekk sitter den gamle gartneren og konen hans utenfor et lite hus med babyen. De gir ham varm melk, pakker ham inn i et mykt teppe og synger for ham.",
+      "prompt": "In a hidden corner of the castle garden, behind a tall, dense hedge, stands the gardener's small cottage with a turf roof. On the bench by its open door in the evening light, the old gardener's wife cradles a baby boy in a soft blanket, while the old gardener holds a little cup of warm milk to the baby's lips. Both are singing to him with gentle smiles. A lantern glows on the wall.",
+      "characters": [],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In a hidden corner of the castle garden, behind a tall, dense hedge, stands the gardener's small cottage with a turf roof. On the bench by its open door in the evening light, the old gardener's wife cradles a baby boy in a soft blanket, while the old gardener holds a little cup of warm milk to the baby's lips. Both are singing to him with gentle smiles. A lantern glows on the wall.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 74,
+      "anchor": "«Nå ser du det!» ropte stemoren.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Tre barn er borte! Hun er en trollheks!» roper stemoren.",
+      "alt": "Stemoren peker på den unge dronningen og roper. Dronningen står helt stille med en halvsydd hvit skjorte og sier ingenting. Kongen står trist ved en tom vugge.",
+      "prompt": "In a castle nursery with an empty wooden cradle, the Old Stepmother points a bony, ringed finger at the Maiden Queen and shrieks, her tall grey hairdo wobbling. The Maiden Queen stands very still with her lips pressed together, eyes shining but not crying, a half-sewn white shirt clutched to her chest. The Young King stands between them with his head bowed in sorrow. Grey morning light through the window.",
+      "characters": [
+        "den-gamle-stemoren",
+        "snehvit-og-rosenrod-dronning",
+        "den-unge-kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Old Stepmother, the same character seen from three sides. Keep the Old Stepmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Stepmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Maiden Queen, the same character seen from three sides. Keep the Maiden Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In a castle nursery with an empty wooden cradle, the Old Stepmother points a bony, ringed finger at the Maiden Queen and shrieks, her tall grey hairdo wobbling. The Maiden Queen stands very still with her lips pressed together, eyes shining but not crying, a half-sewn white shirt clutched to her chest. The Young King stands between them with his head bowed in sorrow. Grey morning light through the window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Old Stepmother: A bony, very upright old woman with a long, pointed chin, a small hooked nose, narrow darting eyes, thin lips, a heavily powdered white face with two round spots of pink rouge, and a tall tower of steel-grey hair stuck with jewelled pins. She wears a stiff black brocade gown shot with silver thread and a tall, fan-shaped collar of grey lace, rings on every finger, and a silver hand mirror on a chain at her waist.\n- the Maiden Queen: A slim young woman of about eighteen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, under a slender silver crown. She wears a long, simple gown of snow-white linen embroidered with small rose-red roses along the hem and cuffs, a rose-red sash and soft grey slippers.\n- the Young King: A tall, slim young king of about twenty-five, clean-shaven, with a long, friendly face, a straight nose, warm brown eyes, a wide smile and fair, straight hair tied back at the neck with a dark-blue ribbon. On his head sits a thin gold circlet. He wears a sky-blue wool coat trimmed with white braid and fastened with brass toggles, a broad brown leather belt, fawn trousers, soft grey suede boots and a short grey travelling cloak.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 77,
+      "anchor": "Da suste det i luften.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "SUS, SUS, SUS! Tolv villender tar klærne sine i nebbet.",
+      "alt": "Tolv villender stuper ned i slottsgården og tar hver sine hvite klær i nebbet. Dronningen ser håpefullt på, kongen gaper, og stemoren står ved vognen.",
+      "prompt": "In the Castle Courtyard, twelve planks lie in a ring on the cobbles, each with a snow-white cap, shirt and scarf; the last shirt has only one sleeve. Twelve wild ducks swoop down out of the morning sky, and each snatches up its own bundle of clothes in its beak. The Maiden Queen watches with hope in her eyes, the Young King stares open-mouthed, and the Old Stepmother shrinks back beside the waiting carriage and its two stamping horses.",
+      "characters": [
+        "snehvit-og-rosenrod-dronning",
+        "den-unge-kongen",
+        "den-gamle-stemoren"
+      ],
+      "places": [
+        "slottsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Maiden Queen, the same character seen from three sides. Keep the Maiden Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Old Stepmother, the same character seen from three sides. Keep the Old Stepmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Stepmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: setting reference for the Castle Courtyard. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the Castle Courtyard, twelve planks lie in a ring on the cobbles, each with a snow-white cap, shirt and scarf; the last shirt has only one sleeve. Twelve wild ducks swoop down out of the morning sky, and each snatches up its own bundle of clothes in its beak. The Maiden Queen watches with hope in her eyes, the Young King stares open-mouthed, and the Old Stepmother shrinks back beside the waiting carriage and its two stamping horses.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Maiden Queen: A slim young woman of about eighteen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, under a slender silver crown. She wears a long, simple gown of snow-white linen embroidered with small rose-red roses along the hem and cuffs, a rose-red sash and soft grey slippers.\n- the Young King: A tall, slim young king of about twenty-five, clean-shaven, with a long, friendly face, a straight nose, warm brown eyes, a wide smile and fair, straight hair tied back at the neck with a dark-blue ribbon. On his head sits a thin gold circlet. He wears a sky-blue wool coat trimmed with white braid and fastened with brass toggles, a broad brown leather belt, fawn trousers, soft grey suede boots and a short grey travelling cloak.\n- the Old Stepmother: A bony, very upright old woman with a long, pointed chin, a small hooked nose, narrow darting eyes, thin lips, a heavily powdered white face with two round spots of pink rouge, and a tall tower of steel-grey hair stuck with jewelled pins. She wears a stiff black brocade gown shot with silver thread and a tall, fan-shaped collar of grey lace, rings on every finger, and a silver hand mirror on a chain at her waist.\n\nSetting:\n- the Castle Courtyard: A wide cobbled courtyard in front of the young king's castle, a long, dark-red painted timber castle with white window frames, a tall gate tower with a shingled spire and a broad wooden stair up to the main door. A round stone well stands in the middle, and a wide archway in the far wall opens onto a bumpy road leading into the spruce forest.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 80,
+      "anchor": "Klipp, klopp, klipp, klopp!",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Tolv prinser kommer ridende. Men den yngste har en andevinge i stedet for arm!",
+      "alt": "Tolv prinser i nye hvite skjorter og luer rir inn i slottsgården. Den yngste rir først og har en andevinge i stedet for venstre arm. Dronningen og kongen kan nesten ikke tro det de ser.",
+      "prompt": "Twelve princes on twelve horses ride in through the archway of the Castle Courtyard, all in new snow-white shirts, caps and scarves. In front rides the Winged Brother, a big grey-brown duck wing where his left arm should be, waving happily with his right hand. The Maiden Queen presses both hands to her heart, and the Young King stares in wonder. Morning sun on the cobbles.",
+      "characters": [
+        "den-yngste-broren-vinge",
+        "snehvit-og-rosenrod-dronning",
+        "den-unge-kongen"
+      ],
+      "places": [
+        "slottsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Winged Brother, the same character seen from three sides. Keep the Winged Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Winged Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Maiden Queen, the same character seen from three sides. Keep the Maiden Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: setting reference for the Castle Courtyard. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Twelve princes on twelve horses ride in through the archway of the Castle Courtyard, all in new snow-white shirts, caps and scarves. In front rides the Winged Brother, a big grey-brown duck wing where his left arm should be, waving happily with his right hand. The Maiden Queen presses both hands to her heart, and the Young King stares in wonder. Morning sun on the cobbles.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Winged Brother: A slim young man of about sixteen with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a new, soft snow-white shirt, cap and scarf woven from bog cotton, grey trousers and soft grey boots. In place of his left arm he has a large wild duck's wing of grey-brown feathers with a shiny blue-violet patch edged in white.\n- the Maiden Queen: A slim young woman of about eighteen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, under a slender silver crown. She wears a long, simple gown of snow-white linen embroidered with small rose-red roses along the hem and cuffs, a rose-red sash and soft grey slippers.\n- the Young King: A tall, slim young king of about twenty-five, clean-shaven, with a long, friendly face, a straight nose, warm brown eyes, a wide smile and fair, straight hair tied back at the neck with a dark-blue ribbon. On his head sits a thin gold circlet. He wears a sky-blue wool coat trimmed with white braid and fastened with brass toggles, a broad brown leather belt, fawn trousers, soft grey suede boots and a short grey travelling cloak.\n\nSetting:\n- the Castle Courtyard: A wide cobbled courtyard in front of the young king's castle, a long, dark-red painted timber castle with white window frames, a tall gate tower with a shingled spire and a broad wooden stair up to the main door. A round stone well stands in the middle, and a wide archway in the far wall opens onto a bumpy road leading into the spruce forest.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "13",
+      "paragraph": 86,
+      "anchor": "Alle gikk etter ham, gjennom hele slottshagen",
+      "file": "scenes/13.webp",
+      "sources": [
+        {
+          "file": "scenes/13.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/13-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Bak hekken leker tre små barn med padder og meitemark.",
+      "alt": "Bak en høy hekk leker to små gutter og en liten jente i gresset med padder og meitemark. Gartneren og konen hans passer på dem. Gjennom hekken kommer dronningen, kongen og brødrene.",
+      "prompt": "Behind the tall, dense hedge at the far end of the castle garden, three small children play in a sunny patch of grass with two fat toads and a few wriggly earthworms: two little boys and a little girl. The old gardener and his wife stand beside them, smiling. Pushing through a gap in the hedge come the Winged Brother, the Maiden Queen and the Young King, their faces lighting up with joy, and eleven brothers in white crowd behind them.",
+      "characters": [
+        "den-yngste-broren-vinge",
+        "snehvit-og-rosenrod-dronning",
+        "den-unge-kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Winged Brother, the same character seen from three sides. Keep the Winged Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Winged Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Maiden Queen, the same character seen from three sides. Keep the Maiden Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Behind the tall, dense hedge at the far end of the castle garden, three small children play in a sunny patch of grass with two fat toads and a few wriggly earthworms: two little boys and a little girl. The old gardener and his wife stand beside them, smiling. Pushing through a gap in the hedge come the Winged Brother, the Maiden Queen and the Young King, their faces lighting up with joy, and eleven brothers in white crowd behind them.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Winged Brother: A slim young man of about sixteen with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a new, soft snow-white shirt, cap and scarf woven from bog cotton, grey trousers and soft grey boots. In place of his left arm he has a large wild duck's wing of grey-brown feathers with a shiny blue-violet patch edged in white.\n- the Maiden Queen: A slim young woman of about eighteen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, under a slender silver crown. She wears a long, simple gown of snow-white linen embroidered with small rose-red roses along the hem and cuffs, a rose-red sash and soft grey slippers.\n- the Young King: A tall, slim young king of about twenty-five, clean-shaven, with a long, friendly face, a straight nose, warm brown eyes, a wide smile and fair, straight hair tied back at the neck with a dark-blue ribbon. On his head sits a thin gold circlet. He wears a sky-blue wool coat trimmed with white braid and fastened with brass toggles, a broad brown leather belt, fawn trousers, soft grey suede boots and a short grey travelling cloak.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "14",
+      "paragraph": 92,
+      "anchor": "Og slik ble det.",
+      "file": "scenes/14.webp",
+      "sources": [
+        {
+          "file": "scenes/14.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/14-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Humpete-dump, humpete-dump! Så bærer det av sted over stokk og stein.",
+      "alt": "Stemoren sitter i en vogn som humper av sted over stokk og stein, trukket av tolv ville hester. Hun holder seg fast, og det høye håret hennes flagrer.",
+      "prompt": "Twelve wild, shaggy horses gallop out through the archway of the Castle Courtyard, dragging a rattling wooden carriage that bounces over sticks and stones, humpety-bump. Inside it the Old Stepmother clutches the sides with both hands, her tall grey hairdo flapping and her hand mirror swinging on its chain, her mouth a round, outraged O. Dust flies up behind. Funny, like a runaway ride, not scary.",
+      "characters": [
+        "den-gamle-stemoren"
+      ],
+      "places": [
+        "slottsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Old Stepmother, the same character seen from three sides. Keep the Old Stepmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Stepmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Castle Courtyard. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Twelve wild, shaggy horses gallop out through the archway of the Castle Courtyard, dragging a rattling wooden carriage that bounces over sticks and stones, humpety-bump. Inside it the Old Stepmother clutches the sides with both hands, her tall grey hairdo flapping and her hand mirror swinging on its chain, her mouth a round, outraged O. Dust flies up behind. Funny, like a runaway ride, not scary.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Old Stepmother: A bony, very upright old woman with a long, pointed chin, a small hooked nose, narrow darting eyes, thin lips, a heavily powdered white face with two round spots of pink rouge, and a tall tower of steel-grey hair stuck with jewelled pins. She wears a stiff black brocade gown shot with silver thread and a tall, fan-shaped collar of grey lace, rings on every finger, and a silver hand mirror on a chain at her waist.\n\nSetting:\n- the Castle Courtyard: A wide cobbled courtyard in front of the young king's castle, a long, dark-red painted timber castle with white window frames, a tall gate tower with a shingled spire and a broad wooden stair up to the main door. A round stone well stands in the middle, and a wide archway in the far wall opens onto a bumpy road leading into the spruce forest.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "15",
+      "paragraph": 95,
+      "anchor": "Og Snehvit og Rosenrød? Hun lo.",
+      "file": "scenes/15.webp",
+      "sources": [
+        {
+          "file": "scenes/15.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/15-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Og Snehvit og Rosenrød? Hun ler. For det har hun lov til nå.",
+      "alt": "Tre små barn ligger i en seng, og onkelen deres breier andevingen sin over dem som et teppe. I døren står Snehvit og Rosenrød og ler.",
+      "prompt": "A cosy bedroom in the evening, lit by a single candle. Three small children lie tucked up together in one big bed, giggling, while the Winged Brother sits on the edge and spreads his big duck wing over them like a feather blanket. In the doorway the Maiden Queen laughs out loud with happiness, one hand on the door frame. Warm, soft light and long shadows.",
+      "characters": [
+        "den-yngste-broren-vinge",
+        "snehvit-og-rosenrod-dronning"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Winged Brother, the same character seen from three sides. Keep the Winged Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Winged Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Maiden Queen, the same character seen from three sides. Keep the Maiden Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Maiden Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A cosy bedroom in the evening, lit by a single candle. Three small children lie tucked up together in one big bed, giggling, while the Winged Brother sits on the edge and spreads his big duck wing over them like a feather blanket. In the doorway the Maiden Queen laughs out loud with happiness, one hand on the door frame. Warm, soft light and long shadows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Winged Brother: A slim young man of about sixteen with snow-pale skin, a narrow, gentle face, a small straight nose, large dark-grey eyes and tousled raven-black hair that sticks up at the back like ruffled feathers. He wears a new, soft snow-white shirt, cap and scarf woven from bog cotton, grey trousers and soft grey boots. In place of his left arm he has a large wild duck's wing of grey-brown feathers with a shiny blue-violet patch edged in white.\n- the Maiden Queen: A slim young woman of about eighteen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, under a slender silver crown. She wears a long, simple gown of snow-white linen embroidered with small rose-red roses along the hem and cuffs, a rose-red sash and soft grey slippers.\n\nStory world: Old rural Norway, long ago. The queen's castle lies among wide, snowy fields, with a grey split-rail fence along the sleigh road; her sleigh is small and red with brass bells, pulled by one brown horse. The thirteen silver spoons are alike, each with a tiny crown on the handle. As wild ducks, the twelve brothers are mallard drakes with glossy bottle-green heads, white neck rings, chestnut breasts and grey backs. As men they look alike, with tousled raven-black hair, bottle-green caps and chestnut-brown tunics; the eldest is the tallest and has a short black beard. Bog cotton grows in fluffy white tufts, and everything made from it is soft and snow-white. The old gardener is small and bald with a grey beard; his wife is tall and thin in a white headscarf. The three children are two boys with fair curls and a girl with black hair.\n\nThis story's season, light and colours: Snow-white, rose-red and raven-black accents throughout. The opening is a still, hushed winter day of fresh snow under a pale, low sun; the brothers' forest is deep spruce-green with warm amber firelight in the cabin; the bog lies in pearly midsummer fog with the sun glowing through; the castle scenes have cool, dewy early-morning light and pale-green lawns.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "storyId": "rfoxgjt",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Reven som gjeter",
+  "textFile": "public/content/stories/rfoxgjt/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:22.712Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Kona trenger en gjeter. Hvem av dem skal hun velge?",
+    "alt": "Kona står på en sti ved skogkanten. Foran henne står bjørnen med stav og veske, ulven og den lille reven på rad, og alle vil gjerne bli gjeter.",
+    "prompt": "On the grassy track at the Forest Edge, the Farm Wife leans on her stick and looks over three hopeful animals lined up in a row on the verge, each one wanting to be her shepherd: the Bear standing upright with his shepherd's crook and leather bag, the Wolf trying his best to look polite, and the Fox sitting neatly with his tail curled around his paws, smiling sweetly. Clear, cool morning sunshine, with red dwarf birch and golden grass along the verge.",
+    "characters": [
+      "kona",
+      "bjornen",
+      "ulven",
+      "reven"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Farm Wife, the same character seen from three sides. Keep the Farm Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farm Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Bear, the same character seen from three sides. Keep the Bear's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Bear only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Wolf, the same character seen from three sides. Keep the Wolf's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Wolf only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: model sheet for the Fox, the same character seen from three sides. Keep the Fox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 6: setting reference for the Forest Edge. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: On the grassy track at the Forest Edge, the Farm Wife leans on her stick and looks over three hopeful animals lined up in a row on the verge, each one wanting to be her shepherd: the Bear standing upright with his shepherd's crook and leather bag, the Wolf trying his best to look polite, and the Fox sitting neatly with his tail curled around his paws, smiling sweetly. Clear, cool morning sunshine, with red dwarf birch and golden grass along the verge.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Farm Wife: A strong, broad-shouldered farm wife of about forty with a wide, sun-browned face, a broad nose, sharp blue eyes under straight black eyebrows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red kerchief knotted at the nape. She wears a dark-green wool dress with short sleeves, a blue-and-white checked apron, a wide leather belt and sturdy leather shoes, and carries a long, white-barked birch stick.\n- the Bear: A big, round, cuddly bear with fluffy honey-blond fur, paler cream-coloured fur on his muzzle and round tummy, a wide round face, small half-moon ears, a shiny black button nose, little kind brown eyes and a tuft of fur sticking up on top of his head. He walks upright on his hind legs like a man and carries a long wooden shepherd's crook and a worn leather shoulder bag, like a proper shepherd.\n- the Wolf: A lanky, long-legged grey wolf with shaggy smoke-grey fur, darker along his back and pale silver on his chest and legs, a long narrow muzzle, pale yellow eyes, tall pointed ears with the left one bent over at the tip, a thin bushy tail held low, and a polite, awkward, closed-mouth smile. He looks shy and gangly rather than fierce.\n- the Fox: A small, round, fluffy young fox with soft golden-orange fur the colour of marigolds, a creamy-white bib and cheeks, dark-brown paws, big soft ears lined with cream fur, large round honey-brown eyes with long lashes, a short snout and a sweet, innocent smile. His fluffy golden-orange tail ends in a sooty black tip. Across his chest he wears a thin strap with a little brown leather shepherd's pouch.\n\nSetting:\n- the Forest Edge: Where the mountain pasture meets the birch forest: a grassy track winding between crooked, white-stemmed mountain birches with the first yellow leaves and a few dark spruces, a big mossy grey boulder beside the track, one tall birch with low, spreading branches, patches of red dwarf birch, blueberry bushes and golden grass along the verges, and blue mountain ridges far away.\n\nStory world: Old rural Norway, long ago, where the animals can talk. The farm wife spends the summer at her mountain summer farm, high up where the birch forest ends: a small grey log hut with a grass roof and a stone doorstep, a little cowshed, and a split-rail fence around a green mountain pasture, with a clear, stony brook below and a little grove of birches beyond it. A grassy track leads from the hut down into the birch forest. Her animals are exactly two white goats, three woolly white sheep and two brown-and-white cows. Her butter churn is a tall, narrow wooden churn with dark hoops and a long wooden dasher sticking out of its lid. The wolf and the fox are natural animals, apart from the fox's little pouch.\n\nThis story's season, light and colours: Late August at a mountain summer farm, when the fells take on their first autumn colours: carpets of deep-red dwarf birch and golden grass on the slopes, ripe blueberries, blue ridges far away, and clear, cool, sunny air. The evening scene glows orange and rose over the mountains. Accents: dwarf-birch red, the fox's golden orange and creamy white.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "kona",
+      "name": "Kona",
+      "description": "En snill, men bestemt bondekone som vil ha en gjeter med et trygt og pent lokkerop, og som setter grenser når reven lurer henne.",
+      "look": "A strong, broad-shouldered farm wife of about forty with a wide, sun-browned face, a broad nose, sharp blue eyes under straight black eyebrows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red kerchief knotted at the nape. She wears a dark-green wool dress with short sleeves, a blue-and-white checked apron, a wide leather belt and sturdy leather shoes, and carries a long, white-barked birch stick.",
+      "sheet": "characters/kona.webp",
+      "turn": "characters/kona-turn.mp4",
+      "portrait": "portraits/kona.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kona.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kona-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kona"
+    },
+    {
+      "slug": "reven",
+      "name": "Reven",
+      "description": "En sjarmerende og litt for smart rev som synger pent for å få jobben, men som fristes av fløte og lærer en mild lekse.",
+      "look": "A small, round, fluffy young fox with soft golden-orange fur the colour of marigolds, a creamy-white bib and cheeks, dark-brown paws, big soft ears lined with cream fur, large round honey-brown eyes with long lashes, a short snout and a sweet, innocent smile. His fluffy golden-orange tail ends in a sooty black tip. Across his chest he wears a thin strap with a little brown leather shepherd's pouch.",
+      "sheet": "characters/reven.webp",
+      "turn": "characters/reven-turn.mp4",
+      "portrait": "portraits/reven.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/reven.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/reven-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "reven"
+    },
+    {
+      "slug": "bjornen",
+      "name": "Bjørnen",
+      "description": "En stor, brummende bjørn som gjerne vil være gjeter, men som høres for grov ut til jobben.",
+      "look": "A big, round, cuddly bear with fluffy honey-blond fur, paler cream-coloured fur on his muzzle and round tummy, a wide round face, small half-moon ears, a shiny black button nose, little kind brown eyes and a tuft of fur sticking up on top of his head. He walks upright on his hind legs like a man and carries a long wooden shepherd's crook and a worn leather shoulder bag, like a proper shepherd.",
+      "sheet": "characters/bjornen.webp",
+      "turn": "characters/bjornen-turn.mp4",
+      "portrait": "portraits/bjornen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/bjornen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/bjornen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "bjornen"
+    },
+    {
+      "slug": "ulven",
+      "name": "Ulven",
+      "description": "En ulv som tilbyr seg å gjete, men som har et lokkerop som ikke føles trygt for kona.",
+      "look": "A lanky, long-legged grey wolf with shaggy smoke-grey fur, darker along his back and pale silver on his chest and legs, a long narrow muzzle, pale yellow eyes, tall pointed ears with the left one bent over at the tip, a thin bushy tail held low, and a polite, awkward, closed-mouth smile. He looks shy and gangly rather than fierce.",
+      "sheet": "characters/ulven.webp",
+      "turn": "characters/ulven-turn.mp4",
+      "portrait": "portraits/ulven.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/ulven.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/ulven-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "ulven"
+    }
+  ],
+  "places": [
+    {
+      "slug": "skogkanten",
+      "name": "the Forest Edge",
+      "look": "Where the mountain pasture meets the birch forest: a grassy track winding between crooked, white-stemmed mountain birches with the first yellow leaves and a few dark spruces, a big mossy grey boulder beside the track, one tall birch with low, spreading branches, patches of red dwarf birch, blueberry bushes and golden grass along the verges, and blue mountain ridges far away."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 6,
+      "anchor": "Bjørnen trakk pusten.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Hø-il!» brummer bjørnen, så bladene rister på trærne.",
+      "alt": "Bjørnen står på bakbeina med gjeterstaven i været og brøler, så bladene virvler av trærne. Kona lener seg bakover og kniper igjen øynene.",
+      "prompt": "On the track at the Forest Edge, the Bear stands on his hind legs with his shepherd's crook raised high and his chest puffed up, bellowing with his mouth wide open, so loudly that the birches shake and a flurry of yellow birch leaves whirls off the branches. A few steps away, the Farm Wife leans backwards with her eyes squeezed shut, one hand pressed over her ear and the other gripping her stick, her apron flapping. Clear, cool, sunny morning.",
+      "characters": [
+        "bjornen",
+        "kona"
+      ],
+      "places": [
+        "skogkanten"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Bear, the same character seen from three sides. Keep the Bear's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Bear only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Farm Wife, the same character seen from three sides. Keep the Farm Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farm Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Forest Edge. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: On the track at the Forest Edge, the Bear stands on his hind legs with his shepherd's crook raised high and his chest puffed up, bellowing with his mouth wide open, so loudly that the birches shake and a flurry of yellow birch leaves whirls off the branches. A few steps away, the Farm Wife leans backwards with her eyes squeezed shut, one hand pressed over her ear and the other gripping her stick, her apron flapping. Clear, cool, sunny morning.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Bear: A big, round, cuddly bear with fluffy honey-blond fur, paler cream-coloured fur on his muzzle and round tummy, a wide round face, small half-moon ears, a shiny black button nose, little kind brown eyes and a tuft of fur sticking up on top of his head. He walks upright on his hind legs like a man and carries a long wooden shepherd's crook and a worn leather shoulder bag, like a proper shepherd.\n- the Farm Wife: A strong, broad-shouldered farm wife of about forty with a wide, sun-browned face, a broad nose, sharp blue eyes under straight black eyebrows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red kerchief knotted at the nape. She wears a dark-green wool dress with short sleeves, a blue-and-white checked apron, a wide leather belt and sturdy leather shoes, and carries a long, white-barked birch stick.\n\nSetting:\n- the Forest Edge: Where the mountain pasture meets the birch forest: a grassy track winding between crooked, white-stemmed mountain birches with the first yellow leaves and a few dark spruces, a big mossy grey boulder beside the track, one tall birch with low, spreading branches, patches of red dwarf birch, blueberry bushes and golden grass along the verges, and blue mountain ridges far away.\n\nStory world: Old rural Norway, long ago, where the animals can talk. The farm wife spends the summer at her mountain summer farm, high up where the birch forest ends: a small grey log hut with a grass roof and a stone doorstep, a little cowshed, and a split-rail fence around a green mountain pasture, with a clear, stony brook below and a little grove of birches beyond it. A grassy track leads from the hut down into the birch forest. Her animals are exactly two white goats, three woolly white sheep and two brown-and-white cows. Her butter churn is a tall, narrow wooden churn with dark hoops and a long wooden dasher sticking out of its lid. The wolf and the fox are natural animals, apart from the fox's little pouch.\n\nThis story's season, light and colours: Late August at a mountain summer farm, when the fells take on their first autumn colours: carpets of deep-red dwarf birch and golden grass on the slopes, ripe blueberries, blue ridges far away, and clear, cool, sunny air. The evening scene glows orange and rose over the mountains. Accents: dwarf-birch red, the fox's golden orange and creamy white.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 20,
+      "anchor": "«Dil-dal-holom!» sang reven, så lyst og fint at fuglene ble stille.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Dil-dal-holom!» synger reven, så lyst og fint at fuglene blir stille.",
+      "alt": "Reven sitter rett opp og ned på en mosegrodd stein og synger med lukkede øyne. Fire små fugler sitter musestille i bjørka og lytter, og kona smiler.",
+      "prompt": "At the Forest Edge, the Fox sits very straight on the mossy boulder with his tail wrapped neatly around his paws, his eyes closed and his snout raised, singing a sweet, clear song. On a low branch of the tall birch above him, four small birds sit perfectly still with their beaks shut, listening. The Farm Wife stands on the track with both hands folded on top of her stick, smiling in delight. Soft, golden morning sunshine.",
+      "characters": [
+        "reven",
+        "kona"
+      ],
+      "places": [
+        "skogkanten"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Fox, the same character seen from three sides. Keep the Fox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Farm Wife, the same character seen from three sides. Keep the Farm Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farm Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Forest Edge. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: At the Forest Edge, the Fox sits very straight on the mossy boulder with his tail wrapped neatly around his paws, his eyes closed and his snout raised, singing a sweet, clear song. On a low branch of the tall birch above him, four small birds sit perfectly still with their beaks shut, listening. The Farm Wife stands on the track with both hands folded on top of her stick, smiling in delight. Soft, golden morning sunshine.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fox: A small, round, fluffy young fox with soft golden-orange fur the colour of marigolds, a creamy-white bib and cheeks, dark-brown paws, big soft ears lined with cream fur, large round honey-brown eyes with long lashes, a short snout and a sweet, innocent smile. His fluffy golden-orange tail ends in a sooty black tip. Across his chest he wears a thin strap with a little brown leather shepherd's pouch.\n- the Farm Wife: A strong, broad-shouldered farm wife of about forty with a wide, sun-browned face, a broad nose, sharp blue eyes under straight black eyebrows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red kerchief knotted at the nape. She wears a dark-green wool dress with short sleeves, a blue-and-white checked apron, a wide leather belt and sturdy leather shoes, and carries a long, white-barked birch stick.\n\nSetting:\n- the Forest Edge: Where the mountain pasture meets the birch forest: a grassy track winding between crooked, white-stemmed mountain birches with the first yellow leaves and a few dark spruces, a big mossy grey boulder beside the track, one tall birch with low, spreading branches, patches of red dwarf birch, blueberry bushes and golden grass along the verges, and blue mountain ridges far away.\n\nStory world: Old rural Norway, long ago, where the animals can talk. The farm wife spends the summer at her mountain summer farm, high up where the birch forest ends: a small grey log hut with a grass roof and a stone doorstep, a little cowshed, and a split-rail fence around a green mountain pasture, with a clear, stony brook below and a little grove of birches beyond it. A grassy track leads from the hut down into the birch forest. Her animals are exactly two white goats, three woolly white sheep and two brown-and-white cows. Her butter churn is a tall, narrow wooden churn with dark hoops and a long wooden dasher sticking out of its lid. The wolf and the fox are natural animals, apart from the fox's little pouch.\n\nThis story's season, light and colours: Late August at a mountain summer farm, when the fells take on their first autumn colours: carpets of deep-red dwarf birch and golden grass on the slopes, ripe blueberries, blue ridges far away, and clear, cool, sunny air. The evening scene glows orange and rose over the mountains. Accents: dwarf-birch red, the fox's golden orange and creamy white.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 29,
+      "anchor": "Nå ble kona sint.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Plask! Den siste fløteskvetten treffer reven helt ytterst på halen.",
+      "alt": "Det er kveld på gården. Kona slenger en skvett fløte etter reven, som springer mot skogen med fløte i værhårene. Skvetten treffer ham helt ytterst på halen.",
+      "prompt": "Evening outside the little grey log hut of the summer farm, lit by an orange-and-rose sunset over the mountains. The Farm Wife stands by the tall wooden butter churn on the stone doorstep, flinging the last splash of cream from a wooden scoop, her face cross. The Fox dashes off towards the birch forest with drops of cream on his whiskers, looking back over his shoulder in surprise as the white splash lands right on the black tip of his tail. Behind the log fence, two goats, three sheep and two cows are safely home again.",
+      "characters": [
+        "kona",
+        "reven"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Farm Wife, the same character seen from three sides. Keep the Farm Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farm Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Fox, the same character seen from three sides. Keep the Fox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Evening outside the little grey log hut of the summer farm, lit by an orange-and-rose sunset over the mountains. The Farm Wife stands by the tall wooden butter churn on the stone doorstep, flinging the last splash of cream from a wooden scoop, her face cross. The Fox dashes off towards the birch forest with drops of cream on his whiskers, looking back over his shoulder in surprise as the white splash lands right on the black tip of his tail. Behind the log fence, two goats, three sheep and two cows are safely home again.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Farm Wife: A strong, broad-shouldered farm wife of about forty with a wide, sun-browned face, a broad nose, sharp blue eyes under straight black eyebrows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red kerchief knotted at the nape. She wears a dark-green wool dress with short sleeves, a blue-and-white checked apron, a wide leather belt and sturdy leather shoes, and carries a long, white-barked birch stick.\n- the Fox: A small, round, fluffy young fox with soft golden-orange fur the colour of marigolds, a creamy-white bib and cheeks, dark-brown paws, big soft ears lined with cream fur, large round honey-brown eyes with long lashes, a short snout and a sweet, innocent smile. His fluffy golden-orange tail ends in a sooty black tip. Across his chest he wears a thin strap with a little brown leather shepherd's pouch.\n\nStory world: Old rural Norway, long ago, where the animals can talk. The farm wife spends the summer at her mountain summer farm, high up where the birch forest ends: a small grey log hut with a grass roof and a stone doorstep, a little cowshed, and a split-rail fence around a green mountain pasture, with a clear, stony brook below and a little grove of birches beyond it. A grassy track leads from the hut down into the birch forest. Her animals are exactly two white goats, three woolly white sheep and two brown-and-white cows. Her butter churn is a tall, narrow wooden churn with dark hoops and a long wooden dasher sticking out of its lid. The wolf and the fox are natural animals, apart from the fox's little pouch.\n\nThis story's season, light and colours: Late August at a mountain summer farm, when the fells take on their first autumn colours: carpets of deep-red dwarf birch and golden grass on the slopes, ripe blueberries, blue ridges far away, and clear, cool, sunny air. The evening scene glows orange and rose over the mountains. Accents: dwarf-birch red, the fox's golden orange and creamy white.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "storyId": "spurning",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Spørsmålet",
+  "textFile": "public/content/stories/spurning/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:26.220Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Askeladden er på vei til den kvikke prinsessen med en sekk full av rare ting.",
+    "alt": "Askeladden går opp veien mot slottet med sekken over skulderen og et bukkehorn i hånda. Fra et vindu i tårnet lener prinsessen seg ut med armene i kors.",
+    "prompt": "On a windy spring day, Askeladden strides up the winding road towards the king's castle on its green hill, his brown cloak flapping, his bulging sack over his shoulder and a crooked goat horn in his hand. High above in an open tower window, the Princess leans on the windowsill with her arms crossed and her chin up, one sharp eyebrow raised. White clouds race across the bright blue sky and the young birch leaves shine yellow-green.",
+    "characters": [
+      "askeladden",
+      "prinsessen"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Princess, the same character seen from three sides. Keep the Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: On a windy spring day, Askeladden strides up the winding road towards the king's castle on its green hill, his brown cloak flapping, his bulging sack over his shoulder and a crooked goat horn in his hand. High above in an open tower window, the Princess leans on the windowsill with her arms crossed and her chin up, one sharp eyebrow raised. White clouds race across the bright blue sky and the young birch leaves shine yellow-green.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A slim, lean lad of about sixteen with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded wool cloak fastened with a wooden toggle over a knee-length ochre tunic with a woven belt, dark-grey trousers and soft brown leather shoes.\n- the Princess: A quick-witted princess of about eighteen, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun with a small silver crown pinned in front of it. She wears a long lilac dress with a fitted bodice, puffed sleeves and silver embroidery at the neckline, and small silver earrings.\n\nStory world: Old rural Norway, long ago. The king's castle is a tall castle of dark, tarred timber with steep turf roofs and one slender tower, on a green hill above ploughed fields, a winding road and birch groves. The princess receives her suitors in the castle's bright hall, which has tall windows, walls painted with red and blue rosemaling flowers, a long carved oak table and a tall carved chair for her. Askeladden's finds are a small hoop of bent green willow, a pale shard of a broken blue-and-white bowl, two crooked goat horns that look exactly alike, and an old, worn-out leather shoe sole with a big hole in it. He carries them in a patched brown sack.\n\nThis story's season, light and colours: A windy spring day: white clouds racing across a bright blue sky, fresh yellow-green birch leaves and young grass, dandelions and coltsfoot, and cloaks, hair and grass all blowing in the wind. Inside the castle: clear, cool daylight through tall windows, with the fresh spring green outside.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "description": "En rolig og oppfinnsom gutt som møter ordlek med vennlighet og finner smarte løsninger med små ting han har samlet på veien.",
+      "look": "A slim, lean lad of about sixteen with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded wool cloak fastened with a wooden toggle over a knee-length ochre tunic with a woven belt, dark-grey trousers and soft brown leather shoes.",
+      "sheet": "characters/askeladden.webp",
+      "turn": "characters/askeladden-turn.mp4",
+      "portrait": "portraits/askeladden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/askeladden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/askeladden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "askeladden"
+    },
+    {
+      "slug": "prinsessen",
+      "name": "Prinsessen",
+      "description": "En kvikk prinsesse som elsker raske svar, men som blir mer nysgjerrig enn spydig når Askeladden gjør ordleken til noe morsomt.",
+      "look": "A quick-witted princess of about eighteen, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun with a small silver crown pinned in front of it. She wears a long lilac dress with a fitted bodice, puffed sleeves and silver embroidery at the neckline, and small silver earrings.",
+      "sheet": "characters/prinsessen.webp",
+      "turn": "characters/prinsessen-turn.mp4",
+      "portrait": "portraits/prinsessen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsessen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsessen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "prinsessen"
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "description": "En rettferdig og godhjertet konge som vil se at utfordringen løses på en klok og fredelig måte.",
+      "look": "A tired, stooped, elderly king with a long, gentle, wrinkled face, sleepy grey eyes with heavy bags under them, bushy grey eyebrows and a huge, drooping grey moustache that hangs down past his chin, but no beard. He wears a long mustard-yellow robe with a brown fur collar, a simple gold crown that always sits askew, and soft brown slippers.",
+      "sheet": "characters/kongen.webp",
+      "turn": "characters/kongen-turn.mp4",
+      "portrait": "portraits/kongen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kongen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kongen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kongen"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 7,
+      "anchor": "Så var det Askeladdens tur.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Askeladden skryter ikke. Han bare går og ser seg rundt, og alt putter han i sekken.",
+      "alt": "Askeladden sitter på huk på et jorde nedenfor slottet og kikker gjennom hullet i en gammel skosåle. I sekken ved siden av ham ligger en ring av kvister, en bit av en knust skål og to like bukkehorn.",
+      "prompt": "On a windy spring field below the king's castle, Askeladden crouches in the young grass and holds up an old, worn-out leather shoe sole towards the sky, peering through the big hole in it with one eye and a delighted grin. His patched brown sack lies open beside him, with the little green willow hoop, the shard of a blue-and-white bowl and two crooked goat horns that look exactly alike poking out of it. Dandelions bend in the wind and white clouds race over the castle on its hill.",
+      "characters": [
+        "askeladden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: On a windy spring field below the king's castle, Askeladden crouches in the young grass and holds up an old, worn-out leather shoe sole towards the sky, peering through the big hole in it with one eye and a delighted grin. His patched brown sack lies open beside him, with the little green willow hoop, the shard of a blue-and-white bowl and two crooked goat horns that look exactly alike poking out of it. Dandelions bend in the wind and white clouds race over the castle on its hill.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A slim, lean lad of about sixteen with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded wool cloak fastened with a wooden toggle over a knee-length ochre tunic with a woven belt, dark-grey trousers and soft brown leather shoes.\n\nStory world: Old rural Norway, long ago. The king's castle is a tall castle of dark, tarred timber with steep turf roofs and one slender tower, on a green hill above ploughed fields, a winding road and birch groves. The princess receives her suitors in the castle's bright hall, which has tall windows, walls painted with red and blue rosemaling flowers, a long carved oak table and a tall carved chair for her. Askeladden's finds are a small hoop of bent green willow, a pale shard of a broken blue-and-white bowl, two crooked goat horns that look exactly alike, and an old, worn-out leather shoe sole with a big hole in it. He carries them in a patched brown sack.\n\nThis story's season, light and colours: A windy spring day: white clouds racing across a bright blue sky, fresh yellow-green birch leaves and young grass, dandelions and coltsfoot, and cloaks, hair and grass all blowing in the wind. Inside the castle: clear, cool daylight through tall windows, with the fresh spring green outside.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 19,
+      "anchor": "«Her ser du maken», sa Askeladden og holdt opp det andre hornet.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Her ser du maken!» Og det andre bukkehornet er helt likt.",
+      "alt": "Askeladden står ved et langt bord i slottssalen og holder opp to bukkehorn som er helt like. Prinsessen sitter i den høye stolen, gjør store øyne og blir rød i kinnene.",
+      "prompt": "In the castle's bright hall with rosemaling flowers on the walls, Askeladden stands at the long carved table and holds up two crooked goat horns, one in each hand, exactly alike, with an innocent, cheeky smile. Across the table the Princess sits bolt upright in her tall carved chair, eyes wide, her sharp eyebrows shooting up and her cheeks turning pink, lips pressed together as she searches for an answer. The willow hoop and the bowl shard lie on the table, and clouds race past the tall windows.",
+      "characters": [
+        "askeladden",
+        "prinsessen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Princess, the same character seen from three sides. Keep the Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the castle's bright hall with rosemaling flowers on the walls, Askeladden stands at the long carved table and holds up two crooked goat horns, one in each hand, exactly alike, with an innocent, cheeky smile. Across the table the Princess sits bolt upright in her tall carved chair, eyes wide, her sharp eyebrows shooting up and her cheeks turning pink, lips pressed together as she searches for an answer. The willow hoop and the bowl shard lie on the table, and clouds race past the tall windows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A slim, lean lad of about sixteen with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded wool cloak fastened with a wooden toggle over a knee-length ochre tunic with a woven belt, dark-grey trousers and soft brown leather shoes.\n- the Princess: A quick-witted princess of about eighteen, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun with a small silver crown pinned in front of it. She wears a long lilac dress with a fitted bodice, puffed sleeves and silver embroidery at the neckline, and small silver earrings.\n\nStory world: Old rural Norway, long ago. The king's castle is a tall castle of dark, tarred timber with steep turf roofs and one slender tower, on a green hill above ploughed fields, a winding road and birch groves. The princess receives her suitors in the castle's bright hall, which has tall windows, walls painted with red and blue rosemaling flowers, a long carved oak table and a tall carved chair for her. Askeladden's finds are a small hoop of bent green willow, a pale shard of a broken blue-and-white bowl, two crooked goat horns that look exactly alike, and an old, worn-out leather shoe sole with a big hole in it. He carries them in a patched brown sack.\n\nThis story's season, light and colours: A windy spring day: white clouds racing across a bright blue sky, fresh yellow-green birch leaves and young grass, dandelions and coltsfoot, and cloaks, hair and grass all blowing in the wind. Inside the castle: clear, cool daylight through tall windows, with the fresh spring green outside.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 27,
+      "anchor": "Da begynte prinsessen å le.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Prinsessen ler og ler. Det er det morsomste som har hendt henne på lenge.",
+      "alt": "Prinsessen kaster hodet bakover og ler. Askeladden holder opp en utslitt skosåle og smiler gjennom hullet, og bak dem smiler kongen under den store barten.",
+      "prompt": "In the bright castle hall, the Princess has burst out laughing: she throws her head back with her hands pressed to her cheeks and her eyes squeezed shut with joy. In front of her, Askeladden still holds up the worn-out shoe sole and grins at her through the hole. Behind the table the King leans back in his chair and smiles a big, happy smile under his huge moustache, his crown more crooked than ever. Spring sunshine pours in through the tall windows.",
+      "characters": [
+        "askeladden",
+        "prinsessen",
+        "kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Princess, the same character seen from three sides. Keep the Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the bright castle hall, the Princess has burst out laughing: she throws her head back with her hands pressed to her cheeks and her eyes squeezed shut with joy. In front of her, Askeladden still holds up the worn-out shoe sole and grins at her through the hole. Behind the table the King leans back in his chair and smiles a big, happy smile under his huge moustache, his crown more crooked than ever. Spring sunshine pours in through the tall windows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A slim, lean lad of about sixteen with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded wool cloak fastened with a wooden toggle over a knee-length ochre tunic with a woven belt, dark-grey trousers and soft brown leather shoes.\n- the Princess: A quick-witted princess of about eighteen, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun with a small silver crown pinned in front of it. She wears a long lilac dress with a fitted bodice, puffed sleeves and silver embroidery at the neckline, and small silver earrings.\n- the King: A tired, stooped, elderly king with a long, gentle, wrinkled face, sleepy grey eyes with heavy bags under them, bushy grey eyebrows and a huge, drooping grey moustache that hangs down past his chin, but no beard. He wears a long mustard-yellow robe with a brown fur collar, a simple gold crown that always sits askew, and soft brown slippers.\n\nStory world: Old rural Norway, long ago. The king's castle is a tall castle of dark, tarred timber with steep turf roofs and one slender tower, on a green hill above ploughed fields, a winding road and birch groves. The princess receives her suitors in the castle's bright hall, which has tall windows, walls painted with red and blue rosemaling flowers, a long carved oak table and a tall carved chair for her. Askeladden's finds are a small hoop of bent green willow, a pale shard of a broken blue-and-white bowl, two crooked goat horns that look exactly alike, and an old, worn-out leather shoe sole with a big hole in it. He carries them in a patched brown sack.\n\nThis story's season, light and colours: A windy spring day: white clouds racing across a bright blue sky, fresh yellow-green birch leaves and young grass, dandelions and coltsfoot, and cloaks, hair and grass all blowing in the wind. Inside the castle: clear, cool daylight through tall windows, with the fresh spring green outside.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

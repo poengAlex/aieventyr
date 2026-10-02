@@ -1,0 +1,212 @@
+{
+  "storyId": "hanengjog",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Hanen, gjøken og århanen",
+  "textFile": "public/content/stories/hanengjog/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:22.083Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Hanen, Gjøken og Århanen har kjøpt ei ku sammen.",
+    "alt": "Ei rolig ku står i enga og tygger gress. På ryggen hennes sitter Hanen, Gjøken og Århanen på rad, og alle tre ser like stolte ut.",
+    "prompt": "In the dewy meadow of the Little Farm, the Cow stands calmly chewing a mouthful of grass while the Rooster, the Cuckoo and the Black Grouse sit in a row along her broad back, each one puffing out his chest and looking very pleased, as if she belonged to him alone. The Cow rolls her eyes up towards them with a patient look. Fresh early-morning light, with the cowshed and the birch wood behind.",
+    "characters": [
+      "kua",
+      "hanen",
+      "gjoken",
+      "arhanen"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Cow, the same character seen from three sides. Keep the Cow's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cow only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Cuckoo, the same character seen from three sides. Keep the Cuckoo's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cuckoo only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: model sheet for the Black Grouse, the same character seen from three sides. Keep the Black Grouse's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Black Grouse only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 6: setting reference for the Little Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: In the dewy meadow of the Little Farm, the Cow stands calmly chewing a mouthful of grass while the Rooster, the Cuckoo and the Black Grouse sit in a row along her broad back, each one puffing out his chest and looking very pleased, as if she belonged to him alone. The Cow rolls her eyes up towards them with a patient look. Fresh early-morning light, with the cowshed and the birch wood behind.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Cow: A gentle, sturdy old Norwegian farm cow with a glossy reddish-brown coat, a broad white stripe running all along her back and down her tail, a white belly, white-speckled legs, a pink nose, big, calm brown eyes with long dark eyelashes, and two short, pale, upward-curving horns. A small brass bell hangs on a leather strap around her neck. She chews her cud slowly and never hurries.\n- the Rooster: A sleek, swaggering rooster with jet-black plumage that shimmers beetle-green in the sun, a tall, jagged scarlet comb standing straight up, long dangling wattles, small white earlobes, fiery orange eyes, a sharp slate-grey beak, slate-grey legs with long toes, and a fountain of long, curving green-black sickle feathers for a tail. He struts about with his head held high and loves the sound of his own voice.\n- the Cuckoo: A slim, sleek cuckoo, smaller than a rooster, with a smooth ash-blue-grey head, back and wings, a white belly finely barred with thin dark stripes, a long, rounded dark-grey tail edged with little white spots, bright yellow rings around his round, sleepy, half-closed eyes, a short, slightly curved dark beak with a yellow base, and small yellow feet. One tuft of feathers always sticks up on the back of his head.\n- the Black Grouse: A large, calm black grouse cock, a little bigger than a rooster, with glossy blue-black plumage, a bright-red fleshy arch like an eyebrow above each eye, a white bar across each wing, a fluffy snow-white puff of feathers under his tail, and a lyre-shaped tail whose two outer feathers curl outwards like hooks. He has feathered grey legs, a short black beak and wise, kind dark eyes, and stands tall and dignified like a judge.\n\nSetting:\n- the Little Farm: A small farm at the edge of a birch wood: a low grey log cowshed with a grass roof and a wide doorway, a little wooden ladder leading up to a hen hatch in its wall, a big, soft heap of golden straw against its side, a tall, weathered wooden gatepost with a flat top beside the straw, a grey split-rail fence, a dewy green meadow sloping down to white-stemmed birches, and a purple-brown heather moor rising on the hill beyond.\n\nStory world: Old rural Norway, long ago, where farm animals and wild birds can talk. On a small farm at the edge of a birch wood, the rooster, the cuckoo and the black grouse have bought one cow together. The rooster's home is a little hen hatch with a ladder in the cowshed wall, the cuckoo's home is a tall birch tree in the wood, and the black grouse's home is the purple-brown heather moor on the hill above. At night the three birds sleep on the big heap of golden straw beside the cowshed, next to the cow. The birds and the cow are natural animals without clothes.\n\nThis story's season, light and colours: Sunrise on an early-summer morning: a blazing saffron-and-gold sky with the sun coming up over the heather moor, long cool-blue shadows, thin silver mist lying in the hollows, and every feather rimmed with golden light. The opening picture is set in soft, warm afternoon light instead.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "hanen",
+      "name": "Hanen",
+      "description": "En ivrig og stolt hane som våkner først og blir veldig glad for å ha vunnet leken.",
+      "look": "A sleek, swaggering rooster with jet-black plumage that shimmers beetle-green in the sun, a tall, jagged scarlet comb standing straight up, long dangling wattles, small white earlobes, fiery orange eyes, a sharp slate-grey beak, slate-grey legs with long toes, and a fountain of long, curving green-black sickle feathers for a tail. He struts about with his head held high and loves the sound of his own voice.",
+      "sheet": "characters/hanen.webp",
+      "turn": "characters/hanen-turn.mp4",
+      "portrait": "portraits/hanen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/hanen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/hanen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "hanen"
+    },
+    {
+      "slug": "gjoken",
+      "name": "Gjøken",
+      "description": "En litt søvnig, men bestemt gjøk som våkner av hanens rop og vil gjerne ha sin del.",
+      "look": "A slim, sleek cuckoo, smaller than a rooster, with a smooth ash-blue-grey head, back and wings, a white belly finely barred with thin dark stripes, a long, rounded dark-grey tail edged with little white spots, bright yellow rings around his round, sleepy, half-closed eyes, a short, slightly curved dark beak with a yellow base, and small yellow feet. One tuft of feathers always sticks up on the back of his head.",
+      "sheet": "characters/gjoken.webp",
+      "turn": "characters/gjoken-turn.mp4",
+      "portrait": "portraits/gjoken.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/gjoken.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/gjoken-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "gjoken"
+    },
+    {
+      "slug": "arhanen",
+      "name": "Århanen",
+      "description": "En stor og rolig århane som foreslår en rettferdig løsning når de andre blir uenige.",
+      "look": "A large, calm black grouse cock, a little bigger than a rooster, with glossy blue-black plumage, a bright-red fleshy arch like an eyebrow above each eye, a white bar across each wing, a fluffy snow-white puff of feathers under his tail, and a lyre-shaped tail whose two outer feathers curl outwards like hooks. He has feathered grey legs, a short black beak and wise, kind dark eyes, and stands tall and dignified like a judge.",
+      "sheet": "characters/arhanen.webp",
+      "turn": "characters/arhanen-turn.mp4",
+      "portrait": "portraits/arhanen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/arhanen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/arhanen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "arhanen"
+    },
+    {
+      "slug": "kua",
+      "name": "Kua",
+      "description": "Den rolige kua som alle tre fuglene har kjøpt sammen, og som blir midtpunktet for leken og delingen.",
+      "look": "A gentle, sturdy old Norwegian farm cow with a glossy reddish-brown coat, a broad white stripe running all along her back and down her tail, a white belly, white-speckled legs, a pink nose, big, calm brown eyes with long dark eyelashes, and two short, pale, upward-curving horns. A small brass bell hangs on a leather strap around her neck. She chews her cud slowly and never hurries.",
+      "sheet": "characters/kua.webp",
+      "turn": "characters/kua-turn.mp4",
+      "portrait": "portraits/kua.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kua.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kua-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kua"
+    }
+  ],
+  "places": [
+    {
+      "slug": "smaabruket",
+      "name": "the Little Farm",
+      "look": "A small farm at the edge of a birch wood: a low grey log cowshed with a grass roof and a wide doorway, a little wooden ladder leading up to a hen hatch in its wall, a big, soft heap of golden straw against its side, a tall, weathered wooden gatepost with a flat top beside the straw, a grey split-rail fence, a dewy green meadow sloping down to white-stemmed birches, and a purple-brown heather moor rising on the hill beyond."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 0,
+      "anchor": "Hanen, Gjøken og Århanen hadde kjøpt ei ku sammen.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Men ei ku kan jo ikke bo tre steder på én gang.",
+      "alt": "Kua står midt i enga og ser forvirret fra den ene fuglen til den andre. Hanen peker mot fjøset, Gjøken mot ei bjørk og Århanen opp mot lyngheia.",
+      "prompt": "Wide view of the Little Farm in soft, warm afternoon light. In the middle of the meadow stands the Cow, looking puzzled from one bird to the next. Around her hooves, the three birds each point a wing in a different direction: the Rooster towards the hen hatch in the cowshed wall, the Cuckoo towards a tall birch tree in the wood, and the Black Grouse up towards the heather moor on the hill. Each one looks certain that the Cow should live with him.",
+      "characters": [
+        "kua",
+        "hanen",
+        "gjoken",
+        "arhanen"
+      ],
+      "places": [
+        "smaabruket"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Cow, the same character seen from three sides. Keep the Cow's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cow only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Cuckoo, the same character seen from three sides. Keep the Cuckoo's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cuckoo only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: model sheet for the Black Grouse, the same character seen from three sides. Keep the Black Grouse's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Black Grouse only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 6: setting reference for the Little Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Wide view of the Little Farm in soft, warm afternoon light. In the middle of the meadow stands the Cow, looking puzzled from one bird to the next. Around her hooves, the three birds each point a wing in a different direction: the Rooster towards the hen hatch in the cowshed wall, the Cuckoo towards a tall birch tree in the wood, and the Black Grouse up towards the heather moor on the hill. Each one looks certain that the Cow should live with him.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Cow: A gentle, sturdy old Norwegian farm cow with a glossy reddish-brown coat, a broad white stripe running all along her back and down her tail, a white belly, white-speckled legs, a pink nose, big, calm brown eyes with long dark eyelashes, and two short, pale, upward-curving horns. A small brass bell hangs on a leather strap around her neck. She chews her cud slowly and never hurries.\n- the Rooster: A sleek, swaggering rooster with jet-black plumage that shimmers beetle-green in the sun, a tall, jagged scarlet comb standing straight up, long dangling wattles, small white earlobes, fiery orange eyes, a sharp slate-grey beak, slate-grey legs with long toes, and a fountain of long, curving green-black sickle feathers for a tail. He struts about with his head held high and loves the sound of his own voice.\n- the Cuckoo: A slim, sleek cuckoo, smaller than a rooster, with a smooth ash-blue-grey head, back and wings, a white belly finely barred with thin dark stripes, a long, rounded dark-grey tail edged with little white spots, bright yellow rings around his round, sleepy, half-closed eyes, a short, slightly curved dark beak with a yellow base, and small yellow feet. One tuft of feathers always sticks up on the back of his head.\n- the Black Grouse: A large, calm black grouse cock, a little bigger than a rooster, with glossy blue-black plumage, a bright-red fleshy arch like an eyebrow above each eye, a white bar across each wing, a fluffy snow-white puff of feathers under his tail, and a lyre-shaped tail whose two outer feathers curl outwards like hooks. He has feathered grey legs, a short black beak and wise, kind dark eyes, and stands tall and dignified like a judge.\n\nSetting:\n- the Little Farm: A small farm at the edge of a birch wood: a low grey log cowshed with a grass roof and a wide doorway, a little wooden ladder leading up to a hen hatch in its wall, a big, soft heap of golden straw against its side, a tall, weathered wooden gatepost with a flat top beside the straw, a grey split-rail fence, a dewy green meadow sloping down to white-stemmed birches, and a purple-brown heather moor rising on the hill beyond.\n\nStory world: Old rural Norway, long ago, where farm animals and wild birds can talk. On a small farm at the edge of a birch wood, the rooster, the cuckoo and the black grouse have bought one cow together. The rooster's home is a little hen hatch with a ladder in the cowshed wall, the cuckoo's home is a tall birch tree in the wood, and the black grouse's home is the purple-brown heather moor on the hill above. At night the three birds sleep on the big heap of golden straw beside the cowshed, next to the cow. The birds and the cow are natural animals without clothes.\n\nThis story's season, light and colours: Sunrise on an early-summer morning: a blazing saffron-and-gold sky with the sun coming up over the heather moor, long cool-blue shadows, thin silver mist lying in the hollows, and every feather rimmed with golden light. The opening picture is set in soft, warm afternoon light instead.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 4,
+      "anchor": "Gjøken skvatt opp i halmen.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Nå er kua mi!» galer Hanen, og Gjøken skvetter opp i halmen.",
+      "alt": "Det er soloppgang. Hanen står på en høy stolpe og galer. Nedenfor skvetter Gjøken opp av halmen, mens Århanen sover videre med hodet under vingen og Kua ligger og tygger.",
+      "prompt": "Sunrise at the Little Farm: a saffron-gold sky and thin silver mist. On top of the tall gatepost, the Rooster stands with his wings flapping and his beak wide open, crowing proudly at the rising sun. Below him, the Cuckoo has jumped straight up out of the straw heap in surprise, feathers ruffled and wisps of straw flying, calling out with his beak open. Beside them, the Black Grouse is still fast asleep in the straw with his head tucked under his wing, and the Cow lies in the straw, calmly chewing.",
+      "characters": [
+        "hanen",
+        "gjoken",
+        "arhanen",
+        "kua"
+      ],
+      "places": [
+        "smaabruket"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Cuckoo, the same character seen from three sides. Keep the Cuckoo's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cuckoo only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Black Grouse, the same character seen from three sides. Keep the Black Grouse's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Black Grouse only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: model sheet for the Cow, the same character seen from three sides. Keep the Cow's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cow only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 6: setting reference for the Little Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Sunrise at the Little Farm: a saffron-gold sky and thin silver mist. On top of the tall gatepost, the Rooster stands with his wings flapping and his beak wide open, crowing proudly at the rising sun. Below him, the Cuckoo has jumped straight up out of the straw heap in surprise, feathers ruffled and wisps of straw flying, calling out with his beak open. Beside them, the Black Grouse is still fast asleep in the straw with his head tucked under his wing, and the Cow lies in the straw, calmly chewing.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A sleek, swaggering rooster with jet-black plumage that shimmers beetle-green in the sun, a tall, jagged scarlet comb standing straight up, long dangling wattles, small white earlobes, fiery orange eyes, a sharp slate-grey beak, slate-grey legs with long toes, and a fountain of long, curving green-black sickle feathers for a tail. He struts about with his head held high and loves the sound of his own voice.\n- the Cuckoo: A slim, sleek cuckoo, smaller than a rooster, with a smooth ash-blue-grey head, back and wings, a white belly finely barred with thin dark stripes, a long, rounded dark-grey tail edged with little white spots, bright yellow rings around his round, sleepy, half-closed eyes, a short, slightly curved dark beak with a yellow base, and small yellow feet. One tuft of feathers always sticks up on the back of his head.\n- the Black Grouse: A large, calm black grouse cock, a little bigger than a rooster, with glossy blue-black plumage, a bright-red fleshy arch like an eyebrow above each eye, a white bar across each wing, a fluffy snow-white puff of feathers under his tail, and a lyre-shaped tail whose two outer feathers curl outwards like hooks. He has feathered grey legs, a short black beak and wise, kind dark eyes, and stands tall and dignified like a judge.\n- the Cow: A gentle, sturdy old Norwegian farm cow with a glossy reddish-brown coat, a broad white stripe running all along her back and down her tail, a white belly, white-speckled legs, a pink nose, big, calm brown eyes with long dark eyelashes, and two short, pale, upward-curving horns. A small brass bell hangs on a leather strap around her neck. She chews her cud slowly and never hurries.\n\nSetting:\n- the Little Farm: A small farm at the edge of a birch wood: a low grey log cowshed with a grass roof and a wide doorway, a little wooden ladder leading up to a hen hatch in its wall, a big, soft heap of golden straw against its side, a tall, weathered wooden gatepost with a flat top beside the straw, a grey split-rail fence, a dewy green meadow sloping down to white-stemmed birches, and a purple-brown heather moor rising on the hill beyond.\n\nStory world: Old rural Norway, long ago, where farm animals and wild birds can talk. On a small farm at the edge of a birch wood, the rooster, the cuckoo and the black grouse have bought one cow together. The rooster's home is a little hen hatch with a ladder in the cowshed wall, the cuckoo's home is a tall birch tree in the wood, and the black grouse's home is the purple-brown heather moor on the hill above. At night the three birds sleep on the big heap of golden straw beside the cowshed, next to the cow. The birds and the cow are natural animals without clothes.\n\nThis story's season, light and colours: Sunrise on an early-summer morning: a blazing saffron-and-gold sky with the sun coming up over the heather moor, long cool-blue shadows, thin silver mist lying in the hollows, and every feather rimmed with golden light. The opening picture is set in soft, warm afternoon light instead.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 8,
+      "anchor": "Da våknet Århanen. Han bredte ut vingene mellom dem.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Da våknet Århanen og bredte ut vingene mellom dem.",
+      "alt": "Århanen står mellom Hanen og Gjøken med vingene bredt ut, og de to slutter å krangle. Bak dem ligger Kua i halmen og ser på.",
+      "prompt": "Golden morning light beside the straw heap at the Little Farm. The Black Grouse stands tall in the middle with his wings spread wide and his lyre-shaped tail fanned up, keeping the Rooster on one side and the Cuckoo on the other. The Rooster and the Cuckoo stop squabbling mid-squawk, beaks still open, and look up at him in surprise. Behind them, the Cow lies in the straw and lifts her big head to watch.",
+      "characters": [
+        "arhanen",
+        "hanen",
+        "gjoken",
+        "kua"
+      ],
+      "places": [
+        "smaabruket"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Black Grouse, the same character seen from three sides. Keep the Black Grouse's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Black Grouse only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Cuckoo, the same character seen from three sides. Keep the Cuckoo's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cuckoo only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: model sheet for the Cow, the same character seen from three sides. Keep the Cow's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cow only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 6: setting reference for the Little Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Golden morning light beside the straw heap at the Little Farm. The Black Grouse stands tall in the middle with his wings spread wide and his lyre-shaped tail fanned up, keeping the Rooster on one side and the Cuckoo on the other. The Rooster and the Cuckoo stop squabbling mid-squawk, beaks still open, and look up at him in surprise. Behind them, the Cow lies in the straw and lifts her big head to watch.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Black Grouse: A large, calm black grouse cock, a little bigger than a rooster, with glossy blue-black plumage, a bright-red fleshy arch like an eyebrow above each eye, a white bar across each wing, a fluffy snow-white puff of feathers under his tail, and a lyre-shaped tail whose two outer feathers curl outwards like hooks. He has feathered grey legs, a short black beak and wise, kind dark eyes, and stands tall and dignified like a judge.\n- the Rooster: A sleek, swaggering rooster with jet-black plumage that shimmers beetle-green in the sun, a tall, jagged scarlet comb standing straight up, long dangling wattles, small white earlobes, fiery orange eyes, a sharp slate-grey beak, slate-grey legs with long toes, and a fountain of long, curving green-black sickle feathers for a tail. He struts about with his head held high and loves the sound of his own voice.\n- the Cuckoo: A slim, sleek cuckoo, smaller than a rooster, with a smooth ash-blue-grey head, back and wings, a white belly finely barred with thin dark stripes, a long, rounded dark-grey tail edged with little white spots, bright yellow rings around his round, sleepy, half-closed eyes, a short, slightly curved dark beak with a yellow base, and small yellow feet. One tuft of feathers always sticks up on the back of his head.\n- the Cow: A gentle, sturdy old Norwegian farm cow with a glossy reddish-brown coat, a broad white stripe running all along her back and down her tail, a white belly, white-speckled legs, a pink nose, big, calm brown eyes with long dark eyelashes, and two short, pale, upward-curving horns. A small brass bell hangs on a leather strap around her neck. She chews her cud slowly and never hurries.\n\nSetting:\n- the Little Farm: A small farm at the edge of a birch wood: a low grey log cowshed with a grass roof and a wide doorway, a little wooden ladder leading up to a hen hatch in its wall, a big, soft heap of golden straw against its side, a tall, weathered wooden gatepost with a flat top beside the straw, a grey split-rail fence, a dewy green meadow sloping down to white-stemmed birches, and a purple-brown heather moor rising on the hill beyond.\n\nStory world: Old rural Norway, long ago, where farm animals and wild birds can talk. On a small farm at the edge of a birch wood, the rooster, the cuckoo and the black grouse have bought one cow together. The rooster's home is a little hen hatch with a ladder in the cowshed wall, the cuckoo's home is a tall birch tree in the wood, and the black grouse's home is the purple-brown heather moor on the hill above. At night the three birds sleep on the big heap of golden straw beside the cowshed, next to the cow. The birds and the cow are natural animals without clothes.\n\nThis story's season, light and colours: Sunrise on an early-summer morning: a blazing saffron-and-gold sky with the sun coming up over the heather moor, long cool-blue shadows, thin silver mist lying in the hollows, and every feather rimmed with golden light. The opening picture is set in soft, warm afternoon light instead.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

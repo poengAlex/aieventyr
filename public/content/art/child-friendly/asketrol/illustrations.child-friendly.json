@@ -1,0 +1,301 @@
+{
+  "storyId": "asketrol",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Askeladden som kappåt med trollet",
+  "textFile": "public/content/stories/asketrol/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:21.592Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Askeladden møter trollet i skogen, og han er ikke det minste redd.",
+    "alt": "Et digert troll med brun hud og svart, bustete hår står mellom grantrærne og kikker ned. På en mosegrodd stein står Askeladden og smiler opp til ham.",
+    "prompt": "A wide view of a misty autumn forest: the Troll stands among the tall spruces and rust-red birches, so big that his shaggy head pokes up between the treetops, and bends forward to peer down curiously at little Askeladden. Askeladden stands on a mossy boulder at his feet with his small sack over his shoulder, grinning up at him without a trace of fear. Orange leaves drift through the grey mist.",
+    "characters": [
+      "askeladden",
+      "trollet"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Troll, the same character seen from three sides. Keep the Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: A wide view of a misty autumn forest: the Troll stands among the tall spruces and rust-red birches, so big that his shaggy head pokes up between the treetops, and bends forward to peer down curiously at little Askeladden. Askeladden stands on a mossy boulder at his feet with his small sack over his shoulder, grinning up at him without a trace of fear. Orange leaves drift through the grey mist.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A small, wiry boy of about eleven, shorter than most boys his age, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, dark-brown knee breeches, thick oatmeal-coloured wool stockings and scuffed brown boots. A small brown linen sack with a drawstring hangs from his shoulder.\n- the Troll: A giant forest troll, so tall that his head pokes up among the treetops, with cracked, bark-brown skin like an old pine trunk, a shaggy black haystack of hair full of twigs and dry leaves, a potato nose, small twinkly yellow eyes, an enormous mouth that stretches from ear to ear with big square teeth, long dangling arms and a huge, round belly. He wears baggy, patched sackcloth trousers held up by braces of twisted roots, and no shirt.\n\nStory world: Old rural Norway, long ago. A poor old farmer lives with his three sons in a small, low log cottage with a turf roof at the edge of a deep forest of spruce and birch. The troll lives inside a steep, rocky mountain in the middle of the forest, behind a heavy round wooden door. Everything in his home is troll-sized: two iron buckets as big as bathtubs, a huge black iron pot over the fire, a porridge spoon as big as a spade, giant wooden bowls and a long plank table with one long bench. Askeladden's cheese is small, round, soft and white, and fits in his hand. His sack is a small brown linen sack with a drawstring. The brothers' axes are ordinary wood axes with short handles.\n\nThis story's season, light and colours: Misty autumn in the forest: rust-red and orange birch leaves, dark spruces, golden ferns and cool grey mist drifting between the trunks in soft, pale daylight. Inside the mountain: warm amber firelight on rough brown rock. At home in the cottage: pale daylight through one small window, and in the evening the glow of a single candle.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "description": "Den yngste sønnen, rolig og smart, som møter utfordringer med oppfinnsomhet og en vennlig selvsikkerhet.",
+      "look": "A small, wiry boy of about eleven, shorter than most boys his age, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, dark-brown knee breeches, thick oatmeal-coloured wool stockings and scuffed brown boots. A small brown linen sack with a drawstring hangs from his shoulder.",
+      "sheet": "characters/askeladden.webp",
+      "turn": "characters/askeladden-turn.mp4",
+      "portrait": "portraits/askeladden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/askeladden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/askeladden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "askeladden"
+    },
+    {
+      "slug": "trollet",
+      "name": "Trollet",
+      "description": "Skogens store vokter som først virker streng, men lar seg lett imponere og blir mer komisk enn farlig.",
+      "look": "A giant forest troll, so tall that his head pokes up among the treetops, with cracked, bark-brown skin like an old pine trunk, a shaggy black haystack of hair full of twigs and dry leaves, a potato nose, small twinkly yellow eyes, an enormous mouth that stretches from ear to ear with big square teeth, long dangling arms and a huge, round belly. He wears baggy, patched sackcloth trousers held up by braces of twisted roots, and no shirt.",
+      "sheet": "characters/trollet.webp",
+      "turn": "characters/trollet-turn.mp4",
+      "portrait": "portraits/trollet.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollet.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollet-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "trollet"
+    },
+    {
+      "slug": "faren",
+      "name": "Faren",
+      "description": "En gammel og sliten bonde som ønsker at sønnene skal arbeide så familien kan klare seg bedre.",
+      "look": "A short, stocky, bow-legged old farmer of about seventy with a broad, weather-beaten, wrinkled face, a big bulbous nose, small twinkling eyes under shaggy grey eyebrows and a thick, bristly grey beard cut short and square. He wears a battered, wide-brimmed black felt hat, a patched grey-blue wool jacket with horn buttons over a collarless linen shirt, brown knee breeches with braces, grey wool stockings and wooden clogs.",
+      "sheet": "characters/faren.webp",
+      "turn": "characters/faren-turn.mp4",
+      "portrait": "portraits/faren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/faren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/faren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "faren"
+    },
+    {
+      "slug": "eldste-bror",
+      "name": "Den eldste broren",
+      "description": "Askeladdens eldste bror, stor og sterk, men så redd for trollet at øksa glipper og han springer hjem.",
+      "look": "A hulking, broad-shouldered young man of about nineteen with a thick neck, a broad, flat face, a crooked nose, small pale-blue eyes, heavy black eyebrows and short, bristly black hair cropped close to his head. He wears a shaggy, sleeveless sheepskin vest over a rough grey homespun shirt, baggy brown trousers tied under the knees with leather laces, and heavy black boots.",
+      "sheet": "characters/eldste-bror.webp",
+      "turn": "characters/eldste-bror-turn.mp4",
+      "portrait": "portraits/eldste-bror.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/eldste-bror.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/eldste-bror-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "eldre-brodre"
+    },
+    {
+      "slug": "mellomste-bror",
+      "name": "Den mellomste broren",
+      "description": "Askeladdens mellomste bror, som springer så fort fra trollet at lua blir hengende igjen på en grein.",
+      "look": "A thin, jittery young man of about sixteen with a long neck, a narrow face, a long pointed nose, big worried eyes and frizzy light-brown hair. On his head sits a long, floppy, bright-yellow knitted stocking cap with a blue tassel. He wears a baggy blue linen smock belted with a cord, patched grey trousers and wooden clogs.",
+      "sheet": "characters/mellomste-bror.webp",
+      "turn": "characters/mellomste-bror-turn.mp4",
+      "portrait": "portraits/mellomste-bror.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/mellomste-bror.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/mellomste-bror-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "eldre-brodre"
+    }
+  ],
+  "places": [
+    {
+      "slug": "trollstua",
+      "name": "the Troll's Hall",
+      "look": "A big, high room hollowed out of the rock inside the mountain, with rough brown rock walls and thick tree roots poking through the ceiling. A wide stone fireplace glows at one end, with a huge black iron pot hanging over the fire. A long, rough plank table with one long bench stands in front of it, two giant iron buckets stand by a heavy round wooden door, and everything is troll-sized, big and chunky."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 11,
+      "anchor": "«... var du aldri redd for troll», sa brødrene i kor.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«... var du aldri redd for troll», sier brødrene i kor. «Vi vet det.»",
+      "alt": "Faren står midt i stua med fingeren i været. På benken sitter de to storebrødrene og himler med øynene, og ved peisen sitter Askeladden og smiler.",
+      "prompt": "In the small, low cottage kitchen, by day. The Father stands in the middle of the room with one finger raised high and his chest puffed out, about to boast. On the bench by the wall, the Eldest Brother and the Middle Brother finish his sentence in chorus with bored faces and rolled eyes; the Middle Brother is bareheaded and still out of breath, and neither has his axe. Askeladden sits on the hearthstone by the fire, hugging his knees and grinning. Pale autumn light falls through the small window.",
+      "characters": [
+        "faren",
+        "eldste-bror",
+        "mellomste-bror",
+        "askeladden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Father, the same character seen from three sides. Keep the Father's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Father only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Middle Brother, the same character seen from three sides. Keep the Middle Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Middle Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the small, low cottage kitchen, by day. The Father stands in the middle of the room with one finger raised high and his chest puffed out, about to boast. On the bench by the wall, the Eldest Brother and the Middle Brother finish his sentence in chorus with bored faces and rolled eyes; the Middle Brother is bareheaded and still out of breath, and neither has his axe. Askeladden sits on the hearthstone by the fire, hugging his knees and grinning. Pale autumn light falls through the small window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Father: A short, stocky, bow-legged old farmer of about seventy with a broad, weather-beaten, wrinkled face, a big bulbous nose, small twinkling eyes under shaggy grey eyebrows and a thick, bristly grey beard cut short and square. He wears a battered, wide-brimmed black felt hat, a patched grey-blue wool jacket with horn buttons over a collarless linen shirt, brown knee breeches with braces, grey wool stockings and wooden clogs.\n- the Eldest Brother: A hulking, broad-shouldered young man of about nineteen with a thick neck, a broad, flat face, a crooked nose, small pale-blue eyes, heavy black eyebrows and short, bristly black hair cropped close to his head. He wears a shaggy, sleeveless sheepskin vest over a rough grey homespun shirt, baggy brown trousers tied under the knees with leather laces, and heavy black boots.\n- the Middle Brother: A thin, jittery young man of about sixteen with a long neck, a narrow face, a long pointed nose, big worried eyes and frizzy light-brown hair. On his head sits a long, floppy, bright-yellow knitted stocking cap with a blue tassel. He wears a baggy blue linen smock belted with a cord, patched grey trousers and wooden clogs.\n- Askeladden: A small, wiry boy of about eleven, shorter than most boys his age, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, dark-brown knee breeches, thick oatmeal-coloured wool stockings and scuffed brown boots. A small brown linen sack with a drawstring hangs from his shoulder.\n\nStory world: Old rural Norway, long ago. A poor old farmer lives with his three sons in a small, low log cottage with a turf roof at the edge of a deep forest of spruce and birch. The troll lives inside a steep, rocky mountain in the middle of the forest, behind a heavy round wooden door. Everything in his home is troll-sized: two iron buckets as big as bathtubs, a huge black iron pot over the fire, a porridge spoon as big as a spade, giant wooden bowls and a long plank table with one long bench. Askeladden's cheese is small, round, soft and white, and fits in his hand. His sack is a small brown linen sack with a drawstring. The brothers' axes are ordinary wood axes with short handles.\n\nThis story's season, light and colours: Misty autumn in the forest: rust-red and orange birch leaves, dark spruces, golden ferns and cool grey mist drifting between the trunks in soft, pale daylight. Inside the mountain: warm amber firelight on rough brown rock. At home in the cottage: pale daylight through one small window, and in the evening the glow of a single candle.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 20,
+      "anchor": "Og så klemte han. Skvett!",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Skvett! Det spruter ut mellom fingrene til Askeladden.",
+      "alt": "Askeladden klemmer en liten, hvit ost så det spruter ut mellom fingrene. Trollet sitter på huk foran ham og glor med store øyne og åpen munn.",
+      "prompt": "A close view in the misty autumn forest: Askeladden stands with his feet planted wide and squeezes the small round white cheese in his fist, so that milky whey squirts out between his fingers in a big splash. He glares up with a fierce, cheeky frown. The Troll squats down in front of him, his enormous face hanging just above the boy, eyes goggling and his huge mouth dropping open in amazement. His axe leans against a stump; rust-red leaves and grey mist behind them.",
+      "characters": [
+        "askeladden",
+        "trollet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Troll, the same character seen from three sides. Keep the Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A close view in the misty autumn forest: Askeladden stands with his feet planted wide and squeezes the small round white cheese in his fist, so that milky whey squirts out between his fingers in a big splash. He glares up with a fierce, cheeky frown. The Troll squats down in front of him, his enormous face hanging just above the boy, eyes goggling and his huge mouth dropping open in amazement. His axe leans against a stump; rust-red leaves and grey mist behind them.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A small, wiry boy of about eleven, shorter than most boys his age, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, dark-brown knee breeches, thick oatmeal-coloured wool stockings and scuffed brown boots. A small brown linen sack with a drawstring hangs from his shoulder.\n- the Troll: A giant forest troll, so tall that his head pokes up among the treetops, with cracked, bark-brown skin like an old pine trunk, a shaggy black haystack of hair full of twigs and dry leaves, a potato nose, small twinkly yellow eyes, an enormous mouth that stretches from ear to ear with big square teeth, long dangling arms and a huge, round belly. He wears baggy, patched sackcloth trousers held up by braces of twisted roots, and no shirt.\n\nStory world: Old rural Norway, long ago. A poor old farmer lives with his three sons in a small, low log cottage with a turf roof at the edge of a deep forest of spruce and birch. The troll lives inside a steep, rocky mountain in the middle of the forest, behind a heavy round wooden door. Everything in his home is troll-sized: two iron buckets as big as bathtubs, a huge black iron pot over the fire, a porridge spoon as big as a spade, giant wooden bowls and a long plank table with one long bench. Askeladden's cheese is small, round, soft and white, and fits in his hand. His sack is a small brown linen sack with a drawstring. The brothers' axes are ordinary wood axes with short handles.\n\nThis story's season, light and colours: Misty autumn in the forest: rust-red and orange birch leaves, dark spruces, golden ferns and cool grey mist drifting between the trunks in soft, pale daylight. Inside the mountain: warm amber firelight on rough brown rock. At home in the cottage: pale daylight through one small window, and in the evening the glow of a single candle.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 27,
+      "anchor": "«Disse fingerbølene gidder jeg ikke gå med», sa Askeladden.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Askeladden later som om de digre jernbøttene bare er noen små fingerbøl.",
+      "alt": "Inne i fjellet står Askeladden med armene i kors mellom to jernbøtter som er så store at han kunne badet i dem. Ved peisen vifter trollet forskrekket med hendene.",
+      "prompt": "In the Troll's Hall, Askeladden stands between the two giant iron buckets, which reach up to his chest, with his arms crossed and his nose in the air, as if they were silly little thimbles. Behind him by the fireplace, the Troll flaps his huge hands in alarm, eyes wide and mouth open in a wail. Warm amber firelight, and the huge black pot hanging over the fire. A medium-wide view.",
+      "characters": [
+        "askeladden",
+        "trollet"
+      ],
+      "places": [
+        "trollstua"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Troll, the same character seen from three sides. Keep the Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Troll's Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the Troll's Hall, Askeladden stands between the two giant iron buckets, which reach up to his chest, with his arms crossed and his nose in the air, as if they were silly little thimbles. Behind him by the fireplace, the Troll flaps his huge hands in alarm, eyes wide and mouth open in a wail. Warm amber firelight, and the huge black pot hanging over the fire. A medium-wide view.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A small, wiry boy of about eleven, shorter than most boys his age, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, dark-brown knee breeches, thick oatmeal-coloured wool stockings and scuffed brown boots. A small brown linen sack with a drawstring hangs from his shoulder.\n- the Troll: A giant forest troll, so tall that his head pokes up among the treetops, with cracked, bark-brown skin like an old pine trunk, a shaggy black haystack of hair full of twigs and dry leaves, a potato nose, small twinkly yellow eyes, an enormous mouth that stretches from ear to ear with big square teeth, long dangling arms and a huge, round belly. He wears baggy, patched sackcloth trousers held up by braces of twisted roots, and no shirt.\n\nSetting:\n- the Troll's Hall: A big, high room hollowed out of the rock inside the mountain, with rough brown rock walls and thick tree roots poking through the ceiling. A wide stone fireplace glows at one end, with a huge black iron pot hanging over the fire. A long, rough plank table with one long bench stands in front of it, two giant iron buckets stand by a heavy round wooden door, and everything is troll-sized, big and chunky.\n\nStory world: Old rural Norway, long ago. A poor old farmer lives with his three sons in a small, low log cottage with a turf roof at the edge of a deep forest of spruce and birch. The troll lives inside a steep, rocky mountain in the middle of the forest, behind a heavy round wooden door. Everything in his home is troll-sized: two iron buckets as big as bathtubs, a huge black iron pot over the fire, a porridge spoon as big as a spade, giant wooden bowls and a long plank table with one long bench. Askeladden's cheese is small, round, soft and white, and fits in his hand. His sack is a small brown linen sack with a drawstring. The brothers' axes are ordinary wood axes with short handles.\n\nThis story's season, light and colours: Misty autumn in the forest: rust-red and orange birch leaves, dark spruces, golden ferns and cool grey mist drifting between the trunks in soft, pale daylight. Inside the mountain: warm amber firelight on rough brown rock. At home in the cottage: pale daylight through one small window, and in the evening the glow of a single candle.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 35,
+      "anchor": "Da sekken var full, laget han et lite hull i bunnen med tollekniven.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Én i munnen, to i sekken ... og plopp, plopp, ut på gulvet!",
+      "alt": "Askeladden sitter ved det lange bordet og lar grøten gli ned i en sekk under bordkanten, og grøten drypper ut av et lite hull. Ved siden av ham spiser trollet med en skje så stor som en spade.",
+      "prompt": "A low side view at the long plank table in the Troll's Hall, showing both above and below the tabletop: Askeladden sits on the bench with his small sack tied loosely in front of his belly under the table edge and slips a spoonful of porridge into it with an innocent face, while porridge drips out of a little hole in the bottom of the sack into a puddle on the floor. Beside him the Troll shovels porridge from a giant bowl with a spoon as big as a spade, eyes shut in bliss.",
+      "characters": [
+        "askeladden",
+        "trollet"
+      ],
+      "places": [
+        "trollstua"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Troll, the same character seen from three sides. Keep the Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Troll's Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A low side view at the long plank table in the Troll's Hall, showing both above and below the tabletop: Askeladden sits on the bench with his small sack tied loosely in front of his belly under the table edge and slips a spoonful of porridge into it with an innocent face, while porridge drips out of a little hole in the bottom of the sack into a puddle on the floor. Beside him the Troll shovels porridge from a giant bowl with a spoon as big as a spade, eyes shut in bliss.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A small, wiry boy of about eleven, shorter than most boys his age, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, dark-brown knee breeches, thick oatmeal-coloured wool stockings and scuffed brown boots. A small brown linen sack with a drawstring hangs from his shoulder.\n- the Troll: A giant forest troll, so tall that his head pokes up among the treetops, with cracked, bark-brown skin like an old pine trunk, a shaggy black haystack of hair full of twigs and dry leaves, a potato nose, small twinkly yellow eyes, an enormous mouth that stretches from ear to ear with big square teeth, long dangling arms and a huge, round belly. He wears baggy, patched sackcloth trousers held up by braces of twisted roots, and no shirt.\n\nSetting:\n- the Troll's Hall: A big, high room hollowed out of the rock inside the mountain, with rough brown rock walls and thick tree roots poking through the ceiling. A wide stone fireplace glows at one end, with a huge black iron pot hanging over the fire. A long, rough plank table with one long bench stands in front of it, two giant iron buckets stand by a heavy round wooden door, and everything is troll-sized, big and chunky.\n\nStory world: Old rural Norway, long ago. A poor old farmer lives with his three sons in a small, low log cottage with a turf roof at the edge of a deep forest of spruce and birch. The troll lives inside a steep, rocky mountain in the middle of the forest, behind a heavy round wooden door. Everything in his home is troll-sized: two iron buckets as big as bathtubs, a huge black iron pot over the fire, a porridge spoon as big as a spade, giant wooden bowls and a long plank table with one long bench. Askeladden's cheese is small, round, soft and white, and fits in his hand. His sack is a small brown linen sack with a drawstring. The brothers' axes are ordinary wood axes with short handles.\n\nThis story's season, light and colours: Misty autumn in the forest: rust-red and orange birch leaves, dark spruces, golden ferns and cool grey mist drifting between the trunks in soft, pale daylight. Inside the mountain: warm amber firelight on rough brown rock. At home in the cottage: pale daylight through one small window, and in the evening the glow of a single candle.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 40,
+      "anchor": "Trollet ville ikke tape.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "BOMS! Trollet velter baklengs ned av benken.",
+      "alt": "Trollet ligger på ryggen på gulvet med den runde magen i været og sparker med beina. Askeladden sitter på benken med skjea i hånda og kikker ned på ham.",
+      "prompt": "Seen from above in the Troll's Hall: the Troll has toppled backwards off the bench and lies on the floor with his belly sticking up like a round hill, kicking his big feet in the air, cheeks puffed and eyes rolling, his giant spoon dropped beside him. Askeladden, still sitting on the bench with a spoon in his hand, leans over and peeks down at him with a cheeky grin. Firelight flickers on the empty bowls on the table. Funny, not scary.",
+      "characters": [
+        "askeladden",
+        "trollet"
+      ],
+      "places": [
+        "trollstua"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Troll, the same character seen from three sides. Keep the Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Troll's Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Seen from above in the Troll's Hall: the Troll has toppled backwards off the bench and lies on the floor with his belly sticking up like a round hill, kicking his big feet in the air, cheeks puffed and eyes rolling, his giant spoon dropped beside him. Askeladden, still sitting on the bench with a spoon in his hand, leans over and peeks down at him with a cheeky grin. Firelight flickers on the empty bowls on the table. Funny, not scary.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A small, wiry boy of about eleven, shorter than most boys his age, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, dark-brown knee breeches, thick oatmeal-coloured wool stockings and scuffed brown boots. A small brown linen sack with a drawstring hangs from his shoulder.\n- the Troll: A giant forest troll, so tall that his head pokes up among the treetops, with cracked, bark-brown skin like an old pine trunk, a shaggy black haystack of hair full of twigs and dry leaves, a potato nose, small twinkly yellow eyes, an enormous mouth that stretches from ear to ear with big square teeth, long dangling arms and a huge, round belly. He wears baggy, patched sackcloth trousers held up by braces of twisted roots, and no shirt.\n\nSetting:\n- the Troll's Hall: A big, high room hollowed out of the rock inside the mountain, with rough brown rock walls and thick tree roots poking through the ceiling. A wide stone fireplace glows at one end, with a huge black iron pot hanging over the fire. A long, rough plank table with one long bench stands in front of it, two giant iron buckets stand by a heavy round wooden door, and everything is troll-sized, big and chunky.\n\nStory world: Old rural Norway, long ago. A poor old farmer lives with his three sons in a small, low log cottage with a turf roof at the edge of a deep forest of spruce and birch. The troll lives inside a steep, rocky mountain in the middle of the forest, behind a heavy round wooden door. Everything in his home is troll-sized: two iron buckets as big as bathtubs, a huge black iron pot over the fire, a porridge spoon as big as a spade, giant wooden bowls and a long plank table with one long bench. Askeladden's cheese is small, round, soft and white, and fits in his hand. His sack is a small brown linen sack with a drawstring. The brothers' axes are ordinary wood axes with short handles.\n\nThis story's season, light and colours: Misty autumn in the forest: rust-red and orange birch leaves, dark spruces, golden ferns and cool grey mist drifting between the trunks in soft, pale daylight. Inside the mountain: warm amber firelight on rough brown rock. At home in the cottage: pale daylight through one small window, and in the evening the glow of a single candle.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 46,
+      "anchor": "Da faren så gullet og sølvet, fikk han så store øyne at han glemte å si «da jeg var ung».",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Faren får så store øyne at han glemmer å si «da jeg var ung».",
+      "alt": "Askeladden heller gull og sølv ut av sekken på bordet hjemme. Faren bøyer seg over bordet med kjempestore øyne og åpen munn.",
+      "prompt": "Back home in the small cottage kitchen in the evening, Askeladden tips his small sack over the table, and a glittering stream of gold and silver coins pours out and rolls in all directions. The Father leans over the table with his eyes as big as saucers and his mouth wide open, his hat sliding off the back of his head. Two axes lean against the wall by the door, and a long yellow knitted cap hangs on a peg. Warm candlelight.",
+      "characters": [
+        "askeladden",
+        "faren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Father, the same character seen from three sides. Keep the Father's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Father only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Back home in the small cottage kitchen in the evening, Askeladden tips his small sack over the table, and a glittering stream of gold and silver coins pours out and rolls in all directions. The Father leans over the table with his eyes as big as saucers and his mouth wide open, his hat sliding off the back of his head. Two axes lean against the wall by the door, and a long yellow knitted cap hangs on a peg. Warm candlelight.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A small, wiry boy of about eleven, shorter than most boys his age, with a round face, rosy cheeks, bright brown eyes, a button nose, a dark-brown curly mop of hair and a cheeky gap-toothed grin. He wears a moss-green knitted jumper with brown leather elbow patches, dark-brown knee breeches, thick oatmeal-coloured wool stockings and scuffed brown boots. A small brown linen sack with a drawstring hangs from his shoulder.\n- the Father: A short, stocky, bow-legged old farmer of about seventy with a broad, weather-beaten, wrinkled face, a big bulbous nose, small twinkling eyes under shaggy grey eyebrows and a thick, bristly grey beard cut short and square. He wears a battered, wide-brimmed black felt hat, a patched grey-blue wool jacket with horn buttons over a collarless linen shirt, brown knee breeches with braces, grey wool stockings and wooden clogs.\n\nStory world: Old rural Norway, long ago. A poor old farmer lives with his three sons in a small, low log cottage with a turf roof at the edge of a deep forest of spruce and birch. The troll lives inside a steep, rocky mountain in the middle of the forest, behind a heavy round wooden door. Everything in his home is troll-sized: two iron buckets as big as bathtubs, a huge black iron pot over the fire, a porridge spoon as big as a spade, giant wooden bowls and a long plank table with one long bench. Askeladden's cheese is small, round, soft and white, and fits in his hand. His sack is a small brown linen sack with a drawstring. The brothers' axes are ordinary wood axes with short handles.\n\nThis story's season, light and colours: Misty autumn in the forest: rust-red and orange birch leaves, dark spruces, golden ferns and cool grey mist drifting between the trunks in soft, pale daylight. Inside the mountain: warm amber firelight on rough brown rock. At home in the cottage: pale daylight through one small window, and in the evening the glow of a single candle.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

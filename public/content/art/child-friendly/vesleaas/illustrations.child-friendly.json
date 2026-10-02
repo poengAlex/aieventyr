@@ -1,0 +1,372 @@
+{
+  "storyId": "vesleaas",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Vesle Aase gåsepike",
+  "textFile": "public/content/stories/vesleaas/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:26.432Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Vesle Aase sitter midt i veien og syr lapp på lapp og sting på sting.",
+    "alt": "Vesle Aase sitter midt i veien med en liten kjole med mange lapper i fanget. Rundt henne går gjessene og napper gress, og langt borte kommer en rytter.",
+    "prompt": "Vesle Aase sits cross-legged in the middle of the dusty road beside the Goose Meadow, sewing a small patched dress in her lap, and looks straight out at the viewer with a calm, knowing little smile. Nine geese, big and small, white and grey, waddle and nibble grass around her. Far away down the road, a tiny rider on a bay horse is coming. Soft spring light and dandelions everywhere.",
+    "characters": [
+      "vesle-aase"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for Vesle Aase, the same character seen from three sides. Keep Vesle Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Vesle Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Goose Meadow. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: Vesle Aase sits cross-legged in the middle of the dusty road beside the Goose Meadow, sewing a small patched dress in her lap, and looks straight out at the viewer with a calm, knowing little smile. Nine geese, big and small, white and grey, waddle and nibble grass around her. Far away down the road, a tiny rider on a bay horse is coming. Soft spring light and dandelions everywhere.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Vesle Aase: A small, sturdy goose girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with neat blue and green patches, a crisp white apron, wooden clogs and a little patchwork sewing bag hanging from her apron string.\n\nSetting:\n- the Goose Meadow: A wide, gently sloping green meadow full of golden dandelions and white dandelion clocks, with a dusty country road running along its lower edge between grassy ditches. A few young birches in bright new leaf and a low grey stone wall stand in the meadow, and in the background rises the king's big white timber castle with carved wooden balconies and blue window frames.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "vesle-aase",
+      "name": "Vesle Aase",
+      "description": "En snill og rolig gåsepike som passer kongens gjess og tør å være ærlig, selv når andre prøver å skjule sannheten.",
+      "look": "A small, sturdy goose girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with neat blue and green patches, a crisp white apron, wooden clogs and a little patchwork sewing bag hanging from her apron string.",
+      "sheet": "characters/vesle-aase.webp",
+      "turn": "characters/vesle-aase-turn.mp4",
+      "portrait": "portraits/vesle-aase.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/vesle-aase.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/vesle-aase-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "vesle-aase"
+    },
+    {
+      "slug": "vesle-aase-brud",
+      "name": "Vesle Aase som brud",
+      "description": "Vesle Aase på bryllupsdagen, i en ny kjole uten en eneste lapp og med ringen til kongssønnen på fingeren.",
+      "look": "A small, sturdy girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes and thick, straight eyebrows. Her thick dark-brown hair is pinned up under a small, glittering silver bridal crown with dangling spangles. She wears a new buttercup-yellow wedding dress without a single patch, embroidered with white daisies around the hem, soft white shoes and a slim gold ring with a tiny red stone on one finger.",
+      "sheet": "characters/vesle-aase-brud.webp",
+      "turn": "characters/vesle-aase-brud-turn.mp4",
+      "portrait": "portraits/vesle-aase-brud.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/vesle-aase-brud.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/vesle-aase-brud-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kongssonnen-fra-england",
+      "name": "Kongssønnen fra England",
+      "description": "En høflig prins som leter etter den snilleste og mest ærlige han kan gifte seg med, og som velger å handle rolig når han blir skuffet.",
+      "look": "A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.",
+      "sheet": "characters/kongssonnen-fra-england.webp",
+      "turn": "characters/kongssonnen-fra-england-turn.mp4",
+      "portrait": "portraits/kongssonnen-fra-england.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kongssonnen-fra-england.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kongssonnen-fra-england-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kongssonnen-fra-england"
+    },
+    {
+      "slug": "sannhetssteinen",
+      "name": "Sannhetssteinen",
+      "description": "En liten blank stein som avslører om noen prøver å lure, og som hjelper prinsen å forstå hvem som er ærlig.",
+      "look": "A small, smooth, egg-shaped stone no bigger than a plum, polished so shiny that it gleams like a pearl: milky white with faint swirls of pale gold and rose inside. It has no face, but when it speaks or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight. It lies quite still, looking wise and quietly magical.",
+      "sheet": "characters/sannhetssteinen.webp",
+      "turn": "characters/sannhetssteinen-turn.mp4",
+      "portrait": "portraits/sannhetssteinen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/sannhetssteinen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/sannhetssteinen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "sannhetssteinen"
+    },
+    {
+      "slug": "den-tredje-prinsessa",
+      "name": "Den tredje prinsessa",
+      "description": "En vakker prinsesse som blir urolig for at sannheten skal komme fram, og derfor prøver å bytte plass med Aase om natta.",
+      "look": "A tall, willowy princess of about eighteen with a long neck, a narrow face, high arched brows over big, anxious dark-brown eyes, a delicate little mouth and glossy chocolate-brown hair in long, bouncy ringlets tied back with a pearl-studded ribbon. She wears a small pearl tiara, pearl earrings and a long peacock-blue gown with puffed sleeves and a lace collar, and carries a large white feather fan that she likes to hide behind.",
+      "sheet": "characters/den-tredje-prinsessa.webp",
+      "turn": "characters/den-tredje-prinsessa-turn.mp4",
+      "portrait": "portraits/den-tredje-prinsessa.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-tredje-prinsessa.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-tredje-prinsessa-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-tredje-prinsessa"
+    }
+  ],
+  "places": [
+    {
+      "slug": "gaaseenga",
+      "name": "the Goose Meadow",
+      "look": "A wide, gently sloping green meadow full of golden dandelions and white dandelion clocks, with a dusty country road running along its lower edge between grassy ditches. A few young birches in bright new leaf and a low grey stone wall stand in the meadow, and in the background rises the king's big white timber castle with carved wooden balconies and blue window frames."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "Da kom det en prins ridende.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kongssønnen må stoppe hesten, for vesle Aase flytter seg ikke.",
+      "alt": "Vesle Aase sitter midt i veien og syr på en liten kjole med mange lapper. Rundt henne napper gjessene gress. Kongssønnen har stoppet hesten sin rett foran henne.",
+      "prompt": "On the dusty road beside the Goose Meadow, Vesle Aase sits right in the middle of the road, sewing a small patched dress in her lap, while nine geese, big and small, white and grey, nibble grass in the ditches around her. The Prince has had to rein in his tall bay horse just in front of her and looks down in surprise, one eyebrow raised. She keeps on sewing, perfectly calm. Fresh spring morning light.",
+      "characters": [
+        "vesle-aase",
+        "kongssonnen-fra-england"
+      ],
+      "places": [
+        "gaaseenga"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for Vesle Aase, the same character seen from three sides. Keep Vesle Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Vesle Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Goose Meadow. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: On the dusty road beside the Goose Meadow, Vesle Aase sits right in the middle of the road, sewing a small patched dress in her lap, while nine geese, big and small, white and grey, nibble grass in the ditches around her. The Prince has had to rein in his tall bay horse just in front of her and looks down in surprise, one eyebrow raised. She keeps on sewing, perfectly calm. Fresh spring morning light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Vesle Aase: A small, sturdy goose girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with neat blue and green patches, a crisp white apron, wooden clogs and a little patchwork sewing bag hanging from her apron string.\n- the Prince: A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.\n\nSetting:\n- the Goose Meadow: A wide, gently sloping green meadow full of golden dandelions and white dandelion clocks, with a dusty country road running along its lower edge between grassy ditches. A few young birches in bright new leaf and a low grey stone wall stand in the meadow, and in the background rises the king's big white timber castle with carved wooden balconies and blue window frames.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 9,
+      "anchor": "«Henne!» sa han.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "I tre dager ser kongssønnen på bilder av prinsesser. Så peker han: «Henne!»",
+      "alt": "Kongssønnen sitter i en stor stol i en sal full av malte bilder av prinsesser. Han er trøtt, men peker bestemt på ett av bildene.",
+      "prompt": "In a sunny castle hall, fourteen painted portraits of different princesses in golden frames stand propped on easels and chairs and lean against the walls. The Prince slumps in a big armchair with tired, heavy eyes after three days of looking, and points firmly at one portrait: a plump princess with pale-blonde hair piled up high with a big bow on top, in a frilly peach-pink gown. On a little table beside him, a candle has burned right down to a stub.",
+      "characters": [
+        "kongssonnen-fra-england"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In a sunny castle hall, fourteen painted portraits of different princesses in golden frames stand propped on easels and chairs and lean against the walls. The Prince slumps in a big armchair with tired, heavy eyes after three days of looking, and points firmly at one portrait: a plump princess with pale-blonde hair piled up high with a big bow on top, in a frilly peach-pink gown. On a little table beside him, a candle has burned right down to a stub.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 19,
+      "anchor": "«Ei som er ærlig tvers igjennom!» sa sannhetssteinen.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Ei som er ærlig tvers igjennom!» sier sannhetssteinen.",
+      "alt": "I en mørk gang lister vesle Aase seg inn på rommet og går over den lille steinen, som lyser gyllent. Kongssønnen står i skyggen og hører etter.",
+      "prompt": "Night in the dark castle corridor. Vesle Aase tiptoes in her stockings through the painted door of the fine bedchamber, carrying her clogs in one hand, and steps right over the Truth Stone on the worn threshold. The stone glows warm gold, lighting up her feet and the door frame. A few steps away in the shadows stands the Prince, listening with a pleased smile. Only the stone's glow and a little blue moonlight from a small window light the scene.",
+      "characters": [
+        "vesle-aase",
+        "kongssonnen-fra-england",
+        "sannhetssteinen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Vesle Aase, the same character seen from three sides. Keep Vesle Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Vesle Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Truth Stone, the same character seen from three sides. Keep the Truth Stone's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Truth Stone only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Night in the dark castle corridor. Vesle Aase tiptoes in her stockings through the painted door of the fine bedchamber, carrying her clogs in one hand, and steps right over the Truth Stone on the worn threshold. The stone glows warm gold, lighting up her feet and the door frame. A few steps away in the shadows stands the Prince, listening with a pleased smile. Only the stone's glow and a little blue moonlight from a small window light the scene.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Vesle Aase: A small, sturdy goose girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with neat blue and green patches, a crisp white apron, wooden clogs and a little patchwork sewing bag hanging from her apron string.\n- the Prince: A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.\n- the Truth Stone: A small, smooth, egg-shaped stone no bigger than a plum, polished so shiny that it gleams like a pearl: milky white with faint swirls of pale gold and rose inside. It has no face, but when it speaks or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight. It lies quite still, looking wise and quietly magical.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 27,
+      "anchor": "«Takk for besøket», sa han høflig.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Takk for besøket», sier kongssønnen høflig.",
+      "alt": "To tjenere bærer en stor koffert ut til vogna. Kongssønnen bukker høflig på trappa, og prinsessa skynder seg etter med røde kinn.",
+      "prompt": "In front of the white timber castle on a bright morning, two servants in blue livery stagger towards a waiting carriage with a huge, bulging travel trunk between them. The Prince stands on the front steps and bows politely, one hand on his heart. The first princess, plump, with pale-blonde hair piled up high with a big bow on top and a frilly peach-pink gown, hurries after her trunk with red cheeks. Two white horses wait in front of the carriage.",
+      "characters": [
+        "kongssonnen-fra-england"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In front of the white timber castle on a bright morning, two servants in blue livery stagger towards a waiting carriage with a huge, bulging travel trunk between them. The Prince stands on the front steps and bows politely, one hand on his heart. The first princess, plump, with pale-blonde hair piled up high with a big bow on top and a frilly peach-pink gown, hurries after her trunk with red cheeks. Two white horses wait in front of the carriage.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 37,
+      "anchor": "Nå var kongssønnen nesten lei.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han reiser så langt at hesten blir lei den også.",
+      "alt": "Kongssønnen sitter sliten på en hest som henger med ørene og har tunga ute. Langt fremme står den tredje prinsessa på en balkong og vinker til ham.",
+      "prompt": "A long road winds over green, rolling hills towards a faraway castle with pointed towers. The Prince's tall bay horse plods along with drooping ears, half-closed eyes and its tongue hanging out, and the Prince slumps wearily in the saddle. But ahead, on a balcony of the castle, the Third Princess waves her white feather fan at him, and he perks up with a hopeful smile. Soft afternoon light.",
+      "characters": [
+        "kongssonnen-fra-england",
+        "den-tredje-prinsessa"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Third Princess, the same character seen from three sides. Keep the Third Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Third Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A long road winds over green, rolling hills towards a faraway castle with pointed towers. The Prince's tall bay horse plods along with drooping ears, half-closed eyes and its tongue hanging out, and the Prince slumps wearily in the saddle. But ahead, on a balcony of the castle, the Third Princess waves her white feather fan at him, and he perks up with a hopeful smile. Soft afternoon light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.\n- the Third Princess: A tall, willowy princess of about eighteen with a long neck, a narrow face, high arched brows over big, anxious dark-brown eyes, a delicate little mouth and glossy chocolate-brown hair in long, bouncy ringlets tied back with a pearl-studded ribbon. She wears a small pearl tiara, pearl earrings and a long peacock-blue gown with puffed sleeves and a lace collar, and carries a large white feather fan that she likes to hide behind.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 51,
+      "anchor": "Da alle sov, listet han seg inn på rommet med et lys i hånda.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kongssønnen setter ringen sin forsiktig på fingeren til jenta som sover.",
+      "alt": "Kongssønnen står med et lys i hånda og setter ringen sin på fingeren til ei jente som sover med en krans av engblomster i håret. Ved døra lyser den lille steinen.",
+      "prompt": "Inside the dark bedchamber at night, lit only by the candle in the Prince's hand, Vesle Aase lies fast asleep in a big carved bed under a white eiderdown, with a wreath of meadow flowers in her dark hair and one hand resting on the cover. The Prince bends over her and very carefully slides his small gold ring onto her finger. By the half-open painted door, the Truth Stone glows softly on the threshold. Hushed, gentle and tender.",
+      "characters": [
+        "kongssonnen-fra-england",
+        "vesle-aase",
+        "sannhetssteinen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Vesle Aase, the same character seen from three sides. Keep Vesle Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Vesle Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Truth Stone, the same character seen from three sides. Keep the Truth Stone's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Truth Stone only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Inside the dark bedchamber at night, lit only by the candle in the Prince's hand, Vesle Aase lies fast asleep in a big carved bed under a white eiderdown, with a wreath of meadow flowers in her dark hair and one hand resting on the cover. The Prince bends over her and very carefully slides his small gold ring onto her finger. By the half-open painted door, the Truth Stone glows softly on the threshold. Hushed, gentle and tender.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.\n- Vesle Aase: A small, sturdy goose girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with neat blue and green patches, a crisp white apron, wooden clogs and a little patchwork sewing bag hanging from her apron string.\n- the Truth Stone: A small, smooth, egg-shaped stone no bigger than a plum, polished so shiny that it gleams like a pearl: milky white with faint swirls of pale gold and rose inside. It has no face, but when it speaks or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight. It lies quite still, looking wise and quietly magical.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 58,
+      "anchor": "Kongssønnen så på hendene til prinsessa.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kongssønnen ser på hendene til prinsessa. Ingen ring!",
+      "alt": "Kongssønnen bøyer seg og ser nøye på fingrene til den tredje prinsessa, men det er ingen ring der. Prinsessa smiler nervøst.",
+      "prompt": "Morning light in the corridor outside the painted bedchamber door. The Third Princess holds her hands nervously in front of her, and the Prince bends to peer closely at her fingers: no ring anywhere! He raises one eyebrow. She forces a nervous little smile, her feather fan tucked under one arm. On the threshold behind them, the Truth Stone gives a soft, knowing glow.",
+      "characters": [
+        "kongssonnen-fra-england",
+        "den-tredje-prinsessa",
+        "sannhetssteinen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Third Princess, the same character seen from three sides. Keep the Third Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Third Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Truth Stone, the same character seen from three sides. Keep the Truth Stone's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Truth Stone only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Morning light in the corridor outside the painted bedchamber door. The Third Princess holds her hands nervously in front of her, and the Prince bends to peer closely at her fingers: no ring anywhere! He raises one eyebrow. She forces a nervous little smile, her feather fan tucked under one arm. On the threshold behind them, the Truth Stone gives a soft, knowing glow.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.\n- the Third Princess: A tall, willowy princess of about eighteen with a long neck, a narrow face, high arched brows over big, anxious dark-brown eyes, a delicate little mouth and glossy chocolate-brown hair in long, bouncy ringlets tied back with a pearl-studded ribbon. She wears a small pearl tiara, pearl earrings and a long peacock-blue gown with puffed sleeves and a lace collar, and carries a large white feather fan that she likes to hide behind.\n- the Truth Stone: A small, smooth, egg-shaped stone no bigger than a plum, polished so shiny that it gleams like a pearl: milky white with faint swirls of pale gold and rose inside. It has no face, but when it speaks or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight. It lies quite still, looking wise and quietly magical.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 70,
+      "anchor": "Aase ristet på hodet.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Og der, på fingeren hennes, sitter ringen hans og glitrer i sola.",
+      "alt": "Kongssønnen kneler i gresset ved vesle Aase og løfter forsiktig på filla rundt fingeren hennes. Der glitrer ringen hans. Gjessene strekker hals for å se.",
+      "prompt": "In the sunny Goose Meadow, the Prince kneels in the grass beside Vesle Aase and gently lifts a strip of rag from her finger. There on her finger sits his small gold ring, glittering in the sun. Aase sits very still, half shy and half proud. Seven curious geese crane their necks to see, and dandelions shine all around them. Bright spring light.",
+      "characters": [
+        "vesle-aase",
+        "kongssonnen-fra-england"
+      ],
+      "places": [
+        "gaaseenga"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for Vesle Aase, the same character seen from three sides. Keep Vesle Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Vesle Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Goose Meadow. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the sunny Goose Meadow, the Prince kneels in the grass beside Vesle Aase and gently lifts a strip of rag from her finger. There on her finger sits his small gold ring, glittering in the sun. Aase sits very still, half shy and half proud. Seven curious geese crane their necks to see, and dandelions shine all around them. Bright spring light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Vesle Aase: A small, sturdy goose girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with neat blue and green patches, a crisp white apron, wooden clogs and a little patchwork sewing bag hanging from her apron string.\n- the Prince: A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.\n\nSetting:\n- the Goose Meadow: A wide, gently sloping green meadow full of golden dandelions and white dandelion clocks, with a dusty country road running along its lower edge between grassy ditches. A few young birches in bright new leaf and a low grey stone wall stand in the meadow, and in the background rises the king's big white timber castle with carved wooden balconies and blue window frames.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 73,
+      "anchor": "Så ble det bryllup på slottet.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Vesle Aase får en kjole uten en eneste lapp, og gjessene sitter på første rad.",
+      "alt": "Vesle Aase står i en ny kjole uten lapper og holder kongssønnen i hånda. På første rad sitter gjessene, og bak dem klapper gjestene.",
+      "prompt": "A festive castle hall decorated with birch branches and spring flowers. Vesle Aase the Bride and the Prince stand hand in hand at the front, beaming. In the front row of wooden benches sit eight geese, white and grey, big and small, very proud and upright. Behind them ten smiling guests in their finest clothes clap their hands. Sunlight streams in through tall windows.",
+      "characters": [
+        "vesle-aase-brud",
+        "kongssonnen-fra-england"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Vesle Aase the Bride, the same character seen from three sides. Keep Vesle Aase the Bride's face, hair, body shape, age, colours and clothes exactly as shown. Draw Vesle Aase the Bride only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A festive castle hall decorated with birch branches and spring flowers. Vesle Aase the Bride and the Prince stand hand in hand at the front, beaming. In the front row of wooden benches sit eight geese, white and grey, big and small, very proud and upright. Behind them ten smiling guests in their finest clothes clap their hands. Sunlight streams in through tall windows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Vesle Aase the Bride: A small, sturdy girl of about fifteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes and thick, straight eyebrows. Her thick dark-brown hair is pinned up under a small, glittering silver bridal crown with dangling spangles. She wears a new buttercup-yellow wedding dress without a single patch, embroidered with white daisies around the hem, soft white shoes and a slim gold ring with a tiny red stone on one finger.\n- the Prince: A tall, lean prince of about twenty-two with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache. He wears a small gold crown, a bright scarlet riding coat with gold frogging across the chest, a white cravat, cream trousers and brown top boots with turned-down cuffs, and he has a polite, patient smile.\n\nStory world: Old rural Norway, long ago. The king's castle is a big, white-painted timber palace with carved wooden balconies and blue window frames, set among green meadows beside a dusty country road with grassy ditches. The king has a large flock of geese, big and small, white and grey. Vesle Aase is always sewing a small dress made of patch on patch in many colours. The fine bedchamber has a tall door painted with blue and red rosemaling flowers and a worn wooden threshold, where the truth stone lies at night. The Prince rides a tall bay horse and wears a slim gold ring with a tiny red stone on his little finger, until the night he slips it onto a sleeping girl's finger.\n\nThis story's season, light and colours: Late spring in fresh, gentle pastels: bright-green meadows full of golden dandelions and fluffy white dandelion clocks, white and grey geese, a soft sky-blue sky and clear, milky morning light. The night scenes inside the castle are a deep, hushed blue, lit only by a single candle or the truth stone's warm golden glow.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

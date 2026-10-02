@@ -1,0 +1,488 @@
+{
+  "storyId": "noedig",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Noen kjerringer er slik",
+  "textFile": "public/content/stories/noedig/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:22.670Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Er det meg, eller er det ikke meg?",
+    "alt": "Kona står på en solfylt vei, full av fjær og svarte prikker, og strekker ut armene som vinger. Hun ser forundret og fornøyd på fjærene sine.",
+    "prompt": "The Feathered Wife stands in the middle of a sunny country road, arms spread wide like wings, gazing at her feathery sleeves with a delighted, puzzled face. Fluffy white feathers drift around her in the breeze, and her long plaits stick out from a tuft of feathers on her head. Behind her, the road winds between birches and fields towards a small grey cottage under a pale-blue sky with small round clouds.",
+    "characters": [
+      "kona-med-fjaer"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Feathered Wife, the same character seen from three sides. Keep the Feathered Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Feathered Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: The Feathered Wife stands in the middle of a sunny country road, arms spread wide like wings, gazing at her feathery sleeves with a delighted, puzzled face. Fluffy white feathers drift around her in the breeze, and her long plaits stick out from a tuft of feathers on her head. Behind her, the road winds between birches and fields towards a small grey cottage under a pale-blue sky with small round clouds.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Feathered Wife: The Wife after the Butcher's prank: the same cheerful woman of about forty-five with a long ski-jump nose, big round amazed blue eyes and two long straw-yellow plaits tied with red wool, in her rust-orange skirt, black laced bodice and white apron, but now covered from head to toe with round black tar dots and fluffy white, grey and brown feathers stuck to her clothes, arms, hair and cheeks, so that she looks like a big, ruffled bird.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "kona",
+      "name": "Kona",
+      "description": "En sta og impulsiv, men godhjertet kone som lett lar seg rive med og ender i små, rare situasjoner.",
+      "look": "A cheerful, dreamy farm wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red wool. She wears a rust-orange wool skirt, a black bodice laced with red ribbon over a white blouse with wide sleeves, wooden-soled shoes and a big white apron with one deep front pocket.",
+      "sheet": "characters/kona.webp",
+      "turn": "characters/kona-turn.mp4",
+      "portrait": "portraits/kona.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kona.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kona-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kona"
+    },
+    {
+      "slug": "kona-med-fjaer",
+      "name": "Kona med fjærene",
+      "description": "Kona etter slakterens rampestrek: full av tjæreprikker og fjær, så hun tror hun er blitt en stor, rar fugl.",
+      "look": "The Wife after the Butcher's prank: the same cheerful woman of about forty-five with a long ski-jump nose, big round amazed blue eyes and two long straw-yellow plaits tied with red wool, in her rust-orange skirt, black laced bodice and white apron, but now covered from head to toe with round black tar dots and fluffy white, grey and brown feathers stuck to her clothes, arms, hair and cheeks, so that she looks like a big, ruffled bird.",
+      "sheet": "characters/kona-med-fjaer.webp",
+      "turn": "characters/kona-med-fjaer-turn.mp4",
+      "portrait": "portraits/kona-med-fjaer.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kona-med-fjaer.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kona-med-fjaer-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "mannen",
+      "name": "Mannen",
+      "description": "En tålmodig bonde som blir oppgitt, men forsøker å finne trøst i at andre også gjør merkelige ting.",
+      "look": "A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.",
+      "sheet": "characters/mannen.webp",
+      "turn": "characters/mannen-turn.mp4",
+      "portrait": "portraits/mannen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/mannen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/mannen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "mannen"
+    },
+    {
+      "slug": "slakteren",
+      "name": "Slakteren",
+      "description": "En listig, men ikke skummel handelsmann som finner på en ufarlig rampestrek og får alt til å virke enda rarere.",
+      "look": "A huge, barrel-chested butcher of about fifty with a round, shiny red face, a bulbous nose, twinkling little black eyes, bushy black eyebrows, a sly grin and a big, round, bushy black beard. He wears a small white linen cap, a red shirt with the sleeves rolled up over thick arms and a long white apron with blue stripes, and he always has a string of sausages slung over one shoulder.",
+      "sheet": "characters/slakteren.webp",
+      "turn": "characters/slakteren-turn.mp4",
+      "portrait": "portraits/slakteren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/slakteren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/slakteren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "slakteren"
+    },
+    {
+      "slug": "kona-som-vil-bare-inn-sola",
+      "name": "Kona som vil bære inn sola",
+      "description": "En ivrig husmor som tror hun må bære solskinn inn i et nytt hus og blir overlykkelig når hun får en enkel løsning.",
+      "look": "A tiny, quick, bird-like young wife of about twenty-two, hardly taller than a ten-year-old, with a small round face, a pointed chin, bright eager green eyes, rosy cheeks and a mass of glossy black curls tied up in a sunflower-yellow kerchief. She wears an apricot-orange dress with a white apron and red shoes, and she always carries a big, round, shallow wooden sieve with a bottom full of tiny holes.",
+      "sheet": "characters/kona-som-vil-bare-inn-sola.webp",
+      "turn": "characters/kona-som-vil-bare-inn-sola-turn.mp4",
+      "portrait": "portraits/kona-som-vil-bare-inn-sola.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kona-som-vil-bare-inn-sola.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kona-som-vil-bare-inn-sola-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kona-som-vil-bare-inn-sola"
+    },
+    {
+      "slug": "den-nysgjerrige-gardskona",
+      "name": "Den nysgjerrige gårdskona",
+      "description": "En pratsom og godtroende kone som misforstår hvor den reisende er fra og vil sende gaver til den døde mannen sin i himmelen.",
+      "look": "A tall, big, well-fed farm wife of about sixty with a large round face, a double chin, pink cheeks, a big mouth always open to talk, bright little inquisitive eyes and iron-grey ringlets under a large round black bonnet trimmed with lace and tied under her chins. She wears a wine-red wool dress with silver buttons and a green silk shawl, and she always holds a long brass ear trumpet to one ear.",
+      "sheet": "characters/den-nysgjerrige-gardskona.webp",
+      "turn": "characters/den-nysgjerrige-gardskona-turn.mp4",
+      "portrait": "portraits/den-nysgjerrige-gardskona.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-nysgjerrige-gardskona.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-nysgjerrige-gardskona-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-nysgjerrige-gardskona"
+    },
+    {
+      "slug": "per",
+      "name": "Per nummer tre",
+      "description": "Gårdskonas tredje mann, en gretten bonde som blir lurt av mannen fra Ringerike, men som heller dikter opp en historie enn å innrømme det.",
+      "look": "A tall, heavy, grumpy farmer of about fifty with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black stocking cap, a patched leather jerkin over a rust-red shirt, brown knee breeches and tall muddy boots.",
+      "sheet": "characters/per.webp",
+      "turn": "characters/per-turn.mp4",
+      "portrait": "portraits/per.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/per.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/per-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    }
+  ],
+  "places": [
+    {
+      "slug": "smagarden",
+      "name": "the Little Farm",
+      "look": "A small, poor farm on a gentle slope: a low grey log cottage with a turf roof sprouting dandelions, a tiny barn, and a little storehouse standing on four stone legs with a steep roof of wooden shingles. In front lies a small brown field ringed by a split-rail fence, with a few birches in their first spring leaf and white wood anemones along the fence."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 8,
+      "anchor": "Slakteren så på høna.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Slakteren så på høna. Høna så på slakteren.",
+      "alt": "Kona holder fram ei tynn høne som har mistet halvparten av fjærene. Slakteren bøyer seg ned, og han og høna ser mistenksomt på hverandre. Ved siden av står kua.",
+      "prompt": "Beside the Butcher's wooden booth near the little town, hung with rows of sausages, the Wife proudly holds out the scrawny, half-bald speckled hen in both hands. The Butcher bends down until he is nose to beak with the hen, and the two of them stare at each other with exactly the same doubtful look. The thin fawn-coloured cow stands beside the Wife, its rope looped over her arm, chewing calmly. Bright, dusty spring sunshine.",
+      "characters": [
+        "slakteren",
+        "kona"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Butcher, the same character seen from three sides. Keep the Butcher's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Butcher only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Wife, the same character seen from three sides. Keep the Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Beside the Butcher's wooden booth near the little town, hung with rows of sausages, the Wife proudly holds out the scrawny, half-bald speckled hen in both hands. The Butcher bends down until he is nose to beak with the hen, and the two of them stare at each other with exactly the same doubtful look. The thin fawn-coloured cow stands beside the Wife, its rope looped over her arm, chewing calmly. Bright, dusty spring sunshine.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Butcher: A huge, barrel-chested butcher of about fifty with a round, shiny red face, a bulbous nose, twinkling little black eyes, bushy black eyebrows, a sly grin and a big, round, bushy black beard. He wears a small white linen cap, a red shirt with the sleeves rolled up over thick arms and a long white apron with blue stripes, and he always has a string of sausages slung over one shoulder.\n- the Wife: A cheerful, dreamy farm wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red wool. She wears a rust-orange wool skirt, a black bodice laced with red ribbon over a white blouse with wide sleeves, wooden-soled shoes and a big white apron with one deep front pocket.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 17,
+      "anchor": "Nå fikk slakteren en rampete idé.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Nå fikk slakteren en rampete idé.",
+      "alt": "Kona sover på benken foran boden etter sju pølser. Slakteren står bak henne og rister ei dyne, så fjærene daler ned over klærne hennes, som er fulle av svarte prikker.",
+      "prompt": "On the bench in front of the Butcher's booth, the Wife sleeps sitting up, snoring happily with her head tipped back and her mouth open, an empty plate with seven sausage strings beside her. Her clothes are already dotted all over with round black tar spots. Grinning mischievously, the Butcher stands behind the bench and shakes a big, split-open feather duvet over her, so that white feathers snow down onto her. A little pot of black tar with a brush stands on the ground.",
+      "characters": [
+        "kona",
+        "slakteren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Wife, the same character seen from three sides. Keep the Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Butcher, the same character seen from three sides. Keep the Butcher's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Butcher only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: On the bench in front of the Butcher's booth, the Wife sleeps sitting up, snoring happily with her head tipped back and her mouth open, an empty plate with seven sausage strings beside her. Her clothes are already dotted all over with round black tar spots. Grinning mischievously, the Butcher stands behind the bench and shakes a big, split-open feather duvet over her, so that white feathers snow down onto her. A little pot of black tar with a brush stands on the ground.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Wife: A cheerful, dreamy farm wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red wool. She wears a rust-orange wool skirt, a black bodice laced with red ribbon over a white blouse with wide sleeves, wooden-soled shoes and a big white apron with one deep front pocket.\n- the Butcher: A huge, barrel-chested butcher of about fifty with a round, shiny red face, a bulbous nose, twinkling little black eyes, bushy black eyebrows, a sly grin and a big, round, bushy black beard. He wears a small white linen cap, a red shirt with the sleeves rolled up over thick arms and a long white apron with blue stripes, and he always has a string of sausages slung over one shoulder.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 29,
+      "anchor": "Da kom mannen ut med en stor håv.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«For en diger fugl!» sa mannen. «Den skal jeg fange!»",
+      "alt": "Kona står på stabburstaket, full av fjær, og flakser med armene. Nede på gårdsplassen kommer mannen med en stor håv og myser opp mot den rare fuglen.",
+      "prompt": "At the Little Farm, the Feathered Wife stands on the steep shingle roof of the little storehouse, arms spread wide, flapping with all her might, feathers whirling off her into the air. Below in the yard, the Husband comes striding out of the cottage with a huge long-handled fishing net held up high, squinting up at her with a big grin as if at an enormous bird. A small brown dog sits in the yard with its head tilted. Clear spring afternoon.",
+      "characters": [
+        "kona-med-fjaer",
+        "mannen"
+      ],
+      "places": [
+        "smagarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Feathered Wife, the same character seen from three sides. Keep the Feathered Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Feathered Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Little Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: At the Little Farm, the Feathered Wife stands on the steep shingle roof of the little storehouse, arms spread wide, flapping with all her might, feathers whirling off her into the air. Below in the yard, the Husband comes striding out of the cottage with a huge long-handled fishing net held up high, squinting up at her with a big grin as if at an enormous bird. A small brown dog sits in the yard with its head tilted. Clear spring afternoon.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Feathered Wife: The Wife after the Butcher's prank: the same cheerful woman of about forty-five with a long ski-jump nose, big round amazed blue eyes and two long straw-yellow plaits tied with red wool, in her rust-orange skirt, black laced bodice and white apron, but now covered from head to toe with round black tar dots and fluffy white, grey and brown feathers stuck to her clothes, arms, hair and cheeks, so that she looks like a big, ruffled bird.\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n\nSetting:\n- the Little Farm: A small, poor farm on a gentle slope: a low grey log cottage with a turf roof sprouting dandelions, a tiny barn, and a little storehouse standing on four stone legs with a steep roof of wooden shingles. In front lies a small brown field ringed by a split-rail fence, with a few birches in their first spring leaf and white wood anemones along the fence.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 36,
+      "anchor": "Ute holdt hun sila opp mot sola.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Ut og inn, ut og inn, med sila i hendene.",
+      "alt": "Utenfor et nytt hus av lyse tømmerstokker holder ei ung kone ei stor, rund sil opp mot sola. Mannen står i utkanten av gårdsplassen og klør seg i hodet.",
+      "prompt": "In front of a brand-new house built of pale, fresh logs, the Sieve Wife holds her big round sieve up towards the bright sun with both arms, standing on tiptoe, ready to throw her apron over it and dash inside. Her yellow kerchief bobs and her apron flaps; she is in a great hurry. At the edge of the yard stands the Husband, dusty from the road, scratching his head in wonder. The door of the house stands open onto pitch darkness.",
+      "characters": [
+        "kona-som-vil-bare-inn-sola",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Sieve Wife, the same character seen from three sides. Keep the Sieve Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Sieve Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In front of a brand-new house built of pale, fresh logs, the Sieve Wife holds her big round sieve up towards the bright sun with both arms, standing on tiptoe, ready to throw her apron over it and dash inside. Her yellow kerchief bobs and her apron flaps; she is in a great hurry. At the edge of the yard stands the Husband, dusty from the road, scratching his head in wonder. The door of the house stands open onto pitch darkness.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Sieve Wife: A tiny, quick, bird-like young wife of about twenty-two, hardly taller than a ten-year-old, with a small round face, a pointed chin, bright eager green eyes, rosy cheeks and a mass of glossy black curls tied up in a sunflower-yellow kerchief. She wears an apricot-orange dress with a white apron and red shoes, and she always carries a big, round, shallow wooden sieve with a bottom full of tiny holes.\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 44,
+      "anchor": "Kona stoppet midt i et hopp.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kona stoppet midt i et hopp og så på sola.",
+      "alt": "Gjennom et nytt hull i veggen skinner sola inn i lange, gule striper. Kona står på ett bein midt i et hopp og klemmer sila, og mannen står med øksa på skulderen og smiler.",
+      "prompt": "Inside the dim new house of pale logs, a freshly chopped square hole in the wall lets in the sun, which lies across the floor in long golden stripes. The Sieve Wife has stopped in the middle of a jump, one foot still in the air, staring at the sunshine with her mouth open and hugging her big sieve to her chest. The Husband stands by the new hole with an axe resting on his shoulder and wood chips around his boots, smiling.",
+      "characters": [
+        "kona-som-vil-bare-inn-sola",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Sieve Wife, the same character seen from three sides. Keep the Sieve Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Sieve Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Inside the dim new house of pale logs, a freshly chopped square hole in the wall lets in the sun, which lies across the floor in long golden stripes. The Sieve Wife has stopped in the middle of a jump, one foot still in the air, staring at the sunshine with her mouth open and hugging her big sieve to her chest. The Husband stands by the new hole with an axe resting on his shoulder and wood chips around his boots, smiling.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Sieve Wife: A tiny, quick, bird-like young wife of about twenty-two, hardly taller than a ten-year-old, with a small round face, a pointed chin, bright eager green eyes, rosy cheeks and a mass of glossy black curls tied up in a sunflower-yellow kerchief. She wears an apricot-orange dress with a white apron and red shoes, and she always carries a big, round, shallow wooden sieve with a bottom full of tiny holes.\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 54,
+      "anchor": "Klipp, klipp, klipp!",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Klipp, klipp, klipp! Og opp gjennom hullet kom et hode.",
+      "alt": "Mannen har klippet et hull i en ny skjorte, og opp gjennom hullet stikker et hode med bustete hår og smiler. Kona i huset klapper i hendene.",
+      "prompt": "Inside a small, plain farmhouse, a stocky man stands in the middle of the floor with a long new white shirt pulled right down over his head and arms. Up through a freshly snipped hole at the top pops his head, with bristly brown hair sticking out in all directions and a big, relieved grin. The Husband steps back, holding a pair of scissors. The man's stout wife, in a brown dress and a white cap, claps her hands in amazement.",
+      "characters": [
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Inside a small, plain farmhouse, a stocky man stands in the middle of the floor with a long new white shirt pulled right down over his head and arms. Up through a freshly snipped hole at the top pops his head, with bristly brown hair sticking out in all directions and a big, relieved grin. The Husband steps back, holding a pair of scissors. The man's stout wife, in a brown dress and a white cap, claps her hands in amazement.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 62,
+      "anchor": "Mannen klødde seg i hodet.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Jo da», sa mannen. «Per nummer to kjenner jeg godt.»",
+      "alt": "Gårdskona lener seg over bordet med et langt hørerør av messing og peker opp mot himmelen. Mannen sitter på benken med ei skål og klør seg i hodet.",
+      "prompt": "In the big, bright kitchen of the rich farm, the Curious Farm Wife leans far across the table with her brass ear trumpet aimed at the Husband, her eyes shining with excitement, one finger pointing up towards the sky. The Husband sits on the bench with a bowl of porridge in front of him, scratching his head under his cap and thinking fast. Through the window behind them: green fields and a big red stable.",
+      "characters": [
+        "den-nysgjerrige-gardskona",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Curious Farm Wife, the same character seen from three sides. Keep the Curious Farm Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Curious Farm Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the big, bright kitchen of the rich farm, the Curious Farm Wife leans far across the table with her brass ear trumpet aimed at the Husband, her eyes shining with excitement, one finger pointing up towards the sky. The Husband sits on the bench with a bowl of porridge in front of him, scratching his head under his cap and thinking fast. Through the window behind them: green fields and a big red stable.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Curious Farm Wife: A tall, big, well-fed farm wife of about sixty with a large round face, a double chin, pink cheeks, a big mouth always open to talk, bright little inquisitive eyes and iron-grey ringlets under a large round black bonnet trimmed with lace and tied under her chins. She wears a wine-red wool dress with silver buttons and a green silk shawl, and she always holds a long brass ear trumpet to one ear.\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 72,
+      "anchor": "Men ute på jordet gikk Per nummer tre og pløyde.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Per nummer tre så den blå hesten trave av sted med en fremmed kar på kjerra.",
+      "alt": "Per pløyer åkeren med en brun hest og snur seg mistenksomt. Langt borte traver den blå hesten av sted med mannen på kjerra, som er full av klær og et skrin.",
+      "prompt": "A wide spring landscape. In the foreground, Per walks behind a wooden plough pulled by the chestnut-brown horse, cutting a dark furrow in the field; he has stopped and looks over his shoulder with a suspicious frown. Far off along the road, the blue-grey dappled horse trots away pulling the little cart piled high with folded clothes, a chest and jars, the Husband on the seat holding the reins. By the farm gate, the Curious Farm Wife waves a handkerchief.",
+      "characters": [
+        "per",
+        "mannen",
+        "den-nysgjerrige-gardskona"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Per, the same character seen from three sides. Keep Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Curious Farm Wife, the same character seen from three sides. Keep the Curious Farm Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Curious Farm Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A wide spring landscape. In the foreground, Per walks behind a wooden plough pulled by the chestnut-brown horse, cutting a dark furrow in the field; he has stopped and looks over his shoulder with a suspicious frown. Far off along the road, the blue-grey dappled horse trots away pulling the little cart piled high with folded clothes, a chest and jars, the Husband on the seat holding the reins. By the farm gate, the Curious Farm Wife waves a handkerchief.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Per: A tall, heavy, grumpy farmer of about fifty with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black stocking cap, a patched leather jerkin over a rust-red shirt, brown knee breeches and tall muddy boots.\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n- the Curious Farm Wife: A tall, big, well-fed farm wife of about sixty with a large round face, a double chin, pink cheeks, a big mouth always open to talk, bright little inquisitive eyes and iron-grey ringlets under a large round black bonnet trimmed with lace and tied under her chins. She wears a wine-red wool dress with silver buttons and a green silk shawl, and she always holds a long brass ear trumpet to one ear.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 79,
+      "anchor": "Så kom Per nummer tre ridende.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Mannen lå på ryggen og stirret opp i skyene. Så kom Per ridende.",
+      "alt": "Mannen ligger på ryggen i gresset på en liten bakke og stirrer opp i skyene. Tre blå hestehår henger i ei bjørk ved siden av ham, og Per kommer ridende og rynker pannen.",
+      "prompt": "On a small grassy hill at the edge of a birch wood, the Husband lies on his back in the grass with his hands behind his head, staring up at the white clouds with a look of great wonder. Three long blue-grey horse hairs are tied to a branch of the birch beside him, fluttering in the breeze. Up the road comes Per on the chestnut-brown horse, scowling at the strange sight. The blue-grey horse and the cart are nowhere to be seen.",
+      "characters": [
+        "mannen",
+        "per"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Per, the same character seen from three sides. Keep Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: On a small grassy hill at the edge of a birch wood, the Husband lies on his back in the grass with his hands behind his head, staring up at the white clouds with a look of great wonder. Three long blue-grey horse hairs are tied to a branch of the birch beside him, fluttering in the breeze. Up the road comes Per on the chestnut-brown horse, scowling at the strange sight. The blue-grey horse and the cart are nowhere to be seen.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n- Per: A tall, heavy, grumpy farmer of about fifty with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black stocking cap, a patched leather jerkin over a rust-red shirt, brown knee breeches and tall muddy boots.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 86,
+      "anchor": "Mens han lå der, listet mannen fra Ringerike seg bort.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Mens Per stirret opp i skyene, listet mannen seg bort.",
+      "alt": "Per ligger på ryggen og stirrer opp i skyene til øynene renner. Bak ham lister mannen seg bort med den brune hesten, mot den blå hesten og kjerra i skogkanten.",
+      "prompt": "A wide view of the little grassy hill. Per lies flat on his back, staring up at the clouds so hard that tears run from his wide-open eyes, his stocking cap fallen off beside him. Behind him, the Husband tiptoes away down the slope with a finger on his lips, leading the chestnut-brown horse by the bridle towards the edge of the birch wood, where the blue-grey dappled horse waits, hitched to the loaded cart. Soft white clouds drift across the blue sky.",
+      "characters": [
+        "per",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Per, the same character seen from three sides. Keep Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A wide view of the little grassy hill. Per lies flat on his back, staring up at the clouds so hard that tears run from his wide-open eyes, his stocking cap fallen off beside him. Behind him, the Husband tiptoes away down the slope with a finger on his lips, leading the chestnut-brown horse by the bridle towards the edge of the birch wood, where the blue-grey dappled horse waits, hitched to the loaded cart. Soft white clouds drift across the blue sky.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Per: A tall, heavy, grumpy farmer of about fifty with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black stocking cap, a patched leather jerkin over a rust-red shirt, brown knee breeches and tall muddy boots.\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 94,
+      "anchor": "Men hva var dette?",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Åkeren var allerede pløyd og sådd! Kona sto ved kanten og smilte stolt.",
+      "alt": "Mannen kommer hjem på ei kjerre full av klær og et skrin, med to hester. Åkeren er pløyd og sådd, og ved kanten står kona stolt med ei saltskål i hånda.",
+      "prompt": "At the Little Farm, the Husband arrives on the cart pulled by the blue-grey dappled horse, with the chestnut-brown horse tied on behind and the cart piled with folded clothes and a chest of silver coins. He stops with his mouth open: the brown field is already ploughed and sown in neat furrows. At the edge of the field stands the Wife, neat and tidy again, smiling proudly with a wooden bowl of salt in one hand, her fingertips white with salt.",
+      "characters": [
+        "mannen",
+        "kona"
+      ],
+      "places": [
+        "smagarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Wife, the same character seen from three sides. Keep the Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Little Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: At the Little Farm, the Husband arrives on the cart pulled by the blue-grey dappled horse, with the chestnut-brown horse tied on behind and the cart piled with folded clothes and a chest of silver coins. He stops with his mouth open: the brown field is already ploughed and sown in neat furrows. At the edge of the field stands the Wife, neat and tidy again, smiling proudly with a wooden bowl of salt in one hand, her fingertips white with salt.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n- the Wife: A cheerful, dreamy farm wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red wool. She wears a rust-orange wool skirt, a black bodice laced with red ribbon over a white blouse with wide sleeves, wooden-soled shoes and a big white apron with one deep front pocket.\n\nSetting:\n- the Little Farm: A small, poor farm on a gentle slope: a low grey log cottage with a turf roof sprouting dandelions, a tiny barn, and a little storehouse standing on four stone legs with a steep roof of wooden shingles. In front lies a small brown field ringed by a split-rail fence, with a few birches in their first spring leaf and white wood anemones along the fence.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 99,
+      "anchor": "For pengene kjøpte de ekte såkorn og ei ny ku.",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Og ei ny høne. Hun var ikke til salgs.",
+      "alt": "Mannen sår ekte korn på åkeren. Ved gjerdet beiter ei ny ku, og kona klemmer ei ny, fin høne som ikke er til salgs.",
+      "prompt": "A bright, fresh morning at the Little Farm. The Husband walks along the field with a seed basket hung round his neck, scattering real golden seed grain in a wide arc. By the fence, a sturdy new brown-and-white cow grazes, and the Wife hugs a plump new hen with glossy snow-white feathers close to her cheek, smiling as if she would never, ever sell her. The blue-grey horse and the chestnut-brown horse graze behind the barn.",
+      "characters": [
+        "mannen",
+        "kona"
+      ],
+      "places": [
+        "smagarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.\n- Image 2: model sheet for the Husband, the same character seen from three sides. Keep the Husband's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Husband only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Wife, the same character seen from three sides. Keep the Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Little Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A bright, fresh morning at the Little Farm. The Husband walks along the field with a seed basket hung round his neck, scattering real golden seed grain in a wide arc. By the fence, a sturdy new brown-and-white cow grazes, and the Wife hugs a plump new hen with glossy snow-white feathers close to her cheek, smiling as if she would never, ever sell her. The blue-grey horse and the chestnut-brown horse graze behind the barn.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Husband: A lean, wiry farmer of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black cap with a turned-up brim, a faded cornflower-blue coat with big pockets and brass buttons, and patched grey trousers tucked into worn brown boots.\n- the Wife: A cheerful, dreamy farm wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red wool. She wears a rust-orange wool skirt, a black bodice laced with red ribbon over a white blouse with wide sleeves, wooden-soled shoes and a big white apron with one deep front pocket.\n\nSetting:\n- the Little Farm: A small, poor farm on a gentle slope: a low grey log cottage with a turf roof sprouting dandelions, a tiny barn, and a little storehouse standing on four stone legs with a steep roof of wooden shingles. In front lies a small brown field ringed by a split-rail fence, with a few birches in their first spring leaf and white wood anemones along the fence.\n\nStory world: Old rural Norway, long ago, at sowing time. The Wife and the Husband have a small, poor farm with one brown field. A dusty road leads to a little market town, where the Butcher has an open wooden booth hung with rows of sausages and a bench in front. The Wife's cow is thin and fawn-coloured; her hen is a scrawny black-and-white speckled hen with a floppy red comb and half her feathers missing. Far away along the roads lie a brand-new house of pale, fresh logs with no windows, a small farmhouse, and a big, rich farm. The rich farm's horse is a sturdy blue-grey dappled horse with a black mane and tail; the other horse there is chestnut-brown. The cart is a small, two-wheeled wooden farm cart.\n\nThis story's season, light and colours: A dry, sunny spring at sowing time: pale-blue skies with small, round white clouds like grazing sheep, bare brown fields and fresh furrows, birches with their first tiny mouse-ear leaves, and white wood anemones and yellow coltsfoot along the ditches and fences. Crisp, clear, bright light and dusty roads. Accents: the Wife's rust-orange skirt, fluffy white feathers and the blue-grey horse.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

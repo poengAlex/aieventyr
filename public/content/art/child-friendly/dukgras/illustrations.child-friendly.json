@@ -1,0 +1,289 @@
+{
+  "storyId": "dukgras",
+  "set": "child-friendly",
+  "variant": "child-friendly",
+  "title": "Dukken i gresset",
+  "textFile": "public/content/stories/dukgras/child-friendly/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T07:19:21.723Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Askeladden og Dukken i gresset. Hun er liten, men flink, hun!",
+    "alt": "En bitte liten jente i hvit kjole står blant smørblomster og prestekrager som er høye som trær. Over henne ligger Askeladden på magen i gresset og smiler ned til henne.",
+    "prompt": "A low, close view in a sunny early-summer meadow: the Tiny Grass Maiden stands among buttercups and daisies that tower over her like trees, holding out her skirt in a little curtsy with a bright smile. Right above her, Askeladden lies on his stomach in the grass with his chin on his hands and peers down at her, delighted, his long face dimpled with a big smile. Dew sparkles in the morning light.",
+    "characters": [
+      "askeladden",
+      "dukken-i-graesset"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Tiny Grass Maiden, the same character seen from three sides. Keep the Tiny Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Tiny Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for a children's picture book, in a square format. Do not write a title or any other text on it.\n\nPicture: A low, close view in a sunny early-summer meadow: the Tiny Grass Maiden stands among buttercups and daisies that tower over her like trees, holding out her skirt in a little curtsy with a bright smile. Right above her, Askeladden lies on his stomach in the grass with his chin on his hands and peers down at her, delighted, his long face dimpled with a big smile. Dew sparkles in the morning light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young prince of about seventeen with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and copper-red hair cut in a round bowl cut. He wears a sky-blue linen smock under a shiny steel breastplate that is a little too big for him, a brown leather belt, loose grey trousers and tall brown riding boots.\n- the Tiny Grass Maiden: A doll-sized young woman of about seventeen, no taller than a doll, slim and light on her feet, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long pigtails tied with grass-green ribbons, with little daisies and buttercups tucked into it. She wears a simple ankle-length white linen dress with a narrow grass-green sash and tiny green slippers.\n\nStory world: Old rural Norway in early summer, long ago. The king's castle is a large palace of dark logs with grass-covered turf roofs, carved dragon gables and a wide courtyard, among blooming meadows. In a meadow by the road stands the grassy tussock where the tiny maiden lives: a round, knee-high hump of grass and clover that opens like a little door. Inside is a snug, round room with walls of woven roots, a tiny chair, a tiny spinning wheel and a tiny loom. The tiny shirt is snow-white linen with perfect little stitches, no bigger than a man's palm. Her carriage is an ordinary shiny silver tablespoon pulled by two small white mice with reins of red thread. The big lake by the road is wide and still, with reeds and water lilies. Askeladden's horse is a sturdy dun fjord horse with a black-and-cream striped mane.\n\nThis story's season, light and colours: Early summer: meadows full of buttercups, cornflowers, clover and white daisies, fresh bright-green grass sparkling with dew, and clear morning light under a pale-blue sky with small white clouds. The lake is silver-blue and still. At the castle, a passing summer shower leaves puddles and everything glistening wet.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "description": "Den yngste prinsen, som brødrene ikke vil ha med, men som møter verden med godt hjerte og mot.",
+      "look": "A tall, gangly young prince of about seventeen with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and copper-red hair cut in a round bowl cut. He wears a sky-blue linen smock under a shiny steel breastplate that is a little too big for him, a brown leather belt, loose grey trousers and tall brown riding boots.",
+      "sheet": "characters/askeladden.webp",
+      "turn": "characters/askeladden-turn.mp4",
+      "portrait": "portraits/askeladden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/askeladden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/askeladden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "askeladden"
+    },
+    {
+      "slug": "dukken-i-graesset",
+      "name": "Dukken i gresset",
+      "description": "En fin og vennlig jente, først ikke større enn en dukke, som syr en skjorte på én dag og blir like stor som Askeladden etter at hun faller i vannet.",
+      "look": "A doll-sized young woman of about seventeen, no taller than a doll, slim and light on her feet, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long pigtails tied with grass-green ribbons, with little daisies and buttercups tucked into it. She wears a simple ankle-length white linen dress with a narrow grass-green sash and tiny green slippers.",
+      "sheet": "characters/dukken-i-graesset.webp",
+      "turn": "characters/dukken-i-graesset-turn.mp4",
+      "portrait": "portraits/dukken-i-graesset.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dukken-i-graesset.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dukken-i-graesset-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "dukken-i-graesset"
+    },
+    {
+      "slug": "dukken-i-graesset-stor",
+      "name": "Dukken i gresset (stor)",
+      "description": "Dukken i gresset etter at havmannen har hentet henne opp av vannet: nå like stor som Askeladden, og enda finere enn før.",
+      "look": "A full-sized young woman of about seventeen, slim and graceful, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long pigtails tied with grass-green ribbons, under a wreath of daisies and buttercups. She wears a finer ankle-length white linen dress embroidered with little green leaves and white flowers along the hem and sleeves, a grass-green sash and green slippers.",
+      "sheet": "characters/dukken-i-graesset-stor.webp",
+      "turn": "characters/dukken-i-graesset-stor-turn.mp4",
+      "portrait": "portraits/dukken-i-graesset-stor.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dukken-i-graesset-stor.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dukken-i-graesset-stor-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "description": "Faren som setter prøven, men som kjenner igjen flinkhet og godhet når han ser det.",
+      "look": "A tall, thin, elderly king with narrow, sloping shoulders, a long, lined face, a long pointed nose, shrewd grey eyes under thin arched eyebrows and a neat, pointed grey goatee. He wears a tall, pointed golden crown, a long deep-blue robe with a wide border of rosemaling flowers in red, white and yellow, and pointed dark-blue shoes.",
+      "sheet": "characters/kongen.webp",
+      "turn": "characters/kongen-turn.mp4",
+      "portrait": "portraits/kongen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kongen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kongen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kongen"
+    },
+    {
+      "slug": "havmanden",
+      "name": "Havmannen",
+      "description": "Et vennlig vesen med fiskehale som bærer Dukken i gresset opp av vannet. Da er hun ikke liten lenger.",
+      "look": "A big, friendly merman, a man from the waist up and a fish from the waist down, with a broad, weathered, kind face, a wide flat nose, twinkling sea-green eyes and a gentle smile. His long, wet, dark-green hair hangs to his waist with strands of pondweed in it, and he has a short, curly beard of the same green and a necklace of white river shells. His long tail is covered in shiny silver scales with a blue-green shimmer and ends in a wide, fan-shaped fin.",
+      "sheet": "characters/havmanden.webp",
+      "turn": "characters/havmanden-turn.mp4",
+      "portrait": "portraits/havmanden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/havmanden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/havmanden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "havmanden"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 8,
+      "anchor": "«Hei», sa hun og rakte ut hånda.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Hei», sier jenta fra tua. Hun er ikke større enn en dukke.",
+      "alt": "Askeladden sitter lei seg i gresset. Ut av en tue foran ham har det kommet en bitte liten jente i hvit kjole med blomster i håret, og hun rekker fram hånda.",
+      "prompt": "In a sunny early-summer meadow full of wildflowers, Askeladden sits alone in the grass, hugging his knees, with tears on his cheeks. Right in front of him a round, grassy tussock has opened like a little door, and the Tiny Grass Maiden has stepped out, no bigger than a doll, reaching out her tiny hand to him with a friendly smile. Askeladden stares down at her in surprise. His dun fjord horse grazes nearby. A low, close view at grass level.",
+      "characters": [
+        "askeladden",
+        "dukken-i-graesset"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Tiny Grass Maiden, the same character seen from three sides. Keep the Tiny Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Tiny Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In a sunny early-summer meadow full of wildflowers, Askeladden sits alone in the grass, hugging his knees, with tears on his cheeks. Right in front of him a round, grassy tussock has opened like a little door, and the Tiny Grass Maiden has stepped out, no bigger than a doll, reaching out her tiny hand to him with a friendly smile. Askeladden stares down at her in surprise. His dun fjord horse grazes nearby. A low, close view at grass level.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young prince of about seventeen with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and copper-red hair cut in a round bowl cut. He wears a sky-blue linen smock under a shiny steel breastplate that is a little too big for him, a brown leather belt, loose grey trousers and tall brown riding boots.\n- the Tiny Grass Maiden: A doll-sized young woman of about seventeen, no taller than a doll, slim and light on her feet, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long pigtails tied with grass-green ribbons, with little daisies and buttercups tucked into it. She wears a simple ankle-length white linen dress with a narrow grass-green sash and tiny green slippers.\n\nStory world: Old rural Norway in early summer, long ago. The king's castle is a large palace of dark logs with grass-covered turf roofs, carved dragon gables and a wide courtyard, among blooming meadows. In a meadow by the road stands the grassy tussock where the tiny maiden lives: a round, knee-high hump of grass and clover that opens like a little door. Inside is a snug, round room with walls of woven roots, a tiny chair, a tiny spinning wheel and a tiny loom. The tiny shirt is snow-white linen with perfect little stitches, no bigger than a man's palm. Her carriage is an ordinary shiny silver tablespoon pulled by two small white mice with reins of red thread. The big lake by the road is wide and still, with reeds and water lilies. Askeladden's horse is a sturdy dun fjord horse with a black-and-cream striped mane.\n\nThis story's season, light and colours: Early summer: meadows full of buttercups, cornflowers, clover and white daisies, fresh bright-green grass sparkling with dew, and clear morning light under a pale-blue sky with small white clouds. The lake is silver-blue and still. At the castle, a passing summer shower leaves puddles and everything glistening wet.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 15,
+      "anchor": "Hun spant tråden: surr, surr, surr.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Surr, surr! Klapp, klapp! Stikk, stikk! Før sola går ned, er skjorta ferdig.",
+      "alt": "Inne i tua sitter den lille jenta på en bitte liten stol og syr en bitte liten skjorte, med en rokk og en vevstol ved siden av seg. Askeladden sitter sammenkrøpet og ser på.",
+      "prompt": "Inside the snug, round room under the tussock, with walls of woven grass roots, the Tiny Grass Maiden sits on her tiny chair and sews the last stitches of a tiny white shirt, her tiny spinning wheel and tiny loom beside her. Askeladden has squeezed in and sits hunched with his knees drawn up and his head brushing the root ceiling, watching her with wonder; next to him she is as small as a doll. A golden sunset beam slants in through the little door.",
+      "characters": [
+        "askeladden",
+        "dukken-i-graesset"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Tiny Grass Maiden, the same character seen from three sides. Keep the Tiny Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Tiny Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: Inside the snug, round room under the tussock, with walls of woven grass roots, the Tiny Grass Maiden sits on her tiny chair and sews the last stitches of a tiny white shirt, her tiny spinning wheel and tiny loom beside her. Askeladden has squeezed in and sits hunched with his knees drawn up and his head brushing the root ceiling, watching her with wonder; next to him she is as small as a doll. A golden sunset beam slants in through the little door.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young prince of about seventeen with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and copper-red hair cut in a round bowl cut. He wears a sky-blue linen smock under a shiny steel breastplate that is a little too big for him, a brown leather belt, loose grey trousers and tall brown riding boots.\n- the Tiny Grass Maiden: A doll-sized young woman of about seventeen, no taller than a doll, slim and light on her feet, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long pigtails tied with grass-green ribbons, with little daisies and buttercups tucked into it. She wears a simple ankle-length white linen dress with a narrow grass-green sash and tiny green slippers.\n\nStory world: Old rural Norway in early summer, long ago. The king's castle is a large palace of dark logs with grass-covered turf roofs, carved dragon gables and a wide courtyard, among blooming meadows. In a meadow by the road stands the grassy tussock where the tiny maiden lives: a round, knee-high hump of grass and clover that opens like a little door. Inside is a snug, round room with walls of woven roots, a tiny chair, a tiny spinning wheel and a tiny loom. The tiny shirt is snow-white linen with perfect little stitches, no bigger than a man's palm. Her carriage is an ordinary shiny silver tablespoon pulled by two small white mice with reins of red thread. The big lake by the road is wide and still, with reeds and water lilies. Askeladden's horse is a sturdy dun fjord horse with a black-and-cream striped mane.\n\nThis story's season, light and colours: Early summer: meadows full of buttercups, cornflowers, clover and white daisies, fresh bright-green grass sparkling with dew, and clear morning light under a pale-blue sky with small white clouds. The lake is silver-blue and still. At the castle, a passing summer shower leaves puddles and everything glistening wet.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 21,
+      "anchor": "«Hm, hm», sa kongen.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Hm, hm», sier kongen og ser på hvert eneste sting.",
+      "alt": "Kongen holder en bitte liten, hvit skjorte mellom to fingre og myser på den med ett øye. Askeladden står helt stille foran ham med hendene foldet.",
+      "prompt": "In the timbered hall of the castle, the King holds the tiny white shirt up between his finger and thumb, right in front of his long nose, and squints at the stitches with one eye shut. Askeladden stands very still in front of him with his hands clasped, cheeks pink with embarrassment, peeking up hopefully. Sunlight falls through a tall window onto the plank floor. A medium view from the side.",
+      "characters": [
+        "askeladden",
+        "kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the timbered hall of the castle, the King holds the tiny white shirt up between his finger and thumb, right in front of his long nose, and squints at the stitches with one eye shut. Askeladden stands very still in front of him with his hands clasped, cheeks pink with embarrassment, peeking up hopefully. Sunlight falls through a tall window onto the plank floor. A medium view from the side.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young prince of about seventeen with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and copper-red hair cut in a round bowl cut. He wears a sky-blue linen smock under a shiny steel breastplate that is a little too big for him, a brown leather belt, loose grey trousers and tall brown riding boots.\n- the King: A tall, thin, elderly king with narrow, sloping shoulders, a long, lined face, a long pointed nose, shrewd grey eyes under thin arched eyebrows and a neat, pointed grey goatee. He wears a tall, pointed golden crown, a long deep-blue robe with a wide border of rosemaling flowers in red, white and yellow, and pointed dark-blue shoes.\n\nStory world: Old rural Norway in early summer, long ago. The king's castle is a large palace of dark logs with grass-covered turf roofs, carved dragon gables and a wide courtyard, among blooming meadows. In a meadow by the road stands the grassy tussock where the tiny maiden lives: a round, knee-high hump of grass and clover that opens like a little door. Inside is a snug, round room with walls of woven roots, a tiny chair, a tiny spinning wheel and a tiny loom. The tiny shirt is snow-white linen with perfect little stitches, no bigger than a man's palm. Her carriage is an ordinary shiny silver tablespoon pulled by two small white mice with reins of red thread. The big lake by the road is wide and still, with reeds and water lilies. Askeladden's horse is a sturdy dun fjord horse with a black-and-cream striped mane.\n\nThis story's season, light and colours: Early summer: meadows full of buttercups, cornflowers, clover and white daisies, fresh bright-green grass sparkling with dew, and clear morning light under a pale-blue sky with small white clouds. The lake is silver-blue and still. At the castle, a passing summer shower leaves puddles and everything glistening wet.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 28,
+      "anchor": "Så dro de av sted.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Klippeti-klopp på den ene siden av veien, tripp-tripp-tripp på den andre.",
+      "alt": "Askeladden rir forsiktig på den ene siden av veien. På den andre siden kjører den lille jenta i en sølvskje som to små, hvite mus drar.",
+      "prompt": "A wide view of a country road through flowering meadows in bright morning light. On one side of the road Askeladden rides his dun fjord horse at a careful walk, leaning out of the saddle to keep a worried eye on the other side, where the Tiny Grass Maiden drives along in her carriage, a shiny silver spoon pulled by two small white mice, holding the red-thread reins and smiling proudly. Butterflies dance over the buttercups.",
+      "characters": [
+        "askeladden",
+        "dukken-i-graesset"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Tiny Grass Maiden, the same character seen from three sides. Keep the Tiny Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Tiny Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: A wide view of a country road through flowering meadows in bright morning light. On one side of the road Askeladden rides his dun fjord horse at a careful walk, leaning out of the saddle to keep a worried eye on the other side, where the Tiny Grass Maiden drives along in her carriage, a shiny silver spoon pulled by two small white mice, holding the red-thread reins and smiling proudly. Butterflies dance over the buttercups.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young prince of about seventeen with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and copper-red hair cut in a round bowl cut. He wears a sky-blue linen smock under a shiny steel breastplate that is a little too big for him, a brown leather belt, loose grey trousers and tall brown riding boots.\n- the Tiny Grass Maiden: A doll-sized young woman of about seventeen, no taller than a doll, slim and light on her feet, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long pigtails tied with grass-green ribbons, with little daisies and buttercups tucked into it. She wears a simple ankle-length white linen dress with a narrow grass-green sash and tiny green slippers.\n\nStory world: Old rural Norway in early summer, long ago. The king's castle is a large palace of dark logs with grass-covered turf roofs, carved dragon gables and a wide courtyard, among blooming meadows. In a meadow by the road stands the grassy tussock where the tiny maiden lives: a round, knee-high hump of grass and clover that opens like a little door. Inside is a snug, round room with walls of woven roots, a tiny chair, a tiny spinning wheel and a tiny loom. The tiny shirt is snow-white linen with perfect little stitches, no bigger than a man's palm. Her carriage is an ordinary shiny silver tablespoon pulled by two small white mice with reins of red thread. The big lake by the road is wide and still, with reeds and water lilies. Askeladden's horse is a sturdy dun fjord horse with a black-and-cream striped mane.\n\nThis story's season, light and colours: Early summer: meadows full of buttercups, cornflowers, clover and white daisies, fresh bright-green grass sparkling with dew, and clear morning light under a pale-blue sky with small white clouds. The lake is silver-blue and still. At the castle, a passing summer shower leaves puddles and everything glistening wet.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 34,
+      "anchor": "Men hva var dette? Hun var ikke liten lenger!",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Men hva er dette? Hun er ikke liten lenger!",
+      "alt": "En smilende havmann med langt, grønt hår og blank fiskehale holder jenta i hånda ved vannkanten. Hun er blitt like stor som Askeladden, som står på bredden og måper.",
+      "prompt": "At the edge of the big, still lake, the Merman has risen waist-deep out of the water among the water lilies, smiling, and holds the Grass Maiden by the hand as she steps onto the shore, no longer tiny but as tall as Askeladden, water drops sparkling on her dress. Askeladden stands on the bank with his mouth open and his arms spread in amazement. The silver spoon lies tipped over in the reeds with the two white mice peeking out from behind it, and the horse waits behind him.",
+      "characters": [
+        "askeladden",
+        "dukken-i-graesset-stor",
+        "havmanden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Grass Maiden, the same character seen from three sides. Keep the Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Merman, the same character seen from three sides. Keep the Merman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Merman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: At the edge of the big, still lake, the Merman has risen waist-deep out of the water among the water lilies, smiling, and holds the Grass Maiden by the hand as she steps onto the shore, no longer tiny but as tall as Askeladden, water drops sparkling on her dress. Askeladden stands on the bank with his mouth open and his arms spread in amazement. The silver spoon lies tipped over in the reeds with the two white mice peeking out from behind it, and the horse waits behind him.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young prince of about seventeen with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and copper-red hair cut in a round bowl cut. He wears a sky-blue linen smock under a shiny steel breastplate that is a little too big for him, a brown leather belt, loose grey trousers and tall brown riding boots.\n- the Grass Maiden: A full-sized young woman of about seventeen, slim and graceful, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long pigtails tied with grass-green ribbons, under a wreath of daisies and buttercups. She wears a finer ankle-length white linen dress embroidered with little green leaves and white flowers along the hem and sleeves, a grass-green sash and green slippers.\n- the Merman: A big, friendly merman, a man from the waist up and a fish from the waist down, with a broad, weathered, kind face, a wide flat nose, twinkling sea-green eyes and a gentle smile. His long, wet, dark-green hair hangs to his waist with strands of pondweed in it, and he has a short, curly beard of the same green and a necklace of white river shells. His long tail is covered in shiny silver scales with a blue-green shimmer and ends in a wide, fan-shaped fin.\n\nStory world: Old rural Norway in early summer, long ago. The king's castle is a large palace of dark logs with grass-covered turf roofs, carved dragon gables and a wide courtyard, among blooming meadows. In a meadow by the road stands the grassy tussock where the tiny maiden lives: a round, knee-high hump of grass and clover that opens like a little door. Inside is a snug, round room with walls of woven roots, a tiny chair, a tiny spinning wheel and a tiny loom. The tiny shirt is snow-white linen with perfect little stitches, no bigger than a man's palm. Her carriage is an ordinary shiny silver tablespoon pulled by two small white mice with reins of red thread. The big lake by the road is wide and still, with reeds and water lilies. Askeladden's horse is a sturdy dun fjord horse with a black-and-cream striped mane.\n\nThis story's season, light and colours: Early summer: meadows full of buttercups, cornflowers, clover and white daisies, fresh bright-green grass sparkling with dew, and clear morning light under a pale-blue sky with small white clouds. The lake is silver-blue and still. At the castle, a passing summer shower leaves puddles and everything glistening wet.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 41,
+      "anchor": "«Her skal det bli bryllup!» sa han.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Her skal det bli bryllup!» sier kongen.",
+      "alt": "Kongen løfter hånda over Askeladden og jenta i slottsgården. Bak dem står de elleve brødrene med svarte striper nedover nesene sammen med kjærestene sine, og de ser misunnelige ut.",
+      "prompt": "In the castle courtyard just after a summer shower, the King raises his hand high over Askeladden and the Grass Maiden, who stand hand in hand in front of him, two small white mice peeking out of Askeladden's pocket. Along the wall behind them stand the eleven older brothers in their armour in a row, each next to his sweetheart, black streaks running down their noses from their tar-smeared black hats, staring with envy; the eleven sweethearts look sad and bedraggled. Puddles shine on the ground.",
+      "characters": [
+        "askeladden",
+        "dukken-i-graesset-stor",
+        "kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Grass Maiden, the same character seen from three sides. Keep the Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for a children's picture book, showing the moment described below.\n\nPicture: In the castle courtyard just after a summer shower, the King raises his hand high over Askeladden and the Grass Maiden, who stand hand in hand in front of him, two small white mice peeking out of Askeladden's pocket. Along the wall behind them stand the eleven older brothers in their armour in a row, each next to his sweetheart, black streaks running down their noses from their tar-smeared black hats, staring with envy; the eleven sweethearts look sad and bedraggled. Puddles shine on the ground.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young prince of about seventeen with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and copper-red hair cut in a round bowl cut. He wears a sky-blue linen smock under a shiny steel breastplate that is a little too big for him, a brown leather belt, loose grey trousers and tall brown riding boots.\n- the Grass Maiden: A full-sized young woman of about seventeen, slim and graceful, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a bright smile. Her straw-coloured hair hangs in two long pigtails tied with grass-green ribbons, under a wreath of daisies and buttercups. She wears a finer ankle-length white linen dress embroidered with little green leaves and white flowers along the hem and sleeves, a grass-green sash and green slippers.\n- the King: A tall, thin, elderly king with narrow, sloping shoulders, a long, lined face, a long pointed nose, shrewd grey eyes under thin arched eyebrows and a neat, pointed grey goatee. He wears a tall, pointed golden crown, a long deep-blue robe with a wide border of rosemaling flowers in red, white and yellow, and pointed dark-blue shoes.\n\nStory world: Old rural Norway in early summer, long ago. The king's castle is a large palace of dark logs with grass-covered turf roofs, carved dragon gables and a wide courtyard, among blooming meadows. In a meadow by the road stands the grassy tussock where the tiny maiden lives: a round, knee-high hump of grass and clover that opens like a little door. Inside is a snug, round room with walls of woven roots, a tiny chair, a tiny spinning wheel and a tiny loom. The tiny shirt is snow-white linen with perfect little stitches, no bigger than a man's palm. Her carriage is an ordinary shiny silver tablespoon pulled by two small white mice with reins of red thread. The big lake by the road is wide and still, with reeds and water lilies. Askeladden's horse is a sturdy dun fjord horse with a black-and-cream striped mane.\n\nThis story's season, light and colours: Early summer: meadows full of buttercups, cornflowers, clover and white daisies, fresh bright-green grass sparkling with dew, and clear morning light under a pale-blue sky with small white clouds. The lake is silver-blue and still. At the castle, a passing summer shower leaves puddles and everything glistening wet.\n\nArt style: Warm Scandinavian children's picture-book illustration: gouache and watercolour on lightly textured cold-press paper, with soft coloured-pencil outlines and visible brush and paper texture. Rounded, friendly shapes and simple, expressive faces with clear emotions, but every character has their own face shape, nose, eyes, hair, build and age exactly as described, so no two characters look alike. Base palette of moss green, spruce green, lingonberry red, birch white, fjord teal, honey yellow and warm earth browns, shifted towards each story's own season, light and colours. The pictures are the colour plates of a classic printed storybook with warm cream pages, so the lightest tones are warm and creamy, never stark white, and lingonberry red is the accent that comes back in every picture. The picture fills the whole image, with no border, frame or lettering. Costumes and places from old rural Norway: spruce and birch forests, fjords and mountains, turf-roofed log houses, carved wood, rosemaling patterns, wool and linen clothes. Kings and princesses wear simple storybook finery. Trolls are huge, lumpy and mossy and look silly rather than scary. Clear, uncluttered composition with one focal point and room to breathe. Cosy, safe and full of wonder. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Gentle and safe for young children: no blood, wounds or gore, and no violence in progress. Show danger with mood, posture and distance, never with injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}
