@@ -4,18 +4,25 @@
   "description": "Giske våkner i hampåkeren med svarte armer, svarte bein og en stor, svart klatt på nesa. «Kan det være meg?» sier hun. Nei, dette må være et troll!",
   "tone": "Bråkete, tøysete og trygg",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:40:53.719Z"
+    "generatedAt": "2026-03-28T21:40:53.719Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:23:06.478Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Giske tror hun er blitt et troll, slår følge med to tyver og roper så høyt at alle gårdene i bygda våkner.",
   "hasInlineScenes": true

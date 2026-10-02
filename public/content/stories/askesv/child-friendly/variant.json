@@ -4,18 +4,25 @@
   "description": "Plask, plask over vannet! Askeladden lokker sølvendene opp i trauet, napper teppet ned fra fjellet og lurer trolldatteren med en hyssing. En høytlesningsversjon uten noe skummelt.",
   "tone": "Leken, varm og trygg",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T10:46:43.239Z"
+    "generatedAt": "2026-03-28T10:46:43.239Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:20:07.815Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden lurer trollet og henter sølvendene, sengeteppet og gullharpa hjem til kongen.",
   "hasInlineScenes": true

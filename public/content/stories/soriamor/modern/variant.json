@@ -4,18 +4,25 @@
   "description": "Halvor holdt ut fire dager på yrkesfag, to hos snekkeren og en formiddag på motivasjonskurs hos NAV. Så trenger en skipper en dekksgutt, og etter en storm går Halvor i land på en kyst som ikke finnes på kartplotteren.",
   "tone": "Tørr, eventyrlig og romantisk",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:10:53.536Z"
+    "generatedAt": "2026-03-28T20:10:53.536Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:11:35.090Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Halvor hogger hodene av tre troll i tomme slott av glass og stein, men mister Siri da han skryter av henne hjemme i bygda.",
   "hasInlineScenes": true

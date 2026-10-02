@@ -4,18 +4,25 @@
   "description": "Kongens sju føll kommer hjem blanke og runde hver kveld, men ingen vet hva de lever av. GPS-halsbåndene sluttet å sende ved første ås, dronen kom aldri tilbake, og nå vil kongen ha et menneske.",
   "tone": "Spennende, lavmælt og mørk",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:21:13.130Z"
+    "generatedAt": "2026-03-28T21:21:13.130Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:22:00.446Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Der brødrene ble lurt av strikkekona og straffet av kongen, holder Askeladden seg fast i føllene og finner ut hva de lever av.",
   "hasInlineScenes": true

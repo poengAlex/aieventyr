@@ -4,18 +4,25 @@
   "description": "Tre små dører med et lite hjerte på hver, og jenta får ikke åpne dem, ikke en gang et bitte lite gløtt. Et stille høytlesningseventyr om stjerna, månen og sola, og om vakter som sovner mens de teller sauer.",
   "tone": "Stille, varm og trøstende",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:47:13.660Z"
+    "generatedAt": "2026-03-28T12:47:13.660Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:39:19.132Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Jenta slipper ut stjerna, månen og sola, mister stemmen og blir en stum dronning som ikke kan forklare hvor babyene hennes blir av.",
   "hasInlineScenes": true

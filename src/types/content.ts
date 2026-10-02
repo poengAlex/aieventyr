@@ -11,6 +11,8 @@ export interface StoryListItem {
   // Each edition's own title and word count.
   titles?: Partial<Record<VariantType, string>>
   words?: Partial<Record<VariantType, number>>
+  // Seconds of narration, for the editions that are read aloud.
+  audio?: Partial<Record<VariantType, number>>
 }
 
 export interface ContentManifest {
@@ -42,6 +44,7 @@ export interface VariantPaths {
   characters: string
   audio: string
   sections?: string
+  narration?: string
 }
 
 export interface VariantGenerationMeta {
@@ -168,4 +171,19 @@ export interface CharacterCard {
   image: string
   sheet: string | null
   turn: string | null
+}
+
+// When each paragraph and word of a narrated edition is read (narration.json, made by
+// pipeline/lib/narration.mjs). Paragraphs are story.txt split as the reader splits it; a word
+// is [from, to, start, end]: its place in the paragraph and when it is said, in seconds.
+export interface NarrationParagraph {
+  start: number
+  end: number
+  words: [number, number, number, number][]
+}
+
+export interface Narration {
+  voice: string
+  seconds: number
+  paragraphs: NarrationParagraph[]
 }

@@ -4,18 +4,25 @@
   "description": "“Chop in my forest and I’ll kill you!” The troll has sent both of Askeladden’s brothers running home, but Askeladden heads into the forest with nothing in his knapsack but a little homemade cheese. A cheeky Norwegian classic, told in lively modern English.",
   "tone": "Cheeky, deadpan and lively",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:57:55.341Z"
+    "generatedAt": "2026-03-28T11:57:55.341Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:35:46.885Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden bluffs a forest troll with a cheese and a knapsack full of porridge, and carries home gold to pay off some of the family debt.",
   "hasInlineScenes": true

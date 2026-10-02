@@ -4,18 +4,25 @@
   "description": "Stranden i Hvittenland er hvit som melk, og der stikker tre prinsessehoder opp av sanden. For å få dem fri må gutten la trollene kile ham, en hel natt for hver av dem. Et langt og morsomt eventyr å lese høyt.",
   "tone": "Fjollete, spennende og varm",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:09:23.717Z"
+    "generatedAt": "2026-03-28T13:09:23.717Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:42:29.938Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Fiskergutten tåler tre netter med trollkiling, gifter seg med den yngste prinsessen og må lete lenge da hun blir borte.",
   "hasInlineScenes": true

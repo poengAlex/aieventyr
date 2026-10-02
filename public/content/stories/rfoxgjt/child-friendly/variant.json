@@ -4,18 +4,25 @@
   "description": "Reven synger «Dil-dal-holom!» så fint at kona ansetter ham som gjeter, men den første dagen sover han, den andre jager han mus, og den tredje synger han. Et lunt høytlesningseventyr uten noe skummelt.",
   "tone": "Leken, lun og trygg",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:07:08.662Z"
+    "generatedAt": "2026-03-28T18:07:08.662Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:39:49.428Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Reven blir gjeter, men lar dyra rusle sin vei og slikker i seg fløten, til kona slenger den siste skvetten etter ham.",
   "hasInlineScenes": true

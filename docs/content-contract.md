@@ -19,7 +19,7 @@ public/content/
         story.txt
         sections.json
         main.webp
-        audio.mp3
+        audio.m4a
         scenes/
           scene-1.webp
           scene-2.webp
@@ -28,6 +28,7 @@ public/content/
         characters/
           <characterSlug>.webp
         glossary.json
+        narration.json
   share/
     <storyId>.jpg
     eventyr.jpg
@@ -124,6 +125,10 @@ The words a reader of this edition may not know, in the order they first appear.
 
 The reader marks the first appearance of each word and lists them all at the end of the tale. `npm run content:glossary` checks the lists.
 
+### `audio.m4a` and `narration.json`
+
+The edition read aloud, for the editions that are (`variant.json` has `hasAudio: true` and `paths.narration`, and the manifest's story item lists the seconds per edition under `audio`). Made by `npm run narration:generate`. `audio.m4a` is HE-AAC at 32 kbps mono, encoded from the 128 kbps recording in `pipeline/work/narration`. `narration.json` has the reader's name (`voice`), the length in `seconds`, and per paragraph of `story.txt` (split on blank lines, as the reader splits it) its `start` and `end` and its `words`, each `[from, to, start, end]`: where the word is in the paragraph and when it is said, in seconds.
+
 ### `sections.json`
 
 An array of reading sections used by the story page:
@@ -182,7 +187,7 @@ The story page also expects:
 
 If `variant.json.hasAudio` is `true`, it also expects:
 
-- `audio.mp3`
+- `audio.m4a`
 
 ## Validation rules
 

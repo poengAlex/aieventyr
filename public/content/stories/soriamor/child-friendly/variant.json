@@ -4,18 +4,25 @@
   "description": "Prinsessa skvetter når det sier GRRRRRR, men det er ikke trollet med tre hoder, bare magen til Halvor, som ikke har spist på hele dagen. Til høytlesning, med troll som går opp i røyk: PUFF!",
   "tone": "Leken, eventyrlig og trygg",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:10:32.212Z"
+    "generatedAt": "2026-03-28T20:10:32.212Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:10:42.696Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Halvor redder tre prinsesser fra tre troll, mister den yngste da han sier for mye, og må finne veien til Soria Moria slott.",
   "hasInlineScenes": true

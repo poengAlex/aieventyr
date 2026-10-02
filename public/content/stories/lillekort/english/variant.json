@@ -4,18 +4,25 @@
   "description": "Littlecourt is barely born before he asks his mother for his brothers’ old clothes and a bundle of food and sets off into the world. Before he’s a day old, he has a sword that can beat a whole army, a ship that fits in his pocket, and a knack for brewing.",
   "tone": "Brisk, cheeky and adventurous",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:11:35.995Z"
+    "generatedAt": "2026-03-28T19:11:35.995Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:06:48.492Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Newborn Littlecourt kills three trolls while Sir Red hides up a tree and takes the credit, then brings the King’s other daughter up from the bottom of the sea.",
   "hasInlineScenes": true

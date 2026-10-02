@@ -4,18 +4,25 @@
   "description": "Hønen verper egg hver dag, men går fortsatt barbeint, for skoene Hanen har lovet henne, kommer aldri. Et lite og lunt eventyr å lese høyt, der Hanen til slutt får en idé.",
   "tone": "Mild, trygg og varm",
   "characterCount": 2,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:42:59.643Z"
+    "generatedAt": "2026-03-28T18:42:59.643Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:55:09.143Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Hønen vil ha skoene Hanen har lovet henne, og Hanen foreslår at hun tar eggene med til byen og kjøper dem selv.",
   "hasInlineScenes": true

@@ -4,18 +4,25 @@
   "description": "Gudbrand walks to town to sell the cow and trades his way home: the cow for a horse, the horse for a pig, and on down until he hasn’t so much as a rooster. But whatever he does, his wife thinks it’s the wisest thing he could have done, and he’ll bet a hundred dalers on it.",
   "tone": "Warm, dry and gently comic",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:26:28.183Z"
+    "generatedAt": "2026-03-28T17:26:28.183Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:50:28.830Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Gudbrand trades his cow down to a rooster on the way home, sells the rooster for a meal, and bets his neighbor a hundred dalers that his wife won’t scold.",
   "hasInlineScenes": true

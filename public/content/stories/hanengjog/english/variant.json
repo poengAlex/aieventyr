@@ -4,18 +4,25 @@
   "description": "The Rooster, the Cuckoo and the Black Grouse have bought one cow between them, and whoever wakes first gets her. Then the Rooster crows from the fence, the Cuckoo answers “Half-cow!”, and in the end it’s up to you to judge.",
   "tone": "Playful, brisk and riddling",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:52:38.213Z"
+    "generatedAt": "2026-03-28T18:52:38.213Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:56:25.790Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Three birds who bought a cow argue over who deserves it when each wakes at a different call.",
   "hasInlineScenes": true

@@ -4,18 +4,25 @@
   "description": "Datteren har invitert frieren hjem til gården med presenning på taket, og der tørker faren hennes støv med et nystrikket erme og holder den andre armen stivt bak ryggen. Den korte skrønen, flyttet til dagens Norge.",
   "tone": "Lun, ironisk og hverdagsnær",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:59:05.334Z"
+    "generatedAt": "2026-03-28T13:59:05.334Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:48:29.758Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En frier er på besøk hos en fattig familie som vil virke velstående med ett nytt erme, én ny joggesko og ei lue som skal leveres tilbake.",
   "hasInlineScenes": true

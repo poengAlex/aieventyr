@@ -4,18 +4,25 @@
   "description": "A cottager’s son learns thieving from robbers and steals three oxen from the same farmer on the same road. Then he wants the Bailiff’s daughter, and the Bailiff wants proof: the Sunday roast, lifted off the spit while the whole household stands guard.",
   "tone": "Cheeky, quick and crafty",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-29T08:21:30.605Z"
+    "generatedAt": "2026-03-29T08:21:30.605Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:38:18.920Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A poor cottager’s son becomes a master thief and must fool the Bailiff, his whole household and the parson to win the Bailiff’s daughter.",
   "hasInlineScenes": true

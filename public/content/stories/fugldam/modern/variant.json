@@ -4,18 +4,25 @@
   "description": "Politiet holder pressekonferanse og sier det alle har tenkt: De tolv prinsessene er etter alt å dømme bergtatt. Så legger tolv prinser fra et annet land ut på leting, med en yacht og en styrmann i rød seilerjakke.",
   "tone": "Tørrvittig, mørk og moderne",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:20:36.307Z"
+    "generatedAt": "2026-03-28T11:20:36.307Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:27:35.071Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Den yngste kongssønnen berger tolv prinsesser fra et troll med tolv hoder, men styrmannen Ridder Rød seiler fra ham og tar æren.",
   "hasInlineScenes": true

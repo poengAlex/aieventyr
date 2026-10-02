@@ -4,18 +4,25 @@
   "description": "Brenner Gudbrand grøten, sier kona «Mmm! Røkt grøt!», men hva sier hun når han går til byen med kua og kommer hjem tomhendt? Til høytlesning, med nøff, mæ-æ-æ og kykeliky.",
   "tone": "Lun, leken og full av dyrelyder",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:26:36.667Z"
+    "generatedAt": "2026-03-28T17:26:36.667Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:49:02.058Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Gudbrand bytter kua mot en hest, hesten mot en gris og så videre helt ned til en hane, og vedder med naboen om at kona ikke blir sint.",
   "hasInlineScenes": true

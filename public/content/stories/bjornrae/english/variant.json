@@ -4,18 +4,25 @@
   "description": "Reynard the Fox comes slinking out of the trees with a bundle of stolen fish, and the Bear wants to know how it’s done: just stick your tail through a hole in the ice. Two classic Norwegian fox tricks, told in wry modern English.",
   "tone": "Wry, wintry and deadpan",
   "characterCount": 2,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:10:47.730Z"
+    "generatedAt": "2026-03-28T17:10:47.730Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:48:25.137Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A clever fox repeatedly tricks a bear, leaving him with a stumpy tail and no Christmas butter.",
   "hasInlineScenes": true

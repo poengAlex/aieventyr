@@ -4,18 +4,25 @@
   "description": "Ekkoloddet har vært blankt hele dagen da et hode stikker opp av sjøen og byr fiskeren fisk nok, mot det konen hans bærer under beltet. Han sier ja før han rekker å tenke.",
   "tone": "Tørr, vemodig og storslått",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:15:28.675Z"
+    "generatedAt": "2026-03-28T13:15:28.675Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:44:41.601Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Fiskerens sønn, oppvokst på residensen, berger tre prinsesser i Hvittenland, men mister dronningen sin og må finne et land som ikke står på noe kart.",
   "hasInlineScenes": true

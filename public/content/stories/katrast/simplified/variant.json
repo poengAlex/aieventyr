@@ -4,18 +4,25 @@
   "description": "Stemoren sulter kongedatteren, men i det venstre øret til den blå oksen ligger en duk som disker opp med alt hun kan ønske seg. Da dronningen legger seg syk og krever kjøtt av oksen, rømmer de to sammen gjennom skoger av kobber, sølv og gull.",
   "tone": "Eventyrlig, dramatisk og rørende",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:47:36.237Z"
+    "generatedAt": "2026-03-28T17:47:36.237Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:54:59.396Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En kongedatter rømmer fra stemoren på ryggen av en blå okse, tar arbeid som oppvaskjente i en skramlende trestakk og vinner prinsen med en gullsko.",
   "hasInlineScenes": true

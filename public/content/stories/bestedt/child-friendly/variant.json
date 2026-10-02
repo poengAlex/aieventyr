@@ -4,18 +4,25 @@
   "description": "«Kjære deg, ikke ta barna mine!» sier Myrsnipen, og jegeren lover å la dem være, for Myrsnipens barn er jo de vakreste i hele skogen. En liten, trygg fabel til høytlesning.",
   "tone": "Lun, varm og trygg",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:47:25.088Z"
+    "generatedAt": "2026-03-28T13:47:25.088Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:47:17.176Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Jegeren lover Myrsnipen å la de vakreste barna i skogen være i fred, og så finner han noen rufsete unger i gresset.",
   "hasInlineScenes": true

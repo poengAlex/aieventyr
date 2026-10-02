@@ -4,18 +4,25 @@
   "description": "Kona selger kua for en hundrelapp og våkner i tjære og fjær på slakterens bakrom, og ikke engang mobilen kjenner henne igjen. Den gamle skrønen, lagt til et småbruk i dagens Norge.",
   "tone": "Absurd, tørr og bygdenær",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:38:16.755Z"
+    "generatedAt": "2026-03-28T13:38:16.755Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:47:48.623Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En småbruker uten såkorn går hjemmefra og tjener seg rik på tre andre kjerringer som er like gale som kona.",
   "hasInlineScenes": true

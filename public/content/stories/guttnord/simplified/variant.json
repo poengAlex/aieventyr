@@ -4,18 +4,25 @@
   "description": "Tre ganger tar Nordavinden grøtmelet fra gutten på stabburstrappa. Da går han like godt til Nordavinden selv, langt mot nord der alle trærne står på skrå, for å kreve melet tilbake. Eventyret fortalt på enkel, levende norsk.",
   "tone": "Rytmisk, lun og lettlest",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:19:11.473Z"
+    "generatedAt": "2026-03-28T12:19:11.473Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:37:03.437Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Gutten krever melet tilbake fra Nordavinden og får en duk, en bukk og en kjepp, men gjestgiveren vil ha gavene for seg selv.",
   "hasInlineScenes": true

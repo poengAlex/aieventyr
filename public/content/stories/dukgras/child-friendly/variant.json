@@ -4,18 +4,25 @@
   "description": "Ut av en tue i gresset kommer en jente som ikke er større enn en dukke, og på én dag syr hun en hel skjorte: surr, klapp, stikk! Til høytlesning for de minste, med sølvskje, to hvite mus og mye klippeti-klopp.",
   "tone": "Varm, leken og lydmalende",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:31:56.246Z"
+    "generatedAt": "2026-03-28T19:31:56.246Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:02:52.234Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden finner en jente på størrelse med en dukke, og skjorta hun syr på én dag, får kongen til å si ja til bryllup.",
   "hasInlineScenes": true

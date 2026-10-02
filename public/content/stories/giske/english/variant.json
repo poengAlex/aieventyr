@@ -4,18 +4,25 @@
   "description": "Giske wants to marry the widower she keeps house for, and she tells him so morning, evening and in between. Then she falls asleep in the hemp field and wakes up black with tallow and soot, and since that can’t be Giske, it must be the Devil himself.",
   "tone": "Rowdy, deadpan and farcical",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:40:38.977Z"
+    "generatedAt": "2026-03-28T21:40:38.977Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:25:39.994Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Smeared black by her master, Giske decides she must be the Devil, joins two thieves and ruins every raid by shouting.",
   "hasInlineScenes": true

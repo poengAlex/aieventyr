@@ -4,18 +4,25 @@
   "description": "Every time the King’s son from England rides out wooing, Aase the Goose-girl is sitting in the road, putting darn on darn and patch on patch. “If I’m to have him, I’ll get him all right,” she says.",
   "tone": "Dry, rhythmic and knowing",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:48:37.897Z"
+    "generatedAt": "2026-03-28T20:48:37.897Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:18:05.782Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A king’s son tests every new bride with a stone that knows everything, but little Aase the Goose-girl has already decided he’s hers.",
   "hasInlineScenes": true

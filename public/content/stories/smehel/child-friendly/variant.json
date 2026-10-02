@@ -4,18 +4,25 @@
   "description": "Smeden har tre ønsker fra Vårherre, og Djevelen er glad i pærer, myke stoler og å vise seg fram, så det kan bare gå én vei. Høytlesning for de minste, med mye bråk og ingenting skummelt.",
   "tone": "Leken, bråkete og lun",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:26:13.757Z"
+    "generatedAt": "2026-03-28T18:26:13.757Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T12:04:28.359Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En skrytete smed får tre rare ønsker av Vårherre og lurer Djevelen opp i pæretreet, fast i lenestolen og inn i pengepungen.",
   "hasInlineScenes": true

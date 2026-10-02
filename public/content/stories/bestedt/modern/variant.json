@@ -4,18 +4,25 @@
   "description": "Ei myrsnipe lander foran støvlene til en jeger i refleksjakke og ber ham spare de vakreste ungene på myra, og jegeren, som liker klare kriterier, sier greit. Den korte fabelen, lagt til en jaktdag i dagens Norge.",
   "tone": "Nøktern, knapp og mørk",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:49:46.938Z"
+    "generatedAt": "2026-03-28T13:49:46.938Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:47:47.123Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En jeger ved myrkanten lover ei myrsnipe å la ungene hennes være, for de er de vakreste på hele myra.",
   "hasInlineScenes": true

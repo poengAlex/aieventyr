@@ -4,18 +4,25 @@
   "description": "The fisherman promises a head in the water whatever his wife carries under her belt, not knowing she is expecting a child. Years later the boat sets off by itself with the boy aboard and sails all night to a pale white shore. A long Norwegian wonder tale.",
   "tone": "Sweeping, magical and brisk",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:03:42.072Z"
+    "generatedAt": "2026-03-28T13:03:42.072Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:45:01.129Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A fisherman’s son frees three princesses from the trolls of Whiteland and marries the youngest, then loses her by breaking a promise.",
   "hasInlineScenes": true

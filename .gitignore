@@ -37,3 +37,6 @@ yarn-error.log*
 # half-written images from an interrupted art run
 public/content/art/**/*.tmp.*
 pipeline/art-raw/**/*.tmp.*
+
+# half-written audio from an interrupted narration:publish
+public/content/stories/**/*.tmp.*

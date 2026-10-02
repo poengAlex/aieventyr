@@ -4,18 +4,25 @@
   "description": "Dronningen ønsker seg en datter så hvit som snø og så rød som blod, og ei trollkjerring lover henne en, mot de tolv sønnene hennes. For å frelse brødrene må Snøhvit og Rosenrød sy klær av myrdun uten å snakke, le eller gråte.",
   "tone": "Vinterlig, alvorlig og spennende",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T22:00:54.856Z"
+    "generatedAt": "2026-03-28T22:00:54.856Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:28:37.914Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Snøhvit og Rosenrød syr i taushet for å frelse de tolv brødrene sine, mens kongens stemor gjør alt for å få henne brent.",
   "hasInlineScenes": true

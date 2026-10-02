@@ -4,18 +4,25 @@
   "description": "The Princess has an answer for everything, and Askeladden’s clever brothers get nowhere. He sets off, picking up whatever he finds on the road: a dead magpie, two crooked goat’s horns and a shoe sole worn right through. A short, quick-witted Norwegian tale.",
   "tone": "Quick, dry and playful",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:27:09.750Z"
+    "generatedAt": "2026-03-28T11:27:09.750Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:28:00.754Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden wins the Princess and half the kingdom by tongue-tying her with things he picked up along the road.",
   "hasInlineScenes": true

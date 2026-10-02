@@ -4,18 +4,25 @@
   "description": "Myrsnipa ber skytteren skåne barna hennes, og det lover han gjerne, for hennes er jo de vakreste barna i skogen. Den korte fabelen på enkel, moderne norsk.",
   "tone": "Knapp, tørr og mørkt ironisk",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:42:59.831Z"
+    "generatedAt": "2026-03-28T13:42:59.831Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:47:29.895Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En skytter lover myrsnipa å spare barna hennes, som hun sier er de vakreste i skogen.",
   "hasInlineScenes": true

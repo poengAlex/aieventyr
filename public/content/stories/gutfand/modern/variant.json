@@ -4,18 +4,25 @@
   "description": "En mild septemberkveld går en femtenåring hjem langs gangveien og knekker hasselnøtter med jekslene. Så blir det kaldt, og ved siden av ham går en mann i svart frakk.",
   "tone": "Kjølig, tørr og lavmælt",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:05:06.732Z"
+    "generatedAt": "2026-03-28T21:05:06.732Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:18:46.561Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En femtenåring lurer Fanden inn i en markspist hasselnøtt og ber smeden i det gamle verkstedet ved elva knuse den.",
   "hasInlineScenes": true

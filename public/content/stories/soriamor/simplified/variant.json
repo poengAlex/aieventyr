@@ -4,18 +4,25 @@
   "description": "Halvor har aldri gjort et slag, men når en skipper spør om han vil bli med til sjøs, er han for en gangs skyld kjapp opp av grua. En storm fører skuta til et fremmed land, der tre prinsesser sitter fanget hos tre troll.",
   "tone": "Eventyrlig, lettlest og spennende",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:10:06.837Z"
+    "generatedAt": "2026-03-28T20:10:06.837Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:10:56.925Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Halvor redder tre prinsesser fra troll, mister dem da han skryter av dem hjemme, og må finne veien til Soria Moria slott for å vinne den yngste tilbake.",
   "hasInlineScenes": true

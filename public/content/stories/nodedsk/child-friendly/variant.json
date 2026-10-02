@@ -4,18 +4,25 @@
   "description": "Pikk, pikk, pikk, hakker Tuppen, og så sier det GLUPP: Et nøtteskall sitter fast i halsen, og hanen må løpe etter vann. Ei lang regle å lese høyt, helt til pusten tar slutt.",
   "tone": "Andpusten, morsom og trygg",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T15:20:45.601Z"
+    "generatedAt": "2026-03-28T15:20:45.601Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:45:03.369Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Tuppen har et nøtteskall i halsen, og hanen må skaffe løv, gullbånd, sko og mye mer før kilden gir ham vann.",
   "hasInlineScenes": true

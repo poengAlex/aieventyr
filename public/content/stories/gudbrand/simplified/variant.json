@@ -4,18 +4,25 @@
   "description": "Gudbrand går til byen for å selge kua og bytter seg hjem igjen: kua mot en hest, hesten mot en gris, og slik går det nedover til han ikke har så mye som en hane. Men alt han gjør, synes kona er klokt gjort, og det tør han vedde hundre daler på.",
   "tone": "Varm, humoristisk og folkelig",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:26:17.219Z"
+    "generatedAt": "2026-03-28T17:26:17.219Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:49:57.179Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Gudbrand bytter seg fra ku til hane på veien hjem fra byen, selger hanen for mat og vedder hundre daler på at kona ikke blir sint.",
   "hasInlineScenes": true

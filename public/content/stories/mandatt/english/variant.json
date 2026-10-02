@@ -4,18 +4,25 @@
   "description": "The man’s daughter must spin stiff pig’s bristles against her stepsister’s soft flax, and whoever’s thread breaks first goes down the well. A Norwegian fairy tale of talking animals and a troll-wife, in plain modern English.",
   "tone": "Rhythmic, eerie and grimly just",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T14:54:35.922Z"
+    "generatedAt": "2026-03-28T14:54:35.922Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:46:30.246Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Sent down a well, a kind stepdaughter serves a troll-wife and comes home with a chest of gold, so her lazy stepsister wants one too.",
   "hasInlineScenes": true

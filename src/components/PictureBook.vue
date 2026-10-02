@@ -9,7 +9,7 @@
     <div
       ref="stage"
       class="picture-book"
-      :class="`layout-${layout}`"
+      :class="[`layout-${layout}`, { listening }]"
       @pointerdown="onPointerDown"
       @pointermove="onPointerMove"
       @pointerup="onPointerUp"
@@ -42,8 +42,9 @@
           <book-face
             v-if="base.single"
             :page="base.single"
-            part="full"
+            :part="singlePart"
             :title="titleOf(base.single)"
+            :sizes="pictureSizes"
           />
         </div>
 
@@ -59,6 +60,7 @@
               :page="leaf.front.page"
               :part="leaf.front.part"
               :title="titleOf(leaf.front.page)"
+              :sizes="pictureSizes"
             />
           </div>
           <div class="leaf-face leaf-back">
@@ -67,6 +69,7 @@
               :page="leaf.back.page"
               :part="leaf.back.part"
               :title="titleOf(leaf.back.page)"
+              :sizes="pictureSizes"
             />
           </div>
         </div>
@@ -83,7 +86,18 @@
           :aria-label="t.previousPage"
           @click="turnPage(-1)"
         />
-        <span class="book-counter">{{ pageIndex + 1 }} / {{ pages.length }}</span>
+        <q-btn
+          v-if="listening"
+          round
+          unelevated
+          color="white"
+          text-color="dark"
+          size="lg"
+          :icon="player.playing ? 'pause' : 'play_arrow'"
+          :aria-label="player.playing ? t.pause : t.play"
+          @click="player.toggle()"
+        />
+        <span v-else class="book-counter">{{ pageIndex + 1 }} / {{ pages.length }}</span>
         <q-btn
           round
           unelevated
@@ -107,6 +121,7 @@ import BookFace from 'src/components/BookFace.vue'
 import RotateHint from 'src/components/RotateHint.vue'
 import { bookPages, type BookPage } from 'src/logic/art'
 import { useText } from 'src/logic/i18n'
+import { usePlayerStore } from 'src/stores/player'
 import type { ArtManifest } from 'src/types/content'
 
 const props = defineProps<{
@@ -115,6 +130,8 @@ const props = defineProps<{
   art: ArtManifest
   title: string
   fontSize: number
+  // Pictures only, the pages turning as the narration reaches them.
+  listening?: boolean
 }>()
 
 const emit = defineEmits<{ 'update:modelValue': [value: boolean] }>()
@@ -129,12 +146,19 @@ function titleOf(page: BookPage) {
   return page === pages.value[0] ? props.title : undefined
 }
 
+// A page of the book while it is read aloud shows its picture alone.
+const singlePart = computed<'picture' | 'full'>(() => (props.listening ? 'picture' : 'full'))
+// ...and fills most of the screen, so it needs a larger copy than a half page.
+const pictureSizes = computed(() => (props.listening ? '92vw' : undefined))
+
 // A wide screen shows an open book: the picture on the left page and the text on the
 // right. A narrow or upright screen shows one page with the picture above the text.
 const layout = ref<'spread' | 'single'>('single')
 function measureLayout() {
   layout.value =
-    window.innerWidth >= 600 && window.innerWidth >= window.innerHeight * 1.1 ? 'spread' : 'single'
+    !props.listening && window.innerWidth >= 600 && window.innerWidth >= window.innerHeight * 1.1
+      ? 'spread'
+      : 'single'
 }
 
 // ---- turning pages
@@ -143,6 +167,8 @@ interface Turn {
   dir: 1 | -1
   progress: number
   animating: boolean
+  // Turned by the narration rather than by hand.
+  auto?: boolean
 }
 
 const turn = ref<Turn | null>(null)
@@ -199,7 +225,7 @@ const leaf = computed(() => {
     className: 'leaf-single',
     angle: -180 * away,
     fade: Math.min(1, 2 * (1 - away)),
-    front: { page: at(current.dir > 0 ? index : index - 1), part: 'full' as const },
+    front: { page: at(current.dir > 0 ? index : index - 1), part: singlePart.value },
     back: null,
   }
 })
@@ -229,17 +255,104 @@ function settle(target: 0 | 1) {
       frame = requestAnimationFrame(step)
       return
     }
-    if (target === 1) pageIndex.value += current.dir
+    if (target === 1) {
+      pageIndex.value += current.dir
+      if (following.value && !current.auto) {
+        landing = pageStarts.value[pageIndex.value] ?? 0
+        player.seekParagraph(landing)
+      }
+    }
     turn.value = null
   }
   frame = requestAnimationFrame(step)
 }
 
-function turnPage(dir: 1 | -1) {
+function turnPage(dir: 1 | -1, auto = false) {
   if (turn.value || !canTurn(dir)) return
-  turn.value = { dir, progress: 0, animating: false }
+  turn.value = { dir, progress: 0, animating: false, auto }
   settle(1)
 }
+
+// ---- reading aloud
+
+// Each page holds the text that leads up to its picture, so while that text is read the
+// page lies open; when the narration reaches the next page's text, the page turns.
+const player = usePlayerStore()
+const pageStarts = computed(() => {
+  let next = 0
+  return pages.value.map((page) => {
+    const start = next
+    next += page.paragraphs.length
+    return start
+  })
+})
+
+function pageOf(paragraph: number) {
+  let found = 0
+  pages.value.forEach((page, index) => {
+    if (page.paragraphs.length && pageStarts.value[index]! <= paragraph) found = index
+  })
+  return paragraph < 0 ? 0 : found
+}
+
+// The narration of this tale and edition, not another one still playing.
+const following = computed(
+  () =>
+    props.listening &&
+    props.modelValue &&
+    player.track?.storyId === props.art.storyId &&
+    player.track.variant === props.art.variant,
+)
+
+// A page turned by hand sends the narration to its first paragraph, starting a moment
+// early so the first word is heard whole; for that moment the player is still in the
+// paragraph before. The book stays on the page the reader turned to until the narration
+// has moved on from there, instead of following it back a page and turning again.
+let landing: number | null = null
+
+// Switching to or from pictures only lays the book out again.
+watch(
+  () => props.listening,
+  () => {
+    if (!props.modelValue) return
+    measureLayout()
+    turn.value = null
+    landing = null
+    pageIndex.value = following.value ? pageOf(player.paragraph) : 0
+  },
+)
+
+watch(
+  () => (following.value ? player.paragraph : null),
+  (paragraph) => {
+    if (paragraph === null || turn.value || gesture) return
+    if (landing !== null && paragraph >= landing - 1 && paragraph <= landing) return
+    landing = null
+    const target = pageOf(paragraph)
+    if (target === pageIndex.value + 1) turnPage(1, true)
+    else if (target !== pageIndex.value) pageIndex.value = target
+  },
+)
+
+// The screen stays on while a picture book is read aloud.
+let wakeLock: WakeLockSentinel | null = null
+async function holdScreen(hold: boolean) {
+  try {
+    if (hold && !wakeLock && 'wakeLock' in navigator) {
+      wakeLock = await navigator.wakeLock.request('screen')
+      wakeLock.addEventListener('release', () => (wakeLock = null))
+    } else if (!hold && wakeLock) {
+      await wakeLock.release()
+      wakeLock = null
+    }
+  } catch {
+    // not allowed here (a hidden tab, an old browser); the screen just behaves as usual
+  }
+}
+watch(
+  () => Boolean(following.value && player.playing),
+  (hold) => void holdScreen(hold),
+)
 
 // ---- swiping and tapping
 
@@ -328,6 +441,11 @@ function onPointerCancel() {
 }
 
 function onKey(event: KeyboardEvent) {
+  if (props.listening && event.key === ' ') {
+    event.preventDefault()
+    player.toggle()
+    return
+  }
   if (event.key === 'ArrowRight' || event.key === ' ') {
     event.preventDefault()
     turnPage(1)
@@ -370,14 +488,16 @@ watch(
   () => props.modelValue,
   (open) => {
     if (open) {
-      pageIndex.value = 0
+      pageIndex.value = following.value ? pageOf(player.paragraph) : 0
       turn.value = null
+      landing = null
       measureLayout()
       showRotateHint.value = touchScreen && Boolean(portrait?.matches) && !hintDismissed()
       window.addEventListener('keydown', onKey)
       window.addEventListener('resize', onViewportChange)
       portrait?.addEventListener('change', onViewportChange)
     } else {
+      void holdScreen(false)
       cancelAnimationFrame(frame)
       window.removeEventListener('keydown', onKey)
       window.removeEventListener('resize', onViewportChange)
@@ -445,6 +565,13 @@ onBeforeUnmount(() => {
 .layout-single .book {
   width: min(100%, 620px);
   height: calc(100dvh - 152px);
+}
+
+// Read aloud, the book is one wide page the shape of the pictures.
+.listening.layout-single .book {
+  width: min(100%, calc((100dvh - 150px) * 1.42), 1240px);
+  height: auto;
+  aspect-ratio: 1.42;
 }
 
 .sheet {

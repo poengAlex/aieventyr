@@ -4,18 +4,25 @@
   "description": "The widow’s son gets an easy life with a stranger who forbids him just four rooms, and in the third, a cauldron boiling with no fire under it leaves his finger gilded. A classic Norwegian troll tale, told in brisk modern English.",
   "tone": "Thrilling, dry and magical",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T14:27:51.201Z"
+    "generatedAt": "2026-03-28T14:27:51.201Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:57:24.960Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A poor widow’s son escapes a troll on a talking black horse, hides as a garden boy at the King’s manor, and wins the war and the Princess.",
   "hasInlineScenes": true

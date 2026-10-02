@@ -4,18 +4,25 @@
   "description": "Left behind by his eleven brothers, Ash-Lad sits crying in the long grass by the road, until a tussock in front of him begins to stir. A Norwegian fairy tale about a very small bride, told in lively modern English.",
   "tone": "Gentle, whimsical and quietly funny",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:31:44.733Z"
+    "generatedAt": "2026-03-28T19:31:44.733Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:04:44.195Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Ash-Lad’s brothers leave him behind, but by the roadside he meets a girl no taller than his hand, who sews a shirt in a single day and becomes his bride.",
   "hasInlineScenes": true

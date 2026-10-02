@@ -4,18 +4,25 @@
   "description": "The stargazers say Rich Per’s daughter will marry the miller’s baby, born at the mill just below his farm, so Per buys the child, seals him in a chest and pushes it out into the river. But it is a very good chest, and it doesn’t leak.",
   "tone": "Ironic, brisk and darkly comic",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:37:09.412Z"
+    "generatedAt": "2026-03-28T11:37:09.412Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:35:37.996Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Rich Per the Pedlar tries every trick to get rid of the miller’s boy who is fated to marry his daughter, and finally sends him to the Dragon of Deep-Ford.",
   "hasInlineScenes": true

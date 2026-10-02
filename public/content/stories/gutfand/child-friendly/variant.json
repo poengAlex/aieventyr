@@ -4,18 +4,25 @@
   "description": "Knekk, knekk, knekk! En gutt går og knekker nøtter, og så kommer Fanden tuslende, liten, med horn og hale og veldig fornøyd med seg selv. Et kort og lydrikt eventyr å lese høyt.",
   "tone": "Leken, lydrik og trygg",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:04:54.903Z"
+    "generatedAt": "2026-03-28T21:04:54.903Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:17:42.196Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En gutt lurer Fanden inn i en nøtt, og smeden prøver hammer etter hammer for å knekke den.",
   "hasInlineScenes": true

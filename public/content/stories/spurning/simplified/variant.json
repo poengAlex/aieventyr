@@ -4,18 +4,25 @@
   "description": "Prinsessa har svar på alt, og de to eldste brødrene kommer ingen vei med henne. Askeladden tar med seg det han finner på veien: en død skjære, to krokete bukkehorn og en skosåle som er slitt tvers igjennom. Et kort eventyr på lett norsk.",
   "tone": "Kjapp, lur og lettlest",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T09:27:22.869Z"
+    "generatedAt": "2026-03-28T09:27:22.869Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:26:51.086Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden vinner prinsessa og halve kongeriket ved å målbinde henne med ting han har funnet langs veien.",
   "hasInlineScenes": true

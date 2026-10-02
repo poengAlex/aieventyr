@@ -4,18 +4,25 @@
   "description": "Folkene på gården er fattige som kirkerotter, men når frieren kommer, tørker faren støv med et splitter nytt erme og holder den andre armen på ryggen. En bitteliten skrøne på lett norsk.",
   "tone": "Kort, lun og ertende",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:51:56.536Z"
+    "generatedAt": "2026-03-28T13:51:56.536Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:48:13.751Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En fattig familie vil virke velstående når frieren kommer, med ett nytt erme, én ny sko og ei ny lue.",
   "hasInlineScenes": true

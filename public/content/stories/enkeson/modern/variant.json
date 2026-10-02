@@ -4,18 +4,25 @@
   "description": "En mørk bil stanser ved enkesønnen på riksveien, og i huset bak granene får han god mat, et varmt rom og nesten ingenting å gjøre, bare han holder seg unna fire dører. Trolleventyret i dagens Norge, med overvåkningskameraer og en firehjuling som går på tre hjul.",
   "tone": "Mørk, spennende og tørrvittig",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T14:41:05.426Z"
+    "generatedAt": "2026-03-28T14:41:05.426Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:56:15.877Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En fattig enkesønn rømmer fra trollets hus og blir i all hemmelighet rytteren som redder kongen og vinner prinsessa.",
   "hasInlineScenes": true

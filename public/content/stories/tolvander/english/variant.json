@@ -4,18 +4,25 @@
   "description": "A Queen wishes for a daughter as white as snow and as red as blood, and a troll-wife promises her one, at the price of her twelve sons. To save her brothers, Snow-White and Rose-Red must sew clothes of bog-cotton without speaking, laughing or weeping.",
   "tone": "Wintry, grave and suspenseful",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T22:01:08.057Z"
+    "generatedAt": "2026-03-28T22:01:08.057Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:29:52.301Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A silent princess sews shirts of bog-cotton to free her twelve brothers, while the King’s stepmother schemes to have her burned.",
   "hasInlineScenes": true

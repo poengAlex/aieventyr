@@ -4,18 +4,25 @@
   "description": "«Hogger du i skogen min, skal jeg klemme deg flat som flatbrød!» Begge brødrene springer hjem, men Askeladden har med seg en liten, hvit ost. Et morsomt eventyr å lese høyt, med et troll som aldri har tapt en spisekonkurranse.",
   "tone": "Morsom, spennende og trygg",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:02:00.790Z"
+    "generatedAt": "2026-03-28T12:02:00.790Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T08:37:13.785Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden lurer trollet med en ost og en sekk under bordet, og kommer hjem med gull og sølv så faren kan betale det han skylder.",
   "hasInlineScenes": true

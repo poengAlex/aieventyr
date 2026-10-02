@@ -4,18 +4,25 @@
   "description": "The blacksmith has sold himself to the Devil for seven years as master of all masters, and he has painted it over his door. Then Our Lord drops in, shoes a horse by taking its legs off as easily as you’d pull off a mitten, and grants the blacksmith three wishes.",
   "tone": "Sly, irreverent and darkly comic",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:26:02.368Z"
+    "generatedAt": "2026-03-28T18:26:02.368Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T12:00:59.741Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A blacksmith with three cunning wishes traps the Devil, only to discover neither Hell nor Heaven is eager to admit him.",
   "hasInlineScenes": true

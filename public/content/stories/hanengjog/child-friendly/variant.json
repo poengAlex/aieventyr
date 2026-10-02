@@ -4,18 +4,25 @@
   "description": "Hanen, Gjøken og Århanen har kjøpt ei ku sammen, men ei ku kan jo ikke bo tre steder på én gang. «Jeg vet en lek!» sier Hanen, og helt til slutt får du bestemme hvem som skal få kua.",
   "tone": "Varm, leken og beroligende",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:52:48.610Z"
+    "generatedAt": "2026-03-28T18:52:48.610Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:55:43.836Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Tre fugler leker om kua de har kjøpt sammen: Den som våkner først i morgen, skal få henne.",
   "hasInlineScenes": true

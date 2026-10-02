@@ -273,3 +273,9 @@ button {
     box-shadow: none;
   }
 }
+
+// The word being read aloud (src/components/IllustratedStory.vue).
+::highlight(reading-word) {
+  background-color: color-mix(in srgb, var(--accent) 20%, transparent);
+  color: inherit;
+}

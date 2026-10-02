@@ -4,18 +4,25 @@
   "description": "Brødrene lyver Askeladden inn i det ene umulige oppdraget etter det andre, men han svarer bare «Ja-a» og ror over vannet igjen. Det klassiske eventyret fortalt på lett, levende norsk.",
   "tone": "Tørrvittig, spennende og lettlest",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T08:46:55.593Z"
+    "generatedAt": "2026-03-28T08:46:55.593Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:20:07.060Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden lurer trollet tre ganger og vinner sølvendene, sengeteppet, gullharpa og prinsessa.",
   "hasInlineScenes": true

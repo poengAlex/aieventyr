@@ -4,18 +4,25 @@
   "description": "His wife sells the cow for a penny and comes home tarred and feathered, so the farmer walks out, swearing he won’t be back until he finds three wives just as mad. A Norwegian tall tale, told in brisk, dry English.",
   "tone": "Dry, earthy and mischievous",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:27:02.752Z"
+    "generatedAt": "2026-03-28T13:27:02.752Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:48:03.737Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A fed-up farmer leaves home to find three wives as foolish as his own, and makes money off every one of them.",
   "hasInlineScenes": true

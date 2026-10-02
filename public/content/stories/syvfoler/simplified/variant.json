@@ -4,18 +4,25 @@
   "description": "Kongen lover prinsessa og halve riket til den som kan gjete de sju føllene hans en hel dag og si hva de spiser og drikker. Klarer du det ikke, skjærer han tre røde remmer av ryggen din.",
   "tone": "Rytmisk, spennende og folkelig",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:20:28.592Z"
+    "generatedAt": "2026-03-28T21:20:28.592Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:21:29.175Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Brødrene blir lurt av kjerringa i bergsprekken, men Askeladden henger med føllene hele dagen og finner ut hva de spiser og drikker.",
   "hasInlineScenes": true

@@ -4,18 +4,25 @@
   "description": "Etter sju år på havet og tre døgn i storm sovner alle om bord, alle unntatt den yngste kongssønnen. Bare han ser den lille hunden på øya, som bjeffer og piper mot skipet. Eventyret om de tolv bergtatte prinsessene, på lett og levende norsk.",
   "tone": "Spennende, storslått og lettlest",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T09:22:33.379Z"
+    "generatedAt": "2026-03-28T09:22:33.379Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:25:36.255Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Den yngste kongssønnen frelser tolv prinsesser fra et troll med tolv hoder, men Ridder Rød seiler fra ham og tar æren.",
   "hasInlineScenes": true

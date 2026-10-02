@@ -38,7 +38,9 @@
     "art:turns": "node pipeline/commands/generate-turns.mjs",
     "content:glossary": "node pipeline/commands/check-glossary.mjs",
     "content:share-cards": "node pipeline/commands/build-share-cards.mjs",
-    "content:icons": "node pipeline/commands/build-icons.mjs"
+    "content:icons": "node pipeline/commands/build-icons.mjs",
+    "narration:generate": "node pipeline/commands/generate-narration.mjs",
+    "narration:publish": "node pipeline/commands/publish-narration.mjs"
   },
   "dependencies": {
     "@fontsource-variable/eb-garamond": "^5.3.0",

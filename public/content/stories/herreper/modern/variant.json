@@ -4,18 +4,25 @@
   "description": "Katten har aldri sagt et ord, men på riksveien etter skiftet begynner hun å gi Per ordre. Snart står han i varemottaket på kongsgården med et reinsdyr i grime: en liten sending fra han Herreper.",
   "tone": "Tørr, underfundig og eventyrlig",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:30:46.551Z"
+    "generatedAt": "2026-03-28T20:30:46.551Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:15:40.966Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En talende katt gjør den blakke Per til den mystiske rikmannen Herreper og lurer både kongen og et troll.",
   "hasInlineScenes": true

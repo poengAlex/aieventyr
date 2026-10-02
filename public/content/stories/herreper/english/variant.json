@@ -4,18 +4,25 @@
   "description": "Per’s brothers take the pot and the griddle, so he gets the cat. Then she rides out of the forest between a reindeer’s antlers, and the King receives a small gift from a certain Sir Per.",
   "tone": "Sly, deadpan and brisk",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:30:12.970Z"
+    "generatedAt": "2026-03-28T20:30:12.970Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:16:16.296Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Per inherits nothing but a cat, and she fools the King, outwits a troll and makes him master of a silver castle.",
   "hasInlineScenes": true

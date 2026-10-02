@@ -4,18 +4,25 @@
   "description": "Seven years into the search for twelve stolen princesses, a storm leaves the whole crew asleep, all but the youngest prince. Only he sees the little dog yelping at the ship from a rocky island. A Norwegian tale of trolls, treachery and a very large bird.",
   "tone": "Grand, suspenseful and wry",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:06:22.862Z"
+    "generatedAt": "2026-03-28T11:06:22.862Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:29:14.967Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "The youngest prince frees twelve princesses from a twelve-headed troll, but Sir Red sails off without him and takes the credit.",
   "hasInlineScenes": true

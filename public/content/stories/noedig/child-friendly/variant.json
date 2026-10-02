@@ -4,18 +4,25 @@
   "description": "Kona spiser sju pølser hos slakteren, sovner der hun sitter og våkner så full av fjær at hun tror hun er blitt en fugl. En tullete historie til høytlesning, med mye flaksing.",
   "tone": "Tullete, leken og varm",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:32:15.843Z"
+    "generatedAt": "2026-03-28T13:32:15.843Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:45:57.767Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Kona tror hun er blitt en fugl, og mannen drar ut i verden for å finne tre koner som er like tullete.",
   "hasInlineScenes": true

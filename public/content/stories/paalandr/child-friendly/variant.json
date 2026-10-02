@@ -4,18 +4,25 @@
   "description": "Når den døve mannen er ute og arbeider, får Pål Andrestuen rømmegrøt med smør, sukker og kanel hos kona, mens mannen selv får tynn havregrøt. Men tjenestegutten ser alt, og han vedder ti daler på at hun skal rope ut hemmeligheten helt selv.",
   "tone": "Lun, tullete og full av grøt",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:48:50.230Z"
+    "generatedAt": "2026-03-28T19:48:50.230Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:05:55.290Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En lur tjenestegutt vedder ti daler på at han kan få kona til å rope ut at hun gir Pål Andrestuen rømmegrøt i smug.",
   "hasInlineScenes": true

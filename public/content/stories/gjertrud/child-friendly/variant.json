@@ -4,18 +4,25 @@
   "description": "Rummel, rummel! Vårherre og Sankt Peder er sultne, men hver lefse Gjertrud baker, vokser seg større og større og STØRRE. Et kort og rytmisk eventyr å lese høyt.",
   "tone": "Kort, rytmisk og rolig",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T10:59:36.419Z"
+    "generatedAt": "2026-03-28T10:59:36.419Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:20:34.988Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Gjertrud vil ikke dele ei eneste lefse med Vårherre og Sankt Peder, og blir til en liten svart fugl med rød lue.",
   "hasInlineScenes": true

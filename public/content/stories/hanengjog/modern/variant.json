@@ -4,18 +4,25 @@
   "description": "Tre naboer kjøper ei ku på parkeringsplassen ved kjøpesenteret og legger avtalen inn i gruppechatten: Den som våkner først i morgen, får kua. Klokka tolv over fire står Hanen midt på tunet og galer.",
   "tone": "Tørr, leken og samtidsnær",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:53:01.577Z"
+    "generatedAt": "2026-03-28T18:53:01.577Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:56:15.111Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Hanen, Gjøken og Århanen kjøper ei ku sammen og avtaler i gruppechatten at den som våkner først, skal få henne.",
   "hasInlineScenes": true

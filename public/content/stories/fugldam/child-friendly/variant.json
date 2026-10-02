@@ -4,18 +4,25 @@
   "description": "Snork, snork! Tolv prinsesser må klø en trollkonge i hodene dagen lang, for når man har tolv hoder, klør det alltid et sted. Et høytlesningseventyr om den yngste kongssønnen og en fugl som spiser fire tønner rug til frokost.",
   "tone": "Leken, spennende og trygg",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:13:07.105Z"
+    "generatedAt": "2026-03-28T11:13:07.105Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:24:38.445Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Den yngste kongssønnen redder tolv prinsesser fra trollkongen, blir lurt av Ridder Rød og får hjelp av den kjempestore Fugl Dam.",
   "hasInlineScenes": true

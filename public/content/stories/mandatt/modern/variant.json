@@ -4,18 +4,25 @@
   "description": "Stemoren trenger bilder til nettbutikken sin, og ved den gamle steinbrønnen må Fars datter spinne grisebust om kapp med stesøsteren: Den som ryker først, hopper i brønnen. Eventyret lagt til dagens bygde-Norge.",
   "tone": "Uhyggelig, tørr og bitende",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T15:06:44.308Z"
+    "generatedAt": "2026-03-28T15:06:44.308Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:43:58.756Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Stemoren dytter Fars datter i brønnen, og ni dager senere kommer hun hjem med en blå kiste full av gull, så nå vil Mors datter også ha sommerjobb.",
   "hasInlineScenes": true

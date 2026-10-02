@@ -4,18 +4,25 @@
   "description": "Rike-Per eier halve dalen og betaler stjernekikkerne godt, men svaret liker han ikke: Dattera hans skal gifte seg med et spedbarn fra ei kvern som går med underskudd. Eventyret i vår tid, med tvangsauksjoner, dokumentfalsk og en drage i et prisbelønt betonghus.",
   "tone": "Satirisk, skarp og spennende",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:51:18.948Z"
+    "generatedAt": "2026-03-28T11:51:18.948Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:34:42.817Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Rike-Per kjøper møllergutten to ganger for å bli kvitt ham, men gutten gifter seg med dattera hans og blir sendt til Dragen av Dybenfart.",
   "hasInlineScenes": true

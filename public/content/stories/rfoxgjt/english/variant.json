@@ -4,18 +4,25 @@
   "description": "The Bear bellows and the Wolf howls, but the Fox sits up straight and sings “Dil—dal—holom!” so clear and sweet that the woman hires him as her herdsman on the spot. A pocket-sized Norwegian animal tale in lively modern English.",
   "tone": "Wry, brisk and darkly funny",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:06:55.910Z"
+    "generatedAt": "2026-03-28T18:06:55.910Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:56:01.206Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A woman hires a fox for his fine cattle-call, and he repays her by eating her herd and earning a white-tipped tail.",
   "hasInlineScenes": true

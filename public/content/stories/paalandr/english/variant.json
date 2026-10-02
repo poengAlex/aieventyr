@@ -4,18 +4,25 @@
   "description": "The wife’s husband is deaf and kind, which is exactly why she’s fonder of Pål in the other house. The farmhand bets her ten daler he can make her blurt out her own shame.",
   "tone": "Cheeky, dry and fast-moving",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:48:34.104Z"
+    "generatedAt": "2026-03-28T19:48:34.104Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:06:57.618Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A sly farmhand bets a straying wife ten daler that he can make her give herself away, with her deaf husband as his unwitting helper.",
   "hasInlineScenes": true

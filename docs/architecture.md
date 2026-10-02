@@ -51,6 +51,16 @@ The site is set like a printed storybook. The library is a title page and a tabl
   Full-screen picture-book mode: one picture and the text that leads up to it per page. Wide screens show an open book, with the picture on the left page and the text on the right; upright phones show one page. Pages turn with a 3D page-turn animation, by tap, arrow keys or a swipe that the page follows. On an upright phone, `RotateHint.vue` first suggests turning the phone sideways and closes once it is turned. It opens only for stories with new pictures.
 - `src/components/FullscreenImageDialog.vue` – a picture on its own, full screen.
 
+### Reading aloud
+
+- `src/stores/player.ts`
+  The narration player: one audio element for the whole site, so a tale plays on from page to page and the next can follow without another tap. It keeps which paragraph and word are being read (from `narration.json`), where the listener stopped (`lastListened` in the settings), the sleep timer (after this tale, or in 15, 30 or 45 minutes, fading out), the speed, and the lock-screen controls and artwork (Media Session). A tap starts the audio at once (`prime`), as Safari requires; the timings follow (`load`).
+- `src/logic/listen.ts`
+  Builds a track (title, cover, audio, timings) for a tale and edition, and finds the next narrated tale.
+- `src/components/ListenBar.vue`
+  The controls along the bottom of every page while a tale is read: play, ten seconds back, a line to drag, speed, sleep and "next tale by itself". When a tale ends it counts down to the next narrated tale in the same edition and, if the reader is on the finished tale's page, turns to it.
+- In the reader, the paragraph being read has a line in the margin and the word being said a soft mark (the CSS Custom Highlight API), and the page follows the voice unless the reader has just scrolled. The picture book can be opened with pictures only, turning its pages as the narration reaches them, keeping the screen awake; turning a page by hand takes the narration there. The contents page marks narrated tales with headphones.
+
 ### State
 
 - `src/stores/settings.ts`
@@ -60,6 +70,7 @@ The site is set like a printed storybook. The library is a title page and a tabl
   - night mode
   - which stories have been read, per edition
   - where the reader last stopped (`lastRead`), for "continue where you left off"
+  - the narration speed, whether the next tale follows by itself, and where the listener stopped (`lastListened`)
 
 ### Texts
 

@@ -4,18 +4,25 @@
   "description": "Giske vil gifte seg med enkemannen hun steller hus for, og det sier hun både morgen og kveld. Så sovner hun i hampåkeren og våkner svart av talg og sot, og da kan det vel ikke være noen annen enn fanden selv.",
   "tone": "Folkelig, rå og komisk",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:40:28.118Z"
+    "generatedAt": "2026-03-28T21:40:28.118Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:24:20.233Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Smurt svart av husbonden tror Giske at hun er fanden, slår følge med to tyver og roper så høyt at hele bygda begynner å be.",
   "hasInlineScenes": true

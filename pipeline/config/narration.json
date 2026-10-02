@@ -1,0 +1,50 @@
+{
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
+  "maxChunkCharacters": 1800,
+  "seed": 1843,
+  "voices": {
+    "maja": {
+      "id": "BGEU6wFi2uNm6Kje1Yhk",
+      "name": "Maja E – Calm Audiobook Narrator (Oslo)"
+    },
+    "martin": {
+      "id": "9pRpxWU0T7UFt2oEMH6n",
+      "name": "Martin – Clear and Comforting (Oslo)"
+    },
+    "christopher": {
+      "id": "G17SuINrv2H9FC6nvetn",
+      "name": "Christopher – Gentle and Trustworthy (British)"
+    },
+    "beth": {
+      "id": "8N2ng9i2uiUWqstgmWlH",
+      "name": "Beth – Calm, Gentle and Nurturing (British)"
+    },
+    "sally-ford": {
+      "id": "kBag1HOZlaVBH7ICPE8x",
+      "name": "Sally Ford – Warm, Friendly and British"
+    },
+    "jane": {
+      "id": "RILOU7YmBhvwJGDGjNmP",
+      "name": "Jane – Professional Audiobook Reader (British)"
+    }
+  },
+  "editions": {
+    "child-friendly": {
+      "voices": ["maja", "martin"],
+      "language": "no"
+    },
+    "simplified": {
+      "voices": ["maja", "martin"],
+      "language": "no"
+    },
+    "modern": {
+      "voices": ["maja", "martin"],
+      "language": "no"
+    },
+    "english": {
+      "voices": ["beth", "christopher"],
+      "language": "en"
+    }
+  }
+}

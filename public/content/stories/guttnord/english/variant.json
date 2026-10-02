@@ -4,18 +4,25 @@
   "description": "Three times the North Wind snatches the boy’s porridge meal off the storehouse steps, so he walks all the way to the North Wind’s house, where every tree leans south, to demand it back. A Norwegian classic in brisk modern English.",
   "tone": "Rhythmic, wry and warm",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:23:28.061Z"
+    "generatedAt": "2026-03-28T12:23:28.061Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:37:55.515Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A poor boy demands his meal back from the North Wind and gets a magic cloth, a gold-making goat and a stick, but a greedy innkeeper wants them all.",
   "hasInlineScenes": true

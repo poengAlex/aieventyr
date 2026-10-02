@@ -4,18 +4,25 @@
   "description": "“Don’t shoot my children!” begs the Snipe, and the Hunter agrees: he won’t touch the prettiest children in the forest. A tiny Norwegian fable with a sting, told in plain English.",
   "tone": "Wry, terse and darkly funny",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:45:07.194Z"
+    "generatedAt": "2026-03-28T13:45:07.194Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:47:58.893Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A hunter agrees to spare a snipe’s chicks, which she swears are the prettiest in the forest.",
   "hasInlineScenes": true

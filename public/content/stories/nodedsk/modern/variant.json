@@ -4,18 +4,25 @@
   "description": "Tuppen får et nøtteskall i halsen i skogstripa bak blokkene, men den nye drikkefontenen vil ha en kode fra parkappen, og hanen har ikke mobil. Regla, flyttet til en lørdag i dagens drabantby.",
   "tone": "Andpusten, tørr og samtidsnær",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T15:25:05.640Z"
+    "generatedAt": "2026-03-28T15:25:05.640Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:47:01.412Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "For å redde høna må hanen få vann fra en drikkefontene som krever kode, og veien dit går fra parkvakta til purka.",
   "hasInlineScenes": true

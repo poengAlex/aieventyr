@@ -4,18 +4,25 @@
   "description": "Everyone would be delighted to stand godparent to the poor man’s baby; nobody would be delighted to pay. Then a splendid lady on the forest path offers to see the child christened, if afterwards the girl will live with her. A grave, beautiful legend.",
   "tone": "Solemn, eerie and tender",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:42:20.895Z"
+    "generatedAt": "2026-03-28T12:42:20.895Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:41:14.489Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A girl who lets out the star, the moon and the sun loses her voice, marries a prince, and is accused of a terrible crime when her babies vanish.",
   "hasInlineScenes": true

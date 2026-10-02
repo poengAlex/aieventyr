@@ -4,18 +4,25 @@
   "description": "Tuppen the Hen has a nutshell stuck in her throat, and the Rooster runs for water, but the Spring wants leaves first, and the Linden wants red-gold ribbons. A breathless Norwegian chain tale that grows longer at every stop.",
   "tone": "Breathless, rhythmic and wry",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T15:16:48.466Z"
+    "generatedAt": "2026-03-28T15:16:48.466Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:46:59.699Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A devoted rooster races through a chain of bargains to bring water that will save his hen.",
   "hasInlineScenes": true

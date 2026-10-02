@@ -4,18 +4,25 @@
   "description": "Alle vil gjerne være fadder, men ingen vil betale. Så lover en fin frue på stien å sørge for dåpen, om hun får beholde jenta etterpå, og i huset hennes er det tre kamre jenta aldri må åpne. Et alvorlig eventyr på lett norsk.",
   "tone": "Alvorlig, vakker og lettlest",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:37:47.955Z"
+    "generatedAt": "2026-03-28T12:37:47.955Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:39:40.561Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Jenta slipper ut stjerna, månen og sola, mister stemmen og blir en vakker, stum dronning som må se barna sine forsvinne, ett etter ett.",
   "hasInlineScenes": true

@@ -4,18 +4,25 @@
   "description": "Stjernekikkerne sier at dattera til Rike Per Kremmer skal gifte seg med babyen i mølla. «En som ikke har tenner en gang? Aldri i livet!» sier Per. Et høytlesningseventyr med tolv røvere og en drage som ikke får sove.",
   "tone": "Lun, rytmisk og morsom",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:44:13.852Z"
+    "generatedAt": "2026-03-28T11:44:13.852Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:31:05.585Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Møllergutten får gifte seg med dattera til Rike Per Kremmer, men for å beholde henne må han hente tre fjær fra Dragen ved Dybenfart.",
   "hasInlineScenes": true

@@ -4,18 +4,25 @@
   "description": "Mannsdattera må spinne stiv grisebust om kapp med stesøsterens myke lin, og den som tråden ryker for først, skal i brønnen. Klassikeren på lett, moderne norsk, med småfuglenes vers.",
   "tone": "Rytmisk, trolsk og spennende",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T14:48:52.784Z"
+    "generatedAt": "2026-03-28T14:48:52.784Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:43:40.215Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Mannsdattera havner i brønnen, tjener hos trollkjerringa og kommer hjem med et skrin fullt av gull, og så vil kjerringdattera prøve det samme.",
   "hasInlineScenes": true

@@ -4,18 +4,25 @@
   "description": "Mannen til kjerringa er døv og snill, og nettopp derfor liker hun Pål i den andre stua bedre. Tjenestegutten vedder ti daler på at han skal få henne til å avsløre sin egen skam.",
   "tone": "Frekk og tørr bygdehumor",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:48:22.837Z"
+    "generatedAt": "2026-03-28T19:48:22.837Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:05:58.761Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En lur tjenestegutt vedder ti daler på at han kan få kjerringa til å avsløre forholdet sitt til Pål Andrestuen med egen munn.",
   "hasInlineScenes": true

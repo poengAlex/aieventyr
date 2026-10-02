@@ -4,18 +4,25 @@
   "description": "«Jeg er den klokeste i hele bygda», sier storebroren. «Da må det være en liten bygd», svarer prinsessen. Så er det Askeladdens tur, med en sekk full av rare ting han har funnet på veien. Et kort eventyr å lese høyt.",
   "tone": "Leken, kvikk og varm",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:29:54.766Z"
+    "generatedAt": "2026-03-28T11:29:54.766Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:26:18.856Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden gjør den kvikke prinsessen målløs med en skjære, to bukkehorn og en skosåle med hull, og får både henne og halve kongeriket.",
   "hasInlineScenes": true

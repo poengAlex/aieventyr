@@ -4,18 +4,25 @@
   "description": "Katten rir ut av skogen på et reinsdyr og styrer med hornene som med et sykkelstyre. Reinsdyret gjør som hun sier, for ellers synger hun for det.",
   "tone": "Lun, morsom og trygg",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:30:26.813Z"
+    "generatedAt": "2026-03-28T20:30:26.813Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:12:48.298Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Per får bare en katt i arv, men katten lurer både kongen og en lodden vokter og skaffer Per et glitrende slott.",
   "hasInlineScenes": true

@@ -4,6 +4,15 @@
       <router-link to="/" class="caps-link back">‹ {{ t.contents }}</router-link>
       <div class="bar-title" :class="{ visible: pastHead }">{{ title }}</div>
       <div class="bar-end">
+        <button
+          v-if="narrated"
+          type="button"
+          class="bar-listen"
+          :aria-label="playingHere ? t.pause : t.listen"
+          @click="toggleListening"
+        >
+          <q-icon :name="playingHere ? 'pause' : 'headphones'" />
+        </button>
         <reading-settings :available="story?.availableVariants" />
       </div>
       <div class="reading-progress"><span :style="{ transform: `scaleX(${progress})` }" /></div>
@@ -18,6 +27,7 @@
       :art="readerArt"
       :font-size="settings.fontSize"
       :glossary="bundle.glossary"
+      :reading="reading"
       @open-character="openCharacter"
       @open-image="openImage"
     >
@@ -41,14 +51,27 @@
           <h1>{{ title }}</h1>
           <div v-if="minutes" class="tale-meta">{{ t.minutes(minutes) }}</div>
           <edition-switch v-model="settings.variant" :available="story.availableVariants" />
-          <button
-            v-if="bookReady"
-            type="button"
-            class="caps-link accent book-link"
-            @click="pictureBookOpen = true"
-          >
-            {{ t.pictureBook }} ›
-          </button>
+          <div v-if="narrated || bookReady" class="head-links">
+            <button v-if="narrated" type="button" class="caps-link accent" @click="toggleListening">
+              {{ playingHere ? t.pause : `${t.listen} · ${t.minutes(listenMinutes)}` }}
+            </button>
+            <button
+              v-if="bookReady"
+              type="button"
+              class="caps-link accent"
+              @click="openPictureBook(false)"
+            >
+              {{ t.pictureBook }} ›
+            </button>
+            <button
+              v-if="bookReady && narrated"
+              type="button"
+              class="caps-link accent"
+              @click="openPictureBook(true)"
+            >
+              {{ t.listenBook }} ›
+            </button>
+          </div>
           <cast-lineup
             v-if="lineup.length"
             :characters="lineup"
@@ -112,6 +135,7 @@
       :art="art"
       :title="title"
       :font-size="settings.fontSize + 1"
+      :listening="pictureBookListening"
     />
     <fullscreen-image-dialog
       v-model="imageDialogOpen"
@@ -139,6 +163,8 @@ import IllustratedStory from 'src/components/IllustratedStory.vue'
 import PictureBook from 'src/components/PictureBook.vue'
 import PlateImage from 'src/components/PlateImage.vue'
 import ReadingSettings from 'src/components/ReadingSettings.vue'
+import { audioSrc, isNarrated, loadTrack } from 'src/logic/listen'
+import { usePlayerStore } from 'src/stores/player'
 import { artSetFor, artSrcset, artUrl, fallbackArt, loadArt } from 'src/logic/art'
 import {
   getVariantBasePath,
@@ -171,6 +197,8 @@ const art = ref<ArtManifest | null>(null)
 const manifestStories = ref<StoryListItem[]>([])
 
 const pictureBookOpen = ref(false)
+// The picture book with pictures only, turning its pages as the narration goes.
+const pictureBookListening = ref(false)
 const imageDialogOpen = ref(false)
 const activeImage = ref({ src: '', alt: '' })
 const characterDialogOpen = ref(false)
@@ -193,6 +221,42 @@ const minutes = computed(() =>
 )
 const editionClass = computed(() => `edition-${artSetFor(variant.value) ?? 'classic'}`)
 const textLang = computed(() => (variant.value === 'english' ? 'en' : 'nb'))
+
+// ---- reading aloud
+
+const player = usePlayerStore()
+const narrated = computed(() => isNarrated(listItem.value, variant.value))
+const listenMinutes = computed(() =>
+  Math.max(1, Math.round((listItem.value?.audio?.[variant.value] ?? 0) / 60)),
+)
+const listeningHere = computed(() => player.isTrack(storyId.value, variant.value))
+const playingHere = computed(() => listeningHere.value && player.playing)
+const reading = computed(() =>
+  listeningHere.value ? { paragraph: player.paragraph, word: player.wordRange } : null,
+)
+
+// The audio starts inside the tap (see player.prime); the timings follow.
+function startListening() {
+  if (listeningHere.value) return void player.play()
+  const id = storyId.value
+  const edition = variant.value
+  player.prime(
+    audioSrc(id, edition),
+    player.resumeTime(id, edition, listItem.value?.audio?.[edition] ?? 0),
+  )
+  void loadTrack(id, edition).then((track) => track && player.load(track, { autoplay: true }))
+}
+
+function toggleListening() {
+  if (playingHere.value) player.pause()
+  else void startListening()
+}
+
+function openPictureBook(listening: boolean) {
+  pictureBookListening.value = listening
+  pictureBookOpen.value = true
+  if (listening) startListening()
+}
 
 // The browser tab shows the tale (the router resets the title on every page change).
 watch([title, () => route.fullPath], ([value]) => {
@@ -434,6 +498,8 @@ watch(
 }
 
 .bar-end {
+  display: flex;
+  align-items: center;
   justify-self: end;
 }
 
@@ -493,8 +559,33 @@ watch(
   color: var(--ink-muted);
 }
 
-.book-link {
+.head-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px 22px;
   margin-top: 4px;
+}
+
+.bar-listen {
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  margin-right: 6px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--accent);
+  font-size: 21px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.bar-listen:hover,
+.bar-listen:focus-visible {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
 }
 
 .tale-end {

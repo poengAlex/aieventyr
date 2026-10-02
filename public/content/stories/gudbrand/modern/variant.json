@@ -4,18 +4,25 @@
   "description": "Gudbrand bor så høyt oppe i lia at brøytebilen snur på tunet hans. Når ingen vil kjøpe kua på høstmarkedet, bytter han henne mot en hest, en hestehenger og sju saler, og derfra går det bare nedover.",
   "tone": "Varm, tørrvittig og jordnær",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:26:46.613Z"
+    "generatedAt": "2026-03-28T17:26:46.613Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:50:20.931Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Gudbrand bytter seg fra ku til hane på vei hjem fra markedet og vedder hundre tusen kroner med naboen på at kona ikke sier et vondt ord.",
   "hasInlineScenes": true

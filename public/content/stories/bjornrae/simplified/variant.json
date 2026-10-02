@@ -4,18 +4,25 @@
   "description": "Reven kommer luskende med stjålet fisk og lærer bjørnen en enkel kunst: Stikk halen ned i et hull i isen og hold den der, jo lenger, jo bedre. To klassiske revestreker, fortalt rett fram på lett norsk.",
   "tone": "Tørrvittig, rask og vinterlig",
   "characterCount": 2,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:10:40.151Z"
+    "generatedAt": "2026-03-28T17:10:40.151Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:47:56.642Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Reven lurer bjørnen til å fiske med halen i isen, og etterpå spiser han opp julesmøret deres og gir bjørnen skylden.",
   "hasInlineScenes": true

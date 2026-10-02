@@ -4,18 +4,25 @@
   "description": "Hønsehuset står på det siste småbruket før byen begynner, og høna sitter med de bare føttene på den kalde betongen. Hanen har lovet henne sko i fire år uten å se opp fra halmen.",
   "tone": "Samtidsnær, skarp og lett ironisk",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:43:12.343Z"
+    "generatedAt": "2026-03-28T18:43:12.343Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:55:27.760Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Høna krever skoene hanen har lovet henne i fire år, og hanen minner henne på at hun har egen inntekt.",
   "hasInlineScenes": true

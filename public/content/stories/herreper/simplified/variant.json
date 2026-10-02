@@ -4,18 +4,25 @@
   "description": "Brødrene tar gryta og takka, og Per blir stående igjen med katten. Men så kommer hun ut av skogen på hodet til et reinsdyr, og kongen får en liten sending fra en viss Herreper.",
   "tone": "Lun, frekk og eventyrlig",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:29:59.679Z"
+    "generatedAt": "2026-03-28T20:29:59.679Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:13:54.459Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Per arver bare en katt, men katten lurer både kongen og et troll og skaffer ham et slott av sølv.",
   "hasInlineScenes": true

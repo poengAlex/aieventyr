@@ -17,6 +17,14 @@ export interface ReadingPosition {
   at: number
 }
 
+// Where the listener stopped, so a tale picks up there next time.
+export interface ListeningPosition {
+  storyId: string
+  variant: VariantType
+  time: number
+  at: number
+}
+
 export const useSettingsStore = defineStore('settings', {
   state: () => ({
     variant: 'simplified' as VariantTypes,
@@ -24,6 +32,11 @@ export const useSettingsStore = defineStore('settings', {
     night: false,
     readStoryIds: [] as string[],
     lastRead: null as ReadingPosition | null,
+    // Reading aloud: the speed, whether the next tale follows by itself, and where the
+    // listener stopped.
+    listenSpeed: 1,
+    autoContinue: true,
+    lastListened: null as ListeningPosition | null,
   }),
   getters: {
     isRead: (state) => (storyId: string, variant: VariantType) =>

@@ -84,7 +84,7 @@ public/content/
       scenes/scene-<n>.webp
       characters.json
       characters/<characterSlug>.webp
-      audio.mp3
+      audio.m4a
 ```
 
 The app treats each story variant as an independent bundle with its own:
@@ -96,7 +96,7 @@ The app treats each story variant as an independent bundle with its own:
 - character portraits
 - audio
 
-Audio is currently turned off: the reader has no audio player, no `audio.mp3` files are checked in, and every `variant.json` has `hasAudio: false`. The audio pipeline commands below can bring it back.
+An edition read aloud has `hasAudio: true` in `variant.json`, `audio.m4a` and `narration.json` (see `narration:generate` below).
 
 The texts of the four public variants (`story.txt` and `sections.json`) and their blurbs were rewritten by hand, not by the pipeline. The pipeline skips outputs that already exist, but running a text stage with `--force` replaces them with generated text.
 
@@ -193,6 +193,16 @@ Every reading edition has a `glossary.json` next to its `story.txt`: the words a
 The cards, the favicons and the logo at the top of the contents page share one mark, a printer's initial E in the classic edition's red, drawn from EB Garamond in `pipeline/lib/logo.mjs`. `content:icons` draws the favicons and home-screen icons from it into `public/icons/` and `public/favicon.ico`; `src/components/SiteLogo.vue` carries a copy of its outline.
 
 The site uses real addresses (`/story/askesv/`, not `/#/story/askesv`). App Platform serves a folder's `index.html` only with the trailing slash, so the app keeps addresses in that form; old `#/` links are forwarded.
+
+### Reading aloud
+
+```bash
+npm run narration:generate -- --story=asketrol
+npm run narration:generate -- --story=asketrol --variant=child-friendly --voice=maja
+npm run narration:publish -- --story=asketrol --variant=child-friendly --take=child-friendly-maja
+```
+
+`narration:generate` reads an edition aloud with ElevenLabs (Eleven v4; `ELEVENLABS_API_KEY` in `.env`) and keeps the timing of every character, in `pipeline/work/narration/<story>/`. Voices and settings are in `pipeline/config/narration.json`: the tales take turns, a woman reading the odd-numbered ones and a man the even-numbered ones. A reading in the edition's own voice is put on the site at once, as `audio.m4a` (HE-AAC at 32 kbps mono, made with macOS's `afconvert`) and `narration.json` (when each paragraph and word is said) next to the edition's `story.txt`. The recordings in the work folder are the masters (128 kbps): `narration:publish -- --export` makes every `audio.m4a` again from them. A test with `--voice` or `--plain` stays in the work folder until `narration:publish`. Pieces already read are kept, so a rerun never pays twice. If `pipeline/narration/<story>/<edition>.txt` exists, it is read instead of `story.txt`: the same text with directions in square brackets (`[softly]`).
 
 ## Documentation
 

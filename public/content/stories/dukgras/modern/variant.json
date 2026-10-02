@@ -4,18 +4,25 @@
   "description": "Tolv brødre ruller ut porten i tolv nye biler, på jakt etter noen som kan sy en skjorte på én dag, og ved første rasteplass kjører de elleve eldste fra Askeladden. Men i gresset bak parkeringsplassen bor en jente som ikke er høyere enn mobilen hans.",
   "tone": "Lavmælt, tørrvittig og varm",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:32:16.679Z"
+    "generatedAt": "2026-03-28T19:32:16.679Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:04:54.589Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Forlatt på en rasteplass finner Askeladden en bitteliten jente i gresset, og skjorta hun syr på én dag, imponerer selv den strenge faren.",
   "hasInlineScenes": true

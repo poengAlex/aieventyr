@@ -32,7 +32,7 @@
           <template v-for="(paragraph, index) in paragraphs" :key="index">
             <!-- One line, so no whitespace gets into the text around the name buttons. -->
             <!-- prettier-ignore -->
-            <p :ref="(el) => setParagraph(el, index)" class="story-paragraph"><template v-for="(piece, p) in pieces[index]" :key="p"><span v-if="piece.versal" class="versal">{{ piece.text }}</span><button v-else-if="piece.character" type="button" class="character-link" :class="{ 'lead-in': piece.lead }" @click="emit('open-character', piece.character)">{{ piece.text }}</button><button v-else-if="piece.term !== undefined" type="button" class="term-link" :class="{ 'lead-in': piece.lead }" aria-haspopup="dialog">{{ piece.text }}<span class="term-mark" aria-hidden="true">°</span><q-menu anchor="bottom middle" self="top middle" :offset="[0, 8]" :class="['word-note-menu', editionClass]"><div class="word-note" :lang="textLang" :style="{ fontSize: `${Math.round(fontSize * 0.86)}px` }"><div class="caps word-note-term">{{ entry(piece.term)?.term }}</div><p>{{ entry(piece.term)?.note }}</p></div></q-menu></button><span v-else-if="piece.lead" class="lead-in">{{ piece.text }}</span><template v-else>{{ piece.text }}</template></template></p>
+            <p :ref="(el) => setParagraph(el, index)" class="story-paragraph" :class="{ 'is-reading': reading?.paragraph === index }"><template v-for="(piece, p) in pieces[index]" :key="p"><span v-if="piece.versal" class="versal">{{ piece.text }}</span><button v-else-if="piece.character" type="button" class="character-link" :class="{ 'lead-in': piece.lead }" @click="emit('open-character', piece.character)">{{ piece.text }}</button><button v-else-if="piece.term !== undefined" type="button" class="term-link" :class="{ 'lead-in': piece.lead }" aria-haspopup="dialog">{{ piece.text }}<span class="term-mark" aria-hidden="true">°</span><q-menu anchor="bottom middle" self="top middle" :offset="[0, 8]" :class="['word-note-menu', editionClass]"><div class="word-note" :lang="textLang" :style="{ fontSize: `${Math.round(fontSize * 0.86)}px` }"><div class="caps word-note-term">{{ entry(piece.term)?.term }}</div><p>{{ entry(piece.term)?.note }}</p></div></q-menu></button><span v-else-if="piece.lead" class="lead-in">{{ piece.text }}</span><template v-else>{{ piece.text }}</template></template></p>
             <template v-if="compact">
               <art-figure
                 v-for="picture in placed.get(index) ?? []"
@@ -78,6 +78,8 @@ const props = withDefaults(
     art: ArtManifest
     fontSize: number
     glossary?: GlossaryEntry[]
+    // Where the narration is, when this text is being read aloud.
+    reading?: { paragraph: number; word: [number, number] | null } | null
   }>(),
   { glossary: () => [] },
 )
@@ -176,13 +178,99 @@ function onScroll() {
   if (!frame) frame = requestAnimationFrame(measure)
 }
 
+// ---- reading aloud
+
+// The paragraph being read gets a line in the margin, and the word being said a soft mark
+// (the CSS Custom Highlight API, so the text itself is left alone). The page follows the
+// voice, except for a while after the reader scrolls by hand.
+const READING_WORD = 'reading-word'
+const canHighlight = typeof CSS !== 'undefined' && 'highlights' in CSS
+let scrolledByHand = 0
+
+// A range over characters from..to of a paragraph's text, skipping the ° of glossed words.
+function rangeIn(element: HTMLElement, from: number, to: number) {
+  const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT, {
+    acceptNode: (node) =>
+      node.parentElement?.closest('.term-mark')
+        ? NodeFilter.FILTER_REJECT
+        : NodeFilter.FILTER_ACCEPT,
+  })
+  const range = document.createRange()
+  let offset = 0
+  let started = false
+  for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+    const length = node.textContent?.length ?? 0
+    if (!started && from < offset + length) {
+      range.setStart(node, from - offset)
+      started = true
+    }
+    if (started && to <= offset + length) {
+      range.setEnd(node, to - offset)
+      return range
+    }
+    offset += length
+  }
+  return null
+}
+
+function markWord() {
+  if (!canHighlight) return
+  const reading = props.reading
+  const element = reading ? paragraphElements[reading.paragraph] : undefined
+  const range = element && reading?.word ? rangeIn(element, ...reading.word) : null
+  if (range) CSS.highlights.set(READING_WORD, new Highlight(range))
+  else CSS.highlights.delete(READING_WORD)
+}
+
+function follow(index: number, force = false) {
+  const element = paragraphElements[index]
+  if (!element || (!force && Date.now() - scrolledByHand < 8000)) return
+  const rect = element.getBoundingClientRect()
+  const top = window.innerHeight * 0.18
+  const bottom = window.innerHeight * 0.68
+  if (!force && rect.top >= top && rect.bottom <= bottom) return
+  window.scrollTo({
+    top: window.scrollY + rect.top - window.innerHeight * 0.3,
+    behavior: force ? 'auto' : 'smooth',
+  })
+}
+
+function onHandScroll() {
+  scrolledByHand = Date.now()
+}
+
+watch(
+  () => props.reading?.word,
+  () => markWord(),
+)
+watch(
+  () => props.reading?.paragraph,
+  (index, before) => {
+    if (index === undefined || index < 0) return
+    // Starting to listen brings the paragraph into view at once.
+    follow(index, before === undefined || before < 0)
+  },
+)
+
 onMounted(() => {
+  window.addEventListener('wheel', onHandScroll, { passive: true })
+  window.addEventListener('touchmove', onHandScroll, { passive: true })
+  // Back on the page of a tale that is being read aloud: straight to where the voice is.
+  void nextTick(() => {
+    const index = props.reading?.paragraph ?? -1
+    if (index >= 0) follow(index, true)
+    markWord()
+  })
+
   window.addEventListener('scroll', onScroll, { passive: true })
   window.addEventListener('resize', onScroll)
   void nextTick(measure)
 })
 
 onBeforeUnmount(() => {
+  window.removeEventListener('wheel', onHandScroll)
+  window.removeEventListener('touchmove', onHandScroll)
+  if (canHighlight) CSS.highlights.delete(READING_WORD)
   window.removeEventListener('scroll', onScroll)
   window.removeEventListener('resize', onScroll)
   if (frame) cancelAnimationFrame(frame)
@@ -244,7 +332,21 @@ watch(paragraphs, () => {
 }
 
 .story-paragraph {
+  position: relative;
   margin: 0;
+}
+
+// The paragraph being read aloud: a line in the margin, like a finger beside the text.
+.story-paragraph.is-reading::before {
+  content: '';
+  position: absolute;
+  top: 0.32em;
+  bottom: 0.32em;
+  left: -0.85em;
+  width: 2px;
+  border-radius: 1px;
+  background: var(--accent);
+  opacity: 0.75;
 }
 
 // Paragraphs are indented, as in a book; the first one after a picture is not.

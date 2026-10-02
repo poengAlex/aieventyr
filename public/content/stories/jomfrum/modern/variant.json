@@ -4,18 +4,25 @@
   "description": "Alle vil gjerne være fadder for den nyfødte jenta, men ingen har råd. Så står det en dame i lys kåpe på grusveien i regnet, med helt rene sko, og tilbyr seg å ordne alt, om hun får ha jenta hos seg etterpå.",
   "tone": "Nedtonet, uhyggelig og rørende",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:52:56.259Z"
+    "generatedAt": "2026-03-28T12:52:56.259Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:41:04.082Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Jenta som slipper ut stjerna, månen og sola, mister stemmen, gifter seg med arvingen på slottet og mistenkes for det verste når barna forsvinner.",
   "hasInlineScenes": true

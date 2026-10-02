@@ -4,18 +4,25 @@
   "description": "Gjertrud har stekt lefser i bua ved fylkesveien i tjueto år, da Jesus og Peter kommer inn i sandaler og uten penger. Hver lefse hun steker til dem, blir for stor til å gi bort, men ikke for stor til å selge.",
   "tone": "Tørr, lavmælt og litt uhyggelig",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:02:29.058Z"
+    "generatedAt": "2026-03-28T11:02:29.058Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:21:16.757Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Gjertrud i lefsebua ved fylkesveien vil ikke gi Jesus en smakebit og blir til en svart fugl med rød lue.",
   "hasInlineScenes": true

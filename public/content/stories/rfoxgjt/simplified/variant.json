@@ -4,18 +4,25 @@
   "description": "Bjørnen brøler og ulven uler, men reven setter seg pent med halen rundt labbene og synger «Dil-dal-holom!» så lyst og fint at kona ansetter ham som gjeter på flekken. Et kort og tørrvittig dyreeventyr på lett norsk.",
   "tone": "Kort, tørr og mørkt morsom",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:06:46.646Z"
+    "generatedAt": "2026-03-28T18:06:46.646Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:55:16.035Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En kone ansetter en rev som gjeter, men han spiser opp dyra hennes og ender med å få en hvit haletipp.",
   "hasInlineScenes": true

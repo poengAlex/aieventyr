@@ -41,6 +41,12 @@
         "english": 1660,
         "child-friendly": 1496,
         "modern": 1683
+      },
+      "audio": {
+        "simplified": 594,
+        "child-friendly": 633,
+        "modern": 701,
+        "english": 597
       }
     },
     {
@@ -67,6 +73,12 @@
         "english": 354,
         "child-friendly": 304,
         "modern": 521
+      },
+      "audio": {
+        "child-friendly": 118,
+        "simplified": 119,
+        "english": 116,
+        "modern": 199
       }
     },
     {
@@ -93,6 +105,12 @@
         "english": 4074,
         "child-friendly": 2555,
         "modern": 4410
+      },
+      "audio": {
+        "child-friendly": 1044,
+        "simplified": 1305,
+        "modern": 1627,
+        "english": 1401
       }
     },
     {
@@ -119,6 +137,12 @@
         "english": 426,
         "child-friendly": 432,
         "modern": 533
+      },
+      "audio": {
+        "child-friendly": 175,
+        "simplified": 157,
+        "modern": 197,
+        "english": 154
       }
     },
     {
@@ -145,6 +169,12 @@
         "english": 4178,
         "child-friendly": 2356,
         "modern": 4340
+      },
+      "audio": {
+        "child-friendly": 973,
+        "simplified": 1233,
+        "modern": 1596,
+        "english": 1410
       }
     },
     {
@@ -171,6 +201,12 @@
         "english": 852,
         "child-friendly": 796,
         "modern": 1329
+      },
+      "audio": {
+        "english": 290,
+        "child-friendly": 320,
+        "simplified": 267,
+        "modern": 492
       }
     },
     {
@@ -197,6 +233,12 @@
         "english": 1226,
         "child-friendly": 981,
         "modern": 1681
+      },
+      "audio": {
+        "child-friendly": 425,
+        "simplified": 393,
+        "english": 431,
+        "modern": 681
       }
     },
     {
@@ -223,6 +265,12 @@
         "english": 1717,
         "child-friendly": 1654,
         "modern": 2392
+      },
+      "audio": {
+        "child-friendly": 639,
+        "simplified": 536,
+        "modern": 881,
+        "english": 576
       }
     },
     {
@@ -249,6 +297,12 @@
         "english": 2233,
         "child-friendly": 2079,
         "modern": 2841
+      },
+      "audio": {
+        "child-friendly": 853,
+        "simplified": 741,
+        "modern": 1063,
+        "english": 776
       }
     },
     {
@@ -275,6 +329,12 @@
         "english": 1994,
         "child-friendly": 1637,
         "modern": 2242
+      },
+      "audio": {
+        "child-friendly": 613,
+        "simplified": 630,
+        "modern": 789,
+        "english": 632
       }
     },
     {
@@ -301,6 +361,12 @@
         "english": 145,
         "child-friendly": 186,
         "modern": 197
+      },
+      "audio": {
+        "child-friendly": 82,
+        "simplified": 56,
+        "modern": 86,
+        "english": 58
       }
     },
     {
@@ -327,6 +393,12 @@
         "english": 186,
         "child-friendly": 233,
         "modern": 280
+      },
+      "audio": {
+        "child-friendly": 83,
+        "simplified": 66,
+        "english": 63,
+        "modern": 105
       }
     },
     {
@@ -353,6 +425,12 @@
         "english": 1475,
         "child-friendly": 1084,
         "modern": 1931
+      },
+      "audio": {
+        "child-friendly": 438,
+        "simplified": 488,
+        "modern": 761,
+        "english": 528
       }
     },
     {
@@ -379,6 +457,12 @@
         "english": 3304,
         "child-friendly": 2713,
         "modern": 3833
+      },
+      "audio": {
+        "child-friendly": 1049,
+        "simplified": 1050,
+        "modern": 1341,
+        "english": 1045
       }
     },
     {
@@ -405,6 +489,12 @@
         "english": 2834,
         "child-friendly": 2149,
         "modern": 2839
+      },
+      "audio": {
+        "child-friendly": 890,
+        "simplified": 972,
+        "modern": 1116,
+        "english": 986
       }
     },
     {
@@ -431,6 +521,12 @@
         "english": 1378,
         "child-friendly": 964,
         "modern": 1398
+      },
+      "audio": {
+        "child-friendly": 398,
+        "simplified": 420,
+        "english": 489,
+        "modern": 552
       }
     },
     {
@@ -463,6 +559,12 @@
         "english": 798,
         "child-friendly": 651,
         "modern": 930
+      },
+      "audio": {
+        "child-friendly": 276,
+        "simplified": 256,
+        "modern": 364,
+        "english": 290
       }
     },
     {
@@ -495,6 +597,12 @@
         "english": 1355,
         "child-friendly": 852,
         "modern": 1602
+      },
+      "audio": {
+        "child-friendly": 328,
+        "simplified": 460,
+        "modern": 567,
+        "english": 436
       }
     },
     {
@@ -527,6 +635,12 @@
         "english": 4135,
         "child-friendly": 2507,
         "modern": 3952
+      },
+      "audio": {
+        "simplified": 1409,
+        "modern": 1555,
+        "english": 1433,
+        "child-friendly": 1059
       }
     },
     {
@@ -559,6 +673,12 @@
         "english": 426,
         "child-friendly": 373,
         "modern": 550
+      },
+      "audio": {
+        "child-friendly": 151,
+        "simplified": 135,
+        "modern": 200,
+        "english": 138
       }
     },
     {
@@ -591,6 +711,12 @@
         "english": 2282,
         "child-friendly": 1747,
         "modern": 2115
+      },
+      "audio": {
+        "simplified": 740,
+        "english": 763,
+        "modern": 810,
+        "child-friendly": 688
       }
     },
     {
@@ -623,6 +749,12 @@
         "english": 84,
         "child-friendly": 70,
         "modern": 135
+      },
+      "audio": {
+        "child-friendly": 29,
+        "simplified": 32,
+        "modern": 55,
+        "english": 32
       }
     },
     {
@@ -655,6 +787,12 @@
         "english": 136,
         "child-friendly": 116,
         "modern": 249
+      },
+      "audio": {
+        "child-friendly": 50,
+        "simplified": 53,
+        "modern": 106,
+        "english": 57
       }
     },
     {
@@ -687,6 +825,12 @@
         "english": 5003,
         "child-friendly": 4037,
         "modern": 4224
+      },
+      "audio": {
+        "child-friendly": 1507,
+        "simplified": 1535,
+        "modern": 1479,
+        "english": 1585
       }
     },
     {
@@ -719,6 +863,12 @@
         "english": 801,
         "child-friendly": 755,
         "modern": 1411
+      },
+      "audio": {
+        "child-friendly": 315,
+        "simplified": 278,
+        "english": 280,
+        "modern": 573
       }
     },
     {
@@ -751,6 +901,12 @@
         "english": 851,
         "child-friendly": 842,
         "modern": 847
+      },
+      "audio": {
+        "child-friendly": 326,
+        "simplified": 273,
+        "english": 282,
+        "modern": 316
       }
     },
     {
@@ -783,6 +939,12 @@
         "english": 3666,
         "child-friendly": 2834,
         "modern": 3646
+      },
+      "audio": {
+        "child-friendly": 1149,
+        "simplified": 1217,
+        "modern": 1367,
+        "english": 1278
       }
     },
     {
@@ -815,6 +977,12 @@
         "english": 2051,
         "child-friendly": 1411,
         "modern": 2177
+      },
+      "audio": {
+        "child-friendly": 543,
+        "simplified": 652,
+        "modern": 788,
+        "english": 648
       }
     },
     {
@@ -847,6 +1015,12 @@
         "english": 1309,
         "child-friendly": 1138,
         "modern": 1742
+      },
+      "audio": {
+        "child-friendly": 462,
+        "simplified": 446,
+        "english": 465,
+        "modern": 689
       }
     },
     {
@@ -879,6 +1053,12 @@
         "english": 284,
         "child-friendly": 271,
         "modern": 514
+      },
+      "audio": {
+        "child-friendly": 109,
+        "simplified": 98,
+        "english": 98,
+        "modern": 201
       }
     },
     {
@@ -911,6 +1091,12 @@
         "english": 2345,
         "child-friendly": 1659,
         "modern": 2292
+      },
+      "audio": {
+        "child-friendly": 675,
+        "simplified": 798,
+        "modern": 933,
+        "english": 808
       }
     },
     {
@@ -943,6 +1129,12 @@
         "english": 2013,
         "child-friendly": 1146,
         "modern": 2073
+      },
+      "audio": {
+        "child-friendly": 448,
+        "simplified": 631,
+        "english": 640,
+        "modern": 734
       }
     },
     {
@@ -975,6 +1167,12 @@
         "english": 2448,
         "child-friendly": 2113,
         "modern": 2974
+      },
+      "audio": {
+        "child-friendly": 881,
+        "simplified": 889,
+        "modern": 1188,
+        "english": 893
       }
     },
     {
@@ -1007,6 +1205,12 @@
         "english": 5480,
         "child-friendly": 3153,
         "modern": 4750
+      },
+      "audio": {
+        "child-friendly": 1203,
+        "simplified": 1481,
+        "modern": 1658,
+        "english": 1704
       }
     }
   ]

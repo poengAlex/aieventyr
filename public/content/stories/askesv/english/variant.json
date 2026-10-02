@@ -4,18 +4,25 @@
   "description": "His jealous brothers volunteer him for one impossible theft after another, and Ash-Lad just answers “Ye-es” and rows back across the lake. The Norwegian classic, told in lively modern English.",
   "tone": "Dry, brisk and suspenseful",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T09:06:11.256Z"
+    "generatedAt": "2026-03-28T09:06:11.256Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:22:05.848Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Ash-Lad outwits a troll three times and wins the silver ducks, the bedspread, the golden harp and the princess.",
   "hasInlineScenes": true

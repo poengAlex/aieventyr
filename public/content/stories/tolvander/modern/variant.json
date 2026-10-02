@@ -4,18 +4,25 @@
   "description": "Dronningen står med neseblod i snøen ved veien og ønsker seg en datter, og en gammel kvinne i boblejakke lover henne en, på vanlige vilkår. Under dåpen blir de tolv prinsene til villender; offisielt studerer de i utlandet.",
   "tone": "Mørk, spennende og skarp",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T22:01:44.116Z"
+    "generatedAt": "2026-03-28T22:01:44.116Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:29:29.362Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Snehvit-Rosenrød syr i taushet for å frelse de tolv brødrene sine, mens statsministerens stemor anklager henne for å ha drept barna sine.",
   "hasInlineScenes": true

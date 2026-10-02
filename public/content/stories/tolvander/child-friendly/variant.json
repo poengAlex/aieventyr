@@ -4,18 +4,25 @@
   "description": "Tolv brødre er blitt til villender, og søsteren deres må sy luer og skjorter av myrdun uten å si et ord. Hun får ikke fnise en eneste gang, og ikke gråte, selv om hun stikker seg på nålen.",
   "tone": "Lun, spennende og trøstende",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T22:01:24.483Z"
+    "generatedAt": "2026-03-28T22:01:24.483Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:27:10.665Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Snehvit og Rosenrød syr klær av myrdun uten å si et ord for å få de tolv brødrene sine tilbake, selv når stemoren lyver om henne.",
   "hasInlineScenes": true

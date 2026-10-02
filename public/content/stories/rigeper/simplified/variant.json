@@ -4,18 +4,25 @@
   "description": "Når Rike-Per Kremmer betaler godt nok, ser stjernekikkerne det i stjernene: Dattera hans skal få møllerbarnet som nettopp er født i kverna nedenfor gården. Det har Per ikke tenkt å finne seg i. Fortalt på lett og levende norsk.",
   "tone": "Spennende, lun og litt skadefro",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T09:30:58.533Z"
+    "generatedAt": "2026-03-28T09:30:58.533Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:32:19.398Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Rike-Per Kremmer prøver alt for å bli kvitt møllergutten som skal få dattera hans, og sender ham til slutt til Dragen av Dybenfart.",
   "hasInlineScenes": true

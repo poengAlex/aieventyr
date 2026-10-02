@@ -4,18 +4,25 @@
   "description": "Lillekort er den minste babyen mora noen gang har sett, og med en gang han er født, setter han seg opp og vil ut i verden. Et høytlesningseventyr med mange lydord, der sverdet sier svisj og trollene poff.",
   "tone": "Varm, leken, spennende og trygg",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:11:51.307Z"
+    "generatedAt": "2026-03-28T19:11:51.307Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:01:27.545Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Den bitte lille Lillekort bruker list, et tryllesverd og et lommeskip til å redde to prinsesser og avsløre den skrytete Ridder Rød.",
   "hasInlineScenes": true

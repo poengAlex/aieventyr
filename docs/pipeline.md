@@ -179,7 +179,7 @@ This stage also has moderation-safe retries for violent or risky scenes.
 
 ### `generate-variant-audio`
 
-Chunks story text, generates speech for each chunk, concatenates the result with `ffmpeg`, and writes `audio.mp3`.
+Chunks story text, generates speech for each chunk, joins the result and writes `audio.m4a` (`encodeSiteAudio` in `pipeline/lib/shared.mjs`).
 
 ### `build-content-manifest`
 

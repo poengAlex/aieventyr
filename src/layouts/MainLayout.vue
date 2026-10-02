@@ -3,12 +3,14 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+    <listen-bar />
   </q-layout>
 </template>
 
 <script setup lang="ts">
 import { watch } from 'vue'
 import { useQuasar } from 'quasar'
+import ListenBar from 'src/components/ListenBar.vue'
 import { useSettingsStore } from 'src/stores/settings'
 
 // Pages draw their own top bars, so the story page can keep its bar out of the way.

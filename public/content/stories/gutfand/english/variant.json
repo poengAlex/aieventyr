@@ -4,18 +4,25 @@
   "description": "A boy cracking nuts along the road meets the Devil and asks whether it’s true that he can make himself as small as he likes. It is, and the Devil should never have shown him.",
   "tone": "Short, sharp and mischievous",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:04:46.492Z"
+    "generatedAt": "2026-03-28T21:04:46.492Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:18:27.819Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A boy tricks the Devil into a worm-eaten nut and asks the blacksmith to crack it.",
   "hasInlineScenes": true

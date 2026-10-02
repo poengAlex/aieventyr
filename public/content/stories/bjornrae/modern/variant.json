@@ -4,18 +4,25 @@
   "description": "Isfiskerne har sittet der siden sju og fått én abbor til sammen, så da reven kommer med en plastpose full av fisk, vil bjørnen vite hvordan han gjør det. De gamle revestrekene, lagt til et islagt vann i dagens Norge, midt i smørmangelen.",
   "tone": "Lakonisk, lun og vinterlig",
   "characterCount": 2,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:11:15.581Z"
+    "generatedAt": "2026-03-28T17:11:15.581Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:48:17.262Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En bjørn mister halen i isen på revens råd, og midt i smørmangelen forsvinner julesmøret de har spleiset på.",
   "hasInlineScenes": true

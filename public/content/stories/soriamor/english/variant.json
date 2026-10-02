@@ -4,18 +4,25 @@
   "description": "Halvor has never done a hand’s turn, but when a skipper asks if he’d like to see foreign lands, he’s up out of the ashes in a flash. A storm drives the ship to a strange coast, where three princesses sit captive in three castles, each with its own troll.",
   "tone": "Adventurous, dry and romantic",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:10:19.964Z"
+    "generatedAt": "2026-03-28T20:10:19.964Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:14:52.871Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Lazy Halvor kills three trolls and wins a princess, then loses her by breaking his promise and must find his way to Soria Moria Castle.",
   "hasInlineScenes": true

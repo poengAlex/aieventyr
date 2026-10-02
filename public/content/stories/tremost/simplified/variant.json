@@ -4,18 +4,25 @@
   "description": "Jegerdatteren har aldri sett en rokk, men nå skal hun spinne en halv kilo lin på ett døgn, og den gamle kona som kommer inn døra, ber bare om én ting: å bli kalt moster på hedersdagen hennes. Eventyret fortalt på lett, moderne norsk.",
   "tone": "Klassisk, tørrvittig og underfundig",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T14:02:17.207Z"
+    "generatedAt": "2026-03-28T14:02:17.207Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:50:10.782Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Tre gamle koner spinner, vever og syr for en fattig jegerdatter, og i bryllupet hennes kommer de for å bli kalt moster.",
   "hasInlineScenes": true

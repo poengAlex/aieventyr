@@ -4,18 +4,25 @@
   "description": "Askeladden tar oppvasken på kongsgården ved fjorden, og brødrene hans skryter på hans vegne til kongen. Nå må han stjele fra trollet over vannet med et gammelt knadetrau, en spiker og en bjørkepinne.",
   "tone": "Tørr, moderne og mørk humor",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T10:52:19.388Z"
+    "generatedAt": "2026-03-28T10:52:19.388Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:20:23.294Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En undervurdert kjøkkenhjelp ror over fjorden og lurer trollet tre ganger.",
   "hasInlineScenes": true

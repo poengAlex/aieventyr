@@ -4,18 +4,25 @@
   "description": "Herd the King’s seven colts for a whole day, tell him what they eat and drink, and you win the princess and half the kingdom. Fail, and he cuts three red strips out of your back.",
   "tone": "Rhythmic, suspenseful and dry",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:20:41.143Z"
+    "generatedAt": "2026-03-28T21:20:41.143Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:23:29.570Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Ash-Lad’s brothers fall for the hag in the mountain cleft, but he hangs on to the colts all day and learns what they really eat and drink.",
   "hasInlineScenes": true

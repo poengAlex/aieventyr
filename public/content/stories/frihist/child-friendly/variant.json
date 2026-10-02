@@ -4,18 +4,25 @@
   "description": "Bonden har fått ett nytt erme, kona én ny sko og datteren ei ny lue, og nå kommer det en frier på besøk. En kort og lun høytlesningshistorie med mye gni, dytt og nikk.",
   "tone": "Lun, leken og rytmisk",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T13:56:39.351Z"
+    "generatedAt": "2026-03-28T13:56:39.351Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:48:09.963Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Bonden gnir, kona dytter og datteren nikker, for når det kommer en frier, vil alle vise fram det nye de har.",
   "hasInlineScenes": true

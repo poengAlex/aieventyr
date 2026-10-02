@@ -1,11 +1,16 @@
+import { execFile } from 'child_process'
+import { randomUUID } from 'crypto'
 import fs from 'fs/promises'
+import os from 'os'
 import path from 'path'
 import sharp from 'sharp'
 import { fileURLToPath } from 'url'
+import { promisify } from 'util'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 export const ROOT_DIR = path.resolve(__dirname, '../..')
+const run = promisify(execFile)
 
 export const VARIANT_META = {
   raw: {
@@ -186,7 +191,7 @@ export function getCanonicalPaths(storyId, variant) {
     mainImage: path.join(variantDir, 'main.webp'),
     charactersMeta: path.join(variantDir, 'characters.json'),
     charactersDir: path.join(variantDir, 'characters'),
-    audio: path.join(variantDir, 'audio.mp3'),
+    audio: path.join(variantDir, 'audio.m4a'),
   }
 }
 
@@ -238,6 +243,29 @@ export function getVariantDisplayTitle(section, variant) {
 export async function optimizeToWebp(inputBuffer, outputPath) {
   await ensureDir(path.dirname(outputPath))
   await sharp(inputBuffer).webp({ quality: 82 }).toFile(outputPath)
+}
+
+// The audio the site plays (audio.m4a): HE-AAC at 32 kbps, mono, half the size of a 64 kbps
+// MP3 for a reading voice, and every current browser plays it. Apple's encoder (afconvert, on
+// macOS) makes it: it notes its start-up delay, so Safari keeps time with the word timings
+// exactly, while players that decode with ffmpeg run about 70 ms behind. `input` is ffmpeg's
+// input arguments.
+export async function encodeSiteAudio(input, outputPath) {
+  const wav = path.join(os.tmpdir(), `${randomUUID()}.wav`)
+  const partial = `${outputPath}.tmp.m4a`
+  try {
+    await run('ffmpeg', ['-y', '-v', 'error', ...input, '-ac', '1', '-c:a', 'pcm_s16le', wav])
+    await run('afconvert', ['-f', 'm4af', '-d', 'aach', '-b', '32000', '-q', '127', wav, partial])
+    await fs.rename(partial, outputPath)
+  } catch (error) {
+    if (error.code === 'ENOENT' && error.syscall?.startsWith('spawn')) {
+      throw new Error(`${error.path} is missing; the site's audio is encoded on macOS`)
+    }
+    throw error
+  } finally {
+    await fs.rm(wav, { force: true })
+    await fs.rm(partial, { force: true })
+  }
 }
 
 export async function createStyledDerivative(inputPath, outputPath, variant) {

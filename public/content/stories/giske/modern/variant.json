@@ -4,18 +4,25 @@
   "description": "Giske har bestemt seg for å gifte seg med enkemannen, og han er ikke en mann som tar vanskelige samtaler. Da hun våkner på hampjordet, er hun barbert skallet og sotsvart, og ikke engang mobilen kjenner henne igjen.",
   "tone": "Rå, tørrvittig og bygdesatirisk",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:41:07.843Z"
+    "generatedAt": "2026-03-28T21:41:07.843Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:25:39.999Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Skallet og sotsvart tror Giske at hun er fanden, slår seg i lag med to småtyver og roper hele bygda opp av senga.",
   "hasInlineScenes": true

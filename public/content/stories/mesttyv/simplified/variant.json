@@ -4,18 +4,25 @@
   "description": "Husmannens yngste sønn går i lære hos røvere og stjeler tre okser fra samme bonde på samme vei. Så vil han ha amtmannens datter, og amtmannen vil først se hva en mestertyv duger til.",
   "tone": "Frekk, kvikk og tørrvittig",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-29T08:21:14.479Z"
+    "generatedAt": "2026-03-29T08:21:14.479Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:34:42.971Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En husmannssønn blir mestertyv og må stjele steken, lure presten og ta hestene fra amtmannen for å få dattera hans.",
   "hasInlineScenes": true

@@ -4,18 +4,25 @@
   "description": "I et direktesendt intervju lover konsernsjefen bort dattera og halve konsernet til den som klarer å gjøre henne målløs. Det er ment som en spøk, men snart står friere i kø utenfor villaen ved sjøen. Askeladden tar bussen.",
   "tone": "Kvikk, frekk og nåtidig",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T11:33:05.490Z"
+    "generatedAt": "2026-03-28T11:33:05.490Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:27:29.589Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden fra et småbruk i innlandet målbinder konsernsjefens datter med en strips, to sykkelhorn og en utgått skosåle.",
   "hasInlineScenes": true

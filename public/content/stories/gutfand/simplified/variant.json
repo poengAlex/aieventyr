@@ -4,18 +4,25 @@
   "description": "En gutt som går og knekker nøtter, møter Fanden og spør om det er sant at han kan gjøre seg så liten han vil. Det kan han, og det skulle han aldri ha vist fram.",
   "tone": "Kort, kjapp og lun",
   "characterCount": 3,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:04:38.521Z"
+    "generatedAt": "2026-03-28T21:04:38.521Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:18:03.328Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En gutt lurer Fanden inn i en markspist nøtt og ber smeden knuse den.",
   "hasInlineScenes": true

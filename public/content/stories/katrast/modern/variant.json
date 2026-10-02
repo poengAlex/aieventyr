@@ -4,18 +4,25 @@
   "description": "Mens kongen fører krig gjennom advokatene sine, tar stemora fra Kari først mobilen og så maten, og setter henne til å gjete kongehusets kyr. Men den blågrå oksen i flokken kan snakke, og i øret hans ligger en duk som dekker på av seg selv.",
   "tone": "Tørr, spennende og eventyrlig",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:48:30.343Z"
+    "generatedAt": "2026-03-28T17:48:30.343Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:55:35.337Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Kari rømmer fra stemora med en snakkende okse, tar oppvaskjobb på et fremmed slott i en trestakk og lar prinsen lete etter eieren av en gullsko.",
   "hasInlineScenes": true

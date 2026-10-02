@@ -4,18 +4,25 @@
   "description": "Sssssuuuuusj! Tre ganger blåser Nordavinden grøtmelet av gårde, og da går gutten helt opp på fjellet for å si ifra. Et høytlesningseventyr med magiske ord og en bukk som ikke alltid gjør penger.",
   "tone": "Leken, lydrik og lun",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:27:55.065Z"
+    "generatedAt": "2026-03-28T12:27:55.065Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:36:35.115Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Gutten går til Nordavinden for å få igjen melet, får tre magiske gaver og må lure gjestgiveren som bytter dem bort.",
   "hasInlineScenes": true

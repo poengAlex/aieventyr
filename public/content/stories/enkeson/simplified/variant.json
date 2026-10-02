@@ -4,18 +4,25 @@
   "description": "Hos den fremmede mannen får enkesønnen mat og drikke og nesten ingenting å gjøre, men inn i fire rom må han aldri gå. Et langt og spennende trolleventyr på lett norsk.",
   "tone": "Spennende, tørrvittig og eventyrlig",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T14:21:39.401Z"
+    "generatedAt": "2026-03-28T14:21:39.401Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:54:56.296Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Enkesønnen rømmer fra trollet på en svart hest som kan snakke, blir hagegutt på kongsgården og vinner både krigen og prinsessa.",
   "hasInlineScenes": true

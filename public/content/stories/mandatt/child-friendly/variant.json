@@ -4,18 +4,25 @@
   "description": "Mannens datter holder seg for nesen og hopper i brønnen, og på bunnen ligger ei grønn eng der gjerdet, kua og bukken kan snakke. Et rytmisk eventyr til høytlesning, med vers å synge med på.",
   "tone": "Syngende, lun og passe ekkel",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T15:00:29.820Z"
+    "generatedAt": "2026-03-28T15:00:29.820Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:43:16.255Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Mannens datter er snill mot alle hun møter på den grønne enga og kommer hjem med et skrin fullt av gull, og så vil Kone-datteren også prøve.",
   "hasInlineScenes": true

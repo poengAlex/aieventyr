@@ -4,18 +4,25 @@
   "description": "Our Lord and Saint Peter ask Gertrud for a taste of flatbread, and she says of course. But every scrap of dough she rolls out spreads across the griddle until it is far too big to give away. A short, sharp Norwegian legend.",
   "tone": "Terse, dry and cautionary",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T10:57:10.928Z"
+    "generatedAt": "2026-03-28T10:57:10.928Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:21:12.973Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Gertrud grudges Our Lord a single flatbread and is turned into a soot-black bird that pecks at trees and always thirsts for rain.",
   "hasInlineScenes": true

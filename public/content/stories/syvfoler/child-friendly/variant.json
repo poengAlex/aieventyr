@@ -4,18 +4,25 @@
   "description": "Hva spiser og drikker kongens sju føll? Brødrene sovner hos den gamle kona i bergskorten, men Askeladden griper halen på det bakerste føllet og flyr etter som en papirdrage.",
   "tone": "Rytmisk, fjollete og trygg",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T21:20:53.993Z"
+    "generatedAt": "2026-03-28T21:20:53.993Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:20:49.311Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Askeladden må finne ut hva kongens sju føll spiser og drikker, og han må ikke sovne hos den gamle kona slik brødrene gjorde.",
   "hasInlineScenes": true

@@ -4,18 +4,25 @@
   "description": "Hver gang kongssønnen fra England rir ut for å fri, sitter vesle Aase gåsepike midt i veien og setter bot på bot og lapp på lapp. «Skal jeg ha ham, så får jeg ham nok», sier hun.",
   "tone": "Tørrvittig, rytmisk og lur",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:48:28.069Z"
+    "generatedAt": "2026-03-28T20:48:28.069Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:17:17.383Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Kongssønnen fra England prøver hver ny brud med en stein som vet alt, men vesle Aase gåsepike har bestemt seg for å få ham selv.",
   "hasInlineScenes": true

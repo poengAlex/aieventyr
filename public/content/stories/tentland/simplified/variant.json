@@ -4,18 +4,25 @@
   "description": "Fiskeren lover et hode i vannet det konen bærer under beltet, og vet ikke at det er et barn. Mange år senere går båten av seg selv med gutten om bord, rett ut fra land og mot en strand som er hvit som snø. Et langt eventyr, fortalt på lett norsk.",
   "tone": "Magisk, spennende og lettlest",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T12:58:39.816Z"
+    "generatedAt": "2026-03-28T12:58:39.816Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:43:42.262Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Fiskergutten berger tre prinsesser i Hvittenland og får den yngste, men mister henne igjen og må finne veien tilbake.",
   "hasInlineScenes": true

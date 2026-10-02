@@ -1,10 +1,10 @@
 import fs from 'fs/promises'
 import path from 'path'
-import ffmpeg from 'fluent-ffmpeg'
 import {
   VARIANT_META,
   chunkText,
   createSectionTitle,
+  encodeSiteAudio,
   ensureDir,
   fileExists,
   getCanonicalPaths,
@@ -106,7 +106,7 @@ async function updateVariantMeta(storyId, variant, updater) {
           text: 'story.txt',
           mainImage: 'main.webp',
           characters: 'characters.json',
-          audio: 'audio.mp3',
+          audio: 'audio.m4a',
           sections: 'sections.json',
         },
       }
@@ -478,17 +478,7 @@ async function mergeAudioChunks(chunkFiles, outputFile) {
   const fileListPath = `${outputFile}.txt`
   const content = chunkFiles.map((file) => `file '${file}'`).join('\n')
   await fs.writeFile(fileListPath, content, 'utf8')
-
-  await new Promise((resolve, reject) => {
-    ffmpeg()
-      .input(fileListPath)
-      .inputOptions(['-f concat', '-safe 0'])
-      .outputOptions(['-c copy'])
-      .save(outputFile)
-      .on('end', resolve)
-      .on('error', reject)
-  })
-
+  await encodeSiteAudio(['-f', 'concat', '-safe', '0', '-i', fileListPath], outputFile)
   await fs.unlink(fileListPath)
 }
 
@@ -562,6 +552,8 @@ export async function stageBuildContentManifest(args = {}) {
     // library can show each edition's own title and a reading time without loading every text.
     const titles = {}
     const words = {}
+    // Seconds of narration for the editions that are read aloud (pipeline/lib/narration.mjs).
+    const audio = {}
     for (const variant of existingVariants) {
       const paths = getCanonicalPaths(section.id, variant)
       const variantMeta = await readJson(paths.variantMeta)
@@ -569,6 +561,10 @@ export async function stageBuildContentManifest(args = {}) {
         .replace(/\s*\([^)]*\)\s*$/, '')
         .trim()
       words[variant] = (await readText(paths.storyText)).split(/\s+/).filter(Boolean).length
+      const narration = path.join(paths.variantDir, 'narration.json')
+      if (variantMeta.hasAudio && (await fileExists(narration))) {
+        audio[variant] = Math.round((await readJson(narration)).seconds)
+      }
     }
     stories.push({
       id: storyMeta.id,
@@ -580,6 +576,7 @@ export async function stageBuildContentManifest(args = {}) {
       coverImage: `stories/${storyMeta.id}/${pipelineConfig.defaultVariant}/main.webp`,
       titles,
       words,
+      ...(Object.keys(audio).length ? { audio } : {}),
     })
   }
 

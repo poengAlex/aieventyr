@@ -4,18 +4,25 @@
   "description": "The new Queen starves the King’s daughter, but the blue bull has a cloth in his left ear that sets itself with a feast. When the Queen takes to her bed and demands his flesh, the two of them flee by night through woods of copper, silver and gold.",
   "tone": "Wondrous, dramatic and moving",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T17:47:52.908Z"
+    "generatedAt": "2026-03-28T17:47:52.908Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:58:45.730Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A starved princess flees on a blue bull, washes pots in a clattering wooden smock, and wins the Prince with a gold shoe.",
   "hasInlineScenes": true

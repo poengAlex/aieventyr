@@ -4,18 +4,25 @@
   "description": "Lillekort er knapt født før han ber mora om gamle klær og niste og går ut i verden. Snart har han et sverd som kan vinne over en hel hær, et skip han kan ha i lomma og kunsten å brygge hundre tønner øl i ett brygg.",
   "tone": "Kjapp, frekk og eventyrlig",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:11:20.763Z"
+    "generatedAt": "2026-03-28T19:11:20.763Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:01:43.690Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Den vesle Lillekort bruker list og magiske gaver til å redde to prinsesser og avsløre en feig ridder.",
   "hasInlineScenes": true

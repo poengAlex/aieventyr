@@ -4,18 +4,25 @@
   "description": "Year after year, year after year, the Rooster has promised the Hen a pair of shoes, and she’s still going barefoot with her basket of eggs. A tiny Norwegian tale in modern English, in which the Rooster finally comes up with an answer.",
   "tone": "Brisk, dry and lightly sharp",
   "characterCount": 2,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:42:49.816Z"
+    "generatedAt": "2026-03-28T18:42:49.816Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:55:34.110Z",
+      "voice": "Christopher – Gentle and Trustworthy (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "A hardworking Hen demands the shoes she was promised, and the Rooster tells her to buy them herself with her eggs.",
   "hasInlineScenes": true

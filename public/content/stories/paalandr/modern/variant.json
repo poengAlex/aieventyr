@@ -4,18 +4,25 @@
   "description": "Mannen er nesten døv og går med hørselvern i garasjen, så det er hjelpegutten som først skjønner hva kona og leieboeren i hagen driver med. Han vedder ti hundrelapper på at han skal få henne til å avsløre seg selv.",
   "tone": "Lakonisk og frekk boligfeltkomedie",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:49:03.874Z"
+    "generatedAt": "2026-03-28T19:49:03.874Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:07:01.135Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En syttenåring vedder ti hundrelapper på at han kan lure en gift kvinne til å avsløre forholdet sitt til leieboeren i hagen.",
   "hasInlineScenes": true

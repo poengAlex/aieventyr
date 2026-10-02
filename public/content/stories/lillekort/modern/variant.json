@@ -4,18 +4,25 @@
   "description": "Lillekort er noen minutter gammel når han går ut av leiligheten i arvet hettegenser, med knekkebrød i en stoffpose. Snart har han et sverd pakket i avispapir og et skip som ligger sammenbrettet i lomma, og på kongsgården har Ridder Rød lovet på tv å redde prinsessa.",
   "tone": "Kvikk, tørr og eventyrlig",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T19:12:22.789Z"
+    "generatedAt": "2026-03-28T19:12:22.789Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:02:42.282Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "En nyfødt gutt med et sverd fra en handlevogn redder prinsesse Nora fra tre troll, mens vaktsjefen Ridder Rød gjemmer seg i et tre og tar æren.",
   "hasInlineScenes": true

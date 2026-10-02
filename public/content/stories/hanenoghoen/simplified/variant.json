@@ -4,18 +4,25 @@
   "description": "Hanen har lovet høna sko år for år, år for år, og fortsatt går hun barbeint med eggekurven sin. Et bitte lite eventyr på lett norsk, der hanen til slutt kommer med et svar.",
   "tone": "Kort, tørr og kvikk",
   "characterCount": 2,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:42:43.463Z"
+    "generatedAt": "2026-03-28T18:42:43.463Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:55:15.266Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Høna er lei av tomme løfter, så hanen ber henne kjøpe sko selv med eggene sine.",
   "hasInlineScenes": true

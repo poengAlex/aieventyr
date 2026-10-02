@@ -4,18 +4,25 @@
   "description": "Vesle Aase sitter midt i veien og syr lapp på lapp og sting på sting, og hun flytter seg ikke. Hun venter på kongssønnen fra England, sier hun til kongssønnen fra England.",
   "tone": "Rolig, rytmisk og trygg",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T20:48:49.979Z"
+    "generatedAt": "2026-03-28T20:48:49.979Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:16:36.626Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Kongssønnen fra England leter etter ei ærlig brud med en stein som alltid sier sant, men vesle Aase har bestemt seg for å få ham.",
   "hasInlineScenes": true

@@ -4,18 +4,25 @@
   "description": "Høna Tuppe får et nøtteskall på tvers i halsen, og hanen løper etter vann, men kilden vil ha løv først, og linden vil ha røde gullbånd. Ei regle som vokser for hvert ledd, på lett norsk.",
   "tone": "Rytmisk, andpusten og lun",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T15:12:38.836Z"
+    "generatedAt": "2026-03-28T15:12:38.836Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T11:45:26.988Z",
+      "voice": "Martin – Clear and Comforting (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Høna har fått et nøtteskall i halsen, og hanen må gjennom en lang kjede av bytter for å skaffe henne vann.",
   "hasInlineScenes": true

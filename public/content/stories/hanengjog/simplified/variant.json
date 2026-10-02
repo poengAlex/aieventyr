@@ -4,18 +4,25 @@
   "description": "Hanen, gjøken og århanen har kjøpt ei ku sammen, og den som våkner først i morgen, skal få henne. Så galer hanen fra gjerdet, gjøken svarer «Halv ku!», og til slutt er det du som må dømme.",
   "tone": "Leken, rytmisk og kvikk",
   "characterCount": 4,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T18:52:28.834Z"
+    "generatedAt": "2026-03-28T18:52:28.834Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:55:54.379Z",
+      "voice": "Maja E – Calm Audiobook Narrator (Oslo)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Hanen, gjøken og århanen har kjøpt ei ku sammen og avtaler at den som våkner først om morgenen, skal få henne.",
   "hasInlineScenes": true

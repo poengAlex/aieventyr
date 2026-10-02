@@ -4,18 +4,25 @@
   "description": "The jealous maids tell the Queen the new girl can spin a pound of flax in a day, though she has never seen a spinning wheel, and then a very long nose comes round the door. A Norwegian folktale, retold in crisp modern English.",
   "tone": "Wry, rhythmic and slyly funny",
   "characterCount": 5,
-  "hasAudio": false,
+  "hasAudio": true,
   "generation": {
     "model": "gpt-5.2",
     "prompt": "variant-pack.md",
-    "generatedAt": "2026-03-28T14:06:29.538Z"
+    "generatedAt": "2026-03-28T14:06:29.538Z",
+    "audio": {
+      "model": "eleven_v4",
+      "prompt": "story.txt",
+      "generatedAt": "2026-10-02T10:51:34.892Z",
+      "voice": "Beth – Calm, Gentle and Nurturing (British)"
+    }
   },
   "paths": {
     "text": "story.txt",
     "mainImage": "main.webp",
     "characters": "characters.json",
-    "audio": "audio.mp3",
-    "sections": "sections.json"
+    "audio": "audio.m4a",
+    "sections": "sections.json",
+    "narration": "narration.json"
   },
   "summary": "Three old women spin, weave and sew for a poor hunter’s daughter at the King’s manor, and all they ask is to be called Aunt on her day of honour.",
   "hasInlineScenes": true
