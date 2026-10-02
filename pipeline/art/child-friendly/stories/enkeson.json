@@ -78,7 +78,7 @@
       "name": "Kongen",
       "promptName": "the King",
       "replacesPortrait": "kongen",
-      "description": "En streng men rettferdig konge som først blir skeptisk, men som senere forstår sannheten og belønner mot og godhet.",
+      "description": "En streng, men rettferdig konge. Først blir han sint på gutten, men senere forstår han sannheten og belønner mot og godhet.",
       "look": "A broad, barrel-chested, middle-aged king with a square, stern face, a big hooked nose, deep-set dark eyes under heavy black eyebrows, and a thick, bushy black beard streaked with grey. He wears a heavy crown of dark iron topped with gold points, a long dark-green velvet robe with gold trim, a broad brown leather belt with a big gold buckle and tall black riding boots.",
       "portrait": "Background: his hall, with a round stone tower seen through the window."
     }
@@ -136,7 +136,7 @@
       "characters": ["enkesonnen"],
       "prompt": "In a bare, dim room, the Widow's Son kneels at the edge of an open trapdoor in the plank floor, its heavy wooden lid propped up. Just below, in a small stone cellar, the huge round copper cauldron bubbles and steams, with no fire underneath at all. The Widow's Son holds up one finger in front of his astonished face: its tip has turned to shining gold and sparkles in the gloom.",
       "caption": "Da han tok fingeren opp igjen, glitret fingertuppen. Den var blitt til gull!",
-      "alt": "Gutten kneler ved en åpen lem i gulvet. Der nede putrer en stor kobberkjele uten noen ild under, og fingertuppen hans har blitt til skinnende gull."
+      "alt": "Gutten kneler ved en åpen luke i gulvet. Der nede putrer en stor kobberkjele uten noen ild under, og fingertuppen hans har blitt til skinnende gull."
     },
     {
       "id": "05",

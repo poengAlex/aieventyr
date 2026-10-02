@@ -55,7 +55,7 @@
       "variants": {
         "simplified": {
           "name": "Den yngste prinsessa",
-          "description": "Prinsessa som sørger i stillhet og beskytter seg med et nakent sverd, og som til slutt tør å si hvem som virkelig reddet dem.",
+          "description": "Prinsessa som sørger i stillhet og beskytter seg med et blankt sverd, og som til slutt tør å si hvem som virkelig reddet dem.",
           "replacesPortrait": "den-yngste-prinsessa"
         },
         "english": {
@@ -73,7 +73,7 @@
       "variants": {
         "simplified": {
           "name": "Fugl Dam",
-          "description": "En urimelig stor fugl som spiser fire tønner rug til frokost og flyr kongssønnen og gullkronene over havet til trollprinsen.",
+          "description": "En enorm fugl som spiser fire tønner rug til frokost og flyr kongssønnen og gullkronene over havet til trollprinsen.",
           "replacesPortrait": "fugl-dam"
         },
         "english": {
@@ -109,7 +109,7 @@
       "variants": {
         "simplified": {
           "name": "Trollkongen med tolv hoder",
-          "description": "Stortrollet med tolv hoder, som sitter pyntet i et prektig kammer mens de tolv prinsessene plukker lus av ham, til den yngste kongssønnen hogger hodene av.",
+          "description": "Stortrollet med tolv hoder, som sitter pyntet i en flott sal mens de tolv prinsessene plukker lus av ham, til den yngste kongssønnen hogger hodene av.",
           "replacesPortrait": "trollkongen-med-tolv-hoder"
         },
         "english": {
@@ -143,7 +143,7 @@
       "variants": {
         "simplified": {
           "name": "Trollprinsessa",
-          "description": "Trollprinsens datter. Først er hun en liten hund som gjør og piper på en øy, så en vakker prinsesse. I mange år syr hun klær og lintøy til kongssønnen."
+          "description": "Trollprinsens datter. Først er hun en liten hund som bjeffer og piper på en øy, så en vakker prinsesse. I mange år syr hun klær og lintøy til kongssønnen."
         },
         "english": {
           "name": "The Troll’s Daughter",
@@ -245,9 +245,9 @@
       "variants": {
         "simplified": {
           "paragraph": 4,
-          "anchor": "Faren ville nødig la dem dra.",
-          "caption": "Han rustet ut et skip til dem og satte Ridder Rød til styrmann.",
-          "alt": "Tolv prinser vinker fra et stort skip som seiler ut fra land. Bakerst ved roret står Ridder Rød og kneiser."
+          "anchor": "Faren ville helst ikke la dem",
+          "caption": "Han gjorde i stand et skip til dem og satte Ridder Rød til styrmann.",
+          "alt": "Tolv prinser vinker fra et stort skip som seiler ut fra land. Bakerst ved roret står Ridder Rød og ser viktig ut."
         },
         "english": {
           "paragraph": 2,
@@ -266,8 +266,8 @@
         "simplified": {
           "paragraph": 7,
           "anchor": "Mens han gikk fram og tilbake på dekket, gled skipet forbi en liten øy.",
-          "caption": "På øya løp en liten hund langs strandkanten og gjødde og pep.",
-          "alt": "Alle på skipet sover, unntatt den yngste kongssønnen. Han lener seg over rekka og lokker på en liten hvit hund som løper og gjør på en liten øy."
+          "caption": "På øya løp en liten hund langs strandkanten og bjeffet og pep.",
+          "alt": "Alle på skipet sover, unntatt den yngste kongssønnen. Han lener seg over rekka og lokker på en liten hvit hund som løper og bjeffer på en liten øy."
         },
         "english": {
           "paragraph": 4,
@@ -304,8 +304,8 @@
         "simplified": {
           "paragraph": 19,
           "anchor": "Han tok en slurk, og da kunne han rikke sverdet.",
-          "caption": "Han svingte sverdet like lett som ei bakstefjøl.",
-          "alt": "Kongssønnen svinger et gammelt, rustent sverd over hodet like lett som ei bakstefjøl. Trollprinsen sitter på benken med flaska og nikker, og dattera hans ser på."
+          "caption": "Han svingte sverdet like lett som en tresleiv.",
+          "alt": "Kongssønnen svinger et gammelt, rustent sverd over hodet like lett som en tresleiv. Trollprinsen sitter på benken med flaska og nikker, og dattera hans ser på."
         },
         "english": {
           "paragraph": 15,
@@ -442,7 +442,7 @@
         "simplified": {
           "paragraph": 53,
           "anchor": "Da skipet seilte forbi, hadde det vært uvær igjen",
-          "caption": "Den yngste lå alene med et nakent sverd foran seg i senga.",
+          "caption": "Den yngste lå alene med et blankt sverd foran seg i senga.",
           "alt": "I en liten lugar sover den yngste prinsessa alene med et blankt sverd foran seg. Ridder Rød sover på gulvet, og kongssønnen står stille i døra med en lykt."
         },
         "english": {
@@ -460,7 +460,7 @@
       "variants": {
         "simplified": {
           "paragraph": 56,
-          "anchor": "Da han reiste, fikk han med seg gull og sølv og mye annet gildt.",
+          "anchor": "Da han reiste, fikk han med seg gull og sølv og mye annet fint.",
           "caption": "Trollprinsessa hadde sydd klær og lintøy til ham i alle disse årene.",
           "alt": "Ved stranda ligger en liten jernbåt uten årer og seil. Kongssønnen laster inn gull og sølv, trollprinsen vinker med krone på hodet, og dattera hans rekker ham en stabel med klær."
         },
@@ -540,8 +540,8 @@
         "simplified": {
           "paragraph": 77,
           "anchor": "De elleve eldste prinsessene var glade og lystige, de også.",
-          "caption": "Men den yngste gråt og gikk tung og trist omkring.",
-          "alt": "På stranda danser elleve glade prinsesser rundt kongen. Den yngste prinsessa står litt borte og gråter, og ved siden av henne står Ridder Rød og kneiser."
+          "caption": "Men den yngste gråt og gikk rundt, tung og trist.",
+          "alt": "På stranda danser elleve glade prinsesser rundt kongen. Den yngste prinsessa står litt borte og gråter, og ved siden av henne står Ridder Rød og ser viktig ut."
         },
         "english": {
           "paragraph": 63,
@@ -559,8 +559,8 @@
       "variants": {
         "simplified": {
           "paragraph": 86,
-          "anchor": "«Jeg synes det er rett at den som har frelst oss, får den lønna han har fortjent», sa hun.",
-          "caption": "«Det er han som kom med gullkronene våre. Han har frelst oss.»",
+          "anchor": "«Jeg synes det er rett at den som har reddet oss, får den lønna han har fortjent», sa hun.",
+          "caption": "«Det er han som kom med gullkronene våre. Han har reddet oss.»",
           "alt": "Midt i storsalen står skapet åpent, og tolv gullkroner lyser. Den yngste prinsessa peker på sjømannen, kongen stirrer, og Ridder Rød blir hvit."
         },
         "english": {
@@ -580,7 +580,7 @@
         "simplified": {
           "paragraph": 89,
           "anchor": "Nå ble det glede på kongsgården for alvor.",
-          "caption": "Så ble det bryllup, så det hørtes og spurtes over tolv kongeriker.",
+          "caption": "Så ble det bryllup, så folk fikk høre om det i tolv kongeriker.",
           "alt": "Tolv brudepar danser i storsalen. I midten danser den yngste kongssønnen og den yngste prinsessa, og kongen klapper i takt."
         },
         "english": {

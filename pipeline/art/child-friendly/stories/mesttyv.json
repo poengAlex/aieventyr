@@ -143,7 +143,7 @@
       "characters": ["mestertyven", "gammel-kone"],
       "prompt": "Inside the robbers' big, dim timber house on a stormy night, the Master Thief stands just inside the open door, dripping wet, shaking the rain off himself like a dog so that drops fly from his hair and coat, his hat in one hand. By the big stone fireplace, where a fire crackles under a black pot, the Old Woman has stopped stirring and stares at him with her ladle raised. Behind him, rain pours down on the dark forest.",
       "caption": "«Huttetu, for et vær!» sa gutten og ristet vannet av seg som en hund.",
-      "alt": "Gutten står søkkvåt innenfor døra og rister vannet av seg. Ved peisen står en rund, gammel kone med rutete skaut og ser forundret på ham."
+      "alt": "Gutten står søkkvåt innenfor døra og rister vannet av seg. Ved peisen står en rund, gammel kone med rutete hodetørkle og ser forundret på ham."
     },
     {
       "id": "03",
@@ -201,7 +201,7 @@
       "characters": ["mestertyven", "gammel-kone", "bonden"],
       "prompt": "A wide view of a small farm at sunrise, under a pink-and-gold sky. Down the dusty road, the Master Thief walks calmly behind three big reddish-brown oxen, driving them in through the open wooden gate with a long switch. Behind him, the Old Woman rides a gentle brown horse and leads three more horses loaded with bulging sacks and bundles of fine clothes. In the farmyard by the barn, the Farmer throws both hands in the air, his mouth wide open with joy.",
       "caption": "Bonden trodde ikke sine egne øyne.",
-      "alt": "I soloppgangen driver gutten tre okser inn gjennom grinda. Bak ham rir den gamle kona med hester fulle av sekker. Bonden står på tunet og slår hendene i været."
+      "alt": "I soloppgangen driver gutten tre okser inn gjennom grinda. Bak ham rir den gamle kona med hester fulle av sekker. Bonden står på gårdsplassen og slår hendene i været."
     },
     {
       "id": "09",
@@ -210,7 +210,7 @@
       "characters": ["mestertyven-general", "husmannen", "gammel-kone"],
       "prompt": "In front of a tiny, crooked turf-roofed hut in the late afternoon, the General sits tall on a fine chestnut horse, smiling down with a twinkle in his eye. The Cottager stands in the low doorway, wrapped in his old blanket, squinting up at him with his nose screwed up and one hand shading his eyes. Behind them, the Old Woman sits on a brown horse beside three horses loaded with sacks of treasure, grinning.",
       "caption": "Faren myste. «Er det ... er det deg?»",
-      "alt": "En fin kar i uniform med gullsnorer sitter på en hest foran ei lita stue. Faren står i døra og myser, og bak dem sitter den gamle kona på en hest."
+      "alt": "En fin kar i uniform med gullsnorer sitter på en hest foran et lite hus. Faren står i døra og myser, og bak dem sitter den gamle kona på en hest."
     },
     {
       "id": "10",
@@ -228,8 +228,8 @@
       "characters": ["amtmannen", "mestertyven-fillegutt"],
       "places": ["amtmannsgarden"],
       "prompt": "A wide view of the sunny yard of the Manor Farm on a Sunday. In the foreground, one brown hare dashes round in a circle with the whole household chasing after it: the Bailiff with his coat tails flying, a stout cook in a white apron waving a ladle, a young maid holding up her skirts, a stable boy diving with his arms out, and a ginger cat. In the background, unseen by them all, the Ragged Boy tiptoes out of the open kitchen door with a big, bulging sack over his shoulder and a satisfied grin.",
-      "caption": "Rundt og rundt på tunet! Og imens lister mestertyven seg av sted med steken.",
-      "alt": "Amtmannen, kokka, tjenestejenta, stallgutten og katten jager en hare rundt på tunet. Bak dem lister en fillete gutt seg ut av kjøkkendøra med en full sekk på ryggen."
+      "caption": "Rundt og rundt på gårdsplassen! Og imens lister mestertyven seg av sted med steken.",
+      "alt": "Amtmannen, kokka, tjenestejenta, stallgutten og katten jager en hare rundt på gårdsplassen. Bak dem lister en fillete gutt seg ut av kjøkkendøra med en full sekk på ryggen."
     },
     {
       "id": "12",
@@ -320,8 +320,8 @@
       "characters": ["mestertyven", "amtmannens-datter", "presten", "husmannen", "gammel-kone"],
       "places": ["amtmannsgarden"],
       "prompt": "A merry wedding feast in the sunny yard of the Manor Farm, with a long table full of food under garlands of birch leaves and flowers. In the middle, the Master Thief and the Bailiff's Daughter, wearing a small silver bridal crown, stand hand in hand and laugh as the Priest blesses them, though he glances nervously over his shoulder at two white geese waddling past. At the head of the table sits the Cottager, proud in a smart new dark-blue coat, and in front of the table the Old Woman dances a lively jig, her checked headscarf fluttering.",
-      "caption": "Så ble det bryllup, og den gamle kona danset så skautet flagret.",
-      "alt": "Mestertyven og amtmannens datter holder hverandre i hånda i bryllupet på tunet. Presten ser seg over skulderen etter gjessene, faren sitter øverst ved bordet, og den gamle kona danser."
+      "caption": "Så ble det bryllup, og den gamle kona danset så hodetørkleet flagret.",
+      "alt": "Mestertyven og amtmannens datter holder hverandre i hånda i bryllupet på gårdsplassen. Presten ser seg over skulderen etter gjessene, faren sitter øverst ved bordet, og den gamle kona danser."
     }
   ]
 }

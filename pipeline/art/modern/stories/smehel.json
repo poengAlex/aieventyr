@@ -28,7 +28,7 @@
       "name": "Sankt Peter",
       "promptName": "Saint Peter",
       "replacesPortrait": "sankt-peter",
-      "description": "Følgesvennen som ser gjennom smedens dumme ønsker og senere står ved himmelporten der bare en smal glippe åpnes.",
+      "description": "Følgesvennen som ser gjennom smedens dumme ønsker og senere står ved himmelporten og bare åpner den på gløtt.",
       "look": "A tall, broad-shouldered old fisherman of about seventy with a weathered, ruddy face, a big round nose, pale blue eyes under bushy grey eyebrows and a thick, curly grey beard. He wears a navy-blue fisherman's cap with a short peak, a worn rust-brown canvas jacket over a grey fleece, dark trousers and sturdy hiking boots, and carries a sack and a wooden staff. A big, old iron key hangs from a leather cord at his belt. No halo.",
       "portrait": "Background: soft white clouds."
     },
@@ -98,7 +98,7 @@
       "places": ["tunet"],
       "prompt": "In the gravel yard, the Smith's mother, now a straight-backed young woman with rosy cheeks and a dark-blonde bob, still in her lilac cardigan and long grey skirt, walks home towards the small white house next door, carrying her rollator under one arm and gazing at her smooth young hands. Behind her, Our Lord stands calmly in the workshop doorway, and the Smith, beside him, clears his throat.",
       "caption": "Så gikk hun hjem igjen og bar rullatoren under armen.",
-      "alt": "Mora til smeden er blitt ei ung kvinne i den samme lilla strikkejakka. Hun går hjem over tunet med rullatoren under armen og ser på hendene sine."
+      "alt": "Mora til smeden er blitt ei ung kvinne i den samme lilla strikkejakka. Hun går hjem over gårdsplassen med rullatoren under armen og ser på hendene sine."
     },
     {
       "id": "04",
@@ -175,7 +175,7 @@
       "characters": ["smeden"],
       "prompt": "In a smoky grey gully, the Smith stands with his sledgehammer on his shoulder before a tall black steel gate with a small intercom panel on the gatepost, eyebrows raised, as nine heavy locks slam shut one after another down the gate and a big padlock swings on the bolt. Plum-grey smoke curls over the top of the gate. Seen from just behind him.",
       "caption": "Så hørte han låsene gå, én etter én, ni i tallet.",
-      "alt": "Smeden står foran en høy, svart stålport med porttelefon i en røykfylt kløft. Ni låser smeller igjen nedover porten, og en hengelås dingler på slåen."
+      "alt": "Smeden står foran en høy, svart stålport med porttelefon i en røykfylt kløft. Ni låser smeller igjen nedover porten, og nederst dingler en hengelås."
     },
     {
       "id": "12",
@@ -183,8 +183,8 @@
       "anchor": "Her gjelder det å være rask, tenkte han.",
       "characters": ["sankt-peter", "skredderlaerlingen", "smeden"],
       "prompt": "High among soft white clouds, Saint Peter holds a tall, pale gate open just a crack, and the Tailor's Apprentice slips in sideways with his steam iron as golden light spills out. At that very moment the Smith's sledgehammer sails through the gap in a high arc above their heads, and six or seven steps behind, the Smith leans forward with his arm still stretched out from the throw.",
-      "caption": "Han grep slegga og kastet den med all kraft inn gjennom glipa.",
-      "alt": "Sankt Peter holder himmelporten på gløtt, og skredderlærlingen smetter inn. Over hodene deres flyr smedens slegge inn gjennom glipa, mens smeden står noen skritt bak."
+      "caption": "Han grep slegga og kastet den med all kraft inn gjennom åpningen.",
+      "alt": "Sankt Peter holder himmelporten på gløtt, og skredderlærlingen smetter inn. Over hodene deres flyr smedens slegge inn gjennom åpningen, mens smeden står noen skritt bak."
     }
   ]
 }

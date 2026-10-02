@@ -92,7 +92,7 @@
       "slug": "old-cottage-woman",
       "name": "Kjerringa med den lange nesa",
       "promptName": "the Old Woman",
-      "description": "Ei eldgammel kone i ei skakk stue dypt inne i skogen, som spør månen og Vestavinden om veien og bytter til seg hesten, for bussen til kirka er lagt ned.",
+      "description": "Ei eldgammel kone i ei skakk hytte dypt inne i skogen, som spør månen og Vestavinden om veien og bytter til seg hesten, for bussen til kirka er lagt ned.",
       "look": "A tall, bony, very old woman with a long thin neck, knobbly hands, a wrinkled, cheerful face, small twinkling black eyes and an enormously long, thin, pointed nose with a rosy tip, long enough to poke the embers with. Wisps of dove-grey hair peep out from under a white knitted hat. She wears a faded heather-blue fleece jumper, a long grey skirt, a black apron and green rubber boots.",
       "portrait": "Background: her crooked little cottage deep in the spruce forest, one window glowing."
     },
@@ -101,7 +101,7 @@
       "name": "Vestavinden",
       "promptName": "the West Wind",
       "replacesPortrait": "vestavinden",
-      "description": "En travel vind som gufser inn i hver krok av verden, er på vei til Soria Moria for å tørke tøy til bryllupet, og lar Halvor henge med så godt han kan.",
+      "description": "En travel vind som suser inn i hver krok av verden, er på vei til Soria Moria for å tørke tøy til bryllupet, og lar Halvor henge med så godt han kan.",
       "look": "A wild, friendly wind spirit the size of a big man, with a round, rosy, beardless face, a wide merry grin and bright green eyes. His long streaming hair is made of whirling leaves and spruce needles, with three bright plastic clothes-pegs clipped in it, and an orange hi-vis vest flaps around his chest. From the waist down his body turns into long, curling swirls of misty grey-green air full of spinning leaves.",
       "portrait": "Background: moonlit mountains with leaves whirling past."
     }
@@ -176,7 +176,7 @@
       "characters": ["halvor", "eldest-princess"],
       "places": ["glass-kitchen"],
       "prompt": "The Glass Kitchen, scrubbed so clean that every steel surface and gold pot shines, with no troll anywhere in sight. Halvor, sleeves pushed up and sweat on his brow, finishes mopping the gleaming floor with a mop and a bucket of suds. The Eldest Princess, her tiara askew, stands by the steel island with one hand over her mouth, staring at him in amazement.",
-      "caption": "Halvor hadde aldri ryddet rommet sitt. Nå skurte han kjøkkenet blankt på et kvarter.",
+      "caption": "Halvor hadde aldri ryddet rommet sitt. Nå fikk han kjøkkenet skinnende rent på et kvarter.",
       "alt": "Halvor tørker over det blanke kjøkkengulvet med mopp og bøtte. Prinsessa står ved kjøkkenøya med tiaraen på snei og ser forbløffet på ham."
     },
     {
@@ -272,7 +272,7 @@
       "characters": ["old-cottage-woman", "halvor-suit"],
       "prompt": "The moonlit yard of a small, crooked cottage deep in a spruce forest. The Old Woman stands with her bony arms raised and her enormously long nose pointing at the full moon, which hangs bright over the treetops with a faint, offended face, answering her. Halvor in the Suit stands in the lit doorway behind her, staring up at the moon with his mouth open. The shaggy dun horse waits by the door.",
       "caption": "Halvor hadde aldri hørt månen si noe før. Den hørtes litt fornærmet ut.",
-      "alt": "Kjerringa med den lange nesa står på tunet og roper opp mot fullmånen, som har et fornærmet lite ansikt. Halvor står i døra og måper."
+      "alt": "Kjerringa med den lange nesa står utenfor hytta og roper opp mot fullmånen, som har et fornærmet lite ansikt. Halvor står i døra og måper."
     },
     {
       "id": "16",
@@ -280,16 +280,16 @@
       "anchor": "«Du får skynde deg, vil du ha følge», sa Vestavinden",
       "characters": ["halvor-suit", "west-wind"],
       "prompt": "A vast night view high over mountains, heaths and fjords, with the lights of a few tiny villages and one winding road far below. Halvor in the Suit, wearing a pair of cracked old brown leather boots, takes one gigantic stride from one mountaintop to the next, jacket flapping. Beside him and a little ahead, the West Wind roars along with a wide grin, his hi-vis vest flapping and leaves whirling in his wake.",
-      "caption": "Så bar det av sted, over heier og åser, over fjell og fjære.",
+      "caption": "Så bar det av sted, over heier og åser, over fjell og fjorder.",
       "alt": "Halvor i dress og gamle støvler tar et kjempeskritt fra fjelltopp til fjelltopp om natta. Ved siden av ham suser Vestavinden i refleksvest."
     },
     {
       "id": "17",
       "paragraph": 122,
-      "anchor": "Da Halvor kom fram mot slottet, var det så fullt av biler og hester og folk at det yret.",
+      "anchor": "Da Halvor kom fram mot slottet, var det så fullt av biler og hester og folk at det myldret.",
       "characters": ["halvor-suit"],
       "prompt": "Evening outside Soria Moria, a palace of golden towers glowing in the dusk. The courtyard swarms with twenty guests in party clothes, a row of parked cars and four horses, strings of fairy lights hang in the trees, and music spills from the open doors. In the deep shadow by the outer wall, Halvor in the Suit, his suit torn and muddy and his hair full of twigs, stands apart and watches, unseen.",
-      "caption": "Det yret av biler og hester og folk, og musikken hørtes lang vei.",
+      "caption": "Det myldret av biler og hester og folk, og musikken hørtes lang vei.",
       "alt": "Soria Moria slott lyser i skumringen, med lyslenker i trærne, biler, hester og festkledde folk. Halvor står fillete i skyggen ved veggen og ser på."
     },
     {

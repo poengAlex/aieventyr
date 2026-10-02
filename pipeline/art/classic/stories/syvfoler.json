@@ -127,7 +127,7 @@
       "variants": {
         "simplified": {
           "name": "Den eldste broren",
-          "description": "Askeladdens eldste bror, som drar ut for å tjene, men blir liggende hele dagen med hodet i fanget til kjerringa i bergsprekken."
+          "description": "Askeladdens eldste bror, som drar ut for å tjene penger, men blir liggende hele dagen med hodet i fanget til kjerringa i bergsprekken."
         },
         "english": {
           "name": "The Eldest Brother",
@@ -153,7 +153,7 @@
     "characters": ["askeladden", "det-yngste-follet"],
     "variants": {
       "simplified": {
-        "caption": "Over berg og dal, gjennom kratt og kjerr.",
+        "caption": "Over berg og dal, gjennom kratt og busker.",
         "alt": "Askeladden rir på et lite, rødbrunt føll med hvit stjerne i panna over en lyngås i midtsommernatta. Foran dem galopperer seks andre føll, og langt borte ligger fiolette fjell."
       },
       "english": {
@@ -171,8 +171,8 @@
       "variants": {
         "simplified": {
           "paragraph": 4,
-          "anchor": "«Vil du tjene hos meg og gjete de sju føllene mine?» sa kongen.",
-          "caption": "«Vil du tjene hos meg og gjete de sju føllene mine?» sa kongen.",
+          "anchor": "«Vil du arbeide hos meg og gjete de sju føllene mine?» sa kongen.",
+          "caption": "«Vil du arbeide hos meg og gjete de sju føllene mine?» sa kongen.",
           "alt": "Kongen står øverst på trappa og løfter tre fingre mot den eldste broren, som står nedenfor med stråhatten i hånda. Bak gjerdet leker sju føll."
         },
         "english": {
@@ -192,8 +192,8 @@
         "simplified": {
           "paragraph": 8,
           "anchor": "Det ville gutten mer enn gjerne.",
-          "caption": "Kjerringa spant med den ene hånda og luset ham med den andre.",
-          "alt": "Den eldste broren sover med hodet i fanget til kjerringa i bergsprekken. Hun spinner med den ene hånda og luser ham med den andre, mens føllene forsvinner mellom bjørkene."
+          "caption": "Kjerringa spant med den ene hånda og klødde ham i håret med den andre.",
+          "alt": "Den eldste broren sover med hodet i fanget til kjerringa i bergsprekken. Hun spinner med den ene hånda og klør ham i håret med den andre, mens føllene forsvinner mellom bjørkene."
         },
         "english": {
           "paragraph": 8,
@@ -213,7 +213,7 @@
           "paragraph": 15,
           "anchor": "Gutten holdt fram mosedotten og vannflaska.",
           "caption": "«Der ser du maten, og der ser du drikken deres.»",
-          "alt": "Den eldste broren holder stolt fram en mosedott og en vannflaske på tunet. På trappa ser kongen ned på ham med en mørk, sint rynke i panna."
+          "alt": "Den eldste broren holder stolt fram en mosedott og en vannflaske på gårdsplassen. På trappa ser kongen ned på ham med en mørk, sint rynke i panna."
         },
         "english": {
           "paragraph": 15,
@@ -232,7 +232,7 @@
         "simplified": {
           "paragraph": 19,
           "anchor": "I grålysningen slapp stallmesteren ut føllene",
-          "caption": "«Kom hit, kom hit, min fine gutt, så skal jeg luse deg!»",
+          "caption": "«Kom hit, kom hit, min fine gutt, så skal jeg klø deg i håret!»",
           "alt": "Kjerringa i bergsprekken smiler søtt og vinker på den mellomste broren, som kommer svett og sliten oppover stien. Langt borte forsvinner føllene over en ås."
         },
         "english": {
@@ -252,7 +252,7 @@
           "paragraph": 26,
           "anchor": "Brødrene flirte og foreldrene ba, men det hjalp ikke.",
           "caption": "Brødrene flirte og foreldrene ba, men det hjalp ikke. Askeladden gikk.",
-          "alt": "Askeladden går mot døra i den skrale hytta med sekken på ryggen. På benken ler brødrene og peker, og de gamle foreldrene rekker ut hendene og ber ham bli."
+          "alt": "Askeladden går mot døra i den fattigslige hytta med sekken på ryggen. På benken ler brødrene og peker, og de gamle foreldrene rekker ut hendene og ber ham bli."
         },
         "english": {
           "paragraph": 26,
@@ -310,7 +310,7 @@
           "paragraph": 55,
           "anchor": "«Ja, nå må du ta sverdet med deg», sa føllet.",
           "caption": "«Vi er brødrene til prinsessa du skal få.»",
-          "alt": "I den lille stua under stubben holder Askeladden det store, rustne sverdet lett i den ene hånda og ei krukke i den andre. I døra står det yngste føllet og forteller ham hemmeligheten."
+          "alt": "I det lille rommet under stubben holder Askeladden det store, rustne sverdet lett i den ene hånda og ei krukke i den andre. I døra står det yngste føllet og forteller ham hemmeligheten."
         },
         "english": {
           "paragraph": 52,
@@ -347,9 +347,9 @@
       "variants": {
         "simplified": {
           "paragraph": 69,
-          "anchor": "I samme stund som de sju kongssønnene kom ut på kirkegården",
+          "anchor": "Straks de sju kongssønnene kom ut på kirkegården, ble de til",
           "caption": "Så mye hørte han at han skjønte kjerringa var fælt sint.",
-          "alt": "Askeladden rir forbi bergsprekken på det yngste føllet, og de andre føllene galopperer foran. Kjerringa har hoppet opp og skriker og rister på håndteinen."
+          "alt": "Askeladden rir forbi bergsprekken på det yngste føllet, og de andre føllene galopperer foran. Kjerringa har hoppet opp og skriker og vifter med tråden i hånda."
         },
         "english": {
           "paragraph": 65,
@@ -369,7 +369,7 @@
           "paragraph": 74,
           "anchor": "Askeladden tok fram alterbrødet og vinflaska og viste kongen.",
           "caption": "Askeladden tok fram alterbrødet og vinflaska og viste kongen.",
-          "alt": "I halvmørket på tunet holder Askeladden fram et alterbrød og en vinflaske til kongen, som lener seg fram. Bak dem står de sju føllene ved stallen."
+          "alt": "I halvmørket på gårdsplassen holder Askeladden fram et alterbrød og en vinflaske til kongen, som lener seg fram. Bak dem står de sju føllene ved stallen."
         },
         "english": {
           "paragraph": 70,

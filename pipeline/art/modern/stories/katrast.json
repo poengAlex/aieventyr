@@ -34,7 +34,7 @@
       "slug": "kari-solvkjole",
       "name": "Kari i sølvkjolen",
       "promptName": "Kari in the Silver Dress",
-      "description": "Kari den andre søndagen, i en kjole sydd med sølvtråd over det hele, på en hest med sølvbrodert dekken.",
+      "description": "Kari den andre søndagen, i en kjole sydd med sølvtråd over det hele, på en hest med sølvbrodert sal.",
       "look": "A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair in one loose braid woven with a silver ribbon. She wears a long, slim gown embroidered all over with silver thread that glitters like frost, a short silver-grey riding jacket and silver ankle boots, and carries a slim riding whip with a silver handle.",
       "portrait": "Background: the silver forest with razor-thin leaves."
     },
@@ -141,8 +141,8 @@
       "anchor": "En kveld hadde hun drevet kyrne inn og satt seg på en stein bak garasjene",
       "characters": ["kari", "oksen"],
       "prompt": "Evening behind a row of concrete garages at the back of the palace, where a narrow service road runs into the forest. Kari, thin and pale in her green work jacket, sits on a big stone with the old steel thermos in her lap, crying. The Blue-Grey Ox has come up beside her and rests his big muzzle gently on her shoulder. Soft blue dusk and a single street lamp.",
-      "caption": "Da kom oksen og la mulen forsiktig mot skulderen hennes.",
-      "alt": "Kari sitter på en stein bak garasjene med en gammel termos i fanget og gråter. Den store, blågrå oksen legger mulen forsiktig mot skulderen hennes."
+      "caption": "Da kom oksen og la snuten forsiktig mot skulderen hennes.",
+      "alt": "Kari sitter på en stein bak garasjene med en gammel termos i fanget og gråter. Den store, blågrå oksen legger snuten forsiktig mot skulderen hennes."
     },
     {
       "id": "03",
@@ -282,7 +282,7 @@
       "places": ["steinkirka"],
       "prompt": "On the gravel outside the Stone Church, Kari in the Silver Dress sits high on a dapple-grey horse with a silver-embroidered saddlecloth and a silver bit, looking down with a small smile. Her silver-handled riding whip has just fallen to the ground, and the Prince bends down eagerly to pick it up. Seven churchgoers in Sunday coats watch from the church door.",
       "caption": "«Fra Håndkleland», sa Kari, og i det samme mistet hun ridepisken.",
-      "alt": "Utenfor steinkirka sitter Kari i sølvkjolen på en apalgrå hest. Hun har mistet ridepisken, og prinsen bøyer seg for å ta den opp."
+      "alt": "Utenfor steinkirka sitter Kari i sølvkjolen på en grå hest. Hun har mistet ridepisken, og prinsen bøyer seg for å ta den opp."
     },
     {
       "id": "18",
@@ -302,7 +302,7 @@
       "places": ["steinkirka"],
       "prompt": "In the stone porch of the Stone Church, a thick black pool of tar covers the floor. Kari in the Gold Dress has just leapt clean across it and lands on the steps outside, one foot in a white stocking, while one small gold shoe stays stuck fast in the tar behind her. Inside the church door, the Prince pushes through the crowd, too late.",
       "caption": "Hun satte foten midt i tjæra og hoppet over, og den ene gullskoen ble sittende fast.",
-      "alt": "Kari hopper over en dam av svart tjære i våpenhuset. Den ene gullskoen sitter fast i tjæra bak henne, og inne i kirka trenger prinsen seg fram gjennom folkemengden."
+      "alt": "Kari hopper over en dam av svart tjære innenfor kirkedøra. Den ene gullskoen sitter fast i tjæra bak henne, og inne i kirka trenger prinsen seg fram gjennom folkemengden."
     },
     {
       "id": "20",

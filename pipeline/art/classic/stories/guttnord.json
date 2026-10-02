@@ -93,7 +93,7 @@
       "variants": {
         "simplified": {
           "name": "Bukken",
-          "description": "En magisk bukk som kan lage gulldukater når gutten sier de riktige ordene.",
+          "description": "En magisk bukk som kan lage gullpenger når gutten sier de riktige ordene.",
           "replacesPortrait": "bukken"
         },
         "english": {
@@ -133,7 +133,7 @@
       "variants": {
         "simplified": {
           "paragraph": 1,
-          "anchor": "Men i det samme han kom ut på stabburstrappa med sekken, kom Nordavinden fykende over tunet.",
+          "anchor": "Men i det samme han kom ut på stabburstrappa med sekken, kom Nordavinden fykende over gårdsplassen.",
           "caption": "Nordavinden fór til værs med melet.",
           "alt": "Gutten står på stabburstrappa og holder igjen alt han orker, men sekken revner, og Nordavinden blåser melet til værs i en hvit sky av støv og halmstrå."
         },
@@ -211,9 +211,9 @@
       "variants": {
         "simplified": {
           "paragraph": 28,
-          "anchor": "Gjestgiveren sto og så på, og han syntes det var en gild bukk.",
-          "caption": "Gjestgiveren syntes det var en gild bukk.",
-          "alt": "Gulldukater triller ut på gulvet på kroa og blir liggende i en blank haug under skjegget til bukken. Gutten er glad, og i døra står gjestgiveren og gnir seg i hendene."
+          "anchor": "Gjestgiveren sto og så på, og han syntes det var en flott bukk.",
+          "caption": "Gjestgiveren syntes det var en flott bukk.",
+          "alt": "Gullpenger triller ut på gulvet på kroa og blir liggende i en blank haug under skjegget til bukken. Gutten er glad, og i døra står gjestgiveren og gnir seg i hendene."
         },
         "english": {
           "paragraph": 28,

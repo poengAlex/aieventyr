@@ -109,7 +109,7 @@
       "variants": {
         "simplified": {
           "name": "Kua",
-          "description": "Den store, brandete kua på enga, med ei melkekolle på hornene. Hun vil bli melket, og siden gjemmer hun mannsdattera under juret sitt."
+          "description": "Den store, brunstripete kua på enga, med ei melkebøtte på hornene. Hun vil bli melket, og siden gjemmer hun mannsdattera under juret sitt."
         },
         "english": {
           "name": "The Cow",
@@ -153,7 +153,7 @@
     "variants": {
       "simplified": {
         "caption": "Mannsdattera er snill mot alle hun møter på den grønne enga.",
-        "alt": "Mannsdattera går over ei grønn eng med et blått skrin i armene, og småfuglene flyr rundt hodet hennes. Ved stien står ei brandet ku og en nyklipt bukk med ull rundt halsen, og bak dem står et epletre."
+        "alt": "Mannsdattera går over ei grønn eng med et blått skrin i armene, og småfuglene flyr rundt hodet hennes. Ved stien står ei brunstripete ku og en nyklipt bukk med ull rundt halsen, og bak dem står et epletre."
       },
       "english": {
         "caption": "The man’s daughter is kind to everyone she meets in the green meadow.",
@@ -190,8 +190,8 @@
         "simplified": {
           "paragraph": 8,
           "anchor": "Da gjorde hun seg lett som ei fjær",
-          "caption": "Hun gjorde seg lett som ei fjær og trådte varsomt over risgjerdet.",
-          "alt": "Mannsdattera trår varsomt over et lavt gjerde av flettede kvister på ei stor, grønn eng. Bak henne er brønnen bare en mørk steinbue i en gressbakke."
+          "caption": "Hun gjorde seg lett som ei fjær og tråkket forsiktig over gjerdet.",
+          "alt": "Mannsdattera tråkker forsiktig over et lavt gjerde av flettede kvister på ei stor, grønn eng. Bak henne er brønnen bare en mørk steinbue i en gressbakke."
         },
         "english": {
           "paragraph": 8,
@@ -211,7 +211,7 @@
           "paragraph": 11,
           "anchor": "Mannsdattera gjorde som kua ba.",
           "caption": "Hun drakk til hun ikke var tørst lenger og helte resten på klauvene.",
-          "alt": "Mannsdattera sitter på huk ved den store, brandete kua og heller resten av melka over klauvene hennes. Kua snur hodet og ser takknemlig på henne."
+          "alt": "Mannsdattera sitter på huk ved den store, brunstripete kua og heller resten av melka over klauvene hennes. Kua snur hodet og ser takknemlig på henne."
         },
         "english": {
           "paragraph": 11,
@@ -249,9 +249,9 @@
       "variants": {
         "simplified": {
           "paragraph": 23,
-          "anchor": "Og det gjorde hun. Hun klinte leire på soldet",
+          "anchor": "Og det gjorde hun. Hun smurte leire på silen",
           "caption": "«Det har du ikke funnet på selv!» sa trollkjerringa.",
-          "alt": "Trollkjerringa holder opp soldet, som er klint med leire, stukket med strå og fullt av vann. Hun snur og vender på det og myser mistenksomt. Mannsdattera står rolig foran henne."
+          "alt": "Trollkjerringa holder opp silen. Den er smurt med leire, har strå i hullene og er full av vann. Hun snur og vender på den og myser mistenksomt. Mannsdattera står rolig foran henne."
         },
         "english": {
           "paragraph": 23,
@@ -269,7 +269,7 @@
         "simplified": {
           "paragraph": 28,
           "anchor": "Hun sprutet en liten stråle melk ut til småfuglene",
-          "caption": "«Liten streng, liten sup, til alle småfugler sprut!»",
+          "caption": "«Liten skvett, liten slurk, til alle småfugler sprut!»",
           "alt": "I det dunkle fjøset sitter mannsdattera og melker, og kyrne står helt stille. Hun spruter en tynn stråle melk mot vinduet, der småfuglene sitter og drikker."
         },
         "english": {
@@ -348,9 +348,9 @@
       "variants": {
         "simplified": {
           "paragraph": 59,
-          "anchor": "«Nei, jeg har ikke sett noen jente», sa risgjerdet.",
-          "caption": "Risgjerdet freste og knitret og gjorde seg så stort at det ikke var tale om å komme over.",
-          "alt": "Risgjerdet har vokst seg kjempehøyt og tett og freser og knitrer. Trollkjerringa står foran det med hendene i siden, mens mannsdattera sitter trygt gjemt under kvistene."
+          "anchor": "«Nei, jeg har ikke sett noen jente», sa gjerdet.",
+          "caption": "Gjerdet freste og knitret og gjorde seg så stort at det ikke var tale om å komme over.",
+          "alt": "Gjerdet har vokst seg kjempehøyt og tett og freser og knitrer. Trollkjerringa står foran det med hendene i siden, mens mannsdattera sitter trygt gjemt under kvistene."
         },
         "english": {
           "paragraph": 59,
@@ -368,7 +368,7 @@
         "simplified": {
           "paragraph": 62,
           "anchor": "Da stemora og kjerringdattera fikk se det",
-          "caption": "Det var blitt finere i grisehuset enn på den gjeveste kongsgård.",
+          "caption": "Det var blitt finere i grisehuset enn på noen kongsgård.",
           "alt": "Det blå skrinet står åpent i grisehuset, og vegger og tak henger fulle av gull, sølv og vakre ting. Mannsdattera sitter ved skrinet, og i døra står stemora og kjerringdattera og gaper."
         },
         "english": {
@@ -388,8 +388,8 @@
         "simplified": {
           "paragraph": 70,
           "anchor": "Hun melket kua og drakk så lenge hun orket.",
-          "caption": "Kolla slengte hun bortover bakken, og så gikk hun.",
-          "alt": "Kjerringdattera slenger melkekolla bortover bakken og går sin vei. Kua står igjen med tørre klauver og ser trist etter henne. Lenger bak ligger risgjerdet nedtråkket."
+          "caption": "Bøtta slengte hun bortover bakken, og så gikk hun.",
+          "alt": "Kjerringdattera slenger melkebøtta bortover bakken og går sin vei. Kua står igjen med tørre klauver og ser trist etter henne. Lenger bak ligger gjerdet nedtråkket."
         },
         "english": {
           "paragraph": 70,
@@ -407,8 +407,8 @@
         "simplified": {
           "paragraph": 82,
           "anchor": "Men hun brydde seg ikke om fuglesangen.",
-          "caption": "Hun kastet leire etter fuglene, og så måtte hun gå hjem med tomt sold.",
-          "alt": "Kjerringdattera tramper av sted fra brønnen med et tomt sold og en leireklump i neven. Småfuglene flyr langt bort, og i døra venter trollkjerringa med armene i kors."
+          "caption": "Hun kastet leire etter fuglene, og så måtte hun gå hjem med tom sil.",
+          "alt": "Kjerringdattera tramper av sted fra brønnen med en tom sil og en leireklump i neven. Småfuglene flyr langt bort, og i døra venter trollkjerringa med armene i kors."
         },
         "english": {
           "paragraph": 82,
@@ -428,7 +428,7 @@
           "paragraph": 89,
           "anchor": "Hun brydde seg ikke om hva fuglene sang.",
           "caption": "Hun tok det røde, for det glødet mest.",
-          "alt": "Kjerringdattera griper det røde skrinet, som gløder mest. Oppe på bjelken synger småfuglene, og ved grua smiler trollkjerringa surt."
+          "alt": "Kjerringdattera griper det røde skrinet, som gløder mest. Oppe på bjelken synger småfuglene, og ved peisen smiler trollkjerringa surt."
         },
         "english": {
           "paragraph": 89,
@@ -446,8 +446,8 @@
         "simplified": {
           "paragraph": 91,
           "anchor": "Da hun kom hjem, ble mora glad som en lerke.",
-          "caption": "Men ut veltet det bare ormer og padder.",
-          "alt": "Det røde skrinet står åpent midt på gulvet i storstua, og ut kryper og hopper ormer og padder. Kjerringdattera stirrer, og stemora står stiv av skrekk."
+          "caption": "Men ut veltet det bare slanger og padder.",
+          "alt": "Det røde skrinet står åpent midt på gulvet i storstua, og ut kryper og hopper slanger og padder. Kjerringdattera stirrer, og stemora står stiv av skrekk."
         },
         "english": {
           "paragraph": 91,

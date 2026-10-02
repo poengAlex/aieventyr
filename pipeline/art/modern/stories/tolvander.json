@@ -10,7 +10,7 @@
       "name": "Snehvit-Rosenrød",
       "promptName": "the Maiden",
       "replacesPortrait": "snehvit-rosenrod",
-      "description": "Datteren som blir født etter et farlig løfte, reiser alene for å finne sine tolv brødre og syr klær av myrdun i full taushet for å bryte forbannelsen—senere blir hun gjort til syndebukk av en mektig stemor.",
+      "description": "Datteren som blir født etter et farlig løfte, reiser alene for å finne sine tolv brødre og syr klær av myrull i full taushet for å bryte forbannelsen—senere blir hun gjort til syndebukk av en mektig stemor.",
       "look": "A slender young woman of about twenty-five with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large dark-grey eyes with long black lashes. Her raven-black hair is in one thick braid over her shoulder, tied with a piece of garden twine. She wears a worn olive-green work jacket over a plain dark-teal knitted dress, black leggings and black rubber boots, with the handle of a small silver spoon peeking out of the jacket pocket.",
       "portrait": "Background: the white bog in evening light."
     },
@@ -88,8 +88,8 @@
     "prompt": "Evening on the White Bog under a pink and gold sky. The Maiden stands among the white tufts of bog cotton with a half-full sack in one hand, her lips pressed together in silence, and looks up as twelve wild ducks fly home low over her head in a long line. Her rubber boots are wet, and a bulging sack stands on a tussock beside her.",
     "characters": ["snehvit-rosenrod"],
     "places": ["myra"],
-    "caption": "Snehvit-Rosenrød plukker myrdun, og hun sier ikke et ord.",
-    "alt": "En ung kvinne med kullsvart flette og gummistøvler står på en hvit myr med en sekk myrdun. Over henne flyr tolv villender i kveldslyset."
+    "caption": "Snehvit-Rosenrød plukker myrull, og hun sier ikke et ord.",
+    "alt": "En ung kvinne med kullsvart flette og gummistøvler står på en hvit myr med en sekk myrull. Over henne flyr tolv villender i kveldslyset."
   },
   "illustrations": [
     {
@@ -157,7 +157,7 @@
       "places": ["myra"],
       "prompt": "Sunrise over the White Bog, white with bog cotton as far as the eye can see, like snow in July, every tuft glittering as the sun clears the ridge. The Maiden stands alone in the middle, holding a big empty sack, and all around her, where her twelve brothers stood in a half-circle a moment ago, twelve wild ducks lift off from the heather in a rush of wings. She watches them go, her lips pressed together.",
       "caption": "Der hun hadde hatt tolv brødre, lettet tolv ender fra lyngen.",
-      "alt": "Solen står opp over en myr som er hvit av myrdun. Snehvit-Rosenrød står alene med en tom sekk, og rundt henne letter tolv villender fra lyngen."
+      "alt": "Solen står opp over en myr som er hvit av myrull. Snehvit-Rosenrød står alene med en tom sekk, og rundt henne letter tolv villender fra lyngen."
     },
     {
       "id": "08",
@@ -167,7 +167,7 @@
       "places": ["myra"],
       "prompt": "A bright summer morning on the White Bog. The Maiden stands in the wet moss among the white tufts, picking bog cotton into a sack, with two full sacks beside her. A few steps away the Prime Minister, in hiking clothes with a small rucksack, has stopped on a tussock and leans towards her, asking something with a puzzled, kindly face. She keeps picking and does not look up. Further back, two bodyguards in dark rain jackets pick their way across the bog.",
       "caption": "Han spurte om hun trengte hjelp. Hun plukket videre.",
-      "alt": "Snehvit-Rosenrød står i myra i gummistøvler og plukker myrdun i en sekk. Statsministeren, i turklær, har stanset og spør henne om noe, men hun ser ikke opp. Lenger bak kommer to livvakter."
+      "alt": "Snehvit-Rosenrød står i myra i gummistøvler og plukker myrull i en sekk. Statsministeren, i turklær, har stanset og spør henne om noe, men hun ser ikke opp. Lenger bak kommer to livvakter."
     },
     {
       "id": "09",

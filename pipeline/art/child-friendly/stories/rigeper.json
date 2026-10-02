@@ -10,7 +10,7 @@
       "name": "Møllergutten",
       "promptName": "the Miller's Boy",
       "replacesPortrait": "mollergutten",
-      "description": "En modig, høflig og snill gutt som møter prøvelser uten å miste hjertet sitt, og som til slutt skaper et godt liv for seg og den han elsker.",
+      "description": "En modig, høflig og snill gutt som møter mange farer uten å miste hjertet sitt, og som til slutt skaper et godt liv for seg og den han elsker.",
       "look": "A sturdy, slightly plump, good-natured lad of about sixteen with a round, open face, a button nose, friendly light-blue eyes, a wide, warm smile and short, curly strawberry-blond hair. He wears a floppy, wide-brimmed grey felt hat with a broad red hatband, a loose white linen shirt, a white miller's apron tied over brown knee breeches, grey stockings and wooden clogs, with a light dusting of flour on his sleeves and hat.",
       "portrait": "Background: the old watermill with its big wooden waterwheel."
     },
@@ -19,7 +19,7 @@
       "name": "Rike Per Kremmer",
       "promptName": "Rich Per",
       "replacesPortrait": "rike-per-kremmer",
-      "description": "En svært rik, sta handelsmann som vil styre alt, men som lærer at grådighet og urett ikke lønner seg.",
+      "description": "En svært rik, sta handelsmann som vil styre alt, men som lærer at det ikke lønner seg å være grådig og slem.",
       "look": "A tall, bony merchant of about fifty with a long, horsey face, a jutting chin, a sharp hooked nose, small, darting, greedy grey eyes, a thin mouth, bushy salt-and-pepper side-whiskers and slicked-back black hair with a pointed widow's peak. He wears a long wine-red frock coat whose big pockets bulge with rolls of coloured ribbon, a shiny green-and-gold striped silk waistcoat, grey knee breeches, white stockings and buckled shoes, a gold ring on every finger and a fat leather money purse on his belt.",
       "portrait": "Background: his parlour with the three iron-bound money chests."
     },
@@ -45,7 +45,7 @@
       "slug": "dragen",
       "name": "Dragen ved Dybenfart",
       "promptName": "the Dragon",
-      "description": "En diger, gretten drage med tre skinnende gullfjær ytterst på stjerten. Han liker ikke fremmede folk, og han vil helst få sove i fred.",
+      "description": "En diger, gretten drage med tre skinnende gullfjær ytterst på halen. Han liker ikke fremmede folk, og han vil helst få sove i fred.",
       "look": "An enormous, pot-bellied dragon about four times as tall as a man, with bumpy plum-purple scales, a pale lavender belly, short thick legs with big blunt claws, small leathery wings that look far too small for him, a long snout with round nostrils that puff little grey smoke clouds, big sleepy amber eyes under heavy lids, and a row of soft orange spikes down his back. His long tail ends in exactly three long, shining golden feathers.",
       "portrait": "Background: his enormous four-poster bed in the gloomy castle hall."
     },
@@ -74,8 +74,8 @@
     "prompt": "At night in the Castle Hall, the Miller's Boy tiptoes past the enormous Dragon, who sleeps in his huge four-poster bed, snoring, with a little puff of smoke curling from his nostrils. The Dragon's long tail hangs out of the bed and curls across the floor in the foreground, ending in three long, shining golden feathers. The Miller's Boy looks at the feathers with a finger on his lips and a cheeky, hopeful smile. The fire glows orange.",
     "characters": ["mollergutten", "dragen"],
     "places": ["borgsalen"],
-    "caption": "Møllergutten må hente tre fjær fra stjerten til Dragen ved Dybenfart.",
-    "alt": "Møllergutten lister seg forbi den store, sovende dragen med fingeren foran munnen. Dragestjerten med tre skinnende gullfjær ligger i en bue på gulvet foran ham."
+    "caption": "Møllergutten må hente tre fjær fra halen til Dragen ved Dybenfart.",
+    "alt": "Møllergutten lister seg forbi den store, sovende dragen med fingeren foran munnen. Dragehalen med tre skinnende gullfjær ligger i en bue på gulvet foran ham."
   },
   "illustrations": [
     {
@@ -236,7 +236,7 @@
       "characters": ["rike-per-kremmer", "mollergutten", "pers-datter"],
       "prompt": "In the yard of the farm under the ridge, a wagon piled high with gleaming sacks and chests of gold and silver stands behind two brown horses. Per's Daughter hugs the Miller's Boy, overjoyed to have him home. Rich Per holds the three long, shining golden feathers in one hand, but he doesn't look at them at all: he stares at the gold on the wagon with huge, greedy eyes and his mouth hanging open.",
       "caption": "Per klarte ikke å slutte å se på alt gullet.",
-      "alt": "På tunet står ei vogn full av gull og sølv. Pers datter klemmer møllergutten, mens Rike Per Kremmer holder de tre fjærene og glaner grådig på gullet."
+      "alt": "På gårdsplassen står ei vogn full av gull og sølv. Pers datter klemmer møllergutten, mens Rike Per Kremmer holder de tre fjærene og glaner grådig på gullet."
     },
     {
       "id": "18",

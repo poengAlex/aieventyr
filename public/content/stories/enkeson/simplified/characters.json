@@ -23,14 +23,14 @@
   {
     "name": "Prinsessa",
     "slug": "prinsessa",
-    "description": "Kongens datter som ser gutten uten forkledning, trosser farens vrede og blir hans kone etter at sannheten kommer fram.",
+    "description": "Kongens datter som ser gutten uten forkledning, trosser farens sinne og blir hans kone etter at sannheten kommer fram.",
     "visualPrompt": "Ung prinsesse med klar, oppmerksomt blikk og mild styrke i ansiktet; kledd i enkel, kongelig drakt i dempede farger, med et uttrykk som blander nysgjerrighet, mot og varme.",
     "imagePath": "characters/prinsessa.webp"
   },
   {
     "name": "Kongen",
     "slug": "kongen",
-    "description": "En streng far og hersker som først straffer gutten hardt, men som senere må erkjenne at den utskjelte hagegutten reddet riket.",
+    "description": "En streng far og hersker som først straffer gutten hardt, men som senere må innse at hagegutten som alle lo av, reddet riket.",
     "visualPrompt": "Eldre mann med myndig holdning, kraftig skjegg eller markerte kinn, og tunge kongelige klær; ansikt som lett blir strengt, men med spor av lettelse og respekt når han ser heltemot.",
     "imagePath": "characters/kongen.webp"
   }

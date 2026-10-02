@@ -57,7 +57,7 @@
       "variants": {
         "simplified": {
           "name": "Sankt Peter",
-          "description": "Vårherres følgesvenn, som sier at smeden ønsket som en tosk og heller burde ha bedt om Guds nåde, og som til slutt gløtter på himmelporten.",
+          "description": "Vårherres følgesvenn, som sier at smeden ønsket som en tosk og heller burde ha bedt om Guds nåde, og som til slutt setter himmelporten på gløtt.",
           "replacesPortrait": "sankt-peter"
         },
         "english": {
@@ -93,7 +93,7 @@
       "variants": {
         "simplified": {
           "name": "Skreddersvennen",
-          "description": "En tynn skreddersvenn med pressejernet i hånda, som smeden tar igjen ved korsveien, og som skal prøve å slippe inn i himmerike.",
+          "description": "En tynn skreddersvenn med strykejernet i hånda, som smeden tar igjen ved veiskillet, og som skal prøve å slippe inn i himmelen.",
           "replacesPortrait": "skreddersvennen"
         },
         "english": {
@@ -160,9 +160,9 @@
       "variants": {
         "simplified": {
           "paragraph": 14,
-          "anchor": "Han tok et fast tak i den gamle kona og løftet henne inn mot essa.",
+          "anchor": "Han tok et fast tak i den gamle kona og løftet henne inn mot ilden.",
           "caption": "Av den gamle kona smidde Vårherre ei ung og vakker jente.",
-          "alt": "I gløden fra essa står ei ung, rødkinnet jente i den gamle konas klær og ser forundret på hendene sine. Vårherre står rolig ved siden av, og smeden står i døra med armene i kors."
+          "alt": "I gløden fra ilden i smia står ei ung, rødkinnet jente i den gamle konas klær og ser forundret på hendene sine. Vårherre står rolig ved siden av, og smeden står i døra med armene i kors."
         },
         "english": {
           "paragraph": 14,
@@ -299,9 +299,9 @@
       "variants": {
         "simplified": {
           "paragraph": 66,
-          "anchor": "Da han hadde gått et godt stykke, kom han til korsveien",
-          "caption": "Ved korsveien tok han igjen en skreddersvenn med pressejernet i hånda.",
-          "alt": "Smeden med slegga på skulderen og en tynn skreddersvenn med pressejern står der veien deler seg. Den ene veien går opp mot skyene, den andre ned i en røykfylt kløft."
+          "anchor": "Da han hadde gått et godt stykke, kom han til et",
+          "caption": "Ved veiskillet tok han igjen en skreddersvenn med strykejernet i hånda.",
+          "alt": "Smeden med slegga på skulderen og en tynn skreddersvenn med strykejern står der veien deler seg. Den ene veien går opp mot skyene, den andre ned i en røykfylt kløft."
         },
         "english": {
           "paragraph": 63,
@@ -338,8 +338,8 @@
         "simplified": {
           "paragraph": 77,
           "anchor": "«Her er det nok best å skynde seg», tenkte han.",
-          "caption": "Han kastet slegga inn gjennom glipa i samme stund som skredderen smatt inn.",
-          "alt": "Sankt Peter holder himmelporten på gløtt, og skreddersvennen smetter inn. Over hodene deres flyr smedens slegge inn gjennom glipa, mens smeden står noen skritt bak."
+          "caption": "Han kastet slegga inn gjennom åpningen i samme stund som skredderen smatt inn.",
+          "alt": "Sankt Peter holder himmelporten på gløtt, og skreddersvennen smetter inn. Over hodene deres flyr smedens slegge inn gjennom åpningen, mens smeden står noen skritt bak."
         },
         "english": {
           "paragraph": 74,

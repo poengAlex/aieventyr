@@ -39,7 +39,7 @@
       "variants": {
         "simplified": {
           "name": "Jenta som liten",
-          "description": "Jenta som vokser opp hos fostermoren i det store, stille huset, og som ikke klarer å la være å kikke inn i kamrene hun ikke får gå inn i."
+          "description": "Jenta som vokser opp hos fostermoren i det store, stille huset, og som ikke klarer å la være å kikke inn i rommene hun ikke får gå inn i."
         },
         "english": {
           "name": "The Maiden as a Little Girl",
@@ -154,7 +154,7 @@
         "simplified": {
           "paragraph": 2,
           "anchor": "Da han gikk hjem i skumringen, sto det en frue på stien mellom grantrærne.",
-          "caption": "Hun var så inderlig snill og god å se til at mannen tok av seg lua.",
+          "caption": "Hun så så inderlig snill og god ut at mannen tok av seg lua.",
           "alt": "I skumringen står en fattig mann på en sti mellom høye grantrær med lua i hendene. Foran ham står en fin frue i lang, lys kjole og dypblått slør og ser vennlig på ham."
         },
         "english": {
@@ -174,8 +174,8 @@
         "simplified": {
           "paragraph": 11,
           "anchor": "Så reiste hun. Men jenta klarte likevel ikke å la være.",
-          "caption": "Hun åpnet døra bare en glipe – og vips! så fløy det ut en stjerne.",
-          "alt": "Den lille jenta har åpnet den første av tre tunge dører på gløtt. En liten, sølvhvit stjerne flyr ut og opp mot taket, og jenta står stiv med hånda på klinken og munnen åpen."
+          "caption": "Hun åpnet døra bare på gløtt – og vips! så fløy det ut en stjerne.",
+          "alt": "Den lille jenta har åpnet den første av tre tunge dører på gløtt. En liten, sølvhvit stjerne flyr ut og opp mot taket, og jenta står stiv med hånda på håndtaket og munnen åpen."
         },
         "english": {
           "paragraph": 14,
@@ -194,8 +194,8 @@
         "simplified": {
           "paragraph": 14,
           "anchor": "Denne gangen ble ikke fostermoren sint.",
-          "caption": "Denne gangen ble ikke fostermoren sint. Hun ble bedrøvet.",
-          "alt": "Den andre døra står på gløtt, og gjennom vinduet skinner en stor, rund måne. Fostermoren står bedrøvet foran døra, og den lille jenta holder seg fast i kappa hennes og gråter."
+          "caption": "Denne gangen ble ikke fostermoren sint. Hun ble lei seg.",
+          "alt": "Den andre døra står på gløtt, og gjennom vinduet skinner en stor, rund måne. Fostermoren står trist foran døra, og den lille jenta holder seg fast i kappa hennes og gråter."
         },
         "english": {
           "paragraph": 17,
@@ -273,7 +273,7 @@
         "simplified": {
           "paragraph": 33,
           "anchor": "Da vaktene våknet, trodde de at dronningen hadde spist sitt eget barn.",
-          "caption": "Den gamle dronningen ville ha henne brent. Men prinsen fikk bedt henne fri.",
+          "caption": "Den gamle dronningen ville ha henne brent. Men prinsen tagg og ba til han fikk henne fri.",
           "alt": "Den unge dronningen sitter blek og taus på sengekanten ved siden av en tom vugge. Den gamle dronningen peker på henne, og prinsen ligger på kne foran moren sin og ber for henne."
         },
         "english": {
@@ -291,9 +291,9 @@
       "variants": {
         "simplified": {
           "paragraph": 37,
-          "anchor": "«Nå skal du bli så bedrøvet som jeg ble da du slapp ut sola», sa hun.",
-          "caption": "«Nå skal du bli så bedrøvet som jeg ble da du slapp ut sola.»",
-          "alt": "Om natta sover ni vakter langs veggene i dronningens kammer. Fostermoren står midt i rommet med et nyfødt barn i armene og snakker til den unge dronningen, som strekker armene etter barnet."
+          "anchor": "«Nå skal du bli like lei deg som jeg ble da du slapp ut sola», sa",
+          "caption": "«Nå skal du bli like lei deg som jeg ble da du slapp ut sola.»",
+          "alt": "Om natta sover ni vakter langs veggene på dronningens soverom. Fostermoren står midt i rommet med et nyfødt barn i armene og snakker til den unge dronningen, som strekker armene etter barnet."
         },
         "english": {
           "paragraph": 39,

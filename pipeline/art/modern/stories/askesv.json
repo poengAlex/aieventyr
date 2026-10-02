@@ -10,7 +10,7 @@
       "name": "Askeladden",
       "promptName": "Askeladden",
       "replacesPortrait": "askeladden",
-      "description": "Den yngste broren, en rolig og hardtarbeidende kjøkkenhjelp som bærer et gammelt knadetraug og vinner med kløkt framfor styrke.",
+      "description": "Den yngste broren, en rolig og hardtarbeidende kjøkkenhjelp som bærer et gammelt knadetrau og vinner med kløkt framfor styrke.",
       "look": "A lanky young man of about nineteen with messy straw-blond hair, sharp blue-grey eyes, a narrow freckled face and a calm, crooked smile. He wears a faded red knitted beanie, a navy work jacket over a grey T-shirt, black work trousers and scuffed white trainers.",
       "portrait": "Background: the fjord with the Dark Mountain behind, in pale morning light."
     },
@@ -102,13 +102,13 @@
       "characters": ["askeladden", "trollet"],
       "places": ["det-morke-fjellet"],
       "prompt": "Mid-fjord, Askeladden paddles the wooden trough flat out with a worn oar, the seven silver ducks packed around him. Behind him the stone door in the Dark Mountain has ground open, and the Troll leans out bellowing, his voice echoing between the mountainsides. Askeladden glances back, unimpressed.",
-      "caption": "«Har du reist av med de sju sølvendene mine, du?»",
+      "caption": "«Har du stukket av med de sju sølvendene mine, du?»",
       "alt": "Askeladden padler trauet med sølvendene over fjorden. Bak ham står steindøra i fjellet åpen, og trollet lener seg ut og brøler."
     },
     {
       "id": "05",
       "paragraph": 30,
-      "anchor": "Til slutt skurte det i stein, og en tung steindør gled på gløtt.",
+      "anchor": "Til slutt skrapte det i stein, og en tung steindør gled på gløtt.",
       "characters": ["askeladden"],
       "places": ["det-morke-fjellet"],
       "prompt": "In the shadow at the foot of the Dark Mountain, Askeladden sits on a rock beside his beached trough with a half-eaten packed lunch, frozen mid-bite and staring up. The heavy stone door above has slid ajar, and a grey hand as big as a car tyre is hanging a glittering quilt of silver and gold squares out to air.",

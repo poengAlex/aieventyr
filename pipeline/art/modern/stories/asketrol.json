@@ -60,7 +60,7 @@
   "cover": {
     "prompt": "Askeladden strides up the gravel forest road into the misty spruce forest with an old orange chainsaw in one hand and his backpack on, whistling, not a bit afraid. Behind him, half-hidden among the dark spruces, the Troll leans out from between the trunks, as big as a delivery van, and peers down at him with curious eyes. Rust-orange birch leaves drift through the grey October mist.",
     "characters": ["askeladden", "trollet"],
-    "caption": "Askeladden går opp i skogteigen, og han er ikke det minste redd for troll.",
+    "caption": "Askeladden går opp i skogen, og han er ikke det minste redd for troll.",
     "alt": "Askeladden går opp skogsbilveien med en motorsag og sekken på ryggen. Bak ham, mellom grantrærne, kikker et stort, grått troll fram."
   },
   "illustrations": [
@@ -90,8 +90,8 @@
       "characters": ["askeladden", "trollet"],
       "places": ["granteigen"],
       "prompt": "At the Old Spruce, Askeladden has switched off his chainsaw and set it down in the moss next to the other one. He holds up the small, round white cheese for the Troll to see and squeezes it, so that whey spurts out between his fingers and drips into the moss. The Troll stops dead above him, staring at the white stone and then at his own huge fist. Grey mist between the trunks.",
-      "caption": "Så klemte han. Mysa sprutet ut mellom fingrene og dryppet ned i mosen.",
-      "alt": "Askeladden holder opp en liten, hvit ost og klemmer så mysa spruter mellom fingrene. Trollet stopper og stirrer. I mosen ligger to motorsager."
+      "caption": "Så klemte han. Væsken sprutet ut mellom fingrene og dryppet ned i mosen.",
+      "alt": "Askeladden holder opp en liten, hvit ost og klemmer så væsken spruter mellom fingrene. Trollet stopper og stirrer. I mosen ligger to motorsager."
     },
     {
       "id": "04",
@@ -101,7 +101,7 @@
       "places": ["granteigen"],
       "prompt": "On the steep hillside by the Old Spruce, the Troll twists a whole spruce out of the ground with his bare hands, roots and all, while another lies at his feet stripped of its branches. Along the gravel forest road below, neat stacks of logs stretch away. Askeladden sits on a stump with his backpack beside him and his arms crossed, supervising. Blue dusk is falling between the trunks.",
       "caption": "Han trengte ingen sag. Han vred grantrærne løs med bare hendene.",
-      "alt": "Trollet vrir et helt grantre løs med bare hendene. Langs skogsbilveien ligger tømmeret i pene lunner, og Askeladden sitter på en stubbe og følger med."
+      "alt": "Trollet vrir et helt grantre løs med bare hendene. Langs skogsbilveien ligger tømmeret i pene stabler, og Askeladden sitter på en stubbe og følger med."
     },
     {
       "id": "05",

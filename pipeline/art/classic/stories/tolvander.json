@@ -21,7 +21,7 @@
       "variants": {
         "simplified": {
           "name": "Snøhvit og Rosenrød",
-          "description": "Prinsessen som drar ut for å finne sine tolv brødre, og som må holde helt munn mens hun arbeider for å frelse dem og senere seg selv.",
+          "description": "Prinsessen som drar ut for å finne sine tolv brødre, og som må holde helt munn mens hun arbeider for å redde dem og senere seg selv.",
           "replacesPortrait": "snohvit-og-rosenrod"
         },
         "english": {
@@ -169,8 +169,8 @@
     "places": ["myra"],
     "variants": {
       "simplified": {
-        "caption": "Snøhvit og Rosenrød sanker myrdun, og hun sier ikke et ord.",
-        "alt": "En ung kvinne med kullsvart hår står på en myr full av hvit myrdun med armene fulle. Over henne flyr tolv villender i soloppgangen."
+        "caption": "Snøhvit og Rosenrød plukker myrull, og hun sier ikke et ord.",
+        "alt": "En ung kvinne med kullsvart hår står på en myr full av hvit myrull med armene fulle. Over henne flyr tolv villender i soloppgangen."
       },
       "english": {
         "caption": "Snow-White and Rose-Red gathers bog-cotton without a word.",
@@ -306,7 +306,7 @@
           "paragraph": 32,
           "anchor": "Brødrene sto rundt henne i en halvsirkel.",
           "caption": "Hun holdt hardt i sekken og nikket. Hun sa ikke et ord.",
-          "alt": "Tolv brødre står i en halvsirkel rundt prinsessa på en myr full av hvit myrdun i soloppgangen. Den eldste gir henne en sekk og peker, og hun holder sekken tett inntil seg og nikker."
+          "alt": "Tolv brødre står i en halvsirkel rundt prinsessa på en myr full av hvit myrull i soloppgangen. Den eldste gir henne en sekk og peker, og hun holder sekken tett inntil seg og nikker."
         },
         "english": {
           "paragraph": 32,
@@ -324,9 +324,9 @@
       "variants": {
         "simplified": {
           "paragraph": 35,
-          "anchor": "Men så hendte det en dag hun var ute på myra og sanket myrdun",
-          "caption": "Hvem kunne vel den vakre jomfrua være, som gikk der ute på myra og sanket myrdun?",
-          "alt": "Den unge kongen sitter på hesten sin i kanten av myra og ser undrende på prinsessa. Hun står med armene fulle av myrdun og svarer ikke. Bak ham venter to jegere med hunder."
+          "anchor": "Men så hendte det en dag hun var ute på myra og plukket myrull",
+          "caption": "Hvem kunne vel den vakre jenta være, som gikk der ute på myra og plukket myrull?",
+          "alt": "Den unge kongen sitter på hesten sin i kanten av myra og ser undrende på prinsessa. Hun står med armene fulle av myrull og svarer ikke. Bak ham venter to jegere med hunder."
         },
         "english": {
           "paragraph": 35,
@@ -362,7 +362,7 @@
       "variants": {
         "simplified": {
           "paragraph": 45,
-          "anchor": "Før året var omme, fikk hun en sønn til, og med ham gikk det akkurat likedan.",
+          "anchor": "Før året var over, fikk hun en sønn til, og med ham gikk det akkurat likedan.",
           "caption": "Den gamle dronningen listet seg inn om natta.",
           "alt": "Den unge dronningen sover i en stor seng i måneskinnet. Den gamle dronningen lister seg inn med et lys og bøyer seg over vugga der den lille prinsen ligger."
         },
@@ -383,7 +383,7 @@
           "paragraph": 51,
           "anchor": "Hun hadde knapt lagt den på plass før det suste og bruste i lufta.",
           "caption": "Tolv villender stupte ned gjennom røyken og tok klærne sine i nebbet.",
-          "alt": "Et bål brenner i skumringen. Rundt det ligger tolv fjøler med hvite luer, skjorter og tørklær. Tolv villender stuper ned gjennom røyken og tar klærne i nebbet, mens den unge dronningen kneler mellom to vakter."
+          "alt": "Et bål brenner i skumringen. Rundt det ligger tolv planker med hvite luer, skjorter og skjerf. Tolv villender stuper ned gjennom røyken og tar klærne i nebbet, mens den unge dronningen kneler mellom to vakter."
         },
         "english": {
           "paragraph": 51,
@@ -424,9 +424,9 @@
       "variants": {
         "simplified": {
           "paragraph": 60,
-          "anchor": "Ormegården var en gammel steingård bak kongsgården",
-          "caption": "Der lå de tre barna og lekte med ormene og paddene.",
-          "alt": "Kongen, broren med andevingen og den unge dronningen står i porten til en gammel, fuktig steingård. Der inne ligger tre små barn og leker med ormer og padder, og dronningen gråter av glede."
+          "anchor": "Slangegropa var ei gammel grop med steinvegger",
+          "caption": "Der lå de tre barna og lekte med slangene og paddene.",
+          "alt": "Kongen, broren med andevingen og den unge dronningen står i porten til slangegropa, ei gammel, fuktig grop med steinvegger. Der inne ligger tre små barn og leker med slanger og padder, og dronningen gråter av glede."
         },
         "english": {
           "paragraph": 61,

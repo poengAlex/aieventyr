@@ -28,7 +28,7 @@
       "name": "Den gamle kona i bergskorten",
       "promptName": "the Old Woman",
       "replacesPortrait": "gamle-kona-bergskorten",
-      "description": "En gammel kone som sitter og spinner i bergskorten og lokker slitne gjetergutter til å sove bort hele dagen med hodet i fanget hennes.",
+      "description": "En gammel kone som sitter og spinner i ei hule i berget og lokker slitne gjetergutter til å sove bort hele dagen med hodet i fanget hennes.",
       "look": "A tiny, hunched old woman, no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She is wrapped in many layered shawls of faded blue, brown, plum and grey, one on top of the other, over a long dark skirt, with worn felt slippers on her feet.",
       "portrait": "Background: her grey rock cleft beside the forest path."
     },
@@ -62,7 +62,7 @@
       "slug": "eldste-bror",
       "name": "Den eldste broren",
       "promptName": "the Eldest Brother",
-      "description": "Askeladdens eldste bror, som vil ut og tjene penger, men sovner hos den gamle kona i bergskorten og må måke møkk i sju dager.",
+      "description": "Askeladdens eldste bror, som vil ut og tjene penger, men sovner hos den gamle kona i hula og må måke møkk i sju dager.",
       "look": "A tall, gawky lad of about nineteen with a long, bony face, a big chin, heavy-lidded sleepy eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked shirt with rolled sleeves, baggy brown trousers held up by a single braces strap and a wide, frayed straw hat, and he goes barefoot.",
       "portrait": "Background: the tiny hut in the spruce forest."
     }
@@ -122,7 +122,7 @@
     {
       "id": "05",
       "paragraph": 40,
-      "anchor": "Neste morgen, da hanen gol, slapp stallmesteren ut føllene.",
+      "anchor": "Neste morgen, da hanen galte, slapp stallmesteren ut føllene.",
       "characters": ["askeladden", "yngste-foellet"],
       "prompt": "Early morning in the birch forest: the seven chestnut foals gallop in a long line through the purple heather, and behind the last and smallest one, the Youngest Foal, Askeladden flies straight out in the air, gripping its tail with both hands, stretched out like a kite on a string, his knapsack flapping. Leaves and dust whirl around him, and he grins with determination. Low morning sun slants between the trunks.",
       "caption": "Askeladden holder fast i halen og flyr etter som en papirdrage på snor.",
@@ -162,7 +162,7 @@
       "characters": ["askeladden", "yngste-foellet", "gamle-kona-bergskorten"],
       "prompt": "Dusk under a pale lilac sky: Askeladden whooshes past the old woman's rock cleft on the back of the Youngest Foal, with the six other foals racing ahead, a small round loaf and a bottle poking out of his knapsack. In the mouth of the little cave, the Old Woman has jumped up from her spinning wheel and shakes her fist after them, cross and comical, her shawls flapping. Leaves and dust whirl up in their wake.",
       "caption": "«... dumme ... gutt ... GRRR!» roper den gamle kona.",
-      "alt": "Askeladden suser forbi hula i berget på ryggen til det yngste føllet, med brød og vin i skreppa. Den gamle kona har hoppet opp fra rokken og roper sint etter ham."
+      "alt": "Askeladden suser forbi hula i berget på ryggen til det yngste føllet, med brød og vin i sekken. Den gamle kona har hoppet opp fra rokken og roper sint etter ham."
     },
     {
       "id": "10",

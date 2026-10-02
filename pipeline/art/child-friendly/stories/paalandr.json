@@ -10,7 +10,7 @@
       "name": "Tjenestegutten",
       "promptName": "the Servant Boy",
       "replacesPortrait": "tjenestegutten",
-      "description": "En lur gårdsgutt som hører alt det mannen ikke hører, og som vedder ti daler med kona om hemmeligheten hennes.",
+      "description": "En lur gårdsgutt som hører alt det mannen ikke hører, og som vedder ti sølvmynter med kona om hemmeligheten hennes.",
       "look": "A very skinny, quick farm boy of about thirteen with a mousy-brown pudding-bowl haircut, a narrow, sunburnt face with a pointed chin, a wide, sly grin and quick green eyes that miss nothing. He wears a baggy, faded brick-red shirt and patched brown trousers that are too short for him, so his bony ankles show, and he goes barefoot. His round grey-green knitted cap with a little pompom on top is always either on his head or waving in his hand.",
       "portrait": "Background: the wide door of the big grey barn."
     },
@@ -19,7 +19,7 @@
       "name": "Kona",
       "promptName": "the Wife",
       "replacesPortrait": "kona",
-      "description": "En kone som koker verdens beste rømmegrøt og serverer den i smug til Pål, som aldri glemmer å si det.",
+      "description": "En kone som koker verdens beste rømmegrøt og serverer den i all hemmelighet til Pål, som aldri glemmer å si det.",
       "look": "A pretty, lively farm wife of about thirty-five, of medium height, with a round, dimpled face, a small pointed nose, bright dark-brown eyes under arched eyebrows and wheat-blonde hair in a thick braid coiled at the back of her head with a red ribbon. She wears a sky-blue laced bodice over a pale-yellow blouse with puffed sleeves, a long red-and-white striped skirt, a big white apron and a string of red glass beads around her neck.",
       "portrait": "Background: the firelit farmhouse kitchen."
     },
@@ -54,7 +54,7 @@
     "characters": ["pal-andrestuen", "kona", "tjenestegutten"],
     "places": ["gaarden"],
     "caption": "Når mannen er ute og arbeider, smetter Pål inn til kona.",
-    "alt": "Pål lister seg over tunet med skjeen klar. I døra står kona og vinker ham inn med en dampende grøtbolle, og bak låvedøra står tjenestegutten og følger med."
+    "alt": "Pål lister seg over gårdsplassen med skjeen klar. I døra står kona og vinker ham inn med en dampende grøtbolle, og bak låvedøra står tjenestegutten og følger med."
   },
   "illustrations": [
     {
@@ -83,7 +83,7 @@
       "characters": ["den-dove-mannen", "tjenestegutten", "kona", "pal-andrestuen"],
       "prompt": "In the firelit farmhouse kitchen, the Husband and the Servant Boy sit at the long table, spooning sour-cream porridge from one big round bowl with a golden pool of butter in the middle. The Husband beams with delight; the Servant Boy glances sideways at the door with a sly look. The Wife stands by the hearth with her arms crossed and a sour face. Squeezed flat behind the half-open door, Pål sniffs the smell of porridge with his eyes closed, sighing longingly.",
       "caption": "Bak døra står Pål og kjenner lukta. «Åååh», sukker han.",
-      "alt": "Mannen og tjenestegutten spiser rømmegrøt ved bordet, mens kona står sur ved grua. Bak døra står Pål klemt inntil veggen og snuser lengselsfullt."
+      "alt": "Mannen og tjenestegutten spiser rømmegrøt ved bordet, mens kona står sur ved peisen. Bak døra står Pål klemt inntil veggen og snuser lengselsfullt."
     },
     {
       "id": "04",
@@ -122,7 +122,7 @@
       "characters": ["pal-andrestuen"],
       "prompt": "Inside his own small, untidy log cottage, Pål stands at the hearth with an apron tied over his yellow waistcoat, stirring a black pot of thick grey porridge with a long wooden spoon. He holds up a spoonful full of big lumps and stares at it with a disappointed pout. Spilled oats on the floor, a crooked stool and a thin wisp of steam. Warm, golden firelight.",
       "caption": "Pål lærte seg å koke grøt selv. Den ble klumpete.",
-      "alt": "Pål står ved grua i den lille stua si og rører i en gryte. Han holder opp en skje full av klumpete grøt og ser skuffet ut."
+      "alt": "Pål står ved peisen i den lille stua si og rører i en gryte. Han holder opp en skje full av klumpete grøt og ser skuffet ut."
     }
   ]
 }

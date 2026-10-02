@@ -19,7 +19,7 @@
       "name": "Bonden",
       "promptName": "the Farmer",
       "replacesPortrait": "bonden",
-      "description": "Gårdsmannen som er stolt av det ene nye ermet sitt og prøver å virke som en ekstra flink husbonde når han får besøk.",
+      "description": "Gårdsmannen som er stolt av det ene nye ermet sitt og prøver å virke ekstra flink og ordentlig når han får besøk.",
       "look": "A big, burly, barrel-chested farmer of about fifty with a broad, ruddy face, a small snub nose, twinkling little blue eyes, bushy brown eyebrows, a shock of unruly brown hair and a long brown beard that splits into two scraggly forks. He wears a faded, patched grey-brown wool jacket whose right sleeve is brand-new, bright lingonberry-red and spotless, while the old left sleeve has a big hole at the elbow, patched brown trousers and worn-out boots.",
       "portrait": "Background: the cramped cottage room with the little table."
     },
@@ -47,7 +47,7 @@
     "prompt": "In deep snow on a frosty winter afternoon, the Suitor, in his best clothes and squashed tall hat, with his little travel bag in one hand, knocks politely on the low door of a tiny, lopsided cottage with a sagging, snow-covered turf roof and icicles on the eaves. From the one small window beside the door, three curious faces peek out at him, squashed together: the Farmer, the Farmer's Wife and the Daughter in her new green cap. A low pink sun and lilac-blue shadows.",
     "characters": ["frieren", "bonden", "kona-pa-garden", "datteren"],
     "caption": "En frier banker på døra til en liten, fattig gård.",
-    "alt": "En ung frier med høy hatt og liten reiseveske banker på døra til ei lita, skjev stue i snøen. I vinduet ved siden av titter tre nysgjerrige ansikter ut."
+    "alt": "En ung frier med høy hatt og liten reiseveske banker på døra til et lite, skjevt hus i snøen. I vinduet ved siden av titter tre nysgjerrige ansikter ut."
   },
   "illustrations": [
     {

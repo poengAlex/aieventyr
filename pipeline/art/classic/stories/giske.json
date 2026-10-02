@@ -39,7 +39,7 @@
       "variants": {
         "simplified": {
           "name": "Enkemannen",
-          "description": "Husbonden som vil bli kvitt Giske og lager spøken som får henne til å tro hun er fanden.",
+          "description": "Mannen hun arbeider hos, som vil bli kvitt Giske og lager spøken som får henne til å tro hun er fanden.",
           "replacesPortrait": "enkemannen"
         },
         "english": {
@@ -91,7 +91,7 @@
       "variants": {
         "simplified": {
           "name": "Bonden",
-          "description": "Bonden som våkner av skrålet i sauehuset, blir rent over ende av noe stort og svart, og setter seg til å lese og be."
+          "description": "Bonden som våkner av skrålet i sauehuset, blir slått over ende av noe stort og svart, og setter seg til å lese og be."
         },
         "english": {
           "name": "The Farmer",
@@ -107,7 +107,7 @@
       "variants": {
         "simplified": {
           "name": "Bonden med nepebråten",
-          "description": "En av de rikeste bøndene i bygda. Han ser fanden i nepebråten sin, lokker presten ut med en feit kalvestek og bærer ham over myra på ryggen."
+          "description": "En av de rikeste bøndene i bygda. Han ser fanden i nepeåkeren sin, lokker presten ut med en feit kalvestek og bærer ham over myra på ryggen."
         },
         "english": {
           "name": "The Turnip Farmer",
@@ -157,9 +157,9 @@
       "variants": {
         "simplified": {
           "paragraph": 2,
-          "anchor": "Mens hun sov, kom mannen med ei saks og klipte stakken hennes, det lange skjørtet, av ved knærne.",
+          "anchor": "Mens hun sov, kom mannen med ei saks og klipte det lange skjørtet hennes av ved knærne. Så",
           "caption": "Mens Giske sov, smurte mannen henne inn med talg og sot.",
-          "alt": "Giske sover i hampåkeren med svarte bein og stakken klipt av ved knærne. Enkemannen sitter på kne ved siden av henne og smører sot på armen hennes. I gresset ligger ei stor saks."
+          "alt": "Giske sover i hampåkeren med svarte bein og skjørtet klipt av ved knærne. Enkemannen sitter på kne ved siden av henne og smører sot på armen hennes. I gresset ligger ei stor saks."
         },
         "english": {
           "paragraph": 2,
@@ -234,8 +234,8 @@
         "simplified": {
           "paragraph": 23,
           "anchor": "Imens hadde bonden våknet av alt skrålet, og nå kom han ut i bare skjorta for å se hva som sto på.",
-          "caption": "Giske satte etter tyvene så fort at hun rente bonden over ende.",
-          "alt": "Om natta ligger bonden på ryggen på tunet i bare skjorta, med lykta i hånda. Giske løper forbi etter tyvene, som klatrer over skigarden."
+          "caption": "Giske satte etter tyvene så fort at hun løp bonden over ende.",
+          "alt": "Om natta ligger bonden på ryggen på gårdsplassen i bare skjorta, med lykta i hånda. Giske løper forbi etter tyvene, som klatrer over gjerdet."
         },
         "english": {
           "paragraph": 23,
@@ -252,9 +252,9 @@
       "variants": {
         "simplified": {
           "paragraph": 31,
-          "anchor": "Mens de sto og kjeklet om dette, begynte en av gjessene å skrike.",
+          "anchor": "Mens de sto og kranglet om dette, begynte en av gjessene å skrike.",
           "caption": "Bonden trodde det var den svarte fanden selv.",
-          "alt": "Gjessene skriker og flakser ut av gåsehuset. Tyvene springer over tunet med Giske etter seg, mens en bonde i nattskjorte står i døra med et lys og stirrer."
+          "alt": "Gjessene skriker og flakser ut av gåsehuset. Tyvene springer over gårdsplassen med Giske etter seg, mens en bonde i nattskjorte står i døra med et lys og stirrer."
         },
         "english": {
           "paragraph": 31,
@@ -271,8 +271,8 @@
       "variants": {
         "simplified": {
           "paragraph": 35,
-          "anchor": "Der inne var det fullt av alt som godt var: kjøtt og flesk og pølser og ertebrød.",
-          "caption": "Der inne var det fullt av alt som godt var.",
+          "anchor": "Der inne var det fullt av god mat: kjøtt og flesk og pølser og ertebrød. Tyvene hysjet",
+          "caption": "Der inne var det fullt av god mat.",
           "alt": "Giske står i døra til et stabbur fullt av skinker, pølser og brød og trekker pusten for å rope. Nede ved trappa hysjer tyvene på henne."
         },
         "english": {
@@ -309,9 +309,9 @@
       "variants": {
         "simplified": {
           "paragraph": 43,
-          "anchor": "Bonden som eide nepebråten, hadde ikke fått sove for alt snakket om fanden",
-          "caption": "Han fikk se noe svart oppe i bråten som rusket og rusket.",
-          "alt": "En søndag morgen står bonden ved myra og stirrer skrekkslagen opp mot nepebråten. Der oppe i tåka rusker en høy, svart skikkelse i nepene."
+          "anchor": "Bonden som eide nepeåkeren, hadde ikke fått sove for alt snakket om fanden,",
+          "caption": "Han fikk se noe svart oppe i åkeren som rusket og rusket.",
+          "alt": "En søndag morgen står bonden ved myra og stirrer skrekkslagen opp mot nepeåkeren. Der oppe i tåka rusker en høy, svart skikkelse i nepene."
         },
         "english": {
           "paragraph": 43,
@@ -330,7 +330,7 @@
           "paragraph": 47,
           "anchor": "Han la i vei til prestegården.",
           "caption": "Presten rev på seg buksene og kom ned i tøfler og nattlue.",
-          "alt": "Presten kommer skyndsomt ned trappa i nattlue og tøfler og drar på seg buksene. Bonden venter i stua med hatten i hendene, og ved trappa står jenta."
+          "alt": "Presten skynder seg ned trappa i nattlue og tøfler og drar på seg buksene. Bonden venter i stua med hatten i hendene, og ved trappa står jenta."
         },
         "english": {
           "paragraph": 47,
@@ -349,7 +349,7 @@
           "paragraph": 54,
           "anchor": "Og så ble han så redd at han slengte presten midt ut i myra og la på sprang.",
           "caption": "Og er ikke presten kommet opp, så ligger han der nok ennå.",
-          "alt": "Presten sitter fast i gjørma midt ute på myra med nattlua på snei. Bonden springer for livet over tuene, og oppe i nepebråten står Giske og ser etter ham."
+          "alt": "Presten sitter fast i gjørma midt ute på myra med nattlua på snei. Bonden springer for livet over tuene, og oppe i nepeåkeren står Giske og ser etter ham."
         },
         "english": {
           "paragraph": 54,

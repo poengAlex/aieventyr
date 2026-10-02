@@ -39,7 +39,7 @@
       "variants": {
         "simplified": {
           "name": "Mestertyven i generaluniform",
-          "description": "Mestertyven i uniformen han fant blant røvergodset, sydd som til en general, med gullsnorer og blanke knapper. Slik kommer han kjørende hjem til faren som en annen storkar."
+          "description": "Mestertyven i uniformen han fant blant tyvegodset, sydd som til en general, med gullsnorer og blanke knapper. Slik kommer han kjørende hjem til faren som en annen storkar."
         },
         "english": {
           "name": "The Master Thief as a General",
@@ -55,7 +55,7 @@
       "variants": {
         "simplified": {
           "name": "Mestertyven som fillegutt",
-          "description": "Mestertyven i filler, så ussel og lurvete at det er rent ynkelig. Med tre levende harer i sekken lister han seg inn i gangen hos amtmannen for å stjele søndagssteken."
+          "description": "Mestertyven i filler, så fattig og lurvete at det er helt ynkelig. Med tre levende harer i sekken lister han seg inn i gangen hos amtmannen for å stjele søndagssteken."
         },
         "english": {
           "name": "The Master Thief as a Beggar Boy",
@@ -71,7 +71,7 @@
       "variants": {
         "simplified": {
           "name": "Mestertyven som engel",
-          "description": "Mestertyven med et stort, hvitt laken over seg og vingene av ei gås på ryggen. Oppe i lønna forkynner han presten at han skal tas opp levende i Guds rike."
+          "description": "Mestertyven med et stort, hvitt laken over seg og vingene av ei gås på ryggen. Oppe i lønna forteller han presten at han skal tas opp levende i Guds rike."
         },
         "english": {
           "name": "The Master Thief as an Angel",
@@ -87,7 +87,7 @@
       "variants": {
         "simplified": {
           "name": "Mestertyven som gammel kjerring",
-          "description": "Mestertyven i et fillete skjørt og ei trøye han har lånt av ei gammel kjerring, med stav i hånda og pose på ryggen. Hun fryser så fælt, og i posen har hun to lommelerker."
+          "description": "Mestertyven i et fillete skjørt og en jakke han har lånt av ei gammel kjerring, med stav i hånda og pose på ryggen. Hun fryser så fælt, og i posen har hun to lommelerker."
         },
         "english": {
           "name": "The Master Thief as an Old Woman",
@@ -103,7 +103,7 @@
       "variants": {
         "simplified": {
           "name": "Mestertyven med geiteskjegg",
-          "description": "Mestertyven i filler, med sot i ansiktet, parykk og et stort skjegg av geiteragg, så ingen kan kjenne ham igjen. Han skal i bryllup med ei mjødtønne og må holde fingeren i tapphullet."
+          "description": "Mestertyven i filler, med sot i ansiktet, parykk og et stort skjegg av geitehår, så ingen kan kjenne ham igjen. Han skal i bryllup med ei mjødtønne og må holde fingeren i hullet."
         },
         "english": {
           "name": "The Master Thief in a Goat-Hair Beard",
@@ -235,7 +235,7 @@
     "variants": {
       "simplified": {
         "caption": "Mestertyven lurte både røverne, bonden, amtmannen og presten.",
-        "alt": "Mestertyven i lang grønn frakk og skjev hatt sitter på skigarden ved en skogsvei i skumringen og løfter på hatten. En sko med sølvspenne dingler fra fingeren hans, og bak ham kikker en okse fram mellom trærne."
+        "alt": "Mestertyven i lang grønn frakk og skjev hatt sitter på gjerdet ved en skogsvei i skumringen og løfter på hatten. En sko med sølvspenne dingler fra fingeren hans, og bak ham kikker en okse fram mellom trærne."
       },
       "english": {
         "caption": "The Master Thief fooled robbers, a farmer, a bailiff and a parson.",
@@ -331,7 +331,7 @@
           "paragraph": 32,
           "anchor": "Han lette og lette, i sju lange og sju brede, men noen sko fant han ikke.",
           "caption": "Han lette og lette, men noen sko fant han ikke.",
-          "alt": "Gutten løser oksen fra skigarden og leier den stille inn i skogen med fingeren foran munnen. Langt bak på veien leter bonden i grøfta med den ene skoen under armen."
+          "alt": "Gutten løser oksen fra gjerdet og leier den stille inn i skogen med fingeren foran munnen. Langt bak på veien leter bonden i grøfta med den ene skoen under armen."
         },
         "english": {
           "paragraph": 29,
@@ -427,8 +427,8 @@
       "variants": {
         "simplified": {
           "paragraph": 62,
-          "anchor": "«Nå, min mann, hva feiler det deg?» sa amtmannen.",
-          "caption": "«Nå, min mann, hva feiler det deg?» sa amtmannen.",
+          "anchor": "«Nå, min mann, hva er i veien?» sa amtmannen.",
+          "caption": "«Nå, min mann, hva er i veien?» sa amtmannen.",
           "alt": "Amtmannen står i døra til den store hovedbygningen og ser ned på husmannen, som gråter og vrir lua i hendene. Borte ved grinda lener mestertyven seg på en diger bjørkekjepp."
         },
         "english": {
@@ -467,7 +467,7 @@
           "paragraph": 73,
           "anchor": "Imens smøg mestertyven inn på kjøkkenet.",
           "caption": "Imens smøg mestertyven inn på kjøkkenet og grep steken av spiddet.",
-          "alt": "Mestertyven i fillene løfter steken av spiddet på det tomme kjøkkenet. Gjennom den åpne døra ser man amtmannen og hele husstanden springe rundt på tunet etter en hare."
+          "alt": "Mestertyven i fillene løfter steken av spiddet på det tomme kjøkkenet. Gjennom den åpne døra ser man amtmannen og hele husstanden springe rundt på gårdsplassen etter en hare."
         },
         "english": {
           "paragraph": 68,
@@ -523,7 +523,7 @@
       "variants": {
         "simplified": {
           "paragraph": 91,
-          "anchor": "«Nå er du i skjærsilden, for å renses og luttres til det evige liv», sa han.",
+          "anchor": "«Nå er du i skjærsilden, for å renses til det evige liv», sa han. Så snudde",
           "caption": "«Nå er du i skjærsilden», sa mestertyven.",
           "alt": "Mestertyven står i døra til det mørke gåsehuset med lakenet og gåsevingene. Inne på halmen ligger en stor sekk, og de hvite gjessene hveser og klyper i den."
         },
@@ -542,7 +542,7 @@
       "variants": {
         "simplified": {
           "paragraph": 95,
-          "anchor": "«Jeg er nok ingen engel, Gud bedre», sa jenta og hjalp ham ut av sekken.",
+          "anchor": "«Jeg er nok ingen engel, dessverre», sa jenta og hjalp ham ut av sekken. «Jeg",
           "caption": "«Jeg er nok ingen engel», sa jenta og hjalp ham ut av sekken.",
           "alt": "Morgensola skinner inn i gåsehuset. Ei gåsejente hjelper presten ut av sekken. Han har halm i håret og fjær i skjegget, og gjessene står rundt dem og snadrer."
         },
@@ -564,7 +564,7 @@
           "paragraph": 101,
           "anchor": "Mestertyven kjøpte brennevin på to lommelerker hos kremmeren.",
           "caption": "Med stav i hånda og en pose på ryggen kom han hinkende bort mot stallen.",
-          "alt": "Mot kvelden hinker mestertyven, forkledd som ei gammel kjerring med stav og pose, over tunet mot den lange stallen. Ved vanntrauet står to stallkarer og vanner hestene."
+          "alt": "Mot kvelden hinker mestertyven, forkledd som ei gammel kjerring med stav og pose, over gårdsplassen mot den lange stallen. Ved vanntrauet står to stallkarer og vanner hestene."
         },
         "english": {
           "paragraph": 96,
@@ -619,9 +619,9 @@
       "variants": {
         "simplified": {
           "paragraph": 125,
-          "anchor": "En dag skulle amtmannen ri ut på den store ekserserplassen",
-          "caption": "Ti daler skulle kjerringa få om hun ville legge seg i tønna.",
-          "alt": "Mestertyven hjelper ei gammel, fattig kjerring opp i ei stor tønne som ligger på ei skranglekjerre. Foran kjerra står ei gammel, mager merr med sele av vidjer og kvister."
+          "anchor": "En dag skulle amtmannen ri ut på den store sletta",
+          "caption": "Ti sølvmynter skulle kjerringa få om hun ville legge seg i tønna.",
+          "alt": "Mestertyven hjelper ei gammel, fattig kjerring opp i ei stor tønne som ligger på ei skranglekjerre. Foran kjerra står ei gammel, mager hoppe med sele av seige kvister og bjørkeris."
         },
         "english": {
           "paragraph": 121,
@@ -640,7 +640,7 @@
           "paragraph": 133,
           "anchor": "Det lovet amtmannen, og mestertyven satte seg opp på hesten.",
           "caption": "Det lovet amtmannen, og mestertyven satte seg opp på hesten.",
-          "alt": "På den store ekserserplassen rir mannen med det store geiteskjegget av sted på hesten til amtmannen. Amtmannen står igjen ved kjerra med fingeren i tapphullet på tønna."
+          "alt": "På den store sletta rir mannen med det store geiteskjegget av sted på hesten til amtmannen. Amtmannen står igjen ved kjerra med fingeren i hullet på tønna."
         },
         "english": {
           "paragraph": 129,
@@ -697,7 +697,7 @@
         "simplified": {
           "paragraph": 157,
           "anchor": "Dagen etter kom mestertyven og ville ha dattera, slik han var lovet.",
-          "caption": "Nå torde ikke amtmannen annet enn å gi ham dattera, og penger attpå.",
+          "caption": "Nå turte ikke amtmannen annet enn å gi ham dattera, og penger i tillegg.",
           "alt": "På trappa til hovedbygningen legger amtmannen datterens hånd i hånda til mestertyven og gir ham en tung pengepung. Datteren smiler, og mestertyven bukker med hatten i hånda."
         },
         "english": {

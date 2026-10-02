@@ -18,7 +18,7 @@
       "slug": "snehvit-og-rosenrod-dronning",
       "name": "Snehvit og Rosenrød som dronning",
       "promptName": "the Maiden Queen",
-      "description": "Prinsessen etter at hun har giftet seg med den unge kongen. Om kveldene syr hun skjorter av myrdun, og hun kan ikke si et ord, selv når stemoren lyver om henne.",
+      "description": "Prinsessen etter at hun har giftet seg med den unge kongen. Om kveldene syr hun skjorter av myrull, og hun kan ikke si et ord, selv når stemoren lyver om henne.",
       "look": "A slim young woman of about eighteen with snow-pale skin, rosy-red cheeks and lips, a soft oval face, a small straight nose and large, dark-grey eyes with long black lashes. Her raven-black hair hangs in one thick, loose braid over her shoulder, under a slender silver crown. She wears a long, simple gown of snow-white linen embroidered with small rose-red roses along the hem and cuffs, a rose-red sash and soft grey slippers.",
       "portrait": "Background: a castle window at dusk."
     },
@@ -89,8 +89,8 @@
   "cover": {
     "prompt": "The Maiden sits on a mossy tussock at the misty edge of a bog, sewing a snow-white shirt in her lap, her lips pressed together in silence. All around her the fluffy white bog cotton glows in soft sunlight, and behind her twelve wild ducks fly past in a long V against the pale sky. A small basket of white caps stands at her feet.",
     "characters": ["snehvit-og-rosenrod"],
-    "caption": "Snehvit og Rosenrød syr skjorter av myrdun til de tolv brødrene sine.",
-    "alt": "En jente med kullsvart hår sitter i kanten av en myr og syr på en hvit skjorte. Rundt henne står hvit myrdun, og bak henne flyr tolv villender forbi."
+    "caption": "Snehvit og Rosenrød syr skjorter av myrull til de tolv brødrene sine.",
+    "alt": "En jente med kullsvart hår sitter i kanten av en myr og syr på en hvit skjorte. Rundt henne står hvit myrull, og bak henne flyr tolv villender forbi."
   },
   "illustrations": [
     {
@@ -118,7 +118,7 @@
       "characters": ["snehvit-og-rosenrod"],
       "prompt": "A wide, lonely moor under a heavy grey sky, with sleet slanting down. The Maiden trudges along a muddy path between dark pools and tussocks, her grey shawl pulled up over her head, her shoes worn thin, a small bundle on her back. She looks tired but determined, one hand on her pocket where her silver spoon is. Far behind her, low hills fade into the mist.",
       "caption": "Hun går og går, gjennom regn og sludd, til skoene er tynne som papir.",
-      "alt": "Prinsessen går alene over en våt myr i sludd. Hun har sjalet over hodet og en liten bylt på ryggen, og skoene hennes er helt utslitte."
+      "alt": "Prinsessen går alene over en våt myr i sludd. Hun har sjalet over hodet og en liten sekk på ryggen, og skoene hennes er helt utslitte."
     },
     {
       "id": "04",
@@ -156,8 +156,8 @@
       "anchor": "Neste morgen tok de henne med til en stor myr.",
       "characters": ["snehvit-og-rosenrod"],
       "prompt": "Early morning on a vast bog, so thick with fluffy white bog cotton that it looks like snow in the middle of summer. The Maiden stands among the white tufts with one hand on her heart and gives a small, solemn nod. In front of her, twelve wild ducks stand in a row on a mossy hummock, looking up at her. Soft golden sunrise light, thin mist and dew sparkling on the grass.",
-      "caption": "Myrdunen står så hvit at det ser ut som snø midt på sommeren.",
-      "alt": "Prinsessen står midt på en stor myr full av hvit myrdun. Foran henne står tolv villender på rad og ser opp på henne, og hun nikker alvorlig."
+      "caption": "Myrullen står så hvit at det ser ut som snø midt på sommeren.",
+      "alt": "Prinsessen står midt på en stor myr full av hvit myrull. Foran henne står tolv villender på rad og ser opp på henne, og hun nikker alvorlig."
     },
     {
       "id": "08",
@@ -166,7 +166,7 @@
       "characters": ["snehvit-og-rosenrod", "den-unge-kongen"],
       "prompt": "On the misty bog, with sunlight shining through the fog, the Young King leans down from his tall chestnut horse, smiling with delighted curiosity. The Maiden stands silently among the white bog cotton and points at three big, bulging sacks stuffed with bog cotton beside her. Behind the king, four of his men wait on horseback in the mist, looking puzzled.",
       "caption": "Hun sier ingenting. Hun bare peker på sekkene sine.",
-      "alt": "Den unge kongen lener seg fram fra hesten og smiler. Prinsessen står i myrdunen og peker på tre store sekker. Bak kongen venter fire menn på hester i tåken."
+      "alt": "Den unge kongen lener seg fram fra hesten og smiler. Prinsessen står i myrullen og peker på tre store sekker. Bak kongen venter fire menn på hester i tåken."
     },
     {
       "id": "09",

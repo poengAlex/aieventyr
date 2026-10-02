@@ -39,7 +39,7 @@
       "variants": {
         "simplified": {
           "name": "Bruden",
-          "description": "Jenta på bryllupsdagen, med brudekrone. Nå kommer hedersdagen, og hun har lovet å kalle tre gamle koner moster."
+          "description": "Jenta på bryllupsdagen, med brudekrone. Nå er den store dagen kommet, og hun har lovet å kalle tre gamle koner moster."
         },
         "english": {
           "name": "The Bride",
@@ -90,7 +90,7 @@
       "variants": {
         "simplified": {
           "name": "Mosteren med den lange nesa",
-          "description": "Den første mosteren, som spinner alt linet for jenta på én natt. Hun har sittet ved rokken og hakket og nikket hele livet, og nå er nesa nesten to meter lang.",
+          "description": "Den første mosteren, som spinner alt linet for jenta på én natt. Hun har sittet ved rokken og nikket og nikket hele livet, og nå er nesa nesten to meter lang.",
           "replacesPortrait": "de-tre-mostrene"
         },
         "english": {
@@ -170,9 +170,9 @@
       "variants": {
         "simplified": {
           "paragraph": 3,
-          "anchor": "Så la jenta i vei, og veien førte henne rett til kongsgården.",
-          "caption": "Dronningen kalte henne «vennen min» alt den første uka.",
-          "alt": "Dronningen sitter ved peisen og vinder garn, mens jenta holder hespa for henne. I en krok står tre tjenestejenter og hvisker."
+          "anchor": "Så dro jenta av sted, og veien førte henne rett til kongsgården.",
+          "caption": "Dronningen kalte henne «vennen min» allerede den første uka.",
+          "alt": "Dronningen sitter ved peisen og nøster garn, mens jenta holder garnet for henne. I en krok står tre tjenestejenter og hvisker."
         },
         "english": {
           "paragraph": 3,
@@ -211,7 +211,7 @@
         "simplified": {
           "paragraph": 15,
           "anchor": "Ja, det ville jenta gjerne. Hun gikk og la seg.",
-          "caption": "«Vil du kalle meg moster på hedersdagen din, så skal jeg spinne for deg.»",
+          "caption": "«Vil du kalle meg moster på den store dagen din, så skal jeg spinne for deg.»",
           "alt": "Jenta sover i senga. Ved rokken sitter ei gammel kone med en kjempelang nese og spinner så hjulet surrer, og blanke garnnøster hoper seg opp på bordet."
         },
         "english": {
@@ -230,7 +230,7 @@
       "variants": {
         "simplified": {
           "paragraph": 21,
-          "anchor": "Der satt hun og gråt på nytt og visste ikke sin arme råd.",
+          "anchor": "Der satt hun og gråt på nytt og visste ikke hva hun skulle",
           "caption": "Så kom det inn ei gammel kone igjen.",
           "alt": "Jenta sitter ved vevstolen og gråter. I døra kommer ei ny gammel kone med et kjempebredt, stripete skjørt."
         },

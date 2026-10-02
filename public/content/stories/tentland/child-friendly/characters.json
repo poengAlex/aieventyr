@@ -9,14 +9,14 @@
   {
     "name": "Den yngste prinsessen (dronningen av Hvittenland)",
     "slug": "den-yngste-prinsessen",
-    "description": "Den kloke og snille prinsessen som gir gode råd, hjelper ham å bryte magien, og lengter etter å bli gjenforent når de blir skilt.",
+    "description": "Den kloke og snille prinsessen som gir gode råd, hjelper ham å bryte magien, og savner ham når de blir skilt.",
     "visualPrompt": "A gentle fairy-tale princess with a calm, wise expression, pale shimmering dress in soft colors, subtle magical glow, friendly posture, and delicate hair ornaments; child-friendly storybook style",
     "imagePath": "characters/den-yngste-prinsessen.webp"
   },
   {
     "name": "Den gamle mannen ved stranden",
     "slug": "den-gamle-mannen-ved-stranden",
-    "description": "En vennlig veiviser med langt hvitt skjegg som gir gutten de avgjørende rådene ved den melkehvite stranden.",
+    "description": "En vennlig veiviser med langt hvitt skjegg som gir gutten viktige råd ved den melkehvite stranden.",
     "visualPrompt": "A benevolent old man with a long white beard and simple cloak, standing on a bright white shoreline, leaning on a wooden staff, with a comforting smile; soft, illustrated fairy-tale style",
     "imagePath": "characters/den-gamle-mannen-ved-stranden.webp"
   },
@@ -30,7 +30,7 @@
   {
     "name": "Den gamle gjedda",
     "slug": "den-gamle-gjedda",
-    "description": "En svært gammel fisk som husker veien til Hvittenland og avslører at dronningen snart skal giftes bort, så kongen skynder seg videre.",
+    "description": "En svært gammel fisk som husker veien til Hvittenland og forteller at dronningen snart skal gifte seg med en annen, så kongen skynder seg videre.",
     "visualPrompt": "An ancient, wise pike with gentle eyes and subtle silvery-green scales, rising calmly from dark clear water near reeds, surrounded by a soft magical shimmer; child-friendly fairy-tale illustration style",
     "imagePath": "characters/den-gamle-gjedda.webp"
   }

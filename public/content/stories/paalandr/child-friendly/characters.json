@@ -2,14 +2,14 @@
   {
     "name": "Tjenestegutten",
     "slug": "tjenestegutten",
-    "description": "En lur gårdsgutt som hører alt det mannen ikke hører, og som vedder ti daler med kona om hemmeligheten hennes.",
+    "description": "En lur gårdsgutt som hører alt det mannen ikke hører, og som vedder ti sølvmynter med kona om hemmeligheten hennes.",
     "visualPrompt": "En ungdommelig gårdsgutt med vennlig ansikt og lurt blikk, enkelt bondetøy i jordfarger, kort bustete hår, står med en liten lefsebit i hånden og ser ut som han har en plan, barnebokillustrasjon, myke former",
     "imagePath": "characters/tjenestegutten.webp"
   },
   {
     "name": "Kona",
     "slug": "kona",
-    "description": "En kone som koker verdens beste rømmegrøt og serverer den i smug til Pål, som aldri glemmer å si det.",
+    "description": "En kone som koker verdens beste rømmegrøt og serverer den i all hemmelighet til Pål, som aldri glemmer å si det.",
     "visualPrompt": "En voksen kvinne i enkel bygdedrakt med forkle, varme farger, uttrykk som veksler mellom bekymring og lettelse, holder et lite matknyte under forkleet, står på en engsti, barnevennlig eventyrstil",
     "imagePath": "characters/kona.webp"
   },

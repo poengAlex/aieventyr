@@ -35,7 +35,7 @@
       "name": "Den gamle mannen ved stranden",
       "promptName": "the Old Man",
       "replacesPortrait": "den-gamle-mannen-ved-stranden",
-      "description": "En vennlig veiviser med langt hvitt skjegg som gir gutten de avgjørende rådene ved den melkehvite stranden.",
+      "description": "En vennlig veiviser med langt hvitt skjegg som gir gutten viktige råd ved den melkehvite stranden.",
       "look": "A lean, straight-backed old man of about eighty, as bony and long-limbed as a heron, with a long, narrow, sun-browned face, a hooked nose, bright pale-blue eyes under wild white eyebrows and a long white beard braided into one thin plait with a tiny white shell tied at its end. He wears a battered yellow sou'wester hat, a long, faded yellow oilskin coat and tall black sea boots, and leans on a tall, twisted, silver-grey driftwood staff.",
       "portrait": "Background: the milk-white beach and a pale turquoise sea."
     },
@@ -44,7 +44,7 @@
       "name": "Den yngste prinsessen",
       "promptName": "the Youngest Princess",
       "replacesPortrait": "den-yngste-prinsessen",
-      "description": "Den kloke og snille prinsessen som gir gode råd, hjelper ham å bryte magien, og lengter etter å bli gjenforent når de blir skilt.",
+      "description": "Den kloke og snille prinsessen som gir gode råd, hjelper ham å bryte magien, og savner ham når de blir skilt.",
       "look": "A calm, thoughtful princess of about eighteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. A thin silver circlet with one pearl rests on her forehead. She wears a plain sky-blue linen dress with long, close-fitting sleeves, a narrow belt of silver links and a hem sewn with small silver stars, and soft white shoes.",
       "portrait": "Background: the milk-white beach and a pale turquoise sea."
     },
@@ -110,7 +110,7 @@
       "name": "Den gamle gjedda",
       "promptName": "the Old Pike",
       "replacesPortrait": "den-gamle-gjedda",
-      "description": "En svært gammel fisk som husker veien til Hvittenland og avslører at dronningen snart skal giftes bort, så kongen skynder seg videre.",
+      "description": "En svært gammel fisk som husker veien til Hvittenland og forteller at dronningen snart skal gifte seg med en annen, så kongen skynder seg videre.",
       "look": "A huge, very old pike as long as a rowing boat, with a long, flat, duck-bill snout, a slightly jutting lower jaw with a kind, closed-mouth smile, and wise, wrinkled golden eyes. Her back is dark olive-green with rows of pale yellow spots, fading to a creamy-white belly, and her fins and tail are ragged and frayed at the edges. Long strands of green waterweed trail from her chin like a thin beard.",
       "portrait": "Background: dark, cold sea water with a glittering ring of fish."
     }
@@ -288,7 +288,7 @@
     {
       "id": "15",
       "paragraph": 98,
-      "anchor": "«Du farer nok fortere enn meg», sa Nordavinden",
+      "anchor": "«Du kommer nok fortere fram enn meg», sa",
       "characters": ["den-unge-kongen", "nordavinden"],
       "prompt": "High above a stormy grey sea, among racing clouds, the North Wind strides through the sky with his cloud cloak billowing, bending down to talk to the Young King, who flies beside him in the magic grey hat, cloak and boots. Because he is invisible, the Young King is only a faint, see-through shimmer, like a soap bubble in the shape of a young man. Far below lie tiny waves and one little island.",
       "caption": "Høyt oppe i luften fikk den unge kongen følge med Nordavinden.",

@@ -23,14 +23,14 @@
   {
     "name": "Sankt Peter",
     "slug": "sankt-peter",
-    "description": "Vårherres følgesvenn, som sier at smeden ønsket som en tosk og heller burde ha bedt om Guds nåde, og som til slutt gløtter på himmelporten.",
+    "description": "Vårherres følgesvenn, som sier at smeden ønsket som en tosk og heller burde ha bedt om Guds nåde, og som til slutt setter himmelporten på gløtt.",
     "visualPrompt": "En eldre mann med verdig holdning og streng, klok mine, i en enkel kappe; kan stå ved en høy port med nøkkelknippe, mens han vurderer hvem som får slippe inn.",
     "imagePath": "characters/sankt-peter.webp"
   },
   {
     "name": "Skreddersvennen",
     "slug": "skreddersvennen",
-    "description": "En tynn skreddersvenn med pressejernet i hånda, som smeden tar igjen ved korsveien, og som skal prøve å slippe inn i himmerike.",
+    "description": "En tynn skreddersvenn med strykejernet i hånda, som smeden tar igjen ved veiskillet, og som skal prøve å slippe inn i himmelen.",
     "visualPrompt": "En tynn, lettbeint ung mann i en enkel arbeidsdrakt, med pressejern i hånda og hastige steg; ser bestemt og litt nervøs ut, på vei mot en lys port i det fjerne.",
     "imagePath": "characters/skreddersvennen.webp"
   }

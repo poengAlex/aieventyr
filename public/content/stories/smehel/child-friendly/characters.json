@@ -9,14 +9,14 @@
   {
     "name": "Vårherre",
     "slug": "vor-herre",
-    "description": "En rolig vandringsmann som skor en hest på et blunk, gjør smedens gamle mor ung igjen og gir smeden tre ønsker.",
+    "description": "En rolig mann på vandring som setter sko på en hest på et blunk, gjør smedens gamle mor ung igjen og gir smeden tre ønsker.",
     "visualPrompt": "A calm, humble traveler with a gentle expression, simple robe-like clothing in soft earth tones, quietly helpful presence; child-friendly storybook illustration style.",
     "imagePath": "characters/vor-herre.webp"
   },
   {
     "name": "Sankt Peter",
     "slug": "sankt-peter",
-    "description": "Vårherres følgesvenn, som sier at smeden heller burde ha ønsket seg å bli venn med Vårherre, og som til slutt setter himmelporten på gløtt.",
+    "description": "Vårherres venn og reisekamerat, som sier at smeden heller burde ha ønsket seg å bli venn med Vårherre, og som til slutt setter himmelporten på gløtt.",
     "visualPrompt": "An older, kindly man with a thoughtful face, simple travel clothing, standing beside the traveler with a mild, advisory demeanor; soft fairytale illustration style.",
     "imagePath": "characters/sankt-peter.webp"
   },

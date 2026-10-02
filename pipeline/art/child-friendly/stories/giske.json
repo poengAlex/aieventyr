@@ -10,7 +10,7 @@
       "name": "Giske",
       "promptName": "Giske",
       "replacesPortrait": "giske",
-      "description": "Sterk og flink husholderske med lange bein som blir smurt svart med talg og sot mens hun sover, tror hun er et troll og hjelper to tyver altfor høylytt.",
+      "description": "Sterk og flink hushjelp med lange bein som blir smurt svart med talg og sot mens hun sover, tror hun er et troll og hjelper to tyver altfor høylytt.",
       "look": "A very tall, strong woman of about thirty with the longest legs in the village, a head taller than any man, long arms and big bare feet. She has a long oval face, rosy weathered cheeks, a wide eager smile, a small turned-up nose, bright hazel eyes and flaxen hair wound into a tall bun on top of her head. She wears a knee-length plum-purple wool dress with the sleeves rolled above the elbows, a cream apron and a ring of big iron keys on her belt.",
       "portrait": "Background: the tall green hemp field."
     },
@@ -45,7 +45,7 @@
       "name": "Den tykke tyven",
       "promptName": "the Plump Thief",
       "replacesPortrait": "two-thieves",
-      "description": "Den andre av de to sultne tyvene. Han er liten og rund, og magen hans rumler så fælt at han gjerne vil ha med seg et troll på tokt.",
+      "description": "Den andre av de to sultne tyvene. Han er liten og rund, og magen hans rumler så fælt at han gjerne vil ha med seg et troll når de skal ut og stjele.",
       "look": "A short, round, nervous thief of about forty, much shorter than Giske, with a round red face, puffy cheeks, a stubbly double chin, tiny eyes, a big bushy black moustache and a bald head under a brown flat cap. He wears a tight mustard-brown waistcoat with one button missing over a grey shirt, baggy trousers held up with rope and big boots, and carries a coil of rope over his shoulder.",
       "portrait": "Background: the dark spruce forest."
     },
@@ -106,7 +106,7 @@
       "characters": ["giske-sotete", "enkemannen"],
       "prompt": "At the edge of a field of tall, bushy green hemp in the afternoon sun, Sooty Giske lies fast asleep on her back in the grass, snoring with her mouth open and her long legs stretched out, bundles of pulled hemp around her. The Widower kneels beside her with a mischievous grin, holding a little pot of sticky black goo, and dabs a big black blob onto the tip of her nose with one finger.",
       "caption": "Litt på armene, litt på beina og en stor klatt midt på nesa!",
-      "alt": "Giske sover i graset ved hampåkeren. Enkemannen sitter på kne ved siden av henne med et rampete glis og smører en stor, svart klatt på nesa hennes."
+      "alt": "Giske sover i gresset ved hampåkeren. Enkemannen sitter på kne ved siden av henne med et rampete glis og smører en stor, svart klatt på nesa hennes."
     },
     {
       "id": "03",
@@ -132,8 +132,8 @@
       "anchor": "Tyvene sprang.",
       "characters": ["giske-sotete", "bonden", "tyven-tynn", "tyven-tykk"],
       "prompt": "Night in a farmyard, lit by a single lantern and a thin moon. The Farmer sits flat on his bottom in the middle of the yard, stunned, still holding his lantern up in one hand. Sooty Giske has just bumped past him and races on with her long legs, glancing back with an apologetic, startled face. Ahead of her, the Skinny Thief and the Plump Thief scramble towards the fence. In the open door of the sheep barn behind, three woolly sheep peer out curiously.",
-      "caption": "DUNK! Der satt bonden på baken midt på tunet.",
-      "alt": "Om natta sitter bonden i nattskjorta på baken midt på tunet med lykta i hånda. Giske løper forbi etter tyvene, og tre sauer kikker ut av fjøset."
+      "caption": "DUNK! Der satt bonden på baken midt på gårdsplassen.",
+      "alt": "Om natta sitter bonden i nattskjorta på baken midt på gårdsplassen med lykta i hånda. Giske løper forbi etter tyvene, og tre sauer kikker ut av fjøset."
     },
     {
       "id": "06",

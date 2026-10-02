@@ -18,7 +18,7 @@
       "slug": "sjomannen",
       "name": "Den yngste kongssønnen som sjømann",
       "promptName": "the Sailor",
-      "description": "Den yngste kongssønnen i forkledning, med en stor matroskofte og et rødt tørkle rundt hodet. Først later han som han er en stakkars sjømann, og så en kremmer.",
+      "description": "Den yngste kongssønnen i forkledning, med en stor sjømannsjakke og et rødt tørkle rundt hodet. Først later han som han er en stakkars sjømann, og så en kremmer.",
       "look": "A slim young man of about eighteen disguised as a poor sailor, with a kind face, a straight nose, steady green-grey eyes and a few days' dark stubble. His wavy dark-brown hair is tucked under a red kerchief knotted around his head. He wears a huge, baggy, dark-blue knitted sailor's jacket with wooden buttons that hangs down to his knees, patched canvas trousers and scuffed, salt-stained boots.",
       "portrait": "Background: the door of a tiny hut by the sea."
     },
@@ -133,7 +133,7 @@
       "places": ["skipet"],
       "prompt": "The Ship sails out of a harbour on a bright, breezy morning, its big square sail filling with wind. Along the rail, the Youngest Prince and his eleven older brothers in matching grey-blue coats wave goodbye towards the shore. High on the stern, Ridder Rød grips the big wooden tiller with one hand and puffs out his chest, looking very pleased with himself. Seagulls wheel over the jade-green water.",
       "caption": "Kongen ga dem et stort skip, og til styrmann fikk de Ridder Rød.",
-      "alt": "Tolv prinser vinker fra et stort skip som seiler ut fra land. Bakerst står Ridder Rød ved roret og kneiser."
+      "alt": "Tolv prinser vinker fra et stort skip som seiler ut fra land. Bakerst står Ridder Rød ved roret og ser viktig ut."
     },
     {
       "id": "03",
@@ -275,7 +275,7 @@
       "places": ["skipet"],
       "prompt": "A sunny beach below the royal farm, with the Ship pulled up at the water's edge and flags flying, and the eleven older princes cheering at its rail. The King, in his finest gold-embroidered cloak, laughs with joy while eleven princesses without crowns dance and sing in a ring around him. A little apart, the Youngest Princess stands crying and wiping her tears, and Ridder Rød stands close beside her with his chest puffed out and a smug smile.",
       "caption": "Elleve prinsesser lo og sang. Men den yngste prinsessen gråt.",
-      "alt": "På stranden danser elleve prinsesser rundt kongen. Den yngste prinsessen står litt borte og gråter, og ved siden av henne står Ridder Rød og kneiser."
+      "alt": "På stranden danser elleve prinsesser rundt kongen. Den yngste prinsessen står litt borte og gråter, og ved siden av henne står Ridder Rød og ser viktig ut."
     },
     {
       "id": "18",
@@ -290,12 +290,12 @@
     {
       "id": "19",
       "paragraph": 115,
-      "anchor": "Da kastet kremmeren av seg matroskoften og det røde tørkleet.",
+      "anchor": "Da kastet kremmeren av seg sjømannsjakken og det røde tørkleet.",
       "characters": ["den-yngste-kongssonnen", "kongen", "den-yngste-prinsessen", "ridder-rod"],
       "places": ["storsalen"],
       "prompt": "In the Great Hall, a big dark-blue knitted sailor's jacket and a red kerchief fly through the air, and there stands the Youngest Prince in his forest-green jacket, finer than anyone, smiling. The Youngest Princess beams at him with her hands clasped. The King gapes from his tall chair. Ridder Rød stands stiff as a stick, his face turning tomato red. All twelve princesses now wear their golden crowns, and the eleven sisters cheer in the background.",
       "caption": "Og der sto den yngste kongssønnen, finere enn alle de andre.",
-      "alt": "Kremmeren kaster av seg den store koften og det røde tørkleet, og der står den yngste kongssønnen. Prinsessen stråler, kongen gaper, og Ridder Rød blir rød i ansiktet."
+      "alt": "Kremmeren kaster av seg den store jakken og det røde tørkleet, og der står den yngste kongssønnen. Prinsessen stråler, kongen gaper, og Ridder Rød blir rød i ansiktet."
     },
     {
       "id": "20",
@@ -304,7 +304,7 @@
       "characters": ["den-yngste-kongssonnen", "den-yngste-prinsessen", "kongen"],
       "prompt": "A warm spring evening in the yard of the royal farm, strung with lanterns and flower garlands between the log buildings. Twelve bridal couples dance in a big ring to the music of three fiddlers: in the middle, the Youngest Prince and the Youngest Princess whirl hand in hand, and around them the eleven older princes dance with the eleven older princesses, all the princesses wearing their golden crowns. The King claps along, beaming.",
       "caption": "Det ble tolv bryllup på én gang, med musikk og dans som hørtes i tolv kongeriker.",
-      "alt": "Tolv brudepar danser på tunet på kongsgården. I midten danser den yngste kongssønnen og den yngste prinsessen, og kongen klapper i takt."
+      "alt": "Tolv brudepar danser utenfor kongsgården. I midten danser den yngste kongssønnen og den yngste prinsessen, og kongen klapper i takt."
     }
   ]
 }

@@ -36,7 +36,7 @@
       "slug": "kua",
       "name": "Kua",
       "promptName": "the Cow",
-      "description": "Kua som Hanen, Gjøken og Århanen kjøper sammen på parkeringsplassen ved kjøpesenteret. Hun står rolig i grimen og bryr seg lite om hvem som eier henne.",
+      "description": "Kua som Hanen, Gjøken og Århanen kjøper sammen på parkeringsplassen ved kjøpesenteret. Hun står rolig med et tau om halsen og bryr seg lite om hvem som eier henne.",
       "look": "A gentle, sturdy Norwegian farm cow with a glossy reddish-brown coat, a broad white stripe along her back and down her tail, a white belly, white-speckled legs, a pink nose, big, calm brown eyes with long lashes and two short, pale, upward-curving horns. She wears a blue rope halter with a short lead rope, and chews her cud slowly, unimpressed by everything around her.",
       "portrait": "Background: the gravel farmyard with the red barn."
     }
@@ -45,8 +45,8 @@
   "cover": {
     "prompt": "The small farmyard at dawn, a wide view. In the middle of the gravel yard, the Rooster stands with his chest thrust out, crowing at the pale lemon sky, while the Cow stands beside him, calmly chewing. In the yellow house next door, a window has just flown open, and the Cuckoo sticks his head out, his feathers standing out in all directions, beak open to answer.",
     "characters": ["hanen", "kua", "gjoken"],
-    "caption": "Klokka tolv over fire sto Hanen midt på tunet og gol.",
-    "alt": "Hanen står midt på tunet og galer mot morgenhimmelen, mens kua står ved siden av og tygger. I nabohuset har et vindu slått opp, og Gjøken stikker ut hodet med bustete fjær."
+    "caption": "Klokka tolv over fire sto Hanen midt på gårdsplassen og galte.",
+    "alt": "Hanen står midt på gårdsplassen og galer mot morgenhimmelen, mens kua står ved siden av og tygger. I nabohuset har et vindu slått opp, og Gjøken stikker ut hodet med bustete fjær."
   },
   "illustrations": [
     {
@@ -56,16 +56,16 @@
       "characters": ["hanen", "gjoken", "arhanen", "kua"],
       "prompt": "A shopping-centre car park on a grey Saturday. The Cow stands calmly in her rope halter between two parked station wagons. In front of her, the Rooster holds up his phone in one wing to pay, while the seller, a bearded man in a fleece vest, hands down a folded paper receipt. The Cuckoo leans in close to see who gets it. A little apart, the Black Grouse stands silent, studying the Cow and already planning where she will stand.",
       "caption": "Hanen betalte med mobilen. Århanen sa ingenting.",
-      "alt": "På parkeringsplassen ved kjøpesenteret står ei ku i grime mellom to stasjonsvogner. Hanen betaler med mobilen, Gjøken lener seg inn mot kvitteringen, og Århanen ser på kua."
+      "alt": "På parkeringsplassen ved kjøpesenteret står ei ku med et tau om halsen mellom to stasjonsvogner. Hanen betaler med mobilen, Gjøken lener seg inn mot kvitteringen, og Århanen ser på kua."
     },
     {
       "id": "02",
       "paragraph": 14,
-      "anchor": "«Kjære mine brødre, del som rett er og skjel er, rett er og skjel er! Tsio! Tsi!»",
+      "anchor": "«Kjære mine brødre, del som rett er og rimelig er, rett er og rimelig er! Tsio! Tsi!»",
       "characters": ["arhanen", "hanen", "gjoken", "kua"],
       "prompt": "Twelve minutes past four in the morning in the small farmyard, under a pale lemon sky. On the front steps of the white wooden house, the Black Grouse stands with his glowing phone in one wing and raises the other wing high like a judge. Below him on the gravel, the Rooster and the Cuckoo stand beak to beak with their feathers bristling and turn to look up at him. By the red barn, the Cow watches, chewing.",
-      "caption": "«Kjære mine brødre, del som rett er og skjel er!»",
-      "alt": "Tidlig om morgenen står Århanen på trappa med mobilen i den ene vingen og løfter den andre. Nede på tunet står Hanen og Gjøken nebb mot nebb, og kua ser på."
+      "caption": "«Kjære mine brødre, del som rett er og rimelig er!»",
+      "alt": "Tidlig om morgenen står Århanen på trappa med mobilen i den ene vingen og løfter den andre. Nede på gårdsplassen står Hanen og Gjøken nebb mot nebb, og kua ser på."
     }
   ]
 }

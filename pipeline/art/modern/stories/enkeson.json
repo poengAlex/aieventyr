@@ -132,7 +132,7 @@
       "characters": ["enkesonnen"],
       "prompt": "In a bare room, the Widow's Son kneels at an open trapdoor in the floorboards. Below, a huge round copper cauldron bubbles and steams, with no hotplate, no flame and no cable anywhere beneath it. He holds up his hand and stares at it: the finger he has just dipped in is gilded all over and shines in the gloom. Steam curls up past his astonished face.",
       "caption": "Da han dro den opp igjen, var den forgylt.",
-      "alt": "Gutten kneler ved en åpen lem i gulvet. Der nede koker en stor kobberkjele uten noe under, og gutten stirrer på fingeren sin, som er blitt forgylt."
+      "alt": "Gutten kneler ved en åpen luke i gulvet. Der nede koker en stor kobberkjele uten noe under, og gutten stirrer på fingeren sin, som er blitt forgylt."
     },
     {
       "id": "06",
@@ -173,11 +173,11 @@
     {
       "id": "10",
       "paragraph": 70,
-      "anchor": "Gutten gjorde det, men hvordan det nå gikk til, kom han til å søle noen dråper på lenden til hesten.",
+      "anchor": "Gutten gjorde det, men hvordan det nå gikk til, kom han til å søle noen dråper på ryggen til hesten.",
       "characters": ["enkesonnen-ridder", "hesten", "den-fremmede-mannen"],
       "prompt": "A great new lake lies grey and still under a drizzly sky, ringed by spruce forest. On the near shore stands the Black Horse, dripping from its swim, with the Rusty Knight in the saddle looking back. Along the far shore, a whole army of trolls glinting in shiny helmets and armour lies on their bellies in a long row with their faces in the water, drinking; their bellies swell like barrels. The Stranger lies at the front of the row, his black overcoat spread around him.",
       "caption": "Trollene la seg ned på magen for å drikke vannet tomt.",
-      "alt": "Den svarte hesten står drivvåt på stranda med gutten i salen. På den andre siden av vannet ligger en lang rekke blanke troll på magen og drikker, og magene deres svulmer."
+      "alt": "Den svarte hesten står drivvåt på stranda med gutten i salen. På den andre siden av vannet ligger en lang rekke troll i blanke rustninger på magen og drikker, og magene deres svulmer."
     },
     {
       "id": "11",
@@ -206,8 +206,8 @@
       "characters": ["enkesonnen", "prinsessa"],
       "places": ["kongsgarden"],
       "prompt": "Sunrise at the Royal Estate. At an outdoor water post at the foot of the tall glass summerhouse, the Widow's Son splashes water on his face, his lichen wig hanging on the tap; the low sun lights up his glossy black hair and glowing cheeks. High up at a big window of the main house, the Princess, who has not slept, stands with her arms wrapped round herself and gazes down at him.",
-      "caption": "Uten parykken var han så pen at det var en lyst å se på ham.",
-      "alt": "Gutten vasker seg ved vannposten i soloppgangen, og lavparykken henger på kranen. Oppe i et vindu står prinsessa og ser ned på ham."
+      "caption": "Uten parykken var han så pen at det var en fornøyelse å se på ham.",
+      "alt": "Gutten vasker seg ved vannkrana i soloppgangen, og lavparykken henger på den. Oppe i et vindu står prinsessa og ser ned på ham."
     },
     {
       "id": "14",

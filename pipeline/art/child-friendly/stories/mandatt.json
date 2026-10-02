@@ -107,8 +107,8 @@
       "characters": ["mannens-datter", "kua"],
       "places": ["enga"],
       "prompt": "In the Green Meadow, the Girl has milked the Cow and drunk so much that she has a big white milk moustache on her upper lip. Grinning, she tips the wooden bucket and pours the last of the milk over the Cow's front hooves. The Cow turns her head and looks back at her with half-closed, contented eyes. A close, cheerful view in the warm sunshine.",
-      "caption": "Hun drakk til hun fikk melkeskjegg, og resten helte hun på klauvene.",
-      "alt": "Mannens datter har melket kua og drukket så hun har fått melkeskjegg. Nå heller hun resten av melka over klauvene til kua, som ser fornøyd ut."
+      "caption": "Hun drakk til hun fikk melkeskjegg, og resten helte hun på føttene.",
+      "alt": "Mannens datter har melket kua og drukket så hun har fått melkeskjegg. Nå heller hun resten av melka over føttene til kua, som ser fornøyd ut."
     },
     {
       "id": "04",
@@ -123,20 +123,20 @@
     {
       "id": "05",
       "paragraph": 27,
-      "anchor": "Trollkjerringa hadde lang nese, rødt skaut og et blikk som kunne få melk til å skjære seg.",
+      "anchor": "Trollkjerringa hadde lang nese, rødt hodetørkle og et blikk som kunne få melk til å skjære seg.",
       "characters": ["trollkjerringa", "mannens-datter"],
       "prompt": "Inside the troll hag's single room dug into the earth: stone walls, roots hanging from the low ceiling, a thick beam, and a plank table with one candle and a bowl of mushrooms. The Troll Hag stands behind the table with her arms folded, glaring down her long, knobbly nose. In the round doorway, with sunny green daylight behind her, the Girl stands politely with her hands clasped, looking up at her bravely. Funny rather than frightening.",
       "caption": "Trollkjerringa hadde et blikk som kunne få melk til å skjære seg.",
-      "alt": "Inne i en stue som er gravd inn i jorda, med røtter i taket og et lys på bordet, står trollkjerringa med rødt skaut og lang nese og glor. Mannens datter står pent i døra."
+      "alt": "Inne i en stue som er gravd inn i jorda, med røtter i taket og et lys på bordet, står trollkjerringa med rødt hodetørkle og lang nese og glor. Mannens datter står pent i døra."
     },
     {
       "id": "06",
       "paragraph": 36,
-      "anchor": "Mannens datter klinte leire i soldet og stakk strå i hullene.",
+      "anchor": "Mannens datter smurte leire i silen og stakk strå i hullene.",
       "characters": ["mannens-datter", "smafuglene"],
       "prompt": "At the stone well in front of the troll hag's grassy mound, the Girl carefully lifts a round wooden sieve with its bottom smeared with grey clay and little straws poked into the holes. Now it holds the water, brimming full without spilling a single drop, and she smiles in surprise. On the rim of the well sit the Little Birds, all three of them, singing with their beaks wide open. Bright sunshine.",
       "caption": "«Klin i leire, stikk i strå!» sang småfuglene.",
-      "alt": "Ved brønnen løfter Mannens datter soldet, som er tettet med leire og strå, og nå holder det på vannet. På brønnkanten sitter tre små fugler og synger."
+      "alt": "Ved brønnen løfter Mannens datter silen, som er tettet med leire og strå, og nå holder den på vannet. På brønnkanten sitter tre små fugler og synger."
     },
     {
       "id": "07",
@@ -144,7 +144,7 @@
       "anchor": "Mannens datter sprutet en liten stråle melk bort til fuglene, og de drakk og kvitret.",
       "characters": ["mannens-datter", "smafuglene"],
       "prompt": "In the troll hag's low, dark cowshed with straw on the floor, three black cows stand as still and good as little lambs. The Girl sits on a milking stool beside the nearest cow and, laughing, squirts a thin stream of milk towards the small window, where the Little Birds, all three of them, sit on the ledge catching the drops in their open beaks. A beam of sunlight falls through the window.",
-      "caption": "«Liten streng, liten sup, til alle småfugler sprut!»",
+      "caption": "«Liten skvett, liten slurk, til alle småfugler sprut!»",
       "alt": "I fjøset sitter Mannens datter og melker, og kyrne står stille. Hun spruter en liten stråle melk bort til tre små fugler i vinduet, som drikker og kvitrer."
     },
     {
@@ -164,7 +164,7 @@
       "places": ["enga"],
       "prompt": "In the Green Meadow, the big old apple tree, its branches now free of apples, has lowered its leafy branches all around the Girl like a green tent, and a neat pile of red apples lies at its roots. Only a glimpse of her blue headscarf and the blue chest shows between the leaves, and the tree's kind bark face gives a little wink. Far back along the path, the Troll Hag comes stomping towards the tree in her big wooden clogs, her red headscarf flapping.",
       "caption": "Greinene senket seg rundt henne som et grønt telt.",
-      "alt": "Epletreet har senket greinene rundt Mannens datter som et grønt telt, så bare litt av det blå skautet hennes synes. Langt borte på stien kommer trollkjerringa trampende."
+      "alt": "Epletreet har senket greinene rundt Mannens datter som et grønt telt, så bare litt av det blå hodetørkleet hennes synes. Langt borte på stien kommer trollkjerringa trampende."
     },
     {
       "id": "10",

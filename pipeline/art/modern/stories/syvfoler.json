@@ -28,7 +28,7 @@
       "name": "Den gamle strikkekona",
       "promptName": "the Knitting Woman",
       "replacesPortrait": "den-gamle-strikkekona",
-      "description": "En krokrygget fristerinne ved bergsprekken som lokker med trøst og hvile for å få gjeterne til å svikte.",
+      "description": "Ei krokrygget gammel kone ved bergsprekken som lokker med trøst og hvile for å få gjeterne til å svikte.",
       "look": "A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She wears many layered cardigans and scarves in faded blue, brown, plum and grey over a long dark skirt, fingerless mittens and worn felt boots, and she is always knitting something very long and grey.",
       "portrait": "Background: the narrow rock cleft by the mountain path."
     },
@@ -89,7 +89,7 @@
       "places": ["kongsgarden"],
       "prompt": "Early morning in the vast gravel courtyard of the Royal Estate. The stable doors stand open, and seven chestnut foals are racing away up the steep green hillside, the smallest with a white star on his forehead. The King stands in the middle of the courtyard holding a drone remote control, staring grimly after a small white drone that buzzes away over the ridge behind the foals, getting smaller and smaller.",
       "caption": "Kongen hadde sendt opp en drone. Den kom aldri tilbake.",
-      "alt": "Kongen står på det store tunet med en fjernkontroll og ser en liten drone forsvinne over åsen etter sju føll som løper oppover lia."
+      "alt": "Kongen står på den store gårdsplassen med en fjernkontroll og ser en liten drone forsvinne over åsen etter sju føll som løper oppover lia."
     },
     {
       "id": "02",
@@ -118,7 +118,7 @@
       "places": ["kongsgarden"],
       "prompt": "Dusk in the courtyard of the Royal Estate, the castle windows glowing. The Eldest Brother holds out a handful of moss and a bottle of brook water with a hopeful grin. The King, in his long dark coat, looks at the moss, then at the boy, for a long moment, and gives a small nod over his shoulder to two guards in dark uniforms, who step forward from beside the guard hut.",
       "caption": "Kongen så lenge på gutten. Så nikket han til vaktene.",
-      "alt": "Den eldste broren holder fram mose og ei flaske bekkevann på tunet. Kongen ser lenge på ham og nikker til to vakter som kommer fram ved vaktbua."
+      "alt": "Den eldste broren holder fram mose og ei flaske bekkevann på gårdsplassen. Kongen ser lenge på ham og nikker til to vakter som kommer fram ved vaktbua."
     },
     {
       "id": "05",
@@ -183,7 +183,7 @@
       "places": ["kongsgarden"],
       "prompt": "Nearly dark in the courtyard of the Royal Estate, light spilling from the open front door. The King stands holding a communion wafer, still lost for words. Behind him in the doorway the Princess, arms folded, looks past her father at Askeladden, taking in the mud on his trousers and the twig in his hair, with an amused, interested smile. Askeladden looks back at her, holding a bottle of communion wine.",
       "caption": "«Meg kan du ikke gi bort. Men vi kan jo snakke sammen.»",
-      "alt": "Kongen står med alterbrødet i hånda på tunet. Bak ham i døra står prinsessa med armene i kors og smiler til Askeladden, som har gjørme på buksene og kvist i håret."
+      "alt": "Kongen står med alterbrødet i hånda på gårdsplassen. Bak ham i døra står prinsessa med armene i kors og smiler til Askeladden, som har gjørme på buksene og kvist i håret."
     },
     {
       "id": "12",

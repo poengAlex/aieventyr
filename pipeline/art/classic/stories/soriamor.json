@@ -71,7 +71,7 @@
       "variants": {
         "simplified": {
           "name": "Den mellomste prinsessa",
-          "description": "Den mellomste av de tre prinsessene, fanget hos trollet med seks hoder. Da hun blir berget, blir hun så glad at hun ikke vet hvilket bein hun skal stå på."
+          "description": "Den mellomste av de tre prinsessene, fanget hos trollet med seks hoder. Da hun blir reddet, blir hun så glad at hun ikke vet hvilket bein hun skal stå på."
         },
         "english": {
           "name": "The Middle Princess",
@@ -252,8 +252,8 @@
         "simplified": {
           "paragraph": 4,
           "anchor": "Jo, det hadde Halvor.",
-          "caption": "For en gangs skyld var Halvor ikke sen om å komme seg opp av grua.",
-          "alt": "Halvor kommer seg opp av aska i grua. I den lave døra står en skipper og vinker, og langt der nede på fjorden ligger et seilskip."
+          "caption": "For en gangs skyld var Halvor rask med å komme seg opp fra peisen.",
+          "alt": "Halvor kommer seg opp fra aska ved peisen. I den lave døra står en skipper og vinker, og langt der nede på fjorden ligger et seilskip."
         },
         "english": {
           "paragraph": 1,
@@ -272,7 +272,7 @@
           "paragraph": 11,
           "anchor": "Litt lenger borte fant han en stor vei.",
           "caption": "Langt borte lå et stort slott. Det lyste fra hvert eneste vindu.",
-          "alt": "Halvor går alene på en bred, slett vei gjennom et tomt land i skumringen. Langt borte ligger et stort slott med lys i alle vinduene."
+          "alt": "Halvor går alene på en bred, jevn vei gjennom et tomt land i skumringen. Langt borte ligger et stort slott med lys i alle vinduene."
         },
         "english": {
           "paragraph": 7,
@@ -426,7 +426,7 @@
       "variants": {
         "simplified": {
           "paragraph": 63,
-          "anchor": "Det var i mørkningen.",
+          "anchor": "Det var i skumringen.",
           "caption": "De gamle bukket og neide og visste ikke hvor de skulle gjøre av seg.",
           "alt": "En fin herre har kommet inn gjennom den lave døra i den lille stua. Den gamle mannen bukker dypt med lua i hendene, og kona neier."
         },
@@ -448,7 +448,7 @@
           "paragraph": 74,
           "anchor": "Om litt gikk hun bort for å rake i glørne.",
           "caption": "«Men jammen er det deg, Halvor!»",
-          "alt": "Halvor sitter i aska i grua i sine fine klær. Mora raker i glørne, og skinnet fra ilden lyser opp ansiktet hans. Faren ser opp fra benken."
+          "alt": "Halvor sitter i aska ved peisen i sine fine klær. Mora raker i glørne, og skinnet fra ilden lyser opp ansiktet hans. Faren ser opp fra benken."
         },
         "english": {
           "paragraph": 61,
@@ -503,9 +503,9 @@
       "variants": {
         "simplified": {
           "paragraph": 99,
-          "anchor": "Da kvelden kom, slo han seg ned under et stort tre på en grønn voll.",
+          "anchor": "Da kvelden kom, slo han seg ned under et stort tre på en grønn eng.",
           "caption": "Sove gjorde han ikke, for han hadde ikke ro på seg.",
-          "alt": "Halvor sitter våken under et stort tre på en grønn voll om natta og spiser av matsekken. Hesten beiter i måneskinnet."
+          "alt": "Halvor sitter våken under et stort tre på en grønn eng om natta og spiser av matsekken. Hesten beiter i måneskinnet."
         },
         "english": {
           "paragraph": 82,
@@ -524,7 +524,7 @@
           "paragraph": 109,
           "anchor": "«Du måne! Du måne!» skrek hun.",
           "caption": "«Du måne! Du måne! Kan du si meg veien til Soria Moria slott?»",
-          "alt": "Kona med den lange nesa står på tunet utenfor ei lita stue i skogen og roper opp mot fullmånen. Ved døra står hesten og henger med hodet."
+          "alt": "Kona med den lange nesa står utenfor ei lita hytte i skogen og roper opp mot fullmånen. Ved døra står hesten og henger med hodet."
         },
         "english": {
           "paragraph": 92,
@@ -561,7 +561,7 @@
         "simplified": {
           "paragraph": 121,
           "anchor": "«Heng med, da, hvis du skal ha følge!» sa vestavinden.",
-          "caption": "Over hei og ås, over fjell og fjære!",
+          "caption": "Over skog og ås, over fjell og fjord!",
           "alt": "Halvor tar et kjempeskritt fra fjelltopp til fjelltopp i måneskinnet. Ved siden av ham suser vestavinden med løv og barnåler virvlende etter seg."
         },
         "english": {
@@ -581,7 +581,7 @@
           "paragraph": 127,
           "anchor": "Så var det tid for å skåle for bruden, slik skikken var.",
           "caption": "Halvor drakk. Så slapp han ringen ned i glasset.",
-          "alt": "Helt bakerst i den store salen slipper Halvor, fillete etter reisen, en gullring ned i glasset som skjenkeren holder. Langt borte sitter bruden med sølvkrone."
+          "alt": "Helt bakerst i den store salen slipper Halvor, fillete etter reisen, en gullring ned i glasset som en tjener holder. Langt borte sitter bruden med sølvkrone."
         },
         "english": {
           "paragraph": 107,

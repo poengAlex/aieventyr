@@ -19,7 +19,7 @@
       "name": "Vårherre",
       "promptName": "Our Lord",
       "replacesPortrait": "vor-herre",
-      "description": "En rolig vandringsmann som skor en hest på et blunk, gjør smedens gamle mor ung igjen og gir smeden tre ønsker.",
+      "description": "En rolig mann på vandring som setter sko på en hest på et blunk, gjør smedens gamle mor ung igjen og gir smeden tre ønsker.",
       "look": "A calm, slim traveller of about forty-five with an upright bearing, an oval face, a straight nose, warm dark-brown eyes with smile lines, short curly dark-brown hair with a few silver threads and a short, neat dark-brown beard. He wears a long, hooded slate-grey travelling cloak over a plain undyed linen tunic tied with a cord, and worn leather sandals. He looks like an ordinary, humble wanderer, with no halo.",
       "portrait": "Background: the dusty country road in hot summer sunshine."
     },
@@ -28,7 +28,7 @@
       "name": "Sankt Peter",
       "promptName": "St Peter",
       "replacesPortrait": "sankt-peter",
-      "description": "Vårherres følgesvenn, som sier at smeden heller burde ha ønsket seg å bli venn med Vårherre, og som til slutt setter himmelporten på gløtt.",
+      "description": "Vårherres venn og reisekamerat, som sier at smeden heller burde ha ønsket seg å bli venn med Vårherre, og som til slutt setter himmelporten på gløtt.",
       "look": "A tall, broad-shouldered old fisherman of about seventy with a weathered, ruddy face, a big round nose, pale blue eyes under bushy white eyebrows and a thick, curly white beard. He wears a navy-blue fisherman's cap with a short peak, a long rust-brown coat over a grey sailcloth smock, rolled-up dark trousers and sturdy boots. A big, old iron key hangs from a leather cord at his belt. No halo.",
       "portrait": "Background: soft white clouds."
     },
@@ -77,8 +77,8 @@
       "characters": ["smeden", "vor-herre", "sankt-peter"],
       "places": ["smia"],
       "prompt": "Inside the Smithy, the Smith stands beside his anvil and stretches himself up as tall as he can, chest puffed out, chin in the air and thumbs hooked behind his apron straps, grinning boastfully. Our Lord has just stepped in through the wide-open doors and looks at him calmly with a kind little smile, while St Peter peers in over his shoulder with raised eyebrows. Hot, bright sunshine streams in behind them.",
-      "caption": "Smeden strekker på seg og skryter til de to vandringsmennene.",
-      "alt": "Inne i smia står smeden ved ambolten og strekker på seg for å se stor og viktig ut. I døråpningen står en rolig vandringsmann med mørkt skjegg og smiler, og bak ham kikker en gammel mann med fiskerlue inn."
+      "caption": "Smeden strekker på seg og skryter til de to mennene.",
+      "alt": "Inne i smia står smeden ved ambolten og strekker på seg for å se stor og viktig ut. I døråpningen står en rolig mann med mørkt skjegg og smiler, og bak ham kikker en gammel mann med fiskerlue inn."
     },
     {
       "id": "02",
@@ -87,8 +87,8 @@
       "characters": ["vor-herre", "smeden"],
       "places": ["smia"],
       "prompt": "Just inside the wide-open doors of the Smithy, Our Lord kneels beside a patient brown horse with its last hoof resting on his knee, tapping a new horseshoe into place with a small hammer, quick as a wink. Three shiny new shoes already sit on the other hooves. The Smith stands by the glowing forge with his mouth hanging open. The horse's owner, a stocky farmer in a straw hat, holds the halter and beams.",
-      "caption": "Tikk, tikk, tikk! Vårherre skor hesten før smeden rekker å blunke.",
-      "alt": "Vårherre har satt seg på kne ved en brun hest og slår en ny hestesko på plass med en liten hammer. Smeden står ved essa og gaper, og bonden som eier hesten, smiler fornøyd."
+      "caption": "Tikk, tikk, tikk! Vårherre setter sko på hesten før smeden rekker å blunke.",
+      "alt": "Vårherre har satt seg på kne ved en brun hest og slår en ny hestesko på plass med en liten hammer. Smeden står ved ilden og gaper, og bonden som eier hesten, smiler fornøyd."
     },
     {
       "id": "03",
@@ -98,7 +98,7 @@
       "places": ["smia"],
       "prompt": "Inside the Smithy, the Smith's mother, who came in bent double with age a moment ago, now stands young and straight with rosy cheeks, in her long brown dress, white headscarf and black shawl, and dances towards the open doors with her skirt swirling. Her old wooden walking stick lies forgotten on the floor. Our Lord stands by the glowing forge and smiles, and the Smith stares after her, scratching his head.",
       "caption": "Rynkene glatter seg ut, og mora til smeden danser hjem, ung og fin.",
-      "alt": "Mora til smeden er blitt ung igjen, med røde kinn, og danser mot døra. Stokken hennes ligger igjen på gulvet. Vårherre smiler ved essa, og smeden klør seg i håret."
+      "alt": "Mora til smeden er blitt ung igjen, med røde kinn, og danser mot døra. Stokken hennes ligger igjen på gulvet. Vårherre smiler ved ilden, og smeden klør seg i håret."
     },
     {
       "id": "04",
@@ -118,7 +118,7 @@
       "places": ["smia"],
       "prompt": "By the glowing forge in the Smithy, a prim, thin old woman in a lilac dress and a black bonnet sits bolt upright on the three-legged stool, clutching her folded black umbrella. Her face and hands are covered in black soot like a chimney sweep's, and only her cross, blinking eyes show white. The Smith stands at the big bellows with a sheepish grin as the last grey smoke drifts away, and Our Lord watches from the doorway.",
       "caption": "Kona er like gammel som før, bare svart i ansiktet som en skorsteinsfeier.",
-      "alt": "Ei gammel kone sitter på en krakk ved essa med paraplyen sin. Ansiktet hennes er helt svart av sot. Smeden står ved blåsebelgen og ser flau ut, og Vårherre ser på fra døra."
+      "alt": "Ei gammel kone sitter på en krakk ved ilden med paraplyen sin. Ansiktet hennes er helt svart av sot. Smeden står ved blåsebelgen og ser flau ut, og Vårherre ser på fra døra."
     },
     {
       "id": "06",

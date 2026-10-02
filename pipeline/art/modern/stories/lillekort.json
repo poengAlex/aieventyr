@@ -18,7 +18,7 @@
       "slug": "lillekort-gull",
       "name": "Lillekort i gullkledningen",
       "promptName": "Lillekort in Gold",
-      "description": "Lillekort i gullkledningen som prinsesse Nora trakk på ham mens han sov. Den er tynn som folie, og han skjuler den under hettegenseren helt til bryllupet.",
+      "description": "Lillekort i gulldrakten som prinsesse Nora trakk på ham mens han sov. Den er tynn som folie, og han skjuler den under hettegenseren helt til bryllupet.",
       "look": "The same small, bold boy, the size of a child of about six, with a round face, rosy cheeks, a small button nose, big bright cornflower-blue eyes, a determined little chin and a mop of golden curls under his oversized blue-and-white striped beanie. He now wears a shining garment of gold as thin as foil, which fits him like a second skin from neck to wrists and ankles and glows with its own warm light, with his worn white trainers still on his feet.",
       "portrait": "Background: the Banquet Hall under its glittering light panels."
     },
@@ -118,7 +118,7 @@
       "name": "Havtrollet",
       "promptName": "the Sea Troll",
       "replacesPortrait": "havtrollet",
-      "description": "Et urgammelt, havbundet troll som lever i en steinfestning på havbunnen og krever det umulige—til Lillekort vender trollfesten mot dem selv med et brygg som slår selv monsterkrefter ut.",
+      "description": "Et urgammelt troll som lever i en steinfestning på havbunnen og krever det umulige—til Lillekort vender trollfesten mot dem selv med et brygg som slår selv monsterkrefter ut.",
       "look": "A fat, hot-tempered troll about three times as tall as a man, with smooth, shiny turquoise skin like a wet fish, a barrel belly, short bowed legs and big flat webbed feet. He has one huge head with a gigantic, wrinkly, trumpet-shaped nose that is always sniffing, bulging pale-orange eyes, bristly orange eyebrows and a long tangle of brown kelp for hair and beard, crusted with salt. He wears baggy faded yellow oilskin trousers held up by a rope and a necklace of big shells.",
       "portrait": "Background: the Troll Hall with its rusty pipes and red-glowing oven."
     }
@@ -229,8 +229,8 @@
       "characters": ["prinsesse-nora", "lillekort"],
       "places": ["stranden"],
       "prompt": "Late at night on the Beach, in soft orange moonlight and silver mist, Princess Nora, in her black coat, sits on the flat stone with Lillekort fast asleep in her lap, his mouth open and his beanie over one eye. Smiling, she smooths a shining garment of gold, thin as foil, onto him like a second skin, his hoodie folded beside her. The beach is empty except for a black ship rocking at the water's edge.",
-      "caption": "Mens han sov, trakk hun en gullkledning på ham, tynn som folie.",
-      "alt": "Prinsesse Nora sitter på en stein med Lillekort sovende i fanget og trekker en tynn, skinnende gullkledning på ham. Ute i vannkanten ligger et svart skip."
+      "caption": "Mens han sov, trakk hun en gulldrakt på ham, tynn som folie.",
+      "alt": "Prinsesse Nora sitter på en stein med Lillekort sovende i fanget og trekker en tynn, skinnende gulldrakt på ham. Ute i vannkanten ligger et svart skip."
     },
     {
       "id": "10",
@@ -238,7 +238,7 @@
       "anchor": "Lillekort kom opp på kjøkkenet med et fang gull- og sølvbøyler fra trollskipet.",
       "characters": ["lillekort", "kokken"],
       "prompt": "In the castle kitchen, lit by the glow of the wood-fired range, Lillekort stands in the doorway in his hoodie with his arms piled high with shining gold and silver hoops, the kind that go round buckets and barrels, and looks up with a perfectly innocent face. The Cook has dropped her wooden spoon and stares at all the gold, alarmed. The wood box by the range is empty.",
-      "caption": "Da kokken fikk se alt gullet og sølvet, ble hun rent redd.",
+      "caption": "Da kokken fikk se alt gullet og sølvet, ble hun nesten redd.",
       "alt": "Lillekort står i kjøkkendøra med armene fulle av bøyler av gull og sølv og ser uskyldig ut. Kokken har mistet sleiva og stirrer forskrekket på gullet."
     },
     {
@@ -254,11 +254,11 @@
     {
       "id": "12",
       "paragraph": 78,
-      "anchor": "«Tvi!» sa Lillekort.",
+      "anchor": "«Pøh!» sa Lillekort.",
       "characters": ["trollet-ti", "lillekort", "prinsesse-nora"],
       "places": ["stranden"],
       "prompt": "Night on the Beach in drifting silver mist. The Ten-Headed Troll, twice as big as the first, looms over the sand with its huge iron bar driven into the beach beside Lillekort, and sand is still raining down from a fountain ten metres high. Lillekort, in his hoodie, stands unhurt and unimpressed with one hand on his hip, scoffing up at all ten heads and reaching for his scrap-looking sword. Princess Nora, in her black coat, huddles on the flat stone.",
-      "caption": "«Tvi! Det var noe, det også!»",
+      "caption": "«Pøh! Det var noe, det også!»",
       "alt": "Et troll med ti hoder har slått jernstanga ned i sanden ved siden av Lillekort, så sanden spruter. Lillekort står med hånda i siden og ler av det, og Nora sitter på steinen."
     },
     {
@@ -288,8 +288,8 @@
       "characters": ["lillekort-gull", "ridder-rod", "prinsesse-nora", "kongen"],
       "places": ["festsalen"],
       "prompt": "In the Banquet Hall, under glittering light panels, with black drapes still hanging along the walls, Lillekort in Gold stands beside the long table set with silver and crystal, shining so brightly that the whole hall is lit. His hoodie, his kitchen rags, a brass garment and a silver garment lie in a heap at his feet. Sir Red has let his hand drop and gapes, red-faced, and Princess Nora rises from the seat of honour, beaming. The King and ten guests sit silent.",
-      "caption": "Der sto han i gullkledningen, så blank og gild at det lyste av ham.",
-      "alt": "Lillekort står i en skinnende gullkledning ved langbordet, med hettegenseren, messingen og sølvet i en haug ved føttene. Ridder Rød måper, og prinsesse Nora reiser seg og smiler."
+      "caption": "Der sto han i gulldrakten, så blank og flott at det lyste av ham.",
+      "alt": "Lillekort står i en skinnende gulldrakt ved langbordet, med hettegenseren, messingen og sølvet i en haug ved føttene. Ridder Rød måper, og prinsesse Nora reiser seg og smiler."
     },
     {
       "id": "16",
@@ -299,16 +299,16 @@
       "places": ["festsalen"],
       "prompt": "In the Banquet Hall, the King leans over the long table and compares the two proofs laid before him: on one side, three knotted freezer bags, frosted white so that nothing can be seen inside, which Sir Red pushes forward with sweat on his brow; on the other, a glittering heap of gold, silver and precious stones so big that the table sags. Lillekort in Gold stands beside the treasure with his hands on his hips.",
       "caption": "«Den som har så kostbare ting, han må ha drept trollene.»",
-      "alt": "Kongen sammenligner fryseposene til Ridder Rød med en stor haug gull, sølv og edelsteiner. Ved siden av skatten står Lillekort i gullkledningen."
+      "alt": "Kongen sammenligner fryseposene til Ridder Rød med en stor haug gull, sølv og edelsteiner. Ved siden av skatten står Lillekort i gulldrakten."
     },
     {
       "id": "17",
       "paragraph": 116,
-      "anchor": "Nede på kaia fikk ingen løftet trossa",
+      "anchor": "Nede på kaia fikk ingen løftet kjettingen,",
       "characters": ["lillekort-gull", "kongen"],
       "prompt": "On a busy quay below the castle on a windy morning, a crowd of hundreds of young conscripts in green uniforms stands by pallets of food, staring. Lillekort in Gold drags one end of an enormous iron chain and feeds its first links into a small metal ship at the edge of the quay, and with every link the ship is unfolding and growing, lights switching on along its hull. The rest of the chain lies coiled in a huge heap. The King laughs in astonishment.",
-      "caption": "Etter hvert som trossa gikk i, vokste skipet.",
-      "alt": "På kaia legger Lillekort de første leddene av en diger jerntrosse i et lite metallskip, som vokser og folder seg ut. Hundrevis av vernepliktige og kongen ser forbløffet på."
+      "caption": "Etter hvert som kjettingen gikk i, vokste skipet.",
+      "alt": "På kaia legger Lillekort de første leddene av en diger jernkjetting i et lite metallskip, som vokser og folder seg ut. Hundrevis av vernepliktige og kongen ser forbløffet på."
     },
     {
       "id": "18",
@@ -318,7 +318,7 @@
       "places": ["trollhallen"],
       "prompt": "In the Troll Hall on the sea floor, lit by sea-green light seeping through cracks and the red glow of the great stone oven, the Elder Princess has just looked up from her sewing and claps her hands together in astonishment. In the round doorway stands Lillekort in Gold, dripping wet, with a strand of seaweed on his beanie and the end of the huge iron chain tied round his waist, trailing out behind him past rusty pipes.",
       "caption": "Der satt den andre prinsessa og sydde.",
-      "alt": "I trollhallen på havbunnen ser den eldste prinsessa opp fra sytøyet og slår hendene sammen. I døråpningen står Lillekort, dryppende våt, med jerntrossa rundt livet."
+      "alt": "I trollhallen på havbunnen ser den eldste prinsessa opp fra sytøyet og slår hendene sammen. I døråpningen står Lillekort, dryppende våt, med jernkjettingen rundt livet."
     },
     {
       "id": "19",
@@ -343,11 +343,11 @@
     {
       "id": "21",
       "paragraph": 147,
-      "anchor": "Da vørteren var ferdig, skulle alle smake, først Havtrollet selv.",
+      "anchor": "Da ølet var ferdig, skulle alle smake, først Havtrollet selv.",
       "characters": ["havtrollet", "lillekort-gull", "eldste-prinsessa"],
       "places": ["trollhallen"],
       "prompt": "The Troll Hall, full of steam and red firelight. Lillekort in Gold stands calmly by a huge, smoking brewing vat with a long ladle, while the Sea Troll lifts a bowl as big as a bathtub to his mouth and drinks the dark brew greedily, first of all. Behind him a crowd of trolls of every shape and size jostle with their bowls, waiting their turn. The Elder Princess stands in the closet door with her hands over her mouth.",
-      "caption": "Da vørteren var ferdig, skulle alle smake, først Havtrollet selv.",
+      "caption": "Da ølet var ferdig, skulle alle smake, først Havtrollet selv.",
       "alt": "I den dampende trollhallen drikker Havtrollet grådig av en skål så stor som et badekar. Lillekort står rolig ved bryggekaret, og prinsessa holder seg for munnen i kottdøra."
     },
     {
@@ -362,11 +362,11 @@
     {
       "id": "23",
       "paragraph": 157,
-      "anchor": "Og så daska han til Lillekort, så han trillet bortover plenen.",
+      "anchor": "Og så dasket han til Lillekort, så han trillet bortover plenen.",
       "characters": ["kong-lavring", "lillekort-gull"],
       "prompt": "On the big lawn in front of the castle on a breezy afternoon, Lavring stands with his fists on his hips and a cross frown, having just given his brother a clout. Lillekort in Gold goes rolling head over heels across the grass like a shining golden ball, his beanie flying off. Up in the castle, the window panes are still quivering from all his shouting.",
-      "caption": "Og så daska han til Lillekort, så han trillet bortover plenen.",
-      "alt": "Kong Lavring står sint med hendene i siden på plenen foran slottet, mens Lillekort i gullkledningen triller rundt og rundt bortover gresset."
+      "caption": "Og så dasket han til Lillekort, så han trillet bortover plenen.",
+      "alt": "Kong Lavring står sint med hendene i siden på plenen foran slottet, mens Lillekort i gulldrakten triller rundt og rundt bortover gresset."
     },
     {
       "id": "24",

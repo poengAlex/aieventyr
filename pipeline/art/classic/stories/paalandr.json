@@ -99,8 +99,8 @@
     "places": ["gaarden"],
     "variants": {
       "simplified": {
-        "caption": "Tjenestegutten veddet ti daler på at kjerringa skulle avsløre seg selv.",
-        "alt": "Tjenestegutten sitter på skigarden og kaster en sølvmynt i lufta med et lurt glis. Oppe på tunet står kjerringa i døra og vinker, og Pål lister seg bort mot henne."
+        "caption": "Tjenestegutten veddet ti sølvmynter på at kjerringa skulle avsløre seg selv.",
+        "alt": "Tjenestegutten sitter på gjerdet og kaster en sølvmynt i lufta med et lurt glis. Oppe på gårdsplassen står kjerringa i døra og vinker, og Pål lister seg bort mot henne."
       },
       "english": {
         "caption": "The farmhand bet ten daler that he could make the wife give herself away.",
@@ -119,7 +119,7 @@
           "paragraph": 4,
           "anchor": "Så var det en dag gutten og den døve mannen sto på låven og tresket.",
           "caption": "Da fikk gutten se at Pål Andrestuen smatt inn til kjerringa. Han sa ingenting.",
-          "alt": "Den døve mannen tresker korn på låvegulvet og merker ingenting. Tjenestegutten har stanset og kikker ut av den store låvedøra. Borte på tunet lister Pål seg inn i våningshuset."
+          "alt": "Den døve mannen tresker korn på låvegulvet og merker ingenting. Tjenestegutten har stanset og kikker ut av den store låvedøra. Borte på gårdsplassen lister Pål seg inn i våningshuset."
         },
         "english": {
           "paragraph": 4,
@@ -138,7 +138,7 @@
           "paragraph": 11,
           "anchor": "Mannen og gutten spiste til fatet var tomt",
           "caption": "Mannen og gutten spiste til fatet var tomt, og kjerringa fulgte hver skje med øynene.",
-          "alt": "Mannen og tjenestegutten sitter ved bordet og spiser rømmegrøt fra et stort fat. Kjerringa står ved grua med armene i kors og ser sur ut. Gjennom en glipe i kammersdøra kikker Pål ut."
+          "alt": "Mannen og tjenestegutten sitter ved bordet og spiser rømmegrøt fra et stort fat. Kjerringa står ved peisen med armene i kors og ser sur ut. Gjennom en glipe i soveromsdøra kikker Pål ut."
         },
         "english": {
           "paragraph": 10,
@@ -156,9 +156,9 @@
       "variants": {
         "simplified": {
           "paragraph": 20,
-          "anchor": "Så satte de seg i graset og levde godt på lefse og smør",
-          "caption": "Så satte de seg i graset og levde godt på lefse og smør, med en dram attåt.",
-          "alt": "Mannen og tjenestegutten sitter i graset ved skigarden og spiser lefse med smør, og mannen løfter en liten dram. Kjerringa står over dem med et sint ansikt, og gutten blunker til henne."
+          "anchor": "Så satte de seg i gresset og koste seg med lefse og smør,",
+          "caption": "Så satte de seg i gresset og koste seg med lefse og smør, med en dram til.",
+          "alt": "Mannen og tjenestegutten sitter i gresset ved gjerdet og spiser lefse med smør, og mannen løfter en liten dram. Kjerringa står over dem med et sint ansikt, og gutten blunker til henne."
         },
         "english": {
           "paragraph": 19,
@@ -178,7 +178,7 @@
           "paragraph": 28,
           "anchor": "Ja, mannen tok øksa og gikk.",
           "caption": "Pål tok beina fatt og løp det forteste han kunne.",
-          "alt": "Pål springer for livet over åkeren og lar plogen stå igjen. Den døve mannen kommer rolig bortover stien med øksa på skulderen. Ved skigarden står kjerringa og tjenestegutten og ser på."
+          "alt": "Pål springer for livet over åkeren og lar plogen stå igjen. Den døve mannen kommer rolig bortover stien med øksa på skulderen. Ved gjerdet står kjerringa og tjenestegutten og ser på."
         },
         "english": {
           "paragraph": 27,
@@ -196,9 +196,9 @@
       "variants": {
         "simplified": {
           "paragraph": 37,
-          "anchor": "«Nå er de ti dalerne mine!» ropte gutten.",
-          "caption": "«Nå er de ti dalerne mine!» ropte gutten.",
-          "alt": "Kjerringa springer oppover enga mot huset og skriker. Bak henne kommer den døve mannen springende med hendene fulle av lefsebiter. Nede ved skigarden vifter tjenestegutten med lua og roper."
+          "anchor": "«Nå er de ti sølvmyntene mine!» ropte gutten.",
+          "caption": "«Nå er de ti sølvmyntene mine!» ropte gutten.",
+          "alt": "Kjerringa springer oppover enga mot huset og skriker. Bak henne kommer den døve mannen springende med hendene fulle av lefsebiter. Nede ved gjerdet vifter tjenestegutten med lua og roper."
         },
         "english": {
           "paragraph": 36,

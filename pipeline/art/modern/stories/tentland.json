@@ -26,7 +26,7 @@
       "slug": "fiskeren",
       "name": "Fiskeren",
       "promptName": "the Fisherman",
-      "description": "Guttens far, som har levert fisk til kongens kjøkken i tjue år, og som lover bort det han ikke vet at konen bærer under beltet.",
+      "description": "Guttens far, som har levert fisk til kongens kjøkken i tjue år, og som lover bort det han ikke vet at konen bærer på.",
       "look": "A lean, wiry fisherman of about forty-five with a long, weather-beaten face, deep laughter lines, a sharp nose, kind, crinkly blue eyes and a long, drooping black moustache but no beard. He wears a round, brimless old sealskin cap, a thick grey wool jumper, orange oilskin bib trousers and white rubber boots.",
       "portrait": "Background: his small white fishing boat on the grey fjord."
     },
@@ -100,11 +100,11 @@
     {
       "id": "01",
       "paragraph": 3,
-      "anchor": "«Får jeg det som konen din bærer under beltet», sa det, «skal du få fisk nok.»",
+      "anchor": "«Får jeg det som konen din bærer på», sa det, «skal du få fisk nok.»",
       "characters": ["fiskeren"],
       "prompt": "Late on a grey October afternoon, the Fisherman stands in his small white fibreglass fishing boat on the dark fjord, a rod in his hands and an empty fish box at his feet. A couple of metres from the side, a strange, pale head with long strands of kelp for hair has risen out of the water, only the head, and it stares at him with a sly, patient smile. The Fisherman stares back, frozen. Mountains and a few lit houses line the far shore.",
-      "caption": "«Får jeg det som konen din bærer under beltet», sa det, «skal du få fisk nok.»",
-      "alt": "Fiskeren står i den lille båten sin på fjorden en grå oktoberkveld. Et par meter fra ripen har et underlig hode med tang i håret dukket opp av sjøen og ser på ham."
+      "caption": "«Får jeg det som konen din bærer på», sa det, «skal du få fisk nok.»",
+      "alt": "Fiskeren står i den lille båten sin på fjorden en grå oktoberkveld. Et par meter fra båten har et underlig hode med tang i håret dukket opp av sjøen og ser på ham."
     },
     {
       "id": "02",
@@ -196,7 +196,7 @@
       "characters": ["den-unge-kongen"],
       "prompt": "In the yard of a small log cabin at the foot of a mountain in June, an old man with a grey beard and a moss-green anorak blows a long, curved horn, and the animals come out of the forest: an elk, a fox, a lynx and a hare, while a big brown bear sits down in the middle of the yard like a large dog. The Young King, a rucksack on his back and a tiny ring glinting in his hair, watches in amazement.",
       "caption": "Han tok et horn ned fra veggen og blåste, og de kom ut av skogen.",
-      "alt": "En gammel mann blåser i et horn foran en hytte, og en elg, en rev, en gaupe og en hare kommer ut av skogen. En stor bjørn sitter på tunet som en hund, og den unge kongen ser forundret på."
+      "alt": "En gammel mann blåser i et horn foran en hytte, og en elg, en rev, en gaupe og en hare kommer ut av skogen. En stor bjørn sitter foran hytta som en hund, og den unge kongen ser forundret på."
     },
     {
       "id": "12",
@@ -223,7 +223,7 @@
       "characters": ["den-unge-kongen", "nordavinden"],
       "prompt": "High above a dark, choppy sea, among racing grey clouds, the North Wind strides through the sky with his cloak of storm clouds streaming and bends down to explain his plan. Beside him flies the Young King in the grey hat, cloak and boots, only a faint, see-through shimmer in the shape of a young man, listening calmly. Far below lie a tiny car ferry and a few rocky islands.",
       "caption": "«Resten tar jeg meg av», sa Nordavinden.",
-      "alt": "Nordavinden, en diger skikkelse i en kappe av stormskyer, farer gjennom luften over et mørkt hav og snakker med den unge kongen, som er nesten usynlig i den grå hatten og kappen."
+      "alt": "Nordavinden, en diger skikkelse i en kappe av stormskyer, suser gjennom luften over et mørkt hav og snakker med den unge kongen, som er nesten usynlig i den grå hatten og kappen."
     },
     {
       "id": "15",

@@ -91,7 +91,7 @@
       "variants": {
         "simplified": {
           "name": "Kjerringa som vil bære inn sol",
-          "description": "Ei kjerring i ei nytømret stue uten vinduer, som springer ut og inn med et sold for å bære inn sola.",
+          "description": "Ei kjerring i ei ny tømmerstue uten vinduer, som springer ut og inn med ei sil for å bære inn sola.",
           "replacesPortrait": "kjerringa-som-vil-baere-inn-sol"
         },
         "english": {
@@ -126,7 +126,7 @@
       "variants": {
         "simplified": {
           "name": "Per den tredje",
-          "description": "Kjerringas tredje mann, en gretten bonde som setter etter mannen fra Ringerike, men blir lurt til å ligge og glane opp i skyene."
+          "description": "Kjerringas tredje mann, en gretten bonde som setter etter mannen fra Ringerike, men blir lurt til å ligge og stirre opp i skyene."
         },
         "english": {
           "name": "Per the Third",
@@ -167,7 +167,7 @@
           "paragraph": 8,
           "anchor": "Slakteren så på høna.",
           "caption": "Slakteren så på høna. Den hadde ikke mange fjær igjen.",
-          "alt": "Kona holder stolt fram ei skrinn høne med nesten ingen fjær. Slakteren bøyer seg ned og ser tvilende på den, og ved siden av står kua i tau."
+          "alt": "Kona holder stolt fram ei mager høne med nesten ingen fjær. Slakteren bøyer seg ned og ser tvilende på den, og ved siden av står kua i tau."
         },
         "english": {
           "paragraph": 7,
@@ -206,7 +206,7 @@
           "paragraph": 23,
           "anchor": "«Er det deg», sa mannen",
           "caption": "«Er det deg, så ikke stå der oppe som ei geit.»",
-          "alt": "Kona står på stabburstaket full av fjær og slår med armene som vinger. Nede på tunet har mannen senket rifla og glaner opp på henne, mens hunden hopper og bjeffer."
+          "alt": "Kona står på stabburstaket full av fjær og slår med armene som vinger. Nede på gårdsplassen har mannen senket rifla og stirrer opp på henne, mens hunden hopper og bjeffer."
         },
         "english": {
           "paragraph": 22,
@@ -225,7 +225,7 @@
           "paragraph": 31,
           "anchor": "Hun hentet ei øks.",
           "caption": "Sola strømmet inn og traff henne midt i ansiktet.",
-          "alt": "Inne i den nye stua har øksa gått gjennom veggen, og sola strømmer inn over gulvet. Kjerringa står midt i lyset med det tomme soldet og måper, og mannen står ved hullet med øksa."
+          "alt": "Inne i den nye stua har øksa gått gjennom veggen, og sola strømmer inn over gulvet. Kjerringa står midt i lyset med den tomme sila og måper, og mannen står ved hullet med øksa."
         },
         "english": {
           "paragraph": 30,
@@ -244,7 +244,7 @@
           "paragraph": 39,
           "anchor": "Han fikk ei saks, klippet et hull og gikk videre med pengene sine.",
           "caption": "Han fikk ei saks og klippet et hull.",
-          "alt": "En mann står med ei ny skjorte trukket over hodet, og gjennom et nyklippet hull titter hodet hans fram. Mannen fra Ringerike holder saksa, og kjerringa med banketreet ser forbløffet på."
+          "alt": "En mann står med ei ny skjorte trukket over hodet, og gjennom et nyklippet hull titter hodet hans fram. Mannen fra Ringerike holder saksa, og kjerringa med treklubba ser forbløffet på."
         },
         "english": {
           "paragraph": 38,
@@ -301,7 +301,7 @@
           "paragraph": 60,
           "anchor": "Per steg av hesten og ble stående og se på ham.",
           "caption": "Var karen tullete, eller hva var dette for noe?",
-          "alt": "Mannen fra Ringerike ligger på ryggen under ei bjørk og stirrer opp i skyene. En dott hestetagl henger i bjørka, og Per den tredje står ved hesten sin og glor på ham."
+          "alt": "Mannen fra Ringerike ligger på ryggen under ei bjørk og stirrer opp i skyene. En dott hestehår henger i bjørka, og Per den tredje står ved hesten sin og glor på ham."
         },
         "english": {
           "paragraph": 59,
@@ -318,8 +318,8 @@
       "variants": {
         "simplified": {
           "paragraph": 64,
-          "anchor": "Per la seg på ryggen i gresset og glante så øynene rant.",
-          "caption": "Per la seg på ryggen i gresset og glante så øynene rant.",
+          "anchor": "Per la seg på ryggen i gresset og stirret så øynene rant.",
+          "caption": "Per la seg på ryggen i gresset og stirret så øynene rant.",
           "alt": "Per den tredje ligger på ryggen og stirrer opp i skyene så øynene renner. Bak ham lister mannen fra Ringerike seg bort med hesten hans mot kjerra."
         },
         "english": {

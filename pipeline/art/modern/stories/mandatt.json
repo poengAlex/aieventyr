@@ -37,7 +37,7 @@
       "name": "Den gamle kvinnen på gården",
       "promptName": "the Old Woman",
       "replacesPortrait": "den-gamle-kvinnen",
-      "description": "En kald, beregnende matmor i en «for vanlig» og altfor stille gård, som setter folk på prøver og tilbyr tre kister som lønn—en test av karakter, ikke arbeid.",
+      "description": "En kald, beregnende arbeidsgiver på en «for vanlig» og altfor stille gård, som setter folk på prøver og tilbyr tre kister som lønn—en test av karakter, ikke arbeid.",
       "look": "A big, heavy, barrel-shaped old woman, a head taller than a grown woman and twice as broad, with a wrinkled, sallow face, a very long, knobbly, hooked nose, one thick bushy grey eyebrow straight across her forehead, small squinting black eyes, a sour down-turned mouth and a wart on her chin. Her grey hair is pulled back tight. She wears a dark-red shawl over a charcoal-grey cardigan, a long dark skirt and huge black rubber clogs, and a tufted cow's tail peeks out below the skirt.",
       "portrait": "Background: the white farmhouse of the too-ordinary farm."
     },
@@ -54,7 +54,7 @@
       "slug": "kua",
       "name": "Kua",
       "promptName": "the Cow",
-      "description": "Ei brandet ku på enga med ei trebolle på hornene. Hun vil bli melket, og siden gjemmer hun Fars datter under juret sitt.",
+      "description": "Ei tigerstripete ku på enga med ei trebolle på hornene. Hun vil bli melket, og siden gjemmer hun Fars datter under juret sitt.",
       "look": "A big, gentle, plump cow with a brindled coat of dark brown and black streaks over reddish brown, long curved cream-coloured horns, big soft brown eyes with long lashes, a wet pink nose, a calm, friendly face and a swishing tail with a white tuft. Her udder is huge and round, and a wooden bowl hangs by a leather thong from her horns.",
       "portrait": "Background: the endless summer meadow."
     },
@@ -89,7 +89,7 @@
     "characters": ["fars-datter", "smafuglene", "kua", "vaeren"],
     "places": ["enga"],
     "caption": "Fars datter var snill mot alle hun møtte på enga.",
-    "alt": "Fars datter går over ei endeløs eng med en blå kiste under armen, og småfuglene flyr rundt hodet hennes. Ved stien står ei brandet ku og en nyklipt vær med ull rundt halsen, og bak dem står et epletre."
+    "alt": "Fars datter går over ei endeløs eng med en blå kiste under armen, og småfuglene flyr rundt hodet hennes. Ved stien står ei tigerstripete ku og en nyklipt vær med ull rundt halsen, og bak dem står et epletre."
   },
   "illustrations": [
     {
@@ -119,7 +119,7 @@
       "places": ["enga"],
       "prompt": "In the Meadow, the Girl crouches beside the big brindled Cow with her hands on the teats, and the milk squirts into the wooden bowl almost by itself; she looks surprised at how easy it is. The Cow's udder is huge and round, and the Cow chews calmly and looks back at her. Bumblebees in the clover, hazy summer light.",
       "caption": "Bare hun tok i spenene, sprutet melka ned i bollen. Kua gjorde visst det meste selv.",
-      "alt": "Fars datter sitter på huk ved den store, brandete kua og melker. Melka spruter ned i en trebolle nesten av seg selv, og kua tygger rolig og ser på henne."
+      "alt": "Fars datter sitter på huk ved den store, tigerstripete kua og melker. Melka spruter ned i en trebolle nesten av seg selv, og kua tygger rolig og ser på henne."
     },
     {
       "id": "04",
@@ -144,12 +144,12 @@
     {
       "id": "06",
       "paragraph": 35,
-      "anchor": "Den gamle kvinnen så lenge på soldet.",
+      "anchor": "Den gamle kvinnen så lenge på silen.",
       "characters": ["den-gamle-kvinnen", "fars-datter"],
       "places": ["kjokkenet"],
       "prompt": "In the Farm Kitchen, the Old Woman holds up the round wooden sieve, its mesh smeared with grey clay and stuck with straws, brimming with water that does not leak, and stares at it for a long time with narrowed eyes. The Girl, now wearing a mustard-yellow hoodie over her blue dress, stands by the door with her hands behind her back, saying nothing.",
       "caption": "«Det der har du ikke funnet på selv», sa hun.",
-      "alt": "Den gamle kvinnen holder opp soldet, som er tettet med leire og strå og fullt av vann, og ser lenge på det. Fars datter står ved døra i en sennepsgul hettegenser og sier ingenting."
+      "alt": "Den gamle kvinnen holder opp silen, som er tettet med leire og strå og fullt av vann, og ser lenge på det. Fars datter står ved døra i en sennepsgul hettegenser og sier ingenting."
     },
     {
       "id": "07",
@@ -159,7 +159,7 @@
       "places": ["garden"],
       "prompt": "By the stone well in the yard of the Too-Ordinary Farm, the Girl, in the mustard-yellow hoodie, lifts a heavy, dripping armful of wool out of the big wooden tub, and it has come out white as new snow, while the water left in the tub is inky black. On the rim of the tub, the Little Birds sing. Flat white sky, the silent farmhouse behind.",
       "caption": "Da hun løftet den opp igjen, var den hvit som nysnø.",
-      "alt": "Ved brønnen på gården løfter Fars datter ulla opp av en stor stamp. Vannet er svart, men ulla er blitt hvit som nysnø. På kanten av stampen sitter småfuglene og synger."
+      "alt": "Ved brønnen på gården løfter Fars datter ulla opp av ei stor balje. Vannet er svart, men ulla er blitt hvit som nysnø. På kanten av balja sitter småfuglene og synger."
     },
     {
       "id": "08",
@@ -199,7 +199,7 @@
       "places": ["enga"],
       "prompt": "In the Meadow, the old brushwood fence has turned furious: it spits and crackles like juniper on a bonfire and rears up, twig by twig, higher than the Old Woman and denser than a wall. She stands on the near side, looking up at it for a long time with her hands hanging at her sides. Deep among the twigs at the bottom, a scrap of blue bandana shows where the Girl lies hidden.",
       "caption": "Gjerdet reiste seg, kvist for kvist, høyere enn den gamle kvinnen og tettere enn en mur.",
-      "alt": "Risgjerdet har reist seg høyere og tettere enn en mur, og det freser og knitrer. Den gamle kvinnen står foran det og ser opp. Dypt inne mellom kvistene skimtes en blå bandana."
+      "alt": "Gjerdet har reist seg høyere og tettere enn en mur, og det freser og knitrer. Den gamle kvinnen står foran det og ser opp. Dypt inne mellom kvistene skimtes en blå bandana."
     },
     {
       "id": "12",
@@ -218,17 +218,17 @@
       "places": ["enga"],
       "prompt": "In the Meadow, the Stepsister stamps across the old brushwood fence so that it creaks and snaps under her chunky trainers, twigs flying, while she holds her phone high above her head in one hand, looking for coverage, with a scowl. Further along the path, the brindled Cow waits in the grass with her heavy udder and the wooden bowl on her horns.",
       "caption": "«Hva bryr jeg meg om en kvisthaug», sa Mors datter.",
-      "alt": "Mors datter tramper over risgjerdet så det knaker og brekker, og holder mobilen høyt over hodet for å få dekning. Lenger borte venter kua."
+      "alt": "Mors datter tramper over gjerdet så det knaker og brekker, og holder mobilen høyt over hodet for å få dekning. Lenger borte venter kua."
     },
     {
       "id": "14",
       "paragraph": 96,
-      "anchor": "Hun fikk soldet.",
+      "anchor": "Hun fikk silen.",
       "characters": ["mors-datter", "smafuglene"],
       "places": ["garden"],
       "prompt": "By the stone well in the yard of the Too-Ordinary Farm, the Stepsister stands holding the empty wooden sieve, the water pouring straight through its mesh, her other hand muddy with grey clay and a furious scowl on her face. The Little Birds scatter up into the flat white sky, unhurt, and a splat of clay has hit the rim of the well where they sat.",
       "caption": "Hun kastet en neve leire etter fuglene så de fløy.",
-      "alt": "Mors datter står ved brønnen med et tomt sold som vannet renner rett gjennom. Hånda er full av leire, og småfuglene flyr sin vei. På brønnkanten er det en leireklatt der de satt."
+      "alt": "Mors datter står ved brønnen med en tom sil som vannet renner rett gjennom. Hånda er full av leire, og småfuglene flyr sin vei. På brønnkanten er det en leireklatt der de satt."
     },
     {
       "id": "15",

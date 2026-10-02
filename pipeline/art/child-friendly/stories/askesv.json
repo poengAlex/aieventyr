@@ -10,7 +10,7 @@
       "name": "Askeladden",
       "promptName": "Askeladden",
       "replacesPortrait": "askeladden",
-      "description": "Den yngste broren, snill og oppfinnsom, som aldri gir opp og bruker kløkt framfor styrke.",
+      "description": "Den yngste broren, snill og oppfinnsom, som aldri gir opp og bruker hodet i stedet for kreftene.",
       "look": "A lanky, cheerful Norwegian farm boy of about fourteen with messy straw-blond hair, big blue-grey eyes, a small snub nose, freckles and a smudge of ash on one cheek. He wears a faded red knitted cap, a patched undyed linen shirt with rolled-up sleeves, a short brown wool waistcoat, grey-brown knee breeches, grey wool socks and worn brown leather shoes.",
       "portrait": "Background: the calm lake with the Grey Mountain far behind."
     },
@@ -85,7 +85,7 @@
       "characters": ["askeladden", "eldste-bror", "mellomste-bror"],
       "prompt": "Inside a small, dim farmhouse kitchen, Askeladden sits on the stone hearth poking the ashes with a stick, soot on his cheek and his cap askew. In the open doorway behind him stand the Eldest Brother and the Middle Brother with travel bundles on sticks over their shoulders, pointing at him and laughing. Morning light falls in through the door, and the big oval wooden kneading trough leans against the wall beside the hearth.",
       "caption": "Brødrene ler av Askeladden, som sitter og roter i aska.",
-      "alt": "Askeladden sitter ved grua med sot på kinnet og roter i aska med en pinne. I døråpningen står de to storebrødrene med skreppene sine og ler og peker."
+      "alt": "Askeladden sitter ved peisen med sot på kinnet og roter i aska med en pinne. I døråpningen står de to storebrødrene med sekkene sine og ler og peker."
     },
     {
       "id": "02",
@@ -93,8 +93,8 @@
       "anchor": "Brødrene kom til kongsgården og fikk arbeid.",
       "characters": ["askeladden", "eldste-bror", "mellomste-bror"],
       "prompt": "In the yard of the royal farm, between dark log buildings with grass roofs, Askeladden comes staggering in through the gate, bent almost double under the huge oval wooden kneading trough on his back. On the left the Eldest Brother, holding a brown horse by its halter, stops and stares; on the right the Middle Brother leans on a rake in a vegetable garden and rolls his eyes. Three chickens scatter out of Askeladden's way.",
-      "caption": "Litt etter kom Askeladden stavrende med trauet på ryggen.",
-      "alt": "Askeladden kommer inn på tunet på kongsgården, bøyd under et stort trau av tre. Den ene broren holder en hest, den andre står med en rive i hagen, og begge glor."
+      "caption": "Litt etter kom Askeladden slitende med trauet på ryggen.",
+      "alt": "Askeladden kommer inn på gårdsplassen på kongsgården, bøyd under et stort trau av tre. Den ene broren holder en hest, den andre står med en rive i hagen, og begge glor."
     },
     {
       "id": "03",

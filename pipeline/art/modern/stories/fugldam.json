@@ -10,7 +10,7 @@
       "name": "Den yngste kongssønnen",
       "promptName": "the Youngest Prince",
       "replacesPortrait": "den-yngste-kongssonnen",
-      "description": "Den yngste av tolv prinser, utholdende og observant, som alene tar sjansen, dreper uhyret, henter kronene og avslører løgnen når makt og frykt prøver å stilne sannheten.",
+      "description": "Den yngste av tolv prinser, utholdende og observant, som alene tar sjansen, dreper uhyret, henter kronene og avslører løgnen når makt og frykt prøver å dysse ned sannheten.",
       "look": "A slim, brave prince of about twenty-four with a kind, open face, a fine straight nose, calm green-grey eyes, a ready smile and wavy dark-brown hair to his shoulders, a little stiff with salt. He wears a forest-green sailing jacket over a thick off-white Aran sweater, dark-grey trousers and brown deck boots, with a small gold pin shaped like a ship on his collar.",
       "portrait": "Background: the deck of the Yacht and a steel-grey sea."
     },
@@ -53,7 +53,7 @@
       "slug": "storetrollet",
       "name": "Storetrollet med tolv hoder",
       "promptName": "the Great Troll",
-      "description": "Husbonden til trollet på øya. Han sitter pyntet som til fest i et prektig kammer, med tolv hoder som snorker i tolv forskjellige takter, mens prinsessene luser ham.",
+      "description": "Sjefen til trollet på øya. Han sitter pyntet som til fest i en praktfull sal, med tolv hoder som snorker i tolv forskjellige takter, mens prinsessene luser ham.",
       "look": "A huge, hulking troll about three times as tall as a man, with rust-red, warty skin, a broad, sagging barrel of a body, very long arms that hang to the floor and short bowed legs. On his thick neck sits a bunch of exactly twelve small heads, packed tightly together like a bunch of turnips, each with a knobbly nose, droopy ears and a wispy tuft of straw-coloured hair. He is dressed for a party in a dark-blue velvet dinner jacket, heavy gold chains and rings on every finger.",
       "portrait": "Background: his gilded chamber in the Dark Castle."
     },
@@ -61,7 +61,7 @@
       "slug": "trollet-pa-oya",
       "name": "Trollet på øya",
       "promptName": "the Island Troll",
-      "description": "Et stort og stygt troll på en benk i slottet av stein og glass. Han gir kongssønnen sverdet og flasken, for han er lei av husbonden sin.",
+      "description": "Et stort og stygt troll på en benk i slottet av stein og glass. Han gir kongssønnen sverdet og flasken, for han er lei av sjefen sin.",
       "look": "A huge, strange troll about three times as tall as a man, shaped like a giant sack of flour, with sloping shoulders, a small head, a big soft belly, short legs and huge webbed feet like a duck's. His skin is a weathered, ruddy tan. He has a nose as long as a cucumber, small unblinking amber eyes, big ears like cabbage leaves and a stiff crest of dark-brown hair standing straight up like a brush. He wears a baggy mulberry-purple knitted jumper and grey work trousers.",
       "portrait": "Background: the tall glass arches of the Glass Castle."
     },
@@ -70,7 +70,7 @@
       "name": "Trollkongen (øya-slottet)",
       "promptName": "the Troll King",
       "replacesPortrait": "trollkongen-oya-slottet",
-      "description": "Det store, stygge trollet på benken i slottet av stein og glass, som gir kongssønnen sverdet og flasken for å bli kvitt husbonden sin, og som går i dress og krone når han selv blir konge.",
+      "description": "Det store, stygge trollet på benken i slottet av stein og glass, som gir kongssønnen sverdet og flasken for å bli kvitt sjefen sin, og som går i dress og krone når han selv blir konge.",
       "look": "A huge troll king about three times as tall as a man, shaped like a giant sack of flour, with sloping shoulders, a small head, a big soft belly and huge webbed feet like a duck's, weathered ruddy-tan skin, a nose as long as a cucumber, small amber eyes, ears like cabbage leaves and a brush-like crest of dark-brown hair. He wears an enormous charcoal suit with a mulberry-purple tie, gold chains across his waistcoat, a fur cape on his shoulders and a gold crown.",
       "portrait": "Background: the tall glass arches of the Glass Castle."
     },
@@ -150,7 +150,7 @@
       "places": ["yachten"],
       "prompt": "The Yacht motors out of a busy city harbour on a bright, windy morning. At the rail, the Youngest Prince and his eleven older brothers in matching navy sailing jackets wave to a small crowd on the quay, where their white-haired father raises one hand. On the flybridge, Ridder Rød stands at the wheel in his bright red sailing jacket, chin up, posing as if for a photographer.",
       "caption": "Ridder Rød gikk aldri i annet enn den røde seilerjakken.",
-      "alt": "En stor seilbåt glir ut av havna. Tolv prinser vinker fra rekka, og oppe ved rattet står Ridder Rød i den røde seilerjakken og kneiser."
+      "alt": "En stor seilbåt glir ut av havna. Tolv prinser vinker fra rekka, og oppe ved rattet står Ridder Rød i den røde seilerjakken og ser viktig ut."
     },
     {
       "id": "04",
@@ -248,7 +248,7 @@
       "places": ["morkeslottet"],
       "prompt": "Morning in the courtyard of the Dark Castle, littered with huge feathers, crushed stone and broken glass. The Giant Bird nearly fills the whole courtyard, bending its enormous beak down to swallow the rye from three emptied barrels. The Youngest Prince, tiny beside its orange feet, drags the fourth and last heavy barrel over from an old grey storehouse on posts in the corner, sweating, looking far up at the bird.",
       "caption": "Da han kom slitende med den fjerde tønnen, slukte Fugl Dam kornet uten å blunke.",
-      "alt": "I gårdsplassen står en fugl som nesten fyller hele plassen, med fjær som ligner kabler og bark. Kongssønnen sleper den fjerde tønnen med rug fram fra stabburet."
+      "alt": "På gårdsplassen står en fugl som nesten fyller hele plassen, med fjær som ligner kabler og bark. Kongssønnen sleper den fjerde tønnen med rug fram fra stabburet."
     },
     {
       "id": "14",

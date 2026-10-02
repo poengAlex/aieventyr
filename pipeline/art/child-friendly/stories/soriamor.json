@@ -10,7 +10,7 @@
       "name": "Halvor",
       "promptName": "Halvor",
       "replacesPortrait": "halvor",
-      "description": "En gutt som helst sitter i grua og roter i aska, men som blir modig nok til å møte tre troll og gå helt til Soria Moria for prinsessa si.",
+      "description": "En gutt som helst sitter ved peisen og roter i aska, men som blir modig nok til å møte tre troll og gå helt til Soria Moria for prinsessa si.",
       "look": "A tall, lanky lad of about eighteen with a lazy slouch, a long face, a long straight nose, sleepy half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead. His cheeks are smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown trousers held up with a piece of rope, and battered brown shoes, with a charred poking stick tucked into the rope.",
       "portrait": "Background: the glowing ashes of the open stone hearth at home."
     },
@@ -134,11 +134,11 @@
     {
       "id": "01",
       "paragraph": 4,
-      "anchor": "«Ja!» sa Halvor. Og så fort hadde ingen sett ham komme seg opp av grua før.",
+      "anchor": "«Ja!» sa Halvor. Og så fort hadde ingen sett ham komme seg opp fra peisen før.",
       "characters": ["halvor"],
       "prompt": "Inside a tiny, dim log cottage, Halvor springs up out of the big open stone hearth in a puff of grey ash, wide awake for once, arms flung out and grinning. In the low open doorway stands a stout, red-cheeked skipper with a bushy grey beard, a dark-blue peaked cap and a thick blue sailor's jacket, his eyebrows shooting up in surprise. Through the door, far down the hill, a big sailing ship lies at anchor on the sea in bright morning light.",
-      "caption": "Så fort hadde ingen sett Halvor komme seg opp av grua før!",
-      "alt": "Halvor spretter opp av grua i en sky av grå aske. I døra står en skipper med skjegg og lue, og langt nede ved sjøen ligger et stort skip."
+      "caption": "Så fort hadde ingen sett Halvor komme seg opp fra peisen før!",
+      "alt": "Halvor spretter opp fra peisen i en sky av grå aske. I døra står en skipper med skjegg og lue, og langt nede ved sjøen ligger et stort skip."
     },
     {
       "id": "02",
@@ -235,24 +235,24 @@
       "characters": ["halvor-fine", "mother", "father"],
       "prompt": "Just after sunset outside the tiny turf-roofed cottage, under a rose and orange sky with deep-blue shadows. Halvor in Fine Clothes stands on the worn stone step, smiling. The low wooden door has just opened, and in the doorway the Mother and the Father stand staring at the fine stranger with their mouths open, not recognising him at all. A thin curl of smoke rises from the chimney.",
       "caption": "Hvem var denne fine herren? Mor og far kjente ham ikke igjen!",
-      "alt": "Halvor står i fine klær på trappa foran en liten stue i solnedgangen. I døråpningen står mor og far og stirrer. De kjenner ham ikke igjen."
+      "alt": "Halvor står i fine klær på trappa foran et lite hus i solnedgangen. I døråpningen står mor og far og stirrer. De kjenner ham ikke igjen."
     },
     {
       "id": "12",
       "paragraph": 94,
-      "anchor": "Mor slapp ildrakeren.",
+      "anchor": "Mor slapp ildraken.",
       "characters": ["halvor-fine", "mother", "father"],
       "prompt": "Warm, close view inside the tiny, dark cottage at night. Halvor in Fine Clothes sits right in the ashes of the big open stone hearth, poking the embers with a stick, and the fire has just flared up, lighting his face bright gold. The Mother has dropped the iron poker, which clatters on the floor, and holds both hands to her cheeks in joy. The Father, sitting on an upturned wooden bucket, looks up with his mouth wide open.",
       "caption": "«Halvor!» sa mor. «Jammen er det deg!»",
-      "alt": "Halvor sitter i fine klær i grua og pirker i aska, og ilden lyser opp ansiktet hans. Mor har sluppet ildrakeren og holder hendene mot kinnene, og far ser forbauset opp."
+      "alt": "Halvor sitter i fine klær ved peisen og pirker i aska, og ilden lyser opp ansiktet hans. Mor har sluppet ildraken og holder hendene mot kinnene, og far ser forbauset opp."
     },
     {
       "id": "13",
       "paragraph": 102,
-      "anchor": "Og i samme stund husket Halvor hva han hadde lovet.",
+      "anchor": "Og i det samme husket Halvor hva han hadde lovet.",
       "characters": ["halvor-fine", "eldest-princess", "middle-princess", "youngest-princess"],
       "prompt": "In the warm, daylit parlour of a big, rich farm, the Eldest Princess, the Middle Princess and the Youngest Princess have suddenly appeared in the middle of the room in a swirl of golden sparkles. By the fireplace, two snooty farm girls in lace-trimmed dresses gape at them with their mouths open. Halvor in Fine Clothes, the silver ring on his finger glowing faintly, claps both hands over his mouth with wide eyes, suddenly remembering his promise.",
-      "caption": "Vips! Der sto de, alle tre. Og i samme stund husket Halvor hva han hadde lovet.",
+      "caption": "Vips! Der sto de, alle tre. Og i det samme husket Halvor hva han hadde lovet.",
       "alt": "Tre prinsesser står plutselig midt i stua på storgården i et glitter av gull. To jenter ved peisen gaper, og Halvor holder seg for munnen."
     },
     {
@@ -261,18 +261,18 @@
       "anchor": "Så tok hun søstrene i hendene og sa:",
       "characters": ["halvor-fine", "eldest-princess", "middle-princess", "youngest-princess"],
       "prompt": "Evening on a soft green hill beside a big, still lake that mirrors the rosy-blue sky. Halvor in Fine Clothes lies fast asleep on the grass, a small plain gold ring on his finger. Beside him the Youngest Princess, wearing the chunky silver ring with the blue stone, stands between the Eldest Princess and the Middle Princess, holding their hands and saying the wish with her eyes closed. Golden sparkles begin to swirl up around the three sisters' feet.",
-      "caption": "«Hold i meg, som jeg holder i dere – og gid vi var på Soria Moria slott!»",
+      "caption": "«Hold i meg, som jeg holder i dere – og nå ønsker jeg oss til Soria Moria slott!»",
       "alt": "Halvor sover i gresset ved et blankt vann. Ved siden av ham holder de tre prinsessene hverandre i hendene, og det begynner å glitre rundt føttene deres."
     },
     {
       "id": "15",
       "paragraph": 118,
-      "anchor": "Lyset kom fra en bitte liten stue.",
+      "anchor": "Lyset kom fra en bitte liten hytte.",
       "characters": ["halvor-fine", "old-cottage-woman"],
       "places": ["forest-cottage"],
       "prompt": "Night deep in the endless spruce forest. Halvor in Fine Clothes, a little travel-worn, peeks in through the small glowing window of the Forest Cottage, while the skinny horse waits behind him with its head drooping. Through the window we see the Old Woman sitting by the hearth, poking the glowing embers with her enormously long nose, and beside her a little old man asleep on a stool with his chin on his chest.",
       "caption": "Og nesa hennes! Den var så lang at hun brukte den til å rote i glørne med.",
-      "alt": "Halvor kikker inn vinduet på en bitte liten stue i skogen. Der inne sitter en gammel kone og roter i glørne med den lange nesa si, mens en gammel mann sover ved siden av."
+      "alt": "Halvor kikker inn vinduet på en bitte liten hytte i skogen. Der inne sitter en gammel kone og roter i glørne med den lange nesa si, mens en gammel mann sover ved siden av."
     },
     {
       "id": "16",
@@ -282,7 +282,7 @@
       "places": ["forest-cottage"],
       "prompt": "Behind the Forest Cottage, in the little clearing, a huge full moon, round and shiny as a plate and with a faint, friendly face, rises over the black spruce tops. The Old Woman stands with her bony arms raised high towards it, calling up to it, her long nose pointing at the sky. Halvor in Fine Clothes tiptoes after her and peeks round the corner of the cottage. Everything is silver and deep blue.",
       "caption": "«Du måne, du måne! Kan du si meg veien til Soria Moria slott?»",
-      "alt": "Bak stua står den gamle kona med armene løftet mot en stor, rund måne over tretoppene. Halvor lister seg etter og kikker fram rundt hjørnet."
+      "alt": "Bak hytta står den gamle kona med armene løftet mot en stor, rund måne over tretoppene. Halvor lister seg etter og kikker fram rundt hjørnet."
     },
     {
       "id": "17",
@@ -300,7 +300,7 @@
       "anchor": "Han trakk på seg støvlene og sprang ut.",
       "characters": ["halvor-fine", "west-wind"],
       "prompt": "A huge, wide moonlit view high over mountains and fjords at night. Halvor in Fine Clothes, wearing the old brown boots, takes one gigantic running stride from one snowy mountaintop to the next, his coat flapping and his hair streaming back. Beside him the West Wind rushes along with a big grin, leaves and spruce needles whirling in his wake. Far below lie tiny forests, farms and silver fjords.",
-      "caption": "Over hei og ås, over fjell og fjære! Halvor tok de lengste skrittene noen har tatt.",
+      "caption": "Over skog og ås, over fjell og fjord! Halvor tok de lengste skrittene noen har tatt.",
       "alt": "Halvor tar et kjempeskritt fra fjelltopp til fjelltopp i de gamle støvlene. Ved siden av ham suser vestavinden med et stort glis."
     },
     {
@@ -324,7 +324,7 @@
     {
       "id": "21",
       "paragraph": 154,
-      "anchor": "Og så holdt Halvor og den yngste prinsessa bryllup, og det var det gildeste bryllupet noen hadde sett.",
+      "anchor": "Og så holdt Halvor og den yngste prinsessa bryllup, og det var det flotteste bryllupet noen hadde sett.",
       "characters": ["halvor-fine", "youngest-princess"],
       "prompt": "A cosy evening in a warm room at Soria Moria. Halvor in Fine Clothes sits on a low stool by a big stone fireplace, happily poking the ashes with a little stick, just like in the old days. The Youngest Princess sits beside him with her head on his shoulder, laughing softly. Through a tall open doorway behind them, wedding guests dance in golden candlelight under garlands of flowers.",
       "caption": "Men hver kveld pirket Halvor litt i aska. Bare fordi det var så koselig.",
