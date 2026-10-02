@@ -9,8 +9,9 @@
             :picture="current"
             :src="url(current.file!)"
             :srcset="artSrcset(art.set, art.storyId, current.sources)"
-            sizes="(max-width: 1400px) 40vw, 600px"
-            ratio="auto"
+            sizes="50vw"
+            :ratio="current.id === 'cover' ? 1 : sceneRatio"
+            fill
             class="left-figure"
             @open="emit('open-image', url(current.file!), current.alt)"
           />
@@ -98,8 +99,8 @@ const sequence = computed(() =>
     .sort((a, b) => a[0] - b[0])
     .flatMap(([index, pictures]) => pictures.map((picture) => ({ index, picture }))),
 )
-// The new scenes are 3:2; the older section pictures are square.
-const sceneRatio = computed(() => (props.art.set ? '3 / 2' : '1 / 1'))
+// The new scenes are 3:2; the older section pictures and the covers are square.
+const sceneRatio = computed(() => (props.art.set ? 3 / 2 : 1))
 const cover = computed<ArtPicture | null>(() =>
   props.art.cover.file
     ? { ...props.art.cover, id: 'cover', paragraph: -1, anchor: '', places: [] }
@@ -187,24 +188,18 @@ watch(paragraphs, () => {
   position: sticky;
   top: var(--bar-height);
   height: calc(100vh - var(--bar-height));
-  display: grid;
-  align-content: center;
-  justify-items: center;
-  gap: 18px;
-  padding: 32px clamp(28px, 4vw, 64px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: clamp(20px, 4vh, 40px) clamp(20px, 3vw, 48px) clamp(14px, 2.5vh, 24px);
 }
 
+// The picture takes the whole page above the page count.
 .left-figure {
-  width: 100%;
-  max-width: 620px;
-}
-
-.left-figure :deep(.art-image) {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: calc(100vh - var(--bar-height) - 200px);
-  margin: 0 auto;
+  flex: 1 1 0;
+  min-height: 0;
+  align-self: stretch;
 }
 
 .plate-count {

@@ -14,11 +14,12 @@
       >
         {{ t.close }}
       </button>
-      <img
+      <plate-image
         :src="showSheet && character.sheet ? character.sheet : character.image"
         :alt="character.name"
-        class="plate character-image"
+        class="character-image"
         :class="{ sheet: showSheet && character.sheet }"
+        :fit="showSheet && character.sheet ? 'contain' : 'cover'"
       />
       <div class="character-copy">
         <h2>{{ character.name }}</h2>
@@ -47,6 +48,7 @@
 
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
+import PlateImage from 'src/components/PlateImage.vue'
 import { useText } from 'src/logic/i18n'
 import type { CharacterCard } from 'src/types/content'
 
@@ -80,6 +82,9 @@ watch(
 .character-dialog {
   position: relative;
   display: grid;
+  // Rows keep their height (the picture's frame would otherwise let its row shrink and the
+  // text slide under the picture); on a very short screen the dialog scrolls instead.
+  grid-auto-rows: max-content;
   gap: 22px;
   width: min(520px, 92vw);
   max-height: 92vh;
@@ -101,15 +106,16 @@ watch(
   right: 20px;
 }
 
+// The picture gives way on short screens, so the name, description and buttons (about
+// 320px with the padding) still fit in the dialog.
 .character-image {
-  width: 100%;
+  justify-self: center;
+  width: min(100%, max(240px, calc(92vh - 320px)));
   aspect-ratio: 1;
-  object-fit: cover;
 }
 
 .character-image.sheet {
   aspect-ratio: 3 / 2;
-  object-fit: contain;
 }
 
 .character-copy {

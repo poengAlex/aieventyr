@@ -29,8 +29,7 @@
             :aria-label="cover.alt"
             @click="openImage(cover.src, cover.alt)"
           >
-            <img
-              class="plate"
+            <plate-image
               :src="cover.src"
               :srcset="cover.srcset ?? ''"
               sizes="(max-width: 600px) 64vw, 340px"
@@ -66,7 +65,7 @@
                 class="cast-member"
                 @click="openCharacterAt(index)"
               >
-                <img class="plate" :src="character.image" alt="" loading="lazy" />
+                <plate-image :src="character.image" alt="" loading="lazy" />
                 <span>{{ character.name }}</span>
               </button>
             </div>
@@ -120,6 +119,7 @@ import EditionSwitch from 'src/components/EditionSwitch.vue'
 import FullscreenImageDialog from 'src/components/FullscreenImageDialog.vue'
 import IllustratedStory from 'src/components/IllustratedStory.vue'
 import PictureBook from 'src/components/PictureBook.vue'
+import PlateImage from 'src/components/PlateImage.vue'
 import ReadingSettings from 'src/components/ReadingSettings.vue'
 import { artSetFor, artSrcset, artUrl, fallbackArt, loadArt } from 'src/logic/art'
 import {
@@ -441,10 +441,9 @@ watch(
   cursor: zoom-in;
 }
 
-.opening-plate img {
+.opening-plate .plate {
   width: min(64vw, 340px);
   aspect-ratio: 1;
-  object-fit: cover;
 }
 
 .tale-head h1 {
@@ -499,10 +498,9 @@ watch(
   cursor: pointer;
 }
 
-.cast-member img {
+.cast-member .plate {
   width: 84px;
   height: 84px;
-  object-fit: cover;
   border-radius: 50%;
 }
 

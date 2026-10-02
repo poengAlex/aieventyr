@@ -1,9 +1,8 @@
 <template>
   <router-link :to="to" class="frontispiece">
     <transition name="plate-fade" mode="out-in">
-      <img
+      <plate-image
         :key="src"
-        class="plate"
         :src="src"
         :srcset="srcset ?? ''"
         :sizes="sizes"
@@ -20,6 +19,8 @@
 </template>
 
 <script setup lang="ts">
+import PlateImage from 'src/components/PlateImage.vue'
+
 // A tale's cover, framed like the plate facing the title page of a book.
 defineProps<{
   to: string
@@ -33,7 +34,9 @@ defineProps<{
 </script>
 
 <style lang="scss" scoped>
+// Full width, so the plate's size comes from the page and not from how long the caption is.
 .frontispiece {
+  width: 100%;
   display: grid;
   justify-items: center;
   gap: 26px;
@@ -44,7 +47,6 @@ defineProps<{
 .plate {
   width: min(100%, 460px);
   aspect-ratio: 1;
-  object-fit: cover;
 }
 
 .caption {

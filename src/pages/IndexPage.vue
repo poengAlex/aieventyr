@@ -107,13 +107,10 @@ const editionClass = computed(() => `edition-${artSetFor(settings.variant) ?? 'c
 const variantFor = (story: StoryListItem): VariantType =>
   resolveStoryVariant(story.availableVariants, settings.variant)
 
+// Null until loadArtCovers has found the tale's cover, so the plate never fetches the
+// older picture only to swap it for the new one.
 function coverFor(story: StoryListItem, variant: VariantType) {
-  return (
-    artCovers.value[`${story.id}:${variant}`] ?? {
-      src: `/content/stories/${story.id}/${variant}/main.webp`,
-      srcset: '',
-    }
-  )
+  return artCovers.value[`${story.id}:${variant}`] ?? null
 }
 
 const items = computed(() =>
@@ -141,7 +138,7 @@ const unfinished = computed(() => {
 const featured = computed(() => {
   const id = hovered.value ?? unfinished.value ?? items.value[0]?.id
   const item = items.value.find((entry) => entry.id === id)
-  if (!item) return null
+  if (!item?.cover) return null
   const resume = item.id === unfinished.value
   return {
     to: resume ? `/story/${item.id}?resume=1` : `/story/${item.id}`,
@@ -154,14 +151,16 @@ const featured = computed(() => {
   }
 })
 
-// New covers from the illustration sets replace the older ones where they exist.
+// New covers from the illustration sets, or the older picture where a tale has none.
 async function loadArtCovers() {
   const covers: Record<string, { src: string; srcset: string }> = {}
   await Promise.all(
     stories.value.map(async (story) => {
       const variant = variantFor(story)
-      const cover = await loadArtCover(story.id, variant)
-      if (cover) covers[`${story.id}:${variant}`] = cover
+      covers[`${story.id}:${variant}`] = (await loadArtCover(story.id, variant)) ?? {
+        src: `/content/stories/${story.id}/${variant}/main.webp`,
+        srcset: '',
+      }
     }),
   )
   artCovers.value = covers
@@ -194,7 +193,20 @@ onMounted(async () => {
   height: 100vh;
   display: grid;
   place-items: center;
-  padding: 56px clamp(32px, 5vw, 72px);
+  // The extra room at the foot is for the caption, which hangs below the plate.
+  padding: 56px clamp(32px, 5vw, 72px) calc(56px + 4.5rem);
+}
+
+// Only the plate is centred, so a title of one line or two leaves it where it is.
+.left-page :deep(.frontispiece) {
+  position: relative;
+}
+
+.left-page :deep(.caption) {
+  position: absolute;
+  top: calc(100% + 26px);
+  left: 0;
+  right: 0;
 }
 
 .right-page {

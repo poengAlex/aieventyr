@@ -15,13 +15,14 @@
       >
         <q-icon name="close" />
       </button>
-      <img :src="src" :alt="alt || ''" class="dialog-image" />
+      <img v-fade-in :src="src" :alt="alt || ''" class="dialog-image" />
     </div>
   </q-dialog>
 </template>
 
 <script setup lang="ts">
 import { useText } from 'src/logic/i18n'
+import { vFadeIn } from 'src/logic/fadeIn'
 
 defineProps<{
   modelValue: boolean

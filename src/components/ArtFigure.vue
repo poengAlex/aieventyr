@@ -1,20 +1,19 @@
 <template>
-  <figure class="art-figure">
-    <img
+  <figure class="art-figure" :class="{ fill }">
+    <plate-image
       :src="src"
       :srcset="srcset ?? ''"
       :sizes="sizes ?? ''"
       :alt="picture.alt"
-      :style="{ aspectRatio: ratio ?? '3 / 2' }"
+      :style="{ aspectRatio: ratio ?? 1.5, '--ratio': ratio ?? 1.5 }"
       loading="lazy"
       decoding="async"
-      class="plate art-image"
+      class="art-image"
       @click="emit('open')"
     />
-    <figcaption v-if="picture.caption || picture.prompt" class="art-caption">
-      {{ picture.caption }}
+    <!-- No caption under the picture: what it shows and how it was made wait behind the button. -->
+    <div v-if="picture.caption || picture.prompt" class="art-info">
       <button
-        v-if="picture.prompt"
         type="button"
         class="prompt-toggle"
         :aria-expanded="showPrompt"
@@ -24,10 +23,13 @@
       >
         <q-icon name="info_outline" />
       </button>
-    </figcaption>
+    </div>
     <div v-if="showPrompt" class="art-prompt">
-      <div class="caps">{{ t.howMade }}</div>
-      <p>{{ picture.prompt }}</p>
+      <p v-if="picture.caption" class="art-caption">{{ picture.caption }}</p>
+      <template v-if="picture.prompt">
+        <div class="caps">{{ t.howMade }}</div>
+        <p>{{ picture.prompt }}</p>
+      </template>
       <details v-if="picture.fullPrompt">
         <summary>{{ t.fullPrompt }}</summary>
         <pre>{{ picture.fullPrompt }}</pre>
@@ -38,6 +40,7 @@
 
 <script setup lang="ts">
 import { ref, watch } from 'vue'
+import PlateImage from 'src/components/PlateImage.vue'
 import { useText } from 'src/logic/i18n'
 
 const props = defineProps<{
@@ -45,7 +48,11 @@ const props = defineProps<{
   src: string
   srcset?: string | undefined
   sizes?: string | undefined
-  ratio?: string | undefined
+  // Width over height.
+  ratio?: number | undefined
+  // Fills the height it is given: the picture grows as large as fits, and gives up room to
+  // its text when the info is open.
+  fill?: boolean
 }>()
 
 const emit = defineEmits<{ open: [] }>()
@@ -66,17 +73,39 @@ watch(
 
 .art-image {
   width: 100%;
-  object-fit: cover;
   cursor: zoom-in;
 }
 
-.art-caption {
-  margin: 18px auto 0;
-  max-width: 30em;
-  font-style: italic;
-  font-size: max(0.95rem, 0.8em);
-  line-height: 1.4;
-  color: var(--ink-soft);
+.fill {
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// As wide as the figure (less the frame) unless that is too tall; the width then follows
+// the height through the aspect ratio.
+.fill .art-image {
+  flex: 0 1 calc((100cqw - 14px) / var(--ratio));
+  width: auto;
+  min-height: 0;
+}
+
+.fill .art-info {
+  flex: none;
+}
+
+.fill .art-prompt {
+  flex: none;
+  width: 100%;
+  max-height: 50%;
+  overflow-y: auto;
+}
+
+.art-info {
+  margin-top: 8px;
+  line-height: 0;
 }
 
 .prompt-toggle {
@@ -84,15 +113,12 @@ watch(
   place-items: center;
   width: 22px;
   height: 22px;
-  margin-left: 4px;
   padding: 0;
   border: 0;
   border-radius: 50%;
   background: transparent;
   color: var(--ink-muted);
   font-size: 15px;
-  font-style: normal;
-  vertical-align: -3px;
   cursor: pointer;
 }
 
@@ -118,6 +144,11 @@ watch(
 
 .art-prompt p {
   margin: 6px 0;
+}
+
+.art-prompt .art-caption {
+  margin: 0 0 10px;
+  font-style: italic;
 }
 
 .art-prompt summary {

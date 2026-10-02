@@ -2,10 +2,11 @@
   <div class="book-face" :class="`part-${part}`">
     <div v-if="part !== 'text'" class="face-picture">
       <img
+        v-fade-in
         class="plate"
         :src="page.src"
         :srcset="page.srcset ?? ''"
-        :sizes="part === 'full' ? '94vw' : '50vw'"
+        :sizes="sizes ?? (part === 'full' ? '94vw' : '50vw')"
         :alt="page.alt"
         draggable="false"
       />
@@ -24,6 +25,7 @@
 
 <script setup lang="ts">
 import type { BookPage } from 'src/logic/art'
+import { vFadeIn } from 'src/logic/fadeIn'
 import { useText } from 'src/logic/i18n'
 
 const { t } = useText()
@@ -32,6 +34,8 @@ defineProps<{
   page: BookPage
   // One page of an open book shows the picture or the text; a single page shows both.
   part: 'picture' | 'text' | 'full'
+  // How wide the picture is drawn, when the page is not the usual half or whole of the screen.
+  sizes?: string | undefined
   title?: string | undefined
 }>()
 </script>
@@ -52,6 +56,13 @@ defineProps<{
   display: grid;
   place-items: center;
   padding: clamp(16px, 4vh, 36px);
+}
+
+// A page of picture alone fits the picture whole, whatever its shape: the square cover
+// as well as the wide scenes. The cell takes the page's height, so the picture's
+// max-height has something to measure against.
+.part-picture .face-picture {
+  grid-template: minmax(0, 1fr) / minmax(0, 1fr);
 }
 
 .part-full .face-picture {
