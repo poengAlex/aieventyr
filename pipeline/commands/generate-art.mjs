@@ -13,10 +13,11 @@
 //   npm run art:generate -- --budget=60                everything that is missing, stopping at about $60
 //   npm run art:generate -- --story=askesv --only=scenes --ids=03,07 --force   redo two pictures
 //   npm run art:generate -- --export                   remake the web copies and manifests from the masters
+//   npm run art:generate -- --set=modern --jobs        write the prompts to a file instead of making images
 //
 // Options: --set=child-friendly --story=a,b --only=style,characters,places,portraits,covers,scenes
 //          --ids=03,askeladden --limit=N --budget=USD --concurrency=N --model=... --quality=...
-//          --out=dir --raw=dir --force --dry-run --export --verbose
+//          --out=dir --raw=dir --force --dry-run --export --jobs[=file] --verbose
 import 'dotenv/config'
 import fs from 'fs/promises'
 import path from 'path'
@@ -99,6 +100,11 @@ const ids = args.ids ? new Set(String(args.ids).split(',')) : null
 const dryRun = Boolean(args['dry-run'])
 const force = Boolean(args.force)
 const verbose = Boolean(args.verbose)
+const jobsFile = args.jobs
+  ? args.jobs === true
+    ? path.join(rawDir, 'jobs.json')
+    : path.resolve(ROOT, String(args.jobs))
+  : null
 for (const kind of only)
   if (!KINDS.includes(kind)) fail(`Unknown --only value "${kind}". Use ${KINDS.join(', ')}.`)
 
@@ -400,7 +406,7 @@ function references(story, kind, characterSlugs = [], placeSlugs = []) {
   const files = []
   const lines = []
   const storyDir = path.join(rawDir, story.storyId)
-  if (style.styleReferenceFor.includes(kind) || !characterSlugs.length + placeSlugs.length) {
+  if (style.styleReferenceFor.includes(kind) || !(characterSlugs.length + placeSlugs.length)) {
     files.push(master(STYLE_BASE))
     lines.push(
       `Image ${files.length}: style reference only. Match its painting technique, line work, brushwork and paper texture. Do not copy anything shown in it (not its landscape, trees, rocks or composition), and take the colours and light from this story's own description.`,
@@ -1007,7 +1013,15 @@ if (todo.length > planned.length)
 if (verbose)
   for (const job of planned)
     console.log(`\n===== ${job.label} (${job.size}, ${job.refs.length} references)\n${job.prompt}`)
-if (dryRun) process.exit(0)
+// --jobs writes the images to make, with their prompts, reference images and file names,
+// for drawing them with another image generator. They are in an order in which every
+// reference image is made before the images that use it.
+if (jobsFile) {
+  await fs.mkdir(path.dirname(jobsFile), { recursive: true })
+  await fs.writeFile(jobsFile, `${JSON.stringify(planned, null, 2)}\n`)
+  console.log(`Wrote the ${planned.length} prompts to ${path.relative(ROOT, jobsFile)}.`)
+}
+if (dryRun || jobsFile) process.exit(0)
 if (!process.env.OPENAI_API_KEY)
   fail('OPENAI_API_KEY is not set. Put it in .env in the project folder or in the environment.')
 

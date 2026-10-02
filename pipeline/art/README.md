@@ -58,6 +58,9 @@ Other options:
 | `--model=gpt-image-2.5-sunburst` | another image model (default `gpt-image-2.5-flare`)                                |
 | `--limit=N`                      | at most N images this run                                                          |
 | `--verbose`                      | print every prompt (use with `--dry-run` to read them before paying)               |
+| `--jobs`                         | make no images, but write them to `pipeline/art-raw/<set>/jobs.json` (below)       |
+
+`--jobs` is for drawing the pictures with another image generator. It writes every image the run would make, in the order to make them: `label`, `kind`, `size`, `prompt` (exactly what the API would get), `refs` (the reference images to attach, in the order the prompt numbers them) and `out` (where to save the master, without extension). It takes the other options, so `--story=askesv --jobs` writes one tale, and images that exist are left out. `--jobs=file` writes somewhere else.
 
 To redo pictures you don't like, change the plan if needed and run for example `npm run art:generate -- --story=askesv --only=scenes --ids=03,07 --force`. If you redo a model sheet, redo the pictures with that character too.
 
@@ -90,9 +93,9 @@ Estimates for the full plans (the dry run prints them per set):
 
 | Set              | Images | `high` | `medium` | `low` |
 | ---------------- | ------ | ------ | -------- | ----- |
-| `child-friendly` | 888    | ~$159  | ~$110    | ~$102 |
-| `classic`        | 821    | ~$144  | ~$99     | ~$92  |
-| `modern`         | 876    | ~$154  | ~$106    | ~$98  |
+| `child-friendly` | 888    | ~$149  | ~$101    | ~$92  |
+| `classic`        | 821    | ~$136  | ~$91     | ~$83  |
+| `modern`         | 876    | ~$145  | ~$98     | ~$89  |
 
 Reference images make up most of the cost, so a lower quality saves less than you might expect. Skipping the portraits (`--only=style,characters,places,covers,scenes`) saves about $24 per set; the reader then shows the model sheets in the character gallery.
 
