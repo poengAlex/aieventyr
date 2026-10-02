@@ -1,0 +1,316 @@
+{
+  "set": "classic",
+  "variants": [
+    "simplified",
+    "english"
+  ],
+  "updatedAt": "2026-10-02T09:30:26.540Z",
+  "stories": {
+    "askesv": {
+      "cover": "cover.webp",
+      "pictures": 10,
+      "done": 10,
+      "manifests": {
+        "simplified": "askesv/illustrations.simplified.json",
+        "english": "askesv/illustrations.english.json"
+      }
+    },
+    "asketrol": {
+      "cover": "cover.webp",
+      "pictures": 4,
+      "done": 4,
+      "manifests": {
+        "simplified": "asketrol/illustrations.simplified.json",
+        "english": "asketrol/illustrations.english.json"
+      }
+    },
+    "bestedt": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "simplified": "bestedt/illustrations.simplified.json",
+        "english": "bestedt/illustrations.english.json"
+      }
+    },
+    "bjornrae": {
+      "cover": "cover.webp",
+      "pictures": 4,
+      "done": 4,
+      "manifests": {
+        "simplified": "bjornrae/illustrations.simplified.json",
+        "english": "bjornrae/illustrations.english.json"
+      }
+    },
+    "dukgras": {
+      "cover": "cover.webp",
+      "pictures": 4,
+      "done": 4,
+      "manifests": {
+        "simplified": "dukgras/illustrations.simplified.json",
+        "english": "dukgras/illustrations.english.json"
+      }
+    },
+    "enkeson": {
+      "cover": "cover.webp",
+      "pictures": 17,
+      "done": 17,
+      "manifests": {
+        "simplified": "enkeson/illustrations.simplified.json",
+        "english": "enkeson/illustrations.english.json"
+      }
+    },
+    "frihist": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "simplified": "frihist/illustrations.simplified.json",
+        "english": "frihist/illustrations.english.json"
+      }
+    },
+    "fugldam": {
+      "cover": "cover.webp",
+      "pictures": 19,
+      "done": 19,
+      "manifests": {
+        "simplified": "fugldam/illustrations.simplified.json",
+        "english": "fugldam/illustrations.english.json"
+      }
+    },
+    "giske": {
+      "cover": "cover.webp",
+      "pictures": 11,
+      "done": 11,
+      "manifests": {
+        "simplified": "giske/illustrations.simplified.json",
+        "english": "giske/illustrations.english.json"
+      }
+    },
+    "gjertrud": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "simplified": "gjertrud/illustrations.simplified.json",
+        "english": "gjertrud/illustrations.english.json"
+      }
+    },
+    "gudbrand": {
+      "cover": "cover.webp",
+      "pictures": 8,
+      "done": 8,
+      "manifests": {
+        "simplified": "gudbrand/illustrations.simplified.json",
+        "english": "gudbrand/illustrations.english.json"
+      }
+    },
+    "gutfand": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "simplified": "gutfand/illustrations.simplified.json",
+        "english": "gutfand/illustrations.english.json"
+      }
+    },
+    "guttnord": {
+      "cover": "cover.webp",
+      "pictures": 6,
+      "done": 6,
+      "manifests": {
+        "simplified": "guttnord/illustrations.simplified.json",
+        "english": "guttnord/illustrations.english.json"
+      }
+    },
+    "hanengjog": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "simplified": "hanengjog/illustrations.simplified.json",
+        "english": "hanengjog/illustrations.english.json"
+      }
+    },
+    "hanenoghoen": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "simplified": "hanenoghoen/illustrations.simplified.json",
+        "english": "hanenoghoen/illustrations.english.json"
+      }
+    },
+    "herreper": {
+      "cover": "cover.webp",
+      "pictures": 11,
+      "done": 11,
+      "manifests": {
+        "simplified": "herreper/illustrations.simplified.json",
+        "english": "herreper/illustrations.english.json"
+      }
+    },
+    "jomfrum": {
+      "cover": "cover.webp",
+      "pictures": 9,
+      "done": 9,
+      "manifests": {
+        "simplified": "jomfrum/illustrations.simplified.json",
+        "english": "jomfrum/illustrations.english.json"
+      }
+    },
+    "katrast": {
+      "cover": "cover.webp",
+      "pictures": 22,
+      "done": 22,
+      "manifests": {
+        "simplified": "katrast/illustrations.simplified.json",
+        "english": "katrast/illustrations.english.json"
+      }
+    },
+    "lillekort": {
+      "cover": "cover.webp",
+      "pictures": 24,
+      "done": 24,
+      "manifests": {
+        "simplified": "lillekort/illustrations.simplified.json",
+        "english": "lillekort/illustrations.english.json"
+      }
+    },
+    "mandatt": {
+      "cover": "cover.webp",
+      "pictures": 15,
+      "done": 15,
+      "manifests": {
+        "simplified": "mandatt/illustrations.simplified.json",
+        "english": "mandatt/illustrations.english.json"
+      }
+    },
+    "mesttyv": {
+      "cover": "cover.webp",
+      "pictures": 24,
+      "done": 24,
+      "manifests": {
+        "simplified": "mesttyv/illustrations.simplified.json",
+        "english": "mesttyv/illustrations.english.json"
+      }
+    },
+    "nodedsk": {
+      "cover": "cover.webp",
+      "pictures": 6,
+      "done": 6,
+      "manifests": {
+        "simplified": "nodedsk/illustrations.simplified.json",
+        "english": "nodedsk/illustrations.english.json"
+      }
+    },
+    "noedig": {
+      "cover": "cover.webp",
+      "pictures": 10,
+      "done": 10,
+      "manifests": {
+        "simplified": "noedig/illustrations.simplified.json",
+        "english": "noedig/illustrations.english.json"
+      }
+    },
+    "paalandr": {
+      "cover": "cover.webp",
+      "pictures": 5,
+      "done": 5,
+      "manifests": {
+        "simplified": "paalandr/illustrations.simplified.json",
+        "english": "paalandr/illustrations.english.json"
+      }
+    },
+    "rfoxgjt": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "simplified": "rfoxgjt/illustrations.simplified.json",
+        "english": "rfoxgjt/illustrations.english.json"
+      }
+    },
+    "rigeper": {
+      "cover": "cover.webp",
+      "pictures": 18,
+      "done": 18,
+      "manifests": {
+        "simplified": "rigeper/illustrations.simplified.json",
+        "english": "rigeper/illustrations.english.json"
+      }
+    },
+    "smehel": {
+      "cover": "cover.webp",
+      "pictures": 11,
+      "done": 11,
+      "manifests": {
+        "simplified": "smehel/illustrations.simplified.json",
+        "english": "smehel/illustrations.english.json"
+      }
+    },
+    "soriamor": {
+      "cover": "cover.webp",
+      "pictures": 19,
+      "done": 19,
+      "manifests": {
+        "simplified": "soriamor/illustrations.simplified.json",
+        "english": "soriamor/illustrations.english.json"
+      }
+    },
+    "spurning": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "simplified": "spurning/illustrations.simplified.json",
+        "english": "spurning/illustrations.english.json"
+      }
+    },
+    "syvfoler": {
+      "cover": "cover.webp",
+      "pictures": 12,
+      "done": 12,
+      "manifests": {
+        "simplified": "syvfoler/illustrations.simplified.json",
+        "english": "syvfoler/illustrations.english.json"
+      }
+    },
+    "tentland": {
+      "cover": "cover.webp",
+      "pictures": 12,
+      "done": 12,
+      "manifests": {
+        "simplified": "tentland/illustrations.simplified.json",
+        "english": "tentland/illustrations.english.json"
+      }
+    },
+    "tolvander": {
+      "cover": "cover.webp",
+      "pictures": 14,
+      "done": 14,
+      "manifests": {
+        "simplified": "tolvander/illustrations.simplified.json",
+        "english": "tolvander/illustrations.english.json"
+      }
+    },
+    "tremost": {
+      "cover": "cover.webp",
+      "pictures": 8,
+      "done": 8,
+      "manifests": {
+        "simplified": "tremost/illustrations.simplified.json",
+        "english": "tremost/illustrations.english.json"
+      }
+    },
+    "vesleaas": {
+      "cover": "cover.webp",
+      "pictures": 7,
+      "done": 7,
+      "manifests": {
+        "simplified": "vesleaas/illustrations.simplified.json",
+        "english": "vesleaas/illustrations.english.json"
+      }
+    }
+  }
+}

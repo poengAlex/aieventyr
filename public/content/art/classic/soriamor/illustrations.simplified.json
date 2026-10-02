@@ -1,0 +1,780 @@
+{
+  "storyId": "soriamor",
+  "set": "classic",
+  "variant": "simplified",
+  "title": "Soria Moria slott",
+  "textFile": "public/content/stories/soriamor/simplified/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T09:28:53.193Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Langt, langt borte glitret Soria Moria slott.",
+    "alt": "Halvor står på en fjellknaus i den blå skumringen og ser utover mørke åser og skoger. Langt borte glitrer et slott med gylne tårn under fullmånen.",
+    "prompt": "Halvor stands on a mossy crag at blue dusk, seen from behind in three-quarter view, gazing out across ridge after ridge of dark spruce forest and deep-blue mountains. Far, far away on the horizon, the golden towers of Soria Moria glitter like a tiny jewel under a rising full moon. The wind stirs his messy auburn hair and ragged grey shirt, and the first stars are coming out.",
+    "characters": [
+      "halvor"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor, the same character seen from three sides. Keep Halvor's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated folk-tale book, in a square format. Do not write a title or any other text on it.\n\nPicture: Halvor stands on a mossy crag at blue dusk, seen from behind in three-quarter view, gazing out across ridge after ridge of dark spruce forest and deep-blue mountains. Far, far away on the horizon, the golden towers of Soria Moria glitter like a tiny jewel under a rising full moon. The wind stirs his messy auburn hair and ragged grey shirt, and the first stars are coming out.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor: A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "halvor",
+      "name": "Halvor",
+      "description": "En stille og undervurdert gutt som blir modig og sterk når han må, og som aldri gir opp før han finner den han elsker.",
+      "look": "A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.",
+      "sheet": "characters/halvor.webp",
+      "turn": "characters/halvor-turn.mp4",
+      "portrait": "portraits/halvor.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/halvor.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/halvor-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "halvor"
+    },
+    {
+      "slug": "halvor-fine",
+      "name": "Halvor i fine klær",
+      "description": "Halvor kledd så fint at han ser ut som en kongssønn, med ønskeringen fra den yngste prinsessa på fingeren.",
+      "look": "A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.",
+      "sheet": "characters/halvor-fine.webp",
+      "turn": "characters/halvor-fine-turn.mp4",
+      "portrait": "portraits/halvor-fine.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/halvor-fine.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/halvor-fine-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "eldest-princess",
+      "name": "Den eldste prinsessa",
+      "description": "Den eldste av de tre prinsessene. Hun sitter ved rokken i det første slottet, der trollet med tre hoder bor.",
+      "look": "A tall, stately princess of about twenty-four with warm golden-brown skin, a long oval face, a straight nose, calm dark-brown eyes, neat arched eyebrows and thick black hair coiled into two round buns over her ears. She wears a thin gold circlet, a long plum-purple wool gown with a high collar and long sleeves, and a crisp white linen apron.",
+      "sheet": "characters/eldest-princess.webp",
+      "turn": "characters/eldest-princess-turn.mp4",
+      "portrait": "portraits/eldest-princess.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/eldest-princess.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/eldest-princess-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "middle-princess",
+      "name": "Den mellomste prinsessa",
+      "description": "Den mellomste av de tre prinsessene, fanget hos trollet med seks hoder. Da hun blir reddet, blir hun så glad at hun ikke vet hvilket bein hun skal stå på.",
+      "look": "A short, lively princess of about twenty-one with warm golden-brown skin, a round face with dimpled cheeks, a small button nose, merry black eyes and glossy black hair cut in a thick, chin-length bob with a straight fringe. She wears a thin gold circlet, a long saffron-yellow wool gown with full sleeves and a wide white sash, and a string of big white pearls.",
+      "sheet": "characters/middle-princess.webp",
+      "turn": "characters/middle-princess-turn.mp4",
+      "portrait": "portraits/middle-princess.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/middle-princess.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/middle-princess-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "youngest-princess",
+      "name": "Den yngste prinsessa",
+      "description": "Den vakreste av de tre søstrene Halvor redder, som gir ham ønskeringen og forbyr ham å nevne dem, og som tar ringen tilbake da han bryter løftet.",
+      "look": "A graceful, slender young woman of about nineteen with warm golden-brown skin, a heart-shaped face, a small straight nose, large, bright dark-brown eyes with long lashes, a calm, steady gaze and long, straight, glossy black hair falling loose to her waist. She wears a thin gold circlet, a long red wool gown with a square neckline and wide bell sleeves edged with gold braid, and a tiny gold sun pendant on a fine chain.",
+      "sheet": "characters/youngest-princess.webp",
+      "turn": "characters/youngest-princess-turn.mp4",
+      "portrait": "portraits/youngest-princess.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/youngest-princess.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/youngest-princess-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-yngste-prinsessa"
+    },
+    {
+      "slug": "three-headed-troll",
+      "name": "Trollet med tre hoder",
+      "description": "Trollet i det første slottet, som stikker alle tre hodene inn gjennom døra og kjenner lukt av kristen manns blod.",
+      "look": "A big, pear-shaped troll about twice as tall as a man, with knobbly blue-grey skin like wet slate, long dangling arms and huge flat feet. He has exactly three heads side by side on his broad shoulders, each with a big round nose: the left head is sleepy, with droopy eyelids and a floppy faded-red nightcap; the middle head is grumpy, with one bushy black eyebrow; the right head is surprised, with round eyes and a tuft of white hair. He wears a patched brown leather jerkin tied with rope.",
+      "sheet": "characters/three-headed-troll.webp",
+      "turn": "characters/three-headed-troll-turn.mp4",
+      "portrait": "portraits/three-headed-troll.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/three-headed-troll.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/three-headed-troll-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "six-headed-troll",
+      "name": "Trollet med seks hoder",
+      "description": "Trollet i det andre slottet, som er så svært at han må vri seg sidelengs inn gjennom døra.",
+      "look": "A huge, barrel-shaped troll about three times as tall as a man, with pale sandstone-yellow skin covered in brown freckles, warts and crusty patches of lichen, and shoulders so wide that he must turn sideways to get through doors. He has exactly six heads in one long row along his shoulders, each with a long pointed nose, small beady eyes and a stiff tuft of black hair. He wears a huge patchwork coat sewn from old sacks and goes barefoot.",
+      "sheet": "characters/six-headed-troll.webp",
+      "turn": "characters/six-headed-troll-turn.mp4",
+      "portrait": "portraits/six-headed-troll.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/six-headed-troll.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/six-headed-troll-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "nine-headed-troll",
+      "name": "Trollet med ni hoder",
+      "description": "Det største og farligste trollet, som vokter det tredje slottet og er seigere å beseire enn de andre.",
+      "look": "An enormous troll, the biggest of the three, about four times as tall as a man, with dark charcoal-grey skin, rough and lumpy like wet rock and streaked with moss, a round belly and thick, stumpy legs. He has exactly nine small, round heads on short, thick necks, spread in a wide fan above his shoulders, each with a potato nose, bushy white eyebrows and a wide, frog-like mouth. He wears a ragged sheepskin cloak and a belt of knotted rope.",
+      "sheet": "characters/nine-headed-troll.webp",
+      "turn": "characters/nine-headed-troll-turn.mp4",
+      "portrait": "portraits/nine-headed-troll.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/nine-headed-troll.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/nine-headed-troll-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "trollet-med-ni-hoder"
+    },
+    {
+      "slug": "mother",
+      "name": "Halvors mor",
+      "description": "Halvors gamle mor, som ikke tror at den fine herren kan være gutten hennes, før skinnet fra glørne faller på ansiktet hans.",
+      "look": "A small, sturdy, quick-moving old woman of about sixty with a round chin, a wide mouth made for laughing, a little upturned nose, bright brown eyes and grey-streaked dark-brown hair tucked under a faded indigo headscarf knotted on top of her head. She wears a patched heather-purple wool dress with rolled-up sleeves, a faded green apron and wooden clogs.",
+      "sheet": "characters/mother.webp",
+      "turn": "characters/mother-turn.mp4",
+      "portrait": "portraits/mother.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/mother.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/mother-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "father",
+      "name": "Halvors far",
+      "description": "Halvors gamle far, en stille mann som bukker for den fremmede herren og ikke vet om sønnen hans er levende eller død.",
+      "look": "A broad, slow-moving, heavy-set old man of about sixty-five with a big round face, ruddy cheeks, a bulbous nose, a bushy salt-and-pepper beard and a bald head under a knitted blue cap. He wears a worn moss-green wool jacket over a collarless linen shirt, patched brown knee breeches, grey knitted stockings and heavy leather boots.",
+      "sheet": "characters/father.webp",
+      "turn": "characters/father-turn.mp4",
+      "portrait": "portraits/father.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/father.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/father-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "old-cottage-woman",
+      "name": "Kona med den lange nesa",
+      "description": "En gammel og underlig kvinne som hjelper Halvor videre ved å bytte bort støvler som gir enorme skritt og ved å spørre vestavinden om veien.",
+      "look": "A tall, bony, very old woman with a long thin neck, knobbly hands, a wrinkled, cheerful face, small twinkling black eyes and an enormously long, thin, pointed nose with a rosy tip, long enough to poke the embers with. Wisps of dove-grey hair peep out from under a white linen cap. She wears a faded heather-blue wool dress, a black apron and wooden clogs.",
+      "sheet": "characters/old-cottage-woman.webp",
+      "turn": "characters/old-cottage-woman-turn.mp4",
+      "portrait": "portraits/old-cottage-woman.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/old-cottage-woman.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/old-cottage-woman-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kona-med-den-lange-nesa"
+    },
+    {
+      "slug": "west-wind",
+      "name": "Vestavinden",
+      "description": "En kraftig og rastløs naturkraft som kjenner veien til Soria Moria og drar Halvor i vill fart over landet.",
+      "look": "A wild, friendly wind spirit the size of a big man, with a round, rosy, beardless face, a wide merry grin and bright green eyes. His long streaming hair is made of whirling leaves and spruce needles, with three wooden clothes-pegs clipped in it. From the chest down his body turns into long, curling swirls of misty grey-green air full of spinning leaves, and he has long, thin, gusty arms.",
+      "sheet": "characters/west-wind.webp",
+      "turn": "characters/west-wind-turn.mp4",
+      "portrait": "portraits/west-wind.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/west-wind.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/west-wind-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "vestavinden"
+    }
+  ],
+  "places": [
+    {
+      "slug": "hillside-cottage",
+      "name": "the Hillside Cottage",
+      "look": "A tiny, poor log cottage with a sagging turf roof and one small window, on a steep hillside above a fjord, with a big farm higher up the slope. Inside: one low, smoke-blackened room with a big open stone hearth in the corner heaped with grey ashes, a rough plank table, a bench along the wall, a water bucket and not a single chair."
+    },
+    {
+      "slug": "grand-hall",
+      "name": "the Grand Hall",
+      "look": "The grandest hall of the third troll castle: vast and high, with walls of pale grey stone, carved and gilded wooden pillars, a floor of wide polished planks, tall arched windows looking out over blue mountains, and one huge arched double door of dark oak bound with iron. In one corner stands a tall stove of grey soapstone, glowing warm, with a carved chair beside it."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 4,
+      "anchor": "Jo, det hadde Halvor.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "For en gangs skyld var Halvor rask med å komme seg opp fra peisen.",
+      "alt": "Halvor kommer seg opp fra aska ved peisen. I den lave døra står en skipper og vinker, og langt der nede på fjorden ligger et seilskip.",
+      "prompt": "Inside the Hillside Cottage on a bright morning, Halvor scrambles up out of the ash-heaped stone hearth for once in his life, grey ash puffing off his ragged clothes and his sleepy eyes wide awake. In the low open doorway stands a weather-beaten skipper with a grey fringe of beard, a dark-blue wool coat and a knitted cap, beckoning. Through the door, far below the hillside, a sailing ship lies at anchor on the fjord.",
+      "characters": [
+        "halvor"
+      ],
+      "places": [
+        "hillside-cottage"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor, the same character seen from three sides. Keep Halvor's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Hillside Cottage. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Inside the Hillside Cottage on a bright morning, Halvor scrambles up out of the ash-heaped stone hearth for once in his life, grey ash puffing off his ragged clothes and his sleepy eyes wide awake. In the low open doorway stands a weather-beaten skipper with a grey fringe of beard, a dark-blue wool coat and a knitted cap, beckoning. Through the door, far below the hillside, a sailing ship lies at anchor on the fjord.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor: A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.\n\nSetting:\n- the Hillside Cottage: A tiny, poor log cottage with a sagging turf roof and one small window, on a steep hillside above a fjord, with a big farm higher up the slope. Inside: one low, smoke-blackened room with a big open stone hearth in the corner heaped with grey ashes, a rough plank table, a bench along the wall, a water bucket and not a single chair.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 11,
+      "anchor": "Litt lenger borte fant han en stor vei.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Langt borte lå et stort slott. Det lyste fra hvert eneste vindu.",
+      "alt": "Halvor går alene på en bred, jevn vei gjennom et tomt land i skumringen. Langt borte ligger et stort slott med lys i alle vinduene.",
+      "prompt": "Wide view of an empty land at dusk, under a deep-blue sky with the first stars. Halvor, small in the frame, walks along a broad, perfectly smooth pale road that winds over rolling fields and meadows, with not a person, farm or animal anywhere. Far ahead, where the road ends, a huge castle with many towers stands against the evening sky, golden light streaming from every single window. The wind tugs at his ragged shirt.",
+      "characters": [
+        "halvor"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor, the same character seen from three sides. Keep Halvor's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Wide view of an empty land at dusk, under a deep-blue sky with the first stars. Halvor, small in the frame, walks along a broad, perfectly smooth pale road that winds over rolling fields and meadows, with not a person, farm or animal anywhere. Far ahead, where the road ends, a huge castle with many towers stands against the evening sky, golden light streaming from every single window. The wind tugs at his ragged shirt.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor: A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 14,
+      "anchor": "«Nei, nei da!» ropte hun og løftet hånda.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Snu i døra, ellers blir du slukt! Her bor det et troll med tre hoder.»",
+      "alt": "Prinsessa sitter ved rokken og løfter hånda forskrekket da Halvor står i døra. Bak ham blinker gryter og panner av gull og sølv på kjøkkenet.",
+      "prompt": "In a warm, firelit chamber of the first castle, the Eldest Princess sits at her wooden spinning wheel and throws up one hand in alarm, her thread falling slack, as Halvor, ragged and sooty, steps into the doorway. Behind him, in the empty kitchen, gold and silver pots, pans and ladles gleam on the walls in the firelight. On the chamber wall hangs the huge old sword with the small green flask beside it.",
+      "characters": [
+        "halvor",
+        "eldest-princess"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor, the same character seen from three sides. Keep Halvor's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Princess, the same character seen from three sides. Keep the Eldest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In a warm, firelit chamber of the first castle, the Eldest Princess sits at her wooden spinning wheel and throws up one hand in alarm, her thread falling slack, as Halvor, ragged and sooty, steps into the doorway. Behind him, in the empty kitchen, gold and silver pots, pans and ladles gleam on the walls in the firelight. On the chamber wall hangs the huge old sword with the small green flask beside it.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor: A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.\n- the Eldest Princess: A tall, stately princess of about twenty-four with warm golden-brown skin, a long oval face, a straight nose, calm dark-brown eyes, neat arched eyebrows and thick black hair coiled into two round buns over her ears. She wears a thin gold circlet, a long plum-purple wool gown with a high collar and long sleeves, and a crisp white linen apron.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 22,
+      "anchor": "«Huttetu! Her lukter det kristen manns blod!» sa trollet",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Huttetu! Her lukter det kristen manns blod!»",
+      "alt": "Trollet med tre hoder stikker alle tre hodene inn gjennom døra og snuser. Bak døra står Halvor klemt inntil veggen med det store sverdet klart.",
+      "prompt": "In the firelit chamber of the first castle, the door has swung inwards and the Three-Headed Troll pokes all three heads in through the doorway at once, the three big noses sniffing the air: the sleepy head, the grumpy head and the surprised head. Behind the open door, pressed flat against the wall, Halvor waits with the huge old sword raised in both hands, holding his breath. The troll's pear-shaped body is still out in the dark corridor.",
+      "characters": [
+        "halvor",
+        "three-headed-troll"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor, the same character seen from three sides. Keep Halvor's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Three-Headed Troll, the same character seen from three sides. Keep the Three-Headed Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Three-Headed Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the firelit chamber of the first castle, the door has swung inwards and the Three-Headed Troll pokes all three heads in through the doorway at once, the three big noses sniffing the air: the sleepy head, the grumpy head and the surprised head. Behind the open door, pressed flat against the wall, Halvor waits with the huge old sword raised in both hands, holding his breath. The troll's pear-shaped body is still out in the dark corridor.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor: A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.\n- the Three-Headed Troll: A big, pear-shaped troll about twice as tall as a man, with knobbly blue-grey skin like wet slate, long dangling arms and huge flat feet. He has exactly three heads side by side on his broad shoulders, each with a big round nose: the left head is sleepy, with droopy eyelids and a floppy faded-red nightcap; the middle head is grumpy, with one bushy black eyebrow; the right head is surprised, with round eyes and a tuft of white hair. He wears a patched brown leather jerkin tied with rope.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 35,
+      "anchor": "Det fikk han, så mye han orket.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Redd for trollet var han ikke, men mat og drikke ville han ha.",
+      "alt": "Halvor sitter ved et langbord og spiser brød, steik og ost. Den mellomste prinsessa står ved siden av, vrir hendene og peker mot døra.",
+      "prompt": "In a candlelit hall of the second castle, grander than the first, Halvor sits at a long table tucking into a huge meal: a whole loaf, a roast joint, a round cheese and a jug of ale. He chews contentedly, in no hurry at all. The Middle Princess stands beside him wringing her hands and pointing anxiously at the door, begging him to leave before the troll comes home. Gold candlesticks gleam on the table.",
+      "characters": [
+        "halvor",
+        "middle-princess"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor, the same character seen from three sides. Keep Halvor's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Middle Princess, the same character seen from three sides. Keep the Middle Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Middle Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In a candlelit hall of the second castle, grander than the first, Halvor sits at a long table tucking into a huge meal: a whole loaf, a roast joint, a round cheese and a jug of ale. He chews contentedly, in no hurry at all. The Middle Princess stands beside him wringing her hands and pointing anxiously at the door, begging him to leave before the troll comes home. Gold candlesticks gleam on the table.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor: A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.\n- the Middle Princess: A short, lively princess of about twenty-one with warm golden-brown skin, a round face with dimpled cheeks, a small button nose, merry black eyes and glossy black hair cut in a thick, chin-length bob with a straight fringe. She wears a thin gold circlet, a long saffron-yellow wool gown with full sleeves and a wide white sash, and a string of big white pearls.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 39,
+      "anchor": "Rett som det var, kom trollet. Han var så svær",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Trollet var så svært at det måtte vri seg sidelengs inn gjennom døra.",
+      "alt": "Trollet med seks hoder vrir seg sidelengs inn gjennom en altfor trang dør, og bare det første hodet er inne. Halvor venter med sverdet, og prinsessa titter fram bak en stol.",
+      "prompt": "The doorway of the candlelit hall in the second castle is far too narrow for the Six-Headed Troll: he twists his huge barrel-shaped body sideways to squeeze in, the door frame creaking, and only his first head is inside yet, its long pointed nose sniffing. His other five heads are still crowded outside in the dark. Halvor stands waiting in the middle of the hall with the troll's huge war sword raised, and the Middle Princess peeks out from behind a tall-backed chair.",
+      "characters": [
+        "halvor",
+        "six-headed-troll",
+        "middle-princess"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor, the same character seen from three sides. Keep Halvor's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Six-Headed Troll, the same character seen from three sides. Keep the Six-Headed Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Six-Headed Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Middle Princess, the same character seen from three sides. Keep the Middle Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Middle Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: The doorway of the candlelit hall in the second castle is far too narrow for the Six-Headed Troll: he twists his huge barrel-shaped body sideways to squeeze in, the door frame creaking, and only his first head is inside yet, its long pointed nose sniffing. His other five heads are still crowded outside in the dark. Halvor stands waiting in the middle of the hall with the troll's huge war sword raised, and the Middle Princess peeks out from behind a tall-backed chair.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor: A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.\n- the Six-Headed Troll: A huge, barrel-shaped troll about three times as tall as a man, with pale sandstone-yellow skin covered in brown freckles, warts and crusty patches of lichen, and shoulders so wide that he must turn sideways to get through doors. He has exactly six heads in one long row along his shoulders, each with a long pointed nose, small beady eyes and a stiff tuft of black hair. He wears a huge patchwork coat sewn from old sacks and goes barefoot.\n- the Middle Princess: A short, lively princess of about twenty-one with warm golden-brown skin, a round face with dimpled cheeks, a small button nose, merry black eyes and glossy black hair cut in a thick, chin-length bob with a straight fringe. She wears a thin gold circlet, a long saffron-yellow wool gown with full sleeves and a wide white sash, and a string of big white pearls.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 44,
+      "anchor": "Og der satt den vakreste prinsessa Halvor noen gang hadde sett.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Der satt den vakreste prinsessa Halvor noen gang hadde sett.",
+      "alt": "Den yngste prinsessa sitter ved ovnen i en stor sal og ser opp. Halvor har stanset midt på gulvet og stirrer på henne.",
+      "prompt": "In the Grand Hall at evening, the last low sunlight falling through the tall arched windows, the Youngest Princess sits on the carved chair by the glowing soapstone stove, so lovely that the whole hall seems brighter around her. She looks up, startled. Halvor has just walked straight in through the huge oak door and stops dead in the middle of the floor, dusty from the road, staring at her with his mouth half open.",
+      "characters": [
+        "halvor",
+        "youngest-princess"
+      ],
+      "places": [
+        "grand-hall"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor, the same character seen from three sides. Keep Halvor's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Princess, the same character seen from three sides. Keep the Youngest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Grand Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the Grand Hall at evening, the last low sunlight falling through the tall arched windows, the Youngest Princess sits on the carved chair by the glowing soapstone stove, so lovely that the whole hall seems brighter around her. She looks up, startled. Halvor has just walked straight in through the huge oak door and stops dead in the middle of the floor, dusty from the road, staring at her with his mouth half open.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor: A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.\n- the Youngest Princess: A graceful, slender young woman of about nineteen with warm golden-brown skin, a heart-shaped face, a small straight nose, large, bright dark-brown eyes with long lashes, a calm, steady gaze and long, straight, glossy black hair falling loose to her waist. She wears a thin gold circlet, a long red wool gown with a square neckline and wide bell sleeves edged with gold braid, and a tiny gold sun pendant on a fine chain.\n\nSetting:\n- the Grand Hall: The grandest hall of the third troll castle: vast and high, with walls of pale grey stone, carved and gilded wooden pillars, a floor of wide polished planks, tall arched windows looking out over blue mountains, and one huge arched double door of dark oak bound with iron. In one corner stands a tall stove of grey soapstone, glowing warm, with a carved chair beside it.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 50,
+      "anchor": "Rett som det var, kom trollet så det suste.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Trollet var enda større og digrere enn de to andre.",
+      "alt": "De store dørene står åpne, og trollet med ni hoder presser seg sidelengs inn i salen. Halvor venter ved ovnen med sverdet, og prinsessa står klemt inntil veggen.",
+      "prompt": "Seen from behind Halvor, who stands by the soapstone stove in the Grand Hall gripping the huge old troll sword with both hands: the great oak double doors have burst open with a rush of wind, and the Nine-Headed Troll forces his way in sideways, bigger and fatter than any troll before him, his nine heads crowding through in a wide fan, all sniffing. The candle flames stream sideways. The Youngest Princess presses herself flat against the wall, hardly daring to breathe.",
+      "characters": [
+        "halvor",
+        "nine-headed-troll",
+        "youngest-princess"
+      ],
+      "places": [
+        "grand-hall"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor, the same character seen from three sides. Keep Halvor's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Nine-Headed Troll, the same character seen from three sides. Keep the Nine-Headed Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Nine-Headed Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Youngest Princess, the same character seen from three sides. Keep the Youngest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Grand Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Seen from behind Halvor, who stands by the soapstone stove in the Grand Hall gripping the huge old troll sword with both hands: the great oak double doors have burst open with a rush of wind, and the Nine-Headed Troll forces his way in sideways, bigger and fatter than any troll before him, his nine heads crowding through in a wide fan, all sniffing. The candle flames stream sideways. The Youngest Princess presses herself flat against the wall, hardly daring to breathe.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor: A tall, lanky young man of about nineteen with a lazy slouch, a long face, a long straight nose, sleepy, half-closed hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, his cheeks smudged with soot. He wears a ragged, soot-streaked grey wool shirt with holes at the elbows, baggy patched brown breeches held up with a length of rope, grey wool stockings and battered brown leather shoes.\n- the Nine-Headed Troll: An enormous troll, the biggest of the three, about four times as tall as a man, with dark charcoal-grey skin, rough and lumpy like wet rock and streaked with moss, a round belly and thick, stumpy legs. He has exactly nine small, round heads on short, thick necks, spread in a wide fan above his shoulders, each with a potato nose, bushy white eyebrows and a wide, frog-like mouth. He wears a ragged sheepskin cloak and a belt of knotted rope.\n- the Youngest Princess: A graceful, slender young woman of about nineteen with warm golden-brown skin, a heart-shaped face, a small straight nose, large, bright dark-brown eyes with long lashes, a calm, steady gaze and long, straight, glossy black hair falling loose to her waist. She wears a thin gold circlet, a long red wool gown with a square neckline and wide bell sleeves edged with gold braid, and a tiny gold sun pendant on a fine chain.\n\nSetting:\n- the Grand Hall: The grandest hall of the third troll castle: vast and high, with walls of pale grey stone, carved and gilded wooden pillars, a floor of wide polished planks, tall arched windows looking out over blue mountains, and one huge arched double door of dark oak bound with iron. In one corner stands a tall stove of grey soapstone, glowing warm, with a carved chair beside it.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 59,
+      "anchor": "Ja, han skulle ikke gjøre annet enn det de ville.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han så ut som en kongssønn, og på fingeren satte de en ring.",
+      "alt": "Halvor står i fine klær midt i salen. Den yngste prinsessa setter en sølvring med blå stein på fingeren hans, og søstrene hennes står rundt dem og smiler.",
+      "prompt": "In the Grand Hall on a bright morning, Halvor in Fine Clothes, washed clean and dressed like a king's son, stands shyly in the middle of the floor. The Youngest Princess takes his hand and slides a heavy silver ring with a round blue stone onto his finger, looking him straight in the eye. The Eldest Princess and the Middle Princess stand close around them, smiling. Sunlight falls through the tall arched windows.",
+      "characters": [
+        "halvor-fine",
+        "youngest-princess",
+        "eldest-princess",
+        "middle-princess"
+      ],
+      "places": [
+        "grand-hall"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Princess, the same character seen from three sides. Keep the Youngest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Eldest Princess, the same character seen from three sides. Keep the Eldest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Middle Princess, the same character seen from three sides. Keep the Middle Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Middle Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: setting reference for the Grand Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the Grand Hall on a bright morning, Halvor in Fine Clothes, washed clean and dressed like a king's son, stands shyly in the middle of the floor. The Youngest Princess takes his hand and slides a heavy silver ring with a round blue stone onto his finger, looking him straight in the eye. The Eldest Princess and the Middle Princess stand close around them, smiling. Sunlight falls through the tall arched windows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n- the Youngest Princess: A graceful, slender young woman of about nineteen with warm golden-brown skin, a heart-shaped face, a small straight nose, large, bright dark-brown eyes with long lashes, a calm, steady gaze and long, straight, glossy black hair falling loose to her waist. She wears a thin gold circlet, a long red wool gown with a square neckline and wide bell sleeves edged with gold braid, and a tiny gold sun pendant on a fine chain.\n- the Eldest Princess: A tall, stately princess of about twenty-four with warm golden-brown skin, a long oval face, a straight nose, calm dark-brown eyes, neat arched eyebrows and thick black hair coiled into two round buns over her ears. She wears a thin gold circlet, a long plum-purple wool gown with a high collar and long sleeves, and a crisp white linen apron.\n- the Middle Princess: A short, lively princess of about twenty-one with warm golden-brown skin, a round face with dimpled cheeks, a small button nose, merry black eyes and glossy black hair cut in a thick, chin-length bob with a straight fringe. She wears a thin gold circlet, a long saffron-yellow wool gown with full sleeves and a wide white sash, and a string of big white pearls.\n\nSetting:\n- the Grand Hall: The grandest hall of the third troll castle: vast and high, with walls of pale grey stone, carved and gilded wooden pillars, a floor of wide polished planks, tall arched windows looking out over blue mountains, and one huge arched double door of dark oak bound with iron. In one corner stands a tall stove of grey soapstone, glowing warm, with a carved chair beside it.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 63,
+      "anchor": "Det var i skumringen.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "De gamle bukket og neide og visste ikke hvor de skulle gjøre av seg.",
+      "alt": "En fin herre har kommet inn gjennom den lave døra i den lille stua. Den gamle mannen bukker dypt med lua i hendene, og kona neier.",
+      "prompt": "At dusk inside the Hillside Cottage, Halvor in Fine Clothes has just stepped in through the low door, stooping under the lintel, a grand stranger in the smoky little room. The Father, flustered, bows low with his knitted cap crushed in his hands, and the Mother drops a deep curtsy, neither of them daring to look up. The open hearth glows dimly behind them, and there is not a single chair in the room.",
+      "characters": [
+        "halvor-fine",
+        "father",
+        "mother"
+      ],
+      "places": [
+        "hillside-cottage"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Father, the same character seen from three sides. Keep the Father's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Father only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Mother, the same character seen from three sides. Keep the Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Hillside Cottage. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: At dusk inside the Hillside Cottage, Halvor in Fine Clothes has just stepped in through the low door, stooping under the lintel, a grand stranger in the smoky little room. The Father, flustered, bows low with his knitted cap crushed in his hands, and the Mother drops a deep curtsy, neither of them daring to look up. The open hearth glows dimly behind them, and there is not a single chair in the room.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n- the Father: A broad, slow-moving, heavy-set old man of about sixty-five with a big round face, ruddy cheeks, a bulbous nose, a bushy salt-and-pepper beard and a bald head under a knitted blue cap. He wears a worn moss-green wool jacket over a collarless linen shirt, patched brown knee breeches, grey knitted stockings and heavy leather boots.\n- the Mother: A small, sturdy, quick-moving old woman of about sixty with a round chin, a wide mouth made for laughing, a little upturned nose, bright brown eyes and grey-streaked dark-brown hair tucked under a faded indigo headscarf knotted on top of her head. She wears a patched heather-purple wool dress with rolled-up sleeves, a faded green apron and wooden clogs.\n\nSetting:\n- the Hillside Cottage: A tiny, poor log cottage with a sagging turf roof and one small window, on a steep hillside above a fjord, with a big farm higher up the slope. Inside: one low, smoke-blackened room with a big open stone hearth in the corner heaped with grey ashes, a rough plank table, a bench along the wall, a water bucket and not a single chair.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 74,
+      "anchor": "Om litt gikk hun bort for å rake i glørne.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Men jammen er det deg, Halvor!»",
+      "alt": "Halvor sitter i aska ved peisen i sine fine klær. Mora raker i glørne, og skinnet fra ilden lyser opp ansiktet hans. Faren ser opp fra benken.",
+      "prompt": "Night in the Hillside Cottage. Halvor in Fine Clothes sits in the ashes of the big open stone hearth, just as he used to, his fine blue clothes grey with ash. The Mother bends over the hearth with an iron fire rake, and the embers have just flared up, lighting his face bright gold. She freezes, staring at him in sudden recognition. The Father, sitting on the bench against the wall, leans forward.",
+      "characters": [
+        "halvor-fine",
+        "mother",
+        "father"
+      ],
+      "places": [
+        "hillside-cottage"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Mother, the same character seen from three sides. Keep the Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Father, the same character seen from three sides. Keep the Father's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Father only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Hillside Cottage. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Night in the Hillside Cottage. Halvor in Fine Clothes sits in the ashes of the big open stone hearth, just as he used to, his fine blue clothes grey with ash. The Mother bends over the hearth with an iron fire rake, and the embers have just flared up, lighting his face bright gold. She freezes, staring at him in sudden recognition. The Father, sitting on the bench against the wall, leans forward.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n- the Mother: A small, sturdy, quick-moving old woman of about sixty with a round chin, a wide mouth made for laughing, a little upturned nose, bright brown eyes and grey-streaked dark-brown hair tucked under a faded indigo headscarf knotted on top of her head. She wears a patched heather-purple wool dress with rolled-up sleeves, a faded green apron and wooden clogs.\n- the Father: A broad, slow-moving, heavy-set old man of about sixty-five with a big round face, ruddy cheeks, a bulbous nose, a bushy salt-and-pepper beard and a bald head under a knitted blue cap. He wears a worn moss-green wool jacket over a collarless linen shirt, patched brown knee breeches, grey knitted stockings and heavy leather boots.\n\nSetting:\n- the Hillside Cottage: A tiny, poor log cottage with a sagging turf roof and one small window, on a steep hillside above a fjord, with a big farm higher up the slope. Inside: one low, smoke-blackened room with a big open stone hearth in the corner heaped with grey ashes, a rough plank table, a bench along the wall, a water bucket and not a single chair.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 83,
+      "anchor": "Knapt var ordene ute av munnen hans, så sto de der.",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Knapt var ordene ute av munnen hans, så sto de der.",
+      "alt": "De tre prinsessene står plutselig midt på gulvet i stua på gården. To jenter ved peisen gaper, og Halvor holder hånda mot brystet, blek og forskrekket.",
+      "prompt": "In the big, low main room of the farm up the hill, the Eldest Princess, the Middle Princess and the Youngest Princess suddenly stand in the middle of the floor, tall and radiant in the plain room. Two haughty farm girls in homespun dresses gape at them from beside the fireplace. Halvor in Fine Clothes has gone pale and clutches the hand with the ring to his chest, remembering his promise too late.",
+      "characters": [
+        "halvor-fine",
+        "eldest-princess",
+        "middle-princess",
+        "youngest-princess"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Princess, the same character seen from three sides. Keep the Eldest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Middle Princess, the same character seen from three sides. Keep the Middle Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Middle Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Youngest Princess, the same character seen from three sides. Keep the Youngest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the big, low main room of the farm up the hill, the Eldest Princess, the Middle Princess and the Youngest Princess suddenly stand in the middle of the floor, tall and radiant in the plain room. Two haughty farm girls in homespun dresses gape at them from beside the fireplace. Halvor in Fine Clothes has gone pale and clutches the hand with the ring to his chest, remembering his promise too late.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n- the Eldest Princess: A tall, stately princess of about twenty-four with warm golden-brown skin, a long oval face, a straight nose, calm dark-brown eyes, neat arched eyebrows and thick black hair coiled into two round buns over her ears. She wears a thin gold circlet, a long plum-purple wool gown with a high collar and long sleeves, and a crisp white linen apron.\n- the Middle Princess: A short, lively princess of about twenty-one with warm golden-brown skin, a round face with dimpled cheeks, a small button nose, merry black eyes and glossy black hair cut in a thick, chin-length bob with a straight fringe. She wears a thin gold circlet, a long saffron-yellow wool gown with full sleeves and a wide white sash, and a string of big white pearls.\n- the Youngest Princess: A graceful, slender young woman of about nineteen with warm golden-brown skin, a heart-shaped face, a small straight nose, large, bright dark-brown eyes with long lashes, a calm, steady gaze and long, straight, glossy black hair falling loose to her waist. She wears a thin gold circlet, a long red wool gown with a square neckline and wide bell sleeves edged with gold braid, and a tiny gold sun pendant on a fine chain.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "13",
+      "paragraph": 89,
+      "anchor": "Halvor la seg med hodet i fanget hennes",
+      "file": "scenes/13.webp",
+      "sources": [
+        {
+          "file": "scenes/13.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/13-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun trakk av ringen og satte en annen ring på fingeren hans.",
+      "alt": "Halvor sover med hodet i fanget til den yngste prinsessa på en grønn bakke ved et stort vann. Hun trekker ringen av fingeren hans, og søstrene ser på.",
+      "prompt": "On a green slope dotted with flowers beside a big, still lake that mirrors the whole sky, in soft afternoon light. Halvor in Fine Clothes lies fast asleep with his head in the lap of the Youngest Princess. Calmly and without hurrying, she draws the silver ring with the blue stone off his finger, holding a slim gold ring ready in her other hand. The Eldest Princess and the Middle Princess sit close beside her, watching.",
+      "characters": [
+        "halvor-fine",
+        "youngest-princess",
+        "eldest-princess",
+        "middle-princess"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Princess, the same character seen from three sides. Keep the Youngest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Eldest Princess, the same character seen from three sides. Keep the Eldest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Middle Princess, the same character seen from three sides. Keep the Middle Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Middle Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On a green slope dotted with flowers beside a big, still lake that mirrors the whole sky, in soft afternoon light. Halvor in Fine Clothes lies fast asleep with his head in the lap of the Youngest Princess. Calmly and without hurrying, she draws the silver ring with the blue stone off his finger, holding a slim gold ring ready in her other hand. The Eldest Princess and the Middle Princess sit close beside her, watching.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n- the Youngest Princess: A graceful, slender young woman of about nineteen with warm golden-brown skin, a heart-shaped face, a small straight nose, large, bright dark-brown eyes with long lashes, a calm, steady gaze and long, straight, glossy black hair falling loose to her waist. She wears a thin gold circlet, a long red wool gown with a square neckline and wide bell sleeves edged with gold braid, and a tiny gold sun pendant on a fine chain.\n- the Eldest Princess: A tall, stately princess of about twenty-four with warm golden-brown skin, a long oval face, a straight nose, calm dark-brown eyes, neat arched eyebrows and thick black hair coiled into two round buns over her ears. She wears a thin gold circlet, a long plum-purple wool gown with a high collar and long sleeves, and a crisp white linen apron.\n- the Middle Princess: A short, lively princess of about twenty-one with warm golden-brown skin, a round face with dimpled cheeks, a small button nose, merry black eyes and glossy black hair cut in a thick, chin-length bob with a straight fringe. She wears a thin gold circlet, a long saffron-yellow wool gown with full sleeves and a wide white sash, and a string of big white pearls.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "14",
+      "paragraph": 99,
+      "anchor": "Da kvelden kom, slo han seg ned under et stort tre på en grønn eng.",
+      "file": "scenes/14.webp",
+      "sources": [
+        {
+          "file": "scenes/14.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/14-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Sove gjorde han ikke, for han hadde ikke ro på seg.",
+      "alt": "Halvor sitter våken under et stort tre på en grønn eng om natta og spiser av matsekken. Hesten beiter i måneskinnet.",
+      "prompt": "Night on a green meadow under one big, old spreading tree. Halvor in Fine Clothes, travel-worn, sits wide awake with his back against the trunk, eating a crust from his food bag and staring into the dark with a sad, restless face. A little way off, the shaggy dun horse grazes in the moonlight. Beyond the meadow the dark edge of a great forest waits.",
+      "characters": [
+        "halvor-fine"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Night on a green meadow under one big, old spreading tree. Halvor in Fine Clothes, travel-worn, sits wide awake with his back against the trunk, eating a crust from his food bag and staring into the dark with a sad, restless face. A little way off, the shaggy dun horse grazes in the moonlight. Beyond the meadow the dark edge of a great forest waits.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "15",
+      "paragraph": 109,
+      "anchor": "«Du måne! Du måne!» skrek hun.",
+      "file": "scenes/15.webp",
+      "sources": [
+        {
+          "file": "scenes/15.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/15-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Du måne! Du måne! Kan du si meg veien til Soria Moria slott?»",
+      "alt": "Kona med den lange nesa står utenfor ei lita hytte i skogen og roper opp mot fullmånen. Ved døra står hesten og henger med hodet.",
+      "prompt": "Moonlit yard outside a tiny, crooked log hut deep in a black spruce forest. The Old Woman stands in the middle of the yard with her bony arms flung up and her enormously long nose pointed at the sky, shrieking up at the full moon, which hangs bright and round above the treetops with a faint, sulky face. By the hut door, the shaggy dun horse waits with its head hanging, and the one small window glows orange.",
+      "characters": [
+        "old-cottage-woman"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Old Woman, the same character seen from three sides. Keep the Old Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Moonlit yard outside a tiny, crooked log hut deep in a black spruce forest. The Old Woman stands in the middle of the yard with her bony arms flung up and her enormously long nose pointed at the sky, shrieking up at the full moon, which hangs bright and round above the treetops with a faint, sulky face. By the hut door, the shaggy dun horse waits with its head hanging, and the one small window glows orange.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Old Woman: A tall, bony, very old woman with a long thin neck, knobbly hands, a wrinkled, cheerful face, small twinkling black eyes and an enormously long, thin, pointed nose with a rosy tip, long enough to poke the embers with. Wisps of dove-grey hair peep out from under a white linen cap. She wears a faded heather-blue wool dress, a black apron and wooden clogs.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "16",
+      "paragraph": 114,
+      "anchor": "Det ville Halvor gjerne.",
+      "file": "scenes/16.webp",
+      "sources": [
+        {
+          "file": "scenes/16.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/16-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kona ble så glad i hesten at hun var på nippet til å ta en svingom med den.",
+      "alt": "Kona danser rundt hesten i måneskinnet med armene ut og nesa i været. Halvor står ved veggen med et par gamle støvler og ler.",
+      "prompt": "In the moonlit yard of the forest hut, the Old Woman capers delightedly around the shaggy dun horse with her arms held out as if to swing it round in a dance, her white cap askew and her long nose in the air. The horse looks puzzled. Halvor in Fine Clothes stands by the hut wall holding a pair of cracked old brown leather boots, grinning at her.",
+      "characters": [
+        "old-cottage-woman",
+        "halvor-fine"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Old Woman, the same character seen from three sides. Keep the Old Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the moonlit yard of the forest hut, the Old Woman capers delightedly around the shaggy dun horse with her arms held out as if to swing it round in a dance, her white cap askew and her long nose in the air. The horse looks puzzled. Halvor in Fine Clothes stands by the hut wall holding a pair of cracked old brown leather boots, grinning at her.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Old Woman: A tall, bony, very old woman with a long thin neck, knobbly hands, a wrinkled, cheerful face, small twinkling black eyes and an enormously long, thin, pointed nose with a rosy tip, long enough to poke the embers with. Wisps of dove-grey hair peep out from under a white linen cap. She wears a faded heather-blue wool dress, a black apron and wooden clogs.\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "17",
+      "paragraph": 121,
+      "anchor": "«Heng med, da, hvis du skal ha følge!» sa vestavinden.",
+      "file": "scenes/17.webp",
+      "sources": [
+        {
+          "file": "scenes/17.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/17-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Over skog og ås, over fjell og fjord!",
+      "alt": "Halvor tar et kjempeskritt fra fjelltopp til fjelltopp i måneskinnet. Ved siden av ham suser vestavinden med løv og barnåler virvlende etter seg.",
+      "prompt": "A vast moonlit view high over mountains, heaths and fjords at night. Halvor in Fine Clothes, wearing the cracked old brown boots, takes one gigantic stride from one mountaintop to the next, cloak flying and hair streaming, straining to keep up. Beside him and a little ahead, the West Wind roars along with a merry grin, bending the spruce forests far below and whirling leaves and needles in his wake.",
+      "characters": [
+        "halvor-fine",
+        "west-wind"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the West Wind, the same character seen from three sides. Keep the West Wind's face, hair, body shape, age, colours and clothes exactly as shown. Draw the West Wind only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: A vast moonlit view high over mountains, heaths and fjords at night. Halvor in Fine Clothes, wearing the cracked old brown boots, takes one gigantic stride from one mountaintop to the next, cloak flying and hair streaming, straining to keep up. Beside him and a little ahead, the West Wind roars along with a merry grin, bending the spruce forests far below and whirling leaves and needles in his wake.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n- the West Wind: A wild, friendly wind spirit the size of a big man, with a round, rosy, beardless face, a wide merry grin and bright green eyes. His long streaming hair is made of whirling leaves and spruce needles, with three wooden clothes-pegs clipped in it. From the chest down his body turns into long, curling swirls of misty grey-green air full of spinning leaves, and he has long, thin, gusty arms.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "18",
+      "paragraph": 127,
+      "anchor": "Så var det tid for å skåle for bruden, slik skikken var.",
+      "file": "scenes/18.webp",
+      "sources": [
+        {
+          "file": "scenes/18.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/18-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Halvor drakk. Så slapp han ringen ned i glasset.",
+      "alt": "Helt bakerst i den store salen slipper Halvor, fillete etter reisen, en gullring ned i glasset som en tjener holder. Langt borte sitter bruden med sølvkrone.",
+      "prompt": "The torchlit great hall of Soria Moria. By the door at the far end, Halvor in Fine Clothes, his fine clothes torn to muddy rags, has just drunk the toast from a tall glass goblet held out by a cupbearer in a green tunic, and with a steady hand he lets a slim gold ring drop into it. Far away at the head of the long table, crowded with knights and guests, sits the Youngest Princess in a tall silver bridal crown beside a stiff young bridegroom.",
+      "characters": [
+        "halvor-fine",
+        "youngest-princess"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Princess, the same character seen from three sides. Keep the Youngest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: The torchlit great hall of Soria Moria. By the door at the far end, Halvor in Fine Clothes, his fine clothes torn to muddy rags, has just drunk the toast from a tall glass goblet held out by a cupbearer in a green tunic, and with a steady hand he lets a slim gold ring drop into it. Far away at the head of the long table, crowded with knights and guests, sits the Youngest Princess in a tall silver bridal crown beside a stiff young bridegroom.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n- the Youngest Princess: A graceful, slender young woman of about nineteen with warm golden-brown skin, a heart-shaped face, a small straight nose, large, bright dark-brown eyes with long lashes, a calm, steady gaze and long, straight, glossy black hair falling loose to her waist. She wears a thin gold circlet, a long red wool gown with a square neckline and wide bell sleeves edged with gold braid, and a tiny gold sun pendant on a fine chain.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "19",
+      "paragraph": 132,
+      "anchor": "«Ja, der er den rette!» ropte hun da hun fikk se ham.",
+      "file": "scenes/19.webp",
+      "sources": [
+        {
+          "file": "scenes/19.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/19-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Ja, der er den rette!»",
+      "alt": "Halvor står kledd som brudgom i den store salen, og prinsessa med brudekrone strekker armene ut mot ham. Ved siden av henne måper den andre brudgommen.",
+      "prompt": "In the torchlit great hall of Soria Moria, Halvor in Fine Clothes, washed and dressed as a bridegroom, steps forward, and the Youngest Princess, wearing a tall silver bridal crown, flings out her arms towards him with a cry of joy. Beside her, the other bridegroom, a stiff young lord with a pointed nose and a curled moustache, gapes. Knights and guests at the long table turn in their seats to stare.",
+      "characters": [
+        "halvor-fine",
+        "youngest-princess"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Halvor in Fine Clothes, the same character seen from three sides. Keep Halvor in Fine Clothes's face, hair, body shape, age, colours and clothes exactly as shown. Draw Halvor in Fine Clothes only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Princess, the same character seen from three sides. Keep the Youngest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the torchlit great hall of Soria Moria, Halvor in Fine Clothes, washed and dressed as a bridegroom, steps forward, and the Youngest Princess, wearing a tall silver bridal crown, flings out her arms towards him with a cry of joy. Beside her, the other bridegroom, a stiff young lord with a pointed nose and a curled moustache, gapes. Knights and guests at the long table turn in their seats to stare.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Halvor in Fine Clothes: A tall, lanky young man of about nineteen with a long face, a long straight nose, sleepy hazel eyes, a slow lopsided smile and messy auburn hair falling over his forehead, washed clean and dressed like a king's son: a knee-length royal-blue wool tunic embroidered with gold at the collar and cuffs, a wide lingonberry-red sash, a white linen shirt, dark-grey hose, soft brown leather boots and a short dark-blue cloak fastened with a silver clasp.\n- the Youngest Princess: A graceful, slender young woman of about nineteen with warm golden-brown skin, a heart-shaped face, a small straight nose, large, bright dark-brown eyes with long lashes, a calm, steady gaze and long, straight, glossy black hair falling loose to her waist. She wears a thin gold circlet, a long red wool gown with a square neckline and wide bell sleeves edged with gold braid, and a tiny gold sun pendant on a fine chain.\n\nStory world: Old rural Norway and a strange, empty land far across the sea. Halvor's home is a tiny, poor turf-roofed log cottage on a hillside above the fjord, below a big farm and a lake. Across the sea lies a land of fields and meadows without a soul, where three troll castles stand far apart, each grander than the last, with light in every window. In each castle a huge old troll sword with a plain iron hilt hangs on the wall, with a small green glass flask on a leather cord beside it. The wishing ring is a heavy silver ring with one round blue stone; the ring left in its place is a slim gold band. Halvor's horse is a shaggy, bony dun horse. The magic boots are cracked old brown leather boots. Soria Moria is a castle of glittering golden towers far beyond forests and mountains.\n\nThis story's season, light and colours: Early autumn: long blue dusks and clear moonlit nights, with indigo skies, silver moonlight, violet shadows and warm golden light glowing from castle windows far away. Daylight is cool and silvery; indoors, amber firelight gleams on gold and silver. Accents: the youngest princess's red and rose-and-ember sunsets over the fjord.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

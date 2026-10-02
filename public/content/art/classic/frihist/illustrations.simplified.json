@@ -1,0 +1,171 @@
+{
+  "storyId": "frihist",
+  "set": "classic",
+  "variant": "simplified",
+  "title": "En frierhistorie",
+  "textFile": "public/content/stories/frihist/simplified/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T09:22:51.308Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "En dag kom det en frier til en fattig liten gård.",
+    "alt": "En ung frier i fine klær går gjennom snøen mot ei lita, skjev stue. I det lille vinduet trykker tre nysgjerrige ansikter seg sammen og kikker ut på ham.",
+    "prompt": "On a frosty late-winter afternoon, the Suitor, in his Sunday best and tall hat, with his little travel bag in one hand, walks up a trodden path through deep snow to a tiny, lopsided grey cottage with a sagging, snow-covered turf roof and long icicles on the eaves. At its one small window, three curious faces crowd together to peer out at him: the Farmer, the Farmer's Wife and the Daughter in her new green cap. Low pink sun and lilac-blue shadows.",
+    "characters": [
+      "frieren",
+      "bonden",
+      "kona-pa-garden",
+      "datteren"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Suitor, the same character seen from three sides. Keep the Suitor's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Suitor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Farmer's Wife, the same character seen from three sides. Keep the Farmer's Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer's Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Daughter, the same character seen from three sides. Keep the Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated folk-tale book, in a square format. Do not write a title or any other text on it.\n\nPicture: On a frosty late-winter afternoon, the Suitor, in his Sunday best and tall hat, with his little travel bag in one hand, walks up a trodden path through deep snow to a tiny, lopsided grey cottage with a sagging, snow-covered turf roof and long icicles on the eaves. At its one small window, three curious faces crowd together to peer out at him: the Farmer, the Farmer's Wife and the Daughter in her new green cap. Low pink sun and lilac-blue shadows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Suitor: A tall, gangly young man of about twenty with a round, eager face, apple-pink cheeks, a small blunt nose, hopeful pale-blue eyes, a nervous smile and neat butter-blond hair parted in the middle and slicked down flat, except for one unruly cowlick at the back. He wears his Sunday best: a slightly too short cinnamon-brown wool jacket with brass buttons, a white shirt with a black neckerchief, grey striped trousers, polished black boots and a tall black hat.\n- the Farmer: A big, burly, barrel-chested farmer of about fifty with a broad, ruddy face, a small snub nose, twinkling little blue eyes, bushy brown eyebrows, a shock of unruly brown hair and a long brown beard that splits into two scraggly forks. He wears a faded, darned grey-brown knitted sweater whose right sleeve is brand-new, bright lingonberry red and spotless, while the old left sleeve has a big hole at the elbow, patched brown trousers and worn-out boots.\n- the Farmer's Wife: A small, wiry, bustling woman of about forty-five with a narrow, freckled face, a long pointed nose, bright little grey eyes, a busy, pursed mouth and frizzy ginger hair escaping from a patched brown headscarf. She wears a patched mud-brown skirt, a faded grey-blue blouse and a ragged grey shawl. On her right foot is one brand-new, glossy black leather shoe with a big silver buckle; on her left foot, an old, holey grey felt slipper.\n- the Daughter: A cheeky farm lass of eighteen with a long face, a sharp chin, a snub, upturned nose, big round brown eyes, rosy cheeks, a little rosebud mouth and thick black hair in two short, stiff plaits that poke straight out to the sides. She wears a patched, faded brown pinafore dress over a grey blouse, and on her head a brand-new, bright emerald-green knitted cap with a big white tassel, which she is very proud of.\n\nStory world: Old rural Norway in late winter. The poor little farm is a single tiny, lopsided cottage of grey weathered logs with a sagging, snow-covered turf roof, a crooked chimney, one small window and a low door. Inside is one cramped, smoky room with a bare plank floor, a rough little table, a wobbly bench along the wall, two rickety stools and two old chairs, a small stone hearth with a sooty kettle, and one shelf with two cracked clay bowls. Everything is old, grey and patched except the family's three new things: the farmer's one new sleeve, the wife's one new shoe and the daughter's new cap. The suitor carries a small, square brown leather travel bag with a brass clasp.\n\nThis story's season, light and colours: Late winter on a frosty February afternoon: old, crusted snow with lilac-blue shadows, long icicles on the eaves and a low, pink sun. Inside the cottage: warm orange firelight and smoky brown shadows, from which the family's three new things shine out: a bright lingonberry-red sleeve, a glossy black shoe with a silver buckle and an emerald-green cap.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "frieren",
+      "name": "Frieren",
+      "description": "En ung gutt som reiser rundt for å fri og ender opp på en gård som prøver å imponere ham.",
+      "look": "A tall, gangly young man of about twenty with a round, eager face, apple-pink cheeks, a small blunt nose, hopeful pale-blue eyes, a nervous smile and neat butter-blond hair parted in the middle and slicked down flat, except for one unruly cowlick at the back. He wears his Sunday best: a slightly too short cinnamon-brown wool jacket with brass buttons, a white shirt with a black neckerchief, grey striped trousers, polished black boots and a tall black hat.",
+      "sheet": "characters/frieren.webp",
+      "turn": "characters/frieren-turn.mp4",
+      "portrait": "portraits/frieren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/frieren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/frieren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "frieren"
+    },
+    {
+      "slug": "bonden",
+      "name": "Mannen på gården",
+      "description": "Faren i familien, fattig men stolt, som skjuler slitasjen ved å vise fram ett nytt erme og late som han rydder.",
+      "look": "A big, burly, barrel-chested farmer of about fifty with a broad, ruddy face, a small snub nose, twinkling little blue eyes, bushy brown eyebrows, a shock of unruly brown hair and a long brown beard that splits into two scraggly forks. He wears a faded, darned grey-brown knitted sweater whose right sleeve is brand-new, bright lingonberry red and spotless, while the old left sleeve has a big hole at the elbow, patched brown trousers and worn-out boots.",
+      "sheet": "characters/bonden.webp",
+      "turn": "characters/bonden-turn.mp4",
+      "portrait": "portraits/bonden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/bonden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/bonden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "mannen-pa-garden"
+    },
+    {
+      "slug": "kona-pa-garden",
+      "name": "Kona på gården",
+      "description": "Moren som har fått én ny sko og bruker den til å sparke bort ting mens hun klager over rot.",
+      "look": "A small, wiry, bustling woman of about forty-five with a narrow, freckled face, a long pointed nose, bright little grey eyes, a busy, pursed mouth and frizzy ginger hair escaping from a patched brown headscarf. She wears a patched mud-brown skirt, a faded grey-blue blouse and a ragged grey shawl. On her right foot is one brand-new, glossy black leather shoe with a big silver buckle; on her left foot, an old, holey grey felt slipper.",
+      "sheet": "characters/kona-pa-garden.webp",
+      "turn": "characters/kona-pa-garden-turn.mp4",
+      "portrait": "portraits/kona-pa-garden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kona-pa-garden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kona-pa-garden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kona-pa-garden"
+    },
+    {
+      "slug": "datteren",
+      "name": "Datteren",
+      "description": "Datteren som bare stikker hodet inn og nikker, ivrig etter å beskytte den nye lua si.",
+      "look": "A cheeky farm lass of eighteen with a long face, a sharp chin, a snub, upturned nose, big round brown eyes, rosy cheeks, a little rosebud mouth and thick black hair in two short, stiff plaits that poke straight out to the sides. She wears a patched, faded brown pinafore dress over a grey blouse, and on her head a brand-new, bright emerald-green knitted cap with a big white tassel, which she is very proud of.",
+      "sheet": "characters/datteren.webp",
+      "turn": "characters/datteren-turn.mp4",
+      "portrait": "portraits/datteren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/datteren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/datteren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "datteren"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "Og så gikk mannen rundt og gned og tørket på benker og bord med det splitter nye ermet.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Mannen gned og tørket med det splitter nye ermet.",
+      "alt": "Mannen på gården gnir bordet med det nye, røde ermet og holder den andre armen på ryggen. Frieren sitter på benken med hatten på fanget.",
+      "prompt": "In the cramped, smoky cottage room, the Suitor sits stiffly on the wobbly bench with his tall hat and little travel bag on his knees. In front of him the Farmer bends over the rough little table and rubs it hard with his one brand-new red sleeve in great sweeping strokes, keeping his other arm, with its holey old sleeve, hidden behind his back. The Suitor watches with raised eyebrows and a polite smile. A sooty kettle hangs over the small fire.",
+      "characters": [
+        "bonden",
+        "frieren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Suitor, the same character seen from three sides. Keep the Suitor's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Suitor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the cramped, smoky cottage room, the Suitor sits stiffly on the wobbly bench with his tall hat and little travel bag on his knees. In front of him the Farmer bends over the rough little table and rubs it hard with his one brand-new red sleeve in great sweeping strokes, keeping his other arm, with its holey old sleeve, hidden behind his back. The Suitor watches with raised eyebrows and a polite smile. A sooty kettle hangs over the small fire.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Farmer: A big, burly, barrel-chested farmer of about fifty with a broad, ruddy face, a small snub nose, twinkling little blue eyes, bushy brown eyebrows, a shock of unruly brown hair and a long brown beard that splits into two scraggly forks. He wears a faded, darned grey-brown knitted sweater whose right sleeve is brand-new, bright lingonberry red and spotless, while the old left sleeve has a big hole at the elbow, patched brown trousers and worn-out boots.\n- the Suitor: A tall, gangly young man of about twenty with a round, eager face, apple-pink cheeks, a small blunt nose, hopeful pale-blue eyes, a nervous smile and neat butter-blond hair parted in the middle and slicked down flat, except for one unruly cowlick at the back. He wears his Sunday best: a slightly too short cinnamon-brown wool jacket with brass buttons, a white shirt with a black neckerchief, grey striped trousers, polished black boots and a tall black hat.\n\nStory world: Old rural Norway in late winter. The poor little farm is a single tiny, lopsided cottage of grey weathered logs with a sagging, snow-covered turf roof, a crooked chimney, one small window and a low door. Inside is one cramped, smoky room with a bare plank floor, a rough little table, a wobbly bench along the wall, two rickety stools and two old chairs, a small stone hearth with a sooty kettle, and one shelf with two cracked clay bowls. Everything is old, grey and patched except the family's three new things: the farmer's one new sleeve, the wife's one new shoe and the daughter's new cap. The suitor carries a small, square brown leather travel bag with a brass clasp.\n\nThis story's season, light and colours: Late winter on a frosty February afternoon: old, crusted snow with lilac-blue shadows, long icicles on the eaves and a low, pink sun. Inside the cottage: warm orange firelight and smoky brown shadows, from which the family's three new things shine out: a bright lingonberry-red sleeve, a glossy black shoe with a silver buckle and an emerald-green cap.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 7,
+      "anchor": "«Jeg kan da ikke være alle steder, jeg heller!» sa hun.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Datteren stakk bare hodet inn gjennom døra og nikket hit og dit.",
+      "alt": "Kona sparker en krakk bortover gulvet med den ene nye skoen sin. I døråpningen stikker datteren inn hodet med den nye lua og nikker, og frieren prøver å ikke le.",
+      "prompt": "In the cramped, firelit cottage room, the Farmer's Wife shoves a rickety stool across the floor with her one glossy new black shoe, her other foot in an old holey slipper, scolding about the mess. In the low doorway only the Daughter's head pokes in, in her brand-new green cap, nodding briskly this way and that. The Farmer stands by the table with his new red sleeve held out in front of him. On the bench, the Suitor clutches his hat and tries hard not to laugh.",
+      "characters": [
+        "kona-pa-garden",
+        "datteren",
+        "frieren",
+        "bonden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Farmer's Wife, the same character seen from three sides. Keep the Farmer's Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer's Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Daughter, the same character seen from three sides. Keep the Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Suitor, the same character seen from three sides. Keep the Suitor's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Suitor only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the cramped, firelit cottage room, the Farmer's Wife shoves a rickety stool across the floor with her one glossy new black shoe, her other foot in an old holey slipper, scolding about the mess. In the low doorway only the Daughter's head pokes in, in her brand-new green cap, nodding briskly this way and that. The Farmer stands by the table with his new red sleeve held out in front of him. On the bench, the Suitor clutches his hat and tries hard not to laugh.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Farmer's Wife: A small, wiry, bustling woman of about forty-five with a narrow, freckled face, a long pointed nose, bright little grey eyes, a busy, pursed mouth and frizzy ginger hair escaping from a patched brown headscarf. She wears a patched mud-brown skirt, a faded grey-blue blouse and a ragged grey shawl. On her right foot is one brand-new, glossy black leather shoe with a big silver buckle; on her left foot, an old, holey grey felt slipper.\n- the Daughter: A cheeky farm lass of eighteen with a long face, a sharp chin, a snub, upturned nose, big round brown eyes, rosy cheeks, a little rosebud mouth and thick black hair in two short, stiff plaits that poke straight out to the sides. She wears a patched, faded brown pinafore dress over a grey blouse, and on her head a brand-new, bright emerald-green knitted cap with a big white tassel, which she is very proud of.\n- the Suitor: A tall, gangly young man of about twenty with a round, eager face, apple-pink cheeks, a small blunt nose, hopeful pale-blue eyes, a nervous smile and neat butter-blond hair parted in the middle and slicked down flat, except for one unruly cowlick at the back. He wears his Sunday best: a slightly too short cinnamon-brown wool jacket with brass buttons, a white shirt with a black neckerchief, grey striped trousers, polished black boots and a tall black hat.\n- the Farmer: A big, burly, barrel-chested farmer of about fifty with a broad, ruddy face, a small snub nose, twinkling little blue eyes, bushy brown eyebrows, a shock of unruly brown hair and a long brown beard that splits into two scraggly forks. He wears a faded, darned grey-brown knitted sweater whose right sleeve is brand-new, bright lingonberry red and spotless, while the old left sleeve has a big hole at the elbow, patched brown trousers and worn-out boots.\n\nStory world: Old rural Norway in late winter. The poor little farm is a single tiny, lopsided cottage of grey weathered logs with a sagging, snow-covered turf roof, a crooked chimney, one small window and a low door. Inside is one cramped, smoky room with a bare plank floor, a rough little table, a wobbly bench along the wall, two rickety stools and two old chairs, a small stone hearth with a sooty kettle, and one shelf with two cracked clay bowls. Everything is old, grey and patched except the family's three new things: the farmer's one new sleeve, the wife's one new shoe and the daughter's new cap. The suitor carries a small, square brown leather travel bag with a brass clasp.\n\nThis story's season, light and colours: Late winter on a frosty February afternoon: old, crusted snow with lilac-blue shadows, long icicles on the eaves and a low, pink sun. Inside the cottage: warm orange firelight and smoky brown shadows, from which the family's three new things shine out: a bright lingonberry-red sleeve, a glossy black shoe with a silver buckle and an emerald-green cap.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

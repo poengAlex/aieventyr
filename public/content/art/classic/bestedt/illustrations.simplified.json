@@ -1,0 +1,127 @@
+{
+  "storyId": "bestedt",
+  "set": "classic",
+  "variant": "simplified",
+  "title": "Hver synes best om sine barn",
+  "textFile": "public/content/stories/bestedt/simplified/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T09:21:57.808Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Myrsnipa er sikker på at barna hennes er de vakreste i skogen.",
+    "alt": "Ei lita myrsnipe står stolt på en mosetue mellom hvit myrull. Lenger bak går en skytter med geværet over skulderen langs skogkanten.",
+    "prompt": "Low, close view at the edge of the bog on a still July day: the Dunlin, tiny and proud, stands on a mossy tussock among white cotton grass with her chest puffed out and her head held high, looking very sure of herself. Behind her, further along the footpath at the edge of the pine forest, the Hunter walks with his long gun over his shoulder, not yet noticing her. Warm light and two blue dragonflies.",
+    "characters": [
+      "myrsnipa",
+      "skytteren"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Dunlin, the same character seen from three sides. Keep the Dunlin's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dunlin only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hunter, the same character seen from three sides. Keep the Hunter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hunter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated folk-tale book, in a square format. Do not write a title or any other text on it.\n\nPicture: Low, close view at the edge of the bog on a still July day: the Dunlin, tiny and proud, stands on a mossy tussock among white cotton grass with her chest puffed out and her head held high, looking very sure of herself. Behind her, further along the footpath at the edge of the pine forest, the Hunter walks with his long gun over his shoulder, not yet noticing her. Warm light and two blue dragonflies.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Dunlin: A small, round-bodied dunlin in summer plumage, about the size of a starling, with a rusty-chestnut back speckled with black, a pale head and breast finely streaked with grey, a big black patch on her white belly, a long, slightly down-curved black beak, thin black legs and bright black eyes. When she spreads her wings, a white stripe shows along each one. A brave, proud little mother.\n- the Hunter: A tall, lean, weather-tanned hunter of about thirty with a long, friendly face, a slightly crooked nose, crinkly grey-blue eyes, a clean-shaven chin and long, straight jet-black hair tied back with a leather thong. He wears a wide-brimmed dark-green hat with a long brown feather, a grey wool jacket with big patch pockets, brown leather knee breeches, red knitted stockings and lace-up boots, with a leather game bag and a small brass hunting horn on cords across his chest, and carries an old long-barrelled gun.\n\nStory world: Old rural Norway, long ago, in a forest where the birds can talk. A narrow footpath winds through a light forest of pine, spruce and birch along the edge of a wide, open bog with tufts of white cotton grass, soft moss, low heather, cloudberry plants and small dark pools, with low blue hills far away. The hunter carries an old, long-barrelled muzzle-loading gun. The dunlin is a real, natural bird, no bigger than a starling.\n\nThis story's season, light and colours: A still July day at the bog: warm midday sunshine that turns to low, golden evening light, with soft dappled shade under the pines, fluffy white cotton grass, ripening orange cloudberries, rusty-red and olive-green bog moss and dark pools reflecting a hazy pale sky.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "skytteren",
+      "name": "Skytteren",
+      "description": "En jeger som lover å la de «vakreste» ungene være, men ender med å skyte de han synes er styggest.",
+      "look": "A tall, lean, weather-tanned hunter of about thirty with a long, friendly face, a slightly crooked nose, crinkly grey-blue eyes, a clean-shaven chin and long, straight jet-black hair tied back with a leather thong. He wears a wide-brimmed dark-green hat with a long brown feather, a grey wool jacket with big patch pockets, brown leather knee breeches, red knitted stockings and lace-up boots, with a leather game bag and a small brass hunting horn on cords across his chest, and carries an old long-barrelled gun.",
+      "sheet": "characters/skytteren.webp",
+      "turn": "characters/skytteren-turn.mp4",
+      "portrait": "portraits/skytteren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/skytteren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/skytteren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "skytteren"
+    },
+    {
+      "slug": "myrsnipa",
+      "name": "Myrsnipe",
+      "description": "En fuglemor som trygler om at ungene hennes ikke skal bli skutt, og som tror de er de vakreste i skogen.",
+      "look": "A small, round-bodied dunlin in summer plumage, about the size of a starling, with a rusty-chestnut back speckled with black, a pale head and breast finely streaked with grey, a big black patch on her white belly, a long, slightly down-curved black beak, thin black legs and bright black eyes. When she spreads her wings, a white stripe shows along each one. A brave, proud little mother.",
+      "sheet": "characters/myrsnipa.webp",
+      "turn": "characters/myrsnipa-turn.mp4",
+      "portrait": "portraits/myrsnipa.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/myrsnipa.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/myrsnipa-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "myrsnipe"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "«De vakreste barna som går i skogen, det er mine!»",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«De vakreste barna som går i skogen, det er mine!»",
+      "alt": "Ei lita myrsnipe står stolt på en lyngtue rett foran støvlene til skytteren. Skytteren har senket geværet og bøyer seg fram og ser overrasket på henne.",
+      "prompt": "On the footpath at the edge of the bog in bright midday sun, the Dunlin stands on a tuft of heather right in front of the Hunter's boots, her wings half spread, her chest puffed out and her head held high, utterly sure of herself. The Hunter has lowered his long gun so that it points at the ground, and he bends forward with raised eyebrows and a surprised, amused face. Pines on one side, white cotton grass on the other.",
+      "characters": [
+        "myrsnipa",
+        "skytteren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Dunlin, the same character seen from three sides. Keep the Dunlin's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dunlin only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hunter, the same character seen from three sides. Keep the Hunter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hunter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On the footpath at the edge of the bog in bright midday sun, the Dunlin stands on a tuft of heather right in front of the Hunter's boots, her wings half spread, her chest puffed out and her head held high, utterly sure of herself. The Hunter has lowered his long gun so that it points at the ground, and he bends forward with raised eyebrows and a surprised, amused face. Pines on one side, white cotton grass on the other.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Dunlin: A small, round-bodied dunlin in summer plumage, about the size of a starling, with a rusty-chestnut back speckled with black, a pale head and breast finely streaked with grey, a big black patch on her white belly, a long, slightly down-curved black beak, thin black legs and bright black eyes. When she spreads her wings, a white stripe shows along each one. A brave, proud little mother.\n- the Hunter: A tall, lean, weather-tanned hunter of about thirty with a long, friendly face, a slightly crooked nose, crinkly grey-blue eyes, a clean-shaven chin and long, straight jet-black hair tied back with a leather thong. He wears a wide-brimmed dark-green hat with a long brown feather, a grey wool jacket with big patch pockets, brown leather knee breeches, red knitted stockings and lace-up boots, with a leather game bag and a small brass hunting horn on cords across his chest, and carries an old long-barrelled gun.\n\nStory world: Old rural Norway, long ago, in a forest where the birds can talk. A narrow footpath winds through a light forest of pine, spruce and birch along the edge of a wide, open bog with tufts of white cotton grass, soft moss, low heather, cloudberry plants and small dark pools, with low blue hills far away. The hunter carries an old, long-barrelled muzzle-loading gun. The dunlin is a real, natural bird, no bigger than a starling.\n\nThis story's season, light and colours: A still July day at the bog: warm midday sunshine that turns to low, golden evening light, with soft dappled shade under the pines, fluffy white cotton grass, ripening orange cloudberries, rusty-red and olive-green bog moss and dark pools reflecting a hazy pale sky.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 9,
+      "anchor": "«Å ja», sa hun.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Vet du ikke at hver synes best om sine barn?»",
+      "alt": "Sett helt nede fra bakken står myrsnipa rank på en mosetue og løfter hodet mot skytteren, som bare synes fra knærne og ned. Myrulla lyser i kveldssola.",
+      "prompt": "Seen from low down at bird height on the footpath at the edge of the bog, in low golden evening light: the small Dunlin stands very straight on a tuft of moss, her head lifted high, calmly answering. In front of her, filling one side of the picture, stand the Hunter's worn lace-up boots, red knitted stockings and leather breeches, seen only from the knees down, with the butt of his long gun resting on the ground. White cotton grass glows in the low sun.",
+      "characters": [
+        "myrsnipa",
+        "skytteren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Dunlin, the same character seen from three sides. Keep the Dunlin's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dunlin only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hunter, the same character seen from three sides. Keep the Hunter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hunter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Seen from low down at bird height on the footpath at the edge of the bog, in low golden evening light: the small Dunlin stands very straight on a tuft of moss, her head lifted high, calmly answering. In front of her, filling one side of the picture, stand the Hunter's worn lace-up boots, red knitted stockings and leather breeches, seen only from the knees down, with the butt of his long gun resting on the ground. White cotton grass glows in the low sun.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Dunlin: A small, round-bodied dunlin in summer plumage, about the size of a starling, with a rusty-chestnut back speckled with black, a pale head and breast finely streaked with grey, a big black patch on her white belly, a long, slightly down-curved black beak, thin black legs and bright black eyes. When she spreads her wings, a white stripe shows along each one. A brave, proud little mother.\n- the Hunter: A tall, lean, weather-tanned hunter of about thirty with a long, friendly face, a slightly crooked nose, crinkly grey-blue eyes, a clean-shaven chin and long, straight jet-black hair tied back with a leather thong. He wears a wide-brimmed dark-green hat with a long brown feather, a grey wool jacket with big patch pockets, brown leather knee breeches, red knitted stockings and lace-up boots, with a leather game bag and a small brass hunting horn on cords across his chest, and carries an old long-barrelled gun.\n\nStory world: Old rural Norway, long ago, in a forest where the birds can talk. A narrow footpath winds through a light forest of pine, spruce and birch along the edge of a wide, open bog with tufts of white cotton grass, soft moss, low heather, cloudberry plants and small dark pools, with low blue hills far away. The hunter carries an old, long-barrelled muzzle-loading gun. The dunlin is a real, natural bird, no bigger than a starling.\n\nThis story's season, light and colours: A still July day at the bog: warm midday sunshine that turns to low, golden evening light, with soft dappled shade under the pines, fluffy white cotton grass, ripening orange cloudberries, rusty-red and olive-green bog moss and dark pools reflecting a hazy pale sky.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

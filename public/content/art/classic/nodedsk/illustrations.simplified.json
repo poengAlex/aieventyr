@@ -1,0 +1,317 @@
+{
+  "storyId": "nodedsk",
+  "set": "classic",
+  "variant": "simplified",
+  "title": "Hanen og høna i Nøtteskogen",
+  "textFile": "public/content/stories/nodedsk/simplified/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T09:27:10.023Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Hanen løper for å skaffe vann til Tuppe, høna si.",
+    "alt": "Hanen spurter mot oss langs stien i Nøtteskogen med vingene ut. Bak ham ligger høna i mosen under en hasselbusk og ser etter ham.",
+    "prompt": "In the Hazelwood on a bright morning, the Rooster races towards the viewer along the mossy path at full tilt, wings half spread and every feather streaming, a fierce, determined look in his eye. Behind him, under a hazel bush heavy with ripe nuts, the Hen lies in the moss among broken shells, watching him go. The path winds away between the bushes towards a sunny meadow.",
+    "characters": [
+      "hanen",
+      "hona"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Hazelwood. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for an illustrated folk-tale book, in a square format. Do not write a title or any other text on it.\n\nPicture: In the Hazelwood on a bright morning, the Rooster races towards the viewer along the mossy path at full tilt, wings half spread and every feather streaming, a fierce, determined look in his eye. Behind him, under a hazel bush heavy with ripe nuts, the Hen lies in the moss among broken shells, watching him go. The path winds away between the bushes towards a sunny meadow.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n- the Hen: A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.\n\nSetting:\n- the Hazelwood: A small, sunny wood of tall, many-stemmed hazel bushes heavy with clusters of ripe brown hazelnuts in green-and-brown husks, their leaves still green with the first yellow ones, over a soft carpet of emerald moss scattered with fallen nuts and broken shells and a few mossy grey stones. A narrow winding path leads out between the bushes towards open fields.\n\nStory world: Old rural Norway, at harvest time. The Hazelwood is a small, sunny wood of tall hazel bushes heavy with ripe nuts, on a hillside above a farming village. Just outside it, a clear, cold spring bubbles up between mossy stones and splashes into a little pool below a huge old linden tree. From there, paths run along the edge of the wood and down to the village: turf-roofed log farms, a barn with a threshing floor, a sow's muddy pen by a fence, a woodpile at the edge of the spruce forest and a small smithy. Deep in the forest lies the charcoal burner's clearing with its smoking, earth-covered kiln. The red-gold ribbons are narrow red silk ribbons woven with gold thread.\n\nThis story's season, light and colours: Early September harvest time on a bright, breezy day: hazel bushes still green with the first yellow leaves, clusters of ripe brown nuts, dew-wet meadows, golden stubble fields and stooks of grain under a high blue sky with small white clouds, in crisp, clear sunlight. Accents: the Rooster's scarlet comb, the red-gold ribbons and the Virgin Mary's light blue. In the forest: dark spruce and drifting blue-grey kiln smoke.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "hanen",
+      "name": "Hanen",
+      "description": "En rask og sta hane som nekter å gi opp før han har skaffet vann til høna si.",
+      "look": "A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.",
+      "sheet": "characters/hanen.webp",
+      "turn": "characters/hanen-turn.mp4",
+      "portrait": "portraits/hanen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/hanen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/hanen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "hanen"
+    },
+    {
+      "slug": "hona",
+      "name": "Tuppe (Høna)",
+      "description": "Høna som får et nøtteskall i halsen og trenger hjelp før det er for sent.",
+      "look": "A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.",
+      "sheet": "characters/hona.webp",
+      "turn": "characters/hona-turn.mp4",
+      "portrait": "portraits/hona.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/hona.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/hona-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "tuppe-hona"
+    },
+    {
+      "slug": "kilden",
+      "name": "Kilden",
+      "description": "En streng, men rettferdig kilde som bare gir vann når den får det den ber om.",
+      "look": "A small, round, crystal-clear spring welling up between mossy grey stones and splashing down into a little pool about as wide as a cartwheel, fringed with ferns and blue forget-me-nots. In its bubbling surface a face can just be seen in the ripples: two round, shining bubble eyes and a wide, gurgling mouth. The water is so clear that the pebbles on the bottom glint.",
+      "sheet": "characters/kilden.webp",
+      "turn": "characters/kilden-turn.mp4",
+      "portrait": "portraits/kilden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kilden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kilden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kilden"
+    },
+    {
+      "slug": "linden",
+      "name": "Lindetreet",
+      "description": "Et stort lindetre som krever røde gullbånd før det vil gi fra seg løv.",
+      "look": "An enormous, ancient linden tree with a broad, rounded crown of heart-shaped leaves, green with the first touches of yellow, a thick, gnarled grey-brown trunk and big knobbly roots like toes. In the bark of the trunk is a kind, sleepy old face: two knot-hole eyes under mossy bark eyebrows, a round knobbly nose and a wide, gentle mouth, and two low branches bend like arms.",
+      "sheet": "characters/linden.webp",
+      "turn": "characters/linden-turn.mp4",
+      "portrait": "portraits/linden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/linden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/linden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "lindetreet"
+    },
+    {
+      "slug": "jomfru-maria",
+      "name": "Jomfru Maria",
+      "description": "En rolig skikkelse som kan gi røde gullbånd, men først vil ha sko.",
+      "look": "A small, soft, grandmotherly woman of about seventy with a round, kind, wrinkled face, twinkling light-grey eyes, a gentle smile and silver hair under a simple white linen veil. She wears a light-blue wool shawl over a plain, long lavender dress and goes barefoot. She looks like a humble country grandmother, with no halo and no crown.",
+      "sheet": "characters/jomfru-maria.webp",
+      "turn": "characters/jomfru-maria-turn.mp4",
+      "portrait": "portraits/jomfru-maria.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/jomfru-maria.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/jomfru-maria-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "jomfru-maria"
+    },
+    {
+      "slug": "kullbrenneren",
+      "name": "Kullbrenneren",
+      "description": "Den sotsvarte kullbrenneren inne i skogen. Han er den eneste som ikke vil ha noe tilbake, for han synes synd på hanen.",
+      "look": "A tall, lean, kindly man of about sixty, black with soot from his hood to his boots, so that only his friendly pale-blue eyes and a white-toothed smile shine out of a long, sooty face with a hooked nose and grey stubble. He wears a pointed grey wool hood over his head and shoulders, a long patched leather apron, sooty brown trousers and heavy boots.",
+      "sheet": "characters/kullbrenneren.webp",
+      "turn": "characters/kullbrenneren-turn.mp4",
+      "portrait": "portraits/kullbrenneren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kullbrenneren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kullbrenneren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    }
+  ],
+  "places": [
+    {
+      "slug": "notteskogen",
+      "name": "the Hazelwood",
+      "look": "A small, sunny wood of tall, many-stemmed hazel bushes heavy with clusters of ripe brown hazelnuts in green-and-brown husks, their leaves still green with the first yellow ones, over a soft carpet of emerald moss scattered with fallen nuts and broken shells and a few mossy grey stones. A narrow winding path leads out between the bushes towards open fields."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "«Vann!» galte han.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Vann!» galte han. «Du skal få vann, Tuppe!»",
+      "alt": "Høna ligger i mosen blant nøtter og knuste skall og spreller med vingene. Hanen står over henne med alle fjærene rett til værs og galer.",
+      "prompt": "In the Hazelwood on a bright morning, seen close at bird height: the Hen lies on her side in the moss among fallen hazelnuts and broken shells, flapping her wings, her beak wide open without a sound. The Rooster stands over her with every feather on end, crowing with his beak thrown open and one wing flung out towards the path. Sunlight slants between the hazel stems.",
+      "characters": [
+        "hona",
+        "hanen"
+      ],
+      "places": [
+        "notteskogen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Hazelwood. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the Hazelwood on a bright morning, seen close at bird height: the Hen lies on her side in the moss among fallen hazelnuts and broken shells, flapping her wings, her beak wide open without a sound. The Rooster stands over her with every feather on end, crowing with his beak thrown open and one wing flung out towards the path. Sunlight slants between the hazel stems.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Hen: A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nSetting:\n- the Hazelwood: A small, sunny wood of tall, many-stemmed hazel bushes heavy with clusters of ripe brown hazelnuts in green-and-brown husks, their leaves still green with the first yellow ones, over a soft carpet of emerald moss scattered with fallen nuts and broken shells and a few mossy grey stones. A narrow winding path leads out between the bushes towards open fields.\n\nStory world: Old rural Norway, at harvest time. The Hazelwood is a small, sunny wood of tall hazel bushes heavy with ripe nuts, on a hillside above a farming village. Just outside it, a clear, cold spring bubbles up between mossy stones and splashes into a little pool below a huge old linden tree. From there, paths run along the edge of the wood and down to the village: turf-roofed log farms, a barn with a threshing floor, a sow's muddy pen by a fence, a woodpile at the edge of the spruce forest and a small smithy. Deep in the forest lies the charcoal burner's clearing with its smoking, earth-covered kiln. The red-gold ribbons are narrow red silk ribbons woven with gold thread.\n\nThis story's season, light and colours: Early September harvest time on a bright, breezy day: hazel bushes still green with the first yellow leaves, clusters of ripe brown nuts, dew-wet meadows, golden stubble fields and stooks of grain under a high blue sky with small white clouds, in crisp, clear sunlight. Accents: the Rooster's scarlet comb, the red-gold ribbons and the Virgin Mary's light blue. In the forest: dark spruce and drifting blue-grey kiln smoke.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 7,
+      "anchor": "«Du får ikke løv av meg før jeg får røde gullbånd av deg»",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Du får ikke løv av meg før jeg får røde gullbånd av deg», sa linden.",
+      "alt": "Hanen står på røttene til et digert lindetre og roper opp til det. Lindetreet har et gammelt ansikt i barken og rister på greinene. Nedenfor bobler kilden mellom mosegrodde steiner.",
+      "prompt": "Just outside the wood, seen from low down: the Rooster stands on the knobbly roots of the enormous Linden and calls up to it, one foot raised. The Linden's sleepy old face in the bark looks down with a frown as it shakes out its branches, and a few heart-shaped leaves come fluttering down. At the foot of the tree, the Spring bubbles up between mossy stones into its little pool, its rippling face watching with pursed lips. Bright morning sun.",
+      "characters": [
+        "hanen",
+        "linden",
+        "kilden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Linden, the same character seen from three sides. Keep the Linden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Linden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Spring, the same character seen from three sides. Keep the Spring's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Spring only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Just outside the wood, seen from low down: the Rooster stands on the knobbly roots of the enormous Linden and calls up to it, one foot raised. The Linden's sleepy old face in the bark looks down with a frown as it shakes out its branches, and a few heart-shaped leaves come fluttering down. At the foot of the tree, the Spring bubbles up between mossy stones into its little pool, its rippling face watching with pursed lips. Bright morning sun.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n- the Linden: An enormous, ancient linden tree with a broad, rounded crown of heart-shaped leaves, green with the first touches of yellow, a thick, gnarled grey-brown trunk and big knobbly roots like toes. In the bark of the trunk is a kind, sleepy old face: two knot-hole eyes under mossy bark eyebrows, a round knobbly nose and a wide, gentle mouth, and two low branches bend like arms.\n- the Spring: A small, round, crystal-clear spring welling up between mossy grey stones and splashing down into a little pool about as wide as a cartwheel, fringed with ferns and blue forget-me-nots. In its bubbling surface a face can just be seen in the ripples: two round, shining bubble eyes and a wide, gurgling mouth. The water is so clear that the pebbles on the bottom glint.\n\nStory world: Old rural Norway, at harvest time. The Hazelwood is a small, sunny wood of tall hazel bushes heavy with ripe nuts, on a hillside above a farming village. Just outside it, a clear, cold spring bubbles up between mossy stones and splashes into a little pool below a huge old linden tree. From there, paths run along the edge of the wood and down to the village: turf-roofed log farms, a barn with a threshing floor, a sow's muddy pen by a fence, a woodpile at the edge of the spruce forest and a small smithy. Deep in the forest lies the charcoal burner's clearing with its smoking, earth-covered kiln. The red-gold ribbons are narrow red silk ribbons woven with gold thread.\n\nThis story's season, light and colours: Early September harvest time on a bright, breezy day: hazel bushes still green with the first yellow leaves, clusters of ripe brown nuts, dew-wet meadows, golden stubble fields and stooks of grain under a high blue sky with small white clouds, in crisp, clear sunlight. Accents: the Rooster's scarlet comb, the red-gold ribbons and the Virgin Mary's light blue. In the forest: dark spruce and drifting blue-grey kiln smoke.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 11,
+      "anchor": "«Du får ikke røde gullbånd av meg før jeg får sko av deg.»",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Du får ikke røde gullbånd av meg før jeg får sko av deg.»",
+      "alt": "Jomfru Maria står barbeint på stien i skogkanten med hendene foldet og kikker ned på tærne sine. Hanen står foran henne og ser opp.",
+      "prompt": "On the path at the edge of the wood, among ferns and harebells, the Virgin Mary stands barefoot with her hands folded, smiling kindly and looking down at her bare toes on the stony path. A few narrow red ribbons woven with gold hang from her folded hands. The Rooster stands before her, breathless, looking up at her with his beak open. Behind them, sunlit stubble fields slope down towards the village.",
+      "characters": [
+        "jomfru-maria",
+        "hanen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Virgin Mary, the same character seen from three sides. Keep the Virgin Mary's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Virgin Mary only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On the path at the edge of the wood, among ferns and harebells, the Virgin Mary stands barefoot with her hands folded, smiling kindly and looking down at her bare toes on the stony path. A few narrow red ribbons woven with gold hang from her folded hands. The Rooster stands before her, breathless, looking up at her with his beak open. Behind them, sunlit stubble fields slope down towards the village.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Virgin Mary: A small, soft, grandmotherly woman of about seventy with a round, kind, wrinkled face, twinkling light-grey eyes, a gentle smile and silver hair under a simple white linen veil. She wears a light-blue wool shawl over a plain, long lavender dress and goes barefoot. She looks like a humble country grandmother, with no halo and no crown.\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nStory world: Old rural Norway, at harvest time. The Hazelwood is a small, sunny wood of tall hazel bushes heavy with ripe nuts, on a hillside above a farming village. Just outside it, a clear, cold spring bubbles up between mossy stones and splashes into a little pool below a huge old linden tree. From there, paths run along the edge of the wood and down to the village: turf-roofed log farms, a barn with a threshing floor, a sow's muddy pen by a fence, a woodpile at the edge of the spruce forest and a small smithy. Deep in the forest lies the charcoal burner's clearing with its smoking, earth-covered kiln. The red-gold ribbons are narrow red silk ribbons woven with gold thread.\n\nThis story's season, light and colours: Early September harvest time on a bright, breezy day: hazel bushes still green with the first yellow leaves, clusters of ripe brown nuts, dew-wet meadows, golden stubble fields and stooks of grain under a high blue sky with small white clouds, in crisp, clear sunlight. Accents: the Rooster's scarlet comb, the red-gold ribbons and the Virgin Mary's light blue. In the forest: dark spruce and drifting blue-grey kiln smoke.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 24,
+      "anchor": "Vedhoggeren sto med bare skaftet i nevene.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Vedhoggeren sto med bare skaftet i nevene.",
+      "alt": "En kraftig vedhogger med svart skjegg står ved en vedstabel og holder opp et økseskaft uten øksehode. Hanen står andpusten på en hoggestabbe foran ham.",
+      "prompt": "At a big woodpile at the edge of the spruce forest, a burly woodcutter with a bushy black beard, rolled-up sleeves, a leather jerkin and a brown felt hat holds up a bare wooden axe handle with nothing on the end of it, staring at it with a comically baffled face. The Rooster stands on a chopping block in front of him, panting, his feathers ruffled. Split logs and wood chips lie all around.",
+      "characters": [
+        "hanen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: At a big woodpile at the edge of the spruce forest, a burly woodcutter with a bushy black beard, rolled-up sleeves, a leather jerkin and a brown felt hat holds up a bare wooden axe handle with nothing on the end of it, staring at it with a comically baffled face. The Rooster stands on a chopping block in front of him, panting, his feathers ruffled. Split logs and wood chips lie all around.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nStory world: Old rural Norway, at harvest time. The Hazelwood is a small, sunny wood of tall hazel bushes heavy with ripe nuts, on a hillside above a farming village. Just outside it, a clear, cold spring bubbles up between mossy stones and splashes into a little pool below a huge old linden tree. From there, paths run along the edge of the wood and down to the village: turf-roofed log farms, a barn with a threshing floor, a sow's muddy pen by a fence, a woodpile at the edge of the spruce forest and a small smithy. Deep in the forest lies the charcoal burner's clearing with its smoking, earth-covered kiln. The red-gold ribbons are narrow red silk ribbons woven with gold thread.\n\nThis story's season, light and colours: Early September harvest time on a bright, breezy day: hazel bushes still green with the first yellow leaves, clusters of ripe brown nuts, dew-wet meadows, golden stubble fields and stooks of grain under a high blue sky with small white clouds, in crisp, clear sunlight. Accents: the Rooster's scarlet comb, the red-gold ribbons and the Virgin Mary's light blue. In the forest: dark spruce and drifting blue-grey kiln smoke.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 31,
+      "anchor": "Men kullbrenneren ville ikke ha noe.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kullbrenneren syntes synd på hanen og ga ham en sekk kull.",
+      "alt": "I en rykende lysning inne i skogen kneler den sotsvarte kullbrenneren og rekker hanen en sekk kull. Hanen står andpusten foran ham med rufsete fjær.",
+      "prompt": "In a smoky clearing deep in the spruce forest, beside a big dome-shaped charcoal kiln covered with earth and turf that sends up soft blue-grey smoke, the Charcoal Burner kneels down and, with a gentle smile, holds out a small sack of charcoal to the Rooster. The Rooster stands before him, panting hard, his white feathers ruffled and dusty and his comb drooping.",
+      "characters": [
+        "kullbrenneren",
+        "hanen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Charcoal Burner, the same character seen from three sides. Keep the Charcoal Burner's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Charcoal Burner only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In a smoky clearing deep in the spruce forest, beside a big dome-shaped charcoal kiln covered with earth and turf that sends up soft blue-grey smoke, the Charcoal Burner kneels down and, with a gentle smile, holds out a small sack of charcoal to the Rooster. The Rooster stands before him, panting hard, his white feathers ruffled and dusty and his comb drooping.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Charcoal Burner: A tall, lean, kindly man of about sixty, black with soot from his hood to his boots, so that only his friendly pale-blue eyes and a white-toothed smile shine out of a long, sooty face with a hooked nose and grey stubble. He wears a pointed grey wool hood over his head and shoulders, a long patched leather apron, sooty brown trousers and heavy boots.\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nStory world: Old rural Norway, at harvest time. The Hazelwood is a small, sunny wood of tall hazel bushes heavy with ripe nuts, on a hillside above a farming village. Just outside it, a clear, cold spring bubbles up between mossy stones and splashes into a little pool below a huge old linden tree. From there, paths run along the edge of the wood and down to the village: turf-roofed log farms, a barn with a threshing floor, a sow's muddy pen by a fence, a woodpile at the edge of the spruce forest and a small smithy. Deep in the forest lies the charcoal burner's clearing with its smoking, earth-covered kiln. The red-gold ribbons are narrow red silk ribbons woven with gold thread.\n\nThis story's season, light and colours: Early September harvest time on a bright, breezy day: hazel bushes still green with the first yellow leaves, clusters of ripe brown nuts, dew-wet meadows, golden stubble fields and stooks of grain under a high blue sky with small white clouds, in crisp, clear sunlight. Accents: the Rooster's scarlet comb, the red-gold ribbons and the Virgin Mary's light blue. In the forest: dark spruce and drifting blue-grey kiln smoke.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 34,
+      "anchor": "Da ble hun frisk igjen.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Da ble hun frisk igjen. Det tok litt lenger tid med hanen.",
+      "alt": "Høna står frisk og rød i kammen og drikker av ei lita treskål. Ved siden av ligger hanen på ryggen i mosen med beina i været og peser.",
+      "prompt": "Back in the Hazelwood at midday, the Hen stands bright-eyed and perky again, her comb red, drinking the last drops from a small round birchwood bowl of water. Beside her, the Rooster lies flat on his back in the moss with his wings spread and his feet in the air, bedraggled and panting, his comb drooping. Ripe hazelnuts and broken shells lie all around in the sunshine.",
+      "characters": [
+        "hona",
+        "hanen"
+      ],
+      "places": [
+        "notteskogen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Hazelwood. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Back in the Hazelwood at midday, the Hen stands bright-eyed and perky again, her comb red, drinking the last drops from a small round birchwood bowl of water. Beside her, the Rooster lies flat on his back in the moss with his wings spread and his feet in the air, bedraggled and panting, his comb drooping. Ripe hazelnuts and broken shells lie all around in the sunshine.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Hen: A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nSetting:\n- the Hazelwood: A small, sunny wood of tall, many-stemmed hazel bushes heavy with clusters of ripe brown hazelnuts in green-and-brown husks, their leaves still green with the first yellow ones, over a soft carpet of emerald moss scattered with fallen nuts and broken shells and a few mossy grey stones. A narrow winding path leads out between the bushes towards open fields.\n\nStory world: Old rural Norway, at harvest time. The Hazelwood is a small, sunny wood of tall hazel bushes heavy with ripe nuts, on a hillside above a farming village. Just outside it, a clear, cold spring bubbles up between mossy stones and splashes into a little pool below a huge old linden tree. From there, paths run along the edge of the wood and down to the village: turf-roofed log farms, a barn with a threshing floor, a sow's muddy pen by a fence, a woodpile at the edge of the spruce forest and a small smithy. Deep in the forest lies the charcoal burner's clearing with its smoking, earth-covered kiln. The red-gold ribbons are narrow red silk ribbons woven with gold thread.\n\nThis story's season, light and colours: Early September harvest time on a bright, breezy day: hazel bushes still green with the first yellow leaves, clusters of ripe brown nuts, dew-wet meadows, golden stubble fields and stooks of grain under a high blue sky with small white clouds, in crisp, clear sunlight. Accents: the Rooster's scarlet comb, the red-gold ribbons and the Virgin Mary's light blue. In the forest: dark spruce and drifting blue-grey kiln smoke.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

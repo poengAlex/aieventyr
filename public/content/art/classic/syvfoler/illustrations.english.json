@@ -1,0 +1,504 @@
+{
+  "storyId": "syvfoler",
+  "set": "classic",
+  "variant": "english",
+  "title": "The Seven Colts",
+  "textFile": "public/content/stories/syvfoler/english/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T09:29:19.146Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Over hill and dale, through thicket and bog.",
+    "alt": "Ash-Lad rides a small chestnut colt with a white star across a heathery ridge in the midsummer night. Six other colts gallop ahead, and violet mountains rise far away.",
+    "prompt": "In the pale light of a midsummer night, Askeladden rides the Youngest Colt at full gallop across a ridge of purple heather, bent low over his neck, with the six other chestnut colts streaming ahead of them. Far behind, violet mountains glow under a lilac sky, and the low sun lies gold along the ridge.",
+    "characters": [
+      "askeladden",
+      "det-yngste-follet"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Colt, the same character seen from three sides. Keep the Youngest Colt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Colt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated folk-tale book, in a square format. Do not write a title or any other text on it.\n\nPicture: In the pale light of a midsummer night, Askeladden rides the Youngest Colt at full gallop across a ridge of purple heather, bent low over his neck, with the six other chestnut colts streaming ahead of them. Far behind, violet mountains glow under a lilac sky, and the low sun lies gold along the ridge.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.\n- the Youngest Colt: A small, slender chestnut colt, the youngest and smallest of seven, with long, knobbly legs, a glossy red-brown coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark, clever eyes with long lashes and a neat white star on his forehead.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "askeladden",
+      "name": "Ash-Lad",
+      "description": "The youngest son, mocked for idleness, who keeps pace with the colts, discovers their enchantment, and answers the king’s riddle truthfully in a clever way.",
+      "look": "A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.",
+      "sheet": "characters/askeladden.webp",
+      "turn": "characters/askeladden-turn.mp4",
+      "portrait": "portraits/askeladden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/askeladden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/askeladden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "ash-lad"
+    },
+    {
+      "slug": "kongen",
+      "name": "The King",
+      "description": "A stern ruler who wagers his daughter and half his kingdom against a brutal punishment to test those who herd his seven colts.",
+      "look": "A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark-red wool robe with a grey fur collar, a thick gold chain across his chest, a small, spiky gold crown and pointed black shoes.",
+      "sheet": "characters/kongen.webp",
+      "turn": "characters/kongen-turn.mp4",
+      "portrait": "portraits/kongen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kongen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kongen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "the-king"
+    },
+    {
+      "slug": "kjerringa-i-bergsprekken",
+      "name": "The Spinning Hag",
+      "description": "A deceitful old woman in the mountain cleft who lures the first two brothers into laziness and tries to stop Ash-Lad.",
+      "look": "A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She is wrapped in many layered shawls of faded blue, brown, plum and grey over a long dark skirt, wears worn felt slippers and always holds a distaff wound with grey wool.",
+      "sheet": "characters/kjerringa-i-bergsprekken.webp",
+      "turn": "characters/kjerringa-i-bergsprekken-turn.mp4",
+      "portrait": "portraits/kjerringa-i-bergsprekken.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kjerringa-i-bergsprekken.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kjerringa-i-bergsprekken-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "the-spinning-hag"
+    },
+    {
+      "slug": "det-yngste-follet",
+      "name": "The Youngest Colt (Enchanted Prince)",
+      "description": "The speaking colt who aids Ash-Lad, leads him to the hidden stump-door and church, and reveals how to break the spell on the seven brothers.",
+      "look": "A small, slender chestnut colt, the youngest and smallest of seven, with long, knobbly legs, a glossy red-brown coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark, clever eyes with long lashes and a neat white star on his forehead.",
+      "sheet": "characters/det-yngste-follet.webp",
+      "turn": "characters/det-yngste-follet-turn.mp4",
+      "portrait": "portraits/det-yngste-follet.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/det-yngste-follet.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/det-yngste-follet-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "youngest-colt"
+    },
+    {
+      "slug": "den-yngste-prinsen",
+      "name": "The Youngest Prince",
+      "description": "The youngest colt as he truly is: the youngest of the seven king's sons and the princess's little brother.",
+      "look": "A slight boy prince of about twelve, the youngest of seven brothers, with a round, freckled face, big dark eyes, a huge beaming smile and tousled strawberry-blonde hair. He wears shining white-and-gold clothes: a white tunic embroidered with gold, with a small white star on the chest, a short white cloak with gold trim, white hose and soft white leather boots.",
+      "sheet": "characters/den-yngste-prinsen.webp",
+      "turn": "characters/den-yngste-prinsen-turn.mp4",
+      "portrait": "portraits/den-yngste-prinsen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-yngste-prinsen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-yngste-prinsen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "prinsessa",
+      "name": "The Princess",
+      "description": "The king’s daughter, promised as the prize for the successful herdsman and sister to the seven enchanted princes.",
+      "look": "A cheerful princess of about nineteen with a round, freckled face, warm brown eyes, a wide, happy smile and a mass of bouncy strawberry-blonde curls falling past her shoulders, crowned with a small gold circlet set with one green stone. She wears a long pale-green wool gown with a white linen collar and cuffs, a gold-embroidered belt and soft green shoes.",
+      "sheet": "characters/prinsessa.webp",
+      "turn": "characters/prinsessa-turn.mp4",
+      "portrait": "portraits/prinsessa.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsessa.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsessa-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "the-princess"
+    },
+    {
+      "slug": "eldste-bror",
+      "name": "The Eldest Brother",
+      "description": "Ash-Lad's eldest brother, who sets out to find work but idles the whole day away with his head in the hag's lap.",
+      "look": "A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked homespun shirt with rolled sleeves, baggy brown breeches held up by a single strap and a wide, frayed straw hat, and he goes barefoot.",
+      "sheet": "characters/eldste-bror.webp",
+      "turn": "characters/eldste-bror-turn.mp4",
+      "portrait": "portraits/eldste-bror.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/eldste-bror.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/eldste-bror-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    }
+  ],
+  "places": [
+    {
+      "slug": "kongsgarden",
+      "name": "the Royal Farm",
+      "look": "A grand old royal farm of ox-blood-red log buildings with white window frames, turf roofs and carved dragon-head gables around a wide, sandy yard. The main hall has broad wooden front steps with carved railings up to a big double door. Across the yard stands a long red log stable with a wide door, and a split-rail paddock fence runs along the birch trees, with violet mountains far behind."
+    },
+    {
+      "slug": "bergsprekken",
+      "name": "the Grey Cleft",
+      "look": "A narrow, shallow cleft at the foot of a grey, lichen-streaked cliff beside a winding forest path, with a flat, mossy stone in its mouth to sit on, ferns and heather around it, and birch trees and dark spruce on the slope below, where the path runs on towards the hills."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 4,
+      "anchor": "“Will you work for me and herd my seven colts?” said the King.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“Will you work for me and herd my seven colts?”",
+      "alt": "The King stands at the top of the steps holding up three fingers to the eldest brother, who waits below with his straw hat in his hand. Behind the fence, seven colts frisk about.",
+      "prompt": "Evening at the Royal Farm, long golden light across the sandy yard, seen from the foot of the front steps. The King towers at the top of the steps, stern and unsmiling, one hand raised with three fingers held up in warning. Below him the Eldest Brother, straw hat in hand, grins lazily as if it were easy work. Beyond the split-rail fence, seven glossy chestnut colts frisk in the paddock, the smallest with a white star on his forehead.",
+      "characters": [
+        "kongen",
+        "eldste-bror"
+      ],
+      "places": [
+        "kongsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Royal Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Evening at the Royal Farm, long golden light across the sandy yard, seen from the foot of the front steps. The King towers at the top of the steps, stern and unsmiling, one hand raised with three fingers held up in warning. Below him the Eldest Brother, straw hat in hand, grins lazily as if it were easy work. Beyond the split-rail fence, seven glossy chestnut colts frisk in the paddock, the smallest with a white star on his forehead.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King: A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark-red wool robe with a grey fur collar, a thick gold chain across his chest, a small, spiky gold crown and pointed black shoes.\n- the Eldest Brother: A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked homespun shirt with rolled sleeves, baggy brown breeches held up by a single strap and a wide, frayed straw hat, and he goes barefoot.\n\nSetting:\n- the Royal Farm: A grand old royal farm of ox-blood-red log buildings with white window frames, turf roofs and carved dragon-head gables around a wide, sandy yard. The main hall has broad wooden front steps with carved railings up to a big double door. Across the yard stands a long red log stable with a wide door, and a split-rail paddock fence runs along the birch trees, with violet mountains far behind.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "The boy asked for nothing better.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "She combed and combed, while the colts vanished down the path.",
+      "alt": "The eldest brother sleeps with his head in the hag's lap in the cleft. She holds her distaff in one hand and combs his hair with the other, while the colts vanish between the birches.",
+      "prompt": "Midday at the Grey Cleft. The Spinning Hag sits on the mossy stone in the mouth of the cleft, holding her distaff in one hand and running a small bone comb through the hair of the Eldest Brother with the other. He lies stretched out with his head in her lap, fast asleep with his mouth open, his straw hat fallen in the heather. Far away between the birches, seven chestnut colts vanish down the path.",
+      "characters": [
+        "kjerringa-i-bergsprekken",
+        "eldste-bror"
+      ],
+      "places": [
+        "bergsprekken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Spinning Hag, the same character seen from three sides. Keep the Spinning Hag's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Spinning Hag only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Grey Cleft. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Midday at the Grey Cleft. The Spinning Hag sits on the mossy stone in the mouth of the cleft, holding her distaff in one hand and running a small bone comb through the hair of the Eldest Brother with the other. He lies stretched out with his head in her lap, fast asleep with his mouth open, his straw hat fallen in the heather. Far away between the birches, seven chestnut colts vanish down the path.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Spinning Hag: A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She is wrapped in many layered shawls of faded blue, brown, plum and grey over a long dark skirt, wears worn felt slippers and always holds a distaff wound with grey wool.\n- the Eldest Brother: A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked homespun shirt with rolled sleeves, baggy brown breeches held up by a single strap and a wide, frayed straw hat, and he goes barefoot.\n\nSetting:\n- the Grey Cleft: A narrow, shallow cleft at the foot of a grey, lichen-streaked cliff beside a winding forest path, with a flat, mossy stone in its mouth to sit on, ferns and heather around it, and birch trees and dark spruce on the slope below, where the path runs on towards the hills.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 15,
+      "anchor": "The boy held up the moss and the water flask.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“There’s their food, and there’s their drink.”",
+      "alt": "The eldest brother proudly holds up a tuft of moss and a water flask in the yard. On the steps the King glares down at him with a dark, angry frown.",
+      "prompt": "Evening in the yard of the Royal Farm. The Eldest Brother, rumpled and with bits of heather in his hair, proudly holds up a tuft of green moss in one hand and a small water flask in the other. On the front steps above him the King stares down at the moss, his bushy black eyebrows drawn together in a thunderous frown and his fists clenched. Long shadows stretch across the sand.",
+      "characters": [
+        "eldste-bror",
+        "kongen"
+      ],
+      "places": [
+        "kongsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Royal Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Evening in the yard of the Royal Farm. The Eldest Brother, rumpled and with bits of heather in his hair, proudly holds up a tuft of green moss in one hand and a small water flask in the other. On the front steps above him the King stares down at the moss, his bushy black eyebrows drawn together in a thunderous frown and his fists clenched. Long shadows stretch across the sand.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Eldest Brother: A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked homespun shirt with rolled sleeves, baggy brown breeches held up by a single strap and a wide, frayed straw hat, and he goes barefoot.\n- the King: A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark-red wool robe with a grey fur collar, a thick gold chain across his chest, a small, spiky gold crown and pointed black shoes.\n\nSetting:\n- the Royal Farm: A grand old royal farm of ox-blood-red log buildings with white window frames, turf roofs and carved dragon-head gables around a wide, sandy yard. The main hall has broad wooden front steps with carved railings up to a big double door. Across the yard stands a long red log stable with a wide door, and a split-rail paddock fence runs along the birch trees, with violet mountains far behind.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 19,
+      "anchor": "At first grey light the Master of the Stables let the colts out",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“Come here, come here, my fine lad, and let me comb your hair!”",
+      "alt": "The hag in the cleft smiles sweetly and beckons to the middle brother, who comes stumbling up the path, hot and worn out. Far away, the colts race over a ridge.",
+      "prompt": "Late morning at the Grey Cleft. The Spinning Hag leans out from the shadow of the cleft, smiling as sweetly as she can and beckoning with one crooked finger, her distaff in her other hand. Stumbling towards her up the path comes the middle brother, a short, stocky lad with a round pink face and short, spiky black hair, in a sweat-soaked blue smock, red in the face and worn out. Far behind him, seven colts race away over a ridge.",
+      "characters": [
+        "kjerringa-i-bergsprekken"
+      ],
+      "places": [
+        "bergsprekken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Spinning Hag, the same character seen from three sides. Keep the Spinning Hag's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Spinning Hag only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Grey Cleft. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Late morning at the Grey Cleft. The Spinning Hag leans out from the shadow of the cleft, smiling as sweetly as she can and beckoning with one crooked finger, her distaff in her other hand. Stumbling towards her up the path comes the middle brother, a short, stocky lad with a round pink face and short, spiky black hair, in a sweat-soaked blue smock, red in the face and worn out. Far behind him, seven colts race away over a ridge.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Spinning Hag: A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She is wrapped in many layered shawls of faded blue, brown, plum and grey over a long dark skirt, wears worn felt slippers and always holds a distaff wound with grey wool.\n\nSetting:\n- the Grey Cleft: A narrow, shallow cleft at the foot of a grey, lichen-streaked cliff beside a winding forest path, with a flat, mossy stone in its mouth to sit on, ferns and heather around it, and birch trees and dark spruce on the slope below, where the path runs on towards the hills.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 26,
+      "anchor": "His brothers jeered and his parents begged, but it was no use.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "His brothers jeered and his parents begged, but it was no use.",
+      "alt": "Ash-Lad walks towards the door of the tumbledown hut with his knapsack on his back. On the bench his brothers jeer and point, and his old parents reach out, begging him to stay.",
+      "prompt": "Inside the tumbledown hut, lit by one small window. Askeladden, knapsack on his back and ash still on his breeches, walks calmly towards the low door. On the bench along the wall, the Eldest Brother and the middle brother, a short, stocky lad with a round pink face and short, spiky black hair, jeer and point at him, while their parents, a thin, grey-haired old couple in patched clothes, reach out their hands, begging him to stay.",
+      "characters": [
+        "askeladden",
+        "eldste-bror"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Inside the tumbledown hut, lit by one small window. Askeladden, knapsack on his back and ash still on his breeches, walks calmly towards the low door. On the bench along the wall, the Eldest Brother and the middle brother, a short, stocky lad with a round pink face and short, spiky black hair, jeer and point at him, while their parents, a thin, grey-haired old couple in patched clothes, reach out their hands, begging him to stay.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.\n- the Eldest Brother: A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked homespun shirt with rolled sleeves, baggy brown breeches held up by a single strap and a wide, frayed straw hat, and he goes barefoot.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 36,
+      "anchor": "At first grey light the Master of the Stables let the seven colts out again",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Ash-Lad caught the nearest colt by the rump and hung on.",
+      "alt": "In the grey dawn, seven colts burst out of the stable at the royal manor. Ash-Lad has caught the smallest one by the rump and hangs on with both hands.",
+      "prompt": "First grey light at the Royal Farm. The Master of the Stables, an old man in a leather apron, has just flung open the stable door, and seven chestnut colts burst out across the sandy yard towards the hills. Askeladden has caught the nearest one, the Youngest Colt, by the rump with both hands and hangs on for dear life, his boots skidding in the sand and his knapsack flying.",
+      "characters": [
+        "askeladden",
+        "det-yngste-follet"
+      ],
+      "places": [
+        "kongsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Colt, the same character seen from three sides. Keep the Youngest Colt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Colt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Royal Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: First grey light at the Royal Farm. The Master of the Stables, an old man in a leather apron, has just flung open the stable door, and seven chestnut colts burst out across the sandy yard towards the hills. Askeladden has caught the nearest one, the Youngest Colt, by the rump with both hands and hangs on for dear life, his boots skidding in the sand and his knapsack flying.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.\n- the Youngest Colt: A small, slender chestnut colt, the youngest and smallest of seven, with long, knobbly legs, a glossy red-brown coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark, clever eyes with long lashes and a neat white star on his forehead.\n\nSetting:\n- the Royal Farm: A grand old royal farm of ox-blood-red log buildings with white window frames, turf roofs and carved dragon-head gables around a wide, sandy yard. The main hall has broad wooden front steps with carved railings up to a big double door. Across the yard stands a long red log stable with a wide door, and a split-rail paddock fence runs along the birch trees, with violet mountains far behind.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 49,
+      "anchor": "When they reached the stump, the eldest colt took hold of it and wrenched it aside",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Where the stump had stood, there was a door.",
+      "alt": "In a clearing, the biggest colt has wrenched a huge white birch stump aside, and where it stood there is a small door. Ash-Lad sits on the youngest colt, watching with curious eyes.",
+      "prompt": "A far clearing in the birch forest in pale midsummer light. The biggest of the seven chestnut colts, the eldest, has taken hold of a huge white birch stump and wrenched it aside, and where it stood, a small, low wooden door is set into the ground. Askeladden, sitting on the back of the Youngest Colt, leans forward with wide, curious eyes, and the five other colts stand around in a half circle.",
+      "characters": [
+        "askeladden",
+        "det-yngste-follet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Colt, the same character seen from three sides. Keep the Youngest Colt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Colt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: A far clearing in the birch forest in pale midsummer light. The biggest of the seven chestnut colts, the eldest, has taken hold of a huge white birch stump and wrenched it aside, and where it stood, a small, low wooden door is set into the ground. Askeladden, sitting on the back of the Youngest Colt, leans forward with wide, curious eyes, and the five other colts stand around in a half circle.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.\n- the Youngest Colt: A small, slender chestnut colt, the youngest and smallest of seven, with long, knobbly legs, a glossy red-brown coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark, clever eyes with long lashes and a neat white star on his forehead.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 52,
+      "anchor": "“Now you must take the sword with you,” said the colt.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“We are the brothers of the princess you shall have.”",
+      "alt": "In the little room under the stump, Ash-Lad holds the great rusty sword lightly in one hand and a little jar in the other. In the doorway, the youngest colt tells him the secret.",
+      "prompt": "Inside the small, dim room under the stump, with rough walls, a cold little hearth and two stools. Askeladden holds the great rusty sword up in one hand as lightly as a stick, a small clay jar in the other, and listens with a grave face. In the low doorway stands the Youngest Colt, earnestly telling him the secret, his big dark eyes solemn, pale daylight behind him.",
+      "characters": [
+        "askeladden",
+        "det-yngste-follet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Colt, the same character seen from three sides. Keep the Youngest Colt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Colt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Inside the small, dim room under the stump, with rough walls, a cold little hearth and two stools. Askeladden holds the great rusty sword up in one hand as lightly as a stick, a small clay jar in the other, and listens with a grave face. In the low doorway stands the Youngest Colt, earnestly telling him the secret, his big dark eyes solemn, pale daylight behind him.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.\n- the Youngest Colt: A small, slender chestnut colt, the youngest and smallest of seven, with long, knobbly legs, a glossy red-brown coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark, clever eyes with long lashes and a neat white star on his forehead.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 64,
+      "anchor": "When the colts came into the churchyard, they turned into people",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "When the colts came into the churchyard, they turned into people.",
+      "alt": "In the churchyard of a small dark church walk seven king's sons in shining clothes. Ash-Lad stands just inside the gate, gaping.",
+      "prompt": "The green churchyard of a small, dark, tarred church with a tall tower, in low afternoon sun. Where seven colts trotted in through the gate a moment ago, seven young princes now walk towards the church door in clothes so fine that they shine, the smallest of them the Youngest Prince, beaming. Just inside the gate, Askeladden has stopped dead with his mouth open, staring after them.",
+      "characters": [
+        "askeladden",
+        "den-yngste-prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Prince, the same character seen from three sides. Keep the Youngest Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: The green churchyard of a small, dark, tarred church with a tall tower, in low afternoon sun. Where seven colts trotted in through the gate a moment ago, seven young princes now walk towards the church door in clothes so fine that they shine, the smallest of them the Youngest Prince, beaming. Just inside the gate, Askeladden has stopped dead with his mouth open, staring after them.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.\n- the Youngest Prince: A slight boy prince of about twelve, the youngest of seven brothers, with a round, freckled face, big dark eyes, a huge beaming smile and tousled strawberry-blonde hair. He wears shining white-and-gold clothes: a white tunic embroidered with gold, with a small white star on the chest, a short white cloak with gold trim, white hose and soft white leather boots.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 65,
+      "anchor": "The moment the seven king’s sons came out into the churchyard",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "He heard enough to know she was hopping mad.",
+      "alt": "Ash-Lad gallops past the cleft on the youngest colt, with the other colts ahead. The hag has jumped up and is screeching after them, shaking her distaff.",
+      "prompt": "Late afternoon on the forest path below the Grey Cleft. The seven chestnut colts thunder past at full gallop, and Askeladden rides the Youngest Colt, bent low over his neck, the neck of a wine bottle poking out of his knapsack. In the mouth of the cleft the Spinning Hag has jumped up from her stone, shrieking after them and shaking her distaff, her shawls flapping. Dust and leaves whirl in their wake.",
+      "characters": [
+        "askeladden",
+        "det-yngste-follet",
+        "kjerringa-i-bergsprekken"
+      ],
+      "places": [
+        "bergsprekken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Colt, the same character seen from three sides. Keep the Youngest Colt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Colt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Spinning Hag, the same character seen from three sides. Keep the Spinning Hag's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Spinning Hag only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Grey Cleft. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Late afternoon on the forest path below the Grey Cleft. The seven chestnut colts thunder past at full gallop, and Askeladden rides the Youngest Colt, bent low over his neck, the neck of a wine bottle poking out of his knapsack. In the mouth of the cleft the Spinning Hag has jumped up from her stone, shrieking after them and shaking her distaff, her shawls flapping. Dust and leaves whirl in their wake.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.\n- the Youngest Colt: A small, slender chestnut colt, the youngest and smallest of seven, with long, knobbly legs, a glossy red-brown coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark, clever eyes with long lashes and a neat white star on his forehead.\n- the Spinning Hag: A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She is wrapped in many layered shawls of faded blue, brown, plum and grey over a long dark skirt, wears worn felt slippers and always holds a distaff wound with grey wool.\n\nSetting:\n- the Grey Cleft: A narrow, shallow cleft at the foot of a grey, lichen-streaked cliff beside a winding forest path, with a flat, mossy stone in its mouth to sit on, ferns and heather around it, and birch trees and dark spruce on the slope below, where the path runs on towards the hills.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 70,
+      "anchor": "Ash-Lad brought out the communion wafer and the bottle of wine and showed them to the King.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Ash-Lad brought out the communion wafer and the bottle of wine.",
+      "alt": "In the dusk of the yard, Ash-Lad holds out a communion wafer and a bottle of wine to the King, who leans forward. Behind them the seven colts stand by the stable.",
+      "prompt": "Nearly dark in the yard of the Royal Farm under a pale lilac midsummer sky, a lantern glowing by the door. The King stands waiting in the yard with his arms folded. Askeladden, dusty from the long ride, holds out a round white communion wafer in one hand and a bottle of wine in the other. The King leans forward, his stern face beginning to change. Behind Askeladden the seven colts stand quietly by the stable.",
+      "characters": [
+        "askeladden",
+        "kongen"
+      ],
+      "places": [
+        "kongsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Royal Farm. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Nearly dark in the yard of the Royal Farm under a pale lilac midsummer sky, a lantern glowing by the door. The King stands waiting in the yard with his arms folded. Askeladden, dusty from the long ride, holds out a round white communion wafer in one hand and a bottle of wine in the other. The King leans forward, his stern face beginning to change. Behind Askeladden the seven colts stand quietly by the stable.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.\n- the King: A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark-red wool robe with a grey fur collar, a thick gold chain across his chest, a small, spiky gold crown and pointed black shoes.\n\nSetting:\n- the Royal Farm: A grand old royal farm of ox-blood-red log buildings with white window frames, turf roofs and carved dragon-head gables around a wide, sandy yard. The main hall has broad wooden front steps with carved railings up to a big double door. Across the yard stands a long red log stable with a wide door, and a split-rail paddock fence runs along the birch trees, with violet mountains far behind.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 74,
+      "anchor": "When he came back to the bridal table with the seven princes behind him",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "The King was so overjoyed that he kissed Ash-Lad and clapped him on the back.",
+      "alt": "Ash-Lad comes back to the bridal table with seven princes in shining clothes. The King kisses him and claps him on the back, and the bride beams.",
+      "prompt": "The candlelit wedding hall of the royal farm, with a long bridal table decked with birch branches. Askeladden has just come back in with seven princes in shining white-and-gold clothes behind him, the smallest the Youngest Prince. The King, overjoyed, kisses Askeladden on the cheek and claps him on the back, and the Princess, in a silver bridal crown, beams at him. Twelve guests at the table stare with their spoons in the air.",
+      "characters": [
+        "askeladden",
+        "kongen",
+        "prinsessa",
+        "den-yngste-prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Princess, the same character seen from three sides. Keep the Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Youngest Prince, the same character seen from three sides. Keep the Youngest Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: The candlelit wedding hall of the royal farm, with a long bridal table decked with birch branches. Askeladden has just come back in with seven princes in shining white-and-gold clothes behind him, the smallest the Youngest Prince. The King, overjoyed, kisses Askeladden on the cheek and claps him on the back, and the Princess, in a silver bridal crown, beams at him. Twelve guests at the table stare with their spoons in the air.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about eighteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied at the back of his neck with a leather cord. He wears a patched rust-orange wool jacket with bone buttons over an undyed linen shirt, dark-green knee breeches, grey wool stockings, sturdy black leather boots and a small brown leather knapsack on his back.\n- the King: A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark-red wool robe with a grey fur collar, a thick gold chain across his chest, a small, spiky gold crown and pointed black shoes.\n- the Princess: A cheerful princess of about nineteen with a round, freckled face, warm brown eyes, a wide, happy smile and a mass of bouncy strawberry-blonde curls falling past her shoulders, crowned with a small gold circlet set with one green stone. She wears a long pale-green wool gown with a white linen collar and cuffs, a gold-embroidered belt and soft green shoes.\n- the Youngest Prince: A slight boy prince of about twelve, the youngest of seven brothers, with a round, freckled face, big dark eyes, a huge beaming smile and tousled strawberry-blonde hair. He wears shining white-and-gold clothes: a white tunic embroidered with gold, with a small white star on the chest, a short white cloak with gold trim, white hose and soft white leather boots.\n\nStory world: Old rural Norway at midsummer. The poor family lives in a tumbledown turf-roofed hut in a spruce forest. The royal farm lies in a green valley: log buildings stained ox-blood red, with turf roofs, carved gables, broad front steps and a long stable. The seven colts are glossy chestnut colts with flaxen manes and tails; the youngest and smallest has a white star on his forehead. As princes they are seven brothers from about twelve to twenty-two, with their sister's strawberry-blonde hair and shining white-and-gold clothes. The hag sits in a shallow cleft at the foot of a grey cliff beside a forest path. A huge white birch stump in a clearing hides the door to a small earthen room with a hearth, a great rusty sword and a little clay jar. Beyond a long wooden bridge over a river stands a small, dark, tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; violet mountains, purple heather, birch woods and dewy grass, with long golden shadows in the evenings. The wedding glows with warm candlelight.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

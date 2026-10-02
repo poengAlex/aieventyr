@@ -1,0 +1,319 @@
+{
+  "storyId": "vesleaas",
+  "set": "classic",
+  "variant": "simplified",
+  "title": "Vesle Aase gåsepike",
+  "textFile": "public/content/stories/vesleaas/simplified/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T09:30:26.392Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "«Jeg venter kongssønnen fra England i dag.»",
+    "alt": "Aase sitter midt i veien med gjessene bak seg og syr lapp på lapp. Langt borte kommer en rytter i rød kappe.",
+    "prompt": "Aase sits bolt upright in the middle of the dusty road beside the Goose Meadow, sewing patch on patch in her lap, and looks straight out at the viewer with a calm, knowing little smile. A flock of white and grey geese mills behind her. Far away down the road, a rider in a scarlet cloak on a tall bay horse is coming, with two more riders behind him.",
+    "characters": [
+      "aase"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Goose Meadow. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for an illustrated folk-tale book, in a square format. Do not write a title or any other text on it.\n\nPicture: Aase sits bolt upright in the middle of the dusty road beside the Goose Meadow, sewing patch on patch in her lap, and looks straight out at the viewer with a calm, knowing little smile. A flock of white and grey geese mills behind her. Far away down the road, a rider in a scarlet cloak on a tall bay horse is coming, with two more riders behind him.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Aase: A small, sturdy young woman of about eighteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with patch on patch of blue and green, a white apron, wooden clogs and a little patchwork sewing bag at her waist.\n\nSetting:\n- the Goose Meadow: A wide, gently sloping green meadow full of golden dandelions, with a dusty country road running along its lower edge between grassy ditches, a few young birches in bright new leaf and a low grey stone wall. In the background stands the royal manor, a cluster of big, dark timber buildings with carved balconies and turf roofs.\n\nStory world: Old rural Norway in late spring. The royal manor is a cluster of big, dark timber buildings with carved balconies and turf roofs among green meadows, beside a dusty country road with grassy ditches. The King has more geese than he can count, white and grey, big and small. Aase always sits sewing patch on patch, her skirt more patch than skirt. The King's son from England rides a tall bay horse, with a retinue of two riders in grey cloaks. His fine bedchamber has a big carved bed with a canopy, and at night the Knowing Stone lies on the floor in front of it. The ring he gives is a slim gold ring with a tiny red stone.\n\nThis story's season, light and colours: Late spring: fresh green meadows full of golden dandelions, white and grey geese, soft blue skies and clear, milky morning light. The night scenes are a deep, hushed blue, lit only by a single candle, a strip of moonlight or the stone's warm golden glow.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "aase",
+      "name": "Aase (gåsepiken)",
+      "description": "En sta og smart gåsepike som vet hva hun vil, og som til slutt avsløres som den rette for prinsen.",
+      "look": "A small, sturdy young woman of about eighteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with patch on patch of blue and green, a white apron, wooden clogs and a little patchwork sewing bag at her waist.",
+      "sheet": "characters/aase.webp",
+      "turn": "characters/aase-turn.mp4",
+      "portrait": "portraits/aase.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/aase.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/aase-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "aase-gaasepike"
+    },
+    {
+      "slug": "kongssonnen",
+      "name": "Kongssønnen fra England",
+      "description": "En prins som leter etter en brud og bruker en magisk stein for å finne sannheten.",
+      "look": "A tall, lean prince of about twenty-four with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a thin gold circlet, a scarlet wool tunic with gold braid across the chest, a long scarlet riding cloak, cream hose and brown riding boots with turned-down cuffs.",
+      "sheet": "characters/kongssonnen.webp",
+      "turn": "characters/kongssonnen-turn.mp4",
+      "portrait": "portraits/kongssonnen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kongssonnen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kongssonnen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kongsson-fra-england"
+    },
+    {
+      "slug": "sannhetssteinen",
+      "name": "Sannhetssteinen",
+      "description": "En magisk stein som avslører hvem som er ren og hvem som lyver når noen går over den.",
+      "look": "A small, smooth, egg-shaped stone no bigger than a plum, polished like a river pebble, milky white with faint swirls of pale gold and rose inside. It has no face and never moves, but when it speaks, or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight.",
+      "sheet": "characters/sannhetssteinen.webp",
+      "turn": "characters/sannhetssteinen-turn.mp4",
+      "portrait": "portraits/sannhetssteinen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/sannhetssteinen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/sannhetssteinen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "sannhetssteinen"
+    },
+    {
+      "slug": "tredje-prinsesse",
+      "name": "Den tredje prinsessen",
+      "description": "Den siste av prinsessene som prøver å lure prinsen ved å sende Aase i stedet for seg.",
+      "look": "A tall, willowy princess of about twenty with a long neck, a narrow face, high arched brows over big, anxious dark-brown eyes, a delicate little mouth and glossy chocolate-brown hair in long, bouncy ringlets tied back with a pearl-studded ribbon. She wears a thin circlet of pearls, pearl earrings and a long peacock-blue gown with full sleeves and a lace collar, and carries a white feather fan that she likes to hide behind.",
+      "sheet": "characters/tredje-prinsesse.webp",
+      "turn": "characters/tredje-prinsesse-turn.mp4",
+      "portrait": "portraits/tredje-prinsesse.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/tredje-prinsesse.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/tredje-prinsesse-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "tredje-prinsesse"
+    }
+  ],
+  "places": [
+    {
+      "slug": "gaaseenga",
+      "name": "the Goose Meadow",
+      "look": "A wide, gently sloping green meadow full of golden dandelions, with a dusty country road running along its lower edge between grassy ditches, a few young birches in bright new leaf and a low grey stone wall. In the background stands the royal manor, a cluster of big, dark timber buildings with carved balconies and turf roofs."
+    },
+    {
+      "slug": "kammerset",
+      "name": "the Bedchamber",
+      "look": "A fine bedchamber in the royal manor, with dark timber walls painted with blue and red rosemaling flowers, a big carved wooden bed with a canopy, white linen and a white eiderdown, tall carved bedposts, a small leaded window, a painted chest beside the bed and a wide, worn wooden floor in front of the bed."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "«Jo, skal jeg ha ham, så får jeg ham nok», sa vesle Aase.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Jo, skal jeg ha ham, så får jeg ham nok», sa vesle Aase.",
+      "alt": "Aase sitter rak i ryggen midt i veien og syr lapp på lapp, med gjessene bak seg. Kongssønnen fra England har måttet holde inn hesten og ser ned på henne.",
+      "prompt": "On the dusty road beside the Goose Meadow on a fresh spring morning, Aase sits bolt upright in the middle of the road, sewing patch on patch in her lap, with a flock of white and grey geese milling behind her. The Prince has had to rein in his tall bay horse right in front of her and looks down, amused and puzzled. Two riders of his retinue in grey cloaks wait behind him. Aase looks straight up at him, perfectly sure of herself.",
+      "characters": [
+        "aase",
+        "kongssonnen"
+      ],
+      "places": [
+        "gaaseenga"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Goose Meadow. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On the dusty road beside the Goose Meadow on a fresh spring morning, Aase sits bolt upright in the middle of the road, sewing patch on patch in her lap, with a flock of white and grey geese milling behind her. The Prince has had to rein in his tall bay horse right in front of her and looks down, amused and puzzled. Two riders of his retinue in grey cloaks wait behind him. Aase looks straight up at him, perfectly sure of herself.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Aase: A small, sturdy young woman of about eighteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with patch on patch of blue and green, a white apron, wooden clogs and a little patchwork sewing bag at her waist.\n- the Prince: A tall, lean prince of about twenty-four with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a thin gold circlet, a scarlet wool tunic with gold braid across the chest, a long scarlet riding cloak, cream hose and brown riding boots with turned-down cuffs.\n\nSetting:\n- the Goose Meadow: A wide, gently sloping green meadow full of golden dandelions, with a dusty country road running along its lower edge between grassy ditches, a few young birches in bright new leaf and a low grey stone wall. In the background stands the royal manor, a cluster of big, dark timber buildings with carved balconies and turf roofs.\n\nStory world: Old rural Norway in late spring. The royal manor is a cluster of big, dark timber buildings with carved balconies and turf roofs among green meadows, beside a dusty country road with grassy ditches. The King has more geese than he can count, white and grey, big and small. Aase always sits sewing patch on patch, her skirt more patch than skirt. The King's son from England rides a tall bay horse, with a retinue of two riders in grey cloaks. His fine bedchamber has a big carved bed with a canopy, and at night the Knowing Stone lies on the floor in front of it. The ring he gives is a slim gold ring with a tiny red stone.\n\nThis story's season, light and colours: Late spring: fresh green meadows full of golden dandelions, white and grey geese, soft blue skies and clear, milky morning light. The night scenes are a deep, hushed blue, lit only by a single candle, a strip of moonlight or the stone's warm golden glow.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 14,
+      "anchor": "«Ren og skjær jomfru!» sa steinen.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Ren og skjær jomfru!» sa steinen.",
+      "alt": "Aase i hvit nattkjole går over den lille steinen foran sengen i det mørke soverommet, og steinen lyser gyllent. I sengen sitter kongssønnen og lytter.",
+      "prompt": "Night in the dark Bedchamber, lit only by a thin strip of moonlight from the small window. Aase, in a long, plain white linen nightgown, steps barefoot over the Knowing Stone on the floor in front of the big carved bed, and the little stone glows with a soft golden light that lights up her feet. In the bed, the Prince, in a white nightshirt, sits up and peers into the dark, listening.",
+      "characters": [
+        "aase",
+        "sannhetssteinen",
+        "kongssonnen"
+      ],
+      "places": [
+        "kammerset"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Knowing Stone, the same character seen from three sides. Keep the Knowing Stone's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Knowing Stone only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Bedchamber. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Night in the dark Bedchamber, lit only by a thin strip of moonlight from the small window. Aase, in a long, plain white linen nightgown, steps barefoot over the Knowing Stone on the floor in front of the big carved bed, and the little stone glows with a soft golden light that lights up her feet. In the bed, the Prince, in a white nightshirt, sits up and peers into the dark, listening.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Aase: A small, sturdy young woman of about eighteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with patch on patch of blue and green, a white apron, wooden clogs and a little patchwork sewing bag at her waist.\n- the Knowing Stone: A small, smooth, egg-shaped stone no bigger than a plum, polished like a river pebble, milky white with faint swirls of pale gold and rose inside. It has no face and never moves, but when it speaks, or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight.\n- the Prince: A tall, lean prince of about twenty-four with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a thin gold circlet, a scarlet wool tunic with gold braid across the chest, a long scarlet riding cloak, cream hose and brown riding boots with turned-down cuffs.\n\nSetting:\n- the Bedchamber: A fine bedchamber in the royal manor, with dark timber walls painted with blue and red rosemaling flowers, a big carved wooden bed with a canopy, white linen and a white eiderdown, tall carved bedposts, a small leaded window, a painted chest beside the bed and a wide, worn wooden floor in front of the bed.\n\nStory world: Old rural Norway in late spring. The royal manor is a cluster of big, dark timber buildings with carved balconies and turf roofs among green meadows, beside a dusty country road with grassy ditches. The King has more geese than he can count, white and grey, big and small. Aase always sits sewing patch on patch, her skirt more patch than skirt. The King's son from England rides a tall bay horse, with a retinue of two riders in grey cloaks. His fine bedchamber has a big carved bed with a canopy, and at night the Knowing Stone lies on the floor in front of it. The ring he gives is a slim gold ring with a tiny red stone.\n\nThis story's season, light and colours: Late spring: fresh green meadows full of golden dandelions, white and grey geese, soft blue skies and clear, milky morning light. The night scenes are a deep, hushed blue, lit only by a single candle, a strip of moonlight or the stone's warm golden glow.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 18,
+      "anchor": "Prinsessen sto på gulvet og var blitt hvit i ansiktet.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Prinsessen var blitt hvit i ansiktet. Steinen sa ikke mer.",
+      "alt": "Prinsessen står på gulvet ved den lille steinen og er blitt hvit i ansiktet. Kongssønnen står ved sengen og ser strengt på henne.",
+      "prompt": "Early morning light in the Bedchamber. The first princess, a plump young woman with pale-blonde hair piled up high, in a peach-pink nightgown, has stopped dead with one bare foot on the floor just past the Knowing Stone, her face gone white. The Prince stands by the bedpost in his white nightshirt, his face hard, staring at her. The little stone lies still with a faint golden glow.",
+      "characters": [
+        "kongssonnen",
+        "sannhetssteinen"
+      ],
+      "places": [
+        "kammerset"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Knowing Stone, the same character seen from three sides. Keep the Knowing Stone's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Knowing Stone only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Bedchamber. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Early morning light in the Bedchamber. The first princess, a plump young woman with pale-blonde hair piled up high, in a peach-pink nightgown, has stopped dead with one bare foot on the floor just past the Knowing Stone, her face gone white. The Prince stands by the bedpost in his white nightshirt, his face hard, staring at her. The little stone lies still with a faint golden glow.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean prince of about twenty-four with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a thin gold circlet, a scarlet wool tunic with gold braid across the chest, a long scarlet riding cloak, cream hose and brown riding boots with turned-down cuffs.\n- the Knowing Stone: A small, smooth, egg-shaped stone no bigger than a plum, polished like a river pebble, milky white with faint swirls of pale gold and rose inside. It has no face and never moves, but when it speaks, or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight.\n\nSetting:\n- the Bedchamber: A fine bedchamber in the royal manor, with dark timber walls painted with blue and red rosemaling flowers, a big carved wooden bed with a canopy, white linen and a white eiderdown, tall carved bedposts, a small leaded window, a painted chest beside the bed and a wide, worn wooden floor in front of the bed.\n\nStory world: Old rural Norway in late spring. The royal manor is a cluster of big, dark timber buildings with carved balconies and turf roofs among green meadows, beside a dusty country road with grassy ditches. The King has more geese than he can count, white and grey, big and small. Aase always sits sewing patch on patch, her skirt more patch than skirt. The King's son from England rides a tall bay horse, with a retinue of two riders in grey cloaks. His fine bedchamber has a big carved bed with a canopy, and at night the Knowing Stone lies on the floor in front of it. The ring he gives is a slim gold ring with a tiny red stone.\n\nThis story's season, light and colours: Late spring: fresh green meadows full of golden dandelions, white and grey geese, soft blue skies and clear, milky morning light. The night scenes are a deep, hushed blue, lit only by a single candle, a strip of moonlight or the stone's warm golden glow.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 34,
+      "anchor": "Den tredje prinsessen ble blek om nesen.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Den tredje prinsessen ble blek om nesen.",
+      "alt": "Den tredje prinsessen er blitt blek og hvisker Aase i øret bak vifta si. Gjennom en åpen dør ligger steinen på gulvet foran sengen.",
+      "prompt": "In one of the fine rooms of the royal manor, the Third Princess, gone pale, leans in close to whisper in Aase's ear, half hiding behind her white feather fan. Aase, in her patched dress and white apron, stands quite still and does not so much as blink. Through an open door behind them, the Knowing Stone lies on the floor in front of the big carved bed of the Bedchamber.",
+      "characters": [
+        "tredje-prinsesse",
+        "aase",
+        "sannhetssteinen"
+      ],
+      "places": [
+        "kammerset"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Third Princess, the same character seen from three sides. Keep the Third Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Third Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Knowing Stone, the same character seen from three sides. Keep the Knowing Stone's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Knowing Stone only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Bedchamber. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In one of the fine rooms of the royal manor, the Third Princess, gone pale, leans in close to whisper in Aase's ear, half hiding behind her white feather fan. Aase, in her patched dress and white apron, stands quite still and does not so much as blink. Through an open door behind them, the Knowing Stone lies on the floor in front of the big carved bed of the Bedchamber.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Third Princess: A tall, willowy princess of about twenty with a long neck, a narrow face, high arched brows over big, anxious dark-brown eyes, a delicate little mouth and glossy chocolate-brown hair in long, bouncy ringlets tied back with a pearl-studded ribbon. She wears a thin circlet of pearls, pearl earrings and a long peacock-blue gown with full sleeves and a lace collar, and carries a white feather fan that she likes to hide behind.\n- Aase: A small, sturdy young woman of about eighteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with patch on patch of blue and green, a white apron, wooden clogs and a little patchwork sewing bag at her waist.\n- the Knowing Stone: A small, smooth, egg-shaped stone no bigger than a plum, polished like a river pebble, milky white with faint swirls of pale gold and rose inside. It has no face and never moves, but when it speaks, or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight.\n\nSetting:\n- the Bedchamber: A fine bedchamber in the royal manor, with dark timber walls painted with blue and red rosemaling flowers, a big carved wooden bed with a canopy, white linen and a white eiderdown, tall carved bedposts, a small leaded window, a painted chest beside the bed and a wide, worn wooden floor in front of the bed.\n\nStory world: Old rural Norway in late spring. The royal manor is a cluster of big, dark timber buildings with carved balconies and turf roofs among green meadows, beside a dusty country road with grassy ditches. The King has more geese than he can count, white and grey, big and small. Aase always sits sewing patch on patch, her skirt more patch than skirt. The King's son from England rides a tall bay horse, with a retinue of two riders in grey cloaks. His fine bedchamber has a big carved bed with a canopy, and at night the Knowing Stone lies on the floor in front of it. The ring he gives is a slim gold ring with a tiny red stone.\n\nThis story's season, light and colours: Late spring: fresh green meadows full of golden dandelions, white and grey geese, soft blue skies and clear, milky morning light. The night scenes are a deep, hushed blue, lit only by a single candle, a strip of moonlight or the stone's warm golden glow.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 39,
+      "anchor": "Ut på natten, mens Aase sov, lente han seg over henne",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Nå hadde han et merke å kjenne den rette igjen på.",
+      "alt": "Aase sover i den store sengen. Kongssønnen lener seg over henne i skinnet fra et lys og skyver en ring på fingeren hennes. Steinen ligger stille ved sengefoten.",
+      "prompt": "Late at night in the Bedchamber, lit by a single candle on the painted chest. Aase lies fast asleep in the big carved bed under the white eiderdown, one hand resting on the cover. The Prince, propped on one elbow on his side of the bed, leans over and carefully slides a slim gold ring onto her finger, his face thoughtful. At the foot of the bed the Knowing Stone lies quiet and dark, since nobody has asked it anything.",
+      "characters": [
+        "kongssonnen",
+        "aase",
+        "sannhetssteinen"
+      ],
+      "places": [
+        "kammerset"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Knowing Stone, the same character seen from three sides. Keep the Knowing Stone's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Knowing Stone only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Bedchamber. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Late at night in the Bedchamber, lit by a single candle on the painted chest. Aase lies fast asleep in the big carved bed under the white eiderdown, one hand resting on the cover. The Prince, propped on one elbow on his side of the bed, leans over and carefully slides a slim gold ring onto her finger, his face thoughtful. At the foot of the bed the Knowing Stone lies quiet and dark, since nobody has asked it anything.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean prince of about twenty-four with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a thin gold circlet, a scarlet wool tunic with gold braid across the chest, a long scarlet riding cloak, cream hose and brown riding boots with turned-down cuffs.\n- Aase: A small, sturdy young woman of about eighteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with patch on patch of blue and green, a white apron, wooden clogs and a little patchwork sewing bag at her waist.\n- the Knowing Stone: A small, smooth, egg-shaped stone no bigger than a plum, polished like a river pebble, milky white with faint swirls of pale gold and rose inside. It has no face and never moves, but when it speaks, or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight.\n\nSetting:\n- the Bedchamber: A fine bedchamber in the royal manor, with dark timber walls painted with blue and red rosemaling flowers, a big carved wooden bed with a canopy, white linen and a white eiderdown, tall carved bedposts, a small leaded window, a painted chest beside the bed and a wide, worn wooden floor in front of the bed.\n\nStory world: Old rural Norway in late spring. The royal manor is a cluster of big, dark timber buildings with carved balconies and turf roofs among green meadows, beside a dusty country road with grassy ditches. The King has more geese than he can count, white and grey, big and small. Aase always sits sewing patch on patch, her skirt more patch than skirt. The King's son from England rides a tall bay horse, with a retinue of two riders in grey cloaks. His fine bedchamber has a big carved bed with a canopy, and at night the Knowing Stone lies on the floor in front of it. The ring he gives is a slim gold ring with a tiny red stone.\n\nThis story's season, light and colours: Late spring: fresh green meadows full of golden dandelions, white and grey geese, soft blue skies and clear, milky morning light. The night scenes are a deep, hushed blue, lit only by a single candle, a strip of moonlight or the stone's warm golden glow.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 47,
+      "anchor": "«Du har ikke spurt», sa steinen.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Du har ikke spurt», sa steinen.",
+      "alt": "Kongssønnen sitter på sengekanten og stirrer oppgitt på den lille steinen på gulvet. Steinen lyser rolig og gyllent.",
+      "prompt": "Morning in the Bedchamber, the bed rumpled and the door flung wide open. The Prince sits on the edge of the bed in his white nightshirt with his elbows on his knees, glaring down at the Knowing Stone on the floor in front of him, utterly exasperated. The little stone glows a calm, soft gold, looking as if it had all the time in the world. Pale spring sunlight falls through the small window.",
+      "characters": [
+        "kongssonnen",
+        "sannhetssteinen"
+      ],
+      "places": [
+        "kammerset"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Knowing Stone, the same character seen from three sides. Keep the Knowing Stone's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Knowing Stone only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Bedchamber. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Morning in the Bedchamber, the bed rumpled and the door flung wide open. The Prince sits on the edge of the bed in his white nightshirt with his elbows on his knees, glaring down at the Knowing Stone on the floor in front of him, utterly exasperated. The little stone glows a calm, soft gold, looking as if it had all the time in the world. Pale spring sunlight falls through the small window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean prince of about twenty-four with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a thin gold circlet, a scarlet wool tunic with gold braid across the chest, a long scarlet riding cloak, cream hose and brown riding boots with turned-down cuffs.\n- the Knowing Stone: A small, smooth, egg-shaped stone no bigger than a plum, polished like a river pebble, milky white with faint swirls of pale gold and rose inside. It has no face and never moves, but when it speaks, or someone steps over it, it glows with a soft, warm golden light that spreads around it like candlelight.\n\nSetting:\n- the Bedchamber: A fine bedchamber in the royal manor, with dark timber walls painted with blue and red rosemaling flowers, a big carved wooden bed with a canopy, white linen and a white eiderdown, tall carved bedposts, a small leaded window, a painted chest beside the bed and a wide, worn wooden floor in front of the bed.\n\nStory world: Old rural Norway in late spring. The royal manor is a cluster of big, dark timber buildings with carved balconies and turf roofs among green meadows, beside a dusty country road with grassy ditches. The King has more geese than he can count, white and grey, big and small. Aase always sits sewing patch on patch, her skirt more patch than skirt. The King's son from England rides a tall bay horse, with a retinue of two riders in grey cloaks. His fine bedchamber has a big carved bed with a canopy, and at night the Knowing Stone lies on the floor in front of it. The ring he gives is a slim gold ring with a tiny red stone.\n\nThis story's season, light and colours: Late spring: fresh green meadows full of golden dandelions, white and grey geese, soft blue skies and clear, milky morning light. The night scenes are a deep, hushed blue, lit only by a single candle, a strip of moonlight or the stone's warm golden glow.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 53,
+      "anchor": "Men Aase ville slett ikke ta av fillen.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Så gled fillen av. Der satt ringen hans og blinket i solen.",
+      "alt": "Kongssønnen holder Aase i hånden på gåseenga, og fillen har glidd av fingeren hennes. Der blinker ringen hans i solen, og gjessene strekker hals rundt dem.",
+      "prompt": "In the sunny Goose Meadow, the Prince crouches beside Aase and holds her hand firmly while she pulls back with all her might, and the strip of rag has just slipped off her finger: there sits his slim gold ring, glinting in the sun. White and grey geese crowd round them with their necks stretched out, honking. Aase's cheeks are red, half cross and half proud.",
+      "characters": [
+        "aase",
+        "kongssonnen"
+      ],
+      "places": [
+        "gaaseenga"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Goose Meadow. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the sunny Goose Meadow, the Prince crouches beside Aase and holds her hand firmly while she pulls back with all her might, and the strip of rag has just slipped off her finger: there sits his slim gold ring, glinting in the sun. White and grey geese crowd round them with their necks stretched out, honking. Aase's cheeks are red, half cross and half proud.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Aase: A small, sturdy young woman of about eighteen, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears a plain brown wool dress mended with patch on patch of blue and green, a white apron, wooden clogs and a little patchwork sewing bag at her waist.\n- the Prince: A tall, lean prince of about twenty-four with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a thin gold circlet, a scarlet wool tunic with gold braid across the chest, a long scarlet riding cloak, cream hose and brown riding boots with turned-down cuffs.\n\nSetting:\n- the Goose Meadow: A wide, gently sloping green meadow full of golden dandelions, with a dusty country road running along its lower edge between grassy ditches, a few young birches in bright new leaf and a low grey stone wall. In the background stands the royal manor, a cluster of big, dark timber buildings with carved balconies and turf roofs.\n\nStory world: Old rural Norway in late spring. The royal manor is a cluster of big, dark timber buildings with carved balconies and turf roofs among green meadows, beside a dusty country road with grassy ditches. The King has more geese than he can count, white and grey, big and small. Aase always sits sewing patch on patch, her skirt more patch than skirt. The King's son from England rides a tall bay horse, with a retinue of two riders in grey cloaks. His fine bedchamber has a big carved bed with a canopy, and at night the Knowing Stone lies on the floor in front of it. The ring he gives is a slim gold ring with a tiny red stone.\n\nThis story's season, light and colours: Late spring: fresh green meadows full of golden dandelions, white and grey geese, soft blue skies and clear, milky morning light. The night scenes are a deep, hushed blue, lit only by a single candle, a strip of moonlight or the stone's warm golden glow.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

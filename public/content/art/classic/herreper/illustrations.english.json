@@ -1,0 +1,476 @@
+{
+  "storyId": "herreper",
+  "set": "classic",
+  "variant": "english",
+  "title": "Sir Per",
+  "textFile": "public/content/stories/herreper/english/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T09:24:42.299Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Sir Per drove after the cat as she ran ahead.",
+    "alt": "The cat in a feathered hat and cloak runs ahead along a summer road, and behind her Sir Per drives a small gilded carriage with four white horses. Far away a silver castle glitters.",
+    "prompt": "On a long summer road winding over green hills, the Dressed-up Cat runs ahead with her tail straight up and her red feathered hat at a jaunty angle. Behind her comes Sir Per, driving his small gilded carriage drawn by four white horses, holding the reins and looking both proud and a little nervous. Far away on a green rise, the Silver Castle glitters in the sun.",
+    "characters": [
+      "katten-pyntet",
+      "herreper"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Dressed-up Cat, the same character seen from three sides. Keep the Dressed-up Cat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dressed-up Cat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Sir Per, the same character seen from three sides. Keep Sir Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sir Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Silver Castle. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for an illustrated folk-tale book, in a square format. Do not write a title or any other text on it.\n\nPicture: On a long summer road winding over green hills, the Dressed-up Cat runs ahead with her tail straight up and her red feathered hat at a jaunty angle. Behind her comes Sir Per, driving his small gilded carriage drawn by four white horses, holding the reins and looking both proud and a little nervous. Far away on a green rise, the Silver Castle glitters in the sun.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Dressed-up Cat: A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest, big green-gold eyes, long white whiskers and her old faded red leather collar, now dressed for visiting: a small red hat with a curling white feather set at a jaunty angle between her ears, and a little moss-green cloak fastened at her throat with a tiny brass clasp. She walks and sits upright and proud, her striped tail held high.\n- Sir Per: A lanky young man of about nineteen with a long neck, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail, dressed as a fine lord and standing a little taller than before. He wears a bright green velvet jacket with rows of gold buttons and gold braid, a flowing scarlet cape fastened with a gold clasp, a broad-brimmed hat with a long curling white feather, cream breeches and tall brown riding boots.\n\nSetting:\n- the Silver Castle: A great castle made all of polished silver, with slender towers and steep silver roofs, standing on a green rise in a wide summer landscape and shining so brightly in the sun that it hurts the eyes. In front of it, three tall arched gates stand one behind the other across the road: the first of brass, the second of silver and the third of gold, each between two thick stone gateposts. Across a meadow opposite the gates rises a low wooded ridge.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "per",
+      "name": "Per",
+      "description": "The youngest son, poor and ragged at first, who becomes “Sir Per” through the cat’s schemes and ends up ruling a realm.",
+      "look": "A gangly, gentle young man of about nineteen with a long neck, long arms, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail. He wears a grey homespun coat far too big for him, its sleeves rolled up and its elbows mended, over a washed-out blue smock, baggy brown trousers tucked into cracked old boots tied with string, and a shapeless oatmeal knitted cap.",
+      "sheet": "characters/per.webp",
+      "turn": "characters/per-turn.mp4",
+      "portrait": "portraits/per.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/per.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/per-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "per"
+    },
+    {
+      "slug": "herreper",
+      "name": "Sir Per",
+      "description": "Per in the fine clothes the cat found for him. Whatever the King shows him, he says he has it far finer at home.",
+      "look": "A lanky young man of about nineteen with a long neck, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail, dressed as a fine lord and standing a little taller than before. He wears a bright green velvet jacket with rows of gold buttons and gold braid, a flowing scarlet cape fastened with a gold clasp, a broad-brimmed hat with a long curling white feather, cream breeches and tall brown riding boots.",
+      "sheet": "characters/herreper.webp",
+      "turn": "characters/herreper-turn.mp4",
+      "portrait": "portraits/herreper.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/herreper.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/herreper-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "katten",
+      "name": "The Cat",
+      "description": "A sharp-tongued, fearless cat who coerces forest animals into becoming royal gifts and later transforms into a princess freed from a troll’s enchantment.",
+      "look": "A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest and chin, big green-gold eyes, long white whiskers and a long striped tail that she carries high. Around her neck she wears an old, worn collar of faded red leather with a small tarnished brass buckle. She sits very upright, like a small queen.",
+      "sheet": "characters/katten.webp",
+      "turn": "characters/katten-turn.mp4",
+      "portrait": "portraits/katten.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/katten.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/katten-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "cat-enchanted-princess"
+    },
+    {
+      "slug": "katten-pyntet",
+      "name": "The Cat in Hat and Cloak",
+      "description": "The cat in her own feathered hat and little green cloak. She runs ahead of the carriage, hands out the King’s silver and always knows what comes next.",
+      "look": "A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest, big green-gold eyes, long white whiskers and her old faded red leather collar, now dressed for visiting: a small red hat with a curling white feather set at a jaunty angle between her ears, and a little moss-green cloak fastened at her throat with a tiny brass clasp. She walks and sits upright and proud, her striped tail held high.",
+      "sheet": "characters/katten-pyntet.webp",
+      "turn": null,
+      "portrait": "portraits/katten-pyntet.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/katten-pyntet.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/katten-pyntet-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kongen",
+      "name": "The King",
+      "description": "A proud ruler delighted by lavish gifts, then irritated by Per’s boasting, who follows him to see the supposed splendor for himself.",
+      "look": "A short, very fat king of about sixty with a round, shiny bald head, bulging cheeks, a red nose, small beady eyes, a grumpy look and a huge drooping grey walrus moustache that hides his mouth. A small gold crown sits right on top of his bald head. He wears a long purple wool robe with a spotted ermine collar, stretched tight over his enormous belly, a wide gold belt, white stockings and pointed red leather shoes.",
+      "sheet": "characters/kongen.webp",
+      "turn": "characters/kongen-turn.mp4",
+      "portrait": "portraits/kongen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kongen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kongen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "king"
+    },
+    {
+      "slug": "trollet",
+      "name": "The Troll of the Castle",
+      "description": "The monstrous owner of the shining castle, undone when the cat tricks him into turning toward the rising sun.",
+      "look": "A colossal old troll about four times a man's height, round-shouldered and heavy, covered all over in long, matted, oatmeal-beige fur like a giant unshorn ram, with heather and twigs caught in it. Two round yellow eyes glow like lanterns above a big potato nose, and his broad, soft mouth shows two blunt buck teeth. He has little round ears, great grey hands like stone, a long cow's tail with a tuft at the end and broad, hairy bare feet.",
+      "sheet": "characters/trollet.webp",
+      "turn": "characters/trollet-turn.mp4",
+      "portrait": "portraits/trollet.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollet.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollet-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "troll"
+    },
+    {
+      "slug": "prinsessa",
+      "name": "The Princess",
+      "description": "The cat’s true self: a princess the troll had bewitched. Freed at last, she lets Sir Per decide whether to make her his queen.",
+      "look": "A graceful young woman of about nineteen with a small pointed chin, high cheekbones, almond-shaped green-gold eyes like a cat's, a little upturned nose and very long, straight golden hair falling to her knees, with one silver-grey streak at her left temple. She wears a dove-grey silk gown with snow-white cuffs, a white lace collar and fine silver embroidery at the hem, and a thin silver circlet on her brow.",
+      "sheet": "characters/prinsessa.webp",
+      "turn": "characters/prinsessa-turn.mp4",
+      "portrait": "portraits/prinsessa.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsessa.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsessa-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    }
+  ],
+  "places": [
+    {
+      "slug": "slottet",
+      "name": "the Silver Castle",
+      "look": "A great castle made all of polished silver, with slender towers and steep silver roofs, standing on a green rise in a wide summer landscape and shining so brightly in the sun that it hurts the eyes. In front of it, three tall arched gates stand one behind the other across the road: the first of brass, the second of silver and the third of gold, each between two thick stone gateposts. Across a meadow opposite the gates rises a low wooded ridge."
+    },
+    {
+      "slug": "gullsalen",
+      "name": "the Golden Hall",
+      "look": "A great hall inside the Silver Castle where everything is made of gold: gold-panelled walls carved with scrolling leaves, a long golden table, golden chairs and benches, golden candlesticks, plates and cups, and a wide golden hearth at one end. Tall arched windows with small panes look out towards the three gates, and the floor is of polished golden wood."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 7,
+      "anchor": "“If I lend out the cat, I’ll get nothing for her,” said Per.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“But I’ll take her with me all the same,” said Per.",
+      "alt": "In the bare old cottage, Per lifts the cat into his arms. By the door his brothers are leaving, one with a pot and the other with a griddle.",
+      "prompt": "Inside a bare, grey little cottage with a cold hearth, an empty bench and one small window, Per kneels on the floorboards and gently lifts the Cat into his arms; she presses her head against his chin. By the open door his two older brothers are leaving with smug grins: a tall, thin one with a black beard carrying a round black iron pot, and a short, stocky fair-haired one with a big flat iron griddle. Pale morning light.",
+      "characters": [
+        "per",
+        "katten"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Per, the same character seen from three sides. Keep Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Cat, the same character seen from three sides. Keep the Cat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Inside a bare, grey little cottage with a cold hearth, an empty bench and one small window, Per kneels on the floorboards and gently lifts the Cat into his arms; she presses her head against his chin. By the open door his two older brothers are leaving with smug grins: a tall, thin one with a black beard carrying a round black iron pot, and a short, stocky fair-haired one with a big flat iron griddle. Pale morning light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Per: A gangly, gentle young man of about nineteen with a long neck, long arms, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail. He wears a grey homespun coat far too big for him, its sleeves rolled up and its elbows mended, over a washed-out blue smock, baggy brown trousers tucked into cracked old boots tied with string, and a shapeless oatmeal knitted cap.\n- the Cat: A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest and chin, big green-gold eyes, long white whiskers and a long striped tail that she carries high. Around her neck she wears an old, worn collar of faded red leather with a small tarnished brass buckle. She sits very upright, like a small queen.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 10,
+      "anchor": "Per hadn’t been waiting long before the cat came out of the forest with a reindeer.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "The cat had settled herself between the antlers.",
+      "alt": "A big reindeer steps out of the spruce forest with the cat sitting upright between its antlers. Per sits on a stone by the road, gaping.",
+      "prompt": "Where a country road runs along the edge of a dark spruce forest on a bright summer morning, a big grey-brown reindeer with wide antlers steps out from between the trees, and the Cat sits bolt upright on its head between the antlers, as calm as a queen on her throne. Per, sitting on a boulder by the roadside, stares at them with his mouth open. Far off across the green hills lies a cluster of dark log buildings with turf roofs.",
+      "characters": [
+        "katten",
+        "per"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Cat, the same character seen from three sides. Keep the Cat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Cat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Per, the same character seen from three sides. Keep Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Where a country road runs along the edge of a dark spruce forest on a bright summer morning, a big grey-brown reindeer with wide antlers steps out from between the trees, and the Cat sits bolt upright on its head between the antlers, as calm as a queen on her throne. Per, sitting on a boulder by the roadside, stares at them with his mouth open. Far off across the green hills lies a cluster of dark log buildings with turf roofs.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Cat: A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest and chin, big green-gold eyes, long white whiskers and a long striped tail that she carries high. Around her neck she wears an old, worn collar of faded red leather with a small tarnished brass buckle. She sits very upright, like a small queen.\n- Per: A gangly, gentle young man of about nineteen with a long neck, long arms, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail. He wears a grey homespun coat far too big for him, its sleeves rolled up and its elbows mended, over a washed-out blue smock, baggy brown trousers tucked into cracked old boots tied with string, and a shapeless oatmeal knitted cap.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 25,
+      "anchor": "The moose filled half the kitchen.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "The King was so happy he didn’t know which foot to stand on.",
+      "alt": "A huge moose fills half the royal kitchen. The King hops with joy in front of it, and Per holds it by a rope. The cooks have backed away.",
+      "prompt": "In the big, smoky royal kitchen hung with copper kettles, an enormous moose fills half the room: it is so tall that its head and antlers disappear above the top edge of the picture, and only its dark-brown body and long legs are seen. In front of it the King hops from one foot to the other with joy, arms flung wide. Per, in his too-big grey coat, holds the moose by a rope. Two cooks in white aprons back into a pantry doorway, and a kitchen maid has climbed onto a bench.",
+      "characters": [
+        "kongen",
+        "per"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Per, the same character seen from three sides. Keep Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the big, smoky royal kitchen hung with copper kettles, an enormous moose fills half the room: it is so tall that its head and antlers disappear above the top edge of the picture, and only its dark-brown body and long legs are seen. In front of it the King hops from one foot to the other with joy, arms flung wide. Per, in his too-big grey coat, holds the moose by a rope. Two cooks in white aprons back into a pantry doorway, and a kitchen maid has climbed onto a bench.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King: A short, very fat king of about sixty with a round, shiny bald head, bulging cheeks, a red nose, small beady eyes, a grumpy look and a huge drooping grey walrus moustache that hides his mouth. A small gold crown sits right on top of his bald head. He wears a long purple wool robe with a spotted ermine collar, stretched tight over his enormous belly, a wide gold belt, white stockings and pointed red leather shoes.\n- Per: A gangly, gentle young man of about nineteen with a long neck, long arms, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail. He wears a grey homespun coat far too big for him, its sleeves rolled up and its elbows mended, over a washed-out blue smock, baggy brown trousers tucked into cracked old boots tied with string, and a shapeless oatmeal knitted cap.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 32,
+      "anchor": "When the three days were up, the cat came with a carriage and horses and clothes and everything Per needed",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "It was all so splendid that nobody had ever seen the like.",
+      "alt": "A small gilded carriage with four white horses stands on the road. Per, in fine new clothes, looks down at himself in wonder. The cat sits on the step in a feathered hat and cloak.",
+      "prompt": "On the country road at the edge of the spruce forest, a small gilded carriage drawn by four white horses has pulled up in the morning sun. Sir Per, in his splendid new clothes, stands beside it holding out his arms and looking down at himself in wonder, his old too-big grey coat lying folded on a stone. The Dressed-up Cat sits on the carriage step in her red feathered hat and little green cloak, looking very pleased with herself.",
+      "characters": [
+        "herreper",
+        "katten-pyntet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Sir Per, the same character seen from three sides. Keep Sir Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sir Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Dressed-up Cat, the same character seen from three sides. Keep the Dressed-up Cat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dressed-up Cat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On the country road at the edge of the spruce forest, a small gilded carriage drawn by four white horses has pulled up in the morning sun. Sir Per, in his splendid new clothes, stands beside it holding out his arms and looking down at himself in wonder, his old too-big grey coat lying folded on a stone. The Dressed-up Cat sits on the carriage step in her red feathered hat and little green cloak, looking very pleased with herself.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sir Per: A lanky young man of about nineteen with a long neck, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail, dressed as a fine lord and standing a little taller than before. He wears a bright green velvet jacket with rows of gold buttons and gold braid, a flowing scarlet cape fastened with a gold clasp, a broad-brimmed hat with a long curling white feather, cream breeches and tall brown riding boots.\n- the Dressed-up Cat: A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest, big green-gold eyes, long white whiskers and her old faded red leather collar, now dressed for visiting: a small red hat with a curling white feather set at a jaunty angle between her ears, and a little moss-green cloak fastened at her throat with a tiny brass clasp. She walks and sits upright and proud, her striped tail held high.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 39,
+      "anchor": "The cat sat under the table and said nothing.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“Not bad,” said Per. “But I have it a great deal finer at home.”",
+      "alt": "The King sits at a long table laid with silver spoons, ladles and cups, looking sour, while Per waves a hand. Under the table, the cat tucks a silver spoon under her cloak.",
+      "prompt": "In the King's great hall, with gold on its dark timber walls, the King sits at the head of a long table laid with silver spoons, silver ladles and silver cups, frowning over the silver cup in his hand. Across from him, Sir Per waves one hand airily with his nose in the air. Under the long white tablecloth, unseen by them both, the Dressed-up Cat quietly tucks a silver spoon under her green cloak, a silver ladle and a silver cup already beside her.",
+      "characters": [
+        "kongen",
+        "herreper",
+        "katten-pyntet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Sir Per, the same character seen from three sides. Keep Sir Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sir Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Dressed-up Cat, the same character seen from three sides. Keep the Dressed-up Cat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dressed-up Cat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the King's great hall, with gold on its dark timber walls, the King sits at the head of a long table laid with silver spoons, silver ladles and silver cups, frowning over the silver cup in his hand. Across from him, Sir Per waves one hand airily with his nose in the air. Under the long white tablecloth, unseen by them both, the Dressed-up Cat quietly tucks a silver spoon under her green cloak, a silver ladle and a silver cup already beside her.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King: A short, very fat king of about sixty with a round, shiny bald head, bulging cheeks, a red nose, small beady eyes, a grumpy look and a huge drooping grey walrus moustache that hides his mouth. A small gold crown sits right on top of his bald head. He wears a long purple wool robe with a spotted ermine collar, stretched tight over his enormous belly, a wide gold belt, white stockings and pointed red leather shoes.\n- Sir Per: A lanky young man of about nineteen with a long neck, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail, dressed as a fine lord and standing a little taller than before. He wears a bright green velvet jacket with rows of gold buttons and gold braid, a flowing scarlet cape fastened with a gold clasp, a broad-brimmed hat with a long curling white feather, cream breeches and tall brown riding boots.\n- the Dressed-up Cat: A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest, big green-gold eyes, long white whiskers and her old faded red leather collar, now dressed for visiting: a small red hat with a curling white feather set at a jaunty angle between her ears, and a little moss-green cloak fastened at her throat with a tiny brass clasp. She walks and sits upright and proud, her striped tail held high.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 46,
+      "anchor": "She held out a silver spoon to the shepherd boy.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“If you say this flock belongs to Sir Per, you shall have this spoon.”",
+      "alt": "Sheep with wool that nearly sweeps the ground graze on a green hillside. The cat holds out a silver spoon to a barefoot shepherd boy. Far down the road, a cloud of dust rises.",
+      "prompt": "On a sunny green hillside beside the country road grazes a great flock of handsome sheep, their creamy wool so long that it nearly sweeps the ground. The Dressed-up Cat stands on a boulder at the roadside holding out a shining silver spoon to a barefoot shepherd boy of about ten with a crook, who stares at it with big eyes. Far back down the road, a cloud of dust rises where the carriages are coming.",
+      "characters": [
+        "katten-pyntet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Dressed-up Cat, the same character seen from three sides. Keep the Dressed-up Cat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dressed-up Cat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On a sunny green hillside beside the country road grazes a great flock of handsome sheep, their creamy wool so long that it nearly sweeps the ground. The Dressed-up Cat stands on a boulder at the roadside holding out a shining silver spoon to a barefoot shepherd boy of about ten with a crook, who stares at it with big eyes. Far back down the road, a cloud of dust rises where the carriages are coming.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Dressed-up Cat: A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest, big green-gold eyes, long white whiskers and her old faded red leather collar, now dressed for visiting: a small red hat with a curling white feather set at a jaunty angle between her ears, and a little moss-green cloak fastened at her throat with a tiny brass clasp. She walks and sits upright and proud, her striped tail held high.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 66,
+      "anchor": "The King stared up at the towers and said nothing at all.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“Welcome to my home,” said Per, with a sweep of his arm.",
+      "alt": "A silver castle blazes in the sun behind three gates of brass, silver and gold. Per stands at the gate as if he lived there, the cat at his feet. The King stands speechless, one hand half raised.",
+      "prompt": "The Silver Castle blazes in the afternoon sun beyond its three gates of brass, silver and gold, so bright it hurts to look at. Sir Per has stepped down from his gilded carriage and stands easily at the first gate, as if he had lived there all his life, sweeping one arm towards the castle, and the Dressed-up Cat rubs against his boots. Beside the big dark-red royal carriage, the King stands frozen with one hand half raised, staring up at the towers, speechless.",
+      "characters": [
+        "herreper",
+        "katten-pyntet",
+        "kongen"
+      ],
+      "places": [
+        "slottet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Sir Per, the same character seen from three sides. Keep Sir Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sir Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Dressed-up Cat, the same character seen from three sides. Keep the Dressed-up Cat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dressed-up Cat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Silver Castle. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: The Silver Castle blazes in the afternoon sun beyond its three gates of brass, silver and gold, so bright it hurts to look at. Sir Per has stepped down from his gilded carriage and stands easily at the first gate, as if he had lived there all his life, sweeping one arm towards the castle, and the Dressed-up Cat rubs against his boots. Beside the big dark-red royal carriage, the King stands frozen with one hand half raised, staring up at the towers, speechless.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sir Per: A lanky young man of about nineteen with a long neck, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail, dressed as a fine lord and standing a little taller than before. He wears a bright green velvet jacket with rows of gold buttons and gold braid, a flowing scarlet cape fastened with a gold clasp, a broad-brimmed hat with a long curling white feather, cream breeches and tall brown riding boots.\n- the Dressed-up Cat: A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest, big green-gold eyes, long white whiskers and her old faded red leather collar, now dressed for visiting: a small red hat with a curling white feather set at a jaunty angle between her ears, and a little moss-green cloak fastened at her throat with a tiny brass clasp. She walks and sits upright and proud, her striped tail held high.\n- the King: A short, very fat king of about sixty with a round, shiny bald head, bulging cheeks, a red nose, small beady eyes, a grumpy look and a huge drooping grey walrus moustache that hides his mouth. A small gold crown sits right on top of his bald head. He wears a long purple wool robe with a spotted ermine collar, stretched tight over his enormous belly, a wide gold belt, white stockings and pointed red leather shoes.\n\nSetting:\n- the Silver Castle: A great castle made all of polished silver, with slender towers and steep silver roofs, standing on a green rise in a wide summer landscape and shining so brightly in the sun that it hurts the eyes. In front of it, three tall arched gates stand one behind the other across the road: the first of brass, the second of silver and the third of gold, each between two thick stone gateposts. Across a meadow opposite the gates rises a low wooded ridge.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 71,
+      "anchor": "“Who’s that in there eating my food and swilling my mead like swine?” roared the troll.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "The troll who owned the castle came home and hammered on the gate.",
+      "alt": "The King and Per start up from their supper at a long golden table. Through the window, a huge shaggy troll with glowing yellow eyes pounds on the gate. The cat has jumped down from her chair.",
+      "prompt": "Evening in the Golden Hall, lit by candles on the long golden table. The King, sour and sulky, and Sir Per have both started up from their supper at a thunderous pounding. Through the tall arched window, in the blue dusk outside, the huge shaggy shape of the Troll looms at the golden gate, hammering on it with one enormous fist, his round yellow eyes glowing. The Dressed-up Cat has already sprung down from her chair, ears pricked.",
+      "characters": [
+        "kongen",
+        "herreper",
+        "trollet",
+        "katten-pyntet"
+      ],
+      "places": [
+        "gullsalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Sir Per, the same character seen from three sides. Keep Sir Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sir Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Troll, the same character seen from three sides. Keep the Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Dressed-up Cat, the same character seen from three sides. Keep the Dressed-up Cat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dressed-up Cat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: setting reference for the Golden Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Evening in the Golden Hall, lit by candles on the long golden table. The King, sour and sulky, and Sir Per have both started up from their supper at a thunderous pounding. Through the tall arched window, in the blue dusk outside, the huge shaggy shape of the Troll looms at the golden gate, hammering on it with one enormous fist, his round yellow eyes glowing. The Dressed-up Cat has already sprung down from her chair, ears pricked.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King: A short, very fat king of about sixty with a round, shiny bald head, bulging cheeks, a red nose, small beady eyes, a grumpy look and a huge drooping grey walrus moustache that hides his mouth. A small gold crown sits right on top of his bald head. He wears a long purple wool robe with a spotted ermine collar, stretched tight over his enormous belly, a wide gold belt, white stockings and pointed red leather shoes.\n- Sir Per: A lanky young man of about nineteen with a long neck, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail, dressed as a fine lord and standing a little taller than before. He wears a bright green velvet jacket with rows of gold buttons and gold braid, a flowing scarlet cape fastened with a gold clasp, a broad-brimmed hat with a long curling white feather, cream breeches and tall brown riding boots.\n- the Troll: A colossal old troll about four times a man's height, round-shouldered and heavy, covered all over in long, matted, oatmeal-beige fur like a giant unshorn ram, with heather and twigs caught in it. Two round yellow eyes glow like lanterns above a big potato nose, and his broad, soft mouth shows two blunt buck teeth. He has little round ears, great grey hands like stone, a long cow's tail with a tuft at the end and broad, hairy bare feet.\n- the Dressed-up Cat: A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest, big green-gold eyes, long white whiskers and her old faded red leather collar, now dressed for visiting: a small red hat with a curling white feather set at a jaunty angle between her ears, and a little moss-green cloak fastened at her throat with a tiny brass clasp. She walks and sits upright and proud, her striped tail held high.\n\nSetting:\n- the Golden Hall: A great hall inside the Silver Castle where everything is made of gold: gold-panelled walls carved with scrolling leaves, a long golden table, golden chairs and benches, golden candlesticks, plates and cups, and a wide golden hearth at one end. Tall arched windows with small panes look out towards the three gates, and the floor is of polished golden wood.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 79,
+      "anchor": "“Look round,” said the cat, “and you’ll see the loveliest maiden standing right behind you!”",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Then the sun came up.",
+      "alt": "At first light the huge, shaggy troll stands in front of the gate, and behind him the sun is rising over the ridge. The cat sits on the gatepost, pointing behind him.",
+      "prompt": "First light outside the golden gate of the Silver Castle. The enormous Troll has stood listening all night and still stands with his back to the low wooded ridge, where the rim of the rising sun is just breaking over the trees in a blaze of gold. On top of a gatepost the Dressed-up Cat points past him with one paw, and the Troll is just beginning to turn his great head to look behind him, his yellow eyes wide and eager.",
+      "characters": [
+        "trollet",
+        "katten-pyntet"
+      ],
+      "places": [
+        "slottet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Troll, the same character seen from three sides. Keep the Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Dressed-up Cat, the same character seen from three sides. Keep the Dressed-up Cat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dressed-up Cat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Silver Castle. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: First light outside the golden gate of the Silver Castle. The enormous Troll has stood listening all night and still stands with his back to the low wooded ridge, where the rim of the rising sun is just breaking over the trees in a blaze of gold. On top of a gatepost the Dressed-up Cat points past him with one paw, and the Troll is just beginning to turn his great head to look behind him, his yellow eyes wide and eager.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Troll: A colossal old troll about four times a man's height, round-shouldered and heavy, covered all over in long, matted, oatmeal-beige fur like a giant unshorn ram, with heather and twigs caught in it. Two round yellow eyes glow like lanterns above a big potato nose, and his broad, soft mouth shows two blunt buck teeth. He has little round ears, great grey hands like stone, a long cow's tail with a tuft at the end and broad, hairy bare feet.\n- the Dressed-up Cat: A clever, dignified grey tabby cat, a little larger than an ordinary farm cat, with dark silver-grey stripes, four snow-white paws, a white chest, big green-gold eyes, long white whiskers and her old faded red leather collar, now dressed for visiting: a small red hat with a curling white feather set at a jaunty angle between her ears, and a little moss-green cloak fastened at her throat with a tiny brass clasp. She walks and sits upright and proud, her striped tail held high.\n\nSetting:\n- the Silver Castle: A great castle made all of polished silver, with slender towers and steep silver roofs, standing on a green rise in a wide summer landscape and shining so brightly in the sun that it hurts the eyes. In front of it, three tall arched gates stand one behind the other across the road: the first of brass, the second of silver and the third of gold, each between two thick stone gateposts. Across a meadow opposite the gates rises a low wooded ridge.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 85,
+      "anchor": "So Sir Per had to do it, much as he hated to.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "She turned into the loveliest princess anyone ever laid eyes on.",
+      "alt": "In the golden hall a lovely princess stands in a glittering light. Sir Per stands before her, quite enchanted. A tiny feathered hat and a little green cloak lie on the floor.",
+      "prompt": "Morning sun streams through the tall windows of the Golden Hall. In the middle of the floor, in a fading shimmer of glittering light, stands the Princess, freed from the spell at last; a tiny red hat with a white feather and a little green cloak lie empty on the floor at her feet. Sir Per stands before her, empty-handed and quite enchanted, staring. She looks back at him with a calm, knowing smile.",
+      "characters": [
+        "herreper",
+        "prinsessa"
+      ],
+      "places": [
+        "gullsalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Sir Per, the same character seen from three sides. Keep Sir Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sir Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Princess, the same character seen from three sides. Keep the Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Golden Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Morning sun streams through the tall windows of the Golden Hall. In the middle of the floor, in a fading shimmer of glittering light, stands the Princess, freed from the spell at last; a tiny red hat with a white feather and a little green cloak lie empty on the floor at her feet. Sir Per stands before her, empty-handed and quite enchanted, staring. She looks back at him with a calm, knowing smile.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sir Per: A lanky young man of about nineteen with a long neck, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail, dressed as a fine lord and standing a little taller than before. He wears a bright green velvet jacket with rows of gold buttons and gold braid, a flowing scarlet cape fastened with a gold clasp, a broad-brimmed hat with a long curling white feather, cream breeches and tall brown riding boots.\n- the Princess: A graceful young woman of about nineteen with a small pointed chin, high cheekbones, almond-shaped green-gold eyes like a cat's, a little upturned nose and very long, straight golden hair falling to her knees, with one silver-grey streak at her left temple. She wears a dove-grey silk gown with snow-white cuffs, a white lace collar and fine silver embroidery at the hem, and a thin silver circlet on her brow.\n\nSetting:\n- the Golden Hall: A great hall inside the Silver Castle where everything is made of gold: gold-panelled walls carved with scrolling leaves, a long golden table, golden chairs and benches, golden candlesticks, plates and cups, and a wide golden hearth at one end. Tall arched windows with small panes look out towards the three gates, and the floor is of polished golden wood.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 87,
+      "anchor": "Well, it may just be that Sir Per wanted her for his queen.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "So there was a wedding, and a feast that lasted eight days.",
+      "alt": "Sir Per and the princess sit wearing golden crowns at the head of a long golden table at their wedding. The guests feast, and three fiddlers play.",
+      "prompt": "A wedding feast in the Golden Hall, hung with garlands of summer flowers, the long golden table crowded with dishes and ten guests in their best clothes. At the head of the table sit Sir Per and the Princess, both wearing golden crowns, holding hands and smiling at each other, while three fiddlers play beside the golden hearth. Warm evening light falls through the tall windows.",
+      "characters": [
+        "herreper",
+        "prinsessa"
+      ],
+      "places": [
+        "gullsalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Sir Per, the same character seen from three sides. Keep Sir Per's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sir Per only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Princess, the same character seen from three sides. Keep the Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Golden Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: A wedding feast in the Golden Hall, hung with garlands of summer flowers, the long golden table crowded with dishes and ten guests in their best clothes. At the head of the table sit Sir Per and the Princess, both wearing golden crowns, holding hands and smiling at each other, while three fiddlers play beside the golden hearth. Warm evening light falls through the tall windows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sir Per: A lanky young man of about nineteen with a long neck, a kind oval face, soft brown eyes, a straight nose, a shy smile and chestnut hair tied back in a short ponytail, dressed as a fine lord and standing a little taller than before. He wears a bright green velvet jacket with rows of gold buttons and gold braid, a flowing scarlet cape fastened with a gold clasp, a broad-brimmed hat with a long curling white feather, cream breeches and tall brown riding boots.\n- the Princess: A graceful young woman of about nineteen with a small pointed chin, high cheekbones, almond-shaped green-gold eyes like a cat's, a little upturned nose and very long, straight golden hair falling to her knees, with one silver-grey streak at her left temple. She wears a dove-grey silk gown with snow-white cuffs, a white lace collar and fine silver embroidery at the hem, and a thin silver circlet on her brow.\n\nSetting:\n- the Golden Hall: A great hall inside the Silver Castle where everything is made of gold: gold-panelled walls carved with scrolling leaves, a long golden table, golden chairs and benches, golden candlesticks, plates and cups, and a wide golden hearth at one end. Tall arched windows with small panes look out towards the three gates, and the floor is of polished golden wood.\n\nStory world: Old rural Norway in high summer. Per's parents' tiny grey log cottage stands empty at the edge of a spruce forest. The King's manor is a cluster of dark log buildings with turf roofs and carved gables, with a great hall and a big, smoky kitchen hung with copper kettles. From there a long country road winds over green hills, past pastures of long-wooled sheep, brindled cows and horses, to the Silver Castle, where everything inside is gold. The pot is a round black iron pot, the griddle a big, flat, round iron griddle with a handle. The silver spoon, silver ladle and silver cup come from the King's table. Sir Per drives a small gilded carriage drawn by four white horses; the King follows in a big dark-red carriage with six courtiers on horseback.\n\nThis story's season, light and colours: High summer at haymaking time: deep-blue skies with towering white clouds, lush green hills, hay meadows full of buttercups and a dazzling sun that sets silver and gold blazing. The one night at the Silver Castle is deep violet-blue with warm candlelight, and the dawn that ends it glows peach and rose over the ridge. Accents: dove-grey, scarlet, moss green and glittering gold.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

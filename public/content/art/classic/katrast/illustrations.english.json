@@ -1,0 +1,861 @@
+{
+  "storyId": "katrast",
+  "set": "classic",
+  "variant": "english",
+  "title": "Kari Woodsmock",
+  "textFile": "public/content/stories/katrast/english/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T09:25:31.558Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "The King's daughter rides the blue bull towards the woods of copper, silver and gold.",
+    "alt": "The King's daughter sits on the back of a big blue bull on a heather ridge at sunrise. Below them lie three woods, one of copper, one of silver and one of gold.",
+    "prompt": "From a high heather ridge at sunrise, the King's Daughter rides on the Blue Bull's back, holding on to his horns, her long copper hair blowing in the wind. Far below them, three magic woods lie one behind another in the valleys: the nearest of shining copper, the next of glittering silver and the farthest of glowing gold. The Blue Bull strides forward, calm and strong, and she gazes out over the woods in wonder.",
+    "characters": [
+      "prinsessa",
+      "blaa-oksen"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated folk-tale book, in a square format. Do not write a title or any other text on it.\n\nPicture: From a high heather ridge at sunrise, the King's Daughter rides on the Blue Bull's back, holding on to his horns, her long copper hair blowing in the wind. Far below them, three magic woods lie one behind another in the valleys: the nearest of shining copper, the next of glittering silver and the farthest of glowing gold. The Blue Bull strides forward, calm and strong, and she gazes out over the woods in wonder.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "prinsessa",
+      "name": "The King's Daughter",
+      "description": "The King's kind daughter, starved by her stepmother and sent out to herd the cattle, whose truest friend is the blue bull.",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.",
+      "sheet": "characters/prinsessa.webp",
+      "turn": "characters/prinsessa-turn.mp4",
+      "portrait": "portraits/prinsessa.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsessa.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsessa-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kari-trestakk",
+      "name": "Kari Woodsmock (the king’s daughter)",
+      "description": "A gentle princess driven from her home by her cruel stepmother, she endures hardship, keeps three strange tokens, and hides in a wooden smock while fate leads her to a prince.",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid dulled with ash. Over a plain grey linen shift she wears the wooden smock: a stiff, bell-shaped garment of thin, grey-brown wooden boards laced together like the staves of a barrel, reaching from her neck to her ankles, and wooden clogs.",
+      "sheet": "characters/kari-trestakk.webp",
+      "turn": "characters/kari-trestakk-turn.mp4",
+      "portrait": "portraits/kari-trestakk.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kari-trestakk.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kari-trestakk-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kari-woodsmock"
+    },
+    {
+      "slug": "kari-kobberkjole",
+      "name": "Kari in the Copper Dress",
+      "description": "Kari on the first Sunday, riding to church in a dress that shines like the copper wood.",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair falling loose down her back under a thin copper band. She wears a long, flowing gown of shining copper cloth that glows warm orange-pink like polished copper, embroidered with small copper leaves, with long copper-coloured gloves and soft copper slippers.",
+      "sheet": "characters/kari-kobberkjole.webp",
+      "turn": "characters/kari-kobberkjole-turn.mp4",
+      "portrait": "portraits/kari-kobberkjole.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kari-kobberkjole.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kari-kobberkjole-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kari-solvkjole",
+      "name": "Kari in the Silver Dress",
+      "description": "Kari on the second Sunday, in a dress stitched all over with silver, on a horse with a silver-embroidered saddlecloth.",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair in one loose braid woven with silver ribbons. She wears a long gown stitched all over with silver thread that glitters like frost, trimmed with rows of tiny silver leaves, a short silver-grey riding cape and silver slippers, and carries a slim riding whip with a silver handle.",
+      "sheet": "characters/kari-solvkjole.webp",
+      "turn": "characters/kari-solvkjole-turn.mp4",
+      "portrait": "portraits/kari-solvkjole.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kari-solvkjole.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kari-solvkjole-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kari-gullkjole",
+      "name": "Kari in the Gold Dress",
+      "description": "Kari on the third Sunday, in a dress of almost nothing but gold and diamonds, with little shoes of gold.",
+      "look": "A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose under a slender gold band. She wears a long, full gown of gold cloth sewn all over with small sparkling diamonds that glitter like dew, and two small, pointed shoes of shining gold.",
+      "sheet": "characters/kari-gullkjole.webp",
+      "turn": "characters/kari-gullkjole-turn.mp4",
+      "portrait": "portraits/kari-gullkjole.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kari-gullkjole.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kari-gullkjole-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "blaa-oksen",
+      "name": "The Blue Bull",
+      "description": "A powerful enchanted bull who feeds and protects Kari, fights three trolls, and leaves behind a hidden source of magic that continues to aid her.",
+      "look": "A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.",
+      "sheet": "characters/blaa-oksen.webp",
+      "turn": "characters/blaa-oksen-turn.mp4",
+      "portrait": "portraits/blaa-oksen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/blaa-oksen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/blaa-oksen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "blue-bull"
+    },
+    {
+      "slug": "dronninga",
+      "name": "The Stepmother Queen",
+      "description": "A jealous, calculating queen who starves and beats her stepdaughter and schemes to have the blue bull killed to destroy Kari’s secret help.",
+      "look": "A tall, thin queen of about forty with a long, pinched face, a sharp pointed nose, narrow pale-green eyes, thin arched eyebrows, a small mouth turned down at the corners and jet-black hair scraped into a tight bun under a tall, spiky silver crown. She wears a stiff, high-collared gown of dark slate-grey wool with a narrow white linen collar, a black velvet cloak and many heavy rings, and holds a white linen handkerchief.",
+      "sheet": "characters/dronninga.webp",
+      "turn": "characters/dronninga-turn.mp4",
+      "portrait": "portraits/dronninga.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dronninga.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dronninga-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "stepmother-queen"
+    },
+    {
+      "slug": "dronningens-datter",
+      "name": "The Queen's Daughter",
+      "description": "The Queen's daughter, as ugly and mean as the King's daughter is kind and fair, who gets the gold shoe on and is dressed as a bride.",
+      "look": "A gangly young woman of about eighteen with a long, sour face, a pinched, turned-up nose, small squinting pale-green eyes, a pouting mouth and thin, straw-pale hair in two stiff braids that stick out sideways. She wears an over-trimmed dress of sour gooseberry-green wool covered in far too many pink ribbons, white stockings and pointed green shoes on very long, big feet.",
+      "sheet": "characters/dronningens-datter.webp",
+      "turn": "characters/dronningens-datter-turn.mp4",
+      "portrait": "portraits/dronningens-datter.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dronningens-datter.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dronningens-datter-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "prinsen",
+      "name": "The Prince",
+      "description": "The castle’s young prince who scorns the clattering kitchen girl yet falls hopelessly in love with the mysterious church-going lady and searches for her through the lost gold shoe.",
+      "look": "A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.",
+      "sheet": "characters/prinsen.webp",
+      "turn": "characters/prinsen-turn.mp4",
+      "portrait": "portraits/prinsen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "prince"
+    },
+    {
+      "slug": "mannen-i-berget",
+      "name": "The Man in the Cliff",
+      "description": "A man who comes out of the cliff whenever Kari knocks with the stick, and gives her dresses of copper, silver and gold and a horse to ride to church.",
+      "look": "A small, sturdy old man no taller than a young girl, with a round, rosy, wrinkled face, a big round nose, twinkling bright-blue eyes under bushy white eyebrows and a long, silky white beard that reaches his knees. He wears a long, hooded moss-green cloak with a wooden toggle, a brown tunic with a rope belt and soft brown boots, and carries a small brass lantern that glows warm yellow.",
+      "sheet": "characters/mannen-i-berget.webp",
+      "turn": "characters/mannen-i-berget-turn.mp4",
+      "portrait": "portraits/mannen-i-berget.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/mannen-i-berget.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/mannen-i-berget-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "trollet-med-tre-hoder",
+      "name": "The Three-Headed Troll",
+      "description": "The troll who owns the copper wood, and who comes rushing out with all three heads when the King's daughter tears off a leaf.",
+      "look": "A squat, pot-bellied troll about twice as tall as a man, with pale, chalky grey-white skin like weathered limestone, speckled with grey freckles and patches of moss, short bandy legs and long dangling arms. It has three bald, egg-shaped heads on three thick necks, each with a big red bulbous nose, small round orange eyes, one crooked tooth and tufts of stiff orange hair behind the ears. It wears a ragged brown sacking kilt, with a curved cow horn of ointment hanging from its rope belt.",
+      "sheet": "characters/trollet-med-tre-hoder.webp",
+      "turn": "characters/trollet-med-tre-hoder-turn.mp4",
+      "portrait": "portraits/trollet-med-tre-hoder.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollet-med-tre-hoder.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollet-med-tre-hoder-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "trollet-med-seks-hoder",
+      "name": "The Six-Headed Troll",
+      "description": "The troll who owns the silver wood, twice as strong as the first, who fights the bull for three whole days.",
+      "look": "A tall, lanky troll about three times as tall as a man, with knobbly, rusty-orange skin like iron-stained rock, patched with grey lichen, long skinny arms and legs and huge flat feet. On a wide, bony pair of shoulders sit six small heads in a row, each with a long droopy nose, sleepy yellow eyes, big flappy ears and wispy white hair like bog cotton. It wears a moth-eaten grey wool tunic, with a curved cow horn of ointment on a string at its belt.",
+      "sheet": "characters/trollet-med-seks-hoder.webp",
+      "turn": "characters/trollet-med-seks-hoder-turn.mp4",
+      "portrait": "portraits/trollet-med-seks-hoder.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollet-med-seks-hoder.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollet-med-seks-hoder-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "trollet-med-ni-hoder",
+      "name": "The Nine-Headed Troll",
+      "description": "The terrible guardian of the golden wood, whose many heads keep reviving one another until the blue bull finally defeats him in a brutal week-long struggle.",
+      "look": "An enormous, pear-shaped troll as tall as six men, with lumpy skin the dusky pink and purple of blooming heather, a huge round belly and short, stumpy arms and legs like tree stumps. Along its broad shoulders sit nine small round heads in a row, each with puffy cheeks, a tiny snub nose, small black eyes under bushy grey brows, big round ears and a shock of spiky grey hair. It wears a huge patched brown hide tunic, with a curved cow horn of ointment hanging from its belt.",
+      "sheet": "characters/trollet-med-ni-hoder.webp",
+      "turn": "characters/trollet-med-ni-hoder-turn.mp4",
+      "portrait": "portraits/trollet-med-ni-hoder.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollet-med-ni-hoder.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollet-med-ni-hoder-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "nine-headed-troll"
+    }
+  ],
+  "places": [
+    {
+      "slug": "kirkebakken",
+      "name": "the Church Hill",
+      "look": "A small, dark, tarred stave church with steep, tiered shingle roofs, carved dragon heads on the gables and a tall arched door inside a low, covered wooden porch, standing on top of a green hill below the castle. A low stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path with a few stone steps leads up to the porch past a wooden hitching rail for horses."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "Among the cattle was a big blue bull who always looked freshly polished.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Among the cattle was a big blue bull who always looked freshly polished.",
+      "alt": "The King's daughter sits pale and thin on a rock in the mountain pasture, crying. A big, glossy blue bull comes over and lowers his head to her.",
+      "prompt": "On a steep forest pasture above the royal palace, eight red and brown cows graze among birches and grey boulders. The King's Daughter, pale and thin, sits hunched on a rock with her face in her hands, crying. The Blue Bull has left the herd and walks up to her, lowering his great, glossy head gently towards her. A cool, clear autumn morning with blue fells in the distance.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On a steep forest pasture above the royal palace, eight red and brown cows graze among birches and grey boulders. The King's Daughter, pale and thin, sits hunched on a rock with her face in her hands, crying. The Blue Bull has left the herd and walks up to her, lowering his great, glossy head gently towards her. A cool, clear autumn morning with blue fells in the distance.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 9,
+      "anchor": "She knelt beside him and slipped her hand into his left ear",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "At once the cloth set itself with the finest food anyone could wish for.",
+      "alt": "The King's daughter kneels by a white cloth on the grass, laid with steaming dishes, bread and cakes. The blue bull stands close beside her, watching her eat.",
+      "prompt": "In a sunny forest clearing, a white cloth lies spread on the grass, laid with steaming dishes of roast meat, white bread, sweet cakes and two shining cups of wine and mead. The King's Daughter kneels at the cloth and eats hungrily, a little colour already back in her cheeks. The Blue Bull stands close beside her and watches her with big, gentle eyes. Three cows graze among the birches behind them.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In a sunny forest clearing, a white cloth lies spread on the grass, laid with steaming dishes of roast meat, white bread, sweet cakes and two shining cups of wine and mead. The King's Daughter kneels at the cloth and eats hungrily, a little colour already back in her cheeks. The Blue Bull stands close beside her and watches her with big, gentle eyes. Three cows graze among the birches behind them.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 12,
+      "anchor": "Now the King came home from the war.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "The Queen took to her bed and pressed a heavy purse into the doctor's hand.",
+      "alt": "The Queen lies in a canopy bed, pretending to be ill. She presses a heavy purse into the doctor's hand, and he slips it into his pocket.",
+      "prompt": "In a dim royal bedchamber with the bed curtains half drawn, the Queen lies propped up on pillows, pretending to be ill, one hand pressed to her brow. With the other she pushes a heavy leather purse of coins into the hand of the doctor, a plump, bald man in a long black gown, who is already slipping it into his pocket with a sly look. A single candle burns on the bedside table.",
+      "characters": [
+        "dronninga"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Queen, the same character seen from three sides. Keep the Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In a dim royal bedchamber with the bed curtains half drawn, the Queen lies propped up on pillows, pretending to be ill, one hand pressed to her brow. With the other she pushes a heavy leather purse of coins into the hand of the doctor, a plump, bald man in a long black gown, who is already slipping it into his pocket with a sly look. A single candle burns on the bedside table.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Queen: A tall, thin queen of about forty with a long, pinched face, a sharp pointed nose, narrow pale-green eyes, thin arched eyebrows, a small mouth turned down at the corners and jet-black hair scraped into a tight bun under a tall, spiky silver crown. She wears a stiff, high-collared gown of dark slate-grey wool with a narrow white linen collar, a black velvet cloak and many heavy rings, and holds a white linen handkerchief.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 22,
+      "anchor": "That night, when everyone was asleep, she crept down to the byre.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "The bull took her on his back and was off as fast as his legs would carry him.",
+      "alt": "In the moonlight, the blue bull gallops away from the dark palace with the King's daughter on his back. The byre door stands open behind them.",
+      "prompt": "Deep in a moonlit night, the Blue Bull gallops away from the dark, sleeping palace across a frosty meadow towards the black forest, with the King's Daughter on his back, clinging to his neck, her copper hair and grey shawl streaming out behind her. Behind them the byre door stands open, and not a single window is lit. Wide view, silver moonlight and long blue shadows.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Deep in a moonlit night, the Blue Bull gallops away from the dark, sleeping palace across a frosty meadow towards the black forest, with the King's Daughter on his back, clinging to his neck, her copper hair and grey shawl streaming out behind her. Behind them the byre door stands open, and not a single window is lit. Wide view, silver moonlight and long blue shadows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 28,
+      "anchor": "They had barely reached the far edge of the wood when a troll",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "A troll with three heads came rushing at them.",
+      "alt": "At the edge of the copper wood, a troll with three heads comes rushing between the shining copper trees. The bull lowers his horns, and the King's daughter clutches a copper leaf to her chest.",
+      "prompt": "At the far edge of the copper wood, where every trunk, leaf and flower shines like polished copper in the low sun, the Three-Headed Troll comes rushing out between the trees, all three heads bellowing. The Blue Bull plants his hooves and lowers his long horns to face him, and the King's Daughter on his back shrinks away, clutching a single copper leaf to her chest.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen",
+        "trollet-med-tre-hoder"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Three-Headed Troll, the same character seen from three sides. Keep the Three-Headed Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Three-Headed Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: At the far edge of the copper wood, where every trunk, leaf and flower shines like polished copper in the low sun, the Three-Headed Troll comes rushing out between the trees, all three heads bellowing. The Blue Bull plants his hooves and lowers his long horns to face him, and the King's Daughter on his back shrinks away, clutching a single copper leaf to her chest.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n- the Three-Headed Troll: A squat, pot-bellied troll about twice as tall as a man, with pale, chalky grey-white skin like weathered limestone, speckled with grey freckles and patches of moss, short bandy legs and long dangling arms. It has three bald, egg-shaped heads on three thick necks, each with a big red bulbous nose, small round orange eyes, one crooked tooth and tufts of stiff orange hair behind the ears. It wears a ragged brown sacking kilt, with a curved cow horn of ointment hanging from its rope belt.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 39,
+      "anchor": "The words were hardly out of his mouth when the troll came.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "The words were hardly out of his mouth when the troll came.",
+      "alt": "In the dense silver wood, a towering troll with six small heads strides out between the trees. The King's daughter stands behind the bull with a silver leaf in her hand.",
+      "prompt": "Deep in the dense silver wood, where every trunk, branch and leaf glitters like frost, the Six-Headed Troll strides out between the trees, so tall that its six small heads peer down from above the silver treetops. The King's Daughter stands behind the Blue Bull with a silver leaf in her hand, peeping out past his shoulder, while the Blue Bull turns to face the troll with his head held low. Cold, glittering light.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen",
+        "trollet-med-seks-hoder"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Six-Headed Troll, the same character seen from three sides. Keep the Six-Headed Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Six-Headed Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Deep in the dense silver wood, where every trunk, branch and leaf glitters like frost, the Six-Headed Troll strides out between the trees, so tall that its six small heads peer down from above the silver treetops. The King's Daughter stands behind the Blue Bull with a silver leaf in her hand, peeping out past his shoulder, while the Blue Bull turns to face the troll with his head held low. Cold, glittering light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n- the Six-Headed Troll: A tall, lanky troll about three times as tall as a man, with knobbly, rusty-orange skin like iron-stained rock, patched with grey lichen, long skinny arms and legs and huge flat feet. On a wide, bony pair of shoulders sit six small heads in a row, each with a long droopy nose, sleepy yellow eyes, big flappy ears and wispy white hair like bog cotton. It wears a moth-eaten grey wool tunic, with a curved cow horn of ointment on a string at its belt.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 43,
+      "anchor": "“Suits me,” said the bull",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "She took the horn of ointment and rubbed the bull with it.",
+      "alt": "The bull lies exhausted on the ground in the silver wood. The King's daughter kneels beside him, rubbing him with ointment from a curved cow horn.",
+      "prompt": "Three days later, in a quiet hollow of the silver wood at dusk, the Blue Bull lies exhausted on a bed of fallen silver leaves, his head sunk low and his eyes half closed. The King's Daughter kneels beside him and gently rubs ointment into his shoulder from a curved cow horn, her face full of worry and tenderness. Blue dusk light glimmers on the silver trees, and there is no one else in sight.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Three days later, in a quiet hollow of the silver wood at dusk, the Blue Bull lies exhausted on a bed of fallen silver leaves, his head sunk low and his eyes half closed. The King's Daughter kneels beside him and gently rubs ointment into his shoulder from a curved cow horn, her face full of worry and tenderness. Blue dusk light glimmers on the silver trees, and there is no one else in sight.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 48,
+      "anchor": "But the golden wood was thicker than the silver one",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Before she knew it, she had a golden apple in her hand.",
+      "alt": "The King's daughter rides the bull through the dense golden wood, ducking the branches. In her hand she holds a golden apple.",
+      "prompt": "Deep inside the golden wood, where gold drips from the leaves like honey, the trees crowd so close that the Blue Bull can barely squeeze between them. The King's Daughter, riding on his back, twists and ducks with her eyes squeezed shut as golden branches lash her face, and her hand has just closed around a golden apple torn from a branch. The Blue Bull turns his head back towards her in alarm. Warm, glowing light.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Deep inside the golden wood, where gold drips from the leaves like honey, the trees crowd so close that the Blue Bull can barely squeeze between them. The King's Daughter, riding on his back, twists and ducks with her eyes squeezed shut as golden branches lash her face, and her hand has just closed around a golden apple torn from a branch. The Blue Bull turns his head back towards her in alarm. Warm, glowing light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 55,
+      "anchor": "Then they ran at each other",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "She clutched the golden apple to her chest and turned her face away.",
+      "alt": "An enormous troll with nine heads roars in the golden wood, and the bull lowers his horns in front of it. To one side, the King's daughter clutches the golden apple to her chest.",
+      "prompt": "In a clearing in the golden wood, the enormous Nine-Headed Troll looms up as tall as the trees, all nine heads roaring at once, its shadow falling across the glittering ground. The Blue Bull stands squarely in front of it, head lowered and horns aimed, braced to charge. Off to one side, the King's Daughter presses the golden apple to her chest and turns her face away. Gold dust glitters in the air.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen",
+        "trollet-med-ni-hoder"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Nine-Headed Troll, the same character seen from three sides. Keep the Nine-Headed Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Nine-Headed Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In a clearing in the golden wood, the enormous Nine-Headed Troll looms up as tall as the trees, all nine heads roaring at once, its shadow falling across the glittering ground. The Blue Bull stands squarely in front of it, head lowered and horns aimed, braced to charge. Off to one side, the King's Daughter presses the golden apple to her chest and turns her face away. Gold dust glitters in the air.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n- the Nine-Headed Troll: An enormous, pear-shaped troll as tall as six men, with lumpy skin the dusky pink and purple of blooming heather, a huge round belly and short, stumpy arms and legs like tree stumps. Along its broad shoulders sit nine small round heads in a row, each with puffy cheeks, a tiny snub nose, small black eyes under bushy grey brows, big round ears and a shock of spiky grey hair. It wears a huge patched brown hide tunic, with a curved cow horn of ointment hanging from its belt.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 62,
+      "anchor": "“Yes, I can see a little castle, far, far away,” said the princess.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“Yes, I can see a little castle, far, far away.”",
+      "alt": "The King's daughter sits on the bull on a wide mountain plateau, pointing. Far away on the horizon, a tiny castle can just be seen.",
+      "prompt": "Wide view of a flat, windswept mountain plateau under a huge pale-blue sky. The King's Daughter sits on the Blue Bull's back and points far ahead, and on the distant horizon, beyond the heather and grey boulders, a castle is just visible, as tiny as a toy. The Blue Bull walks slowly, thin and tired from the long journey, his head low. Clear afternoon light and long shadows.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Wide view of a flat, windswept mountain plateau under a huge pale-blue sky. The King's Daughter sits on the Blue Bull's back and points far ahead, and on the distant horizon, beyond the heather and grey boulders, a castle is just visible, as tiny as a toy. The Blue Bull walks slowly, thin and tired from the long journey, his head low. Clear afternoon light and long shadows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 68,
+      "anchor": "“No,” she said.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“No,” she said. “I can’t.”",
+      "alt": "The King's daughter has flung her arms around the blue bull's neck and is crying. They stand below a sheer cliff, with the castle close below.",
+      "prompt": "On a grassy mound at the foot of a sheer grey cliff, with the great castle close below in the valley, the King's Daughter has flung her arms around the Blue Bull's neck and presses her face into his coat, sobbing. The Blue Bull stands quite still with his eyes half closed and his great head bowed gently over her shoulder. A plain wooden stick leans against the rock behind them. Grey, windy evening light.",
+      "characters": [
+        "prinsessa",
+        "blaa-oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King's Daughter, the same character seen from three sides. Keep the King's Daughter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King's Daughter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue Bull, the same character seen from three sides. Keep the Blue Bull's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue Bull only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On a grassy mound at the foot of a sheer grey cliff, with the great castle close below in the valley, the King's Daughter has flung her arms around the Blue Bull's neck and presses her face into his coat, sobbing. The Blue Bull stands quite still with his eyes half closed and his great head bowed gently over her shoulder. A plain wooden stick leans against the rock behind them. Grey, windy evening light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King's Daughter: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded, much-mended dress of pale sage-green wool with thin gold trim at the neck and cuffs, a grey knitted shawl and worn brown leather shoes, and carries a small birch-bark basket on her arm.\n- the Blue Bull: A huge, powerful bull, taller at the shoulder than a grown man, with a glossy, deep cornflower-blue coat that always looks freshly polished, a paler blue-grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving forwards and up, large soft ears, a curly tuft of darker blue hair between the horns, a long tail ending in a navy-blue tassel, and dark grey hooves. Calm, wise and kind.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 74,
+      "anchor": "She turned out to be rather good at washing up",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Before long she was as black with soot as the pots she scrubbed.",
+      "alt": "Kari Woodsmock stands at a big washtub in the sooty castle kitchen, scrubbing pots, black with soot. Behind her, two kitchen maids whisper and giggle.",
+      "prompt": "In the dim, sooty castle kitchen, Kari Woodsmock stands at a big wooden washtub full of greasy pots and scrubs hard, her face and arms black with soot. Behind her, two plump kitchen maids in white aprons whisper and giggle by the hearth, and a stout cook stirs a great iron pot over the fire. Copper pans hang on the smoke-blackened walls, and grey daylight falls through one small window.",
+      "characters": [
+        "kari-trestakk"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari Woodsmock, the same character seen from three sides. Keep Kari Woodsmock's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari Woodsmock only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the dim, sooty castle kitchen, Kari Woodsmock stands at a big wooden washtub full of greasy pots and scrubs hard, her face and arms black with soot. Behind her, two plump kitchen maids in white aprons whisper and giggle by the hearth, and a stout cook stirs a great iron pot over the fire. Copper pans hang on the smoke-blackened walls, and grey daylight falls through one small window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari Woodsmock: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid dulled with ash. Over a plain grey linen shift she wears the wooden smock: a stiff, bell-shaped garment of thin, grey-brown wooden boards laced together like the staves of a barrel, reaching from her neck to her ankles, and wooden clogs.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "13",
+      "paragraph": 80,
+      "anchor": "“Do you think I want washing water you’ve carried?”",
+      "file": "scenes/13.webp",
+      "sources": [
+        {
+          "file": "scenes/13.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/13-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“Do you think I want washing water you’ve carried?”",
+      "alt": "At the top of a steep staircase, the Prince stands in his doorway, throwing a basin of washing water over Kari Woodsmock. She stands still in her wooden smock, eyes lowered.",
+      "prompt": "At the top of the steep, dark oak staircase, the Prince stands in the doorway of his chamber and flings a basin of washing water over Kari Woodsmock, who stands on the top step in her wooden smock. The water splashes over her head and shoulders. His face is twisted with disgust; Kari keeps her eyes lowered and her lips pressed together. Candlelight flickers on the whitewashed wall.",
+      "characters": [
+        "kari-trestakk",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari Woodsmock, the same character seen from three sides. Keep Kari Woodsmock's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari Woodsmock only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: At the top of the steep, dark oak staircase, the Prince stands in the doorway of his chamber and flings a basin of washing water over Kari Woodsmock, who stands on the top step in her wooden smock. The water splashes over her head and shoulders. His face is twisted with disgust; Kari keeps her eyes lowered and her lips pressed together. Candlelight flickers on the whitewashed wall.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari Woodsmock: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid dulled with ash. Over a plain grey linen shift she wears the wooden smock: a stiff, bell-shaped garment of thin, grey-brown wooden boards laced together like the staves of a barrel, reaching from her neck to her ankles, and wooden clogs.\n- the Prince: A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "14",
+      "paragraph": 84,
+      "anchor": "So he brought her a dress that shone like the copper wood",
+      "file": "scenes/14.webp",
+      "sources": [
+        {
+          "file": "scenes/14.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/14-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "He brought her a dress that shone like the copper wood.",
+      "alt": "At the foot of the cliff, a small old man with a lantern holds up a shining copper dress. Kari Woodsmock, in her wooden smock, stares at it in wonder. A saddled horse waits beside them.",
+      "prompt": "At the foot of the sheer grey cliff, a narrow crack in the rock stands open with warm light inside. The Old Man of the Mountain has stepped out with his lantern and holds up a long gown of shining copper cloth that glows like the copper wood. Kari Woodsmock, still sooty in her wooden smock, stares at it with her hands pressed to her mouth. A saddled chestnut horse waits beside them.",
+      "characters": [
+        "kari-trestakk",
+        "mannen-i-berget"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari Woodsmock, the same character seen from three sides. Keep Kari Woodsmock's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari Woodsmock only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Old Man of the Mountain, the same character seen from three sides. Keep the Old Man of the Mountain's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Man of the Mountain only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: At the foot of the sheer grey cliff, a narrow crack in the rock stands open with warm light inside. The Old Man of the Mountain has stepped out with his lantern and holds up a long gown of shining copper cloth that glows like the copper wood. Kari Woodsmock, still sooty in her wooden smock, stares at it with her hands pressed to her mouth. A saddled chestnut horse waits beside them.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari Woodsmock: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid dulled with ash. Over a plain grey linen shift she wears the wooden smock: a stiff, bell-shaped garment of thin, grey-brown wooden boards laced together like the staves of a barrel, reaching from her neck to her ankles, and wooden clogs.\n- the Old Man of the Mountain: A small, sturdy old man no taller than a young girl, with a round, rosy, wrinkled face, a big round nose, twinkling bright-blue eyes under bushy white eyebrows and a long, silky white beard that reaches his knees. He wears a long, hooded moss-green cloak with a wooden toggle, a brown tunic with a rope belt and soft brown boots, and carries a small brass lantern that glows warm yellow.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "15",
+      "paragraph": 88,
+      "anchor": "“Light before and dark behind, so where I ride the Prince can’t find!”",
+      "file": "scenes/15.webp",
+      "sources": [
+        {
+          "file": "scenes/15.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/15-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "“Light before and dark behind, so where I ride the Prince can’t find!”",
+      "alt": "Kari sits on her horse in the copper dress outside the church. A dazzling light shines before her and darkness falls behind. The Prince holds out her glove, shielding his eyes.",
+      "prompt": "Outside the stave church on the Church Hill, Kari in the Copper Dress sits on her chestnut horse and speaks the magic words: a dazzling light shines in front of her, and a wall of deep darkness has fallen behind her. The Prince stands at her stirrup, holding out one of her copper gloves, and throws up his other arm against the glare. Five churchgoers in Sunday clothes gape by the churchyard wall.",
+      "characters": [
+        "kari-kobberkjole",
+        "prinsen"
+      ],
+      "places": [
+        "kirkebakken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Copper Dress, the same character seen from three sides. Keep Kari in the Copper Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Copper Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Church Hill. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Outside the stave church on the Church Hill, Kari in the Copper Dress sits on her chestnut horse and speaks the magic words: a dazzling light shines in front of her, and a wall of deep darkness has fallen behind her. The Prince stands at her stirrup, holding out one of her copper gloves, and throws up his other arm against the glare. Five churchgoers in Sunday clothes gape by the churchyard wall.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Copper Dress: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair falling loose down her back under a thin copper band. She wears a long, flowing gown of shining copper cloth that glows warm orange-pink like polished copper, embroidered with small copper leaves, with long copper-coloured gloves and soft copper slippers.\n- the Prince: A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.\n\nSetting:\n- the Church Hill: A small, dark, tarred stave church with steep, tiered shingle roofs, carved dragon heads on the gables and a tall arched door inside a low, covered wooden porch, standing on top of a green hill below the castle. A low stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path with a few stone steps leads up to the porch past a wooden hitching rail for horses.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "16",
+      "paragraph": 93,
+      "anchor": "But Kari wouldn’t give up.",
+      "file": "scenes/16.webp",
+      "sources": [
+        {
+          "file": "scenes/16.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/16-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "He snatched the towel and flung it straight in her face.",
+      "alt": "At the top of the stairs, the Prince flings a white towel straight in Kari Woodsmock's face. At the foot of the stairs, two kitchen maids peek out, giggling.",
+      "prompt": "Seen from the foot of the steep, dark oak staircase, where two kitchen maids peek round the corner, giggling behind their hands: at the top of the stairs, the Prince snatches a white towel from Kari Woodsmock and flings it straight into her sooty face. Kari stands frozen on the landing in her wooden smock, and his chamber door stands open behind him.",
+      "characters": [
+        "kari-trestakk",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari Woodsmock, the same character seen from three sides. Keep Kari Woodsmock's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari Woodsmock only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: Seen from the foot of the steep, dark oak staircase, where two kitchen maids peek round the corner, giggling behind their hands: at the top of the stairs, the Prince snatches a white towel from Kari Woodsmock and flings it straight into her sooty face. Kari stands frozen on the landing in her wooden smock, and his chamber door stands open behind him.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari Woodsmock: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid dulled with ash. Over a plain grey linen shift she wears the wooden smock: a stiff, bell-shaped garment of thin, grey-brown wooden boards laced together like the staves of a barrel, reaching from her neck to her ankles, and wooden clogs.\n- the Prince: A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "17",
+      "paragraph": 97,
+      "anchor": "When the King’s daughter reached the church",
+      "file": "scenes/17.webp",
+      "sources": [
+        {
+          "file": "scenes/17.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/17-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "The Prince ran to hold her horse, but she jumped down by herself.",
+      "alt": "Kari leaps lightly down from a dapple-grey horse with a silver saddlecloth outside the church. The Prince reaches for the bridle, too late. The churchgoers stand and stare.",
+      "prompt": "On the Church Hill on a bright, windy Sunday morning, Kari in the Silver Dress leaps lightly down from a dapple-grey horse with a silver-embroidered saddlecloth and a silver bit. The Prince, who has come running to hold her horse, stands with his hand stretched out for the bridle, a moment too late. Eight churchgoers in their Sunday best stand by the church door, staring and whispering.",
+      "characters": [
+        "kari-solvkjole",
+        "prinsen"
+      ],
+      "places": [
+        "kirkebakken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Silver Dress, the same character seen from three sides. Keep Kari in the Silver Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Silver Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Church Hill. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On the Church Hill on a bright, windy Sunday morning, Kari in the Silver Dress leaps lightly down from a dapple-grey horse with a silver-embroidered saddlecloth and a silver bit. The Prince, who has come running to hold her horse, stands with his hand stretched out for the bridle, a moment too late. Eight churchgoers in their Sunday best stand by the church door, staring and whispering.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Silver Dress: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair in one loose braid woven with silver ribbons. She wears a long gown stitched all over with silver thread that glitters like frost, trimmed with rows of tiny silver leaves, a short silver-grey riding cape and silver slippers, and carries a slim riding whip with a silver handle.\n- the Prince: A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.\n\nSetting:\n- the Church Hill: A small, dark, tarred stave church with steep, tiered shingle roofs, carved dragon heads on the gables and a tall arched door inside a low, covered wooden porch, standing on top of a green hill below the castle. A low stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path with a few stone steps leads up to the porch past a wooden hitching rail for horses.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "18",
+      "paragraph": 102,
+      "anchor": "And she was gone.",
+      "file": "scenes/18.webp",
+      "sources": [
+        {
+          "file": "scenes/18.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/18-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "He rode far and wide asking for Towelland.",
+      "alt": "The Prince sits on his horse at a farm gate, showing a riding whip to an old farmer and his wife. They shake their heads.",
+      "prompt": "On a muddy country road winding between hills and birch woods, the Prince reins in his horse at a farm gate and holds out a silver-handled riding whip to an old farmer and his wife, asking them something eagerly. The old couple look at each other and shake their heads, and his shoulders sag. A grey, drizzly autumn afternoon with low clouds over the hills.",
+      "characters": [
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On a muddy country road winding between hills and birch woods, the Prince reins in his horse at a farm gate and holds out a silver-handled riding whip to an old farmer and his wife, asking them something eagerly. The old couple look at each other and shake their heads, and his shoulders sag. A grey, drizzly autumn afternoon with low clouds over the hills.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "19",
+      "paragraph": 107,
+      "anchor": "This time, when she reached the church",
+      "file": "scenes/19.webp",
+      "sources": [
+        {
+          "file": "scenes/19.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/19-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "This time the priest and the whole congregation were waiting outside for her.",
+      "alt": "The priest and the whole congregation stand outside the church, staring at Kari, who rides up in a glittering gold dress on a pale horse. The Prince hurries down to meet her.",
+      "prompt": "On the Church Hill, the priest in a long black robe and sixteen churchgoers in Sunday clothes stand crowded outside the stave church, all turning to stare as Kari in the Gold Dress rides up the path on a cream-coloured horse with a gold-embroidered saddlecloth and a golden bit, glittering in the sun. The Prince hurries down the path towards her, one hand already reaching for the bridle.",
+      "characters": [
+        "kari-gullkjole",
+        "prinsen"
+      ],
+      "places": [
+        "kirkebakken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Gold Dress, the same character seen from three sides. Keep Kari in the Gold Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Gold Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Church Hill. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: On the Church Hill, the priest in a long black robe and sixteen churchgoers in Sunday clothes stand crowded outside the stave church, all turning to stare as Kari in the Gold Dress rides up the path on a cream-coloured horse with a gold-embroidered saddlecloth and a golden bit, glittering in the sun. The Prince hurries down the path towards her, one hand already reaching for the bridle.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Gold Dress: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose under a slender gold band. She wears a long, full gown of gold cloth sewn all over with small sparkling diamonds that glitter like dew, and two small, pointed shoes of shining gold.\n- the Prince: A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.\n\nSetting:\n- the Church Hill: A small, dark, tarred stave church with steep, tiered shingle roofs, carved dragon heads on the gables and a tall arched door inside a low, covered wooden porch, standing on top of a green hill below the castle. A low stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path with a few stone steps leads up to the porch past a wooden hitching rail for horses.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "20",
+      "paragraph": 110,
+      "anchor": "The Prince had a plan, though.",
+      "file": "scenes/20.webp",
+      "sources": [
+        {
+          "file": "scenes/20.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/20-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "She put her foot in the tar and jumped, and one of her gold shoes stayed stuck in it.",
+      "alt": "Kari leaps across a pool of black tar in the church porch. One gold shoe stays stuck in the tar behind her, and inside the church the Prince pushes through the crowd.",
+      "prompt": "In the dark wooden porch of the stave church on the Church Hill, a thick pool of black tar covers the floor. Kari in the Gold Dress has just leapt clean across it and lands on the steps outside in the sunlight, one foot in a white stocking, while one small gold shoe stays stuck fast in the tar behind her. Inside the church door, the Prince pushes through the crowd, too late.",
+      "characters": [
+        "kari-gullkjole",
+        "prinsen"
+      ],
+      "places": [
+        "kirkebakken"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Gold Dress, the same character seen from three sides. Keep Kari in the Gold Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Gold Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Church Hill. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the dark wooden porch of the stave church on the Church Hill, a thick pool of black tar covers the floor. Kari in the Gold Dress has just leapt clean across it and lands on the steps outside in the sunlight, one foot in a white stocking, while one small gold shoe stays stuck fast in the tar behind her. Inside the church door, the Prince pushes through the crowd, too late.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Gold Dress: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose under a slender gold band. She wears a long, full gown of gold cloth sewn all over with small sparkling diamonds that glitter like dew, and two small, pointed shoes of shining gold.\n- the Prince: A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.\n\nSetting:\n- the Church Hill: A small, dark, tarred stave church with steep, tiered shingle roofs, carved dragon heads on the gables and a tall arched door inside a low, covered wooden porch, standing on top of a green hill below the castle. A low stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path with a few stone steps leads up to the porch past a wooden hitching rail for horses.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "21",
+      "paragraph": 115,
+      "anchor": "“Heel cut short and toe cut too, there’s blood in Kari Woodsmock’s shoe!”",
+      "file": "scenes/21.webp",
+      "sources": [
+        {
+          "file": "scenes/21.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/21-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "A little bird sat in a tree and sang.",
+      "alt": "A wedding party rides towards the church. The Queen's daughter sits on a white horse wearing a bridal crown, and the Prince rides glumly beside her. In a birch by the road, a little bird is singing.",
+      "prompt": "A wedding procession rides along a country road lined with yellowing birches towards the stave church. In front, the Stepsister sits on a white horse in her finest gooseberry-green gown with a tall silver bridal crown on her head, smirking, and beside her the Prince rides stiff and glum. On a birch branch by the road, a little brown bird sings down at them with its beak wide open. Six wedding guests follow on foot.",
+      "characters": [
+        "dronningens-datter",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Stepsister, the same character seen from three sides. Keep the Stepsister's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stepsister only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: A wedding procession rides along a country road lined with yellowing birches towards the stave church. In front, the Stepsister sits on a white horse in her finest gooseberry-green gown with a tall silver bridal crown on her head, smirking, and beside her the Prince rides stiff and glum. On a birch branch by the road, a little brown bird sings down at them with its beak wide open. Six wedding guests follow on foot.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Stepsister: A gangly young woman of about eighteen with a long, sour face, a pinched, turned-up nose, small squinting pale-green eyes, a pouting mouth and thin, straw-pale hair in two stiff braids that stick out sideways. She wears an over-trimmed dress of sour gooseberry-green wool covered in far too many pink ribbons, white stockings and pointed green shoes on very long, big feet.\n- the Prince: A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "22",
+      "paragraph": 122,
+      "anchor": "Kari picked up the shoe and slipped her foot into it as easily as anything.",
+      "file": "scenes/22.webp",
+      "sources": [
+        {
+          "file": "scenes/22.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/22-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "There she stood in the dress of gold and diamonds, shining.",
+      "alt": "Kari stands in the middle of the great hall in a shining gold dress, with the wooden smock in a heap at her feet. The Prince stares at her, and the people along the walls gape.",
+      "prompt": "In the great hall of the castle, Kari in the Gold Dress stands in the middle of the floor, shining, with a gold shoe on each foot and the wooden smock lying in a heap of grey boards at her feet. The Prince stands before her, staring in wonder. Around the walls, twelve maids, servants and townsfolk gape with open mouths, their laughter gone. Light falls from tall windows.",
+      "characters": [
+        "kari-gullkjole",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Gold Dress, the same character seen from three sides. Keep Kari in the Gold Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Gold Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated folk-tale book, showing the moment described below.\n\nPicture: In the great hall of the castle, Kari in the Gold Dress stands in the middle of the floor, shining, with a gold shoe on each foot and the wooden smock lying in a heap of grey boards at her feet. The Prince stands before her, staring in wonder. Around the walls, twelve maids, servants and townsfolk gape with open mouths, their laughter gone. Light falls from tall windows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Gold Dress: A slender young woman of about eighteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose under a slender gold band. She wears a long, full gown of gold cloth sewn all over with small sparkling diamonds that glitter like dew, and two small, pointed shoes of shining gold.\n- the Prince: A broad-shouldered prince of about twenty-two with a proud, stubborn face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar, under a small gold crown. He wears a heather-purple wool tunic with gold trim over a cream linen shirt, a short dark-green cloak fastened with a round gold brooch, black hose and soft black leather boots.\n\nStory world: Old rural Norway, long ago. The princess grows up at her father's palace, a long, dark timber hall with turf roofs, a byre and forest pastures climbing to the blue fells. The Blue Bull keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far away lie three magic woods, one of copper, one of silver and one of gold, where every trunk, leaf and flower is metal and gold drips from the leaves. Each troll wears a curved cow horn of healing ointment at its belt. At the journey's end, a sheer grey cliff looks down on a great castle of pale-grey stone with green copper roofs and a tarred stave church close by. In the castle, a steep, dark oak staircase climbs from the sooty kitchen to the Prince's chamber. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Cool, clear early autumn under high, pale-blue skies: blue-grey fells, birches turning yellow and purple heather, with the bull's deep, glossy blue as the strongest colour until the magic woods blaze in polished copper, frosty silver and molten gold. The castle kitchen is dim, sooty and firelit; the church Sundays are bright, windy and fresh.\n\nArt style: Classic Norwegian folk-tale book illustration: fine pen-and-ink line work with transparent watercolour washes on warm, slightly textured off-white paper, in the tradition of 19th-century Scandinavian book illustration, like the plates of an old printed book of folk tales, with a deep red that comes back as the accent. The picture fills the whole image, with no border, frame or lettering. Naturalistic proportions and expressive, characterful faces; every character has their own face, build, age and hair exactly as described, so no two characters look alike. Muted natural palette of fjord teal, slate blue, moss green, lichen grey, honey ochre, lingonberry red, ink black and birch white, shifted towards each story's own season, light and colours, with the warm cream paper showing through the washes, with dramatic Nordic light: low sun, long shadows, blue dusk and firelight. Old rural Norway: dark spruce and pine forests, steep mountains, fjords, turf-roofed log farms, carved wood, homespun wool and linen. Trolls are enormous, ancient and earthy, like pieces of the landscape come alive, made of moss, bark, stone and lichen, and more grotesque-comic than frightening. Kings and princesses wear modest medieval finery. Careful composition with depth and atmosphere, one clear focal point and room for the landscape. Not cute or cartoonish, not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles or logos.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}
