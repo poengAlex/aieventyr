@@ -1,0 +1,521 @@
+{
+  "storyId": "syvfoler",
+  "set": "modern",
+  "variant": "modern",
+  "title": "De syv føllene",
+  "textFile": "public/content/stories/syvfoler/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:15:50.551Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Over berg og dal, langs lier så bratte at fossene hang som hvite tråder.",
+    "alt": "Askeladden klamrer seg til ryggen på et lite føll som galopperer langs en smal sti i ei bratt li med fosser. Foran dem løper seks andre føll.",
+    "prompt": "At dawn on a narrow mountain path along a valley side so steep that waterfalls hang like white threads on both sides, Askeladden, hood up, clings to the back of the Youngest Foal as it races along behind the six other chestnut foals. His backpack bounces and his face is set and determined. Low golden sun, violet mountains far beyond.",
+    "characters": [
+      "askeladden",
+      "det-yngste-follet"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Foal, the same character seen from three sides. Keep the Youngest Foal's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Foal only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: At dawn on a narrow mountain path along a valley side so steep that waterfalls hang like white threads on both sides, Askeladden, hood up, clings to the back of the Youngest Foal as it races along behind the six other chestnut foals. His backpack bounces and his face is set and determined. Low golden sun, violet mountains far beyond.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n- the Youngest Foal: A small, slender foal, the youngest and smallest of seven, with long, knobbly legs, a glossy light-chestnut coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark eyes with a clever, far too human look and a neat white star on his forehead.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "description": "Yngstesønnen som alle undervurderer, men som nekter å gi etter for lettvinte snarveier og følger sporene helt til han kan bryte trolldommen.",
+      "look": "A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.",
+      "sheet": "characters/askeladden.webp",
+      "turn": "characters/askeladden-turn.mp4",
+      "portrait": "portraits/askeladden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/askeladden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/askeladden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "askeladden"
+    },
+    {
+      "slug": "kongen",
+      "name": "Kongen",
+      "description": "En streng, mistenksom hersker som setter brutale vilkår for å teste hvem som virkelig kan mestre de sju føllene og forstå hemmeligheten deres.",
+      "look": "A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark charcoal overcoat over a dark-red roll-neck jumper, charcoal trousers, polished black shoes and a heavy gold signet ring.",
+      "sheet": "characters/kongen.webp",
+      "turn": "characters/kongen-turn.mp4",
+      "portrait": "portraits/kongen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kongen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kongen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kongen"
+    },
+    {
+      "slug": "den-gamle-strikkekona",
+      "name": "Den gamle strikkekona",
+      "description": "Ei krokrygget gammel kone ved bergsprekken som lokker med trøst og hvile for å få gjeterne til å svikte.",
+      "look": "A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She wears many layered cardigans and scarves in faded blue, brown, plum and grey over a long dark skirt, fingerless mittens and worn felt boots, and she is always knitting something very long and grey.",
+      "sheet": "characters/den-gamle-strikkekona.webp",
+      "turn": "characters/den-gamle-strikkekona-turn.mp4",
+      "portrait": "portraits/den-gamle-strikkekona.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-gamle-strikkekona.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-gamle-strikkekona-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-gamle-strikkekona"
+    },
+    {
+      "slug": "det-yngste-follet",
+      "name": "Det yngste føllet",
+      "description": "Askeladdens nøkkelallierte blant de forheksede føllene, den som snakker og leder ham til sverdet, kirka og veien som kan gjøre dem til prinser igjen.",
+      "look": "A small, slender foal, the youngest and smallest of seven, with long, knobbly legs, a glossy light-chestnut coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark eyes with a clever, far too human look and a neat white star on his forehead.",
+      "sheet": "characters/det-yngste-follet.webp",
+      "turn": "characters/det-yngste-follet-turn.mp4",
+      "portrait": "portraits/det-yngste-follet.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/det-yngste-follet.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/det-yngste-follet-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "det-yngste-follet"
+    },
+    {
+      "slug": "den-yngste-prinsen",
+      "name": "Den yngste prinsen",
+      "description": "Det yngste føllet slik han egentlig er: den yngste av de sju prinsene og lillebror til prinsessa, som gnir seg i nakken når trolldommen slipper.",
+      "look": "A slim young man of about seventeen, the youngest of seven brothers, with a round, freckled face, big dark eyes, a huge beaming smile and tousled strawberry-blonde hair. He wears shining white clothes with gold trim: a white shirt embroidered with gold, with a small white star on the chest, a short white jacket, white trousers and white leather boots.",
+      "sheet": "characters/den-yngste-prinsen.webp",
+      "turn": "characters/den-yngste-prinsen-turn.mp4",
+      "portrait": "portraits/den-yngste-prinsen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-yngste-prinsen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-yngste-prinsen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "prinsessa",
+      "name": "Prinsessa",
+      "description": "Kongens datter, som nekter å bli gitt bort som premie, men gjerne blir sittende og snakke med Askeladden til sola står opp.",
+      "look": "A cheerful young woman of about twenty with a round, freckled face, warm brown eyes, a wide, amused smile and a mass of bouncy strawberry-blonde curls falling past her shoulders. She wears a pale-green shirt dress with a white collar, a cropped denim jacket, white trainers and small gold earrings, each set with one green stone.",
+      "sheet": "characters/prinsessa.webp",
+      "turn": "characters/prinsessa-turn.mp4",
+      "portrait": "portraits/prinsessa.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsessa.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsessa-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "prinsessa"
+    },
+    {
+      "slug": "eldste-bror",
+      "name": "Den eldste broren",
+      "description": "Askeladdens storebror, som trodde at det med de røde remmene var et uttrykk, og som sover bort hele dagen med hodet i fanget til strikkekona.",
+      "look": "A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked flannel shirt with rolled sleeves, baggy brown work trousers held up by a single braces strap, a wide, frayed straw hat and scuffed white trainers.",
+      "sheet": "characters/eldste-bror.webp",
+      "turn": "characters/eldste-bror-turn.mp4",
+      "portrait": "portraits/eldste-bror.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/eldste-bror.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/eldste-bror-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    }
+  ],
+  "places": [
+    {
+      "slug": "kongsgarden",
+      "name": "the Royal Estate",
+      "look": "A castle of grey stone and glass at the bottom of a green valley, with broad stone front steps, a guarded gate with a small guard hut, a courtyard the size of a football pitch covered in pale gravel, and a long stable building with skylights in its roof. Steep green valley sides with birch woods and thin waterfalls rise behind it."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 1,
+      "anchor": "Nede i dalen lå kongsgården: et slott av grå stein og glass",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kongen hadde sendt opp en drone. Den kom aldri tilbake.",
+      "alt": "Kongen står på den store gårdsplassen med en fjernkontroll og ser en liten drone forsvinne over åsen etter sju føll som løper oppover lia.",
+      "prompt": "Early morning in the vast gravel courtyard of the Royal Estate. The stable doors stand open, and seven chestnut foals are racing away up the steep green hillside, the smallest with a white star on his forehead. The King stands in the middle of the courtyard holding a drone remote control, staring grimly after a small white drone that buzzes away over the ridge behind the foals, getting smaller and smaller.",
+      "characters": [
+        "kongen"
+      ],
+      "places": [
+        "kongsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Royal Estate. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Early morning in the vast gravel courtyard of the Royal Estate. The stable doors stand open, and seven chestnut foals are racing away up the steep green hillside, the smallest with a white star on his forehead. The King stands in the middle of the courtyard holding a drone remote control, staring grimly after a small white drone that buzzes away over the ridge behind the foals, getting smaller and smaller.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King: A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark charcoal overcoat over a dark-red roll-neck jumper, charcoal trousers, polished black shoes and a heavy gold signet ring.\n\nSetting:\n- the Royal Estate: A castle of grey stone and glass at the bottom of a green valley, with broad stone front steps, a guarded gate with a small guard hut, a courtyard the size of a football pitch covered in pale gravel, and a long stable building with skylights in its roof. Steep green valley sides with birch woods and thin waterfalls rise behind it.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "I grålysningen åpnet stallmesteren boksene",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Føllene var oppe i lia før gutten hadde fått på seg den andre skoen.",
+      "alt": "Sju føll suser ut av stallen og oppover lia i grålysningen. Den eldste broren hopper på ett bein og prøver å få på seg den andre skoen.",
+      "prompt": "First grey light at the Royal Estate. The seven chestnut foals have exploded out of the stable and are already across the gravel courtyard and halfway up the hillside, while a stable master in a green fleece holds the stable door. In the foreground the Eldest Brother hops on one foot, still trying to pull on his second trainer, his straw hat tumbling off and his mouth open in dismay.",
+      "characters": [
+        "eldste-bror"
+      ],
+      "places": [
+        "kongsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Royal Estate. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: First grey light at the Royal Estate. The seven chestnut foals have exploded out of the stable and are already across the gravel courtyard and halfway up the hillside, while a stable master in a green fleece holds the stable door. In the foreground the Eldest Brother hops on one foot, still trying to pull on his second trainer, his straw hat tumbling off and his mouth open in dismay.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Eldest Brother: A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked flannel shirt with rolled sleeves, baggy brown work trousers held up by a single braces strap, a wide, frayed straw hat and scuffed white trainers.\n\nSetting:\n- the Royal Estate: A castle of grey stone and glass at the bottom of a green valley, with broad stone front steps, a guarded gate with a small guard hut, a courtyard the size of a football pitch covered in pale gravel, and a long stable building with skylights in its roof. Steep green valley sides with birch woods and thin waterfalls rise behind it.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 11,
+      "anchor": "Gutten visste ikke hva lyske var.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Borte i krattet forsvant føllene som skygger. Så sov han.",
+      "alt": "Den eldste broren sover med hodet i fanget til strikkekona ved bergsprekken, og hun stryker ham i håret. Langt borte forsvinner føllene i krattet.",
+      "prompt": "At a narrow cleft by a mountain path in warm midday sun, the Knitting Woman sits on her low stone with a long, grey piece of knitting trailing down beside her, running her fingers through the hair of the Eldest Brother. He lies with his head in her lap, fast asleep with a blissful smile, his straw hat on his chest. Far off in the scrub, seven foals disappear like shadows.",
+      "characters": [
+        "den-gamle-strikkekona",
+        "eldste-bror"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Knitting Woman, the same character seen from three sides. Keep the Knitting Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Knitting Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At a narrow cleft by a mountain path in warm midday sun, the Knitting Woman sits on her low stone with a long, grey piece of knitting trailing down beside her, running her fingers through the hair of the Eldest Brother. He lies with his head in her lap, fast asleep with a blissful smile, his straw hat on his chest. Far off in the scrub, seven foals disappear like shadows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Knitting Woman: A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She wears many layered cardigans and scarves in faded blue, brown, plum and grey over a long dark skirt, fingerless mittens and worn felt boots, and she is always knitting something very long and grey.\n- the Eldest Brother: A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked flannel shirt with rolled sleeves, baggy brown work trousers held up by a single braces strap, a wide, frayed straw hat and scuffed white trainers.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 20,
+      "anchor": "Kongen så på mosen.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kongen så lenge på gutten. Så nikket han til vaktene.",
+      "alt": "Den eldste broren holder fram mose og ei flaske bekkevann på gårdsplassen. Kongen ser lenge på ham og nikker til to vakter som kommer fram ved vaktbua.",
+      "prompt": "Dusk in the courtyard of the Royal Estate, the castle windows glowing. The Eldest Brother holds out a handful of moss and a bottle of brook water with a hopeful grin. The King, in his long dark coat, looks at the moss, then at the boy, for a long moment, and gives a small nod over his shoulder to two guards in dark uniforms, who step forward from beside the guard hut.",
+      "characters": [
+        "kongen",
+        "eldste-bror"
+      ],
+      "places": [
+        "kongsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Royal Estate. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Dusk in the courtyard of the Royal Estate, the castle windows glowing. The Eldest Brother holds out a handful of moss and a bottle of brook water with a hopeful grin. The King, in his long dark coat, looks at the moss, then at the boy, for a long moment, and gives a small nod over his shoulder to two guards in dark uniforms, who step forward from beside the guard hut.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King: A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark charcoal overcoat over a dark-red roll-neck jumper, charcoal trousers, polished black shoes and a heavy gold signet ring.\n- the Eldest Brother: A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked flannel shirt with rolled sleeves, baggy brown work trousers held up by a single braces strap, a wide, frayed straw hat and scuffed white trainers.\n\nSetting:\n- the Royal Estate: A castle of grey stone and glass at the bottom of a green valley, with broad stone front steps, a guarded gate with a small guard hut, a courtyard the size of a football pitch covered in pale gravel, and a long stable building with skylights in its roof. Steep green valley sides with birch woods and thin waterfalls rise behind it.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 30,
+      "anchor": "Brødrene lå på magen på hver sin benk og lo, forsiktig.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Brødrene lå på magen på hver sin benk og lo, forsiktig.",
+      "alt": "Askeladden har reist seg fra vedovnen. På hver sin benk ligger brødrene på magen og ler forsiktig av ham.",
+      "prompt": "The small, shabby living room of the family's house, by the wood stove. Askeladden has just got up from the ashes, a poking stick still in his hand and his calm face set. On two benches along the wall, the Eldest Brother and the middle brother, a short, stocky lad with a round pink face and short, spiky black hair, lie carefully on their stomachs, both laughing at him very cautiously and wincing a little.",
+      "characters": [
+        "askeladden",
+        "eldste-bror"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Eldest Brother, the same character seen from three sides. Keep the Eldest Brother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Eldest Brother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: The small, shabby living room of the family's house, by the wood stove. Askeladden has just got up from the ashes, a poking stick still in his hand and his calm face set. On two benches along the wall, the Eldest Brother and the middle brother, a short, stocky lad with a round pink face and short, spiky black hair, lie carefully on their stomachs, both laughing at him very cautiously and wincing a little.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n- the Eldest Brother: A tall, gawky young man of about twenty-two with a long, bony face, a big chin, heavy-lidded eyes, a long nose, a lazy, lopsided grin and thick, wavy dark-blond hair that sticks up at the back. He wears a red-and-white checked flannel shirt with rolled sleeves, baggy brown work trousers held up by a single braces strap, a wide, frayed straw hat and scuffed white trainers.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 42,
+      "anchor": "Oppe i et vindu i andre etasje var det noen som lo.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Jeg vil heller ha prinsessa», sa Askeladden. Oppe i et vindu var det noen som lo.",
+      "alt": "Kongen står på trappa og skuler ned på Askeladden. Høyt oppe i et opplyst vindu i andre etasje står prinsessa og ler.",
+      "prompt": "Dusk at the Royal Estate, seen from the courtyard. The King stands on the stone steps in his long dark coat, scowling down at Askeladden, who stands below with his backpack on and a calm, cheeky smile. High above them, in a lit second-floor window of the castle, the Princess leans on the sill, laughing out loud.",
+      "characters": [
+        "askeladden",
+        "kongen",
+        "prinsessa"
+      ],
+      "places": [
+        "kongsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Princess, the same character seen from three sides. Keep the Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Royal Estate. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Dusk at the Royal Estate, seen from the courtyard. The King stands on the stone steps in his long dark coat, scowling down at Askeladden, who stands below with his backpack on and a calm, cheeky smile. High above them, in a lit second-floor window of the castle, the Princess leans on the sill, laughing out loud.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n- the King: A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark charcoal overcoat over a dark-red roll-neck jumper, charcoal trousers, polished black shoes and a heavy gold signet ring.\n- the Princess: A cheerful young woman of about twenty with a round, freckled face, warm brown eyes, a wide, amused smile and a mass of bouncy strawberry-blonde curls falling past her shoulders. She wears a pale-green shirt dress with a white collar, a cropped denim jacket, white trainers and small gold earrings, each set with one green stone.\n\nSetting:\n- the Royal Estate: A castle of grey stone and glass at the bottom of a green valley, with broad stone front steps, a guarded gate with a small guard hut, a courtyard the size of a football pitch covered in pale gravel, and a long stable building with skylights in its roof. Steep green valley sides with birch woods and thin waterfalls rise behind it.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 46,
+      "anchor": "«Kyss meg bak!» ropte Askeladden og klamret seg fast.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Kyss meg bak!» ropte Askeladden og klamret seg fast.",
+      "alt": "Strikkekona holder opp et strikketøy så langt at det rekker ned til stien. Askeladden suser forbi på ryggen av det yngste føllet og roper tilbake til henne.",
+      "prompt": "The narrow cleft by the mountain path. The Knitting Woman has risen from her stone and holds up her grey knitting, now so long that it trails all the way down to the path, smiling sweetly. Askeladden clings to the back of the Youngest Foal as it thunders past behind the six other foals, and shouts back at her over his shoulder, grinning. Dust flies from the hooves.",
+      "characters": [
+        "den-gamle-strikkekona",
+        "askeladden",
+        "det-yngste-follet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Knitting Woman, the same character seen from three sides. Keep the Knitting Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Knitting Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Youngest Foal, the same character seen from three sides. Keep the Youngest Foal's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Foal only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: The narrow cleft by the mountain path. The Knitting Woman has risen from her stone and holds up her grey knitting, now so long that it trails all the way down to the path, smiling sweetly. Askeladden clings to the back of the Youngest Foal as it thunders past behind the six other foals, and shouts back at her over his shoulder, grinning. Dust flies from the hooves.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Knitting Woman: A tiny, hunched old woman no taller than a ten-year-old child, with a small, wrinkled face, a very long, pointed nose that nearly touches her chin, little twinkling black eyes, a sweet, sly smile and wisps of white hair. She wears many layered cardigans and scarves in faded blue, brown, plum and grey over a long dark skirt, fingerless mittens and worn felt boots, and she is always knitting something very long and grey.\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n- the Youngest Foal: A small, slender foal, the youngest and smallest of seven, with long, knobbly legs, a glossy light-chestnut coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark eyes with a clever, far too human look and a neat white star on his forehead.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 60,
+      "anchor": "Stubben var så stor at tre mann ikke ville ha nådd rundt den.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Stubben gled til side som lokket på en kakeboks.",
+      "alt": "Det største føllet skyver en diger bjørkestubbe til side, og under den går ei trapp ned i bakken. Askeladden sitter på det yngste føllet og stirrer ned.",
+      "prompt": "A clearing in a strange birch forest. The biggest of the seven chestnut foals has set its shoulder against a white birch stump so huge that three men could not reach around it, and the stump slides aside like the lid of a cake tin, revealing narrow earthen steps going down into the ground. Askeladden, still on the back of the Youngest Foal, leans forward and stares down the steps.",
+      "characters": [
+        "askeladden",
+        "det-yngste-follet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Foal, the same character seen from three sides. Keep the Youngest Foal's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Foal only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A clearing in a strange birch forest. The biggest of the seven chestnut foals has set its shoulder against a white birch stump so huge that three men could not reach around it, and the stump slides aside like the lid of a cake tin, revealing narrow earthen steps going down into the ground. Askeladden, still on the back of the Youngest Foal, leans forward and stares down the steps.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n- the Youngest Foal: A small, slender foal, the youngest and smallest of seven, with long, knobbly legs, a glossy light-chestnut coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark eyes with a clever, far too human look and a neat white star on his forehead.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 66,
+      "anchor": "Askeladden så på sverdet.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Finnes det ingen annen måte?»",
+      "alt": "I et lite jordrom under bakken holder Askeladden et stort, rustent sverd og ser bekymret på det yngste føllet, som står tett ved ham i halvmørket.",
+      "prompt": "A small, cool room under the ground, with earthen walls, a low stone chimney, one stool and a clay jar on the floor, lit only by daylight from the steps. Askeladden holds a big, rusty sword easily in one hand and looks from the blade to the Youngest Foal, who stands close beside him in the half-dark. His face is troubled and pleading; the foal's clever eyes are steady.",
+      "characters": [
+        "askeladden",
+        "det-yngste-follet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Foal, the same character seen from three sides. Keep the Youngest Foal's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Foal only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A small, cool room under the ground, with earthen walls, a low stone chimney, one stool and a clay jar on the floor, lit only by daylight from the steps. Askeladden holds a big, rusty sword easily in one hand and looks from the blade to the Youngest Foal, who stands close beside him in the half-dark. His face is troubled and pleading; the foal's clever eyes are steady.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n- the Youngest Foal: A small, slender foal, the youngest and smallest of seven, with long, knobbly legs, a glossy light-chestnut coat, a short flaxen mane that stands up like a brush, a long flaxen tail, soft pointed ears, big dark eyes with a clever, far too human look and a neat white star on his forehead.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 78,
+      "anchor": "Da føllene kom inn på kirkegården, ble de til mennesker.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Askeladden hadde sett mye rart den dagen. Dette satte han øverst.",
+      "alt": "På kirkegården står sju unge menn i klær som lyser, der det nettopp var sju føll. Askeladden står ved porten med mobilen i hånda og måper.",
+      "prompt": "The churchyard of a small, black-tarred church with a tall tower, in low afternoon sun. Where seven foals trotted in through the gate a moment ago, seven young men now stand in clothes so fine that they shine, the smallest of them the Youngest Prince, grinning. Just inside the gate, Askeladden stands with his phone forgotten in his hand and his jaw dropped.",
+      "characters": [
+        "askeladden",
+        "den-yngste-prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Prince, the same character seen from three sides. Keep the Youngest Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: The churchyard of a small, black-tarred church with a tall tower, in low afternoon sun. Where seven foals trotted in through the gate a moment ago, seven young men now stand in clothes so fine that they shine, the smallest of them the Youngest Prince, grinning. Just inside the gate, Askeladden stands with his phone forgotten in his hand and his jaw dropped.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n- the Youngest Prince: A slim young man of about seventeen, the youngest of seven brothers, with a round, freckled face, big dark eyes, a huge beaming smile and tousled strawberry-blonde hair. He wears shining white clothes with gold trim: a white shirt embroidered with gold, with a small white star on the chest, a short white jacket, white trousers and white leather boots.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 88,
+      "anchor": "«Halve riket kan du gi bort, pappa», sa prinsessa.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Meg kan du ikke gi bort. Men vi kan jo snakke sammen.»",
+      "alt": "Kongen står med alterbrødet i hånda på gårdsplassen. Bak ham i døra står prinsessa med armene i kors og smiler til Askeladden, som har gjørme på buksene og kvist i håret.",
+      "prompt": "Nearly dark in the courtyard of the Royal Estate, light spilling from the open front door. The King stands holding a communion wafer, still lost for words. Behind him in the doorway the Princess, arms folded, looks past her father at Askeladden, taking in the mud on his trousers and the twig in his hair, with an amused, interested smile. Askeladden looks back at her, holding a bottle of communion wine.",
+      "characters": [
+        "kongen",
+        "prinsessa",
+        "askeladden"
+      ],
+      "places": [
+        "kongsgarden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Princess, the same character seen from three sides. Keep the Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Royal Estate. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Nearly dark in the courtyard of the Royal Estate, light spilling from the open front door. The King stands holding a communion wafer, still lost for words. Behind him in the doorway the Princess, arms folded, looks past her father at Askeladden, taking in the mud on his trousers and the twig in his hair, with an amused, interested smile. Askeladden looks back at her, holding a bottle of communion wine.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King: A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark charcoal overcoat over a dark-red roll-neck jumper, charcoal trousers, polished black shoes and a heavy gold signet ring.\n- the Princess: A cheerful young woman of about twenty with a round, freckled face, warm brown eyes, a wide, amused smile and a mass of bouncy strawberry-blonde curls falling past her shoulders. She wears a pale-green shirt dress with a white collar, a cropped denim jacket, white trainers and small gold earrings, each set with one green stone.\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n\nSetting:\n- the Royal Estate: A castle of grey stone and glass at the bottom of a green valley, with broad stone front steps, a guarded gate with a small guard hut, a courtyard the size of a football pitch covered in pale gravel, and a long stable building with skylights in its roof. Steep green valley sides with birch woods and thin waterfalls rise behind it.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 94,
+      "anchor": "Så kom lyset.",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Ut av lyset steg sju unge menn, stive i leddene, i klær som skinte.",
+      "alt": "Et varmt lys fyller stallen, og ut av lyset stiger sju unge menn i skinnende klær. Den yngste gnir seg i nakken, og Askeladden står i hvit skjorte med halm i håret og ser på.",
+      "prompt": "Inside the long stable with skylights and shiny steel stalls, a warm golden light pours out from everywhere at once and fills the whole building up to the skylights. Out of the light, seven young men in shining clothes step from the straw, stiff in their joints and stretching; the smallest, the Youngest Prince, rubs the back of his neck. Askeladden, in a white shirt with straw in his hair, stands watching, dazzled.",
+      "characters": [
+        "askeladden",
+        "den-yngste-prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Prince, the same character seen from three sides. Keep the Youngest Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Inside the long stable with skylights and shiny steel stalls, a warm golden light pours out from everywhere at once and fills the whole building up to the skylights. Out of the light, seven young men in shining clothes step from the straw, stiff in their joints and stretching; the smallest, the Youngest Prince, rubs the back of his neck. Askeladden, in a white shirt with straw in his hair, stands watching, dazzled.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n- the Youngest Prince: A slim young man of about seventeen, the youngest of seven brothers, with a round, freckled face, big dark eyes, a huge beaming smile and tousled strawberry-blonde hair. He wears shining white clothes with gold trim: a white shirt embroidered with gold, with a small white star on the chest, a short white jacket, white trousers and white leather boots.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "13",
+      "paragraph": 96,
+      "anchor": "Han kysset Askeladden på begge kinnene",
+      "file": "scenes/13.webp",
+      "sources": [
+        {
+          "file": "scenes/13.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/13-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kongen kysset Askeladden på begge kinnene, klappet ham på skuldrene og kysset ham igjen.",
+      "alt": "I festsalen kysser kongen Askeladden på begge kinnene. Bak dem står sju prinser i skinnende klær, og bruden ser på mannen sin, som har halm i håret.",
+      "prompt": "The wedding hall of the castle, long tables with white cloths and candles, a toppled chair behind the King. The King kisses Askeladden on both cheeks and claps his shoulders, while seven princes in shining clothes stand behind Askeladden, the Youngest Prince among them. The Princess, in a simple white wedding dress, looks from her brothers to her husband and the straw in his hair, her eyes shining. The guests stare in silence.",
+      "characters": [
+        "kongen",
+        "askeladden",
+        "prinsessa",
+        "den-yngste-prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the King, the same character seen from three sides. Keep the King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Princess, the same character seen from three sides. Keep the Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Youngest Prince, the same character seen from three sides. Keep the Youngest Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: The wedding hall of the castle, long tables with white cloths and candles, a toppled chair behind the King. The King kisses Askeladden on both cheeks and claps his shoulders, while seven princes in shining clothes stand behind Askeladden, the Youngest Prince among them. The Princess, in a simple white wedding dress, looks from her brothers to her husband and the straw in his hair, her eyes shining. The guests stare in silence.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the King: A lean, severe king of about sixty, tall and straight-backed, with a long, bony face, stern frown lines, sharp, narrow hazel eyes under bushy black eyebrows and a short, neatly trimmed grey beard. He wears a long dark charcoal overcoat over a dark-red roll-neck jumper, charcoal trousers, polished black shoes and a heavy gold signet ring.\n- Askeladden: A sturdy, broad-shouldered young man of about nineteen with full, round, sun-browned cheeks, a short straight nose, calm green eyes, a steady, determined smile and thick sandy-brown hair tied back in a short ponytail. He wears a faded rust-orange hoodie, dark-green cargo trousers, sturdy black boots and a small brown canvas backpack.\n- the Princess: A cheerful young woman of about twenty with a round, freckled face, warm brown eyes, a wide, amused smile and a mass of bouncy strawberry-blonde curls falling past her shoulders. She wears a pale-green shirt dress with a white collar, a cropped denim jacket, white trainers and small gold earrings, each set with one green stone.\n- the Youngest Prince: A slim young man of about seventeen, the youngest of seven brothers, with a round, freckled face, big dark eyes, a huge beaming smile and tousled strawberry-blonde hair. He wears shining white clothes with gold trim: a white shirt embroidered with gold, with a small white star on the chest, a short white jacket, white trousers and white leather boots.\n\nStory world: Present-day Norway at midsummer. Askeladden's family lives in a small, run-down house where the gravel road and the mobile coverage end, with a wood stove in the living room. Down in the valley lies the royal estate: a castle of grey stone and glass with guards at the gate, a courtyard the size of a football pitch and a long stable building with skylights and shiny steel stalls. The seven foals are glossy chestnut foals with flaxen manes and tails; the youngest, a lighter chestnut, has a white star on his forehead. The knitting woman sits on a low stone at a narrow cleft by a mountain path. A birch stump so big that three men could not reach around it hides steps down to a small earthen room. Beyond a long bridge that is on no map stands a small, black-tarred church with a tall tower.\n\nThis story's season, light and colours: Midsummer: long, pale-gold days, a low sun that hardly sets and bright, pale nights under a lilac sky; steep green valley sides with waterfalls like white threads, violet mountains and purple heather. The castle's glass glints cool grey, and the wedding glows with warm light.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

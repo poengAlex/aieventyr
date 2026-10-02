@@ -1,0 +1,477 @@
+{
+  "storyId": "giske",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Giske",
+  "textFile": "public/content/stories/giske/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:10:04.873Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Fanden var i hvert fall lokalkjent.",
+    "alt": "Giske står skallet og svart av sot midt på en grusvei om natta med armene ut og roper. Bak henne krøker to tyver med sekker seg sammen og holder seg for ørene.",
+    "prompt": "Night on a gravel farm road, in the orange beam of a single yard light. Sooty Giske stands in the middle of the road with her arms flung wide and her bald head gleaming, shouting something happily at the top of her voice. Behind her, the Skinny Thief and the Plump Thief crouch with their sacks on their backs, clapping their hands over their ears and looking around in panic at the dark farmhouses.",
+    "characters": [
+      "giske-skallet",
+      "tyven-tynn",
+      "tyven-tykk"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Sooty Giske, the same character seen from three sides. Keep Sooty Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sooty Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Skinny Thief, the same character seen from three sides. Keep the Skinny Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Skinny Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Plump Thief, the same character seen from three sides. Keep the Plump Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Plump Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: Night on a gravel farm road, in the orange beam of a single yard light. Sooty Giske stands in the middle of the road with her arms flung wide and her bald head gleaming, shouting something happily at the top of her voice. Behind her, the Skinny Thief and the Plump Thief crouch with their sacks on their backs, clapping their hands over their ears and looking around in panic at the dark farmhouses.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sooty Giske: Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.\n- the Skinny Thief: A skinny, jittery petty thief of about thirty, a head shorter than Giske, with a long pale face, a long pointy nose, big frightened eyes, a wispy ginger goatee and lank hair under a floppy black beanie. He wears a charcoal hoodie that is too short in the arms, grey tracksuit trousers and worn-out trainers, and carries a big canvas sack on his back.\n- the Plump Thief: A short, round, nervous petty thief of about forty, much shorter than Giske, with a round red face, puffy cheeks, a stubbly double chin, tiny eyes, a big bushy black moustache and a bald head under a brown flat cap. He wears a mustard-brown hoodie stretched tight over his belly, baggy jeans and big unlaced work boots, with a coil of rope over his shoulder and a canvas sack on his back.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "giske",
+      "name": "Giske",
+      "description": "Langbeint gårdshjelp som vil gifte seg med sjefen sin, blir barbert skallet og smurt inn med talg og sot mens hun sover, og konkluderer rolig med at hun må være fanden.",
+      "look": "A very tall, strong farmhand of about thirty, a head taller than any man, with extremely long legs and big hands rough from farm work. She has a long oval face, rosy weathered cheeks, a wide eager smile, a small turned-up nose, bright hazel eyes and flaxen hair wound into a tall bun on top of her head. She wears a plum-purple fleece sweater with the sleeves pushed up, dark-green work trousers with knee pockets, black rubber boots and a big bunch of keys on a carabiner at her belt.",
+      "sheet": "characters/giske.webp",
+      "turn": "characters/giske-turn.mp4",
+      "portrait": "portraits/giske.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/giske.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/giske-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "giske"
+    },
+    {
+      "slug": "giske-skallet",
+      "name": "Giske som fanden",
+      "description": "Giske etter spøken: barbert skallet, blank av talg og svart av sot, så ikke engang mobilen kjenner henne igjen. Når hun ikke er Giske, må hun vel være fanden.",
+      "look": "Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.",
+      "sheet": "characters/giske-skallet.webp",
+      "turn": "characters/giske-skallet-turn.mp4",
+      "portrait": "portraits/giske-skallet.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/giske-skallet.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/giske-skallet-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "enkemannen",
+      "name": "Enkemannen",
+      "description": "Konfliktsky småbruker som heller barberer og sotsverter gårdshjelpen sin enn å si nei til henne rett ut.",
+      "look": "A skinny, stooped smallholder of about fifty with a long, narrow, tired face, heavy-lidded eyes, a long crooked nose, hollow cheeks, a scruffy salt-and-pepper chin beard and thin dark hair combed flat, with cheap reading glasses pushed up on his forehead. He wears a pilled heather-brown fleece jacket over a faded checked flannel shirt, baggy grey work trousers and green rubber clogs, and always looks as if he would rather be somewhere else.",
+      "sheet": "characters/enkemannen.webp",
+      "turn": "characters/enkemannen-turn.mp4",
+      "portrait": "portraits/enkemannen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/enkemannen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/enkemannen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "the-widower"
+    },
+    {
+      "slug": "tyven-tynn",
+      "name": "Den tynne tyven",
+      "description": "Den ene av de to småtyvene fra bygda som lever av det som ikke er boltet fast. Han er tynn og skvetten, og det er han som hysjer mest.",
+      "look": "A skinny, jittery petty thief of about thirty, a head shorter than Giske, with a long pale face, a long pointy nose, big frightened eyes, a wispy ginger goatee and lank hair under a floppy black beanie. He wears a charcoal hoodie that is too short in the arms, grey tracksuit trousers and worn-out trainers, and carries a big canvas sack on his back.",
+      "sheet": "characters/tyven-tynn.webp",
+      "turn": "characters/tyven-tynn-turn.mp4",
+      "portrait": "portraits/tyven-tynn.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/tyven-tynn.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/tyven-tynn-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "the-petty-thieves"
+    },
+    {
+      "slug": "tyven-tykk",
+      "name": "Den tykke tyven",
+      "description": "Den andre småtyven. Han er liten og rund, har ikke spist ordentlig siden tirsdag og vil aller helst ikke bli tatt.",
+      "look": "A short, round, nervous petty thief of about forty, much shorter than Giske, with a round red face, puffy cheeks, a stubbly double chin, tiny eyes, a big bushy black moustache and a bald head under a brown flat cap. He wears a mustard-brown hoodie stretched tight over his belly, baggy jeans and big unlaced work boots, with a coil of rope over his shoulder and a canvas sack on his back.",
+      "sheet": "characters/tyven-tykk.webp",
+      "turn": "characters/tyven-tykk-turn.mp4",
+      "portrait": "portraits/tyven-tykk.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/tyven-tykk.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/tyven-tykk-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "bonden",
+      "name": "Bonden med sauefjøset",
+      "description": "Bonden med solcellepanel på låvetaket og en drone som teller sauene. Han har aldri trodd på noe han ikke kan se, helt til noe langt og svart kommer farende ut av sauefjøset hans.",
+      "look": "A lean, wiry sheep farmer of about forty-five with a bony, hollow-cheeked face, a hooked nose, bristly grey stubble, startled round eyes and wild, tousled grey hair, just woken from sleep. He wears only a faded grey T-shirt and baggy navy-blue boxer shorts, with bare skinny legs and bare feet, and a chunky black sports watch on one wrist.",
+      "sheet": "characters/bonden.webp",
+      "turn": "characters/bonden-turn.mp4",
+      "portrait": "portraits/bonden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/bonden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/bonden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "nepebonden",
+      "name": "Bonden med nepeåkeren",
+      "description": "Bonden som eier nepeåkeren. Han har ligget våken og lest om fanden i bygdegruppa hele natta, og han lover presten en kalvestek for å få ham med ut på myra.",
+      "look": "A short, sturdy, bow-legged farmer of about fifty with a square, weather-beaten face, a big bristly chestnut moustache, round startled eyes, bushy eyebrows and wiry grey hair sticking up under a wide, frayed straw hat. He wears a rust-orange quilted vest over a blue-striped pyjama top, grey work trousers pulled on over his pyjama bottoms and green rubber boots.",
+      "sheet": "characters/nepebonden.webp",
+      "turn": "characters/nepebonden-turn.mp4",
+      "portrait": "portraits/nepebonden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/nepebonden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/nepebonden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "presten",
+      "name": "Presten",
+      "description": "Sokneprest som blir hentet ut i tøfler og strikkelue en søndag morgen for å binde fanden, lokket av en kalvestek, og havner i myra.",
+      "look": "A very round, heavy parish priest of about sixty-five with a big belly, short legs, a pink, jowly, clean-shaven face, puffy sleepy eyes, bushy white eyebrows and a fringe of white curls under a red-and-white striped knitted hat with a pompom. He wears a crumpled white pyjama shirt stuffed into black trousers he has pulled on in a hurry and a pair of blue felt slippers, and carries a small black book.",
+      "sheet": "characters/presten.webp",
+      "turn": "characters/presten-turn.mp4",
+      "portrait": "portraits/presten.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/presten.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/presten-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "the-priest"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 0,
+      "anchor": "Giske hadde vært gårdshjelp hos enkemannen i fire år",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "En gang sa hun det i kassakøen, høyt nok til at halve bygda fikk det med seg.",
+      "alt": "I kassakøen på butikken lener Giske seg ned mot enkemannen og snakker høyt om å gifte seg. Han stirrer ned i båndet, mens kassadama og kundene lytter.",
+      "prompt": "At the checkout of a small village supermarket, Giske stands in the queue right behind the Widower with a shopping basket on her arm, leaning down towards him and talking loudly and happily about getting married. The Widower stares hard at the conveyor belt with his shoulders up to his ears. Around them, a cashier and four other customers in rain jackets have gone quiet and are listening with great interest.",
+      "characters": [
+        "giske",
+        "enkemannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Giske, the same character seen from three sides. Keep Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Widower, the same character seen from three sides. Keep the Widower's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Widower only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the checkout of a small village supermarket, Giske stands in the queue right behind the Widower with a shopping basket on her arm, leaning down towards him and talking loudly and happily about getting married. The Widower stares hard at the conveyor belt with his shoulders up to his ears. Around them, a cashier and four other customers in rain jackets have gone quiet and are listening with great interest.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Giske: A very tall, strong farmhand of about thirty, a head taller than any man, with extremely long legs and big hands rough from farm work. She has a long oval face, rosy weathered cheeks, a wide eager smile, a small turned-up nose, bright hazel eyes and flaxen hair wound into a tall bun on top of her head. She wears a plum-purple fleece sweater with the sleeves pushed up, dark-green work trousers with knee pockets, black rubber boots and a big bunch of keys on a carabiner at her belt.\n- the Widower: A skinny, stooped smallholder of about fifty with a long, narrow, tired face, heavy-lidded eyes, a long crooked nose, hollow cheeks, a scruffy salt-and-pepper chin beard and thin dark hair combed flat, with cheap reading glasses pushed up on his forehead. He wears a pilled heather-brown fleece jacket over a faded checked flannel shirt, baggy grey work trousers and green rubber clogs, and always looks as if he would rather be somewhere else.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 4,
+      "anchor": "Enkemannen sto lenge og så på henne.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Enkemannen sto lenge og så på henne.",
+      "alt": "Giske sover mellom radene i hampåkeren med hodet på en sekk. Enkemannen står over henne med en hårtrimmer i den ene hånda og ei bøtte talg i den andre.",
+      "prompt": "Between the rows of a field of tall, ripe industrial hemp on a hazy late-summer afternoon, Giske lies fast asleep on her back with her head on a sack and her mouth open. The Widower stands over her, looking down at her for a long time, with an electric hair trimmer in one hand and a white plastic bucket of tallow in the other, his tired face slowly making up its mind.",
+      "characters": [
+        "giske",
+        "enkemannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Giske, the same character seen from three sides. Keep Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Widower, the same character seen from three sides. Keep the Widower's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Widower only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Between the rows of a field of tall, ripe industrial hemp on a hazy late-summer afternoon, Giske lies fast asleep on her back with her head on a sack and her mouth open. The Widower stands over her, looking down at her for a long time, with an electric hair trimmer in one hand and a white plastic bucket of tallow in the other, his tired face slowly making up its mind.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Giske: A very tall, strong farmhand of about thirty, a head taller than any man, with extremely long legs and big hands rough from farm work. She has a long oval face, rosy weathered cheeks, a wide eager smile, a small turned-up nose, bright hazel eyes and flaxen hair wound into a tall bun on top of her head. She wears a plum-purple fleece sweater with the sleeves pushed up, dark-green work trousers with knee pockets, black rubber boots and a big bunch of keys on a carabiner at her belt.\n- the Widower: A skinny, stooped smallholder of about fifty with a long, narrow, tired face, heavy-lidded eyes, a long crooked nose, hollow cheeks, a scruffy salt-and-pepper chin beard and thin dark hair combed flat, with cheap reading glasses pushed up on his forehead. He wears a pilled heather-brown fleece jacket over a faded checked flannel shirt, baggy grey work trousers and green rubber clogs, and always looks as if he would rather be somewhere else.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 7,
+      "anchor": "Giske våknet av at hun frøs på hodet.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Mobilen ville ikke låse seg opp. Den kjente henne ikke igjen.",
+      "alt": "Giske sitter i hampåkeren, skallet og svart av sot, og holder mobilen opp foran ansiktet. Hun stirrer forvirret på den mørke skjermen og kjenner seg på hodet.",
+      "prompt": "Sooty Giske sits up among the flattened hemp stalks in the low evening sun, holding her phone up at arm's length with its back towards us, and stares into its dark screen with a baffled, suspicious frown, one hand feeling her bald, greasy scalp. Swallows swoop low over the field behind her, and the red farmhouse stands far off at the top of the land.",
+      "characters": [
+        "giske-skallet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Sooty Giske, the same character seen from three sides. Keep Sooty Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sooty Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Sooty Giske sits up among the flattened hemp stalks in the low evening sun, holding her phone up at arm's length with its back towards us, and stares into its dark screen with a baffled, suspicious frown, one hand feeling her bald, greasy scalp. Swallows swoop low over the field behind her, and the red farmhouse stands far off at the top of the land.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sooty Giske: Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 18,
+      "anchor": "Tyvene var ikke enige.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "De løp som de ikke hadde løpt siden gymtimene på ungdomsskolen.",
+      "alt": "To menn i hettegensere med sekker på ryggen løper for livet nedover en skogsbilvei. Rett bak dem kommer Giske, skallet og svart, med lange steg.",
+      "prompt": "At dusk on a gravel forest road between tall spruces, the Skinny Thief and the Plump Thief run for their lives with their sacks bouncing on their backs, arms pumping, faces white with terror, as they have not run since school gym class. Right behind them, having just stepped out of the forest, Sooty Giske follows with long, easy strides, her bald head shining, calling after them in a friendly way.",
+      "characters": [
+        "giske-skallet",
+        "tyven-tynn",
+        "tyven-tykk"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Sooty Giske, the same character seen from three sides. Keep Sooty Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sooty Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Skinny Thief, the same character seen from three sides. Keep the Skinny Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Skinny Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Plump Thief, the same character seen from three sides. Keep the Plump Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Plump Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At dusk on a gravel forest road between tall spruces, the Skinny Thief and the Plump Thief run for their lives with their sacks bouncing on their backs, arms pumping, faces white with terror, as they have not run since school gym class. Right behind them, having just stepped out of the forest, Sooty Giske follows with long, easy strides, her bald head shining, calling after them in a friendly way.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sooty Giske: Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.\n- the Skinny Thief: A skinny, jittery petty thief of about thirty, a head shorter than Giske, with a long pale face, a long pointy nose, big frightened eyes, a wispy ginger goatee and lank hair under a floppy black beanie. He wears a charcoal hoodie that is too short in the arms, grey tracksuit trousers and worn-out trainers, and carries a big canvas sack on his back.\n- the Plump Thief: A short, round, nervous petty thief of about forty, much shorter than Giske, with a round red face, puffy cheeks, a stubbly double chin, tiny eyes, a big bushy black moustache and a bald head under a brown flat cap. He wears a mustard-brown hoodie stretched tight over his belly, baggy jeans and big unlaced work boots, with a coil of rope over his shoulder and a canvas sack on his back.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 31,
+      "anchor": "«Ja, men vil dere ha bukk eller søye?",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Ja, men vil dere ha bukk eller søye?» ropte Giske og pekte med skiftenøkkelen.",
+      "alt": "Inne i sauefjøset står Giske blant sauene med en skiftenøkkel og roper. Utenfor døra vifter tyvene med armene og hysjer på henne.",
+      "prompt": "Inside a sheep barn at night, lit by one bare bulb, Sooty Giske stands in an open pen among eight woolly white sheep that stare at her, pointing at them with a big adjustable wrench and shouting towards the door at the top of her voice. A wall of hanging tools is behind her. Outside the open barn door, the Skinny Thief and the Plump Thief wave their arms frantically and hiss at her to be quiet.",
+      "characters": [
+        "giske-skallet",
+        "tyven-tynn",
+        "tyven-tykk"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Sooty Giske, the same character seen from three sides. Keep Sooty Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sooty Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Skinny Thief, the same character seen from three sides. Keep the Skinny Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Skinny Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Plump Thief, the same character seen from three sides. Keep the Plump Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Plump Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Inside a sheep barn at night, lit by one bare bulb, Sooty Giske stands in an open pen among eight woolly white sheep that stare at her, pointing at them with a big adjustable wrench and shouting towards the door at the top of her voice. A wall of hanging tools is behind her. Outside the open barn door, the Skinny Thief and the Plump Thief wave their arms frantically and hiss at her to be quiet.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sooty Giske: Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.\n- the Skinny Thief: A skinny, jittery petty thief of about thirty, a head shorter than Giske, with a long pale face, a long pointy nose, big frightened eyes, a wispy ginger goatee and lank hair under a floppy black beanie. He wears a charcoal hoodie that is too short in the arms, grey tracksuit trousers and worn-out trainers, and carries a big canvas sack on his back.\n- the Plump Thief: A short, round, nervous petty thief of about forty, much shorter than Giske, with a round red face, puffy cheeks, a stubbly double chin, tiny eyes, a big bushy black moustache and a bald head under a brown flat cap. He wears a mustard-brown hoodie stretched tight over his belly, baggy jeans and big unlaced work boots, with a coil of rope over his shoulder and a canvas sack on his back.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 37,
+      "anchor": "Bonden ble liggende i grusen.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han hadde aldri trodd på noe han ikke kunne se. Nå hadde han sett det.",
+      "alt": "Bonden ligger på ryggen i grusen på gårdsplassen i bokser og T-skjorte og stirrer. Ute i mørket forsvinner en lang, svart og skallet skikkelse med en skiftenøkkel.",
+      "prompt": "A farmyard at night. The Sheep Farmer lies on his back in the gravel outside his lit farmhouse door, propped up on his elbows, staring in open-mouthed disbelief after Sooty Giske, a long black bald shape with a wrench in her hand, vanishing into the dark beyond the orange yard light. Behind him, the sheep barn is built wall to wall with the farmhouse, with solar panels on its roof, and a small grey drone sits on the porch step.",
+      "characters": [
+        "bonden",
+        "giske-skallet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Sheep Farmer, the same character seen from three sides. Keep the Sheep Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Sheep Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Sooty Giske, the same character seen from three sides. Keep Sooty Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sooty Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A farmyard at night. The Sheep Farmer lies on his back in the gravel outside his lit farmhouse door, propped up on his elbows, staring in open-mouthed disbelief after Sooty Giske, a long black bald shape with a wrench in her hand, vanishing into the dark beyond the orange yard light. Behind him, the sheep barn is built wall to wall with the farmhouse, with solar panels on its roof, and a small grey drone sits on the porch step.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Sheep Farmer: A lean, wiry sheep farmer of about forty-five with a bony, hollow-cheeked face, a hooked nose, bristly grey stubble, startled round eyes and wild, tousled grey hair, just woken from sleep. He wears only a faded grey T-shirt and baggy navy-blue boxer shorts, with bare skinny legs and bare feet, and a chunky black sports watch on one wrist.\n- Sooty Giske: Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 44,
+      "anchor": "Mens de sto og kranglet, begynte én gås å skrike.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Langbeint var hun, og uten hår var hun strømlinjeformet i tillegg.",
+      "alt": "Gjessene flakser og skriker rundt Giske, som suser etter tyvene inn i mørket. På trappa står en bonde i stripete pysjamas med ei stormlykt og måper.",
+      "prompt": "Night outside a goose house on another farm. A flock of twelve white geese tumbles out of the door, shrieking and flapping all around Sooty Giske, who is already racing off after the Skinny Thief and the Plump Thief as they vanish into the darkness at the edge of the picture. On the farmhouse steps, a tall, gaunt farmer in striped pyjamas holds up a storm lantern and gapes at the black, bald streak flashing past.",
+      "characters": [
+        "giske-skallet",
+        "tyven-tynn",
+        "tyven-tykk"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Sooty Giske, the same character seen from three sides. Keep Sooty Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sooty Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Skinny Thief, the same character seen from three sides. Keep the Skinny Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Skinny Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Plump Thief, the same character seen from three sides. Keep the Plump Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Plump Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night outside a goose house on another farm. A flock of twelve white geese tumbles out of the door, shrieking and flapping all around Sooty Giske, who is already racing off after the Skinny Thief and the Plump Thief as they vanish into the darkness at the edge of the picture. On the farmhouse steps, a tall, gaunt farmer in striped pyjamas holds up a storm lantern and gapes at the black, bald streak flashing past.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sooty Giske: Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.\n- the Skinny Thief: A skinny, jittery petty thief of about thirty, a head shorter than Giske, with a long pale face, a long pointy nose, big frightened eyes, a wispy ginger goatee and lank hair under a floppy black beanie. He wears a charcoal hoodie that is too short in the arms, grey tracksuit trousers and worn-out trainers, and carries a big canvas sack on his back.\n- the Plump Thief: A short, round, nervous petty thief of about forty, much shorter than Giske, with a round red face, puffy cheeks, a stubbly double chin, tiny eyes, a big bushy black moustache and a bald head under a brown flat cap. He wears a mustard-brown hoodie stretched tight over his belly, baggy jeans and big unlaced work boots, with a coil of rope over his shoulder and a canvas sack on his back.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 50,
+      "anchor": "«Vil dere ha spekeskinke eller fenalår eller pølse eller flatbrød?»",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Vil dere ha spekeskinke eller fenalår eller pølse eller flatbrød?»",
+      "alt": "Giske står i døra til et gammelt stabbur fullt av spekeskinker, fenalår og pølser og roper med armene ut. Nede ved trappa holder tyvene seg for hodet.",
+      "prompt": "Night at a big farm at the edge of the forest. Sooty Giske stands in the open door at the top of the stone steps of an old timber storehouse on stilts, arms flung wide, bellowing so the log walls ring; behind her, cured hams and dried legs of mutton hang in rows from the beams above shelves of sausages and flatbread. At the foot of the steps, the Skinny Thief and the Plump Thief clutch their heads in despair.",
+      "characters": [
+        "giske-skallet",
+        "tyven-tynn",
+        "tyven-tykk"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Sooty Giske, the same character seen from three sides. Keep Sooty Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sooty Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Skinny Thief, the same character seen from three sides. Keep the Skinny Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Skinny Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Plump Thief, the same character seen from three sides. Keep the Plump Thief's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Plump Thief only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night at a big farm at the edge of the forest. Sooty Giske stands in the open door at the top of the stone steps of an old timber storehouse on stilts, arms flung wide, bellowing so the log walls ring; behind her, cured hams and dried legs of mutton hang in rows from the beams above shelves of sausages and flatbread. At the foot of the steps, the Skinny Thief and the Plump Thief clutch their heads in despair.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Sooty Giske: Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.\n- the Skinny Thief: A skinny, jittery petty thief of about thirty, a head shorter than Giske, with a long pale face, a long pointy nose, big frightened eyes, a wispy ginger goatee and lank hair under a floppy black beanie. He wears a charcoal hoodie that is too short in the arms, grey tracksuit trousers and worn-out trainers, and carries a big canvas sack on his back.\n- the Plump Thief: A short, round, nervous petty thief of about forty, much shorter than Giske, with a round red face, puffy cheeks, a stubbly double chin, tiny eyes, a big bushy black moustache and a bald head under a brown flat cap. He wears a mustard-brown hoodie stretched tight over his belly, baggy jeans and big unlaced work boots, with a coil of rope over his shoulder and a canvas sack on his back.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 58,
+      "anchor": "Bonden som eide nepeåkeren, hadde ligget våken og lest i bygdegruppa hele natta",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han trengte ikke lang tid. Det var fanden.",
+      "alt": "Bonden står ved myra i morgentåka med mobilen i hånda og stirrer skrekkslagen opp mot nepeåkeren. Der oppe rusker en lang, svart skikkelse i nepene.",
+      "prompt": "Six o'clock on a Sunday morning in thick white fog. At the edge of a dark bog, the Turnip Farmer stands frozen with fright in his rubber boots, his phone still glowing in his hand, staring up the slope. In the turnip field above the bog, Sooty Giske crouches among the rows, a long black shape half hidden in the fog, tugging and tugging at the turnips.",
+      "characters": [
+        "nepebonden",
+        "giske-skallet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Turnip Farmer, the same character seen from three sides. Keep the Turnip Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Turnip Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Sooty Giske, the same character seen from three sides. Keep Sooty Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sooty Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Six o'clock on a Sunday morning in thick white fog. At the edge of a dark bog, the Turnip Farmer stands frozen with fright in his rubber boots, his phone still glowing in his hand, staring up the slope. In the turnip field above the bog, Sooty Giske crouches among the rows, a long black shape half hidden in the fog, tugging and tugging at the turnips.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Turnip Farmer: A short, sturdy, bow-legged farmer of about fifty with a square, weather-beaten face, a big bristly chestnut moustache, round startled eyes, bushy eyebrows and wiry grey hair sticking up under a wide, frayed straw hat. He wears a rust-orange quilted vest over a blue-striped pyjama top, grey work trousers pulled on over his pyjama bottoms and green rubber boots.\n- Sooty Giske: Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 62,
+      "anchor": "Bonden kjørte til prestegården og ringte på.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Presten rev på seg buksa og kom ned med det samme, i tøfler og strikkelue.",
+      "alt": "Presten skynder seg ned trappa i tøfler og strikkelue og drar på seg buksa. Bonden venter i gangen, og datteren i morgenkåpe holder døra.",
+      "prompt": "Early morning in the hall of a white-painted parsonage. The Priest comes hurrying down the staircase in his slippers and knitted hat, hopping on one foot as he drags his trousers up, his face eager. The Turnip Farmer waits just inside the front door with his straw hat in his hands. The Priest's grown-up daughter, a woman of about thirty in a long grey dressing gown, holds the door open and eyes the farmer sceptically.",
+      "characters": [
+        "presten",
+        "nepebonden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Priest, the same character seen from three sides. Keep the Priest's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Priest only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Turnip Farmer, the same character seen from three sides. Keep the Turnip Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Turnip Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Early morning in the hall of a white-painted parsonage. The Priest comes hurrying down the staircase in his slippers and knitted hat, hopping on one foot as he drags his trousers up, his face eager. The Turnip Farmer waits just inside the front door with his straw hat in his hands. The Priest's grown-up daughter, a woman of about thirty in a long grey dressing gown, holds the door open and eyes the farmer sceptically.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Priest: A very round, heavy parish priest of about sixty-five with a big belly, short legs, a pink, jowly, clean-shaven face, puffy sleepy eyes, bushy white eyebrows and a fringe of white curls under a red-and-white striped knitted hat with a pompom. He wears a crumpled white pyjama shirt stuffed into black trousers he has pulled on in a hurry and a pair of blue felt slippers, and carries a small black book.\n- the Turnip Farmer: A short, sturdy, bow-legged farmer of about fifty with a square, weather-beaten face, a big bristly chestnut moustache, round startled eyes, bushy eyebrows and wiry grey hair sticking up under a wide, frayed straw hat. He wears a rust-orange quilted vest over a blue-striped pyjama top, grey work trousers pulled on over his pyjama bottoms and green rubber boots.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 70,
+      "anchor": "Og så ble han så redd at han kastet presten av ryggen",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Og har ikke presten kommet seg opp, så ligger han der nok ennå.",
+      "alt": "Presten sitter fast i den svarte myra med den lille boka hevet over gjørma. Bonden løper mot bilen, og oppe ved nepeåkeren står Giske og ser etter ham.",
+      "prompt": "Low white fog over a dark bog on Sunday morning. In the middle of the bog, the Priest sits up to his chest in black mud among the tussocks, holding his small black book high out of the muck, his knitted hat askew, speechless with outrage. The Turnip Farmer sprints away across the tussocks towards his car parked on the road below. Up at the edge of the turnip field, Sooty Giske stands with a turnip in each hand, peering after him.",
+      "characters": [
+        "presten",
+        "nepebonden",
+        "giske-skallet"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Priest, the same character seen from three sides. Keep the Priest's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Priest only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Turnip Farmer, the same character seen from three sides. Keep the Turnip Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Turnip Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for Sooty Giske, the same character seen from three sides. Keep Sooty Giske's face, hair, body shape, age, colours and clothes exactly as shown. Draw Sooty Giske only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Low white fog over a dark bog on Sunday morning. In the middle of the bog, the Priest sits up to his chest in black mud among the tussocks, holding his small black book high out of the muck, his knitted hat askew, speechless with outrage. The Turnip Farmer sprints away across the tussocks towards his car parked on the road below. Up at the edge of the turnip field, Sooty Giske stands with a turnip in each hand, peering after him.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Priest: A very round, heavy parish priest of about sixty-five with a big belly, short legs, a pink, jowly, clean-shaven face, puffy sleepy eyes, bushy white eyebrows and a fringe of white curls under a red-and-white striped knitted hat with a pompom. He wears a crumpled white pyjama shirt stuffed into black trousers he has pulled on in a hurry and a pair of blue felt slippers, and carries a small black book.\n- the Turnip Farmer: A short, sturdy, bow-legged farmer of about fifty with a square, weather-beaten face, a big bristly chestnut moustache, round startled eyes, bushy eyebrows and wiry grey hair sticking up under a wide, frayed straw hat. He wears a rust-orange quilted vest over a blue-striped pyjama top, grey work trousers pulled on over his pyjama bottoms and green rubber boots.\n- Sooty Giske: Giske after the prank: the same very tall, strong farmhand of about thirty with extremely long legs, a long oval face, a wide mouth, a small turned-up nose and bright hazel eyes, but her head is shaved completely bald. Her bald scalp, face and arms are smeared with greasy black chimney soot that shines with tallow, streaky and patchy like a chimney sweep's. Her plum-purple fleece sweater and dark-green work trousers are streaked with black, and she wears black rubber boots and a bunch of keys on a carabiner.\n\nStory world: Present-day rural Norway at the end of summer. The widower's smallholding is a red farmhouse with a kitchen window over a gravel yard, a shed and a field of tall, ripe industrial hemp at the bottom of the land. The village has a small supermarket, gravel roads and forest roads through dense spruce, closed by barrier poles, leading down to the main road. The farms have sheep barns built wall to wall with the farmhouse, solar panels on the barn roofs, goose houses and orange yard lights. The big farm at the forest edge has a farm shop and an old stabbur, a timber storehouse on stilts full of cured hams, sausages and flatbread. The turnip field lies on a hillside above a dark bog of tussocks. Giske's soot is greasy chimney soot mixed with tallow.\n\nThis story's season, light and colours: The last hazy days of August: a heavy golden afternoon in the hemp; then three blue-black nights lit by the orange glow of yard lights, a storm lantern and bare barn bulbs; and a white, foggy Sunday dawn over a dark bog. Accents: greasy soot black, plum purple and turnip violet.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

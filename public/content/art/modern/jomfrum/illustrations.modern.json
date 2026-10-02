@@ -1,0 +1,505 @@
+{
+  "storyId": "jomfrum",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Jomfru Maria som gudmor",
+  "textFile": "public/content/stories/jomfrum/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:11:40.237Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Det satt en brud i treet over kilden.",
+    "alt": "En vakker ung kvinne i brudekjole sitter barbeint i et gammelt tre over en kilde, med sløret hengende i greinene, og ser ansiktet sitt i vannet. På himmelen ser man en stjerne, en blek måne og sola som står opp.",
+    "prompt": "The Young Woman sits barefoot on a broad branch of the old oak over the Spring in the Park at dawn, in her ivory wedding dress, her long veil caught and trailing in the branches, looking down at her own lovely face mirrored in the still water. In the pale sky above the trees hang a sharp white star, a fading moon and the first gold of the rising sun.",
+    "characters": [
+      "den-unge-kvinnen"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young Woman, the same character seen from three sides. Keep the Young Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Spring in the Park. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: The Young Woman sits barefoot on a broad branch of the old oak over the Spring in the Park at dawn, in her ivory wedding dress, her long veil caught and trailing in the branches, looking down at her own lovely face mirrored in the still water. In the pale sky above the trees hang a sharp white star, a fading moon and the first gold of the rising sun.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young Woman: A strikingly lovely young woman of seventeen with a heart-shaped face, a small nose, large grey-green eyes with dark lashes and a soft, silent mouth. Her long ash-blonde hair falls loose to her waist. She wears a simple, long ivory wedding dress with a lace bodice and long lace sleeves, and a long, thin tulle veil pinned in her hair, and she goes barefoot.\n\nSetting:\n- the Spring in the Park: A small, clear spring edged with a low ring of old dressed stones, in a quiet, overgrown corner of a big park, with an old, gnarled oak leaning right over the water. Beyond the trees, lawns lead up to a big white nineteenth-century manor house with two small towers, which everyone calls the castle.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "gudmoren",
+      "name": "Jomfru Maria (gudmoren)",
+      "description": "En elegant, tidløs velgjører som betaler dåpen, oppdrar barnet i et stort stille hus og setter tre forbudte dører som prøve; hun tar barna for å speile sorg og straff, men gir til slutt alt tilbake.",
+      "look": "A tall, slender, serene woman who looks about thirty-five, with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, grave smile, and a faint, soft glow always around her head. A deep-blue silk shawl covers her dark hair. She wears a long, light cream wool coat over a deep-blue dress, a small silver lily brooch on the lapel, spotless pale-grey shoes and a simple pale leather handbag on her arm.",
+      "sheet": "characters/gudmoren.webp",
+      "turn": "characters/gudmoren-turn.mp4",
+      "portrait": "portraits/gudmoren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/gudmoren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/gudmoren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "jomfru-maria-gudmoren"
+    },
+    {
+      "slug": "jenta-liten",
+      "name": "Jenta som sjuåring",
+      "description": "Jenta som vokser opp i gudmorens store, stille hus. Da hun er sju, får hun nøkkelen med den lille brikken, og etter fire dager åpner hun den første døra.",
+      "look": "A small girl of seven with a heart-shaped face, a button nose, big curious grey-green eyes, rosy cheeks and long ash-blonde hair in a single plait with a coral-pink hair tie. She wears a peach-coloured cotton dress with short sleeves over white leggings and red canvas sneakers, and a small old key with a little round tag on a coral-pink ribbon round her neck.",
+      "sheet": "characters/jenta-liten.webp",
+      "turn": "characters/jenta-liten-turn.mp4",
+      "portrait": "portraits/jenta-liten.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/jenta-liten.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/jenta-liten-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "jenta",
+      "name": "Jenta som tolvåring",
+      "description": "Jenta når hun er tolv. Hun lover å holde seg unna den andre døra, og hun mener det, men hun tenker på den hele tida.",
+      "look": "A slender, long-legged girl of twelve with a heart-shaped face, a button nose, big grey-green eyes and a thoughtful frown, and long ash-blonde hair in a loose ponytail with a coral-pink hair tie. She wears an oversized peach-coloured hoodie, grey joggers and scuffed white trainers, with the small old key with its round tag on a coral-pink cord round her neck.",
+      "sheet": "characters/jenta.webp",
+      "turn": "characters/jenta-turn.mp4",
+      "portrait": "portraits/jenta.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/jenta.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/jenta-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "den-unge-kvinnen",
+      "name": "Den unge kvinnen (den stumme bruden)",
+      "description": "Jenta som de fattige foreldrene lar gudmoren ta med seg etter dåpen, og som mister stemmen, gifter seg med prinsen i en brudekjole fra loftet og må se tre nyfødte barn forsvinne.",
+      "look": "A strikingly lovely young woman of seventeen with a heart-shaped face, a small nose, large grey-green eyes with dark lashes and a soft, silent mouth. Her long ash-blonde hair falls loose to her waist. She wears a simple, long ivory wedding dress with a lace bodice and long lace sleeves, and a long, thin tulle veil pinned in her hair, and she goes barefoot.",
+      "sheet": "characters/den-unge-kvinnen.webp",
+      "turn": "characters/den-unge-kvinnen-turn.mp4",
+      "portrait": "portraits/den-unge-kvinnen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-unge-kvinnen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-unge-kvinnen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-unge-kvinnen"
+    },
+    {
+      "slug": "prinsen",
+      "name": "Prinsen (arvingen)",
+      "description": "En ung arving i et hus alle i distriktet kaller slottet; han finner henne i treet over kilden, insisterer på å gifte seg med henne og prøver å beskytte henne med vakter og kameraer som likevel ikke virker.",
+      "look": "A tall, easy-going young man of about twenty-five with a long, open face, a strong nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to his collar and a short, neatly trimmed light-brown beard. He wears a teal-blue wool overshirt over a pale-grey T-shirt, charcoal chinos, brown suede boots and a thin silver signet ring.",
+      "sheet": "characters/prinsen.webp",
+      "turn": "characters/prinsen-turn.mp4",
+      "portrait": "portraits/prinsen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "prinsen-arvingen"
+    },
+    {
+      "slug": "prinsens-mor",
+      "name": "Prinsens mor",
+      "description": "En kjølig og mistenksom matriark som ser den stumme bruden som en trussel, driver fram dommen om straff, men endrer seg når barna kommer tilbake og sannheten blir sagt høyt.",
+      "look": "A short, stout, stiff-backed woman of about sixty-five with a round double chin, a haughty little upturned nose, small sharp black eyes, thin pencilled eyebrows and pursed lips. Her silver-white hair is set high in stiff curls. She wears a high-necked deep-purple wool dress with a white collar, a string of large pearls, a heavy gold ring with a red stone, and gold-rimmed glasses on a thin gold chain that she lifts to peer at people.",
+      "sheet": "characters/prinsens-mor.webp",
+      "turn": "characters/prinsens-mor-turn.mp4",
+      "portrait": "portraits/prinsens-mor.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsens-mor.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsens-mor-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "prinsens-mor"
+    }
+  ],
+  "places": [
+    {
+      "slug": "korridoren",
+      "name": "the Long Corridor",
+      "look": "A long, cold, quiet corridor in a big old wooden villa: pale grey panelled walls, worn wide floorboards, tall windows with thin white curtains along one side, and at the far end three plain white panel doors side by side, each with an old brass handle, all shut."
+    },
+    {
+      "slug": "kilden",
+      "name": "the Spring in the Park",
+      "look": "A small, clear spring edged with a low ring of old dressed stones, in a quiet, overgrown corner of a big park, with an old, gnarled oak leaning right over the water. Beyond the trees, lawns lead up to a big white nineteenth-century manor house with two small towers, which everyone calls the castle."
+    },
+    {
+      "slug": "sletta",
+      "name": "the Bonfire Field",
+      "look": "A wide, grassy field below the park of a big white manor, sloping gently down towards dark forest, with an avenue of old trees along one side. In the middle of the field, a tall midsummer bonfire of old planks, pallets and branches is stacked high and tight around a tall wooden pole."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 9,
+      "anchor": "Hun holdt fram en nøkkel med en liten brikke.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun holdt fram en nøkkel med en liten brikke.",
+      "alt": "Det regner i skumringen. Ved en bil med lysene på står en dame i lang, lys kåpe og blått sjal og holder fram en liten nøkkel. En sliten mann med sekk på ryggen ser ned på de rene skoene hennes i sølen.",
+      "prompt": "Dusk in steady rain where a muddy gravel road runs into a dark spruce forest. A long dark car stands at the roadside with its headlights on, and beside it stands the Godmother, dry and spotless, holding out a small old key with a little round tag. Facing her, a tired, thin man of about thirty in a cheap, soaked rain jacket, with a rucksack on his back, stares down at her clean shoes in the mud.",
+      "characters": [
+        "gudmoren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Godmother, the same character seen from three sides. Keep the Godmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Godmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Dusk in steady rain where a muddy gravel road runs into a dark spruce forest. A long dark car stands at the roadside with its headlights on, and beside it stands the Godmother, dry and spotless, holding out a small old key with a little round tag. Facing her, a tired, thin man of about thirty in a cheap, soaked rain jacket, with a rucksack on his back, stares down at her clean shoes in the mud.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Godmother: A tall, slender, serene woman who looks about thirty-five, with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, grave smile, and a faint, soft glow always around her head. A deep-blue silk shawl covers her dark hair. She wears a long, light cream wool coat over a deep-blue dress, a small silver lily brooch on the lapel, spotless pale-grey shoes and a simple pale leather handbag on her arm.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 23,
+      "anchor": "Morgenen etter sto bilen utenfor huset.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Så la hun henne i armene til damen, gikk inn og lukket døra.",
+      "alt": "Foran et lite, slitent hus venter en lang, mørk bil med to menn i mørke frakker i baksetet. På trappa legger en ung mor babyen sin, i den eneste fine kjolen hun har, i armene til damen i den lyse kåpa.",
+      "prompt": "Morning outside a small, shabby rented house at the end of a gravel road where the forest begins. A long dark car waits with two men in dark coats sitting silently in the back seat. On the doorstep, a young mother with a tight, set face lays her baby daughter, dressed in the one fine little dress they have for her, into the arms of the Godmother without looking up.",
+      "characters": [
+        "gudmoren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Godmother, the same character seen from three sides. Keep the Godmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Godmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Morning outside a small, shabby rented house at the end of a gravel road where the forest begins. A long dark car waits with two men in dark coats sitting silently in the back seat. On the doorstep, a young mother with a tight, set face lays her baby daughter, dressed in the one fine little dress they have for her, into the arms of the Godmother without looking up.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Godmother: A tall, slender, serene woman who looks about thirty-five, with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, grave smile, and a faint, soft glow always around her head. A deep-blue silk shawl covers her dark hair. She wears a long, light cream wool coat over a deep-blue dress, a small silver lily brooch on the lapel, spotless pale-grey shoes and a simple pale leather handbag on her arm.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 33,
+      "anchor": "Jenta holdt seg unna i fire dager.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Vips! så fløy det ut en stjerne. Den gikk rett gjennom taket uten å lage hull.",
+      "alt": "Den lille jenta har åpnet den første av tre hvite dører på gløtt. En liten, hvit og skarp stjerne skyter ut og rett opp gjennom taket, og jenta står stiv med hånda på dørhåndtaket.",
+      "prompt": "In the Long Corridor, the Little Girl has opened the first of the three white doors just a crack. A small, hard, white star shoots out and straight up through the ceiling, leaving no hole behind, and its sharp light blazes on her face. She stands frozen with one hand still on the brass handle and her mouth open.",
+      "characters": [
+        "jenta-liten"
+      ],
+      "places": [
+        "korridoren"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Little Girl, the same character seen from three sides. Keep the Little Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Little Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Long Corridor. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the Long Corridor, the Little Girl has opened the first of the three white doors just a crack. A small, hard, white star shoots out and straight up through the ceiling, leaving no hole behind, and its sharp light blazes on her face. She stands frozen with one hand still on the brass handle and her mouth open.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Little Girl: A small girl of seven with a heart-shaped face, a button nose, big curious grey-green eyes, rosy cheeks and long ash-blonde hair in a single plait with a coral-pink hair tie. She wears a peach-coloured cotton dress with short sleeves over white leggings and red canvas sneakers, and a small old key with a little round tag on a coral-pink ribbon round her neck.\n\nSetting:\n- the Long Corridor: A long, cold, quiet corridor in a big old wooden villa: pale grey panelled walls, worn wide floorboards, tall windows with thin white curtains along one side, and at the far end three plain white panel doors side by side, each with an old brass handle, all shut.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 38,
+      "anchor": "Jenta lovte det, og hun mente det.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Månen var større enn hun hadde trodd, og kaldere.",
+      "alt": "Jenta, som nå er tolv, har åpnet den andre døra på gløtt. En diger, kald, sølvhvit måne glir forbi henne og ut gjennom vinduet uten å knuse glasset. Hun presser seg mot veggen.",
+      "prompt": "Evening in the Long Corridor. The Girl has opened the second white door a crack, and a huge, cold, silver-white moon, far bigger than she expected, glides out past her and on out through a tall window without breaking the glass. She presses herself flat against the wall with wide eyes, her ponytail and face lit silver.",
+      "characters": [
+        "jenta"
+      ],
+      "places": [
+        "korridoren"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Long Corridor. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Evening in the Long Corridor. The Girl has opened the second white door a crack, and a huge, cold, silver-white moon, far bigger than she expected, glides out past her and on out through a tall window without breaking the glass. She presses herself flat against the wall with wide eyes, her ponytail and face lit silver.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Girl: A slender, long-legged girl of twelve with a heart-shaped face, a button nose, big grey-green eyes and a thoughtful frown, and long ash-blonde hair in a loose ponytail with a coral-pink hair tie. She wears an oversized peach-coloured hoodie, grey joggers and scuffed white trainers, with the small old key with its round tag on a coral-pink cord round her neck.\n\nSetting:\n- the Long Corridor: A long, cold, quiet corridor in a big old wooden villa: pale grey panelled walls, worn wide floorboards, tall windows with thin white curtains along one side, and at the far end three plain white panel doors side by side, each with an old brass handle, all shut.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 46,
+      "anchor": "Varmen kom først, slik den gjør når man åpner ytterdøra en dag i juli.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Så kom lyset, og hele gangen ble gyllen.",
+      "alt": "Den tredje døra står på gløtt, og en glødende, gyllen kule stiger ut og fyller gangen med lys og varme. Jenta står i brudekjolen fra loftet med øynene knepet sammen.",
+      "prompt": "In the Long Corridor on a summer afternoon, the third white door stands open a crack, and a glowing golden ball rises out of the room, flooding the whole corridor with dazzling light and heat. The Young Woman, in the ivory wedding dress and veil she found in the attic, stands with her eyes screwed shut, unable to look away, her hair and veil stirring in the hot light.",
+      "characters": [
+        "den-unge-kvinnen"
+      ],
+      "places": [
+        "korridoren"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young Woman, the same character seen from three sides. Keep the Young Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Long Corridor. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the Long Corridor on a summer afternoon, the third white door stands open a crack, and a glowing golden ball rises out of the room, flooding the whole corridor with dazzling light and heat. The Young Woman, in the ivory wedding dress and veil she found in the attic, stands with her eyes screwed shut, unable to look away, her hair and veil stirring in the hot light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young Woman: A strikingly lovely young woman of seventeen with a heart-shaped face, a small nose, large grey-green eyes with dark lashes and a soft, silent mouth. Her long ash-blonde hair falls loose to her waist. She wears a simple, long ivory wedding dress with a lace bodice and long lace sleeves, and a long, thin tulle veil pinned in her hair, and she goes barefoot.\n\nSetting:\n- the Long Corridor: A long, cold, quiet corridor in a big old wooden villa: pale grey panelled walls, worn wide floorboards, tall windows with thin white curtains along one side, and at the far end three plain white panel doors side by side, each with an old brass handle, all shut.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 53,
+      "anchor": "Hun gikk langs riksveien.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "En bil stoppet, og sjåføren spurte om hun trengte hjelp. Hun kunne ikke svare.",
+      "alt": "Den unge kvinnen går barbeint langs riksveien i brudekjole og slør. En bil har stoppet ved siden av henne, og sjåføren lener seg over og spør om hun trenger hjelp.",
+      "prompt": "The verge of a main road through spruce forest on a grey summer day. The Young Woman walks barefoot along the verge in her ivory wedding dress and veil. A car has stopped beside her with the window down, and the driver, a middle-aged man in a fleece, leans across to ask if she needs help; she looks at him and cannot answer. Another car slows down as it passes.",
+      "characters": [
+        "den-unge-kvinnen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young Woman, the same character seen from three sides. Keep the Young Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: The verge of a main road through spruce forest on a grey summer day. The Young Woman walks barefoot along the verge in her ivory wedding dress and veil. A car has stopped beside her with the window down, and the driver, a middle-aged man in a fleece, leans across to ask if she needs help; she looks at him and cannot answer. Another car slows down as it passes.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young Woman: A strikingly lovely young woman of seventeen with a heart-shaped face, a small nose, large grey-green eyes with dark lashes and a soft, silent mouth. Her long ash-blonde hair falls loose to her waist. She wears a simple, long ivory wedding dress with a lace bodice and long lace sleeves, and a long, thin tulle veil pinned in her hair, and she goes barefoot.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 57,
+      "anchor": "Hun satte fra seg mugga, gikk opp til huset og sa opp.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Ser jeg sånn ut», sa hun, «er jeg for god til å bære vann.»",
+      "alt": "En sommervikar har satt fra seg mugga ved kilden og går opp mot det store, hvite huset med nesen i været. Høyt oppe i eika over kilden sitter den unge kvinnen i brudekjole og ser etter henne.",
+      "prompt": "Early morning at the Spring in the Park, with mist over the grass. A young summer temp in a black T-shirt and a white apron has set down her glass jug on the stone edge of the spring and marches off towards the big white house with her chin in the air, one hand on her cheek. High above her in the old oak over the spring, the Young Woman sits in silence, her veil caught in the branches, and watches her go.",
+      "characters": [
+        "den-unge-kvinnen"
+      ],
+      "places": [
+        "kilden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young Woman, the same character seen from three sides. Keep the Young Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Spring in the Park. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Early morning at the Spring in the Park, with mist over the grass. A young summer temp in a black T-shirt and a white apron has set down her glass jug on the stone edge of the spring and marches off towards the big white house with her chin in the air, one hand on her cheek. High above her in the old oak over the spring, the Young Woman sits in silence, her veil caught in the branches, and watches her go.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young Woman: A strikingly lovely young woman of seventeen with a heart-shaped face, a small nose, large grey-green eyes with dark lashes and a soft, silent mouth. Her long ash-blonde hair falls loose to her waist. She wears a simple, long ivory wedding dress with a lace bodice and long lace sleeves, and a long, thin tulle veil pinned in her hair, and she goes barefoot.\n\nSetting:\n- the Spring in the Park: A small, clear spring edged with a low ring of old dressed stones, in a quiet, overgrown corner of a big park, with an old, gnarled oak leaning right over the water. Beyond the trees, lawns lead up to a big white nineteenth-century manor house with two small towers, which everyone calls the castle.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 62,
+      "anchor": "Hun var barbeint, og sløret hadde hengt seg fast i en grein.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han rakte opp hendene, og hun kom ned.",
+      "alt": "Prinsen står ved foten av eika over kilden og rekker hendene opp mot den unge kvinnen. Hun sitter barbeint i brudekjole i treet, med sløret hengende fast i en grein, og begynner å klatre ned.",
+      "prompt": "At the Spring in the Park in soft morning light, the Prince stands at the foot of the old oak with both hands raised, talking calmly, the way you talk to a cat on a roof. Above him, the Young Woman, barefoot in her wedding dress, her veil caught on a branch, looks down at him in silence and begins to climb down.",
+      "characters": [
+        "prinsen",
+        "den-unge-kvinnen"
+      ],
+      "places": [
+        "kilden"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Young Woman, the same character seen from three sides. Keep the Young Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Spring in the Park. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the Spring in the Park in soft morning light, the Prince stands at the foot of the old oak with both hands raised, talking calmly, the way you talk to a cat on a roof. Above him, the Young Woman, barefoot in her wedding dress, her veil caught on a branch, looks down at him in silence and begins to climb down.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, easy-going young man of about twenty-five with a long, open face, a strong nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to his collar and a short, neatly trimmed light-brown beard. He wears a teal-blue wool overshirt over a pale-grey T-shirt, charcoal chinos, brown suede boots and a thin silver signet ring.\n- the Young Woman: A strikingly lovely young woman of seventeen with a heart-shaped face, a small nose, large grey-green eyes with dark lashes and a soft, silent mouth. Her long ash-blonde hair falls loose to her waist. She wears a simple, long ivory wedding dress with a lace bodice and long lace sleeves, and a long, thin tulle veil pinned in her hair, and she goes barefoot.\n\nSetting:\n- the Spring in the Park: A small, clear spring edged with a low ring of old dressed stones, in a quiet, overgrown corner of a big park, with an old, gnarled oak leaning right over the water. Beyond the trees, lawns lead up to a big white nineteenth-century manor house with two small towers, which everyone calls the castle.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 68,
+      "anchor": "Men i fødselstimen sovnet vaktene.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Da barnet var født, sto gudmoren ved senga. Ingen hadde sett henne komme inn.",
+      "alt": "Fire vakter og ei jordmor sover på stolene i et rom med sykehusseng og flimrende skjermer. Den unge kvinnen ligger i senga med den nyfødte babyen, og ved senga står gudmoren.",
+      "prompt": "Night in a room in the east wing fitted out like a hospital room, with a hospital bed, monitors whose screens flicker with grey snow, and cameras in the corners. Four guards in dark uniforms have fallen asleep on chairs along the wall, and a midwife sleeps sitting up with her blue gloves still on. The Young Woman, exhausted in a pale hospital gown, lies in the bed with her newborn baby, and beside the bed, far too close, stands the Godmother.",
+      "characters": [
+        "den-unge-kvinnen",
+        "gudmoren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young Woman, the same character seen from three sides. Keep the Young Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Godmother, the same character seen from three sides. Keep the Godmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Godmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night in a room in the east wing fitted out like a hospital room, with a hospital bed, monitors whose screens flicker with grey snow, and cameras in the corners. Four guards in dark uniforms have fallen asleep on chairs along the wall, and a midwife sleeps sitting up with her blue gloves still on. The Young Woman, exhausted in a pale hospital gown, lies in the bed with her newborn baby, and beside the bed, far too close, stands the Godmother.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young Woman: A strikingly lovely young woman of seventeen with a heart-shaped face, a small nose, large grey-green eyes with dark lashes and a soft, silent mouth. Her long ash-blonde hair falls loose to her waist. She wears a simple, long ivory wedding dress with a lace bodice and long lace sleeves, and a long, thin tulle veil pinned in her hair, and she goes barefoot.\n- the Godmother: A tall, slender, serene woman who looks about thirty-five, with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, grave smile, and a faint, soft glow always around her head. A deep-blue silk shawl covers her dark hair. She wears a long, light cream wool coat over a deep-blue dress, a small silver lily brooch on the lapel, spotless pale-grey shoes and a simple pale leather handbag on her arm.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 74,
+      "anchor": "«Trollmennesker brenner man», sa prinsens mor ved frokosten",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Trollmennesker brenner man», sa prinsens mor ved frokosten.",
+      "alt": "Prinsens mor sitter rank ved enden av et langt frokostbord og smører en brødskive. Prinsen sitter blek overfor henne og stirrer på henne. Utenfor vinduet ser man en hekk som trenger klipping.",
+      "prompt": "Breakfast in the grand dining room of the big white manor. The Prince's Mother sits very upright at the head of a long table, calmly buttering a slice of toast and speaking without looking up. Across from her, the Prince, pale and unshaven, stares at her over an untouched cup of tea. Through the tall window behind her, a big, shaggy, overgrown hedge fills the garden.",
+      "characters": [
+        "prinsens-mor",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince's Mother, the same character seen from three sides. Keep the Prince's Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince's Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Breakfast in the grand dining room of the big white manor. The Prince's Mother sits very upright at the head of a long table, calmly buttering a slice of toast and speaking without looking up. Across from her, the Prince, pale and unshaven, stares at her over an untouched cup of tea. Through the tall window behind her, a big, shaggy, overgrown hedge fills the garden.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince's Mother: A short, stout, stiff-backed woman of about sixty-five with a round double chin, a haughty little upturned nose, small sharp black eyes, thin pencilled eyebrows and pursed lips. Her silver-white hair is set high in stiff curls. She wears a high-necked deep-purple wool dress with a white collar, a string of large pearls, a heavy gold ring with a red stone, and gold-rimmed glasses on a thin gold chain that she lifts to peer at people.\n- the Prince: A tall, easy-going young man of about twenty-five with a long, open face, a strong nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to his collar and a short, neatly trimmed light-brown beard. He wears a teal-blue wool overshirt over a pale-grey T-shirt, charcoal chinos, brown suede boots and a thin silver signet ring.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 83,
+      "anchor": "Det var sankthansaften.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hvert år satte de en heks av halm på toppen. I år ba prinsens mor dem la være.",
+      "alt": "Det store sankthansbålet står ferdig bygd rundt en påle. To arbeidere holder opp en heks av halm og gamle klær, men prinsens mor rekker opp hånda og rister på hodet.",
+      "prompt": "Midsummer Eve in the golden evening light on the Bonfire Field. The tall bonfire stands built high and tight around its pole. Two estate workers in green work clothes hold up a life-sized straw witch in old clothes and a headscarf, ready to lift her onto the top, but the Prince's Mother, standing stiffly nearby with her glasses raised, lifts one hand and shakes her head.",
+      "characters": [
+        "prinsens-mor"
+      ],
+      "places": [
+        "sletta"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince's Mother, the same character seen from three sides. Keep the Prince's Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince's Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Bonfire Field. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Midsummer Eve in the golden evening light on the Bonfire Field. The tall bonfire stands built high and tight around its pole. Two estate workers in green work clothes hold up a life-sized straw witch in old clothes and a headscarf, ready to lift her onto the top, but the Prince's Mother, standing stiffly nearby with her glasses raised, lifts one hand and shakes her head.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince's Mother: A short, stout, stiff-backed woman of about sixty-five with a round double chin, a haughty little upturned nose, small sharp black eyes, thin pencilled eyebrows and pursed lips. Her silver-white hair is set high in stiff curls. She wears a high-necked deep-purple wool dress with a white collar, a string of large pearls, a heavy gold ring with a red stone, and gold-rimmed glasses on a thin gold chain that she lifts to peer at people.\n\nSetting:\n- the Bonfire Field: A wide, grassy field below the park of a big white manor, sloping gently down towards dark forest, with an avenue of old trees along one side. In the middle of the field, a tall midsummer bonfire of old planks, pallets and branches is stacked high and tight around a tall wooden pole.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 87,
+      "anchor": "Da kom gudmoren opp fra parken, der det ikke gikk noen sti.",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Da kom gudmoren opp fra parken med to små barn ved hånda og et tredje på armen.",
+      "alt": "I skumringen kommer gudmoren opp fra parken med to små barn ved hånda og en baby på armen. Vaktene med hjelmer flytter seg for henne. Bak dem reiser det store sankthansbålet seg.",
+      "prompt": "Midsummer dusk on the Bonfire Field. The Godmother walks up out of the dark trees of the park, where there is no path, with two small children by the hand and a baby on her arm, glowing softly. A ring of guards in helmets steps aside for her without knowing why, and behind them the staff of the house watch in silence. Beyond them rises the tall bonfire stack against the pale night sky.",
+      "characters": [
+        "gudmoren"
+      ],
+      "places": [
+        "sletta"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Godmother, the same character seen from three sides. Keep the Godmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Godmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Bonfire Field. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Midsummer dusk on the Bonfire Field. The Godmother walks up out of the dark trees of the park, where there is no path, with two small children by the hand and a baby on her arm, glowing softly. A ring of guards in helmets steps aside for her without knowing why, and behind them the staff of the house watch in silence. Beyond them rises the tall bonfire stack against the pale night sky.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Godmother: A tall, slender, serene woman who looks about thirty-five, with an oval face, calm dark-brown eyes, a straight nose, softly arched dark brows and a gentle, grave smile, and a faint, soft glow always around her head. A deep-blue silk shawl covers her dark hair. She wears a long, light cream wool coat over a deep-blue dress, a small silver lily brooch on the lapel, spotless pale-grey shoes and a simple pale leather handbag on her arm.\n\nSetting:\n- the Bonfire Field: A wide, grassy field below the park of a big white manor, sloping gently down towards dark forest, with an avenue of old trees along one side. In the middle of the field, a tall midsummer bonfire of old planks, pallets and branches is stacked high and tight around a tall wooden pole.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "13",
+      "paragraph": 95,
+      "anchor": "Prinsens mor ble stående lenge.",
+      "file": "scenes/13.webp",
+      "sources": [
+        {
+          "file": "scenes/13.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/13-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Så gikk hun bort og la hånda på håret til den eldste, forsiktig.",
+      "alt": "Ved soloppgang sitter den unge kvinnen i gresset med den minste i et teppe, og prinsen sitter ved siden av henne med et lite barn på fanget. Prinsens mor legger hånda forsiktig på håret til det eldste barnet.",
+      "prompt": "Sunrise after the midsummer night on the Bonfire Field, the bonfire burnt down behind them to a heap of grey ash. The Young Woman, freed, sits on the dewy grass in a plain white dress, without her veil, holding the smallest baby in a borrowed blanket and talking and talking. The Prince sits close beside her with a toddler on his knee, and the eldest child, about two, stands by them. The Prince's Mother bends stiffly and lays her hand carefully on the eldest child's hair.",
+      "characters": [
+        "den-unge-kvinnen",
+        "prinsen",
+        "prinsens-mor"
+      ],
+      "places": [
+        "sletta"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young Woman, the same character seen from three sides. Keep the Young Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Prince's Mother, the same character seen from three sides. Keep the Prince's Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince's Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Bonfire Field. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Sunrise after the midsummer night on the Bonfire Field, the bonfire burnt down behind them to a heap of grey ash. The Young Woman, freed, sits on the dewy grass in a plain white dress, without her veil, holding the smallest baby in a borrowed blanket and talking and talking. The Prince sits close beside her with a toddler on his knee, and the eldest child, about two, stands by them. The Prince's Mother bends stiffly and lays her hand carefully on the eldest child's hair.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young Woman: A strikingly lovely young woman of seventeen with a heart-shaped face, a small nose, large grey-green eyes with dark lashes and a soft, silent mouth. Her long ash-blonde hair falls loose to her waist. She wears a simple, long ivory wedding dress with a lace bodice and long lace sleeves, and a long, thin tulle veil pinned in her hair, and she goes barefoot.\n- the Prince: A tall, easy-going young man of about twenty-five with a long, open face, a strong nose, warm hazel eyes that crinkle when he smiles, wavy light-brown hair swept back to his collar and a short, neatly trimmed light-brown beard. He wears a teal-blue wool overshirt over a pale-grey T-shirt, charcoal chinos, brown suede boots and a thin silver signet ring.\n- the Prince's Mother: A short, stout, stiff-backed woman of about sixty-five with a round double chin, a haughty little upturned nose, small sharp black eyes, thin pencilled eyebrows and pursed lips. Her silver-white hair is set high in stiff curls. She wears a high-necked deep-purple wool dress with a white collar, a string of large pearls, a heavy gold ring with a red stone, and gold-rimmed glasses on a thin gold chain that she lifts to peer at people.\n\nSetting:\n- the Bonfire Field: A wide, grassy field below the park of a big white manor, sloping gently down towards dark forest, with an avenue of old trees along one side. In the middle of the field, a tall midsummer bonfire of old planks, pallets and branches is stacked high and tight around a tall wooden pole.\n\nStory world: Present-day rural eastern Norway. The poor family rents a small, shabby house at the end of a muddy gravel road where the forest begins. The godmother drives a long dark car with two silent men in dark coats in the back seat. Her house is a big, old, quiet wooden villa with long, cold corridors and tall windows; three plain white doors stand side by side at the end of the longest corridor. The star is small, white and sharp; the moon huge, cold and silver-white; the sun a glowing golden ball. Far off, past a main road and a great spruce forest, stands the big white manor everyone calls the castle, with a park, a stone-edged spring under an old oak, a chapel, an east wing and a grassy field below the park. The key has a small round tag.\n\nThis story's season, light and colours: Rain and mud at a grey dusk at the start; inside the old villa, cold grey-white corridors lit by the star's sharp white, the moon's cold silver and the sun's molten gold; then a long, luminous Norwegian summer: pale green park lawns, dark spruce, white nights and a golden midsummer dusk. Accents: the godmother's deep blue and the ivory of the wedding dress.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

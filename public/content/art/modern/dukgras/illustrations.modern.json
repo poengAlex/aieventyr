@@ -1,0 +1,314 @@
+{
+  "storyId": "dukgras",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Dukken i gresset",
+  "textFile": "public/content/stories/dukgras/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:08:44.039Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Hun var ikke høyere enn mobilen hans.",
+    "alt": "Askeladden sitter i det høye gresset bak rasteplassen med bilnøklene i hånda. I den andre hånda står en bitteliten jente i hvit kjole og ser opp på ham.",
+    "prompt": "Behind a roadside rest area, in long grass full of wildflowers, Askeladden sits with his knees up, his car keys dangling from one hand. On the open palm of his other hand stands the Tiny Grass Maiden, looking straight up at him, calm and curious. He stares back at her, his tear-streaked face breaking into a dimpled, astonished smile. The grey car park lies just beyond the grass.",
+    "characters": [
+      "askeladden",
+      "dukken-i-gresset"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Tiny Grass Maiden, the same character seen from three sides. Keep the Tiny Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Tiny Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: Behind a roadside rest area, in long grass full of wildflowers, Askeladden sits with his knees up, his car keys dangling from one hand. On the open palm of his other hand stands the Tiny Grass Maiden, looking straight up at him, calm and curious. He stares back at her, his tear-streaked face breaking into a dimpled, astonished smile. The grey car park lies just beyond the grass.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.\n- the Tiny Grass Maiden: A tiny young woman no taller than a mobile phone, perfectly formed with the natural proportions of a grown woman, slim and quick, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with little white and yellow flowers tucked into it. She wears a simple white dress to her ankles and tiny green shoes.\n\nStory world: Present-day Norway in early summer. The family conglomerate began with one loom in a basement; now it owns three factories, a glass-fronted head office and a white villa by the water behind a wrought-iron gate. The rest area is a roadside café with a car park on a main road; behind it lies a meadow of long grass and wildflowers with round tussocks. Under one tussock is the Doll's home: a small room of grass with flowers growing from the ceiling and a single tiny chair. The tiny shirt is white linen, no longer than a car key. Her carriage is a polished silver spoon with a harness of sewing thread, pulled by two white mice. The old road is a narrow gravel road along a dark lake, squeezed between a rock wall and wet stones, with the new road high above.\n\nThis story's season, light and colours: Early summer with long, light days: fresh green grass and wildflowers (buttercups, clover, cow parsley) behind a grey tarmac car park and a low golden evening sun; the lake dark and cold under a drizzly grey sky; the homecoming at the villa in steady summer rain; the wedding on a pale, bright midsummer evening by the water. Accents: polished silver, sky blue and grass green.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "description": "Yngstesønnen som blir etterlatt ved en rasteplass, men som møter det uventede med åpent sinn og ender med å være den eneste som kommer hjem med noe ekte.",
+      "look": "A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.",
+      "sheet": "characters/askeladden.webp",
+      "turn": "characters/askeladden-turn.mp4",
+      "portrait": "portraits/askeladden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/askeladden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/askeladden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "askeladden"
+    },
+    {
+      "slug": "dukken-i-gresset",
+      "name": "Dukken i gresset",
+      "description": "En bitte liten jente som bor i en skjult lysning i gresset, syr en skjorte fra tråd til plagg på én dag, og blir senere forvandlet til en voksen kvinne etter å ha falt i innsjøen.",
+      "look": "A tiny young woman no taller than a mobile phone, perfectly formed with the natural proportions of a grown woman, slim and quick, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with little white and yellow flowers tucked into it. She wears a simple white dress to her ankles and tiny green shoes.",
+      "sheet": "characters/dukken-i-gresset.webp",
+      "turn": "characters/dukken-i-gresset-turn.mp4",
+      "portrait": "portraits/dukken-i-gresset.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dukken-i-gresset.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dukken-i-gresset-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "dukken-i-gresset"
+    },
+    {
+      "slug": "dukken-i-gresset-stor",
+      "name": "Dukken i gresset (stor)",
+      "description": "Dukken i gresset etter at sjømannen har båret henne opp av innsjøen: like stor som et hvilket som helst voksent menneske, og vakrere enn før.",
+      "look": "A young woman in her twenties, now as tall as any grown woman, slim and upright, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with a small gold crown pinned on top. She wears a simple cornflower-blue dress to her ankles and green shoes.",
+      "sheet": "characters/dukken-i-gresset-stor.webp",
+      "turn": "characters/dukken-i-gresset-stor-turn.mp4",
+      "portrait": "portraits/dukken-i-gresset-stor.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dukken-i-gresset-stor.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dukken-i-gresset-stor-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "faren",
+      "name": "Faren",
+      "description": "En selvskapt konsernsjef og lokal maktperson som setter en hard prøve for sønnene, men som respekterer håndverket og holder ord når kravet er oppfylt.",
+      "look": "A tall, thin, elderly self-made industrialist of about seventy with narrow, sloping shoulders, a long, lined face, a long pointed nose, shrewd grey eyes under thin arched eyebrows and a neat, pointed grey goatee. He wears a deep-blue three-piece suit, a silk tie patterned with rosemaling flowers in red, white and yellow and polished dark-blue shoes, and keeps a small brass folding magnifier, a thread counter, in his waistcoat pocket.",
+      "sheet": "characters/faren.webp",
+      "turn": "characters/faren-turn.mp4",
+      "portrait": "portraits/faren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/faren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/faren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "faren"
+    },
+    {
+      "slug": "sjomannen",
+      "name": "Sjømannen fra innsjøen",
+      "description": "En taus mann i mørk regnfrakk som bærer Dukken i gresset opp av innsjøen og forsvinner uten et ord; Askeladden kaller ham sjømannen, siden havmann blir feil i en innsjø.",
+      "look": "A tall, broad-shouldered man of no clear age with a broad, weathered, kind face, a wide flat nose, calm sea-green eyes and long, straight black hair plastered wet down his back, with a strand of pondweed in it. He wears a long dark raincoat, soaked through and clinging to him, dark trousers and bare feet, and a necklace of small white river shells at his throat. Water streams from him constantly.",
+      "sheet": "characters/sjomannen.webp",
+      "turn": "characters/sjomannen-turn.mp4",
+      "portrait": "portraits/sjomannen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/sjomannen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/sjomannen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "sjomannen-fra-innsjoen"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 6,
+      "anchor": "Hver av dem fikk en ny bil og en ny dress",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Ved den første rasteplassen samlet de elleve eldste seg rundt bilen til den yngste.",
+      "alt": "Tolv nye biler står parkert ved en veikro. De elleve eldste brødrene i nye dresser står i ring rundt Askeladden, som lener seg mot bilen sin med bilnøklene i hånda.",
+      "prompt": "A roadside rest area on a Friday morning: twelve new cars stand parked in a row outside a small roadside café. The eleven older brothers, eleven young men in new dark suits, have gathered in a tight half-circle around the youngest one's car. Askeladden stands with his back against his car door, car keys in his hand, looking from face to face, while the eldest brother does the talking.",
+      "characters": [
+        "askeladden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A roadside rest area on a Friday morning: twelve new cars stand parked in a row outside a small roadside café. The eleven older brothers, eleven young men in new dark suits, have gathered in a tight half-circle around the youngest one's car. Askeladden stands with his back against his car door, car keys in his hand, looking from face to face, while the eldest brother does the talking.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.\n\nStory world: Present-day Norway in early summer. The family conglomerate began with one loom in a basement; now it owns three factories, a glass-fronted head office and a white villa by the water behind a wrought-iron gate. The rest area is a roadside café with a car park on a main road; behind it lies a meadow of long grass and wildflowers with round tussocks. Under one tussock is the Doll's home: a small room of grass with flowers growing from the ceiling and a single tiny chair. The tiny shirt is white linen, no longer than a car key. Her carriage is a polished silver spoon with a harness of sewing thread, pulled by two white mice. The old road is a narrow gravel road along a dark lake, squeezed between a rock wall and wet stones, with the new road high above.\n\nThis story's season, light and colours: Early summer with long, light days: fresh green grass and wildflowers (buttercups, clover, cow parsley) behind a grey tarmac car park and a low golden evening sun; the lake dark and cold under a drizzly grey sky; the homecoming at the villa in steady summer rain; the wedding on a pale, bright midsummer evening by the water. Accents: polished silver, sky blue and grass green.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 16,
+      "anchor": "Hvordan han kom seg ned, klarte han aldri å forklare etterpå.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Jenta satte seg i stolen, glattet på kjolen og la hendene i fanget.",
+      "alt": "Inne i et lite rom av gress med blomster i taket sitter den bittelille jenta i en stol og glatter på kjolen. Askeladden sitter sammenkrøpet på gulvet og ser på henne.",
+      "prompt": "Inside a small, round room made of grass, with long stalks arching overhead, wildflowers growing down from the ceiling and green light filtering through. The Tiny Grass Maiden sits upright in her single tiny chair in the middle of the room, smoothing her dress and folding her hands in her lap, looking up at her guest. Askeladden sits cross-legged on the grass floor in front of her, hunched under the low ceiling, blinking in wonder.",
+      "characters": [
+        "askeladden",
+        "dukken-i-gresset"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Tiny Grass Maiden, the same character seen from three sides. Keep the Tiny Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Tiny Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Inside a small, round room made of grass, with long stalks arching overhead, wildflowers growing down from the ceiling and green light filtering through. The Tiny Grass Maiden sits upright in her single tiny chair in the middle of the room, smoothing her dress and folding her hands in her lap, looking up at her guest. Askeladden sits cross-legged on the grass floor in front of her, hunched under the low ceiling, blinking in wonder.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.\n- the Tiny Grass Maiden: A tiny young woman no taller than a mobile phone, perfectly formed with the natural proportions of a grown woman, slim and quick, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with little white and yellow flowers tucked into it. She wears a simple white dress to her ankles and tiny green shoes.\n\nStory world: Present-day Norway in early summer. The family conglomerate began with one loom in a basement; now it owns three factories, a glass-fronted head office and a white villa by the water behind a wrought-iron gate. The rest area is a roadside café with a car park on a main road; behind it lies a meadow of long grass and wildflowers with round tussocks. Under one tussock is the Doll's home: a small room of grass with flowers growing from the ceiling and a single tiny chair. The tiny shirt is white linen, no longer than a car key. Her carriage is a polished silver spoon with a harness of sewing thread, pulled by two white mice. The old road is a narrow gravel road along a dark lake, squeezed between a rock wall and wet stones, with the new road high above.\n\nThis story's season, light and colours: Early summer with long, light days: fresh green grass and wildflowers (buttercups, clover, cow parsley) behind a grey tarmac car park and a low golden evening sun; the lake dark and cold under a drizzly grey sky; the homecoming at the villa in steady summer rain; the wedding on a pale, bright midsummer evening by the water. Accents: polished silver, sky blue and grass green.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 22,
+      "anchor": "Faren satt bak skrivebordet da Askeladden la skjorta foran ham.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Så tok han fram trådtelleren og bøyde seg over skjorta.",
+      "alt": "Faren sitter bak et stort skrivebord og studerer den bittelille skjorta gjennom en liten lupe. Askeladden står på den andre siden og venter på at han skal le.",
+      "prompt": "In a large, glass-walled office with a view over factory roofs, the Chairman sits behind a broad, empty desk and bends low over the tiny white shirt lying on it, peering at the stitches through a small brass thread counter held close to his eye. A desk drawer stands open. Askeladden stands on the other side of the desk with his hands in his pockets, bracing himself for laughter.",
+      "characters": [
+        "faren",
+        "askeladden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Chairman, the same character seen from three sides. Keep the Chairman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Chairman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In a large, glass-walled office with a view over factory roofs, the Chairman sits behind a broad, empty desk and bends low over the tiny white shirt lying on it, peering at the stitches through a small brass thread counter held close to his eye. A desk drawer stands open. Askeladden stands on the other side of the desk with his hands in his pockets, bracing himself for laughter.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Chairman: A tall, thin, elderly self-made industrialist of about seventy with narrow, sloping shoulders, a long, lined face, a long pointed nose, shrewd grey eyes under thin arched eyebrows and a neat, pointed grey goatee. He wears a deep-blue three-piece suit, a silk tie patterned with rosemaling flowers in red, white and yellow and polished dark-blue shoes, and keeps a small brass folding magnifier, a thread counter, in his waistcoat pocket.\n- Askeladden: A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.\n\nStory world: Present-day Norway in early summer. The family conglomerate began with one loom in a basement; now it owns three factories, a glass-fronted head office and a white villa by the water behind a wrought-iron gate. The rest area is a roadside café with a car park on a main road; behind it lies a meadow of long grass and wildflowers with round tussocks. Under one tussock is the Doll's home: a small room of grass with flowers growing from the ceiling and a single tiny chair. The tiny shirt is white linen, no longer than a car key. Her carriage is a polished silver spoon with a harness of sewing thread, pulled by two white mice. The old road is a narrow gravel road along a dark lake, squeezed between a rock wall and wet stones, with the new road high above.\n\nThis story's season, light and colours: Early summer with long, light days: fresh green grass and wildflowers (buttercups, clover, cow parsley) behind a grey tarmac car park and a low golden evening sun; the lake dark and cold under a drizzly grey sky; the homecoming at the villa in steady summer rain; the wedding on a pale, bright midsummer evening by the water. Accents: polished silver, sky blue and grass green.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 35,
+      "anchor": "Bilen fikk stå på rasteplassen med dressen i baksetet",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Musene trakk. Askeladden gikk på den andre siden av veien.",
+      "alt": "Den bittelille jenta i blå kjole og liten krone sitter i en sølvskje som to hvite mus drar langs en grusvei ved vannet. På den andre siden av veien går Askeladden forsiktig med sekk på ryggen.",
+      "prompt": "A narrow, empty gravel road runs along a still lake under birches in the afternoon. On one side of the road, the Tiny Grass Maiden, dressed today in a little cornflower-blue dress with a tiny gold crown in her hair instead of her white dress, sits upright in a polished silver spoon pulled by two white mice, holding reins of sewing thread. On the far side of the road, Askeladden walks bent forward with his rucksack on his back, watching every step.",
+      "characters": [
+        "askeladden",
+        "dukken-i-gresset"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Tiny Grass Maiden, the same character seen from three sides. Keep the Tiny Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Tiny Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A narrow, empty gravel road runs along a still lake under birches in the afternoon. On one side of the road, the Tiny Grass Maiden, dressed today in a little cornflower-blue dress with a tiny gold crown in her hair instead of her white dress, sits upright in a polished silver spoon pulled by two white mice, holding reins of sewing thread. On the far side of the road, Askeladden walks bent forward with his rucksack on his back, watching every step.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.\n- the Tiny Grass Maiden: A tiny young woman no taller than a mobile phone, perfectly formed with the natural proportions of a grown woman, slim and quick, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with little white and yellow flowers tucked into it. She wears a simple white dress to her ankles and tiny green shoes.\n\nStory world: Present-day Norway in early summer. The family conglomerate began with one loom in a basement; now it owns three factories, a glass-fronted head office and a white villa by the water behind a wrought-iron gate. The rest area is a roadside café with a car park on a main road; behind it lies a meadow of long grass and wildflowers with round tussocks. Under one tussock is the Doll's home: a small room of grass with flowers growing from the ceiling and a single tiny chair. The tiny shirt is white linen, no longer than a car key. Her carriage is a polished silver spoon with a harness of sewing thread, pulled by two white mice. The old road is a narrow gravel road along a dark lake, squeezed between a rock wall and wet stones, with the new road high above.\n\nThis story's season, light and colours: Early summer with long, light days: fresh green grass and wildflowers (buttercups, clover, cow parsley) behind a grey tarmac car park and a low golden evening sun; the lake dark and cold under a drizzly grey sky; the homecoming at the villa in steady summer rain; the wedding on a pale, bright midsummer evening by the water. Accents: polished silver, sky blue and grass green.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 42,
+      "anchor": "Mannen vasset inn mot land og la henne i armene til Askeladden.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Mannen vasset inn mot land og la henne i armene til Askeladden.",
+      "alt": "En mann i mørk regnfrakk vasser inn mot land med jenta i armene. Nå er hun like stor som et voksent menneske. Askeladden kneler på steinene i vannkanten og strekker ut armene.",
+      "prompt": "At the foot of a rock wall, where the old gravel road runs right down to the dark lake among wet, slippery stones, the Lake Man wades in towards the shore through waist-deep water, carrying the Grass Maiden in his arms, now as tall as any grown woman, water streaming from her hair. Askeladden kneels on the stones at the water's edge, soaked to the shoulders, holding out his arms to take her. A silver spoon lies upside down on the stones.",
+      "characters": [
+        "sjomannen",
+        "dukken-i-gresset-stor",
+        "askeladden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Lake Man, the same character seen from three sides. Keep the Lake Man's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Lake Man only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Grass Maiden, the same character seen from three sides. Keep the Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the foot of a rock wall, where the old gravel road runs right down to the dark lake among wet, slippery stones, the Lake Man wades in towards the shore through waist-deep water, carrying the Grass Maiden in his arms, now as tall as any grown woman, water streaming from her hair. Askeladden kneels on the stones at the water's edge, soaked to the shoulders, holding out his arms to take her. A silver spoon lies upside down on the stones.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Lake Man: A tall, broad-shouldered man of no clear age with a broad, weathered, kind face, a wide flat nose, calm sea-green eyes and long, straight black hair plastered wet down his back, with a strand of pondweed in it. He wears a long dark raincoat, soaked through and clinging to him, dark trousers and bare feet, and a necklace of small white river shells at his throat. Water streams from him constantly.\n- the Grass Maiden: A young woman in her twenties, now as tall as any grown woman, slim and upright, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with a small gold crown pinned on top. She wears a simple cornflower-blue dress to her ankles and green shoes.\n- Askeladden: A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.\n\nStory world: Present-day Norway in early summer. The family conglomerate began with one loom in a basement; now it owns three factories, a glass-fronted head office and a white villa by the water behind a wrought-iron gate. The rest area is a roadside café with a car park on a main road; behind it lies a meadow of long grass and wildflowers with round tussocks. Under one tussock is the Doll's home: a small room of grass with flowers growing from the ceiling and a single tiny chair. The tiny shirt is white linen, no longer than a car key. Her carriage is a polished silver spoon with a harness of sewing thread, pulled by two white mice. The old road is a narrow gravel road along a dark lake, squeezed between a rock wall and wet stones, with the new road high above.\n\nThis story's season, light and colours: Early summer with long, light days: fresh green grass and wildflowers (buttercups, clover, cow parsley) behind a grey tarmac car park and a low golden evening sun; the lake dark and cold under a drizzly grey sky; the homecoming at the villa in steady summer rain; the wedding on a pale, bright midsummer evening by the water. Accents: polished silver, sky blue and grass green.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 51,
+      "anchor": "Faren gikk ned et trinn og gned en svart dråpe mellom tommelen og pekefingeren.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Ikke fargeekte», sa faren.",
+      "alt": "Faren står på trappa til villaen og gnir en svart dråpe mellom fingrene. Nedenfor står de elleve brødrene med kjærestene sine, som har svarte striper nedover ansiktene. Ved porten kommer Askeladden og jenta.",
+      "prompt": "Steady rain outside a white villa by the water. The Chairman stands on the top step under the porch roof, rubbing a black drop between his thumb and forefinger with a critical frown. Below him on the wet gravel stand the eleven brothers in soaked suits, each beside a sulky sweetheart in a big black hat, with black streaks running down all eleven of the sweethearts' faces. At the open wrought-iron gate behind them, Askeladden and the Grass Maiden have just arrived.",
+      "characters": [
+        "faren",
+        "askeladden",
+        "dukken-i-gresset-stor"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Chairman, the same character seen from three sides. Keep the Chairman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Chairman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Grass Maiden, the same character seen from three sides. Keep the Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Steady rain outside a white villa by the water. The Chairman stands on the top step under the porch roof, rubbing a black drop between his thumb and forefinger with a critical frown. Below him on the wet gravel stand the eleven brothers in soaked suits, each beside a sulky sweetheart in a big black hat, with black streaks running down all eleven of the sweethearts' faces. At the open wrought-iron gate behind them, Askeladden and the Grass Maiden have just arrived.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Chairman: A tall, thin, elderly self-made industrialist of about seventy with narrow, sloping shoulders, a long, lined face, a long pointed nose, shrewd grey eyes under thin arched eyebrows and a neat, pointed grey goatee. He wears a deep-blue three-piece suit, a silk tie patterned with rosemaling flowers in red, white and yellow and polished dark-blue shoes, and keeps a small brass folding magnifier, a thread counter, in his waistcoat pocket.\n- Askeladden: A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.\n- the Grass Maiden: A young woman in her twenties, now as tall as any grown woman, slim and upright, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with a small gold crown pinned on top. She wears a simple cornflower-blue dress to her ankles and green shoes.\n\nStory world: Present-day Norway in early summer. The family conglomerate began with one loom in a basement; now it owns three factories, a glass-fronted head office and a white villa by the water behind a wrought-iron gate. The rest area is a roadside café with a car park on a main road; behind it lies a meadow of long grass and wildflowers with round tussocks. Under one tussock is the Doll's home: a small room of grass with flowers growing from the ceiling and a single tiny chair. The tiny shirt is white linen, no longer than a car key. Her carriage is a polished silver spoon with a harness of sewing thread, pulled by two white mice. The old road is a narrow gravel road along a dark lake, squeezed between a rock wall and wet stones, with the new road high above.\n\nThis story's season, light and colours: Early summer with long, light days: fresh green grass and wildflowers (buttercups, clover, cow parsley) behind a grey tarmac car park and a low golden evening sun; the lake dark and cold under a drizzly grey sky; the homecoming at the villa in steady summer rain; the wedding on a pale, bright midsummer evening by the water. Accents: polished silver, sky blue and grass green.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 58,
+      "anchor": "Askeladden og Dukken i gresset holdt bryllup ved vannet samme sommer.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Denne gangen hadde faren med seg en skjorte å vise fram.",
+      "alt": "Ved et langbord ved vannet holder faren tale og viser fram en bitteliten skjorte i en glassramme. Ved siden av ham sitter Askeladden og bruden og smiler til hverandre.",
+      "prompt": "A bright midsummer evening on the lawn of the villa by the water, with a long wedding table under birch trees. The Chairman stands at the head of the table giving his speech, holding up a tiny white shirt in a small glass frame for everyone to see. Beside him sit the bride and groom, Askeladden and the Grass Maiden, with a wreath of wildflowers in her hair, smiling at each other. Twelve seated guests raise their glasses.",
+      "characters": [
+        "faren",
+        "askeladden",
+        "dukken-i-gresset-stor"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Chairman, the same character seen from three sides. Keep the Chairman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Chairman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Grass Maiden, the same character seen from three sides. Keep the Grass Maiden's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Grass Maiden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A bright midsummer evening on the lawn of the villa by the water, with a long wedding table under birch trees. The Chairman stands at the head of the table giving his speech, holding up a tiny white shirt in a small glass frame for everyone to see. Beside him sit the bride and groom, Askeladden and the Grass Maiden, with a wreath of wildflowers in her hair, smiling at each other. Twelve seated guests raise their glasses.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Chairman: A tall, thin, elderly self-made industrialist of about seventy with narrow, sloping shoulders, a long, lined face, a long pointed nose, shrewd grey eyes under thin arched eyebrows and a neat, pointed grey goatee. He wears a deep-blue three-piece suit, a silk tie patterned with rosemaling flowers in red, white and yellow and polished dark-blue shoes, and keeps a small brass folding magnifier, a thread counter, in his waistcoat pocket.\n- Askeladden: A tall, gangly young man of twenty-five with long arms and legs, a long face with deep dimples when he smiles, warm hazel eyes, a straight nose and a thick copper-red mop cut straight round like a bowl. He wears a faded sky-blue windbreaker over a grey T-shirt, worn jeans and scuffed brown boots, and carries a small canvas rucksack and a bunch of car keys.\n- the Grass Maiden: A young woman in her twenties, now as tall as any grown woman, slim and upright, with a small heart-shaped face, a tiny upturned nose, sparkling green eyes, rosy cheeks and a calm, bright smile. Her straw-coloured hair hangs in two long plaits tied with grass-green ribbons, with a small gold crown pinned on top. She wears a simple cornflower-blue dress to her ankles and green shoes.\n\nStory world: Present-day Norway in early summer. The family conglomerate began with one loom in a basement; now it owns three factories, a glass-fronted head office and a white villa by the water behind a wrought-iron gate. The rest area is a roadside café with a car park on a main road; behind it lies a meadow of long grass and wildflowers with round tussocks. Under one tussock is the Doll's home: a small room of grass with flowers growing from the ceiling and a single tiny chair. The tiny shirt is white linen, no longer than a car key. Her carriage is a polished silver spoon with a harness of sewing thread, pulled by two white mice. The old road is a narrow gravel road along a dark lake, squeezed between a rock wall and wet stones, with the new road high above.\n\nThis story's season, light and colours: Early summer with long, light days: fresh green grass and wildflowers (buttercups, clover, cow parsley) behind a grey tarmac car park and a low golden evening sun; the lake dark and cold under a drizzly grey sky; the homecoming at the villa in steady summer rain; the wedding on a pale, bright midsummer evening by the water. Accents: polished silver, sky blue and grass green.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

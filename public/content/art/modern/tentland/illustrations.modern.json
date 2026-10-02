@@ -1,0 +1,624 @@
+{
+  "storyId": "tentland",
+  "set": "modern",
+  "variant": "modern",
+  "title": "De tre prinsessene i Hvittenland",
+  "textFile": "public/content/stories/tentland/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:16:13.537Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Båten gikk hele natten.",
+    "alt": "En liten, hvit fiskebåt glir av seg selv over et mørkt hav om natten. Gutten sitter i båten i redningsvest, og langt fremme lyser en kritthvit strand.",
+    "prompt": "At night on a vast, dark sea, the small white fishing boat glides along all by itself with a white wave at the bow and its engine silent. The Fisher Lad sits in it in an orange life jacket, his phone gone dark in his hand, looking up at the stars in wonder; far ahead, a thin line of dazzling white shore glows on the horizon under the first pale light of dawn.",
+    "characters": [
+      "gutten"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Fisher Lad, the same character seen from three sides. Keep the Fisher Lad's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisher Lad only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: At night on a vast, dark sea, the small white fishing boat glides along all by itself with a white wave at the bow and its engine silent. The Fisher Lad sits in it in an orange life jacket, his phone gone dark in his hand, looking up at the stars in wonder; far ahead, a thin line of dazzling white shore glows on the horizon under the first pale light of dawn.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fisher Lad: A stocky, wide-shouldered young man of about nineteen with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw. He wears a chunky, cream-coloured hoodie, dark-blue jeans and tan work boots, and a black phone sticks out of his back pocket.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "gutten",
+      "name": "Fiskerens sønn",
+      "description": "Gutten som vokste opp på residensen etter farens løfte. Han har lært fransk, tysk og protokoll, men ikke å svømme, og havner i Hvittenland i en båt som går av seg selv.",
+      "look": "A stocky, wide-shouldered young man of about nineteen with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw. He wears a chunky, cream-coloured hoodie, dark-blue jeans and tan work boots, and a black phone sticks out of his back pocket.",
+      "sheet": "characters/gutten.webp",
+      "turn": "characters/gutten-turn.mp4",
+      "portrait": "portraits/gutten.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/gutten.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/gutten-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "den-unge-kongen",
+      "name": "Den unge kongen (fiskerens sønn)",
+      "description": "Oppdratt ved den kongelige residensen etter et uhyggelig løfte, dras han inn i Hvittenlands prøvelser, vinner en dronning—og mister henne igjen når han bruker en ønskering uten å tenke.",
+      "look": "A stocky, wide-shouldered young man of about twenty-one with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw, dressed like a king: a long dark-navy cloak trimmed with thick brown fur at the neck, over a cream roll-neck jumper, dark trousers and tan boots, with a thin, shiny gold ring on one finger.",
+      "sheet": "characters/den-unge-kongen.webp",
+      "turn": "characters/den-unge-kongen-turn.mp4",
+      "portrait": "portraits/den-unge-kongen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-unge-kongen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-unge-kongen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-unge-kongen"
+    },
+    {
+      "slug": "fiskeren",
+      "name": "Fiskeren",
+      "description": "Guttens far, som har levert fisk til kongens kjøkken i tjue år, og som lover bort det han ikke vet at konen bærer på.",
+      "look": "A lean, wiry fisherman of about forty-five with a long, weather-beaten face, deep laughter lines, a sharp nose, kind, crinkly blue eyes and a long, drooping black moustache but no beard. He wears a round, brimless old sealskin cap, a thick grey wool jumper, orange oilskin bib trousers and white rubber boots.",
+      "sheet": "characters/fiskeren.webp",
+      "turn": "characters/fiskeren-turn.mp4",
+      "portrait": "portraits/fiskeren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/fiskeren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/fiskeren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "den-yngste-prinsessen",
+      "name": "Den yngste prinsessen",
+      "description": "Den tredje av kongsdøtrene som står nedgravd på stranden i Hvittenland. Hun roper ikke på hjelp, men forklarer gutten hvordan søstrene kan bli fri.",
+      "look": "A calm, thoughtful young woman of about nineteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. She wears a plain, long-sleeved sky-blue wool dress with a narrow belt of silver links and a thin silver circlet with one pearl.",
+      "sheet": "characters/den-yngste-prinsessen.webp",
+      "turn": "characters/den-yngste-prinsessen-turn.mp4",
+      "portrait": "portraits/den-yngste-prinsessen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-yngste-prinsessen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-yngste-prinsessen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "dronningen",
+      "name": "Dronningen av Hvittenland (den yngste prinsessen)",
+      "description": "Den klokeste av tre bundne søstre som kjenner trollenes regler, gir ham veien gjennom prøvelsene og setter én betingelse: at han lytter til faren, ikke moren.",
+      "look": "A calm young queen of about nineteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. She wears a slim silver tiara set with pale-blue stones, a long, simple sky-blue gown and a short white faux-fur jacket fastened with a round silver clasp.",
+      "sheet": "characters/dronningen.webp",
+      "turn": "characters/dronningen-turn.mp4",
+      "portrait": "portraits/dronningen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dronningen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dronningen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "dronningen-av-hvittenland"
+    },
+    {
+      "slug": "den-gamle-kongen",
+      "name": "Den gamle kongen ved residensen",
+      "description": "Mannen som reddet gutten som barn og ga ham utdanning og trygghet, men som senere utfordrer ham av stolthet—og utløser tapet ved å kreve å se dronningen.",
+      "look": "A skinny, elderly man with a bald, shiny head, a clean-shaven face, a long pointed chin, sharp grey eyes and a thin-lipped mouth with deep lines around it. He wears a peacock-blue three-piece suit with a silk pocket square, a white shirt with a stiff collar, a navy tie and polished black shoes, and carries himself very straight.",
+      "sheet": "characters/den-gamle-kongen.webp",
+      "turn": "characters/den-gamle-kongen-turn.mp4",
+      "portrait": "portraits/den-gamle-kongen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-gamle-kongen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-gamle-kongen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-gamle-kongen"
+    },
+    {
+      "slug": "veiviseren",
+      "name": "Veiviseren på den hvite stranden",
+      "description": "En gammel mann i lys, slitt frakk som møter ham i Hvittenland og gir den avgjørende testen: gå forbi de to første prinsessene og hjelp den tredje.",
+      "look": "A lean, straight-backed old man of about eighty, as bony and long-limbed as a heron, with a long, narrow, sun-browned face, a hooked nose, bright pale-blue eyes under wild white eyebrows and a long white beard braided into one thin plait with a tiny white shell tied at its end. He wears a battered, pale-yellow oilskin coat that flaps in the wind, a pale sou’wester and tall black rubber boots, and leans on a twisted, silver-grey driftwood staff.",
+      "sheet": "characters/veiviseren.webp",
+      "turn": "characters/veiviseren-turn.mp4",
+      "portrait": "portraits/veiviseren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/veiviseren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/veiviseren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "veiviseren-pa-den-hvite-stranden"
+    },
+    {
+      "slug": "trollet-med-ni-hoder",
+      "name": "Trollet med ni hoder",
+      "description": "Det siste og verste av de tre trollene i slottet. Det kommer den tredje natten med ni hoder og ni ris.",
+      "look": "A troll as tall as a house, with a huge, round, lumpy body of creamy-white hide covered in big chocolate-brown patches like a cow's, stumpy legs and big round hands with thick claws. Nine heads grow in a ring around the top of its body like a crown, each with a wide pink snout, small sleepy brown eyes, floppy ears and a wide, grinning mouth. It wears a huge, faded red-and-white checked flannel shirt like a nightshirt.",
+      "sheet": "characters/trollet-med-ni-hoder.webp",
+      "turn": "characters/trollet-med-ni-hoder-turn.mp4",
+      "portrait": "portraits/trollet-med-ni-hoder.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollet-med-ni-hoder.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollet-med-ni-hoder-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "nordavinden",
+      "name": "Nordavinden",
+      "description": "En viljesterk, talende stormkraft som griper inn når alt står på spill, og gir den unge kongen en brutal, presis plan for å stanse bryllupet.",
+      "look": "A tall, lean, long-limbed storm giant, three times as tall as a man, with a long, bony, windburnt face, hollow cheeks, a long thin nose, a wide mouth pursed to blow and bright, shining silver eyes. His wild, tangled slate-grey hair and long, wispy beard stream sideways as if in a gale. He wears a huge, billowing cloak made of dark-grey storm clouds, torn into ragged wisps at the edges, and from the knees down he fades into swirling grey mist.",
+      "sheet": "characters/nordavinden.webp",
+      "turn": "characters/nordavinden-turn.mp4",
+      "portrait": "portraits/nordavinden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/nordavinden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/nordavinden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "nordavinden"
+    }
+  ],
+  "places": [
+    {
+      "slug": "slottet",
+      "name": "the Castle in Whiteland",
+      "look": "A long, low, white modern building in a clearing of dark spruce just above a beach of dazzling white sand, with flat roofs edged by glowing blue light strips, big dark windows and a wide flight of pale stone steps up to glass double doors. In front of it, a white wall with an arched gateway. It looks like a brand-new conference hotel that nobody ever got round to opening."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "«Får jeg det som konen din bærer på», sa det, «skal du få fisk nok.»",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Får jeg det som konen din bærer på», sa det, «skal du få fisk nok.»",
+      "alt": "Fiskeren står i den lille båten sin på fjorden en grå oktoberkveld. Et par meter fra båten har et underlig hode med tang i håret dukket opp av sjøen og ser på ham.",
+      "prompt": "Late on a grey October afternoon, the Fisherman stands in his small white fibreglass fishing boat on the dark fjord, a rod in his hands and an empty fish box at his feet. A couple of metres from the side, a strange, pale head with long strands of kelp for hair has risen out of the water, only the head, and it stares at him with a sly, patient smile. The Fisherman stares back, frozen. Mountains and a few lit houses line the far shore.",
+      "characters": [
+        "fiskeren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Fisherman, the same character seen from three sides. Keep the Fisherman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisherman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Late on a grey October afternoon, the Fisherman stands in his small white fibreglass fishing boat on the dark fjord, a rod in his hands and an empty fish box at his feet. A couple of metres from the side, a strange, pale head with long strands of kelp for hair has risen out of the water, only the head, and it stares at him with a sly, patient smile. The Fisherman stares back, frozen. Mountains and a few lit houses line the far shore.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fisherman: A lean, wiry fisherman of about forty-five with a long, weather-beaten face, deep laughter lines, a sharp nose, kind, crinkly blue eyes and a long, drooping black moustache but no beard. He wears a round, brimless old sealskin cap, a thick grey wool jumper, orange oilskin bib trousers and white rubber boots.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "«Barnet tar jeg til meg», sa han.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Barnet tar jeg til meg», sa han.",
+      "alt": "Den gamle kongen står på kjøkkenet i fiskerhuset og lover å ta barnet til seg. Fiskeren og konen sitter ved bordet, og konen har røde øyne av gråt. Ute ved bilen venter en vakt.",
+      "prompt": "In the small kitchen of the fisherman's house by the quay, the Old King, in his peacock-blue suit and a camel overcoat, stands by the table with one hand raised in a solemn promise. The Fisherman sits at the table, grey-faced, and beside him his wife, a thin woman with a long, gentle face and brown hair in a low ponytail, clutches a crumpled tissue, her eyes red from crying. Through the window, a guard waits beside a black car on the quay.",
+      "characters": [
+        "den-gamle-kongen",
+        "fiskeren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Old King, the same character seen from three sides. Keep the Old King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Fisherman, the same character seen from three sides. Keep the Fisherman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisherman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the small kitchen of the fisherman's house by the quay, the Old King, in his peacock-blue suit and a camel overcoat, stands by the table with one hand raised in a solemn promise. The Fisherman sits at the table, grey-faced, and beside him his wife, a thin woman with a long, gentle face and brown hair in a low ponytail, clutches a crumpled tissue, her eyes red from crying. Through the window, a guard waits beside a black car on the quay.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Old King: A skinny, elderly man with a bald, shiny head, a clean-shaven face, a long pointed chin, sharp grey eyes and a thin-lipped mouth with deep lines around it. He wears a peacock-blue three-piece suit with a silk pocket square, a white shirt with a stiff collar, a navy tie and polished black shoes, and carries himself very straight.\n- the Fisherman: A lean, wiry fisherman of about forty-five with a long, weather-beaten face, deep laughter lines, a sharp nose, kind, crinkly blue eyes and a long, drooping black moustache but no beard. He wears a round, brimless old sealskin cap, a thick grey wool jumper, orange oilskin bib trousers and white rubber boots.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 13,
+      "anchor": "I samme øyeblikk gled båten fra kaien.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "I samme øyeblikk gled båten fra kaien.",
+      "alt": "Båten glir ut fra kaien av seg selv med hvitt skum om baugen. Gutten i redningsvest ror imot av alle krefter, og faren roper etter ham fra kaien.",
+      "prompt": "Evening at the fishing quay: the small white boat is gliding away from the quay all by itself, its mooring rope trailing loose and its engine silent, with white foam at the bow. Inside, the Fisher Lad in an orange life jacket hauls back on the oars with all his strength, his face straining. On the quay, the Fisherman shouts after him with both arms out. Beyond lie the dark fjord and the lights of the village.",
+      "characters": [
+        "gutten",
+        "fiskeren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Fisher Lad, the same character seen from three sides. Keep the Fisher Lad's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisher Lad only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Fisherman, the same character seen from three sides. Keep the Fisherman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisherman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Evening at the fishing quay: the small white boat is gliding away from the quay all by itself, its mooring rope trailing loose and its engine silent, with white foam at the bow. Inside, the Fisher Lad in an orange life jacket hauls back on the oars with all his strength, his face straining. On the quay, the Fisherman shouts after him with both arms out. Beyond lie the dark fjord and the lights of the village.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fisher Lad: A stocky, wide-shouldered young man of about nineteen with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw. He wears a chunky, cream-coloured hoodie, dark-blue jeans and tan work boots, and a black phone sticks out of his back pocket.\n- the Fisherman: A lean, wiry fisherman of about forty-five with a long, weather-beaten face, deep laughter lines, a sharp nose, kind, crinkly blue eyes and a long, drooping black moustache but no beard. He wears a round, brimless old sealskin cap, a thick grey wool jumper, orange oilskin bib trousers and white rubber boots.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 16,
+      "anchor": "En gammel mann kom gående mot ham langs vannkanten.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "En gammel mann kom gående mot ham langs vannkanten.",
+      "alt": "Gutten står drivvåt på en kritthvit strand mellom to bratte fjell, og båten driver ut igjen bak ham. En gammel mann med langt, hvitt skjegg kommer gående langs vannkanten og løfter hånden.",
+      "prompt": "Dawn on a beach between two steep, dark mountains, the sand so white it looks fake, like a travel-brochure photo. The Fisher Lad stands at the water's edge, soaked through, his hoodie clinging to him and his hair stiff with salt, an orange life jacket dropped on the sand, while behind him the empty boat drifts calmly back out across the pale water. Along the waterline, the Old Guide comes walking towards him, his coat flapping in the wind, and raises one hand in greeting.",
+      "characters": [
+        "gutten",
+        "veiviseren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Fisher Lad, the same character seen from three sides. Keep the Fisher Lad's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisher Lad only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Old Guide, the same character seen from three sides. Keep the Old Guide's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old Guide only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Dawn on a beach between two steep, dark mountains, the sand so white it looks fake, like a travel-brochure photo. The Fisher Lad stands at the water's edge, soaked through, his hoodie clinging to him and his hair stiff with salt, an orange life jacket dropped on the sand, while behind him the empty boat drifts calmly back out across the pale water. Along the waterline, the Old Guide comes walking towards him, his coat flapping in the wind, and raises one hand in greeting.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fisher Lad: A stocky, wide-shouldered young man of about nineteen with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw. He wears a chunky, cream-coloured hoodie, dark-blue jeans and tan work boots, and a black phone sticks out of his back pocket.\n- the Old Guide: A lean, straight-backed old man of about eighty, as bony and long-limbed as a heron, with a long, narrow, sun-browned face, a hooked nose, bright pale-blue eyes under wild white eyebrows and a long white beard braided into one thin plait with a tiny white shell tied at its end. He wears a battered, pale-yellow oilskin coat that flaps in the wind, a pale sou’wester and tall black rubber boots, and leans on a twisted, silver-grey driftwood staff.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 26,
+      "anchor": "Den tredje ropte ikke.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Den tredje ropte ikke. Hun så på ham til han sto foran henne.",
+      "alt": "Tre prinsesser står nedgravd i den hvite sanden, så bare hodene stikker opp. De to første roper og ber, men gutten går forbi dem med hendene i lommene og stanser foran den tredje.",
+      "prompt": "On the white beach, three young women are buried in the sand up to their chins in a row, only their heads showing. The first two, a haughty one with a high chocolate-brown ponytail and a round-faced one with a cloud of carrot-orange curls, call and plead after the Fisher Lad, who has walked straight past them with his eyes fixed ahead and his fists clenched in his hoodie pockets. He stops before the third head, the Youngest Princess, who says nothing and simply looks at him. Beyond the trees gleams the Castle in Whiteland.",
+      "characters": [
+        "gutten",
+        "den-yngste-prinsessen"
+      ],
+      "places": [
+        "slottet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Fisher Lad, the same character seen from three sides. Keep the Fisher Lad's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisher Lad only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Princess, the same character seen from three sides. Keep the Youngest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Castle in Whiteland. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On the white beach, three young women are buried in the sand up to their chins in a row, only their heads showing. The first two, a haughty one with a high chocolate-brown ponytail and a round-faced one with a cloud of carrot-orange curls, call and plead after the Fisher Lad, who has walked straight past them with his eyes fixed ahead and his fists clenched in his hoodie pockets. He stops before the third head, the Youngest Princess, who says nothing and simply looks at him. Beyond the trees gleams the Castle in Whiteland.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fisher Lad: A stocky, wide-shouldered young man of about nineteen with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw. He wears a chunky, cream-coloured hoodie, dark-blue jeans and tan work boots, and a black phone sticks out of his back pocket.\n- the Youngest Princess: A calm, thoughtful young woman of about nineteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. She wears a plain, long-sleeved sky-blue wool dress with a narrow belt of silver links and a thin silver circlet with one pearl.\n\nSetting:\n- the Castle in Whiteland: A long, low, white modern building in a clearing of dark spruce just above a beach of dazzling white sand, with flat roofs edged by glowing blue light strips, big dark windows and a wide flight of pale stone steps up to glass double doors. In front of it, a white wall with an arched gateway. It looks like a brand-new conference hotel that nobody ever got round to opening.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 39,
+      "anchor": "Løvene var ekte.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Løvene var ekte.",
+      "alt": "To store løver ligger på hver sin side av porten som to sofaer og følger gutten med øynene. Han går midt mellom dem uten å stanse og uten å løpe.",
+      "prompt": "At the arched gateway of the Castle in Whiteland, two real lions lie on either side of the path like two big sofas, watching the Fisher Lad with heavy-lidded eyes. He walks straight between them, neither stopping nor running, his back stiff and his hands clenched. Beyond the gate, the low white building glows with its blue light strips under a flat white sky.",
+      "characters": [
+        "gutten"
+      ],
+      "places": [
+        "slottet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Fisher Lad, the same character seen from three sides. Keep the Fisher Lad's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisher Lad only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Castle in Whiteland. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the arched gateway of the Castle in Whiteland, two real lions lie on either side of the path like two big sofas, watching the Fisher Lad with heavy-lidded eyes. He walks straight between them, neither stopping nor running, his back stiff and his hands clenched. Beyond the gate, the low white building glows with its blue light strips under a flat white sky.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fisher Lad: A stocky, wide-shouldered young man of about nineteen with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw. He wears a chunky, cream-coloured hoodie, dark-blue jeans and tan work boots, and a black phone sticks out of his back pocket.\n\nSetting:\n- the Castle in Whiteland: A long, low, white modern building in a clearing of dark spruce just above a beach of dazzling white sand, with flat roofs edged by glowing blue light strips, big dark windows and a wide flight of pale stone steps up to glass double doors. In front of it, a white wall with an arched gateway. It looks like a brand-new conference hotel that nobody ever got round to opening.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 44,
+      "anchor": "Han kom til seg selv med et gisp.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Det første han så, var ni hoder med ni glis og ni ris i klørne.",
+      "alt": "I det lille rommet uten vinduer kommer gutten til seg selv, blank av salve fra krukken som har knust. Over ham står trollet med ni hoder og ni ris, og gutten griper sverdet.",
+      "prompt": "In a small, windowless room with a stone floor, lit by a few candles in a niche, the Fisher Lad has just come round with a gasp, pale and shaken but whole, glistening with thick ointment from a clay jar that lies smashed on the floor beside him. Above him looms the Nine-Headed Troll, all nine heads grinning, clutching nine bundles of birch rods in its big fists. The Fisher Lad grips the sword from the wall with both hands, knuckles white, and pushes himself up.",
+      "characters": [
+        "gutten",
+        "trollet-med-ni-hoder"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Fisher Lad, the same character seen from three sides. Keep the Fisher Lad's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisher Lad only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Nine-Headed Troll, the same character seen from three sides. Keep the Nine-Headed Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Nine-Headed Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In a small, windowless room with a stone floor, lit by a few candles in a niche, the Fisher Lad has just come round with a gasp, pale and shaken but whole, glistening with thick ointment from a clay jar that lies smashed on the floor beside him. Above him looms the Nine-Headed Troll, all nine heads grinning, clutching nine bundles of birch rods in its big fists. The Fisher Lad grips the sword from the wall with both hands, knuckles white, and pushes himself up.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fisher Lad: A stocky, wide-shouldered young man of about nineteen with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw. He wears a chunky, cream-coloured hoodie, dark-blue jeans and tan work boots, and a black phone sticks out of his back pocket.\n- the Nine-Headed Troll: A troll as tall as a house, with a huge, round, lumpy body of creamy-white hide covered in big chocolate-brown patches like a cow's, stumpy legs and big round hands with thick claws. Nine heads grow in a ring around the top of its body like a crown, each with a wide pink snout, small sleepy brown eyes, floppy ears and a wide, grinning mouth. It wears a huge, faded red-and-white checked flannel shirt like a nightshirt.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 46,
+      "anchor": "Da han kom ut i morgenlyset, sto alle tre prinsessene på stranden, skitne og frie.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Den yngste gikk bort til ham og tok ham i hånden.",
+      "alt": "De tre prinsessene står frie på den hvite stranden. Den eldste gråter, den mellomste ler, og den yngste går bort til gutten og tar ham i hånden.",
+      "prompt": "In the pale morning light on the white beach, the three princesses stand free at last, sandy and dishevelled, beside three empty holes in the sand. The haughty one with the chocolate-brown ponytail weeps into her hands, the plump one with the carrot-orange curls laughs out loud, and the Youngest Princess walks up to the Fisher Lad and takes his hand. He stands there in his damp hoodie, lost for words.",
+      "characters": [
+        "gutten",
+        "den-yngste-prinsessen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Fisher Lad, the same character seen from three sides. Keep the Fisher Lad's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisher Lad only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Youngest Princess, the same character seen from three sides. Keep the Youngest Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Youngest Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the pale morning light on the white beach, the three princesses stand free at last, sandy and dishevelled, beside three empty holes in the sand. The haughty one with the chocolate-brown ponytail weeps into her hands, the plump one with the carrot-orange curls laughs out loud, and the Youngest Princess walks up to the Fisher Lad and takes his hand. He stands there in his damp hoodie, lost for words.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Fisher Lad: A stocky, wide-shouldered young man of about nineteen with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw. He wears a chunky, cream-coloured hoodie, dark-blue jeans and tan work boots, and a black phone sticks out of his back pocket.\n- the Youngest Princess: A calm, thoughtful young woman of about nineteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. She wears a plain, long-sleeved sky-blue wool dress with a narrow belt of silver links and a thin silver circlet with one pearl.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 55,
+      "anchor": "Han ønsket seg hjem og sto på kjøkkenet til foreldrene, midt i frokosten, i en mørk kappe med pels i kragen.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "De kunne ikke få sett nok på ham.",
+      "alt": "Den unge kongen står plutselig midt på kjøkkengulvet hjemme i en mørk kappe med pels i kragen. Faren har satt fra seg kaffekoppen, og moren holder seg for munnen.",
+      "prompt": "In the small kitchen of the fisherman's house at breakfast time, the Young King has suddenly appeared in the middle of the floor in his dark cloak with its fur trim. At the table, the Fisherman has set down his coffee cup and stares, while his wife, a thin woman with a long, gentle face and brown hair in a low ponytail, presses her hand over her mouth. Bread, cheese and a coffee pot stand on the table.",
+      "characters": [
+        "den-unge-kongen",
+        "fiskeren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Fisherman, the same character seen from three sides. Keep the Fisherman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Fisherman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the small kitchen of the fisherman's house at breakfast time, the Young King has suddenly appeared in the middle of the floor in his dark cloak with its fur trim. At the table, the Fisherman has set down his coffee cup and stares, while his wife, a thin woman with a long, gentle face and brown hair in a low ponytail, presses her hand over her mouth. Bread, cheese and a coffee pot stand on the table.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young King: A stocky, wide-shouldered young man of about twenty-one with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw, dressed like a king: a long dark-navy cloak trimmed with thick brown fur at the neck, over a cream roll-neck jumper, dark trousers and tan boots, with a thin, shiny gold ring on one finger.\n- the Fisherman: A lean, wiry fisherman of about forty-five with a long, weather-beaten face, deep laughter lines, a sharp nose, kind, crinkly blue eyes and a long, drooping black moustache but no beard. He wears a round, brimless old sealskin cap, a thick grey wool jumper, orange oilskin bib trousers and white rubber boots.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 66,
+      "anchor": "Hun tok fram en liten ring med navnet sitt inngravert og festet den i håret hans, hardt, så han kjente det.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun festet ringen i håret hans, hardt, så han kjente det.",
+      "alt": "Dronningen fester en liten ring i håret til den unge kongen, og han står helt stille. Bak dem sitter den gamle kongen med krone på og ser på dem. Langs veggene står vakter i gamle rustninger.",
+      "prompt": "In the audience hall of the residence, under harsh white ceiling lamps, the Queen, pale and grave, fastens a tiny engraved ring into a lock of the Young King's hair, pulling it tight; he stands completely still with his eyes lowered. Behind them, the Old King sits in his chair of state wearing a crown, looking like a man who has won an argument and wishes he had lost it. Four guards in old suits of armour stand stiffly along the walls.",
+      "characters": [
+        "dronningen",
+        "den-unge-kongen",
+        "den-gamle-kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Queen, the same character seen from three sides. Keep the Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Old King, the same character seen from three sides. Keep the Old King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Old King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the audience hall of the residence, under harsh white ceiling lamps, the Queen, pale and grave, fastens a tiny engraved ring into a lock of the Young King's hair, pulling it tight; he stands completely still with his eyes lowered. Behind them, the Old King sits in his chair of state wearing a crown, looking like a man who has won an argument and wishes he had lost it. Four guards in old suits of armour stand stiffly along the walls.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Queen: A calm young queen of about nineteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. She wears a slim silver tiara set with pale-blue stones, a long, simple sky-blue gown and a short white faux-fur jacket fastened with a round silver clasp.\n- the Young King: A stocky, wide-shouldered young man of about twenty-one with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw, dressed like a king: a long dark-navy cloak trimmed with thick brown fur at the neck, over a cream roll-neck jumper, dark trousers and tan boots, with a thin, shiny gold ring on one finger.\n- the Old King: A skinny, elderly man with a bald, shiny head, a clean-shaven face, a long pointed chin, sharp grey eyes and a thin-lipped mouth with deep lines around it. He wears a peacock-blue three-piece suit with a silk pocket square, a white shirt with a stiff collar, a navy tie and polished black shoes, and carries himself very straight.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 72,
+      "anchor": "Han tok et horn ned fra veggen og blåste",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han tok et horn ned fra veggen og blåste, og de kom ut av skogen.",
+      "alt": "En gammel mann blåser i et horn foran en hytte, og en elg, en rev, en gaupe og en hare kommer ut av skogen. En stor bjørn sitter foran hytta som en hund, og den unge kongen ser forundret på.",
+      "prompt": "In the yard of a small log cabin at the foot of a mountain in June, an old man with a grey beard and a moss-green anorak blows a long, curved horn, and the animals come out of the forest: an elk, a fox, a lynx and a hare, while a big brown bear sits down in the middle of the yard like a large dog. The Young King, a rucksack on his back and a tiny ring glinting in his hair, watches in amazement.",
+      "characters": [
+        "den-unge-kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the yard of a small log cabin at the foot of a mountain in June, an old man with a grey beard and a moss-green anorak blows a long, curved horn, and the animals come out of the forest: an elk, a fox, a lynx and a hare, while a big brown bear sits down in the middle of the yard like a large dog. The Young King, a rucksack on his back and a tiny ring glinting in his hair, watches in amazement.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young King: A stocky, wide-shouldered young man of about twenty-one with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw, dressed like a king: a long dark-navy cloak trimmed with thick brown fur at the neck, over a cream roll-neck jumper, dark trousers and tan boots, with a thin, shiny gold ring on one finger.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 80,
+      "anchor": "«Hvittenland?» sa gjedden.",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Hvittenland?» sa gjedden. «Der er jeg godt kjent.»",
+      "alt": "Ytterst på en flytebrygge står en gammel mann med et horn, og fjorden koker av fisk. En diger, gammel gjedde har kommet opp og snakker med den unge kongen, som sitter på huk og lytter.",
+      "prompt": "At the end of a floating dock on a calm June fjord, a lean old man in a sealskin jacket holds a long horn, and the water all around boils with fish. Up through the middle rises a huge, very old pike as long as a rowing boat, olive-green with pale spots and weed trailing from her jaw, looking up at the Young King, who crouches at the edge of the dock and listens intently, a tiny ring glinting in his hair.",
+      "characters": [
+        "den-unge-kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the end of a floating dock on a calm June fjord, a lean old man in a sealskin jacket holds a long horn, and the water all around boils with fish. Up through the middle rises a huge, very old pike as long as a rowing boat, olive-green with pale spots and weed trailing from her jaw, looking up at the Young King, who crouches at the edge of the dock and listens intently, a tiny ring glinting in his hair.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young King: A stocky, wide-shouldered young man of about twenty-one with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw, dressed like a king: a long dark-navy cloak trimmed with thick brown fur at the neck, over a cream roll-neck jumper, dark trousers and tan boots, with a thin, shiny gold ring on one finger.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "13",
+      "paragraph": 86,
+      "anchor": "Så ønsket han seg av sted.",
+      "file": "scenes/13.webp",
+      "sources": [
+        {
+          "file": "scenes/13.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/13-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Så ønsket han seg av sted.",
+      "alt": "Tre eldgamle brødre står til knærne i myren og måper. Den unge kongen har tatt på seg hatten, kappen og støvlene og forsvinner opp i luften.",
+      "prompt": "Out on a wide, wet bog, three ancient, ragged brothers with long, tangled white beards stand knee-deep in the mire, hands still raised from their hundred-year quarrel, and gape. Before them, the Young King, now wearing a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, is rising into the air and fading away like mist until the bog shows through him.",
+      "characters": [
+        "den-unge-kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Out on a wide, wet bog, three ancient, ragged brothers with long, tangled white beards stand knee-deep in the mire, hands still raised from their hundred-year quarrel, and gape. Before them, the Young King, now wearing a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, is rising into the air and fading away like mist until the bog shows through him.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young King: A stocky, wide-shouldered young man of about twenty-one with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw, dressed like a king: a long dark-navy cloak trimmed with thick brown fur at the neck, over a cream roll-neck jumper, dark trousers and tan boots, with a thin, shiny gold ring on one finger.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "14",
+      "paragraph": 90,
+      "anchor": "«Ja ja», sa Nordavinden.",
+      "file": "scenes/14.webp",
+      "sources": [
+        {
+          "file": "scenes/14.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/14-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Resten tar jeg meg av», sa Nordavinden.",
+      "alt": "Nordavinden, en diger skikkelse i en kappe av stormskyer, suser gjennom luften over et mørkt hav og snakker med den unge kongen, som er nesten usynlig i den grå hatten og kappen.",
+      "prompt": "High above a dark, choppy sea, among racing grey clouds, the North Wind strides through the sky with his cloak of storm clouds streaming and bends down to explain his plan. Beside him flies the Young King in the grey hat, cloak and boots, only a faint, see-through shimmer in the shape of a young man, listening calmly. Far below lie a tiny car ferry and a few rocky islands.",
+      "characters": [
+        "den-unge-kongen",
+        "nordavinden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the North Wind, the same character seen from three sides. Keep the North Wind's face, hair, body shape, age, colours and clothes exactly as shown. Draw the North Wind only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: High above a dark, choppy sea, among racing grey clouds, the North Wind strides through the sky with his cloak of storm clouds streaming and bends down to explain his plan. Beside him flies the Young King in the grey hat, cloak and boots, only a faint, see-through shimmer in the shape of a young man, listening calmly. Far below lie a tiny car ferry and a few rocky islands.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young King: A stocky, wide-shouldered young man of about twenty-one with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw, dressed like a king: a long dark-navy cloak trimmed with thick brown fur at the neck, over a cream roll-neck jumper, dark trousers and tan boots, with a thin, shiny gold ring on one finger.\n- the North Wind: A tall, lean, long-limbed storm giant, three times as tall as a man, with a long, bony, windburnt face, hollow cheeks, a long thin nose, a wide mouth pursed to blow and bright, shining silver eyes. His wild, tangled slate-grey hair and long, wispy beard stream sideways as if in a gale. He wears a huge, billowing cloak made of dark-grey storm clouds, torn into ragged wisps at the edges, and from the knees down he fades into swirling grey mist.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "15",
+      "paragraph": 93,
+      "anchor": "I det samme tok den unge kongen ham i nakken.",
+      "file": "scenes/15.webp",
+      "sources": [
+        {
+          "file": "scenes/15.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/15-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Nordavinden tok ham og bar ham av sted, høyt over trærne.",
+      "alt": "Nordavinden rister slottet, som er pyntet til bryllup, og bærer prinsen av sted høyt over trærne. På trappen ser vi bare sporene etter støvlene i snøen.",
+      "prompt": "Snow whirls around the Castle in Whiteland, decorated for a wedding with blue light strips along the steps and round the door. The North Wind, towering over the roofs, shakes the building so that the lights flicker and the spruces twist, and carries off a startled prince with slicked-back hair and a white wedding cloak, tumbling high over the treetops. On the steps by the door there is only a pair of boot prints in the snow and the faint shimmer of the invisible Young King.",
+      "characters": [
+        "den-unge-kongen",
+        "nordavinden"
+      ],
+      "places": [
+        "slottet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the North Wind, the same character seen from three sides. Keep the North Wind's face, hair, body shape, age, colours and clothes exactly as shown. Draw the North Wind only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Castle in Whiteland. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Snow whirls around the Castle in Whiteland, decorated for a wedding with blue light strips along the steps and round the door. The North Wind, towering over the roofs, shakes the building so that the lights flicker and the spruces twist, and carries off a startled prince with slicked-back hair and a white wedding cloak, tumbling high over the treetops. On the steps by the door there is only a pair of boot prints in the snow and the faint shimmer of the invisible Young King.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Young King: A stocky, wide-shouldered young man of about twenty-one with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw, dressed like a king: a long dark-navy cloak trimmed with thick brown fur at the neck, over a cream roll-neck jumper, dark trousers and tan boots, with a thin, shiny gold ring on one finger.\n- the North Wind: A tall, lean, long-limbed storm giant, three times as tall as a man, with a long, bony, windburnt face, hollow cheeks, a long thin nose, a wide mouth pursed to blow and bright, shining silver eyes. His wild, tangled slate-grey hair and long, wispy beard stream sideways as if in a gale. He wears a huge, billowing cloak made of dark-grey storm clouds, torn into ragged wisps at the edges, and from the knees down he fades into swirling grey mist.\n\nSetting:\n- the Castle in Whiteland: A long, low, white modern building in a clearing of dark spruce just above a beach of dazzling white sand, with flat roofs edged by glowing blue light strips, big dark windows and a wide flight of pale stone steps up to glass double doors. In front of it, a white wall with an arched gateway. It looks like a brand-new conference hotel that nobody ever got round to opening.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "16",
+      "paragraph": 96,
+      "anchor": "Hun ble stående lenge og se på den.",
+      "file": "scenes/16.webp",
+      "sources": [
+        {
+          "file": "scenes/16.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/16-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun ble stående lenge og se på den. Så ble hun hjertens glad.",
+      "alt": "Den unge kongen er mager og blek og har fått skjegg. Han bøyer hodet og viser dronningen ringen i håret, og dronningen i brudekjole blir hjertens glad.",
+      "prompt": "In the bright white hall of the castle, with a few musicians tuning their instruments in the background, the Young King, thin and pale, with a scruffy, grown-out brown beard, bows his head to show the Queen the tiny ring fastened in his hair. The Queen, in her white wedding dress, has stood looking at it for a long time; now her face breaks into pure joy.",
+      "characters": [
+        "dronningen",
+        "den-unge-kongen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Queen, the same character seen from three sides. Keep the Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Young King, the same character seen from three sides. Keep the Young King's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Young King only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the bright white hall of the castle, with a few musicians tuning their instruments in the background, the Young King, thin and pale, with a scruffy, grown-out brown beard, bows his head to show the Queen the tiny ring fastened in his hair. The Queen, in her white wedding dress, has stood looking at it for a long time; now her face breaks into pure joy.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Queen: A calm young queen of about nineteen with a softly rounded chin, a small nose with a slight upturn, sea-grey eyes under soft brows, a quiet, knowing half-smile and long, wavy golden hair that flows down to her waist. She wears a slim silver tiara set with pale-blue stones, a long, simple sky-blue gown and a short white faux-fur jacket fastened with a round silver clasp.\n- the Young King: A stocky, wide-shouldered young man of about twenty-one with a frank, square face, a bumpy nose, grey-green eyes that crinkle when he laughs, short, wavy brown hair and short brown stubble along his jaw, dressed like a king: a long dark-navy cloak trimmed with thick brown fur at the neck, over a cream roll-neck jumper, dark trousers and tan boots, with a thin, shiny gold ring on one finger.\n\nStory world: Present-day Norway. The fisherman's small white house stands on the quay of a fjord village below the royal residence, a big modern house behind a tall fence with guards and cameras. His boat is a small white fibreglass fishing boat with an outboard motor and a pair of oars. Far away lies Whiteland, which is on no map: a beach of sand so white it looks fake, between two steep dark mountains, and beyond the trees a low white castle with blue light strips along its roofs. The wishing ring is slim and shiny like a fitness ring; the tiny ring the queen fastens in his hair is engraved. The magic hat, cloak and boots are a tall grey felt hat, a long dark-grey hooded cloak and tall brown boots, and the magic skis are old wooden skis with leather bindings.\n\nThis story's season, light and colours: A dark October on the fjord at the start: slate-grey water, wet quays, early dusk and yellow harbour lights. Whiteland is dazzling and unreal: brochure-white sand between steep dark mountains, pale turquoise water, a flat white sky and the cold blue glow of light strips, with fresh snow at the wedding. The journey crosses green June country. Accents: ice blue, white and the gold of the rings.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

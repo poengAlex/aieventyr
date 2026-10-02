@@ -1,0 +1,172 @@
+{
+  "storyId": "spurning",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Spørsmålet",
+  "textFile": "public/content/stories/spurning/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:15:32.787Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Askeladden er på vei til villaen med ei veske full av rare ting.",
+    "alt": "Askeladden kommer gående oppkjørselen mellom palmene mot en hvit villa ved sjøen, med ei veske over skulderen og et sykkelhorn i hånda. I glassdøra står dattera med armene i kors.",
+    "prompt": "On the palm-lined driveway of the long white villa by the sea, Askeladden walks up with his bulging tote bag over his shoulder and a crooked brass bicycle horn in his hand. In the tall glass door at the top of the steps, the Heiress stands in her lilac suit with her arms crossed and one sharp eyebrow raised. White clouds race across a bright spring sky over the glittering fjord.",
+    "characters": [
+      "askeladden",
+      "dattera"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Heiress, the same character seen from three sides. Keep the Heiress's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Heiress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: On the palm-lined driveway of the long white villa by the sea, Askeladden walks up with his bulging tote bag over his shoulder and a crooked brass bicycle horn in his hand. In the tall glass door at the top of the steps, the Heiress stands in her lilac suit with her arms crossed and one sharp eyebrow raised. White clouds race across a bright spring sky over the glittering fjord.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A slim, lean young man of about twenty with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded canvas jacket over an ochre hoodie, dark-grey jeans and worn brown trainers, and carries a patched brown tote bag over his shoulder.\n- the Heiress: A quick-witted young woman of about twenty-five, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun held by a slim silver clip. She wears a sharply tailored lilac trouser suit over a white silk top, small silver earrings and pointed silver-grey heels.\n\nStory world: Present-day Norway. The Tycoon's villa stands by the sea: a long, white modernist house of glass and concrete with a driveway lined with tall potted palms, a wide lawn, a gleaming white kitchen with a marble counter that nobody has ever cooked on, a huge living room with a thick pale carpet, and a marble foyer with tall glass doors facing the fjord, overlooked by an open gallery. Askeladden's finds are a black zip tie, a shard of a white saucer wrapped in a paper napkin, a dead magpie, two crooked old brass bicycle horns with black rubber bulbs that look exactly alike, and an old, worn-out shoe sole with a hole right through it. He carries them in a patched brown tote bag.\n\nThis story's season, light and colours: A bright, windy spring day by the sea: racing white clouds, a glittering blue-grey fjord and fresh yellow-green lawns and birches along the road. Inside the villa: cool white marble, glass and pale stone, with the lilac of her suit and the warm brass of the horns as the only strong colours.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "askeladden",
+      "name": "Askeladden",
+      "description": "Lillebroren fra et småbruk i innlandet, som tar bussen til villaen og plukker med seg alt han finner i veikanten, slik han alltid har gjort.",
+      "look": "A slim, lean young man of about twenty with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded canvas jacket over an ochre hoodie, dark-grey jeans and worn brown trainers, and carries a patched brown tote bag over his shoulder.",
+      "sheet": "characters/askeladden.webp",
+      "turn": "characters/askeladden-turn.mp4",
+      "portrait": "portraits/askeladden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/askeladden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/askeladden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "askeladden"
+    },
+    {
+      "slug": "dattera",
+      "name": "Dattera",
+      "description": "Konsernsjefens datter, så kvass i replikken at journalister, styreledere og friere har forlatt villaen med blikket til folk som har gått rett i en glassdør.",
+      "look": "A quick-witted young woman of about twenty-five, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun held by a slim silver clip. She wears a sharply tailored lilac trouser suit over a white silk top, small silver earrings and pointed silver-grey heels.",
+      "sheet": "characters/dattera.webp",
+      "turn": "characters/dattera-turn.mp4",
+      "portrait": "portraits/dattera.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dattera.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dattera-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "heiress"
+    },
+    {
+      "slug": "konsernsjefen",
+      "name": "Konsernsjefen",
+      "description": "Faren som i et direktesendt intervju lover bort dattera og halve konsernet til den som klarer å gjøre henne målløs, og som mener det som en spøk.",
+      "look": "A tired, stooped, elderly businessman with a long, gentle, wrinkled face, sleepy grey eyes with heavy bags under them, bushy grey eyebrows and a huge, drooping grey moustache that hangs down past his chin, but no beard. He wears a mustard-yellow cashmere cardigan over a white shirt, dark trousers and soft brown loafers, with gold-rimmed reading glasses pushed up crookedly on his head.",
+      "sheet": "characters/konsernsjefen.webp",
+      "turn": "characters/konsernsjefen-turn.mp4",
+      "portrait": "portraits/konsernsjefen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/konsernsjefen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/konsernsjefen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "tycoon-father"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 5,
+      "anchor": "Han tok bussen og gikk det siste stykket.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Ti meter lenger borte lå maken til det. Askeladden tok med alt.",
+      "alt": "Askeladden sitter på huk i veikanten og plukker opp et gammelt sykkelhorn av messing. Maken holder han i den andre hånda, og i veska har han en strips, et skår og en skjære.",
+      "prompt": "On the verge of a quiet coastal road on a windy spring day, just after the bus has pulled away, Askeladden crouches by the ditch and reaches into a bush for a crooked old brass bicycle horn, already holding its exact twin in his other hand. His patched tote bag on the grass holds a black zip tie, a saucer shard wrapped in a paper napkin and the black-and-white tail of a magpie. White clouds race over the fjord.",
+      "characters": [
+        "askeladden"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On the verge of a quiet coastal road on a windy spring day, just after the bus has pulled away, Askeladden crouches by the ditch and reaches into a bush for a crooked old brass bicycle horn, already holding its exact twin in his other hand. His patched tote bag on the grass holds a black zip tie, a saucer shard wrapped in a paper napkin and the black-and-white tail of a magpie. White clouds race over the fjord.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A slim, lean young man of about twenty with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded canvas jacket over an ochre hoodie, dark-grey jeans and worn brown trainers, and carries a patched brown tote bag over his shoulder.\n\nStory world: Present-day Norway. The Tycoon's villa stands by the sea: a long, white modernist house of glass and concrete with a driveway lined with tall potted palms, a wide lawn, a gleaming white kitchen with a marble counter that nobody has ever cooked on, a huge living room with a thick pale carpet, and a marble foyer with tall glass doors facing the fjord, overlooked by an open gallery. Askeladden's finds are a black zip tie, a shard of a white saucer wrapped in a paper napkin, a dead magpie, two crooked old brass bicycle horns with black rubber bulbs that look exactly alike, and an old, worn-out shoe sole with a hole right through it. He carries them in a patched brown tote bag.\n\nThis story's season, light and colours: A bright, windy spring day by the sea: racing white clouds, a glittering blue-grey fjord and fresh yellow-green lawns and birches along the road. Inside the villa: cool white marble, glass and pale stone, with the lilac of her suit and the warm brass of the horns as the only strong colours.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 17,
+      "anchor": "«Nei, jeg er ikke krokete», sa Askeladden.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Nei, jeg er ikke krokete», sa Askeladden. «Men dette er krokete.»",
+      "alt": "Dattera går over teppet i stua i lilla dress og ser seg tilbake over skulderen. Askeladden holder opp et krokete sykkelhorn av messing og klemmer på ballongen.",
+      "prompt": "In the villa's huge living room, with a thick pale carpet and tall windows onto the sea, the Heiress walks away in her lilac suit and glances back over her shoulder with a cutting look. Behind her, Askeladden holds up a crooked old brass bicycle horn and squeezes its black rubber bulb with a perfectly straight face. Through a doorway behind them, the gleaming white kitchen with its marble counter can be seen.",
+      "characters": [
+        "askeladden",
+        "dattera"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Heiress, the same character seen from three sides. Keep the Heiress's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Heiress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the villa's huge living room, with a thick pale carpet and tall windows onto the sea, the Heiress walks away in her lilac suit and glances back over her shoulder with a cutting look. Behind her, Askeladden holds up a crooked old brass bicycle horn and squeezes its black rubber bulb with a perfectly straight face. Through a doorway behind them, the gleaming white kitchen with its marble counter can be seen.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Askeladden: A slim, lean young man of about twenty with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded canvas jacket over an ochre hoodie, dark-grey jeans and worn brown trainers, and carries a patched brown tote bag over his shoulder.\n- the Heiress: A quick-witted young woman of about twenty-five, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun held by a slim silver clip. She wears a sharply tailored lilac trouser suit over a white silk top, small silver earrings and pointed silver-grey heels.\n\nStory world: Present-day Norway. The Tycoon's villa stands by the sea: a long, white modernist house of glass and concrete with a driveway lined with tall potted palms, a wide lawn, a gleaming white kitchen with a marble counter that nobody has ever cooked on, a huge living room with a thick pale carpet, and a marble foyer with tall glass doors facing the fjord, overlooked by an open gallery. Askeladden's finds are a black zip tie, a shard of a white saucer wrapped in a paper napkin, a dead magpie, two crooked old brass bicycle horns with black rubber bulbs that look exactly alike, and an old, worn-out shoe sole with a hole right through it. He carries them in a patched brown tote bag.\n\nThis story's season, light and colours: A bright, windy spring day by the sea: racing white clouds, a glittering blue-grey fjord and fresh yellow-green lawns and birches along the road. Inside the villa: cool white marble, glass and pale stone, with the lilac of her suit and the warm brass of the horns as the only strong colours.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 25,
+      "anchor": "Hun svarte ikke.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun svarte ikke. Men hun lukket glassdøra.",
+      "alt": "I foajeen lukker dattera glassdøra igjen uten å si et ord. Askeladden står foran henne med en utslitt skosåle, og oppe på galleriet setter faren fra seg kaffekoppen.",
+      "prompt": "In the marble foyer of the villa, the Heiress, speechless for the first time in her life, her lips pressed together, pulls the tall glass door shut again with the glittering fjord behind it. Askeladden stands before her holding an old, worn-out shoe sole with a hole right through it and a calm, lopsided smile. Up on the open gallery above them, the Tycoon slowly sets down his coffee cup.",
+      "characters": [
+        "dattera",
+        "askeladden",
+        "konsernsjefen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Heiress, the same character seen from three sides. Keep the Heiress's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Heiress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Askeladden, the same character seen from three sides. Keep Askeladden's face, hair, body shape, age, colours and clothes exactly as shown. Draw Askeladden only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Tycoon, the same character seen from three sides. Keep the Tycoon's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Tycoon only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the marble foyer of the villa, the Heiress, speechless for the first time in her life, her lips pressed together, pulls the tall glass door shut again with the glittering fjord behind it. Askeladden stands before her holding an old, worn-out shoe sole with a hole right through it and a calm, lopsided smile. Up on the open gallery above them, the Tycoon slowly sets down his coffee cup.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Heiress: A quick-witted young woman of about twenty-five, slim and upright, with a lively oval face, sharp, arched dark eyebrows, bright amber eyes, a small pointed nose and a mouth always ready with a clever reply. Her glossy chestnut hair is piled up in a high bun held by a slim silver clip. She wears a sharply tailored lilac trouser suit over a white silk top, small silver earrings and pointed silver-grey heels.\n- Askeladden: A slim, lean young man of about twenty with a clever, narrow face, sharp dark eyes that notice everything, straight black eyebrows, a thin straight nose and a lopsided, knowing smile. His black hair is shaggy and uncombed and falls over his ears and forehead. He wears a brown hooded canvas jacket over an ochre hoodie, dark-grey jeans and worn brown trainers, and carries a patched brown tote bag over his shoulder.\n- the Tycoon: A tired, stooped, elderly businessman with a long, gentle, wrinkled face, sleepy grey eyes with heavy bags under them, bushy grey eyebrows and a huge, drooping grey moustache that hangs down past his chin, but no beard. He wears a mustard-yellow cashmere cardigan over a white shirt, dark trousers and soft brown loafers, with gold-rimmed reading glasses pushed up crookedly on his head.\n\nStory world: Present-day Norway. The Tycoon's villa stands by the sea: a long, white modernist house of glass and concrete with a driveway lined with tall potted palms, a wide lawn, a gleaming white kitchen with a marble counter that nobody has ever cooked on, a huge living room with a thick pale carpet, and a marble foyer with tall glass doors facing the fjord, overlooked by an open gallery. Askeladden's finds are a black zip tie, a shard of a white saucer wrapped in a paper napkin, a dead magpie, two crooked old brass bicycle horns with black rubber bulbs that look exactly alike, and an old, worn-out shoe sole with a hole right through it. He carries them in a patched brown tote bag.\n\nThis story's season, light and colours: A bright, windy spring day by the sea: racing white clouds, a glittering blue-grey fjord and fresh yellow-green lawns and birches along the road. Inside the villa: cool white marble, glass and pale stone, with the lilac of her suit and the warm brass of the horns as the only strong colours.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

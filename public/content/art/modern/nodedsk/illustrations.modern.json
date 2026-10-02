@@ -1,0 +1,303 @@
+{
+  "storyId": "nodedsk",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Hanen og høna i Nøtteskogen",
+  "textFile": "public/content/stories/nodedsk/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:13:46.433Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Hanen spurter for å skaffe vann til Tuppen, høna si.",
+    "alt": "Hanen spurter mot oss langs turstien i Nøtteskogen. Bak ham ligger høna i gresset under en hasselbusk, og over trærne ruver boligblokkene.",
+    "prompt": "In the Nut Wood on a sunny September day, the Rooster sprints along the gravel footpath towards the viewer at full tilt, wings half spread and every feather streaming, a fierce, determined look in his eye. Behind him, the Hen lies in the long grass under a hazel bush, watching him go. Pastel blocks of flats rise above the trees against a clear blue sky.",
+    "characters": [
+      "hanen",
+      "hona-tuppen"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Nut Wood. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: In the Nut Wood on a sunny September day, the Rooster sprints along the gravel footpath towards the viewer at full tilt, wings half spread and every feather streaming, a fierce, determined look in his eye. Behind him, the Hen lies in the long grass under a hazel bush, watching him go. Pastel blocks of flats rise above the trees against a clear blue sky.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n- the Hen: A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.\n\nSetting:\n- the Nut Wood: A narrow strip of woodland behind a row of five-storey pastel blocks of flats: tall hazel bushes heavy with ripe nuts, a few birches and rowans with red berries, long grass and moss, and a gravel footpath with a bench running along it. Through the trees you glimpse balconies on one side and a playground on the other.\n\nStory world: Present-day Norway, a Saturday in September on the edge of a small town. Behind a housing co-op of pastel-coloured blocks of flats runs a narrow strip of woods with hazel bushes along a footpath, which the children call the Nut Wood. Nearby lie a playground with a new brushed-steel drinking fountain that only gives water for a code from the park app, a park with a barbecue area and a small wooden kiosk selling ice cream and barbecue charcoal, and a shopping centre with glass doors, an escalator, a goldsmith's, a shoe-repair booth and a hardware shop. Across the ring road lies a farm with a pig behind the barn and a field being harvested.\n\nThis story's season, light and colours: Early September on a clear, bright Saturday: high blue sky, crisp sunlight and long afternoon shadows, hazel bushes still green with the first yellow leaves, red rowan berries, golden stubble and dust over the fields, and pastel blocks of flats glowing in the sun. Accents: the Rooster's scarlet comb, the Kiosk Boy's bottle-green jacket and gleaming brushed steel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "hanen",
+      "name": "Hanen",
+      "description": "En handlekraftig og panisk omsorgsperson som løper fra sted til sted for å skaffe det som trengs for å få vann fra fontenen.",
+      "look": "A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.",
+      "sheet": "characters/hanen.webp",
+      "turn": "characters/hanen-turn.mp4",
+      "portrait": "portraits/hanen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/hanen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/hanen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "hanen"
+    },
+    {
+      "slug": "hona-tuppen",
+      "name": "Høna (Tuppen)",
+      "description": "Hanen sin kjære høne som setter et nøtteskall i halsen og trenger vann raskt.",
+      "look": "A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.",
+      "sheet": "characters/hona-tuppen.webp",
+      "turn": "characters/hona-tuppen-turn.mp4",
+      "portrait": "portraits/hona-tuppen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/hona-tuppen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/hona-tuppen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "hona-tuppen"
+    },
+    {
+      "slug": "kioskgutten",
+      "name": "Kioskgutten",
+      "description": "Gutten i kiosken ved grillplassen, i grønn jakke og med håret til alle kanter. Han hører på hele regla uten å avbryte, vil ikke ha noe tilbake og har det hanen mangler: hender.",
+      "look": "A tall, skinny boy of about fifteen with a long, pale face, calm grey-green eyes under thick straight eyebrows, a slightly crooked nose and a shy half-smile, and thick red-brown hair sticking out in all directions. He wears a bottle-green zip-up jacket over a black T-shirt, grey joggers and worn white high-top trainers.",
+      "sheet": "characters/kioskgutten.webp",
+      "turn": "characters/kioskgutten-turn.mp4",
+      "portrait": "portraits/kioskgutten.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kioskgutten.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kioskgutten-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    }
+  ],
+  "places": [
+    {
+      "slug": "notteskogen",
+      "name": "the Nut Wood",
+      "look": "A narrow strip of woodland behind a row of five-storey pastel blocks of flats: tall hazel bushes heavy with ripe nuts, a few birches and rowans with red berries, long grass and moss, and a gravel footpath with a bench running along it. Through the trees you glimpse balconies on one side and a playground on the other."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "Hanen bøyde seg over henne med alle fjærene på stritt.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hanen bøyde seg over henne med alle fjærene på stritt.",
+      "alt": "Høna ligger i gresset under en hasselbusk og kaver med vingene. Hanen bøyer seg over henne med alle fjærene på stritt, og bak trærne skimtes en lekeplass.",
+      "prompt": "In the Nut Wood on a sunny morning, seen close at bird height: the Hen lies on her side in the grass under a hazel bush, flapping her wings, her beak wide open without a sound, a half-eaten nut beside her. The Rooster bends over her with every feather on end, about to turn and run. Through the trees beyond, a playground with a shiny brushed-steel drinking fountain.",
+      "characters": [
+        "hona-tuppen",
+        "hanen"
+      ],
+      "places": [
+        "notteskogen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Nut Wood. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the Nut Wood on a sunny morning, seen close at bird height: the Hen lies on her side in the grass under a hazel bush, flapping her wings, her beak wide open without a sound, a half-eaten nut beside her. The Rooster bends over her with every feather on end, about to turn and run. Through the trees beyond, a playground with a shiny brushed-steel drinking fountain.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Hen: A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nSetting:\n- the Nut Wood: A narrow strip of woodland behind a row of five-storey pastel blocks of flats: tall hazel bushes heavy with ripe nuts, a few birches and rowans with red berries, long grass and moss, and a gravel footpath with a bench running along it. Through the trees you glimpse balconies on one side and a playground on the other.\n\nStory world: Present-day Norway, a Saturday in September on the edge of a small town. Behind a housing co-op of pastel-coloured blocks of flats runs a narrow strip of woods with hazel bushes along a footpath, which the children call the Nut Wood. Nearby lie a playground with a new brushed-steel drinking fountain that only gives water for a code from the park app, a park with a barbecue area and a small wooden kiosk selling ice cream and barbecue charcoal, and a shopping centre with glass doors, an escalator, a goldsmith's, a shoe-repair booth and a hardware shop. Across the ring road lies a farm with a pig behind the barn and a field being harvested.\n\nThis story's season, light and colours: Early September on a clear, bright Saturday: high blue sky, crisp sunlight and long afternoon shadows, hazel bushes still green with the first yellow leaves, red rowan berries, golden stubble and dust over the fields, and pastel blocks of flats glowing in the sun. Accents: the Rooster's scarlet comb, the Kiosk Boy's bottle-green jacket and gleaming brushed steel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 7,
+      "anchor": "Hanen hadde ikke mobil.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hanen hadde ikke mobil. Han var en hane.",
+      "alt": "Hanen står oppå en ny drikkefontene i børstet stål på lekeplassen og hakker på knappen. Det kommer ikke en dråpe.",
+      "prompt": "At a playground on a sunny day, the Rooster has hopped up onto a new, waist-high drinking fountain of brushed steel and pecks hard at its round button, one eye on the small glowing screen above it, which shows only light. Not a drop comes out. Behind him are a swing set, a sandpit and the pastel blocks of flats.",
+      "characters": [
+        "hanen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At a playground on a sunny day, the Rooster has hopped up onto a new, waist-high drinking fountain of brushed steel and pecks hard at its round button, one eye on the small glowing screen above it, which shows only light. Not a drop comes out. Behind him are a swing set, a sandpit and the pastel blocks of flats.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nStory world: Present-day Norway, a Saturday in September on the edge of a small town. Behind a housing co-op of pastel-coloured blocks of flats runs a narrow strip of woods with hazel bushes along a footpath, which the children call the Nut Wood. Nearby lie a playground with a new brushed-steel drinking fountain that only gives water for a code from the park app, a park with a barbecue area and a small wooden kiosk selling ice cream and barbecue charcoal, and a shopping centre with glass doors, an escalator, a goldsmith's, a shoe-repair booth and a hardware shop. Across the ring road lies a farm with a pig behind the barn and a field being harvested.\n\nThis story's season, light and colours: Early September on a clear, bright Saturday: high blue sky, crisp sunlight and long afternoon shadows, hazel bushes still green with the first yellow leaves, red rowan berries, golden stubble and dust over the fields, and pastel blocks of flats glowing in the sun. Accents: the Rooster's scarlet comb, the Kiosk Boy's bottle-green jacket and gleaming brushed steel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 14,
+      "anchor": "«Du får ikke bånd av meg før jeg får sko av deg», sa gullsmeden.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Rulletrappa tok sandalen min klokka ti. Og gulvet er iskaldt.»",
+      "alt": "En liten, bestemorslig gullsmed står barbeint på en rund utstillingspall med armene i kors. Ved føttene hennes ligger et par glitrende sandaler, og hanen ser opp på henne.",
+      "prompt": "Inside a bright goldsmith's shop in a shopping centre, a small, grandmotherly goldsmith of about seventy, with silver hair in a neat bun and a light-blue cardigan over a lavender dress, stands barefoot on a round white display podium in the middle of the shop with her arms crossed. At her feet lies a pair of rhinestone sandals, one with a snapped strap. Behind the counter hang rolls of gift ribbon in every colour. The Rooster looks up at her from the floor, breathless.",
+      "characters": [
+        "hanen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Inside a bright goldsmith's shop in a shopping centre, a small, grandmotherly goldsmith of about seventy, with silver hair in a neat bun and a light-blue cardigan over a lavender dress, stands barefoot on a round white display podium in the middle of the shop with her arms crossed. At her feet lies a pair of rhinestone sandals, one with a snapped strap. Behind the counter hang rolls of gift ribbon in every colour. The Rooster looks up at her from the floor, breathless.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nStory world: Present-day Norway, a Saturday in September on the edge of a small town. Behind a housing co-op of pastel-coloured blocks of flats runs a narrow strip of woods with hazel bushes along a footpath, which the children call the Nut Wood. Nearby lie a playground with a new brushed-steel drinking fountain that only gives water for a code from the park app, a park with a barbecue area and a small wooden kiosk selling ice cream and barbecue charcoal, and a shopping centre with glass doors, an escalator, a goldsmith's, a shoe-repair booth and a hardware shop. Across the ring road lies a farm with a pig behind the barn and a field being harvested.\n\nThis story's season, light and colours: Early September on a clear, bright Saturday: high blue sky, crisp sunlight and long afternoon shadows, hazel bushes still green with the first yellow leaves, red rowan berries, golden stubble and dust over the fields, and pastel blocks of flats glowing in the sun. Accents: the Rooster's scarlet comb, the Kiosk Boy's bottle-green jacket and gleaming brushed steel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 20,
+      "anchor": "Purka svelget.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Jeg har fått epler fra barnehagen hele uka.»",
+      "alt": "Ei stor, flekkete purke ligger i gjørma bak fjøset og tygger på et epleskrott. Hanen står foran trynet hennes og snakker fort. Bak gjerdet går ringveien.",
+      "prompt": "Behind a red barn on a farm across the ring road, a huge pink sow with black spots lies in the mud chewing an apple core, with several more apple cores around her. The Rooster stands at the edge of the mud in front of her snout, talking fast with his wings spread. Beyond the fence, cars stream along the ring road past a zebra crossing, and the blocks of flats stand in the distance.",
+      "characters": [
+        "hanen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Behind a red barn on a farm across the ring road, a huge pink sow with black spots lies in the mud chewing an apple core, with several more apple cores around her. The Rooster stands at the edge of the mud in front of her snout, talking fast with his wings spread. Beyond the fence, cars stream along the ring road past a zebra crossing, and the blocks of flats stand in the distance.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nStory world: Present-day Norway, a Saturday in September on the edge of a small town. Behind a housing co-op of pastel-coloured blocks of flats runs a narrow strip of woods with hazel bushes along a footpath, which the children call the Nut Wood. Nearby lie a playground with a new brushed-steel drinking fountain that only gives water for a code from the park app, a park with a barbecue area and a small wooden kiosk selling ice cream and barbecue charcoal, and a shopping centre with glass doors, an escalator, a goldsmith's, a shoe-repair booth and a hardware shop. Across the ring road lies a farm with a pig behind the barn and a field being harvested.\n\nThis story's season, light and colours: Early September on a clear, bright Saturday: high blue sky, crisp sunlight and long afternoon shadows, hazel bushes still green with the first yellow leaves, red rowan berries, golden stubble and dust over the fields, and pastel blocks of flats glowing in the sun. Accents: the Rooster's scarlet comb, the Kiosk Boy's bottle-green jacket and gleaming brushed steel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 28,
+      "anchor": "Så løp hanen hjem til blokkene.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Den nye øksa hadde vært «under levering» i tre uker.",
+      "alt": "I bakgården står vaktmesteren foran en haug med bjørkekubber og holder opp et økseskaft uten hode. Hanen stirrer på skaftet fra toppen av en kubbe.",
+      "prompt": "In the backyard of the blocks of flats, beside a big heap of split birch logs, a burly caretaker with a bushy black beard, in a navy work jacket and a grey beanie, holds up a bare axe handle with no head on it and shrugs with a helpless face. The Rooster stares up at the empty handle from the top of a log, beak open. Bikes, recycling bins and balconies behind them.",
+      "characters": [
+        "hanen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the backyard of the blocks of flats, beside a big heap of split birch logs, a burly caretaker with a bushy black beard, in a navy work jacket and a grey beanie, holds up a bare axe handle with no head on it and shrugs with a helpless face. The Rooster stares up at the empty handle from the top of a log, beak open. Bikes, recycling bins and balconies behind them.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nStory world: Present-day Norway, a Saturday in September on the edge of a small town. Behind a housing co-op of pastel-coloured blocks of flats runs a narrow strip of woods with hazel bushes along a footpath, which the children call the Nut Wood. Nearby lie a playground with a new brushed-steel drinking fountain that only gives water for a code from the park app, a park with a barbecue area and a small wooden kiosk selling ice cream and barbecue charcoal, and a shopping centre with glass doors, an escalator, a goldsmith's, a shoe-repair booth and a hardware shop. Across the ring road lies a farm with a pig behind the barn and a field being harvested.\n\nThis story's season, light and colours: Early September on a clear, bright Saturday: high blue sky, crisp sunlight and long afternoon shadows, hazel bushes still green with the first yellow leaves, red rowan berries, golden stubble and dust over the fields, and pastel blocks of flats glowing in the sun. Accents: the Rooster's scarlet comb, the Kiosk Boy's bottle-green jacket and gleaming brushed steel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 33,
+      "anchor": "Smeden holdt opp hånda og ristet på hodet.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Smeden pekte på den svarte bøtta ved disken. Den var tom.",
+      "alt": "I jernvarehandelen rister smeden på hodet og peker på ei tom, svart bøtte på disken. Bak ham henger håndsmidde økser, og hanen peker på den største med vingen.",
+      "prompt": "In a hardware shop in the shopping centre, a broad, bald smith with thick forearms and a grey leather apron stands behind the counter, holding up one hand and shaking his head, and points at a black metal bucket on the counter, which is empty. On the wall behind him hang the axes he has forged, the biggest one gleaming. The Rooster stands on the counter, pointing at it with one wing.",
+      "characters": [
+        "hanen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In a hardware shop in the shopping centre, a broad, bald smith with thick forearms and a grey leather apron stands behind the counter, holding up one hand and shaking his head, and points at a black metal bucket on the counter, which is empty. On the wall behind him hang the axes he has forged, the biggest one gleaming. The Rooster stands on the counter, pointing at it with one wing.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nStory world: Present-day Norway, a Saturday in September on the edge of a small town. Behind a housing co-op of pastel-coloured blocks of flats runs a narrow strip of woods with hazel bushes along a footpath, which the children call the Nut Wood. Nearby lie a playground with a new brushed-steel drinking fountain that only gives water for a code from the park app, a park with a barbecue area and a small wooden kiosk selling ice cream and barbecue charcoal, and a shopping centre with glass doors, an escalator, a goldsmith's, a shoe-repair booth and a hardware shop. Across the ring road lies a farm with a pig behind the barn and a field being harvested.\n\nThis story's season, light and colours: Early September on a clear, bright Saturday: high blue sky, crisp sunlight and long afternoon shadows, hazel bushes still green with the first yellow leaves, red rowan berries, golden stubble and dust over the fields, and pastel blocks of flats glowing in the sun. Accents: the Rooster's scarlet comb, the Kiosk Boy's bottle-green jacket and gleaming brushed steel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 39,
+      "anchor": "«Kom igjen», sa han.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Kom igjen», sa han. «Du har jo ikke hender.»",
+      "alt": "Kioskgutten kommer ut av kiosken med en sekk grillkull på skulderen og en tom flaske i lomma. Han nikker til hanen, som står andpusten ved beina hans.",
+      "prompt": "Outside a small wooden kiosk by the barbecue area in the park, the Kiosk Boy has just shut the hatch and stepped out, a sack of barbecue charcoal over his shoulder and an empty bottle sticking out of his jacket pocket. He nods to the Rooster, who stands at his feet panting, his feathers ruffled and dusty. Picnic tables and a stone barbecue stand behind them in the afternoon sun.",
+      "characters": [
+        "kioskgutten",
+        "hanen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Kiosk Boy, the same character seen from three sides. Keep the Kiosk Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Kiosk Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Outside a small wooden kiosk by the barbecue area in the park, the Kiosk Boy has just shut the hatch and stepped out, a sack of barbecue charcoal over his shoulder and an empty bottle sticking out of his jacket pocket. He nods to the Rooster, who stands at his feet panting, his feathers ruffled and dusty. Picnic tables and a stone barbecue stand behind them in the afternoon sun.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Kiosk Boy: A tall, skinny boy of about fifteen with a long, pale face, calm grey-green eyes under thick straight eyebrows, a slightly crooked nose and a shy half-smile, and thick red-brown hair sticking out in all directions. He wears a bottle-green zip-up jacket over a black T-shirt, grey joggers and worn white high-top trainers.\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nStory world: Present-day Norway, a Saturday in September on the edge of a small town. Behind a housing co-op of pastel-coloured blocks of flats runs a narrow strip of woods with hazel bushes along a footpath, which the children call the Nut Wood. Nearby lie a playground with a new brushed-steel drinking fountain that only gives water for a code from the park app, a park with a barbecue area and a small wooden kiosk selling ice cream and barbecue charcoal, and a shopping centre with glass doors, an escalator, a goldsmith's, a shoe-repair booth and a hardware shop. Across the ring road lies a farm with a pig behind the barn and a field being harvested.\n\nThis story's season, light and colours: Early September on a clear, bright Saturday: high blue sky, crisp sunlight and long afternoon shadows, hazel bushes still green with the first yellow leaves, red rowan berries, golden stubble and dust over the fields, and pastel blocks of flats glowing in the sun. Accents: the Rooster's scarlet comb, the Kiosk Boy's bottle-green jacket and gleaming brushed steel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 44,
+      "anchor": "Hanen spurte gutten hva han het.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hanen spurte gutten hva han het.",
+      "alt": "Kioskgutten kneler i gresset ved hasselbuskene med vannflaska i hånda. Høna har løftet hodet og er frisk igjen, og hanen ser opp på gutten.",
+      "prompt": "In the Nut Wood in the late afternoon sun, the Kiosk Boy kneels in the grass by the hazel bushes, still holding the water bottle. The Hen has lifted her head, bright-eyed again and shaking out her feathers. The Rooster, tired and bedraggled, stands beside her and looks up at the Kiosk Boy with his head on one side, asking him something.",
+      "characters": [
+        "kioskgutten",
+        "hona-tuppen",
+        "hanen"
+      ],
+      "places": [
+        "notteskogen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Kiosk Boy, the same character seen from three sides. Keep the Kiosk Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Kiosk Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Nut Wood. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the Nut Wood in the late afternoon sun, the Kiosk Boy kneels in the grass by the hazel bushes, still holding the water bottle. The Hen has lifted her head, bright-eyed again and shaking out her feathers. The Rooster, tired and bedraggled, stands beside her and looks up at the Kiosk Boy with his head on one side, asking him something.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Kiosk Boy: A tall, skinny boy of about fifteen with a long, pale face, calm grey-green eyes under thick straight eyebrows, a slightly crooked nose and a shy half-smile, and thick red-brown hair sticking out in all directions. He wears a bottle-green zip-up jacket over a black T-shirt, grey joggers and worn white high-top trainers.\n- the Hen: A small, round, plump little hen, speckled grey all over with tiny white and charcoal flecks like salt and pepper, with a small neat red comb, a short pale beak, bright round orange eyes, soft fluffy grey feathers on her legs and little grey feet. She has a cheerful, curious, nut-loving look.\n- the Rooster: A proud, sturdy farmyard rooster, snow-white all over with glossy white feathers, a big, floppy, bright scarlet comb and red wattles, a short yellow beak, round, earnest black eyes, strong yellow legs with spurs and a tall, arching tail of long white plumes. He carries himself upright with his chest puffed out, full of courage, and runs with his wings half spread.\n\nSetting:\n- the Nut Wood: A narrow strip of woodland behind a row of five-storey pastel blocks of flats: tall hazel bushes heavy with ripe nuts, a few birches and rowans with red berries, long grass and moss, and a gravel footpath with a bench running along it. Through the trees you glimpse balconies on one side and a playground on the other.\n\nStory world: Present-day Norway, a Saturday in September on the edge of a small town. Behind a housing co-op of pastel-coloured blocks of flats runs a narrow strip of woods with hazel bushes along a footpath, which the children call the Nut Wood. Nearby lie a playground with a new brushed-steel drinking fountain that only gives water for a code from the park app, a park with a barbecue area and a small wooden kiosk selling ice cream and barbecue charcoal, and a shopping centre with glass doors, an escalator, a goldsmith's, a shoe-repair booth and a hardware shop. Across the ring road lies a farm with a pig behind the barn and a field being harvested.\n\nThis story's season, light and colours: Early September on a clear, bright Saturday: high blue sky, crisp sunlight and long afternoon shadows, hazel bushes still green with the first yellow leaves, red rowan berries, golden stubble and dust over the fields, and pastel blocks of flats glowing in the sun. Accents: the Rooster's scarlet comb, the Kiosk Boy's bottle-green jacket and gleaming brushed steel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

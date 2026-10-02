@@ -1,0 +1,856 @@
+{
+  "storyId": "katrast",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Kari Trestakk",
+  "textFile": "public/content/stories/katrast/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:12:13.548Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Kari rir på den blågrå oksen mot skogene av kobber, sølv og gull.",
+    "alt": "Kari sitter på ryggen til en stor, blågrå okse på en lyngås i soloppgangen. Bak dem ligger en motorvei og kraftlinjer, foran dem tre skoger av kobber, sølv og gull.",
+    "prompt": "On a high heather ridge at sunrise, Kari rides on the Blue-Grey Ox's back in her green work jacket, holding on to his horns, her copper hair blowing in the wind. Far behind them run a thin grey motorway and a line of pylons; far ahead, three magic forests lie one behind another in the valleys: shining copper, glittering silver and glowing gold. The ox strides forward, calm and strong, and Kari gazes at the forests in wonder.",
+    "characters": [
+      "kari",
+      "oksen"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: On a high heather ridge at sunrise, Kari rides on the Blue-Grey Ox's back in her green work jacket, holding on to his horns, her copper hair blowing in the wind. Far behind them run a thin grey motorway and a line of pylons; far ahead, three magic forests lie one behind another in the valleys: shining copper, glittering silver and glowing gold. The ox strides forward, calm and strong, and Kari gazes at the forests in wonder.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "kari",
+      "name": "Kari",
+      "description": "Kongsdattera som stemora tar mobilen og maten fra og setter til å gjete kyrne, og som får en god venn i den blågrå oksen.",
+      "look": "A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.",
+      "sheet": "characters/kari.webp",
+      "turn": "characters/kari-turn.mp4",
+      "portrait": "portraits/kari.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kari.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kari-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kari-trestakk",
+      "name": "Kari Trestakk",
+      "description": "En kongsdatter som stemora setter til å gjete kyr, og som rømmer med den blågrå oksen og tar oppvaskjobb på et fremmed slott i en trestakk av bord og filler.",
+      "look": "A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows and a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid. Over her green work jacket and jeans she wears the trestakk: a stiff, bell-shaped shell of thin, grey-brown wooden boards laced together with rope and rags, reaching from her neck to her shins, and black rubber boots.",
+      "sheet": "characters/kari-trestakk.webp",
+      "turn": "characters/kari-trestakk-turn.mp4",
+      "portrait": "portraits/kari-trestakk.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kari-trestakk.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kari-trestakk-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kari-treestakk"
+    },
+    {
+      "slug": "kari-kobberkjole",
+      "name": "Kari i kobberkjolen",
+      "description": "Kari den første søndagen, i en enkel kjole som skinner som kobberskogen, med hansker og hest fra mannen i berget.",
+      "look": "A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair falling loose down her back. She wears a long, simply cut gown of shining copper silk that glows warm orange-pink like polished copper, long copper-coloured gloves and soft copper ballet flats.",
+      "sheet": "characters/kari-kobberkjole.webp",
+      "turn": "characters/kari-kobberkjole-turn.mp4",
+      "portrait": "portraits/kari-kobberkjole.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kari-kobberkjole.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kari-kobberkjole-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kari-solvkjole",
+      "name": "Kari i sølvkjolen",
+      "description": "Kari den andre søndagen, i en kjole sydd med sølvtråd over det hele, på en hest med sølvbrodert sal.",
+      "look": "A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair in one loose braid woven with a silver ribbon. She wears a long, slim gown embroidered all over with silver thread that glitters like frost, a short silver-grey riding jacket and silver ankle boots, and carries a slim riding whip with a silver handle.",
+      "sheet": "characters/kari-solvkjole.webp",
+      "turn": "characters/kari-solvkjole-turn.mp4",
+      "portrait": "portraits/kari-solvkjole.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kari-solvkjole.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kari-solvkjole-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "kari-gullkjole",
+      "name": "Kari i gullkjolen",
+      "description": "Kari den tredje søndagen, i en kjole av nesten bare gull, besatt med klare steiner som glitrer som is, og med små sko av gull.",
+      "look": "A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose, held back by a slender gold band. She wears a long, full gown of gold cloth set all over with small clear stones that glitter like ice, and two small, pointed shoes of shining gold.",
+      "sheet": "characters/kari-gullkjole.webp",
+      "turn": "characters/kari-gullkjole-turn.mp4",
+      "portrait": "portraits/kari-gullkjole.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kari-gullkjole.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kari-gullkjole-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "oksen",
+      "name": "Den blågrå oksen",
+      "description": "En stor okse som alltid er blank og ren uansett vær, som kan snakke, har en matduk i venstre øre og slåss mot trollene i skogene av kobber, sølv og gull for Kari.",
+      "look": "A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.",
+      "sheet": "characters/oksen.webp",
+      "turn": "characters/oksen-turn.mp4",
+      "portrait": "portraits/oksen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/oksen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/oksen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "blue-gray-ox"
+    },
+    {
+      "slug": "stemora",
+      "name": "Stemora",
+      "description": "Kongens nye dronning, som smiler til alle og mener det med ingen, tar fra Kari mobilen og maten og betaler privatlegen for å si at hun bare blir frisk av oksekjøtt.",
+      "look": "A tall, thin woman of about forty-five with a long, pinched face, a sharp pointed nose, narrow pale-green eyes, thin arched eyebrows, a small mouth fixed in a bright smile that never reaches her eyes, and jet-black hair scraped into a tight, sleek bun held by a spiky silver clip. She wears a stiff, high-necked slate-grey designer dress, a long black wool coat draped over her shoulders and many heavy silver rings, and holds a white handkerchief.",
+      "sheet": "characters/stemora.webp",
+      "turn": "characters/stemora-turn.mp4",
+      "portrait": "portraits/stemora.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/stemora.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/stemora-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "stepmother"
+    },
+    {
+      "slug": "stesostera",
+      "name": "Stesøstera",
+      "description": "Dattera til stemora, akkurat så slem som Kari er snill. Hun får gullskoen på og blir pyntet til brud.",
+      "look": "A gangly young woman of about twenty with a long, sour face, a pinched, turned-up nose, small squinting pale-green eyes, a pouting mouth and thin, straw-pale hair in two stiff braids that stick out sideways. She wears a frilly blouse the sour green of unripe gooseberries, covered in pink bows, a short pleated green skirt, white tights and pointed green shoes on very long, big feet.",
+      "sheet": "characters/stesostera.webp",
+      "turn": "characters/stesostera-turn.mp4",
+      "portrait": "portraits/stesostera.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/stesostera.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/stesostera-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "prinsen",
+      "name": "Prinsen",
+      "description": "En ung, ugift prins med et ansikt for forsida av et ukeblad, som tømmer vaskevannet over oppvaskjenta og så ikke kan ta øynene fra den ukjente jenta i kirka.",
+      "look": "A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.",
+      "sheet": "characters/prinsen.webp",
+      "turn": "characters/prinsen-turn.mp4",
+      "portrait": "portraits/prinsen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "the-prince"
+    },
+    {
+      "slug": "mannen-i-berget",
+      "name": "Mannen i berget",
+      "description": "En mørkkledd mann som kommer ut av bergveggen når Kari banker, med kjoler og hest til kirka og mørke, rolige øyne hun synes hun har sett før.",
+      "look": "A small, sturdy man of no clear age with a broad, calm face, a big round nose, big, calm dark-brown eyes with long lashes and thick, short blue-grey hair with one curly tuft at the front. He wears a long charcoal wool coat buttoned to the neck, a dark knitted jumper, dark trousers and heavy black boots, and carries a small brass lantern that glows warm yellow.",
+      "sheet": "characters/mannen-i-berget.webp",
+      "turn": "characters/mannen-i-berget-turn.mp4",
+      "portrait": "portraits/mannen-i-berget.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/mannen-i-berget.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/mannen-i-berget-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "man-from-the-rock"
+    },
+    {
+      "slug": "trollet-med-tre-hoder",
+      "name": "Trollet med tre hoder",
+      "description": "Trollet som eier kobberskogen. Det har tre hoder, og alle tre er sinte når noen rører skogen.",
+      "look": "A squat, pot-bellied troll about twice as tall as a man, with chalk-white, lumpy skin speckled with grey freckles and patches of moss, short bandy legs and long dangling arms. It has three bald, egg-shaped heads on three thick necks, each with a big red bulbous nose, small round orange eyes, one crooked tooth and tufts of stiff orange hair behind the ears. It wears huge, ragged brown canvas work trousers held up with rope, with a curved cow horn of salve hanging from the rope.",
+      "sheet": "characters/trollet-med-tre-hoder.webp",
+      "turn": "characters/trollet-med-tre-hoder-turn.mp4",
+      "portrait": "portraits/trollet-med-tre-hoder.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollet-med-tre-hoder.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollet-med-tre-hoder-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "trollet-med-ni-hoder",
+      "name": "Trollet med ni hoder",
+      "description": "Trollet som eier gullskogen, sterkere enn de to andre trollene til sammen. Hver gang oksen stanger i hjel et av hodene, blåser de andre liv i det igjen.",
+      "look": "An enormous, pear-shaped troll as tall as a four-storey building, with lumpy, heather-pink skin, a huge round belly and short, stumpy arms and legs. Along its broad shoulders sit nine small round heads in a row, each with puffy cheeks, a tiny snub nose, small black eyes under bushy grey brows, big round ears and a shock of spiky grey hair. It wears an enormous faded brown tarpaulin tied round its middle with rope, with a curved cow horn of salve hanging from it.",
+      "sheet": "characters/trollet-med-ni-hoder.webp",
+      "turn": "characters/trollet-med-ni-hoder-turn.mp4",
+      "portrait": "portraits/trollet-med-ni-hoder.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/trollet-med-ni-hoder.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/trollet-med-ni-hoder-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    }
+  ],
+  "places": [
+    {
+      "slug": "bergveggen",
+      "name": "the Cliff",
+      "look": "A dark, sheer cliff rising above a big grassy mound on a high, windswept plateau of heather, juniper and grey boulders. Rusty lichen streaks the rock, and a narrow crack low in the cliff face can open like a door. From the mound there is a wide view down over a green valley to a grey stone castle with towers and an old stone church."
+    },
+    {
+      "slug": "steinkirka",
+      "name": "the Stone Church",
+      "look": "A small, old grey stone church with a steep slate roof, a short square tower and a round-arched door inside a low stone porch, on a green hill below the castle. A dry-stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path leads up to the porch past a small gravel car park."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "Så fikk kongen krig med en annen konge.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Først tok hun fra Kari mobilen, så tok hun maten.",
+      "alt": "I en stor stue av glass og betong holder stemora smilende fram hånda, og Kari legger mobilen sin i den. Bak dem ligger stesøstera på sofaen og flirer.",
+      "prompt": "In a vast living room of glass and concrete with a long dining table and twenty chairs, the Stepmother smiles brightly and holds out her ringed hand, and Kari, pale and unhappy, reluctantly lays her phone in it. Behind them, the Stepsister lounges on a grey designer sofa, smirking. Floor-to-ceiling windows look out on a long avenue of trees. The phone screen is dark.",
+      "characters": [
+        "kari",
+        "stemora",
+        "stesostera"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Stepmother, the same character seen from three sides. Keep the Stepmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stepmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Stepsister, the same character seen from three sides. Keep the Stepsister's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stepsister only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In a vast living room of glass and concrete with a long dining table and twenty chairs, the Stepmother smiles brightly and holds out her ringed hand, and Kari, pale and unhappy, reluctantly lays her phone in it. Behind them, the Stepsister lounges on a grey designer sofa, smirking. Floor-to-ceiling windows look out on a long avenue of trees. The phone screen is dark.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Stepmother: A tall, thin woman of about forty-five with a long, pinched face, a sharp pointed nose, narrow pale-green eyes, thin arched eyebrows, a small mouth fixed in a bright smile that never reaches her eyes, and jet-black hair scraped into a tight, sleek bun held by a spiky silver clip. She wears a stiff, high-necked slate-grey designer dress, a long black wool coat draped over her shoulders and many heavy silver rings, and holds a white handkerchief.\n- the Stepsister: A gangly young woman of about twenty with a long, sour face, a pinched, turned-up nose, small squinting pale-green eyes, a pouting mouth and thin, straw-pale hair in two stiff braids that stick out sideways. She wears a frilly blouse the sour green of unripe gooseberries, covered in pink bows, a short pleated green skirt, white tights and pointed green shoes on very long, big feet.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 7,
+      "anchor": "En kveld hadde hun drevet kyrne inn og satt seg på en stein bak garasjene",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Da kom oksen og la snuten forsiktig mot skulderen hennes.",
+      "alt": "Kari sitter på en stein bak garasjene med en gammel termos i fanget og gråter. Den store, blågrå oksen legger snuten forsiktig mot skulderen hennes.",
+      "prompt": "Evening behind a row of concrete garages at the back of the palace, where a narrow service road runs into the forest. Kari, thin and pale in her green work jacket, sits on a big stone with the old steel thermos in her lap, crying. The Blue-Grey Ox has come up beside her and rests his big muzzle gently on her shoulder. Soft blue dusk and a single street lamp.",
+      "characters": [
+        "kari",
+        "oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Evening behind a row of concrete garages at the back of the palace, where a narrow service road runs into the forest. Kari, thin and pale in her green work jacket, sits on a big stone with the old steel thermos in her lap, crying. The Blue-Grey Ox has come up beside her and rests his big muzzle gently on her shoulder. Soft blue dusk and a single street lamp.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 11,
+      "anchor": "Kari rakte hånda opp mot det store, varme øret.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Duken dekket på: stek, nybakt brød, jordbær, bløtkake, vin og mjød.",
+      "alt": "Kari sitter ved en hvit duk i gresset med dampende stek, nybakt brød, jordbær, bløtkake, vin og mjød. Den blågrå oksen står ved siden av og ser på.",
+      "prompt": "In a forest clearing on the mountain behind the palace, a white cloth lies spread on the grass, laid with steaming roast meat, fresh bread, a bowl of strawberries, a tall cream layer cake, a glass carafe of red wine and an earthenware jug of mead. Kari sits cross-legged at the cloth, surprised and delighted, with a cup of mead in her hand. The Blue-Grey Ox stands beside her, watching. Four cows graze among the birches behind.",
+      "characters": [
+        "kari",
+        "oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In a forest clearing on the mountain behind the palace, a white cloth lies spread on the grass, laid with steaming roast meat, fresh bread, a bowl of strawberries, a tall cream layer cake, a glass carafe of red wine and an earthenware jug of mead. Kari sits cross-legged at the cloth, surprised and delighted, with a cup of mead in her hand. The Blue-Grey Ox stands beside her, watching. Four cows graze among the birches behind.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 16,
+      "anchor": "Hun lå på sofaen i stua med pledd over beina og gardinene trukket for",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Legen kom ut med en tykk konvolutt i innerlomma og en diagnose.",
+      "alt": "Stemora ligger på sofaen med pledd over beina og gardinene trukket for. Ved døra putter privatlegen en tykk konvolutt i innerlomma.",
+      "prompt": "In the dim living room of the palace with the curtains drawn, the Stepmother lies on the grey designer sofa under a soft blanket, one hand pressed dramatically to her forehead. By the door, the private doctor, a silver-haired man in a dark suit with a leather doctor's bag, slips a thick white envelope into the inside pocket of his jacket without meeting anyone's eyes.",
+      "characters": [
+        "stemora"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Stepmother, the same character seen from three sides. Keep the Stepmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stepmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the dim living room of the palace with the curtains drawn, the Stepmother lies on the grey designer sofa under a soft blanket, one hand pressed dramatically to her forehead. By the door, the private doctor, a silver-haired man in a dark suit with a leather doctor's bag, slips a thick white envelope into the inside pocket of his jacket without meeting anyone's eyes.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Stepmother: A tall, thin woman of about forty-five with a long, pinched face, a sharp pointed nose, narrow pale-green eyes, thin arched eyebrows, a small mouth fixed in a bright smile that never reaches her eyes, and jet-black hair scraped into a tight, sleek bun held by a spiky silver clip. She wears a stiff, high-necked slate-grey designer dress, a long black wool coat draped over her shoulders and many heavy silver rings, and holds a white handkerchief.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 25,
+      "anchor": "Da slottet hadde sovnet, listet hun seg ut bakdøra",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Oksen knelte, hun klatret opp på ryggen hans, og så la han i vei.",
+      "alt": "Om natten klatrer Kari opp på ryggen til oksen, som ligger på kne i døra til fjøset. Over garasjeporten henger et overvåkingskamera med et lite rødt lys.",
+      "prompt": "Night behind the dark glass palace. In the open doorway of the red barn, the Blue-Grey Ox kneels in the straw, and Kari, in her green work jacket, climbs onto his back. Across the moonlit yard, a security camera with a small red light hangs over the garage door, and every window of the palace is dark.",
+      "characters": [
+        "kari",
+        "oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night behind the dark glass palace. In the open doorway of the red barn, the Blue-Grey Ox kneels in the straw, and Kari, in her green work jacket, climbs onto his back. Across the moonlit yard, a security camera with a small red light hangs over the garage door, and every window of the palace is dark.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 32,
+      "anchor": "Ved enden av skogen kom trollet.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Det hadde tre hoder, og alle tre var sinte.",
+      "alt": "Ved enden av kobberskogen kommer et troll med tre sinte hoder ut mellom trærne. Oksen senker hornene, og Kari holder et kobberblad i hånda.",
+      "prompt": "At the edge of a forest where every trunk, branch, leaf and flower is shining copper, the Three-Headed Troll comes stomping out between the trees in its rope-tied work trousers, all three heads scowling furiously. The Blue-Grey Ox plants his hooves and lowers his horns, and Kari, on his back, clutches a single copper leaf. Copper leaves glint in the low sun.",
+      "characters": [
+        "kari",
+        "oksen",
+        "trollet-med-tre-hoder"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Three-Headed Troll, the same character seen from three sides. Keep the Three-Headed Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Three-Headed Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the edge of a forest where every trunk, branch, leaf and flower is shining copper, the Three-Headed Troll comes stomping out between the trees in its rope-tied work trousers, all three heads scowling furiously. The Blue-Grey Ox plants his hooves and lowers his horns, and Kari, on his back, clutches a single copper leaf. Copper leaves glint in the low sun.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n- the Three-Headed Troll: A squat, pot-bellied troll about twice as tall as a man, with chalk-white, lumpy skin speckled with grey freckles and patches of moss, short bandy legs and long dangling arms. It has three bald, egg-shaped heads on three thick necks, each with a big red bulbous nose, small round orange eyes, one crooked tooth and tufts of stiff orange hair behind the ears. It wears huge, ragged brown canvas work trousers held up with rope, with a curved cow horn of salve hanging from the rope.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 37,
+      "anchor": "De braste sammen.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kari hadde smurt kyr før, men aldri med en salve som virket mens hun så på.",
+      "alt": "Oksen ligger utslitt på mosen i skumringen. Kari kneler ved siden av ham og smører ham med salve fra et krumt kuhorn, og det lyser svakt der salven treffer.",
+      "prompt": "At dusk at the edge of the copper forest, the Blue-Grey Ox lies exhausted on the moss with his eyes half closed. Kari kneels beside him with her sleeves rolled up and rubs salve from a curved cow horn into his shoulder with a practised farm girl's hands, staring in amazement as a soft glow spreads wherever the salve touches him. The copper trees gleam dully behind them.",
+      "characters": [
+        "kari",
+        "oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At dusk at the edge of the copper forest, the Blue-Grey Ox lies exhausted on the moss with his eyes half closed. Kari kneels beside him with her sleeves rolled up and rubs salve from a curved cow horn into his shoulder with a practised farm girl's hands, staring in amazement as a soft glow spreads wherever the salve touches him. The copper trees gleam dully behind them.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 49,
+      "anchor": "«Opp», sa oksen, og knelte.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Opp», sa oksen, og knelte.",
+      "alt": "På en smal skogsti har den tynne, blågrå oksen lagt seg på kne foran Kari. Hun løfter hendene og vil heller gå selv.",
+      "prompt": "On a narrow forest track in grey morning mist, the Blue-Grey Ox, still thin and weak after the long rest, has knelt down in front of Kari and looks back at her with a patient, stubborn face. Kari stands beside him with both hands raised in protest, ready to walk. Tall, dark spruces stand all around, and a faint silver glitter shows far behind them among the trees.",
+      "characters": [
+        "kari",
+        "oksen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On a narrow forest track in grey morning mist, the Blue-Grey Ox, still thin and weak after the long rest, has knelt down in front of Kari and looks back at her with a patient, stubborn face. Kari stands beside him with both hands raised in protest, ready to walk. Tall, dark spruces stand all around, and a faint silver glitter shows far behind them among the trees.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 55,
+      "anchor": "Så kom trollet med de ni hodene.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Det var så fælt at Kari nesten ikke turte se på det.",
+      "alt": "Et enormt troll med ni hoder rager over trærne i gullskogen. Oksen senker hornene, og Kari snur seg bort med et gulleple i hendene.",
+      "prompt": "In the golden forest, where gold drips from the leaves, the Nine-Headed Troll looms up above the treetops, as tall as a four-storey building, its nine heads glaring down in a row. The Blue-Grey Ox stands braced before it with his horns lowered. Behind him, Kari presses herself against a golden tree trunk and turns her face away, clutching a heavy golden apple in both hands. Golden light and long shadows.",
+      "characters": [
+        "kari",
+        "oksen",
+        "trollet-med-ni-hoder"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Nine-Headed Troll, the same character seen from three sides. Keep the Nine-Headed Troll's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Nine-Headed Troll only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the golden forest, where gold drips from the leaves, the Nine-Headed Troll looms up above the treetops, as tall as a four-storey building, its nine heads glaring down in a row. The Blue-Grey Ox stands braced before it with his horns lowered. Behind him, Kari presses herself against a golden tree trunk and turns her face away, clutching a heavy golden apple in both hands. Golden light and long shadows.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n- the Nine-Headed Troll: An enormous, pear-shaped troll as tall as a four-storey building, with lumpy, heather-pink skin, a huge round belly and short, stumpy arms and legs. Along its broad shoulders sit nine small round heads in a row, each with puffy cheeks, a tiny snub nose, small black eyes under bushy grey brows, big round ears and a shock of spiky grey hair. It wears an enormous faded brown tarpaulin tied round its middle with rope, with a curved cow horn of salve hanging from it.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 68,
+      "anchor": "Til slutt kom de til en stor haug under en mørk, loddrett bergvegg.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Rett nedenfor lå slottet, med tårn og en gammel steinkirke like ved.",
+      "alt": "Kari sitter på oksen på en haug under en mørk bergvegg og ser ned på et slott med tårn og en gammel steinkirke.",
+      "prompt": "Wide view of a high, windswept plateau: on the big grassy mound beneath the Cliff, Kari sits on the Blue-Grey Ox's back with her hair whipping in the wind and looks down into the valley, where a grey stone castle with towers and an old stone church lie close below. The ox stands thin and tired but steady. Racing clouds, and heather bending in the wind.",
+      "characters": [
+        "kari",
+        "oksen"
+      ],
+      "places": [
+        "bergveggen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Cliff. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Wide view of a high, windswept plateau: on the big grassy mound beneath the Cliff, Kari sits on the Blue-Grey Ox's back with her hair whipping in the wind and looks down into the valley, where a grey stone castle with towers and an old stone church lie close below. The ox stands thin and tired but steady. Racing clouds, and heather bending in the wind.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n\nSetting:\n- the Cliff: A dark, sheer cliff rising above a big grassy mound on a high, windswept plateau of heather, juniper and grey boulders. Rusty lichen streaks the rock, and a narrow crack low in the cliff face can open like a door. From the mound there is a wide view down over a green valley to a grey stone castle with towers and an old stone church.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 77,
+      "anchor": "«Det er den eneste takken jeg vil ha», sa oksen.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Det er den eneste takken jeg vil ha», sa oksen.",
+      "alt": "Kari har slått armene rundt halsen på oksen under bergveggen og gråter. Oksen står helt stille med lukkede øyne. En stokk står lent mot berget.",
+      "prompt": "In the wind at the foot of the Cliff, Kari has flung her arms round the Blue-Grey Ox's neck and hides her face in his coat, sobbing. The ox stands quite still with his eyes closed and his great head bowed over her shoulder. A plain, straight wooden stick leans against the rock beside them, and grey evening light lies over the plateau.",
+      "characters": [
+        "kari",
+        "oksen"
+      ],
+      "places": [
+        "bergveggen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari, the same character seen from three sides. Keep Kari's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Blue-Grey Ox, the same character seen from three sides. Keep the Blue-Grey Ox's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Blue-Grey Ox only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Cliff. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the wind at the foot of the Cliff, Kari has flung her arms round the Blue-Grey Ox's neck and hides her face in his coat, sobbing. The ox stands quite still with his eyes closed and his great head bowed over her shoulder. A plain, straight wooden stick leans against the rock beside them, and grey evening light lies over the plateau.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair tied back loosely with a strip of blue cloth. She wears a faded green work jacket over a sage-green hoodie, worn jeans, black rubber boots and a grey knitted scarf, and carries a battered old steel thermos.\n- the Blue-Grey Ox: A huge, gentle ox, taller at the shoulder than a grown man, with a glossy, spotless blue-grey coat that stays clean and shining in any weather, a paler grey muzzle, big, soft dark-brown eyes with long lashes, two long, smooth cream-white horns curving upwards, large soft ears, a curly tuft of darker blue-grey hair between the horns, a long tail ending in a navy-blue tassel and dark grey hooves. Calm, kind and very strong.\n\nSetting:\n- the Cliff: A dark, sheer cliff rising above a big grassy mound on a high, windswept plateau of heather, juniper and grey boulders. Rusty lichen streaks the rock, and a narrow crack low in the cliff face can open like a door. From the mound there is a wide view down over a green valley to a grey stone castle with towers and an old stone church.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 84,
+      "anchor": "Kjøkkensjefen skrev det på vaktlista uten å se opp.",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Kjøkkensjefen skrev det på vaktlista uten å se opp.",
+      "alt": "I et stort kjøkken med stålbenker skriver kjøkkensjefen på ei liste uten å se opp. Foran henne står Kari i en skranglete trestakk av bord og filler.",
+      "prompt": "In a big, steamy basement kitchen with steel counters, stacked crates and flat fluorescent light, the head chef, a stout woman in chef's whites and a black cap, jots on a clipboard without looking up. In front of her stands Kari Trestakk in her rattling wooden trestakk, sooty and upright. Two young kitchen workers in white stare at her from the dishwashing station.",
+      "characters": [
+        "kari-trestakk"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari Trestakk, the same character seen from three sides. Keep Kari Trestakk's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari Trestakk only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In a big, steamy basement kitchen with steel counters, stacked crates and flat fluorescent light, the head chef, a stout woman in chef's whites and a black cap, jots on a clipboard without looking up. In front of her stands Kari Trestakk in her rattling wooden trestakk, sooty and upright. Two young kitchen workers in white stare at her from the dishwashing station.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari Trestakk: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows and a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid. Over her green work jacket and jeans she wears the trestakk: a stiff, bell-shaped shell of thin, grey-brown wooden boards laced together with rope and rags, reaching from her neck to her shins, and black rubber boots.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "13",
+      "paragraph": 93,
+      "anchor": "«Tror du jeg vil ha vann som du har båret?»",
+      "file": "scenes/13.webp",
+      "sources": [
+        {
+          "file": "scenes/13.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/13-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Tror du jeg vil ha vann som du har båret?»",
+      "alt": "Øverst i trappa tømmer prinsen en høy sølvmugge med vann over Kari Trestakk. Hun står stille med lukkede øyne mens vannet renner.",
+      "prompt": "At the top of a steep back staircase in the castle, the Prince has torn open his door and empties a tall silver jug of water over Kari Trestakk, who stands on the top step in her wooden trestakk with her eyes shut, water streaming down her sooty face. His handsome face is twisted with disgust. Plain white walls and grey Sunday-morning light from a small window.",
+      "characters": [
+        "kari-trestakk",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari Trestakk, the same character seen from three sides. Keep Kari Trestakk's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari Trestakk only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the top of a steep back staircase in the castle, the Prince has torn open his door and empties a tall silver jug of water over Kari Trestakk, who stands on the top step in her wooden trestakk with her eyes shut, water streaming down her sooty face. His handsome face is twisted with disgust. Plain white walls and grey Sunday-morning light from a small window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari Trestakk: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows and a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid. Over her green work jacket and jeans she wears the trestakk: a stiff, bell-shaped shell of thin, grey-brown wooden boards laced together with rope and rags, reaching from her neck to her shins, and black rubber boots.\n- the Prince: A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "14",
+      "paragraph": 98,
+      "anchor": "Mannen gikk inn i berget og kom ut igjen med en kjole som skinte",
+      "file": "scenes/14.webp",
+      "sources": [
+        {
+          "file": "scenes/14.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/14-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han kom ut igjen med en kjole som skinte som kobberskogen.",
+      "alt": "Under bergveggen holder mannen i berget fram en skinnende kobberkjole og et par lange hansker. Kari står i trestakken og ser forundret på den. Bak dem står en salet hest.",
+      "prompt": "At the foot of the Cliff, where a narrow crack stands open in the rock, the Man from the Rock holds out a simply cut gown of shining copper and a pair of long copper gloves. Kari Trestakk, still damp and sooty in her wooden trestakk, stares at the gown with her hands pressed to her mouth. Behind them stands a saddled chestnut horse, and the heather bends in the wind.",
+      "characters": [
+        "kari-trestakk",
+        "mannen-i-berget"
+      ],
+      "places": [
+        "bergveggen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari Trestakk, the same character seen from three sides. Keep Kari Trestakk's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari Trestakk only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Man from the Rock, the same character seen from three sides. Keep the Man from the Rock's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Man from the Rock only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Cliff. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the foot of the Cliff, where a narrow crack stands open in the rock, the Man from the Rock holds out a simply cut gown of shining copper and a pair of long copper gloves. Kari Trestakk, still damp and sooty in her wooden trestakk, stares at the gown with her hands pressed to her mouth. Behind them stands a saddled chestnut horse, and the heather bends in the wind.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari Trestakk: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows and a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid. Over her green work jacket and jeans she wears the trestakk: a stiff, bell-shaped shell of thin, grey-brown wooden boards laced together with rope and rags, reaching from her neck to her shins, and black rubber boots.\n- the Man from the Rock: A small, sturdy man of no clear age with a broad, calm face, a big round nose, big, calm dark-brown eyes with long lashes and thick, short blue-grey hair with one curly tuft at the front. He wears a long charcoal wool coat buttoned to the neck, a dark knitted jumper, dark trousers and heavy black boots, and carries a small brass lantern that glows warm yellow.\n\nSetting:\n- the Cliff: A dark, sheer cliff rising above a big grassy mound on a high, windswept plateau of heather, juniper and grey boulders. Rusty lichen streaks the rock, and a narrow crack low in the cliff face can open like a door. From the mound there is a wide view down over a green valley to a grey stone castle with towers and an old stone church.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "15",
+      "paragraph": 105,
+      "anchor": "Og det ble lyst foran henne og mørkt bak, og da prinsen kunne se igjen",
+      "file": "scenes/15.webp",
+      "sources": [
+        {
+          "file": "scenes/15.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/15-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Det ble lyst foran henne og mørkt bak, og så var hun borte.",
+      "alt": "Utenfor steinkirka rir Kari bort i kobberkjolen. Foran henne er det et blendende lys og bak henne mørkt. Prinsen står med hansken hennes, og kirkefolk filmer med mobilen.",
+      "prompt": "Outside the Stone Church after the service, a dazzling white light blazes in front of Kari in the Copper Dress as she rides off on her chestnut horse, and a wall of darkness has fallen behind her. The Prince stands blinking with one of her copper gloves in his hand, and six churchgoers hold up their phones to film her, the screens showing only white glare.",
+      "characters": [
+        "kari-kobberkjole",
+        "prinsen"
+      ],
+      "places": [
+        "steinkirka"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Copper Dress, the same character seen from three sides. Keep Kari in the Copper Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Copper Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Stone Church. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Outside the Stone Church after the service, a dazzling white light blazes in front of Kari in the Copper Dress as she rides off on her chestnut horse, and a wall of darkness has fallen behind her. The Prince stands blinking with one of her copper gloves in his hand, and six churchgoers hold up their phones to film her, the screens showing only white glare.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Copper Dress: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair falling loose down her back. She wears a long, simply cut gown of shining copper silk that glows warm orange-pink like polished copper, long copper-coloured gloves and soft copper ballet flats.\n- the Prince: A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.\n\nSetting:\n- the Stone Church: A small, old grey stone church with a steep slate roof, a short square tower and a round-arched door inside a low stone porch, on a green hill below the castle. A dry-stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path leads up to the porch past a small gravel car park.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "16",
+      "paragraph": 110,
+      "anchor": "Kari ga seg ikke.",
+      "file": "scenes/16.webp",
+      "sources": [
+        {
+          "file": "scenes/16.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/16-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han rev til seg håndkleet og kastet det rett i ansiktet på henne.",
+      "alt": "Øverst i trappa kaster prinsen et hvitt håndkle rett i ansiktet på Kari Trestakk. Nede i trappa titter to kjøkkenansatte fram og prøver å holde seg for latter.",
+      "prompt": "Seen from the bottom of the back staircase, where two young kitchen workers in white peek round the corner, trying not to laugh: at the top of the stairs, the Prince snatches a white towel from Kari Trestakk and flings it straight into her sooty face. She stands frozen on the landing in her wooden trestakk, and his door stands open behind him.",
+      "characters": [
+        "kari-trestakk",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari Trestakk, the same character seen from three sides. Keep Kari Trestakk's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari Trestakk only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Seen from the bottom of the back staircase, where two young kitchen workers in white peek round the corner, trying not to laugh: at the top of the stairs, the Prince snatches a white towel from Kari Trestakk and flings it straight into her sooty face. She stands frozen on the landing in her wooden trestakk, and his door stands open behind him.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari Trestakk: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows and a dimple in her chin, her face and hands black with soot and her long, wavy copper hair in a messy braid. Over her green work jacket and jeans she wears the trestakk: a stiff, bell-shaped shell of thin, grey-brown wooden boards laced together with rope and rags, reaching from her neck to her shins, and black rubber boots.\n- the Prince: A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "17",
+      "paragraph": 119,
+      "anchor": "«Fra Håndkleland», sa Kari, og i det samme mistet hun ridepisken.",
+      "file": "scenes/17.webp",
+      "sources": [
+        {
+          "file": "scenes/17.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/17-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Fra Håndkleland», sa Kari, og i det samme mistet hun ridepisken.",
+      "alt": "Utenfor steinkirka sitter Kari i sølvkjolen på en grå hest. Hun har mistet ridepisken, og prinsen bøyer seg for å ta den opp.",
+      "prompt": "On the gravel outside the Stone Church, Kari in the Silver Dress sits high on a dapple-grey horse with a silver-embroidered saddlecloth and a silver bit, looking down with a small smile. Her silver-handled riding whip has just fallen to the ground, and the Prince bends down eagerly to pick it up. Seven churchgoers in Sunday coats watch from the church door.",
+      "characters": [
+        "kari-solvkjole",
+        "prinsen"
+      ],
+      "places": [
+        "steinkirka"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Silver Dress, the same character seen from three sides. Keep Kari in the Silver Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Silver Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Stone Church. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On the gravel outside the Stone Church, Kari in the Silver Dress sits high on a dapple-grey horse with a silver-embroidered saddlecloth and a silver bit, looking down with a small smile. Her silver-handled riding whip has just fallen to the ground, and the Prince bends down eagerly to pick it up. Seven churchgoers in Sunday coats watch from the church door.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Silver Dress: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair in one loose braid woven with a silver ribbon. She wears a long, slim gown embroidered all over with silver thread that glitters like frost, a short silver-grey riding jacket and silver ankle boots, and carries a slim riding whip with a silver handle.\n- the Prince: A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.\n\nSetting:\n- the Stone Church: A small, old grey stone church with a steep slate roof, a short square tower and a round-arched door inside a low stone porch, on a green hill below the castle. A dry-stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path leads up to the porch past a small gravel car park.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "18",
+      "paragraph": 126,
+      "anchor": "Da hun kom til kirka, sto både presten og menigheten ute på bakken",
+      "file": "scenes/18.webp",
+      "sources": [
+        {
+          "file": "scenes/18.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/18-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Både presten og menigheten sto ute på bakken og ventet på henne.",
+      "alt": "Presten og menigheten står utenfor steinkirka og venter, mange med mobilen oppe. Kari kommer ridende i en glitrende gullkjole, og prinsen løper mot henne.",
+      "prompt": "On the hill outside the Stone Church, the priest in a white surplice and eighteen churchgoers in coats stand waiting, many holding up their phones, as Kari in the Gold Dress rides up on a cream-coloured horse with a gold-embroidered saddlecloth and a golden bit, glittering like ice in the sun. The Prince runs down the gravel path towards her.",
+      "characters": [
+        "kari-gullkjole",
+        "prinsen"
+      ],
+      "places": [
+        "steinkirka"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Gold Dress, the same character seen from three sides. Keep Kari in the Gold Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Gold Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Stone Church. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On the hill outside the Stone Church, the priest in a white surplice and eighteen churchgoers in coats stand waiting, many holding up their phones, as Kari in the Gold Dress rides up on a cream-coloured horse with a gold-embroidered saddlecloth and a golden bit, glittering like ice in the sun. The Prince runs down the gravel path towards her.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Gold Dress: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose, held back by a slender gold band. She wears a long, full gown of gold cloth set all over with small clear stones that glitter like ice, and two small, pointed shoes of shining gold.\n- the Prince: A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.\n\nSetting:\n- the Stone Church: A small, old grey stone church with a steep slate roof, a short square tower and a round-arched door inside a low stone porch, on a green hill below the castle. A dry-stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path leads up to the porch past a small gravel car park.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "19",
+      "paragraph": 129,
+      "anchor": "Men han hadde en plan.",
+      "file": "scenes/19.webp",
+      "sources": [
+        {
+          "file": "scenes/19.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/19-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun satte foten midt i tjæra og hoppet over, og den ene gullskoen ble sittende fast.",
+      "alt": "Kari hopper over en dam av svart tjære innenfor kirkedøra. Den ene gullskoen sitter fast i tjæra bak henne, og inne i kirka trenger prinsen seg fram gjennom folkemengden.",
+      "prompt": "In the stone porch of the Stone Church, a thick black pool of tar covers the floor. Kari in the Gold Dress has just leapt clean across it and lands on the steps outside, one foot in a white stocking, while one small gold shoe stays stuck fast in the tar behind her. Inside the church door, the Prince pushes through the crowd, too late.",
+      "characters": [
+        "kari-gullkjole",
+        "prinsen"
+      ],
+      "places": [
+        "steinkirka"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Gold Dress, the same character seen from three sides. Keep Kari in the Gold Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Gold Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Stone Church. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the stone porch of the Stone Church, a thick black pool of tar covers the floor. Kari in the Gold Dress has just leapt clean across it and lands on the steps outside, one foot in a white stocking, while one small gold shoe stays stuck fast in the tar behind her. Inside the church door, the Prince pushes through the crowd, too late.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Gold Dress: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose, held back by a slender gold band. She wears a long, full gown of gold cloth set all over with small clear stones that glitter like ice, and two small, pointed shoes of shining gold.\n- the Prince: A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.\n\nSetting:\n- the Stone Church: A small, old grey stone church with a steep slate roof, a short square tower and a round-arched door inside a low stone porch, on a green hill below the castle. A dry-stone wall surrounds the churchyard, a few birches with yellowing leaves stand around it, and a gravel path leads up to the porch past a small gravel car park.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "20",
+      "paragraph": 137,
+      "anchor": "«Et stykke av hæl og et stykke av tå, Kari Trestakks sko er full av blod!»",
+      "file": "scenes/20.webp",
+      "sources": [
+        {
+          "file": "scenes/20.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/20-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "En liten fugl satt i et tre ved veien og sang.",
+      "alt": "Prinsen, stesøstera i brudekjole og stemora kjører i åpen vogn mot kirka. I et bjørketre ved veien sitter en liten fugl og synger.",
+      "prompt": "On a country road lined with yellowing birches, an open carriage drawn by two white horses rolls towards the church, with a coachman in grey on the box. In it sit the Prince, stiff and glum in a dark-blue gala uniform with gold braid, the Stepsister in a frothy white wedding dress and veil, smirking, and the Stepmother in grey silk, smiling at everyone. In a birch by the road, a little brown bird sings down at them with its beak wide open.",
+      "characters": [
+        "prinsen",
+        "stesostera",
+        "stemora"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Stepsister, the same character seen from three sides. Keep the Stepsister's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stepsister only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Stepmother, the same character seen from three sides. Keep the Stepmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stepmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On a country road lined with yellowing birches, an open carriage drawn by two white horses rolls towards the church, with a coachman in grey on the box. In it sit the Prince, stiff and glum in a dark-blue gala uniform with gold braid, the Stepsister in a frothy white wedding dress and veil, smirking, and the Stepmother in grey silk, smiling at everyone. In a birch by the road, a little brown bird sings down at them with its beak wide open.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.\n- the Stepsister: A gangly young woman of about twenty with a long, sour face, a pinched, turned-up nose, small squinting pale-green eyes, a pouting mouth and thin, straw-pale hair in two stiff braids that stick out sideways. She wears a frilly blouse the sour green of unripe gooseberries, covered in pink bows, a short pleated green skirt, white tights and pointed green shoes on very long, big feet.\n- the Stepmother: A tall, thin woman of about forty-five with a long, pinched face, a sharp pointed nose, narrow pale-green eyes, thin arched eyebrows, a small mouth fixed in a bright smile that never reaches her eyes, and jet-black hair scraped into a tight, sleek bun held by a spiky silver clip. She wears a stiff, high-necked slate-grey designer dress, a long black wool coat draped over her shoulders and many heavy silver rings, and holds a white handkerchief.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "21",
+      "paragraph": 146,
+      "anchor": "Kari tok skoen og satte foten i den, lett som ingenting.",
+      "file": "scenes/21.webp",
+      "sources": [
+        {
+          "file": "scenes/21.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/21-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Der sto hun i gullkjolen, så det lyste av henne.",
+      "alt": "Kari står i en skinnende gullkjole med restene av trestakken i en haug ved føttene. Prinsen stirrer, stesøstera gaper, og stemora er blitt hvit som veggen.",
+      "prompt": "In the big, plain hall of the castle's service wing, Kari in the Gold Dress stands on the stone floor, shining, with the boards and rags of her trestakk in a heap at her feet and a gold shoe on each foot. The Prince, in his dark-blue gala uniform, stares at her. Beside him the Stepsister, in her white wedding dress, gapes, and the Stepmother has gone as white as the wall. Twelve kitchen workers and maids stand silent along the walls.",
+      "characters": [
+        "kari-gullkjole",
+        "prinsen",
+        "stesostera",
+        "stemora"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Gold Dress, the same character seen from three sides. Keep Kari in the Gold Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Gold Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Stepsister, the same character seen from three sides. Keep the Stepsister's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stepsister only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Stepmother, the same character seen from three sides. Keep the Stepmother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Stepmother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the big, plain hall of the castle's service wing, Kari in the Gold Dress stands on the stone floor, shining, with the boards and rags of her trestakk in a heap at her feet and a gold shoe on each foot. The Prince, in his dark-blue gala uniform, stares at her. Beside him the Stepsister, in her white wedding dress, gapes, and the Stepmother has gone as white as the wall. Twelve kitchen workers and maids stand silent along the walls.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Gold Dress: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose, held back by a slender gold band. She wears a long, full gown of gold cloth set all over with small clear stones that glitter like ice, and two small, pointed shoes of shining gold.\n- the Prince: A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.\n- the Stepsister: A gangly young woman of about twenty with a long, sour face, a pinched, turned-up nose, small squinting pale-green eyes, a pouting mouth and thin, straw-pale hair in two stiff braids that stick out sideways. She wears a frilly blouse the sour green of unripe gooseberries, covered in pink bows, a short pleated green skirt, white tights and pointed green shoes on very long, big feet.\n- the Stepmother: A tall, thin woman of about forty-five with a long, pinched face, a sharp pointed nose, narrow pale-green eyes, thin arched eyebrows, a small mouth fixed in a bright smile that never reaches her eyes, and jet-black hair scraped into a tight, sleek bun held by a spiky silver clip. She wears a stiff, high-necked slate-grey designer dress, a long black wool coat draped over her shoulders and many heavy silver rings, and holds a white handkerchief.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "22",
+      "paragraph": 154,
+      "anchor": "Kari så lenge på ham.",
+      "file": "scenes/22.webp",
+      "sources": [
+        {
+          "file": "scenes/22.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/22-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Så var det hun som tok ham rundt livet og kysset ham.",
+      "alt": "Kari i gullkjolen tar prinsen rundt livet og kysser ham. Han ser helt forbløffet ut, og tre kjøkkenansatte bak dem smiler.",
+      "prompt": "In the quiet hall of the service wing, Kari in the Gold Dress has stepped up to the Prince, who stands stiff and ashamed in his dark-blue gala uniform, and she puts her arms around his waist and kisses him. He looks utterly astonished. Behind them, three kitchen workers in white break into smiles, and soft light falls through tall windows onto the stone floor.",
+      "characters": [
+        "kari-gullkjole",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Kari in the Gold Dress, the same character seen from three sides. Keep Kari in the Gold Dress's face, hair, body shape, age, colours and clothes exactly as shown. Draw Kari in the Gold Dress only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the quiet hall of the service wing, Kari in the Gold Dress has stepped up to the Prince, who stands stiff and ashamed in his dark-blue gala uniform, and she puts her arms around his waist and kisses him. He looks utterly astonished. Behind them, three kitchen workers in white break into smiles, and soft light falls through tall windows onto the stone floor.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Kari in the Gold Dress: A slender young woman of about nineteen with a fine-boned face, high cheekbones, a slim nose, wide-set hazel eyes under straight dark-copper brows, a dimple in her chin, fair skin and long, wavy copper hair flowing loose, held back by a slender gold band. She wears a long, full gown of gold cloth set all over with small clear stones that glitter like ice, and two small, pointed shoes of shining gold.\n- the Prince: A broad-shouldered young man of about twenty-five with a proud, stubborn, magazine-cover face, a strong jaw, a slightly hooked nose, bright blue eyes under straight fair brows and thick, wavy honey-blond hair swept back from his forehead and falling to his collar. He wears a slim dark-green wool suit over a heather-purple shirt with an open collar, a round gold pin on his lapel and polished black leather boots.\n\nStory world: Present-day Norway. Kari's father, the king, lives in a palace of glass and concrete at the end of a long avenue of trees, half home and half offices, with garages, a staff car park and a red barn for the royal cows, which graze on the mountain behind. The blue-grey ox keeps a small, folded white cloth in his left ear; spread on the grass, it sets itself with food. Far beyond the last motorways, power lines and paths lie three magic forests: one of copper, one of silver with leaves as thin as razor blades, and one of gold that drips from the leaves. Each troll wears a curved cow horn of healing salve at its belt. At the journey's end, a dark cliff on a windswept plateau looks down on another kingdom's castle with towers and an old stone church. The gold shoes are small, pointed and shining.\n\nThis story's season, light and colours: Crisp early autumn: high, pale-blue skies over grey concrete and glass, yellowing birches and purple heather on the windswept plateau, with the ox's glossy blue-grey as the strongest colour until the forests blaze in copper, frost-silver and molten gold. The castle kitchen lies under flat fluorescent light; the church Sundays are bright and windy.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

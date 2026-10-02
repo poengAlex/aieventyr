@@ -1,0 +1,281 @@
+{
+  "set": "modern",
+  "variants": [
+    "modern"
+  ],
+  "updatedAt": "2026-10-02T10:17:07.728Z",
+  "stories": {
+    "askesv": {
+      "cover": "cover.webp",
+      "pictures": 10,
+      "done": 10,
+      "manifests": {
+        "modern": "askesv/illustrations.modern.json"
+      }
+    },
+    "asketrol": {
+      "cover": "cover.webp",
+      "pictures": 8,
+      "done": 8,
+      "manifests": {
+        "modern": "asketrol/illustrations.modern.json"
+      }
+    },
+    "bestedt": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "modern": "bestedt/illustrations.modern.json"
+      }
+    },
+    "bjornrae": {
+      "cover": "cover.webp",
+      "pictures": 5,
+      "done": 5,
+      "manifests": {
+        "modern": "bjornrae/illustrations.modern.json"
+      }
+    },
+    "dukgras": {
+      "cover": "cover.webp",
+      "pictures": 7,
+      "done": 7,
+      "manifests": {
+        "modern": "dukgras/illustrations.modern.json"
+      }
+    },
+    "enkeson": {
+      "cover": "cover.webp",
+      "pictures": 20,
+      "done": 20,
+      "manifests": {
+        "modern": "enkeson/illustrations.modern.json"
+      }
+    },
+    "frihist": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "modern": "frihist/illustrations.modern.json"
+      }
+    },
+    "fugldam": {
+      "cover": "cover.webp",
+      "pictures": 24,
+      "done": 24,
+      "manifests": {
+        "modern": "fugldam/illustrations.modern.json"
+      }
+    },
+    "giske": {
+      "cover": "cover.webp",
+      "pictures": 11,
+      "done": 11,
+      "manifests": {
+        "modern": "giske/illustrations.modern.json"
+      }
+    },
+    "gjertrud": {
+      "cover": "cover.webp",
+      "pictures": 3,
+      "done": 3,
+      "manifests": {
+        "modern": "gjertrud/illustrations.modern.json"
+      }
+    },
+    "gudbrand": {
+      "cover": "cover.webp",
+      "pictures": 9,
+      "done": 9,
+      "manifests": {
+        "modern": "gudbrand/illustrations.modern.json"
+      }
+    },
+    "gutfand": {
+      "cover": "cover.webp",
+      "pictures": 3,
+      "done": 3,
+      "manifests": {
+        "modern": "gutfand/illustrations.modern.json"
+      }
+    },
+    "guttnord": {
+      "cover": "cover.webp",
+      "pictures": 10,
+      "done": 10,
+      "manifests": {
+        "modern": "guttnord/illustrations.modern.json"
+      }
+    },
+    "hanengjog": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "modern": "hanengjog/illustrations.modern.json"
+      }
+    },
+    "hanenoghoen": {
+      "cover": "cover.webp",
+      "pictures": 2,
+      "done": 2,
+      "manifests": {
+        "modern": "hanenoghoen/illustrations.modern.json"
+      }
+    },
+    "herreper": {
+      "cover": "cover.webp",
+      "pictures": 12,
+      "done": 12,
+      "manifests": {
+        "modern": "herreper/illustrations.modern.json"
+      }
+    },
+    "jomfrum": {
+      "cover": "cover.webp",
+      "pictures": 13,
+      "done": 13,
+      "manifests": {
+        "modern": "jomfrum/illustrations.modern.json"
+      }
+    },
+    "katrast": {
+      "cover": "cover.webp",
+      "pictures": 22,
+      "done": 22,
+      "manifests": {
+        "modern": "katrast/illustrations.modern.json"
+      }
+    },
+    "lillekort": {
+      "cover": "cover.webp",
+      "pictures": 24,
+      "done": 24,
+      "manifests": {
+        "modern": "lillekort/illustrations.modern.json"
+      }
+    },
+    "mandatt": {
+      "cover": "cover.webp",
+      "pictures": 16,
+      "done": 16,
+      "manifests": {
+        "modern": "mandatt/illustrations.modern.json"
+      }
+    },
+    "mesttyv": {
+      "cover": "cover.webp",
+      "pictures": 23,
+      "done": 23,
+      "manifests": {
+        "modern": "mesttyv/illustrations.modern.json"
+      }
+    },
+    "nodedsk": {
+      "cover": "cover.webp",
+      "pictures": 8,
+      "done": 8,
+      "manifests": {
+        "modern": "nodedsk/illustrations.modern.json"
+      }
+    },
+    "noedig": {
+      "cover": "cover.webp",
+      "pictures": 12,
+      "done": 12,
+      "manifests": {
+        "modern": "noedig/illustrations.modern.json"
+      }
+    },
+    "paalandr": {
+      "cover": "cover.webp",
+      "pictures": 5,
+      "done": 5,
+      "manifests": {
+        "modern": "paalandr/illustrations.modern.json"
+      }
+    },
+    "rfoxgjt": {
+      "cover": "cover.webp",
+      "pictures": 3,
+      "done": 3,
+      "manifests": {
+        "modern": "rfoxgjt/illustrations.modern.json"
+      }
+    },
+    "rigeper": {
+      "cover": "cover.webp",
+      "pictures": 21,
+      "done": 21,
+      "manifests": {
+        "modern": "rigeper/illustrations.modern.json"
+      }
+    },
+    "smehel": {
+      "cover": "cover.webp",
+      "pictures": 12,
+      "done": 12,
+      "manifests": {
+        "modern": "smehel/illustrations.modern.json"
+      }
+    },
+    "soriamor": {
+      "cover": "cover.webp",
+      "pictures": 19,
+      "done": 19,
+      "manifests": {
+        "modern": "soriamor/illustrations.modern.json"
+      }
+    },
+    "spurning": {
+      "cover": "cover.webp",
+      "pictures": 3,
+      "done": 3,
+      "manifests": {
+        "modern": "spurning/illustrations.modern.json"
+      }
+    },
+    "syvfoler": {
+      "cover": "cover.webp",
+      "pictures": 13,
+      "done": 13,
+      "manifests": {
+        "modern": "syvfoler/illustrations.modern.json"
+      }
+    },
+    "tentland": {
+      "cover": "cover.webp",
+      "pictures": 16,
+      "done": 16,
+      "manifests": {
+        "modern": "tentland/illustrations.modern.json"
+      }
+    },
+    "tolvander": {
+      "cover": "cover.webp",
+      "pictures": 16,
+      "done": 16,
+      "manifests": {
+        "modern": "tolvander/illustrations.modern.json"
+      }
+    },
+    "tremost": {
+      "cover": "cover.webp",
+      "pictures": 11,
+      "done": 11,
+      "manifests": {
+        "modern": "tremost/illustrations.modern.json"
+      }
+    },
+    "vesleaas": {
+      "cover": "cover.webp",
+      "pictures": 9,
+      "done": 9,
+      "manifests": {
+        "modern": "vesleaas/illustrations.modern.json"
+      }
+    }
+  }
+}

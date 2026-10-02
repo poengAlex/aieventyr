@@ -1,0 +1,386 @@
+{
+  "storyId": "vesleaas",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Vesle Aase gåsepike",
+  "textFile": "public/content/stories/vesleaas/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:17:07.690Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Aase satt på steinkanten ved porten og sydde lapp på lapp.",
+    "alt": "Aase sitter på steinkanten ved slottsporten og syr en lapp på arbeidsbuksen sin. Rundt henne sover og svømmer gjessene.",
+    "prompt": "Aase sits on the low stone edge by the Palace Gate, sewing yet another patch onto the knee of her patched work trousers, and looks straight out at the viewer with a calm, knowing little smile. White and grey geese doze on the gravel and paddle in the pond around her, and one goose rests its head on her boot. Clear spring morning light.",
+    "characters": [
+      "aase"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Palace Gate. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: Aase sits on the low stone edge by the Palace Gate, sewing yet another patch onto the knee of her patched work trousers, and looks straight out at the viewer with a calm, knowing little smile. White and grey geese doze on the gravel and paddle in the pond around her, and one goose rests its head on her boot. Clear spring morning light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Aase: A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears brown work trousers covered in neat blue and green patches, a white T-shirt, a white canvas apron and scuffed yellow wellington boots.\n\nSetting:\n- the Palace Gate: The wide gravel driveway just inside the tall wrought-iron gate of a big cream-white palace, with broad stone main stairs, a low stone edge along the driveway to sit on, a small pond with reeds, clipped lawns, pink and red tulip beds, and dozens of white and grey geese sitting and wandering everywhere.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "aase",
+      "name": "Aase (Aase Gåsepike)",
+      "description": "Gåsepasser ved slottet som sitter ved porten og lapper klær; rolig, sta og uvanlig ekte i en verden av glans og strategi.",
+      "look": "A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears brown work trousers covered in neat blue and green patches, a white T-shirt, a white canvas apron and scuffed yellow wellington boots.",
+      "sheet": "characters/aase.webp",
+      "turn": "characters/aase-turn.mp4",
+      "portrait": "portraits/aase.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/aase.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/aase-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "aase-gaasepike"
+    },
+    {
+      "slug": "aase-brud",
+      "name": "Aase som brud",
+      "description": "Aase på bryllupsdagen i slottsparken, i brudekjole uten en eneste lapp og med signetringen til prinsen låst rundt fingeren.",
+      "look": "A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool, under a short white veil. She wears a simple white wedding dress without a single patch, white trainers and a heavy gold signet ring on one finger.",
+      "sheet": "characters/aase-brud.webp",
+      "turn": "characters/aase-brud-turn.mp4",
+      "portrait": "portraits/aase-brud.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/aase-brud.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/aase-brud-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "prinsen",
+      "name": "Prinsen fra England",
+      "description": "En moderne prins som er lei av polerte fasader og bruker teknologi for å finne sannhet, men må lære å se mennesket foran seg.",
+      "look": "A tall, lean man of about twenty-six with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a navy suit, a white shirt, a scarlet tie, polished brown brogues and a long dark-navy overcoat, with a thin gold chain round his neck on which hangs a heavy gold signet ring.",
+      "sheet": "characters/prinsen.webp",
+      "turn": "characters/prinsen-turn.mp4",
+      "portrait": "portraits/prinsen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "prinsen-fra-england"
+    },
+    {
+      "slug": "smartmatta",
+      "name": "Smartmatta",
+      "description": "Prinsens stein som vet alt, støpt inn i en gummimatte med høyttaler; den svarer sant med stemmen til en togannonsering, men bare på det den blir spurt om.",
+      "look": "A round black rubber mat about the size of a bath mat, with a smooth, milky-white stone disc set into its centre, faint swirls of pale gold and rose inside the stone, and a small round speaker grille at one edge with a tiny light. When it speaks, or someone steps on it, the stone and the light glow a soft, warm gold.",
+      "sheet": "characters/smartmatta.webp",
+      "turn": "characters/smartmatta-turn.mp4",
+      "portrait": "portraits/smartmatta.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/smartmatta.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/smartmatta-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "smartmatta"
+    },
+    {
+      "slug": "tredje-prinsesse",
+      "name": "Den tredje utvalgte prinsessen",
+      "description": "Rolig, belest og bedre organisert enn de to før henne, men like lur: hun legger opp byttet med Aase på klokkeslett.",
+      "look": "A tall, willowy young woman of about twenty-four with a long neck, a narrow face, high arched brows over big dark-brown eyes, a delicate little mouth and a calm, measured smile. Her glossy chocolate-brown hair falls in long, bouncy ringlets held back with a pearl clip. She wears pearl earrings, a peacock-blue silk blouse, a tailored cream skirt and low cream heels, and carries a slim white leather planner.",
+      "sheet": "characters/tredje-prinsesse.webp",
+      "turn": "characters/tredje-prinsesse-turn.mp4",
+      "portrait": "portraits/tredje-prinsesse.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/tredje-prinsesse.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/tredje-prinsesse-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "tredje-prinsesse"
+    }
+  ],
+  "places": [
+    {
+      "slug": "slottsporten",
+      "name": "the Palace Gate",
+      "look": "The wide gravel driveway just inside the tall wrought-iron gate of a big cream-white palace, with broad stone main stairs, a low stone edge along the driveway to sit on, a small pond with reeds, clipped lawns, pink and red tulip beds, and dozens of white and grey geese sitting and wandering everywhere."
+    },
+    {
+      "slug": "gjesterommet",
+      "name": "the Guest Bedroom",
+      "look": "A large, elegant bedroom in the palace's guest wing, with a wide bed with a pale-grey upholstered headboard, a crisp white duvet and tall wooden bedposts, tall windows with heavy blue curtains, a polished parquet floor, a bedside table with a small lamp, and a tall white door to the corridor."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 9,
+      "anchor": "«Jo, skal jeg ha ham, så får jeg ham nok», sa Aase og bet av tråden.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Jo, skal jeg ha ham, så får jeg ham nok», sa Aase og bet av tråden.",
+      "alt": "En svart bil har stoppet blant gjessene innenfor slottsporten, og prinsen lener seg ut av vinduet. Aase sitter på steinkanten og syr uten å se opp, mens vaktene ser på hverandre.",
+      "prompt": "On the gravel driveway inside the Palace Gate, a long black car has crept to a halt among dozens of dawdling geese, and in its open back window the Prince leans forward, polite and puzzled. Aase sits on the low stone edge beside the car, sewing a patch onto her work trousers without looking up, and bites off her thread. Two guards in dark suits standing by the car glance at each other, and a press officer in the back seat stares at the Prince.",
+      "characters": [
+        "aase",
+        "prinsen"
+      ],
+      "places": [
+        "slottsporten"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Palace Gate. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On the gravel driveway inside the Palace Gate, a long black car has crept to a halt among dozens of dawdling geese, and in its open back window the Prince leans forward, polite and puzzled. Aase sits on the low stone edge beside the car, sewing a patch onto her work trousers without looking up, and bites off her thread. Two guards in dark suits standing by the car glance at each other, and a press officer in the back seat stares at the Prince.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Aase: A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears brown work trousers covered in neat blue and green patches, a white T-shirt, a white canvas apron and scuffed yellow wellington boots.\n- the Prince: A tall, lean man of about twenty-six with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a navy suit, a white shirt, a scarlet tie, polished brown brogues and a long dark-navy overcoat, with a thin gold chain round his neck on which hangs a heavy gold signet ring.\n\nSetting:\n- the Palace Gate: The wide gravel driveway just inside the tall wrought-iron gate of a big cream-white palace, with broad stone main stairs, a low stone edge along the driveway to sit on, a small pond with reeds, clipped lawns, pink and red tulip beds, and dozens of white and grey geese sitting and wandering everywhere.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 14,
+      "anchor": "«Hvis du har hatt noen kjærester før», sa hun",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Den sier ham alt om deg.»",
+      "alt": "Gjessene har stoppet bilen til den første prinsessen ved porten. Aase bøyer seg ned mot vinduet og advarer henne, og prinsessen gjør store øyne.",
+      "prompt": "At the Palace Gate, a white car carrying the first chosen princess has stopped while the geese take their time crossing the driveway. Aase bends down to the open back window and speaks quietly and seriously. Inside, the princess, a young woman with a sleek platinum bob and a pale-pink coat, listens with her eyes getting wider and wider.",
+      "characters": [
+        "aase"
+      ],
+      "places": [
+        "slottsporten"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Palace Gate. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the Palace Gate, a white car carrying the first chosen princess has stopped while the geese take their time crossing the driveway. Aase bends down to the open back window and speaks quietly and seriously. Inside, the princess, a young woman with a sleek platinum bob and a pale-pink coat, listens with her eyes getting wider and wider.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Aase: A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears brown work trousers covered in neat blue and green patches, a white T-shirt, a white canvas apron and scuffed yellow wellington boots.\n\nSetting:\n- the Palace Gate: The wide gravel driveway just inside the tall wrought-iron gate of a big cream-white palace, with broad stone main stairs, a low stone edge along the driveway to sit on, a small pond with reeds, clipped lawns, pink and red tulip beds, and dozens of white and grey geese sitting and wandering everywhere.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 26,
+      "anchor": "Prinsen ble liggende og se i taket.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han fikk Smartmatta sjekket av en tekniker. Den var i orden.",
+      "alt": "En tekniker i kjeledress sjekker Smartmatta foran sengen, mens prinsen sitter på sengekanten i pyjamas og rynker pannen.",
+      "prompt": "Morning in the Guest Bedroom. A technician in blue overalls kneels on the parquet floor, testing the Smart Mat with a small handheld meter, while the Prince, in striped pyjamas and a dressing gown, sits on the edge of the rumpled bed with his chin in his hand, frowning at it. The mat glows a calm, steady gold. The other side of the bed is empty.",
+      "characters": [
+        "prinsen",
+        "smartmatta"
+      ],
+      "places": [
+        "gjesterommet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Smart Mat, the same character seen from three sides. Keep the Smart Mat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Smart Mat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Guest Bedroom. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Morning in the Guest Bedroom. A technician in blue overalls kneels on the parquet floor, testing the Smart Mat with a small handheld meter, while the Prince, in striped pyjamas and a dressing gown, sits on the edge of the rumpled bed with his chin in his hand, frowning at it. The mat glows a calm, steady gold. The other side of the bed is empty.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean man of about twenty-six with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a navy suit, a white shirt, a scarlet tie, polished brown brogues and a long dark-navy overcoat, with a thin gold chain round his neck on which hangs a heavy gold signet ring.\n- the Smart Mat: A round black rubber mat about the size of a bath mat, with a smooth, milky-white stone disc set into its centre, faint swirls of pale gold and rose inside the stone, and a small round speaker grille at one edge with a tiny light. When it speaks, or someone steps on it, the stone and the light glow a soft, warm gold.\n\nSetting:\n- the Guest Bedroom: A large, elegant bedroom in the palace's guest wing, with a wide bed with a pale-grey upholstered headboard, a crisp white duvet and tall wooden bedposts, tall windows with heavy blue curtains, a polished parquet floor, a bedside table with a small lamp, and a tall white door to the corridor.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 37,
+      "anchor": "Prinsen ble stående og stirre ned på den.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun sa ingenting. Hun snudde seg og gikk.",
+      "alt": "Prinsen står i morgenkåpe på Smartmatta og stirrer ned på den. I døråpningen står den andre prinsessen med tiara og glitrende kjole og snur seg for å gå.",
+      "prompt": "Early morning in the Guest Bedroom. The Prince, in a dressing gown and bare feet, stands on the Smart Mat staring down at it as it glows and crackles. In the open doorway behind him stands the second chosen princess, dressed for engagement photos, with her auburn hair pinned up, a tiara in place and a long glittering silver dress. Without a word, she is turning to go.",
+      "characters": [
+        "prinsen",
+        "smartmatta"
+      ],
+      "places": [
+        "gjesterommet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Smart Mat, the same character seen from three sides. Keep the Smart Mat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Smart Mat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Guest Bedroom. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Early morning in the Guest Bedroom. The Prince, in a dressing gown and bare feet, stands on the Smart Mat staring down at it as it glows and crackles. In the open doorway behind him stands the second chosen princess, dressed for engagement photos, with her auburn hair pinned up, a tiara in place and a long glittering silver dress. Without a word, she is turning to go.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean man of about twenty-six with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a navy suit, a white shirt, a scarlet tie, polished brown brogues and a long dark-navy overcoat, with a thin gold chain round his neck on which hangs a heavy gold signet ring.\n- the Smart Mat: A round black rubber mat about the size of a bath mat, with a smooth, milky-white stone disc set into its centre, faint swirls of pale gold and rose inside the stone, and a small round speaker grille at one edge with a tiny light. When it speaks, or someone steps on it, the stone and the light glow a soft, warm gold.\n\nSetting:\n- the Guest Bedroom: A large, elegant bedroom in the palace's guest wing, with a wide bed with a pale-grey upholstered headboard, a crisp white duvet and tall wooden bedposts, tall windows with heavy blue curtains, a polished parquet floor, a bedside table with a small lamp, and a tall white door to the corridor.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 45,
+      "anchor": "«Da gjør vi det slik», sa hun.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Du går inn klokka elleve. Jeg kommer klokka tre. Du går ut bakveien.»",
+      "alt": "Den tredje prinsessen står ved slottsporten med en kalender og legger en plan, med et smil som er akkurat passe bredt. Aase står rolig foran henne blant gjessene.",
+      "prompt": "By the Palace Gate, among the geese, the Third Princess stands with her slim white planner open in one hand, tapping it with a pen as she lays out the plan, her measured smile exactly as wide as she means it to be. Aase stands in front of her in her patched trousers, calm and unimpressed, with a goose leaning against her boot. Behind them the princess's dark car waits with its door open.",
+      "characters": [
+        "tredje-prinsesse",
+        "aase"
+      ],
+      "places": [
+        "slottsporten"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Third Princess, the same character seen from three sides. Keep the Third Princess's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Third Princess only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Palace Gate. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: By the Palace Gate, among the geese, the Third Princess stands with her slim white planner open in one hand, tapping it with a pen as she lays out the plan, her measured smile exactly as wide as she means it to be. Aase stands in front of her in her patched trousers, calm and unimpressed, with a goose leaning against her boot. Behind them the princess's dark car waits with its door open.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Third Princess: A tall, willowy young woman of about twenty-four with a long neck, a narrow face, high arched brows over big dark-brown eyes, a delicate little mouth and a calm, measured smile. Her glossy chocolate-brown hair falls in long, bouncy ringlets held back with a pearl clip. She wears pearl earrings, a peacock-blue silk blouse, a tailored cream skirt and low cream heels, and carries a slim white leather planner.\n- Aase: A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears brown work trousers covered in neat blue and green patches, a white T-shirt, a white canvas apron and scuffed yellow wellington boots.\n\nSetting:\n- the Palace Gate: The wide gravel driveway just inside the tall wrought-iron gate of a big cream-white palace, with broad stone main stairs, a low stone edge along the driveway to sit on, a small pond with reeds, clipped lawns, pink and red tulip beds, and dozens of white and grey geese sitting and wandering everywhere.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 52,
+      "anchor": "I stedet tok han av seg kjedet han bar rundt halsen.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han tredde ringen forsiktig på fingeren hennes. Det sa klikk.",
+      "alt": "Prinsen sitter påkledd på sengekanten i halvmørket og trer signetringen sin på fingeren til Aase. Hun ser ned på hånden sin, og ingen av dem sier noe.",
+      "prompt": "Midnight in the dim Guest Bedroom, lit only by the faint golden glow of the Smart Mat on the floor. The Prince, still fully dressed in his suit, sits on the edge of the bed with the gold chain from his neck in one hand, and very carefully slides his heavy gold signet ring onto the finger of Aase, who sits under the duvet in a plain grey T-shirt, looking down at her hand. Neither of them says a word.",
+      "characters": [
+        "prinsen",
+        "aase",
+        "smartmatta"
+      ],
+      "places": [
+        "gjesterommet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Smart Mat, the same character seen from three sides. Keep the Smart Mat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Smart Mat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Guest Bedroom. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Midnight in the dim Guest Bedroom, lit only by the faint golden glow of the Smart Mat on the floor. The Prince, still fully dressed in his suit, sits on the edge of the bed with the gold chain from his neck in one hand, and very carefully slides his heavy gold signet ring onto the finger of Aase, who sits under the duvet in a plain grey T-shirt, looking down at her hand. Neither of them says a word.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean man of about twenty-six with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a navy suit, a white shirt, a scarlet tie, polished brown brogues and a long dark-navy overcoat, with a thin gold chain round his neck on which hangs a heavy gold signet ring.\n- Aase: A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears brown work trousers covered in neat blue and green patches, a white T-shirt, a white canvas apron and scuffed yellow wellington boots.\n- the Smart Mat: A round black rubber mat about the size of a bath mat, with a smooth, milky-white stone disc set into its centre, faint swirls of pale gold and rose inside the stone, and a small round speaker grille at one edge with a tiny light. When it speaks, or someone steps on it, the stone and the light glow a soft, warm gold.\n\nSetting:\n- the Guest Bedroom: A large, elegant bedroom in the palace's guest wing, with a wide bed with a pale-grey upholstered headboard, a crisp white duvet and tall wooden bedposts, tall windows with heavy blue curtains, a polished parquet floor, a bedside table with a small lamp, and a tall white door to the corridor.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 63,
+      "anchor": "«Du spurte ikke», sa Smartmatta.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Du spurte ikke», sa Smartmatta.",
+      "alt": "Prinsen sitter på gulvet foran Smartmatta i krøllete dress og stirrer vantro på den. Matta lyser rolig og gyllent.",
+      "prompt": "Morning in the Guest Bedroom. The Prince, in yesterday's rumpled suit, sits cross-legged on the parquet floor in front of the Smart Mat, both hands raised, staring at it in furious disbelief. The mat glows calmly gold, as unbothered as a train announcement. The bed behind him is empty, and a forgotten toothbrush lies on the bedside table.",
+      "characters": [
+        "prinsen",
+        "smartmatta"
+      ],
+      "places": [
+        "gjesterommet"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Smart Mat, the same character seen from three sides. Keep the Smart Mat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Smart Mat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Guest Bedroom. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Morning in the Guest Bedroom. The Prince, in yesterday's rumpled suit, sits cross-legged on the parquet floor in front of the Smart Mat, both hands raised, staring at it in furious disbelief. The mat glows calmly gold, as unbothered as a train announcement. The bed behind him is empty, and a forgotten toothbrush lies on the bedside table.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, lean man of about twenty-six with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a navy suit, a white shirt, a scarlet tie, polished brown brogues and a long dark-navy overcoat, with a thin gold chain round his neck on which hangs a heavy gold signet ring.\n- the Smart Mat: A round black rubber mat about the size of a bath mat, with a smooth, milky-white stone disc set into its centre, faint swirls of pale gold and rose inside the stone, and a small round speaker grille at one edge with a tiny light. When it speaks, or someone steps on it, the stone and the light glow a soft, warm gold.\n\nSetting:\n- the Guest Bedroom: A large, elegant bedroom in the palace's guest wing, with a wide bed with a pale-grey upholstered headboard, a crisp white duvet and tall wooden bedposts, tall windows with heavy blue curtains, a polished parquet floor, a bedside table with a small lamp, and a tall white door to the corridor.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 71,
+      "anchor": "Han løftet hånden hennes, forsiktig.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Der satt signetringen hans, blank og låst, stramt rundt fingeren hennes.",
+      "alt": "Prinsen holder hånden til Aase på et tåkete jorde med gjess rundt dem. Fillen har glidd av, og signetringen hans sitter stramt rundt fingeren hennes.",
+      "prompt": "Early morning on the wet fields behind the palace, with fog lying low over the grass and white and grey geese wandering in the mist. Aase sits on a stone. The Prince, his long coat thrown over yesterday's suit, has gently lifted her hand, and as she pulls it back, the rag slips off her finger: there sits his gold signet ring, shiny and locked, tight round her finger. He looks at her properly for the first time.",
+      "characters": [
+        "aase",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Aase, the same character seen from three sides. Keep Aase's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Early morning on the wet fields behind the palace, with fog lying low over the grass and white and grey geese wandering in the mist. Aase sits on a stone. The Prince, his long coat thrown over yesterday's suit, has gently lifted her hand, and as she pulls it back, the rag slips off her finger: there sits his gold signet ring, shiny and locked, tight round her finger. He looks at her properly for the first time.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Aase: A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes that look straight at you and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool. She wears brown work trousers covered in neat blue and green patches, a white T-shirt, a white canvas apron and scuffed yellow wellington boots.\n- the Prince: A tall, lean man of about twenty-six with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a navy suit, a white shirt, a scarlet tie, polished brown brogues and a long dark-navy overcoat, with a thin gold chain round his neck on which hangs a heavy gold signet ring.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 75,
+      "anchor": "Han tok henne med opp på slottet",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Slik fikk vesle Aase prinsen fra England likevel, bare fordi hun skulle ha ham.",
+      "alt": "Aase i brudekjole og prinsen står hånd i hånd under en bjørk i slottsparken. Gjessene spankulerer mellom stolene, og langt bak står tre ambassadører på trygg avstand.",
+      "prompt": "A bright summer day in the palace park, where a wedding is held on the lawn between the tulip beds. Aase the Bride and the Prince stand hand in hand under a birch tree, smiling, while dozens of white and grey geese strut across the lawn between the rows of guests' chairs. Far at the back, at a very safe distance, three ambassadors in dark suits stand watching the geese warily.",
+      "characters": [
+        "aase-brud",
+        "prinsen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Aase the Bride, the same character seen from three sides. Keep Aase the Bride's face, hair, body shape, age, colours and clothes exactly as shown. Draw Aase the Bride only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A bright summer day in the palace park, where a wedding is held on the lawn between the tulip beds. Aase the Bride and the Prince stand hand in hand under a birch tree, smiling, while dozens of white and grey geese strut across the lawn between the rows of guests' chairs. Far at the back, at a very safe distance, three ambassadors in dark suits stand watching the geese warily.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Aase the Bride: A small, sturdy young woman of about twenty, a head shorter than most, with a round, sun-browned face, a small determined chin, a snub nose, calm dark-brown eyes and thick, straight eyebrows. Her thick dark-brown hair is in one short, stubby plait tied with red wool, under a short white veil. She wears a simple white wedding dress without a single patch, white trainers and a heavy gold signet ring on one finger.\n- the Prince: A tall, lean man of about twenty-six with a long, kind face, a slightly long straight nose, calm hazel eyes, neat sandy hair parted at the side and a small, neatly trimmed sandy moustache, with a polite, patient smile. He wears a navy suit, a white shirt, a scarlet tie, polished brown brogues and a long dark-navy overcoat, with a thin gold chain round his neck on which hangs a heavy gold signet ring.\n\nStory world: Present-day Norway in spring and summer. The royal palace is a big cream-white palace in a park with clipped lawns, rose beds and tulip beds, a pond with reeds, broad stone main stairs and a tall wrought-iron gate, and wet fields lie behind it. More than two hundred white and grey geese, protected by royal decree since 1791, go wherever they like. Aase, the palace goose keeper, sits on the low stone edge by the gate and sews patches onto her one pair of work trousers. The prince from England lives in the guest wing and is driven in and out in a long black car. His Smart Mat is a round black rubber mat with an ancient truth stone set into it and a little speaker. His signet ring is a heavy gold ring with a flat seal that locks.\n\nThis story's season, light and colours: Spring into summer: fresh green lawns, pink and red tulips, white and grey geese, clear, cool morning light and one low, foggy morning over wet grass. The night scenes are a hushed dark blue, lit only by the mat's small golden glow.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

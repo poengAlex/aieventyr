@@ -1,0 +1,194 @@
+{
+  "storyId": "gjertrud",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Gjertrudsfuglen",
+  "textFile": "public/content/stories/gjertrud/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:10:15.155Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Gjertrudsfuglen er der ute ennå.",
+    "alt": "En svart fugl med rød topp hakker i en telefonstolpe ved veien. Under står den lille, røde lefsebua, og tunge regnskyer kommer inn over granskogen.",
+    "prompt": "The Red-Capped Bird clings to a weathered wooden telephone pole beside an empty county road and pecks at the wood, her scarlet crest bright against heavy grey rain clouds rolling in over the dark spruce. Below her stands the small red lefse shack with its bench and gravel lay-by, and the first fat raindrops are darkening the dusty gravel.",
+    "characters": [
+      "gjertrudsfuglen"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Red-Capped Bird, the same character seen from three sides. Keep the Red-Capped Bird's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Red-Capped Bird only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: The Red-Capped Bird clings to a weathered wooden telephone pole beside an empty county road and pecks at the wood, her scarlet crest bright against heavy grey rain clouds rolling in over the dark spruce. Below her stands the small red lefse shack with its bench and gravel lay-by, and the first fat raindrops are darkening the dusty gravel.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Red-Capped Bird: A black woodpecker, sooty black all over from beak to tail, its feathers a little ruffled and greasy with soot, and on top of its head a bright-scarlet crest that rises to a small pointed tuft at the back, exactly like a tiny knitted hat. It has a strong, pointed, pale ivory beak, round pale-yellow eyes with a sour, grumpy look, stiff black tail feathers for propping itself against poles and trunks, and grey clawed feet.\n\nStory world: Present-day Norway in July. Gjertrud's lefse shack stands alone by a county road: a small, low wooden hut painted red, with one window, a bench outside and a gravel lay-by. Inside is one room with a glass-fronted counter, a big round electric griddle on a steel table, a floury worktop with a rolling pin, and a steel extractor hood above the griddle whose fan hums from opening to closing time; its duct runs up into the hut's old brick chimney, black with twenty-two years of grease and soot. The lefser are big, thin, round flatbreads, pale with brown speckles, and every one Gjertrud rolls, however tiny the scrap of dough, spreads until it covers the whole griddle.\n\nThis story's season, light and colours: A hot, still July afternoon: pale dusty gravel, bleached grass and tall purple lupins along the county road, a hazy white sky and dark spruce behind. Inside the shack: flat, cool daylight from the window, brushed steel, the orange glow of the griddle and pale flour. Accents: the scarlet knitted hat and the greasy black of old soot.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "gjertrud",
+      "name": "Gjertrud",
+      "description": "Eier av et lite veikantkjøkken som baker lefser; hun sier ja med munnen, men holder igjen med hendene, og blir fanget av sin egen smålighet.",
+      "look": "A stout, square-built woman of about fifty-five with a square jaw, pinched thin lips, a sharp little upturned nose and small darting black eyes. Her iron-grey hair is tucked away under a tall, pointed, bright-scarlet knitted hat with a tassel, pulled down to her eyebrows. She wears a white short-sleeved work tunic, a flour-dusted white apron, dark-grey trousers and white clogs.",
+      "sheet": "characters/gjertrud.webp",
+      "turn": "characters/gjertrud-turn.mp4",
+      "portrait": "portraits/gjertrud.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/gjertrud.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/gjertrud-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "gjertrud"
+    },
+    {
+      "slug": "jesus",
+      "name": "Jesus",
+      "description": "En stille, sliten vandrer som ber høflig om en liten smakebit og svarer med hard rettferdighet når godhet nektes.",
+      "look": "A very old, tall and slightly stooped man with a long, gentle face, deep-set, kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long white beard that reaches his belt. He wears a long, plain, hooded brown cloak over a simple undyed tunic, both dusty to the knees, and worn leather sandals, and carries a tall, knobbly wooden staff. No halo.",
+      "sheet": "characters/jesus.webp",
+      "turn": "characters/jesus-turn.mp4",
+      "portrait": "portraits/jesus.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/jesus.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/jesus-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "jesus"
+    },
+    {
+      "slug": "peter",
+      "name": "Peter",
+      "description": "Reisekameraten som følger etter, sulten og trøtt, og blir vitne til både mirakel og straff uten å styre utfallet.",
+      "look": "A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a long, faded green hooded cloak over a knee-length belted tunic, dusty to the knees, and worn leather sandals, with a small bronze key on a cord at his belt. No halo.",
+      "sheet": "characters/peter.webp",
+      "turn": "characters/peter-turn.mp4",
+      "portrait": "portraits/peter.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/peter.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/peter-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "peter"
+    },
+    {
+      "slug": "gjertrudsfuglen",
+      "name": "Gjertrudsfuglen",
+      "description": "Gjertruds nye skikkelse: en svart fugl med rød topp som hakker i treverk, alltid sulten og tørst, alltid ventende på regn.",
+      "look": "A black woodpecker, sooty black all over from beak to tail, its feathers a little ruffled and greasy with soot, and on top of its head a bright-scarlet crest that rises to a small pointed tuft at the back, exactly like a tiny knitted hat. It has a strong, pointed, pale ivory beak, round pale-yellow eyes with a sour, grumpy look, stiff black tail feathers for propping itself against poles and trunks, and grey clawed feet.",
+      "sheet": "characters/gjertrudsfuglen.webp",
+      "turn": "characters/gjertrudsfuglen-turn.mp4",
+      "portrait": "portraits/gjertrudsfuglen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/gjertrudsfuglen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/gjertrudsfuglen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "gjertrudsfuglen"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "De kom inn en ettermiddag i juli, i lange kapper og sandaler og med støv til knærne.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "De kom inn en ettermiddag i juli, i lange kapper og sandaler og med støv til knærne.",
+      "alt": "To gamle vandringsmenn i lange kapper og sandaler kommer inn i den lille lefsebua. Bak disken står Gjertrud i rød strikkelue med kjevla i hånda og ser på dem.",
+      "prompt": "A hot July afternoon in the small lefse shack by the county road. Jesus and Peter step in through the open door out of the glare, in long hooded cloaks and sandals, dusty to the knees, Jesus leaning on his staff. Behind the glass counter, Gjertrud looks up from the big round electric griddle with a rolling pin in her floury hand and sizes them up; the extractor hood hums above her. Through the door lie the gravel lay-by, purple lupins and the road.",
+      "characters": [
+        "gjertrud",
+        "jesus",
+        "peter"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Gjertrud, the same character seen from three sides. Keep Gjertrud's face, hair, body shape, age, colours and clothes exactly as shown. Draw Gjertrud only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Jesus, the same character seen from three sides. Keep Jesus's face, hair, body shape, age, colours and clothes exactly as shown. Draw Jesus only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for Peter, the same character seen from three sides. Keep Peter's face, hair, body shape, age, colours and clothes exactly as shown. Draw Peter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A hot July afternoon in the small lefse shack by the county road. Jesus and Peter step in through the open door out of the glare, in long hooded cloaks and sandals, dusty to the knees, Jesus leaning on his staff. Behind the glass counter, Gjertrud looks up from the big round electric griddle with a rolling pin in her floury hand and sizes them up; the extractor hood hums above her. Through the door lie the gravel lay-by, purple lupins and the road.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Gjertrud: A stout, square-built woman of about fifty-five with a square jaw, pinched thin lips, a sharp little upturned nose and small darting black eyes. Her iron-grey hair is tucked away under a tall, pointed, bright-scarlet knitted hat with a tassel, pulled down to her eyebrows. She wears a white short-sleeved work tunic, a flour-dusted white apron, dark-grey trousers and white clogs.\n- Jesus: A very old, tall and slightly stooped man with a long, gentle face, deep-set, kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long white beard that reaches his belt. He wears a long, plain, hooded brown cloak over a simple undyed tunic, both dusty to the knees, and worn leather sandals, and carries a tall, knobbly wooden staff. No halo.\n- Peter: A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a long, faded green hooded cloak over a knee-length belted tunic, dusty to the knees, and worn leather sandals, with a small bronze key on a cord at his belt. No halo.\n\nStory world: Present-day Norway in July. Gjertrud's lefse shack stands alone by a county road: a small, low wooden hut painted red, with one window, a bench outside and a gravel lay-by. Inside is one room with a glass-fronted counter, a big round electric griddle on a steel table, a floury worktop with a rolling pin, and a steel extractor hood above the griddle whose fan hums from opening to closing time; its duct runs up into the hut's old brick chimney, black with twenty-two years of grease and soot. The lefser are big, thin, round flatbreads, pale with brown speckles, and every one Gjertrud rolls, however tiny the scrap of dough, spreads until it covers the whole griddle.\n\nThis story's season, light and colours: A hot, still July afternoon: pale dusty gravel, bleached grass and tall purple lupins along the county road, a hazy white sky and dark spruce behind. Inside the shack: flat, cool daylight from the window, brushed steel, the orange glow of the griddle and pale flour. Accents: the scarlet knitted hat and the greasy black of old soot.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 14,
+      "anchor": "«Se», sa hun. «Så lite tok jeg.»",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Se», sa hun. «Så lite tok jeg.»",
+      "alt": "Gjertrud holder opp en bitte liten deigsmule mellom tommel og pekefinger og løfter den andre hånda mot døra. På takka ligger en kjempestor lefse, og Peter er på vei ut.",
+      "prompt": "Inside the lefse shack, a third huge lefse covers the electric griddle from rim to rim, and the first two, just as big, lie folded in the glass counter. Gjertrud holds up a tiny crumb of dough between her thumb and forefinger to show how little she took, and raises her other hand, palm out, towards the door. Peter is already halfway out, sighing, while Jesus stands in the doorway and looks back at her, quiet and grave.",
+      "characters": [
+        "gjertrud",
+        "jesus",
+        "peter"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Gjertrud, the same character seen from three sides. Keep Gjertrud's face, hair, body shape, age, colours and clothes exactly as shown. Draw Gjertrud only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Jesus, the same character seen from three sides. Keep Jesus's face, hair, body shape, age, colours and clothes exactly as shown. Draw Jesus only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for Peter, the same character seen from three sides. Keep Peter's face, hair, body shape, age, colours and clothes exactly as shown. Draw Peter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Inside the lefse shack, a third huge lefse covers the electric griddle from rim to rim, and the first two, just as big, lie folded in the glass counter. Gjertrud holds up a tiny crumb of dough between her thumb and forefinger to show how little she took, and raises her other hand, palm out, towards the door. Peter is already halfway out, sighing, while Jesus stands in the doorway and looks back at her, quiet and grave.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Gjertrud: A stout, square-built woman of about fifty-five with a square jaw, pinched thin lips, a sharp little upturned nose and small darting black eyes. Her iron-grey hair is tucked away under a tall, pointed, bright-scarlet knitted hat with a tassel, pulled down to her eyebrows. She wears a white short-sleeved work tunic, a flour-dusted white apron, dark-grey trousers and white clogs.\n- Jesus: A very old, tall and slightly stooped man with a long, gentle face, deep-set, kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long white beard that reaches his belt. He wears a long, plain, hooded brown cloak over a simple undyed tunic, both dusty to the knees, and worn leather sandals, and carries a tall, knobbly wooden staff. No halo.\n- Peter: A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a long, faded green hooded cloak over a knee-length belted tunic, dusty to the knees, and worn leather sandals, with a small bronze key on a cord at his belt. No halo.\n\nStory world: Present-day Norway in July. Gjertrud's lefse shack stands alone by a county road: a small, low wooden hut painted red, with one window, a bench outside and a gravel lay-by. Inside is one room with a glass-fronted counter, a big round electric griddle on a steel table, a floury worktop with a rolling pin, and a steel extractor hood above the griddle whose fan hums from opening to closing time; its duct runs up into the hut's old brick chimney, black with twenty-two years of grease and soot. The lefser are big, thin, round flatbreads, pale with brown speckles, and every one Gjertrud rolls, however tiny the scrap of dough, spreads until it covers the whole griddle.\n\nThis story's season, light and colours: A hot, still July afternoon: pale dusty gravel, bleached grass and tall purple lupins along the county road, a hazy white sky and dark spruce behind. Inside the shack: flat, cool daylight from the window, brushed steel, the orange glow of the griddle and pale flour. Accents: the scarlet knitted hat and the greasy black of old soot.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 18,
+      "anchor": "Peter sto med munnen åpen.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Peter sto med munnen åpen. Vifta summet videre.",
+      "alt": "En svart fugl med rød topp flyr opp i avtrekkshetta over takka, og svart sot drysser ned over lefsa. Jesus står i døra, og Peter står med munnen åpen.",
+      "prompt": "In the lefse shack, the Red-Capped Bird, her red hat now a scarlet crest, beats her wings in panic and shoots up into the steel extractor hood above the griddle, while a shower of black soot drifts down onto the huge lefse below. Jesus stands still in the doorway, grave and calm. Peter stands by the counter with his mouth wide open and his hands frozen in mid-air. The fan hums on as if nothing had happened.",
+      "characters": [
+        "gjertrudsfuglen",
+        "jesus",
+        "peter"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Red-Capped Bird, the same character seen from three sides. Keep the Red-Capped Bird's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Red-Capped Bird only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Jesus, the same character seen from three sides. Keep Jesus's face, hair, body shape, age, colours and clothes exactly as shown. Draw Jesus only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for Peter, the same character seen from three sides. Keep Peter's face, hair, body shape, age, colours and clothes exactly as shown. Draw Peter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the lefse shack, the Red-Capped Bird, her red hat now a scarlet crest, beats her wings in panic and shoots up into the steel extractor hood above the griddle, while a shower of black soot drifts down onto the huge lefse below. Jesus stands still in the doorway, grave and calm. Peter stands by the counter with his mouth wide open and his hands frozen in mid-air. The fan hums on as if nothing had happened.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Red-Capped Bird: A black woodpecker, sooty black all over from beak to tail, its feathers a little ruffled and greasy with soot, and on top of its head a bright-scarlet crest that rises to a small pointed tuft at the back, exactly like a tiny knitted hat. It has a strong, pointed, pale ivory beak, round pale-yellow eyes with a sour, grumpy look, stiff black tail feathers for propping itself against poles and trunks, and grey clawed feet.\n- Jesus: A very old, tall and slightly stooped man with a long, gentle face, deep-set, kind blue-grey eyes, a high wrinkled forehead, thin snow-white hair to his shoulders and a long white beard that reaches his belt. He wears a long, plain, hooded brown cloak over a simple undyed tunic, both dusty to the knees, and worn leather sandals, and carries a tall, knobbly wooden staff. No halo.\n- Peter: A short, sturdy, round-shouldered old man of about sixty-five with a round, cheerful face, a shiny bald head with a fringe of short grey hair around the back, big ears, a broad flat nose, bright brown eyes and a short, bristly grey beard. He wears a long, faded green hooded cloak over a knee-length belted tunic, dusty to the knees, and worn leather sandals, with a small bronze key on a cord at his belt. No halo.\n\nStory world: Present-day Norway in July. Gjertrud's lefse shack stands alone by a county road: a small, low wooden hut painted red, with one window, a bench outside and a gravel lay-by. Inside is one room with a glass-fronted counter, a big round electric griddle on a steel table, a floury worktop with a rolling pin, and a steel extractor hood above the griddle whose fan hums from opening to closing time; its duct runs up into the hut's old brick chimney, black with twenty-two years of grease and soot. The lefser are big, thin, round flatbreads, pale with brown speckles, and every one Gjertrud rolls, however tiny the scrap of dough, spreads until it covers the whole griddle.\n\nThis story's season, light and colours: A hot, still July afternoon: pale dusty gravel, bleached grass and tall purple lupins along the county road, a hazy white sky and dark spruce behind. Inside the shack: flat, cool daylight from the window, brushed steel, the orange glow of the griddle and pale flour. Accents: the scarlet knitted hat and the greasy black of old soot.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

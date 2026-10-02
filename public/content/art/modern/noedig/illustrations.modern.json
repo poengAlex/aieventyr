@@ -1,0 +1,484 @@
+{
+  "storyId": "noedig",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Noen kjerringer er slik",
+  "textFile": "public/content/stories/noedig/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:14:04.522Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Hun gikk de tolv kilometerne hjem.",
+    "alt": "Kona går hjem langs fylkesveien i skumringen, full av tjære og fjær, og lyset fra en bil treffer henne. Langt fremme ligger småbruket.",
+    "prompt": "On the county road at dusk, the Feathered Wife trudges home in her green rubber boots, a huge black-feathered figure with her arms held out from her sides, feathers drifting off her into the air. A single passing car lights her up with its headlights. Far ahead, at the end of the road, the Smallholding sits under the first stars.",
+    "characters": [
+      "kona-med-fjaer"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Feathered Wife, the same character seen from three sides. Keep the Feathered Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Feathered Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: setting reference for the Smallholding. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: On the county road at dusk, the Feathered Wife trudges home in her green rubber boots, a huge black-feathered figure with her arms held out from her sides, feathers drifting off her into the air. A single passing car lights her up with its headlights. Far ahead, at the end of the road, the Smallholding sits under the first stars.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Feathered Wife: The Wife after the Butcher's prank: the same round woman of about forty-five with a long ski-jump nose, big round amazed blue eyes and two long straw-yellow plaits, in her padded jacket, jumper, work trousers and green rubber boots, but now painted black with roofing tar from her hair down to her boots and covered all over with fluffy white, grey and brown feathers and down, so that she looks like a huge, ruffled black bird.\n\nSetting:\n- the Smallholding: A small, run-down smallholding on a gentle slope: a white wooden farmhouse with peeling paint and a front porch, a red barn with a single lamp over the barn door, a little old storehouse on stone legs with a steep roof, an old red tractor, and one brown field ringed by a wire fence, with bare birches and grey snowbanks melting along the road.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "kona",
+      "name": "Kona",
+      "description": "Stolt og sta småbrukerkone som skal skaffe såkorn, men blir lurt i byen, drikker seg sanseløs og våkner så full av tjære og fjær at hun ikke lenger er sikker på at hun er seg.",
+      "look": "A cheerful, dreamy smallholder's wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red hair ties. She wears a rust-orange padded jacket over a black knitted jumper with a red zigzag band, dark work trousers and green rubber boots.",
+      "sheet": "characters/kona.webp",
+      "turn": "characters/kona-turn.mp4",
+      "portrait": "portraits/kona.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kona.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kona-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kona"
+    },
+    {
+      "slug": "kona-med-fjaer",
+      "name": "Kona, full av tjære og fjær",
+      "description": "Kona etter slakterens puss: svart av taktjære og full av fjær og dun fra håret og ned til gummistøvlene, så speilbildet ser ut som en stor, svart fugl.",
+      "look": "The Wife after the Butcher's prank: the same round woman of about forty-five with a long ski-jump nose, big round amazed blue eyes and two long straw-yellow plaits, in her padded jacket, jumper, work trousers and green rubber boots, but now painted black with roofing tar from her hair down to her boots and covered all over with fluffy white, grey and brown feathers and down, so that she looks like a huge, ruffled black bird.",
+      "sheet": "characters/kona-med-fjaer.webp",
+      "turn": "characters/kona-med-fjaer-turn.mp4",
+      "portrait": "portraits/kona-med-fjaer.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kona-med-fjaer.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kona-med-fjaer-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "mannen",
+      "name": "Mannen",
+      "description": "Utslitt småbruker uten såkorn som går hjemmefra med verktøybelte og spade, og som ikke vil komme tilbake før han har truffet tre kjerringer som er like gale.",
+      "look": "A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.",
+      "sheet": "characters/mannen.webp",
+      "turn": "characters/mannen-turn.mp4",
+      "portrait": "portraits/mannen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/mannen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/mannen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "mannen"
+    },
+    {
+      "slug": "slakteren",
+      "name": "Slakteren",
+      "description": "En glatt, utnyttende kjøttforhandler i en småby som lokker kona inn på bakrommet, skjenker henne full og gjør henne til en «fugl» med tjære og fjær for å ydmyke og forvirre henne.",
+      "look": "A huge, barrel-chested butcher of about fifty with a round, shiny red face, a bulbous nose, twinkling little black eyes, bushy black eyebrows, a sly grin and a big, round, bushy black beard. He wears a small white cap, a red T-shirt with thick arms bulging from the sleeves, a long white apron with blue stripes and white rubber clogs, and he always has a string of sausages slung over one shoulder.",
+      "sheet": "characters/slakteren.webp",
+      "turn": "characters/slakteren-turn.mp4",
+      "portrait": "portraits/slakteren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/slakteren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/slakteren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "slakteren"
+    },
+    {
+      "slug": "kona-med-dorslaget",
+      "name": "Kona med dørslaget",
+      "description": "Ei fremmed kvinne i et nybygd hus langs veien, som prøver å bære sola inn i et dørslag fordi byggefirmaet glemte vinduene.",
+      "look": "A tiny, quick, bird-like woman of about thirty with a small round face, a pointed chin, bright eager green eyes, rosy cheeks and a high, swinging red ponytail tied with a sunflower-yellow scrunchie. She wears an apricot-orange T-shirt under a white apron, jeans and red trainers, and she always carries a big, shiny steel colander full of little holes.",
+      "sheet": "characters/kona-med-dorslaget.webp",
+      "turn": "characters/kona-med-dorslaget-turn.mp4",
+      "portrait": "portraits/kona-med-dorslaget.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/kona-med-dorslaget.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/kona-med-dorslaget-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "kona-med-dorslaget"
+    },
+    {
+      "slug": "enka",
+      "name": "Enka etter Per nummer to",
+      "description": "Godtroende kvinne som forveksler Ringerike med «Himmerike» og sender klær, kontanter og hest av gårde til sin avdøde favorittmann, overbevist om at han trenger det der oppe.",
+      "look": "A tall, big, well-fed farm woman of about sixty-five with a large round face, a double chin, pink cheeks, a big mouth always open to talk, bright little inquisitive eyes and tight iron-grey ringlets. She wears a wine-red dress under a long green knitted cardigan, a white apron and fleece-lined slippers.",
+      "sheet": "characters/enka.webp",
+      "turn": "characters/enka-turn.mp4",
+      "portrait": "portraits/enka.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/enka.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/enka-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "enka-etter-per-nummer-to"
+    },
+    {
+      "slug": "per",
+      "name": "Per nummer tre",
+      "description": "Enkas tredje mann, en gretten bonde som pløyer med hest og setter etter mannen fra Ringerike, men blir lurt til å ligge i lyngen og stirre opp i skyene.",
+      "look": "A tall, heavy, grumpy farmer of about fifty-five with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black knitted hat, a patched brown work jacket over a rust-red flannel shirt, work trousers and tall muddy rubber boots.",
+      "sheet": "characters/per.webp",
+      "turn": "characters/per-turn.mp4",
+      "portrait": "portraits/per.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/per.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/per-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    }
+  ],
+  "places": [
+    {
+      "slug": "smabruket",
+      "name": "the Smallholding",
+      "look": "A small, run-down smallholding on a gentle slope: a white wooden farmhouse with peeling paint and a front porch, a red barn with a single lamp over the barn door, a little old storehouse on stone legs with a steep roof, an old red tractor, and one brown field ringed by a wire fence, with bare birches and grey snowbanks melting along the road."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 9,
+      "anchor": "Slakteren hadde drevet med kjøtt i tjue år",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Slakteren hadde drevet med kjøtt i tjue år, og han visste når han skulle holde munn.",
+      "alt": "Kona holder stolt fram ei mager, halvnaken høne til slakteren utenfor butikken hans. Kua står ved siden av i tau, og slakteren ser uttrykksløst ned på høna.",
+      "prompt": "Outside a small butcher's shop on the edge of town on a pale spring morning, the Butcher stands in his striped apron with a string of sausages over one shoulder, looking down at the scrawny, half-bald speckled hen that the Wife holds out proudly under his nose. A thin fawn-coloured cow stands beside her on a rope. The Butcher's face is carefully blank. Behind them are a shop window full of sausages and a parked delivery van.",
+      "characters": [
+        "kona",
+        "slakteren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Wife, the same character seen from three sides. Keep the Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Butcher, the same character seen from three sides. Keep the Butcher's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Butcher only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Outside a small butcher's shop on the edge of town on a pale spring morning, the Butcher stands in his striped apron with a string of sausages over one shoulder, looking down at the scrawny, half-bald speckled hen that the Wife holds out proudly under his nose. A thin fawn-coloured cow stands beside her on a rope. The Butcher's face is carefully blank. Behind them are a shop window full of sausages and a parked delivery van.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Wife: A cheerful, dreamy smallholder's wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red hair ties. She wears a rust-orange padded jacket over a black knitted jumper with a red zigzag band, dark work trousers and green rubber boots.\n- the Butcher: A huge, barrel-chested butcher of about fifty with a round, shiny red face, a bulbous nose, twinkling little black eyes, bushy black eyebrows, a sly grin and a big, round, bushy black beard. He wears a small white cap, a red T-shirt with thick arms bulging from the sleeves, a long white apron with blue stripes and white rubber clogs, and he always has a string of sausages slung over one shoulder.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 21,
+      "anchor": "Hun holdt mobilen opp foran ansiktet.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Hun holdt mobilen opp foran ansiktet. Mobilen tenkte seg om og ba om kode.",
+      "alt": "Kona står full av tjære og fjær foran den blanke ståldøra til kjølerommet, der speilbildet ser ut som en stor, svart fugl. Hun holder mobilen opp foran ansiktet.",
+      "prompt": "In the closed butcher's shop at night, under buzzing fluorescent tubes, the Feathered Wife stands in front of the shiny steel door of the cold room, where her reflection looks like a huge black bird. She holds her phone up in front of her tar-blackened, feathery face and frowns at it; its screen glows, but it will not open. Feathers and down drift around her over the concrete floor between steel shelves and plastic crates.",
+      "characters": [
+        "kona-med-fjaer"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Feathered Wife, the same character seen from three sides. Keep the Feathered Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Feathered Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the closed butcher's shop at night, under buzzing fluorescent tubes, the Feathered Wife stands in front of the shiny steel door of the cold room, where her reflection looks like a huge black bird. She holds her phone up in front of her tar-blackened, feathery face and frowns at it; its screen glows, but it will not open. Feathers and down drift around her over the concrete floor between steel shelves and plastic crates.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Feathered Wife: The Wife after the Butcher's prank: the same round woman of about forty-five with a long ski-jump nose, big round amazed blue eyes and two long straw-yellow plaits, in her padded jacket, jumper, work trousers and green rubber boots, but now painted black with roofing tar from her hair down to her boots and covered all over with fluffy white, grey and brown feathers and down, so that she looks like a huge, ruffled black bird.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 30,
+      "anchor": "Mannen senket rifla, men ikke helt.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Mannen senket rifla, men ikke helt.",
+      "alt": "Kona står på stabburstaket i lyset fra lampa over låvedøra og slår med armene som vinger. Nede på gårdsplassen har mannen senket rifla, men ikke helt, og hunden bjeffer under trappa.",
+      "prompt": "Night at the Smallholding. In the light of the lamp over the barn door, the Feathered Wife stands on the steep roof of the little storehouse, flapping her arms like great black wings, feathers whirling off her. In the yard below, the Farmer has lowered his rifle, though not all the way, its barrel pointing at the gravel in front of him, and stares up at her. A dog barks from under the front steps.",
+      "characters": [
+        "kona-med-fjaer",
+        "mannen"
+      ],
+      "places": [
+        "smabruket"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Feathered Wife, the same character seen from three sides. Keep the Feathered Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Feathered Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Smallholding. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night at the Smallholding. In the light of the lamp over the barn door, the Feathered Wife stands on the steep roof of the little storehouse, flapping her arms like great black wings, feathers whirling off her. In the yard below, the Farmer has lowered his rifle, though not all the way, its barrel pointing at the gravel in front of him, and stares up at her. A dog barks from under the front steps.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Feathered Wife: The Wife after the Butcher's prank: the same round woman of about forty-five with a long ski-jump nose, big round amazed blue eyes and two long straw-yellow plaits, in her padded jacket, jumper, work trousers and green rubber boots, but now painted black with roofing tar from her hair down to her boots and covered all over with fluffy white, grey and brown feathers and down, so that she looks like a huge, ruffled black bird.\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n\nSetting:\n- the Smallholding: A small, run-down smallholding on a gentle slope: a white wooden farmhouse with peeling paint and a front porch, a red barn with a single lamp over the barn door, a little old storehouse on stone legs with a steep roof, an old red tractor, and one brown field ringed by a wire fence, with bare birches and grey snowbanks melting along the road.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 37,
+      "anchor": "Mannen ble stående på grusgangen og lene seg på spaden.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Mannen ble stående på grusgangen og lene seg på spaden.",
+      "alt": "Ei lita kvinne med rød hestehale løper ut av et splitter nytt, hvitt hus og holder et dørslag opp mot sola. Mannen står på grusgangen, lener seg på spaden og ser på.",
+      "prompt": "Just before lunch by a quiet road, outside a brand-new white house so new that big white bulk bags of building sand still stand along the foundation, the Colander Woman dashes out of the front door holding a big steel colander up towards the sun. The Farmer stands on the gravel path in his tool belt, leaning on a spade, and watches her, baffled. None of the house's walls has a single window.",
+      "characters": [
+        "kona-med-dorslaget",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Colander Woman, the same character seen from three sides. Keep the Colander Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Colander Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Just before lunch by a quiet road, outside a brand-new white house so new that big white bulk bags of building sand still stand along the foundation, the Colander Woman dashes out of the front door holding a big steel colander up towards the sun. The Farmer stands on the gravel path in his tool belt, leaning on a spade, and watches her, baffled. None of the house's walls has a single window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Colander Woman: A tiny, quick, bird-like woman of about thirty with a small round face, a pointed chin, bright eager green eyes, rosy cheeks and a high, swinging red ponytail tied with a sunflower-yellow scrunchie. She wears an apricot-orange T-shirt under a white apron, jeans and red trainers, and she always carries a big, shiny steel colander full of little holes.\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 43,
+      "anchor": "Han målte opp med tommestokken fra beltet og sagde.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Sola la seg over gulvet, over dørslaget og over kvinnen.",
+      "alt": "En firkant av veggen har falt inn, og sola strømmer over gulvet i den nye stua. Kvinnen står helt stille midt i lyset, og i hullet senker mannen motorsaga.",
+      "prompt": "Inside the dim, bare living room of the new house, a square of wall has just fallen in with a thump, sawdust drifting, and sunlight pours through the hole across the floor, over the colander and over the Colander Woman, who stands perfectly still in the middle of the light with her eyes closed, as if it might leave again. In the square hole, the Farmer lowers a chainsaw, a folding ruler sticking out of his tool belt.",
+      "characters": [
+        "kona-med-dorslaget",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Colander Woman, the same character seen from three sides. Keep the Colander Woman's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Colander Woman only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Inside the dim, bare living room of the new house, a square of wall has just fallen in with a thump, sawdust drifting, and sunlight pours through the hole across the floor, over the colander and over the Colander Woman, who stands perfectly still in the middle of the light with her eyes closed, as if it might leave again. In the square hole, the Farmer lowers a chainsaw, a folding ruler sticking out of his tool belt.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Colander Woman: A tiny, quick, bird-like woman of about thirty with a small round face, a pointed chin, bright eager green eyes, rosy cheeks and a high, swinging red ponytail tied with a sunflower-yellow scrunchie. She wears an apricot-orange T-shirt under a white apron, jeans and red trainers, and she always carries a big, shiny steel colander full of little holes.\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 51,
+      "anchor": "Kvinnen skrek da han klippet.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Så kom det et hode ut, rødt i ansiktet og med håret til værs.",
+      "alt": "Et rødt ansikt med håret til værs titter fram gjennom et nyklippet halshull i en tykk strikkegenser. Mannen holder saksa, og kona med gummiklubba skriker.",
+      "prompt": "In a cluttered kitchen full of knitting, a stocky man's red face, hair standing on end, has just popped out through a freshly cut hole in the neck of a brand-new, thick knitted sweater pulled down over him, a stitch or two unravelling, and he is already reaching for his phone. The Farmer steps back holding a pair of scissors. The man's wife, a small woman with grey curls in a cardigan, clutches a white rubber mallet and shrieks.",
+      "characters": [
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In a cluttered kitchen full of knitting, a stocky man's red face, hair standing on end, has just popped out through a freshly cut hole in the neck of a brand-new, thick knitted sweater pulled down over him, a stitch or two unravelling, and he is already reaching for his phone. The Farmer steps back holding a pair of scissors. The man's wife, a small woman with grey curls in a cardigan, clutches a white rubber mallet and shrieks.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 57,
+      "anchor": "«Himmerike!» sa hun, og ansiktet hennes lyste opp.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Himmerike!» sa hun, og ansiktet hennes lyste opp.",
+      "alt": "Ei eldre kvinne i grønn strikkejakke har åpnet døra, og ansiktet hennes lyser opp. Bak henne ligger høreapparatet i ei skål på kjøkkenbenken, og mannen står på trappa.",
+      "prompt": "Evening at the open door of an old farmhouse at the far end of a valley. The Widow has just opened the door to the Farmer, and her whole face lights up with joy, both hands clasped at her chest. Behind her on the kitchen counter, a hearing aid lies in a little bowl with three batteries and a hair tie. The Farmer, dusty from the road, stands on the step with his spade.",
+      "characters": [
+        "enka",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Widow, the same character seen from three sides. Keep the Widow's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Widow only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Evening at the open door of an old farmhouse at the far end of a valley. The Widow has just opened the door to the Farmer, and her whole face lights up with joy, both hands clasped at her chest. Behind her on the kitchen counter, a hearing aid lies in a little bowl with three batteries and a hair tie. The Farmer, dusty from the road, stands on the step with his spade.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Widow: A tall, big, well-fed farm woman of about sixty-five with a large round face, a double chin, pink cheeks, a big mouth always open to talk, bright little inquisitive eyes and tight iron-grey ringlets. She wears a wine-red dress under a long green knitted cardigan, a white apron and fleece-lined slippers.\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 64,
+      "anchor": "Ringerikingen ble stående i døråpningen og klø seg i hodet.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Per nummer to hadde aldri stolt på banken.",
+      "alt": "I bua ligger klærne etter Per nummer to i stabler. Enka har slått opp lokket på ei kiste full av seddelbunter, og mannen står i døra og klør seg i hodet.",
+      "prompt": "Inside a shed by the barn, a dead man's clothes lie in neat stacks on the benches: jumpers, shirts, trousers and caps. The Widow has thrown back the lid of an old wooden chest that is full of bundles of paper money held with rubber bands, and beams at it. The Farmer stands in the doorway, scratching his head under his cap and staring at the money.",
+      "characters": [
+        "enka",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Widow, the same character seen from three sides. Keep the Widow's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Widow only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Inside a shed by the barn, a dead man's clothes lie in neat stacks on the benches: jumpers, shirts, trousers and caps. The Widow has thrown back the lid of an old wooden chest that is full of bundles of paper money held with rubber bands, and beams at it. The Farmer stands in the doorway, scratching his head under his cap and staring at the money.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Widow: A tall, big, well-fed farm woman of about sixty-five with a large round face, a double chin, pink cheeks, a big mouth always open to talk, bright little inquisitive eyes and tight iron-grey ringlets. She wears a wine-red dress under a long green knitted cardigan, a white apron and fleece-lined slippers.\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 69,
+      "anchor": "Men nede på åkeren gikk Per nummer tre bak plogen.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han pløyde med hest, for han mente at traktoren pakket jorda.",
+      "alt": "Per nummer tre pløyer med hest og ser seg mistenksomt over skulderen. Langt borte på grusveien kjører mannen av sted med hest og et fullt kjerrelass.",
+      "prompt": "A wide view of a brown field at the end of a valley. In the foreground, Per the Third ploughs with a stocky dark-brown Døle horse and an old horse-drawn plough, a tractor left parked and ignored at the edge of the field; he has stopped and looks over his shoulder with a suspicious frown. Far off on the gravel road, the blue-grey dappled horse trots away pulling a small cart piled high with clothes and a chest, with the Farmer on the seat.",
+      "characters": [
+        "per",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Per the Third, the same character seen from three sides. Keep Per the Third's face, hair, body shape, age, colours and clothes exactly as shown. Draw Per the Third only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A wide view of a brown field at the end of a valley. In the foreground, Per the Third ploughs with a stocky dark-brown Døle horse and an old horse-drawn plough, a tractor left parked and ignored at the edge of the field; he has stopped and looks over his shoulder with a suspicious frown. Far off on the gravel road, the blue-grey dappled horse trots away pulling a small cart piled high with clothes and a chest, with the Farmer on the seat.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Per the Third: A tall, heavy, grumpy farmer of about fifty-five with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black knitted hat, a patched brown work jacket over a rust-red flannel shirt, work trousers and tall muddy rubber boots.\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 75,
+      "anchor": "Per ble sittende på hesteryggen og se på ham.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Per ble sittende på hesteryggen og se på ham.",
+      "alt": "Mannen ligger på ryggen i lyngen under ei bjørk og stirrer opp i skyene. En dott hår fra hestehalen henger i bjørka, og Per nummer tre sitter på hesten og glor på ham.",
+      "prompt": "On a small knoll at the edge of the spruce forest, the Farmer lies on his back in the dry heather under a birch with his hands behind his head, gazing up at the clouds in wonder. A tuft of long grey horsehair is tied to a branch above him, fluttering in the breeze. Per the Third sits on his dark-brown Døle horse beside the knoll and stares down at him, scowling.",
+      "characters": [
+        "mannen",
+        "per"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for Per the Third, the same character seen from three sides. Keep Per the Third's face, hair, body shape, age, colours and clothes exactly as shown. Draw Per the Third only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On a small knoll at the edge of the spruce forest, the Farmer lies on his back in the dry heather under a birch with his hands behind his head, gazing up at the clouds in wonder. A tuft of long grey horsehair is tied to a branch above him, fluttering in the breeze. Per the Third sits on his dark-brown Døle horse beside the knoll and stares down at him, scowling.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n- Per the Third: A tall, heavy, grumpy farmer of about fifty-five with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black knitted hat, a patched brown work jacket over a rust-red flannel shirt, work trousers and tall muddy rubber boots.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 80,
+      "anchor": "Mens han lå der, tok ringerikingen ploghesten i tøylene",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Per stirret opp i skyene til øynene rant.",
+      "alt": "Per nummer tre ligger i lyngen med mobilen på brystet og stirrer opp i skyene. Bak ham leder mannen hesten hans stille bort mot kjerra.",
+      "prompt": "A wide view of the knoll. Per the Third lies flat on his back in the heather with his phone ready on his chest, staring up at the clouds so hard that tears run down his cheeks. Behind him, the Farmer quietly leads the dark-brown Døle horse by the reins down towards a forest track, where the blue-grey dappled horse waits in the shafts of the loaded cart behind the spruces.",
+      "characters": [
+        "per",
+        "mannen"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for Per the Third, the same character seen from three sides. Keep Per the Third's face, hair, body shape, age, colours and clothes exactly as shown. Draw Per the Third only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A wide view of the knoll. Per the Third lies flat on his back in the heather with his phone ready on his chest, staring up at the clouds so hard that tears run down his cheeks. Behind him, the Farmer quietly leads the dark-brown Døle horse by the reins down towards a forest track, where the blue-grey dappled horse waits in the shafts of the loaded cart behind the spruces.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- Per the Third: A tall, heavy, grumpy farmer of about fifty-five with a long, sour face, a drooping lower lip, a big red nose, deep frown lines, bristly black eyebrows and a short, stiff iron-grey beard like a doormat. He wears a floppy black knitted hat, a patched brown work jacket over a rust-red flannel shirt, work trousers and tall muddy rubber boots.\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "12",
+      "paragraph": 88,
+      "anchor": "Over åsen hang et regnvær og kunne ikke bestemme seg.",
+      "file": "scenes/12.webp",
+      "sources": [
+        {
+          "file": "scenes/12.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/12-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Over åsen hang et regnvær og kunne ikke bestemme seg.",
+      "alt": "Jordet på småbruket er skjevt pløyd, og nedover hver fure går en hvit stripe med veisalt. Kona står fornøyd ved åkerkanten med en tom saltsekk, og over åsen henger et regnvær.",
+      "prompt": "At the Smallholding, the Farmer has stopped at the top of the hill with two horses and the loaded cart and stares at the field: it has been ploughed crookedly with the old tractor, the furrows slanting and far too close together, with a white stripe of road salt down every one. The Wife stands at the edge of the field holding an empty salt sack, looking very pleased. Over the ridge hangs a grey rain shower.",
+      "characters": [
+        "mannen",
+        "kona"
+      ],
+      "places": [
+        "smabruket"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Wife, the same character seen from three sides. Keep the Wife's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Wife only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Smallholding. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the Smallholding, the Farmer has stopped at the top of the hill with two horses and the loaded cart and stares at the field: it has been ploughed crookedly with the old tractor, the furrows slanting and far too close together, with a white stripe of road salt down every one. The Wife stands at the edge of the field holding an empty salt sack, looking very pleased. Over the ridge hangs a grey rain shower.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Farmer: A lean, wiry smallholder of about forty-five with a narrow, clever face, a long straight nose, lively dark eyes with laugh crinkles, a patient half-smile, a short, neat black beard and cropped black hair. He wears a small black knitted cap with a turned-up brim, a faded cornflower-blue work jacket with big pockets, grey work trousers with a tool belt holding a folding ruler, and worn brown boots.\n- the Wife: A cheerful, dreamy smallholder's wife of about forty-five, a little round, with a long ski-jump nose, big round blue eyes that always look amazed, rosy cheeks, a pleased little smile and two long, thin straw-yellow plaits tied at the ends with red hair ties. She wears a rust-orange padded jacket over a black knitted jumper with a red zigzag band, dark work trousers and green rubber boots.\n\nSetting:\n- the Smallholding: A small, run-down smallholding on a gentle slope: a white wooden farmhouse with peeling paint and a front porch, a red barn with a single lamp over the barn door, a little old storehouse on stone legs with a steep roof, an old red tractor, and one brown field ringed by a wire fence, with bare birches and grey snowbanks melting along the road.\n\nStory world: Present-day rural eastern Norway, just before the spring ploughing. The Farmer and the Wife have a small, run-down smallholding with one brown field, an old tractor and a car that failed its inspection. A county road leads twelve kilometres to a small town, where the Butcher has a little shop with a back room of steel shelves and plastic crates and a cold room behind a shiny steel door. Along the roads further off stand a brand-new white house with no windows, a house whose kitchen is full of knitting, and an old farm at the far end of a valley with a shed by the barn. The widow's horse is a blue-grey dappled horse with a black mane and tail, harnessed to a small two-wheeled cart; Per the Third's plough horse is a stocky dark-brown Døle horse.\n\nThis story's season, light and colours: A dry, cold spring just before the ploughing: pale sunshine under a high, thin sky, brown fields and grey road dust, dirty snowbanks melting at the roadsides, birches with bare purple twigs and the first mouse-ear leaves, dark spruce and dry heather on the hills, and evenings under yellow yard lamps. At the end, a grey rain shower hanging over the ridge.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

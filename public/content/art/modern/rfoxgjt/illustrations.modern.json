@@ -1,0 +1,194 @@
+{
+  "storyId": "rfoxgjt",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Reven som gjeter",
+  "textFile": "public/content/stories/rfoxgjt/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:14:25.495Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Dama trengte en gjeter.",
+    "alt": "Dama lener seg på grinda med telefonen i hånda og ser på tre menn som vil bli gjeter: en svær fyr i skitne arbeidsklær, en mager kar med gule øyne og en mann med rødt skjegg.",
+    "prompt": "At the wooden gate of her smallholding on a clear late-August morning, the Farmer leans on the gate with her phone in her hand, sizing up three men who want the herdsman job, standing in a row on the gravel track: the Big Guy grinning in his filthy overalls, the Thin Man staring at her with his pale yellow eyes as if weighing her in kilos, and the Red-Bearded Man with his hands folded, smiling just nicely enough. Three goats and two sheep peer through the fence behind her.",
+    "characters": [
+      "dama",
+      "den-svaere-fyren",
+      "den-magre-karen",
+      "reven-dyrepasseren"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Big Guy, the same character seen from three sides. Keep the Big Guy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Big Guy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Thin Man, the same character seen from three sides. Keep the Thin Man's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Thin Man only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Red-Bearded Man, the same character seen from three sides. Keep the Red-Bearded Man's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Red-Bearded Man only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: At the wooden gate of her smallholding on a clear late-August morning, the Farmer leans on the gate with her phone in her hand, sizing up three men who want the herdsman job, standing in a row on the gravel track: the Big Guy grinning in his filthy overalls, the Thin Man staring at her with his pale yellow eyes as if weighing her in kilos, and the Red-Bearded Man with his hands folded, smiling just nicely enough. Three goats and two sheep peer through the fence behind her.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Farmer: A strong, broad-shouldered woman of about forty with a wide, wind-tanned face, a broad nose, sharp blue eyes under heavy black brows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red bandana knotted at the nape. She wears a dark-green fleece jacket over a blue-and-white checked flannel shirt, jeans with a wide leather belt and black muck boots.\n- the Big Guy: A huge man as broad as a barn door, with a wide round face, small kind brown eyes, a shiny round nose, a tuft of honey-blond hair sticking up on top of his head and a thick honey-blond beard that grows right up to his eyes. He wears filthy brown canvas work overalls over a cream thermal top, and enormous muddy work boots.\n- the Thin Man: A lanky, long-legged man with a long, narrow face, pale yellow eyes, shaggy smoke-grey hair, darker on top and silver at the temples, large ears with the tip of the left one folded over, and a polite, awkward, closed-mouth smile. He wears a thin, worn grey jacket far too light for the weather, grey jeans and scuffed grey trainers.\n- the Red-Bearded Man: A slim, wiry man of about thirty-five with a narrow, foxy face, a pointed nose, large honey-brown eyes, a neat, short copper-red beard, copper-red hair, quick hands and a smile that is just nice enough. He wears a green waxed jacket over a cream jumper, brown trousers and brown boots, with a small brown leather bag across his chest.\n\nStory world: Present-day Norway in late August. Dama has a smallholding at the far end of a valley: a white farmhouse with a red barn, a gravel yard with a wooden gate, and a tractor track down to a river and a birch grove, with twelve goats, twenty sheep and three cows. She works full-time at the health centre. Down in the village are a small petrol station with pumps under a canopy and a little grocery shop with a bench outside and a bottle-return machine inside the door. The three men who want the herdsman job are really a bear, a wolf and a fox in human shape, with only small hints: the big one's fur-like beard, the thin one's yellow eyes, and the red-bearded one's bushy tail, hidden under his jacket until the very end.\n\nThis story's season, light and colours: Late August in a green valley: the first yellow birch leaves, golden stubble fields, blue ridges and clear, cool days, with flat grey daylight at the petrol station. The last scene is a dark night, lit by warm kitchen light spilling from an open door onto the gravel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "dama",
+      "name": "Dama",
+      "description": "Eier av en liten gård som trenger hjelp til å passe dyra mens hun er på jobb, og som blir lurt av en tilsynelatende pålitelig dyrepasser.",
+      "look": "A strong, broad-shouldered woman of about forty with a wide, wind-tanned face, a broad nose, sharp blue eyes under heavy black brows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red bandana knotted at the nape. She wears a dark-green fleece jacket over a blue-and-white checked flannel shirt, jeans with a wide leather belt and black muck boots.",
+      "sheet": "characters/dama.webp",
+      "turn": "characters/dama-turn.mp4",
+      "portrait": "portraits/dama.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dama.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dama-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "dama"
+    },
+    {
+      "slug": "reven-dyrepasseren",
+      "name": "Reven (dyrepasseren)",
+      "description": "En lur rev som ser ut som en helt vanlig mann med rødt skjegg og grønn jakke, synger seg til gjeterjobben, spiser opp dyra og ender med hvit haletipp.",
+      "look": "A slim, wiry man of about thirty-five with a narrow, foxy face, a pointed nose, large honey-brown eyes, a neat, short copper-red beard, copper-red hair, quick hands and a smile that is just nice enough. He wears a green waxed jacket over a cream jumper, brown trousers and brown boots, with a small brown leather bag across his chest.",
+      "sheet": "characters/reven-dyrepasseren.webp",
+      "turn": "characters/reven-dyrepasseren-turn.mp4",
+      "portrait": "portraits/reven-dyrepasseren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/reven-dyrepasseren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/reven-dyrepasseren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "reven-dyrepasseren"
+    },
+    {
+      "slug": "den-svaere-fyren",
+      "name": "Den svære fyren",
+      "description": "En stor og bråkete type ved bensinstasjonen som prøver å få jobben, men skremmer med et voldsomt brøl.",
+      "look": "A huge man as broad as a barn door, with a wide round face, small kind brown eyes, a shiny round nose, a tuft of honey-blond hair sticking up on top of his head and a thick honey-blond beard that grows right up to his eyes. He wears filthy brown canvas work overalls over a cream thermal top, and enormous muddy work boots.",
+      "sheet": "characters/den-svaere-fyren.webp",
+      "turn": "characters/den-svaere-fyren-turn.mp4",
+      "portrait": "portraits/den-svaere-fyren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-svaere-fyren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-svaere-fyren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-svaere-fyren"
+    },
+    {
+      "slug": "den-magre-karen",
+      "name": "Den magre karen",
+      "description": "En mager kar i tynn jakke ved skogstien, med gule øyne som ser på dama som om han regner i kilo, og et ul som får det til å gå kaldt nedover ryggen hennes.",
+      "look": "A lanky, long-legged man with a long, narrow face, pale yellow eyes, shaggy smoke-grey hair, darker on top and silver at the temples, large ears with the tip of the left one folded over, and a polite, awkward, closed-mouth smile. He wears a thin, worn grey jacket far too light for the weather, grey jeans and scuffed grey trainers.",
+      "sheet": "characters/den-magre-karen.webp",
+      "turn": "characters/den-magre-karen-turn.mp4",
+      "portrait": "portraits/den-magre-karen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/den-magre-karen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/den-magre-karen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "den-magre-karen"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 6,
+      "anchor": "Fyren fylte lungene.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Høøø-iiil!» brølte han, så det sang i pumpene og en bilalarm gikk av.",
+      "alt": "Ved pumpene på bensinstasjonen brøler den svære fyren så en bilalarm går av. Dama rynker på nesa og tar et halvt skritt tilbake.",
+      "prompt": "Friday afternoon at a small village petrol station under a flat grey sky. By the pumps, the Big Guy has filled his lungs and bellows at the top of his voice with his head thrown back, so loudly that the pumps seem to ring and a parked red hatchback's hazard lights flash with its alarm going off. The Farmer, holding a fuel nozzle, wrinkles her nose and takes half a step back.",
+      "characters": [
+        "den-svaere-fyren",
+        "dama"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Big Guy, the same character seen from three sides. Keep the Big Guy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Big Guy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Friday afternoon at a small village petrol station under a flat grey sky. By the pumps, the Big Guy has filled his lungs and bellows at the top of his voice with his head thrown back, so loudly that the pumps seem to ring and a parked red hatchback's hazard lights flash with its alarm going off. The Farmer, holding a fuel nozzle, wrinkles her nose and takes half a step back.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Big Guy: A huge man as broad as a barn door, with a wide round face, small kind brown eyes, a shiny round nose, a tuft of honey-blond hair sticking up on top of his head and a thick honey-blond beard that grows right up to his eyes. He wears filthy brown canvas work overalls over a cream thermal top, and enormous muddy work boots.\n- the Farmer: A strong, broad-shouldered woman of about forty with a wide, wind-tanned face, a broad nose, sharp blue eyes under heavy black brows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red bandana knotted at the nape. She wears a dark-green fleece jacket over a blue-and-white checked flannel shirt, jeans with a wide leather belt and black muck boots.\n\nStory world: Present-day Norway in late August. Dama has a smallholding at the far end of a valley: a white farmhouse with a red barn, a gravel yard with a wooden gate, and a tractor track down to a river and a birch grove, with twelve goats, twenty sheep and three cows. She works full-time at the health centre. Down in the village are a small petrol station with pumps under a canopy and a little grocery shop with a bench outside and a bottle-return machine inside the door. The three men who want the herdsman job are really a bear, a wolf and a fox in human shape, with only small hints: the big one's fur-like beard, the thin one's yellow eyes, and the red-bearded one's bushy tail, hidden under his jacket until the very end.\n\nThis story's season, light and colours: Late August in a green valley: the first yellow birch leaves, golden stubble fields, blue ridges and clear, cool days, with flat grey daylight at the petrol station. The last scene is a dark night, lit by warm kitchen light spilling from an open door onto the gravel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 20,
+      "anchor": "Mannen la hodet på skakke.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Dil-dal-holom!» sang han, så lyst og fint.",
+      "alt": "Mannen med rødt skjegg sitter på benken utenfor nærbutikken og synger, og Dama blir stående med handlenettet og lytte. Inne ved flaskeautomaten lytter ei eldre dame også.",
+      "prompt": "Outside the little village grocery shop, the Red-Bearded Man sits on the bench by the door with his head tilted, singing a clear, sweet call. The Farmer, just coming out with her shopping bag, stops short and listens, her stern face softening. Through the open shop door, an elderly woman at the bottle-return machine has stopped with a bottle in her hand to listen too.",
+      "characters": [
+        "reven-dyrepasseren",
+        "dama"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Red-Bearded Man, the same character seen from three sides. Keep the Red-Bearded Man's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Red-Bearded Man only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Outside the little village grocery shop, the Red-Bearded Man sits on the bench by the door with his head tilted, singing a clear, sweet call. The Farmer, just coming out with her shopping bag, stops short and listens, her stern face softening. Through the open shop door, an elderly woman at the bottle-return machine has stopped with a bottle in her hand to listen too.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Red-Bearded Man: A slim, wiry man of about thirty-five with a narrow, foxy face, a pointed nose, large honey-brown eyes, a neat, short copper-red beard, copper-red hair, quick hands and a smile that is just nice enough. He wears a green waxed jacket over a cream jumper, brown trousers and brown boots, with a small brown leather bag across his chest.\n- the Farmer: A strong, broad-shouldered woman of about forty with a wide, wind-tanned face, a broad nose, sharp blue eyes under heavy black brows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red bandana knotted at the nape. She wears a dark-green fleece jacket over a blue-and-white checked flannel shirt, jeans with a wide leather belt and black muck boots.\n\nStory world: Present-day Norway in late August. Dama has a smallholding at the far end of a valley: a white farmhouse with a red barn, a gravel yard with a wooden gate, and a tractor track down to a river and a birch grove, with twelve goats, twenty sheep and three cows. She works full-time at the health centre. Down in the village are a small petrol station with pumps under a canopy and a little grocery shop with a bench outside and a bottle-return machine inside the door. The three men who want the herdsman job are really a bear, a wolf and a fox in human shape, with only small hints: the big one's fur-like beard, the thin one's yellow eyes, and the red-bearded one's bushy tail, hidden under his jacket until the very end.\n\nThis story's season, light and colours: Late August in a green valley: the first yellow birch leaves, golden stubble fields, blue ridges and clear, cool days, with flat grey daylight at the petrol station. The last scene is a dark night, lit by warm kitchen light spilling from an open door onto the gravel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 31,
+      "anchor": "Den traff helt ytterst på halen.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Den traff helt ytterst på halen. Hun hadde aldri lagt merke til at han hadde hale.",
+      "alt": "Mannen med rødt skjegg spretter ut på gårdsplassen i mørket, og under jakka stikker en rødgul revehale fram. Dama slenger fløteskvetten etter ham, og den treffer helt ytterst på halen.",
+      "prompt": "Night in the farmyard, lit only by warm light spilling from the open kitchen door of the white farmhouse. The Red-Bearded Man leaps away across the gravel with cream in his beard, and from under his green jacket sticks out a bushy golden-orange fox's tail with a black end. In the doorway the Farmer has just flung the last splash of cream from a jug, and the white splash lands right on the very tip of his tail. Her mouth falls open in astonishment.",
+      "characters": [
+        "reven-dyrepasseren",
+        "dama"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Red-Bearded Man, the same character seen from three sides. Keep the Red-Bearded Man's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Red-Bearded Man only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Farmer, the same character seen from three sides. Keep the Farmer's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Farmer only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night in the farmyard, lit only by warm light spilling from the open kitchen door of the white farmhouse. The Red-Bearded Man leaps away across the gravel with cream in his beard, and from under his green jacket sticks out a bushy golden-orange fox's tail with a black end. In the doorway the Farmer has just flung the last splash of cream from a jug, and the white splash lands right on the very tip of his tail. Her mouth falls open in astonishment.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Red-Bearded Man: A slim, wiry man of about thirty-five with a narrow, foxy face, a pointed nose, large honey-brown eyes, a neat, short copper-red beard, copper-red hair, quick hands and a smile that is just nice enough. He wears a green waxed jacket over a cream jumper, brown trousers and brown boots, with a small brown leather bag across his chest.\n- the Farmer: A strong, broad-shouldered woman of about forty with a wide, wind-tanned face, a broad nose, sharp blue eyes under heavy black brows and a firm, no-nonsense mouth; her black hair is tucked under a dark-red bandana knotted at the nape. She wears a dark-green fleece jacket over a blue-and-white checked flannel shirt, jeans with a wide leather belt and black muck boots.\n\nStory world: Present-day Norway in late August. Dama has a smallholding at the far end of a valley: a white farmhouse with a red barn, a gravel yard with a wooden gate, and a tractor track down to a river and a birch grove, with twelve goats, twenty sheep and three cows. She works full-time at the health centre. Down in the village are a small petrol station with pumps under a canopy and a little grocery shop with a bench outside and a bottle-return machine inside the door. The three men who want the herdsman job are really a bear, a wolf and a fox in human shape, with only small hints: the big one's fur-like beard, the thin one's yellow eyes, and the red-bearded one's bushy tail, hidden under his jacket until the very end.\n\nThis story's season, light and colours: Late August in a green valley: the first yellow birch leaves, golden stubble fields, blue ridges and clear, cool days, with flat grey daylight at the petrol station. The last scene is a dark night, lit by warm kitchen light spilling from an open door onto the gravel.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "storyId": "tremost",
+  "set": "modern",
+  "variant": "modern",
+  "title": "De tre mostrene",
+  "textFile": "public/content/stories/tremost/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:16:53.804Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Tre gamle damer spinner, vever og syr, mens den nye assistenten sover.",
+    "alt": "Jenta sover på ei feltseng, og rundt henne jobber tre gamle damer: én med kjempelang nese og en ravn på skulderen spinner, én med kjempebred bak vever, og én med tykke røde briller syr.",
+    "prompt": "Night in the side wing of the Palace, one room crammed with work. The Girl sleeps on a camp bed in the middle, still in her apron. Around her the three aunts are hard at work: the Long-Nosed Aunt at a boxy spinning machine with blinking lamps, her enormous nose nodding over the yarn and the raven on her shoulder; the Broad-Hipped Aunt at a huge old wooden loom, shoving back and forth on its bench; and the Teary-Eyed Aunt at a sewing machine, stitching a white shirt.",
+    "characters": [
+      "jenta",
+      "moster-langnese",
+      "moster-bred",
+      "moster-roede-oyne"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Long-Nosed Aunt, the same character seen from three sides. Keep the Long-Nosed Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Long-Nosed Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Broad-Hipped Aunt, the same character seen from three sides. Keep the Broad-Hipped Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Broad-Hipped Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Teary-Eyed Aunt, the same character seen from three sides. Keep the Teary-Eyed Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Teary-Eyed Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: Night in the side wing of the Palace, one room crammed with work. The Girl sleeps on a camp bed in the middle, still in her apron. Around her the three aunts are hard at work: the Long-Nosed Aunt at a boxy spinning machine with blinking lamps, her enormous nose nodding over the yarn and the raven on her shoulder; the Broad-Hipped Aunt at a huge old wooden loom, shoving back and forth on its bench; and the Teary-Eyed Aunt at a sewing machine, stitching a white shirt.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Girl: A slim, cheerful girl of seventeen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder, with a blue jay feather tucked behind one ear. She wears a pine-green knitted jumper with the sleeves pushed up, black trousers, a grey work apron with a small blank name badge and sturdy brown boots.\n- the Long-Nosed Aunt: A small, hunched old woman of about eighty with a kindly, wrinkled face, sharp, merry little blue eyes, rosy cheeks and an enormous nose, thick as a cucumber at the root and so long that it looks like a carnival mask, ending in a round pink tip. Her white hair is in a small knot. She wears a long moss-green hooded cloak that looks sewn from old velvet curtains, leans on a crooked walking stick, and a black raven rides on her shoulder.\n- the Broad-Hipped Aunt: A short old woman of about eighty with narrow shoulders, a small round head and enormously broad hips and backside, so wide that she has to turn sideways to get through a double door. She has a square little face, a snub nose, bright squinting eyes, a gap-toothed grin and grey hair in a tight bun under a small round black felt hat. She wears a huge, bell-shaped skirt with wide red and ochre stripes, a white blouse and a short dark-brown cardigan.\n- the Teary-Eyed Aunt: A round-shouldered old woman of about eighty, of middle height, with a soft, wrinkled face and thick glasses with round red frames, behind which her eyes look as big as plates, red-rimmed and always running with tears. Her silver hair is braided and pinned in a ring on top of her head. She wears a dusty-rose dress with a white collar, a red tomato-shaped pincushion on her wrist and a silver thimble on one finger.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "jenta",
+      "name": "Jenta (den nye assistenten)",
+      "description": "En fattig manns datter som får jobb i Slottets husholdning, blir presset til å levere håndarbeid hun ikke kan, og ender som brud mens hun bærer på en hemmelig avtale.",
+      "look": "A slim, cheerful girl of seventeen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder, with a blue jay feather tucked behind one ear. She wears a pine-green knitted jumper with the sleeves pushed up, black trousers, a grey work apron with a small blank name badge and sturdy brown boots.",
+      "sheet": "characters/jenta.webp",
+      "turn": "characters/jenta-turn.mp4",
+      "portrait": "portraits/jenta.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/jenta.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/jenta-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "jenta-assistenten"
+    },
+    {
+      "slug": "bruden",
+      "name": "Bruden",
+      "description": "Jenta på bryllupsdagen. Hedersdagen er kommet, og nå husker hun hva hun har lovet de tre gamle damene.",
+      "look": "A slim young bride of eighteen with an oval face dusted with freckles, a snub nose, big hazel eyes and a wide smile, her mousy-brown hair in one thick plait woven with small white flowers and a blue jay feather. She wears a simple, elegant ivory silk wedding dress with long lace sleeves and a small, delicate diamond tiara.",
+      "sheet": "characters/bruden.webp",
+      "turn": "characters/bruden-turn.mp4",
+      "portrait": "portraits/bruden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/bruden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/bruden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "dronningen",
+      "name": "Dronningen",
+      "description": "Velvillig, men lett påvirkelig leder av Slottet som elsker tradisjonelt håndarbeid og lar seg overbevise av rykter og «bevis» på talent.",
+      "look": "A tall, willowy, kindly queen of about fifty-five with a long neck, a long oval face, crinkly grey eyes, a slightly long nose and dark hair streaked with silver in a low, coiled knot. She wears a sea-green wool dress with a cream lace collar, pearl earrings and a long rainbow-striped hand-knitted scarf, and she is always knitting: two long wooden needles, a half-finished striped scarf and a ball of pink yarn.",
+      "sheet": "characters/dronningen.webp",
+      "turn": "characters/dronningen-turn.mp4",
+      "portrait": "portraits/dronningen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/dronningen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/dronningen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "dronningen"
+    },
+    {
+      "slug": "prinsen",
+      "name": "Prinsen",
+      "description": "En moderne prins som liker jentas ekte væremåte, men blir rystet når «mostrene» avslører prisen av arbeidet og tvinger ham til å ta et tydelig standpunkt.",
+      "look": "A tall, slender, polite young man of about twenty-two who blushes easily, with a long, clean-shaven face, a dimpled chin, a long nose with a little bump, earnest dark eyes under thick eyebrows and short, tidy black curls. He wears a deep-teal wool blazer over a white shirt, charcoal trousers and tan suede boots.",
+      "sheet": "characters/prinsen.webp",
+      "turn": "characters/prinsen-turn.mp4",
+      "portrait": "portraits/prinsen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/prinsen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/prinsen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "prinsen"
+    },
+    {
+      "slug": "moster-langnese",
+      "name": "Mosteren med den lange nesa",
+      "description": "Den første gamle damen, som spinner alt linet på én natt. Hun har sittet over rokken og nikket og nikket i alle år, og nå er nesa så lang at fotografene tror det er en maske.",
+      "look": "A small, hunched old woman of about eighty with a kindly, wrinkled face, sharp, merry little blue eyes, rosy cheeks and an enormous nose, thick as a cucumber at the root and so long that it looks like a carnival mask, ending in a round pink tip. Her white hair is in a small knot. She wears a long moss-green hooded cloak that looks sewn from old velvet curtains, leans on a crooked walking stick, and a black raven rides on her shoulder.",
+      "sheet": "characters/moster-langnese.webp",
+      "turn": "characters/moster-langnese-turn.mp4",
+      "portrait": "portraits/moster-langnese.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/moster-langnese.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/moster-langnese-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "de-tre-mostrene"
+    },
+    {
+      "slug": "moster-bred",
+      "name": "Mosteren med den brede baken",
+      "description": "Den andre gamle damen, som vever alt garnet på én natt. Hun har skubbet seg fram og tilbake på vevbenken siden hun var ung, og nå må hun gå sidelengs gjennom dobbeltdører.",
+      "look": "A short old woman of about eighty with narrow shoulders, a small round head and enormously broad hips and backside, so wide that she has to turn sideways to get through a double door. She has a square little face, a snub nose, bright squinting eyes, a gap-toothed grin and grey hair in a tight bun under a small round black felt hat. She wears a huge, bell-shaped skirt with wide red and ochre stripes, a white blouse and a short dark-brown cardigan.",
+      "sheet": "characters/moster-bred.webp",
+      "turn": "characters/moster-bred-turn.mp4",
+      "portrait": "portraits/moster-bred.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/moster-bred.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/moster-bred-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "moster-roede-oyne",
+      "name": "Mosteren med de røde øynene",
+      "description": "Den tredje gamle damen, som syr tolv skjorter på én natt. Hun har stirret og sydd natt og dag siden hun var lita, og ingen briller hjelper lenger.",
+      "look": "A round-shouldered old woman of about eighty, of middle height, with a soft, wrinkled face and thick glasses with round red frames, behind which her eyes look as big as plates, red-rimmed and always running with tears. Her silver hair is braided and pinned in a ring on top of her head. She wears a dusty-rose dress with a white collar, a red tomato-shaped pincushion on her wrist and a silver thimble on one finger.",
+      "sheet": "characters/moster-roede-oyne.webp",
+      "turn": "characters/moster-roede-oyne-turn.mp4",
+      "portrait": "portraits/moster-roede-oyne.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/moster-roede-oyne.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/moster-roede-oyne-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": null
+    },
+    {
+      "slug": "husokonomen",
+      "name": "Husøkonomen",
+      "description": "Husøkonomen har jobbet på Slottet i elleve år og blir fortsatt kalt Berit, selv om hun ikke heter det. Sammen med kokken og hovmesteren finner hun på løgn etter løgn om den nye.",
+      "look": "A thin, stiff, tight-lipped woman of about fifty with a narrow, pinched face, pale eyebrows, a sharp little nose, cold pale-blue eyes and ash-blonde hair scraped back into a hard bun. She wears a navy staff uniform dress with a white collar and a small blank name badge, a big bunch of keys at her belt, and carries a clipboard.",
+      "sheet": "characters/husokonomen.webp",
+      "turn": "characters/husokonomen-turn.mp4",
+      "portrait": "portraits/husokonomen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/husokonomen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/husokonomen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "misunnelige-ansatte"
+    }
+  ],
+  "places": [
+    {
+      "slug": "stua",
+      "name": "the Royal Sitting Room",
+      "look": "A bright, elegant sitting room in the Palace, with pale-grey walls, tall windows onto the park, a soft green armchair by a marble fireplace, a small round table, a big basket of yarn and knitting on the floor, and a parquet floor with a faded rug."
+    },
+    {
+      "slug": "festsalen",
+      "name": "the Great Hall",
+      "look": "The Palace's great banqueting hall: tall white walls with gilded mouldings, crystal chandeliers, long tables with white tablecloths, white flowers, silver cutlery and gold chairs, tall double doors at one end, and a red rope along one wall where the press stands."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "«Ja, jenta mi», sa faren.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Jeg har jo ikke lært deg annet enn å ribbe ryper og steke dem.»",
+      "alt": "Jenta sitter ved bordet i ei enkel hytte og ribber ei rype, med fjær overalt. Faren, en mager jeger med oransje lue, står i døra og ser tenksomt på henne.",
+      "prompt": "Inside a small, bare log cabin deep in the forest, lit by a single bulb: a chest freezer hums in the corner, and a pair of moose antlers hangs on the wall. The Girl, without her apron, sits at the table plucking a grouse into a bucket, feathers everywhere. Her father, a lean, weather-beaten hunter with grey stubble in an orange cap and a worn camouflage jacket, leans in the doorway and looks at her thoughtfully.",
+      "characters": [
+        "jenta"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Inside a small, bare log cabin deep in the forest, lit by a single bulb: a chest freezer hums in the corner, and a pair of moose antlers hangs on the wall. The Girl, without her apron, sits at the table plucking a grouse into a bucket, feathers everywhere. Her father, a lean, weather-beaten hunter with grey stubble in an orange cap and a worn camouflage jacket, leans in the doorway and looks at her thoughtfully.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Girl: A slim, cheerful girl of seventeen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder, with a blue jay feather tucked behind one ear. She wears a pine-green knitted jumper with the sleeves pushed up, black trousers, a grey work apron with a small blank name badge and sturdy brown boots.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 9,
+      "anchor": "Dronningen lyste opp og sendte bud etter jenta.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Har du sagt det, så skal du gjøre det», sa dronningen.",
+      "alt": "Dronningen sitter med strikketøyet og stråler mot jenta, som står forskrekket foran henne. Bak stolen står husøkonomen med armene i kors, og bak henne kokken og hovmesteren.",
+      "prompt": "The Royal Sitting Room. The Queen sits in the green armchair with her knitting and lights up, beaming at the Girl, who has just been sent for and stands before her in her apron, startled. Behind the armchair stands the Housekeeper with her arms folded and a thin smile, and behind her a cook in a white jacket and a butler in a black tailcoat look on smugly.",
+      "characters": [
+        "dronningen",
+        "jenta",
+        "husokonomen"
+      ],
+      "places": [
+        "stua"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Queen, the same character seen from three sides. Keep the Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Housekeeper, the same character seen from three sides. Keep the Housekeeper's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Housekeeper only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Royal Sitting Room. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: The Royal Sitting Room. The Queen sits in the green armchair with her knitting and lights up, beaming at the Girl, who has just been sent for and stands before her in her apron, startled. Behind the armchair stands the Housekeeper with her arms folded and a thin smile, and behind her a cook in a white jacket and a butler in a black tailcoat look on smugly.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Queen: A tall, willowy, kindly queen of about fifty-five with a long neck, a long oval face, crinkly grey eyes, a slightly long nose and dark hair streaked with silver in a low, coiled knot. She wears a sea-green wool dress with a cream lace collar, pearl earrings and a long rainbow-striped hand-knitted scarf, and she is always knitting: two long wooden needles, a half-finished striped scarf and a ball of pink yarn.\n- the Girl: A slim, cheerful girl of seventeen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder, with a blue jay feather tucked behind one ear. She wears a pine-green knitted jumper with the sleeves pushed up, black trousers, a grey work apron with a small blank name badge and sturdy brown boots.\n- the Housekeeper: A thin, stiff, tight-lipped woman of about fifty with a narrow, pinched face, pale eyebrows, a sharp little nose, cold pale-blue eyes and ash-blonde hair scraped back into a hard bun. She wears a navy staff uniform dress with a white collar and a small blank name badge, a big bunch of keys at her belt, and carries a clipboard.\n\nSetting:\n- the Royal Sitting Room: A bright, elegant sitting room in the Palace, with pale-grey walls, tall windows onto the park, a soft green armchair by a marble fireplace, a small round table, a big basket of yarn and knitting on the floor, and a parquet floor with a faded rug.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 15,
+      "anchor": "«Er du fra renholdet?» spurte jenta.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Er du fra renholdet?» spurte jenta.",
+      "alt": "Jenta sitter på sengekanten om natta med mobilen i hånda og gråter ved siden av en rar spinnemaskin med knotter og lamper. I døråpningen står en krokrygget gammel dame med en kjempelang nese.",
+      "prompt": "Two o'clock at night in a small staff room in the side wing of the Palace, lit by one lamp. The Girl sits on the edge of her narrow bed with her phone in her hand and tears on her cheeks. Beside her stand a big sack of flax and a brand-new royal spinning machine, a boxy thing with knobs, spools and a little panel of lamps, like a coffee machine. The door has creaked open a crack, and in the gap stands the Long-Nosed Aunt, hunched, her enormous nose poking into the room, looking at the Girl with sharp, bright eyes.",
+      "characters": [
+        "jenta",
+        "moster-langnese"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Long-Nosed Aunt, the same character seen from three sides. Keep the Long-Nosed Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Long-Nosed Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Two o'clock at night in a small staff room in the side wing of the Palace, lit by one lamp. The Girl sits on the edge of her narrow bed with her phone in her hand and tears on her cheeks. Beside her stand a big sack of flax and a brand-new royal spinning machine, a boxy thing with knobs, spools and a little panel of lamps, like a coffee machine. The door has creaked open a crack, and in the gap stands the Long-Nosed Aunt, hunched, her enormous nose poking into the room, looking at the Girl with sharp, bright eyes.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Girl: A slim, cheerful girl of seventeen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder, with a blue jay feather tucked behind one ear. She wears a pine-green knitted jumper with the sleeves pushed up, black trousers, a grey work apron with a small blank name badge and sturdy brown boots.\n- the Long-Nosed Aunt: A small, hunched old woman of about eighty with a kindly, wrinkled face, sharp, merry little blue eyes, rosy cheeks and an enormous nose, thick as a cucumber at the root and so long that it looks like a carnival mask, ending in a round pink tip. Her white hair is in a small knot. She wears a long moss-green hooded cloak that looks sewn from old velvet curtains, leans on a crooked walking stick, and a black raven rides on her shoulder.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 24,
+      "anchor": "Dronningen holdt en snelle opp mot lyset.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Dette», sa hun, «er det vakreste garnet jeg har sett.»",
+      "alt": "Dronningen holder en snelle med fint, jevnt garn opp mot lyset og ser forundret på den. Jenta står rød i kinnene ved siden av, og i døra står husøkonomen og ser sur ut.",
+      "prompt": "A bright morning in the Royal Sitting Room. The Queen holds a spool of fine, even, pale-gold yarn up to the light of the tall window and gazes at it in wonder, with more spools in a basket at her feet, while the Girl stands beside her in her apron, cheeks pink. In the doorway, the Housekeeper watches with a face like thunder, clutching her clipboard.",
+      "characters": [
+        "dronningen",
+        "jenta",
+        "husokonomen"
+      ],
+      "places": [
+        "stua"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Queen, the same character seen from three sides. Keep the Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Housekeeper, the same character seen from three sides. Keep the Housekeeper's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Housekeeper only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Royal Sitting Room. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: A bright morning in the Royal Sitting Room. The Queen holds a spool of fine, even, pale-gold yarn up to the light of the tall window and gazes at it in wonder, with more spools in a basket at her feet, while the Girl stands beside her in her apron, cheeks pink. In the doorway, the Housekeeper watches with a face like thunder, clutching her clipboard.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Queen: A tall, willowy, kindly queen of about fifty-five with a long neck, a long oval face, crinkly grey eyes, a slightly long nose and dark hair streaked with silver in a low, coiled knot. She wears a sea-green wool dress with a cream lace collar, pearl earrings and a long rainbow-striped hand-knitted scarf, and she is always knitting: two long wooden needles, a half-finished striped scarf and a ball of pink yarn.\n- the Girl: A slim, cheerful girl of seventeen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder, with a blue jay feather tucked behind one ear. She wears a pine-green knitted jumper with the sleeves pushed up, black trousers, a grey work apron with a small blank name badge and sturdy brown boots.\n- the Housekeeper: A thin, stiff, tight-lipped woman of about fifty with a narrow, pinched face, pale eyebrows, a sharp little nose, cold pale-blue eyes and ash-blonde hair scraped back into a hard bun. She wears a navy staff uniform dress with a white collar and a small blank name badge, a big bunch of keys at her belt, and carries a clipboard.\n\nSetting:\n- the Royal Sitting Room: A bright, elegant sitting room in the Palace, with pale-grey walls, tall windows onto the park, a soft green armchair by a marble fireplace, a small round table, a big basket of yarn and knitting on the floor, and a parquet floor with a faded rug.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 29,
+      "anchor": "Jenta satt på en feltseng og så på vevstolen",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Jenta satt på en feltseng og så på vevstolen, og vevstolen så på henne.",
+      "alt": "Midt i et nakent rom står en diger, gammel vevstol av mørkt tre. Jenta sitter på en feltseng foran den med armene rundt knærne og gråter.",
+      "prompt": "Night in a bare workroom in the Palace. In the middle stands a huge, dark wooden loom from the 1700s, a museum piece, with a velvet rope and a small blank sign on a stand beside it. The Girl, in her apron, sits hunched on a narrow camp bed facing it, hugging her knees, tears running down her freckled cheeks, and the loom seems to look back at her. One lamp, a dark window.",
+      "characters": [
+        "jenta"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night in a bare workroom in the Palace. In the middle stands a huge, dark wooden loom from the 1700s, a museum piece, with a velvet rope and a small blank sign on a stand beside it. The Girl, in her apron, sits hunched on a narrow camp bed facing it, hugging her knees, tears running down her freckled cheeks, and the loom seems to look back at her. One lamp, a dark window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Girl: A slim, cheerful girl of seventeen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder, with a blue jay feather tucked behind one ear. She wears a pine-green knitted jumper with the sleeves pushed up, black trousers, a grey work apron with a small blank name badge and sturdy brown boots.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 35,
+      "anchor": "Hun våknet av at sola sto rett inn gjennom vinduet.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "På bordet lå stoffet, tett og jevnt og med et blått mønster.",
+      "alt": "Morgensola skinner inn i rommet. Vevstolen står tom, og på bordet ligger et brettet stoff med et fint, blått mønster. Jenta står med åpen munn og hendene mot brystet.",
+      "prompt": "Morning sun pours in through the window of the bare workroom. The huge old loom stands empty and still. On the table lies a length of new cloth, folded with sharp edges, tight and even, woven with a fine blue pattern. The Girl stands before it in her apron with her mouth open and both hands pressed to her chest, relieved and a little frightened.",
+      "characters": [
+        "jenta"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Morning sun pours in through the window of the bare workroom. The huge old loom stands empty and still. On the table lies a length of new cloth, folded with sharp edges, tight and even, woven with a fine blue pattern. The Girl stands before it in her apron with her mouth open and both hands pressed to her chest, relieved and a little frightened.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Girl: A slim, cheerful girl of seventeen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder, with a blue jay feather tucked behind one ear. She wears a pine-green knitted jumper with the sleeves pushed up, black trousers, a grey work apron with a small blank name badge and sturdy brown boots.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 47,
+      "anchor": "Prinsen sto i døra.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Prinsen sto i døra. Han ble rød helt opp i håret. «Mamma», sa han.",
+      "alt": "Dronningen klapper i hendene over tolv hvite skjorter på bordet, og jenta står ved siden av og ser ned. I døra står prinsen, rød helt opp i håret.",
+      "prompt": "The Royal Sitting Room. On the round table lie twelve white shirts, ironed, folded and buttoned right up to the neck. The Queen claps her hands in delight, her knitting tucked under one arm, and beams at the Girl, who stands beside the shirts in her apron, looking down. In the doorway stands the Prince, blushing red right up to his hair, one hand half raised as if to stop his mother.",
+      "characters": [
+        "dronningen",
+        "jenta",
+        "prinsen"
+      ],
+      "places": [
+        "stua"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Queen, the same character seen from three sides. Keep the Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Girl, the same character seen from three sides. Keep the Girl's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Girl only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Royal Sitting Room. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: The Royal Sitting Room. On the round table lie twelve white shirts, ironed, folded and buttoned right up to the neck. The Queen claps her hands in delight, her knitting tucked under one arm, and beams at the Girl, who stands beside the shirts in her apron, looking down. In the doorway stands the Prince, blushing red right up to his hair, one hand half raised as if to stop his mother.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Queen: A tall, willowy, kindly queen of about fifty-five with a long neck, a long oval face, crinkly grey eyes, a slightly long nose and dark hair streaked with silver in a low, coiled knot. She wears a sea-green wool dress with a cream lace collar, pearl earrings and a long rainbow-striped hand-knitted scarf, and she is always knitting: two long wooden needles, a half-finished striped scarf and a ball of pink yarn.\n- the Girl: A slim, cheerful girl of seventeen with an oval face dusted all over with freckles, a snub nose, big hazel eyes, a wide smile and mousy-brown hair in one thick plait over her shoulder, with a blue jay feather tucked behind one ear. She wears a pine-green knitted jumper with the sleeves pushed up, black trousers, a grey work apron with a small blank name badge and sturdy brown boots.\n- the Prince: A tall, slender, polite young man of about twenty-two who blushes easily, with a long, clean-shaven face, a dimpled chin, a long nose with a little bump, earnest dark eyes under thick eyebrows and short, tidy black curls. He wears a deep-teal wool blazer over a white shirt, charcoal trousers and tan suede boots.\n\nSetting:\n- the Royal Sitting Room: A bright, elegant sitting room in the Palace, with pale-grey walls, tall windows onto the park, a soft green armchair by a marble fireplace, a small round table, a big basket of yarn and knitting on the floor, and a parquet floor with a faded rug.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 56,
+      "anchor": "«God dag, moster!» sa hun, høyt nok til at alle hørte det.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«God dag, moster!» sa hun, høyt nok til at alle hørte det.",
+      "alt": "I bryllupssalen står en gammel kvinne i grønn kappe med en ravn på skulderen og en kjempelang nese i døra. Bruden reiser seg og neier dypt, og to livvakter ser på hverandre.",
+      "prompt": "The wedding dinner in the Great Hall, with the press lined up behind the red rope along the wall. The tall double doors stand open, and in them stands the Long-Nosed Aunt in her green hooded cloak, leaning on her stick with the raven on her shoulder, her enormous nose reaching far into the hall. The Bride has risen from her seat beside the Prince and curtsies deeply to her with a smile, while two bodyguards in dark suits glance at each other.",
+      "characters": [
+        "moster-langnese",
+        "bruden",
+        "prinsen"
+      ],
+      "places": [
+        "festsalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Long-Nosed Aunt, the same character seen from three sides. Keep the Long-Nosed Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Long-Nosed Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Bride, the same character seen from three sides. Keep the Bride's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Bride only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Great Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: The wedding dinner in the Great Hall, with the press lined up behind the red rope along the wall. The tall double doors stand open, and in them stands the Long-Nosed Aunt in her green hooded cloak, leaning on her stick with the raven on her shoulder, her enormous nose reaching far into the hall. The Bride has risen from her seat beside the Prince and curtsies deeply to her with a smile, while two bodyguards in dark suits glance at each other.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Long-Nosed Aunt: A small, hunched old woman of about eighty with a kindly, wrinkled face, sharp, merry little blue eyes, rosy cheeks and an enormous nose, thick as a cucumber at the root and so long that it looks like a carnival mask, ending in a round pink tip. Her white hair is in a small knot. She wears a long moss-green hooded cloak that looks sewn from old velvet curtains, leans on a crooked walking stick, and a black raven rides on her shoulder.\n- the Bride: A slim young bride of eighteen with an oval face dusted with freckles, a snub nose, big hazel eyes and a wide smile, her mousy-brown hair in one thick plait woven with small white flowers and a blue jay feather. She wears a simple, elegant ivory silk wedding dress with long lace sleeves and a small, delicate diamond tiara.\n- the Prince: A tall, slender, polite young man of about twenty-two who blushes easily, with a long, clean-shaven face, a dimpled chin, a long nose with a little bump, earnest dark eyes under thick eyebrows and short, tidy black curls. He wears a deep-teal wool blazer over a white shirt, charcoal trousers and tan suede boots.\n\nSetting:\n- the Great Hall: The Palace's great banqueting hall: tall white walls with gilded mouldings, crystal chandeliers, long tables with white tablecloths, white flowers, silver cutlery and gold chairs, tall double doors at one end, and a red rope along one wall where the press stands.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 66,
+      "anchor": "Hun hadde nesten ikke fått satt seg før den tredje kom.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Bak glassene var øynene store som tallerkener, røde og rennende.",
+      "alt": "En tredje gammel kvinne med tykke briller og store, røde og rennende øyne tørker seg med en serviett. Ved bordet sitter mosteren med ravnen og mosteren som trenger to stoler. Bruden reiser seg igjen.",
+      "prompt": "In the Great Hall, the Teary-Eyed Aunt arrives at the wedding table in her thick red-framed glasses, wiping her huge, streaming eyes with a napkin snatched from the nearest table. Already seated are the Long-Nosed Aunt, her raven perched on the back of her chair studying the silverware, and the Broad-Hipped Aunt, sitting on two chairs pushed tight together. The Bride rises for the third time, and the Prince smiles stiffly towards the cameras.",
+      "characters": [
+        "moster-roede-oyne",
+        "moster-langnese",
+        "moster-bred",
+        "bruden",
+        "prinsen"
+      ],
+      "places": [
+        "festsalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Teary-Eyed Aunt, the same character seen from three sides. Keep the Teary-Eyed Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Teary-Eyed Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Long-Nosed Aunt, the same character seen from three sides. Keep the Long-Nosed Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Long-Nosed Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Broad-Hipped Aunt, the same character seen from three sides. Keep the Broad-Hipped Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Broad-Hipped Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Bride, the same character seen from three sides. Keep the Bride's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Bride only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 6: setting reference for the Great Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the Great Hall, the Teary-Eyed Aunt arrives at the wedding table in her thick red-framed glasses, wiping her huge, streaming eyes with a napkin snatched from the nearest table. Already seated are the Long-Nosed Aunt, her raven perched on the back of her chair studying the silverware, and the Broad-Hipped Aunt, sitting on two chairs pushed tight together. The Bride rises for the third time, and the Prince smiles stiffly towards the cameras.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Teary-Eyed Aunt: A round-shouldered old woman of about eighty, of middle height, with a soft, wrinkled face and thick glasses with round red frames, behind which her eyes look as big as plates, red-rimmed and always running with tears. Her silver hair is braided and pinned in a ring on top of her head. She wears a dusty-rose dress with a white collar, a red tomato-shaped pincushion on her wrist and a silver thimble on one finger.\n- the Long-Nosed Aunt: A small, hunched old woman of about eighty with a kindly, wrinkled face, sharp, merry little blue eyes, rosy cheeks and an enormous nose, thick as a cucumber at the root and so long that it looks like a carnival mask, ending in a round pink tip. Her white hair is in a small knot. She wears a long moss-green hooded cloak that looks sewn from old velvet curtains, leans on a crooked walking stick, and a black raven rides on her shoulder.\n- the Broad-Hipped Aunt: A short old woman of about eighty with narrow shoulders, a small round head and enormously broad hips and backside, so wide that she has to turn sideways to get through a double door. She has a square little face, a snub nose, bright squinting eyes, a gap-toothed grin and grey hair in a tight bun under a small round black felt hat. She wears a huge, bell-shaped skirt with wide red and ochre stripes, a white blouse and a short dark-brown cardigan.\n- the Bride: A slim young bride of eighteen with an oval face dusted with freckles, a snub nose, big hazel eyes and a wide smile, her mousy-brown hair in one thick plait woven with small white flowers and a blue jay feather. She wears a simple, elegant ivory silk wedding dress with long lace sleeves and a small, delicate diamond tiara.\n- the Prince: A tall, slender, polite young man of about twenty-two who blushes easily, with a long, clean-shaven face, a dimpled chin, a long nose with a little bump, earnest dark eyes under thick eyebrows and short, tidy black curls. He wears a deep-teal wool blazer over a white shirt, charcoal trousers and tan suede boots.\n\nSetting:\n- the Great Hall: The Palace's great banqueting hall: tall white walls with gilded mouldings, crystal chandeliers, long tables with white tablecloths, white flowers, silver cutlery and gold chairs, tall double doors at one end, and a red rope along one wall where the press stands.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 74,
+      "anchor": "Journalisten nærmest bordet skrev ned ordet yrkesskade.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Journalisten nærmest bordet skrev ned ordet yrkesskade.",
+      "alt": "Ved bryllupsbordet forklarer de tre mostrene seg for prinsen: én peker på nesa, én klapper seg på hoftene, og én tørker brillene på duken. Bak tauet skriver en journalist i notatblokka si.",
+      "prompt": "At the wedding table in the Great Hall, the three aunts explain themselves to the Prince, who leans forward politely: the Long-Nosed Aunt taps her enormous nose, the Broad-Hipped Aunt pats her wide hips, and the Teary-Eyed Aunt has taken off her glasses and is wiping them on the white tablecloth. Behind the rope, the journalist nearest the table scribbles in a notebook. The Bride sits very still, looking down.",
+      "characters": [
+        "prinsen",
+        "moster-langnese",
+        "moster-bred",
+        "moster-roede-oyne",
+        "bruden"
+      ],
+      "places": [
+        "festsalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Long-Nosed Aunt, the same character seen from three sides. Keep the Long-Nosed Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Long-Nosed Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Broad-Hipped Aunt, the same character seen from three sides. Keep the Broad-Hipped Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Broad-Hipped Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Teary-Eyed Aunt, the same character seen from three sides. Keep the Teary-Eyed Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Teary-Eyed Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: model sheet for the Bride, the same character seen from three sides. Keep the Bride's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Bride only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 6: setting reference for the Great Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the wedding table in the Great Hall, the three aunts explain themselves to the Prince, who leans forward politely: the Long-Nosed Aunt taps her enormous nose, the Broad-Hipped Aunt pats her wide hips, and the Teary-Eyed Aunt has taken off her glasses and is wiping them on the white tablecloth. Behind the rope, the journalist nearest the table scribbles in a notebook. The Bride sits very still, looking down.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, slender, polite young man of about twenty-two who blushes easily, with a long, clean-shaven face, a dimpled chin, a long nose with a little bump, earnest dark eyes under thick eyebrows and short, tidy black curls. He wears a deep-teal wool blazer over a white shirt, charcoal trousers and tan suede boots.\n- the Long-Nosed Aunt: A small, hunched old woman of about eighty with a kindly, wrinkled face, sharp, merry little blue eyes, rosy cheeks and an enormous nose, thick as a cucumber at the root and so long that it looks like a carnival mask, ending in a round pink tip. Her white hair is in a small knot. She wears a long moss-green hooded cloak that looks sewn from old velvet curtains, leans on a crooked walking stick, and a black raven rides on her shoulder.\n- the Broad-Hipped Aunt: A short old woman of about eighty with narrow shoulders, a small round head and enormously broad hips and backside, so wide that she has to turn sideways to get through a double door. She has a square little face, a snub nose, bright squinting eyes, a gap-toothed grin and grey hair in a tight bun under a small round black felt hat. She wears a huge, bell-shaped skirt with wide red and ochre stripes, a white blouse and a short dark-brown cardigan.\n- the Teary-Eyed Aunt: A round-shouldered old woman of about eighty, of middle height, with a soft, wrinkled face and thick glasses with round red frames, behind which her eyes look as big as plates, red-rimmed and always running with tears. Her silver hair is braided and pinned in a ring on top of her head. She wears a dusty-rose dress with a white collar, a red tomato-shaped pincushion on her wrist and a silver thimble on one finger.\n- the Bride: A slim young bride of eighteen with an oval face dusted with freckles, a snub nose, big hazel eyes and a wide smile, her mousy-brown hair in one thick plait woven with small white flowers and a blue jay feather. She wears a simple, elegant ivory silk wedding dress with long lace sleeves and a small, delicate diamond tiara.\n\nSetting:\n- the Great Hall: The Palace's great banqueting hall: tall white walls with gilded mouldings, crystal chandeliers, long tables with white tablecloths, white flowers, silver cutlery and gold chairs, tall double doors at one end, and a red rope along one wall where the press stands.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "11",
+      "paragraph": 77,
+      "anchor": "Et sted langs veggen ble det tatt fire hundre bilder.",
+      "file": "scenes/11.webp",
+      "sources": [
+        {
+          "file": "scenes/11.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/11-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Så skal min kone aldri i sine dager måtte spinne eller veve eller sy.»",
+      "alt": "Prinsen står og holder bruden i hånda mens kameraene blitser. Dronningen legger stille strikketøyet ned i veska, og mosteren med de røde brillene løfter glasset mot bruden.",
+      "prompt": "In the Great Hall, the Prince has risen and holds the Bride's hand up beside him, facing the guests and the press along the wall, where a storm of camera flashes goes off. At the table the Queen looks down at the knitting in her lap and quietly slips it into her handbag. At the end of the table, the Teary-Eyed Aunt raises her glass towards the newlyweds, just a little.",
+      "characters": [
+        "prinsen",
+        "bruden",
+        "dronningen",
+        "moster-roede-oyne"
+      ],
+      "places": [
+        "festsalen"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Prince, the same character seen from three sides. Keep the Prince's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Prince only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Bride, the same character seen from three sides. Keep the Bride's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Bride only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Queen, the same character seen from three sides. Keep the Queen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Queen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: model sheet for the Teary-Eyed Aunt, the same character seen from three sides. Keep the Teary-Eyed Aunt's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Teary-Eyed Aunt only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 5: setting reference for the Great Hall. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the Great Hall, the Prince has risen and holds the Bride's hand up beside him, facing the guests and the press along the wall, where a storm of camera flashes goes off. At the table the Queen looks down at the knitting in her lap and quietly slips it into her handbag. At the end of the table, the Teary-Eyed Aunt raises her glass towards the newlyweds, just a little.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Prince: A tall, slender, polite young man of about twenty-two who blushes easily, with a long, clean-shaven face, a dimpled chin, a long nose with a little bump, earnest dark eyes under thick eyebrows and short, tidy black curls. He wears a deep-teal wool blazer over a white shirt, charcoal trousers and tan suede boots.\n- the Bride: A slim young bride of eighteen with an oval face dusted with freckles, a snub nose, big hazel eyes and a wide smile, her mousy-brown hair in one thick plait woven with small white flowers and a blue jay feather. She wears a simple, elegant ivory silk wedding dress with long lace sleeves and a small, delicate diamond tiara.\n- the Queen: A tall, willowy, kindly queen of about fifty-five with a long neck, a long oval face, crinkly grey eyes, a slightly long nose and dark hair streaked with silver in a low, coiled knot. She wears a sea-green wool dress with a cream lace collar, pearl earrings and a long rainbow-striped hand-knitted scarf, and she is always knitting: two long wooden needles, a half-finished striped scarf and a ball of pink yarn.\n- the Teary-Eyed Aunt: A round-shouldered old woman of about eighty, of middle height, with a soft, wrinkled face and thick glasses with round red frames, behind which her eyes look as big as plates, red-rimmed and always running with tears. Her silver hair is braided and pinned in a ring on top of her head. She wears a dusty-rose dress with a white collar, a red tomato-shaped pincushion on her wrist and a silver thimble on one finger.\n\nSetting:\n- the Great Hall: The Palace's great banqueting hall: tall white walls with gilded mouldings, crystal chandeliers, long tables with white tablecloths, white flowers, silver cutlery and gold chairs, tall double doors at one end, and a red rope along one wall where the press stands.\n\nStory world: Present-day Norway. The girl grew up in a small, bare log cabin deep in the forest with her father, a hunter, and a chest freezer full of moose. The Palace is big and pale, with a side wing of small staff rooms, cool corridors, a staff canteen and a Great Hall. The Queen grew flax in the Palace Park: pale-gold fibre in big sacks; spun, it becomes fine pale-gold yarn on spools; woven, fine cloth with a blue pattern; sewn, twelve white shirts. Her new spinning machine is a boxy gadget with knobs, spools and a little panel of lamps. The loom is a huge, dark wooden museum piece from the 1700s. The cook wears a white jacket, and the butler a black tailcoat.\n\nThis story's season, light and colours: Cool, clean palace whites and pale greys in spring, with soft lamp light in small side-wing rooms at night and bright morning sun on new cloth, then a summer wedding of white tablecloths and white flowers under chandeliers, lit by the harsh white pop of camera flashes. At the start, the dim brown interior of a forest cabin. Accents: flax gold, a woven blue pattern and the Queen's rainbow-striped knitting.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

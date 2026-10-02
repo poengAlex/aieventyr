@@ -1,0 +1,399 @@
+{
+  "storyId": "guttnord",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Om gutten som gikk til nordavinden og krevde melet tilbake",
+  "textFile": "public/content/stories/guttnord/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:10:45.774Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Derfra var det en halvtime å gå, i motvind.",
+    "alt": "Gutten går ut langs et værhardt nes i sterk motvind. Ytterst står et lavt, grått hus surret fast med stålvaiere, og på trappa står Nordavinden med jakka blafrende som et seil.",
+    "prompt": "A narrow road runs out along a bare, windswept headland to a low grey house lashed to the rock with steel cables, at the very edge of a white-capped grey sea. The Boy walks out along it, leaning hard into a northerly gale, his scarf and tufty hair blown straight back. On the steps of the house far ahead stands the North Wind, his huge hooded jacket flapping like a sail and fraying into cloud.",
+    "characters": [
+      "gutten",
+      "nordavinden"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the North Wind, the same character seen from three sides. Keep the North Wind's face, hair, body shape, age, colours and clothes exactly as shown. Draw the North Wind only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: A narrow road runs out along a bare, windswept headland to a low grey house lashed to the rock with steel cables, at the very edge of a white-capped grey sea. The Boy walks out along it, leaning hard into a northerly gale, his scarf and tufty hair blown straight back. On the steps of the house far ahead stands the North Wind, his huge hooded jacket flapping like a sail and fraying into cloud.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n- the North Wind: A very tall, gaunt old man, head and shoulders taller than anyone else, with a broad, weathered face, round puffed-out cheeks, icy-blue eyes, great bushy white eyebrows, a moustache like drifted snow and a long, frosty white beard that always streams sideways. He wears a huge storm-grey hooded anorak with the hood up, flapping like a sail, whose hem and sleeves fray into swirling grey cloud and snowflakes, so that nobody can tell where the jacket ends and the weather begins.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "gutten",
+      "name": "Gutten",
+      "description": "En sta og rettferdig tenåring som nekter å godta at de fattige skal miste det lille de har, og som tør å konfrontere både naturkrefter og mennesker som utnytter andre.",
+      "look": "A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.",
+      "sheet": "characters/gutten.webp",
+      "turn": "characters/gutten-turn.mp4",
+      "portrait": "portraits/gutten.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/gutten.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/gutten-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "gutten"
+    },
+    {
+      "slug": "moren",
+      "name": "Moren",
+      "description": "En utslitt, skrøpelig alenemor i en liten leilighet som bare ønsker ro og mat på bordet, og som blir guttens moralske anker.",
+      "look": "A thin, worn-out woman of about sixty, a little stooped from her aching hips, with a long, gentle, deeply lined face, tired grey eyes, a thin mouth and one eyebrow often raised in doubt. Her grey hair hangs in one thin braid over her shoulder. She wears a faded plum-coloured fleece top, a darned brown knitted cardigan, grey tracksuit trousers and felt slippers.",
+      "sheet": "characters/moren.webp",
+      "turn": "characters/moren-turn.mp4",
+      "portrait": "portraits/moren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/moren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/moren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "moren"
+    },
+    {
+      "slug": "nordavinden",
+      "name": "Nordavinden",
+      "description": "En barsk, nesten menneskelig vindskikkelse som virker like gammel som været selv—knapp i replikkene, men i stand til å gi gaver som kan endre liv.",
+      "look": "A very tall, gaunt old man, head and shoulders taller than anyone else, with a broad, weathered face, round puffed-out cheeks, icy-blue eyes, great bushy white eyebrows, a moustache like drifted snow and a long, frosty white beard that always streams sideways. He wears a huge storm-grey hooded anorak with the hood up, flapping like a sail, whose hem and sleeves fray into swirling grey cloud and snowflakes, so that nobody can tell where the jacket ends and the weather begins.",
+      "sheet": "characters/nordavinden.webp",
+      "turn": "characters/nordavinden-turn.mp4",
+      "portrait": "portraits/nordavinden.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/nordavinden.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/nordavinden-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "nordavinden"
+    },
+    {
+      "slug": "motellverten",
+      "name": "Motellverten",
+      "description": "En grådig og opportunistisk motelleier som ser magi som en forretningsmulighet, og som ikke nøler med å stjele for å få en evig fordel.",
+      "look": "A tall, gangly motel owner of about fifty with a long, narrow face, a much too wide, toothy smile, small, hard, glittering eyes, a long pointed chin, restless hands and oily black hair twisted into one big curl on his forehead. He wears a wine-red quilted vest over a white shirt with rolled-up sleeves, dark jeans, a black belt bag heavy with coins and keys, and scuffed brown loafers.",
+      "sheet": "characters/motellverten.webp",
+      "turn": "characters/motellverten-turn.mp4",
+      "portrait": "portraits/motellverten.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/motellverten.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/motellverten-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "motellverten"
+    },
+    {
+      "slug": "bukken",
+      "name": "Bukken",
+      "description": "En helt vanlig bukk å se på, som gjør gullmynter når gutten sier «Min bukk, gjør penger».",
+      "look": "A small, sturdy billy goat about the size of a large dog, with a shaggy snow-white coat, a light-grey face with a little pointed grey beard, bright amber eyes with slot-shaped pupils, short, curved, ridged horns, a stubby tail and neat black hooves. Around his neck he wears a red leather collar hung with two small brass bells, with a length of blue nylon rope tied to it.",
+      "sheet": "characters/bukken.webp",
+      "turn": "characters/bukken-turn.mp4",
+      "portrait": "portraits/bukken.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/bukken.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/bukken-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "bukken"
+    }
+  ],
+  "places": [
+    {
+      "slug": "leiligheten",
+      "name": "the Flat",
+      "look": "A small, tidy flat in a grey block of flats: one room with a kitchen corner, a small square kitchen table with two chairs, a worn brown armchair with a crocheted blanket by the window, a narrow hallway with coat hooks by the front door, a window onto the open-air gallery and a few potted plants on the sill. Poor and worn, but cared for."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 3,
+      "anchor": "Den kom rett nordfra, over parkeringsplassen.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Gutten ble stående med hånda ute i tom luft.",
+      "alt": "På svalgangen river vinden en pose havremel fra gutten. Melet står som en hvit sky ut over parkeringsplassen, og gutten står igjen med hånda ute i tom luft.",
+      "prompt": "On the open-air gallery of a grey block of flats, a gust from the north tears a plastic bag of oat flour from under the Boy's arm; the plastic splits and the flour streams out over the courtyard and the car park in a long white cloud. The Boy stands frozen with one hand held out in empty air, his tufty hair blown flat. On a neighbour's balcony, laundry flaps wildly on a drying rack. Grey, gusty light.",
+      "characters": [
+        "gutten"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On the open-air gallery of a grey block of flats, a gust from the north tears a plastic bag of oat flour from under the Boy's arm; the plastic splits and the flour streams out over the courtyard and the car park in a long white cloud. The Boy stands frozen with one hand held out in empty air, his tufty hair blown flat. On a neighbour's balcony, laundry flaps wildly on a drying rack. Grey, gusty light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 11,
+      "anchor": "Moren så på ham en stund. «Ta på deg lue», sa hun.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Ta på deg lue», sa hun.",
+      "alt": "Gutten står i gangen med jakka på, klar til å dra. Moren sitter i stolen sin med et teppe over knærne og peker på ei lue på knaggen.",
+      "prompt": "Early morning in the Flat. The Boy stands in the narrow hallway in his zipped-up jacket and scarf, backpack on, ready to go, with a set, determined face. In the room beyond, the Mother sits in her worn armchair with a blanket over her knees and looks at him for a long moment, then points at a grey knitted hat hanging on a hook by the door. Dark blue light at the window.",
+      "characters": [
+        "gutten",
+        "moren"
+      ],
+      "places": [
+        "leiligheten"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Mother, the same character seen from three sides. Keep the Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Flat. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Early morning in the Flat. The Boy stands in the narrow hallway in his zipped-up jacket and scarf, backpack on, ready to go, with a set, determined face. In the room beyond, the Mother sits in her worn armchair with a blanket over her knees and looks at him for a long moment, then points at a grey knitted hat hanging on a hook by the door. Dark blue light at the window.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n- the Mother: A thin, worn-out woman of about sixty, a little stooped from her aching hips, with a long, gentle, deeply lined face, tired grey eyes, a thin mouth and one eyebrow often raised in doubt. Her grey hair hangs in one thin braid over her shoulder. She wears a faded plum-coloured fleece top, a darned brown knitted cardigan, grey tracksuit trousers and felt slippers.\n\nSetting:\n- the Flat: A small, tidy flat in a grey block of flats: one room with a kitchen corner, a small square kitchen table with two chairs, a worn brown armchair with a crocheted blanket by the window, a narrow hallway with coat hooks by the front door, a window onto the open-air gallery and a few potted plants on the sill. Poor and worn, but cared for.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "03",
+      "paragraph": 19,
+      "anchor": "Gutten ventet. Nordavinden så ut over havet en stund.",
+      "file": "scenes/03.webp",
+      "sources": [
+        {
+          "file": "scenes/03.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/03-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Så gikk han inn og kom ut igjen med en hvit, sammenbrettet duk.",
+      "alt": "Ytterst på et nes står et lavt, grått hus surret fast til berget med stålvaiere. På trappa rekker Nordavinden fram en hvit, sammenbrettet duk til gutten.",
+      "prompt": "At the very tip of a bare headland above a white-capped grey sea stands a low grey house lashed to the rock with steel cables. On its steps the North Wind has just come back out, his huge hooded jacket flapping like a sail, and holds out a neatly folded white tablecloth. The Boy stands below the steps in the gale, leaning into the wind with his scarf streaming, and reaches up for it. Low, racing clouds.",
+      "characters": [
+        "nordavinden",
+        "gutten"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the North Wind, the same character seen from three sides. Keep the North Wind's face, hair, body shape, age, colours and clothes exactly as shown. Draw the North Wind only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the very tip of a bare headland above a white-capped grey sea stands a low grey house lashed to the rock with steel cables. On its steps the North Wind has just come back out, his huge hooded jacket flapping like a sail, and holds out a neatly folded white tablecloth. The Boy stands below the steps in the gale, leaning into the wind with his scarf streaming, and reaches up for it. Low, racing clouds.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the North Wind: A very tall, gaunt old man, head and shoulders taller than anyone else, with a broad, weathered face, round puffed-out cheeks, icy-blue eyes, great bushy white eyebrows, a moustache like drifted snow and a long, frosty white beard that always streams sideways. He wears a huge storm-grey hooded anorak with the hood up, flapping like a sail, whose hem and sleeves fray into swirling grey cloud and snowflakes, so that nobody can tell where the jacket ends and the weather begins.\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "04",
+      "paragraph": 30,
+      "anchor": "Vogntogsjåførene sluttet å tygge.",
+      "file": "scenes/04.webp",
+      "sources": [
+        {
+          "file": "scenes/04.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/04-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Det freste ennå i smøret rundt ørreten.",
+      "alt": "På motellkafeen sitter gutten ved et bord fullt av lammestek, ørret, nypoteter, rømmegrøt og multer med krem. Fire vogntogsjåfører slutter å tygge, og kona bak disken stirrer.",
+      "prompt": "Night in a roadside motel café. The Boy sits at a corner table spread with a white cloth that is suddenly covered with roast lamb, trout sizzling in brown butter, new potatoes with dill, a bowl of sour-cream porridge with cinnamon and cloudberries with whipped cream. At the next tables, four burly lorry drivers in hi-vis vests have stopped chewing and stare. Behind the counter, a small, skinny woman with a sharp nose and a mustard-yellow cardigan stares hardest of all.",
+      "characters": [
+        "gutten"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night in a roadside motel café. The Boy sits at a corner table spread with a white cloth that is suddenly covered with roast lamb, trout sizzling in brown butter, new potatoes with dill, a bowl of sour-cream porridge with cinnamon and cloudberries with whipped cream. At the next tables, four burly lorry drivers in hi-vis vests have stopped chewing and stare. Behind the counter, a small, skinny woman with a sharp nose and a mustard-yellow cardigan stares hardest of all.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "05",
+      "paragraph": 39,
+      "anchor": "Duken lå der. Den var en duk.",
+      "file": "scenes/05.webp",
+      "sources": [
+        {
+          "file": "scenes/05.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/05-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han sa det en gang til, høyere, med kostelige og alt.",
+      "alt": "Hjemme ligger den hvite duken tom på kjøkkenbordet. Gutten stirrer på den med hendene på duken, og moren står ved enden av bordet med det ene øyenbrynet hevet.",
+      "prompt": "In the Flat, a plain white cloth lies smoothed out over the kitchen table, completely empty. The Boy stands over it with both hands still flat on the cloth, staring, as the truth slowly dawns on him. The Mother, who has got up from her armchair with difficulty, stands at the end of the table leaning on it, one eyebrow raised. Cold grey daylight from the window onto the gallery.",
+      "characters": [
+        "gutten",
+        "moren"
+      ],
+      "places": [
+        "leiligheten"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Mother, the same character seen from three sides. Keep the Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Flat. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the Flat, a plain white cloth lies smoothed out over the kitchen table, completely empty. The Boy stands over it with both hands still flat on the cloth, staring, as the truth slowly dawns on him. The Mother, who has got up from her armchair with difficulty, stands at the end of the table leaning on it, one eyebrow raised. Cold grey daylight from the window onto the gallery.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n- the Mother: A thin, worn-out woman of about sixty, a little stooped from her aching hips, with a long, gentle, deeply lined face, tired grey eyes, a thin mouth and one eyebrow often raised in doubt. Her grey hair hangs in one thin braid over her shoulder. She wears a faded plum-coloured fleece top, a darned brown knitted cardigan, grey tracksuit trousers and felt slippers.\n\nSetting:\n- the Flat: A small, tidy flat in a grey block of flats: one room with a kitchen corner, a small square kitchen table with two chairs, a worn brown armchair with a crocheted blanket by the window, a narrow hallway with coat hooks by the front door, a window onto the open-air gallery and a few potted plants on the sill. Poor and worn, but cared for.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "06",
+      "paragraph": 47,
+      "anchor": "Bussjåføren så lenge på bukken.",
+      "file": "scenes/06.webp",
+      "sources": [
+        {
+          "file": "scenes/06.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/06-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Den går som hund», sa sjåføren til slutt.",
+      "alt": "Gutten står i døra til en buss med bukken i tau. Bussjåføren lener seg over rattet og ser lenge på bukken, og bukken ser tilbake.",
+      "prompt": "At the open front door of a small country bus on a windswept road, the Boy stands on the bottom step holding the Billy Goat on its blue rope. The bus driver, a heavy man in a navy uniform jumper, leans over his big steering wheel and looks long at the goat, and the goat looks straight back at him. Grey sleet blows past; the bare headland and the sea lie behind.",
+      "characters": [
+        "gutten",
+        "bukken"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Billy Goat, the same character seen from three sides. Keep the Billy Goat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Billy Goat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the open front door of a small country bus on a windswept road, the Boy stands on the bottom step holding the Billy Goat on its blue rope. The bus driver, a heavy man in a navy uniform jumper, leans over his big steering wheel and looks long at the goat, and the goat looks straight back at him. Grey sleet blows past; the bare headland and the sea lie behind.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n- the Billy Goat: A small, sturdy billy goat about the size of a large dog, with a shaggy snow-white coat, a light-grey face with a little pointed grey beard, bright amber eyes with slot-shaped pupils, short, curved, ridged horns, a stubby tail and neat black hooves. Around his neck he wears a red leather collar hung with two small brass bells, with a length of blue nylon rope tied to it.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "07",
+      "paragraph": 53,
+      "anchor": "I bakdøra sto motellverten og myste gjennom sigarettrøyken.",
+      "file": "scenes/07.webp",
+      "sources": [
+        {
+          "file": "scenes/07.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/07-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han hadde sett alt.",
+      "alt": "Bak motellet triller gullmynter ut på den våte asfalten rundt bukken, og noen blinker i en vannpytt. Gutten sitter på huk ved bukken, og i bakdøra står motellverten og myser.",
+      "prompt": "Night behind the roadside motel, among rubbish containers on wet asphalt lit red and blue by neon. Small, heavy gold coins are rolling out onto the tarmac around the Billy Goat's hooves, and a few lie glinting in a puddle. The Boy crouches beside the goat, whispering to it. In the open back door stands the Motel Owner, frozen, squinting, his mouth slowly spreading into a much too wide smile.",
+      "characters": [
+        "gutten",
+        "bukken",
+        "motellverten"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Billy Goat, the same character seen from three sides. Keep the Billy Goat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Billy Goat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Motel Owner, the same character seen from three sides. Keep the Motel Owner's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Motel Owner only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night behind the roadside motel, among rubbish containers on wet asphalt lit red and blue by neon. Small, heavy gold coins are rolling out onto the tarmac around the Billy Goat's hooves, and a few lie glinting in a puddle. The Boy crouches beside the goat, whispering to it. In the open back door stands the Motel Owner, frozen, squinting, his mouth slowly spreading into a much too wide smile.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n- the Billy Goat: A small, sturdy billy goat about the size of a large dog, with a shaggy snow-white coat, a light-grey face with a little pointed grey beard, bright amber eyes with slot-shaped pupils, short, curved, ridged horns, a stubby tail and neat black hooves. Around his neck he wears a red leather collar hung with two small brass bells, with a length of blue nylon rope tied to it.\n- the Motel Owner: A tall, gangly motel owner of about fifty with a long, narrow face, a much too wide, toothy smile, small, hard, glittering eyes, a long pointed chin, restless hands and oily black hair twisted into one big curl on his forehead. He wears a wine-red quilted vest over a white shirt with rolled-up sleeves, dark jeans, a black belt bag heavy with coins and keys, and scuffed brown loafers.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "08",
+      "paragraph": 63,
+      "anchor": "Nordavinden hørte på ham uten å si noe.",
+      "file": "scenes/08.webp",
+      "sources": [
+        {
+          "file": "scenes/08.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/08-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "I kroken sto en bøtte med paraplyer, og alle var vrengt.",
+      "alt": "I gangen hos Nordavinden står en bøtte full av vrengte paraplyer. Nordavinden trekker fram en gammel spaserstokk, og gutten venter i døra med armene i kors.",
+      "prompt": "In the narrow hallway of the North Wind's low grey house, the North Wind, his hooded jacket still stirring as if in a draught, bends over a bucket in the corner full of umbrellas that have all been blown inside out, and draws out an old wooden walking stick with a curved handle. The Boy waits in the open doorway with his arms folded, the grey sea and the sleet behind him.",
+      "characters": [
+        "nordavinden",
+        "gutten"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the North Wind, the same character seen from three sides. Keep the North Wind's face, hair, body shape, age, colours and clothes exactly as shown. Draw the North Wind only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In the narrow hallway of the North Wind's low grey house, the North Wind, his hooded jacket still stirring as if in a draught, bends over a bucket in the corner full of umbrellas that have all been blown inside out, and draws out an old wooden walking stick with a curved handle. The Boy waits in the open doorway with his arms folded, the grey sea and the sleet behind him.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the North Wind: A very tall, gaunt old man, head and shoulders taller than anyone else, with a broad, weathered face, round puffed-out cheeks, icy-blue eyes, great bushy white eyebrows, a moustache like drifted snow and a long, frosty white beard that always streams sideways. He wears a huge storm-grey hooded anorak with the hood up, flapping like a sail, whose hem and sleeves fray into swirling grey cloud and snowflakes, so that nobody can tell where the jacket ends and the weather begins.\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "09",
+      "paragraph": 70,
+      "anchor": "Etter en halvtime kom motellverten listende fra kontoret.",
+      "file": "scenes/09.webp",
+      "sources": [
+        {
+          "file": "scenes/09.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/09-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Han la seg på benken og begynte å snorke, jevnt og tålmodig.",
+      "alt": "Om natta ligger gutten og snorker på en benk i resepsjonen, med stokken lent mot veggen. Motellverten lister seg fram med en stokk som ligner, og strekker seg etter guttens stokk.",
+      "prompt": "Night in the dim motel reception, lit only by a glowing vending machine and a small green emergency light. The Boy lies on a bench under the window, snoring with his mouth open, the old walking stick leaning against the wall within reach. The Motel Owner tiptoes out of his office in his socks with a lookalike stick in one hand and bends over the bench, stretching out the other hand towards the real stick. Unseen by him, one of the Boy's eyes has opened.",
+      "characters": [
+        "gutten",
+        "motellverten"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Motel Owner, the same character seen from three sides. Keep the Motel Owner's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Motel Owner only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Night in the dim motel reception, lit only by a glowing vending machine and a small green emergency light. The Boy lies on a bench under the window, snoring with his mouth open, the old walking stick leaning against the wall within reach. The Motel Owner tiptoes out of his office in his socks with a lookalike stick in one hand and bends over the bench, stretching out the other hand towards the real stick. Unseen by him, one of the Boy's eyes has opened.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n- the Motel Owner: A tall, gangly motel owner of about fifty with a long, narrow face, a much too wide, toothy smile, small, hard, glittering eyes, a long pointed chin, restless hands and oily black hair twisted into one big curl on his forehead. He wears a wine-red quilted vest over a white shirt with rolled-up sleeves, dark jeans, a black belt bag heavy with coins and keys, and scuffed brown loafers.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "10",
+      "paragraph": 79,
+      "anchor": "Moren så det. Og da trodde hun det.",
+      "file": "scenes/10.webp",
+      "sources": [
+        {
+          "file": "scenes/10.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/10-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Det var ikke dårlig betalt for tre poser havremel.",
+      "alt": "Hjemme er duken på kjøkkenbordet full av lammestek, ørret, rømmegrøt og multer med krem. Moren holder seg for kinnene og tror det endelig, og gutten smiler. Fra gangen kikker bukken inn.",
+      "prompt": "Evening in the Flat, warm with lamplight. On the kitchen table the white cloth is suddenly laden with roast lamb, trout in brown butter, new potatoes, sour-cream porridge and cloudberries with cream. The Mother sits at the table with her hands pressed to her cheeks, her eyes wide, believing it at last. The Boy stands beside her, grinning, the old walking stick leaning by the door, and the Billy Goat peers in from the hallway.",
+      "characters": [
+        "gutten",
+        "moren",
+        "bukken"
+      ],
+      "places": [
+        "leiligheten"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Boy, the same character seen from three sides. Keep the Boy's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Boy only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Mother, the same character seen from three sides. Keep the Mother's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Mother only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: model sheet for the Billy Goat, the same character seen from three sides. Keep the Billy Goat's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Billy Goat only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 4: setting reference for the Flat. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Evening in the Flat, warm with lamplight. On the kitchen table the white cloth is suddenly laden with roast lamb, trout in brown butter, new potatoes, sour-cream porridge and cloudberries with cream. The Mother sits at the table with her hands pressed to her cheeks, her eyes wide, believing it at last. The Boy stands beside her, grinning, the old walking stick leaning by the door, and the Billy Goat peers in from the hallway.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Boy: A small, slight boy of about fourteen with a narrow, pale face, cheeks rosy from the cold, big ears that stick out, bright blue eyes, a determined frown and white-blond hair standing up in tufts. He wears a cheap navy windbreaker zipped to the chin over a grey knitted jumper several sizes too big, baggy charcoal tracksuit bottoms, muddy canvas sneakers, a long brown knitted scarf and a battered dark-green backpack.\n- the Mother: A thin, worn-out woman of about sixty, a little stooped from her aching hips, with a long, gentle, deeply lined face, tired grey eyes, a thin mouth and one eyebrow often raised in doubt. Her grey hair hangs in one thin braid over her shoulder. She wears a faded plum-coloured fleece top, a darned brown knitted cardigan, grey tracksuit trousers and felt slippers.\n- the Billy Goat: A small, sturdy billy goat about the size of a large dog, with a shaggy snow-white coat, a light-grey face with a little pointed grey beard, bright amber eyes with slot-shaped pupils, short, curved, ridged horns, a stubby tail and neat black hooves. Around his neck he wears a red leather collar hung with two small brass bells, with a length of blue nylon rope tied to it.\n\nSetting:\n- the Flat: A small, tidy flat in a grey block of flats: one room with a kitchen corner, a small square kitchen table with two chairs, a worn brown armchair with a crocheted blanket by the window, a narrow hallway with coat hooks by the front door, a window onto the open-air gallery and a few potted plants on the sill. Poor and worn, but cared for.\n\nStory world: Present-day Norway in raw late autumn. The boy and his mother live in a small flat in a grey block of flats with open-air galleries along each floor, a storage shed at the end of the gallery, and a courtyard and car park between the blocks. A long bus ride north ends at a lonely road junction with a roadside motel and café, its red and blue neon glowing in the wet dark, rubbish containers at the back and a small goat pen behind the car park. From the last bus stop a road runs half an hour out onto a bare headland above the sea, to the North Wind's low grey house, lashed to the rock with steel cables. The oat flour comes in plastic bags. The magic cloth is a plain square white tablecloth. The stick is an old wooden walking stick with a curved handle.\n\nThis story's season, light and colours: Raw November: wet asphalt, gusts of sleet, heavy slate-grey skies, a white-capped grey sea off the headland and early, blue-black darkness. Indoors, warm yellow lamplight; at the motel, red and blue neon reflected in puddles. Accents: flour white, neon red, petrol blue and mustard.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

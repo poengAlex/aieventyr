@@ -1,0 +1,127 @@
+{
+  "storyId": "bestedt",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Hver synes best om sine barn",
+  "textFile": "public/content/stories/bestedt/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:08:23.491Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Myrsnipemora er sikker på at ungene hennes er de vakreste på hele myra.",
+    "alt": "Ei lita myrsnipe står stolt på en lyngtue mellom myrull. Bak henne kommer en jeger i refleksjakke gående langs grusstien med hagla over skulderen.",
+    "prompt": "Early morning at the misty edge of the bog: the Dunlin, tiny and proud, stands on a tussock of heather among white cotton grass with her chest puffed out and her head held high. Behind her, along the gravel path from the car park, the Hunter walks in his orange hi-vis jacket with his shotgun over his shoulder, not yet noticing her. Fog drifts over the dark pools.",
+    "characters": [
+      "myrsnipa",
+      "jegeren"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Dunlin, the same character seen from three sides. Keep the Dunlin's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dunlin only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hunter, the same character seen from three sides. Keep the Hunter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hunter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: Early morning at the misty edge of the bog: the Dunlin, tiny and proud, stands on a tussock of heather among white cotton grass with her chest puffed out and her head held high. Behind her, along the gravel path from the car park, the Hunter walks in his orange hi-vis jacket with his shotgun over his shoulder, not yet noticing her. Fog drifts over the dark pools.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Dunlin: A small, round-bodied dunlin in summer plumage, about the size of a starling, with a rusty-chestnut back speckled with black, a pale head and breast finely streaked with grey, a big black patch on her white belly, a long, slightly down-curved black beak, thin black legs and bright black eyes. When she spreads her wings, a white stripe shows along each one. A brave, proud little mother.\n- the Hunter: A tall, lean, weather-tanned hunter of about thirty with a long, friendly face, a slightly crooked nose, crinkly grey-blue eyes, a clean-shaven chin and long, straight jet-black hair tied back in a ponytail. He wears a wide-brimmed dark-green hat with a small brown feather, a bright orange hi-vis jacket with reflective stripes over a grey wool jumper, dark-green outdoor trousers and green rubber boots with red wool socks folded over the tops, and carries a rucksack with a steel thermos in the side pocket and a shotgun over his shoulder.\n\nStory world: Present-day Norway, where the birds can talk. A wide, open bog lies at the edge of a pine forest, with a gravel path and a stretch of wooden boardwalk leading out from a small gravel car park where one dark-green estate car is parked. The bog has tufts of white cotton grass, soft moss, heather, cloudberry plants and small dark pools, with low forested hills around it. The dunlin is a real, natural bird, no bigger than a starling.\n\nThis story's season, light and colours: A misty late-summer day on the bog: grey dawn fog over dark pools that clears to a hazy, warm afternoon, with white cotton grass, heather just coming into purple bloom and rusty-red bog moss. The hunter's orange hi-vis jacket is the brightest colour in the landscape.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "jegeren",
+      "name": "Jegeren",
+      "description": "En moderne jeger på tur i skogen, praktisk antrukket og sikker på egen vurdering, helt til han konfronteres med sin egen logikk.",
+      "look": "A tall, lean, weather-tanned hunter of about thirty with a long, friendly face, a slightly crooked nose, crinkly grey-blue eyes, a clean-shaven chin and long, straight jet-black hair tied back in a ponytail. He wears a wide-brimmed dark-green hat with a small brown feather, a bright orange hi-vis jacket with reflective stripes over a grey wool jumper, dark-green outdoor trousers and green rubber boots with red wool socks folded over the tops, and carries a rucksack with a steel thermos in the side pocket and a shotgun over his shoulder.",
+      "sheet": "characters/jegeren.webp",
+      "turn": "characters/jegeren-turn.mp4",
+      "portrait": "portraits/jegeren.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/jegeren.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/jegeren-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "jegeren"
+    },
+    {
+      "slug": "myrsnipa",
+      "name": "Myrsnipe-mora",
+      "description": "En liten, modig mor som forsvarer ungene sine og leverer historien sin moral med rolig selvfølgelighet.",
+      "look": "A small, round-bodied dunlin in summer plumage, about the size of a starling, with a rusty-chestnut back speckled with black, a pale head and breast finely streaked with grey, a big black patch on her white belly, a long, slightly down-curved black beak, thin black legs and bright black eyes. When she spreads her wings, a white stripe shows along each one. A brave, proud little mother.",
+      "sheet": "characters/myrsnipa.webp",
+      "turn": "characters/myrsnipa-turn.mp4",
+      "portrait": "portraits/myrsnipa.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/myrsnipa.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/myrsnipa-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "myrsnipe-mora"
+    }
+  ],
+  "places": [],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "Jegeren så seg rundt etter et kamera.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Jegeren så seg rundt etter et kamera. Det var ingen der.",
+      "alt": "Ei lita myrsnipe har landet foran støvlene til en jeger i refleksjakke og brer ut vingene. Jegeren ser seg mistenksomt rundt. Tåka ligger over myra.",
+      "prompt": "At the foggy edge of the bog just after dawn, the Dunlin has landed on the heather right in front of the Hunter's green rubber boots, her wings spread wide like a stop sign, waiting for an answer. The Hunter, his shotgun still over his shoulder, glances suspiciously left and right, looking for a hidden camera. There is no one else, only grey fog over the dark pools and the cotton grass.",
+      "characters": [
+        "myrsnipa",
+        "jegeren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Dunlin, the same character seen from three sides. Keep the Dunlin's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dunlin only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hunter, the same character seen from three sides. Keep the Hunter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hunter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: At the foggy edge of the bog just after dawn, the Dunlin has landed on the heather right in front of the Hunter's green rubber boots, her wings spread wide like a stop sign, waiting for an answer. The Hunter, his shotgun still over his shoulder, glances suspiciously left and right, looking for a hidden camera. There is no one else, only grey fog over the dark pools and the cotton grass.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Dunlin: A small, round-bodied dunlin in summer plumage, about the size of a starling, with a rusty-chestnut back speckled with black, a pale head and breast finely streaked with grey, a big black patch on her white belly, a long, slightly down-curved black beak, thin black legs and bright black eyes. When she spreads her wings, a white stripe shows along each one. A brave, proud little mother.\n- the Hunter: A tall, lean, weather-tanned hunter of about thirty with a long, friendly face, a slightly crooked nose, crinkly grey-blue eyes, a clean-shaven chin and long, straight jet-black hair tied back in a ponytail. He wears a wide-brimmed dark-green hat with a small brown feather, a bright orange hi-vis jacket with reflective stripes over a grey wool jumper, dark-green outdoor trousers and green rubber boots with red wool socks folded over the tops, and carries a rucksack with a steel thermos in the side pocket and a shotgun over his shoulder.\n\nStory world: Present-day Norway, where the birds can talk. A wide, open bog lies at the edge of a pine forest, with a gravel path and a stretch of wooden boardwalk leading out from a small gravel car park where one dark-green estate car is parked. The bog has tufts of white cotton grass, soft moss, heather, cloudberry plants and small dark pools, with low forested hills around it. The dunlin is a real, natural bird, no bigger than a starling.\n\nThis story's season, light and colours: A misty late-summer day on the bog: grey dawn fog over dark pools that clears to a hazy, warm afternoon, with white cotton grass, heather just coming into purple bloom and rusty-red bog moss. The hunter's orange hi-vis jacket is the brightest colour in the landscape.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 12,
+      "anchor": "«Å ja», sa hun.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Vet du ikke at hver synes best om sine barn?»",
+      "alt": "Sett nede fra grusen står myrsnipa rank foran jegerens gummistøvler og svarer rolig. Jegeren synes bare fra knærne og ned, og bak ham står en bil på parkeringsplassen.",
+      "prompt": "Seen from low down at bird height on the gravel path near the car park on a hazy afternoon: the small Dunlin stands very straight on the gravel, her head lifted high, answering calmly. In front of her, filling one side of the picture, stand the Hunter's green rubber boots with red socks and his dark-green trousers, seen only from the knees down. A dark-green estate car is parked in the background, and cotton grass nods at the edge of the path.",
+      "characters": [
+        "myrsnipa",
+        "jegeren"
+      ],
+      "places": [],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Dunlin, the same character seen from three sides. Keep the Dunlin's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Dunlin only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hunter, the same character seen from three sides. Keep the Hunter's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hunter only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: Seen from low down at bird height on the gravel path near the car park on a hazy afternoon: the small Dunlin stands very straight on the gravel, her head lifted high, answering calmly. In front of her, filling one side of the picture, stand the Hunter's green rubber boots with red socks and his dark-green trousers, seen only from the knees down. A dark-green estate car is parked in the background, and cotton grass nods at the edge of the path.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Dunlin: A small, round-bodied dunlin in summer plumage, about the size of a starling, with a rusty-chestnut back speckled with black, a pale head and breast finely streaked with grey, a big black patch on her white belly, a long, slightly down-curved black beak, thin black legs and bright black eyes. When she spreads her wings, a white stripe shows along each one. A brave, proud little mother.\n- the Hunter: A tall, lean, weather-tanned hunter of about thirty with a long, friendly face, a slightly crooked nose, crinkly grey-blue eyes, a clean-shaven chin and long, straight jet-black hair tied back in a ponytail. He wears a wide-brimmed dark-green hat with a small brown feather, a bright orange hi-vis jacket with reflective stripes over a grey wool jumper, dark-green outdoor trousers and green rubber boots with red wool socks folded over the tops, and carries a rucksack with a steel thermos in the side pocket and a shotgun over his shoulder.\n\nStory world: Present-day Norway, where the birds can talk. A wide, open bog lies at the edge of a pine forest, with a gravel path and a stretch of wooden boardwalk leading out from a small gravel car park where one dark-green estate car is parked. The bog has tufts of white cotton grass, soft moss, heather, cloudberry plants and small dark pools, with low forested hills around it. The dunlin is a real, natural bird, no bigger than a starling.\n\nThis story's season, light and colours: A misty late-summer day on the bog: grey dawn fog over dark pools that clears to a hazy, warm afternoon, with white cotton grass, heather just coming into purple bloom and rusty-red bog moss. The hunter's orange hi-vis jacket is the brightest colour in the landscape.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}

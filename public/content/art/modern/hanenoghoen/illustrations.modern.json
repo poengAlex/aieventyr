@@ -1,0 +1,137 @@
+{
+  "storyId": "hanenoghoen",
+  "set": "modern",
+  "variant": "modern",
+  "title": "Hanen og høna",
+  "textFile": "public/content/stories/hanenoghoen/modern/story.txt",
+  "placement": "Each illustration belongs directly after the paragraph with index \"paragraph\" (0-based, paragraphs split on blank lines).",
+  "model": "gpt-image-2.5-flare",
+  "quality": "high",
+  "updatedAt": "2026-10-02T10:11:01.861Z",
+  "cover": {
+    "file": "cover.webp",
+    "sources": [
+      {
+        "file": "cover.webp",
+        "width": 1024
+      },
+      {
+        "file": "cover-512.webp",
+        "width": 512
+      }
+    ],
+    "caption": "Hanen hadde lovet sko i fire år.",
+    "alt": "Høna marsjerer ut gjennom porten med eggekurven på vingen, mot butikkvinduene nede i gata. I døra til hønsehuset står hanen og ser overrasket etter henne.",
+    "prompt": "Late afternoon on the last smallholding before the town: the Hen marches out through the open coral-red garden gate onto the pavement, head high, her basket of six eggs hooked over one wing, heading for the warmly lit shop windows down the street. Behind her, in the doorway of the Red Coop, the Rooster watches her go with his beak open, a little surprised.",
+    "characters": [
+      "hona",
+      "hanen"
+    ],
+    "fullPrompt": "Reference images:\n- Image 1: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Red Coop. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate the cover illustration for an illustrated book of modern fairy tales, in a square format. Do not write a title or any other text on it.\n\nPicture: Late afternoon on the last smallholding before the town: the Hen marches out through the open coral-red garden gate onto the pavement, head high, her basket of six eggs hooked over one wing, heading for the warmly lit shop windows down the street. Behind her, in the doorway of the Red Coop, the Rooster watches her go with his beak open, a little surprised.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Hen: A plump, round, hard-working hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare yellow feet are big, with long, spread-out toes. She carries a small round wicker basket of eggs, lined with straw, hooked over one wing.\n- the Rooster: A tall, handsome rooster speckled all over in rust red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He has a relaxed, evasive air and likes to shrug with his wings.\n\nSetting:\n- the Red Coop: A little red-painted wooden chicken coop on the last smallholding before a small town: a low doorway with a grey concrete step and a concrete apron in front, straw on the floor inside, a wooden nest box along one wall and a wire-mesh run beside it. A white picket fence with a coral-red garden gate opens onto a street, and beyond it rise the rooftops and shop fronts of a small town.\n\nStory world: Present-day Norway, on the last smallholding before a small town begins. The hen and the rooster live in a little red-painted wooden chicken coop with a cold concrete floor and doorstep, straw bedding, a wooden nest box along one wall and a wire-mesh run beside it. A coral-red garden gate in the white picket fence opens onto a street with a pavement and lamp posts, and a little way down it the town's main street begins, with shop fronts, parked bicycles and a bus stop. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding six brown eggs. The birds wear no clothes, and the hen's feet are bare.\n\nThis story's season, light and colours: A cold, bright April afternoon: pale sun and long shadows, grey concrete, the last grubby snow in the corners and bare trees with the first green buds, while down the street the shop windows glow warm. Accents: the hen's chestnut brown, the rooster's rust red and gold, and the coral-red gate.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+  },
+  "characters": [
+    {
+      "slug": "hona",
+      "name": "Høna",
+      "description": "Pliktoppfyllende og utslitt av å levere hver dag uten å få noe tilbake, men klar for å ta kontroll over sitt eget liv.",
+      "look": "A plump, round, hard-working hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare yellow feet are big, with long, spread-out toes. She carries a small round wicker basket of eggs, lined with straw, hooked over one wing.",
+      "sheet": "characters/hona.webp",
+      "turn": "characters/hona-turn.mp4",
+      "portrait": "portraits/hona.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/hona.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/hona-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "hona"
+    },
+    {
+      "slug": "hanen",
+      "name": "Hanen",
+      "description": "Avslappet og unnvikende, vant til å love uten å levere, men til slutt brutalt direkte om at hun bør ordne opp selv.",
+      "look": "A tall, handsome rooster speckled all over in rust red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He has a relaxed, evasive air and likes to shrug with his wings.",
+      "sheet": "characters/hanen.webp",
+      "turn": "characters/hanen-turn.mp4",
+      "portrait": "portraits/hanen.webp",
+      "portraitSources": [
+        {
+          "file": "portraits/hanen.webp",
+          "width": 768
+        },
+        {
+          "file": "portraits/hanen-384.webp",
+          "width": 384
+        }
+      ],
+      "replacesPortrait": "hanen"
+    }
+  ],
+  "places": [
+    {
+      "slug": "honsehuset",
+      "name": "the Red Coop",
+      "look": "A little red-painted wooden chicken coop on the last smallholding before a small town: a low doorway with a grey concrete step and a concrete apron in front, straw on the floor inside, a wooden nest box along one wall and a wire-mesh run beside it. A white picket fence with a coral-red garden gate opens onto a street, and beyond it rise the rooftops and shop fronts of a small town."
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "01",
+      "paragraph": 2,
+      "anchor": "«Du skal nok få sko», sa hanen.",
+      "file": "scenes/01.webp",
+      "sources": [
+        {
+          "file": "scenes/01.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/01-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "Det hadde han sagt i fire år.",
+      "alt": "Høna sitter tungt på betongtrappa foran hønsehuset med de bare føttene på den kalde betongen. Inne pirker hanen i halmen og ser ikke opp.",
+      "prompt": "On the cold concrete doorstep of the Red Coop, the Hen sits heavily with her bare yellow feet on the grey concrete, her feathers drooping, complaining. Just inside, the Rooster pokes about in the straw with his beak and does not look up, as if he has heard it all many times before. Pale, cold April light and the last grubby snow in a corner of the yard.",
+      "characters": [
+        "hona",
+        "hanen"
+      ],
+      "places": [
+        "honsehuset"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Red Coop. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: On the cold concrete doorstep of the Red Coop, the Hen sits heavily with her bare yellow feet on the grey concrete, her feathers drooping, complaining. Just inside, the Rooster pokes about in the straw with his beak and does not look up, as if he has heard it all many times before. Pale, cold April light and the last grubby snow in a corner of the yard.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Hen: A plump, round, hard-working hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare yellow feet are big, with long, spread-out toes. She carries a small round wicker basket of eggs, lined with straw, hooked over one wing.\n- the Rooster: A tall, handsome rooster speckled all over in rust red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He has a relaxed, evasive air and likes to shrug with his wings.\n\nSetting:\n- the Red Coop: A little red-painted wooden chicken coop on the last smallholding before a small town: a low doorway with a grey concrete step and a concrete apron in front, straw on the floor inside, a wooden nest box along one wall and a wire-mesh run beside it. A white picket fence with a coral-red garden gate opens onto a street, and beyond it rise the rooftops and shop fronts of a small town.\n\nStory world: Present-day Norway, on the last smallholding before a small town begins. The hen and the rooster live in a little red-painted wooden chicken coop with a cold concrete floor and doorstep, straw bedding, a wooden nest box along one wall and a wire-mesh run beside it. A coral-red garden gate in the white picket fence opens onto a street with a pavement and lamp posts, and a little way down it the town's main street begins, with shop fronts, parked bicycles and a bus stop. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding six brown eggs. The birds wear no clothes, and the hen's feet are bare.\n\nThis story's season, light and colours: A cold, bright April afternoon: pale sun and long shadows, grey concrete, the last grubby snow in the corners and bare trees with the first green buds, while down the street the shop windows glow warm. Accents: the hen's chestnut brown, the rooster's rust red and gold, and the coral-red gate.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    },
+    {
+      "id": "02",
+      "paragraph": 8,
+      "anchor": "Porten ut mot gata sto åpen, og skobutikken i Storgata hadde åpent til seks.",
+      "file": "scenes/02.webp",
+      "sources": [
+        {
+          "file": "scenes/02.webp",
+          "width": 1536
+        },
+        {
+          "file": "scenes/02-768.webp",
+          "width": 768
+        }
+      ],
+      "caption": "«Du har jo egen inntekt», sa han.",
+      "alt": "Hanen trekker på vingene foran hønsehuset. Høna klemmer eggekurven inntil seg og gaper. Bak dem står porten åpen ut mot gata og butikkene.",
+      "prompt": "In front of the Red Coop, the Rooster has finally turned round and gives a big, careless shrug of his wings. The Hen stands before him clutching her basket of six eggs to her chest, her beak open in disbelief. Behind them, the coral-red garden gate stands open onto the street, and a little way down it the shop windows of the town glow in the cold afternoon light.",
+      "characters": [
+        "hanen",
+        "hona"
+      ],
+      "places": [
+        "honsehuset"
+      ],
+      "fullPrompt": "Reference images:\n- Image 1: model sheet for the Rooster, the same character seen from three sides. Keep the Rooster's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Rooster only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 2: model sheet for the Hen, the same character seen from three sides. Keep the Hen's face, hair, body shape, age, colours and clothes exactly as shown. Draw the Hen only once, in the pose this picture needs, and ignore the sheet's layout and plain background.\n- Image 3: setting reference for the Red Coop. Keep its landforms, buildings, colours and key details, and choose the viewpoint and framing this picture needs.\n\nCreate one new illustration for an illustrated book of modern fairy tales, showing the moment described below.\n\nPicture: In front of the Red Coop, the Rooster has finally turned round and gives a big, careless shrug of his wings. The Hen stands before him clutching her basket of six eggs to her chest, her beak open in disbelief. Behind them, the coral-red garden gate stands open onto the street, and a little way down it the shop windows of the town glow in the cold afternoon light.\n\nCharacters in this picture (nobody else, unless the picture description mentions them):\n- the Rooster: A tall, handsome rooster speckled all over in rust red and bright gold like autumn leaves, with a shining golden cape of neck feathers, a fluffy golden beard puffing out under his beak, a small red comb, hazel eyes, a yellow beak, sturdy yellow legs and a sweeping tail of long, dark bronze feathers. He has a relaxed, evasive air and likes to shrug with his wings.\n- the Hen: A plump, round, hard-working hen with soft chestnut-brown feathers, a darker brown neck laced with fine golden edges, a tiny wavy red comb, round amber eyes, a short pale-yellow beak and a short, upturned tail. Her bare yellow feet are big, with long, spread-out toes. She carries a small round wicker basket of eggs, lined with straw, hooked over one wing.\n\nSetting:\n- the Red Coop: A little red-painted wooden chicken coop on the last smallholding before a small town: a low doorway with a grey concrete step and a concrete apron in front, straw on the floor inside, a wooden nest box along one wall and a wire-mesh run beside it. A white picket fence with a coral-red garden gate opens onto a street, and beyond it rise the rooftops and shop fronts of a small town.\n\nStory world: Present-day Norway, on the last smallholding before a small town begins. The hen and the rooster live in a little red-painted wooden chicken coop with a cold concrete floor and doorstep, straw bedding, a wooden nest box along one wall and a wire-mesh run beside it. A coral-red garden gate in the white picket fence opens onto a street with a pavement and lamp posts, and a little way down it the town's main street begins, with shop fronts, parked bicycles and a bus stop. The hen's egg basket is a small, round wicker basket with a handle, lined with straw and holding six brown eggs. The birds wear no clothes, and the hen's feet are bare.\n\nThis story's season, light and colours: A cold, bright April afternoon: pale sun and long shadows, grey concrete, the last grubby snow in the corners and bare trees with the first green buds, while down the street the shop windows glow warm. Accents: the hen's chestnut brown, the rooster's rust red and gold, and the coral-red gate.\n\nArt style: Contemporary Scandinavian editorial illustration: flat, graphic shapes with subtle risograph grain and a little hand-drawn texture, clean confident lines and a limited palette of spot inks led by deep petrol blue, with fjord teal, lingonberry red, honey mustard, sage green, warm paper off-white and ink charcoal, like the pages of a risograph-printed book, shifted towards each story's own season, light and colours, in the cool, clear Nordic light of today. Present-day Norway: fjord towns, suburbs, farms with tractors, cabins, ferries, roadside petrol stations, offices and flats, grey rain and bright snow, with people in modern clothes such as rain jackets, knitted sweaters, hoodies, suits and work wear. The magic of the tale appears plainly in this everyday world: trolls, talking animals and enchantments look real and slightly absurd, drawn in the same flat style. Every character has their own face, build, age, hair and clothes exactly as described, so no two characters look alike. Dry humour, careful composition with one focal point and plenty of negative space. The picture fills the whole image, with no border, frame or lettering. Not photorealistic, not 3D, not anime, no glossy digital look.\n\nRules:\n- No text of any kind: no letters, words, numbers, signatures, captions, speech bubbles, logos, signs or readable screens. Phones and screens show only light or simple shapes.\n- Every named character must match their model sheet and description exactly: the same face, hair, colours, clothes and proportions.\n- Suitable for readers of all ages: no blood, wounds or gore, and no killing shown. Show danger and cruelty through atmosphere, posture and suspense, never through injury.\n- Draw each named character only once.\n- Show exactly the number of people, animals and things the description asks for, and no extra people.\n- One clear moment that reads at a glance, as a single full-bleed picture with no border, frame or comic panels."
+    }
+  ]
+}
