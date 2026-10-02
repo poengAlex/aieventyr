@@ -1,10 +1,4 @@
-export type VariantType =
-  | 'raw'
-  | 'cleaned'
-  | 'simplified'
-  | 'english'
-  | 'child-friendly'
-  | 'modern'
+export type VariantType = 'raw' | 'cleaned' | 'simplified' | 'english' | 'child-friendly' | 'modern'
 
 export interface StoryListItem {
   id: string
@@ -90,12 +84,21 @@ export interface StorySection {
   imagePath: string
 }
 
+// A word a reader of the edition may not know (glossary.json next to story.txt): the
+// headword, every spelling of it the text uses, and a short explanation.
+export interface GlossaryEntry {
+  term: string
+  forms: string[]
+  note: string
+}
+
 export interface VariantBundle {
   story: StoryMeta
   variant: VariantMeta
   text: string
   characters: VariantCharacter[]
   sections: StorySection[]
+  glossary: GlossaryEntry[]
 }
 
 // Illustrations made by pipeline/commands/generate-art.mjs into public/content/art/<set>/.

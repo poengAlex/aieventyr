@@ -1,5 +1,6 @@
 import type {
   ContentManifest,
+  GlossaryEntry,
   StorySection,
   StoryMeta,
   VariantBundle,
@@ -28,6 +29,18 @@ async function fetchJson<T>(url: string): Promise<T> {
     throw new Error(`Failed to load ${url}`)
   }
   return response.json() as Promise<T>
+}
+
+// The word list of an edition; editions without one have none.
+async function fetchGlossary(url: string): Promise<GlossaryEntry[]> {
+  try {
+    const response = await fetch(url)
+    if (!response.ok) return []
+    const entries: unknown = await response.json()
+    return Array.isArray(entries) ? (entries as GlossaryEntry[]) : []
+  } catch {
+    return []
+  }
 }
 
 async function fetchText(url: string): Promise<string> {
@@ -87,9 +100,10 @@ export async function loadVariantBundle(storyId: string, variant: VariantType) {
         )
         const basePath = getVariantBasePath(storyId, resolvedVariant)
         const variantMeta = await fetchJson<VariantMeta>(`${basePath}/variant.json`)
-        const [text, characters] = await Promise.all([
+        const [text, characters, glossary] = await Promise.all([
           fetchText(`${basePath}/${variantMeta.paths.text}`),
           fetchJson<VariantCharacter[]>(`${basePath}/${variantMeta.paths.characters}`),
+          fetchGlossary(`${basePath}/glossary.json`),
         ])
         const sections = variantMeta.paths.sections
           ? await fetchJson<StorySection[]>(`${basePath}/${variantMeta.paths.sections}`)
@@ -107,6 +121,7 @@ export async function loadVariantBundle(storyId: string, variant: VariantType) {
           text,
           characters,
           sections,
+          glossary,
         } satisfies VariantBundle
       })(),
     )

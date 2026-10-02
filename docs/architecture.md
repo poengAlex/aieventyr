@@ -29,7 +29,7 @@ The site is set like a printed storybook. The library is a title page and a tabl
 - `src/pages/IndexPage.vue`
   The library: a title page with the edition switch, and a table of contents with each tale's number, title and reading time. On wide screens the left page shows the cover of the tale under the pointer, or of the tale left halfway, with a link to continue where the reader stopped; on phones that plate sits between the title page and the contents.
 - `src/pages/StoryPage.vue`
-  The reader. A slim bar with the way back to the contents, the title once it has scrolled away, the `Aa` settings and a reading-progress line. The tale opens like a chapter: number, title, reading time, edition switch and the picture-book link; then the text, opening with a large initial and small capitals; and at the end the cast, the next tale and the original title. The browser tab shows the tale's title. It remembers how far the reader has come, marks the story read at the end, and "continue where you left off" reopens a tale in the edition it was read in.
+  The reader. A slim bar with the way back to the contents, the title once it has scrolled away, the `Aa` settings and a reading-progress line. The tale opens like a chapter: number, title, reading time, edition switch and the picture-book link; then the text, opening with a large initial and small capitals; and at the end the cast, the edition's word list (`Ordforklaringer`), the next tale and the original title. The browser tab shows the tale's title. It remembers how far the reader has come, marks the story read at the end, and "continue where you left off" reopens a tale in the edition it was read in.
 - `src/pages/AboutPage.vue`
   A few lines on where the tales come from and what the four editions are.
 - `src/pages/ErrorNotFound.vue`
@@ -42,7 +42,7 @@ The site is set like a printed storybook. The library is a title page and a tabl
 - `src/components/EditionSwitch.vue` – the four editions as small-capital links.
 - `src/components/ReadingSettings.vue` – the `Aa` menu: text size, day or night, edition.
 - `src/components/IllustratedStory.vue`
-  Text with the pictures of an illustration set. From 1024px it is an open book: the picture for the passage being read stays on the left page and changes when the reader reaches its paragraph. Below that the pictures sit between the paragraphs. Paragraphs are indented as in a book, and the first opens with a large initial and small capitals (`openingPieces` in `src/logic/art.ts`). Character names open the character's portrait.
+  Text with the pictures of an illustration set. From 1024px it is an open book: the picture for the passage being read stays on the left page and changes when the reader reaches its paragraph. Below that the pictures sit between the paragraphs. Paragraphs are indented as in a book, and the first opens with a large initial and small capitals (`openingPieces` in `src/logic/art.ts`). Character names open the character's portrait. The first appearance of each word in the edition's `glossary.json` carries a small raised ° and opens its explanation (`markTerms` in `src/logic/art.ts`).
 - `src/components/ArtFigure.vue`
   One picture as a plate, with its caption and a small button that shows the prompt that made it.
 - `src/components/CharacterDialog.vue`
@@ -73,7 +73,7 @@ The site is set like a printed storybook. The library is a title page and a tabl
   - loads `manifest.json`
   - loads `story.json`
   - resolves the best available variant for the current user preference
-  - loads `variant.json`, `story.txt`, `characters.json`, and `sections.json`
+  - loads `variant.json`, `story.txt`, `characters.json`, `sections.json` and, when there is one, `glossary.json`
   - caches manifest, story, and variant requests
 
 This module is the key boundary between app code and generated output. If the content tree changes, this is the first place that should be updated.
@@ -99,7 +99,7 @@ The router uses real addresses (`history` mode in `quasar.config.ts`), always wi
 1. Load the manifest
 2. Load `/content/stories/<storyId>/story.json`
 3. Resolve the best available variant for the user's selection
-4. Load the variant bundle (`variant.json`, `story.txt`, `characters.json`, `sections.json`) and the variant's illustration set, if the story has one
+4. Load the variant bundle (`variant.json`, `story.txt`, `characters.json`, `sections.json`, `glossary.json`) and the variant's illustration set, if the story has one
 5. Render the head, then the text with the new pictures, or with the older section pictures until the new ones exist
 6. Offer the picture book when the story has new pictures
 7. On scroll, update the progress line, save the reading position, and mark the story read at the end

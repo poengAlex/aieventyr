@@ -26,13 +26,13 @@
         <div
           ref="textElement"
           class="story-text"
-          :lang="art.variant === 'english' ? 'en' : 'nb'"
+          :lang="textLang"
           :style="{ fontSize: `${fontSize}px` }"
         >
           <template v-for="(paragraph, index) in paragraphs" :key="index">
             <!-- One line, so no whitespace gets into the text around the name buttons. -->
             <!-- prettier-ignore -->
-            <p :ref="(el) => setParagraph(el, index)" class="story-paragraph"><template v-for="(piece, p) in pieces[index]" :key="p"><span v-if="piece.versal" class="versal">{{ piece.text }}</span><button v-else-if="piece.character" type="button" class="character-link" :class="{ 'lead-in': piece.lead }" @click="emit('open-character', piece.character)">{{ piece.text }}</button><span v-else-if="piece.lead" class="lead-in">{{ piece.text }}</span><template v-else>{{ piece.text }}</template></template></p>
+            <p :ref="(el) => setParagraph(el, index)" class="story-paragraph"><template v-for="(piece, p) in pieces[index]" :key="p"><span v-if="piece.versal" class="versal">{{ piece.text }}</span><button v-else-if="piece.character" type="button" class="character-link" :class="{ 'lead-in': piece.lead }" @click="emit('open-character', piece.character)">{{ piece.text }}</button><button v-else-if="piece.term !== undefined" type="button" class="term-link" :class="{ 'lead-in': piece.lead }" aria-haspopup="dialog">{{ piece.text }}<span class="term-mark" aria-hidden="true">°</span><q-menu anchor="bottom middle" self="top middle" :offset="[0, 8]" :class="['word-note-menu', editionClass]"><div class="word-note" :lang="textLang" :style="{ fontSize: `${Math.round(fontSize * 0.86)}px` }"><div class="caps word-note-term">{{ entry(piece.term)?.term }}</div><p>{{ entry(piece.term)?.note }}</p></div></q-menu></button><span v-else-if="piece.lead" class="lead-in">{{ piece.text }}</span><template v-else>{{ piece.text }}</template></template></p>
             <template v-if="compact">
               <art-figure
                 v-for="picture in placed.get(index) ?? []"
@@ -59,21 +59,28 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useQuasar } from 'quasar'
 import ArtFigure from 'src/components/ArtFigure.vue'
 import {
+  artSetFor,
   artSrcset,
   artUrl,
+  glossaryPattern,
   linkCharacters,
+  markTerms,
   openingPieces,
   placePictures,
   splitParagraphs,
 } from 'src/logic/art'
 import type { TextPiece } from 'src/logic/art'
-import type { ArtManifest, ArtPicture } from 'src/types/content'
+import type { ArtManifest, ArtPicture, GlossaryEntry } from 'src/types/content'
 
-const props = defineProps<{
-  text: string
-  art: ArtManifest
-  fontSize: number
-}>()
+const props = withDefaults(
+  defineProps<{
+    text: string
+    art: ArtManifest
+    fontSize: number
+    glossary?: GlossaryEntry[]
+  }>(),
+  { glossary: () => [] },
+)
 
 const emit = defineEmits<{
   'open-character': [slug: string]
@@ -88,12 +95,24 @@ const compact = computed(() => $q.screen.lt.md)
 
 const paragraphs = computed(() => splitParagraphs(props.text))
 const placed = computed(() => placePictures(paragraphs.value, props.art.illustrations))
-const pieces = computed<TextPiece[][]>(() =>
-  paragraphs.value.map((paragraph, index) => {
-    const segments = linkCharacters(paragraph, props.art.characters)
+const termPattern = computed(() => glossaryPattern(props.glossary))
+// Character names open their portraits; the words in the edition's glossary are marked
+// with a small ° where they first appear, and open their explanation.
+const pieces = computed<TextPiece[][]>(() => {
+  const marked = new Set<number>()
+  return paragraphs.value.map((paragraph, index) => {
+    const segments = markTerms(
+      linkCharacters(paragraph, props.art.characters),
+      termPattern.value,
+      marked,
+    )
     return index === 0 ? openingPieces(segments) : segments
-  }),
-)
+  })
+})
+const entry = (index: number) => props.glossary[index]
+const textLang = computed(() => (props.art.variant === 'english' ? 'en' : 'nb'))
+// The notes open outside the page, so they take the edition's colour with them.
+const editionClass = computed(() => `edition-${artSetFor(props.art.variant) ?? 'classic'}`)
 const sequence = computed(() =>
   [...placed.value.entries()]
     .sort((a, b) => a[0] - b[0])
@@ -248,7 +267,8 @@ watch(paragraphs, () => {
   letter-spacing: 0.06em;
 }
 
-.character-link {
+.character-link,
+.term-link {
   display: inline;
   margin: 0;
   padding: 0;
@@ -261,6 +281,9 @@ watch(paragraphs, () => {
   text-indent: 0;
   color: inherit;
   cursor: pointer;
+}
+
+.character-link {
   text-decoration: underline dotted var(--rule);
   text-decoration-thickness: 1.5px;
   text-underline-offset: 0.22em;
@@ -270,6 +293,21 @@ watch(paragraphs, () => {
 .character-link:focus-visible {
   color: var(--accent);
   text-decoration-color: currentColor;
+}
+
+// A glossed word carries a small raised ring, as in an annotated school edition.
+.term-mark {
+  margin-left: 0.05em;
+  font-size: 0.7em;
+  line-height: 0;
+  vertical-align: 0.55em;
+  color: var(--accent);
+}
+
+.term-link:hover,
+.term-link:focus-visible,
+.term-link[aria-expanded='true'] {
+  color: var(--accent);
 }
 
 .inline-plate {
@@ -288,5 +326,35 @@ watch(paragraphs, () => {
 .plate-fade-enter-from,
 .plate-fade-leave-to {
   opacity: 0;
+}
+</style>
+
+<style lang="scss">
+// The explanation of a glossed word. The menu is teleported to the body, so it is styled
+// without scoping, like the reading settings.
+.word-note-menu {
+  max-width: min(340px, calc(100vw - 32px)) !important;
+  border-radius: 2px !important;
+  background-color: var(--paper) !important;
+  background-image: var(--grain) !important;
+  box-shadow:
+    0 0 0 1px var(--rule),
+    0 14px 40px rgba(40, 28, 10, 0.18) !important;
+}
+
+.word-note {
+  padding: 14px 18px 16px;
+  font-family: var(--serif);
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.word-note-term {
+  margin-bottom: 4px;
+  color: var(--accent);
+}
+
+.word-note p {
+  margin: 0;
 }
 </style>

@@ -177,12 +177,16 @@ npm run art:paragraphs -- --story=askesv
 
 `art:generate` illustrates a whole set of texts from hand-written plans in `pipeline/art/<set>/`. It keeps characters, places and style consistent with model sheets and reference images, It saves full-quality masters in `pipeline/art-raw/<set>/` and resized WebP copies for the site in `public/content/art/<set>/`. The sets are `child-friendly`, `classic` (the simplified and English texts share its pictures) and `modern`; pick one with `--set`. It is made to run unattended overnight; see `pipeline/art/README.md`.
 
-### Link previews
+### Word lists and link previews
 
 ```bash
+npm run content:glossary
+npm run content:glossary -- --story=askesv
 npm run content:share-cards
 npm run content:icons
 ```
+
+Every reading edition has a `glossary.json` next to its `story.txt`: the words a reader of that edition may not know, each with a short explanation. The reader marks a word with a small ° where it first appears and shows its explanation on tap; all of them are listed at the end of the tale. The lists are written by hand; `content:glossary` checks that every spelling is in the text as a whole word and isn't a character's name.
 
 `content:share-cards` draws the 1200×630 pictures that link previews show, one per tale and one for the book, into `public/content/share/`. Run it again when new covers land. `npm run build` then gives every tale its own page, `dist/spa/story/<id>/index.html`, with the tale's title, blurb and card in its tags (`scripts/build-share-pages.mjs`), plus a `404.html` that loads the app for any other address. The tags point to `https://www.aieventyr.no`; set `SITE_URL` to build for another address.
 
@@ -205,4 +209,5 @@ Useful checks before committing:
 npm run lint
 npm run build
 npm run pipeline:validate
+npm run content:glossary
 ```

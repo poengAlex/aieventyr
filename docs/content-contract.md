@@ -27,6 +27,10 @@ public/content/
         characters.json
         characters/
           <characterSlug>.webp
+        glossary.json
+  share/
+    <storyId>.jpg
+    eventyr.jpg
 ```
 
 ## Top-level manifest
@@ -109,6 +113,16 @@ An array of variant-specific characters:
 - `description`
 - `visualPrompt`
 - `imagePath`
+
+### `glossary.json`
+
+The words a reader of this edition may not know, in the order they first appear. Optional; an edition without one has no word list. An array of:
+
+- `term`: the headword shown with the explanation (`trau`)
+- `forms`: every spelling of it that the text uses (`["trauet", "trauene"]`); the reader matches whole words, in any case
+- `note`: a short explanation in the edition's language, written for its readers
+
+The reader marks the first appearance of each word and lists them all at the end of the tale. `npm run content:glossary` checks the lists.
 
 ### `sections.json`
 

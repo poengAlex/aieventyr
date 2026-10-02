@@ -17,6 +17,7 @@
       :text="bundle.text"
       :art="readerArt"
       :font-size="settings.fontSize"
+      :glossary="bundle.glossary"
       @open-character="openCharacter"
       @open-image="openImage"
     >
@@ -69,6 +70,16 @@
                 <span>{{ character.name }}</span>
               </button>
             </div>
+          </section>
+
+          <section v-if="bundle.glossary.length" class="glossary" :lang="textLang">
+            <h2 class="caps">{{ t.glossary }}</h2>
+            <dl>
+              <div v-for="entry in bundle.glossary" :key="entry.term" class="gloss">
+                <dt>{{ entry.term }}</dt>
+                <dd>{{ entry.note }}</dd>
+              </div>
+            </dl>
           </section>
 
           <nav v-if="nextStory" class="next">
@@ -174,6 +185,7 @@ const minutes = computed(() =>
   readingMinutes(listItem.value?.words?.[variant.value], variant.value),
 )
 const editionClass = computed(() => `edition-${artSetFor(variant.value) ?? 'classic'}`)
+const textLang = computed(() => (variant.value === 'english' ? 'en' : 'nb'))
 
 // The browser tab shows the tale (the router resets the title on every page change).
 watch([title, () => route.fullPath], ([value]) => {
@@ -512,6 +524,43 @@ watch(
 .cast-member:hover span,
 .cast-member:focus-visible span {
   color: var(--accent);
+}
+
+.glossary h2 {
+  margin-bottom: 18px;
+  text-align: center;
+  color: var(--ink-muted);
+}
+
+.glossary dl {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+// Word and explanation run on, as in the word list at the back of a school edition.
+.gloss {
+  margin-bottom: 0.5em;
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+}
+
+.gloss dt,
+.gloss dd {
+  display: inline;
+  margin: 0;
+}
+
+.gloss dt {
+  font-style: italic;
+  color: var(--ink);
+}
+
+.gloss dt::after {
+  content: ' – ';
+  font-style: normal;
+  color: var(--ink-muted);
 }
 
 .next-label {

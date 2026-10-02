@@ -3,6 +3,7 @@ import type {
   ArtManifest,
   ArtPicture,
   ArtSource,
+  GlossaryEntry,
   VariantBundle,
   VariantType,
 } from 'src/types/content'
@@ -224,6 +225,8 @@ export function bookPages(text: string, art: ArtManifest): BookPage[] {
 export interface TextSegment {
   text: string
   character?: string
+  // The index of the word's entry in the edition's glossary.
+  term?: number
 }
 
 // A piece of the opening paragraph: the large initial, the first words in small capitals,
@@ -324,4 +327,47 @@ export function linkCharacters(paragraph: string, characters: { slug: string; na
   }
   if (last < paragraph.length) segments.push({ text: paragraph.slice(last) })
   return segments
+}
+
+// A pattern that finds any spelling of the glossary's words, as whole words in any case. The
+// same rules as pipeline/commands/check-glossary.mjs.
+export function glossaryPattern(glossary: GlossaryEntry[]) {
+  const forms = glossary
+    .flatMap((entry, index) => entry.forms.map((form) => ({ form: form.trim(), index })))
+    .filter(({ form }) => form)
+    .sort((a, b) => b.form.length - a.form.length)
+  if (!forms.length) return null
+  const key = (value: string) => value.toLowerCase().replace(/’/g, "'").replace(/\s+/g, ' ')
+  const lookup = new Map(forms.map(({ form, index }) => [key(form), index]))
+  const alternatives = forms.map(({ form }) => namePattern(form).replace(/\s+/g, '\\s+'))
+  return {
+    regex: new RegExp(`(?<![\\p{L}\\p{N}])(${alternatives.join('|')})(?![\\p{L}\\p{N}])`, 'giu'),
+    entryOf: (match: string) => lookup.get(key(match)),
+  }
+}
+
+// Marks the first time each glossary word appears in the tale. `marked` carries the words
+// already marked from one paragraph to the next. Character names keep their link.
+export function markTerms(
+  segments: TextSegment[],
+  pattern: ReturnType<typeof glossaryPattern>,
+  marked: Set<number>,
+) {
+  if (!pattern) return segments
+  return segments.flatMap((segment) => {
+    if (segment.character) return [segment]
+    const pieces: TextSegment[] = []
+    let last = 0
+    for (const match of segment.text.matchAll(pattern.regex)) {
+      const entry = pattern.entryOf(match[0])
+      if (entry === undefined || marked.has(entry)) continue
+      marked.add(entry)
+      if (match.index > last) pieces.push({ text: segment.text.slice(last, match.index) })
+      pieces.push({ text: match[0], term: entry })
+      last = match.index + match[0].length
+    }
+    if (!pieces.length) return [segment]
+    if (last < segment.text.length) pieces.push({ text: segment.text.slice(last) })
+    return pieces
+  })
 }
