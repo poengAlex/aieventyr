@@ -3,6 +3,10 @@ import type { VariantType } from 'src/types/content'
 
 export type VariantTypes = VariantType
 
+// The face the site is set in: IM Fell, the storybook face, cut in the 1680s; EB Garamond,
+// the classic book face; or the device's own plain sans serif, the easiest to read.
+export type Typeface = 'fairytale' | 'classic' | 'plain'
+
 const READ_KEY_SEPARATOR = '::'
 
 function getReadKey(storyId: string, variant: VariantType) {
@@ -30,6 +34,7 @@ export const useSettingsStore = defineStore('settings', {
     variant: 'simplified' as VariantTypes,
     fontSize: 21,
     night: false,
+    typeface: 'fairytale' as Typeface,
     readStoryIds: [] as string[],
     lastRead: null as ReadingPosition | null,
     // Reading aloud: the speed, whether the next tale follows by itself, and where the

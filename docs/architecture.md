@@ -17,12 +17,12 @@ The site is set like a printed storybook. The library is a title page and a tabl
 
 - `src/css/app.scss`
   The tokens (cream paper, black ink, rules, and one printing colour per edition: `.edition-child-friendly`, `.edition-classic`, `.edition-modern`), a faint paper grain, night mode (`body--dark`, the same book by lamplight), and the shared pieces: letter-spaced capitals (`.caps`, `.caps-link`), Roman numerals (`.numeral`), pictures framed as plates (`.plate`), the printer's ornament (`.ornament`) and the two-page spread (`.spread`, `.left-page`, `.right-page`). The illustration styles in `pipeline/art/*/style.json` describe printed-book plates on the same cream paper, each edition leaning on its printing colour.
-- `src/App.vue` loads EB Garamond from `@fontsource-variable/eb-garamond`, so the font is served with the site. It is the only typeface.
+- `src/App.vue` loads IM Fell DW Pica (`@fontsource/im-fell-dw-pica`) and EB Garamond (`@fontsource-variable/eb-garamond`), so the fonts are served with the site. IM Fell, a 17th-century face that looks like an old printed storybook, is the default; readers can switch to EB Garamond or their device's sans serif in the reading settings (`typeface` in the settings store, applied as `body.classic-type` / `body.plain-type`, which point `--serif` at `--face-classic` / `--face-plain`). The logo and share cards are always drawn in EB Garamond.
 
 ### App shell
 
 - `src/layouts/MainLayout.vue`
-  A bare layout. It switches night mode on and off and keeps the browser's theme colour in step. Pages draw their own bars.
+  A bare layout. It switches night mode on and off, keeps the browser's theme colour in step, and applies the chosen typeface. Pages draw their own bars.
 
 ### Pages
 
@@ -40,7 +40,7 @@ The site is set like a printed storybook. The library is a title page and a tabl
 - `src/components/ContentsEntry.vue` – one line of a table of contents: number, title, dotted leader and minutes.
 - `src/components/CoverPlate.vue` – a tale's cover framed as a plate, with its number and title.
 - `src/components/EditionSwitch.vue` – the four editions as small-capital links.
-- `src/components/ReadingSettings.vue` – the `Aa` menu: text size, day or night, edition.
+- `src/components/ReadingSettings.vue` – the `Aa` menu: text size, day or night, typeface, edition.
 - `src/components/IllustratedStory.vue`
   Text with the pictures of an illustration set. From 1024px it is an open book: the picture for the passage being read stays on the left page and changes when the reader reaches its paragraph. Below that the pictures sit between the paragraphs. Paragraphs are indented as in a book, and the first opens with a large initial and small capitals (`openingPieces` in `src/logic/art.ts`). Character names open the character's portrait. The first appearance of each word in the edition's `glossary.json` carries a small raised ° and opens its explanation (`markTerms` in `src/logic/art.ts`).
 - `src/components/ArtFigure.vue`
@@ -68,6 +68,7 @@ The site is set like a printed storybook. The library is a title page and a tabl
   - the chosen edition (`variant`)
   - text size
   - night mode
+  - the typeface (`typeface`: `fairytale`, `classic` or `plain`)
   - which stories have been read, per edition
   - where the reader last stopped (`lastRead`), for "continue where you left off"
   - the narration speed, whether the next tale follows by itself, and where the listener stopped (`lastListened`)

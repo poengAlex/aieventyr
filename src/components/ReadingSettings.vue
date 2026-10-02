@@ -45,6 +45,22 @@
             {{ t.night }}
           </button>
         </div>
+        <div class="setting">
+          <div class="caps label">{{ t.typeface }}</div>
+          <div class="theme-row typeface-row">
+            <button
+              v-for="face in typefaces"
+              :key="face"
+              type="button"
+              class="caps-link"
+              :class="[`${face}-sample`, { active: settings.typeface === face }]"
+              :aria-pressed="settings.typeface === face"
+              @click="settings.typeface = face"
+            >
+              {{ typefaceNames[face] }}
+            </button>
+          </div>
+        </div>
         <div v-if="available" class="setting">
           <div class="caps label">{{ t.edition }}</div>
           <edition-switch v-model="settings.variant" :available="available" stacked />
@@ -56,14 +72,23 @@
 
 <script setup lang="ts">
 import EditionSwitch from 'src/components/EditionSwitch.vue'
+import { computed } from 'vue'
 import { useText } from 'src/logic/i18n'
-import { useSettingsStore } from 'src/stores/settings'
+import { useSettingsStore, type Typeface } from 'src/stores/settings'
 import type { VariantType } from 'src/types/content'
 
 defineProps<{ available?: VariantType[] | undefined }>()
 
 const settings = useSettingsStore()
 const { t } = useText()
+
+// From the most storybook-like to the easiest to read.
+const typefaces: Typeface[] = ['fairytale', 'classic', 'plain']
+const typefaceNames = computed<Record<Typeface, string>>(() => ({
+  fairytale: t.value.fairytaleType,
+  classic: t.value.classicType,
+  plain: t.value.plainType,
+}))
 </script>
 
 <style lang="scss" scoped>
@@ -146,6 +171,26 @@ const { t } = useText()
 
 .theme-row .caps-link {
   border-bottom: 1px solid transparent;
+}
+
+// Three choices spread across the panel, and wrap on the narrowest phones.
+.typeface-row {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+}
+
+// Each typeface choice is shown in its own face.
+.theme-row .fairytale-sample {
+  font-family: var(--face-fairytale);
+}
+
+.theme-row .classic-sample {
+  font-family: var(--face-classic);
+}
+
+.theme-row .plain-sample {
+  font-family: var(--face-plain);
 }
 
 .theme-row .caps-link.active {

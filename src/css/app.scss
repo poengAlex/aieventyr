@@ -14,7 +14,10 @@
   --frame: var(--ink);
   --fold: rgba(70, 45, 10, 0.3);
   --bar-height: 52px;
-  --serif: 'EB Garamond Variable', Garamond, 'Times New Roman', serif;
+  --face-fairytale: 'IM Fell DW Pica', 'EB Garamond Variable', Garamond, serif;
+  --face-classic: 'EB Garamond Variable', Garamond, 'Times New Roman', serif;
+  --face-plain: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --serif: var(--face-fairytale);
   --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .45 0 0 0 0 .38 0 0 0 0 .28 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   --q-primary: #a3301d;
   color-scheme: light;
@@ -59,6 +62,16 @@ body.body--dark .edition-classic {
 
 body.body--dark .edition-modern {
   --accent: #86bccb;
+}
+
+// The site is set in the storybook face. Readers who find it hard to read can switch to the
+// classic book face, or to their device's own sans serif.
+body.classic-type {
+  --serif: var(--face-classic);
+}
+
+body.plain-type {
+  --serif: var(--face-plain);
 }
 
 html {

@@ -27,4 +27,13 @@ watch(
   },
   { immediate: true },
 )
+
+watch(
+  () => settings.typeface,
+  (typeface) => {
+    document.body.classList.toggle('classic-type', typeface === 'classic')
+    document.body.classList.toggle('plain-type', typeface === 'plain')
+  },
+  { immediate: true },
+)
 </script>
