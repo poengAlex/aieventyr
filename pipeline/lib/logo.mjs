@@ -1,7 +1,7 @@
-// The site's mark and wordmark, drawn as outlines from the EB Garamond files in
-// pipeline/assets/fonts so they look the same wherever they are drawn: the favicons
-// (build-icons.mjs), the link preview cards (build-share-cards.mjs) and, copied by hand,
-// src/components/SiteLogo.vue.
+// The site's mark and wordmark, drawn as outlines from IM Fell DW Pica, the site's
+// storybook face, in pipeline/assets/fonts, so they look the same wherever they are drawn:
+// the favicons (build-icons.mjs), the link preview cards (build-share-cards.mjs) and,
+// copied by hand, src/components/SiteLogo.vue.
 //
 // The mark is a printer's initial: a capital E, for eventyr, cut out in paper from a block
 // of the classic edition's red. Large marks get a thin paper rule inside the edge with a
@@ -25,14 +25,14 @@ async function loadFont(file) {
   )
 }
 
-const regular = await loadFont('EBGaramond[wght].ttf')
+const regular = await loadFont('IMFellDWPica-Regular.ttf')
 
 // The E in a 100 × 100 box, centred on its outline. `size` is its font size in the box.
 function letterPath(size) {
   const bounds = regular.getPath('E', 0, 0, size).getBoundingBox()
   const x = 50 - (bounds.x1 + bounds.x2) / 2
   const y = 50 - (bounds.y1 + bounds.y2) / 2
-  return regular.getPath('E', x, y, size).toPathData(2)
+  return regular.getPath('E', x, y, size).toPathData(1)
 }
 
 // Below this many pixels the rule and its corners blur together, so the small mark is used.
@@ -40,9 +40,9 @@ export const FRAMED_FROM = 64
 
 export const MARK = {
   // The rule's centre line is `inset` in from the edge; `corner` is a diamond's half-width.
-  framed: { letter: letterPath(70), rule: { inset: 9.2, width: 2.4, corner: 5 }, bolden: 0.6 },
+  framed: { letter: letterPath(64), rule: { inset: 9.2, width: 2.4, corner: 5 }, bolden: 0.6 },
   // No rule, a larger letter, thickened with a stroke of its own colour.
-  small: { letter: letterPath(88), rule: null, bolden: 3.2 },
+  small: { letter: letterPath(85), rule: null, bolden: 2 },
 }
 
 // The mark as SVG elements in a 100 × 100 box, to place with a transform.

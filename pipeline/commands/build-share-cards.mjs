@@ -9,8 +9,8 @@
 // children's or modern set, else the older main.webp, so run this again when new covers
 // land. `npm run build` points each tale's page at its card (scripts/build-share-pages.mjs).
 //
-// The text is drawn as outlines from the EB Garamond files in pipeline/assets/fonts, so the
-// cards look the same on every machine, whatever fonts it has.
+// The text is drawn as outlines from IM Fell DW Pica, the site's storybook face, in
+// pipeline/assets/fonts, so the cards look the same on every machine, whatever fonts it has.
 import fs from 'fs/promises'
 import path from 'path'
 import opentype from 'opentype.js'
@@ -32,8 +32,8 @@ const COLORS = {
 const COVER_SETS = ['classic', 'child-friendly', 'modern']
 
 const outDir = rootPath('public/content/share')
-const regular = await loadFont('EBGaramond[wght].ttf')
-const italic = await loadFont('EBGaramond-Italic[wght].ttf')
+const regular = await loadFont('IMFellDWPica-Regular.ttf')
+const italic = await loadFont('IMFellDWPica-Italic.ttf')
 
 async function loadFont(file) {
   const buffer = await fs.readFile(rootPath('pipeline/assets/fonts', file))
