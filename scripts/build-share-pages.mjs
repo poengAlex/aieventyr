@@ -4,6 +4,7 @@
 //
 //   dist/spa/story/<id>/index.html   a tale, at /story/<id>/
 //   dist/spa/about/index.html        the about page, at /about/
+//   dist/spa/images/index.html       every picture, at /images/
 //   dist/spa/404.html                the app, for any other address (App Platform serves
 //                                    404.html for paths it has no file for)
 //
@@ -114,6 +115,16 @@ await write(
     image: bookCard,
   }),
 )
+await write(
+  'images/index.html',
+  page(template, {
+    title: `Bildene · ${SITE_NAME}`,
+    heading: 'Bildene',
+    description: 'Alle bildene i eventyrene: omslag, scener, portretter og modellark.',
+    url: `${site}/images/`,
+    image: bookCard,
+  }),
+)
 
 let cards = 0
 for (const story of manifest.stories) {
@@ -133,5 +144,5 @@ for (const story of manifest.stories) {
 }
 
 console.log(
-  `Share pages: ${manifest.stories.length} tales (${cards} with their own card), about, 404 → ${site}`,
+  `Share pages: ${manifest.stories.length} tales (${cards} with their own card), about, images, 404 → ${site}`,
 )

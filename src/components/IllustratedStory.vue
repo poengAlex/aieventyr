@@ -1,5 +1,5 @@
 <template>
-  <section class="illustrated-story" :class="compact ? 'compact' : 'spread'">
+  <section ref="root" class="illustrated-story" :class="compact ? 'compact' : 'spread'">
     <aside v-if="!compact" class="left-page">
       <div class="sticky-plate">
         <transition name="plate-fade" mode="out-in">
@@ -9,7 +9,7 @@
             :picture="current"
             :src="url(current.file!)"
             :srcset="artSrcset(art.set, art.storyId, current.sources)"
-            sizes="50vw"
+            :sizes="pictureSizes"
             :ratio="current.id === 'cover' ? 1 : sceneRatio"
             fill
             class="left-figure"
@@ -40,7 +40,7 @@
                 :picture="picture"
                 :src="url(picture.file!)"
                 :srcset="artSrcset(art.set, art.storyId, picture.sources)"
-                sizes="(max-width: 700px) 92vw, 640px"
+                :sizes="pictureSizes"
                 :ratio="sceneRatio"
                 class="inline-plate"
                 @open="emit('open-image', url(picture.file!), picture.alt)"
@@ -70,6 +70,7 @@ import {
   splitParagraphs,
 } from 'src/logic/art'
 import type { TextPiece } from 'src/logic/art'
+import { preloadPictures } from 'src/logic/preload'
 import type { ArtManifest, ArtPicture, GlossaryEntry } from 'src/types/content'
 
 const props = withDefaults(
@@ -145,8 +146,32 @@ function url(file: string) {
   return artUrl(props.art.set, props.art.storyId, file)
 }
 
+// How wide a picture is on the page, for the browser to pick a file by.
+const pictureSizes = computed(() => (compact.value ? '(max-width: 700px) 92vw, 640px' : '50vw'))
+
+const root = ref<HTMLElement | null>(null)
 const textElement = ref<HTMLElement | null>(null)
 defineExpose({ textElement })
+
+// Once the pictures in view have loaded, the rest of the tale's pictures are fetched, those
+// ahead of the reader first, so they are there when the reader scrolls to them.
+function picturesToPreload() {
+  const items = [...sequence.value]
+  if (!compact.value && cover.value) items.unshift({ index: -1, picture: cover.value })
+  const ahead = items.filter((item) => item.index >= readingParagraph.value)
+  const behind = items.filter((item) => item.index < readingParagraph.value).reverse()
+  return [...ahead, ...behind].map(({ picture }) => ({
+    src: url(picture.file!),
+    srcset: artSrcset(props.art.set, props.art.storyId, picture.sources),
+    sizes: pictureSizes.value,
+  }))
+}
+
+let stopPreload = () => {}
+function startPreload() {
+  stopPreload()
+  if (root.value) stopPreload = preloadPictures(root.value, picturesToPreload)
+}
 
 const paragraphElements: HTMLElement[] = []
 function setParagraph(element: unknown, index: number) {
@@ -265,6 +290,7 @@ onMounted(() => {
   window.addEventListener('scroll', onScroll, { passive: true })
   window.addEventListener('resize', onScroll)
   void nextTick(measure)
+  startPreload()
 })
 
 onBeforeUnmount(() => {
@@ -274,7 +300,11 @@ onBeforeUnmount(() => {
   window.removeEventListener('scroll', onScroll)
   window.removeEventListener('resize', onScroll)
   if (frame) cancelAnimationFrame(frame)
+  stopPreload()
 })
+
+// Another edition's pictures, or the other layout's sizes.
+watch([() => props.art, compact], startPreload, { flush: 'post' })
 
 watch(paragraphs, () => {
   paragraphElements.length = 0

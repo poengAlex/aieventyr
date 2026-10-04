@@ -39,17 +39,22 @@ body.body--dark {
   color-scheme: dark;
 }
 
-// Each edition is printed with its own colour, the one its pictures lean on.
+// Each edition is printed with its own colour, the one its pictures lean on. Its model
+// sheets are painted on their own paper (--sheet-paper, behind the cast line-up), which
+// stays light at night like every plate.
 .edition-child-friendly {
   --accent: #b5412b;
+  --sheet-paper: #f8ead0;
 }
 
 .edition-classic {
   --accent: #a3301d;
+  --sheet-paper: #f2e5cb;
 }
 
 .edition-modern {
   --accent: #1f5b6d;
+  --sheet-paper: #f4e9da;
 }
 
 body.body--dark .edition-child-friendly {
@@ -74,8 +79,10 @@ body.plain-type {
   --serif: var(--face-plain);
 }
 
+// The page stops at its ends like paper, without the rubber-band bounce.
 html {
   -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
 }
 
 // Quasar paints its own dark page colour on body--dark; the paper wins here.

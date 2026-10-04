@@ -61,6 +61,7 @@
       <footer class="colophon">
         <div class="ornament" aria-hidden="true"><i /></div>
         <p>Made by Alexander Bjørkmann</p>
+        <p><router-link to="/images/">All the pictures</router-link></p>
         <p>
           <a href="https://github.com/poengAlex/aieventyr" target="_blank" rel="noopener"
             >Source code on GitHub</a
@@ -128,6 +129,7 @@
       <footer class="colophon">
         <div class="ornament" aria-hidden="true"><i /></div>
         <p>Laget av Alexander Bjørkmann</p>
+        <p><router-link to="/images/">Alle bildene</router-link></p>
         <p>
           <a href="https://github.com/poengAlex/aieventyr" target="_blank" rel="noopener"
             >Kildekoden på GitHub</a

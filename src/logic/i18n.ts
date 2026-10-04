@@ -72,6 +72,26 @@ const no = {
   playNow: 'Spill nå',
   cancel: 'Avbryt',
   audioFailed: 'kunne ikke spille av',
+  // The pictures page
+  pictures: 'Bildene',
+  pictureCount: (count: number) =>
+    count === 1 ? '1 bilde' : `${count.toLocaleString('nb-NO')} bilder`,
+  all: 'Alle',
+  everything: 'Alt',
+  kindOfPicture: 'Slags bilde',
+  kinds: {
+    covers: 'Omslag',
+    scenes: 'Scener',
+    portraits: 'Portretter',
+    sheets: 'Modellark',
+    turns: 'I bevegelse',
+  },
+  tale: 'Eventyr',
+  allTales: 'Alle eventyr',
+  scene: (number: number) => `Scene ${number}`,
+  readTale: 'Les eventyret',
+  openFile: 'Åpne filen',
+  noPictures: 'Ingen bilder her ennå.',
 }
 
 const en: typeof no = {
@@ -141,6 +161,25 @@ const en: typeof no = {
   playNow: 'Play now',
   cancel: 'Cancel',
   audioFailed: 'could not play',
+  pictures: 'The pictures',
+  pictureCount: (count: number) =>
+    count === 1 ? '1 picture' : `${count.toLocaleString('en-GB')} pictures`,
+  all: 'All',
+  everything: 'Everything',
+  kindOfPicture: 'Kind of picture',
+  kinds: {
+    covers: 'Covers',
+    scenes: 'Scenes',
+    portraits: 'Portraits',
+    sheets: 'Model sheets',
+    turns: 'In motion',
+  },
+  tale: 'Tale',
+  allTales: 'All tales',
+  scene: (number: number) => `Scene ${number}`,
+  readTale: 'Read the tale',
+  openFile: 'Open the file',
+  noPictures: 'No pictures here yet.',
 }
 
 export type Texts = typeof no

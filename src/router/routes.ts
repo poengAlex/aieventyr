@@ -8,9 +8,10 @@ const routes: RouteRecordRaw[] = [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: 'story/:id', component: () => import('pages/StoryPage.vue') },
       { path: 'about', component: () => import('pages/AboutPage.vue') },
+      { path: 'images', component: () => import('pages/PicturesPage.vue') },
       { path: 'om', redirect: '/about/' },
+      { path: 'bilder', redirect: '/images/' },
       // Pages from the earlier design.
-      { path: 'images', redirect: '/' },
       { path: 'settings', redirect: '/' },
       // Always last.
       { path: ':catchAll(.*)*', component: () => import('pages/ErrorNotFound.vue') },

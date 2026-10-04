@@ -87,10 +87,10 @@ onBeforeUnmount(() => {
 </script>
 
 <style lang="scss" scoped>
-// The paper of the model sheets the turns are cut from, a little warmer than the page, so
-// the figures' edges fade into it without a seam. Like every plate, it stays light at night.
+// The plate is the paper of the model sheets the turns are cut from (--sheet-paper, per
+// edition in app.scss), a little warmer than the page, so the figures' edges fade into it
+// without a seam.
 .cast-lineup {
-  --sheet-paper: #f8ead0;
   --figure: 132px;
   display: flex;
   flex-wrap: wrap;
@@ -98,7 +98,7 @@ onBeforeUnmount(() => {
   width: min(100%, 560px);
   margin-top: 22px;
   padding: 8px calc(var(--figure) * 0.2);
-  background: var(--sheet-paper);
+  background: var(--sheet-paper, #f8ead0);
 }
 
 .count-some {

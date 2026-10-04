@@ -320,13 +320,9 @@ const characterCards = computed<CharacterCard[]>(() => {
   }))
 })
 
-// The children's edition introduces its cast under the title, standing and turning, like
-// the character page of a picture book. Only characters with a turn video stand in it.
-const lineup = computed(() =>
-  variant.value === 'child-friendly'
-    ? characterCards.value.filter((character) => character.turn)
-    : [],
-)
+// The tale introduces its cast under the title, standing and turning, like the character
+// page of a picture book. Only characters with a turn video stand in it.
+const lineup = computed(() => characterCards.value.filter((character) => character.turn))
 
 const nextStory = computed(() => {
   const index = manifestStories.value.findIndex((item) => item.id === storyId.value)
