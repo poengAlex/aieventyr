@@ -354,6 +354,52 @@ watch(
   (hold) => void holdScreen(hold),
 )
 
+// ---- fullscreen
+
+// The book fills the whole screen while it is open, browser bars and all. Opening it is
+// a click, so the browser allows the request; where there is no fullscreen (an iPhone),
+// the maximized dialog is as far as it goes. Closing the book leaves fullscreen again,
+// unless the reader already left it themselves.
+type FullscreenDocument = Document & {
+  webkitFullscreenElement?: Element | null
+  webkitExitFullscreen?: () => Promise<void> | void
+}
+type FullscreenElement = HTMLElement & {
+  webkitRequestFullscreen?: () => Promise<void> | void
+}
+let enteredFullscreen = false
+
+function fullscreenElement() {
+  const doc = document as FullscreenDocument
+  return doc.fullscreenElement ?? doc.webkitFullscreenElement ?? null
+}
+
+async function enterFullscreen() {
+  if (fullscreenElement()) return
+  const root = document.documentElement as FullscreenElement
+  try {
+    if (root.requestFullscreen) await root.requestFullscreen({ navigationUI: 'hide' })
+    else if (root.webkitRequestFullscreen) await root.webkitRequestFullscreen()
+    else return
+    enteredFullscreen = true
+  } catch {
+    // refused (no user gesture, an embedded frame); the book just opens in the window
+  }
+}
+
+async function exitFullscreen() {
+  if (!enteredFullscreen) return
+  enteredFullscreen = false
+  if (!fullscreenElement()) return
+  const doc = document as FullscreenDocument
+  try {
+    if (doc.exitFullscreen) await doc.exitFullscreen()
+    else await doc.webkitExitFullscreen?.()
+  } catch {
+    // already out of fullscreen
+  }
+}
+
 // ---- swiping and tapping
 
 // A horizontal drag turns the page under the finger; letting go past a third of the way,
@@ -488,6 +534,7 @@ watch(
   () => props.modelValue,
   (open) => {
     if (open) {
+      void enterFullscreen()
       pageIndex.value = following.value ? pageOf(player.paragraph) : 0
       turn.value = null
       landing = null
@@ -498,6 +545,7 @@ watch(
       portrait?.addEventListener('change', onViewportChange)
     } else {
       void holdScreen(false)
+      void exitFullscreen()
       cancelAnimationFrame(frame)
       window.removeEventListener('keydown', onKey)
       window.removeEventListener('resize', onViewportChange)
@@ -508,6 +556,7 @@ watch(
 )
 
 onBeforeUnmount(() => {
+  void exitFullscreen()
   cancelAnimationFrame(frame)
   window.removeEventListener('keydown', onKey)
   window.removeEventListener('resize', onViewportChange)
