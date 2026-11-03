@@ -141,6 +141,7 @@
       v-model="imageDialogOpen"
       :src="activeImage.src"
       :alt="activeImage.alt"
+      @swipe="swipeImage"
     />
     <character-dialog
       v-model="characterDialogOpen"
@@ -340,6 +341,17 @@ const nextStory = computed(() => {
 function openImage(src: string, alt: string) {
   activeImage.value = { src, alt }
   imageDialogOpen.value = true
+}
+
+// Swiping the full-screen picture moves through the tale's pictures in reading order.
+// The opening plate on a phone may be a differently sized file of the cover, so a picture
+// not in the list counts as the cover, before the first scene.
+function swipeImage(direction: 1 | -1) {
+  const gallery = storyElement.value?.gallery ?? []
+  if (gallery.length < 2) return
+  const at = gallery.findIndex((image) => image.src === activeImage.value.src)
+  const next = gallery[(Math.max(at, 0) + direction + gallery.length) % gallery.length]
+  if (next) activeImage.value = { ...next }
 }
 
 function openCharacterAt(index: number) {

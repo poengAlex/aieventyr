@@ -42,6 +42,7 @@
 
         <cover-plate
           v-if="!wide && featured"
+          v-swipe="swipeCover"
           class="inline-frontispiece"
           :to="featured.to"
           :src="featured.src"
@@ -88,6 +89,7 @@ import SiteLogo from 'src/components/SiteLogo.vue'
 import { artSetFor, loadArtCover } from 'src/logic/art'
 import { loadManifest, resolveStoryVariant } from 'src/logic/content'
 import { readingMinutes, roman, useText } from 'src/logic/i18n'
+import { vSwipe } from 'src/logic/swipe'
 import { createNotify } from 'src/logic/utils'
 import { useSettingsStore } from 'src/stores/settings'
 import type { StoryListItem, VariantType } from 'src/types/content'
@@ -151,6 +153,15 @@ const featured = computed(() => {
     note: resume ? t.value.continueHere : undefined,
   }
 })
+
+// On a phone the plate above the contents can be swiped through the tales, left for the
+// next and right for the one before, going round at the ends.
+function swipeCover(direction: 1 | -1) {
+  const list = items.value.filter((item) => item.cover)
+  if (list.length < 2) return
+  const at = list.findIndex((item) => item.id === featured.value?.id)
+  hovered.value = list[(at + direction + list.length) % list.length]!.id
+}
 
 // New covers from the illustration sets, or the older picture where a tale has none.
 async function loadArtCovers() {

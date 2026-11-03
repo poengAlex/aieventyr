@@ -151,7 +151,13 @@ const pictureSizes = computed(() => (compact.value ? '(max-width: 700px) 92vw, 6
 
 const root = ref<HTMLElement | null>(null)
 const textElement = ref<HTMLElement | null>(null)
-defineExpose({ textElement })
+// Every picture in the tale, in reading order, for the full-screen view to swipe through.
+const gallery = computed(() =>
+  [...(cover.value ? [cover.value] : []), ...sequence.value.map((item) => item.picture)]
+    .filter((picture) => picture.file)
+    .map((picture) => ({ src: url(picture.file!), alt: picture.alt })),
+)
+defineExpose({ textElement, gallery })
 
 // Once the pictures in view have loaded, the rest of the tale's pictures are fetched, those
 // ahead of the reader first, so they are there when the reader scrolls to them.

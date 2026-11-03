@@ -5,7 +5,7 @@
     transition-hide="fade"
     @update:model-value="emit('update:modelValue', $event)"
   >
-    <div v-if="character" class="character-dialog">
+    <div v-if="character" v-swipe="swipe" class="character-dialog">
       <button
         type="button"
         class="caps-link close"
@@ -59,6 +59,7 @@ import { computed, ref, watch } from 'vue'
 import PlateImage from 'src/components/PlateImage.vue'
 import PlateVideo from 'src/components/PlateVideo.vue'
 import { useText } from 'src/logic/i18n'
+import { vSwipe } from 'src/logic/swipe'
 import type { CharacterCard } from 'src/types/content'
 
 const props = defineProps<{
@@ -87,11 +88,32 @@ function step(direction: number) {
   emit('update:index', (props.index + direction + count) % count)
 }
 
-// A character with a turn opens turning, so it is seen without hunting for the link; the
-// others open on the portrait.
+// The view a character opens on: turning when it has a turn, so it is seen without
+// hunting for the link; the portrait otherwise.
+const opensTurning = () => Boolean(character.value?.turn) && !reduceMotion
+
+// Swiping walks through every view in order: a character turning, then its portrait,
+// then the next character. Swiping back walks the same way backwards, so stepping back
+// to a character lands on its portrait.
+let landOnPortrait = false
+function swipe(direction: 1 | -1) {
+  if (direction === 1) {
+    if (showSheet.value) showSheet.value = false
+    else if (props.characters.length > 1) step(1)
+  } else if (!showSheet.value && opensTurning()) {
+    showSheet.value = true
+  } else if (props.characters.length > 1) {
+    landOnPortrait = true
+    step(-1)
+  }
+}
+
 watch(
   () => [props.index, props.modelValue],
-  () => (showSheet.value = Boolean(character.value?.turn) && !reduceMotion),
+  () => {
+    showSheet.value = !landOnPortrait && opensTurning()
+    landOnPortrait = false
+  },
 )
 </script>
 

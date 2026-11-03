@@ -6,7 +6,11 @@
     transition-hide="fade"
     @update:model-value="emit('update:modelValue', $event)"
   >
-    <div class="image-dialog" @click.self="emit('update:modelValue', false)">
+    <div
+      v-swipe="(direction) => emit('swipe', direction)"
+      class="image-dialog"
+      @click.self="emit('update:modelValue', false)"
+    >
       <button
         type="button"
         class="close-button"
@@ -23,6 +27,7 @@
 <script setup lang="ts">
 import { useText } from 'src/logic/i18n'
 import { vFadeIn } from 'src/logic/fadeIn'
+import { vSwipe } from 'src/logic/swipe'
 
 defineProps<{
   modelValue: boolean
@@ -30,8 +35,10 @@ defineProps<{
   alt?: string
 }>()
 
+// A sideways swipe asks for the next (1) or previous (-1) picture; the page decides.
 const emit = defineEmits<{
   'update:modelValue': [value: boolean]
+  swipe: [direction: 1 | -1]
 }>()
 
 const { t } = useText()

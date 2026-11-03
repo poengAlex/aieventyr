@@ -7,7 +7,7 @@
     @update:model-value="emit('update:modelValue', $event)"
   >
     <div v-if="item" class="picture-viewer" :class="`edition-${item.set}`">
-      <div class="stage" @click.self="close">
+      <div v-swipe="step" class="stage" @click.self="close">
         <video
           v-if="item.kind === 'turns'"
           :key="item.src"
@@ -62,6 +62,7 @@
 import { computed, onBeforeUnmount, onMounted } from 'vue'
 import { useText } from 'src/logic/i18n'
 import { vFadeIn } from 'src/logic/fadeIn'
+import { vSwipe } from 'src/logic/swipe'
 import type { GalleryItem, GallerySet } from 'src/logic/gallery'
 
 // One picture from the pictures page at full size, with what it shows and how it was made.
