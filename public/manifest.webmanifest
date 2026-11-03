@@ -1,0 +1,25 @@
+{
+  "name": "Eventyr – norske folkeeventyr",
+  "short_name": "Eventyr",
+  "description": "Norske folkeeventyr fra Asbjørnsen og Moe, fortalt på nytt og illustrert.",
+  "lang": "nb",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f3ede1",
+  "theme_color": "#f3ede1",
+  "icons": [
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

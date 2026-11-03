@@ -111,6 +111,12 @@
       </div>
 
       <rotate-hint v-if="showRotateHint" @dismiss="dismissRotateHint" />
+      <div v-else-if="showHomeHint" class="home-hint" role="note">
+        <span>{{ t.homeScreenHint }}</span>
+        <button type="button" class="caps-link home-hint-ok" @click="dismissHomeHint">
+          {{ t.gotIt }}
+        </button>
+      </div>
     </div>
   </q-dialog>
 </template>
@@ -400,6 +406,39 @@ async function exitFullscreen() {
   }
 }
 
+// ---- the home screen, where an iPhone has no fullscreen
+
+// An iPhone lets no web page go fullscreen (every browser there is Safari underneath), but
+// a site added to the home screen opens without any browser bars (see manifest.webmanifest).
+// Where fullscreen is missing on a touch screen, and the site is not already running from
+// the home screen, the book says so once; "got it" hides it for good.
+const HOME_HINT_KEY = 'picture-book-home-hint-dismissed'
+const showHomeHint = ref(false)
+
+function wantsHomeHint() {
+  if (typeof window === 'undefined' || !touchScreen) return false
+  const root = document.documentElement as FullscreenElement
+  if (typeof root.requestFullscreen === 'function' || root.webkitRequestFullscreen) return false
+  const standalone =
+    (navigator as Navigator & { standalone?: boolean }).standalone === true ||
+    window.matchMedia('(display-mode: standalone)').matches
+  if (standalone) return false
+  try {
+    return localStorage.getItem(HOME_HINT_KEY) !== '1'
+  } catch {
+    return true
+  }
+}
+
+function dismissHomeHint() {
+  showHomeHint.value = false
+  try {
+    localStorage.setItem(HOME_HINT_KEY, '1')
+  } catch {
+    // storage may be unavailable; the hint then just shows again next time
+  }
+}
+
 // ---- swiping and tapping
 
 // A horizontal drag turns the page under the finger; letting go past a third of the way,
@@ -417,7 +456,7 @@ interface Gesture {
 let gesture: Gesture | null = null
 
 const isControl = (target: EventTarget | null) =>
-  target instanceof Element && Boolean(target.closest('button, a, .rotate-hint'))
+  target instanceof Element && Boolean(target.closest('button, a, .rotate-hint, .home-hint'))
 
 function onPointerDown(event: PointerEvent) {
   if (
@@ -540,6 +579,7 @@ watch(
       landing = null
       measureLayout()
       showRotateHint.value = touchScreen && Boolean(portrait?.matches) && !hintDismissed()
+      showHomeHint.value = wantsHomeHint()
       window.addEventListener('keydown', onKey)
       window.addEventListener('resize', onViewportChange)
       portrait?.addEventListener('change', onViewportChange)
@@ -767,6 +807,43 @@ onBeforeUnmount(() => {
   text-align: center;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.8);
+}
+
+// Across the top, clear of the close button on the right, centred when there is room.
+.home-hint {
+  position: absolute;
+  top: max(10px, env(safe-area-inset-top));
+  left: max(10px, env(safe-area-inset-left));
+  right: calc(max(10px, env(safe-area-inset-right)) + 52px);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 10px 14px;
+  border-radius: 2px;
+  background-color: var(--paper);
+  background-image: var(--grain);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  line-height: 1.35;
+  box-shadow:
+    0 0 0 1px var(--rule),
+    0 12px 30px rgba(0, 0, 0, 0.35);
+  animation: home-hint-in 0.3s ease-out;
+}
+
+.home-hint-ok {
+  flex: none;
+}
+
+@keyframes home-hint-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
 }
 
 @media (max-height: 520px) {
